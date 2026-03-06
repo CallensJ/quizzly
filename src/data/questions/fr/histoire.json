@@ -1,0 +1,908 @@
+{
+  "category": "histoire",
+  "lang": "fr",
+  "questions": [
+    {
+      "id": "hist-easy-001",
+      "difficulty": "easy",
+      "question": "Qui était le premier président de la République française ?",
+      "options": {
+        "A": "Napoléon Bonaparte",
+        "B": "Louis-Napoléon Bonaparte",
+        "C": "Charles de Gaulle",
+        "D": "François Mitterrand"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-002",
+      "difficulty": "easy",
+      "question": "En quelle année a eu lieu la Révolution française ?",
+      "options": {
+        "A": "1492",
+        "B": "1789",
+        "C": "1914",
+        "D": "1870"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-003",
+      "difficulty": "easy",
+      "question": "Qui a découvert l’Amérique en 1492 ?",
+      "options": {
+        "A": "Christophe Colomb",
+        "B": "Vasco de Gama",
+        "C": "Magellan",
+        "D": "Marco Polo"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-004",
+      "difficulty": "easy",
+      "question": "Quel roi de France a été surnommé le Roi Soleil ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Louis XVI",
+        "C": "Louis XIII",
+        "D": "Louis XV"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-005",
+      "difficulty": "easy",
+      "question": "Quelle muraille célèbre se trouve en Chine ?",
+      "options": {
+        "A": "Muraille de Pékin",
+        "B": "Grande Muraille de Chine",
+        "C": "Muraille de Xi’an",
+        "D": "Muraille des Ming"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-006",
+      "difficulty": "easy",
+      "question": "Qui était le premier empereur romain ?",
+      "options": {
+        "A": "Jules César",
+        "B": "Auguste",
+        "C": "Néron",
+        "D": "Trajan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-007",
+      "difficulty": "easy",
+      "question": "Quel pays a construit les pyramides de Gizeh ?",
+      "options": {
+        "A": "Grèce",
+        "B": "Égypte",
+        "C": "Mexique",
+        "D": "Inde"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-008",
+      "difficulty": "easy",
+      "question": "Qui était Jeanne d’Arc ?",
+      "options": {
+        "A": "Une reine de France",
+        "B": "Une héroïne française",
+        "C": "Une impératrice",
+        "D": "Une exploratrice"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-009",
+      "difficulty": "easy",
+      "question": "Quel événement a marqué la fin de la Seconde Guerre mondiale en Europe ?",
+      "options": {
+        "A": "La chute de Berlin",
+        "B": "Le débarquement de Normandie",
+        "C": "La bataille de Stalingrad",
+        "D": "La signature de l’armistice"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-010",
+      "difficulty": "easy",
+      "question": "Qui était le général français devenu président en 1959 ?",
+      "options": {
+        "A": "Napoléon",
+        "B": "Charles de Gaulle",
+        "C": "Philippe Pétain",
+        "D": "Georges Pompidou"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-011",
+      "difficulty": "easy",
+      "question": "Quel pays a été dirigé par Adolf Hitler ?",
+      "options": {
+        "A": "Italie",
+        "B": "Allemagne",
+        "C": "Autriche",
+        "D": "Russie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-012",
+      "difficulty": "easy",
+      "question": "Quel mur séparait Berlin en deux parties jusqu’en 1989 ?",
+      "options": {
+        "A": "Mur de la liberté",
+        "B": "Mur de Berlin",
+        "C": "Mur de l’Est",
+        "D": "Mur de l’Ouest"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-013",
+      "difficulty": "easy",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "Abraham Lincoln",
+        "B": "George Washington",
+        "C": "Thomas Jefferson",
+        "D": "John Adams"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-014",
+      "difficulty": "easy",
+      "question": "Quelle ville a été détruite par une éruption du Vésuve en 79 ?",
+      "options": {
+        "A": "Rome",
+        "B": "Pompéi",
+        "C": "Athènes",
+        "D": "Carthage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-015",
+      "difficulty": "easy",
+      "question": "Quel explorateur portugais a contourné l’Afrique pour atteindre l’Inde ?",
+      "options": {
+        "A": "Magellan",
+        "B": "Vasco de Gama",
+        "C": "Christophe Colomb",
+        "D": "Cortes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-016",
+      "difficulty": "easy",
+      "question": "Qui était le premier homme à marcher sur la Lune ?",
+      "options": {
+        "A": "Buzz Aldrin",
+        "B": "Neil Armstrong",
+        "C": "Yuri Gagarin",
+        "D": "Michael Collins"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-017",
+      "difficulty": "easy",
+      "question": "Quel pays a été colonisé par les Espagnols et est aujourd’hui appelé Mexique ?",
+      "options": {
+        "A": "Inca",
+        "B": "Maya",
+        "C": "Aztèque",
+        "D": "Olmèque"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-easy-018",
+      "difficulty": "easy",
+      "question": "Qui était Napoléon Bonaparte ?",
+      "options": {
+        "A": "Un empereur français",
+        "B": "Un roi d’Angleterre",
+        "C": "Un explorateur",
+        "D": "Un philosophe"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-019",
+      "difficulty": "easy",
+      "question": "Quel pays a été dirigé par Joseph Staline ?",
+      "options": {
+        "A": "Chine",
+        "B": "URSS",
+        "C": "Allemagne",
+        "D": "Pologne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-020",
+      "difficulty": "easy",
+      "question": "Quel événement a eu lieu en 1969 et a marqué l’histoire spatiale ?",
+      "options": {
+        "A": "Premier vol habité",
+        "B": "Premier homme sur la Lune",
+        "C": "Premier satellite",
+        "D": "Première station spatiale"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-021",
+      "difficulty": "easy",
+      "question": "Quel pays a été colonisé par les Britanniques et est devenu indépendant en 1947 ?",
+      "options": {
+        "A": "Inde",
+        "B": "Pakistan",
+        "C": "Bangladesh",
+        "D": "Sri Lanka"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-022",
+      "difficulty": "easy",
+      "question": "Qui était le premier président noir d’Afrique du Sud ?",
+      "options": {
+        "A": "Kwame Nkrumah",
+        "B": "Nelson Mandela",
+        "C": "Desmond Tutu",
+        "D": "Jacob Zuma"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-023",
+      "difficulty": "easy",
+      "question": "Quel pays a été dirigé par Benito Mussolini ?",
+      "options": {
+        "A": "Espagne",
+        "B": "Italie",
+        "C": "Allemagne",
+        "D": "Portugal"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-024",
+      "difficulty": "easy",
+      "question": "Quel événement historique a eu lieu le 14 juillet 1789 ?",
+      "options": {
+        "A": "La prise de la Bastille",
+        "B": "La fin de la guerre de Cent Ans",
+        "C": "La signature du traité de Versailles",
+        "D": "Le sacre de Napoléon"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-025",
+      "difficulty": "easy",
+      "question": "Qui était le premier homme à voyager dans l’espace ?",
+      "options": {
+        "A": "Neil Armstrong",
+        "B": "Buzz Aldrin",
+        "C": "Youri Gagarine",
+        "D": "Alan Shepard"
+      },
+      "answer": "C"
+    },
+
+    {
+      "id": "hist-medium-001",
+      "difficulty": "medium",
+      "question": "En quelle année a commencé la Première Guerre mondiale ?",
+      "options": {
+        "A": "1914",
+        "B": "1939",
+        "C": "1929",
+        "D": "1870"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-002",
+      "difficulty": "medium",
+      "question": "Qui était le roi de France guillotiné en 1793 ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Louis XVI",
+        "C": "Louis XV",
+        "D": "Louis XIII"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-003",
+      "difficulty": "medium",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Traité de Versailles",
+        "B": "Traité de Paris",
+        "C": "Traité de Rome",
+        "D": "Traité de Vienne"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-004",
+      "difficulty": "medium",
+      "question": "Qui était le chef militaire carthaginois qui traversa les Alpes avec des éléphants ?",
+      "options": {
+        "A": "Hannibal",
+        "B": "Scipion",
+        "C": "César",
+        "D": "Alexandre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-005",
+      "difficulty": "medium",
+      "question": "Quel événement a déclenché la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "L’invasion de la Pologne",
+        "B": "La bataille de Stalingrad",
+        "C": "Le bombardement de Pearl Harbor",
+        "D": "La chute de Berlin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-006",
+      "difficulty": "medium",
+      "question": "Qui était le fondateur de l’Empire mongol ?",
+      "options": {
+        "A": "Gengis Khan",
+        "B": "Kublai Khan",
+        "C": "Attila",
+        "D": "Tamerlan"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-007",
+      "difficulty": "medium",
+      "question": "Quel pays a été dirigé par Mao Zedong ?",
+      "options": {
+        "A": "Corée",
+        "B": "Chine",
+        "C": "Vietnam",
+        "D": "Japon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-008",
+      "difficulty": "medium",
+      "question": "Quel événement a eu lieu en 1929 et a marqué l’économie mondiale ?",
+      "options": {
+        "A": "La crise de Wall Street",
+        "B": "La révolution russe",
+        "C": "La fin de la Première Guerre mondiale",
+        "D": "La création de l’ONU"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-009",
+      "difficulty": "medium",
+      "question": "Qui était le premier empereur de Chine ?",
+      "options": {
+        "A": "Qin Shi Huang",
+        "B": "Sun Yat-sen",
+        "C": "Mao Zedong",
+        "D": "Confucius"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-010",
+      "difficulty": "medium",
+      "question": "Quel pays a été dirigé par Francisco Franco ?",
+      "options": {
+        "A": "Italie",
+        "B": "Espagne",
+        "C": "Portugal",
+        "D": "Grèce"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-011",
+      "difficulty": "medium",
+      "question": "Quel événement a marqué la chute de l’Empire romain d’Occident ?",
+      "options": {
+        "A": "476",
+        "B": "1492",
+        "C": "800",
+        "D": "1066"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-012",
+      "difficulty": "medium",
+      "question": "Qui était le chef de la Révolution russe en 1917 ?",
+      "options": {
+        "A": "Trotski",
+        "B": "Lénine",
+        "C": "Staline",
+        "D": "Kerenski"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-013",
+      "difficulty": "medium",
+      "question": "Quel pays a été dirigé par Fidel Castro ?",
+      "options": {
+        "A": "Mexique",
+        "B": "Cuba",
+        "C": "Brésil",
+        "D": "Argentine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-014",
+      "difficulty": "medium",
+      "question": "Quel événement a eu lieu en 1917 en Russie ?",
+      "options": {
+        "A": "La révolution russe",
+        "B": "La guerre de Crimée",
+        "C": "La guerre civile",
+        "D": "La chute du tsar Nicolas II"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-015",
+      "difficulty": "medium",
+      "question": "Qui était le premier empereur d’Allemagne en 1871 ?",
+      "options": {
+        "A": "Guillaume Ier",
+        "B": "Otto von Bismarck",
+        "C": "Frédéric II",
+        "D": "Guillaume II"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-016",
+      "difficulty": "medium",
+      "question": "Quel pays a été dirigé par Mustafa Kemal Atatürk ?",
+      "options": {
+        "A": "Grèce",
+        "B": "Turquie",
+        "C": "Iran",
+        "D": "Égypte"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-017",
+      "difficulty": "medium",
+      "question": "Quel événement a eu lieu en 1989 en Europe ?",
+      "options": {
+        "A": "La chute du mur de Berlin",
+        "B": "La fin de la guerre froide",
+        "C": "La création de l’Union européenne",
+        "D": "La chute de l’URSS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-018",
+      "difficulty": "medium",
+      "question": "Qui était le premier président de la Ve République française ?",
+      "options": {
+        "A": "Charles de Gaulle",
+        "B": "Georges Pompidou",
+        "C": "François Mitterrand",
+        "D": "Valéry Giscard d’Estaing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-019",
+      "difficulty": "medium",
+      "question": "Quel pays a été dirigé par Winston Churchill pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "France",
+        "B": "Royaume-Uni",
+        "C": "États-Unis",
+        "D": "Canada"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-020",
+      "difficulty": "medium",
+      "question": "Quel événement a eu lieu en 1066 en Angleterre ?",
+      "options": {
+        "A": "La bataille de Hastings",
+        "B": "La guerre des Deux-Roses",
+        "C": "La Magna Carta",
+        "D": "La guerre civile"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-021",
+      "difficulty": "medium",
+      "question": "Qui était le premier président de la République américaine après la guerre d’indépendance ?",
+      "options": {
+        "A": "George Washington",
+        "B": "Thomas Jefferson",
+        "C": "John Adams",
+        "D": "Benjamin Franklin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-022",
+      "difficulty": "medium",
+      "question": "Quel pays a été dirigé par Napoléon Bonaparte ?",
+      "options": {
+        "A": "Italie",
+        "B": "France",
+        "C": "Espagne",
+        "D": "Belgique"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-023",
+      "difficulty": "medium",
+      "question": "Quel événement a eu lieu en 1215 en Angleterre ?",
+      "options": {
+        "A": "La bataille de Hastings",
+        "B": "La signature de la Magna Carta",
+        "C": "La guerre des Deux-Roses",
+        "D": "La révolution anglaise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-024",
+      "difficulty": "medium",
+      "question": "Qui était le premier président de la République italienne après la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Giuseppe Garibaldi",
+        "B": "Enrico De Nicola",
+        "C": "Benito Mussolini",
+        "D": "Luigi Einaudi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-025",
+      "difficulty": "medium",
+      "question": "Quel événement a marqué la fin de l’Empire byzantin en 1453 ?",
+      "options": {
+        "A": "La chute de Constantinople",
+        "B": "La découverte de l’Amérique",
+        "C": "La guerre de Cent Ans",
+        "D": "La bataille de Poitiers"
+      },
+      "answer": "A"
+    },
+
+    {
+      "id": "hist-hard-001",
+      "difficulty": "hard",
+      "question": "Quel traité a mis fin à la guerre de Cent Ans ?",
+      "options": {
+        "A": "Traité de Verdun",
+        "B": "Traité de Troyes",
+        "C": "Traité de Paris",
+        "D": "Traité de Londres"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-hard-002",
+      "difficulty": "hard",
+      "question": "Qui était le dernier empereur d’Occident ?",
+      "options": {
+        "A": "Romulus Augustule",
+        "B": "Constantin",
+        "C": "Néron",
+        "D": "Trajan"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-003",
+      "difficulty": "hard",
+      "question": "Quel événement a marqué le début de la Renaissance en Europe ?",
+      "options": {
+        "A": "La chute de Constantinople",
+        "B": "La découverte de l’Amérique",
+        "C": "La guerre de Cent Ans",
+        "D": "La réforme protestante"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-004",
+      "difficulty": "hard",
+      "question": "Qui a écrit l’ouvrage « De l’esprit des lois » ?",
+      "options": {
+        "A": "Voltaire",
+        "B": "Montesquieu",
+        "C": "Rousseau",
+        "D": "Diderot"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-hard-005",
+      "difficulty": "hard",
+      "question": "Quel événement a marqué la fin de l’Empire romain d’Orient ?",
+      "options": {
+        "A": "La chute de Constantinople",
+        "B": "La bataille de Poitiers",
+        "C": "La découverte de l’Amérique",
+        "D": "La guerre de Cent Ans"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-006",
+      "difficulty": "hard",
+      "question": "Qui était le fondateur de l’Empire perse achéménide ?",
+      "options": {
+        "A": "Cyrus le Grand",
+        "B": "Darius Ier",
+        "C": "Xerxès",
+        "D": "Artaxerxès"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-007",
+      "difficulty": "hard",
+      "question": "Quel événement a marqué la fin de la guerre froide ?",
+      "options": {
+        "A": "La chute du mur de Berlin",
+        "B": "La dissolution de l’URSS",
+        "C": "La réunification allemande",
+        "D": "La signature du traité de Maastricht"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-hard-008",
+      "difficulty": "hard",
+      "question": "Qui était le premier empereur du Saint-Empire romain germanique ?",
+      "options": {
+        "A": "Otton Ier",
+        "B": "Charlemagne",
+        "C": "Frédéric Barberousse",
+        "D": "Henri IV"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-hard-009",
+      "difficulty": "hard",
+      "question": "Quel événement a eu lieu en 1648 et a marqué la fin de la guerre de Trente Ans ?",
+      "options": {
+        "A": "La paix de Westphalie",
+        "B": "La paix d’Augsbourg",
+        "C": "La paix de Paris",
+        "D": "La paix de Vienne"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-010",
+      "difficulty": "hard",
+      "question": "Qui était le premier président de la République française élu au suffrage universel direct ?",
+      "options": {
+        "A": "Louis-Napoléon Bonaparte",
+        "B": "Charles de Gaulle",
+        "C": "François Mitterrand",
+        "D": "Valéry Giscard d’Estaing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-011",
+      "difficulty": "hard",
+      "question": "Quel événement a eu lieu en 1919 et a marqué la création de la Société des Nations ?",
+      "options": {
+        "A": "Traité de Versailles",
+        "B": "Traité de Paris",
+        "C": "Traité de Rome",
+        "D": "Traité de Londres"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-012",
+      "difficulty": "hard",
+      "question": "Qui était le fondateur de l’Empire ottoman ?",
+      "options": {
+        "A": "Osman Ier",
+        "B": "Suleiman",
+        "C": "Mehmet II",
+        "D": "Bayezid"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-013",
+      "difficulty": "hard",
+      "question": "Quel événement a marqué la fin de la guerre de Sécession aux États-Unis ?",
+      "options": {
+        "A": "La reddition de Lee à Appomattox",
+        "B": "La bataille de Gettysburg",
+        "C": "L’assassinat de Lincoln",
+        "D": "La proclamation d’émancipation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-014",
+      "difficulty": "hard",
+      "question": "Qui était le fondateur de l’Empire macédonien ?",
+      "options": {
+        "A": "Alexandre le Grand",
+        "B": "Philippe II",
+        "C": "Ptolémée",
+        "D": "Cassandre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-hard-015",
+      "difficulty": "hard",
+      "question": "Quel événement a marqué la fin de la guerre d’Indépendance américaine ?",
+      "options": {
+        "A": "Traité de Paris 1783",
+        "B": "Traité de Versailles",
+        "C": "Traité de Londres",
+        "D": "Traité de Rome"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-016",
+      "difficulty": "hard",
+      "question": "Qui était le fondateur de l’Empire inca ?",
+      "options": {
+        "A": "Manco Capac",
+        "B": "Atahualpa",
+        "C": "Pachacuti",
+        "D": "Huayna Capac"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-017",
+      "difficulty": "hard",
+      "question": "Quel événement a marqué la fin de la guerre de Cent Ans ?",
+      "options": {
+        "A": "La bataille de Castillon",
+        "B": "La bataille d’Azincourt",
+        "C": "La bataille de Poitiers",
+        "D": "La bataille d’Orléans"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-018",
+      "difficulty": "hard",
+      "question": "Qui était le fondateur de l’Empire assyrien ?",
+      "options": {
+        "A": "Sargon d’Akkad",
+        "B": "Assurbanipal",
+        "C": "Tiglath-Phalasar",
+        "D": "Ashur"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-hard-019",
+      "difficulty": "hard",
+      "question": "Quel événement a marqué la fin de la guerre de Corée ?",
+      "options": {
+        "A": "Armistice de 1953",
+        "B": "Traité de Versailles",
+        "C": "Traité de Paris",
+        "D": "Traité de Rome"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-020",
+      "difficulty": "hard",
+      "question": "Qui était le fondateur de l’Empire babylonien ?",
+      "options": {
+        "A": "Hammurabi",
+        "B": "Nabuchodonosor",
+        "C": "Sargon",
+        "D": "Assurbanipal"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-021",
+      "difficulty": "hard",
+      "question": "Quel événement a marqué la fin de la guerre du Vietnam ?",
+      "options": {
+        "A": "La chute de Saïgon",
+        "B": "Les accords de Genève",
+        "C": "La bataille de Dien Bien Phu",
+        "D": "La réunification allemande"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-022",
+      "difficulty": "hard",
+      "question": "Qui était le fondateur de l’Empire byzantin ?",
+      "options": {
+        "A": "Constantin Ier",
+        "B": "Justinien",
+        "C": "Théodose",
+        "D": "Maurice"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-023",
+      "difficulty": "hard",
+      "question": "Quel événement a marqué la fin de la guerre d’Algérie ?",
+      "options": {
+        "A": "Les accords d’Évian",
+        "B": "La bataille d’Alger",
+        "C": "La chute de De Gaulle",
+        "D": "La révolution des œillets"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-024",
+      "difficulty": "hard",
+      "question": "Qui était le fondateur de l’Empire aztèque ?",
+      "options": {
+        "A": "Moctezuma",
+        "B": "Itzcoatl",
+        "C": "Acamapichtli",
+        "D": "Cuauhtémoc"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-hard-025",
+      "difficulty": "hard",
+      "question": "Quel événement a marqué la fin de l’Ancien Régime en France ?",
+      "options": {
+        "A": "La Révolution française",
+        "B": "La guerre de Cent Ans",
+        "C": "La chute de Napoléon",
+        "D": "La bataille de Waterloo"
+      },
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "category": "histoire",
+  "lang": "en",
+  "questions": [
+    {
+      "id": "hist-easy-001",
+      "difficulty": "easy",
+      "question": "Who was the first president of the French Republic?",
+      "options": {
+        "A": "Napoleon Bonaparte",
+        "B": "Louis-Napoleon Bonaparte",
+        "C": "Charles de Gaulle",
+        "D": "François Mitterrand"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-002",
+      "difficulty": "easy",
+      "question": "In which year did the French Revolution take place?",
+      "options": {
+        "A": "1492",
+        "B": "1789",
+        "C": "1914",
+        "D": "1870"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-003",
+      "difficulty": "easy",
+      "question": "Who discovered America in 1492?",
+      "options": {
+        "A": "Christopher Columbus",
+        "B": "Vasco da Gama",
+        "C": "Magellan",
+        "D": "Marco Polo"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-004",
+      "difficulty": "easy",
+      "question": "Which French king was nicknamed the Sun King?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Louis XVI",
+        "C": "Louis XIII",
+        "D": "Louis XV"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-005",
+      "difficulty": "easy",
+      "question": "Which famous wall is located in China?",
+      "options": {
+        "A": "Wall of Beijing",
+        "B": "Great Wall of China",
+        "C": "Wall of Xi’an",
+        "D": "Ming Wall"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-006",
+      "difficulty": "easy",
+      "question": "Who was the first Roman emperor?",
+      "options": {
+        "A": "Julius Caesar",
+        "B": "Augustus",
+        "C": "Nero",
+        "D": "Trajan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-007",
+      "difficulty": "easy",
+      "question": "Which country built the pyramids of Giza?",
+      "options": {
+        "A": "Greece",
+        "B": "Egypt",
+        "C": "Mexico",
+        "D": "India"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-008",
+      "difficulty": "easy",
+      "question": "Who was Joan of Arc?",
+      "options": {
+        "A": "A queen of France",
+        "B": "A French heroine",
+        "C": "An empress",
+        "D": "An explorer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-009",
+      "difficulty": "easy",
+      "question": "Which event marked the end of World War II in Europe?",
+      "options": {
+        "A": "The fall of Berlin",
+        "B": "The Normandy landings",
+        "C": "The Battle of Stalingrad",
+        "D": "The signing of the armistice"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-010",
+      "difficulty": "easy",
+      "question": "Which French general became president in 1959?",
+      "options": {
+        "A": "Napoleon",
+        "B": "Charles de Gaulle",
+        "C": "Philippe Pétain",
+        "D": "Georges Pompidou"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-011",
+      "difficulty": "easy",
+      "question": "Which country was led by Adolf Hitler?",
+      "options": {
+        "A": "Italy",
+        "B": "Germany",
+        "C": "Austria",
+        "D": "Russia"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-012",
+      "difficulty": "easy",
+      "question": "Which wall divided Berlin into two parts until 1989?",
+      "options": {
+        "A": "Wall of Freedom",
+        "B": "Berlin Wall",
+        "C": "East Wall",
+        "D": "West Wall"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-013",
+      "difficulty": "easy",
+      "question": "Who was the first president of the United States?",
+      "options": {
+        "A": "Abraham Lincoln",
+        "B": "George Washington",
+        "C": "Thomas Jefferson",
+        "D": "John Adams"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-014",
+      "difficulty": "easy",
+      "question": "Which city was destroyed by the eruption of Vesuvius in 79?",
+      "options": {
+        "A": "Rome",
+        "B": "Pompeii",
+        "C": "Athens",
+        "D": "Carthage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-015",
+      "difficulty": "easy",
+      "question": "Which Portuguese explorer sailed around Africa to reach India?",
+      "options": {
+        "A": "Magellan",
+        "B": "Vasco da Gama",
+        "C": "Christopher Columbus",
+        "D": "Cortes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-016",
+      "difficulty": "easy",
+      "question": "Who was the first man to walk on the Moon?",
+      "options": {
+        "A": "Buzz Aldrin",
+        "B": "Neil Armstrong",
+        "C": "Yuri Gagarin",
+        "D": "Michael Collins"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-017",
+      "difficulty": "easy",
+      "question": "Which civilization was colonized by the Spanish and is now called Mexico?",
+      "options": {
+        "A": "Inca",
+        "B": "Maya",
+        "C": "Aztec",
+        "D": "Olmec"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-easy-018",
+      "difficulty": "easy",
+      "question": "Who was Napoleon Bonaparte?",
+      "options": {
+        "A": "A French emperor",
+        "B": "A king of England",
+        "C": "An explorer",
+        "D": "A philosopher"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-019",
+      "difficulty": "easy",
+      "question": "Which country was led by Joseph Stalin?",
+      "options": {
+        "A": "China",
+        "B": "USSR",
+        "C": "Germany",
+        "D": "Poland"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-020",
+      "difficulty": "easy",
+      "question": "Which event took place in 1969 and marked space history?",
+      "options": {
+        "A": "First manned flight",
+        "B": "First man on the Moon",
+        "C": "First satellite",
+        "D": "First space station"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-021",
+      "difficulty": "easy",
+      "question": "Which country was colonized by the British and became independent in 1947?",
+      "options": {
+        "A": "India",
+        "B": "Pakistan",
+        "C": "Bangladesh",
+        "D": "Sri Lanka"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-022",
+      "difficulty": "easy",
+      "question": "Who was the first black president of South Africa?",
+      "options": {
+        "A": "Kwame Nkrumah",
+        "B": "Nelson Mandela",
+        "C": "Desmond Tutu",
+        "D": "Jacob Zuma"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-023",
+      "difficulty": "easy",
+      "question": "Which country was led by Benito Mussolini?",
+      "options": {
+        "A": "Spain",
+        "B": "Italy",
+        "C": "Germany",
+        "D": "Portugal"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-024",
+      "difficulty": "easy",
+      "question": "Which historical event took place on July 14, 1789?",
+      "options": {
+        "A": "The storming of the Bastille",
+        "B": "The end of the Hundred Years' War",
+        "C": "The signing of the Treaty of Versailles",
+        "D": "The coronation of Napoleon"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-025",
+      "difficulty": "easy",
+      "question": "Who was the first man to travel into space?",
+      "options": {
+        "A": "Neil Armstrong",
+        "B": "Buzz Aldrin",
+        "C": "Yuri Gagarin",
+        "D": "Alan Shepard"
+      },
+      "answer": "C"
+    },
+
+    {
+      "id": "hist-medium-001",
+      "difficulty": "medium",
+      "question": "In which year did World War I begin?",
+      "options": {
+        "A": "1914",
+        "B": "1939",
+        "C": "1929",
+        "D": "1870"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-002",
+      "difficulty": "medium",
+      "question": "Which French king was executed by guillotine in 1793?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Louis XVI",
+        "C": "Louis XV",
+        "D": "Louis XIII"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-003",
+      "difficulty": "medium",
+      "question": "Which treaty ended World War I?",
+      "options": {
+        "A": "Treaty of Versailles",
+        "B": "Treaty of Paris",
+        "C": "Treaty of Rome",
+        "D": "Treaty of Vienna"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-004",
+      "difficulty": "medium",
+      "question": "Which Carthaginian general crossed the Alps with elephants?",
+      "options": {
+        "A": "Hannibal",
+        "B": "Scipio",
+        "C": "Caesar",
+        "D": "Alexander"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-005",
+      "difficulty": "medium",
+      "question": "Which event triggered World War II?",
+      "options": {
+        "A": "The invasion of Poland",
+        "B": "The Battle of Stalingrad",
+        "C": "The bombing of Pearl Harbor",
+        "D": "The fall of Berlin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-006",
+      "difficulty": "medium",
+      "question": "Who was the founder of the Mongol Empire?",
+      "options": {
+        "A": "Genghis Khan",
+        "B": "Kublai Khan",
+        "C": "Attila",
+        "D": "Tamerlane"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-007",
+      "difficulty": "medium",
+      "question": "Which country was led by Mao Zedong?",
+      "options": {
+        "A": "Korea",
+        "B": "China",
+        "C": "Vietnam",
+        "D": "Japan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-008",
+      "difficulty": "medium",
+      "question": "Which event in 1929 marked the global economy?",
+      "options": {
+        "A": "Wall Street Crash",
+        "B": "Russian Revolution",
+        "C": "End of World War I",
+        "D": "Creation of the UN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-009",
+      "difficulty": "medium",
+      "question": "Who was the first emperor of China?",
+      "options": {
+        "A": "Qin Shi Huang",
+        "B": "Sun Yat-sen",
+        "C": "Mao Zedong",
+        "D": "Confucius"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-010",
+      "difficulty": "medium",
+      "question": "Which country was led by Francisco Franco?",
+      "options": {
+        "A": "Italy",
+        "B": "Spain",
+        "C": "Portugal",
+        "D": "Greece"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-011",
+      "difficulty": "medium",
+      "question": "Which year marked the fall of the Western Roman Empire?",
+      "options": {
+        "A": "476",
+        "B": "1492",
+        "C": "800",
+        "D": "1066"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-012",
+      "difficulty": "medium",
+      "question": "Who was the leader of the Russian Revolution in 1917?",
+      "options": {
+        "A": "Trotsky",
+        "B": "Lenin",
+        "C": "Stalin",
+        "D": "Kerensky"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-013",
+      "difficulty": "medium",
+      "question": "Which country was led by Fidel Castro?",
+      "options": {
+        "A": "Mexico",
+        "B": "Cuba",
+        "C": "Brazil",
+        "D": "Argentina"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-014",
+      "difficulty": "medium",
+      "question": "Which event took place in Russia in 1917?",
+      "options": {
+        "A": "Russian Revolution",
+        "B": "Crimean War",
+        "C": "Civil War",
+        "D": "Fall of Tsar Nicholas II"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-015",
+      "difficulty": "medium",
+      "question": "Who was the first German emperor in 1871?",
+      "options": {
+        "A": "Wilhelm I",
+        "B": "Otto von Bismarck",
+        "C": "Frederick II",
+        "D": "Wilhelm II"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-016",
+      "difficulty": "medium",
+      "question": "Which country was led by Mustafa Kemal Atatürk?",
+      "options": {
+        "A": "Greece",
+        "B": "Turkey",
+        "C": "Iran",
+        "D": "Egypt"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-017",
+      "difficulty": "medium",
+      "question": "Which event took place in Europe in 1989?",
+      "options": {
+        "A": "Fall of the Berlin Wall",
+        "B": "End of the Cold War",
+        "C": "Creation of the European Union",
+        "D": "Fall of the USSR"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-018",
+      "difficulty": "medium",
+      "question": "Who was the first president of the French Fifth Republic?",
+      "options": {
+        "A": "Charles de Gaulle",
+        "B": "Georges Pompidou",
+        "C": "François Mitterrand",
+        "D": "Valéry Giscard d’Estaing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-019",
+      "difficulty": "medium",
+      "question": "Which country was led by Winston Churchill during World War II?",
+      "options": {
+        "A": "France",
+        "B": "United Kingdom",
+        "C": "United States",
+        "D": "Canada"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-020",
+      "difficulty": "medium",
+      "question": "Which event took place in England in 1066?",
+      "options": {
+        "A": "Battle of Hastings",
+        "B": "Wars of the Roses",
+        "C": "Magna Carta",
+        "D": "Civil War"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-021",
+      "difficulty": "medium",
+      "question": "Who was the first president of the United States after the War of Independence?",
+      "options": {
+        "A": "George Washington",
+        "B": "Thomas Jefferson",
+        "C": "John Adams",
+        "D": "Benjamin Franklin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-medium-022",
+      "difficulty": "medium",
+      "question": "Which country was led by Napoleon Bonaparte?",
+      "options": {
+        "A": "Italy",
+        "B": "France",
+        "C": "Spain",
+        "D": "Belgium"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-023",
+      "difficulty": "medium",
+      "question": "Which event took place in England in 1215?",
+      "options": {
+        "A": "Battle of Hastings",
+        "B": "Signing of the Magna Carta",
+        "C": "Wars of the Roses",
+        "D": "English Revolution"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-024",
+      "difficulty": "medium",
+      "question": "Who was the first president of the Italian Republic after World War II?",
+      "options": {
+        "A": "Giuseppe Garibaldi",
+        "B": "Enrico De Nicola",
+        "C": "Benito Mussolini",
+        "D": "Luigi Einaudi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-medium-025",
+      "difficulty": "medium",
+      "question": "Which event marked the end of the Byzantine Empire in 1453?",
+      "options": {
+        "A": "Fall of Constantinople",
+        "B": "Discovery of America",
+        "C": "Hundred Years' War",
+        "D": "Battle of Poitiers"
+      },
+      "answer": "A"
+    },
+
+    {
+      "id": "hist-hard-001",
+      "difficulty": "hard",
+      "question": "Which treaty ended the Hundred Years' War?",
+      "options": {
+        "A": "Treaty of Verdun",
+        "B": "Treaty of Troyes",
+        "C": "Treaty of Paris",
+        "D": "Treaty of London"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-hard-002",
+      "difficulty": "hard",
+      "question": "Who was the last emperor of the Western Roman Empire?",
+      "options": {
+        "A": "Romulus Augustulus",
+        "B": "Constantine",
+        "C": "Nero",
+        "D": "Trajan"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-003",
+      "difficulty": "hard",
+      "question": "Which event marked the beginning of the Renaissance in Europe?",
+      "options": {
+        "A": "Fall of Constantinople",
+        "B": "Discovery of America",
+        "C": "Hundred Years' War",
+        "D": "Protestant Reformation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-004",
+      "difficulty": "hard",
+      "question": "Who wrote 'The Spirit of the Laws'?",
+      "options": {
+        "A": "Voltaire",
+        "B": "Montesquieu",
+        "C": "Rousseau",
+        "D": "Diderot"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-hard-005",
+      "difficulty": "hard",
+      "question": "Which event marked the end of the Eastern Roman Empire?",
+      "options": {
+        "A": "Fall of Constantinople",
+        "B": "Battle of Poitiers",
+        "C": "Discovery of America",
+        "D": "Hundred Years' War"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-006",
+      "difficulty": "hard",
+      "question": "Who was the founder of the Achaemenid Persian Empire?",
+      "options": {
+        "A": "Cyrus the Great",
+        "B": "Darius I",
+        "C": "Xerxes",
+        "D": "Artaxerxes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-007",
+      "difficulty": "hard",
+      "question": "Which event marked the end of the Cold War?",
+      "options": {
+        "A": "Fall of the Berlin Wall",
+        "B": "Dissolution of the USSR",
+        "C": "German reunification",
+        "D": "Signing of the Maastricht Treaty"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-hard-008",
+      "difficulty": "hard",
+      "question": "Who was the first emperor of the Holy Roman Empire?",
+      "options": {
+        "A": "Otto I",
+        "B": "Charlemagne",
+        "C": "Frederick Barbarossa",
+        "D": "Henry IV"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-hard-009",
+      "difficulty": "hard",
+      "question": "Which event in 1648 marked the end of the Thirty Years' War?",
+      "options": {
+        "A": "Peace of Westphalia",
+        "B": "Peace of Augsburg",
+        "C": "Peace of Paris",
+        "D": "Peace of Vienna"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-010",
+      "difficulty": "hard",
+      "question": "Who was the first president of France elected by direct universal suffrage?",
+      "options": {
+        "A": "Louis-Napoleon Bonaparte",
+        "B": "Charles de Gaulle",
+        "C": "François Mitterrand",
+        "D": "Valéry Giscard d’Estaing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-011",
+      "difficulty": "hard",
+      "question": "Which event in 1919 marked the creation of the League of Nations?",
+      "options": {
+        "A": "Treaty of Versailles",
+        "B": "Treaty of Paris",
+        "C": "Treaty of Rome",
+        "D": "Treaty of London"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-012",
+      "difficulty": "hard",
+      "question": "Who was the founder of the Ottoman Empire?",
+      "options": {
+        "A": "Osman I",
+        "B": "Suleiman",
+        "C": "Mehmed II",
+        "D": "Bayezid"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-013",
+      "difficulty": "hard",
+      "question": "Which event marked the end of the American Civil War?",
+      "options": {
+        "A": "Lee's surrender at Appomattox",
+        "B": "Battle of Gettysburg",
+        "C": "Assassination of Lincoln",
+        "D": "Emancipation Proclamation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-014",
+      "difficulty": "hard",
+      "question": "Who was the founder of the Macedonian Empire?",
+      "options": {
+        "A": "Alexander the Great",
+        "B": "Philip II",
+        "C": "Ptolemy",
+        "D": "Cassander"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-hard-015",
+      "difficulty": "hard",
+      "question": "Which event marked the end of the American War of Independence?",
+      "options": {
+        "A": "Treaty of Paris 1783",
+        "B": "Treaty of Versailles",
+        "C": "Treaty of London",
+        "D": "Treaty of Rome"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-016",
+      "difficulty": "hard",
+      "question": "Who was the founder of the Inca Empire?",
+      "options": {
+        "A": "Manco Capac",
+        "B": "Atahualpa",
+        "C": "Pachacuti",
+        "D": "Huayna Capac"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-017",
+      "difficulty": "hard",
+      "question": "Which event marked the end of the Hundred Years' War?",
+      "options": {
+        "A": "Battle of Castillon",
+        "B": "Battle of Agincourt",
+        "C": "Battle of Poitiers",
+        "D": "Battle of Orléans"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-018",
+      "difficulty": "hard",
+      "question": "Who was the founder of the Assyrian Empire?",
+      "options": {
+        "A": "Sargon of Akkad",
+        "B": "Ashurbanipal",
+        "C": "Tiglath-Pileser",
+        "D": "Ashur"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-hard-019",
+      "difficulty": "hard",
+      "question": "Which event marked the end of the Korean War?",
+      "options": {
+        "A": "Armistice of 1953",
+        "B": "Treaty of Versailles",
+        "C": "Treaty of Paris",
+        "D": "Treaty of Rome"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-020",
+      "difficulty": "hard",
+      "question": "Who was the founder of the Babylonian Empire?",
+      "options": {
+        "A": "Hammurabi",
+        "B": "Nebuchadnezzar",
+        "C": "Sargon",
+        "D": "Ashurbanipal"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-021",
+      "difficulty": "hard",
+      "question": "Which event marked the end of the Vietnam War?",
+      "options": {
+        "A": "Fall of Saigon",
+        "B": "Geneva Accords",
+        "C": "Battle of Dien Bien Phu",
+        "D": "German reunification"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-022",
+      "difficulty": "hard",
+      "question": "Who was the founder of the Byzantine Empire?",
+      "options": {
+        "A": "Constantine I",
+        "B": "Justinian",
+        "C": "Theodosius",
+        "D": "Maurice"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-023",
+      "difficulty": "hard",
+      "question": "Which event marked the end of the Algerian War?",
+      "options": {
+        "A": "Evian Accords",
+        "B": "Battle of Algiers",
+        "C": "Fall of De Gaulle",
+        "D": "Carnation Revolution"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-hard-024",
+      "difficulty": "hard",
+      "question": "Who was the founder of the Aztec Empire?",
+      "options": {
+        "A": "Moctezuma",
+        "B": "Itzcoatl",
+        "C": "Acamapichtli",
+        "D": "Cuauhtémoc"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-hard-025",
+      "difficulty": "hard",
+      "question": "Which event marked the end of the Ancien Régime in France?",
+      "options": {
+        "A": "French Revolution",
+        "B": "Hundred Years' War",
+        "C": "Fall of Napoleon",
+        "D": "Battle of Waterloo"
+      },
+      "answer": "A"
+    }
+  ]
+}

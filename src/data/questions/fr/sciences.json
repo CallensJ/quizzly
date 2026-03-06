@@ -1,0 +1,906 @@
+{
+  "category": "sciences",
+  "lang": "fr",
+  "questions": [
+    {
+      "id": "sci-easy-001",
+      "difficulty": "easy",
+      "question": "Quelle planète est la plus proche du Soleil ?",
+      "options": {
+        "A": "Vénus",
+        "B": "Mars",
+        "C": "Mercure",
+        "D": "Terre"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-easy-002",
+      "difficulty": "easy",
+      "question": "Quel gaz respirons-nous principalement pour vivre ?",
+      "options": {
+        "A": "Oxygène",
+        "B": "Hydrogène",
+        "C": "Carbone",
+        "D": "Azote"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-easy-003",
+      "difficulty": "easy",
+      "question": "Combien de pattes a une araignée ?",
+      "options": {
+        "A": "Six",
+        "B": "Huit",
+        "C": "Dix",
+        "D": "Quatre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-easy-004",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui pond des œufs ?",
+      "options": {
+        "A": "Chien",
+        "B": "Chat",
+        "C": "Poulet",
+        "D": "Cheval"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-easy-005",
+      "difficulty": "easy",
+      "question": "Quelle partie du corps nous permet de voir ?",
+      "options": {
+        "A": "Les oreilles",
+        "B": "Les yeux",
+        "C": "La bouche",
+        "D": "Les mains"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-easy-006",
+      "difficulty": "easy",
+      "question": "Quel est l’état de l’eau quand elle gèle ?",
+      "options": {
+        "A": "Gaz",
+        "B": "Liquide",
+        "C": "Solide",
+        "D": "Vapeur"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-easy-007",
+      "difficulty": "easy",
+      "question": "Quel astre éclaire la Terre le jour ?",
+      "options": {
+        "A": "La Lune",
+        "B": "Le Soleil",
+        "C": "Les étoiles",
+        "D": "Mars"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-easy-008",
+      "difficulty": "easy",
+      "question": "Quel fruit pousse sur un pommier ?",
+      "options": {
+        "A": "Poire",
+        "B": "Orange",
+        "C": "Pomme",
+        "D": "Banane"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-easy-009",
+      "difficulty": "easy",
+      "question": "Quel est le plus grand animal terrestre ?",
+      "options": {
+        "A": "Éléphant",
+        "B": "Girafe",
+        "C": "Rhinocéros",
+        "D": "Hippopotame"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-easy-010",
+      "difficulty": "easy",
+      "question": "Quel liquide les plantes absorbent par leurs racines ?",
+      "options": {
+        "A": "Jus",
+        "B": "Eau",
+        "C": "Huile",
+        "D": "Lait"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-easy-011",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui donne du lait ?",
+      "options": {
+        "A": "Vache",
+        "B": "Cheval",
+        "C": "Chien",
+        "D": "Lapin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-easy-012",
+      "difficulty": "easy",
+      "question": "Quel organe pompe le sang dans notre corps ?",
+      "options": {
+        "A": "Le cerveau",
+        "B": "Le cœur",
+        "C": "Les poumons",
+        "D": "L’estomac"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-easy-013",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui a une longue trompe ?",
+      "options": {
+        "A": "Girafe",
+        "B": "Éléphant",
+        "C": "Lion",
+        "D": "Zèbre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-easy-014",
+      "difficulty": "easy",
+      "question": "Quel est l’état de l’eau quand elle bout ?",
+      "options": {
+        "A": "Solide",
+        "B": "Liquide",
+        "C": "Gaz",
+        "D": "Glace"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-easy-015",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui miaule ?",
+      "options": {
+        "A": "Chien",
+        "B": "Chat",
+        "C": "Oiseau",
+        "D": "Cheval"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-easy-016",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui a une coquille ?",
+      "options": {
+        "A": "Escargot",
+        "B": "Poisson",
+        "C": "Chien",
+        "D": "Chat"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-easy-017",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui peut voler ?",
+      "options": {
+        "A": "Oiseau",
+        "B": "Chien",
+        "C": "Chat",
+        "D": "Lapin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-easy-018",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui vit dans l’eau et a des nageoires ?",
+      "options": {
+        "A": "Chien",
+        "B": "Chat",
+        "C": "Poisson",
+        "D": "Cheval"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-easy-019",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui rugit ?",
+      "options": {
+        "A": "Lion",
+        "B": "Chat",
+        "C": "Chien",
+        "D": "Oiseau"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-easy-020",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui a une crinière ?",
+      "options": {
+        "A": "Lion",
+        "B": "Éléphant",
+        "C": "Girafe",
+        "D": "Zèbre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-easy-021",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui fait du miel ?",
+      "options": {
+        "A": "Abeille",
+        "B": "Papillon",
+        "C": "Mouche",
+        "D": "Fourmi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-easy-022",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui a une bosse ?",
+      "options": {
+        "A": "Chameau",
+        "B": "Cheval",
+        "C": "Vache",
+        "D": "Zèbre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-easy-023",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui aboie ?",
+      "options": {
+        "A": "Chat",
+        "B": "Chien",
+        "C": "Oiseau",
+        "D": "Lapin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-easy-024",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui vit dans la savane et a un long cou ?",
+      "options": {
+        "A": "Girafe",
+        "B": "Lion",
+        "C": "Éléphant",
+        "D": "Zèbre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-easy-025",
+      "difficulty": "easy",
+      "question": "Quel est l’animal qui peut nager et a des nageoires ?",
+      "options": {
+        "A": "Chien",
+        "B": "Chat",
+        "C": "Poisson",
+        "D": "Lapin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-medium-001",
+      "difficulty": "medium",
+      "question": "Combien de planètes composent le système solaire ?",
+      "options": {
+        "A": "Sept",
+        "B": "Huit",
+        "C": "Neuf",
+        "D": "Dix"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-002",
+      "difficulty": "medium",
+      "question": "Quel est l’organe qui contrôle tout le corps ?",
+      "options": {
+        "A": "Le cœur",
+        "B": "Le cerveau",
+        "C": "Les poumons",
+        "D": "L’estomac"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-003",
+      "difficulty": "medium",
+      "question": "Quel gaz les plantes rejettent-elles pendant la photosynthèse ?",
+      "options": {
+        "A": "Oxygène",
+        "B": "Dioxyde de carbone",
+        "C": "Azote",
+        "D": "Hydrogène"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-medium-004",
+      "difficulty": "medium",
+      "question": "Quel est l’animal le plus rapide sur terre ?",
+      "options": {
+        "A": "Lion",
+        "B": "Guépard",
+        "C": "Cheval",
+        "D": "Tigre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-005",
+      "difficulty": "medium",
+      "question": "Quel est le plus grand océan du monde ?",
+      "options": {
+        "A": "Atlantique",
+        "B": "Pacifique",
+        "C": "Indien",
+        "D": "Arctique"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-006",
+      "difficulty": "medium",
+      "question": "Quel est le métal utilisé pour fabriquer des canettes de soda ?",
+      "options": {
+        "A": "Fer",
+        "B": "Aluminium",
+        "C": "Cuivre",
+        "D": "Zinc"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-007",
+      "difficulty": "medium",
+      "question": "Quel est l’animal marin le plus grand ?",
+      "options": {
+        "A": "Requin blanc",
+        "B": "Baleine bleue",
+        "C": "Orque",
+        "D": "Dauphin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-008",
+      "difficulty": "medium",
+      "question": "Quel est l’astre qui tourne autour de la Terre ?",
+      "options": {
+        "A": "Le Soleil",
+        "B": "La Lune",
+        "C": "Mars",
+        "D": "Vénus"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-009",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui peut changer de couleur pour se camoufler ?",
+      "options": {
+        "A": "Caméléon",
+        "B": "Zèbre",
+        "C": "Lion",
+        "D": "Girafe"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-medium-010",
+      "difficulty": "medium",
+      "question": "Quel est l’organe qui nous permet de respirer ?",
+      "options": {
+        "A": "Le cœur",
+        "B": "Les poumons",
+        "C": "Le foie",
+        "D": "L’estomac"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-011",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui a des tentacules et vit dans la mer ?",
+      "options": {
+        "A": "Méduse",
+        "B": "Poisson",
+        "C": "Crabe",
+        "D": "Tortue"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-medium-012",
+      "difficulty": "medium",
+      "question": "Quel est le plus petit os du corps humain ?",
+      "options": {
+        "A": "Le fémur",
+        "B": "L’étrier",
+        "C": "Le tibia",
+        "D": "La clavicule"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-013",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui vit dans les pôles et mange du poisson ?",
+      "options": {
+        "A": "Pingouin",
+        "B": "Ours polaire",
+        "C": "Phoque",
+        "D": "Tous les trois"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "sci-medium-014",
+      "difficulty": "medium",
+      "question": "Quel est l’astre qui est au centre du système solaire ?",
+      "options": {
+        "A": "La Terre",
+        "B": "Le Soleil",
+        "C": "La Lune",
+        "D": "Mars"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-015",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui a une poche pour ses petits ?",
+      "options": {
+        "A": "Kangourou",
+        "B": "Lion",
+        "C": "Girafe",
+        "D": "Chien"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-medium-016",
+      "difficulty": "medium",
+      "question": "Quel est le plus grand désert du monde ?",
+      "options": {
+        "A": "Sahara",
+        "B": "Gobi",
+        "C": "Kalahari",
+        "D": "Atacama"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-medium-017",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui a des plumes et pond des œufs ?",
+      "options": {
+        "A": "Oiseau",
+        "B": "Chien",
+        "C": "Chat",
+        "D": "Lapin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-medium-018",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui vit dans la mer et a une coquille ?",
+      "options": {
+        "A": "Escargot",
+        "B": "Huître",
+        "C": "Crabe",
+        "D": "Méduse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-019",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui peut voler la nuit et utilise l’écholocation ?",
+      "options": {
+        "A": "Chauve-souris",
+        "B": "Oiseau",
+        "C": "Papillon",
+        "D": "Mouche"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-medium-020",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui vit dans la mer et a huit bras ?",
+      "options": {
+        "A": "Crabe",
+        "B": "Pieuvre",
+        "C": "Méduse",
+        "D": "Poisson"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-medium-021",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui peut vivre sans eau pendant longtemps ?",
+      "options": {
+        "A": "Chameau",
+        "B": "Cheval",
+        "C": "Vache",
+        "D": "Zèbre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-medium-022",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui a une carapace dure ?",
+      "options": {
+        "A": "Tortue",
+        "B": "Poisson",
+        "C": "Chien",
+        "D": "Chat"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-medium-023",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui peut vivre à la fois sur terre et dans l’eau ?",
+      "options": {
+        "A": "Grenouille",
+        "B": "Chien",
+        "C": "Chat",
+        "D": "Oiseau"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-medium-024",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui a une trompe et de grandes oreilles ?",
+      "options": {
+        "A": "Éléphant",
+        "B": "Girafe",
+        "C": "Lion",
+        "D": "Zèbre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-medium-025",
+      "difficulty": "medium",
+      "question": "Quel est l’animal qui vit dans l’océan et respire par des branchies ?",
+      "options": {
+        "A": "Chien",
+        "B": "Chat",
+        "C": "Poisson",
+        "D": "Lapin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-hard-001",
+      "difficulty": "hard",
+      "question": "Quel est l’élément chimique dont le symbole est Fe ?",
+      "options": {
+        "A": "Fer",
+        "B": "Fluor",
+        "C": "Francium",
+        "D": "Fermium"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-hard-002",
+      "difficulty": "hard",
+      "question": "Quel est le plus grand organe du corps humain ?",
+      "options": {
+        "A": "Le foie",
+        "B": "La peau",
+        "C": "Le cœur",
+        "D": "Les poumons"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-003",
+      "difficulty": "hard",
+      "question": "Quel est l’astre le plus proche de la Terre après la Lune ?",
+      "options": {
+        "A": "Mars",
+        "B": "Vénus",
+        "C": "Soleil",
+        "D": "Jupiter"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-004",
+      "difficulty": "hard",
+      "question": "Quel est le gaz le plus abondant dans l’atmosphère terrestre ?",
+      "options": {
+        "A": "Oxygène",
+        "B": "Azote",
+        "C": "Dioxyde de carbone",
+        "D": "Hydrogène"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-005",
+      "difficulty": "hard",
+      "question": "Quel est le scientifique qui a découvert la loi de la gravitation universelle ?",
+      "options": {
+        "A": "Galilée",
+        "B": "Newton",
+        "C": "Einstein",
+        "D": "Copernic"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-006",
+      "difficulty": "hard",
+      "question": "Quel est l’organe qui produit l’insuline ?",
+      "options": {
+        "A": "Le foie",
+        "B": "Le pancréas",
+        "C": "Les reins",
+        "D": "L’estomac"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-007",
+      "difficulty": "hard",
+      "question": "Quel est l’animal considéré comme le plus intelligent des océans ?",
+      "options": {
+        "A": "Dauphin",
+        "B": "Pieuvre",
+        "C": "Orque",
+        "D": "Phoque"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-hard-008",
+      "difficulty": "hard",
+      "question": "Quel est le nom scientifique de l’eau ?",
+      "options": {
+        "A": "H2O",
+        "B": "CO2",
+        "C": "NaCl",
+        "D": "O2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-hard-009",
+      "difficulty": "hard",
+      "question": "Quel est l’os le plus long du corps humain ?",
+      "options": {
+        "A": "Le fémur",
+        "B": "Le tibia",
+        "C": "L’humérus",
+        "D": "La clavicule"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-hard-010",
+      "difficulty": "hard",
+      "question": "Quel est l’animal qui peut régénérer ses membres ?",
+      "options": {
+        "A": "Étoile de mer",
+        "B": "Grenouille",
+        "C": "Chien",
+        "D": "Chat"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-hard-011",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la galaxie où se trouve la Terre ?",
+      "options": {
+        "A": "Andromède",
+        "B": "Voie lactée",
+        "C": "Sagittaire",
+        "D": "Orion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-012",
+      "difficulty": "hard",
+      "question": "Quel est l’animal qui a trois cœurs ?",
+      "options": {
+        "A": "Pieuvre",
+        "B": "Dauphin",
+        "C": "Requin",
+        "D": "Tortue"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-hard-013",
+      "difficulty": "hard",
+      "question": "Quel est le nom du satellite naturel de la Terre ?",
+      "options": {
+        "A": "Mars",
+        "B": "La Lune",
+        "C": "Io",
+        "D": "Titan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-014",
+      "difficulty": "hard",
+      "question": "Quel est le plus petit planète du système solaire ?",
+      "options": {
+        "A": "Mars",
+        "B": "Mercure",
+        "C": "Pluton",
+        "D": "Vénus"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-015",
+      "difficulty": "hard",
+      "question": "Quel est le nom du processus par lequel les plantes fabriquent leur nourriture ?",
+      "options": {
+        "A": "Respiration",
+        "B": "Photosynthèse",
+        "C": "Digestion",
+        "D": "Fermentation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-016",
+      "difficulty": "hard",
+      "question": "Quel est l’animal qui peut vivre sans tête pendant plusieurs jours ?",
+      "options": {
+        "A": "Cafard",
+        "B": "Grenouille",
+        "C": "Poisson",
+        "D": "Escargot"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-hard-017",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la couche d’air qui protège la Terre des rayons du Soleil ?",
+      "options": {
+        "A": "Troposphère",
+        "B": "Ozone",
+        "C": "Stratosphère",
+        "D": "Atmosphère"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-018",
+      "difficulty": "hard",
+      "question": "Quel est le nom de l’étoile la plus proche de la Terre après le Soleil ?",
+      "options": {
+        "A": "Sirius",
+        "B": "Proxima du Centaure",
+        "C": "Polaris",
+        "D": "Vega"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-019",
+      "difficulty": "hard",
+      "question": "Quel est le nom de l’animal qui peut produire de l’électricité ?",
+      "options": {
+        "A": "Anguille électrique",
+        "B": "Requin",
+        "C": "Dauphin",
+        "D": "Méduse"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-hard-020",
+      "difficulty": "hard",
+      "question": "Quel est le nom du plus grand volcan actif du monde ?",
+      "options": {
+        "A": "Etna",
+        "B": "Mauna Loa",
+        "C": "Krakatoa",
+        "D": "Vésuve"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-021",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la planète connue pour ses anneaux ?",
+      "options": {
+        "A": "Jupiter",
+        "B": "Saturne",
+        "C": "Uranus",
+        "D": "Neptune"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-022",
+      "difficulty": "hard",
+      "question": "Quel est le nom de l’animal qui peut vivre dans les sources chaudes ?",
+      "options": {
+        "A": "Bactérie thermophile",
+        "B": "Grenouille",
+        "C": "Poisson",
+        "D": "Escargot"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-hard-023",
+      "difficulty": "hard",
+      "question": "Quel est le nom de l’animal qui peut survivre dans l’espace pendant un certain temps ?",
+      "options": {
+        "A": "Tardigrade",
+        "B": "Fourmi",
+        "C": "Grenouille",
+        "D": "Escargot"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-hard-024",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la planète la plus grande du système solaire ?",
+      "options": {
+        "A": "Saturne",
+        "B": "Jupiter",
+        "C": "Neptune",
+        "D": "Uranus"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-hard-025",
+      "difficulty": "hard",
+      "question": "Quel est le nom du phénomène qui fait apparaître un arc multicolore dans le ciel après la pluie ?",
+      "options": {
+        "A": "Éclipse",
+        "B": "Arc-en-ciel",
+        "C": "Orage",
+        "D": "Aurore boréale"
+      },
+      "answer": "B"
+    }
+  ]
+}
