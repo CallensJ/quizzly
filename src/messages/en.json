@@ -19,7 +19,11 @@
     "easy": "Easy",
     "medium": "Medium",
     "hard": "Hard",
-    "ctaPlay": "Play!"
+    "ctaPlay": "Play!",
+    "sciences": "Science",
+    "sciencesDesc": "Planets, animals, the human body…",
+    "histoire": "History",
+    "histoireDesc": "Dates, characters, civilisations…"
   },
   "quiz": {
     "question": "Question {current} / {total}",

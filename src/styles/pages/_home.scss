@@ -1,0 +1,211 @@
+/**
+ * src/styles/pages/_home.scss
+ *
+ * Styles de l'écran Home (choix de catégorie + difficulté).
+ * Utilise --cat-color (CSS custom property injectée inline par React)
+ * pour colorer dynamiquement chaque carte de catégorie.
+ */
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.home {
+  min-height: 100dvh;
+  @include m.flex-column;
+  background: v.$bg;
+
+  // ── Barre de navigation ──────────────────────────────────────────────────
+
+  &__header {
+    @include m.gradient-primary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: v.$spacing-lg v.$spacing-lg;
+    // Assure que le contenu ne passe pas sous la barre système (iOS)
+    padding-top: calc(v.$spacing-lg + env(safe-area-inset-top, 0px));
+  }
+
+  &__greeting {
+    color: v.$white;
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+
+    span {
+      // Met en valeur le pseudo du joueur
+      color: v.$accent;
+    }
+  }
+
+  &__profile-btn {
+    color: v.$white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: v.$radius-full;
+    width: v.$touch-target-lg;
+    height: v.$touch-target-lg;
+    @include m.flex-center;
+    transition: background v.$transition-fast;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.32);
+    }
+
+    @include m.focus-ring;
+  }
+
+  // ── Corps ────────────────────────────────────────────────────────────────
+
+  &__body {
+    @include m.flex-column;
+    gap: v.$spacing-xl;
+    padding: v.$spacing-xl v.$spacing-lg;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+  }
+
+  &__section {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+  }
+
+  &__section-title {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  // ── Cartes de catégories ─────────────────────────────────────────────────
+
+  &__categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: v.$spacing-md;
+  }
+
+  &__cat-card {
+    @include m.flex-column;
+    align-items: center;
+    gap: v.$spacing-sm;
+    padding: v.$spacing-lg v.$spacing-md;
+    background: v.$white;
+    border: 3px solid transparent;
+    border-radius: v.$radius-lg;
+    box-shadow: v.$shadow-sm;
+    text-align: center;
+    transition:
+      border-color v.$transition-base,
+      transform v.$transition-base,
+      box-shadow v.$transition-base;
+
+    &:hover {
+      border-color: var(--cat-color);
+      transform: translateY(-3px);
+      box-shadow: v.$shadow-md;
+    }
+
+    // État sélectionné — bordure + fond teinté avec la couleur de catégorie
+    &--active {
+      border-color: var(--cat-color);
+      // Fond légèrement teinté de la couleur catégorie
+      background: color-mix(in srgb, var(--cat-color) 8%, white);
+      transform: translateY(-3px);
+      box-shadow: v.$shadow-md;
+    }
+
+    @include m.focus-ring;
+  }
+
+  &__cat-icon {
+    color: var(--cat-color);
+    display: flex;
+  }
+
+  &__cat-name {
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  &__cat-desc {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+    line-height: 1.4;
+  }
+
+  // ── Boutons de difficulté ────────────────────────────────────────────────
+
+  &__difficulties {
+    display: flex;
+    gap: v.$spacing-md;
+  }
+
+  &__diff-btn {
+    flex: 1;
+    min-height: v.$touch-target-lg;
+    border: 3px solid currentColor;
+    border-radius: v.$radius-md;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    background: v.$bg;
+    transition:
+      background v.$transition-fast,
+      color v.$transition-fast,
+      transform v.$transition-fast;
+
+    // Couleurs par niveau de difficulté — cohérence avec le design system
+    &--easy   { color: v.$secondary; }
+    &--medium { color: v.$accent-orange; }
+    &--hard   { color: v.$hard; }
+
+    &:hover {
+      transform: scale(1.03);
+    }
+
+    // État sélectionné — fond plein couleur difficulté
+    &--active {
+      color: v.$white;
+      transform: scale(1.03);
+
+      &.home__diff-btn--easy   { background: v.$secondary;     border-color: v.$secondary; }
+      &.home__diff-btn--medium { background: v.$accent-orange; border-color: v.$accent-orange; }
+      &.home__diff-btn--hard   { background: v.$hard;          border-color: v.$hard; }
+    }
+
+    @include m.focus-ring;
+  }
+
+  // ── CTA Jouer ────────────────────────────────────────────────────────────
+
+  &__cta {
+    width: 100%;
+    min-height: v.$touch-target-lg;
+    @include m.gradient-primary;
+    color: v.$white;
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    border-radius: v.$radius-full;
+    box-shadow: v.$shadow-md;
+    margin-top: auto; // pousse le bouton vers le bas sur grand écran
+    transition:
+      opacity v.$transition-fast,
+      transform v.$transition-fast,
+      box-shadow v.$transition-fast;
+
+    &:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+
+    &:not(:disabled):hover {
+      transform: translateY(-2px);
+      box-shadow: v.$shadow-lg;
+    }
+
+    @include m.focus-ring;
+  }
+}
