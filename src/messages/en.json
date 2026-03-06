@@ -36,7 +36,11 @@
   "results": {
     "title": "Game over!",
     "score": "{score} / {total}",
-    "badgeEarned": "You earned a badge! 🏆",
+    "badgeTitle": "Badge earned!",
+    "badgeEarned": "You got 20% of answers right 🎉",
+    "msgLow": "No worries, keep practising — you'll get there!",
+    "msgMid": "Well done! You're making great progress!",
+    "msgHigh": "Outstanding! You're a true champion! 🌟",
     "ctaPlayAgain": "Play Again",
     "ctaHome": "Back to Home"
   },

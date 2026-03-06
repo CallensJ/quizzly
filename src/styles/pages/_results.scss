@@ -1,0 +1,255 @@
+/**
+ * src/styles/pages/_results.scss
+ *
+ * Styles de l'écran Résultats.
+ * Structure : header gradient (score central + métadonnées) + body (message + badge + actions).
+ *
+ * Le badge n'est affiché que si score ≥ 4/20 (BADGE_THRESHOLD).
+ * Animations : fade-in général + bounce sur le badge + pulse sur l'icône trophée.
+ */
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.results {
+  min-height: 100dvh;
+  @include m.flex-column;
+  background: v.$bg;
+
+  // ── Header ───────────────────────────────────────────────────────────────
+
+  &__header {
+    @include m.gradient-primary;
+    @include m.flex-column;
+    align-items: center;
+    gap: v.$spacing-lg;
+    padding: v.$spacing-xl v.$spacing-lg;
+    // Safe area iOS
+    padding-top: calc(v.$spacing-xl + env(safe-area-inset-top, 0px));
+    text-align: center;
+  }
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-md;
+  }
+
+  &__cat-label {
+    color: v.$white;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+  }
+
+  // Chips difficulté — copie du pattern quiz__diff-chip
+  &__diff-chip {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    border-radius: v.$radius-full;
+    padding: 3px v.$spacing-md;
+    border: 1px solid;
+
+    &--easy {
+      background: rgba(v.$secondary, 0.25);
+      color: v.$white;
+      border-color: rgba(v.$secondary, 0.6);
+    }
+    &--medium {
+      background: rgba(v.$accent-orange, 0.25);
+      color: v.$white;
+      border-color: rgba(v.$accent-orange, 0.6);
+    }
+    &--hard {
+      background: rgba(v.$hard, 0.25);
+      color: v.$white;
+      border-color: rgba(v.$hard, 0.6);
+    }
+  }
+
+  // Score affiché en très grand — point central de l'écran
+  &__score-wrap {
+    @include m.flex-column;
+    align-items: center;
+    gap: v.$spacing-sm;
+    animation: results-fade-in 400ms ease both;
+  }
+
+  &__score-label {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: v.$font-size-base;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  &__score-display {
+    display: flex;
+    align-items: baseline;
+    gap: v.$spacing-sm;
+  }
+
+  &__score-num {
+    // Nombre principal — très grand pour l'impact visuel
+    font-size: clamp(4rem, 15vw, 6rem);
+    font-weight: 800;
+    color: v.$white;
+    line-height: 1;
+  }
+
+  &__score-sep {
+    font-size: clamp(2rem, 8vw, 3rem);
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  &__score-total {
+    font-size: clamp(2rem, 8vw, 3rem);
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  // ── Corps ─────────────────────────────────────────────────────────────────
+
+  &__body {
+    @include m.flex-column;
+    align-items: center;
+    gap: v.$spacing-xl;
+    padding: v.$spacing-xl v.$spacing-lg;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+    text-align: center;
+  }
+
+  // ── Message contextuel ─────────────────────────────────────────────────
+
+  &__message {
+    font-size: v.$font-size-lg;
+    font-weight: 700;
+    color: v.$foreground;
+    line-height: 1.4;
+    animation: results-slide-up 300ms ease both;
+    animation-delay: 150ms;
+  }
+
+  // ── Carte badge ────────────────────────────────────────────────────────
+
+  &__badge {
+    @include m.flex-column;
+    align-items: center;
+    gap: v.$spacing-sm;
+    background: v.$white;
+    border: 2px solid rgba(v.$accent, 0.4);
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-xl;
+    box-shadow:
+      v.$shadow-md,
+      // Halo doré pour mettre en valeur le badge
+      0 0 24px rgba(v.$accent, 0.25);
+    // Bounce à l'apparition
+    animation: results-badge-bounce 500ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    animation-delay: 300ms;
+    width: 100%;
+  }
+
+  &__badge-icon {
+    font-size: 3.5rem;
+    // Pulse subtil en boucle pour attirer l'œil
+    animation: results-trophy-pulse 2s ease-in-out infinite;
+    animation-delay: 800ms;
+    display: block;
+  }
+
+  &__badge-title {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  &__badge-desc {
+    font-size: v.$font-size-base;
+    font-weight: 600;
+    color: v.$text-muted;
+  }
+
+  // ── Boutons d'action ───────────────────────────────────────────────────
+
+  &__actions {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+    width: 100%;
+    margin-top: auto;
+    animation: results-slide-up 300ms ease both;
+    animation-delay: 400ms;
+  }
+
+  &__cta-primary {
+    width: 100%;
+    min-height: v.$touch-target-lg;
+    @include m.gradient-primary;
+    color: v.$white;
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    border-radius: v.$radius-full;
+    box-shadow: v.$shadow-md;
+    transition:
+      transform v.$transition-fast,
+      box-shadow v.$transition-fast;
+
+    &:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: v.$shadow-lg;
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    @include m.focus-ring;
+  }
+
+  &__cta-secondary {
+    width: 100%;
+    min-height: v.$touch-target-lg;
+    background: transparent;
+    border: 2px solid #e5e7eb;
+    border-radius: v.$radius-full;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$text-muted;
+    transition:
+      border-color v.$transition-fast,
+      color v.$transition-fast;
+
+    &:hover {
+      border-color: v.$primary;
+      color: v.$primary;
+    }
+
+    @include m.focus-ring;
+  }
+
+  // ── Animations ────────────────────────────────────────────────────────────
+
+  @keyframes results-fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @keyframes results-slide-up {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes results-badge-bounce {
+    from { opacity: 0; transform: scale(0.7); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+
+  @keyframes results-trophy-pulse {
+    0%, 100% { transform: scale(1); }
+    50%       { transform: scale(1.12); }
+  }
+}

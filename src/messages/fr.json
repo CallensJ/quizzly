@@ -36,7 +36,11 @@
   "results": {
     "title": "Partie terminée !",
     "score": "{score} / {total}",
-    "badgeEarned": "Tu as gagné un badge ! 🏆",
+    "badgeTitle": "Badge obtenu !",
+    "badgeEarned": "Tu as atteint 20% de bonnes réponses 🎉",
+    "msgLow": "Pas grave, continue à t'entraîner — tu vas y arriver !",
+    "msgMid": "Bien joué ! Tu progresses vraiment bien !",
+    "msgHigh": "Excellent ! Tu es un vrai champion ! 🌟",
     "ctaPlayAgain": "Rejouer",
     "ctaHome": "Retour à l'accueil"
   },
