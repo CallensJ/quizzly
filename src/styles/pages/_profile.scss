@@ -86,7 +86,8 @@
   }
 
   &__avatar-wrap {
-    // Cercle avec bordure gradient
+    // Cercle avec bordure gradient + positionnement relatif pour le bouton crayon
+    position: relative;
     width: 80px;
     height: 80px;
     flex-shrink: 0;
@@ -103,9 +104,83 @@
     display: block;
   }
 
+  // Bouton crayon superposé en bas-droite de l'avatar
+  &__avatar-edit-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 26px;
+    height: 26px;
+    @include m.flex-center;
+    background: v.$primary;
+    color: v.$white;
+    border-radius: 50%;
+    border: 2px solid v.$white;
+    transition: background v.$transition-fast;
+
+    &:hover { background: v.$primary-dark; }
+    @include m.focus-ring;
+  }
+
   &__identity-info {
     @include m.flex-column;
     gap: 4px;
+  }
+
+  // Lien texte "Changer d'avatar" / "Annuler" sous le pseudo
+  &__avatar-change-label {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$primary;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-align: left;
+    margin-top: 2px;
+    transition: color v.$transition-fast;
+
+    &:hover { color: v.$primary-dark; }
+    @include m.focus-ring;
+  }
+
+  // Galerie inline d'avatars — s'ouvre sous la carte identité
+  &__avatar-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: v.$spacing-sm;
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-md;
+    box-shadow: v.$shadow-md;
+    animation: profile-fade-in 200ms ease both;
+  }
+
+  &__avatar-option {
+    border-radius: v.$radius-md;
+    padding: v.$spacing-xs;
+    transition:
+      background v.$transition-fast,
+      transform v.$transition-fast;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: v.$radius-sm;
+    }
+
+    &:hover {
+      background: rgba(v.$primary, 0.08);
+      transform: scale(1.05);
+    }
+
+    // Avatar actuellement sélectionné — fond violet doux + bordure
+    &--active {
+      background: rgba(v.$primary, 0.12);
+      outline: 2px solid v.$primary;
+      outline-offset: 2px;
+    }
+
+    @include m.focus-ring;
   }
 
   &__pseudo {

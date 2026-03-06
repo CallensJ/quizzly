@@ -8,6 +8,7 @@ interface ProfileState {
   sessions: QuizSession[];
   createProfile: (data: Omit<Profile, 'createdAt'>) => void;
   setLocale: (locale: Locale) => void;
+  updateAvatar: (avatarId: string) => void;
   addSession: (session: Omit<QuizSession, 'playedAt'>) => void;
   earnBadge: () => void;
   resetProgress: () => void;
@@ -31,6 +32,11 @@ export const useProfileStore = create<ProfileState>()(
       setLocale: (locale) =>
         set((state) => ({
           profile: state.profile ? { ...state.profile, locale } : null,
+        })),
+
+      updateAvatar: (avatarId) =>
+        set((state) => ({
+          profile: state.profile ? { ...state.profile, avatarId } : null,
         })),
 
       addSession: (session) =>

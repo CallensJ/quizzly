@@ -54,7 +54,9 @@
     "catStats": "Par catégorie",
     "catGames": "{count} partie(s)",
     "catBest": "Meilleur : {percent}%",
-    "catNone": "Pas encore joué"
+    "catNone": "Pas encore joué",
+    "changeAvatar": "Changer d'avatar",
+    "changeAvatarCancel": "Annuler"
   },
   "nova": {
     "welcome": "Salut ! Je m'appelle Nova ! 👋",

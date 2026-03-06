@@ -54,7 +54,9 @@
     "catStats": "By category",
     "catGames": "{count} game(s)",
     "catBest": "Best: {percent}%",
-    "catNone": "Not played yet"
+    "catNone": "Not played yet",
+    "changeAvatar": "Change avatar",
+    "changeAvatarCancel": "Cancel"
   },
   "nova": {
     "welcome": "Hi there! I'm Nova! 👋",

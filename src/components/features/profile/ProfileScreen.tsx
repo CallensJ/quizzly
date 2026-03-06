@@ -13,15 +13,20 @@
  * Navigation : bouton retour → /home.
  */
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Pencil } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import type { Category, QuizSession } from '@/types';
 
+// Seeds DiceBear — identiques à OnboardingScreen (même galerie prédéfinie)
+const AVATAR_SEEDS = ['Milo', 'Zara', 'Felix', 'Luna', 'Sam', 'Ava', 'Kai', 'Lily'];
+const BG_COLORS = 'b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf';
+
 // URL de l'avatar DiceBear — même pattern que OnboardingScreen et AppLayout
 function avatarUrl(seed: string) {
-  return `https://api.dicebear.com/9.x/adventurer/svg?seed=${encodeURIComponent(seed)}`;
+  return `https://api.dicebear.com/9.x/adventurer/svg?seed=${encodeURIComponent(seed)}&backgroundColor=${BG_COLORS}`;
 }
 
 /**
@@ -67,6 +72,10 @@ export default function ProfileScreen() {
 
   const profile = useProfileStore((s) => s.profile);
   const sessions = useProfileStore((s) => s.sessions);
+  const updateAvatar = useProfileStore((s) => s.updateAvatar);
+
+  // Mode édition avatar — affiche la galerie inline sous la carte identité
+  const [editingAvatar, setEditingAvatar] = useState(false);
 
   if (!profile) return null;
 
@@ -74,6 +83,11 @@ export default function ProfileScreen() {
   const totalPoints = sessions.reduce((sum, s) => sum + s.score, 0);
   const best = bestScorePercent(sessions);
   const catStats = statsByCategory(sessions);
+
+  function handleSelectAvatar(seed: string) {
+    updateAvatar(seed);
+    setEditingAvatar(false); // ferme la galerie après sélection
+  }
 
   // ── Render ───────────────────────────────────────────────────────────────
 
@@ -99,6 +113,7 @@ export default function ProfileScreen() {
 
         {/* ── Carte identité ────────────────────────────────────────────── */}
         <div className="profile__identity">
+          {/* Avatar + bouton crayon pour ouvrir la galerie */}
           <div className="profile__avatar-wrap">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -108,14 +123,55 @@ export default function ProfileScreen() {
               width={100}
               height={100}
             />
+            <button
+              type="button"
+              className="profile__avatar-edit-btn"
+              onClick={() => setEditingAvatar((v) => !v)}
+              aria-label={t('changeAvatar')}
+              aria-expanded={editingAvatar}
+            >
+              <Pencil size={14} strokeWidth={2.5} />
+            </button>
           </div>
           <div className="profile__identity-info">
             <p className="profile__pseudo">{profile.pseudo}</p>
             <p className="profile__age">
               {profile.ageGroup === '6-9' ? tSidebar('age6to9') : tSidebar('age10to13')}
             </p>
+            <button
+              type="button"
+              className="profile__avatar-change-label"
+              onClick={() => setEditingAvatar((v) => !v)}
+            >
+              {editingAvatar ? t('changeAvatarCancel') : t('changeAvatar')}
+            </button>
           </div>
         </div>
+
+        {/* ── Galerie de sélection d'avatar (inline, slide-down) ────────── */}
+        {editingAvatar && (
+          <div className="profile__avatar-gallery" role="group" aria-label={t('changeAvatar')}>
+            {AVATAR_SEEDS.map((seed) => (
+              <button
+                key={seed}
+                type="button"
+                className={`profile__avatar-option${profile.avatarId === seed ? ' profile__avatar-option--active' : ''}`}
+                onClick={() => handleSelectAvatar(seed)}
+                aria-label={seed}
+                aria-pressed={profile.avatarId === seed}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={avatarUrl(seed)}
+                  alt=""
+                  width={60}
+                  height={60}
+                  loading="lazy"
+                />
+              </button>
+            ))}
+          </div>
+        )}
 
         {/* ── Statistiques ──────────────────────────────────────────────── */}
         <section className="profile__stats" aria-label={tSidebar('statsLabel')}>
