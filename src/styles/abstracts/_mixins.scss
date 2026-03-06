@@ -1,0 +1,47 @@
+// src/styles/abstracts/_mixins.scss
+@use 'variables' as v;
+
+// ─── Responsive ───────────────────────────────────────────────────
+@mixin sm {
+  @media (min-width: #{v.$bp-sm}) { @content; }
+}
+
+@mixin md {
+  @media (min-width: #{v.$bp-md}) { @content; }
+}
+
+@mixin lg {
+  @media (min-width: #{v.$bp-lg}) { @content; }
+}
+
+// ─── Flexbox helpers ──────────────────────────────────────────────
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+// ─── Gradient principal ───────────────────────────────────────────
+@mixin gradient-primary {
+  background: linear-gradient(135deg, v.$primary 0%, v.$primary-dark 100%);
+}
+
+// ─── Focus visible accessible ─────────────────────────────────────
+@mixin focus-ring {
+  &:focus-visible {
+    outline: 3px solid v.$primary;
+    outline-offset: 3px;
+  }
+}
+
+// ─── Truncate text ────────────────────────────────────────────────
+@mixin truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

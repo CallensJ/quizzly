@@ -1,0 +1,68 @@
+// src/styles/abstracts/_variables.scss
+
+// ─── Palette principale ───────────────────────────────────────────
+$primary:        #667eea;
+$primary-dark:   #764ba2;
+$secondary:      #4CAF50;
+$accent:         #FFD700;
+$accent-orange:  #FF9800;
+$hard:           #F44336;
+$success:        #10B981;
+$error:          #EF4444;
+
+// ─── Couleurs par catégorie ───────────────────────────────────────
+$cat-science:    #2196F3;
+$cat-history:    #795548;
+$cat-sport:      #4CAF50;
+$cat-geography:  #00BCD4;
+$cat-culture:    #9C27B0;
+$cat-art:        #FF5722;
+
+// ─── Neutres ──────────────────────────────────────────────────────
+$white:          #ffffff;
+$black:          #000000;
+$bg:             #f8f7ff;
+$foreground:     #1a1a2e;
+$text-muted:     #6b7280;
+
+// ─── Typographie ──────────────────────────────────────────────────
+$font-primary:   var(--font-nunito), 'Nunito', sans-serif;
+$font-size-base: 1rem;
+$font-size-sm:   0.875rem;
+$font-size-lg:   1.125rem;
+$font-size-xl:   1.375rem;
+$font-size-2xl:  1.75rem;
+$font-size-3xl:  2.25rem;
+
+// ─── Espacement ───────────────────────────────────────────────────
+$spacing-xs:   0.25rem;
+$spacing-sm:   0.5rem;
+$spacing-md:   1rem;
+$spacing-lg:   1.5rem;
+$spacing-xl:   2rem;
+$spacing-2xl:  3rem;
+
+// ─── Border radius ────────────────────────────────────────────────
+$radius-sm:    0.5rem;
+$radius-md:    1rem;
+$radius-lg:    1.5rem;
+$radius-full:  9999px;
+
+// ─── Ombres ───────────────────────────────────────────────────────
+$shadow-sm:  0 2px 8px rgba(0, 0, 0, 0.08);
+$shadow-md:  0 4px 16px rgba(0, 0, 0, 0.12);
+$shadow-lg:  0 8px 32px rgba(0, 0, 0, 0.16);
+
+// ─── Breakpoints ──────────────────────────────────────────────────
+$bp-sm:  480px;
+$bp-md:  768px;
+$bp-lg:  1024px;
+
+// ─── Transitions ──────────────────────────────────────────────────
+$transition-fast:   150ms ease;
+$transition-base:   250ms ease;
+$transition-slow:   400ms ease;
+
+// ─── Tailles cibles tactiles (enfants) ────────────────────────────
+$touch-target-min: 48px;
+$touch-target-lg:  64px;

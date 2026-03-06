@@ -1,0 +1,15 @@
+// src/styles/main.scss
+// Point d'entrée SCSS — architecture 7-1
+
+// 1. Abstracts (tokens CSS custom properties)
+@use 'abstracts/tokens';
+
+// 2. Base (reset + typographie)
+@use 'base';
+
+// 3–7. À décommenter au fur et à mesure
+// @use 'components';
+// @use 'layout';
+// @use 'pages';
+// @use 'themes';
+// @use 'vendors';

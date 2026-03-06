@@ -1,0 +1,62 @@
+// src/styles/base/_reset.scss
+@use '../abstracts/variables' as v;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: v.$bg;
+  color: v.$foreground;
+  font-family: v.$font-primary;
+  font-size: v.$font-size-base;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// Note accessibilité : list-style: none supprime la sémantique de liste sur Safari/VoiceOver.
+// Ajouter role="list" sur les <ul>/<ol> utilisant ce reset dans les composants.
+ul, ol {
+  list-style: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  min-height: v.$touch-target-min;
+}
+
+#root, #__next {
+  isolation: isolate;
+}

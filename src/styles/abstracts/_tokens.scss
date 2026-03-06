@@ -1,0 +1,49 @@
+// src/styles/abstracts/_tokens.scss
+@use 'variables' as v;
+
+:root {
+  // Couleurs principales
+  --color-primary:       #{v.$primary};
+  --color-primary-dark:  #{v.$primary-dark};
+  --color-secondary:     #{v.$secondary};
+  --color-accent:        #{v.$accent};
+  --color-accent-orange: #{v.$accent-orange};
+  --color-hard:          #{v.$hard};
+  --color-success:       #{v.$success};
+  --color-error:         #{v.$error};
+
+  // Catégories
+  --color-cat-science:   #{v.$cat-science};
+  --color-cat-history:   #{v.$cat-history};
+  --color-cat-sport:     #{v.$cat-sport};
+  --color-cat-geography: #{v.$cat-geography};
+  --color-cat-culture:   #{v.$cat-culture};
+  --color-cat-art:       #{v.$cat-art};
+
+  // Fond & texte
+  --color-bg:            #{v.$bg};
+  --color-foreground:    #{v.$foreground};
+  --color-muted:         #{v.$text-muted};
+
+  // Typographie
+  --font-size-base:      #{v.$font-size-base};
+
+  // Espacements
+  --spacing-xs:   #{v.$spacing-xs};
+  --spacing-sm:   #{v.$spacing-sm};
+  --spacing-md:   #{v.$spacing-md};
+  --spacing-lg:   #{v.$spacing-lg};
+  --spacing-xl:   #{v.$spacing-xl};
+  --spacing-2xl:  #{v.$spacing-2xl};
+
+  // Border radius
+  --radius-sm:    #{v.$radius-sm};
+  --radius-md:    #{v.$radius-md};
+  --radius-lg:    #{v.$radius-lg};
+  --radius-full:  #{v.$radius-full};
+
+  // Ombres
+  --shadow-sm:    #{v.$shadow-sm};
+  --shadow-md:    #{v.$shadow-md};
+  --shadow-lg:    #{v.$shadow-lg};
+}

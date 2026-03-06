@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "Quizzly",
+    "tagline": "Apprends en t'amusant !"
+  },
+  "onboarding": {
+    "title": "Bienvenue sur Quizzly !",
+    "pseudoLabel": "Choisis ton pseudo",
+    "pseudoPlaceholder": "SuperStar123",
+    "ageLabel": "Quel âge as-tu ?",
+    "age6to9": "6 à 9 ans",
+    "age10to13": "10 à 13 ans",
+    "avatarLabel": "Choisis ton avatar",
+    "ctaConfirm": "C'est parti !"
+  },
+  "home": {
+    "title": "Choisis une catégorie",
+    "difficultyLabel": "Difficulté",
+    "easy": "Facile",
+    "medium": "Moyen",
+    "hard": "Difficile",
+    "ctaPlay": "Jouer !"
+  },
+  "quiz": {
+    "question": "Question {current} / {total}",
+    "score": "Score : {score}",
+    "ctaNext": "Suivant"
+  },
+  "results": {
+    "title": "Partie terminée !",
+    "score": "{score} / {total}",
+    "badgeEarned": "Tu as gagné un badge ! 🏆",
+    "ctaPlayAgain": "Rejouer",
+    "ctaHome": "Retour à l'accueil"
+  },
+  "profile": {
+    "title": "Mon Profil",
+    "noBadge": "Pas encore de badge — continue à jouer !",
+    "ctaBack": "Retour"
+  }
+}

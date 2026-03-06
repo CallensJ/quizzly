@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "Quizzly",
+    "tagline": "Learn by playing!"
+  },
+  "onboarding": {
+    "title": "Welcome to Quizzly!",
+    "pseudoLabel": "Choose your nickname",
+    "pseudoPlaceholder": "SuperStar123",
+    "ageLabel": "How old are you?",
+    "age6to9": "6 to 9 years",
+    "age10to13": "10 to 13 years",
+    "avatarLabel": "Pick your avatar",
+    "ctaConfirm": "Let's go!"
+  },
+  "home": {
+    "title": "Choose a category",
+    "difficultyLabel": "Difficulty",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "ctaPlay": "Play!"
+  },
+  "quiz": {
+    "question": "Question {current} / {total}",
+    "score": "Score: {score}",
+    "ctaNext": "Next"
+  },
+  "results": {
+    "title": "Game over!",
+    "score": "{score} / {total}",
+    "badgeEarned": "You earned a badge! 🏆",
+    "ctaPlayAgain": "Play Again",
+    "ctaHome": "Back to Home"
+  },
+  "profile": {
+    "title": "My Profile",
+    "noBadge": "No badge yet — keep playing!",
+    "ctaBack": "Back"
+  }
+}
