@@ -28,7 +28,10 @@
   "quiz": {
     "question": "Question {current} / {total}",
     "score": "Score : {score}",
-    "ctaNext": "Suivant"
+    "ctaNext": "Suivant →",
+    "ctaFinish": "Voir mes résultats !",
+    "feedbackCorrect": "✅ Bonne réponse !",
+    "feedbackWrong": "❌ Dommage…"
   },
   "results": {
     "title": "Partie terminée !",

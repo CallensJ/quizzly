@@ -1,0 +1,293 @@
+/**
+ * src/styles/pages/_quiz.scss
+ *
+ * Styles de l'écran Quiz.
+ * Structure : header gradient (progression + métadonnées) + body (question + réponses).
+ *
+ * États des boutons réponse :
+ *   défaut    → blanc, bordure grise
+ *   --correct → fond vert (bonne réponse sélectionnée)
+ *   --wrong   → fond rouge (mauvaise réponse sélectionnée)
+ *   --reveal  → bordure verte (bonne réponse révélée, non sélectionnée)
+ *   --disabled → opacité réduite (autres réponses après sélection)
+ */
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.quiz {
+  min-height: 100dvh;
+  @include m.flex-column;
+  background: v.$bg;
+
+  // ── Header ───────────────────────────────────────────────────────────────
+
+  &__header {
+    @include m.gradient-primary;
+    @include m.flex-column;
+    gap: v.$spacing-md;
+    padding: v.$spacing-lg;
+    // Safe area iOS
+    padding-top: calc(v.$spacing-lg + env(safe-area-inset-top, 0px));
+  }
+
+  &__header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__cat-label {
+    color: v.$white;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+  }
+
+  &__score {
+    color: v.$accent;
+    font-size: v.$font-size-sm;
+    font-weight: 800;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: v.$radius-full;
+    padding: 4px v.$spacing-md;
+  }
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__counter {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+  }
+
+  &__diff-chip {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    border-radius: v.$radius-full;
+    padding: 3px v.$spacing-md;
+    border: 1px solid;
+
+    // Chips sur fond gradient — semi-transparent + bordure colorée
+    &--easy {
+      background: rgba(v.$secondary, 0.25);
+      color: v.$white;
+      border-color: rgba(v.$secondary, 0.6);
+    }
+    &--medium {
+      background: rgba(v.$accent-orange, 0.25);
+      color: v.$white;
+      border-color: rgba(v.$accent-orange, 0.6);
+    }
+    &--hard {
+      background: rgba(v.$hard, 0.25);
+      color: v.$white;
+      border-color: rgba(v.$hard, 0.6);
+    }
+  }
+
+  &__progress-bar {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: v.$radius-full;
+    overflow: hidden;
+  }
+
+  &__progress-fill {
+    height: 100%;
+    background: v.$white;
+    border-radius: v.$radius-full;
+    // Transition fluide à chaque nouvelle question
+    transition: width v.$transition-slow;
+  }
+
+  // ── Corps ─────────────────────────────────────────────────────────────────
+
+  &__body {
+    @include m.flex-column;
+    gap: v.$spacing-lg;
+    padding: v.$spacing-xl v.$spacing-lg;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+  }
+
+  // ── Carte question ────────────────────────────────────────────────────────
+
+  &__question-card {
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-xl;
+    box-shadow: v.$shadow-md;
+  }
+
+  &__question-text {
+    font-size: v.$font-size-lg;
+    font-weight: 700;
+    color: v.$foreground;
+    line-height: 1.55;
+    text-align: center;
+  }
+
+  // ── Feedback ──────────────────────────────────────────────────────────────
+
+  &__feedback {
+    text-align: center;
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    border-radius: v.$radius-md;
+    padding: v.$spacing-md;
+    // Slide-in depuis le bas à l'apparition
+    animation: quiz-slide-up 200ms ease;
+
+    &--correct {
+      background: rgba(v.$success, 0.1);
+      color: v.$success;
+      border: 2px solid rgba(v.$success, 0.3);
+    }
+
+    &--wrong {
+      background: rgba(v.$error, 0.1);
+      color: v.$error;
+      border: 2px solid rgba(v.$error, 0.3);
+    }
+  }
+
+  // ── Boutons réponse ───────────────────────────────────────────────────────
+
+  &__answers {
+    @include m.flex-column;
+    gap: v.$spacing-sm;
+  }
+
+  &__answer {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-md;
+    width: 100%;
+    min-height: v.$touch-target-lg;
+    padding: v.$spacing-md v.$spacing-lg;
+    background: v.$white;
+    border: 2px solid #e5e7eb;
+    border-radius: v.$radius-md;
+    font-size: v.$font-size-base;
+    font-weight: 600;
+    color: v.$foreground;
+    text-align: left;
+    cursor: pointer;
+    transition:
+      border-color v.$transition-fast,
+      background v.$transition-fast,
+      transform v.$transition-fast,
+      opacity v.$transition-fast;
+
+    // Hover uniquement sur les réponses non encore répondues
+    &:not(.quiz__answer--correct):not(.quiz__answer--wrong):not(.quiz__answer--reveal):not(.quiz__answer--disabled):hover {
+      border-color: v.$primary;
+      transform: translateX(3px);
+    }
+
+    // Bonne réponse sélectionnée — fond plein vert
+    &--correct {
+      background: v.$success;
+      border-color: v.$success;
+      color: v.$white;
+    }
+
+    // Mauvaise réponse sélectionnée — fond plein rouge
+    &--wrong {
+      background: v.$error;
+      border-color: v.$error;
+      color: v.$white;
+    }
+
+    // Bonne réponse révélée après un mauvais choix — bordure + fond teinté
+    &--reveal {
+      border-color: v.$success;
+      background: rgba(v.$success, 0.08);
+    }
+
+    // Mauvaises réponses non sélectionnées — grises après réponse
+    &--disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+
+    @include m.focus-ring;
+  }
+
+  // Cercle lettre (A / B / C / D) — adapte sa couleur selon l'état du bouton
+  &__answer-key {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: rgba(v.$primary, 0.1);
+    color: v.$primary;
+    @include m.flex-center;
+    font-weight: 800;
+    font-size: v.$font-size-sm;
+    transition:
+      background v.$transition-fast,
+      color v.$transition-fast;
+
+    .quiz__answer--correct &,
+    .quiz__answer--wrong & {
+      background: rgba(255, 255, 255, 0.25);
+      color: v.$white;
+    }
+
+    .quiz__answer--reveal & {
+      background: rgba(v.$success, 0.15);
+      color: v.$success;
+    }
+  }
+
+  &__answer-text {
+    flex: 1;
+    line-height: 1.4;
+  }
+
+  // ── Bouton Suivant ────────────────────────────────────────────────────────
+
+  &__next-btn {
+    width: 100%;
+    min-height: v.$touch-target-lg;
+    @include m.gradient-primary;
+    color: v.$white;
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    border-radius: v.$radius-full;
+    box-shadow: v.$shadow-md;
+    margin-top: auto;
+    // Fade-in doux à l'apparition
+    animation: quiz-fade-in 200ms ease;
+    transition:
+      transform v.$transition-fast,
+      box-shadow v.$transition-fast;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: v.$shadow-lg;
+    }
+
+    @include m.focus-ring;
+  }
+
+  // ── Animations ────────────────────────────────────────────────────────────
+
+  @keyframes quiz-slide-up {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes quiz-fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+}

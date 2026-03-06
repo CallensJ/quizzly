@@ -28,7 +28,10 @@
   "quiz": {
     "question": "Question {current} / {total}",
     "score": "Score: {score}",
-    "ctaNext": "Next"
+    "ctaNext": "Next →",
+    "ctaFinish": "See my results!",
+    "feedbackCorrect": "✅ Correct!",
+    "feedbackWrong": "❌ Not quite…"
   },
   "results": {
     "title": "Game over!",
