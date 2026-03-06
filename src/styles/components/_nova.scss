@@ -1,0 +1,67 @@
+// src/styles/components/_nova.scss
+//
+// Mascotte Nova — toujours en position fixed (bas-droite).
+// Ne touche jamais au flux du document → zéro décalage de layout.
+//
+// TODO : remplacer les PNG par des SVG pour gérer le fond transparent proprement.
+
+@use '../abstracts/variables' as v;
+
+// ── Animations ────────────────────────────────────────────────────────────
+
+// Mascotte : rebond élastique façon jouet
+@keyframes nova-pop {
+  0%   { transform: scale(0) rotate(-8deg); opacity: 0; }
+  60%  { transform: scale(1.12) rotate(3deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+// Bulle : scale depuis le coin bas-droite (ancrage = mascotte)
+@keyframes nova-bubble-in {
+  from { transform: scale(0); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+// ── Conteneur principal ───────────────────────────────────────────────────
+
+.nova {
+  // Position fixed : hors flux, ne déplace jamais le contenu
+  position: fixed;
+  bottom: v.$spacing-xl;
+  right: v.$spacing-lg;
+  z-index: 200;
+
+  display: flex;
+  flex-direction: column; // bulle au-dessus, mascotte en bas
+  align-items: flex-end;
+  gap: v.$spacing-xs;
+
+  animation: nova-pop 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+// ── Bulle de texte ────────────────────────────────────────────────────────
+
+.nova__bubble {
+  background: v.$white;
+  padding: v.$spacing-sm v.$spacing-md;
+  border-radius: v.$radius-md v.$radius-md 0 v.$radius-md; // pointe bas-droite vers mascotte
+  box-shadow: v.$shadow-md;
+  font-family: v.$font-primary;
+  font-size: v.$font-size-sm;
+  font-weight: 700;
+  color: v.$foreground;
+  max-width: 180px;
+  line-height: 1.5;
+
+  transform-origin: bottom right;
+  animation: nova-bubble-in 0.3s 0.1s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+// ── Image de la mascotte ──────────────────────────────────────────────────
+
+.nova__img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.18));
+}

@@ -15,6 +15,7 @@ import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
+import Nova from '@/components/ui/Nova';
 import type { AgeGroup, Locale } from '@/types';
 
 // Seeds DiceBear prédéfinis — style "adventurer" (v9)
@@ -30,6 +31,7 @@ function avatarUrl(seed: string): string {
 
 export default function OnboardingScreen() {
   const t = useTranslations('onboarding');
+  const tNova = useTranslations('nova');
   const locale = useLocale() as Locale;
   const router = useRouter();
   const pathname = usePathname();
@@ -39,6 +41,9 @@ export default function OnboardingScreen() {
   const [pseudo, setPseudo] = useState('');
   const [ageGroup, setAgeGroup] = useState<AgeGroup | null>(null);
   const [avatarId, setAvatarId] = useState<string | null>(null);
+
+  // Nova : accueil à l'arrivée sur l'écran, disparaît après 3s
+  const [novaVisible, setNovaVisible] = useState(true);
 
   // Le CTA n'est actif que si tous les champs sont remplis
   const canSubmit = pseudo.trim().length >= 2 && ageGroup !== null && avatarId !== null;
@@ -65,6 +70,16 @@ export default function OnboardingScreen() {
 
   return (
     <div className="onboarding">
+
+      {/* Nova accueille l'enfant à l'arrivée — overlay bas-droite, disparaît après 3s */}
+      <Nova
+        state="welcome"
+        message={tNova('welcome')}
+        visible={novaVisible}
+        onHide={() => setNovaVisible(false)}
+        duration={3000}
+      />
+
       <header className="onboarding__header">
         {/* Toggle langue — accessible dès l'onboarding (contrainte MVP 1) */}
         <button

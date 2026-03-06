@@ -19,6 +19,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useQuizStore } from '@/stores/quizStore';
 import { useProfileStore } from '@/stores/profileStore';
+import Nova from '@/components/ui/Nova';
 import type { Category, Difficulty, Locale, QuestionFile } from '@/types';
 
 // Doit rester synchronisé avec QuizScreen.tsx
@@ -39,6 +40,7 @@ const QUESTION_LOADERS: Record<Locale, Record<Category, () => Promise<{ default:
 export default function ResultsScreen() {
   const t = useTranslations('results');
   const tHome = useTranslations('home');
+  const tNova = useTranslations('nova');
   const locale = useLocale() as Locale;
   const router = useRouter();
 
@@ -80,6 +82,17 @@ export default function ResultsScreen() {
     if (score < 4)  return t('msgLow');
     if (score < 14) return t('msgMid');
     return t('msgHigh');
+  }
+
+  /**
+   * Retourne le message de Nova selon le score et si badge obtenu.
+   * Nova reste affichée en permanence sur l'écran résultats (duration=0).
+   */
+  function getNovaMessage(): string {
+    if (badgeEarnedThisSession) return tNova('badge');
+    if (score < 4)  return tNova('finishLow');
+    if (score < 14) return tNova('finishMid');
+    return tNova('finishHigh');
   }
 
   /** Rejouer : recharge le même pool filtré et relance le quiz. */
@@ -136,8 +149,16 @@ export default function ResultsScreen() {
 
       </header>
 
-      {/* ── Corps : message + badge + boutons ──────────────────────────────── */}
+      {/* ── Corps : message + Nova + badge + boutons ───────────────────────── */}
       <main className="results__body">
+
+        {/* Nova félicite ou encourage selon le score — fixe bas-droite, permanente */}
+        <Nova
+          state={badgeEarnedThisSession ? 'badge' : 'finish'}
+          message={getNovaMessage()}
+          visible={true}
+          duration={0}
+        />
 
         {/* Message contextuel adapté au score */}
         <p className="results__message">{getScoreMessage()}</p>

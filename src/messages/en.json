@@ -47,7 +47,21 @@
   "profile": {
     "title": "My Profile",
     "noBadge": "No badge yet — keep playing!",
-    "ctaBack": "Back"
+    "statPoints": "Points",
+    "statGames": "Games",
+    "statBest": "Best",
+    "ctaBack": "Back to Home"
+  },
+  "nova": {
+    "welcome": "Hi there! I'm Nova! 👋",
+    "correct": "Great job! Keep it up! 🌟",
+    "streak": "You're on fire! 🔥🔥🔥",
+    "wrong": "No worries, you'll get it! 💙",
+    "encouragement": "Come on, I believe in you! 💪",
+    "badge": "Amazing! You earned a badge! 🏆",
+    "finishLow": "Keep practising, you're getting there! 😊",
+    "finishMid": "Great game! You're really improving! 🌟",
+    "finishHigh": "You're a champion! I'm so proud of you! 🎉"
   },
   "sidebar": {
     "sidebarLabel": "Profile & stats",

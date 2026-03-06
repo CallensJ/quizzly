@@ -47,7 +47,21 @@
   "profile": {
     "title": "Mon Profil",
     "noBadge": "Pas encore de badge — continue à jouer !",
-    "ctaBack": "Retour"
+    "statPoints": "Points",
+    "statGames": "Parties",
+    "statBest": "Meilleur",
+    "ctaBack": "Retour à l'accueil"
+  },
+  "nova": {
+    "welcome": "Salut ! Je m'appelle Nova ! 👋",
+    "correct": "Super ! Continue comme ça ! 🌟",
+    "streak": "Tu es en feu ! 🔥🔥🔥",
+    "wrong": "Pas grave, tu vas y arriver ! 💙",
+    "encouragement": "Allez, je crois en toi ! 💪",
+    "badge": "Incroyable ! Tu as gagné un badge ! 🏆",
+    "finishLow": "Continue à t'entraîner, tu progresses ! 😊",
+    "finishMid": "Belle partie ! Tu t'améliores vraiment ! 🌟",
+    "finishHigh": "Tu es un champion ! Je suis fière de toi ! 🎉"
   },
   "sidebar": {
     "sidebarLabel": "Profil et statistiques",

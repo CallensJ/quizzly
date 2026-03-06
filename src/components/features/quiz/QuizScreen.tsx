@@ -15,11 +15,12 @@
  * La session terminée est persistée dans profileStore (localStorage).
  */
 
-import { useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useQuizStore } from '@/stores/quizStore';
 import { useProfileStore } from '@/stores/profileStore';
+import Nova, { type NovaState } from '@/components/ui/Nova';
 import type { AnswerKey } from '@/types';
 
 // Seuil d'obtention du badge : 20% de bonnes réponses = 4/20
@@ -31,6 +32,7 @@ const ANSWER_KEYS: AnswerKey[] = ['A', 'B', 'C', 'D'];
 export default function QuizScreen() {
   const t = useTranslations('quiz');
   const tHome = useTranslations('home'); // réutilise les labels catégorie + difficulté
+  const tNova = useTranslations('nova');
   const router = useRouter();
 
   const {
@@ -43,6 +45,51 @@ export default function QuizScreen() {
   const question = questions[currentIndex];
   const total = questions.length;
   const isAnswered = selectedAnswer !== null;
+
+  // ── Nova : feedback visuel après chaque réponse ───────────────────────────
+  // Les compteurs de série persistent entre les questions de la même partie.
+  const consecutiveCorrectRef = useRef(0);
+  const consecutiveWrongRef = useRef(0);
+  const [novaVisible, setNovaVisible] = useState(false);
+  const [novaState, setNovaState] = useState<NovaState>('correct');
+  const [novaMessage, setNovaMessage] = useState('');
+
+  useEffect(() => {
+    // Quand selectedAnswer revient à null (nextQuestion appelé), on cache Nova
+    if (selectedAnswer === null) {
+      setNovaVisible(false);
+      return;
+    }
+    if (!question) return;
+
+    const isCorrect = selectedAnswer === question.answer;
+
+    if (isCorrect) {
+      consecutiveCorrectRef.current += 1;
+      consecutiveWrongRef.current = 0;
+      // Streak à partir de 3 bonnes réponses consécutives
+      if (consecutiveCorrectRef.current >= 3) {
+        setNovaState('streak');
+        setNovaMessage(tNova('streak'));
+      } else {
+        setNovaState('correct');
+        setNovaMessage(tNova('correct'));
+      }
+    } else {
+      consecutiveWrongRef.current += 1;
+      consecutiveCorrectRef.current = 0;
+      // Encouragement à partir de 2 mauvaises réponses consécutives
+      if (consecutiveWrongRef.current >= 2) {
+        setNovaState('encouragement');
+        setNovaMessage(tNova('encouragement'));
+      } else {
+        setNovaState('wrong');
+        setNovaMessage(tNova('wrong'));
+      }
+    }
+
+    setNovaVisible(true);
+  }, [selectedAnswer]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Garde : quiz non démarré → retour Home ──────────────────────────────
   useEffect(() => {
@@ -86,6 +133,15 @@ export default function QuizScreen() {
 
   return (
     <div className="quiz">
+
+      {/* Nova réagit à chaque réponse — overlay bas-droite, disparaît avant le suivant */}
+      <Nova
+        state={novaState}
+        message={novaMessage}
+        visible={novaVisible}
+        onHide={() => setNovaVisible(false)}
+        duration={2500}
+      />
 
       {/* ── Header : progression + métadonnées ───────────────────────────── */}
       <header className="quiz__header">
