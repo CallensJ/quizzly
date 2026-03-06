@@ -1,2 +1,3 @@
 // src/styles/pages/_index.scss
-// Styles par page — à compléter lors de l'implémentation des écrans
+// Barrel des styles par page — ajouter un @forward par écran implémenté.
+@forward 'onboarding';

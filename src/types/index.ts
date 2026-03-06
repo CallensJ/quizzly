@@ -1,4 +1,14 @@
-// src/types/index.ts
+/**
+ * src/types/index.ts
+ *
+ * Point d'entrée unique pour tous les types TypeScript du projet Quizzly.
+ * Centralise les types partagés entre composants, stores et données :
+ *   - types primitifs (AgeGroup, Difficulty, Category, Locale)
+ *   - interfaces de domaine (Profile, QuizSession, Question, QuestionFile)
+ *   - types d'état UI (QuizStatus, AnswerKey)
+ *
+ * Règle : tout type utilisé dans plus d'un fichier doit être défini ici.
+ */
 
 export type AgeGroup = '6-9' | '10-13';
 export type Difficulty = 'easy' | 'medium' | 'hard';

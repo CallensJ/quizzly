@@ -1,0 +1,241 @@
+/**
+ * src/styles/pages/_onboarding.scss
+ *
+ * Styles de l'écran d'onboarding.
+ * Design : fond dégradé full-screen, carte blanche centrée, cibles tactiles
+ * dimensionnées pour les enfants ($touch-target-lg = 64px).
+ */
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.onboarding {
+  min-height: 100dvh;
+  @include m.gradient-primary;
+  @include m.flex-column;
+  align-items: center;
+  padding: v.$spacing-lg v.$spacing-md v.$spacing-2xl;
+
+  // ── Header (titre + toggle langue) ──────────────────────────────────────
+
+  &__header {
+    width: 100%;
+    max-width: 480px;
+    position: relative;
+    text-align: center;
+    padding-bottom: v.$spacing-lg;
+  }
+
+  &__lang-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.2);
+    color: v.$white;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: v.$radius-full;
+    padding: 0 v.$spacing-md;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    min-height: v.$touch-target-min;
+    transition: background v.$transition-fast;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.32);
+    }
+
+    @include m.focus-ring;
+  }
+
+  &__title {
+    color: v.$white;
+    font-size: v.$font-size-2xl;
+    font-weight: 800;
+    // Décalage pour ne pas chevaucher le toggle langue
+    margin-top: calc(v.$touch-target-min + v.$spacing-md);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+    @include m.md {
+      font-size: v.$font-size-3xl;
+    }
+  }
+
+  // ── Corps du formulaire (carte blanche) ─────────────────────────────────
+
+  &__body {
+    width: 100%;
+    max-width: 480px;
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-xl;
+    box-shadow: v.$shadow-lg;
+    @include m.flex-column;
+    gap: v.$spacing-lg;
+  }
+
+  &__section {
+    @include m.flex-column;
+    gap: v.$spacing-sm;
+  }
+
+  &__label {
+    font-size: v.$font-size-lg;
+    font-weight: 700;
+    color: v.$foreground;
+  }
+
+  // ── Champ pseudo ────────────────────────────────────────────────────────
+
+  &__input {
+    width: 100%;
+    padding: v.$spacing-sm v.$spacing-md;
+    border: 2px solid #e5e7eb;
+    border-radius: v.$radius-md;
+    font-size: v.$font-size-lg;
+    color: v.$foreground;
+    background: v.$bg;
+    // Grande hauteur pour faciliter le tap sur mobile
+    min-height: v.$touch-target-lg;
+    transition: border-color v.$transition-fast;
+
+    &:focus {
+      outline: none;
+      border-color: v.$primary;
+    }
+
+    &::placeholder {
+      color: v.$text-muted;
+    }
+
+    @include m.focus-ring;
+  }
+
+  // ── Sélection tranche d'âge ─────────────────────────────────────────────
+
+  &__age-group {
+    display: flex;
+    gap: v.$spacing-md;
+  }
+
+  &__age-btn {
+    flex: 1;
+    min-height: v.$touch-target-lg;
+    border: 3px solid #e5e7eb;
+    border-radius: v.$radius-md;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$text-muted;
+    background: v.$bg;
+    transition:
+      border-color v.$transition-fast,
+      color v.$transition-fast,
+      background v.$transition-fast;
+
+    &:hover {
+      border-color: v.$primary;
+      color: v.$primary;
+    }
+
+    // État sélectionné — fond dégradé identique au CTA pour cohérence
+    &--active {
+      border-color: v.$primary;
+      background: v.$primary;
+      color: v.$white;
+    }
+
+    @include m.focus-ring;
+  }
+
+  // ── Grille d'avatars ────────────────────────────────────────────────────
+
+  &__avatar-grid {
+    // 4 colonnes = 8 avatars sur 2 lignes
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: v.$spacing-sm;
+  }
+
+  &__avatar-btn {
+    // Position relative requise pour le ::after de confirmation
+    position: relative;
+    border-radius: v.$radius-md;
+    border: 3px solid transparent;
+    padding: v.$spacing-xs;
+    background: v.$bg;
+    // Assure une cible tactile minimale même sur les petits écrans
+    min-height: v.$touch-target-lg;
+    transition:
+      border-color v.$transition-fast,
+      transform v.$transition-fast;
+
+    img {
+      border-radius: v.$radius-sm;
+      width: 100%;
+      height: auto;
+    }
+
+    &:hover {
+      border-color: v.$primary;
+      transform: scale(1.06);
+    }
+
+    // Coche verte affichée sur l'avatar sélectionné
+    &--active {
+      border-color: v.$primary;
+      background: rgba(102, 126, 234, 0.08); // primary à 8% d'opacité
+
+      &::after {
+        content: '✓';
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        width: 22px;
+        height: 22px;
+        background: v.$primary;
+        color: v.$white;
+        border-radius: v.$radius-full;
+        font-size: 12px;
+        font-weight: 800;
+        // grid + place-items fonctionne sur les pseudo-éléments
+        display: grid;
+        place-items: center;
+        // Ombre légère pour lisibilité sur fond coloré
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    @include m.focus-ring;
+  }
+
+  // ── Bouton de confirmation ───────────────────────────────────────────────
+
+  &__cta {
+    width: 100%;
+    min-height: v.$touch-target-lg;
+    @include m.gradient-primary;
+    color: v.$white;
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    border-radius: v.$radius-full;
+    box-shadow: v.$shadow-md;
+    margin-top: v.$spacing-sm;
+    transition:
+      opacity v.$transition-fast,
+      transform v.$transition-fast,
+      box-shadow v.$transition-fast;
+
+    &:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+
+    &:not(:disabled):hover {
+      transform: translateY(-2px);
+      box-shadow: v.$shadow-lg;
+    }
+
+    @include m.focus-ring;
+  }
+}
