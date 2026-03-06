@@ -51,6 +51,11 @@
       background: rgba(255, 255, 255, 0.32);
     }
 
+    // Sur desktop, le profil est accessible via la sidebar — bouton masqué
+    @include m.lg {
+      display: none;
+    }
+
     @include m.focus-ring;
   }
 

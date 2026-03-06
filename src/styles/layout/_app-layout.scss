@@ -1,0 +1,200 @@
+/**
+ * src/styles/layout/_app-layout.scss
+ *
+ * Layout deux colonnes desktop : Sidebar (280px) + Zone de contenu (flex-1).
+ *
+ * Stratégie responsive :
+ * - Mobile (<1024px)  : sidebar masquée via display:none, contenu pleine largeur
+ * - Desktop (≥1024px) : flex-row, sidebar sticky pleine hauteur + main scrollable
+ *
+ * La sidebar utilise le gradient primary vertical pour renforcer l'identité visuelle.
+ */
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.app-layout {
+  display: flex;
+  min-height: 100dvh;
+
+  // ── Sidebar ─────────────────────────────────────────────────────────────
+
+  &__sidebar {
+    // Masquée sur mobile — l'app reste 100% mobile-native sous 1024px
+    display: none;
+
+    @include m.lg {
+      display: flex;
+      flex-direction: column;
+      gap: v.$spacing-xl;
+
+      // Largeur fixe — ne rétrécit pas sous la pression du contenu
+      width: 280px;
+      min-width: 280px;
+      min-height: 100dvh;
+
+      // Sticky : reste visible lors du scroll du contenu principal
+      position: sticky;
+      top: 0;
+      align-self: flex-start;
+
+      // Gradient vertical — reprend l'identité visuelle principale
+      background: linear-gradient(180deg, v.$primary 0%, v.$primary-dark 100%);
+      color: v.$white;
+      padding: v.$spacing-xl v.$spacing-lg;
+      overflow-y: auto;
+    }
+  }
+
+  // ── Logo ────────────────────────────────────────────────────────────────
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    padding-bottom: v.$spacing-lg;
+    // Séparateur subtil entre logo et carte profil
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  &__logo-icon {
+    font-size: 1.75rem;
+    line-height: 1;
+  }
+
+  &__logo-text {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  // ── Carte profil (bouton cliquable → /profile) ───────────────────────────
+
+  &__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: v.$spacing-sm;
+    width: 100%;
+    padding: v.$spacing-lg;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: v.$radius-lg;
+    color: v.$white;
+    cursor: pointer;
+    transition:
+      background v.$transition-fast,
+      border-color v.$transition-fast,
+      transform v.$transition-fast;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.18);
+      border-color: rgba(255, 255, 255, 0.4);
+      transform: translateY(-2px);
+    }
+
+    @include m.focus-ring;
+  }
+
+  &__avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: v.$white;
+    // Anneau lumineux — donne de la profondeur à l'avatar
+    box-shadow:
+      0 0 0 3px rgba(255, 255, 255, 0.6),
+      0 0 0 6px rgba(255, 255, 255, 0.15);
+  }
+
+  &__pseudo {
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+
+  &__age {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    opacity: 0.75;
+  }
+
+  // ── Statistiques ─────────────────────────────────────────────────────────
+
+  &__stats {
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-sm;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: v.$radius-md;
+    padding: v.$spacing-md;
+  }
+
+  &__stat {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  // ── Section badges ───────────────────────────────────────────────────────
+
+  &__badges-section {
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-sm;
+    // Pousse les badges vers le bas — remplit l'espace vertical disponible
+    margin-top: auto;
+  }
+
+  &__badges-title {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    font-size: v.$font-size-sm;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+  }
+
+  &__badge {
+    background: rgba(255, 215, 0, 0.15);
+    border: 2px solid rgba(255, 215, 0, 0.4);
+    border-radius: v.$radius-md;
+    padding: v.$spacing-sm v.$spacing-md;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    text-align: center;
+    // Pulse subtil pour attirer l'attention sans distraire
+    animation: badge-pulse 3s ease-in-out infinite;
+  }
+
+  &__no-badge {
+    font-size: v.$font-size-sm;
+    opacity: 0.6;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  // ── Zone de contenu principale ───────────────────────────────────────────
+
+  &__main {
+    flex: 1;
+    // Empêche le débordement flex sur les contenus larges (grilles, tableaux)
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  // ── Animations ───────────────────────────────────────────────────────────
+
+  @keyframes badge-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(255, 215, 0, 0); }
+    50%       { box-shadow: 0 0 0 6px rgba(255, 215, 0, 0.2); }
+  }
+}

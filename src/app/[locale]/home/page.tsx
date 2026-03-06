@@ -11,6 +11,7 @@ import { useEffect, useState } from 'react';
 import { useProfileStore } from '@/stores/profileStore';
 import { useRouter } from '@/i18n/navigation';
 import HomeScreen from '@/components/features/home/HomeScreen';
+import AppLayout from '@/components/layout/AppLayout';
 
 export default function HomePage() {
   const profile = useProfileStore((s) => s.profile);
@@ -30,5 +31,9 @@ export default function HomePage() {
 
   if (!hydrated || !profile) return null;
 
-  return <HomeScreen />;
+  return (
+    <AppLayout>
+      <HomeScreen />
+    </AppLayout>
+  );
 }

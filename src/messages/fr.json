@@ -41,5 +41,17 @@
     "title": "Mon Profil",
     "noBadge": "Pas encore de badge — continue à jouer !",
     "ctaBack": "Retour"
+  },
+  "sidebar": {
+    "sidebarLabel": "Profil et statistiques",
+    "goToProfile": "Voir mon profil",
+    "statsLabel": "Mes statistiques",
+    "points": "{count} pts",
+    "games": "{count} partie(s)",
+    "badgesTitle": "Badges",
+    "firstBadge": "Premier badge !",
+    "noBadge": "Joue pour gagner ton premier badge !",
+    "age6to9": "6 à 9 ans",
+    "age10to13": "10 à 13 ans"
   }
 }

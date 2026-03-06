@@ -1,2 +1,4 @@
 // src/styles/layout/_index.scss
-// Layouts — à compléter lors de l'implémentation des écrans
+// Barrel des layouts — ajouter un @forward par nouveau fichier layout
+
+@forward 'app-layout';
