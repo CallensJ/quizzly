@@ -31,7 +31,8 @@
     "ctaNext": "Suivant →",
     "ctaFinish": "Voir mes résultats !",
     "feedbackCorrect": "✅ Bonne réponse !",
-    "feedbackWrong": "❌ Dommage…"
+    "feedbackWrong": "❌ Dommage…",
+    "feedbackTimeout": "⏰ Temps écoulé !"
   },
   "results": {
     "title": "Partie terminée !",
@@ -56,7 +57,10 @@
     "catBest": "Meilleur : {percent}%",
     "catNone": "Pas encore joué",
     "changeAvatar": "Changer d'avatar",
-    "changeAvatarCancel": "Annuler"
+    "changeAvatarCancel": "Annuler",
+    "settingsTitle": "Paramètres",
+    "timerLabel": "Minuterie",
+    "timerDesc": "15 secondes par question"
   },
   "nova": {
     "welcome": "Salut ! Je m'appelle Nova ! 👋",

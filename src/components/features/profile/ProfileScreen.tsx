@@ -73,6 +73,8 @@ export default function ProfileScreen() {
   const profile = useProfileStore((s) => s.profile);
   const sessions = useProfileStore((s) => s.sessions);
   const updateAvatar = useProfileStore((s) => s.updateAvatar);
+  const timerEnabled = useProfileStore((s) => s.timerEnabled);
+  const setTimerEnabled = useProfileStore((s) => s.setTimerEnabled);
 
   // Mode édition avatar — affiche la galerie inline sous la carte identité
   const [editingAvatar, setEditingAvatar] = useState(false);
@@ -215,6 +217,30 @@ export default function ProfileScreen() {
               </div>
             );
           })}
+        </section>
+
+        {/* ── Paramètres ────────────────────────────────────────────────── */}
+        <section className="profile__settings" aria-label={t('settingsTitle')}>
+          <h2 className="profile__section-title">{t('settingsTitle')}</h2>
+
+          {/* Ligne : timer optionnel — interrupteur accessible */}
+          <div className="profile__setting-row">
+            <div className="profile__setting-info">
+              <p className="profile__setting-name">{t('timerLabel')}</p>
+              <p className="profile__setting-desc">{t('timerDesc')}</p>
+            </div>
+            <label className="profile__toggle" aria-label={t('timerLabel')}>
+              <input
+                type="checkbox"
+                className="profile__toggle-input"
+                checked={timerEnabled}
+                onChange={(e) => setTimerEnabled(e.target.checked)}
+              />
+              <span className="profile__toggle-track" aria-hidden="true">
+                <span className="profile__toggle-thumb" />
+              </span>
+            </label>
+          </div>
         </section>
 
         {/* ── Badge ─────────────────────────────────────────────────────── */}

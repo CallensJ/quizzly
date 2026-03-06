@@ -31,7 +31,8 @@
     "ctaNext": "Next →",
     "ctaFinish": "See my results!",
     "feedbackCorrect": "✅ Correct!",
-    "feedbackWrong": "❌ Not quite…"
+    "feedbackWrong": "❌ Not quite…",
+    "feedbackTimeout": "⏰ Time's up!"
   },
   "results": {
     "title": "Game over!",
@@ -56,7 +57,10 @@
     "catBest": "Best: {percent}%",
     "catNone": "Not played yet",
     "changeAvatar": "Change avatar",
-    "changeAvatarCancel": "Cancel"
+    "changeAvatarCancel": "Cancel",
+    "settingsTitle": "Settings",
+    "timerLabel": "Timer",
+    "timerDesc": "15 seconds per question"
   },
   "nova": {
     "welcome": "Hi there! I'm Nova! 👋",

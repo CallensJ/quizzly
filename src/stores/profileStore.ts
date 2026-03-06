@@ -6,9 +6,12 @@ import type { Profile, QuizSession, Locale } from '@/types';
 interface ProfileState {
   profile: Profile | null;
   sessions: QuizSession[];
+  // Préférence persistée séparément du profil — indépendante des données joueur
+  timerEnabled: boolean;
   createProfile: (data: Omit<Profile, 'createdAt'>) => void;
   setLocale: (locale: Locale) => void;
   updateAvatar: (avatarId: string) => void;
+  setTimerEnabled: (enabled: boolean) => void;
   addSession: (session: Omit<QuizSession, 'playedAt'>) => void;
   earnBadge: () => void;
   resetProgress: () => void;
@@ -20,6 +23,7 @@ export const useProfileStore = create<ProfileState>()(
     (set) => ({
       profile: null,
       sessions: [],
+      timerEnabled: false,
 
       createProfile: (data) =>
         set({
@@ -38,6 +42,8 @@ export const useProfileStore = create<ProfileState>()(
         set((state) => ({
           profile: state.profile ? { ...state.profile, avatarId } : null,
         })),
+
+      setTimerEnabled: (enabled) => set({ timerEnabled: enabled }),
 
       addSession: (session) =>
         set((state) => ({

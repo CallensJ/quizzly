@@ -279,7 +279,72 @@
     @include m.focus-ring;
   }
 
+  // ── Timer circulaire ──────────────────────────────────────────────────────
+  // Affiché entre le header et la carte question quand timerEnabled = true.
+  // Cercle SVG qui se vide au fil des secondes (stroke-dashoffset).
+
+  &__timer {
+    position: relative;
+    @include m.flex-center;
+    width: 64px;
+    height: 64px;
+    margin: v.$spacing-md auto 0;
+
+    // Quand < 5s restantes : pulsation d'urgence
+    &--urgent {
+      animation: timer-pulse 0.6s ease infinite alternate;
+    }
+  }
+
+  &__timer-svg {
+    width: 64px;
+    height: 64px;
+    // Rotation pour partir du haut (12h) au lieu de la droite (3h)
+    transform: rotate(-90deg);
+  }
+
+  &__timer-track {
+    fill: none;
+    stroke: rgba(v.$primary, 0.12);
+    stroke-width: 4;
+  }
+
+  &__timer-arc {
+    fill: none;
+    stroke: v.$primary;
+    stroke-width: 4;
+    stroke-linecap: round;
+    // Transition linéaire 1s pour correspondre au décompte seconde par seconde
+    transition:
+      stroke-dashoffset 1s linear,
+      stroke v.$transition-fast;
+
+    // Orange à partir de 8s, rouge urgent à partir de 5s (géré via --urgent sur parent)
+    .quiz__timer--urgent & {
+      stroke: v.$error;
+    }
+  }
+
+  // Chiffre centré par-dessus le SVG
+  &__timer-count {
+    position: absolute;
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    color: v.$primary;
+    // Correction de rotation du parent SVG — le texte reste droit
+    line-height: 1;
+
+    .quiz__timer--urgent & {
+      color: v.$error;
+    }
+  }
+
   // ── Animations ────────────────────────────────────────────────────────────
+
+  @keyframes timer-pulse {
+    from { transform: scale(1); }
+    to   { transform: scale(1.08); }
+  }
 
   @keyframes quiz-slide-up {
     from { opacity: 0; transform: translateY(8px); }

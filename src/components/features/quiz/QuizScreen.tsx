@@ -29,6 +29,11 @@ const BADGE_THRESHOLD = 4;
 // Ordre fixe d'affichage des boutons réponse
 const ANSWER_KEYS: AnswerKey[] = ['A', 'B', 'C', 'D'];
 
+// Durée du timer en secondes
+const TIMER_DURATION = 15;
+// Circonférence du cercle SVG (r=20) : 2π × 20 ≈ 125.66
+const TIMER_CIRCUMFERENCE = 2 * Math.PI * 20;
+
 export default function QuizScreen() {
   const t = useTranslations('quiz');
   const tHome = useTranslations('home'); // réutilise les labels catégorie + difficulté
@@ -41,10 +46,38 @@ export default function QuizScreen() {
   } = useQuizStore();
 
   const { addSession, earnBadge } = useProfileStore();
+  const timerEnabled = useProfileStore((s) => s.timerEnabled);
 
   const question = questions[currentIndex];
   const total = questions.length;
   const isAnswered = selectedAnswer !== null;
+
+  // ── Timer optionnel ───────────────────────────────────────────────────────
+  // Compte à rebours de 15s par question. Réinitialisé à chaque nouvelle question.
+  // Si le temps est écoulé, une mauvaise réponse est sélectionnée automatiquement.
+  const [timeLeft, setTimeLeft] = useState(TIMER_DURATION);
+  const timedOutRef = useRef(false); // évite un double déclenchement
+
+  // Réinitialise le timer à chaque nouvelle question
+  useEffect(() => {
+    setTimeLeft(TIMER_DURATION);
+    timedOutRef.current = false;
+  }, [currentIndex]);
+
+  // Décompte seconde par seconde via setTimeout (évite les problèmes de stale closure)
+  useEffect(() => {
+    if (!timerEnabled || isAnswered || timeLeft <= 0) return;
+    const id = setTimeout(() => setTimeLeft((t) => t - 1), 1000);
+    return () => clearTimeout(id);
+  }, [timeLeft, timerEnabled, isAnswered]);
+
+  // Auto-sélection d'une mauvaise réponse quand le temps est écoulé
+  useEffect(() => {
+    if (!timerEnabled || isAnswered || timeLeft > 0 || timedOutRef.current) return;
+    timedOutRef.current = true;
+    const wrongKey = ANSWER_KEYS.find((k) => k !== question?.answer);
+    if (wrongKey) selectAnswer(wrongKey);
+  }, [timeLeft]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Nova : feedback visuel après chaque réponse ───────────────────────────
   // Les compteurs de série persistent entre les questions de la même partie.
@@ -180,6 +213,30 @@ export default function QuizScreen() {
         </div>
       </header>
 
+      {/* Timer circulaire — visible uniquement si timerEnabled et question non répondue */}
+      {timerEnabled && !isAnswered && (
+        <div
+          className={`quiz__timer${timeLeft <= 5 ? ' quiz__timer--urgent' : ''}`}
+          aria-live="polite"
+          aria-label={`${timeLeft}s`}
+        >
+          <svg className="quiz__timer-svg" viewBox="0 0 48 48" aria-hidden="true">
+            {/* Piste de fond */}
+            <circle cx="24" cy="24" r="20" className="quiz__timer-track" />
+            {/* Arc de progression — se vide de gauche à droite */}
+            <circle
+              cx="24"
+              cy="24"
+              r="20"
+              className="quiz__timer-arc"
+              strokeDasharray={TIMER_CIRCUMFERENCE}
+              strokeDashoffset={TIMER_CIRCUMFERENCE * (1 - timeLeft / TIMER_DURATION)}
+            />
+          </svg>
+          <span className="quiz__timer-count">{timeLeft}</span>
+        </div>
+      )}
+
       {/* ── Corps : question + réponses + feedback + suivant ─────────────── */}
       <main className="quiz__body">
 
@@ -198,7 +255,10 @@ export default function QuizScreen() {
           >
             {selectedAnswer === question.answer
               ? t('feedbackCorrect')
-              : t('feedbackWrong')}
+              // Distingue réponse manuelle incorrecte et timeout timer
+              : timedOutRef.current
+                ? t('feedbackTimeout')
+                : t('feedbackWrong')}
           </div>
         )}
 

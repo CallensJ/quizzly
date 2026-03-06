@@ -337,6 +337,102 @@
     line-height: 1.3;
   }
 
+  // ── Paramètres ────────────────────────────────────────────────────────────
+
+  &__settings {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+    animation: profile-fade-in 300ms ease both;
+    animation-delay: 250ms;
+  }
+
+  // Ligne : texte info à gauche, toggle à droite
+  &__setting-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: v.$spacing-lg;
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-md v.$spacing-lg;
+    box-shadow: v.$shadow-sm;
+  }
+
+  &__setting-info {
+    @include m.flex-column;
+    gap: 2px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__setting-name {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$foreground;
+  }
+
+  &__setting-desc {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+  }
+
+  // ── Toggle switch (interrupteur accessible) ────────────────────────────────
+  // Input natif masqué — le style est porté par la piste + le pouce.
+
+  &__toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  // Masque l'input natif tout en le gardant accessible (focus, keyboard)
+  &__toggle-input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+    // Focus visible sur la piste quand l'input est focalisé
+    &:focus-visible + .profile__toggle-track {
+      outline: 3px solid v.$primary;
+      outline-offset: 2px;
+    }
+  }
+
+  &__toggle-track {
+    width: 48px;
+    height: 28px;
+    border-radius: 14px;
+    background: #d1d5db; // gris OFF
+    transition: background v.$transition-fast;
+    position: relative;
+
+    // Piste active (checked) → violet primary
+    .profile__toggle-input:checked ~ & {
+      background: v.$primary;
+    }
+  }
+
+  &__toggle-thumb {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: v.$white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: transform v.$transition-fast;
+
+    // Le pouce se déplace vers la droite quand checked
+    .profile__toggle-input:checked ~ .profile__toggle-track & {
+      transform: translateX(20px);
+    }
+  }
+
   // ── Bouton retour ─────────────────────────────────────────────────────────
 
   &__cta-home {
