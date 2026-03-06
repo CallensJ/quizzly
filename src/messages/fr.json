@@ -50,7 +50,11 @@
     "statPoints": "Points",
     "statGames": "Parties",
     "statBest": "Meilleur",
-    "ctaBack": "Retour à l'accueil"
+    "ctaBack": "Retour à l'accueil",
+    "catStats": "Par catégorie",
+    "catGames": "{count} partie(s)",
+    "catBest": "Meilleur : {percent}%",
+    "catNone": "Pas encore joué"
   },
   "nova": {
     "welcome": "Salut ! Je m'appelle Nova ! 👋",

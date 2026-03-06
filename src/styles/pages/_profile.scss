@@ -155,6 +155,62 @@
     letter-spacing: 0.05em;
   }
 
+  // ── Scores par catégorie ──────────────────────────────────────────────────
+
+  &__cat-stats {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+    animation: profile-fade-in 300ms ease both;
+    animation-delay: 150ms;
+  }
+
+  &__cat-card {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-md;
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-md v.$spacing-lg;
+    box-shadow: v.$shadow-sm;
+    // Barre colorée à gauche — couleur = couleur de la catégorie
+    border-left: 4px solid;
+
+    &--sciences { border-color: v.$cat-science; }
+    &--histoire  { border-color: v.$cat-history; }
+  }
+
+  &__cat-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  &__cat-info {
+    @include m.flex-column;
+    gap: 2px;
+    flex: 1;
+    min-width: 0; // évite le débordement du texte
+  }
+
+  &__cat-name {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$foreground;
+  }
+
+  &__cat-detail {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+  }
+
+  // Meilleur score affiché en grand à droite de la carte
+  &__cat-best {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$primary;
+    flex-shrink: 0;
+  }
+
   // ── Section badge ─────────────────────────────────────────────────────────
 
   &__badge-section {

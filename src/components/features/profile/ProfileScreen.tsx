@@ -17,7 +17,7 @@ import { useTranslations } from 'next-intl';
 import { ArrowLeft } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
-import type { QuizSession } from '@/types';
+import type { Category, QuizSession } from '@/types';
 
 // URL de l'avatar DiceBear — même pattern que OnboardingScreen et AppLayout
 function avatarUrl(seed: string) {
@@ -34,9 +34,35 @@ function bestScorePercent(sessions: QuizSession[]): number | null {
   return Math.round(best * 100);
 }
 
+// Catégories disponibles avec leur emoji — à étendre en MVP 3
+const CATEGORIES: { key: Category; emoji: string }[] = [
+  { key: 'sciences', emoji: '🔬' },
+  { key: 'histoire', emoji: '📜' },
+];
+
+/**
+ * Calcule les stats par catégorie depuis l'historique des sessions.
+ * Retourne un objet { games, best } pour chaque catégorie.
+ */
+function statsByCategory(sessions: QuizSession[]): Record<Category, { games: number; best: number | null }> {
+  const result: Record<Category, { games: number; best: number | null }> = {
+    sciences: { games: 0, best: null },
+    histoire:  { games: 0, best: null },
+  };
+  for (const s of sessions) {
+    result[s.category].games += 1;
+    const pct = Math.round((s.score / s.totalQuestions) * 100);
+    if (result[s.category].best === null || pct > result[s.category].best!) {
+      result[s.category].best = pct;
+    }
+  }
+  return result;
+}
+
 export default function ProfileScreen() {
   const t = useTranslations('profile');
   const tSidebar = useTranslations('sidebar');
+  const tHome = useTranslations('home'); // noms des catégories
   const router = useRouter();
 
   const profile = useProfileStore((s) => s.profile);
@@ -47,6 +73,7 @@ export default function ProfileScreen() {
   const totalGames = sessions.length;
   const totalPoints = sessions.reduce((sum, s) => sum + s.score, 0);
   const best = bestScorePercent(sessions);
+  const catStats = statsByCategory(sessions);
 
   // ── Render ───────────────────────────────────────────────────────────────
 
@@ -106,6 +133,32 @@ export default function ProfileScreen() {
             </span>
             <span className="profile__stat-label">{t('statBest')}</span>
           </div>
+        </section>
+
+        {/* ── Scores par catégorie ──────────────────────────────────────── */}
+        <section className="profile__cat-stats" aria-label={t('catStats')}>
+          <h2 className="profile__section-title">{t('catStats')}</h2>
+
+          {CATEGORIES.map(({ key, emoji }) => {
+            const stat = catStats[key];
+            return (
+              <div key={key} className={`profile__cat-card profile__cat-card--${key}`}>
+                <span className="profile__cat-icon" aria-hidden="true">{emoji}</span>
+                <div className="profile__cat-info">
+                  <p className="profile__cat-name">{tHome(key)}</p>
+                  <p className="profile__cat-detail">
+                    {stat.games > 0
+                      ? t('catGames', { count: stat.games })
+                      : t('catNone')}
+                  </p>
+                </div>
+                {/* Meilleur score affiché uniquement si au moins une partie jouée */}
+                {stat.best !== null && (
+                  <span className="profile__cat-best">{stat.best}%</span>
+                )}
+              </div>
+            );
+          })}
         </section>
 
         {/* ── Badge ─────────────────────────────────────────────────────── */}

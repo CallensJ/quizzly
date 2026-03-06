@@ -50,7 +50,11 @@
     "statPoints": "Points",
     "statGames": "Games",
     "statBest": "Best",
-    "ctaBack": "Back to Home"
+    "ctaBack": "Back to Home",
+    "catStats": "By category",
+    "catGames": "{count} game(s)",
+    "catBest": "Best: {percent}%",
+    "catNone": "Not played yet"
   },
   "nova": {
     "welcome": "Hi there! I'm Nova! 👋",
