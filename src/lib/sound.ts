@@ -45,7 +45,7 @@ function buildSounds(): Partial<Record<SoundId, Howl>> {
     (Object.entries(config) as [SoundId, { volume: number }][]).map(([id, opts]) => [
       id,
       new Howl({
-        src: [`/sounds/${id}.webm`, `/sounds/${id}.mp3`],
+        src: [`/sounds/${id}.mp3`], // .webm non disponibles — MP3 uniquement
         volume: opts.volume,
         preload: true,
         // Silencieux si le fichier est absent (développement sans assets)

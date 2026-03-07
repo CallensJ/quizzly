@@ -46,7 +46,7 @@ const STATE_IMAGES: Record<NovaState, string> = {
   wrong:         '/mascotte/mascotte-wrong.svg',
   encouragement: '/mascotte/mascotte-encouragement.svg',
   badge:         '/mascotte/mascotte-badge.svg',
-  finish:        '/mascotte/mascotte-finish.svg',
+  finish:        '/mascotte/mascotte-badge.svg', // TODO: remplacer par mascotte-finish.svg quand disponible
 };
 
 // ── Composant ─────────────────────────────────────────────────────────────
