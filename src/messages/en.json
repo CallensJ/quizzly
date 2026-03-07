@@ -60,7 +60,9 @@
     "changeAvatarCancel": "Cancel",
     "settingsTitle": "Settings",
     "timerLabel": "Timer",
-    "timerDesc": "15 seconds per question"
+    "timerDesc": "15 seconds per question",
+    "soundLabel": "Sound effects",
+    "soundDesc": "Audio feedback during the quiz"
   },
   "nova": {
     "welcome": "Hi there! I'm Nova! 👋",

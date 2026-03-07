@@ -75,6 +75,8 @@ export default function ProfileScreen() {
   const updateAvatar = useProfileStore((s) => s.updateAvatar);
   const timerEnabled = useProfileStore((s) => s.timerEnabled);
   const setTimerEnabled = useProfileStore((s) => s.setTimerEnabled);
+  const soundEnabled = useProfileStore((s) => s.soundEnabled);
+  const setSoundEnabled = useProfileStore((s) => s.setSoundEnabled);
 
   // Mode édition avatar — affiche la galerie inline sous la carte identité
   const [editingAvatar, setEditingAvatar] = useState(false);
@@ -235,6 +237,25 @@ export default function ProfileScreen() {
                 className="profile__toggle-input"
                 checked={timerEnabled}
                 onChange={(e) => setTimerEnabled(e.target.checked)}
+              />
+              <span className="profile__toggle-track" aria-hidden="true">
+                <span className="profile__toggle-thumb" />
+              </span>
+            </label>
+          </div>
+
+          {/* Ligne : sons — interrupteur accessible */}
+          <div className="profile__setting-row">
+            <div className="profile__setting-info">
+              <p className="profile__setting-name">{t('soundLabel')}</p>
+              <p className="profile__setting-desc">{t('soundDesc')}</p>
+            </div>
+            <label className="profile__toggle" aria-label={t('soundLabel')}>
+              <input
+                type="checkbox"
+                className="profile__toggle-input"
+                checked={soundEnabled}
+                onChange={(e) => setSoundEnabled(e.target.checked)}
               />
               <span className="profile__toggle-track" aria-hidden="true">
                 <span className="profile__toggle-thumb" />

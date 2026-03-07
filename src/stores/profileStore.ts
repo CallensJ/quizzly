@@ -6,12 +6,14 @@ import type { Profile, QuizSession, Locale } from '@/types';
 interface ProfileState {
   profile: Profile | null;
   sessions: QuizSession[];
-  // Préférence persistée séparément du profil — indépendante des données joueur
+  // Préférences persistées séparément du profil — indépendantes des données joueur
   timerEnabled: boolean;
+  soundEnabled: boolean;
   createProfile: (data: Omit<Profile, 'createdAt'>) => void;
   setLocale: (locale: Locale) => void;
   updateAvatar: (avatarId: string) => void;
   setTimerEnabled: (enabled: boolean) => void;
+  setSoundEnabled: (enabled: boolean) => void;
   addSession: (session: Omit<QuizSession, 'playedAt'>) => void;
   earnBadge: () => void;
   resetProgress: () => void;
@@ -24,6 +26,7 @@ export const useProfileStore = create<ProfileState>()(
       profile: null,
       sessions: [],
       timerEnabled: false,
+      soundEnabled: true, // activé par défaut — les enfants apprécient le feedback sonore
 
       createProfile: (data) =>
         set({
@@ -44,6 +47,8 @@ export const useProfileStore = create<ProfileState>()(
         })),
 
       setTimerEnabled: (enabled) => set({ timerEnabled: enabled }),
+
+      setSoundEnabled: (enabled) => set({ soundEnabled: enabled }),
 
       addSession: (session) =>
         set((state) => ({

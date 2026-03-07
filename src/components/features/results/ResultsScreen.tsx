@@ -19,6 +19,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useQuizStore } from '@/stores/quizStore';
 import { useProfileStore } from '@/stores/profileStore';
+import { playSound } from '@/lib/sound';
 import Nova from '@/components/ui/Nova';
 import type { Category, Difficulty, Locale, QuestionFile } from '@/types';
 
@@ -46,6 +47,7 @@ export default function ResultsScreen() {
 
   const { status, score, category, difficulty, questions, startQuiz, resetAll } = useQuizStore();
   const profile = useProfileStore((s) => s.profile);
+  const soundEnabled = useProfileStore((s) => s.soundEnabled);
 
   const total = questions.length || 20;
   const badgeEarnedThisSession = score >= BADGE_THRESHOLD;
@@ -58,9 +60,11 @@ export default function ResultsScreen() {
     }
   }, [status, router]);
 
-  // ── Confetti si badge obtenu ─────────────────────────────────────────────
+  // ── Confetti + sons au montage ───────────────────────────────────────────
   useEffect(() => {
+    // Son badge (fanfare) si badge obtenu, sinon son de fin de quiz
     if (badgeEarnedThisSession) {
+      playSound('badge', soundEnabled);
       import('canvas-confetti').then((mod) => {
         mod.default({
           particleCount: 120,
@@ -69,6 +73,8 @@ export default function ResultsScreen() {
           colors: ['#667eea', '#764ba2', '#FFD700', '#4CAF50', '#FF9800'],
         });
       });
+    } else {
+      playSound('finish', soundEnabled);
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 

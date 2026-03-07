@@ -21,6 +21,7 @@ import { useRouter } from '@/i18n/navigation';
 import { useQuizStore } from '@/stores/quizStore';
 import { useProfileStore } from '@/stores/profileStore';
 import Nova, { type NovaState } from '@/components/ui/Nova';
+import { playSound } from '@/lib/sound';
 import type { AnswerKey } from '@/types';
 
 // Seuil d'obtention du badge : 20% de bonnes réponses = 4/20
@@ -47,6 +48,7 @@ export default function QuizScreen() {
 
   const { addSession, earnBadge } = useProfileStore();
   const timerEnabled = useProfileStore((s) => s.timerEnabled);
+  const soundEnabled = useProfileStore((s) => s.soundEnabled);
 
   const question = questions[currentIndex];
   const total = questions.length;
@@ -71,10 +73,26 @@ export default function QuizScreen() {
     return () => clearTimeout(id);
   }, [timeLeft, timerEnabled, isAnswered]);
 
+  // Son d'urgence — joué une seule fois à l'entrée dans la zone critique (<= 5s)
+  const urgentSoundPlayedRef = useRef(false);
+  useEffect(() => {
+    if (!timerEnabled || isAnswered) return;
+    if (timeLeft === 5 && !urgentSoundPlayedRef.current) {
+      urgentSoundPlayedRef.current = true;
+      playSound('timer-urgent', soundEnabled);
+    }
+  }, [timeLeft, timerEnabled, isAnswered, soundEnabled]);
+
+  // Réinitialise aussi le flag urgent à chaque nouvelle question
+  useEffect(() => {
+    urgentSoundPlayedRef.current = false;
+  }, [currentIndex]);
+
   // Auto-sélection d'une mauvaise réponse quand le temps est écoulé
   useEffect(() => {
     if (!timerEnabled || isAnswered || timeLeft > 0 || timedOutRef.current) return;
     timedOutRef.current = true;
+    playSound('timer-expired', soundEnabled);
     const wrongKey = ANSWER_KEYS.find((k) => k !== question?.answer);
     if (wrongKey) selectAnswer(wrongKey);
   }, [timeLeft]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -100,13 +118,15 @@ export default function QuizScreen() {
     if (isCorrect) {
       consecutiveCorrectRef.current += 1;
       consecutiveWrongRef.current = 0;
-      // Streak à partir de 3 bonnes réponses consécutives
+      // Streak à partir de 3 bonnes réponses consécutives — son streak prioritaire sur correct
       if (consecutiveCorrectRef.current >= 3) {
         setNovaState('streak');
         setNovaMessage(tNova('streak'));
+        playSound('streak', soundEnabled);
       } else {
         setNovaState('correct');
         setNovaMessage(tNova('correct'));
+        playSound('correct', soundEnabled);
       }
     } else {
       consecutiveWrongRef.current += 1;
@@ -119,6 +139,8 @@ export default function QuizScreen() {
         setNovaState('wrong');
         setNovaMessage(tNova('wrong'));
       }
+      // Un seul son wrong, qu'il soit "wrong" ou "encouragement"
+      playSound('wrong', soundEnabled);
     }
 
     setNovaVisible(true);
