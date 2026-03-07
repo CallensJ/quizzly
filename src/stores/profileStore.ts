@@ -9,11 +9,16 @@ interface ProfileState {
   // Préférences persistées séparément du profil — indépendantes des données joueur
   timerEnabled: boolean;
   soundEnabled: boolean;
+  // Mode Admin — accès parent/enseignant protégé par PIN
+  adminPin: string | null;       // null = pas encore défini
+  dailyGoal: number | null;      // objectif journalier (bonnes réponses), null = désactivé
   createProfile: (data: Omit<Profile, 'createdAt'>) => void;
   setLocale: (locale: Locale) => void;
   updateAvatar: (avatarId: string) => void;
   setTimerEnabled: (enabled: boolean) => void;
   setSoundEnabled: (enabled: boolean) => void;
+  setAdminPin: (pin: string) => void;
+  setDailyGoal: (goal: number | null) => void;
   addSession: (session: Omit<QuizSession, 'playedAt'>) => void;
   earnBadge: () => void;
   resetProgress: () => void;
@@ -27,6 +32,8 @@ export const useProfileStore = create<ProfileState>()(
       sessions: [],
       timerEnabled: false,
       soundEnabled: true, // activé par défaut — les enfants apprécient le feedback sonore
+      adminPin: null,
+      dailyGoal: null,
 
       createProfile: (data) =>
         set({
@@ -49,6 +56,10 @@ export const useProfileStore = create<ProfileState>()(
       setTimerEnabled: (enabled) => set({ timerEnabled: enabled }),
 
       setSoundEnabled: (enabled) => set({ soundEnabled: enabled }),
+
+      setAdminPin: (pin) => set({ adminPin: pin }),
+
+      setDailyGoal: (goal) => set({ dailyGoal: goal }),
 
       addSession: (session) =>
         set((state) => ({

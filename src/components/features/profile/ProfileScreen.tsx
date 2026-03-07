@@ -15,7 +15,7 @@
 
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { ArrowLeft, Pencil } from 'lucide-react';
+import { ArrowLeft, Pencil, Lock } from 'lucide-react';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import type { Locale } from '@/i18n/routing';
@@ -313,6 +313,17 @@ export default function ProfileScreen() {
           onClick={() => router.push('/home')}
         >
           {t('ctaBack')}
+        </button>
+
+        {/* ── Espace parent — accès discret en bas de page ──────────────── */}
+        {/* Bouton discret pour ne pas attirer l'attention des enfants */}
+        <button
+          type="button"
+          className="profile__admin-link"
+          onClick={() => router.push('/admin')}
+        >
+          <Lock size={13} strokeWidth={2} aria-hidden="true" />
+          {t('adminLink')}
         </button>
 
       </main>

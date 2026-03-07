@@ -486,6 +486,32 @@
     @include m.focus-ring;
   }
 
+  // ── Lien espace parent — discret, en pied de page ─────────────────────────
+  // Petit et sobre pour ne pas attirer l'attention des enfants
+
+  &__admin-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    align-self: center;
+    font-family: v.$font-primary;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: v.$text-muted;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: v.$spacing-xs;
+    margin-top: v.$spacing-sm;
+    opacity: 0.7;
+    transition: opacity v.$transition-fast;
+
+    &:hover { opacity: 1; }
+    @include m.focus-ring;
+  }
+
   // ── Animations ────────────────────────────────────────────────────────────
 
   @keyframes profile-fade-in {

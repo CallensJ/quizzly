@@ -1,0 +1,539 @@
+/**
+ * src/styles/pages/_admin.scss
+ *
+ * Espace Parent — tableau de bord admin (parent/enseignant).
+ * Design adulte : sobre, structuré, cohérent avec le design system
+ * mais moins coloré que l'interface enfant.
+ *
+ * Comprend aussi les styles du modal PIN (.pin-modal).
+ */
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// ADMIN SCREEN
+// ═══════════════════════════════════════════════════════════════════════════════
+
+.admin {
+  min-height: 100dvh;
+  @include m.flex-column;
+  background: v.$bg;
+
+  // ── Header ─────────────────────────────────────────────────────────────────
+
+  &__header {
+    @include m.gradient-primary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: v.$spacing-lg;
+    padding-top: calc(v.$spacing-lg + env(safe-area-inset-top, 0px));
+    gap: v.$spacing-md;
+  }
+
+  &__back-btn {
+    @include m.flex-center;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    color: v.$white;
+    border-radius: v.$radius-md;
+    transition: background v.$transition-fast;
+
+    &:hover { background: rgba(255, 255, 255, 0.15); }
+    @include m.focus-ring;
+  }
+
+  &__title {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$white;
+    text-align: center;
+    flex: 1;
+  }
+
+  &__header-spacer {
+    width: 40px;
+    flex-shrink: 0;
+  }
+
+  // ── Corps ───────────────────────────────────────────────────────────────────
+
+  &__body {
+    @include m.flex-column;
+    gap: v.$spacing-xl;
+    padding: v.$spacing-xl v.$spacing-lg;
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+  }
+
+  // ── Section générique ───────────────────────────────────────────────────────
+
+  &__section {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-lg;
+    box-shadow: v.$shadow-sm;
+    animation: admin-fade-in 300ms ease both;
+
+    // Section danger — bordure rouge gauche
+    &--danger {
+      border-left: 4px solid v.$error;
+    }
+
+    &:nth-child(1) { animation-delay: 0ms; }
+    &:nth-child(2) { animation-delay: 80ms; }
+    &:nth-child(3) { animation-delay: 160ms; }
+    &:nth-child(4) { animation-delay: 240ms; }
+  }
+
+  &__section-header {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    color: v.$primary;
+  }
+
+  &__section-title {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$foreground;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  &__section-desc {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+    line-height: 1.5;
+  }
+
+  &__empty {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+    text-align: center;
+    padding: v.$spacing-md 0;
+  }
+
+  // ── Stats ───────────────────────────────────────────────────────────────────
+
+  &__stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: v.$spacing-sm;
+  }
+
+  &__stat-card {
+    @include m.flex-column;
+    align-items: center;
+    gap: 4px;
+    background: rgba(v.$primary, 0.06);
+    border-radius: v.$radius-md;
+    padding: v.$spacing-md v.$spacing-sm;
+    text-align: center;
+  }
+
+  &__stat-value {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$primary;
+  }
+
+  &__stat-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: v.$text-muted;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  // ── Objectif journalier ─────────────────────────────────────────────────────
+
+  &__goal-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: v.$spacing-sm;
+  }
+
+  &__goal-btn {
+    min-width: 64px;
+    min-height: 44px;
+    padding: v.$spacing-xs v.$spacing-md;
+    border-radius: v.$radius-md;
+    border: 2px solid #e5e7eb;
+    background: v.$bg;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$text-muted;
+    cursor: pointer;
+    transition:
+      border-color v.$transition-fast,
+      background v.$transition-fast,
+      color v.$transition-fast;
+
+    &:hover {
+      border-color: v.$primary;
+      color: v.$primary;
+    }
+
+    // Option sélectionnée
+    &--active {
+      border-color: v.$primary;
+      background: v.$primary;
+      color: v.$white;
+    }
+
+    @include m.focus-ring;
+  }
+
+  &__save-btn {
+    align-self: flex-start;
+    padding: v.$spacing-sm v.$spacing-lg;
+    @include m.gradient-primary;
+    color: v.$white;
+    border-radius: v.$radius-md;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity v.$transition-fast;
+    min-height: v.$touch-target-min;
+
+    &:hover { opacity: 0.9; }
+    @include m.focus-ring;
+  }
+
+  // ── Bouton secondaire (changer PIN) ────────────────────────────────────────
+
+  &__secondary-btn {
+    align-self: flex-start;
+    padding: v.$spacing-sm v.$spacing-lg;
+    border: 2px solid v.$primary;
+    color: v.$primary;
+    border-radius: v.$radius-md;
+    background: transparent;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    cursor: pointer;
+    min-height: v.$touch-target-min;
+    transition:
+      background v.$transition-fast,
+      color v.$transition-fast;
+
+    &:hover {
+      background: v.$primary;
+      color: v.$white;
+    }
+
+    @include m.focus-ring;
+  }
+
+  // ── Feedback ────────────────────────────────────────────────────────────────
+
+  &__feedback {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    padding: v.$spacing-xs v.$spacing-sm;
+    border-radius: v.$radius-sm;
+
+    &--success {
+      color: v.$success;
+      background: rgba(v.$success, 0.1);
+    }
+  }
+
+  // ── Zone de danger ──────────────────────────────────────────────────────────
+
+  &__danger-item {
+    @include m.flex-column;
+    gap: v.$spacing-sm;
+    padding-top: v.$spacing-md;
+
+    // Séparateur entre les items danger
+    & + & {
+      border-top: 1px solid #f3f4f6;
+    }
+  }
+
+  &__danger-info {
+    @include m.flex-column;
+    gap: 2px;
+  }
+
+  &__danger-label {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$foreground;
+  }
+
+  &__danger-desc {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+    line-height: 1.4;
+  }
+
+  &__danger-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: v.$spacing-xs;
+    align-self: flex-start;
+    padding: v.$spacing-sm v.$spacing-md;
+    border-radius: v.$radius-md;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    cursor: pointer;
+    min-height: v.$touch-target-min;
+    transition:
+      background v.$transition-fast,
+      opacity v.$transition-fast;
+
+    // Bouton d'avertissement (reset) — orange
+    &--warning {
+      background: rgba(v.$accent-orange, 0.1);
+      color: v.$accent-orange;
+      border: 2px solid rgba(v.$accent-orange, 0.3);
+
+      &:hover { background: rgba(v.$accent-orange, 0.2); }
+    }
+
+    // Bouton destructif (delete, confirm) — rouge
+    &--destructive {
+      background: rgba(v.$error, 0.1);
+      color: v.$error;
+      border: 2px solid rgba(v.$error, 0.3);
+
+      &:hover { background: rgba(v.$error, 0.2); }
+    }
+
+    // Bouton annuler — neutre
+    &--cancel {
+      background: v.$bg;
+      color: v.$text-muted;
+      border: 2px solid #e5e7eb;
+
+      &:hover { background: #e5e7eb; }
+    }
+
+    @include m.focus-ring;
+  }
+
+  // Conteneur de la double confirmation
+  &__danger-confirm {
+    @include m.flex-column;
+    gap: v.$spacing-sm;
+  }
+
+  &__danger-confirm-msg {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$error;
+  }
+
+  &__danger-confirm-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: v.$spacing-sm;
+  }
+
+  // ── Animations ──────────────────────────────────────────────────────────────
+
+  @keyframes admin-fade-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// PIN MODAL — overlay + boîte de dialogue
+// ═══════════════════════════════════════════════════════════════════════════════
+
+.pin-modal {
+
+  // Overlay sombre plein écran
+  &__overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(26, 26, 46, 0.7); // v.$foreground avec opacité
+    backdrop-filter: blur(4px);
+    @include m.flex-center;
+    z-index: 1000;
+    padding: v.$spacing-lg;
+    animation: pin-overlay-in 200ms ease both;
+  }
+
+  // Boîte de dialogue centrée
+  & {
+    @include m.flex-column;
+    align-items: center;
+    gap: v.$spacing-md;
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-xl v.$spacing-2xl;
+    box-shadow: v.$shadow-lg;
+    width: 100%;
+    max-width: 360px;
+    animation: pin-modal-in 250ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  }
+
+  // Cercle icône cadenas
+  &__icon {
+    @include m.flex-center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    @include m.gradient-primary;
+    color: v.$white;
+    margin-bottom: v.$spacing-xs;
+  }
+
+  &__title {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$foreground;
+    text-align: center;
+  }
+
+  &__desc {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  // ── 4 cases de saisie ──────────────────────────────────────────────────────
+
+  &__inputs {
+    display: flex;
+    gap: v.$spacing-sm;
+    margin: v.$spacing-sm 0;
+  }
+
+  &__input {
+    width: 56px;
+    height: 64px;
+    text-align: center;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-2xl;
+    font-weight: 800;
+    color: v.$foreground;
+    border: 2px solid #e5e7eb;
+    border-radius: v.$radius-md;
+    background: v.$bg;
+    outline: none;
+    transition:
+      border-color v.$transition-fast,
+      box-shadow v.$transition-fast;
+
+    // Caret masqué — l'UX est centré sur les cases, pas sur le curseur
+    caret-color: transparent;
+
+    &:focus {
+      border-color: v.$primary;
+      box-shadow: 0 0 0 3px rgba(v.$primary, 0.2);
+    }
+
+    // Case remplie — fond violet très doux
+    &:not(:placeholder-shown) {
+      background: rgba(v.$primary, 0.06);
+      border-color: v.$primary;
+    }
+
+    // Case en erreur — rouge
+    &--error {
+      border-color: v.$error !important;
+      background: rgba(v.$error, 0.06) !important;
+      animation: pin-shake 400ms ease;
+    }
+
+    @media (max-width: v.$bp-sm) {
+      width: 48px;
+      height: 56px;
+    }
+  }
+
+  &__error {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$error;
+    text-align: center;
+  }
+
+  // ── Boutons d'action ───────────────────────────────────────────────────────
+
+  &__actions {
+    display: flex;
+    gap: v.$spacing-sm;
+    width: 100%;
+    margin-top: v.$spacing-xs;
+  }
+
+  &__btn {
+    flex: 1;
+    min-height: v.$touch-target-min;
+    border-radius: v.$radius-md;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+      background v.$transition-fast,
+      opacity v.$transition-fast;
+
+    @include m.focus-ring;
+
+    // Bouton annuler
+    &--cancel {
+      background: v.$bg;
+      color: v.$text-muted;
+      border: 2px solid #e5e7eb;
+
+      &:hover { background: #e5e7eb; }
+    }
+
+    // Bouton confirmer — gradient primary
+    &--confirm {
+      @include m.gradient-primary;
+      color: v.$white;
+      border: none;
+
+      &:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+      }
+
+      &:not(:disabled):hover { opacity: 0.9; }
+    }
+  }
+
+  // ── Animations ─────────────────────────────────────────────────────────────
+
+  @keyframes pin-overlay-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @keyframes pin-modal-in {
+    from { opacity: 0; transform: scale(0.9) translateY(10px); }
+    to   { opacity: 1; transform: scale(1) translateY(0); }
+  }
+
+  @keyframes pin-shake {
+    0%, 100% { transform: translateX(0); }
+    20%       { transform: translateX(-8px); }
+    40%       { transform: translateX(8px); }
+    60%       { transform: translateX(-6px); }
+    80%       { transform: translateX(6px); }
+  }
+}
