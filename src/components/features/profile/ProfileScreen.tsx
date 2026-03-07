@@ -14,10 +14,11 @@
  */
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { ArrowLeft, Pencil } from 'lucide-react';
-import { useRouter } from '@/i18n/navigation';
+import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
+import type { Locale } from '@/i18n/routing';
 import type { Category, QuizSession } from '@/types';
 
 // Seeds DiceBear — identiques à OnboardingScreen (même galerie prédéfinie)
@@ -69,6 +70,13 @@ export default function ProfileScreen() {
   const tSidebar = useTranslations('sidebar');
   const tHome = useTranslations('home'); // noms des catégories
   const router = useRouter();
+  const pathname = usePathname();
+  const locale = useLocale() as Locale;
+
+  function toggleLocale() {
+    const next: Locale = locale === 'fr' ? 'en' : 'fr';
+    router.replace(pathname, { locale: next });
+  }
 
   const profile = useProfileStore((s) => s.profile);
   const sessions = useProfileStore((s) => s.sessions);
@@ -261,6 +269,21 @@ export default function ProfileScreen() {
                 <span className="profile__toggle-thumb" />
               </span>
             </label>
+          </div>
+
+          {/* Ligne : langue — bouton toggle FR/EN (même pattern qu'onboarding) */}
+          <div className="profile__setting-row">
+            <div className="profile__setting-info">
+              <p className="profile__setting-name">{t('langLabel')}</p>
+              <p className="profile__setting-desc">{t('langDesc')}</p>
+            </div>
+            <button
+              className="profile__lang-btn"
+              onClick={toggleLocale}
+              aria-label={locale === 'fr' ? 'Switch to English' : 'Passer en français'}
+            >
+              {locale === 'fr' ? '🇬🇧 EN' : '🇫🇷 FR'}
+            </button>
           </div>
         </section>
 

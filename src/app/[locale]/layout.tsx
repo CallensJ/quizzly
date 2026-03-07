@@ -16,6 +16,17 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "Quizzly",
   description: "Application de quiz éducatif pour les 6–11 ans",
+  // ── PWA metadata ──────────────────────────────────────────────────────────
+  // manifest.webmanifest auto-généré par src/app/manifest.ts
+  manifest: '/manifest.webmanifest',
+  appleWebApp: {
+    // Permet l'installation sur iOS (Add to Home Screen)
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Quizzly',
+  },
+  // Couleur de la barre navigateur sur Android Chrome
+  themeColor: '#667eea',
 };
 
 export default async function LocaleLayout({

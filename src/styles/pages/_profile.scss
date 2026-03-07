@@ -433,6 +433,35 @@
     }
   }
 
+  // ── Bouton toggle langue ──────────────────────────────────────────────────
+  // Bouton discret aligné à droite — affiche le flag + code de la langue opposée
+
+  &__lang-btn {
+    flex-shrink: 0;
+    padding: v.$spacing-xs v.$spacing-sm;
+    background: v.$white;
+    border: 2px solid v.$primary;
+    border-radius: v.$radius-md;
+    color: v.$primary;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+      background v.$transition-fast,
+      color v.$transition-fast;
+
+    &:hover {
+      background: v.$primary;
+      color: v.$white;
+    }
+
+    &:focus-visible {
+      outline: 3px solid v.$primary;
+      outline-offset: 2px;
+    }
+  }
+
   // ── Bouton retour ─────────────────────────────────────────────────────────
 
   &__cta-home {

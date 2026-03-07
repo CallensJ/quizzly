@@ -62,7 +62,9 @@
     "timerLabel": "Minuterie",
     "timerDesc": "15 secondes par question",
     "soundLabel": "Sons",
-    "soundDesc": "Effets sonores pendant le quiz"
+    "soundDesc": "Effets sonores pendant le quiz",
+    "langLabel": "Langue",
+    "langDesc": "Changer la langue de l'application"
   },
   "nova": {
     "welcome": "Salut ! Je m'appelle Nova ! 👋",

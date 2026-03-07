@@ -62,7 +62,9 @@
     "timerLabel": "Timer",
     "timerDesc": "15 seconds per question",
     "soundLabel": "Sound effects",
-    "soundDesc": "Audio feedback during the quiz"
+    "soundDesc": "Audio feedback during the quiz",
+    "langLabel": "Language",
+    "langDesc": "Change the app language"
   },
   "nova": {
     "welcome": "Hi there! I'm Nova! 👋",
