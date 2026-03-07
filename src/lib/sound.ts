@@ -32,14 +32,13 @@ let sounds: Partial<Record<SoundId, Howl>> | null = null;
 
 /** Construit toutes les instances Howl. Appelé une seule fois côté client. */
 function buildSounds(): Partial<Record<SoundId, Howl>> {
-  const config: Record<SoundId, { volume: number; loop?: boolean }> = {
-    correct:       { volume: 0.65 },
-    wrong:         { volume: 0.55 },
-    streak:        { volume: 0.75 },
-    badge:         { volume: 0.8 },
+  // Sons disponibles — streak et timer-expired exclus (fichiers audio manquants)
+  const config: Partial<Record<SoundId, { volume: number; loop?: boolean }>> = {
+    correct:        { volume: 0.65 },
+    wrong:          { volume: 0.55 },
+    badge:          { volume: 0.8 },
     'timer-urgent': { volume: 0.5 },
-    'timer-expired': { volume: 0.6 },
-    finish:        { volume: 0.7 },
+    finish:         { volume: 0.7 },
   };
 
   return Object.fromEntries(

@@ -9,7 +9,7 @@
  * Auto-disparition : après `duration` ms si onHide fourni.
  * duration=0 → Nova reste visible jusqu'à unmount (ex: écran résultats).
  *
- * TODO : remplacer les PNG par des SVG pour un fond transparent propre.
+ * SVG utilisés pour un fond transparent propre et une meilleure netteté sur tous les écrans.
  */
 
 import Image from 'next/image';
@@ -39,14 +39,14 @@ interface NovaProps {
 // ── Mapping état → image ───────────────────────────────────────────────────
 
 const STATE_IMAGES: Record<NovaState, string> = {
-  idle:          '/mascotte/mascotte-idle.png',
-  welcome:       '/mascotte/mascotte-welcome.png',
-  correct:       '/mascotte/mascotte-correct.png',
-  streak:        '/mascotte/mascotte-streak.png',
-  wrong:         '/mascotte/mascotte-wrong.png',
-  encouragement: '/mascotte/mascotte-encouragement.png',
-  badge:         '/mascotte/mascotte-badge.png',
-  finish:        '/mascotte/mascotte-finish.png',
+  idle:          '/mascotte/mascotte-idle.svg',
+  welcome:       '/mascotte/mascotte-welcome.svg',
+  correct:       '/mascotte/mascotte-correct.svg',
+  streak:        '/mascotte/mascotte-streak.svg',
+  wrong:         '/mascotte/mascotte-wrong.svg',
+  encouragement: '/mascotte/mascotte-encouragement.svg',
+  badge:         '/mascotte/mascotte-badge.svg',
+  finish:        '/mascotte/mascotte-finish.svg',
 };
 
 // ── Composant ─────────────────────────────────────────────────────────────
@@ -67,6 +67,7 @@ export default function Nova({ state, message, visible, onHide, duration = 2500 
       <div className="nova__bubble">{message}</div>
 
       {/* alt vide — aria-label sur le conteneur suffit */}
+      {/* unoptimized requis pour SVG avec next/image (optimisation désactivée par Next.js pour XSS) */}
       <Image
         src={STATE_IMAGES[state]}
         alt=""
@@ -74,6 +75,7 @@ export default function Nova({ state, message, visible, onHide, duration = 2500 
         height={110}
         className="nova__img"
         priority
+        unoptimized
       />
     </div>
   );
