@@ -72,6 +72,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Même version Node que le job 1 — indispensable pour que npm ci soit compatible
+      # avec le package-lock.json généré par npm 11 (Node 24)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+
       # L'action officielle Cypress gère automatiquement :
       #   - l'installation des dépendances
       #   - le démarrage du serveur (start)
