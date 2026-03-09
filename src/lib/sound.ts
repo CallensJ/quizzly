@@ -13,7 +13,7 @@
  *
  * Sons attendus :
  *   correct, wrong, streak, badge, timer-urgent, finish
- *   timer-expired → mapped sur timer-end-bell.mp3
+ *   timer-expired → timer-expired.mp3
  */
 
 import { Howl } from 'howler';
@@ -40,7 +40,7 @@ function buildSounds(): Partial<Record<SoundId, Howl>> {
     wrong:            { volume: 0.55 },
     badge:            { volume: 0.8 },
     'timer-urgent':   { volume: 0.5 },
-    'timer-expired':  { volume: 0.7, file: 'timer-end-bell' }, // fichier : timer-end-bell.mp3
+    'timer-expired':  { volume: 0.7 }, // fichier : timer-expired.mp3
     finish:           { volume: 0.7 },
   };
 
