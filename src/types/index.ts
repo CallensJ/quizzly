@@ -14,7 +14,7 @@ export type AgeGroup = '6-9' | '10-13';
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
 // Identifiants de catégorie — correspondent aux noms de fichiers JSON (data/questions/{lang}/{category}.json)
-export type Category = 'sciences' | 'histoire';
+export type Category = 'sciences' | 'histoire' | 'heroes';
 
 export type Locale = 'en' | 'fr';
 

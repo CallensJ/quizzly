@@ -301,6 +301,606 @@
         "D": "Vache"
       },
       "answer": "C"
+    },
+    {
+    "id": "sci-medium-001",
+    "difficulty": "medium",
+    "question": "Quel organe pompe le sang ?",
+    "options": {
+    "A": "Poumon",
+    "B": "Cœur",
+    "C": "Estomac",
+    "D": "Foie"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-medium-002",
+    "difficulty": "medium",
+    "question": "Quel animal a une carapace dure ?",
+    "options": {
+    "A": "Tortue",
+    "B": "Aigle",
+    "C": "Dauphin",
+    "D": "Renard"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-medium-003",
+    "difficulty": "medium",
+    "question": "Quelle partie d'une plante fait la photosynthèse ?",
+    "options": {
+    "A": "Racine",
+    "B": "Fleur",
+    "C": "Feuille",
+    "D": "Tige"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-medium-004",
+    "difficulty": "medium",
+    "question": "Quelle planète est la plus proche du Soleil ?",
+    "options": {
+    "A": "Terre",
+    "B": "Mars",
+    "C": "Mercure",
+    "D": "Jupiter"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-medium-005",
+    "difficulty": "medium",
+    "question": "Le vent est causé par quoi ?",
+    "options": {
+    "A": "Mouvements de l'air",
+    "B": "Courants marins",
+    "C": "Croissance des plantes",
+    "D": "Soleil éteint"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-medium-006",
+    "difficulty": "medium",
+    "question": "Qu'est-ce qu'un solide qui fond devient ?",
+    "options": {
+    "A": "Gaz",
+    "B": "Liquide",
+    "C": "Autre solide",
+    "D": "Plasma"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-medium-007",
+    "difficulty": "medium",
+    "question": "Quel gaz les plantes absorbent ?",
+    "options": {
+    "A": "Oxygène",
+    "B": "Azote",
+    "C": "Dioxyde de carbone",
+    "D": "Hydrogène"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-medium-008",
+    "difficulty": "medium",
+    "question": "Quel sens utilise-t-on pour écouter ?",
+    "options": {
+    "A": "Vue",
+    "B": "Ouïe",
+    "C": "Goût",
+    "D": "Odorat"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-medium-009",
+    "difficulty": "medium",
+    "question": "Quel organe aide à respirer ?",
+    "options": {
+    "A": "Poumons",
+    "B": "Cœur",
+    "C": "Estomac",
+    "D": "Peau"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-medium-010",
+    "difficulty": "medium",
+    "question": "Quel animal pond des œufs et vole ?",
+    "options": {
+    "A": "Chien",
+    "B": "Poisson",
+    "C": "Oiseau",
+    "D": "Chat"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-medium-011",
+    "difficulty": "medium",
+    "question": "La lumière voyage plus vite que quoi ?",
+    "options": {
+    "A": "Le son",
+    "B": "La pensée",
+    "C": "Le vent",
+    "D": "La glace"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-medium-012",
+    "difficulty": "medium",
+    "question": "Quelle planète est appelée la planète rouge ?",
+    "options": {
+    "A": "Vénus",
+    "B": "Mars",
+    "C": "Saturne",
+    "D": "Mercure"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-medium-013",
+    "difficulty": "medium",
+    "question": "Quel liquide transporte les nutriments dans le corps ?",
+    "options": {
+    "A": "Lait",
+    "B": "Sang",
+    "C": "Urine",
+    "D": "Salive"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-medium-014",
+    "difficulty": "medium",
+    "question": "Quel animal est un mammifère marin ?",
+    "options": {
+    "A": "Requin",
+    "B": "Dauphin",
+    "C": "Pieuvre",
+    "D": "Étoile de mer"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-medium-015",
+    "difficulty": "medium",
+    "question": "La pluie est eau sous quelle forme ?",
+    "options": {
+    "A": "Solide",
+    "B": "Gaz",
+    "C": "Liquide",
+    "D": "Plasma"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-medium-016",
+    "difficulty": "medium",
+    "question": "Quel organe digère la nourriture ?",
+    "options": {
+    "A": "Cerveau",
+    "B": "Estomac",
+    "C": "Rein",
+    "D": "Poumon"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-medium-017",
+    "difficulty": "medium",
+    "question": "Quel phénomène cause un arc-en-ciel ?",
+    "options": {
+    "A": "Réflexion du son",
+    "B": "Réfraction de la lumière",
+    "C": "Magnétisme",
+    "D": "Vents forts"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-medium-018",
+    "difficulty": "medium",
+    "question": "Quel animal a des écailles et respire dans l'eau ?",
+    "options": {
+    "A": "Poisson",
+    "B": "Chien",
+    "C": "Oiseau",
+    "D": "Lapin"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-medium-019",
+    "difficulty": "medium",
+    "question": "Quel élément est nécessaire pour brûler ?",
+    "options": {
+    "A": "Eau",
+    "B": "Air (oxygène)",
+    "C": "Glaçon",
+    "D": "Terre"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-medium-020",
+    "difficulty": "medium",
+    "question": "Que mesure un thermomètre ?",
+    "options": {
+    "A": "Vitesse",
+    "B": "Température",
+    "C": "Pression",
+    "D": "Distance"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-medium-021",
+    "difficulty": "medium",
+    "question": "Quelle partie de la graine devient la plante ?",
+    "options": {
+    "A": "Feuille",
+    "B": "Graine",
+    "C": "Embryon",
+    "D": "Fleur"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-medium-022",
+    "difficulty": "medium",
+    "question": "Quel corps céleste éclaire la nuit sur Terre ?",
+    "options": {
+    "A": "Lune",
+    "B": "Soleil",
+    "C": "Mars",
+    "D": "Étoile filante"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-medium-023",
+    "difficulty": "medium",
+    "question": "Quelle force nous garde au sol ?",
+    "options": {
+    "A": "Frottement",
+    "B": "Magnétisme",
+    "C": "Gravité",
+    "D": "Pression"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-medium-024",
+    "difficulty": "medium",
+    "question": "Quel liquide protège la plante dans ses feuilles ?",
+    "options": {
+    "A": "Sève",
+    "B": "Sang",
+    "C": "Lait",
+    "D": "Urine"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-medium-025",
+    "difficulty": "medium",
+    "question": "Qu'est-ce qu'un habitat naturel ?",
+    "options": {
+    "A": "Maison humaine",
+    "B": "Environnement d'un animal",
+    "C": "Magasin",
+    "D": "Bibliothèque"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-001",
+    "difficulty": "hard",
+    "question": "Quel système transporte l'oxygène dans le corps ?",
+    "options": {
+    "A": "Digestif",
+    "B": "Circulatoire",
+    "C": "Nerveux",
+    "D": "Squelettique"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-002",
+    "difficulty": "hard",
+    "question": "Quelle classification regroupe mammifères et oiseaux ?",
+    "options": {
+    "A": "Règne",
+    "B": "Ordre",
+    "C": "Classe",
+    "D": "Famille"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-hard-003",
+    "difficulty": "hard",
+    "question": "Quel organe filtre le sang ?",
+    "options": {
+    "A": "Foie",
+    "B": "Rein",
+    "C": "Cœur",
+    "D": "Poumon"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-004",
+    "difficulty": "hard",
+    "question": "Quelle partie de la fleur contient le pollen ?",
+    "options": {
+    "A": "Pistil",
+    "B": "Sépale",
+    "C": "Étamine",
+    "D": "Tige"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-hard-005",
+    "difficulty": "hard",
+    "question": "Quel est l'état d'un gaz comprimé qui devient liquide ?",
+    "options": {
+    "A": "Condensation",
+    "B": "Évaporation",
+    "C": "Sublimation",
+    "D": "Fusion"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-hard-006",
+    "difficulty": "hard",
+    "question": "Quelle planète a des anneaux visibles ?",
+    "options": {
+    "A": "Mars",
+    "B": "Saturne",
+    "C": "Venus",
+    "D": "Mercure"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-007",
+    "difficulty": "hard",
+    "question": "Quel os protège le cerveau ?",
+    "options": {
+    "A": "Côtes",
+    "B": "Crâne",
+    "C": "Femur",
+    "D": "Vertèbre"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-008",
+    "difficulty": "hard",
+    "question": "Quel gaz est le plus présent dans l'air ?",
+    "options": {
+    "A": "Oxygène",
+    "B": "Dioxyde de carbone",
+    "C": "Azote",
+    "D": "Argon"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-hard-009",
+    "difficulty": "hard",
+    "question": "Comment s'appelle la force entre charges opposées ?",
+    "options": {
+    "A": "Réaction",
+    "B": "Attraction",
+    "C": "Frottement",
+    "D": "Inertie"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-010",
+    "difficulty": "hard",
+    "question": "Quel instrument mesure la pression atmosphérique ?",
+    "options": {
+    "A": "Thermomètre",
+    "B": "Baromètre",
+    "C": "Hygromètre",
+    "D": "Altimètre"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-011",
+    "difficulty": "hard",
+    "question": "Quelle molécule est l'unité de l'ADN ?",
+    "options": {
+    "A": "Nucléotide",
+    "B": "Acide aminé",
+    "C": "Glucide",
+    "D": "Lipide"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-hard-012",
+    "difficulty": "hard",
+    "question": "Quelle est la vitesse du son approximative dans l'air ?",
+    "options": {
+    "A": "340 m/s",
+    "B": "3 m/s",
+    "C": "3400 m/s",
+    "D": "34 m/s"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-hard-013",
+    "difficulty": "hard",
+    "question": "Comment s'appelle le cycle de l'eau ?",
+    "options": {
+    "A": "Hydratation",
+    "B": "Cycle hydrologique",
+    "C": "Photosynthèse",
+    "D": "Érosion"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-014",
+    "difficulty": "hard",
+    "question": "Quel type de roche vient du refroidissement du magma ?",
+    "options": {
+    "A": "Sédimentaire",
+    "B": "Métamorphique",
+    "C": "Ignée (magmatique)",
+    "D": "Fossile"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-hard-015",
+    "difficulty": "hard",
+    "question": "Quel organe produit la bile ?",
+    "options": {
+    "A": "Pancréas",
+    "B": "Foie",
+    "C": "Estomac",
+    "D": "Vésicule biliaire"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-016",
+    "difficulty": "hard",
+    "question": "Quel phénomène explique les saisons ?",
+    "options": {
+    "A": "Distance variable Terre-Soleil",
+    "B": "Inclinaison de l'axe terrestre",
+    "C": "Activité solaire uniquement",
+    "D": "Lune proche"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-017",
+    "difficulty": "hard",
+    "question": "Quel ion donne une solution acide ?",
+    "options": {
+    "A": "H+",
+    "B": "OH-",
+    "C": "Na+",
+    "D": "Cl-"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-hard-018",
+    "difficulty": "hard",
+    "question": "Quel terme décrit la variation héréditaire ?",
+    "options": {
+    "A": "Mutation",
+    "B": "Évaporation",
+    "C": "Photosynthèse",
+    "D": "Condensation"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-hard-019",
+    "difficulty": "hard",
+    "question": "Quel organe réagit aux signaux et contrôle le corps ?",
+    "options": {
+    "A": "Poumon",
+    "B": "Cerveau",
+    "C": "Cœur",
+    "D": "Rein"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-020",
+    "difficulty": "hard",
+    "question": "Comment s'appelle la transformation solide → gaz sans liquide ?",
+    "options": {
+    "A": "Fusion",
+    "B": "Sublimation",
+    "C": "Condensation",
+    "D": "Évaporation"
+    },
+    "answer": "B"
+    },
+    {
+    "id": "sci-hard-021",
+    "difficulty": "hard",
+    "question": "Quel type d'énergie produit une éolienne ?",
+    "options": {
+    "A": "Thermique",
+    "B": "Chimique",
+    "C": "Électrique via énergie mécanique",
+    "D": "Nulle"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-hard-022",
+    "difficulty": "hard",
+    "question": "Quel nombre décrit la masse d'un atome principalement ?",
+    "options": {
+    "A": "Nombre d'électrons",
+    "B": "Nombre de protons",
+    "C": "Nombre de nucléons (protons+neutrons)",
+    "D": "Nombre de molécules"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-hard-023",
+    "difficulty": "hard",
+    "question": "Quel organe stocke l'urine avant évacuation ?",
+    "options": {
+    "A": "Vessie",
+    "B": "Foie",
+    "C": "Estomac",
+    "D": "Rein"
+    },
+    "answer": "A"
+    },
+    {
+    "id": "sci-hard-024",
+    "difficulty": "hard",
+    "question": "Quelle couche protège la Terre des météores ?",
+    "options": {
+    "A": "Lithosphère",
+    "B": "Troposphère",
+    "C": "Mésosphère",
+    "D": "Thermosphère"
+    },
+    "answer": "C"
+    },
+    {
+    "id": "sci-hard-025",
+    "difficulty": "hard",
+    "question": "Quel élément forme l'eau avec l'oxygène ?",
+    "options": {
+    "A": "Carbone",
+    "B": "Hydrogène",
+    "C": "Azote",
+    "D": "Calcium"
+    },
+    "answer": "B"
     }
   ]
 }

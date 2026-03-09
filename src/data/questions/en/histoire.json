@@ -1202,6 +1202,366 @@
         "D": "Mongol Empire"
       },
       "answer": "B"
+    },
+    {
+      "id": "hist-easy-011",
+      "difficulty": "easy",
+      "question": "Who built pyramids in ancient Egypt?",
+      "options": {
+        "A": "Romans",
+        "B": "Egyptians",
+        "C": "Vikings",
+        "D": "Aztecs"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-012",
+      "difficulty": "easy",
+      "question": "Who sailed across the Atlantic in 1492?",
+      "options": {
+        "A": "A scientist",
+        "B": "An explorer",
+        "C": "A farmer",
+        "D": "A king"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-013",
+      "difficulty": "easy",
+      "question": "What did people use to send messages long ago?",
+      "options": {
+        "A": "Email",
+        "B": "Smoke signals",
+        "C": "Phone",
+        "D": "Television"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-014",
+      "difficulty": "easy",
+      "question": "What ancient people lived in Rome long ago?",
+      "options": {
+        "A": "Romans",
+        "B": "Incas",
+        "C": "Chinese",
+        "D": "Egyptians"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-015",
+      "difficulty": "easy",
+      "question": "What invention made printing books easier?",
+      "options": {
+        "A": "Wheel",
+        "B": "Printing press",
+        "C": "Light bulb",
+        "D": "Telephone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-016",
+      "difficulty": "easy",
+      "question": "Who explored the Pacific and islands long ago?",
+      "options": {
+        "A": "Explorers",
+        "B": "Farmers",
+        "C": "Teachers",
+        "D": "Builders"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-017",
+      "difficulty": "easy",
+      "question": "Which ancient people built stone forts in Britain?",
+      "options": {
+        "A": "Romans",
+        "B": "Celts",
+        "C": "Aztecs",
+        "D": "Mongols"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-018",
+      "difficulty": "easy",
+      "question": "What did early farmers grow in fields?",
+      "options": {
+        "A": "Computers",
+        "B": "Crops",
+        "C": "Airplanes",
+        "D": "Cars"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-019",
+      "difficulty": "easy",
+      "question": "Who used boats to explore new lands?",
+      "options": {
+        "A": "Explorers",
+        "B": "Accountants",
+        "C": "Singers",
+        "D": "Doctors"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-020",
+      "difficulty": "easy",
+      "question": "Which ancient people lived in Mesopotamia?",
+      "options": {
+        "A": "Sumerians",
+        "B": "Inuits",
+        "C": "Maya",
+        "D": "Zulu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-021",
+      "difficulty": "easy",
+      "question": "What was used to travel before cars?",
+      "options": {
+        "A": "Horses and carts",
+        "B": "Spaceships",
+        "C": "Trains only",
+        "D": "Bicycles only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-022",
+      "difficulty": "easy",
+      "question": "Who invented the light bulb idea?",
+      "options": {
+        "A": "A famous inventor",
+        "B": "A king",
+        "C": "A chef",
+        "D": "A painter"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-023",
+      "difficulty": "easy",
+      "question": "What did ancient sailors use to guide ships?",
+      "options": {
+        "A": "Stars",
+        "B": "Cars",
+        "C": "Internet",
+        "D": "Radio"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-024",
+      "difficulty": "easy",
+      "question": "Which invention helped send messages quickly long ago?",
+      "options": {
+        "A": "Telegraph",
+        "B": "Steam engine",
+        "C": "Wheel",
+        "D": "Camera"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-025",
+      "difficulty": "easy",
+      "question": "Who crossed deserts and traded goods historically?",
+      "options": {
+        "A": "Merchants",
+        "B": "Pilots",
+        "C": "Astronauts",
+        "D": "Scientists"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-026",
+      "difficulty": "easy",
+      "question": "What did ancients use to build strong roads?",
+      "options": {
+        "A": "Stone",
+        "B": "Plastic",
+        "C": "Glass",
+        "D": "Paper"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-027",
+      "difficulty": "easy",
+      "question": "Which people used hieroglyphs to write?",
+      "options": {
+        "A": "Romans",
+        "B": "Egyptians",
+        "C": "Greeks",
+        "D": "Vikings"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-028",
+      "difficulty": "easy",
+      "question": "What did explorers map for others?",
+      "options": {
+        "A": "New lands",
+        "B": "Songs",
+        "C": "Recipes",
+        "D": "Paintings"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-029",
+      "difficulty": "easy",
+      "question": "Who were ancient warriors on horseback often called?",
+      "options": {
+        "A": "Knights",
+        "B": "Pilots",
+        "C": "Engineers",
+        "D": "Sailors"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-030",
+      "difficulty": "easy",
+      "question": "Which ancient civilization built Machu Picchu?",
+      "options": {
+        "A": "Inca",
+        "B": "Roman",
+        "C": "Greek",
+        "D": "Egyptian"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-031",
+      "difficulty": "easy",
+      "question": "What invention changed travel with steam power?",
+      "options": {
+        "A": "Car",
+        "B": "Steam engine",
+        "C": "Bicycle",
+        "D": "Plane"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-032",
+      "difficulty": "easy",
+      "question": "Who explored parts of Asia by land historically?",
+      "options": {
+        "A": "Traders and explorers",
+        "B": "Modern tourists",
+        "C": "Astronauts",
+        "D": "Farmers"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-033",
+      "difficulty": "easy",
+      "question": "What ancient people built the Great Wall of China?",
+      "options": {
+        "A": "Romans",
+        "B": "Chinese",
+        "C": "Mayas",
+        "D": "Persians"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-034",
+      "difficulty": "easy",
+      "question": "What did early people use to hunt animals?",
+      "options": {
+        "A": "Computers",
+        "B": "Spears and bows",
+        "C": "Cars",
+        "D": "Phones"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-035",
+      "difficulty": "easy",
+      "question": "Who discovered new sea routes long ago?",
+      "options": {
+        "A": "Explorers",
+        "B": "Bakers",
+        "C": "Writers",
+        "D": "Painters"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-036",
+      "difficulty": "easy",
+      "question": "What did inventors create to fly the first airplanes?",
+      "options": {
+        "A": "Hot air only",
+        "B": "Engines and wings",
+        "C": "Balloons only",
+        "D": "Computers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-037",
+      "difficulty": "easy",
+      "question": "Which ancient Greeks are known for myths and gods?",
+      "options": {
+        "A": "Romans",
+        "B": "Greeks",
+        "C": "Aztecs",
+        "D": "Celts"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-easy-038",
+      "difficulty": "easy",
+      "question": "What tool helped sailors find north?",
+      "options": {
+        "A": "Compass",
+        "B": "Television",
+        "C": "Camera",
+        "D": "Clock"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-039",
+      "difficulty": "easy",
+      "question": "Who made maps for sea travel long ago?",
+      "options": {
+        "A": "Mapmakers",
+        "B": "Chefs",
+        "C": "Actors",
+        "D": "Gardeners"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-easy-040",
+      "difficulty": "easy",
+      "question": "What invention helped farmers increase crops?",
+      "options": {
+        "A": "Plow",
+        "B": "Telephone",
+        "C": "Radio",
+        "D": "Telegraph"
+      },
+      "answer": "A"
     }
   ]
 }

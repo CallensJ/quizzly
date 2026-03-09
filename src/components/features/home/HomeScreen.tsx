@@ -4,7 +4,7 @@
  * src/components/features/home/HomeScreen.tsx
  *
  * Écran d'accueil post-onboarding.
- * Permet de choisir une catégorie (sciences / histoire) et une difficulté,
+ * Permet de choisir une catégorie (sciences / histoire / heroes) et une difficulté,
  * puis de lancer une partie via le bouton "Jouer !".
  *
  * Flux : sélection catégorie + difficulté → chargement JSON → startQuiz() → /quiz
@@ -13,13 +13,13 @@
 
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { Atom, Landmark, User } from 'lucide-react';
+import { Atom, Landmark, Swords, User } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
 import type { Category, Difficulty, Locale, QuestionFile } from '@/types';
 
-// Métadonnées des catégories MVP 1
+// Métadonnées des catégories — 1 entrée par fichier JSON disponible
 const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = [
   {
     id: 'sciences',
@@ -32,6 +32,11 @@ const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = 
     icon: <Landmark size={40} strokeWidth={1.5} />,
     colorVar: 'var(--color-cat-history)',
   },
+  {
+    id: 'heroes',
+    icon: <Swords size={40} strokeWidth={1.5} />,
+    colorVar: 'var(--color-cat-heroes)',
+  },
 ];
 
 const DIFFICULTIES: Difficulty[] = ['easy', 'medium', 'hard'];
@@ -42,10 +47,12 @@ const QUESTION_LOADERS: Record<Locale, Record<Category, () => Promise<{ default:
   fr: {
     sciences: () => import('@/data/questions/fr/sciences.json') as Promise<{ default: QuestionFile }>,
     histoire: () => import('@/data/questions/fr/histoire.json') as Promise<{ default: QuestionFile }>,
+    heroes:   () => import('@/data/questions/fr/heroes.json')  as Promise<{ default: QuestionFile }>,
   },
   en: {
     sciences: () => import('@/data/questions/en/sciences.json') as Promise<{ default: QuestionFile }>,
     histoire: () => import('@/data/questions/en/histoire.json') as Promise<{ default: QuestionFile }>,
+    heroes:   () => import('@/data/questions/en/heroes.json')  as Promise<{ default: QuestionFile }>,
   },
 };
 

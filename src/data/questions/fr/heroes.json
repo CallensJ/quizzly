@@ -1,0 +1,906 @@
+{
+"category": "heroes",
+"lang": "fr",
+"questions": [
+{
+"id": "hero-easy-001",
+"difficulty": "easy",
+"question": "Qui garde un château souvent ?",
+"options": {
+"A": "Chevalier",
+"B": "Paysan",
+"C": "Boulanger",
+"D": "Peintre"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-002",
+"difficulty": "easy",
+"question": "Qui navigue sur un bateau large ?",
+"options": {
+"A": "Pirate",
+"B": "Bibliothécaire",
+"C": "Docteur",
+"D": "Jardinier"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-003",
+"difficulty": "easy",
+"question": "Quel animal crache du feu dans les histoires ?",
+"options": {
+"A": "Dragon",
+"B": "Chien",
+"C": "Cheval",
+"D": "Mouton"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-004",
+"difficulty": "easy",
+"question": "Qui lance des sorts en général ?",
+"options": {
+"A": "Sorcier",
+"B": "Forgeron",
+"C": "Fermier",
+"D": "Marin"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-005",
+"difficulty": "easy",
+"question": "Qui porte une épée brillante ?",
+"options": {
+"A": "Chevalier",
+"B": "Poète",
+"C": "Cuisinier",
+"D": "Tailleur"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-006",
+"difficulty": "easy",
+"question": "Qui cherche un trésor sur une île ?",
+"options": {
+"A": "Pirate",
+"B": "Médecin",
+"C": "Facteur",
+"D": "Gentilhomme"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-007",
+"difficulty": "easy",
+"question": "Quel objet protège la tête du chevalier ?",
+"options": {
+"A": "Bouclier",
+"B": "Casque",
+"C": "Bottes",
+"D": "Gants"
+},
+"answer": "B"
+},
+{
+"id": "hero-easy-008",
+"difficulty": "easy",
+"question": "Qui aide les gens avec des pouvoirs ?",
+"options": {
+"A": "Super-héros",
+"B": "Coiffeur",
+"C": "Vendeur",
+"D": "Mineur"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-009",
+"difficulty": "easy",
+"question": "Qui navigue avec une carte au trésor ?",
+"options": {
+"A": "Boulangère",
+"B": "Pirate",
+"C": "Professeur",
+"D": "Gardien"
+},
+"answer": "B"
+},
+{
+"id": "hero-easy-010",
+"difficulty": "easy",
+"question": "Quel héros porte une cape souvent ?",
+"options": {
+"A": "Magicien",
+"B": "Livreur",
+"C": "Charpentier",
+"D": "Banquier"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-011",
+"difficulty": "easy",
+"question": "Qui protège la ville la nuit ?",
+"options": {
+"A": "Gardien",
+"B": "Chevalier",
+"C": "Pirate",
+"D": "Sage"
+},
+"answer": "B"
+},
+{
+"id": "hero-easy-012",
+"difficulty": "easy",
+"question": "Qui grimpe les voiles du navire ?",
+"options": {
+"A": "Marin",
+"B": "Forgeron",
+"C": "Peintre",
+"D": "Tisserand"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-013",
+"difficulty": "easy",
+"question": "Qui bat les monstres dans les contes ?",
+"options": {
+"A": "Héros",
+"B": "Biscuit",
+"C": "Chaise",
+"D": "Rivière"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-014",
+"difficulty": "easy",
+"question": "Quel instrument un barde joue-t-il ?",
+"options": {
+"A": "Luth",
+"B": "Serpe",
+"C": "Marteau",
+"D": "Clé"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-015",
+"difficulty": "easy",
+"question": "Qui suit une carte et une boussole ?",
+"options": {
+"A": "Aventurier",
+"B": "Couturier",
+"C": "Jardinier",
+"D": "Livreur"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-016",
+"difficulty": "easy",
+"question": "Quel animal protège parfois un trésor ?",
+"options": {
+"A": "Dragon",
+"B": "Lapin",
+"C": "Chèvre",
+"D": "Oiseau"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-017",
+"difficulty": "easy",
+"question": "Qui suit des indices pour un trésor ?",
+"options": {
+"A": "Détective",
+"B": "Pirate",
+"C": "Boulanger",
+"D": "Réparateur"
+},
+"answer": "B"
+},
+{
+"id": "hero-easy-018",
+"difficulty": "easy",
+"question": "Quel objet protège du feu magique ?",
+"options": {
+"A": "Cape anti-feu",
+"B": "Tasse",
+"C": "Table",
+"D": "Chaise"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-019",
+"difficulty": "easy",
+"question": "Qui sait lire d'anciennes cartes ?",
+"options": {
+"A": "Cartographe",
+"B": "Boulanger",
+"C": "Chanteur",
+"D": "Boucher"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-020",
+"difficulty": "easy",
+"question": "Qui part à la quête d'une île perdue ?",
+"options": {
+"A": "Aventurier",
+"B": "Coiffeur",
+"C": "Écrivain",
+"D": "Mécanicien"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-021",
+"difficulty": "easy",
+"question": "Quel héros protège les faibles ?",
+"options": {
+"A": "Chevalier",
+"B": "Voleur",
+"C": "Contrebandier",
+"D": "Marchand"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-022",
+"difficulty": "easy",
+"question": "Quel objet aide à parler aux animaux ?",
+"options": {
+"A": "Amulette",
+"B": "Balai",
+"C": "Chaise",
+"D": "Livre de recettes"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-023",
+"difficulty": "easy",
+"question": "Qui défie les vagues pour explorer ?",
+"options": {
+"A": "Marin",
+"B": "Charpentier",
+"C": "Couturier",
+"D": "Menuisier"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-024",
+"difficulty": "easy",
+"question": "Quel héros porte souvent une épée ?",
+"options": {
+"A": "Chevalier",
+"B": "Poète",
+"C": "Apiculteur",
+"D": "Jongleur"
+},
+"answer": "A"
+},
+{
+"id": "hero-easy-025",
+"difficulty": "easy",
+"question": "Qui défend la cité contre des monstres ?",
+"options": {
+"A": "Gardien",
+"B": "Cuisinier",
+"C": "Tisserand",
+"D": "Pêcheur"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-001",
+"difficulty": "medium",
+"question": "Quel est le code d'honneur d'un chevalier ?",
+"options": {
+"A": "Voler",
+"B": "Courage et loyauté",
+"C": "Ignorer les autres",
+"D": "Mentir"
+},
+"answer": "B"
+},
+{
+"id": "hero-medium-002",
+"difficulty": "medium",
+"question": "Que cherchent souvent les pirates en mer ?",
+"options": {
+"A": "Trésors enfouis",
+"B": "Jardins",
+"C": "Écoles",
+"D": "Bibliothèques"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-003",
+"difficulty": "medium",
+"question": "Quel outil un cartographe utilise-t-il ?",
+"options": {
+"A": "Boussole",
+"B": "Fourche",
+"C": "Microphone",
+"D": "Telescope"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-004",
+"difficulty": "medium",
+"question": "Quel héros protège le royaume la nuit ?",
+"options": {
+"A": "Bouffon",
+"B": "Chevalier",
+"C": "Forgeron",
+"D": "Marchand"
+},
+"answer": "B"
+},
+{
+"id": "hero-medium-005",
+"difficulty": "medium",
+"question": "Quelle créature garde souvent un trésor ?",
+"options": {
+"A": "Dragon",
+"B": "Mouton",
+"C": "Singe",
+"D": "Chèvre"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-006",
+"difficulty": "medium",
+"question": "Quel pouvoir protège contre la magie noire ?",
+"options": {
+"A": "Amulette de protection",
+"B": "Bouteille d'eau",
+"C": "Clé",
+"D": "Tasse"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-007",
+"difficulty": "medium",
+"question": "Que fait un éclaireur dans une quête ?",
+"options": {
+"A": "Explorer avant le groupe",
+"B": "Prendre le trésor",
+"C": "Cuisiner pour tous",
+"D": "Dormir"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-008",
+"difficulty": "medium",
+"question": "Quel rôle tient un barde parmi les aventuriers ?",
+"options": {
+"A": "Chanteur et conteur",
+"B": "Forgeron",
+"C": "Charpentier",
+"D": "Guerrier uniquement"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-009",
+"difficulty": "medium",
+"question": "Quelle arme un pirate préfère-t-il souvent ?",
+"options": {
+"A": "Sabre",
+"B": "Épée de cérémonie",
+"C": "Arc",
+"D": "Fourchette"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-010",
+"difficulty": "medium",
+"question": "Quel danger évite un navigateur avec une carte ?",
+"options": {
+"A": "Rochers cachés",
+"B": "Tempêtes seulement",
+"C": "Sables",
+"D": "Plantes"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-011",
+"difficulty": "medium",
+"question": "Quel test sert à reconnaître une épée forgée ?",
+"options": {
+"A": "Son poids",
+"B": "Qualité de l'acier",
+"C": "Couleur du four",
+"D": "Taille de la garde"
+},
+"answer": "B"
+},
+{
+"id": "hero-medium-012",
+"difficulty": "medium",
+"question": "Comment un magicien concentre-t-il son pouvoir ?",
+"options": {
+"A": "Par la méditation",
+"B": "En courant",
+"C": "En criant",
+"D": "En dormant"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-013",
+"difficulty": "medium",
+"question": "Quel paysage attire souvent les aventuriers ?",
+"options": {
+"A": "Forêt mystérieuse",
+"B": "Autoroute",
+"C": "Usine",
+"D": "Parking"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-014",
+"difficulty": "medium",
+"question": "Quel objet révèle une carte secrète ?",
+"options": {
+"A": "Lanterne magique",
+"B": "Chaise",
+"C": "Planche",
+"D": "Bouteille"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-015",
+"difficulty": "medium",
+"question": "Que protège un bouclier enchanté ?",
+"options": {
+"A": "Seuls vêtements",
+"B": "Attaques et sorts",
+"C": "La faim",
+"D": "Le sommeil"
+},
+"answer": "B"
+},
+{
+"id": "hero-medium-016",
+"difficulty": "medium",
+"question": "Quel allié un chevalier cherche-t-il ?",
+"options": {
+"A": "Compagnon loyal",
+"B": "Rival jaloux",
+"C": "Vendeur",
+"D": "Lézard"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-017",
+"difficulty": "medium",
+"question": "Comment appelle-t-on une carte ancienne secrète ?",
+"options": {
+"A": "Manuel",
+"B": "Carte au trésor",
+"C": "Journal intime",
+"D": "Reçu"
+},
+"answer": "B"
+},
+{
+"id": "hero-medium-018",
+"difficulty": "medium",
+"question": "Quel obstacle un navire redoute-t-il ?",
+"options": {
+"A": "Récifs",
+"B": "Terre ferme",
+"C": "Bancs de sable seulement",
+"D": "Vagues calmes"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-019",
+"difficulty": "medium",
+"question": "Quel sort soigne généralement les blessures ?",
+"options": {
+"A": "Sort de guérison",
+"B": "Sort de peur",
+"C": "Sort d'invisibilité",
+"D": "Sort de rouille"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-020",
+"difficulty": "medium",
+"question": "Quel métier a le savoir des cartes et routes ?",
+"options": {
+"A": "Cartographe",
+"B": "Couturier",
+"C": "Fabricant de meubles",
+"D": "Boucher"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-021",
+"difficulty": "medium",
+"question": "Quel défi un chevalier doit souvent relever ?",
+"options": {
+"A": "Un duel pour l'honneur",
+"B": "Un cours de cuisine",
+"C": "Une vente aux enchères",
+"D": "Un match de foot"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-022",
+"difficulty": "medium",
+"question": "Quelle qualité est essentielle pour un aventurier ?",
+"options": {
+"A": "Curiosité",
+"B": "Paresse",
+"C": "Indifférence",
+"D": "Méfiance totale"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-023",
+"difficulty": "medium",
+"question": "Quelle créature mythique a la tête d'un homme et corps de lion ?",
+"options": {
+"A": "Sphinx",
+"B": "Licorne",
+"C": "Griffon",
+"D": "Hydre"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-024",
+"difficulty": "medium",
+"question": "Quel artefact éclaire les grottes sombres ?",
+"options": {
+"A": "Lanterne enchantée",
+"B": "Tasse magique",
+"C": "Robe brillante",
+"D": "Bûche"
+},
+"answer": "A"
+},
+{
+"id": "hero-medium-025",
+"difficulty": "medium",
+"question": "Quel animal sert souvent de monture légendaire ?",
+"options": {
+"A": "Cheval",
+"B": "Poulet",
+"C": "Souris",
+"D": "Tortue"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-001",
+"difficulty": "hard",
+"question": "Quelle tactique use un chevalier pour briser une armure ?",
+"options": {
+"A": "Coup direct au heaume",
+"B": "Trancher un drap",
+"C": "Chuchoter",
+"D": "Lancer des fleurs"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-002",
+"difficulty": "hard",
+"question": "Quelle était une vraie menace pour les navires anciens ?",
+"options": {
+"A": "Scurvy (manque de vitamine C)",
+"B": "Téléphone déchargé",
+"C": "Feux de signalisation",
+"D": "Pneus usés"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-003",
+"difficulty": "hard",
+"question": "Quelle propriété rend une lame de bonne qualité ?",
+"options": {
+"A": "Dureté et flexibilité",
+"B": "Couleur",
+"C": "Taille du manche uniquement",
+"D": "Poids excessif"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-004",
+"difficulty": "hard",
+"question": "Quel principe guide une expédition réussie ?",
+"options": {
+"A": "Planification et cartes fiables",
+"B": "Ignorer la météo",
+"C": "Partir sans provisions",
+"D": "Chercher des disputes"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-005",
+"difficulty": "hard",
+"question": "Quelle stratégie défensive pour un château ?",
+"options": {
+"A": "Murs élevés et fossés",
+"B": "Portes ouvertes",
+"C": "Aucun guet",
+"D": "Toit en verre"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-006",
+"difficulty": "hard",
+"question": "Quel savoir aide à déchiffrer une ancienne tablette ?",
+"options": {
+"A": "Connaissance des symboles",
+"B": "Conduite automobile",
+"C": "Cuisine",
+"D": "Natation"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-007",
+"difficulty": "hard",
+"question": "Quel élément protège contre la rouille d'une armure ?",
+"options": {
+"A": "Graissage régulier",
+"B": "Exposition à l'eau",
+"C": "Ignorance",
+"D": "Rouler sur l'armure"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-008",
+"difficulty": "hard",
+"question": "Quelle route maritime évitait les pirates ?",
+"options": {
+"A": "Zones surveillées et convois",
+"B": "Eaux isolées",
+"C": "Côtes inconnues",
+"D": "Ports éloignés"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-009",
+"difficulty": "hard",
+"question": "Quel test vérifie si une potion est toxique ?",
+"options": {
+"A": "Analyse et dilution contrôlée",
+"B": "Goûter sans protection",
+"C": "Lancer au feu",
+"D": "Mettre au soleil"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-010",
+"difficulty": "hard",
+"question": "Quelle tactique pour traverser une forêt hostile ?",
+"options": {
+"A": "Suivre sentiers et repères",
+"B": "Se séparer sans plan",
+"C": "Ignorer provisions",
+"D": "Courir sans regarder"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-011",
+"difficulty": "hard",
+"question": "Quel principe gouverne une quête réussie ?",
+"options": {
+"A": "But clair et coopération",
+"B": "Égoïsme",
+"C": "Quitter tôt",
+"D": "Désorganisation"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-012",
+"difficulty": "hard",
+"question": "Quelle compétence aide à négocier avec un seigneur ?",
+"options": {
+"A": "Diplomatie",
+"B": "Cri",
+"C": "Course",
+"D": "Dormir"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-013",
+"difficulty": "hard",
+"question": "Quel signe montre une carte codée ?",
+"options": {
+"A": "Symboles répétitifs",
+"B": "Taches de café",
+"C": "Marge propre",
+"D": "Papier neuf"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-014",
+"difficulty": "hard",
+"question": "Quelle tactique repousse un dragon dans les contes ?",
+"options": {
+"A": "Feu plus fort",
+"B": "Bouclier réfléchissant la chaleur",
+"C": "Chanter fort",
+"D": "Offrir une chaise"
+},
+"answer": "B"
+},
+{
+"id": "hero-hard-015",
+"difficulty": "hard",
+"question": "Quelle préparation est essentielle avant une traversée longue ?",
+"options": {
+"A": "Provisions, eau et cartes",
+"B": "Rien",
+"C": "Juste des habits",
+"D": "Se laisser guider par hasard"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-016",
+"difficulty": "hard",
+"question": "Quel enseignement un forgeron transmet-il au chevalier ?",
+"options": {
+"A": "Entretien de l'arme",
+"B": "Cuisine",
+"C": "Peinture",
+"D": "Musique"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-017",
+"difficulty": "hard",
+"question": "Quelle ressource protège une cité en siège ?",
+"options": {
+"A": "Eau et vivres stockés",
+"B": "Tapisseries",
+"C": "Bougies seulement",
+"D": "Fleurs"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-018",
+"difficulty": "hard",
+"question": "Quelle connaissance aide à traverser un marais ?",
+"options": {
+"A": "Connaître les voies sûres",
+"B": "Courir vite",
+"C": "Siffler",
+"D": "Allumer un feu"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-019",
+"difficulty": "hard",
+"question": "Quel art aide à persuader un roi ?",
+"options": {
+"A": "Oratoire",
+"B": "Jonglage",
+"C": "Saut",
+"D": "Couture"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-020",
+"difficulty": "hard",
+"question": "Quel avantage offre une armée bien organisée ?",
+"options": {
+"A": "Coordination et stratégie",
+"B": "Chaos",
+"C": "Chaos contrôlé",
+"D": "Plus de chants"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-021",
+"difficulty": "hard",
+"question": "Quel savoir protège contre les illusions magiques ?",
+"options": {
+"A": "Rituels de dissipation",
+"B": "Ignorer tout",
+"C": "Fermer les yeux",
+"D": "Manger une pomme"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-022",
+"difficulty": "hard",
+"question": "Quelle ressource un explorateur doit-il cartographier ?",
+"options": {
+"A": "Sources d'eau",
+"B": "Couleurs des drapeaux",
+"C": "Textes poétiques",
+"D": "Vêtements"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-023",
+"difficulty": "hard",
+"question": "Quelle compétence militaire est essentielle pour un chef ?",
+"options": {
+"A": "Stratégie et tactique",
+"B": "Coudre des bannières",
+"C": "Raconter des blagues",
+"D": "Faire des comptes"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-024",
+"difficulty": "hard",
+"question": "Quelle tactique détourne l'attention d'un ennemi ?",
+"options": {
+"A": "Feinte",
+"B": "Sommeil",
+"C": "Répéter des ordres",
+"D": "Méditation"
+},
+"answer": "A"
+},
+{
+"id": "hero-hard-025",
+"difficulty": "hard",
+"question": "Quel principe gouverne un code héroïque durable ?",
+"options": {
+"A": "Honneur, courage et respect",
+"B": "Ruse seule",
+"C": "Peur uniquement",
+"D": "Silence total"
+},
+"answer": "A"
+}
+]
+}

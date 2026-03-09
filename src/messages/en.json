@@ -23,7 +23,9 @@
     "sciences": "Science",
     "sciencesDesc": "Planets, animals, the human body…",
     "histoire": "History",
-    "histoireDesc": "Dates, characters, civilisations…"
+    "histoireDesc": "Dates, characters, civilisations…",
+    "heroes": "Heroes & Adventures",
+    "heroesDesc": "Animated characters, superheroes, magic…"
   },
   "quiz": {
     "question": "Question {current} / {total}",
