@@ -14,7 +14,7 @@
  * Confetti : déclenché au montage si score ≥ BADGE_THRESHOLD.
  */
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useQuizStore } from '@/stores/quizStore';
@@ -51,10 +51,15 @@ export default function ResultsScreen() {
   const total = questions.length || 20;
   const badgeEarnedThisSession = score >= BADGE_THRESHOLD;
   const [loading, setLoading] = useState(false);
+  // Ref pour éviter que le guard ne redirige vers /home pendant un replay.
+  // handlePlayAgain appelle startQuiz() qui change status → 'active' AVANT
+  // que router.push('/quiz') prenne effet — sans ce ref, le guard se déclenche
+  // et router.replace('/home') écrase la navigation vers /quiz.
+  const isReplayingRef = useRef(false);
 
   // ── Garde : quiz non terminé → retour Home ───────────────────────────────
   useEffect(() => {
-    if (status !== 'finished') {
+    if (status !== 'finished' && !isReplayingRef.current) {
       router.replace('/home');
     }
   }, [status, router]);
@@ -103,6 +108,7 @@ export default function ResultsScreen() {
   /** Rejouer : recharge le même pool filtré et relance le quiz. */
   async function handlePlayAgain() {
     if (!category || !difficulty || loading) return;
+    isReplayingRef.current = true;
     setLoading(true);
     try {
       const mod = await QUESTION_LOADERS[locale][category]();
