@@ -102,6 +102,7 @@ export default function OnboardingScreen() {
           </label>
           <input
             id="pseudo"
+            data-testid="pseudo-input"
             type="text"
             className="onboarding__input"
             placeholder={t('pseudoPlaceholder')}
@@ -121,6 +122,7 @@ export default function OnboardingScreen() {
               <button
                 key={group}
                 type="button"
+                data-testid={`age-${group}`}
                 className={`onboarding__age-btn${ageGroup === group ? ' onboarding__age-btn--active' : ''}`}
                 onClick={() => setAgeGroup(group)}
                 aria-pressed={ageGroup === group}
@@ -141,6 +143,7 @@ export default function OnboardingScreen() {
                 key={seed}
                 type="button"
                 role="listitem"
+                data-testid={`avatar-${seed}`}
                 className={`onboarding__avatar-btn${avatarId === seed ? ' onboarding__avatar-btn--active' : ''}`}
                 onClick={() => setAvatarId(seed)}
                 aria-label={seed}
@@ -162,6 +165,7 @@ export default function OnboardingScreen() {
         {/* ── CTA ─────────────────────────────────────────────────────────── */}
         <button
           type="button"
+          data-testid="confirm-btn"
           className="onboarding__cta"
           disabled={!canSubmit}
           onClick={handleSubmit}

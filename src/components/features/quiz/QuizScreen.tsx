@@ -290,6 +290,7 @@ export default function QuizScreen() {
             <button
               key={key}
               type="button"
+              data-testid={`answer-${key}`}
               className={getAnswerClass(key)}
               onClick={() => !isAnswered && selectAnswer(key)}
               // Désactive uniquement les mauvaises réponses après sélection
@@ -306,6 +307,7 @@ export default function QuizScreen() {
         {isAnswered && (
           <button
             type="button"
+            data-testid="next-btn"
             className="quiz__next-btn"
             onClick={nextQuestion}
           >

@@ -1,0 +1,16 @@
+{
+  // cypress/tsconfig.json
+  //
+  // Config TypeScript pour les fichiers Cypress uniquement.
+  // Nécessaire car Cypress utilise ses propres types globaux (Cypress, cy, etc.)
+  // qui ne sont pas dans le tsconfig principal de Next.js.
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["ES2017", "dom"],
+    "types": ["cypress"],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strict": false
+  },
+  "include": ["./**/*.ts"]
+}

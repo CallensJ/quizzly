@@ -105,6 +105,7 @@ export default function HomeScreen() {
               <button
                 key={id}
                 type="button"
+                data-testid={`cat-${id}`}
                 className={`home__cat-card${category === id ? ' home__cat-card--active' : ''}`}
                 style={{ '--cat-color': colorVar } as React.CSSProperties}
                 onClick={() => setCategory(id)}
@@ -126,6 +127,7 @@ export default function HomeScreen() {
               <button
                 key={d}
                 type="button"
+                data-testid={`diff-${d}`}
                 className={`home__diff-btn home__diff-btn--${d}${difficulty === d ? ' home__diff-btn--active' : ''}`}
                 onClick={() => setDifficulty(d)}
                 aria-pressed={difficulty === d}
@@ -139,6 +141,7 @@ export default function HomeScreen() {
         {/* ── CTA Play ──────────────────────────────────────────────────────── */}
         <button
           type="button"
+          data-testid="play-btn"
           className="home__cta"
           disabled={!canPlay || loading}
           onClick={handlePlay}

@@ -147,7 +147,7 @@ export default function ResultsScreen() {
         <div className="results__score-wrap" aria-live="polite">
           <p className="results__score-label">{t('title')}</p>
           <div className="results__score-display">
-            <span className="results__score-num">{score}</span>
+            <span className="results__score-num" data-testid="score-num">{score}</span>
             <span className="results__score-sep">/</span>
             <span className="results__score-total">{total}</span>
           </div>
@@ -183,6 +183,7 @@ export default function ResultsScreen() {
           {category && difficulty && (
             <button
               type="button"
+              data-testid="play-again-btn"
               className="results__cta-primary"
               onClick={handlePlayAgain}
               disabled={loading}
@@ -192,6 +193,7 @@ export default function ResultsScreen() {
           )}
           <button
             type="button"
+            data-testid="home-btn"
             className="results__cta-secondary"
             onClick={handleHome}
           >
