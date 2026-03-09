@@ -142,7 +142,6 @@ export default function OnboardingScreen() {
               <button
                 key={seed}
                 type="button"
-                role="listitem"
                 data-testid={`avatar-${seed}`}
                 className={`onboarding__avatar-btn${avatarId === seed ? ' onboarding__avatar-btn--active' : ''}`}
                 onClick={() => setAvatarId(seed)}

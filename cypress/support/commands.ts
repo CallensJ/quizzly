@@ -71,7 +71,9 @@ Cypress.Commands.add('answerAllQuestions', () => {
 // ─── Déclaration TypeScript des commandes personnalisées ──────────────────────
 // Permet l'autocomplétion dans les fichiers de test.
 
+// Le namespace global est nécessaire pour augmenter les types Cypress — pattern officiel TypeScript.
 declare global {
+  // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace Cypress {
     interface Chainable {
       /** Injecte un profil en localStorage et recharge la page */

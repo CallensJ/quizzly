@@ -277,7 +277,10 @@ export default function QuizScreen() {
           >
             {selectedAnswer === question.answer
               ? t('feedbackCorrect')
-              // Distingue réponse manuelle incorrecte et timeout timer
+              // Distingue réponse manuelle incorrecte et timeout timer.
+              // La lecture de timedOutRef.current en render est intentionnelle :
+              // sa valeur est figée au moment où isAnswered devient true (pas de re-render parasite).
+              // eslint-disable-next-line react-hooks/refs
               : timedOutRef.current
                 ? t('feedbackTimeout')
                 : t('feedbackWrong')}

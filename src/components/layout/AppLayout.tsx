@@ -57,6 +57,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
           onClick={() => router.push('/profile')}
           aria-label={t('goToProfile')}
         >
+          {/* eslint-disable-next-line @next/next/no-img-element -- SVG DiceBear externe, next/image ne supporte pas les URLs externes sans domaine configuré */}
           <img
             className="app-layout__avatar"
             src={avatarUrl}

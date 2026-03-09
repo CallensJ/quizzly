@@ -21,7 +21,7 @@ import { useQuizStore } from '@/stores/quizStore';
 import { useProfileStore } from '@/stores/profileStore';
 import { playSound } from '@/lib/sound';
 import Nova from '@/components/ui/Nova';
-import type { Category, Difficulty, Locale, QuestionFile } from '@/types';
+import type { Category, Locale, QuestionFile } from '@/types';
 
 // Doit rester synchronisé avec QuizScreen.tsx
 const BADGE_THRESHOLD = 4;
@@ -46,7 +46,6 @@ export default function ResultsScreen() {
   const router = useRouter();
 
   const { status, score, category, difficulty, questions, startQuiz, resetAll } = useQuizStore();
-  const profile = useProfileStore((s) => s.profile);
   const soundEnabled = useProfileStore((s) => s.soundEnabled);
 
   const total = questions.length || 20;

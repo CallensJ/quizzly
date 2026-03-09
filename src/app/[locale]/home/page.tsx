@@ -19,6 +19,8 @@ export default function HomePage() {
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
+    // Pattern SSR Zustand : détecte la fin de l'hydratation côté client.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setHydrated(true);
   }, []);
 
