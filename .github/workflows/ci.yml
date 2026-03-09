@@ -32,7 +32,7 @@ jobs:
 
       # Configure Node.js 24 (version locale) avec cache npm pour accélérer les runs suivants
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '24'
           cache: 'npm'
@@ -75,7 +75,7 @@ jobs:
       # Même version Node que le job 1 — indispensable pour que npm ci soit compatible
       # avec le package-lock.json généré par npm 11 (Node 24)
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '24'
           cache: 'npm'
