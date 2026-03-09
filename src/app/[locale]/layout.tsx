@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Nunito } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -25,7 +25,10 @@ export const metadata: Metadata = {
     statusBarStyle: 'default',
     title: 'Quizzly',
   },
-  // Couleur de la barre navigateur sur Android Chrome
+};
+
+// themeColor doit être dans viewport (Next.js 14+), pas dans metadata
+export const viewport: Viewport = {
   themeColor: '#667eea',
 };
 
