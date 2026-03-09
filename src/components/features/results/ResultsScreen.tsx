@@ -20,6 +20,7 @@ import { useRouter } from '@/i18n/navigation';
 import { useQuizStore } from '@/stores/quizStore';
 import { useProfileStore } from '@/stores/profileStore';
 import { playSound } from '@/lib/sound';
+import { syncSession, syncBadge } from '@/lib/sync';
 import Nova from '@/components/ui/Nova';
 import type { Category, Locale, QuestionFile } from '@/types';
 
@@ -31,10 +32,12 @@ const QUESTION_LOADERS: Record<Locale, Record<Category, () => Promise<{ default:
   fr: {
     sciences: () => import('@/data/questions/fr/sciences.json') as Promise<{ default: QuestionFile }>,
     histoire: () => import('@/data/questions/fr/histoire.json') as Promise<{ default: QuestionFile }>,
+    heroes:   () => import('@/data/questions/fr/heroes.json')  as Promise<{ default: QuestionFile }>,
   },
   en: {
     sciences: () => import('@/data/questions/en/sciences.json') as Promise<{ default: QuestionFile }>,
     histoire: () => import('@/data/questions/en/histoire.json') as Promise<{ default: QuestionFile }>,
+    heroes:   () => import('@/data/questions/en/heroes.json')  as Promise<{ default: QuestionFile }>,
   },
 };
 
@@ -47,6 +50,7 @@ export default function ResultsScreen() {
 
   const { status, score, category, difficulty, questions, startQuiz, resetAll } = useQuizStore();
   const soundEnabled = useProfileStore((s) => s.soundEnabled);
+  const deviceId = useProfileStore((s) => s.deviceId);
 
   const total = questions.length || 20;
   const badgeEarnedThisSession = score >= BADGE_THRESHOLD;
@@ -64,7 +68,7 @@ export default function ResultsScreen() {
     }
   }, [status, router]);
 
-  // ── Confetti + sons au montage ───────────────────────────────────────────
+  // ── Confetti + sons + sync Supabase au montage ───────────────────────────
   useEffect(() => {
     // Son badge (fanfare) si badge obtenu, sinon son de fin de quiz
     if (badgeEarnedThisSession) {
@@ -79,6 +83,16 @@ export default function ResultsScreen() {
       });
     } else {
       playSound('finish', soundEnabled);
+    }
+
+    // Sync Supabase — fire-and-forget, les données Zustand sont déjà persistées
+    // QuizScreen appelle addSession() + earnBadge() avant de naviguer ici
+    if (deviceId && category && difficulty) {
+      const { sessions } = useProfileStore.getState();
+      // La dernière session insérée correspond à la partie qui vient de se terminer
+      const lastSession = sessions[sessions.length - 1];
+      if (lastSession) syncSession(deviceId, lastSession);
+      if (badgeEarnedThisSession) syncBadge(deviceId, true);
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 

@@ -40,10 +40,11 @@ function bestScorePercent(sessions: QuizSession[]): number | null {
   return Math.round(best * 100);
 }
 
-// Catégories disponibles avec leur emoji — à étendre en MVP 3
+// Catégories disponibles avec leur emoji
 const CATEGORIES: { key: Category; emoji: string }[] = [
   { key: 'sciences', emoji: '🔬' },
   { key: 'histoire', emoji: '📜' },
+  { key: 'heroes',   emoji: '⚔️' },
 ];
 
 /**
@@ -54,6 +55,7 @@ function statsByCategory(sessions: QuizSession[]): Record<Category, { games: num
   const result: Record<Category, { games: number; best: number | null }> = {
     sciences: { games: 0, best: null },
     histoire:  { games: 0, best: null },
+    heroes:    { games: 0, best: null },
   };
   for (const s of sessions) {
     result[s.category].games += 1;

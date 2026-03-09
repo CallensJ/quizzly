@@ -6,6 +6,8 @@ import type { Profile, QuizSession, Locale } from '@/types';
 interface ProfileState {
   profile: Profile | null;
   sessions: QuizSession[];
+  // Identifiant unique du device — généré à l'onboarding, utilisé pour la sync Supabase sans auth
+  deviceId: string | null;
   // Préférences persistées séparément du profil — indépendantes des données joueur
   timerEnabled: boolean;
   soundEnabled: boolean;
@@ -30,6 +32,7 @@ export const useProfileStore = create<ProfileState>()(
     (set) => ({
       profile: null,
       sessions: [],
+      deviceId: null,
       timerEnabled: false,
       soundEnabled: true, // activé par défaut — les enfants apprécient le feedback sonore
       adminPin: null,
@@ -37,6 +40,8 @@ export const useProfileStore = create<ProfileState>()(
 
       createProfile: (data) =>
         set({
+          // Génère un deviceId unique à la création du profil (UUID v4 natif)
+          deviceId: crypto.randomUUID(),
           profile: {
             ...data,
             createdAt: new Date().toISOString(),

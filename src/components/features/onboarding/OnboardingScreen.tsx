@@ -15,6 +15,7 @@ import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
+import { syncProfile } from '@/lib/sync';
 import Nova from '@/components/ui/Nova';
 import type { AgeGroup, Locale } from '@/types';
 
@@ -57,6 +58,12 @@ export default function OnboardingScreen() {
       badgeEarned: false,
       locale,
     });
+    // Sync Supabase en arrière-plan — fire-and-forget (local-first)
+    // On lit l'état frais depuis le store car createProfile génère le deviceId synchroniquement
+    const { deviceId, profile, dailyGoal } = useProfileStore.getState();
+    if (deviceId && profile) {
+      syncProfile(deviceId, profile, dailyGoal);
+    }
     // TODO MVP1 : rediriger vers /home une fois l'écran Home implémenté
   }
 
