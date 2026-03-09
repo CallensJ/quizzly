@@ -6,9 +6,10 @@
  * La sync est fire-and-forget (silencieuse en cas d'erreur réseau).
  *
  * Fonctions exportées :
- *   - syncProfile(deviceId, profile, dailyGoal) — upsert profil + config admin
- *   - syncSession(deviceId, session)            — insert une session de quiz
- *   - syncBadge(deviceId, badgeEarned)          — upsert statut badge
+ *   - syncProfile(deviceId, profile, dailyGoal, adminEmail) — upsert profil + config admin
+ *   - syncAdminSettings(deviceId, dailyGoal, adminEmail)    — upsert config admin seule
+ *   - syncSession(deviceId, session)                        — insert une session de quiz
+ *   - syncBadge(deviceId, badgeEarned)                      — upsert statut badge
  */
 
 import { supabase } from './supabase';
@@ -24,7 +25,8 @@ import type { Profile, QuizSession } from '@/types';
 export async function syncProfile(
   deviceId: string,
   profile: Profile,
-  dailyGoal: number | null
+  dailyGoal: number | null,
+  adminEmail: string | null = null
 ): Promise<void> {
   try {
     // Upsert le profil (insert ou update si device_id existe déjà)
@@ -47,19 +49,56 @@ export async function syncProfile(
 
     if (profileError || !profileRow) return;
 
-    // Upsert config admin (objectif journalier)
+    // Upsert config admin (objectif journalier + email adulte)
     await supabase
       .from('admin_settings')
       .upsert(
         {
           profile_id: profileRow.id,
           daily_goal: dailyGoal,
+          admin_email: adminEmail,
           updated_at: new Date().toISOString(),
         },
         { onConflict: 'profile_id' }
       );
   } catch {
     // Échec réseau — on continue silencieusement (local-first)
+  }
+}
+
+// ─── Admin settings ───────────────────────────────────────────────────────────
+
+/**
+ * Upsert la config admin (objectif journalier + email adulte) sans re-syncer le profil entier.
+ * Appelé depuis AdminScreen lors de la sauvegarde de l'email ou de l'objectif.
+ */
+export async function syncAdminSettings(
+  deviceId: string,
+  dailyGoal: number | null,
+  adminEmail: string | null
+): Promise<void> {
+  try {
+    const { data: profileRow, error } = await supabase
+      .from('profiles')
+      .select('id')
+      .eq('device_id', deviceId)
+      .single();
+
+    if (error || !profileRow) return;
+
+    await supabase
+      .from('admin_settings')
+      .upsert(
+        {
+          profile_id: profileRow.id,
+          daily_goal: dailyGoal,
+          admin_email: adminEmail,
+          updated_at: new Date().toISOString(),
+        },
+        { onConflict: 'profile_id' }
+      );
+  } catch {
+    // Échec réseau — silencieux
   }
 }
 

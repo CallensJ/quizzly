@@ -13,6 +13,7 @@ interface ProfileState {
   soundEnabled: boolean;
   // Mode Admin — accès parent/enseignant protégé par PIN
   adminPin: string | null;       // null = pas encore défini
+  adminEmail: string | null;     // email adulte pour notifications futures (MVP 3)
   dailyGoal: number | null;      // objectif journalier (bonnes réponses), null = désactivé
   createProfile: (data: Omit<Profile, 'createdAt'>) => void;
   setLocale: (locale: Locale) => void;
@@ -20,6 +21,7 @@ interface ProfileState {
   setTimerEnabled: (enabled: boolean) => void;
   setSoundEnabled: (enabled: boolean) => void;
   setAdminPin: (pin: string) => void;
+  setAdminEmail: (email: string | null) => void;
   setDailyGoal: (goal: number | null) => void;
   addSession: (session: Omit<QuizSession, 'playedAt'>) => void;
   earnBadge: () => void;
@@ -36,6 +38,7 @@ export const useProfileStore = create<ProfileState>()(
       timerEnabled: false,
       soundEnabled: true, // activé par défaut — les enfants apprécient le feedback sonore
       adminPin: null,
+      adminEmail: null,
       dailyGoal: null,
 
       createProfile: (data) =>
@@ -63,6 +66,8 @@ export const useProfileStore = create<ProfileState>()(
       setSoundEnabled: (enabled) => set({ soundEnabled: enabled }),
 
       setAdminPin: (pin) => set({ adminPin: pin }),
+
+      setAdminEmail: (email) => set({ adminEmail: email }),
 
       setDailyGoal: (goal) => set({ dailyGoal: goal }),
 

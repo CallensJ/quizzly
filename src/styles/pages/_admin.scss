@@ -90,6 +90,7 @@
     &:nth-child(2) { animation-delay: 80ms; }
     &:nth-child(3) { animation-delay: 160ms; }
     &:nth-child(4) { animation-delay: 240ms; }
+    &:nth-child(5) { animation-delay: 320ms; }
   }
 
   &__section-header {
@@ -211,6 +212,65 @@
     @include m.focus-ring;
   }
 
+  // ── Email de contact ────────────────────────────────────────────────────────
+
+  &__email-field {
+    display: flex;
+    gap: v.$spacing-sm;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+
+  &__email-input {
+    flex: 1;
+    min-width: 0; // permet le retrait dans un flex container
+    min-height: v.$touch-target-min;
+    padding: v.$spacing-sm v.$spacing-md;
+    border: 2px solid #e5e7eb;
+    border-radius: v.$radius-md;
+    background: v.$bg;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-base;
+    font-weight: 600;
+    color: v.$foreground;
+    outline: none;
+    transition:
+      border-color v.$transition-fast,
+      box-shadow v.$transition-fast;
+
+    &::placeholder { color: #9ca3af; }
+
+    &:focus {
+      border-color: v.$primary;
+      box-shadow: 0 0 0 3px rgba(v.$primary, 0.15);
+    }
+
+    // Erreur de validation
+    &--error {
+      border-color: v.$error;
+      box-shadow: 0 0 0 3px rgba(v.$error, 0.12);
+    }
+  }
+
+  // Lien discret "Supprimer l'email"
+  &__email-remove {
+    align-self: flex-start;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color v.$transition-fast;
+
+    &:hover { color: v.$error; }
+    @include m.focus-ring;
+  }
+
   // ── Bouton secondaire (changer PIN) ────────────────────────────────────────
 
   &__secondary-btn {
@@ -248,6 +308,11 @@
     &--success {
       color: v.$success;
       background: rgba(v.$success, 0.1);
+    }
+
+    &--error {
+      color: v.$error;
+      background: rgba(v.$error, 0.1);
     }
   }
 

@@ -21,10 +21,14 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { ArrowLeft, Target, KeyRound, Trash2, RotateCcw, BarChart3 } from 'lucide-react';
+import { ArrowLeft, Target, KeyRound, Trash2, RotateCcw, BarChart3, Mail } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
+import { syncAdminSettings } from '@/lib/sync';
 import PinModal from './PinModal';
+
+// Validation basique d'une adresse email
+const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 // Valeurs possibles pour l'objectif journalier (0 = désactivé)
 const GOAL_OPTIONS = [0, 5, 10, 15, 20, 30];
@@ -33,12 +37,15 @@ export default function AdminScreen() {
   const t = useTranslations('admin');
   const router = useRouter();
 
-  const profile     = useProfileStore((s) => s.profile);
-  const sessions    = useProfileStore((s) => s.sessions);
-  const adminPin    = useProfileStore((s) => s.adminPin);
-  const dailyGoal   = useProfileStore((s) => s.dailyGoal);
-  const setAdminPin = useProfileStore((s) => s.setAdminPin);
-  const setDailyGoal = useProfileStore((s) => s.setDailyGoal);
+  const profile       = useProfileStore((s) => s.profile);
+  const sessions      = useProfileStore((s) => s.sessions);
+  const deviceId      = useProfileStore((s) => s.deviceId);
+  const adminPin      = useProfileStore((s) => s.adminPin);
+  const adminEmail    = useProfileStore((s) => s.adminEmail);
+  const dailyGoal     = useProfileStore((s) => s.dailyGoal);
+  const setAdminPin   = useProfileStore((s) => s.setAdminPin);
+  const setAdminEmail = useProfileStore((s) => s.setAdminEmail);
+  const setDailyGoal  = useProfileStore((s) => s.setDailyGoal);
   const resetProgress = useProfileStore((s) => s.resetProgress);
   const deleteProfile = useProfileStore((s) => s.deleteProfile);
 
@@ -66,6 +73,10 @@ export default function AdminScreen() {
   // Objectif journalier sélectionné localement (avant enregistrement)
   const [selectedGoal, setSelectedGoal] = useState<number>(dailyGoal ?? 0);
 
+  // Email adulte — valeur locale du champ (peut diverger de adminEmail avant enregistrement)
+  const [emailInput, setEmailInput] = useState<string>(adminEmail ?? '');
+  const [emailFeedback, setEmailFeedback] = useState<'saved' | 'error' | null>(null);
+
   // ── Handlers ────────────────────────────────────────────────────────────────
 
   function handlePinSuccess(pin: string) {
@@ -84,6 +95,28 @@ export default function AdminScreen() {
     setDailyGoal(selectedGoal === 0 ? null : selectedGoal);
     setGoalFeedback(true);
     setTimeout(() => setGoalFeedback(false), 2500);
+  }
+
+  function handleSaveEmail() {
+    const trimmed = emailInput.trim();
+    // Validation format
+    if (trimmed !== '' && !EMAIL_REGEX.test(trimmed)) {
+      setEmailFeedback('error');
+      setTimeout(() => setEmailFeedback(null), 3000);
+      return;
+    }
+    const value = trimmed === '' ? null : trimmed;
+    setAdminEmail(value);
+    // Sync Supabase fire-and-forget (silencieux si hors connexion)
+    if (deviceId) syncAdminSettings(deviceId, dailyGoal, value);
+    setEmailFeedback('saved');
+    setTimeout(() => setEmailFeedback(null), 2500);
+  }
+
+  function handleRemoveEmail() {
+    setEmailInput('');
+    setAdminEmail(null);
+    if (deviceId) syncAdminSettings(deviceId, dailyGoal, null);
   }
 
   function handleReset() {
@@ -227,6 +260,49 @@ export default function AdminScreen() {
           >
             {t('pinChange')}
           </button>
+        </section>
+
+        {/* ── Email de contact ────────────────────────────────────────────── */}
+        <section className="admin__section" aria-labelledby="admin-email-title">
+          <div className="admin__section-header">
+            <Mail size={18} strokeWidth={2} aria-hidden="true" />
+            <h2 id="admin-email-title" className="admin__section-title">{t('emailTitle')}</h2>
+          </div>
+          <p className="admin__section-desc">{t('emailDesc')}</p>
+
+          <div className="admin__email-field">
+            <input
+              type="email"
+              className={`admin__email-input${emailFeedback === 'error' ? ' admin__email-input--error' : ''}`}
+              value={emailInput}
+              onChange={(e) => setEmailInput(e.target.value)}
+              placeholder={t('emailPlaceholder')}
+              autoComplete="email"
+              aria-label={t('emailTitle')}
+            />
+            <button
+              type="button"
+              className="admin__save-btn"
+              onClick={handleSaveEmail}
+            >
+              {emailFeedback === 'saved' ? t('emailSaved') : t('emailSave')}
+            </button>
+          </div>
+
+          {emailFeedback === 'error' && (
+            <p className="admin__feedback admin__feedback--error">{t('emailInvalid')}</p>
+          )}
+
+          {/* Bouton supprimer l'email — visible uniquement si un email est enregistré */}
+          {adminEmail && (
+            <button
+              type="button"
+              className="admin__email-remove"
+              onClick={handleRemoveEmail}
+            >
+              {t('emailRemove')}
+            </button>
+          )}
         </section>
 
         {/* ── Zone de danger ───────────────────────────────────────────────── */}
