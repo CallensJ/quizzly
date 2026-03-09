@@ -1,0 +1,91 @@
+# .github/workflows/ci.yml
+#
+# Pipeline CI de Quizzly — déclenché à chaque push ou pull request.
+#
+# 2 jobs exécutés séquentiellement :
+#   1. lint-test-build : rapide (~1-2 min) — ESLint + Jest + build Next.js
+#   2. cypress-e2e     : plus lent (~3-5 min) — tests navigateur, lance uniquement si le job 1 passe
+#
+# Architecture en 2 jobs : si le lint ou les tests Jest échouent, Cypress ne tourne pas.
+# Cela économise les minutes GitHub Actions et donne un retour rapide.
+
+name: CI
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+
+  # ─── Job 1 : Lint + Tests unitaires + Build ────────────────────────────────
+  lint-test-build:
+    name: Lint, Tests Jest & Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Configure Node.js 20 avec cache npm pour accélérer les runs suivants
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # npm ci (plus rapide et strict que npm install) — utilise package-lock.json
+      - name: Installer les dépendances
+        run: npm ci
+
+      # ESLint — vérifie la syntaxe et les conventions de code
+      - name: Lint (ESLint)
+        run: npm run lint
+
+      # Jest — vérifie la logique métier (quizStore, etc.)
+      - name: Tests unitaires (Jest)
+        run: npm test
+
+      # Build Next.js — vérifie qu'il n'y a pas d'erreur TypeScript ou de compilation
+      - name: Build (Next.js)
+        run: npm run build
+
+  # ─── Job 2 : Tests E2E Cypress ─────────────────────────────────────────────
+  cypress-e2e:
+    name: Tests E2E (Cypress)
+    runs-on: ubuntu-latest
+
+    # Ne tourne que si le job 1 passe intégralement
+    needs: lint-test-build
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # L'action officielle Cypress gère automatiquement :
+      #   - l'installation des dépendances
+      #   - le démarrage du serveur (start)
+      #   - l'attente que le serveur réponde (wait-on)
+      #   - le lancement des tests Cypress
+      - name: Cypress E2E
+        uses: cypress-io/github-action@v6
+        with:
+          # Lance le serveur de production (plus stable qu'un serveur de dev en CI)
+          build: npm run build
+          start: npm run start
+          # Attend que l'app soit accessible avant de lancer les tests
+          wait-on: 'http://localhost:3000'
+          # Timeout d'attente du serveur (secondes)
+          wait-on-timeout: 60
+
+      # Upload des screenshots en cas d'échec — facilite le débogage
+      - name: Upload screenshots (si échec)
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots
+          if-no-files-found: ignore
