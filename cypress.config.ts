@@ -23,6 +23,10 @@ export default defineConfig({
     // Timeout pour les changements d'URL (navigations entre pages)
     pageLoadTimeout: 30000,
 
+    // Viewport desktop — requis car la sidebar AppLayout n'est visible qu'à ≥ 1024px
+    viewportWidth: 1280,
+    viewportHeight: 720,
+
     setupNodeEvents() {
       // Aucun plugin Node nécessaire pour MVP 2
     },

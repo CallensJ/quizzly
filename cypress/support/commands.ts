@@ -46,26 +46,24 @@ Cypress.Commands.add('setupProfile', () => {
  *
  * Répond à toutes les questions du quiz en cours en cliquant sur la réponse A,
  * puis en cliquant sur "Suivant" / "Terminer".
- * S'arrête automatiquement quand l'URL change vers /results.
+ *
+ * Utilise Cypress._.times(20) plutôt que la récursion — plus stable en CI.
+ * Chaque itération vérifie l'URL : si on est encore sur /quiz, on répond.
+ * Sur la dernière question, next-btn navigue vers /results → les itérations
+ * suivantes voient l'URL /results et passent sans cliquer (guard cy.url check).
  *
  * Note : on répond toujours A — l'objectif est de tester le flux, pas les questions.
  */
 Cypress.Commands.add('answerAllQuestions', () => {
-  // On boucle jusqu'à ce qu'on soit redirigé vers /results
-  function answerNext() {
+  // 20 itérations max — une par question (le quiz comporte 20 questions)
+  Cypress._.times(20, () => {
     cy.url().then((url) => {
       if (url.includes('/quiz')) {
-        // Répondre A (en ignorant si la réponse est déjà sélectionnée)
         cy.get('[data-testid="answer-A"]').click();
-        // Cliquer sur Suivant / Terminer
         cy.get('[data-testid="next-btn"]').click();
-        // Recommencer pour la question suivante
-        answerNext();
       }
-      // Sinon on est sur /results → la fonction s'arrête
     });
-  }
-  answerNext();
+  });
 });
 
 // ─── Déclaration TypeScript des commandes personnalisées ──────────────────────
