@@ -53,6 +53,13 @@ jobs:
       - name: Build (Next.js)
         run: npm run build
 
+      # Audit de sécurité — échoue uniquement sur les vulnérabilités CRITICAL.
+      # Le niveau HIGH est exclu car next-pwa v5 contient une vuln HIGH connue
+      # (serialize-javascript via workbox) non corrigeable sans casse majeure.
+      # À surveiller : https://github.com/advisories/GHSA-5c6j-r48x-rmvq
+      - name: Audit sécurité
+        run: npm audit --audit-level=critical
+
   # ─── Job 2 : Tests E2E Cypress ─────────────────────────────────────────────
   cypress-e2e:
     name: Tests E2E (Cypress)
