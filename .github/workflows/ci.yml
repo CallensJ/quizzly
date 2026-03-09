@@ -30,11 +30,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Configure Node.js 20 avec cache npm pour accélérer les runs suivants
+      # Configure Node.js 24 (version locale) avec cache npm pour accélérer les runs suivants
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
 
       # npm ci (plus rapide et strict que npm install) — utilise package-lock.json
