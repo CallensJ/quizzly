@@ -1,908 +1,1206 @@
 {
-  "category": "histoire",
+  "category": "history",
   "lang": "fr",
   "questions": [
     {
-      "id": "hist-easy-001",
-      "difficulty": "easy",
-      "question": "Qui était le premier président de la République française ?",
+      "id": "hist-fr-001",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
       "options": {
-        "A": "Napoléon Bonaparte",
-        "B": "Louis-Napoléon Bonaparte",
-        "C": "Charles de Gaulle",
-        "D": "François Mitterrand"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-002",
-      "difficulty": "easy",
-      "question": "En quelle année a eu lieu la Révolution française ?",
-      "options": {
-        "A": "1492",
-        "B": "1789",
-        "C": "1914",
-        "D": "1870"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-003",
-      "difficulty": "easy",
-      "question": "Qui a découvert l’Amérique en 1492 ?",
-      "options": {
-        "A": "Christophe Colomb",
-        "B": "Vasco de Gama",
-        "C": "Magellan",
-        "D": "Marco Polo"
+        "A": "Adolf Hitler",
+        "B": "Empire ottoman",
+        "C": "Jules César",
+        "D": "Joseph Staline"
       },
       "answer": "A"
     },
     {
-      "id": "hist-easy-004",
-      "difficulty": "easy",
-      "question": "Quel roi de France a été surnommé le Roi Soleil ?",
+      "id": "hist-fr-002",
+      "difficulty": "medium",
+      "question": "Quel pharaon est associé à la grande pyramide de Gizeh ?",
       "options": {
-        "A": "Louis XIV",
-        "B": "Louis XVI",
-        "C": "Louis XIII",
-        "D": "Louis XV"
+        "A": "Khéops",
+        "B": "1939",
+        "C": "Mur d'Hadrien",
+        "D": "Traité de Paris"
       },
       "answer": "A"
     },
     {
-      "id": "hist-easy-005",
-      "difficulty": "easy",
-      "question": "Quelle muraille célèbre se trouve en Chine ?",
-      "options": {
-        "A": "Muraille de Pékin",
-        "B": "Grande Muraille de Chine",
-        "C": "Muraille de Xi’an",
-        "D": "Muraille des Ming"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-006",
-      "difficulty": "easy",
-      "question": "Qui était le premier empereur romain ?",
-      "options": {
-        "A": "Jules César",
-        "B": "Auguste",
-        "C": "Néron",
-        "D": "Trajan"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-007",
-      "difficulty": "easy",
-      "question": "Quel pays a construit les pyramides de Gizeh ?",
-      "options": {
-        "A": "Grèce",
-        "B": "Égypte",
-        "C": "Mexique",
-        "D": "Inde"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-008",
-      "difficulty": "easy",
-      "question": "Qui était Jeanne d’Arc ?",
-      "options": {
-        "A": "Une reine de France",
-        "B": "Une héroïne française",
-        "C": "Une impératrice",
-        "D": "Une exploratrice"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-009",
-      "difficulty": "easy",
-      "question": "Quel événement a marqué la fin de la Seconde Guerre mondiale en Europe ?",
-      "options": {
-        "A": "La chute de Berlin",
-        "B": "Le débarquement de Normandie",
-        "C": "La bataille de Stalingrad",
-        "D": "La signature de l’armistice"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-easy-010",
-      "difficulty": "easy",
-      "question": "Qui était le général français devenu président en 1959 ?",
-      "options": {
-        "A": "Napoléon",
-        "B": "Charles de Gaulle",
-        "C": "Philippe Pétain",
-        "D": "Georges Pompidou"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-011",
-      "difficulty": "easy",
-      "question": "Quel pays a été dirigé par Adolf Hitler ?",
-      "options": {
-        "A": "Italie",
-        "B": "Allemagne",
-        "C": "Autriche",
-        "D": "Russie"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-012",
-      "difficulty": "easy",
-      "question": "Quel mur séparait Berlin en deux parties jusqu’en 1989 ?",
-      "options": {
-        "A": "Mur de la liberté",
-        "B": "Mur de Berlin",
-        "C": "Mur de l’Est",
-        "D": "Mur de l’Ouest"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-013",
+      "id": "hist-fr-003",
       "difficulty": "easy",
       "question": "Qui était le premier président des États-Unis ?",
       "options": {
-        "A": "Abraham Lincoln",
-        "B": "George Washington",
-        "C": "Thomas Jefferson",
-        "D": "John Adams"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-014",
-      "difficulty": "easy",
-      "question": "Quelle ville a été détruite par une éruption du Vésuve en 79 ?",
-      "options": {
-        "A": "Rome",
-        "B": "Pompéi",
-        "C": "Athènes",
-        "D": "Carthage"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-015",
-      "difficulty": "easy",
-      "question": "Quel explorateur portugais a contourné l’Afrique pour atteindre l’Inde ?",
-      "options": {
-        "A": "Magellan",
-        "B": "Vasco de Gama",
-        "C": "Christophe Colomb",
-        "D": "Cortes"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-016",
-      "difficulty": "easy",
-      "question": "Qui était le premier homme à marcher sur la Lune ?",
-      "options": {
-        "A": "Buzz Aldrin",
-        "B": "Neil Armstrong",
-        "C": "Yuri Gagarin",
-        "D": "Michael Collins"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-017",
-      "difficulty": "easy",
-      "question": "Quel pays a été colonisé par les Espagnols et est aujourd’hui appelé Mexique ?",
-      "options": {
-        "A": "Inca",
-        "B": "Maya",
-        "C": "Aztèque",
-        "D": "Olmèque"
+        "A": "Lénine",
+        "B": "Louis XIV",
+        "C": "George Washington",
+        "D": "Winston Churchill"
       },
       "answer": "C"
     },
     {
-      "id": "hist-easy-018",
-      "difficulty": "easy",
-      "question": "Qui était Napoléon Bonaparte ?",
-      "options": {
-        "A": "Un empereur français",
-        "B": "Un roi d’Angleterre",
-        "C": "Un explorateur",
-        "D": "Un philosophe"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-easy-019",
-      "difficulty": "easy",
-      "question": "Quel pays a été dirigé par Joseph Staline ?",
-      "options": {
-        "A": "Chine",
-        "B": "URSS",
-        "C": "Allemagne",
-        "D": "Pologne"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-020",
-      "difficulty": "easy",
-      "question": "Quel événement a eu lieu en 1969 et a marqué l’histoire spatiale ?",
-      "options": {
-        "A": "Premier vol habité",
-        "B": "Premier homme sur la Lune",
-        "C": "Premier satellite",
-        "D": "Première station spatiale"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-021",
-      "difficulty": "easy",
-      "question": "Quel pays a été colonisé par les Britanniques et est devenu indépendant en 1947 ?",
-      "options": {
-        "A": "Inde",
-        "B": "Pakistan",
-        "C": "Bangladesh",
-        "D": "Sri Lanka"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-easy-022",
-      "difficulty": "easy",
-      "question": "Qui était le premier président noir d’Afrique du Sud ?",
-      "options": {
-        "A": "Kwame Nkrumah",
-        "B": "Nelson Mandela",
-        "C": "Desmond Tutu",
-        "D": "Jacob Zuma"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-023",
-      "difficulty": "easy",
-      "question": "Quel pays a été dirigé par Benito Mussolini ?",
-      "options": {
-        "A": "Espagne",
-        "B": "Italie",
-        "C": "Allemagne",
-        "D": "Portugal"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-easy-024",
-      "difficulty": "easy",
-      "question": "Quel événement historique a eu lieu le 14 juillet 1789 ?",
-      "options": {
-        "A": "La prise de la Bastille",
-        "B": "La fin de la guerre de Cent Ans",
-        "C": "La signature du traité de Versailles",
-        "D": "Le sacre de Napoléon"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-easy-025",
-      "difficulty": "easy",
-      "question": "Qui était le premier homme à voyager dans l’espace ?",
-      "options": {
-        "A": "Neil Armstrong",
-        "B": "Buzz Aldrin",
-        "C": "Youri Gagarine",
-        "D": "Alan Shepard"
-      },
-      "answer": "C"
-    },
-
-    {
-      "id": "hist-medium-001",
+      "id": "hist-fr-004",
       "difficulty": "medium",
-      "question": "En quelle année a commencé la Première Guerre mondiale ?",
+      "question": "Quel empire était dirigé par Jules César ?",
       "options": {
-        "A": "1914",
-        "B": "1939",
-        "C": "1929",
-        "D": "1870"
+        "A": "Mao Zedong",
+        "B": "Empire romain",
+        "C": "1492",
+        "D": "Jules César"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-005",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Adolf Hitler",
+        "B": "Jules César",
+        "C": "Mur d'Hadrien",
+        "D": "Traité de Paris"
       },
       "answer": "A"
     },
     {
-      "id": "hist-medium-002",
+      "id": "hist-fr-006",
       "difficulty": "medium",
-      "question": "Qui était le roi de France guillotiné en 1793 ?",
+      "question": "Quel pharaon est associé à la grande pyramide de Gizeh ?",
+      "options": {
+        "A": "1789",
+        "B": "Khéops",
+        "C": "Mur d'Hadrien",
+        "D": "Abraham Lincoln"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-007",
+      "difficulty": "medium",
+      "question": "Quel empire était dirigé par Jules César ?",
       "options": {
         "A": "Louis XIV",
-        "B": "Louis XVI",
-        "C": "Louis XV",
-        "D": "Louis XIII"
+        "B": "Traité de Paris",
+        "C": "Empire romain",
+        "D": "1939"
       },
-      "answer": "B"
+      "answer": "C"
     },
     {
-      "id": "hist-medium-003",
-      "difficulty": "medium",
+      "id": "hist-fr-008",
+      "difficulty": "easy",
       "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
       "options": {
-        "A": "Traité de Versailles",
-        "B": "Traité de Paris",
-        "C": "Traité de Rome",
-        "D": "Traité de Vienne"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-004",
-      "difficulty": "medium",
-      "question": "Qui était le chef militaire carthaginois qui traversa les Alpes avec des éléphants ?",
-      "options": {
-        "A": "Hannibal",
-        "B": "Scipion",
-        "C": "César",
-        "D": "Alexandre"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-005",
-      "difficulty": "medium",
-      "question": "Quel événement a déclenché la Seconde Guerre mondiale ?",
-      "options": {
-        "A": "L’invasion de la Pologne",
-        "B": "La bataille de Stalingrad",
-        "C": "Le bombardement de Pearl Harbor",
-        "D": "La chute de Berlin"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-006",
-      "difficulty": "medium",
-      "question": "Qui était le fondateur de l’Empire mongol ?",
-      "options": {
-        "A": "Gengis Khan",
-        "B": "Kublai Khan",
-        "C": "Attila",
-        "D": "Tamerlan"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-007",
-      "difficulty": "medium",
-      "question": "Quel pays a été dirigé par Mao Zedong ?",
-      "options": {
-        "A": "Corée",
-        "B": "Chine",
-        "C": "Vietnam",
-        "D": "Japon"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-medium-008",
-      "difficulty": "medium",
-      "question": "Quel événement a eu lieu en 1929 et a marqué l’économie mondiale ?",
-      "options": {
-        "A": "La crise de Wall Street",
-        "B": "La révolution russe",
-        "C": "La fin de la Première Guerre mondiale",
-        "D": "La création de l’ONU"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-009",
-      "difficulty": "medium",
-      "question": "Qui était le premier empereur de Chine ?",
-      "options": {
-        "A": "Qin Shi Huang",
-        "B": "Sun Yat-sen",
-        "C": "Mao Zedong",
-        "D": "Confucius"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-010",
-      "difficulty": "medium",
-      "question": "Quel pays a été dirigé par Francisco Franco ?",
-      "options": {
-        "A": "Italie",
-        "B": "Espagne",
-        "C": "Portugal",
-        "D": "Grèce"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-medium-011",
-      "difficulty": "medium",
-      "question": "Quel événement a marqué la chute de l’Empire romain d’Occident ?",
-      "options": {
-        "A": "476",
+        "A": "Jules César",
         "B": "1492",
-        "C": "800",
-        "D": "1066"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-012",
-      "difficulty": "medium",
-      "question": "Qui était le chef de la Révolution russe en 1917 ?",
-      "options": {
-        "A": "Trotski",
-        "B": "Lénine",
-        "C": "Staline",
-        "D": "Kerenski"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-medium-013",
-      "difficulty": "medium",
-      "question": "Quel pays a été dirigé par Fidel Castro ?",
-      "options": {
-        "A": "Mexique",
-        "B": "Cuba",
-        "C": "Brésil",
-        "D": "Argentine"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-medium-014",
-      "difficulty": "medium",
-      "question": "Quel événement a eu lieu en 1917 en Russie ?",
-      "options": {
-        "A": "La révolution russe",
-        "B": "La guerre de Crimée",
-        "C": "La guerre civile",
-        "D": "La chute du tsar Nicolas II"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-015",
-      "difficulty": "medium",
-      "question": "Qui était le premier empereur d’Allemagne en 1871 ?",
-      "options": {
-        "A": "Guillaume Ier",
-        "B": "Otto von Bismarck",
-        "C": "Frédéric II",
-        "D": "Guillaume II"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-016",
-      "difficulty": "medium",
-      "question": "Quel pays a été dirigé par Mustafa Kemal Atatürk ?",
-      "options": {
-        "A": "Grèce",
-        "B": "Turquie",
-        "C": "Iran",
-        "D": "Égypte"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-medium-017",
-      "difficulty": "medium",
-      "question": "Quel événement a eu lieu en 1989 en Europe ?",
-      "options": {
-        "A": "La chute du mur de Berlin",
-        "B": "La fin de la guerre froide",
-        "C": "La création de l’Union européenne",
-        "D": "La chute de l’URSS"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-018",
-      "difficulty": "medium",
-      "question": "Qui était le premier président de la Ve République française ?",
-      "options": {
-        "A": "Charles de Gaulle",
-        "B": "Georges Pompidou",
-        "C": "François Mitterrand",
-        "D": "Valéry Giscard d’Estaing"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-019",
-      "difficulty": "medium",
-      "question": "Quel pays a été dirigé par Winston Churchill pendant la Seconde Guerre mondiale ?",
-      "options": {
-        "A": "France",
-        "B": "Royaume-Uni",
-        "C": "États-Unis",
-        "D": "Canada"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-medium-020",
-      "difficulty": "medium",
-      "question": "Quel événement a eu lieu en 1066 en Angleterre ?",
-      "options": {
-        "A": "La bataille de Hastings",
-        "B": "La guerre des Deux-Roses",
-        "C": "La Magna Carta",
-        "D": "La guerre civile"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-021",
-      "difficulty": "medium",
-      "question": "Qui était le premier président de la République américaine après la guerre d’indépendance ?",
-      "options": {
-        "A": "George Washington",
-        "B": "Thomas Jefferson",
-        "C": "John Adams",
-        "D": "Benjamin Franklin"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-medium-022",
-      "difficulty": "medium",
-      "question": "Quel pays a été dirigé par Napoléon Bonaparte ?",
-      "options": {
-        "A": "Italie",
-        "B": "France",
-        "C": "Espagne",
-        "D": "Belgique"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-medium-023",
-      "difficulty": "medium",
-      "question": "Quel événement a eu lieu en 1215 en Angleterre ?",
-      "options": {
-        "A": "La bataille de Hastings",
-        "B": "La signature de la Magna Carta",
-        "C": "La guerre des Deux-Roses",
-        "D": "La révolution anglaise"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-medium-024",
-      "difficulty": "medium",
-      "question": "Qui était le premier président de la République italienne après la Seconde Guerre mondiale ?",
-      "options": {
-        "A": "Giuseppe Garibaldi",
-        "B": "Enrico De Nicola",
-        "C": "Benito Mussolini",
-        "D": "Luigi Einaudi"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-medium-025",
-      "difficulty": "medium",
-      "question": "Quel événement a marqué la fin de l’Empire byzantin en 1453 ?",
-      "options": {
-        "A": "La chute de Constantinople",
-        "B": "La découverte de l’Amérique",
-        "C": "La guerre de Cent Ans",
-        "D": "La bataille de Poitiers"
-      },
-      "answer": "A"
-    },
-
-    {
-      "id": "hist-hard-001",
-      "difficulty": "hard",
-      "question": "Quel traité a mis fin à la guerre de Cent Ans ?",
-      "options": {
-        "A": "Traité de Verdun",
-        "B": "Traité de Troyes",
-        "C": "Traité de Paris",
-        "D": "Traité de Londres"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-hard-002",
-      "difficulty": "hard",
-      "question": "Qui était le dernier empereur d’Occident ?",
-      "options": {
-        "A": "Romulus Augustule",
-        "B": "Constantin",
-        "C": "Néron",
-        "D": "Trajan"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-003",
-      "difficulty": "hard",
-      "question": "Quel événement a marqué le début de la Renaissance en Europe ?",
-      "options": {
-        "A": "La chute de Constantinople",
-        "B": "La découverte de l’Amérique",
-        "C": "La guerre de Cent Ans",
-        "D": "La réforme protestante"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-004",
-      "difficulty": "hard",
-      "question": "Qui a écrit l’ouvrage « De l’esprit des lois » ?",
-      "options": {
-        "A": "Voltaire",
-        "B": "Montesquieu",
-        "C": "Rousseau",
-        "D": "Diderot"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-hard-005",
-      "difficulty": "hard",
-      "question": "Quel événement a marqué la fin de l’Empire romain d’Orient ?",
-      "options": {
-        "A": "La chute de Constantinople",
-        "B": "La bataille de Poitiers",
-        "C": "La découverte de l’Amérique",
-        "D": "La guerre de Cent Ans"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-006",
-      "difficulty": "hard",
-      "question": "Qui était le fondateur de l’Empire perse achéménide ?",
-      "options": {
-        "A": "Cyrus le Grand",
-        "B": "Darius Ier",
-        "C": "Xerxès",
-        "D": "Artaxerxès"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-007",
-      "difficulty": "hard",
-      "question": "Quel événement a marqué la fin de la guerre froide ?",
-      "options": {
-        "A": "La chute du mur de Berlin",
-        "B": "La dissolution de l’URSS",
-        "C": "La réunification allemande",
-        "D": "La signature du traité de Maastricht"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-hard-008",
-      "difficulty": "hard",
-      "question": "Qui était le premier empereur du Saint-Empire romain germanique ?",
-      "options": {
-        "A": "Otton Ier",
-        "B": "Charlemagne",
-        "C": "Frédéric Barberousse",
-        "D": "Henri IV"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-hard-009",
-      "difficulty": "hard",
-      "question": "Quel événement a eu lieu en 1648 et a marqué la fin de la guerre de Trente Ans ?",
-      "options": {
-        "A": "La paix de Westphalie",
-        "B": "La paix d’Augsbourg",
-        "C": "La paix de Paris",
-        "D": "La paix de Vienne"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-010",
-      "difficulty": "hard",
-      "question": "Qui était le premier président de la République française élu au suffrage universel direct ?",
-      "options": {
-        "A": "Louis-Napoléon Bonaparte",
-        "B": "Charles de Gaulle",
-        "C": "François Mitterrand",
-        "D": "Valéry Giscard d’Estaing"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-011",
-      "difficulty": "hard",
-      "question": "Quel événement a eu lieu en 1919 et a marqué la création de la Société des Nations ?",
-      "options": {
-        "A": "Traité de Versailles",
-        "B": "Traité de Paris",
-        "C": "Traité de Rome",
-        "D": "Traité de Londres"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-012",
-      "difficulty": "hard",
-      "question": "Qui était le fondateur de l’Empire ottoman ?",
-      "options": {
-        "A": "Osman Ier",
-        "B": "Suleiman",
-        "C": "Mehmet II",
-        "D": "Bayezid"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-013",
-      "difficulty": "hard",
-      "question": "Quel événement a marqué la fin de la guerre de Sécession aux États-Unis ?",
-      "options": {
-        "A": "La reddition de Lee à Appomattox",
-        "B": "La bataille de Gettysburg",
-        "C": "L’assassinat de Lincoln",
-        "D": "La proclamation d’émancipation"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-014",
-      "difficulty": "hard",
-      "question": "Qui était le fondateur de l’Empire macédonien ?",
-      "options": {
-        "A": "Alexandre le Grand",
-        "B": "Philippe II",
-        "C": "Ptolémée",
-        "D": "Cassandre"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-hard-015",
-      "difficulty": "hard",
-      "question": "Quel événement a marqué la fin de la guerre d’Indépendance américaine ?",
-      "options": {
-        "A": "Traité de Paris 1783",
-        "B": "Traité de Versailles",
-        "C": "Traité de Londres",
-        "D": "Traité de Rome"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-016",
-      "difficulty": "hard",
-      "question": "Qui était le fondateur de l’Empire inca ?",
-      "options": {
-        "A": "Manco Capac",
-        "B": "Atahualpa",
-        "C": "Pachacuti",
-        "D": "Huayna Capac"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-017",
-      "difficulty": "hard",
-      "question": "Quel événement a marqué la fin de la guerre de Cent Ans ?",
-      "options": {
-        "A": "La bataille de Castillon",
-        "B": "La bataille d’Azincourt",
-        "C": "La bataille de Poitiers",
-        "D": "La bataille d’Orléans"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-018",
-      "difficulty": "hard",
-      "question": "Qui était le fondateur de l’Empire assyrien ?",
-      "options": {
-        "A": "Sargon d’Akkad",
-        "B": "Assurbanipal",
-        "C": "Tiglath-Phalasar",
-        "D": "Ashur"
+        "C": "Empire byzantin",
+        "D": "Traité de Versailles"
       },
       "answer": "D"
     },
     {
-      "id": "hist-hard-019",
-      "difficulty": "hard",
-      "question": "Quel événement a marqué la fin de la guerre de Corée ?",
+      "id": "hist-fr-009",
+      "difficulty": "medium",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
       "options": {
-        "A": "Armistice de 1953",
-        "B": "Traité de Versailles",
-        "C": "Traité de Paris",
-        "D": "Traité de Rome"
+        "A": "Adolf Hitler",
+        "B": "Jules César",
+        "C": "Lénine",
+        "D": "1789"
       },
       "answer": "A"
     },
     {
-      "id": "hist-hard-020",
+      "id": "hist-fr-010",
       "difficulty": "hard",
-      "question": "Qui était le fondateur de l’Empire babylonien ?",
+      "question": "Qui était le leader de l'Union soviétique pendant la crise des missiles de Cuba ?",
       "options": {
-        "A": "Hammurabi",
-        "B": "Nabuchodonosor",
-        "C": "Sargon",
-        "D": "Assurbanipal"
+        "A": "1939",
+        "B": "Lénine",
+        "C": "1914",
+        "D": "Nikita Khrouchtchev"
       },
-      "answer": "A"
+      "answer": "D"
     },
     {
-      "id": "hist-hard-021",
-      "difficulty": "hard",
-      "question": "Quel événement a marqué la fin de la guerre du Vietnam ?",
+      "id": "hist-fr-011",
+      "difficulty": "medium",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
       "options": {
-        "A": "La chute de Saïgon",
-        "B": "Les accords de Genève",
-        "C": "La bataille de Dien Bien Phu",
-        "D": "La réunification allemande"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-022",
-      "difficulty": "hard",
-      "question": "Qui était le fondateur de l’Empire byzantin ?",
-      "options": {
-        "A": "Constantin Ier",
-        "B": "Justinien",
-        "C": "Théodose",
-        "D": "Maurice"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-023",
-      "difficulty": "hard",
-      "question": "Quel événement a marqué la fin de la guerre d’Algérie ?",
-      "options": {
-        "A": "Les accords d’Évian",
-        "B": "La bataille d’Alger",
-        "C": "La chute de De Gaulle",
-        "D": "La révolution des œillets"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-hard-024",
-      "difficulty": "hard",
-      "question": "Qui était le fondateur de l’Empire aztèque ?",
-      "options": {
-        "A": "Moctezuma",
-        "B": "Itzcoatl",
-        "C": "Acamapichtli",
-        "D": "Cuauhtémoc"
+        "A": "Mao Zedong",
+        "B": "1492",
+        "C": "Traité de Versailles",
+        "D": "Cléopâtre"
       },
       "answer": "C"
     },
     {
-      "id": "hist-hard-025",
-      "difficulty": "hard",
-      "question": "Quel événement a marqué la fin de l’Ancien Régime en France ?",
+      "id": "hist-fr-012",
+      "difficulty": "medium",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
       "options": {
-        "A": "La Révolution française",
-        "B": "La guerre de Cent Ans",
-        "C": "La chute de Napoléon",
-        "D": "La bataille de Waterloo"
+        "A": "1789",
+        "B": "1492",
+        "C": "Traité de Versailles",
+        "D": "Empire byzantin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-013",
+      "difficulty": "hard",
+      "question": "Qui a découvert l'Amérique en 1492 ?",
+      "options": {
+        "A": "1492",
+        "B": "Christophe Colomb",
+        "C": "Mur de Chine",
+        "D": "Cléopâtre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-014",
+      "difficulty": "easy",
+      "question": "Quel empire était dirigé par Jules César ?",
+      "options": {
+        "A": "Napoléon Bonaparte",
+        "B": "Empire byzantin",
+        "C": "Empire romain",
+        "D": "Alexandre le Grand"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-015",
+      "difficulty": "easy",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Joseph Staline",
+        "B": "Traité de Paris",
+        "C": "Traité de Versailles",
+        "D": "1939"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-016",
+      "difficulty": "hard",
+      "question": "Qui était le leader de l'Union soviétique pendant la crise des missiles de Cuba ?",
+      "options": {
+        "A": "Nikita Khrouchtchev",
+        "B": "Abraham Lincoln",
+        "C": "Alexandre le Grand",
+        "D": "Mur d'Hadrien"
       },
       "answer": "A"
+    },
+    {
+      "id": "hist-fr-017",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Alexandre le Grand",
+        "B": "Cléopâtre",
+        "C": "Adolf Hitler",
+        "D": "Joseph Staline"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-018",
+      "difficulty": "medium",
+      "question": "Qui était le premier empereur de Rome ?",
+      "options": {
+        "A": "1939",
+        "B": "Traité de Tordesillas",
+        "C": "Auguste",
+        "D": "Abraham Lincoln"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-019",
+      "difficulty": "easy",
+      "question": "Qui était le leader de l'Union soviétique pendant la crise des missiles de Cuba ?",
+      "options": {
+        "A": "Nikita Khrouchtchev",
+        "B": "Charlemagne",
+        "C": "Empire byzantin",
+        "D": "Cléopâtre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-020",
+      "difficulty": "easy",
+      "question": "Quel mur est tombé en 1989 ?",
+      "options": {
+        "A": "Mur de Berlin",
+        "B": "Napoléon Bonaparte",
+        "C": "1939",
+        "D": "Franklin Roosevelt"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-021",
+      "difficulty": "hard",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "Jules César",
+        "B": "Mur d'Hadrien",
+        "C": "1789",
+        "D": "George Washington"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-022",
+      "difficulty": "hard",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "Mur d'Hadrien",
+        "B": "Cléopâtre",
+        "C": "Empire byzantin",
+        "D": "George Washington"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-023",
+      "difficulty": "medium",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Traité de Tordesillas",
+        "B": "Alexandre le Grand",
+        "C": "Franklin Roosevelt",
+        "D": "Adolf Hitler"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-024",
+      "difficulty": "medium",
+      "question": "Quel mur est tombé en 1989 ?",
+      "options": {
+        "A": "Winston Churchill",
+        "B": "1939",
+        "C": "Mur de Berlin",
+        "D": "Traité de Tordesillas"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-025",
+      "difficulty": "easy",
+      "question": "Quel mur est tombé en 1989 ?",
+      "options": {
+        "A": "Traité de Paris",
+        "B": "Mur d'Hadrien",
+        "C": "Mur de Berlin",
+        "D": "Winston Churchill"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-026",
+      "difficulty": "medium",
+      "question": "Qui était le leader de l'Union soviétique pendant la crise des missiles de Cuba ?",
+      "options": {
+        "A": "Nikita Khrouchtchev",
+        "B": "Joseph Staline",
+        "C": "Jules César",
+        "D": "1939"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-027",
+      "difficulty": "medium",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Traité de Tordesillas",
+        "B": "Adolf Hitler",
+        "C": "1789",
+        "D": "Joseph Staline"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-028",
+      "difficulty": "hard",
+      "question": "Quel pharaon est associé à la grande pyramide de Gizeh ?",
+      "options": {
+        "A": "Mur d'Hadrien",
+        "B": "Khéops",
+        "C": "1914",
+        "D": "Winston Churchill"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-029",
+      "difficulty": "medium",
+      "question": "Quel empire était dirigé par Jules César ?",
+      "options": {
+        "A": "Empire romain",
+        "B": "Mao Zedong",
+        "C": "1914",
+        "D": "Charlemagne"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-030",
+      "difficulty": "easy",
+      "question": "Qui était le leader de l'Union soviétique pendant la crise des missiles de Cuba ?",
+      "options": {
+        "A": "Alexandre le Grand",
+        "B": "Nikita Khrouchtchev",
+        "C": "Cléopâtre",
+        "D": "Traité de Paris"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-031",
+      "difficulty": "easy",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Franklin Roosevelt",
+        "C": "Traité de Versailles",
+        "D": "1914"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-032",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Adolf Hitler",
+        "B": "Joseph Staline",
+        "C": "Cléopâtre",
+        "D": "Empire byzantin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-033",
+      "difficulty": "hard",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Mao Zedong",
+        "B": "Traité de Versailles",
+        "C": "Empire ottoman",
+        "D": "Cléopâtre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-034",
+      "difficulty": "easy",
+      "question": "Qui a découvert l'Amérique en 1492 ?",
+      "options": {
+        "A": "Napoléon Bonaparte",
+        "B": "Cléopâtre",
+        "C": "Christophe Colomb",
+        "D": "Franklin Roosevelt"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-035",
+      "difficulty": "medium",
+      "question": "Quel mur est tombé en 1989 ?",
+      "options": {
+        "A": "1789",
+        "B": "Louis XIV",
+        "C": "Jules César",
+        "D": "Mur de Berlin"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-036",
+      "difficulty": "hard",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "Mur de Chine",
+        "B": "Cléopâtre",
+        "C": "Traité de Tordesillas",
+        "D": "George Washington"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-037",
+      "difficulty": "medium",
+      "question": "En quelle année la Révolution française a-t-elle commencé ?",
+      "options": {
+        "A": "1789",
+        "B": "Alexandre le Grand",
+        "C": "1492",
+        "D": "Franklin Roosevelt"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-038",
+      "difficulty": "medium",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "George Washington",
+        "B": "Charlemagne",
+        "C": "Cléopâtre",
+        "D": "Napoléon Bonaparte"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-039",
+      "difficulty": "easy",
+      "question": "En quelle année la Révolution française a-t-elle commencé ?",
+      "options": {
+        "A": "1789",
+        "B": "Cléopâtre",
+        "C": "Jules César",
+        "D": "Empire ottoman"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-040",
+      "difficulty": "easy",
+      "question": "En quelle année la Révolution française a-t-elle commencé ?",
+      "options": {
+        "A": "1789",
+        "B": "Traité de Tordesillas",
+        "C": "Alexandre le Grand",
+        "D": "Winston Churchill"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-041",
+      "difficulty": "medium",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Traité de Versailles",
+        "B": "Abraham Lincoln",
+        "C": "Napoléon Bonaparte",
+        "D": "Empire byzantin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-042",
+      "difficulty": "medium",
+      "question": "Quel empire était dirigé par Jules César ?",
+      "options": {
+        "A": "Empire romain",
+        "B": "Cléopâtre",
+        "C": "1789",
+        "D": "1914"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-043",
+      "difficulty": "easy",
+      "question": "En quelle année la Révolution française a-t-elle commencé ?",
+      "options": {
+        "A": "1789",
+        "B": "1492",
+        "C": "Napoléon Bonaparte",
+        "D": "Louis XIV"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-044",
+      "difficulty": "easy",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "1789",
+        "B": "1492",
+        "C": "Empire byzantin",
+        "D": "Adolf Hitler"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-045",
+      "difficulty": "medium",
+      "question": "Quel empire était dirigé par Jules César ?",
+      "options": {
+        "A": "Mao Zedong",
+        "B": "Empire romain",
+        "C": "Mur d'Hadrien",
+        "D": "Abraham Lincoln"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-046",
+      "difficulty": "easy",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Adolf Hitler",
+        "B": "Empire ottoman",
+        "C": "Napoléon Bonaparte",
+        "D": "Mur d'Hadrien"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-047",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Adolf Hitler",
+        "B": "Mur de Chine",
+        "C": "Mur d'Hadrien",
+        "D": "Traité de Tordesillas"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-048",
+      "difficulty": "hard",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Mao Zedong",
+        "B": "Alexandre le Grand",
+        "C": "Traité de Versailles",
+        "D": "Napoléon Bonaparte"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-049",
+      "difficulty": "medium",
+      "question": "Qui était le premier empereur de Rome ?",
+      "options": {
+        "A": "1492",
+        "B": "1914",
+        "C": "Empire byzantin",
+        "D": "Auguste"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-050",
+      "difficulty": "easy",
+      "question": "Quel empire était dirigé par Jules César ?",
+      "options": {
+        "A": "Empire romain",
+        "B": "Charlemagne",
+        "C": "Franklin Roosevelt",
+        "D": "Abraham Lincoln"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-051",
+      "difficulty": "hard",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Napoléon Bonaparte",
+        "B": "Traité de Versailles",
+        "C": "Franklin Roosevelt",
+        "D": "Joseph Staline"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-052",
+      "difficulty": "hard",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Alexandre le Grand",
+        "B": "1914",
+        "C": "Lénine",
+        "D": "Traité de Versailles"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-053",
+      "difficulty": "hard",
+      "question": "Qui a découvert l'Amérique en 1492 ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Cléopâtre",
+        "C": "Christophe Colomb",
+        "D": "Traité de Tordesillas"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-054",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Winston Churchill",
+        "B": "Adolf Hitler",
+        "C": "Mur de Chine",
+        "D": "1789"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-055",
+      "difficulty": "hard",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "Mur d'Hadrien",
+        "B": "Mur de Chine",
+        "C": "George Washington",
+        "D": "Jules César"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-056",
+      "difficulty": "easy",
+      "question": "Qui a découvert l'Amérique en 1492 ?",
+      "options": {
+        "A": "Mur de Chine",
+        "B": "Franklin Roosevelt",
+        "C": "Empire byzantin",
+        "D": "Christophe Colomb"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-057",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "1939",
+        "B": "Adolf Hitler",
+        "C": "Empire ottoman",
+        "D": "Mur d'Hadrien"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-058",
+      "difficulty": "medium",
+      "question": "Quel empire était dirigé par Jules César ?",
+      "options": {
+        "A": "Jules César",
+        "B": "Cléopâtre",
+        "C": "Empire romain",
+        "D": "Louis XIV"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-059",
+      "difficulty": "easy",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "Traité de Tordesillas",
+        "B": "Abraham Lincoln",
+        "C": "George Washington",
+        "D": "Joseph Staline"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-060",
+      "difficulty": "easy",
+      "question": "Qui a découvert l'Amérique en 1492 ?",
+      "options": {
+        "A": "Christophe Colomb",
+        "B": "1789",
+        "C": "1914",
+        "D": "Cléopâtre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-061",
+      "difficulty": "hard",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "Traité de Paris",
+        "B": "George Washington",
+        "C": "Charlemagne",
+        "D": "1492"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-062",
+      "difficulty": "hard",
+      "question": "Qui était le premier empereur de Rome ?",
+      "options": {
+        "A": "Jules César",
+        "B": "1939",
+        "C": "Auguste",
+        "D": "Cléopâtre"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-063",
+      "difficulty": "easy",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Franklin Roosevelt",
+        "B": "Adolf Hitler",
+        "C": "Mur de Chine",
+        "D": "Lénine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-064",
+      "difficulty": "easy",
+      "question": "En quelle année la Révolution française a-t-elle commencé ?",
+      "options": {
+        "A": "Abraham Lincoln",
+        "B": "1914",
+        "C": "1789",
+        "D": "Charlemagne"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-065",
+      "difficulty": "easy",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Traité de Paris",
+        "B": "Franklin Roosevelt",
+        "C": "Mur de Chine",
+        "D": "Traité de Versailles"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-066",
+      "difficulty": "easy",
+      "question": "Quel mur est tombé en 1989 ?",
+      "options": {
+        "A": "1789",
+        "B": "Cléopâtre",
+        "C": "Alexandre le Grand",
+        "D": "Mur de Berlin"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-067",
+      "difficulty": "medium",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "Traité de Tordesillas",
+        "B": "Mur de Chine",
+        "C": "Empire byzantin",
+        "D": "George Washington"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-068",
+      "difficulty": "medium",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "George Washington",
+        "B": "Mao Zedong",
+        "C": "1914",
+        "D": "1492"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-069",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "1939",
+        "C": "Adolf Hitler",
+        "D": "Cléopâtre"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-070",
+      "difficulty": "medium",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Traité de Paris",
+        "B": "Empire byzantin",
+        "C": "Cléopâtre",
+        "D": "Adolf Hitler"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-071",
+      "difficulty": "hard",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Traité de Versailles",
+        "B": "Joseph Staline",
+        "C": "Mur d'Hadrien",
+        "D": "Abraham Lincoln"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-072",
+      "difficulty": "easy",
+      "question": "Quel empire était dirigé par Jules César ?",
+      "options": {
+        "A": "Traité de Tordesillas",
+        "B": "Empire romain",
+        "C": "Empire byzantin",
+        "D": "Empire ottoman"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-073",
+      "difficulty": "medium",
+      "question": "En quelle année la Révolution française a-t-elle commencé ?",
+      "options": {
+        "A": "Mur de Chine",
+        "B": "Traité de Paris",
+        "C": "Napoléon Bonaparte",
+        "D": "1789"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-074",
+      "difficulty": "hard",
+      "question": "Qui a découvert l'Amérique en 1492 ?",
+      "options": {
+        "A": "Christophe Colomb",
+        "B": "Jules César",
+        "C": "Empire ottoman",
+        "D": "Abraham Lincoln"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-075",
+      "difficulty": "easy",
+      "question": "Qui était le premier empereur de Rome ?",
+      "options": {
+        "A": "Auguste",
+        "B": "Empire byzantin",
+        "C": "Traité de Paris",
+        "D": "Mur de Chine"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-076",
+      "difficulty": "hard",
+      "question": "Quel empire était dirigé par Jules César ?",
+      "options": {
+        "A": "Mur d'Hadrien",
+        "B": "Alexandre le Grand",
+        "C": "Empire romain",
+        "D": "1939"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-077",
+      "difficulty": "easy",
+      "question": "Quel pharaon est associé à la grande pyramide de Gizeh ?",
+      "options": {
+        "A": "Mao Zedong",
+        "B": "Khéops",
+        "C": "Traité de Paris",
+        "D": "Winston Churchill"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-078",
+      "difficulty": "medium",
+      "question": "Qui a découvert l'Amérique en 1492 ?",
+      "options": {
+        "A": "Christophe Colomb",
+        "B": "Mur d'Hadrien",
+        "C": "Jules César",
+        "D": "Joseph Staline"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-079",
+      "difficulty": "easy",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "George Washington",
+        "B": "1939",
+        "C": "Traité de Paris",
+        "D": "Abraham Lincoln"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-080",
+      "difficulty": "hard",
+      "question": "Quel mur est tombé en 1989 ?",
+      "options": {
+        "A": "Traité de Tordesillas",
+        "B": "Mur de Berlin",
+        "C": "Jules César",
+        "D": "1914"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-081",
+      "difficulty": "easy",
+      "question": "Quel pharaon est associé à la grande pyramide de Gizeh ?",
+      "options": {
+        "A": "Abraham Lincoln",
+        "B": "Mao Zedong",
+        "C": "Khéops",
+        "D": "Traité de Tordesillas"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-082",
+      "difficulty": "medium",
+      "question": "Quel pharaon est associé à la grande pyramide de Gizeh ?",
+      "options": {
+        "A": "Joseph Staline",
+        "B": "Khéops",
+        "C": "Charlemagne",
+        "D": "Mao Zedong"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-083",
+      "difficulty": "easy",
+      "question": "Quel empire était dirigé par Jules César ?",
+      "options": {
+        "A": "1939",
+        "B": "Empire romain",
+        "C": "Lénine",
+        "D": "Winston Churchill"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-084",
+      "difficulty": "medium",
+      "question": "En quelle année la Révolution française a-t-elle commencé ?",
+      "options": {
+        "A": "Winston Churchill",
+        "B": "1789",
+        "C": "Jules César",
+        "D": "Abraham Lincoln"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-085",
+      "difficulty": "medium",
+      "question": "En quelle année la Révolution française a-t-elle commencé ?",
+      "options": {
+        "A": "1789",
+        "B": "Louis XIV",
+        "C": "Traité de Tordesillas",
+        "D": "Charlemagne"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-086",
+      "difficulty": "medium",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Cléopâtre",
+        "B": "Alexandre le Grand",
+        "C": "1914",
+        "D": "Traité de Versailles"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-087",
+      "difficulty": "easy",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "George Washington",
+        "B": "Abraham Lincoln",
+        "C": "Napoléon Bonaparte",
+        "D": "Traité de Paris"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-088",
+      "difficulty": "medium",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "1914",
+        "B": "Louis XIV",
+        "C": "Winston Churchill",
+        "D": "Traité de Versailles"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-089",
+      "difficulty": "easy",
+      "question": "Qui a découvert l'Amérique en 1492 ?",
+      "options": {
+        "A": "Abraham Lincoln",
+        "B": "1914",
+        "C": "Christophe Colomb",
+        "D": "Lénine"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-090",
+      "difficulty": "hard",
+      "question": "Quel pharaon est associé à la grande pyramide de Gizeh ?",
+      "options": {
+        "A": "Khéops",
+        "B": "Franklin Roosevelt",
+        "C": "Mur de Chine",
+        "D": "Traité de Paris"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-091",
+      "difficulty": "hard",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Mur d'Hadrien",
+        "B": "1939",
+        "C": "Cléopâtre",
+        "D": "Traité de Versailles"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-092",
+      "difficulty": "easy",
+      "question": "En quelle année la Révolution française a-t-elle commencé ?",
+      "options": {
+        "A": "Charlemagne",
+        "B": "1789",
+        "C": "Mur d'Hadrien",
+        "D": "Alexandre le Grand"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-093",
+      "difficulty": "hard",
+      "question": "En quelle année la Révolution française a-t-elle commencé ?",
+      "options": {
+        "A": "1492",
+        "B": "1789",
+        "C": "Lénine",
+        "D": "Abraham Lincoln"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-094",
+      "difficulty": "easy",
+      "question": "Quel empire était dirigé par Jules César ?",
+      "options": {
+        "A": "Mao Zedong",
+        "B": "Empire romain",
+        "C": "Jules César",
+        "D": "1939"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-095",
+      "difficulty": "easy",
+      "question": "Qui était le premier président des États-Unis ?",
+      "options": {
+        "A": "Napoléon Bonaparte",
+        "B": "Mur d'Hadrien",
+        "C": "Franklin Roosevelt",
+        "D": "George Washington"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-096",
+      "difficulty": "easy",
+      "question": "Quel pharaon est associé à la grande pyramide de Gizeh ?",
+      "options": {
+        "A": "Winston Churchill",
+        "B": "Khéops",
+        "C": "Charlemagne",
+        "D": "Mao Zedong"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-097",
+      "difficulty": "easy",
+      "question": "Qui a découvert l'Amérique en 1492 ?",
+      "options": {
+        "A": "1492",
+        "B": "Christophe Colomb",
+        "C": "Abraham Lincoln",
+        "D": "Joseph Staline"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-098",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Adolf Hitler",
+        "B": "1789",
+        "C": "Cléopâtre",
+        "D": "Louis XIV"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-099",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Cléopâtre",
+        "B": "Traité de Tordesillas",
+        "C": "Abraham Lincoln",
+        "D": "Adolf Hitler"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-100",
+      "difficulty": "easy",
+      "question": "Quel pharaon est associé à la grande pyramide de Gizeh ?",
+      "options": {
+        "A": "Charlemagne",
+        "B": "Jules César",
+        "C": "Khéops",
+        "D": "1914"
+      },
+      "answer": "C"
     }
   ]
 }
