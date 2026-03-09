@@ -91,8 +91,9 @@ describe('Flux Home → Quiz → Results', () => {
   });
 
   it('bouton Rejouer relance le quiz avec la même catégorie et difficulté', () => {
+    // diff-easy : fr/sciences n'a que des questions easy (pas de medium/hard)
     cy.get('[data-testid="cat-sciences"]').click();
-    cy.get('[data-testid="diff-hard"]').click();
+    cy.get('[data-testid="diff-easy"]').click();
     cy.get('[data-testid="play-btn"]').click();
 
     cy.answerAllQuestions();
