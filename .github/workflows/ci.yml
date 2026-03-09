@@ -50,7 +50,11 @@ jobs:
         run: npm test
 
       # Build Next.js — vérifie qu'il n'y a pas d'erreur TypeScript ou de compilation
+      # Les variables Supabase sont injectées depuis les GitHub Secrets (jamais en clair dans le repo)
       - name: Build (Next.js)
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
         run: npm run build
 
       # Audit de sécurité — échoue uniquement sur les vulnérabilités CRITICAL.
@@ -87,6 +91,9 @@ jobs:
       #   - le lancement des tests Cypress
       - name: Cypress E2E
         uses: cypress-io/github-action@v6
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
         with:
           # Lance le serveur de production (plus stable qu'un serveur de dev en CI)
           build: npm run build
