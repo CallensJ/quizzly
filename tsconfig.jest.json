@@ -1,0 +1,14 @@
+{
+  // tsconfig.jest.json
+  //
+  // Config TypeScript séparée pour Jest.
+  // Nécessaire car Next.js utilise moduleResolution "bundler" que ts-jest ne supporte pas.
+  // On utilise ici "node" qui est compatible avec l'environnement Jest/Node.
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "jsx": "react-jsx"
+  },
+  "exclude": ["node_modules"]
+}
