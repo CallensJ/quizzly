@@ -12,7 +12,8 @@
  *   public/sounds/<id>.mp3   (fallback universel)
  *
  * Sons attendus :
- *   correct, wrong, streak, badge, timer-urgent, timer-expired, finish
+ *   correct, wrong, streak, badge, timer-urgent, finish
+ *   timer-expired → mapped sur timer-end-bell.mp3
  */
 
 import { Howl } from 'howler';
@@ -32,20 +33,23 @@ let sounds: Partial<Record<SoundId, Howl>> | null = null;
 
 /** Construit toutes les instances Howl. Appelé une seule fois côté client. */
 function buildSounds(): Partial<Record<SoundId, Howl>> {
-  // Sons disponibles — streak et timer-expired exclus (fichiers audio manquants)
-  const config: Partial<Record<SoundId, { volume: number; loop?: boolean }>> = {
-    correct:        { volume: 0.65 },
-    wrong:          { volume: 0.55 },
-    badge:          { volume: 0.8 },
-    'timer-urgent': { volume: 0.5 },
-    finish:         { volume: 0.7 },
+  // Sons disponibles — streak exclu (fichier audio manquant)
+  // Le nom de fichier peut différer de l'id via la propriété `file` optionnelle
+  const config: Partial<Record<SoundId, { volume: number; file?: string }>> = {
+    correct:          { volume: 0.65 },
+    wrong:            { volume: 0.55 },
+    badge:            { volume: 0.8 },
+    'timer-urgent':   { volume: 0.5 },
+    'timer-expired':  { volume: 0.7, file: 'timer-end-bell' }, // fichier : timer-end-bell.mp3
+    finish:           { volume: 0.7 },
   };
 
   return Object.fromEntries(
-    (Object.entries(config) as [SoundId, { volume: number }][]).map(([id, opts]) => [
+    (Object.entries(config) as [SoundId, { volume: number; file?: string }][]).map(([id, opts]) => [
       id,
       new Howl({
-        src: [`/sounds/${id}.mp3`], // .webm non disponibles — MP3 uniquement
+        // Utilise le nom de fichier personnalisé si fourni, sinon l'id directement
+        src: [`/sounds/${opts.file ?? id}.mp3`],
         volume: opts.volume,
         preload: true,
         // Silencieux si le fichier est absent (développement sans assets)
