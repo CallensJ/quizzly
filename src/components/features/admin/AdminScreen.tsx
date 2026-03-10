@@ -185,7 +185,7 @@ export default function AdminScreen() {
       <main className="admin__body">
 
         {/* ── Stats enfant (lecture seule) ────────────────────────────────── */}
-        <section className="admin__section" aria-labelledby="admin-stats-title">
+        <section className="admin__section admin__section--stats" aria-labelledby="admin-stats-title">
           <div className="admin__section-header">
             <BarChart3 size={18} strokeWidth={2} aria-hidden="true" />
             <h2 id="admin-stats-title" className="admin__section-title">
@@ -216,7 +216,7 @@ export default function AdminScreen() {
         </section>
 
         {/* ── Objectif journalier ─────────────────────────────────────────── */}
-        <section className="admin__section" aria-labelledby="admin-goal-title">
+        <section className="admin__section admin__section--goal" aria-labelledby="admin-goal-title">
           <div className="admin__section-header">
             <Target size={18} strokeWidth={2} aria-hidden="true" />
             <h2 id="admin-goal-title" className="admin__section-title">{t('goalTitle')}</h2>
@@ -248,7 +248,7 @@ export default function AdminScreen() {
         </section>
 
         {/* ── Code parent ─────────────────────────────────────────────────── */}
-        <section className="admin__section" aria-labelledby="admin-pin-title">
+        <section className="admin__section admin__section--pin" aria-labelledby="admin-pin-title">
           <div className="admin__section-header">
             <KeyRound size={18} strokeWidth={2} aria-hidden="true" />
             <h2 id="admin-pin-title" className="admin__section-title">{t('pinTitle')}</h2>
@@ -269,7 +269,7 @@ export default function AdminScreen() {
         </section>
 
         {/* ── Email de contact ────────────────────────────────────────────── */}
-        <section className="admin__section" aria-labelledby="admin-email-title">
+        <section className="admin__section admin__section--email" aria-labelledby="admin-email-title">
           <div className="admin__section-header">
             <Mail size={18} strokeWidth={2} aria-hidden="true" />
             <h2 id="admin-email-title" className="admin__section-title">{t('emailTitle')}</h2>
@@ -313,7 +313,7 @@ export default function AdminScreen() {
 
         {/* ── Compte adulte (Supabase Auth) ───────────────────────────────── */}
         {!authLoading && (
-          <section className="admin__section" aria-labelledby="admin-auth-title">
+          <section className="admin__section admin__section--auth" aria-labelledby="admin-auth-title">
             <div className="admin__section-header">
               <UserCircle2 size={18} strokeWidth={2} aria-hidden="true" />
               <h2 id="admin-auth-title" className="admin__section-title">

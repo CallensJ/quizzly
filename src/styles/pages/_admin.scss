@@ -464,6 +464,52 @@
     from { opacity: 0; transform: translateY(10px); }
     to   { opacity: 1; transform: translateY(0); }
   }
+
+  // ── Desktop — Bento Grid (≥ 1024px) ─────────────────────────────────────────
+  //
+  // L'admin n'a pas de sidebar (AppLayout absent). Sur desktop, on adopte
+  // un layout grille type dashboard pour regrouper les sections logiquement.
+  //
+  // Layout :
+  //   Col 1 (1fr) | Col 2 (1fr)
+  //   [stats — full width                    ]
+  //   [objectif (col 1)] | [code PIN (col 2) ]
+  //   [email (col 1)   ] | [compte (col 2)   ]
+  //   [danger — full width                   ]
+
+  @media (min-width: v.$bp-lg) {
+
+    &__body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: 960px;
+      gap: v.$spacing-lg;
+      padding: v.$spacing-xl;
+      align-items: start;
+    }
+
+    &__section {
+      // Stats enfant — pleine largeur, en tête de dashboard
+      &--stats  { grid-column: 1 / -1; }
+
+      // Objectif journalier — col gauche
+      &--goal   { grid-column: 1; }
+
+      // Code PIN — col droite (face à l'objectif)
+      &--pin    { grid-column: 2; }
+
+      // Email de contact — col gauche
+      &--email  { grid-column: 1; }
+
+      // Compte adulte — col droite (face à l'email)
+      // Si authLoading = true (section absente), email reste en col 1.
+      // Cas marginal : authLoading se résout avant que l'utilisateur voie le dashboard.
+      &--auth   { grid-column: 2; }
+
+      // Zone de danger — pleine largeur, en bas du dashboard
+      &--danger { grid-column: 1 / -1; }
+    }
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════

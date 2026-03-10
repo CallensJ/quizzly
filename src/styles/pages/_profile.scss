@@ -512,10 +512,133 @@
     @include m.focus-ring;
   }
 
+  // ── Couleur catégorie manquante ───────────────────────────────────────────
+
+  &__cat-card--heroes { border-color: v.$cat-heroes; }
+
   // ── Animations ────────────────────────────────────────────────────────────
 
   @keyframes profile-fade-in {
     from { opacity: 0; transform: translateY(10px); }
     to   { opacity: 1; transform: translateY(0); }
+  }
+
+  // ── Desktop — Bento Grid (≥ 1024px) ──────────────────────────────────────
+  //
+  // Sur desktop (AppLayout actif), le profil adopte un layout grille type dashboard.
+  // L'objectif est d'éliminer le scroll excessif en exploitant la largeur disponible
+  // dans la zone de contenu droite de l'AppLayout (100vw - 280px sidebar).
+  //
+  // Layout :
+  //   Col 1 (1fr) | Col 2 (1fr)
+  //   [identity (span 2 lignes)] | [stats (3 pills verticaux)   ]
+  //                              | [badge section               ]
+  //   [galerie avatar si ouverte — full width                   ]
+  //   [scores par catégorie — 3 cartes horizontales             ]
+  //   [paramètres — 3 tuiles (timer | sons | langue)            ]
+  //   [cta retour — centré                                      ]
+
+  @media (min-width: v.$bp-lg) {
+
+    &__body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: 900px;
+      gap: v.$spacing-lg;
+      padding: v.$spacing-xl;
+      // Chaque cellule s'aligne en haut (pas de stretch par défaut)
+      align-items: start;
+    }
+
+    // Identité — col gauche, s'étire sur 2 lignes (face aux stats + badge)
+    &__identity {
+      grid-column: 1;
+      grid-row: span 2;
+      align-self: stretch; // remplit la hauteur combinée stats + gap + badge
+    }
+
+    // Stats — col droite, ligne 1 — repositionné après identity dans le DOM
+    // Override le grid 3-col mobile : les 3 cartes s'empilent verticalement
+    &__stats {
+      order: 2;
+      grid-column: 2;
+      grid-template-columns: 1fr; // 1 seule colonne → stack vertical
+      gap: v.$spacing-sm;
+    }
+
+    // Chaque carte stat : pill horizontal sur desktop (valeur à gauche, label à droite)
+    &__stat-card {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+      padding: v.$spacing-sm v.$spacing-md;
+      gap: v.$spacing-sm;
+    }
+
+    // Badge — col droite, ligne 2 (sous les stats)
+    &__badge-section {
+      order: 3;
+      grid-column: 2;
+    }
+
+    // Galerie avatar — si ouverte, pleine largeur après identité+stats+badge
+    &__avatar-gallery {
+      order: 4;
+      grid-column: 1 / -1;
+      // 8 avatars sur une ligne au lieu de 4 — exploite toute la largeur
+      grid-template-columns: repeat(8, 1fr);
+    }
+
+    // Scores par catégorie — pleine largeur, 3 cartes côte à côte
+    &__cat-stats {
+      order: 5;
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: v.$spacing-md;
+
+      // Titre de section — s'étire sur les 3 colonnes
+      > .profile__section-title {
+        grid-column: 1 / -1;
+      }
+    }
+
+    // Paramètres — pleine largeur, 3 tuiles autonomes (une par paramètre)
+    &__settings {
+      order: 6;
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: v.$spacing-md;
+
+      > .profile__section-title {
+        grid-column: 1 / -1;
+      }
+
+      // Chaque ligne devient une carte verticale : info en haut, contrôle en bas
+      .profile__setting-row {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        min-height: 110px;
+        padding: v.$spacing-lg;
+      }
+    }
+
+    // Bouton retour — pleine largeur, limité en largeur et centré
+    &__cta-home {
+      order: 7;
+      grid-column: 1 / -1;
+      max-width: 400px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    // Lien espace parent — pleine largeur, centré
+    &__admin-link {
+      order: 8;
+      grid-column: 1 / -1;
+    }
   }
 }
