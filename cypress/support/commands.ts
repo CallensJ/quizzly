@@ -42,6 +42,44 @@ Cypress.Commands.add('setupProfile', () => {
 });
 
 /**
+ * cy.setupQuestionsCache()
+ *
+ * Pré-remplit le cache localStorage des questions (clé `quizzly-q-{cat}-fr`)
+ * avec des données mock pour toutes les catégories et difficultés.
+ *
+ * Nécessaire depuis que fetchQuestions() interroge Supabase : en CI il n'y a
+ * pas d'appel réseau réel, le cache évite l'erreur "fetchError" qui bloque
+ * la navigation vers /quiz.
+ *
+ * Doit être appelé après cy.setupProfile() (même visit → même origin).
+ */
+Cypress.Commands.add('setupQuestionsCache', () => {
+  cy.window().then((win) => {
+    // Génère N questions mock pour une catégorie + difficulté
+    const makeQuestions = (category: string, difficulty: string, count: number) =>
+      Array.from({ length: count }, (_, i) => ({
+        id: `${category}-${difficulty}-${i + 1}`,
+        difficulty,
+        question: `Question test ${i + 1} (${category} — ${difficulty}) ?`,
+        options: { A: 'Réponse A', B: 'Réponse B', C: 'Réponse C', D: 'Réponse D' },
+        answer: 'A',
+      }));
+
+    // 25 questions par difficulté → couvre un quiz de 20 questions avec marge
+    const categories = ['sciences', 'histoire', 'heroes'];
+    const difficulties = ['easy', 'medium', 'hard'];
+
+    categories.forEach((category) => {
+      const questions = difficulties.flatMap((diff) => makeQuestions(category, diff, 25));
+      win.localStorage.setItem(
+        `quizzly-q-${category}-fr`,
+        JSON.stringify({ questions, cachedAt: Date.now() })
+      );
+    });
+  });
+});
+
+/**
  * cy.answerAllQuestions()
  *
  * Répond à toutes les questions du quiz en cours en cliquant sur la réponse A,
@@ -76,6 +114,8 @@ declare global {
     interface Chainable {
       /** Injecte un profil en localStorage et recharge la page */
       setupProfile(): Chainable<void>;
+      /** Pré-remplit le cache localStorage des questions (mock) pour éviter les appels Supabase en test */
+      setupQuestionsCache(): Chainable<void>;
       /** Répond à toutes les questions du quiz en cliquant sur A + Suivant */
       answerAllQuestions(): Chainable<void>;
     }

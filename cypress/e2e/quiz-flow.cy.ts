@@ -8,10 +8,12 @@
 
 describe('Flux Home → Quiz → Results', () => {
 
-  // Avant chaque test : profil existant → on atterrit sur Home
+  // Avant chaque test : profil existant + cache questions mock → on atterrit sur Home
   beforeEach(() => {
     cy.clearLocalStorage();
     cy.setupProfile();
+    // Pré-remplit le cache questions pour éviter les appels Supabase en CI
+    cy.setupQuestionsCache();
     // Recharger après injection du localStorage pour que Zustand le lise
     cy.visit('/fr/home');
   });
