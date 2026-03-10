@@ -14,7 +14,7 @@
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Atom, Landmark, Swords, User } from 'lucide-react';
-import { useRouter } from '@/i18n/navigation';
+import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
 import { fetchQuestions } from '@/lib/questions';
@@ -46,6 +46,13 @@ export default function HomeScreen() {
   const t = useTranslations('home');
   const locale = useLocale() as Locale;
   const router = useRouter();
+  const pathname = usePathname();
+
+  // Toggle FR ↔ EN — même pattern que ProfileScreen
+  function toggleLocale() {
+    const next: Locale = locale === 'fr' ? 'en' : 'fr';
+    router.replace(pathname, { locale: next });
+  }
 
   const profile = useProfileStore((s) => s.profile);
   const { category, difficulty, setCategory, setDifficulty, startQuiz } = useQuizStore();
@@ -82,13 +89,23 @@ export default function HomeScreen() {
           {/* Salutation personnalisée avec le pseudo */}
           Salut, <span>{profile?.pseudo}</span> !
         </h1>
-        <button
-          className="home__profile-btn"
-          onClick={() => router.push('/profile')}
-          aria-label="Voir mon profil"
-        >
-          <User size={28} strokeWidth={2} />
-        </button>
+        <div className="home__header-actions">
+          {/* Toggle langue — accessible directement depuis le header pour les enfants */}
+          <button
+            className="home__lang-btn"
+            onClick={toggleLocale}
+            aria-label={locale === 'fr' ? 'Switch to English' : 'Passer en français'}
+          >
+            {locale === 'fr' ? '🇬🇧' : '🇫🇷'}
+          </button>
+          <button
+            className="home__profile-btn"
+            onClick={() => router.push('/profile')}
+            aria-label="Voir mon profil"
+          >
+            <User size={28} strokeWidth={2} />
+          </button>
+        </div>
       </header>
 
       <main className="home__body">

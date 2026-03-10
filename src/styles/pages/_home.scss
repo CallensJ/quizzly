@@ -37,6 +37,34 @@
     }
   }
 
+  // Groupe boutons droite du header (lang + profile)
+  &__header-actions {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    flex-shrink: 0;
+  }
+
+  // Toggle langue — flag uniquement, compact et lisible pour les enfants
+  &__lang-btn {
+    font-size: 1.375rem; // flag bien visible
+    line-height: 1;
+    width: v.$touch-target-lg;
+    height: v.$touch-target-lg;
+    @include m.flex-center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: v.$radius-full;
+    cursor: pointer;
+    transition: background v.$transition-fast;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.32);
+    }
+
+    @include m.focus-ring;
+  }
+
   &__profile-btn {
     color: v.$white;
     background: rgba(255, 255, 255, 0.2);
