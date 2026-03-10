@@ -25,7 +25,8 @@
     "histoire": "Histoire",
     "histoireDesc": "Dates, personnages, civilisations…",
     "heroes": "Héros & Aventures",
-    "heroesDesc": "Personnages animés, super-héros, magie…"
+    "heroesDesc": "Personnages animés, super-héros, magie…",
+    "fetchError": "Impossible de charger les questions. Vérifie ta connexion."
   },
   "quiz": {
     "question": "Question {current} / {total}",

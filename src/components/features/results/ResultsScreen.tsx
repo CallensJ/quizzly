@@ -21,25 +21,12 @@ import { useQuizStore } from '@/stores/quizStore';
 import { useProfileStore } from '@/stores/profileStore';
 import { playSound } from '@/lib/sound';
 import { syncSession, syncBadge } from '@/lib/sync';
+import { fetchQuestions } from '@/lib/questions';
 import Nova from '@/components/ui/Nova';
-import type { Category, Locale, QuestionFile } from '@/types';
+import type { Locale } from '@/types';
 
 // Doit rester synchronisé avec QuizScreen.tsx
 const BADGE_THRESHOLD = 4;
-
-// Même lookup que HomeScreen — évite les template literals dans import()
-const QUESTION_LOADERS: Record<Locale, Record<Category, () => Promise<{ default: QuestionFile }>>> = {
-  fr: {
-    sciences: () => import('@/data/questions/fr/sciences.json') as Promise<{ default: QuestionFile }>,
-    histoire: () => import('@/data/questions/fr/histoire.json') as Promise<{ default: QuestionFile }>,
-    heroes:   () => import('@/data/questions/fr/heroes.json')  as Promise<{ default: QuestionFile }>,
-  },
-  en: {
-    sciences: () => import('@/data/questions/en/sciences.json') as Promise<{ default: QuestionFile }>,
-    histoire: () => import('@/data/questions/en/histoire.json') as Promise<{ default: QuestionFile }>,
-    heroes:   () => import('@/data/questions/en/heroes.json')  as Promise<{ default: QuestionFile }>,
-  },
-};
 
 export default function ResultsScreen() {
   const t = useTranslations('results');
@@ -125,8 +112,8 @@ export default function ResultsScreen() {
     isReplayingRef.current = true;
     setLoading(true);
     try {
-      const mod = await QUESTION_LOADERS[locale][category]();
-      const pool = mod.default.questions.filter((q) => q.difficulty === difficulty);
+      // Récupère les questions depuis Supabase (cache 24h + fallback offline)
+      const pool = await fetchQuestions(category, locale as Locale, difficulty);
       startQuiz(pool);
       router.push('/quiz');
     } finally {

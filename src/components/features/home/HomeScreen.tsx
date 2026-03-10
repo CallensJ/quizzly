@@ -17,9 +17,10 @@ import { Atom, Landmark, Swords, User } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
-import type { Category, Difficulty, Locale, QuestionFile } from '@/types';
+import { fetchQuestions } from '@/lib/questions';
+import type { Category, Difficulty, Locale } from '@/types';
 
-// Métadonnées des catégories — 1 entrée par fichier JSON disponible
+// Métadonnées des catégories — 1 entrée par catégorie disponible
 const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = [
   {
     id: 'sciences',
@@ -41,21 +42,6 @@ const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = 
 
 const DIFFICULTIES: Difficulty[] = ['easy', 'medium', 'hard'];
 
-// Lookup statique des imports JSON — évite les template literals dans import()
-// qui peuvent poser problème selon le bundler.
-const QUESTION_LOADERS: Record<Locale, Record<Category, () => Promise<{ default: QuestionFile }>>> = {
-  fr: {
-    sciences: () => import('@/data/questions/fr/sciences.json') as Promise<{ default: QuestionFile }>,
-    histoire: () => import('@/data/questions/fr/histoire.json') as Promise<{ default: QuestionFile }>,
-    heroes:   () => import('@/data/questions/fr/heroes.json')  as Promise<{ default: QuestionFile }>,
-  },
-  en: {
-    sciences: () => import('@/data/questions/en/sciences.json') as Promise<{ default: QuestionFile }>,
-    histoire: () => import('@/data/questions/en/histoire.json') as Promise<{ default: QuestionFile }>,
-    heroes:   () => import('@/data/questions/en/heroes.json')  as Promise<{ default: QuestionFile }>,
-  },
-};
-
 export default function HomeScreen() {
   const t = useTranslations('home');
   const locale = useLocale() as Locale;
@@ -65,6 +51,7 @@ export default function HomeScreen() {
   const { category, difficulty, setCategory, setDifficulty, startQuiz } = useQuizStore();
 
   const [loading, setLoading] = useState(false);
+  const [fetchError, setFetchError] = useState(false);
 
   const canPlay = category !== null && difficulty !== null;
 
@@ -72,13 +59,15 @@ export default function HomeScreen() {
     if (!canPlay || loading) return;
 
     setLoading(true);
+    setFetchError(false);
     try {
-      const mod = await QUESTION_LOADERS[locale][category!]();
-      const allQuestions = mod.default.questions;
-      // Filtre par difficulté sélectionnée
-      const pool = allQuestions.filter((q) => q.difficulty === difficulty);
+      // Récupère les questions depuis Supabase (avec cache localStorage 24h + fallback offline)
+      const pool = await fetchQuestions(category!, locale as Locale, difficulty!);
       startQuiz(pool);
       router.push('/quiz');
+    } catch {
+      // Échec réseau sans cache — affiche un message d'erreur à l'utilisateur
+      setFetchError(true);
     } finally {
       setLoading(false);
     }
@@ -155,6 +144,11 @@ export default function HomeScreen() {
         >
           {loading ? '…' : t('ctaPlay')}
         </button>
+
+        {/* Erreur chargement questions (pas de réseau + pas de cache) */}
+        {fetchError && (
+          <p className="home__fetch-error" role="alert">{t('fetchError')}</p>
+        )}
 
       </main>
     </div>

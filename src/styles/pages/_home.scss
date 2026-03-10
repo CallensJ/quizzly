@@ -213,4 +213,15 @@
 
     @include m.focus-ring;
   }
+
+  // Message d'erreur chargement questions (réseau indisponible + pas de cache)
+  &__fetch-error {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$error;
+    text-align: center;
+    padding: v.$spacing-xs v.$spacing-md;
+    background: rgba(v.$error, 0.08);
+    border-radius: v.$radius-sm;
+  }
 }
