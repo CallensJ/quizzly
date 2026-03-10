@@ -72,8 +72,9 @@ export default function HomeScreen() {
       const pool = await fetchQuestions(category!, locale as Locale, difficulty!);
       startQuiz(pool);
       router.push('/quiz');
-    } catch {
+    } catch (err) {
       // Échec réseau sans cache — affiche un message d'erreur à l'utilisateur
+      console.error('[fetchQuestions] erreur:', err);
       setFetchError(true);
     } finally {
       setLoading(false);
