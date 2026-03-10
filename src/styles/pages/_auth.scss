@@ -1,0 +1,400 @@
+/**
+ * src/styles/pages/_auth.scss
+ *
+ * Écran d'authentification adulte — login / inscription.
+ * Design sobre et professionnel, cohérent avec l'espace admin.
+ * Comprend aussi le spinner de la page de callback OAuth (.auth-callback).
+ */
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// AUTH SCREEN
+// ═══════════════════════════════════════════════════════════════════════════════
+
+.auth {
+  min-height: 100dvh;
+  @include m.flex-column;
+  background: v.$bg;
+  animation: auth-fade-in 300ms ease both;
+
+  // ── Header ─────────────────────────────────────────────────────────────────
+
+  &__header {
+    @include m.gradient-primary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: v.$spacing-lg;
+    padding-top: max(v.$spacing-lg, env(safe-area-inset-top));
+    color: v.$white;
+  }
+
+  &__back-btn {
+    @include m.flex-center;
+    width: v.$touch-target-min;
+    height: v.$touch-target-min;
+    border-radius: v.$radius-full;
+    background: rgba(v.$white, 0.15);
+    color: v.$white;
+    cursor: pointer;
+    transition: background v.$transition-fast;
+
+    &:hover { background: rgba(v.$white, 0.25); }
+    @include m.focus-ring;
+  }
+
+  &__title {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$white;
+    letter-spacing: -0.3px;
+  }
+
+  &__header-spacer {
+    width: v.$touch-target-min; // aligne le titre au centre
+  }
+
+  // ── Corps principal ─────────────────────────────────────────────────────────
+
+  &__body {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+    padding: v.$spacing-xl v.$spacing-lg;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  // ── Onglets login / inscription ─────────────────────────────────────────────
+
+  &__tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #e5e7eb;
+    border-radius: v.$radius-md;
+    padding: 4px;
+    gap: 4px;
+  }
+
+  &__tab {
+    padding: v.$spacing-sm v.$spacing-md;
+    border-radius: calc(#{v.$radius-md} - 4px);
+    font-family: v.$font-primary;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$text-muted;
+    cursor: pointer;
+    transition:
+      background v.$transition-fast,
+      color v.$transition-fast,
+      box-shadow v.$transition-fast;
+    min-height: 40px;
+
+    &--active {
+      background: v.$white;
+      color: v.$foreground;
+      box-shadow: v.$shadow-sm;
+    }
+
+    @include m.focus-ring;
+  }
+
+  // ── Description ────────────────────────────────────────────────────────────
+
+  &__desc {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  // ── Notice (confirmation email) ─────────────────────────────────────────────
+
+  &__notice {
+    padding: v.$spacing-sm v.$spacing-md;
+    border-radius: v.$radius-sm;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    text-align: center;
+
+    &--success {
+      background: rgba(v.$success, 0.1);
+      color: v.$success;
+      border: 1px solid rgba(v.$success, 0.2);
+    }
+  }
+
+  // ── Formulaire ─────────────────────────────────────────────────────────────
+
+  &__form {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+  }
+
+  &__field {
+    @include m.flex-column;
+    gap: v.$spacing-xs;
+  }
+
+  &__label {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$foreground;
+    padding-left: 2px;
+  }
+
+  &__input-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__input-icon {
+    position: absolute;
+    left: v.$spacing-md;
+    color: v.$text-muted;
+    pointer-events: none;
+    flex-shrink: 0;
+  }
+
+  &__input {
+    width: 100%;
+    min-height: v.$touch-target-min;
+    padding: v.$spacing-sm v.$spacing-md v.$spacing-sm calc(#{v.$spacing-md} + 16px + #{v.$spacing-sm});
+    border: 2px solid #e5e7eb;
+    border-radius: v.$radius-md;
+    background: v.$white;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-base;
+    font-weight: 600;
+    color: v.$foreground;
+    outline: none;
+    transition:
+      border-color v.$transition-fast,
+      box-shadow v.$transition-fast;
+
+    &::placeholder { color: #9ca3af; font-weight: 400; }
+
+    &:focus {
+      border-color: v.$primary;
+      box-shadow: 0 0 0 3px rgba(v.$primary, 0.15);
+    }
+
+    // Padding supplémentaire à droite pour le bouton show/hide (champ password)
+    &--password {
+      padding-right: calc(#{v.$spacing-md} + 16px + #{v.$spacing-sm});
+    }
+  }
+
+  &__toggle-password {
+    position: absolute;
+    right: v.$spacing-md;
+    @include m.flex-center;
+    width: 24px;
+    height: 24px;
+    color: v.$text-muted;
+    cursor: pointer;
+    transition: color v.$transition-fast;
+
+    &:hover { color: v.$foreground; }
+    @include m.focus-ring;
+  }
+
+  // ── Mot de passe oublié ─────────────────────────────────────────────────────
+
+  &__forgot {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__forgot-btn {
+    font-family: v.$font-primary;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$primary;
+    cursor: pointer;
+    transition: opacity v.$transition-fast;
+
+    &:hover { opacity: 0.75; }
+    @include m.focus-ring;
+  }
+
+  &__forgot-reset {
+    @include m.flex-column;
+    gap: v.$spacing-xs;
+    width: 100%;
+  }
+
+  &__forgot-hint {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+    line-height: 1.4;
+  }
+
+  &__forgot-send {
+    align-self: flex-start;
+    padding: v.$spacing-xs v.$spacing-md;
+    border-radius: v.$radius-md;
+    background: rgba(v.$primary, 0.1);
+    color: v.$primary;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background v.$transition-fast;
+    min-height: 36px;
+
+    &:hover { background: rgba(v.$primary, 0.2); }
+    &:disabled { opacity: 0.5; cursor: not-allowed; }
+    @include m.focus-ring;
+  }
+
+  // ── Message d'erreur ────────────────────────────────────────────────────────
+
+  &__error {
+    padding: v.$spacing-xs v.$spacing-md;
+    background: rgba(v.$error, 0.08);
+    color: v.$error;
+    border: 1px solid rgba(v.$error, 0.2);
+    border-radius: v.$radius-sm;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  // ── Bouton principal ────────────────────────────────────────────────────────
+
+  &__submit-btn {
+    width: 100%;
+    min-height: v.$touch-target-min;
+    @include m.gradient-primary;
+    color: v.$white;
+    border: none;
+    border-radius: v.$radius-md;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity v.$transition-fast;
+    margin-top: v.$spacing-xs;
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    &:not(:disabled):hover { opacity: 0.9; }
+    @include m.focus-ring;
+  }
+
+  // ── Séparateur "ou" ─────────────────────────────────────────────────────────
+
+  &__separator {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: v.$text-muted;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+
+    &::before,
+    &::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #e5e7eb;
+    }
+
+    span {
+      padding: 0 v.$spacing-md;
+      white-space: nowrap;
+    }
+  }
+
+  // ── Bouton Google ───────────────────────────────────────────────────────────
+
+  &__google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: v.$spacing-sm;
+    width: 100%;
+    min-height: v.$touch-target-min;
+    background: v.$white;
+    border: 2px solid #e5e7eb;
+    border-radius: v.$radius-md;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$foreground;
+    cursor: pointer;
+    transition:
+      background v.$transition-fast,
+      border-color v.$transition-fast;
+
+    &:hover {
+      background: v.$bg;
+      border-color: v.$primary;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    @include m.focus-ring;
+  }
+
+  // ── Note de confidentialité ─────────────────────────────────────────────────
+
+  &__privacy {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #9ca3af;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  // ── Animation ───────────────────────────────────────────────────────────────
+
+  @keyframes auth-fade-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// AUTH CALLBACK — spinner pendant l'échange du code OAuth
+// ═══════════════════════════════════════════════════════════════════════════════
+
+.auth-callback {
+  min-height: 100dvh;
+  @include m.flex-column;
+  align-items: center;
+  justify-content: center;
+  gap: v.$spacing-lg;
+  background: v.$bg;
+
+  &__spinner {
+    width: 48px;
+    height: 48px;
+    border: 4px solid rgba(v.$primary, 0.2);
+    border-top-color: v.$primary;
+    border-radius: 50%;
+    animation: auth-spin 700ms linear infinite;
+  }
+
+  &__msg {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$text-muted;
+  }
+
+  @keyframes auth-spin {
+    to { transform: rotate(360deg); }
+  }
+}

@@ -21,10 +21,12 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { ArrowLeft, Target, KeyRound, Trash2, RotateCcw, BarChart3, Mail } from 'lucide-react';
+import { ArrowLeft, Target, KeyRound, Trash2, RotateCcw, BarChart3, Mail, UserCircle2, LogOut, LogIn } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
+import { useAuthStore } from '@/stores/authStore';
 import { syncAdminSettings } from '@/lib/sync';
+import { signOut } from '@/lib/auth';
 import PinModal from './PinModal';
 
 // Validation basique d'une adresse email
@@ -43,6 +45,10 @@ export default function AdminScreen() {
   const adminPin      = useProfileStore((s) => s.adminPin);
   const adminEmail    = useProfileStore((s) => s.adminEmail);
   const dailyGoal     = useProfileStore((s) => s.dailyGoal);
+
+  // Auth Supabase — état de connexion adulte
+  const authUser    = useAuthStore((s) => s.user);
+  const authLoading = useAuthStore((s) => s.loading);
   const setAdminPin   = useProfileStore((s) => s.setAdminPin);
   const setAdminEmail = useProfileStore((s) => s.setAdminEmail);
   const setDailyGoal  = useProfileStore((s) => s.setDailyGoal);
@@ -304,6 +310,50 @@ export default function AdminScreen() {
             </button>
           )}
         </section>
+
+        {/* ── Compte adulte (Supabase Auth) ───────────────────────────────── */}
+        {!authLoading && (
+          <section className="admin__section" aria-labelledby="admin-auth-title">
+            <div className="admin__section-header">
+              <UserCircle2 size={18} strokeWidth={2} aria-hidden="true" />
+              <h2 id="admin-auth-title" className="admin__section-title">
+                {t('authTitle')}
+              </h2>
+            </div>
+
+            {authUser ? (
+              // ── Connecté ──────────────────────────────────────────────────
+              <div className="admin__auth-connected">
+                <p className="admin__auth-email">
+                  <span className="admin__auth-badge">{t('authConnected')}</span>
+                  {authUser.email}
+                </p>
+                <p className="admin__section-desc">{t('authConnectedDesc')}</p>
+                <button
+                  type="button"
+                  className="admin__secondary-btn admin__secondary-btn--danger"
+                  onClick={async () => { await signOut(); }}
+                >
+                  <LogOut size={16} strokeWidth={2} aria-hidden="true" />
+                  {t('authSignOut')}
+                </button>
+              </div>
+            ) : (
+              // ── Non connecté ───────────────────────────────────────────────
+              <div className="admin__auth-disconnected">
+                <p className="admin__section-desc">{t('authDesc')}</p>
+                <button
+                  type="button"
+                  className="admin__save-btn"
+                  onClick={() => router.push('/auth/login')}
+                >
+                  <LogIn size={16} strokeWidth={2} aria-hidden="true" />
+                  {t('authCta')}
+                </button>
+              </div>
+            )}
+          </section>
+        )}
 
         {/* ── Zone de danger ───────────────────────────────────────────────── */}
         <section className="admin__section admin__section--danger" aria-labelledby="admin-danger-title">

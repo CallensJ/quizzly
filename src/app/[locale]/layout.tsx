@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
+import AuthProvider from "@/components/features/auth/AuthProvider";
 import "../globals.scss";
 
 const nunito = Nunito({
@@ -51,7 +52,10 @@ export default async function LocaleLayout({
     <html lang={locale} className={nunito.variable}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          {/* AuthProvider initialise la session Supabase Auth au montage */}
+          <AuthProvider>
+            {children}
+          </AuthProvider>
         </NextIntlClientProvider>
       </body>
     </html>

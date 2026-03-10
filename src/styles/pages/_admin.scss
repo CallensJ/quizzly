@@ -271,9 +271,12 @@
     @include m.focus-ring;
   }
 
-  // ── Bouton secondaire (changer PIN) ────────────────────────────────────────
+  // ── Bouton secondaire (changer PIN, se déconnecter) ────────────────────────
 
   &__secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: v.$spacing-xs;
     align-self: flex-start;
     padding: v.$spacing-sm v.$spacing-lg;
     border: 2px solid v.$primary;
@@ -294,7 +297,51 @@
       color: v.$white;
     }
 
+    // Variante rouge pour la déconnexion
+    &--danger {
+      border-color: v.$error;
+      color: v.$error;
+
+      &:hover {
+        background: v.$error;
+        color: v.$white;
+      }
+    }
+
     @include m.focus-ring;
+  }
+
+  // ── Section compte adulte (auth) ────────────────────────────────────────────
+
+  &__auth-connected {
+    @include m.flex-column;
+    gap: v.$spacing-sm;
+  }
+
+  &__auth-email {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$foreground;
+    word-break: break-all;
+  }
+
+  &__auth-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    background: rgba(v.$success, 0.12);
+    color: v.$success;
+    border-radius: v.$radius-full;
+    font-size: 0.75rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  &__auth-disconnected {
+    @include m.flex-column;
+    gap: v.$spacing-sm;
   }
 
   // ── Feedback ────────────────────────────────────────────────────────────────
