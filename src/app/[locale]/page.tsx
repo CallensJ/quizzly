@@ -11,20 +11,19 @@
  * indisponible côté serveur. Pattern useEffect pour attendre l'hydratation.
  */
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useProfileStore } from '@/stores/profileStore';
 import { useRouter } from '@/i18n/navigation';
+import { useHydrated } from '@/hooks/useHydrated';
 import OnboardingScreen from '@/components/features/onboarding/OnboardingScreen';
 
 export default function RootPage() {
   const profile = useProfileStore((s) => s.profile);
   const router = useRouter();
-  const [hydrated, setHydrated] = useState(false);
+  // useSyncExternalStore — détecte l'hydratation sans setState dans un effet
+  const hydrated = useHydrated();
 
   useEffect(() => {
-    // Pattern SSR Zustand : détecte la fin de l'hydratation côté client.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setHydrated(true);
   }, []);
 
   useEffect(() => {

@@ -12,10 +12,11 @@
  * Le PIN 4 chiffres (MVP 2) a été remplacé par Supabase Auth (MVP 3).
  */
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useProfileStore } from '@/stores/profileStore';
 import { useAuthStore } from '@/stores/authStore';
 import { useRouter } from '@/i18n/navigation';
+import { useHydrated } from '@/hooks/useHydrated';
 import AdminScreen from '@/components/features/admin/AdminScreen';
 
 export default function AdminPage() {
@@ -23,11 +24,8 @@ export default function AdminPage() {
   const authUser    = useAuthStore((s) => s.user);
   const authLoading = useAuthStore((s) => s.loading);
   const router      = useRouter();
-  const [hydrated, setHydrated] = useState(false);
-
-  useEffect(() => {
-    setHydrated(true);
-  }, []);
+  // useSyncExternalStore — détecte l'hydratation sans setState dans un effet
+  const hydrated    = useHydrated();
 
   useEffect(() => {
     if (!hydrated || authLoading) return;

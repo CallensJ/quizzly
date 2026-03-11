@@ -8,21 +8,20 @@
  * Accessible depuis l'icône profil (mobile) et la sidebar (desktop).
  */
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useProfileStore } from '@/stores/profileStore';
 import { useRouter } from '@/i18n/navigation';
+import { useHydrated } from '@/hooks/useHydrated';
 import ProfileScreen from '@/components/features/profile/ProfileScreen';
 import AppLayout from '@/components/layout/AppLayout';
 
 export default function ProfilePage() {
   const profile = useProfileStore((s) => s.profile);
   const router = useRouter();
-  const [hydrated, setHydrated] = useState(false);
+  // useSyncExternalStore — détecte l'hydratation sans setState dans un effet
+  const hydrated = useHydrated();
 
   useEffect(() => {
-    // Pattern SSR Zustand : détecte la fin de l'hydratation côté client.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setHydrated(true);
   }, []);
 
   useEffect(() => {
