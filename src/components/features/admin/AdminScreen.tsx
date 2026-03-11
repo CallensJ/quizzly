@@ -3,31 +3,31 @@
 /**
  * src/components/features/admin/AdminScreen.tsx
  *
- * Espace parent/enseignant — accès protégé par PIN 4 chiffres.
- * Gère en interne le flux PIN :
- *   - Premier accès (adminPin === null) → modal création du PIN
- *   - Accès suivants → modal vérification du PIN
- *   - PIN validé → affiche le tableau de bord parent
+ * Espace parent/enseignant — accès protégé par Supabase Auth (MVP 3+).
+ * Le PIN 4 chiffres (MVP 2) a été remplacé par l'authentification Supabase,
+ * plus robuste et nécessaire pour les fonctionnalités premium (MVP 4).
+ *
+ * Flux d'accès :
+ *   - Non connecté → redirect vers /auth/login (géré dans admin/page.tsx)
+ *   - Connecté → tableau de bord parent affiché directement
  *
  * Fonctionnalités :
  *   - Stats enfant en lecture seule
  *   - Objectif journalier (bonnes réponses)
- *   - Modifier le PIN
+ *   - Email de contact adulte
+ *   - Déconnexion
  *   - Remettre la progression à zéro (irréversible)
  *   - Supprimer le compte (irréversible)
- *
- * Tout est en localStorage (MVP 2) — pas de backend.
  */
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { ArrowLeft, Target, KeyRound, Trash2, RotateCcw, BarChart3, Mail, UserCircle2, LogOut, LogIn } from 'lucide-react';
+import { ArrowLeft, Target, Trash2, RotateCcw, BarChart3, Mail, LogOut } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useAuthStore } from '@/stores/authStore';
 import { syncAdminSettings } from '@/lib/sync';
 import { signOut } from '@/lib/auth';
-import PinModal from './PinModal';
 
 // Validation basique d'une adresse email
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -42,60 +42,27 @@ export default function AdminScreen() {
   const profile       = useProfileStore((s) => s.profile);
   const sessions      = useProfileStore((s) => s.sessions);
   const deviceId      = useProfileStore((s) => s.deviceId);
-  const adminPin      = useProfileStore((s) => s.adminPin);
   const adminEmail    = useProfileStore((s) => s.adminEmail);
   const dailyGoal     = useProfileStore((s) => s.dailyGoal);
 
-  // Auth Supabase — état de connexion adulte
-  const authUser    = useAuthStore((s) => s.user);
-  const authLoading = useAuthStore((s) => s.loading);
-  const setAdminPin   = useProfileStore((s) => s.setAdminPin);
+  // Auth Supabase — utilisateur connecté
+  const authUser = useAuthStore((s) => s.user);
+
   const setAdminEmail = useProfileStore((s) => s.setAdminEmail);
   const setDailyGoal  = useProfileStore((s) => s.setDailyGoal);
   const resetProgress = useProfileStore((s) => s.resetProgress);
   const deleteProfile = useProfileStore((s) => s.deleteProfile);
 
-  // ── État d'accès ────────────────────────────────────────────────────────────
-  // 'pin-modal' : modal PIN visible (création ou vérification)
-  // 'unlocked'  : PIN validé, tableau de bord visible
-  const [access, setAccess] = useState<'pin-modal' | 'unlocked'>(
-    // Premier accès sans PIN → directement en mode création (pas de PIN à vérifier)
-    // Sinon → modal vérification
-    'pin-modal'
-  );
-
   // ── État UI ─────────────────────────────────────────────────────────────────
-  // Modification du PIN — affiche un second modal de création par-dessus le dashboard
-  const [changingPin, setChangingPin] = useState(false);
-
-  // Confirmation des actions irréversibles
-  const [confirmReset, setConfirmReset] = useState(false);
+  const [confirmReset, setConfirmReset]   = useState(false);
   const [confirmDelete, setConfirmDelete] = useState(false);
+  const [goalFeedback, setGoalFeedback]   = useState(false);
+  const [selectedGoal, setSelectedGoal]   = useState<number>(dailyGoal ?? 0);
 
-  // Feedback temporaire
-  const [goalFeedback, setGoalFeedback] = useState(false);
-  const [pinFeedback, setPinFeedback] = useState(false);
-
-  // Objectif journalier sélectionné localement (avant enregistrement)
-  const [selectedGoal, setSelectedGoal] = useState<number>(dailyGoal ?? 0);
-
-  // Email adulte — valeur locale du champ (peut diverger de adminEmail avant enregistrement)
-  const [emailInput, setEmailInput] = useState<string>(adminEmail ?? '');
+  const [emailInput, setEmailInput]       = useState<string>(adminEmail ?? '');
   const [emailFeedback, setEmailFeedback] = useState<'saved' | 'error' | null>(null);
 
   // ── Handlers ────────────────────────────────────────────────────────────────
-
-  function handlePinSuccess(pin: string) {
-    setAdminPin(pin);
-    setAccess('unlocked');
-  }
-
-  function handleChangePinSuccess(pin: string) {
-    setAdminPin(pin);
-    setChangingPin(false);
-    setPinFeedback(true);
-    setTimeout(() => setPinFeedback(false), 2500);
-  }
 
   function handleSaveGoal() {
     setDailyGoal(selectedGoal === 0 ? null : selectedGoal);
@@ -105,7 +72,6 @@ export default function AdminScreen() {
 
   function handleSaveEmail() {
     const trimmed = emailInput.trim();
-    // Validation format
     if (trimmed !== '' && !EMAIL_REGEX.test(trimmed)) {
       setEmailFeedback('error');
       setTimeout(() => setEmailFeedback(null), 3000);
@@ -113,7 +79,6 @@ export default function AdminScreen() {
     }
     const value = trimmed === '' ? null : trimmed;
     setAdminEmail(value);
-    // Sync Supabase fire-and-forget (silencieux si hors connexion)
     if (deviceId) syncAdminSettings(deviceId, dailyGoal, value);
     setEmailFeedback('saved');
     setTimeout(() => setEmailFeedback(null), 2500);
@@ -132,8 +97,12 @@ export default function AdminScreen() {
 
   function handleDelete() {
     deleteProfile();
-    // Redirige vers l'onboarding après suppression
     router.replace('/');
+  }
+
+  async function handleSignOut() {
+    await signOut();
+    router.replace('/profile');
   }
 
   // ── Stats calculées ─────────────────────────────────────────────────────────
@@ -143,30 +112,9 @@ export default function AdminScreen() {
     ? Math.round(Math.max(...sessions.map((s) => s.score / s.totalQuestions)) * 100)
     : null;
 
-  // ── Modal PIN (création ou vérification) ────────────────────────────────────
-  if (access === 'pin-modal') {
-    return (
-      <PinModal
-        mode={adminPin === null ? 'create' : 'verify'}
-        storedPin={adminPin}
-        onSuccess={handlePinSuccess}
-        onCancel={() => router.push('/profile')}
-      />
-    );
-  }
-
   // ── Dashboard parent ─────────────────────────────────────────────────────────
   return (
     <div className="admin">
-
-      {/* Modal modification de PIN (par-dessus le dashboard) */}
-      {changingPin && (
-        <PinModal
-          mode="create"
-          onSuccess={handleChangePinSuccess}
-          onCancel={() => setChangingPin(false)}
-        />
-      )}
 
       {/* ── Header ──────────────────────────────────────────────────────────── */}
       <header className="admin__header">
@@ -179,7 +127,17 @@ export default function AdminScreen() {
           <ArrowLeft size={22} strokeWidth={2.5} />
         </button>
         <h1 className="admin__title">{t('title')}</h1>
-        <div className="admin__header-spacer" aria-hidden="true" />
+
+        {/* Déconnexion dans le header */}
+        <button
+          type="button"
+          className="admin__signout-btn"
+          onClick={handleSignOut}
+          aria-label={t('authSignOut')}
+          title={authUser?.email ?? ''}
+        >
+          <LogOut size={18} strokeWidth={2} />
+        </button>
       </header>
 
       <main className="admin__body">
@@ -223,7 +181,6 @@ export default function AdminScreen() {
           </div>
           <p className="admin__section-desc">{t('goalDesc')}</p>
 
-          {/* Sélecteur d'objectif */}
           <div className="admin__goal-options" role="group" aria-label={t('goalTitle')}>
             {GOAL_OPTIONS.map((val) => (
               <button
@@ -244,27 +201,6 @@ export default function AdminScreen() {
             onClick={handleSaveGoal}
           >
             {goalFeedback ? t('goalSaved') : t('goalSave')}
-          </button>
-        </section>
-
-        {/* ── Code parent ─────────────────────────────────────────────────── */}
-        <section className="admin__section admin__section--pin" aria-labelledby="admin-pin-title">
-          <div className="admin__section-header">
-            <KeyRound size={18} strokeWidth={2} aria-hidden="true" />
-            <h2 id="admin-pin-title" className="admin__section-title">{t('pinTitle')}</h2>
-          </div>
-          <p className="admin__section-desc">{t('pinChangeDesc')}</p>
-
-          {pinFeedback && (
-            <p className="admin__feedback admin__feedback--success">{t('pinChanged')}</p>
-          )}
-
-          <button
-            type="button"
-            className="admin__secondary-btn"
-            onClick={() => setChangingPin(true)}
-          >
-            {t('pinChange')}
           </button>
         </section>
 
@@ -299,7 +235,6 @@ export default function AdminScreen() {
             <p className="admin__feedback admin__feedback--error">{t('emailInvalid')}</p>
           )}
 
-          {/* Bouton supprimer l'email — visible uniquement si un email est enregistré */}
           {adminEmail && (
             <button
               type="button"
@@ -310,50 +245,6 @@ export default function AdminScreen() {
             </button>
           )}
         </section>
-
-        {/* ── Compte adulte (Supabase Auth) ───────────────────────────────── */}
-        {!authLoading && (
-          <section className="admin__section admin__section--auth" aria-labelledby="admin-auth-title">
-            <div className="admin__section-header">
-              <UserCircle2 size={18} strokeWidth={2} aria-hidden="true" />
-              <h2 id="admin-auth-title" className="admin__section-title">
-                {t('authTitle')}
-              </h2>
-            </div>
-
-            {authUser ? (
-              // ── Connecté ──────────────────────────────────────────────────
-              <div className="admin__auth-connected">
-                <p className="admin__auth-email">
-                  <span className="admin__auth-badge">{t('authConnected')}</span>
-                  {authUser.email}
-                </p>
-                <p className="admin__section-desc">{t('authConnectedDesc')}</p>
-                <button
-                  type="button"
-                  className="admin__secondary-btn admin__secondary-btn--danger"
-                  onClick={async () => { await signOut(); }}
-                >
-                  <LogOut size={16} strokeWidth={2} aria-hidden="true" />
-                  {t('authSignOut')}
-                </button>
-              </div>
-            ) : (
-              // ── Non connecté ───────────────────────────────────────────────
-              <div className="admin__auth-disconnected">
-                <p className="admin__section-desc">{t('authDesc')}</p>
-                <button
-                  type="button"
-                  className="admin__save-btn"
-                  onClick={() => router.push('/auth/login')}
-                >
-                  <LogIn size={16} strokeWidth={2} aria-hidden="true" />
-                  {t('authCta')}
-                </button>
-              </div>
-            )}
-          </section>
-        )}
 
         {/* ── Zone de danger ───────────────────────────────────────────────── */}
         <section className="admin__section admin__section--danger" aria-labelledby="admin-danger-title">
@@ -379,7 +270,6 @@ export default function AdminScreen() {
                 {t('dangerResetLabel')}
               </button>
             ) : (
-              // Double confirmation pour éviter les clics accidentels
               <div className="admin__danger-confirm">
                 <p className="admin__danger-confirm-msg">Êtes-vous sûr ?</p>
                 <div className="admin__danger-confirm-actions">

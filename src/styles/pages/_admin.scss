@@ -58,6 +58,23 @@
     flex-shrink: 0;
   }
 
+  // Bouton déconnexion dans le header (remplace le spacer MVP 2)
+  &__signout-btn {
+    @include m.flex-center;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: v.$radius-md;
+    transition: background v.$transition-fast, color v.$transition-fast;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: v.$white;
+    }
+    @include m.focus-ring;
+  }
+
   // ── Corps ───────────────────────────────────────────────────────────────────
 
   &__body {

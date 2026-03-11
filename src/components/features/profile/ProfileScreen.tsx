@@ -18,6 +18,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { ArrowLeft, Pencil, Lock } from 'lucide-react';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
+import { useAuthStore } from '@/stores/authStore';
 import type { Locale } from '@/i18n/routing';
 import type { Category, QuizSession } from '@/types';
 
@@ -83,6 +84,7 @@ export default function ProfileScreen() {
   const profile = useProfileStore((s) => s.profile);
   const sessions = useProfileStore((s) => s.sessions);
   const updateAvatar = useProfileStore((s) => s.updateAvatar);
+  const authUser = useAuthStore((s) => s.user);
   const timerEnabled = useProfileStore((s) => s.timerEnabled);
   const setTimerEnabled = useProfileStore((s) => s.setTimerEnabled);
   const soundEnabled = useProfileStore((s) => s.soundEnabled);
@@ -318,11 +320,11 @@ export default function ProfileScreen() {
         </button>
 
         {/* ── Espace parent — accès discret en bas de page ──────────────── */}
-        {/* Bouton discret pour ne pas attirer l'attention des enfants */}
+        {/* Redirige vers /auth/login si non connecté, /admin sinon */}
         <button
           type="button"
           className="profile__admin-link"
-          onClick={() => router.push('/admin')}
+          onClick={() => router.push(authUser ? '/admin' : '/auth/login')}
         >
           <Lock size={13} strokeWidth={2} aria-hidden="true" />
           {t('adminLink')}
