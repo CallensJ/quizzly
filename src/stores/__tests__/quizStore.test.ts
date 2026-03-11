@@ -8,9 +8,13 @@
 //   - Arrange : préparer les données de test
 //   - Act     : appeler l'action du store
 //   - Assert  : vérifier que l'état résultant est correct
+//
+// Note : startQuiz mélange les options (shuffleOptions), donc la bonne réponse
+// peut être à n'importe quelle lettre après le démarrage. Les tests lisent
+// la réponse réelle depuis le store plutôt que de hardcoder 'A'.
 
 import { useQuizStore } from '../quizStore';
-import type { Question } from '@/types';
+import type { AnswerKey, Question } from '@/types';
 
 // ─── Données de test ──────────────────────────────────────────────────────────
 
@@ -33,6 +37,16 @@ const pool20 = Array.from({ length: 20 }, (_, i) => makeQuestion(`q${i + 1}`));
 
 /** Pool de 5 questions factices (pour tester le cas < 20). */
 const pool5 = Array.from({ length: 5 }, (_, i) => makeQuestion(`small-q${i + 1}`));
+
+// Helpers pour récupérer la réponse réelle après shuffle
+function getCorrectAnswer(questionIndex = 0): AnswerKey {
+  return useQuizStore.getState().questions[questionIndex].answer;
+}
+
+function getWrongAnswer(questionIndex = 0): AnswerKey {
+  const correct = getCorrectAnswer(questionIndex);
+  return (['A', 'B', 'C', 'D'] as AnswerKey[]).find((k) => k !== correct)!;
+}
 
 // ─── Réinitialisation du store avant chaque test ──────────────────────────────
 
@@ -79,6 +93,23 @@ describe('startQuiz', () => {
     expect(selectedAnswer).toBeNull();
   });
 
+  it('les options shufflées contiennent toujours les 4 textes d\'origine', () => {
+    useQuizStore.getState().startQuiz(pool20);
+    const { options } = useQuizStore.getState().questions[0];
+    const texts = Object.values(options);
+    expect(texts).toContain('Bonne réponse');
+    expect(texts).toContain('Mauvaise 1');
+    expect(texts).toContain('Mauvaise 2');
+    expect(texts).toContain('Mauvaise 3');
+  });
+
+  it('la clé answer après shuffle pointe vers "Bonne réponse"', () => {
+    useQuizStore.getState().startQuiz(pool20);
+    const { questions } = useQuizStore.getState();
+    const q = questions[0];
+    expect(q.options[q.answer]).toBe('Bonne réponse');
+  });
+
 });
 
 // ─── Suite 2 : selectAnswer ──────────────────────────────────────────────────
@@ -87,8 +118,8 @@ describe('selectAnswer', () => {
 
   it('incrémente le score si la réponse est correcte', () => {
     useQuizStore.getState().startQuiz(pool20);
-    // Toutes les questions du pool20 ont la réponse 'A'
-    useQuizStore.getState().selectAnswer('A');
+    // Lit la vraie lettre de la bonne réponse après shuffle
+    useQuizStore.getState().selectAnswer(getCorrectAnswer());
 
     const { score } = useQuizStore.getState();
     expect(score).toBe(1);
@@ -96,7 +127,8 @@ describe('selectAnswer', () => {
 
   it("ne modifie pas le score si la réponse est incorrecte", () => {
     useQuizStore.getState().startQuiz(pool20);
-    useQuizStore.getState().selectAnswer('B'); // 'B' est une mauvaise réponse
+    // Sélectionne délibérément une mauvaise lettre
+    useQuizStore.getState().selectAnswer(getWrongAnswer());
 
     const { score } = useQuizStore.getState();
     expect(score).toBe(0);
@@ -104,22 +136,25 @@ describe('selectAnswer', () => {
 
   it('enregistre la réponse sélectionnée dans selectedAnswer', () => {
     useQuizStore.getState().startQuiz(pool20);
-    useQuizStore.getState().selectAnswer('C');
+    const wrong = getWrongAnswer();
+    useQuizStore.getState().selectAnswer(wrong);
 
     const { selectedAnswer } = useQuizStore.getState();
-    expect(selectedAnswer).toBe('C');
+    expect(selectedAnswer).toBe(wrong);
   });
 
   it('ignore une 2ème sélection (anti-triche)', () => {
     useQuizStore.getState().startQuiz(pool20);
+    const wrong = getWrongAnswer();
+    const correct = getCorrectAnswer();
 
     // Première réponse incorrecte, puis tentative de changement
-    useQuizStore.getState().selectAnswer('B'); // mauvaise
-    useQuizStore.getState().selectAnswer('A'); // tentative de corriger — doit être ignorée
+    useQuizStore.getState().selectAnswer(wrong);    // mauvaise
+    useQuizStore.getState().selectAnswer(correct);  // tentative de corriger — doit être ignorée
 
     const { score, selectedAnswer } = useQuizStore.getState();
-    expect(score).toBe(0);          // le score ne change pas
-    expect(selectedAnswer).toBe('B'); // la première réponse est conservée
+    expect(score).toBe(0);               // le score ne change pas
+    expect(selectedAnswer).toBe(wrong);  // la première réponse est conservée
   });
 
 });
@@ -130,7 +165,7 @@ describe('nextQuestion', () => {
 
   it('passe à la question suivante (index + 1)', () => {
     useQuizStore.getState().startQuiz(pool20);
-    useQuizStore.getState().selectAnswer('A');
+    useQuizStore.getState().selectAnswer(getCorrectAnswer());
     useQuizStore.getState().nextQuestion();
 
     const { currentIndex } = useQuizStore.getState();
@@ -139,7 +174,7 @@ describe('nextQuestion', () => {
 
   it('remet selectedAnswer à null après passage à la question suivante', () => {
     useQuizStore.getState().startQuiz(pool20);
-    useQuizStore.getState().selectAnswer('A');
+    useQuizStore.getState().selectAnswer(getCorrectAnswer());
     useQuizStore.getState().nextQuestion();
 
     const { selectedAnswer } = useQuizStore.getState();
@@ -148,7 +183,7 @@ describe('nextQuestion', () => {
 
   it('garde le status "playing" tant qu\'on n\'est pas à la dernière question', () => {
     useQuizStore.getState().startQuiz(pool20);
-    useQuizStore.getState().selectAnswer('A');
+    useQuizStore.getState().selectAnswer(getCorrectAnswer());
     useQuizStore.getState().nextQuestion(); // on passe à la question 2
 
     const { status } = useQuizStore.getState();
@@ -161,11 +196,11 @@ describe('nextQuestion', () => {
     useQuizStore.getState().startQuiz(tinyPool);
 
     // Question 1
-    useQuizStore.getState().selectAnswer('A');
+    useQuizStore.getState().selectAnswer(getCorrectAnswer(0));
     useQuizStore.getState().nextQuestion();
 
     // Question 2 (dernière)
-    useQuizStore.getState().selectAnswer('A');
+    useQuizStore.getState().selectAnswer(getCorrectAnswer(1));
     useQuizStore.getState().nextQuestion();
 
     const { status } = useQuizStore.getState();
@@ -183,7 +218,7 @@ describe('resetQuiz', () => {
     useQuizStore.getState().setCategory('sciences');
     useQuizStore.getState().setDifficulty('hard');
     useQuizStore.getState().startQuiz(pool20);
-    useQuizStore.getState().selectAnswer('A');
+    useQuizStore.getState().selectAnswer(getCorrectAnswer());
 
     // Act
     useQuizStore.getState().resetQuiz();
