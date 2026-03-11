@@ -22,9 +22,6 @@ export default function ResultsPage() {
   const hydrated = useHydrated();
 
   useEffect(() => {
-  }, []);
-
-  useEffect(() => {
     if (hydrated && !profile) {
       router.replace('/');
     }

@@ -24,9 +24,6 @@ export default function RootPage() {
   const hydrated = useHydrated();
 
   useEffect(() => {
-  }, []);
-
-  useEffect(() => {
     if (hydrated && profile) {
       router.replace('/home');
     }

@@ -22,9 +22,6 @@ export default function QuizPage() {
   const hydrated = useHydrated();
 
   useEffect(() => {
-  }, []);
-
-  useEffect(() => {
     if (hydrated && !profile) {
       router.replace('/');
     }

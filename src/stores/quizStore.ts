@@ -56,6 +56,34 @@ function sampleRandom<T>(arr: T[], n: number): T[] {
   return shuffled.slice(0, n);
 }
 
+/**
+ * Mélange les options A/B/C/D d'une question et met à jour la clé `answer`
+ * pour qu'elle pointe toujours vers le texte correct après le shuffle.
+ *
+ * Appelé dans startQuiz — l'ordre est fixé une fois pour toute la partie,
+ * ce qui évite un re-shuffle à chaque re-rendu et ne casse pas la logique
+ * de selectAnswer (qui compare answer === questions[i].answer).
+ */
+function shuffleOptions(question: Question): Question {
+  const keys: AnswerKey[] = ['A', 'B', 'C', 'D'];
+  const correctText = question.options[question.answer];
+
+  // Ordre mélangé des 4 options source
+  const shuffled = [...keys].sort(() => Math.random() - 0.5);
+
+  const newOptions = {
+    A: question.options[shuffled[0]],
+    B: question.options[shuffled[1]],
+    C: question.options[shuffled[2]],
+    D: question.options[shuffled[3]],
+  };
+
+  // La nouvelle lettre de la bonne réponse = celle qui porte le même texte
+  const newAnswer = (keys).find((k) => newOptions[k] === correctText) as AnswerKey;
+
+  return { ...question, options: newOptions, answer: newAnswer };
+}
+
 export const useQuizStore = create<QuizState>()((set, get) => ({
   category: null,
   difficulty: null,
@@ -70,7 +98,8 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
   setDifficulty: (difficulty) => set({ difficulty }),
 
   startQuiz: (pool) => {
-    const questions = sampleRandom(pool, Math.min(QUESTIONS_PER_GAME, pool.length));
+    const questions = sampleRandom(pool, Math.min(QUESTIONS_PER_GAME, pool.length))
+      .map(shuffleOptions);
     set({
       status: 'playing',
       questions,

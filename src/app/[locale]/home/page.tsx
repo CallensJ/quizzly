@@ -21,9 +21,6 @@ export default function HomePage() {
   const hydrated = useHydrated();
 
   useEffect(() => {
-  }, []);
-
-  useEffect(() => {
     // Garde : si l'utilisateur accède directement à /home sans profil, on le renvoie à l'onboarding
     if (hydrated && !profile) {
       router.replace('/');
