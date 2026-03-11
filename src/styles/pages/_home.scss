@@ -104,10 +104,33 @@
     gap: v.$spacing-md;
   }
 
+  // En-tête de section avec titre + badge premium alignés
+  &__section-header {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    flex-wrap: wrap;
+  }
+
   &__section-title {
     font-size: v.$font-size-xl;
     font-weight: 800;
     color: v.$foreground;
+  }
+
+  // Badge "Premium" — pastille violette compacte
+  &__premium-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    color: v.$white;
+    font-size: 0.7rem;
+    font-weight: 800;
+    border-radius: v.$radius-full;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    flex-shrink: 0;
   }
 
   // ── Cartes de catégories ─────────────────────────────────────────────────
@@ -149,6 +172,36 @@
     }
 
     @include m.focus-ring;
+
+    // Carte premium verrouillée — non interactive, visuellement atténuée
+    &--locked {
+      opacity: 0.55;
+      cursor: default;
+      pointer-events: none;
+      position: relative; // nécessaire pour l'overlay cadenas absolu
+
+      // Supprime les effets hover hérités (sécurité pointer-events = none)
+      &:hover {
+        border-color: transparent;
+        transform: none;
+        box-shadow: v.$shadow-sm;
+      }
+    }
+
+    // Variante compacte pour les sous-cartes Langues
+    &--langue {
+      padding: v.$spacing-md v.$spacing-md;
+    }
+  }
+
+  // Icône cadenas — positionnée en haut-droite de la carte
+  &__cat-lock {
+    position: absolute;
+    top: v.$spacing-sm;
+    right: v.$spacing-sm;
+    color: v.$text-muted;
+    display: flex;
+    opacity: 0.8;
   }
 
   &__cat-icon {
@@ -166,6 +219,13 @@
     font-size: v.$font-size-sm;
     color: v.$text-muted;
     line-height: 1.4;
+  }
+
+  // Grille spéciale pour les 2 cartes Langues — 2 colonnes larges
+  &__langues {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: v.$spacing-md;
   }
 
   // ── Boutons de difficulté ────────────────────────────────────────────────

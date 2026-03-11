@@ -13,14 +13,18 @@
 
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { Atom, Landmark, Swords, User } from 'lucide-react';
+import {
+  Atom, Landmark, Swords, User, Lock,
+  Trophy, Globe, Palette, Film, Scale,
+  Calculator, ChefHat, Cpu, Sparkles, Rocket, BookA,
+} from 'lucide-react';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
 import { fetchQuestions } from '@/lib/questions';
 import type { Category, Difficulty, Locale } from '@/types';
 
-// Métadonnées des catégories — 1 entrée par catégorie disponible
+// Catégories jouables — questions disponibles (gratuites)
 const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = [
   {
     id: 'sciences',
@@ -38,6 +42,26 @@ const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = 
     icon: <Swords size={40} strokeWidth={1.5} />,
     colorVar: 'var(--color-cat-heroes)',
   },
+];
+
+// Catégories premium verrouillées — UI uniquement, pas de questions pour l'instant (MVP 4)
+const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string }[] = [
+  { i18nKey: 'sport',          icon: <Trophy    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-sport)' },
+  { i18nKey: 'geographie',     icon: <Globe     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-geography)' },
+  { i18nKey: 'art',            icon: <Palette   size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-art)' },
+  { i18nKey: 'culturePop',     icon: <Film      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-culture)' },
+  { i18nKey: 'civique',        icon: <Scale     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-civique)' },
+  { i18nKey: 'mathematiques',  icon: <Calculator size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-maths)' },
+  { i18nKey: 'cuisine',        icon: <ChefHat   size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-cuisine)' },
+  { i18nKey: 'technologie',    icon: <Cpu       size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-techno)' },
+  { i18nKey: 'mythologie',     icon: <Sparkles  size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-mythologie)' },
+  { i18nKey: 'espace',         icon: <Rocket    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-espace)' },
+];
+
+// Section spéciale "Langues" — deux sous-cartes verrouillées (Français + Anglais)
+const LANGUE_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string }[] = [
+  { i18nKey: 'langueFr', icon: <BookA size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-fr)' },
+  { i18nKey: 'langueEn', icon: <BookA size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-en)' },
 ];
 
 const DIFFICULTIES: Difficulty[] = ['easy', 'medium', 'hard'];
@@ -110,7 +134,7 @@ export default function HomeScreen() {
 
       <main className="home__body">
 
-        {/* ── Catégories ────────────────────────────────────────────────────── */}
+        {/* ── Catégories gratuites ──────────────────────────────────────────── */}
         <section className="home__section">
           <h2 className="home__section-title">{t('title')}</h2>
           <div className="home__categories">
@@ -128,6 +152,57 @@ export default function HomeScreen() {
                 <span className="home__cat-name">{t(id)}</span>
                 <span className="home__cat-desc">{t(`${id}Desc`)}</span>
               </button>
+            ))}
+          </div>
+        </section>
+
+        {/* ── Catégories premium verrouillées ───────────────────────────────── */}
+        <section className="home__section">
+          <div className="home__section-header">
+            <h2 className="home__section-title">{t('premiumTitle')}</h2>
+            {/* Badge "Premium" visuel — indique clairement le contenu payant */}
+            <span className="home__premium-tag">{t('premiumTag')}</span>
+          </div>
+          <div className="home__categories">
+            {PREMIUM_CATEGORIES.map(({ i18nKey, icon, colorVar }) => (
+              // div non-interactive — les catégories premium ne sont pas jouables (MVP 4)
+              <div
+                key={i18nKey}
+                className="home__cat-card home__cat-card--locked"
+                style={{ '--cat-color': colorVar } as React.CSSProperties}
+                aria-label={`${t(i18nKey)} — ${t('premiumLocked')}`}
+              >
+                <span className="home__cat-icon">{icon}</span>
+                <span className="home__cat-name">{t(i18nKey)}</span>
+                {/* Overlay cadenas — repositionné en absolu sur la carte */}
+                <span className="home__cat-lock" aria-hidden="true">
+                  <Lock size={18} strokeWidth={2.5} />
+                </span>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* ── Section spéciale Langues (premium) ───────────────────────────── */}
+        <section className="home__section home__section--langues">
+          <div className="home__section-header">
+            <h2 className="home__section-title">{t('languesTitle')}</h2>
+            <span className="home__premium-tag">{t('premiumTag')}</span>
+          </div>
+          <div className="home__langues">
+            {LANGUE_CATEGORIES.map(({ i18nKey, icon, colorVar }) => (
+              <div
+                key={i18nKey}
+                className="home__cat-card home__cat-card--locked home__cat-card--langue"
+                style={{ '--cat-color': colorVar } as React.CSSProperties}
+                aria-label={`${t(i18nKey)} — ${t('premiumLocked')}`}
+              >
+                <span className="home__cat-icon">{icon}</span>
+                <span className="home__cat-name">{t(i18nKey)}</span>
+                <span className="home__cat-lock" aria-hidden="true">
+                  <Lock size={18} strokeWidth={2.5} />
+                </span>
+              </div>
             ))}
           </div>
         </section>
