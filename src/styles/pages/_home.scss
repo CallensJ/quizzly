@@ -137,7 +137,10 @@
 
   &__categories {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    // auto-fill + minmax : 2 colonnes sur mobile standard, wrap vers 1 col si < ~280px.
+    // min(150px, 100%) évite l'overflow sur des écrans très étroits (la carte prend toute la largeur).
+    // Sur desktop, surchargé en 3 colonnes explicites (voir bloc @media lg).
+    grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr));
     gap: v.$spacing-md;
   }
 
@@ -221,10 +224,10 @@
     line-height: 1.4;
   }
 
-  // Grille spéciale pour les 2 cartes Langues — 2 colonnes larges
+  // Grille spéciale pour les 2 cartes Langues — 2 colonnes, même comportement responsive
   &__langues {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr));
     gap: v.$spacing-md;
   }
 
@@ -232,6 +235,8 @@
 
   &__difficulties {
     display: flex;
+    // Colonnes sur mobile — plus lisible, cibles tactiles larges pour les enfants
+    flex-direction: column;
     gap: v.$spacing-md;
   }
 
@@ -311,5 +316,77 @@
     padding: v.$spacing-xs v.$spacing-md;
     background: rgba(v.$error, 0.08);
     border-radius: v.$radius-sm;
+  }
+
+  // Panneau de contrôle (difficulté + play) — transparent sur mobile,
+  // dissous dans le flux flex via display:contents.
+  &__controls {
+    display: contents;
+  }
+
+  // ── Desktop — Bento Grid (≥ 1024px) ────────────────────────────────────────
+  //
+  // Sur desktop (AppLayout actif), le home adopte un layout bento 2 colonnes :
+  //   Col gauche (1fr) : toutes les sections de catégories (grilles 3-col uniformes)
+  //   Col droite (300px) : panneau sticky difficulté + Play
+  //
+  // Avantage : les cartes free et premium ont la même taille (même colonne, même grid).
+  // display:contents sur .home__controls (mobile) → flex normal sur .home__body
+
+  @media (min-width: v.$bp-lg) {
+
+    &__body {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      // Le body n'a plus de max-width — le parent AppLayout le contraint déjà
+      max-width: none;
+      // Alignement en haut pour que le panneau droit ne s'étire pas
+      align-items: start;
+      gap: v.$spacing-xl;
+      padding: v.$spacing-xl;
+    }
+
+    // Toutes les sections de catégories → colonne gauche
+    &__section {
+      grid-column: 1;
+
+      // Uniformisation des grilles : toutes en 3 colonnes
+      // → cartes free et premium identiques en taille
+      .home__categories {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      // Langues : 2 cartes larges côte à côte dans la colonne gauche
+      .home__langues {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    // Panneau de contrôle → colonne droite, sticky
+    &__controls {
+      // Annule display:contents (mobile) — redevient un bloc normal
+      display: flex;
+      flex-direction: column;
+      gap: v.$spacing-lg;
+      grid-column: 2;
+      // Span toutes les lignes de la colonne droite (autant que la colonne gauche)
+      grid-row: 1 / -1;
+
+      // Panneau visuel "card" pour regrouper les contrôles
+      background: v.$white;
+      border-radius: v.$radius-lg;
+      padding: v.$spacing-xl v.$spacing-lg;
+      box-shadow: v.$shadow-md;
+
+      // Sticky : reste visible lorsque l'utilisateur scrolle les catégories
+      position: sticky;
+      top: v.$spacing-xl;
+      align-self: start;
+    }
+
+    // Réinitialise le margin-top:auto (utile en mobile flex, inutile en grid)
+    &__cta {
+      margin-top: 0;
+    }
   }
 }

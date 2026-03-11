@@ -11,7 +11,7 @@
  * Le bouton "Jouer !" reste désactivé tant que les deux sélections ne sont pas faites.
  */
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import {
   Atom, Landmark, Swords, User, Lock,
@@ -83,6 +83,17 @@ export default function HomeScreen() {
 
   const [loading, setLoading] = useState(false);
   const [fetchError, setFetchError] = useState(false);
+
+  // Ref sur le CTA "Jouer !" — pour le scroll automatique sur mobile
+  const ctaRef = useRef<HTMLButtonElement>(null);
+
+  // Scroll vers le bouton "Jouer !" dès qu'une catégorie est choisie (mobile uniquement)
+  // Sur desktop le CTA est sticky dans le panneau droit, pas besoin de scroller.
+  useEffect(() => {
+    if (category !== null && ctaRef.current && window.innerWidth < 1024) {
+      ctaRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }, [category]);
 
   const canPlay = category !== null && difficulty !== null;
 
@@ -207,40 +218,50 @@ export default function HomeScreen() {
           </div>
         </section>
 
-        {/* ── Difficulté ────────────────────────────────────────────────────── */}
-        <section className="home__section">
-          <h2 className="home__section-title">{t('difficultyLabel')}</h2>
-          <div className="home__difficulties">
-            {DIFFICULTIES.map((d) => (
-              <button
-                key={d}
-                type="button"
-                data-testid={`diff-${d}`}
-                className={`home__diff-btn home__diff-btn--${d}${difficulty === d ? ' home__diff-btn--active' : ''}`}
-                onClick={() => setDifficulty(d)}
-                aria-pressed={difficulty === d}
-              >
-                {t(d)}
-              </button>
-            ))}
-          </div>
-        </section>
+        {/* ── Panneau de contrôle : difficulté + play ──────────────────────── */}
+        {/*
+          Sur desktop, ce div devient une colonne sticky à droite du bento grid.
+          Sur mobile, display:contents le "dissout" dans le flux flex du body.
+        */}
+        <div className="home__controls">
 
-        {/* ── CTA Play ──────────────────────────────────────────────────────── */}
-        <button
-          type="button"
-          data-testid="play-btn"
-          className="home__cta"
-          disabled={!canPlay || loading}
-          onClick={handlePlay}
-        >
-          {loading ? '…' : t('ctaPlay')}
-        </button>
+          {/* Difficulté */}
+          <section className="home__section home__section--difficulty">
+            <h2 className="home__section-title">{t('difficultyLabel')}</h2>
+            <div className="home__difficulties">
+              {DIFFICULTIES.map((d) => (
+                <button
+                  key={d}
+                  type="button"
+                  data-testid={`diff-${d}`}
+                  className={`home__diff-btn home__diff-btn--${d}${difficulty === d ? ' home__diff-btn--active' : ''}`}
+                  onClick={() => setDifficulty(d)}
+                  aria-pressed={difficulty === d}
+                >
+                  {t(d)}
+                </button>
+              ))}
+            </div>
+          </section>
 
-        {/* Erreur chargement questions (pas de réseau + pas de cache) */}
-        {fetchError && (
-          <p className="home__fetch-error" role="alert">{t('fetchError')}</p>
-        )}
+          {/* CTA Play */}
+          <button
+            ref={ctaRef}
+            type="button"
+            data-testid="play-btn"
+            className="home__cta"
+            disabled={!canPlay || loading}
+            onClick={handlePlay}
+          >
+            {loading ? '…' : t('ctaPlay')}
+          </button>
+
+          {/* Erreur chargement questions (pas de réseau + pas de cache) */}
+          {fetchError && (
+            <p className="home__fetch-error" role="alert">{t('fetchError')}</p>
+          )}
+
+        </div>
 
       </main>
     </div>
