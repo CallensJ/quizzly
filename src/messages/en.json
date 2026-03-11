@@ -134,6 +134,7 @@
     "forgotHint": "A reset link will be sent to the address you entered.",
     "forgotSend": "Send",
     "resetSent": "Email sent! Check your inbox.",
+    "registerSuccess": "Account created! Check your inbox to confirm your email address before signing in.",
     "ctaLogin": "Sign in",
     "ctaRegister": "Create my account",
     "ctaGoogle": "Continue with Google",

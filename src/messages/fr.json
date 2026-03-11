@@ -134,6 +134,7 @@
     "forgotHint": "Un lien de réinitialisation sera envoyé à l'adresse saisie.",
     "forgotSend": "Envoyer",
     "resetSent": "Email envoyé ! Vérifiez votre boîte mail.",
+    "registerSuccess": "Compte créé ! Vérifiez votre boîte mail pour confirmer votre adresse avant de vous connecter.",
     "ctaLogin": "Se connecter",
     "ctaRegister": "Créer mon compte",
     "ctaGoogle": "Continuer avec Google",

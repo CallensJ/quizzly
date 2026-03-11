@@ -37,8 +37,9 @@ export default function AuthScreen() {
   const [loading, setLoading]         = useState(false);
   const [error, setError]             = useState<string | null>(null);
   // 'idle' | 'sent' — pour le mot de passe oublié
-  const [resetSent, setResetSent]     = useState(false);
-  const [showReset, setShowReset]     = useState(false);
+  const [resetSent, setResetSent]         = useState(false);
+  const [registerSuccess, setRegisterSuccess] = useState(false);
+  const [showReset, setShowReset]         = useState(false);
 
   // ── Soumission du formulaire ───────────────────────────────────────────────
 
@@ -59,11 +60,10 @@ export default function AuthScreen() {
     }
 
     if (mode === 'register') {
-      // Inscription → email de confirmation envoyé
-      setError(null);
-      // Affiche un message de confirmation (géré via state ci-dessous)
+      // Inscription réussie → email de confirmation envoyé par Supabase
+      // L'utilisateur doit confirmer son email avant de pouvoir se connecter
       setMode('login');
-      // Message spécial "confirme ton email" géré par resetSent en mode register
+      setRegisterSuccess(true);
     } else {
       // Login réussi → retour à l'espace parent
       router.push('/admin');
@@ -141,7 +141,7 @@ export default function AuthScreen() {
             role="tab"
             aria-selected={mode === 'login'}
             className={`auth__tab${mode === 'login' ? ' auth__tab--active' : ''}`}
-            onClick={() => { setMode('login'); setError(null); setResetSent(false); }}
+            onClick={() => { setMode('login'); setError(null); setResetSent(false); setRegisterSuccess(false); }}
           >
             {t('tabLogin')}
           </button>
@@ -150,7 +150,7 @@ export default function AuthScreen() {
             role="tab"
             aria-selected={mode === 'register'}
             className={`auth__tab${mode === 'register' ? ' auth__tab--active' : ''}`}
-            onClick={() => { setMode('register'); setError(null); setResetSent(false); }}
+            onClick={() => { setMode('register'); setError(null); setResetSent(false); setRegisterSuccess(false); }}
           >
             {t('tabRegister')}
           </button>
@@ -161,7 +161,14 @@ export default function AuthScreen() {
           {mode === 'login' ? t('descLogin') : t('descRegister')}
         </p>
 
-        {/* Message confirmation email (après inscription) */}
+        {/* Message succès inscription — confirmer l'email avant connexion */}
+        {registerSuccess && (
+          <div className="auth__notice auth__notice--success">
+            {t('registerSuccess')}
+          </div>
+        )}
+
+        {/* Message envoi reset mot de passe */}
         {resetSent && (
           <div className="auth__notice auth__notice--success">
             {t('resetSent')}
