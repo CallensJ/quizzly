@@ -85,20 +85,21 @@ Cypress.Commands.add('setupQuestionsCache', () => {
  * Répond à toutes les questions du quiz en cours en cliquant sur la réponse A,
  * puis en cliquant sur "Suivant" / "Terminer".
  *
- * Utilise Cypress._.times(20) plutôt que la récursion — plus stable en CI.
- * Chaque itération vérifie l'URL : si on est encore sur /quiz, on répond.
- * Sur la dernière question, next-btn navigue vers /results → les itérations
- * suivantes voient l'URL /results et passent sans cliquer (guard cy.url check).
+ * Utilise 25 itérations (marge de sécurité) avec should('be.visible') avant
+ * chaque clic pour attendre que les éléments soient prêts (animations, transitions).
+ * Sans ce wait explicite, un clic peut ne pas s'enregistrer si l'UI est en transition,
+ * ce qui fait rater une question et bloquer le flux.
  *
  * Note : on répond toujours A — l'objectif est de tester le flux, pas les questions.
  */
 Cypress.Commands.add('answerAllQuestions', () => {
-  // 20 itérations max — une par question (le quiz comporte 20 questions)
-  Cypress._.times(20, () => {
+  // 25 itérations — marge de sécurité au-delà des 20 questions
+  Cypress._.times(25, () => {
     cy.url().then((url) => {
       if (url.includes('/quiz')) {
-        cy.get('[data-testid="answer-A"]').click();
-        cy.get('[data-testid="next-btn"]').click();
+        // Attendre que la réponse soit cliquable (fin d'animation de transition)
+        cy.get('[data-testid="answer-A"]', { timeout: 10000 }).should('be.visible').click();
+        cy.get('[data-testid="next-btn"]', { timeout: 10000 }).should('be.visible').should('not.be.disabled').click();
       }
     });
   });
