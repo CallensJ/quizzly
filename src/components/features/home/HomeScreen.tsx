@@ -103,8 +103,9 @@ export default function HomeScreen() {
     setLoading(true);
     setFetchError(false);
     try {
-      // Récupère les questions depuis Supabase (avec cache localStorage 24h + fallback offline)
-      const pool = await fetchQuestions(category!, locale as Locale, difficulty!);
+      // Récupère les questions — le pool de difficultés est adapté à la tranche d'âge du profil
+      // (Option A : 6-9 ans → pool plus doux, 10-13 ans → pool plus exigeant, cf. questions.ts)
+      const pool = await fetchQuestions(category!, locale as Locale, difficulty!, profile!.ageGroup);
       startQuiz(pool);
       router.push('/quiz');
     } catch {

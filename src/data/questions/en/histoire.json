@@ -3,405 +3,81 @@
   "lang": "en",
   "questions": [
     {
-      "id": "hist-en-001",
+      "id": "hist-en-003",
       "difficulty": "easy",
       "question": "Who was the first President of the United States?",
       "options": {
-        "A": "Thomas Jefferson",
-        "B": "Benjamin Franklin",
+        "A": "Abraham Lincoln",
+        "B": "Thomas Jefferson",
         "C": "George Washington",
-        "D": "Abraham Lincoln"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-002",
-      "difficulty": "easy",
-      "question": "In which year did World War I begin?",
-      "options": {
-        "A": "1904",
-        "B": "1914",
-        "C": "1918",
-        "D": "1939"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-en-003",
-      "difficulty": "easy",
-      "question": "Which wall fell in 1989 symbolizing the end of the Cold War?",
-      "options": {
-        "A": "The Great Wall of China",
-        "B": "Hadrian's Wall",
-        "C": "The Berlin Wall",
-        "D": "The Wall of Constantinople"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-004",
-      "difficulty": "easy",
-      "question": "Who discovered America in 1492?",
-      "options": {
-        "A": "Amerigo Vespucci",
-        "B": "Vasco da Gama",
-        "C": "Ferdinand Magellan",
-        "D": "Christopher Columbus"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-005",
-      "difficulty": "easy",
-      "question": "Which empire was ruled by Julius Caesar?",
-      "options": {
-        "A": "The Greek Empire",
-        "B": "The Egyptian Empire",
-        "C": "The Roman Empire",
-        "D": "The Persian Empire"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-006",
-      "difficulty": "easy",
-      "question": "The pyramids of Giza are located in which country?",
-      "options": {
-        "A": "Libya",
-        "B": "Tunisia",
-        "C": "Sudan",
-        "D": "Egypt"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-007",
-      "difficulty": "easy",
-      "question": "Who was the British Prime Minister during most of World War II?",
-      "options": {
-        "A": "Neville Chamberlain",
-        "B": "Anthony Eden",
-        "C": "Winston Churchill",
-        "D": "Clement Attlee"
+        "D": "Benjamin Franklin"
       },
       "answer": "C"
     },
     {
       "id": "hist-en-008",
       "difficulty": "easy",
-      "question": "Which war was fought between the North and South regions in the United States?",
-      "options": {
-        "A": "The Revolutionary War",
-        "B": "The Civil War",
-        "C": "The War of 1812",
-        "D": "The Mexican-American War"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-en-009",
-      "difficulty": "easy",
-      "question": "Who was the first man to walk on the Moon in 1969?",
-      "options": {
-        "A": "Buzz Aldrin",
-        "B": "Yuri Gagarin",
-        "C": "John Glenn",
-        "D": "Neil Armstrong"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-010",
-      "difficulty": "easy",
-      "question": "Which country was ruled by Adolf Hitler?",
-      "options": {
-        "A": "Austria",
-        "B": "Italy",
-        "C": "Germany",
-        "D": "Hungary"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-011",
-      "difficulty": "medium",
       "question": "Which treaty ended World War I?",
       "options": {
         "A": "Treaty of Paris",
-        "B": "Treaty of Versailles",
-        "C": "Treaty of Utrecht",
+        "B": "Treaty of Utrecht",
+        "C": "Treaty of Versailles",
         "D": "Treaty of Westphalia"
       },
-      "answer": "B"
-    },
-    {
-      "id": "hist-en-012",
-      "difficulty": "medium",
-      "question": "Who was the leader of the Soviet Union during World War II?",
-      "options": {
-        "A": "Lenin",
-        "B": "Trotsky",
-        "C": "Khrushchev",
-        "D": "Stalin"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-013",
-      "difficulty": "medium",
-      "question": "Which battle in 1815 marked Napoleon's final defeat?",
-      "options": {
-        "A": "Austerlitz",
-        "B": "Borodino",
-        "C": "Waterloo",
-        "D": "Leipzig"
-      },
       "answer": "C"
-    },
-    {
-      "id": "hist-en-014",
-      "difficulty": "medium",
-      "question": "Who was the first emperor of Rome?",
-      "options": {
-        "A": "Julius Caesar",
-        "B": "Nero",
-        "C": "Augustus",
-        "D": "Tiberius"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-015",
-      "difficulty": "medium",
-      "question": "Which empire built Machu Picchu?",
-      "options": {
-        "A": "The Aztecs",
-        "B": "The Maya",
-        "C": "The Olmecs",
-        "D": "The Inca"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-016",
-      "difficulty": "medium",
-      "question": "Who was the first emperor of China?",
-      "options": {
-        "A": "Han Gaozu",
-        "B": "Qin Shi Huang",
-        "C": "Emperor Wu",
-        "D": "Emperor Yao"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-en-017",
-      "difficulty": "medium",
-      "question": "Which event started World War I?",
-      "options": {
-        "A": "The invasion of Poland",
-        "B": "The Russian Revolution",
-        "C": "The assassination of Archduke Franz Ferdinand",
-        "D": "The annexation of Alsace"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-018",
-      "difficulty": "medium",
-      "question": "Which medieval document limited the power of the English king in 1215?",
-      "options": {
-        "A": "The Bill of Rights",
-        "B": "The Habeas Corpus",
-        "C": "The Act of Union",
-        "D": "The Magna Carta"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-019",
-      "difficulty": "medium",
-      "question": "Who led the Cuban Revolution?",
-      "options": {
-        "A": "Che Guevara",
-        "B": "Fidel Castro",
-        "C": "Raul Castro",
-        "D": "Camilo Cienfuegos"
-      },
-      "answer": "B"
     },
     {
       "id": "hist-en-020",
-      "difficulty": "medium",
-      "question": "Which empire ruled much of Southeast Europe and the Middle East before 1918?",
+      "difficulty": "easy",
+      "question": "Which wall fell in 1989?",
       "options": {
-        "A": "The Persian Empire",
-        "B": "The Byzantine Empire",
-        "C": "The Ottoman Empire",
-        "D": "The Austro-Hungarian Empire"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-021",
-      "difficulty": "hard",
-      "question": "Who founded the Mongol Empire?",
-      "options": {
-        "A": "Tamerlane",
-        "B": "Kublai Khan",
-        "C": "Attila",
-        "D": "Genghis Khan"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-022",
-      "difficulty": "hard",
-      "question": "Which battle in 1066 led to the Norman conquest of England?",
-      "options": {
-        "A": "Battle of Bosworth Field",
-        "B": "Battle of Stamford Bridge",
-        "C": "Battle of Bannockburn",
-        "D": "Battle of Hastings"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-023",
-      "difficulty": "hard",
-      "question": "Which treaty ended the Thirty Years' War in 1648?",
-      "options": {
-        "A": "Treaty of Utrecht",
-        "B": "Treaty of Paris",
-        "C": "Treaty of Westphalia",
-        "D": "Treaty of Vienna"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-024",
-      "difficulty": "hard",
-      "question": "Which Carthaginian general crossed the Alps with elephants?",
-      "options": {
-        "A": "Hasdrubal",
-        "B": "Hamilcar",
-        "C": "Scipio",
-        "D": "Hannibal"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-025",
-      "difficulty": "hard",
-      "question": "Which city fell to the Ottomans in 1453, ending the Byzantine Empire?",
-      "options": {
-        "A": "Thessaloniki",
-        "B": "Alexandria",
-        "C": "Jerusalem",
-        "D": "Constantinople"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-026",
-      "difficulty": "hard",
-      "question": "Who wrote 'The Spirit of the Laws', influencing democratic constitutions?",
-      "options": {
-        "A": "Voltaire",
-        "B": "Rousseau",
-        "C": "Montesquieu",
-        "D": "Locke"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-027",
-      "difficulty": "hard",
-      "question": "Which African empire was famous for its gold and ruler Mansa Musa?",
-      "options": {
-        "A": "Empire of Ghana",
-        "B": "Mali Empire",
-        "C": "Songhai Empire",
-        "D": "Kingdom of Zimbabwe"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-en-028",
-      "difficulty": "hard",
-      "question": "Which war between Athens and Sparta weakened ancient Greece?",
-      "options": {
-        "A": "The Persian Wars",
-        "B": "The Peloponnesian War",
-        "C": "The Macedonian War",
-        "D": "The Corinthian War"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-en-029",
-      "difficulty": "hard",
-      "question": "Which dynasty ruled China before the 1911 revolution?",
-      "options": {
-        "A": "Ming Dynasty",
-        "B": "Han Dynasty",
-        "C": "Tang Dynasty",
-        "D": "Qing Dynasty"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-030",
-      "difficulty": "hard",
-      "question": "Which Prussian king was known as Frederick the Great?",
-      "options": {
-        "A": "Frederick I",
-        "B": "Frederick II",
-        "C": "Frederick III",
-        "D": "Frederick William I"
+        "A": "The Great Wall of China",
+        "B": "The Berlin Wall",
+        "C": "Hadrian's Wall",
+        "D": "The Wall of Constantinople"
       },
       "answer": "B"
     },
     {
       "id": "hist-en-101",
       "difficulty": "easy",
-      "question": "Which country built the Great Wall?",
+      "question": "Which famous monument is found in Egypt?",
       "options": {
-        "A": "Japan",
-        "B": "Mongolia",
-        "C": "China",
-        "D": "India"
+        "A": "The Colosseum",
+        "B": "The Pyramids",
+        "C": "The Parthenon",
+        "D": "The Eiffel Tower"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "hist-en-102",
       "difficulty": "easy",
-      "question": "Who was the king of the Frankish Empire crowned in 800 AD?",
+      "question": "What is the name of the ancient Egyptian writing system?",
       "options": {
-        "A": "Clovis",
-        "B": "Pepin",
-        "C": "Charlemagne",
-        "D": "Charles Martel"
+        "A": "Runes",
+        "B": "Cuneiform",
+        "C": "The alphabet",
+        "D": "Hieroglyphs"
       },
-      "answer": "C"
+      "answer": "D"
     },
     {
       "id": "hist-en-103",
       "difficulty": "easy",
-      "question": "What ancient writing did the Egyptians use?",
+      "question": "Which people built the Colosseum in Rome?",
       "options": {
-        "A": "Runes",
-        "B": "Cuneiform",
-        "C": "Hieroglyphs",
-        "D": "The alphabet"
+        "A": "The Greeks",
+        "B": "The Gauls",
+        "C": "The Romans",
+        "D": "The Egyptians"
       },
       "answer": "C"
     },
     {
       "id": "hist-en-104",
       "difficulty": "easy",
-      "question": "What ship type did the Vikings use for raids?",
+      "question": "What are Viking ships called?",
       "options": {
         "A": "Galleys",
         "B": "Caravels",
@@ -413,19 +89,43 @@
     {
       "id": "hist-en-105",
       "difficulty": "easy",
-      "question": "Who was the first human to travel to space?",
+      "question": "Which king had the Palace of Versailles built?",
       "options": {
-        "A": "Neil Armstrong",
-        "B": "Buzz Aldrin",
-        "C": "Yuri Gagarin",
-        "D": "John Glenn"
+        "A": "Napoleon",
+        "B": "Louis XVI",
+        "C": "Louis XIV",
+        "D": "Henry IV"
       },
       "answer": "C"
     },
     {
       "id": "hist-en-106",
       "difficulty": "easy",
-      "question": "Which ancient city was destroyed by the eruption of Mount Vesuvius in 79 AD?",
+      "question": "In which year did World War I begin?",
+      "options": {
+        "A": "1904",
+        "B": "1914",
+        "C": "1924",
+        "D": "1939"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-en-107",
+      "difficulty": "easy",
+      "question": "Who was the first person to walk on the Moon?",
+      "options": {
+        "A": "Buzz Aldrin",
+        "B": "Yuri Gagarin",
+        "C": "John Glenn",
+        "D": "Neil Armstrong"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-en-108",
+      "difficulty": "easy",
+      "question": "Which city was destroyed by the eruption of Mount Vesuvius in 79 AD?",
       "options": {
         "A": "Naples",
         "B": "Rome",
@@ -435,103 +135,7 @@
       "answer": "C"
     },
     {
-      "id": "hist-en-107",
-      "difficulty": "easy",
-      "question": "Who was the king of the gods in Greek mythology?",
-      "options": {
-        "A": "Poseidon",
-        "B": "Ares",
-        "C": "Apollo",
-        "D": "Zeus"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-en-108",
-      "difficulty": "easy",
-      "question": "Which French king was called the Sun King?",
-      "options": {
-        "A": "Louis XIII",
-        "B": "Henry IV",
-        "C": "Louis XIV",
-        "D": "Francis I"
-      },
-      "answer": "C"
-    },
-    {
       "id": "hist-en-109",
-      "difficulty": "easy",
-      "question": "Who invented the printing press in Europe around 1440?",
-      "options": {
-        "A": "Leonardo da Vinci",
-        "B": "Gutenberg",
-        "C": "Copernicus",
-        "D": "Galileo"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-en-110",
-      "difficulty": "easy",
-      "question": "Which explorer completed the first circumnavigation of the Earth?",
-      "options": {
-        "A": "Columbus",
-        "B": "Vasco da Gama",
-        "C": "Magellan",
-        "D": "Cartier"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-111",
-      "difficulty": "easy",
-      "question": "Which Gaul leader led the resistance against Julius Caesar?",
-      "options": {
-        "A": "Asterix",
-        "B": "Ambiorix",
-        "C": "Vercingetorix",
-        "D": "Brennus"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-112",
-      "difficulty": "easy",
-      "question": "In which year did World War II end?",
-      "options": {
-        "A": "1943",
-        "B": "1944",
-        "C": "1945",
-        "D": "1946"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-113",
-      "difficulty": "easy",
-      "question": "Where were the first ancient Olympic Games held?",
-      "options": {
-        "A": "Athens",
-        "B": "Sparta",
-        "C": "Olympia",
-        "D": "Corinth"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-114",
-      "difficulty": "easy",
-      "question": "Who was the French warrior who helped liberate Orleans in the Hundred Years War?",
-      "options": {
-        "A": "Eleanor of Aquitaine",
-        "B": "Joan of Arc",
-        "C": "Marie Antoinette",
-        "D": "Isabeau of Bavaria"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-en-115",
       "difficulty": "easy",
       "question": "Which animal did Hannibal use to cross the Alps?",
       "options": {
@@ -543,57 +147,261 @@
       "answer": "C"
     },
     {
-      "id": "hist-en-201",
-      "difficulty": "medium",
-      "question": "Which civilization invented democracy?",
+      "id": "hist-en-110",
+      "difficulty": "easy",
+      "question": "Who was the king of the gods in Greek mythology?",
       "options": {
-        "A": "Rome",
-        "B": "Athens",
-        "C": "Carthage",
-        "D": "Babylon"
+        "A": "Poseidon",
+        "B": "Ares",
+        "C": "Apollo",
+        "D": "Zeus"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-en-111",
+      "difficulty": "easy",
+      "question": "Which explorer completed the first circumnavigation of the Earth?",
+      "options": {
+        "A": "Columbus",
+        "B": "Vasco da Gama",
+        "C": "Magellan",
+        "D": "Cartier"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-112",
+      "difficulty": "easy",
+      "question": "Who was the king of the Franks crowned in the year 800?",
+      "options": {
+        "A": "Clovis",
+        "B": "Pepin",
+        "C": "Charlemagne",
+        "D": "Charles Martel"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-113",
+      "difficulty": "easy",
+      "question": "In which year did World War II end?",
+      "options": {
+        "A": "1943",
+        "B": "1944",
+        "C": "1946",
+        "D": "1945"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-en-114",
+      "difficulty": "easy",
+      "question": "Which country built the Great Wall?",
+      "options": {
+        "A": "Japan",
+        "B": "Mongolia",
+        "C": "China",
+        "D": "India"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-115",
+      "difficulty": "easy",
+      "question": "Who was the Gaul leader who resisted Julius Caesar?",
+      "options": {
+        "A": "Asterix",
+        "B": "Ambiorix",
+        "C": "Brennus",
+        "D": "Vercingetorix"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-en-116",
+      "difficulty": "easy",
+      "question": "Which French king was nicknamed the Sun King?",
+      "options": {
+        "A": "Louis XIII",
+        "B": "Henry IV",
+        "C": "Francis I",
+        "D": "Louis XIV"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-en-117",
+      "difficulty": "easy",
+      "question": "Where did the ancient Greeks hold the first Olympic Games?",
+      "options": {
+        "A": "In Athens",
+        "B": "In Sparta",
+        "C": "In Olympia",
+        "D": "In Corinth"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-118",
+      "difficulty": "easy",
+      "question": "Who was the first human to travel to space?",
+      "options": {
+        "A": "Neil Armstrong",
+        "B": "Buzz Aldrin",
+        "C": "Yuri Gagarin",
+        "D": "John Glenn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-119",
+      "difficulty": "easy",
+      "question": "Which people lived in Mesopotamia and invented writing?",
+      "options": {
+        "A": "The Egyptians",
+        "B": "The Persians",
+        "C": "The Babylonians",
+        "D": "The Sumerians"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-en-120",
+      "difficulty": "easy",
+      "question": "Who invented the printing press in Europe in the 15th century?",
+      "options": {
+        "A": "Leonardo da Vinci",
+        "B": "Gutenberg",
+        "C": "Copernicus",
+        "D": "Galileo"
       },
       "answer": "B"
     },
     {
+      "id": "hist-en-121",
+      "difficulty": "easy",
+      "question": "Which people invented democracy in Antiquity?",
+      "options": {
+        "A": "The Romans",
+        "B": "The Persians",
+        "C": "The Greeks",
+        "D": "The Egyptians"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-122",
+      "difficulty": "easy",
+      "question": "What was the name of the French warrior who helped liberate Orleans?",
+      "options": {
+        "A": "Marie-Antoinette",
+        "B": "Joan of Arc",
+        "C": "Eleanor of Aquitaine",
+        "D": "Isabella of France"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-en-002",
+      "difficulty": "medium",
+      "question": "Which pharaoh is associated with the Great Pyramid of Giza?",
+      "options": {
+        "A": "Ramesses II",
+        "B": "Khufu",
+        "C": "Akhenaten",
+        "D": "Tutankhamun"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-en-004",
+      "difficulty": "medium",
+      "question": "Which empire was ruled by Julius Caesar?",
+      "options": {
+        "A": "The Greek Empire",
+        "B": "The Roman Empire",
+        "C": "The Persian Empire",
+        "D": "The Egyptian Empire"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-en-018",
+      "difficulty": "medium",
+      "question": "Who was the first emperor of Rome?",
+      "options": {
+        "A": "Julius Caesar",
+        "B": "Nero",
+        "C": "Augustus",
+        "D": "Tiberius"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-037",
+      "difficulty": "medium",
+      "question": "In which year did the French Revolution begin?",
+      "options": {
+        "A": "1776",
+        "B": "1783",
+        "C": "1789",
+        "D": "1793"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-201",
+      "difficulty": "medium",
+      "question": "Which civilization built Machu Picchu?",
+      "options": {
+        "A": "The Aztecs",
+        "B": "The Maya",
+        "C": "The Incas",
+        "D": "The Olmecs"
+      },
+      "answer": "C"
+    },
+    {
       "id": "hist-en-202",
       "difficulty": "medium",
-      "question": "Which Portuguese navigator found the sea route to India?",
+      "question": "In which year did the Ottoman Empire conquer Constantinople?",
       "options": {
-        "A": "Bartolomeu Dias",
-        "B": "Christopher Columbus",
-        "C": "Vasco da Gama",
-        "D": "Pedro Álvares Cabral"
+        "A": "1389",
+        "B": "1415",
+        "C": "1453",
+        "D": "1492"
       },
       "answer": "C"
     },
     {
       "id": "hist-en-203",
       "difficulty": "medium",
-      "question": "In which year did Napoleon become Emperor of France?",
+      "question": "Who founded the Mongol Empire in the 13th century?",
       "options": {
-        "A": "1799",
-        "B": "1801",
-        "C": "1804",
-        "D": "1807"
+        "A": "Tamerlane",
+        "B": "Kublai Khan",
+        "C": "Attila",
+        "D": "Genghis Khan"
       },
-      "answer": "C"
+      "answer": "D"
     },
     {
       "id": "hist-en-204",
       "difficulty": "medium",
-      "question": "Which Spanish conquistador conquered the Aztec Empire?",
+      "question": "In which country was the Magna Carta signed in 1215?",
       "options": {
-        "A": "Francisco Pizarro",
-        "B": "Hernán Cortés",
-        "C": "Vasco da Gama",
-        "D": "Amerigo Vespucci"
+        "A": "France",
+        "B": "Italy",
+        "C": "England",
+        "D": "Spain"
       },
-      "answer": "B"
+      "answer": "C"
     },
     {
       "id": "hist-en-205",
       "difficulty": "medium",
-      "question": "Who was the first leader of the Soviet Union?",
+      "question": "Who was the first leader of the USSR?",
       "options": {
         "A": "Trotsky",
         "B": "Stalin",
@@ -605,7 +413,31 @@
     {
       "id": "hist-en-206",
       "difficulty": "medium",
-      "question": "Which king of England created the Church of England?",
+      "question": "Which conquistador conquered the Aztec Empire?",
+      "options": {
+        "A": "Francisco Pizarro",
+        "B": "Hernán Cortés",
+        "C": "Vasco da Gama",
+        "D": "Amerigo Vespucci"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-en-207",
+      "difficulty": "medium",
+      "question": "Which ancient civilization invented representative democracy?",
+      "options": {
+        "A": "Rome",
+        "B": "Athens",
+        "C": "Carthage",
+        "D": "Babylon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-en-208",
+      "difficulty": "medium",
+      "question": "Which king of England founded the Church of England?",
       "options": {
         "A": "Richard I",
         "B": "Edward VI",
@@ -615,9 +447,9 @@
       "answer": "C"
     },
     {
-      "id": "hist-en-207",
+      "id": "hist-en-209",
       "difficulty": "medium",
-      "question": "Which empire was defeated by Alexander the Great?",
+      "question": "Which empire was overthrown by Alexander the Great?",
       "options": {
         "A": "The Roman Empire",
         "B": "The Babylonian Empire",
@@ -627,55 +459,43 @@
       "answer": "D"
     },
     {
-      "id": "hist-en-208",
-      "difficulty": "medium",
-      "question": "Which Russian Revolution overthrew Tsar Nicholas II?",
-      "options": {
-        "A": "The American Revolution",
-        "B": "The French Revolution",
-        "C": "The Russian Revolution of 1917",
-        "D": "The Industrial Revolution"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-209",
-      "difficulty": "medium",
-      "question": "What was the agreement that reorganized Europe after Napoleon in 1815?",
-      "options": {
-        "A": "Treaty of Westphalia",
-        "B": "Treaty of Paris 1815",
-        "C": "Congress of Vienna",
-        "D": "Treaty of Utrecht"
-      },
-      "answer": "C"
-    },
-    {
       "id": "hist-en-210",
       "difficulty": "medium",
-      "question": "Which military alliance was created by Western nations in 1949?",
+      "question": "In which year did Napoleon become Emperor of France?",
       "options": {
-        "A": "The UN",
-        "B": "The Warsaw Pact",
-        "C": "NATO",
-        "D": "The League of Nations"
+        "A": "1799",
+        "B": "1801",
+        "C": "1804",
+        "D": "1807"
       },
       "answer": "C"
     },
     {
       "id": "hist-en-211",
       "difficulty": "medium",
-      "question": "Which pharaoh is known for imposing monotheism in ancient Egypt?",
+      "question": "Which military alliance was created by Western nations in 1949?",
       "options": {
-        "A": "Ramesses II",
-        "B": "Akhenaten",
-        "C": "Tutankhamun",
-        "D": "Thutmose"
+        "A": "The UN",
+        "B": "The Warsaw Pact",
+        "C": "The USSR",
+        "D": "NATO"
       },
-      "answer": "B"
+      "answer": "D"
     },
     {
       "id": "hist-en-212",
+      "difficulty": "medium",
+      "question": "Which Portuguese navigator discovered the sea route to India?",
+      "options": {
+        "A": "Bartolomeu Dias",
+        "B": "Christopher Columbus",
+        "C": "Vasco da Gama",
+        "D": "Pedro Álvares Cabral"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-213",
       "difficulty": "medium",
       "question": "Which ancient city was the great rival of Rome in the Mediterranean?",
       "options": {
@@ -687,33 +507,81 @@
       "answer": "C"
     },
     {
-      "id": "hist-en-213",
+      "id": "hist-en-214",
       "difficulty": "medium",
       "question": "In which year did World War II begin?",
       "options": {
         "A": "1937",
         "B": "1938",
-        "C": "1939",
-        "D": "1940"
+        "C": "1940",
+        "D": "1939"
       },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-214",
-      "difficulty": "medium",
-      "question": "Which people founded the city of Carthage in North Africa?",
-      "options": {
-        "A": "Greeks",
-        "B": "Phoenicians",
-        "C": "Romans",
-        "D": "Berbers"
-      },
-      "answer": "B"
+      "answer": "D"
     },
     {
       "id": "hist-en-215",
       "difficulty": "medium",
-      "question": "Which Spanish conquistador conquered the Inca Empire?",
+      "question": "Which event triggered World War I?",
+      "options": {
+        "A": "The invasion of Poland",
+        "B": "The Russian Revolution",
+        "C": "The assassination of Archduke Franz Ferdinand",
+        "D": "The annexation of Alsace"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-216",
+      "difficulty": "medium",
+      "question": "Which pharaoh is known for imposing the worship of a single god in Egypt?",
+      "options": {
+        "A": "Ramesses II",
+        "B": "Akhenaten",
+        "C": "Tutankhamun",
+        "D": "Thutmose"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-en-217",
+      "difficulty": "medium",
+      "question": "Which revolution overthrew Tsar Nicholas II of Russia?",
+      "options": {
+        "A": "The American Revolution",
+        "B": "The French Revolution",
+        "C": "The Russian Revolution",
+        "D": "The Industrial Revolution"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-218",
+      "difficulty": "medium",
+      "question": "How many years did the Hundred Years' War between France and England last?",
+      "options": {
+        "A": "About 50 years",
+        "B": "About 75 years",
+        "C": "About 100 years",
+        "D": "About 116 years"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-en-219",
+      "difficulty": "medium",
+      "question": "Which agreement ended the Napoleonic Wars in 1815?",
+      "options": {
+        "A": "The Treaty of Westphalia",
+        "B": "The Congress of Vienna",
+        "C": "The Treaty of Utrecht",
+        "D": "The Treaty of Versailles"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-en-220",
+      "difficulty": "medium",
+      "question": "Which conquistador conquered the Inca Empire?",
       "options": {
         "A": "Hernán Cortés",
         "B": "Vasco da Gama",
@@ -723,9 +591,57 @@
       "answer": "C"
     },
     {
+      "id": "hist-en-221",
+      "difficulty": "medium",
+      "question": "Which people founded Carthage in North Africa?",
+      "options": {
+        "A": "The Greeks",
+        "B": "The Phoenicians",
+        "C": "The Romans",
+        "D": "The Berbers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-en-001",
+      "difficulty": "hard",
+      "question": "Who was the leader of Nazi Germany during World War II?",
+      "options": {
+        "A": "Mussolini",
+        "B": "Franco",
+        "C": "Hitler",
+        "D": "Stalin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-010",
+      "difficulty": "hard",
+      "question": "Who was the Soviet leader during the Cuban Missile Crisis?",
+      "options": {
+        "A": "Stalin",
+        "B": "Brezhnev",
+        "C": "Gorbachev",
+        "D": "Khrushchev"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-en-013",
+      "difficulty": "hard",
+      "question": "Who discovered America in 1492?",
+      "options": {
+        "A": "Amerigo Vespucci",
+        "B": "Vasco da Gama",
+        "C": "Magellan",
+        "D": "Christopher Columbus"
+      },
+      "answer": "D"
+    },
+    {
       "id": "hist-en-301",
       "difficulty": "hard",
-      "question": "Who wrote 'The Gallic Wars', a firsthand account of military campaigns?",
+      "question": "Who wrote 'The Gallic Wars', a firsthand account of his military conquests?",
       "options": {
         "A": "Cicero",
         "B": "Tacitus",
@@ -737,6 +653,18 @@
     {
       "id": "hist-en-302",
       "difficulty": "hard",
+      "question": "Which treaty ended the Thirty Years' War in 1648?",
+      "options": {
+        "A": "Treaty of Utrecht",
+        "B": "Treaty of Paris",
+        "C": "Treaty of Westphalia",
+        "D": "Treaty of Vienna"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-303",
+      "difficulty": "hard",
       "question": "Which battle in 732 stopped the advance of the Moors into France?",
       "options": {
         "A": "Battle of Verdun",
@@ -747,9 +675,9 @@
       "answer": "B"
     },
     {
-      "id": "hist-en-303",
+      "id": "hist-en-304",
       "difficulty": "hard",
-      "question": "Which queen of Egypt was allied with both Julius Caesar and Mark Antony?",
+      "question": "Which Egyptian queen was allied with Julius Caesar and then Mark Antony?",
       "options": {
         "A": "Nefertiti",
         "B": "Hatshepsut",
@@ -759,7 +687,7 @@
       "answer": "D"
     },
     {
-      "id": "hist-en-304",
+      "id": "hist-en-305",
       "difficulty": "hard",
       "question": "Which Greek philosopher was the tutor of Alexander the Great?",
       "options": {
@@ -771,9 +699,33 @@
       "answer": "C"
     },
     {
-      "id": "hist-en-305",
+      "id": "hist-en-306",
       "difficulty": "hard",
-      "question": "Which Roman emperor adopted Christianity as the official religion?",
+      "question": "In which year was Louis XVI guillotined during the French Revolution?",
+      "options": {
+        "A": "1791",
+        "B": "1792",
+        "C": "1793",
+        "D": "1795"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-307",
+      "difficulty": "hard",
+      "question": "What is the name of the battle where Napoleon was definitively defeated in 1815?",
+      "options": {
+        "A": "Austerlitz",
+        "B": "Borodino",
+        "C": "Waterloo",
+        "D": "Leipzig"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-en-308",
+      "difficulty": "hard",
+      "question": "Which Roman emperor adopted Christianity as the official religion of the Empire?",
       "options": {
         "A": "Augustus",
         "B": "Tiberius",
@@ -783,9 +735,21 @@
       "answer": "D"
     },
     {
-      "id": "hist-en-306",
+      "id": "hist-en-309",
       "difficulty": "hard",
-      "question": "In which year did the Western Roman Empire fall?",
+      "question": "Which African empire was known for its wealth and its king Mansa Musa in the 14th century?",
+      "options": {
+        "A": "Empire of Ghana",
+        "B": "Mali Empire",
+        "C": "Songhai Empire",
+        "D": "Kingdom of Zimbabwe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-en-310",
+      "difficulty": "hard",
+      "question": "In which year is the fall of the Western Roman Empire dated?",
       "options": {
         "A": "370 AD",
         "B": "410 AD",
@@ -795,7 +759,7 @@
       "answer": "C"
     },
     {
-      "id": "hist-en-307",
+      "id": "hist-en-311",
       "difficulty": "hard",
       "question": "Which Viking leader founded the Duchy of Normandy in the 10th century?",
       "options": {
@@ -807,7 +771,7 @@
       "answer": "D"
     },
     {
-      "id": "hist-en-308",
+      "id": "hist-en-312",
       "difficulty": "hard",
       "question": "Which empire was founded by Cyrus the Great in the 6th century BC?",
       "options": {
@@ -819,7 +783,7 @@
       "answer": "C"
     },
     {
-      "id": "hist-en-309",
+      "id": "hist-en-313",
       "difficulty": "hard",
       "question": "Which American plan helped rebuild Europe after World War II?",
       "options": {
@@ -831,7 +795,7 @@
       "answer": "D"
     },
     {
-      "id": "hist-en-310",
+      "id": "hist-en-314",
       "difficulty": "hard",
       "question": "Who wrote 'The Art of War', an ancient Chinese military treatise?",
       "options": {
@@ -843,7 +807,7 @@
       "answer": "C"
     },
     {
-      "id": "hist-en-311",
+      "id": "hist-en-315",
       "difficulty": "hard",
       "question": "Which country launched the first artificial satellite, Sputnik, in 1957?",
       "options": {
@@ -855,19 +819,43 @@
       "answer": "D"
     },
     {
-      "id": "hist-en-312",
+      "id": "hist-en-316",
       "difficulty": "hard",
-      "question": "In which year did Louis XVI get guillotined during the French Revolution?",
+      "question": "Which pharaoh is often associated with the Exodus of the Hebrews according to the Bible?",
       "options": {
-        "A": "1791",
-        "B": "1792",
-        "C": "1793",
-        "D": "1795"
+        "A": "Amenhotep III",
+        "B": "Akhenaten",
+        "C": "Ramesses II",
+        "D": "Thutmose III"
       },
       "answer": "C"
     },
     {
-      "id": "hist-en-313",
+      "id": "hist-en-317",
+      "difficulty": "hard",
+      "question": "Which war pitted Athens against Sparta from 431 to 404 BC?",
+      "options": {
+        "A": "The Peloponnesian War",
+        "B": "The Persian Wars",
+        "C": "The Trojan War",
+        "D": "The Corinthian War"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-en-318",
+      "difficulty": "hard",
+      "question": "Which French king was nicknamed Saint Louis and died during a Crusade?",
+      "options": {
+        "A": "Philip II Augustus",
+        "B": "Louis IX",
+        "C": "Charles IV",
+        "D": "Philip IV the Fair"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-en-319",
       "difficulty": "hard",
       "question": "Which English document of 1689 established constitutional monarchy?",
       "options": {
@@ -879,7 +867,7 @@
       "answer": "C"
     },
     {
-      "id": "hist-en-314",
+      "id": "hist-en-320",
       "difficulty": "hard",
       "question": "Which Carthaginian general defeated the Romans at the Battle of Cannae in 216 BC?",
       "options": {
@@ -891,7 +879,19 @@
       "answer": "D"
     },
     {
-      "id": "hist-en-315",
+      "id": "hist-en-321",
+      "difficulty": "hard",
+      "question": "Which empire ruled Spain and part of Europe for nearly 800 years?",
+      "options": {
+        "A": "The Roman Empire",
+        "B": "The Byzantine Empire",
+        "C": "The Ottoman Empire",
+        "D": "The Moorish Empire (Caliphate of Cordoba)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-en-322",
       "difficulty": "hard",
       "question": "Who was the last King of the French before the Second Republic in 1848?",
       "options": {

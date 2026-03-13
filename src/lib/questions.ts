@@ -16,7 +16,7 @@
  */
 
 import { supabase } from './supabase';
-import type { Category, Difficulty, Locale, Question } from '@/types';
+import type { AgeGroup, Category, Difficulty, Locale, Question } from '@/types';
 
 // ─── Cache localStorage ───────────────────────────────────────────────────────
 
@@ -99,22 +99,55 @@ function rowToQuestion(row: QuestionRow): Question {
 
 // ─── Fetch principal ──────────────────────────────────────────────────────────
 
+// ─── Mapping difficulty × ageGroup → pool de difficultés ─────────────────────
+//
+// Option A (MVP 2) — decision architecturale :
+// Les JSON ne contiennent pas de champ ageGroup. On adapte plutôt le pool
+// de difficultés en fonction de la tranche d'âge du profil.
+//
+// | Sélection "Jouer" | 6-9 ans              | 10-13 ans            |
+// |--------------------|----------------------|----------------------|
+// | Facile             | easy                 | easy + medium        |
+// | Moyen              | easy + medium        | medium               |
+// | Difficile          | medium               | medium + hard        |
+//
+// Cela garantit qu'un enfant de 6 ans ne tombe jamais sur des questions "hard"
+// même en choisissant "difficile", et qu'un ado de 13 ans n'est pas bloqué sur
+// des questions trop simples.
+//
+function getDifficultyPool(difficulty: Difficulty, ageGroup: AgeGroup): Difficulty[] {
+  if (ageGroup === '6-9') {
+    return difficulty === 'easy'   ? ['easy']
+         : difficulty === 'medium' ? ['easy', 'medium']
+         :                           ['medium'];
+  }
+  // 10-13
+  return difficulty === 'easy'   ? ['easy', 'medium']
+       : difficulty === 'medium' ? ['medium']
+       :                           ['medium', 'hard'];
+}
+
 /**
  * Récupère les questions pour une catégorie + locale donnée.
- * Filtre optionnel par difficulté (si omis, retourne toutes les difficultés).
+ * Le pool de difficultés est adapté selon la tranche d'âge (Option A).
  *
  * @throws Error si Supabase est inaccessible ET qu'il n'y a pas de cache
  */
 export async function fetchQuestions(
   category: Category,
   locale: Locale,
-  difficulty?: Difficulty
+  difficulty: Difficulty,
+  ageGroup: AgeGroup
 ): Promise<Question[]> {
+  const diffPool = getDifficultyPool(difficulty, ageGroup);
+
+  function filterByPool(qs: Question[]): Question[] {
+    return qs.filter((q) => diffPool.includes(q.difficulty));
+  }
+
   // 1. Cache valide → retour immédiat (offline ou online)
   const cached = getCache(category, locale);
-  if (cached) {
-    return difficulty ? cached.filter((q) => q.difficulty === difficulty) : cached;
-  }
+  if (cached) return filterByPool(cached);
 
   // 2. Fetch Supabase — toutes les difficultés de ce (category, locale)
   //    On récupère tout pour ne faire qu'un seul appel réseau et tout mettre en cache
@@ -131,13 +164,11 @@ export async function fetchQuestions(
     const questions = (data as QuestionRow[]).map(rowToQuestion);
     setCache(category, locale, questions);
 
-    return difficulty ? questions.filter((q) => q.difficulty === difficulty) : questions;
+    return filterByPool(questions);
   } catch (fetchError) {
     // 3. Fallback : cache périmé (offline ou erreur réseau)
     const stale = getStaleCache(category, locale);
-    if (stale) {
-      return difficulty ? stale.filter((q) => q.difficulty === difficulty) : stale;
-    }
+    if (stale) return filterByPool(stale);
 
     // 4. Fallback : fichiers JSON locaux (src/data/questions/{locale}/{category}.json)
     //    Permet d'utiliser les catégories qui ne sont pas encore dans Supabase
@@ -147,9 +178,8 @@ export async function fetchQuestions(
       const localData = await import(`../data/questions/${locale}/${category}.json`);
       const questions: Question[] = localData.questions as Question[];
       if (questions && questions.length > 0) {
-        // Met en cache pour éviter de re-importer à chaque partie
         setCache(category, locale, questions);
-        return difficulty ? questions.filter((q) => q.difficulty === difficulty) : questions;
+        return filterByPool(questions);
       }
     } catch {
       // Fichier JSON local absent — on laisse l'erreur originale remonter
