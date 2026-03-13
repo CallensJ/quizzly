@@ -90,7 +90,7 @@ jobs:
       #   - l'attente que le serveur réponde (wait-on)
       #   - le lancement des tests Cypress
       - name: Cypress E2E
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
         env:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
