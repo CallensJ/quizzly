@@ -3,7 +3,8 @@
  *
  * Configuration Next.js :
  * - next-intl : routing i18n FR/EN
- * - next-pwa v5 : génération automatique du Service Worker (Workbox)
+ * - @ducanh2912/next-pwa : génération automatique du Service Worker (Workbox)
+ *   Fork maintenu de next-pwa v5, sans les vulnérabilités serialize-javascript.
  *
  * Stratégies de cache Workbox :
  *   - DiceBear API   → CacheFirst (avatars stables, TTL 30 jours)
@@ -18,9 +19,9 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
-// next-pwa v5 utilise require() — pas d'export ESM compatible
+// @ducanh2912/next-pwa utilise require() — pas d'export ESM compatible
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const withPWA = require('next-pwa')({
+const withPWA = require('@ducanh2912/next-pwa').default({
   dest: 'public',
   // Désactivé en développement — le SW interférerait avec le HMR
   disable: process.env.NODE_ENV === 'development',
