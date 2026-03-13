@@ -24,6 +24,7 @@ export interface Profile {
   pseudo: string;
   ageGroup: AgeGroup;
   avatarId: string;
+  avatarStyle?: string; // Style DiceBear — défaut 'adventurer' si absent (rétro-compat profils existants)
   badgeEarned: boolean;
   locale: Locale;
   createdAt: string;

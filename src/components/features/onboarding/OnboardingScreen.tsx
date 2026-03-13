@@ -18,17 +18,7 @@ import { useProfileStore } from '@/stores/profileStore';
 import { syncProfile } from '@/lib/sync';
 import Nova from '@/components/ui/Nova';
 import type { AgeGroup, Locale } from '@/types';
-
-// Seeds DiceBear prédéfinis — style "adventurer" (v9)
-// Choix fixés pour ne pas dépendre d'une saisie utilisateur
-const AVATAR_SEEDS = ['Milo', 'Zara', 'Felix', 'Luna', 'Sam', 'Ava', 'Kai', 'Lily'];
-
-// Fond pastel aléatoire parmi 5 couleurs douces
-const BG_COLORS = 'b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf';
-
-function avatarUrl(seed: string): string {
-  return `https://api.dicebear.com/9.x/adventurer/svg?seed=${seed}&backgroundColor=${BG_COLORS}`;
-}
+import { FREE_SEEDS, FREE_STYLE, buildAvatarUrl } from '@/lib/avatars';
 
 export default function OnboardingScreen() {
   const t = useTranslations('onboarding');
@@ -55,6 +45,7 @@ export default function OnboardingScreen() {
       pseudo: pseudo.trim(),
       ageGroup: ageGroup!,
       avatarId: avatarId!,
+      avatarStyle: FREE_STYLE, // adventurer — style gratuit par défaut
       badgeEarned: false,
       locale,
     });
@@ -145,7 +136,7 @@ export default function OnboardingScreen() {
           <p className="onboarding__label">{t('avatarLabel')}</p>
           {/* role="list" requis car list-style: none retire la sémantique sur Safari (cf. reset) */}
           <div className="onboarding__avatar-grid" role="list">
-            {AVATAR_SEEDS.map((seed) => (
+            {FREE_SEEDS.map((seed) => (
               <button
                 key={seed}
                 type="button"
@@ -157,7 +148,7 @@ export default function OnboardingScreen() {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={avatarUrl(seed)}
+                  src={buildAvatarUrl(seed)}
                   alt=""          // décoratif — l'aria-label du bouton suffit
                   width={72}
                   height={72}

@@ -17,9 +17,8 @@ import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { Star, Trophy, Gamepad2 } from 'lucide-react';
-
-// Fonds pastel DiceBear — même palette que l'onboarding pour cohérence
-const BG_COLORS = 'b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf';
+import { buildAvatarUrl } from '@/lib/avatars';
+import type { AvatarStyle } from '@/lib/avatars';
 
 interface AppLayoutProps {
   children: React.ReactNode;
@@ -36,7 +35,8 @@ export default function AppLayout({ children }: AppLayoutProps) {
 
   const totalScore = sessions.reduce((acc, s) => acc + s.score, 0);
   const totalGames = sessions.length;
-  const avatarUrl = `https://api.dicebear.com/9.x/adventurer/svg?seed=${profile.avatarId}&backgroundColor=${BG_COLORS}`;
+  // Construit l'URL en tenant compte du style stocké (rétro-compat : défaut adventurer)
+  const avatarUrl = buildAvatarUrl(profile.avatarId, (profile.avatarStyle as AvatarStyle) || 'adventurer');
   const ageLabel = profile.ageGroup === '6-9' ? t('age6to9') : t('age10to13');
 
   return (

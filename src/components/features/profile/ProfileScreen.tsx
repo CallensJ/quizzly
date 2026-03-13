@@ -15,21 +15,14 @@
 
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { ArrowLeft, Pencil, Lock } from 'lucide-react';
+import { ArrowLeft, Pencil, Lock, Crown } from 'lucide-react';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useAuthStore } from '@/stores/authStore';
 import type { Locale } from '@/i18n/routing';
 import type { Category, QuizSession } from '@/types';
-
-// Seeds DiceBear — identiques à OnboardingScreen (même galerie prédéfinie)
-const AVATAR_SEEDS = ['Milo', 'Zara', 'Felix', 'Luna', 'Sam', 'Ava', 'Kai', 'Lily'];
-const BG_COLORS = 'b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf';
-
-// URL de l'avatar DiceBear — même pattern que OnboardingScreen et AppLayout
-function avatarUrl(seed: string) {
-  return `https://api.dicebear.com/9.x/adventurer/svg?seed=${encodeURIComponent(seed)}&backgroundColor=${BG_COLORS}`;
-}
+import { FREE_SEEDS, FREE_STYLE, PREMIUM_STYLES, buildAvatarUrl } from '@/lib/avatars';
+import type { AvatarStyle } from '@/lib/avatars';
 
 /**
  * Calcule le meilleur score (en %) parmi toutes les sessions.
@@ -100,8 +93,8 @@ export default function ProfileScreen() {
   const best = bestScorePercent(sessions);
   const catStats = statsByCategory(sessions);
 
-  function handleSelectAvatar(seed: string) {
-    updateAvatar(seed);
+  function handleSelectAvatar(seed: string, style: AvatarStyle) {
+    updateAvatar(seed, style);
     setEditingAvatar(false); // ferme la galerie après sélection
   }
 
@@ -133,7 +126,7 @@ export default function ProfileScreen() {
           <div className="profile__avatar-wrap">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={avatarUrl(profile.avatarId)}
+              src={buildAvatarUrl(profile.avatarId, (profile.avatarStyle as AvatarStyle) || 'adventurer')}
               alt={`Avatar de ${profile.pseudo}`}
               className="profile__avatar"
               width={100}
@@ -167,25 +160,61 @@ export default function ProfileScreen() {
         {/* ── Galerie de sélection d'avatar (inline, slide-down) ────────── */}
         {editingAvatar && (
           <div className="profile__avatar-gallery" role="group" aria-label={t('changeAvatar')}>
-            {AVATAR_SEEDS.map((seed) => (
-              <button
-                key={seed}
-                type="button"
-                className={`profile__avatar-option${profile.avatarId === seed ? ' profile__avatar-option--active' : ''}`}
-                onClick={() => handleSelectAvatar(seed)}
-                aria-label={seed}
-                aria-pressed={profile.avatarId === seed}
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={avatarUrl(seed)}
-                  alt=""
-                  width={60}
-                  height={60}
-                  loading="lazy"
-                />
-              </button>
+
+            {/* Section gratuite — 8 avatars adventurer */}
+            <p className="profile__avatar-section-title">{t('avatarFree')}</p>
+            <div className="profile__avatar-row">
+              {FREE_SEEDS.map((seed) => {
+                const isActive = profile.avatarId === seed &&
+                  (!profile.avatarStyle || profile.avatarStyle === FREE_STYLE);
+                return (
+                  <button
+                    key={seed}
+                    type="button"
+                    className={`profile__avatar-option${isActive ? ' profile__avatar-option--active' : ''}`}
+                    onClick={() => handleSelectAvatar(seed, FREE_STYLE)}
+                    aria-label={seed}
+                    aria-pressed={isActive}
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={buildAvatarUrl(seed)} alt="" width={60} height={60} loading="lazy" />
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Section premium — styles verrouillés, aperçu 4 avatars par style */}
+            <p className="profile__avatar-section-title profile__avatar-section-title--premium">
+              <Crown size={14} aria-hidden="true" />
+              {t('avatarPremium')}
+            </p>
+            <p className="profile__avatar-premium-hint">{t('avatarPremiumHint')}</p>
+
+            {PREMIUM_STYLES.map(({ style, label, seeds }) => (
+              <div key={style} className="profile__avatar-premium-group">
+                <p className="profile__avatar-style-label">{label}</p>
+                <div className="profile__avatar-row">
+                  {/* 4 avatars en aperçu par style (sur 8 disponibles) */}
+                  {seeds.slice(0, 4).map((seed) => (
+                    <button
+                      key={seed}
+                      type="button"
+                      className="profile__avatar-option profile__avatar-option--locked"
+                      aria-label={`${seed} — ${t('avatarPremiumRequired')}`}
+                      aria-disabled="true"
+                      onClick={() => {/* verrouillé — débloqué avec un abonnement Premium (MVP 4) */}}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={buildAvatarUrl(seed, style)} alt="" width={60} height={60} loading="lazy" />
+                      <span className="profile__avatar-lock-icon" aria-hidden="true">
+                        <Lock size={16} />
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
             ))}
+
           </div>
         )}
 

@@ -143,9 +143,10 @@
   }
 
   // Galerie inline d'avatars — s'ouvre sous la carte identité
+  // Sections verticales : Gratuit + Premium (verrouillé)
   &__avatar-gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: v.$spacing-sm;
     background: v.$white;
     border-radius: v.$radius-lg;
@@ -154,7 +155,56 @@
     animation: profile-fade-in 200ms ease both;
   }
 
+  // Titre de section dans la galerie (Gratuit / Premium)
+  &__avatar-section-title {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$text-muted;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: v.$spacing-xs;
+
+    // Section premium — couleur accentuée
+    &--premium {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: v.$primary;
+      margin-top: v.$spacing-md;
+    }
+  }
+
+  // Texte d'aide premium — incite à s'abonner
+  &__avatar-premium-hint {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+    margin-bottom: v.$spacing-xs;
+  }
+
+  // Groupe par style premium (label + rangée)
+  &__avatar-premium-group {
+    @include m.flex-column;
+    gap: v.$spacing-xs;
+    margin-top: v.$spacing-xs;
+  }
+
+  // Nom du style premium (ex: "🤖 Robots")
+  &__avatar-style-label {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$foreground;
+  }
+
+  // Rangée d'avatars — grille 4 colonnes mobile
+  &__avatar-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: v.$spacing-xs;
+  }
+
   &__avatar-option {
+    position: relative; // nécessaire pour __avatar-lock-icon en position absolute
     border-radius: v.$radius-md;
     padding: v.$spacing-xs;
     transition:
@@ -180,7 +230,30 @@
       outline-offset: 2px;
     }
 
+    // Avatar premium verrouillé — superposition cadenas, non interactif
+    &--locked {
+      position: relative;
+      cursor: not-allowed;
+      opacity: 0.7;
+
+      &:hover {
+        background: transparent;
+        transform: none;
+      }
+    }
+
     @include m.focus-ring;
+  }
+
+  // Icône cadenas superposée sur un avatar premium verrouillé
+  &__avatar-lock-icon {
+    position: absolute;
+    inset: 0;
+    @include m.flex-center;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: v.$radius-md;
+    color: v.$white;
+    pointer-events: none;
   }
 
   &__pseudo {
@@ -586,7 +659,10 @@
     &__avatar-gallery {
       order: 4;
       grid-column: 1 / -1;
-      // 8 avatars sur une ligne au lieu de 4 — exploite toute la largeur
+    }
+
+    // Sur desktop, les rangées d'avatars passent à 8 colonnes (exploite la largeur)
+    &__avatar-row {
       grid-template-columns: repeat(8, 1fr);
     }
 

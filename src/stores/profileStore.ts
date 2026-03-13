@@ -17,7 +17,7 @@ interface ProfileState {
   dailyGoal: number | null;      // objectif journalier (bonnes réponses), null = désactivé
   createProfile: (data: Omit<Profile, 'createdAt'>) => void;
   setLocale: (locale: Locale) => void;
-  updateAvatar: (avatarId: string) => void;
+  updateAvatar: (avatarId: string, avatarStyle?: string) => void;
   setTimerEnabled: (enabled: boolean) => void;
   setSoundEnabled: (enabled: boolean) => void;
   setAdminPin: (pin: string) => void;
@@ -56,9 +56,11 @@ export const useProfileStore = create<ProfileState>()(
           profile: state.profile ? { ...state.profile, locale } : null,
         })),
 
-      updateAvatar: (avatarId) =>
+      updateAvatar: (avatarId, avatarStyle) =>
         set((state) => ({
-          profile: state.profile ? { ...state.profile, avatarId } : null,
+          profile: state.profile
+            ? { ...state.profile, avatarId, ...(avatarStyle !== undefined ? { avatarStyle } : {}) }
+            : null,
         })),
 
       setTimerEnabled: (enabled) => set({ timerEnabled: enabled }),
