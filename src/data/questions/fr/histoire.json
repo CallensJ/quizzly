@@ -3,904 +3,6004 @@
   "lang": "fr",
   "questions": [
     {
-      "id": "hist-fr-001",
-      "difficulty": "hard",
-      "question": "Qui était le chef de l'Allemagne nazie pendant la Seconde Guerre mondiale ?",
+      "id": "hist-fr-0001",
+      "difficulty": "easy",
+      "question": "Quel animal de la Préhistoire ressemblait à un éléphant avec de longs poils et de grandes défenses ?",
       "options": {
-        "A": "Mussolini",
-        "B": "Franco",
-        "C": "Hitler",
-        "D": "Staline"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-002",
-      "difficulty": "medium",
-      "question": "Quel pharaon est associé à la grande pyramide de Gizeh ?",
-      "options": {
-        "A": "Ramsès II",
-        "B": "Khéops",
-        "C": "Akhenaton",
-        "D": "Toutankhamon"
+        "A": "Le Tigre à dents de sabre",
+        "B": "Le Mammouth",
+        "C": "Le Dinosaure",
+        "D": "Le Bison"
       },
       "answer": "B"
     },
     {
-      "id": "hist-fr-003",
+      "id": "hist-fr-0002",
       "difficulty": "easy",
-      "question": "Qui était le premier président des États-Unis ?",
+      "question": "Quelle découverte majeure a permis aux hommes préhistoriques de s'éclairer et de cuire la nourriture ?",
       "options": {
-        "A": "Abraham Lincoln",
-        "B": "Thomas Jefferson",
-        "C": "George Washington",
-        "D": "Benjamin Franklin"
+        "A": "L'électricité",
+        "B": "La roue",
+        "C": "Le feu",
+        "D": "Le fer"
       },
       "answer": "C"
     },
     {
-      "id": "hist-fr-004",
+      "id": "hist-fr-0003",
       "difficulty": "medium",
-      "question": "Quel empire était dirigé par Jules César ?",
+      "question": "Dans quelle grotte célèbre de France trouve-t-on de nombreuses peintures d'animaux préhistoriques ?",
       "options": {
-        "A": "L'Empire grec",
-        "B": "L'Empire romain",
-        "C": "L'Empire perse",
-        "D": "L'Empire égyptien"
+        "A": "La grotte de Lascaux",
+        "B": "La grotte du Dragon",
+        "C": "La grotte de Versailles",
+        "D": "La grotte de Nice"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0004",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on les hommes qui se déplacent sans cesse pour suivre le gibier ?",
+      "options": {
+        "A": "Les sédentaires",
+        "B": "Les explorateurs",
+        "C": "Les nomades",
+        "D": "Les agriculteurs"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0005",
+      "difficulty": "easy",
+      "question": "Quel outil en pierre taillée était très utilisé par les hommes préhistoriques pour chasser ?",
+      "options": {
+        "A": "Le couteau en inox",
+        "B": "Le biface",
+        "C": "L'épée en bronze",
+        "D": "Le pistolet"
       },
       "answer": "B"
     },
     {
-      "id": "hist-fr-008",
-      "difficulty": "easy",
-      "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
-      "options": {
-        "A": "Traité de Paris",
-        "B": "Traité d'Utrecht",
-        "C": "Traité de Versailles",
-        "D": "Traité de Westphalie"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-010",
-      "difficulty": "hard",
-      "question": "Qui était le leader de l'Union soviétique pendant la crise des missiles de Cuba ?",
-      "options": {
-        "A": "Staline",
-        "B": "Brejnev",
-        "C": "Gorbatchev",
-        "D": "Khrouchtchev"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-013",
-      "difficulty": "hard",
-      "question": "Qui a découvert l'Amérique en 1492 ?",
-      "options": {
-        "A": "Amerigo Vespucci",
-        "B": "Vasco de Gama",
-        "C": "Magellan",
-        "D": "Christophe Colomb"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-018",
+      "id": "hist-fr-0006",
       "difficulty": "medium",
-      "question": "Qui était le premier empereur de Rome ?",
+      "question": "Comment s'appelaient les habitants de la France à l'époque des Romains ?",
       "options": {
-        "A": "Jules César",
-        "B": "Néron",
-        "C": "Auguste",
-        "D": "Tibère"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-020",
-      "difficulty": "easy",
-      "question": "Quel mur est tombé en 1989 ?",
-      "options": {
-        "A": "La Grande Muraille",
-        "B": "Le mur de Berlin",
-        "C": "Le mur d'Hadrien",
-        "D": "Le mur de Chine"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-fr-037",
-      "difficulty": "medium",
-      "question": "En quelle année la Révolution française a-t-elle commencé ?",
-      "options": {
-        "A": "1776",
-        "B": "1783",
-        "C": "1789",
-        "D": "1793"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-101",
-      "difficulty": "easy",
-      "question": "Quel monument célèbre se trouve en Égypte ?",
-      "options": {
-        "A": "Le Colisée",
-        "B": "Les pyramides",
-        "C": "Le Parthénon",
-        "D": "La Tour Eiffel"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-fr-102",
-      "difficulty": "easy",
-      "question": "Comment s'appelle l'écriture des anciens Égyptiens ?",
-      "options": {
-        "A": "Les runes",
-        "B": "Le cunéiforme",
-        "C": "L'alphabet",
-        "D": "Les hiéroglyphes"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-103",
-      "difficulty": "easy",
-      "question": "Quel peuple a construit le Colisée à Rome ?",
-      "options": {
-        "A": "Les Grecs",
-        "B": "Les Gaulois",
-        "C": "Les Romains",
+        "A": "Les Vikings",
+        "B": "Les Grecs",
+        "C": "Les Gaulois",
         "D": "Les Égyptiens"
       },
       "answer": "C"
     },
     {
-      "id": "hist-fr-104",
-      "difficulty": "easy",
-      "question": "Comment s'appellent les bateaux des Vikings ?",
+      "id": "hist-fr-0007",
+      "difficulty": "hard",
+      "question": "Quel grand chef gaulois a perdu la bataille d'Alésia contre Jules César ?",
       "options": {
-        "A": "Les galères",
-        "B": "Les caravelles",
-        "C": "Les jonques",
-        "D": "Les drakkars"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-105",
-      "difficulty": "easy",
-      "question": "Quel roi a fait construire le château de Versailles ?",
-      "options": {
-        "A": "Napoléon",
-        "B": "Louis XVI",
-        "C": "Louis XIV",
-        "D": "Henri IV"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-106",
-      "difficulty": "easy",
-      "question": "En quelle année a commencé la Première Guerre mondiale ?",
-      "options": {
-        "A": "1904",
-        "B": "1914",
-        "C": "1924",
-        "D": "1939"
+        "A": "Astérix",
+        "B": "Vercingétorix",
+        "C": "Clovis",
+        "D": "Charlemagne"
       },
       "answer": "B"
     },
     {
-      "id": "hist-fr-107",
+      "id": "hist-fr-0008",
       "difficulty": "easy",
-      "question": "Qui a marché sur la Lune en premier ?",
+      "question": "Dans quel pays se trouvent les grandes pyramides et le Sphinx ?",
       "options": {
-        "A": "Buzz Aldrin",
-        "B": "Yuri Gagarine",
-        "C": "John Glenn",
-        "D": "Neil Armstrong"
+        "A": "En Italie",
+        "B": "En Égypte",
+        "C": "En Grèce",
+        "D": "En Chine"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "id": "hist-fr-108",
-      "difficulty": "easy",
-      "question": "Quelle ville a été détruite par le volcan Vésuve en 79 après J.-C. ?",
+      "id": "hist-fr-0009",
+      "difficulty": "medium",
+      "question": "Quel était le nom de l'écriture utilisée par les Égyptiens de l'Antiquité ?",
       "options": {
-        "A": "Naples",
+        "A": "L'alphabet",
+        "B": "Le cunéiforme",
+        "C": "Les hiéroglyphes",
+        "D": "Le latin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0010",
+      "difficulty": "medium",
+      "question": "Quelle civilisation antique a inventé les Jeux Olympiques ?",
+      "options": {
+        "A": "Les Romains",
+        "B": "Les Grecs",
+        "C": "Les Égyptiens",
+        "D": "Les Perses"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0011",
+      "difficulty": "hard",
+      "question": "Quelle ville était le centre du plus grand empire de l'Antiquité en Europe ?",
+      "options": {
+        "A": "Athènes",
         "B": "Rome",
-        "C": "Pompéi",
-        "D": "Carthage"
+        "C": "Paris",
+        "D": "Londres"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0012",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le fleuve qui traverse l'Égypte ?",
+      "options": {
+        "A": "La Seine",
+        "B": "L'Amazone",
+        "C": "Le Nil",
+        "D": "Le Rhin"
       },
       "answer": "C"
     },
     {
-      "id": "hist-fr-109",
-      "difficulty": "easy",
-      "question": "Quel animal Hannibal a-t-il utilisé pour traverser les Alpes ?",
+      "id": "hist-fr-0013",
+      "difficulty": "medium",
+      "question": "Qui était le dieu de la foudre et le roi des dieux chez les Grecs ?",
       "options": {
-        "A": "Des chevaux",
-        "B": "Des chameaux",
-        "C": "Des éléphants",
-        "D": "Des ânes"
+        "A": "Hercule",
+        "B": "Poséidon",
+        "C": "Zeus",
+        "D": "Hadès"
       },
       "answer": "C"
     },
     {
-      "id": "hist-fr-110",
-      "difficulty": "easy",
-      "question": "Qui était le roi des dieux dans la mythologie grecque ?",
+      "id": "hist-fr-0014",
+      "difficulty": "hard",
+      "question": "Quel monument romain servait aux combats de gladiateurs ?",
       "options": {
-        "A": "Poséidon",
-        "B": "Arès",
-        "C": "Apollon",
-        "D": "Zeus"
+        "A": "Le Parthénon",
+        "B": "Le Colisée",
+        "C": "La Pyramide de Khéops",
+        "D": "Le Pont du Gard"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "id": "hist-fr-111",
+      "id": "hist-fr-0015",
       "difficulty": "easy",
-      "question": "Quel explorateur a réalisé le premier tour du monde ?",
+      "question": "Quel vêtement typique portaient les citoyens romains ?",
       "options": {
-        "A": "Colomb",
-        "B": "Vasco de Gama",
-        "C": "Magellan",
-        "D": "Cartier"
+        "A": "Le pantalon",
+        "B": "La toge",
+        "C": "Le kilt",
+        "D": "Le jean"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
-      "id": "hist-fr-112",
-      "difficulty": "easy",
-      "question": "Qui était le roi des Francs couronné en l'an 800 ?",
+      "id": "hist-fr-0016",
+      "difficulty": "medium",
+      "question": "Quel roi des Francs est considéré comme le premier roi chrétien de France ?",
       "options": {
         "A": "Clovis",
-        "B": "Pépin",
-        "C": "Charlemagne",
-        "D": "Charles Martel"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-113",
-      "difficulty": "easy",
-      "question": "En quelle année la Seconde Guerre mondiale a-t-elle pris fin ?",
-      "options": {
-        "A": "1943",
-        "B": "1944",
-        "C": "1946",
-        "D": "1945"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-114",
-      "difficulty": "easy",
-      "question": "Quel pays a construit la Grande Muraille ?",
-      "options": {
-        "A": "Le Japon",
-        "B": "La Mongolie",
-        "C": "La Chine",
-        "D": "L'Inde"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-115",
-      "difficulty": "easy",
-      "question": "Qui était le chef des Gaulois contre Jules César ?",
-      "options": {
-        "A": "Astérix",
-        "B": "Ambiorix",
-        "C": "Brennus",
-        "D": "Vercingétorix"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-116",
-      "difficulty": "easy",
-      "question": "Quel roi de France était surnommé le Roi-Soleil ?",
-      "options": {
-        "A": "Louis XIII",
-        "B": "Henri IV",
-        "C": "François I",
+        "B": "Charlemagne",
+        "C": "Saint Louis",
         "D": "Louis XIV"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
-      "id": "hist-fr-117",
-      "difficulty": "easy",
-      "question": "Où les anciens Grecs organisaient-ils les premiers Jeux olympiques ?",
+      "id": "hist-fr-0017",
+      "difficulty": "medium",
+      "question": "En quelle année Charlemagne a-t-il été sacré empereur ?",
       "options": {
-        "A": "À Athènes",
-        "B": "À Sparte",
-        "C": "À Olympie",
-        "D": "À Corinthe"
+        "A": "1515",
+        "B": "800",
+        "C": "1789",
+        "D": "496"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0018",
+      "difficulty": "easy",
+      "question": "Comment s'appelle l'habitation fortifiée où vivait le seigneur au Moyen Âge ?",
+      "options": {
+        "A": "Une villa",
+        "B": "Un gratte-ciel",
+        "C": "Un château fort",
+        "D": "Une yourte"
       },
       "answer": "C"
     },
     {
-      "id": "hist-fr-118",
-      "difficulty": "easy",
-      "question": "Qui était le premier homme à voyager dans l'espace ?",
+      "id": "hist-fr-0019",
+      "difficulty": "medium",
+      "question": "Quelle cérémonie permettait à un homme de devenir chevalier ?",
       "options": {
-        "A": "Neil Armstrong",
-        "B": "Buzz Aldrin",
-        "C": "Yuri Gagarine",
-        "D": "John Glenn"
+        "A": "Le baptême",
+        "B": "L'adoubement",
+        "C": "Le couronnement",
+        "D": "Le mariage"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
-      "id": "hist-fr-119",
-      "difficulty": "easy",
-      "question": "Quel peuple vivait en Mésopotamie et a inventé l'écriture ?",
+      "id": "hist-fr-0020",
+      "difficulty": "hard",
+      "question": "Quelle est la période de l'histoire qui se situe entre l'Antiquité et les Temps Modernes ?",
       "options": {
-        "A": "Les Égyptiens",
-        "B": "Les Perses",
-        "C": "Les Babyloniens",
-        "D": "Les Sumériens"
+        "A": "La Préhistoire",
+        "B": "Le Moyen Âge",
+        "C": "La Renaissance",
+        "D": "L'Époque Contemporaine"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "id": "hist-fr-120",
+      "id": "hist-fr-0021",
       "difficulty": "easy",
-      "question": "Qui a inventé l'imprimerie en Europe au 15e siècle ?",
+      "question": "Quelle protection métallique les chevaliers portaient-ils pour aller au combat ?",
+      "options": {
+        "A": "Un manteau",
+        "B": "Une armure",
+        "C": "Un pull",
+        "D": "Une toge"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0022",
+      "difficulty": "medium",
+      "question": "Qui était Jeanne d'Arc ?",
+      "options": {
+        "A": "Une reine de France",
+        "B": "Une jeune paysanne qui a aidé à libérer la France",
+        "C": "Une exploratrice",
+        "D": "Une inventrice"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0023",
+      "difficulty": "hard",
+      "question": "Comment s'appelle le système où les paysans travaillent pour un seigneur en échange de protection ?",
+      "options": {
+        "A": "La démocratie",
+        "B": "La féodalité",
+        "C": "La république",
+        "D": "Le commerce"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0024",
+      "difficulty": "medium",
+      "question": "Quel peuple de guerriers venus du Nord voyageait sur des drakkars ?",
+      "options": {
+        "A": "Les Romains",
+        "B": "Les Vikings",
+        "C": "Les Mongols",
+        "D": "Les Incas"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0025",
+      "difficulty": "easy",
+      "question": "Quelle grande église se trouve au centre de Paris et a subi un incendie en 2019 ?",
+      "options": {
+        "A": "La Tour Eiffel",
+        "B": "Notre-Dame de Paris",
+        "C": "Le Sacré-Cœur",
+        "D": "Le Louvre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0026",
+      "difficulty": "medium",
+      "question": "Quel explorateur est célèbre pour avoir découvert l'Amérique en 1492 ?",
+      "options": {
+        "A": "Marco Polo",
+        "B": "Christophe Colomb",
+        "C": "Jacques Cartier",
+        "D": "Neil Armstrong"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0027",
+      "difficulty": "hard",
+      "question": "Qui a inventé l'imprimerie vers 1450 ?",
       "options": {
         "A": "Léonard de Vinci",
         "B": "Gutenberg",
-        "C": "Copernic",
-        "D": "Galilée"
+        "C": "Galilée",
+        "D": "Newton"
       },
       "answer": "B"
     },
     {
-      "id": "hist-fr-121",
-      "difficulty": "easy",
-      "question": "Quel peuple a inventé la démocratie dans l'Antiquité ?",
+      "id": "hist-fr-0028",
+      "difficulty": "medium",
+      "question": "Quel artiste a peint la célèbre 'Joconde' ?",
       "options": {
-        "A": "Les Romains",
-        "B": "Les Perses",
-        "C": "Les Grecs",
-        "D": "Les Égyptiens"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-122",
-      "difficulty": "easy",
-      "question": "Comment s'appelait la guerrière française qui a aidé à libérer Orléans ?",
-      "options": {
-        "A": "Marie-Antoinette",
-        "B": "Jeanne d'Arc",
-        "C": "Aliénor d'Aquitaine",
-        "D": "Isabelle de France"
+        "A": "Pablo Picasso",
+        "B": "Léonard de Vinci",
+        "C": "Claude Monet",
+        "D": "Vincent van Gogh"
       },
       "answer": "B"
     },
     {
-      "id": "hist-fr-201",
-      "difficulty": "medium",
-      "question": "Quelle civilisation a construit Machu Picchu ?",
-      "options": {
-        "A": "Les Aztèques",
-        "B": "Les Mayas",
-        "C": "Les Incas",
-        "D": "Les Olmèques"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-202",
-      "difficulty": "medium",
-      "question": "En quelle année l'Empire ottoman a-t-il conquis Constantinople ?",
-      "options": {
-        "A": "1389",
-        "B": "1415",
-        "C": "1453",
-        "D": "1492"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-203",
-      "difficulty": "medium",
-      "question": "Qui a fondé l'Empire mongol au 13e siècle ?",
-      "options": {
-        "A": "Tamerlan",
-        "B": "Kubilai Khan",
-        "C": "Attila",
-        "D": "Gengis Khan"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-204",
-      "difficulty": "medium",
-      "question": "Quel document Magna Carta a-t-il été signé en 1215 ?",
+      "id": "hist-fr-0029",
+      "difficulty": "easy",
+      "question": "Dans quel pays la Renaissance a-t-elle commencé ?",
       "options": {
         "A": "En France",
         "B": "En Italie",
-        "C": "En Angleterre",
-        "D": "En Espagne"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-205",
-      "difficulty": "medium",
-      "question": "Qui était le premier dirigeant de l'URSS ?",
-      "options": {
-        "A": "Trotski",
-        "B": "Staline",
-        "C": "Khrouchtchev",
-        "D": "Lénine"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-206",
-      "difficulty": "medium",
-      "question": "Quel conquistador a conquis l'Empire aztèque ?",
-      "options": {
-        "A": "Francisco Pizarro",
-        "B": "Hernán Cortés",
-        "C": "Vasco de Gama",
-        "D": "Amerigo Vespucci"
+        "C": "En Espagne",
+        "D": "En Allemagne"
       },
       "answer": "B"
     },
     {
-      "id": "hist-fr-207",
+      "id": "hist-fr-0030",
       "difficulty": "medium",
-      "question": "Quelle civilisation antique a inventé la démocratie représentative ?",
+      "question": "Quel roi français a fait construire le magnifique château de Versailles ?",
       "options": {
-        "A": "Rome",
-        "B": "Athènes",
-        "C": "Carthage",
-        "D": "Babylone"
+        "A": "François Ier",
+        "B": "Louis XIV",
+        "C": "Henri IV",
+        "D": "Napoléon"
       },
       "answer": "B"
     },
     {
-      "id": "hist-fr-208",
-      "difficulty": "medium",
-      "question": "Quel roi d'Angleterre a fondé l'Église anglicane ?",
+      "id": "hist-fr-0031",
+      "difficulty": "hard",
+      "question": "Comment surnommait-on le roi Louis XIV ?",
       "options": {
-        "A": "Richard I",
-        "B": "Edward VI",
-        "C": "Henri VIII",
-        "D": "James I"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-209",
-      "difficulty": "medium",
-      "question": "Quel empire a été renversé par Alexandre le Grand ?",
-      "options": {
-        "A": "L'Empire romain",
-        "B": "L'Empire babylonien",
-        "C": "L'Empire égyptien",
-        "D": "L'Empire perse"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-210",
-      "difficulty": "medium",
-      "question": "En quelle année Napoléon est-il devenu emperor de France ?",
-      "options": {
-        "A": "1799",
-        "B": "1801",
-        "C": "1804",
-        "D": "1807"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-211",
-      "difficulty": "medium",
-      "question": "Quelle alliance militaire a été créée par les pays occidentaux en 1949 ?",
-      "options": {
-        "A": "L'ONU",
-        "B": "Le Pacte de Varsovie",
-        "C": "L'URSS",
-        "D": "L'OTAN"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-212",
-      "difficulty": "medium",
-      "question": "Quel navigateur portugais a découvert la route maritime vers l'Inde ?",
-      "options": {
-        "A": "Bartolomeu Dias",
-        "B": "Christophe Colomb",
-        "C": "Vasco de Gama",
-        "D": "Pedro Álvares Cabral"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-213",
-      "difficulty": "medium",
-      "question": "Quelle ville antique était la grande rivale de Rome en Méditerranée ?",
-      "options": {
-        "A": "Athènes",
-        "B": "Alexandrie",
-        "C": "Carthage",
-        "D": "Corinthe"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-214",
-      "difficulty": "medium",
-      "question": "En quelle année la Seconde Guerre mondiale a-t-elle commencé ?",
-      "options": {
-        "A": "1937",
-        "B": "1938",
-        "C": "1940",
-        "D": "1939"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-215",
-      "difficulty": "medium",
-      "question": "Quel événement a déclenché la Première Guerre mondiale ?",
-      "options": {
-        "A": "L'invasion de la Pologne",
-        "B": "La révolution russe",
-        "C": "L'assassinat de l'archiduc François-Ferdinand",
-        "D": "L'annexion de l'Alsace"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-216",
-      "difficulty": "medium",
-      "question": "Quel pharaon est connu pour avoir imposé le culte d'un seul dieu en Égypte ?",
-      "options": {
-        "A": "Ramsès II",
-        "B": "Akhenaton",
-        "C": "Toutankhamon",
-        "D": "Thoutmosis"
+        "A": "Le Roi-Lune",
+        "B": "Le Roi-Soleil",
+        "C": "Le Roi-Lion",
+        "D": "Le Roi-Guerrier"
       },
       "answer": "B"
     },
     {
-      "id": "hist-fr-217",
+      "id": "hist-fr-0032",
       "difficulty": "medium",
-      "question": "Quelle révolution a renversé le tsar Nicolas II de Russie ?",
+      "question": "Quel roi a ramené Léonard de Vinci en France et construit les châteaux de la Loire ?",
       "options": {
-        "A": "La Révolution américaine",
-        "B": "La Révolution française",
-        "C": "La Révolution russe",
-        "D": "La Révolution industrielle"
+        "A": "Charlemagne",
+        "B": "François Ier",
+        "C": "Louis XVI",
+        "D": "Philippe le Bel"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
-      "id": "hist-fr-218",
-      "difficulty": "medium",
-      "question": "Combien d'années a duré la Guerre de Cent Ans entre la France et l'Angleterre ?",
+      "id": "hist-fr-0033",
+      "difficulty": "easy",
+      "question": "Quel instrument a permis aux marins de mieux se repérer en mer ?",
       "options": {
-        "A": "Environ 50 ans",
-        "B": "Environ 75 ans",
-        "C": "Environ 100 ans",
-        "D": "Environ 116 ans"
+        "A": "Le télescope",
+        "B": "La boussole",
+        "C": "Le microscope",
+        "D": "Le thermomètre"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "id": "hist-fr-219",
-      "difficulty": "medium",
-      "question": "Quel traité a mis fin aux guerres napoléoniennes en 1815 ?",
+      "id": "hist-fr-0034",
+      "difficulty": "hard",
+      "question": "Qui a été le premier homme à faire le tour du monde (même s'il est mort en route) ?",
       "options": {
-        "A": "Le Traité de Westphalie",
-        "B": "Le Congrès de Vienne",
-        "C": "Le Traité d'Utrecht",
+        "A": "Vasco de Gama",
+        "B": "Magellan",
+        "C": "Amerigo Vespucci",
+        "D": "Marco Polo"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0035",
+      "difficulty": "medium",
+      "question": "Quel roi de France a signé l'Édit de Nantes pour arrêter les guerres de religion ?",
+      "options": {
+        "A": "Louis XIII",
+        "B": "Henri IV",
+        "C": "Charles IX",
+        "D": "Louis XV"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0036",
+      "difficulty": "medium",
+      "question": "Quelle est la date précise de la prise de la Bastille en France ?",
+      "options": {
+        "A": "4 juillet 1776",
+        "B": "14 juillet 1789",
+        "C": "11 novembre 1918",
+        "D": "8 mai 1945"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0037",
+      "difficulty": "easy",
+      "question": "Quel objet était utilisé pendant la Révolution française pour couper la tête des condamnés ?",
+      "options": {
+        "A": "Une épée",
+        "B": "La guillotine",
+        "C": "Une hache",
+        "D": "Une corde"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0038",
+      "difficulty": "medium",
+      "question": "Qui s'est sacré Empereur des Français en 1804 ?",
+      "options": {
+        "A": "Louis-Philippe",
+        "B": "Napoléon Bonaparte",
+        "C": "Charles de Gaulle",
+        "D": "Robespierre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0039",
+      "difficulty": "hard",
+      "question": "Quel document célèbre a été écrit en 1789 pour dire que tous les hommes sont libres et égaux ?",
+      "options": {
+        "A": "Le Code Civil",
+        "B": "La Déclaration des droits de l'homme et du citoyen",
+        "C": "La Constitution de l'Europe",
+        "D": "La Bible"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0040",
+      "difficulty": "easy",
+      "question": "Quelles sont les trois couleurs du drapeau français ?",
+      "options": {
+        "A": "Rouge, Blanc, Vert",
+        "B": "Bleu, Blanc, Rouge",
+        "C": "Jaune, Noir, Rouge",
+        "D": "Bleu, Jaune, Rouge"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0041",
+      "difficulty": "medium",
+      "question": "Comment s'appelle l'hymne national de la France ?",
+      "options": {
+        "A": "L'Ode à la joie",
+        "B": "La Marseillaise",
+        "C": "Le Chant des partisans",
+        "D": "La Parisienne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0042",
+      "difficulty": "hard",
+      "question": "Qui était le roi de France au début de la Révolution en 1789 ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Louis XVI",
+        "C": "Louis XVIII",
+        "D": "Philippe Égalité"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0043",
+      "difficulty": "medium",
+      "question": "Quelle invention a permis de faire rouler les premiers trains ?",
+      "options": {
+        "A": "Le moteur à essence",
+        "B": "La machine à vapeur",
+        "C": "La pile électrique",
+        "D": "L'ordinateur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0044",
+      "difficulty": "easy",
+      "question": "Quel savant français a inventé le vaccin contre la rage ?",
+      "options": {
+        "A": "Marie Curie",
+        "B": "Louis Pasteur",
+        "C": "Albert Einstein",
+        "D": "Isaac Newton"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0045",
+      "difficulty": "hard",
+      "question": "Comment appelle-t-on la période du 19ème siècle où l'on a construit beaucoup d'usines ?",
+      "options": {
+        "A": "La Révolution Verte",
+        "B": "La Révolution Industrielle",
+        "C": "La Renaissance",
+        "D": "Le Siècle des Lumières"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0046",
+      "difficulty": "medium",
+      "question": "Pendant quelle guerre a-t-on utilisé les taxis de la Marne ?",
+      "options": {
+        "A": "La Guerre de 1870",
+        "B": "La Première Guerre mondiale (1914-1918)",
+        "C": "La Seconde Guerre mondiale (1939-1945)",
+        "D": "La Guerre du Golfe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0047",
+      "difficulty": "easy",
+      "question": "Comment appelait-on les soldats français pendant la Première Guerre mondiale ?",
+      "options": {
+        "A": "Les GIs",
+        "B": "Les Poilus",
+        "C": "Les Chevaliers",
+        "D": "Les Résistants"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0048",
+      "difficulty": "medium",
+      "question": "Qui a lancé l'Appel du 18 juin 1940 à la radio ?",
+      "options": {
+        "A": "Napoléon",
+        "B": "Le Général de Gaulle",
+        "C": "Winston Churchill",
+        "D": "Franklin Roosevelt"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0049",
+      "difficulty": "hard",
+      "question": "Quel événement a eu lieu le 6 juin 1944 en Normandie ?",
+      "options": {
+        "A": "La fin de la guerre",
+        "B": "Le Débarquement allié",
+        "C": "La signature d'un traité de paix",
+        "D": "Une éclipse de soleil"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0050",
+      "difficulty": "easy",
+      "question": "Dans quelle ville se trouve le siège de l'Union Européenne ?",
+      "options": {
+        "A": "Madrid",
+        "B": "Bruxelles",
+        "C": "Berlin",
+        "D": "Rome"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0051",
+      "difficulty": "medium",
+      "question": "Quel marchand vénitien a voyagé jusqu'en Chine au Moyen Âge et a écrit 'Le Livre des Merveilles' ?",
+      "options": {
+        "A": "Vasco de Gama",
+        "B": "Marco Polo",
+        "C": "Christophe Colomb",
+        "D": "Hernán Cortés"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0052",
+      "difficulty": "hard",
+      "question": "Quelle grande muraille a été construite pour protéger un empire des invasions des nomades du Nord ?",
+      "options": {
+        "A": "Le mur d'Hadrien",
+        "B": "La Grande Muraille de Chine",
+        "C": "Le mur de Berlin",
+        "D": "L'Atlantide"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0053",
+      "difficulty": "easy",
+      "question": "Sur quel continent vivaient les Mayas et les Aztèques ?",
+      "options": {
+        "A": "L'Afrique",
+        "B": "L'Amérique",
+        "C": "L'Asie",
+        "D": "L'Océanie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0054",
+      "difficulty": "medium",
+      "question": "Quel était le nom des guerriers d'élite dans le Japon ancien ?",
+      "options": {
+        "A": "Les Gladiateurs",
+        "B": "Les Samouraïs",
+        "C": "Les Chevaliers",
+        "D": "Les Vikings"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0055",
+      "difficulty": "hard",
+      "question": "Quelle civilisation a construit la cité perdue de Machu Picchu dans les montagnes du Pérou ?",
+      "options": {
+        "A": "Les Aztèques",
+        "B": "Les Incas",
+        "C": "Les Mayas",
+        "D": "Les Romains"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0056",
+      "difficulty": "easy",
+      "question": "Quelle invention chinoise permet de faire exploser des feux d'artifice ?",
+      "options": {
+        "A": "Le papier",
+        "B": "La poudre à canon",
+        "C": "La boussole",
+        "D": "La soie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0057",
+      "difficulty": "medium",
+      "question": "Quel scientifique a découvert la loi de la gravité en voyant (selon la légende) une pomme tomber ?",
+      "options": {
+        "A": "Albert Einstein",
+        "B": "Isaac Newton",
+        "C": "Galilée",
+        "D": "Charles Darwin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0058",
+      "difficulty": "hard",
+      "question": "Quelle femme scientifique a reçu deux prix Nobel pour ses travaux sur la radioactivité ?",
+      "options": {
+        "A": "Simone Veil",
+        "B": "Marie Curie",
+        "C": "George Sand",
+        "D": "Jeanne d'Arc"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0059",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le premier homme à avoir marché sur la Lune en 1969 ?",
+      "options": {
+        "A": "Thomas Pesquet",
+        "B": "Neil Armstrong",
+        "C": "Yuri Gagarine",
+        "D": "Buzz l'Éclair"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0060",
+      "difficulty": "medium",
+      "question": "Qui a inventé le premier téléphone ?",
+      "options": {
+        "A": "Thomas Edison",
+        "B": "Alexander Graham Bell",
+        "C": "Steve Jobs",
+        "D": "Benjamin Franklin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0061",
+      "difficulty": "hard",
+      "question": "Quel astronome a été condamné pour avoir affirmé que la Terre tournait autour du Soleil ?",
+      "options": {
+        "A": "Copernic",
+        "B": "Galilée",
+        "C": "Léonard de Vinci",
+        "D": "Aristote"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0062",
+      "difficulty": "easy",
+      "question": "Quel moyen de transport a remplacé les chevaux pour les longs voyages au 19ème siècle ?",
+      "options": {
+        "A": "L'avion",
+        "B": "Le train à vapeur",
+        "C": "Le vélo",
+        "D": "La trottinette"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0063",
+      "difficulty": "medium",
+      "question": "Quelle reine d'Angleterre a régné pendant 63 ans au 19ème siècle (époque de l'empire britannique) ?",
+      "options": {
+        "A": "Elizabeth II",
+        "B": "La reine Victoria",
+        "C": "Marie Stuart",
+        "D": "Anne d'Autriche"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0064",
+      "difficulty": "hard",
+      "question": "Comment s'appelle le célèbre texte de 1215 qui a limité le pouvoir du roi en Angleterre ?",
+      "options": {
+        "A": "La Constitution",
+        "B": "La Magna Carta",
+        "C": "Le Code Civil",
         "D": "Le Traité de Versailles"
       },
       "answer": "B"
     },
     {
-      "id": "hist-fr-220",
+      "id": "hist-fr-0065",
+      "difficulty": "easy",
+      "question": "Qui était le président des États-Unis pendant la guerre de Sécession et a aboli l'esclavage ?",
+      "options": {
+        "A": "George Washington",
+        "B": "Abraham Lincoln",
+        "C": "John F. Kennedy",
+        "D": "Barack Obama"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0066",
       "difficulty": "medium",
-      "question": "Quel conquistador a conquis l'Empire inca ?",
+      "question": "Quelle femme noire américaine est devenue un symbole de la lutte contre le racisme en refusant de céder sa place dans un bus ?",
       "options": {
-        "A": "Hernán Cortés",
-        "B": "Vasco de Gama",
-        "C": "Francisco Pizarro",
-        "D": "Juan Ponce de León"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-221",
-      "difficulty": "medium",
-      "question": "Quel peuple a fondé Carthage en Afrique du Nord ?",
-      "options": {
-        "A": "Les Grecs",
-        "B": "Les Phéniciens",
-        "C": "Les Romains",
-        "D": "Les Berbères"
+        "A": "Michelle Obama",
+        "B": "Rosa Parks",
+        "C": "Aretha Franklin",
+        "D": "Beyoncé"
       },
       "answer": "B"
     },
     {
-      "id": "hist-fr-301",
+      "id": "hist-fr-0067",
       "difficulty": "hard",
-      "question": "Qui a écrit La Guerre des Gaules, récit de ses conquêtes militaires ?",
+      "question": "Quel grand chef indien a dirigé les Sioux lors de la bataille de Little Bighorn ?",
       "options": {
-        "A": "Cicéron",
-        "B": "Tacite",
-        "C": "Virgile",
-        "D": "Jules César"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-302",
-      "difficulty": "hard",
-      "question": "Quel traité a mis fin à la Guerre de Trente Ans en 1648 ?",
-      "options": {
-        "A": "Traité d'Utrecht",
-        "B": "Traité de Paris",
-        "C": "Traité de Westphalie",
-        "D": "Traité de Vienne"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-303",
-      "difficulty": "hard",
-      "question": "Quelle bataille en 732 a stoppé l'avancée des Maures en France ?",
-      "options": {
-        "A": "Bataille de Verdun",
-        "B": "Bataille de Poitiers",
-        "C": "Bataille d'Alésia",
-        "D": "Bataille de Marignan"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-fr-304",
-      "difficulty": "hard",
-      "question": "Quelle reine d'Égypte était alliée à Jules César puis à Marc Antoine ?",
-      "options": {
-        "A": "Néfertiti",
-        "B": "Hatchepsout",
-        "C": "Nefertari",
-        "D": "Cléopâtre"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-305",
-      "difficulty": "hard",
-      "question": "Quel philosophe grec était le maître d'Alexandre le Grand ?",
-      "options": {
-        "A": "Platon",
-        "B": "Socrate",
-        "C": "Aristote",
-        "D": "Pythagore"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-306",
-      "difficulty": "hard",
-      "question": "En quelle année Louis XVI a-t-il été guillotiné pendant la Révolution française ?",
-      "options": {
-        "A": "1791",
-        "B": "1792",
-        "C": "1793",
-        "D": "1795"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-307",
-      "difficulty": "hard",
-      "question": "Quel est le nom de la bataille où Napoléon a été définitivement vaincu en 1815 ?",
-      "options": {
-        "A": "Austerlitz",
-        "B": "Borodino",
-        "C": "Waterloo",
-        "D": "Leipzig"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-308",
-      "difficulty": "hard",
-      "question": "Quel emperor romain a adopté le christianisme comme religion officielle de l'Empire ?",
-      "options": {
-        "A": "Auguste",
-        "B": "Tibère",
-        "C": "Dioclétien",
-        "D": "Constantin"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-309",
-      "difficulty": "hard",
-      "question": "Quel empire africain était connu pour sa richesse et son roi Mansa Moussa au 14e siècle ?",
-      "options": {
-        "A": "L'Empire du Ghana",
-        "B": "L'Empire du Mali",
-        "C": "L'Empire Songhaï",
-        "D": "L'Empire du Zimbabwe"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "hist-fr-310",
-      "difficulty": "hard",
-      "question": "En quelle année la chute de l'Empire romain d'Occident est-elle datée ?",
-      "options": {
-        "A": "370 apr. J.-C.",
-        "B": "410 apr. J.-C.",
-        "C": "476 apr. J.-C.",
-        "D": "527 apr. J.-C."
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-311",
-      "difficulty": "hard",
-      "question": "Quel chef viking a fondé le duché de Normandie au 10e siècle ?",
-      "options": {
-        "A": "Ragnar Lothbrok",
-        "B": "Erik le Rouge",
-        "C": "Leif Erikson",
-        "D": "Rollon"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-312",
-      "difficulty": "hard",
-      "question": "Quel empire a été fondé par Cyrus le Grand au 6e siècle avant J.-C. ?",
-      "options": {
-        "A": "L'Empire babylonien",
-        "B": "L'Empire mède",
-        "C": "L'Empire perse",
-        "D": "L'Empire assyrien"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-313",
-      "difficulty": "hard",
-      "question": "Quel plan américain a aidé à reconstruire l'Europe après la Seconde Guerre mondiale ?",
-      "options": {
-        "A": "Le Plan Dawes",
-        "B": "Le Plan Schuman",
-        "C": "Le New Deal",
-        "D": "Le Plan Marshall"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-314",
-      "difficulty": "hard",
-      "question": "Qui a écrit L'Art de la guerre, traité militaire chinois ?",
-      "options": {
-        "A": "Confucius",
-        "B": "Lao Tseu",
-        "C": "Sun Tzu",
-        "D": "Mao Zedong"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-315",
-      "difficulty": "hard",
-      "question": "Quel pays a lancé le premier satellite artificiel Spoutnik en 1957 ?",
-      "options": {
-        "A": "Les États-Unis",
-        "B": "La France",
-        "C": "L'Allemagne",
-        "D": "L'URSS"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "hist-fr-316",
-      "difficulty": "hard",
-      "question": "Quel pharaon est souvent associé à l'Exode des Hébreux selon la Bible ?",
-      "options": {
-        "A": "Amenhotep III",
-        "B": "Akhenaton",
-        "C": "Ramsès II",
-        "D": "Thoutmosis III"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-fr-317",
-      "difficulty": "hard",
-      "question": "Quelle bataille oppose Athènes à Sparte de 431 à 404 avant J.-C. ?",
-      "options": {
-        "A": "La Guerre du Péloponnèse",
-        "B": "Les Guerres médiques",
-        "C": "La Guerre de Troie",
-        "D": "La Guerre de Corinthe"
+        "A": "Sitting Bull",
+        "B": "Geronimo",
+        "C": "Pocahontas",
+        "D": "Cochise"
       },
       "answer": "A"
     },
     {
-      "id": "hist-fr-318",
-      "difficulty": "hard",
-      "question": "Quel roi de France a été surnommé Saint Louis et est mort lors d'une croisade ?",
+      "id": "hist-fr-0068",
+      "difficulty": "easy",
+      "question": "Quelle structure métallique a été construite à Paris pour l'Exposition Universelle de 1889 ?",
       "options": {
-        "A": "Philippe II Auguste",
-        "B": "Louis IX",
-        "C": "Charles IV",
-        "D": "Philippe IV le Bel"
+        "A": "L'Arc de Triomphe",
+        "B": "La Tour Eiffel",
+        "C": "Le Centre Pompidou",
+        "D": "La Pyramide du Louvre"
       },
       "answer": "B"
     },
     {
-      "id": "hist-fr-319",
-      "difficulty": "hard",
-      "question": "Quel document de 1689 a établi la monarchie constitutionnelle en Angleterre ?",
+      "id": "hist-fr-0069",
+      "difficulty": "medium",
+      "question": "Quel pays a offert la Statue de la Liberté aux États-Unis ?",
       "options": {
-        "A": "La Magna Carta",
-        "B": "L'Acte d'Union",
-        "C": "Le Bill of Rights",
-        "D": "L'Habeas Corpus"
+        "A": "L'Angleterre",
+        "B": "La France",
+        "C": "L'Espagne",
+        "D": "L'Italie"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
-      "id": "hist-fr-320",
+      "id": "hist-fr-0070",
       "difficulty": "hard",
-      "question": "Quel général carthaginois a mis en déroute les Romains à la bataille de Cannes en 216 av. J.-C. ?",
+      "question": "Quel philosophe grec était le maître d'Alexandre le Grand ?",
       "options": {
-        "A": "Hasdrubal",
-        "B": "Hamilcar",
-        "C": "Scipion",
-        "D": "Hannibal"
+        "A": "Socrate",
+        "B": "Aristote",
+        "C": "Platon",
+        "D": "Homère"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "id": "hist-fr-321",
-      "difficulty": "hard",
-      "question": "Quel empire a régné sur l'Espagne et une partie de l'Europe pendant près de 800 ans ?",
+      "id": "hist-fr-0071",
+      "difficulty": "easy",
+      "question": "Comment s'appelle la période où les hommes ont commencé à cultiver la terre et élever des animaux ?",
       "options": {
-        "A": "L'Empire romain",
-        "B": "L'Empire byzantin",
-        "C": "L'Empire ottoman",
-        "D": "L'Empire maure (califat de Cordoue)"
+        "A": "Le Paléolithique",
+        "B": "Le Néolithique",
+        "C": "L'âge de fer",
+        "D": "L'Antiquité"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "id": "hist-fr-322",
-      "difficulty": "hard",
-      "question": "Qui était le dernier roi des Français avant la IIe République en 1848 ?",
+      "id": "hist-fr-0072",
+      "difficulty": "medium",
+      "question": "Quelle écriture ancienne utilisait des signes en forme de clous ou de coins ?",
       "options": {
-        "A": "Charles X",
-        "B": "Louis XVIII",
-        "C": "Louis-Philippe I",
-        "D": "Napoléon III"
+        "A": "L'écriture arabe",
+        "B": "L'écriture cunéiforme",
+        "C": "L'alphabet grec",
+        "D": "Les idéogrammes"
       },
-      "answer": "C"
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0073",
+      "difficulty": "hard",
+      "question": "Dans quelle ville actuelle se trouvait l'ancienne Mésopotamie ?",
+      "options": {
+        "A": "Le Caire",
+        "B": "Bagdad",
+        "C": "Rome",
+        "D": "Athènes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0074",
+      "difficulty": "easy",
+      "question": "Quel roi légendaire de la Table Ronde cherchait le Graal avec ses chevaliers ?",
+      "options": {
+        "A": "Le roi Louis",
+        "B": "Le roi Arthur",
+        "C": "Le roi Lion",
+        "D": "Le roi Dagobert"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0075",
+      "difficulty": "medium",
+      "question": "Comment s'appelle l'épée magique du roi Arthur ?",
+      "options": {
+        "A": "Durandal",
+        "B": "Excalibur",
+        "C": "Joyeuse",
+        "D": "Tizona"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0076",
+      "difficulty": "hard",
+      "question": "Quel moine a traduit la Bible en allemand et a lancé la Réforme protestante ?",
+      "options": {
+        "A": "Saint François",
+        "B": "Martin Luther",
+        "C": "Jean Calvin",
+        "D": "Le Pape"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0077",
+      "difficulty": "easy",
+      "question": "Quelle maladie terrible a tué un tiers de la population européenne au Moyen Âge ?",
+      "options": {
+        "A": "La grippe",
+        "B": "La peste noire",
+        "C": "Le rhume",
+        "D": "La rougeole"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0078",
+      "difficulty": "medium",
+      "question": "Qui était le chef de l'Empire mongol, le plus vaste empire terrestre de l'histoire ?",
+      "options": {
+        "A": "Attila",
+        "B": "Gengis Khan",
+        "C": "Saladin",
+        "D": "Alexandre le Grand"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0079",
+      "difficulty": "hard",
+      "question": "Quelle cité italienne était célèbre pour ses marchands et ses canaux au Moyen Âge ?",
+      "options": {
+        "A": "Rome",
+        "B": "Venise",
+        "C": "Florence",
+        "D": "Milan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0080",
+      "difficulty": "easy",
+      "question": "Quel explorateur a donné son nom au continent américain ?",
+      "options": {
+        "A": "Christophe Colomb",
+        "B": "Amerigo Vespucci",
+        "C": "Ferdinand Magellan",
+        "D": "Vasco de Gama"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0081",
+      "difficulty": "medium",
+      "question": "Quel peuple scandinave a découvert le Groenland et peut-être l'Amérique du Nord avant Colomb ?",
+      "options": {
+        "A": "Les Romains",
+        "B": "Les Vikings",
+        "C": "Les Saxons",
+        "D": "Les Celtes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0082",
+      "difficulty": "hard",
+      "question": "Quel pharaon égyptien est devenu célèbre car son tombeau a été retrouvé intact en 1922 ?",
+      "options": {
+        "A": "Ramsès II",
+        "B": "Toutânkhamon",
+        "C": "Akhenaton",
+        "D": "Khéops"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0083",
+      "difficulty": "easy",
+      "question": "Quelle reine d'Égypte était célèbre pour sa beauté et son alliance avec Jules César ?",
+      "options": {
+        "A": "Néfertiti",
+        "B": "Cléopâtre",
+        "C": "Hatchepsout",
+        "D": "Isis"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0084",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on le processus pour conserver les corps des morts en Égypte ancienne ?",
+      "options": {
+        "A": "La crémation",
+        "B": "La momification",
+        "C": "L'enterrement",
+        "D": "Le baptême"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0085",
+      "difficulty": "hard",
+      "question": "Quel roi de Macédoine a conquis un immense empire allant de la Grèce jusqu'à l'Inde ?",
+      "options": {
+        "A": "Jules César",
+        "B": "Alexandre le Grand",
+        "C": "Périclès",
+        "D": "Léonidas"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0086",
+      "difficulty": "easy",
+      "question": "Quel animal mythologique a un corps de lion et une tête d'homme en Égypte ?",
+      "options": {
+        "A": "La Licorne",
+        "B": "Le Sphinx",
+        "C": "Le Dragon",
+        "D": "Le Centaure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0087",
+      "difficulty": "medium",
+      "question": "Qui a peint le plafond de la chapelle Sixtine au Vatican ?",
+      "options": {
+        "A": "Léonard de Vinci",
+        "B": "Michel-Ange",
+        "C": "Raphaël",
+        "D": "Donatello"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0088",
+      "difficulty": "hard",
+      "question": "Quelle invention de James Watt a lancé la révolution industrielle ?",
+      "options": {
+        "A": "L'imprimerie",
+        "B": "La machine à vapeur",
+        "C": "L'ampoule",
+        "D": "Le téléphone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0089",
+      "difficulty": "easy",
+      "question": "Quel pays a vu naître la révolution industrielle ?",
+      "options": {
+        "A": "La France",
+        "B": "La Grande-Bretagne",
+        "C": "Les États-Unis",
+        "D": "L'Allemagne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0090",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le navire qui a coulé en 1912 après avoir heurté un iceberg ?",
+      "options": {
+        "A": "Le Santa Maria",
+        "B": "Le Titanic",
+        "C": "Le Mayflower",
+        "D": "Le Victory"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0091",
+      "difficulty": "hard",
+      "question": "En quelle année l'esclavage a-t-il été définitivement aboli en France ?",
+      "options": {
+        "A": "1789",
+        "B": "1848",
+        "C": "1914",
+        "D": "1804"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0092",
+      "difficulty": "easy",
+      "question": "Qui était 'l'Ami des enfants' et a rendu l'école gratuite, laïque et obligatoire en France ?",
+      "options": {
+        "A": "Victor Hugo",
+        "B": "Jules Ferry",
+        "C": "Jean Jaurès",
+        "D": "Napoléon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0093",
+      "difficulty": "medium",
+      "question": "Quel célèbre écrivain français a écrit 'Les Misérables' ?",
+      "options": {
+        "A": "Molière",
+        "B": "Victor Hugo",
+        "C": "Gustave Flaubert",
+        "D": "Émile Zola"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0094",
+      "difficulty": "hard",
+      "question": "Quelle bataille a marqué la fin définitive du règne de Napoléon Ier en 1815 ?",
+      "options": {
+        "A": "Austerlitz",
+        "B": "Waterloo",
+        "C": "Verdun",
+        "D": "Marignan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0095",
+      "difficulty": "easy",
+      "question": "Quelle fête nationale française célèbre la prise de la Bastille ?",
+      "options": {
+        "A": "Le 1er mai",
+        "B": "Le 14 juillet",
+        "C": "Le 11 novembre",
+        "D": "Le 15 août"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0096",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on le mouvement de pensée du 18ème siècle porté par Voltaire et Rousseau ?",
+      "options": {
+        "A": "La Renaissance",
+        "B": "Les Lumières",
+        "C": "Le Romantisme",
+        "D": "L'Humanisme"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0097",
+      "difficulty": "hard",
+      "question": "Qui a été le premier président de la République française en 1848 ?",
+      "options": {
+        "A": "Adolphe Thiers",
+        "B": "Louis-Napoléon Bonaparte",
+        "C": "Jules Grévy",
+        "D": "Raymond Poincaré"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0098",
+      "difficulty": "easy",
+      "question": "Quel mur séparait la ville de Berlin en deux pendant la Guerre Froide ?",
+      "options": {
+        "A": "Le mur de Chine",
+        "B": "Le mur de Berlin",
+        "C": "Le mur de l'Atlantique",
+        "D": "Le mur des Lamentations"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0099",
+      "difficulty": "medium",
+      "question": "En quelle année le mur de Berlin est-il tombé ?",
+      "options": {
+        "A": "1945",
+        "B": "1989",
+        "C": "2000",
+        "D": "1968"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0100",
+      "difficulty": "hard",
+      "question": "Qui était le chef du mouvement pour l'indépendance de l'Inde en utilisant la non-violence ?",
+      "options": {
+        "A": "Nelson Mandela",
+        "B": "Mahatma Gandhi",
+        "C": "Martin Luther King",
+        "D": "Dalaï-lama"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0101",
+      "difficulty": "medium",
+      "question": "Quelle reine d'Égypte a régné comme un pharaon et portait parfois une fausse barbe de cérémonie ?",
+      "options": {
+        "A": "Cléopâtre",
+        "B": "Hatchepsout",
+        "C": "Néfertiti",
+        "D": "Isis"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0102",
+      "difficulty": "hard",
+      "question": "Dans la mythologie grecque, qui a ouvert une boîte libérant tous les maux de l'humanité ?",
+      "options": {
+        "A": "Athéna",
+        "B": "Pandore",
+        "C": "Hélène",
+        "D": "Méduse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0103",
+      "difficulty": "easy",
+      "question": "Quel était le métier des scribes dans l'Égypte ancienne ?",
+      "options": {
+        "A": "Soldats",
+        "B": "Écrivains et comptables",
+        "C": "Boulangers",
+        "D": "Marins"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0104",
+      "difficulty": "medium",
+      "question": "Quel empereur romain a donné son nom au mois d'août ?",
+      "options": {
+        "A": "Jules César",
+        "B": "Auguste",
+        "C": "Néron",
+        "D": "Caligula"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0105",
+      "difficulty": "hard",
+      "question": "Quelle cité grecque était célèbre pour l'éducation très stricte et militaire de ses jeunes garçons ?",
+      "options": {
+        "A": "Athènes",
+        "B": "Sparte",
+        "C": "Corinthe",
+        "D": "Thèbes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0106",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le pont servant à transporter l'eau chez les Romains ?",
+      "options": {
+        "A": "Un viaduc",
+        "B": "Un aqueduc",
+        "C": "Un barrage",
+        "D": "Un tunnel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0107",
+      "difficulty": "medium",
+      "question": "Quel savant antique a crié 'Eurêka !' dans son bain après avoir fait une découverte ?",
+      "options": {
+        "A": "Pythagore",
+        "B": "Archimède",
+        "C": "Thalès",
+        "D": "Euclide"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0108",
+      "difficulty": "hard",
+      "question": "Comment s'appelait la route commerciale reliant la Chine à l'Europe dans l'Antiquité ?",
+      "options": {
+        "A": "La route du Sel",
+        "B": "La route de la Soie",
+        "C": "La route des Épices",
+        "D": "La route de l'Or"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0109",
+      "difficulty": "easy",
+      "question": "Quel animal mythique est le symbole de l'empereur en Chine ?",
+      "options": {
+        "A": "Le Lion",
+        "B": "Le Dragon",
+        "C": "Le Tigre",
+        "D": "Le Phénix"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0110",
+      "difficulty": "medium",
+      "question": "Qui était le dieu des morts à tête de chacal en Égypte ?",
+      "options": {
+        "A": "Osiris",
+        "B": "Anubis",
+        "C": "Horus",
+        "D": "Seth"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0111",
+      "difficulty": "hard",
+      "question": "Quel souverain a unifié l'Angleterre au 9ème siècle face aux invasions Vikings ?",
+      "options": {
+        "A": "Guillaume le Conquérant",
+        "B": "Alfred le Grand",
+        "C": "Richard Cœur de Lion",
+        "D": "Édouard le Confesseur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0112",
+      "difficulty": "easy",
+      "question": "Au Moyen Âge, comment appelait-on le repas du soir ?",
+      "options": {
+        "A": "Le déjeuner",
+        "B": "Le souper",
+        "C": "Le goûter",
+        "D": "Le brunch"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0113",
+      "difficulty": "medium",
+      "question": "Quel roi d'Angleterre a mené la troisième croisade contre Saladin ?",
+      "options": {
+        "A": "Jean sans Terre",
+        "B": "Richard Cœur de Lion",
+        "C": "Henri VIII",
+        "D": "Guillaume II"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0114",
+      "difficulty": "hard",
+      "question": "Quelle célèbre reine de France était aussi reine d'Angleterre au 12ème siècle ?",
+      "options": {
+        "A": "Catherine de Médicis",
+        "B": "Aliénor d'Aquitaine",
+        "C": "Anne de Bretagne",
+        "D": "Marie-Antoinette"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0115",
+      "difficulty": "easy",
+      "question": "Quel était l'emblème des rois de France ?",
+      "options": {
+        "A": "Une rose",
+        "B": "Une fleur de lys",
+        "C": "Un aigle",
+        "D": "Un lion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0116",
+      "difficulty": "medium",
+      "question": "Quel moine bouddhiste a fondé le premier empire unifié de l'Inde ?",
+      "options": {
+        "A": "Gandhi",
+        "B": "Ashoka",
+        "C": "Akbar",
+        "D": "Siddhartha"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0117",
+      "difficulty": "hard",
+      "question": "Quelle invention maritime permettait aux navires de remonter le vent à la Renaissance ?",
+      "options": {
+        "A": "Le gouvernail de poupe",
+        "B": "La voile latine",
+        "C": "L'ancre",
+        "D": "Le sonar"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0118",
+      "difficulty": "easy",
+      "question": "Quel pays actuel était autrefois appelé 'L'Empire du Soleil Levant' ?",
+      "options": {
+        "A": "La Corée",
+        "B": "Le Japon",
+        "C": "Le Vietnam",
+        "D": "La Thaïlande"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0119",
+      "difficulty": "medium",
+      "question": "Qui était le 'Père de la Médecine' en Grèce antique ?",
+      "options": {
+        "A": "Socrate",
+        "B": "Hippocrate",
+        "C": "Platon",
+        "D": "Galien"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0120",
+      "difficulty": "hard",
+      "question": "Quel traité a mis fin à la Première Guerre mondiale en 1919 ?",
+      "options": {
+        "A": "Le traité de Rome",
+        "B": "Le traité de Versailles",
+        "C": "Le traité de Paris",
+        "D": "Le traité de Vienne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0121",
+      "difficulty": "easy",
+      "question": "Quel oiseau porte les messages dans les histoires du Moyen Âge ?",
+      "options": {
+        "A": "Le hibou",
+        "B": "Le pigeon voyageur",
+        "C": "L'aigle",
+        "D": "Le perroquet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0122",
+      "difficulty": "medium",
+      "question": "En quelle année l'homme a-t-il voyagé pour la première fois dans l'espace ?",
+      "options": {
+        "A": "1945",
+        "B": "1961",
+        "C": "1969",
+        "D": "1980"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0123",
+      "difficulty": "hard",
+      "question": "Quel président américain a lancé le 'New Deal' pour sortir son pays de la crise économique de 1929 ?",
+      "options": {
+        "A": "Kennedy",
+        "B": "Franklin D. Roosevelt",
+        "C": "Truman",
+        "D": "Eisenhower"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0124",
+      "difficulty": "easy",
+      "question": "Comment s'appelle la poudre noire qui permet de lancer des boulets ?",
+      "options": {
+        "A": "Le charbon",
+        "B": "La poudre à canon",
+        "C": "La craie",
+        "D": "La suie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0125",
+      "difficulty": "medium",
+      "question": "Quel peuple a inventé le chocolat (boisson de cacao) ?",
+      "options": {
+        "A": "Les Suisses",
+        "B": "Les Mayas",
+        "C": "Les Français",
+        "D": "Les Indiens"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0126",
+      "difficulty": "hard",
+      "question": "Qui a été la première femme à voler seule au-dessus de l'océan Atlantique ?",
+      "options": {
+        "A": "Florence Nightingale",
+        "B": "Amelia Earhart",
+        "C": "Marie Curie",
+        "D": "Valentina Terechkova"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0127",
+      "difficulty": "easy",
+      "question": "Quelle invention a permis de lire l'heure sans soleil au Moyen Âge ?",
+      "options": {
+        "A": "Le cadran solaire",
+        "B": "L'horloge mécanique",
+        "C": "Le téléphone",
+        "D": "Le sablier"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0128",
+      "difficulty": "medium",
+      "question": "Quel compositeur prodige a commencé à écrire de la musique à l'âge de 5 ans ?",
+      "options": {
+        "A": "Beethoven",
+        "B": "Mozart",
+        "C": "Bach",
+        "D": "Chopin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0129",
+      "difficulty": "hard",
+      "question": "Dans quel pays s'est déroulée la Révolution d'Octobre en 1917 ?",
+      "options": {
+        "A": "En France",
+        "B": "En Russie",
+        "C": "En Allemagne",
+        "D": "En Chine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0130",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le vêtement de fer que les chevaliers mettaient sur leur tête ?",
+      "options": {
+        "A": "Un chapeau",
+        "B": "Un heaume",
+        "C": "Un béret",
+        "D": "Une couronne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0131",
+      "difficulty": "medium",
+      "question": "Quelle ville italienne a été ensevelie par les cendres du Vésuve en l'an 79 ?",
+      "options": {
+        "A": "Rome",
+        "B": "Pompéi",
+        "C": "Florence",
+        "D": "Venise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0132",
+      "difficulty": "hard",
+      "question": "Qui était le chef des armées russes qui a repoussé Napoléon en 1812 ?",
+      "options": {
+        "A": "Staline",
+        "B": "Le Tsar Alexandre Ier",
+        "C": "Lénine",
+        "D": "Pierre le Grand"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0133",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le monument en forme de triangle qui servait de tombeau aux Pharaons ?",
+      "options": {
+        "A": "Un obélisque",
+        "B": "Une pyramide",
+        "C": "Un temple",
+        "D": "Une tour"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0134",
+      "difficulty": "medium",
+      "question": "Quelle invention a permis de voir les microbes pour la première fois ?",
+      "options": {
+        "A": "La loupe",
+        "B": "Le microscope",
+        "C": "Le télescope",
+        "D": "Les lunettes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0135",
+      "difficulty": "hard",
+      "question": "Quel traité a partagé l'empire de Charlemagne entre ses trois petits-fils ?",
+      "options": {
+        "A": "Le traité de Rome",
+        "B": "Le traité de Verdun",
+        "C": "Le traité de Troyes",
+        "D": "Le traité d'Amiens"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0136",
+      "difficulty": "easy",
+      "question": "Quelle cité antique était protégée par un grand cheval de bois ?",
+      "options": {
+        "A": "Rome",
+        "B": "Troie",
+        "C": "Athènes",
+        "D": "Carthage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0137",
+      "difficulty": "medium",
+      "question": "Quel physicien a écrit la célèbre formule E=mc² ?",
+      "options": {
+        "A": "Isaac Newton",
+        "B": "Albert Einstein",
+        "C": "Stephen Hawking",
+        "D": "Niels Bohr"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0138",
+      "difficulty": "hard",
+      "question": "Quelle dynastie de rois français a succédé aux Mérovingiens ?",
+      "options": {
+        "A": "Les Capétiens",
+        "B": "Les Carolingiens",
+        "C": "Les Valois",
+        "D": "Les Bourbons"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0139",
+      "difficulty": "easy",
+      "question": "Sur quel continent se trouve le Grand Canyon ?",
+      "options": {
+        "A": "Asie",
+        "B": "Amérique du Nord",
+        "C": "Afrique",
+        "D": "Europe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0140",
+      "difficulty": "medium",
+      "question": "Quel pharaon est connu pour ses nombreuses constructions et son long règne de 66 ans ?",
+      "options": {
+        "A": "Toutânkhamon",
+        "B": "Ramsès II",
+        "C": "Khéops",
+        "D": "Séthi Ier"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0141",
+      "difficulty": "hard",
+      "question": "Quel peuple a inventé la démocratie ?",
+      "options": {
+        "A": "Les Romains",
+        "B": "Les Grecs d'Athènes",
+        "C": "Les Américains",
+        "D": "Les Égyptiens"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0142",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le livre de bord des marins ?",
+      "options": {
+        "A": "Un cahier",
+        "B": "Un journal de bord",
+        "C": "Un dictionnaire",
+        "D": "Un roman"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0143",
+      "difficulty": "medium",
+      "question": "Quelle invention a permis de diffuser les idées de la Réforme très rapidement ?",
+      "options": {
+        "A": "Le journal",
+        "B": "L'imprimerie",
+        "C": "La radio",
+        "D": "La poste"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0144",
+      "difficulty": "hard",
+      "question": "Quel empereur a instauré le 'Code Civil' en 1804 ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Napoléon Ier",
+        "C": "Jules César",
+        "D": "Charlemagne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0145",
+      "difficulty": "easy",
+      "question": "Dans quel océan le Titanic a-t-il coulé ?",
+      "options": {
+        "A": "Océan Pacifique",
+        "B": "Océan Atlantique",
+        "C": "Océan Indien",
+        "D": "Océan Arctique"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0146",
+      "difficulty": "medium",
+      "question": "Quelle reine d'Espagne a aidé Christophe Colomb à financer son voyage ?",
+      "options": {
+        "A": "Marie-Thérèse",
+        "B": "Isabelle la Catholique",
+        "C": "Élisabeth Ière",
+        "D": "Catherine de Médicis"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0147",
+      "difficulty": "hard",
+      "question": "Quelle était la capitale de l'Empire romain d'Orient ?",
+      "options": {
+        "A": "Rome",
+        "B": "Constantinople",
+        "C": "Alexandrie",
+        "D": "Athènes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0148",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on la science qui étudie les restes du passé en creusant le sol ?",
+      "options": {
+        "A": "La géographie",
+        "B": "L'archéologie",
+        "C": "La biologie",
+        "D": "L'astronomie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0149",
+      "difficulty": "medium",
+      "question": "Quel gaz les premiers ballons (montgolfières) utilisaient-ils pour voler ?",
+      "options": {
+        "A": "De l'hélium",
+        "B": "De l'air chaud",
+        "C": "De l'oxygène",
+        "D": "De la vapeur d'eau"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0150",
+      "difficulty": "hard",
+      "question": "Quel explorateur français a fondé la ville de Québec en 1608 ?",
+      "options": {
+        "A": "Jacques Cartier",
+        "B": "Samuel de Champlain",
+        "C": "La Salle",
+        "D": "Bougainville"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0151",
+      "difficulty": "easy",
+      "question": "Comment s'appelait le petit bateau utilisé par les Vikings ?",
+      "options": {
+        "A": "Une caravelle",
+        "B": "Un drakkar",
+        "C": "Un paquebot",
+        "D": "Une pirogue"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0152",
+      "difficulty": "medium",
+      "question": "Quel célèbre empereur romain a été assassiné par ses propres sénateurs le 15 mars ?",
+      "options": {
+        "A": "Auguste",
+        "B": "Jules César",
+        "C": "Néron",
+        "D": "Titus"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0153",
+      "difficulty": "hard",
+      "question": "Qui était le dieu de la malice et des ruses dans la mythologie nordique ?",
+      "options": {
+        "A": "Odin",
+        "B": "Loki",
+        "C": "Thor",
+        "D": "Freyr"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0154",
+      "difficulty": "easy",
+      "question": "Quelle invention a remplacé les bougies pour éclairer les maisons à la fin du 19ème siècle ?",
+      "options": {
+        "A": "La lampe à huile",
+        "B": "L'ampoule électrique",
+        "C": "Le briquet",
+        "D": "La torche"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0155",
+      "difficulty": "medium",
+      "question": "Quel explorateur a découvert les chutes Victoria en Afrique ?",
+      "options": {
+        "A": "Henry Stanley",
+        "B": "David Livingstone",
+        "C": "Ernest Shackleton",
+        "D": "Roald Amundsen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0156",
+      "difficulty": "hard",
+      "question": "Quel était le nom de la première dynastie de rois francs ?",
+      "options": {
+        "A": "Les Carolingiens",
+        "B": "Les Mérovingiens",
+        "C": "Les Capétiens",
+        "D": "Les Bourbons"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0157",
+      "difficulty": "easy",
+      "question": "Dans quel pays se trouve la grande tour de Pise qui penche ?",
+      "options": {
+        "A": "En Espagne",
+        "B": "En Italie",
+        "C": "En Grèce",
+        "D": "Au Portugal"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0158",
+      "difficulty": "medium",
+      "question": "Qui était le président des États-Unis pendant le débarquement de Normandie ?",
+      "options": {
+        "A": "John Kennedy",
+        "B": "Franklin D. Roosevelt",
+        "C": "Harry Truman",
+        "D": "George Washington"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0159",
+      "difficulty": "hard",
+      "question": "Quelle cité italienne a été dirigée par la puissante famille Médicis pendant la Renaissance ?",
+      "options": {
+        "A": "Rome",
+        "B": "Florence",
+        "C": "Venise",
+        "D": "Naples"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0160",
+      "difficulty": "easy",
+      "question": "Quel monument a été construit pour honorer les victoires de Napoléon à Paris ?",
+      "options": {
+        "A": "La Pyramide du Louvre",
+        "B": "L'Arc de Triomphe",
+        "C": "L'Obélisque",
+        "D": "Le Sacré-Cœur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0161",
+      "difficulty": "medium",
+      "question": "Quelle invention de 1895 a permis de projeter les premiers films au cinéma ?",
+      "options": {
+        "A": "La télévision",
+        "B": "Le cinématographe",
+        "C": "L'appareil photo",
+        "D": "Le projecteur laser"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0162",
+      "difficulty": "hard",
+      "question": "Quel roi français a été surnommé 'Le Saint' ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Louis IX",
+        "C": "Philippe Auguste",
+        "D": "Charles V"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0163",
+      "difficulty": "easy",
+      "question": "Sur quelle île Napoléon Bonaparte est-il né ?",
+      "options": {
+        "A": "La Martinique",
+        "B": "La Corse",
+        "C": "L'île d'Elbe",
+        "D": "Sainte-Hélène"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0164",
+      "difficulty": "medium",
+      "question": "Qui a inventé le premier avion capable de voler de ses propres forces ?",
+      "options": {
+        "A": "Léonard de Vinci",
+        "B": "Les frères Wright",
+        "C": "Clément Ader",
+        "D": "Charles Lindbergh"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0165",
+      "difficulty": "hard",
+      "question": "Quelle est la plus ancienne ville de France, fondée par les Grecs ?",
+      "options": {
+        "A": "Paris",
+        "B": "Marseille",
+        "C": "Lyon",
+        "D": "Bordeaux"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0166",
+      "difficulty": "easy",
+      "question": "Comment s'appelle la période où l'on a redécouvert les arts de l'Antiquité ?",
+      "options": {
+        "A": "Le Moyen Âge",
+        "B": "La Renaissance",
+        "C": "L'Époque moderne",
+        "D": "La Préhistoire"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0167",
+      "difficulty": "medium",
+      "question": "Quel philosophe grec était connu pour vivre dans un tonneau ?",
+      "options": {
+        "A": "Platon",
+        "B": "Diogène",
+        "C": "Épicure",
+        "D": "Sénèque"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0168",
+      "difficulty": "hard",
+      "question": "Quel pays a été le premier à accorder le droit de vote aux femmes en 1893 ?",
+      "options": {
+        "A": "La France",
+        "B": "La Nouvelle-Zélande",
+        "C": "Les États-Unis",
+        "D": "Le Royaume-Uni"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0169",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on les pyramides à degrés construites en Mésopotamie ?",
+      "options": {
+        "A": "Des temples",
+        "B": "Des ziggourats",
+        "C": "Des pagodes",
+        "D": "Des cathédrales"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0170",
+      "difficulty": "medium",
+      "question": "Quel navigateur français a pris possession du Canada au nom du roi de France ?",
+      "options": {
+        "A": "Samuel de Champlain",
+        "B": "Jacques Cartier",
+        "C": "La Pérouse",
+        "D": "Bougainville"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0171",
+      "difficulty": "hard",
+      "question": "Qui a écrit 'Le Prince', un célèbre livre sur la politique à la Renaissance ?",
+      "options": {
+        "A": "Léonard de Vinci",
+        "B": "Nicolas Machiavel",
+        "C": "Érasme",
+        "D": "Thomas More"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0172",
+      "difficulty": "easy",
+      "question": "Quelle était l'arme principale d'un archer médiéval ?",
+      "options": {
+        "A": "Une épée",
+        "B": "Un arc",
+        "C": "Une lance",
+        "D": "Une hache"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0173",
+      "difficulty": "medium",
+      "question": "Quel roi de France est mort d'une blessure reçue lors d'un tournoi ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Henri II",
+        "C": "François Ier",
+        "D": "Charles VII"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0174",
+      "difficulty": "hard",
+      "question": "En quelle année l'Empire romain d'Occident est-il officiellement tombé ?",
+      "options": {
+        "A": "1515",
+        "B": "476",
+        "C": "800",
+        "D": "1789"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0175",
+      "difficulty": "easy",
+      "question": "Dans quel pays se trouve la célèbre Grande Muraille ?",
+      "options": {
+        "A": "Le Japon",
+        "B": "La Chine",
+        "C": "L'Inde",
+        "D": "La Mongolie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0176",
+      "difficulty": "medium",
+      "question": "Quel était le surnom de la reine Marie-Antoinette à cause de ses dépenses ?",
+      "options": {
+        "A": "La Reine de Cœur",
+        "B": "Madame Déficit",
+        "C": "La Reine Soleil",
+        "D": "L'Autrichienne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0177",
+      "difficulty": "hard",
+      "question": "Quel général romain a traversé les Alpes avec des éléphants ?",
+      "options": {
+        "A": "Jules César",
+        "B": "Hannibal Barca",
+        "C": "Pompée",
+        "D": "Scipion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0178",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le célèbre doudou ou talisman que portaient les Égyptiens ?",
+      "options": {
+        "A": "Un collier",
+        "B": "Une amulette",
+        "C": "Un bracelet",
+        "D": "Une bague"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0179",
+      "difficulty": "medium",
+      "question": "Quel peintre espagnol est célèbre pour avoir peint 'Les Ménines' ?",
+      "options": {
+        "A": "Pablo Picasso",
+        "B": "Diego Vélasquez",
+        "C": "Salvador Dalí",
+        "D": "Francisco Goya"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0180",
+      "difficulty": "hard",
+      "question": "Quel traité a mis fin à la guerre d'Indépendance des États-Unis en 1783 ?",
+      "options": {
+        "A": "Le traité de Versailles",
+        "B": "Le traité de Paris",
+        "C": "Le traité de Londres",
+        "D": "Le traité de Washington"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0181",
+      "difficulty": "easy",
+      "question": "Quel était le nom de l'avion ultra-rapide qui traversait l'Atlantique en 3 heures ?",
+      "options": {
+        "A": "Le Boeing 747",
+        "B": "Le Concorde",
+        "C": "L'Airbus A380",
+        "D": "Le Rafale"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0182",
+      "difficulty": "medium",
+      "question": "Qui a été le premier empereur de Chine, célèbre pour son armée de terre cuite ?",
+      "options": {
+        "A": "Confucius",
+        "B": "Qin Shi Huang",
+        "C": "Mao Zedong",
+        "D": "Kubilaï Khan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0183",
+      "difficulty": "hard",
+      "question": "Quel événement de 1929 a provoqué une immense crise économique mondiale ?",
+      "options": {
+        "A": "La fin de la guerre",
+        "B": "Le krach boursier de New York",
+        "C": "L'invention du pétrole",
+        "D": "Une épidémie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0184",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on un souverain en Russie ancienne ?",
+      "options": {
+        "A": "Un Roi",
+        "B": "Un Tsar",
+        "C": "Un Sultan",
+        "D": "Un Empereur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0185",
+      "difficulty": "medium",
+      "question": "Quel scientifique a découvert que la Terre n'était pas le centre de l'univers ?",
+      "options": {
+        "A": "Galilée",
+        "B": "Nicolas Copernic",
+        "C": "Isaac Newton",
+        "D": "Aristote"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0186",
+      "difficulty": "hard",
+      "question": "Qui était le Premier ministre britannique pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Margaret Thatcher",
+        "B": "Winston Churchill",
+        "C": "Neville Chamberlain",
+        "D": "Tony Blair"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0187",
+      "difficulty": "easy",
+      "question": "Quelle invention a permis de conserver les aliments longtemps ?",
+      "options": {
+        "A": "Le four",
+        "B": "Le réfrigérateur",
+        "C": "Le lave-vaisselle",
+        "D": "La cheminée"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0188",
+      "difficulty": "medium",
+      "question": "Quel nom porte la grande épidémie qui a ravagé l'Europe au 14ème siècle ?",
+      "options": {
+        "A": "Le Choléra",
+        "B": "La Peste Noire",
+        "C": "La Grippe espagnole",
+        "D": "La Variole"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0189",
+      "difficulty": "hard",
+      "question": "Quel roi français a été capturé à la bataille de Pavie ?",
+      "options": {
+        "A": "Louis XII",
+        "B": "François Ier",
+        "C": "Charles VIII",
+        "D": "Henri IV"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0190",
+      "difficulty": "easy",
+      "question": "Quel pays a utilisé pour la première fois la monnaie en papier ?",
+      "options": {
+        "A": "La France",
+        "B": "La Chine",
+        "C": "Les États-Unis",
+        "D": "L'Italie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0191",
+      "difficulty": "medium",
+      "question": "Qui a sculpté la statue du 'Penseur' ?",
+      "options": {
+        "A": "Michel-Ange",
+        "B": "Auguste Rodin",
+        "C": "Alberto Giacometti",
+        "D": "Camille Claudel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0192",
+      "difficulty": "hard",
+      "question": "Quel explorateur a atteint le pôle Sud en premier en 1911 ?",
+      "options": {
+        "A": "Robert Scott",
+        "B": "Roald Amundsen",
+        "C": "James Cook",
+        "D": "Jean-Louis Étienne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0193",
+      "difficulty": "easy",
+      "question": "Comment s'appelle l'écriture pour les personnes aveugles inventée au 19ème siècle ?",
+      "options": {
+        "A": "Le morse",
+        "B": "Le braille",
+        "C": "Le latin",
+        "D": "Le grec"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0194",
+      "difficulty": "medium",
+      "question": "Qui était le chef de l'Union soviétique pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Lénine",
+        "B": "Joseph Staline",
+        "C": "Nikita Khrouchtchev",
+        "D": "Mikhaïl Gorbatchev"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0195",
+      "difficulty": "hard",
+      "question": "Quel pharaon a construit le temple d'Abou Simbel ?",
+      "options": {
+        "A": "Akhenaton",
+        "B": "Ramsès II",
+        "C": "Sethi Ier",
+        "D": "Thoutmôsis III"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0196",
+      "difficulty": "easy",
+      "question": "Quel objet permet de voir les étoiles de plus près ?",
+      "options": {
+        "A": "Un microscope",
+        "B": "Un télescope",
+        "C": "Une loupe",
+        "D": "Des jumelles"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0197",
+      "difficulty": "medium",
+      "question": "Qui a été la première femme à être enterrée au Panthéon pour ses propres mérites ?",
+      "options": {
+        "A": "Simone Veil",
+        "B": "Marie Curie",
+        "C": "Joséphine Baker",
+        "D": "Geneviève de Gaulle-Anthonioz"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0198",
+      "difficulty": "hard",
+      "question": "Quel peuple antique utilisait des navires appelés trirèmes ?",
+      "options": {
+        "A": "Les Égyptiens",
+        "B": "Les Grecs",
+        "C": "Les Vikings",
+        "D": "Les Mayas"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0199",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le chef d'une tribu indienne d'Amérique ?",
+      "options": {
+        "A": "Le Roi",
+        "B": "Le Cacique ou Chef",
+        "C": "Le Président",
+        "D": "Le Seigneur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0200",
+      "difficulty": "medium",
+      "question": "Quel pays a inventé les chiffres que nous utilisons aujourd'hui (0, 1, 2...) ?",
+      "options": {
+        "A": "L'Arabie",
+        "B": "L'Inde",
+        "C": "La Chine",
+        "D": "L'Italie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0201",
+      "difficulty": "easy",
+      "question": "Quelle invention de 1826 a permis de fixer des images pour toujours ?",
+      "options": {
+        "A": "Le dessin",
+        "B": "La photographie",
+        "C": "Le miroir",
+        "D": "Le cinéma"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0202",
+      "difficulty": "medium",
+      "question": "Qui a inventé le paratonnerre pour protéger les bâtiments de la foudre ?",
+      "options": {
+        "A": "Thomas Edison",
+        "B": "Benjamin Franklin",
+        "C": "Nikola Tesla",
+        "D": "Albert Einstein"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0203",
+      "difficulty": "hard",
+      "question": "Quel explorateur a été le premier à franchir le passage du Nord-Ouest en Arctique ?",
+      "options": {
+        "A": "James Cook",
+        "B": "Roald Amundsen",
+        "C": "Jean Cabot",
+        "D": "Henry Hudson"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0204",
+      "difficulty": "easy",
+      "question": "Quel était le nom de l'empire dirigé par les Incas en Amérique du Sud ?",
+      "options": {
+        "A": "L'empire du Soleil",
+        "B": "Tahuantinsuyu",
+        "C": "Eldorado",
+        "D": "L'empire de l'Or"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0205",
+      "difficulty": "medium",
+      "question": "Quelle ville a accueilli les premiers Jeux Olympiques de l'ère moderne en 1896 ?",
+      "options": {
+        "A": "Paris",
+        "B": "Athènes",
+        "C": "Londres",
+        "D": "Rome"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0206",
+      "difficulty": "hard",
+      "question": "Qui était le chef de la résistance française à l'intérieur du pays, mort en 1943 ?",
+      "options": {
+        "A": "Charles de Gaulle",
+        "B": "Jean Moulin",
+        "C": "Guy Môquet",
+        "D": "Pierre Brossolette"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0207",
+      "difficulty": "easy",
+      "question": "Comment s'appelle la tour penchée de Londres qui contient une grosse cloche ?",
+      "options": {
+        "A": "Big Ben",
+        "B": "London Eye",
+        "C": "The Tower",
+        "D": "The Shard"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0208",
+      "difficulty": "medium",
+      "question": "Quel gaz a été découvert par Joseph Priestley et est indispensable pour respirer ?",
+      "options": {
+        "A": "L'azote",
+        "B": "L'oxygène",
+        "C": "Le carbone",
+        "D": "L'hélium"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0209",
+      "difficulty": "hard",
+      "question": "Quel empereur mongol a reçu Marco Polo à sa cour en Chine ?",
+      "options": {
+        "A": "Gengis Khan",
+        "B": "Kubilaï Khan",
+        "C": "Attila",
+        "D": "Tamerlan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0210",
+      "difficulty": "easy",
+      "question": "Quel est le plus long fleuve du monde, berceau de la civilisation égyptienne ?",
+      "options": {
+        "A": "L'Amazone",
+        "B": "Le Nil",
+        "C": "Le Mississippi",
+        "D": "Le Yangtsé"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0211",
+      "difficulty": "medium",
+      "question": "Quelle invention de 1945 a changé la façon de cuisiner rapidement à la maison ?",
+      "options": {
+        "A": "Le lave-vaisselle",
+        "B": "Le four à micro-ondes",
+        "C": "Le mixeur",
+        "D": "La cocotte-minute"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0212",
+      "difficulty": "hard",
+      "question": "Quelle reine d'Égypte a tenté de reconquérir son royaume avec l'aide de Marc Antoine ?",
+      "options": {
+        "A": "Néfertiti",
+        "B": "Cléopâtre VII",
+        "C": "Tiyi",
+        "D": "Néfertari"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0213",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on les écritures anciennes gravées dans la pierre en Amérique Centrale ?",
+      "options": {
+        "A": "L'alphabet",
+        "B": "Les glyphes",
+        "C": "Le braille",
+        "D": "Le morse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0214",
+      "difficulty": "medium",
+      "question": "Quel roi français a été guillotiné en 1793 pendant la Révolution ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Louis XVI",
+        "C": "Louis XVIII",
+        "D": "Louis-Philippe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0215",
+      "difficulty": "hard",
+      "question": "Quel général carthaginois a perdu la bataille de Zama contre Rome ?",
+      "options": {
+        "A": "Hamilcar",
+        "B": "Hannibal",
+        "C": "Hasdrubal",
+        "D": "Didon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0216",
+      "difficulty": "easy",
+      "question": "Quelle ville italienne est célèbre pour ses maisons sur l'eau et ses gondoles ?",
+      "options": {
+        "A": "Rome",
+        "B": "Venise",
+        "C": "Milan",
+        "D": "Naples"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0217",
+      "difficulty": "medium",
+      "question": "Qui a inventé le premier vaccin contre la variole au 18ème siècle ?",
+      "options": {
+        "A": "Louis Pasteur",
+        "B": "Edward Jenner",
+        "C": "Alexander Fleming",
+        "D": "Robert Koch"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0218",
+      "difficulty": "hard",
+      "question": "Quel souverain a construit le Taj Mahal en Inde par amour pour sa femme ?",
+      "options": {
+        "A": "Ashoka",
+        "B": "Shah Jahan",
+        "C": "Akbar",
+        "D": "Chandragupta"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0219",
+      "difficulty": "easy",
+      "question": "Dans quelle ville se trouve la statue géante du Christ Rédempteur ?",
+      "options": {
+        "A": "Lisbonne",
+        "B": "Rio de Janeiro",
+        "C": "Mexico",
+        "D": "Buenos Aires"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0220",
+      "difficulty": "medium",
+      "question": "Quel philosophe grec était le maître de Platon ?",
+      "options": {
+        "A": "Aristote",
+        "B": "Socrate",
+        "C": "Héraclite",
+        "D": "Pythagore"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0221",
+      "difficulty": "hard",
+      "question": "Comment s'appelait la première femme médecin de l'Antiquité (en Grèce) ?",
+      "options": {
+        "A": "Hypatie",
+        "B": "Agnodice",
+        "C": "Artémis",
+        "D": "Athéna"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0222",
+      "difficulty": "easy",
+      "question": "Quelle invention permet de s'orienter grâce à une aiguille aimantée ?",
+      "options": {
+        "A": "La montre",
+        "B": "La boussole",
+        "C": "La règle",
+        "D": "La loupe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0223",
+      "difficulty": "medium",
+      "question": "Quelle organisation internationale a été créée en 1945 pour maintenir la paix ?",
+      "options": {
+        "A": "L'OTAN",
+        "B": "L'ONU",
+        "C": "L'UNESCO",
+        "D": "L'UNICEF"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0224",
+      "difficulty": "hard",
+      "question": "Quel roi viking est devenu le premier roi chrétien de Danemark ?",
+      "options": {
+        "A": "Ragnar Lodbrok",
+        "B": "Harald à la Dent Bleue",
+        "C": "Erik le Rouge",
+        "D": "Knut le Grand"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0225",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le grand désert de sable au nord de l'Afrique ?",
+      "options": {
+        "A": "Le Gobi",
+        "B": "Le Sahara",
+        "C": "Le Kalahari",
+        "D": "L'Atacama"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0226",
+      "difficulty": "medium",
+      "question": "Quelle femme pilote a disparu en tentant de faire le tour du monde en 1937 ?",
+      "options": {
+        "A": "Maryse Bastié",
+        "B": "Amelia Earhart",
+        "C": "Bessie Coleman",
+        "D": "Jacqueline Auriol"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0227",
+      "difficulty": "hard",
+      "question": "Quel savant a été le premier à utiliser un télescope pour regarder la Lune ?",
+      "options": {
+        "A": "Copernic",
+        "B": "Galilée",
+        "C": "Kepler",
+        "D": "Newton"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0228",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on la maison de glace construite par les Inuits ?",
+      "options": {
+        "A": "Une yourte",
+        "B": "Un igloo",
+        "C": "Un tipi",
+        "D": "Une cabane"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0229",
+      "difficulty": "medium",
+      "question": "Quelle ville française a été la capitale des Papes au 14ème siècle ?",
+      "options": {
+        "A": "Paris",
+        "B": "Avignon",
+        "C": "Lyon",
+        "D": "Marseille"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0230",
+      "difficulty": "hard",
+      "question": "Quel navigateur portugais a été le premier à atteindre l'Inde en contournant l'Afrique ?",
+      "options": {
+        "A": "Bartolomeu Dias",
+        "B": "Vasco de Gama",
+        "C": "Cabral",
+        "D": "Magellan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0231",
+      "difficulty": "easy",
+      "question": "Quelle fête célèbre-t-on aux États-Unis avec de la dinde pour dire merci ?",
+      "options": {
+        "A": "Halloween",
+        "B": "Thanksgiving",
+        "C": "Noël",
+        "D": "Pâques"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0232",
+      "difficulty": "medium",
+      "question": "Quel pays a été le premier à envoyer un satellite (Spoutnik) dans l'espace ?",
+      "options": {
+        "A": "Les États-Unis",
+        "B": "L'URSS (Russie)",
+        "C": "La Chine",
+        "D": "La France"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0233",
+      "difficulty": "hard",
+      "question": "Qui a écrit la pièce de théâtre 'Roméo et Juliette' ?",
+      "options": {
+        "A": "Molière",
+        "B": "William Shakespeare",
+        "C": "Victor Hugo",
+        "D": "Cervantès"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0234",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on l'ensemble des os du corps ?",
+      "options": {
+        "A": "Les muscles",
+        "B": "Le squelette",
+        "C": "Les organes",
+        "D": "La peau"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0235",
+      "difficulty": "medium",
+      "question": "Quelle invention de 1971 a permis d'envoyer des messages écrits par ordinateur ?",
+      "options": {
+        "A": "Le téléphone",
+        "B": "L'e-mail (courriel)",
+        "C": "Le fax",
+        "D": "Le télégramme"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0236",
+      "difficulty": "hard",
+      "question": "Quel empereur romain a construit un grand mur au nord de l'Angleterre ?",
+      "options": {
+        "A": "Trajan",
+        "B": "Hadrien",
+        "C": "Marc Aurèle",
+        "D": "Constantin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0237",
+      "difficulty": "easy",
+      "question": "Quelle est la capitale actuelle de l'Italie ?",
+      "options": {
+        "A": "Venise",
+        "B": "Rome",
+        "C": "Florence",
+        "D": "Naples"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0238",
+      "difficulty": "medium",
+      "question": "Qui était le dieu égyptien du soleil ?",
+      "options": {
+        "A": "Osiris",
+        "B": "Rê (ou Ra)",
+        "C": "Anubis",
+        "D": "Thot"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0239",
+      "difficulty": "hard",
+      "question": "Quelle invention a permis de fabriquer des vêtements beaucoup plus vite au 18ème siècle ?",
+      "options": {
+        "A": "L'aiguille",
+        "B": "Le métier à tisser mécanique",
+        "C": "La machine à coudre",
+        "D": "Les ciseaux"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0240",
+      "difficulty": "easy",
+      "question": "Quel pays a pour symbole le Kangourou ?",
+      "options": {
+        "A": "L'Afrique du Sud",
+        "B": "L'Australie",
+        "C": "Le Canada",
+        "D": "Le Japon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0241",
+      "difficulty": "medium",
+      "question": "Quel explorateur a donné son nom à la ville de Montréal ?",
+      "options": {
+        "A": "Samuel de Champlain",
+        "B": "Jacques Cartier",
+        "C": "La Salle",
+        "D": "Verrazzano"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0242",
+      "difficulty": "hard",
+      "question": "Qui était l'épouse de l'empereur Napoléon III et la dernière souveraine de France ?",
+      "options": {
+        "A": "Joséphine de Beauharnais",
+        "B": "L'impératrice Eugénie",
+        "C": "Marie-Louise",
+        "D": "Marie-Antoinette"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0243",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le volcan qui a détruit Pompéi ?",
+      "options": {
+        "A": "L'Etna",
+        "B": "Le Vésuve",
+        "C": "Le Stromboli",
+        "D": "Le Piton de la Fournaise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0244",
+      "difficulty": "medium",
+      "question": "Quel artiste a coupé son oreille et peint des tournesols ?",
+      "options": {
+        "A": "Claude Monet",
+        "B": "Vincent van Gogh",
+        "C": "Paul Gauguin",
+        "D": "Salvador Dalí"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0245",
+      "difficulty": "hard",
+      "question": "Quelle bataille navale de 1805 a vu la victoire de l'amiral Nelson sur les Français ?",
+      "options": {
+        "A": "Aboukir",
+        "B": "Trafalgar",
+        "C": "Lépante",
+        "D": "Jutland"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0246",
+      "difficulty": "easy",
+      "question": "Quel pays a inventé le karaté et le judo ?",
+      "options": {
+        "A": "La Chine",
+        "B": "Le Japon",
+        "C": "La Corée",
+        "D": "Le Brésil"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0247",
+      "difficulty": "medium",
+      "question": "Qui a été le premier homme à faire le tour de la Terre dans l'espace en 1961 ?",
+      "options": {
+        "A": "Neil Armstrong",
+        "B": "Yuri Gagarine",
+        "C": "John Glenn",
+        "D": "Thomas Pesquet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0248",
+      "difficulty": "hard",
+      "question": "Quelle est la capitale de l'empire Byzantin (aujourd'hui Istanbul) ?",
+      "options": {
+        "A": "Rome",
+        "B": "Constantinople",
+        "C": "Athènes",
+        "D": "Alexandrie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0249",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le texte sacré des Musulmans ?",
+      "options": {
+        "A": "La Bible",
+        "B": "Le Coran",
+        "C": "La Torah",
+        "D": "Les Védas"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0250",
+      "difficulty": "medium",
+      "question": "Qui a écrit 'Le Journal d'Anne Frank' ?",
+      "options": {
+        "A": "Une journaliste",
+        "B": "Une jeune fille juive cachée pendant la guerre",
+        "C": "Une historienne",
+        "D": "Une romancière célèbre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0251",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le grand amphithéâtre de Rome où se battaient les gladiateurs ?",
+      "options": {
+        "A": "Le Panthéon",
+        "B": "Le Colisée",
+        "C": "Le Forum",
+        "D": "Le Cirque Maxime"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0252",
+      "difficulty": "medium",
+      "question": "Quel explorateur a été le premier à atteindre le pôle Nord en 1909 ?",
+      "options": {
+        "A": "Roald Amundsen",
+        "B": "Robert Peary",
+        "C": "Fridtjof Nansen",
+        "D": "Ernest Shackleton"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0253",
+      "difficulty": "hard",
+      "question": "Qui était le dieu de la forge et du feu dans la mythologie grecque ?",
+      "options": {
+        "A": "Arès",
+        "B": "Héphaïstos",
+        "C": "Hermès",
+        "D": "Apollon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0254",
+      "difficulty": "easy",
+      "question": "Quel monument indien tout blanc a été construit par un empereur pour sa femme ?",
+      "options": {
+        "A": "Le Fort Rouge",
+        "B": "Le Taj Mahal",
+        "C": "Le temple d'Or",
+        "D": "Le Lotus Temple"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0255",
+      "difficulty": "medium",
+      "question": "Dans quel pays peut-on voir les statues géantes de l'Île de Pâques ?",
+      "options": {
+        "A": "Le Pérou",
+        "B": "Le Chili",
+        "C": "L'Australie",
+        "D": "Le Mexique"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0256",
+      "difficulty": "hard",
+      "question": "Quel roi d'Angleterre a eu six femmes et a créé l'Église anglicane ?",
+      "options": {
+        "A": "Richard Cœur de Lion",
+        "B": "Henri VIII",
+        "C": "Édouard VII",
+        "D": "Guillaume le Conquérant"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0257",
+      "difficulty": "easy",
+      "question": "Quelle ville est surnommée 'La Grosse Pomme' (The Big Apple) ?",
+      "options": {
+        "A": "Los Angeles",
+        "B": "New York",
+        "C": "Chicago",
+        "D": "San Francisco"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0258",
+      "difficulty": "medium",
+      "question": "Quel savant a découvert la pénicilline, le premier antibiotique ?",
+      "options": {
+        "A": "Louis Pasteur",
+        "B": "Alexander Fleming",
+        "C": "Marie Curie",
+        "D": "Robert Koch"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0259",
+      "difficulty": "hard",
+      "question": "Comment s'appelait le système de séparation raciale en Afrique du Sud jusqu'en 1994 ?",
+      "options": {
+        "A": "La Ségrégation",
+        "B": "L'Apartheid",
+        "C": "Le Colonialisme",
+        "D": "Le Boycott"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0260",
+      "difficulty": "easy",
+      "question": "Quel super-héros porte un marteau magique appelé Mjöllnir ?",
+      "options": {
+        "A": "Iron Man",
+        "B": "Thor",
+        "C": "Hulk",
+        "D": "Captain America"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0261",
+      "difficulty": "medium",
+      "question": "Qui a peint la fresque 'La Cène' représentant le dernier repas de Jésus ?",
+      "options": {
+        "A": "Michel-Ange",
+        "B": "Léonard de Vinci",
+        "C": "Raphaël",
+        "D": "Caravage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0262",
+      "difficulty": "hard",
+      "question": "Quel philosophe français a dit 'Je pense, donc je suis' ?",
+      "options": {
+        "A": "Voltaire",
+        "B": "René Descartes",
+        "C": "Jean-Jacques Rousseau",
+        "D": "Blaise Pascal"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0263",
+      "difficulty": "easy",
+      "question": "Quel pays européen a la forme d'une botte ?",
+      "options": {
+        "A": "La France",
+        "B": "L'Italie",
+        "C": "L'Espagne",
+        "D": "La Grèce"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0264",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le plus grand temple d'Athènes, situé sur l'Acropole ?",
+      "options": {
+        "A": "Le Panthéon",
+        "B": "Le Parthénon",
+        "C": "L'Érechthéion",
+        "D": "Le temple d'Héphaïstos"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0265",
+      "difficulty": "hard",
+      "question": "Quel événement de 1453 marque traditionnellement la fin du Moyen Âge ?",
+      "options": {
+        "A": "La découverte de l'Amérique",
+        "B": "La chute de Constantinople",
+        "C": "L'invention de l'imprimerie",
+        "D": "La fin de la guerre de Cent Ans"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0266",
+      "difficulty": "easy",
+      "question": "Quelle langue parlait-on officiellement dans l'Empire romain ?",
+      "options": {
+        "A": "L'Italien",
+        "B": "Le Latin",
+        "C": "Le Grec",
+        "D": "Le Français"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0267",
+      "difficulty": "medium",
+      "question": "Qui était le président des États-Unis pendant la crise des missiles de Cuba ?",
+      "options": {
+        "A": "Richard Nixon",
+        "B": "John F. Kennedy",
+        "C": "Dwight Eisenhower",
+        "D": "Lyndon Johnson"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0268",
+      "difficulty": "hard",
+      "question": "Comment s'appelle le mouvement artistique fondé par Claude Monet ?",
+      "options": {
+        "A": "Le Cubisme",
+        "B": "L'Impressionnisme",
+        "C": "Le Surréalisme",
+        "D": "Le Classicisme"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0269",
+      "difficulty": "easy",
+      "question": "Quel pays a pour capitale Londres ?",
+      "options": {
+        "A": "L'Irlande",
+        "B": "Le Royaume-Uni",
+        "C": "L'Écosse",
+        "D": "Le Pays de Galles"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0270",
+      "difficulty": "medium",
+      "question": "Quel animal est le symbole de la République française ?",
+      "options": {
+        "A": "L'Aigle",
+        "B": "Le Coq",
+        "C": "Le Lion",
+        "D": "Le Cheval"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0271",
+      "difficulty": "hard",
+      "question": "Quel traité de 1957 est l'acte de naissance de la Communauté Économique Européenne ?",
+      "options": {
+        "A": "Le traité de Paris",
+        "B": "Le traité de Rome",
+        "C": "Le traité de Maastricht",
+        "D": "Le traité de Lisbonne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0272",
+      "difficulty": "easy",
+      "question": "Comment s'appelle l'endroit où les gladiateurs s'entraînaient ?",
+      "options": {
+        "A": "Une école",
+        "B": "Une caserne ou Ludus",
+        "C": "Un gymnase",
+        "D": "Un stade"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0273",
+      "difficulty": "medium",
+      "question": "Qui était le chef des armées françaises lors de la victoire de la Marne en 1914 ?",
+      "options": {
+        "A": "Le Maréchal Pétain",
+        "B": "Le Maréchal Joffre",
+        "C": "Le Maréchal Foch",
+        "D": "Le Général de Gaulle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0274",
+      "difficulty": "hard",
+      "question": "Quel compositeur a écrit l'opéra 'La Flûte enchantée' ?",
+      "options": {
+        "A": "Beethoven",
+        "B": "Mozart",
+        "C": "Wagner",
+        "D": "Verdi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0275",
+      "difficulty": "easy",
+      "question": "Quel pays est célèbre pour ses moulins à vent et ses tulipes ?",
+      "options": {
+        "A": "La Belgique",
+        "B": "Les Pays-Bas",
+        "C": "Le Danemark",
+        "D": "La Suède"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0276",
+      "difficulty": "medium",
+      "question": "Quel roi de France a fait construire le château de Chambord ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "François Ier",
+        "C": "Henri IV",
+        "D": "Charles IX"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0277",
+      "difficulty": "hard",
+      "question": "Qui était la déesse de l'amour dans la mythologie romaine ?",
+      "options": {
+        "A": "Minerve",
+        "B": "Vénus",
+        "C": "Diane",
+        "D": "Junon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0278",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le grand bateau qui a emmené les premiers colons en Amérique ?",
+      "options": {
+        "A": "Le Titanic",
+        "B": "Le Mayflower",
+        "C": "Le Santa Maria",
+        "D": "L'Hermione"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0279",
+      "difficulty": "medium",
+      "question": "Quel inventeur est connu pour avoir déposé plus de 1000 brevets, dont l'ampoule électrique ?",
+      "options": {
+        "A": "Nikola Tesla",
+        "B": "Thomas Edison",
+        "C": "Graham Bell",
+        "D": "Guglielmo Marconi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0280",
+      "difficulty": "hard",
+      "question": "Dans quel pays s'est déroulée la bataille d'Austerlitz ?",
+      "options": {
+        "A": "En Allemagne",
+        "B": "En République Tchèque actuelle",
+        "C": "En Autriche",
+        "D": "En Russie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0281",
+      "difficulty": "easy",
+      "question": "Quel est le nom du plus haut sommet du monde ?",
+      "options": {
+        "A": "Le Mont Blanc",
+        "B": "L'Everest",
+        "C": "Le Kilimandjaro",
+        "D": "L'Annapurna"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0282",
+      "difficulty": "medium",
+      "question": "Qui était le dieu grec de la mer ?",
+      "options": {
+        "A": "Zeus",
+        "B": "Poséidon",
+        "C": "Hadès",
+        "D": "Dionysos"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0283",
+      "difficulty": "hard",
+      "question": "Quel naturaliste a écrit 'L'Origine des espèces' et a expliqué l'évolution ?",
+      "options": {
+        "A": "Lamarck",
+        "B": "Charles Darwin",
+        "C": "Buffon",
+        "D": "Mendel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0284",
+      "difficulty": "easy",
+      "question": "Dans quelle ville peut-on visiter le musée du Louvre ?",
+      "options": {
+        "A": "Londres",
+        "B": "Paris",
+        "C": "Madrid",
+        "D": "Rome"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0285",
+      "difficulty": "medium",
+      "question": "Quel navigateur a été le premier à faire le tour du monde (même s'il est mort en route) ?",
+      "options": {
+        "A": "Christophe Colomb",
+        "B": "Ferdinand Magellan",
+        "C": "Vasco de Gama",
+        "D": "James Cook"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0286",
+      "difficulty": "hard",
+      "question": "Comment s'appelle la période de paix imposée par l'Empire romain à son apogée ?",
+      "options": {
+        "A": "La Paix de Dieu",
+        "B": "La Pax Romana",
+        "C": "La Trêve olympique",
+        "D": "Le Siècle d'Auguste"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0287",
+      "difficulty": "easy",
+      "question": "Quel petit garçon de bois voit son nez s'allonger quand il ment ?",
+      "options": {
+        "A": "Peter Pan",
+        "B": "Pinocchio",
+        "C": "Mowgli",
+        "D": "Tom Pouce"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0288",
+      "difficulty": "medium",
+      "question": "Quel pays a été coupé en deux par un mur entre 1961 et 1989 ?",
+      "options": {
+        "A": "La Corée",
+        "B": "L'Allemagne",
+        "C": "Le Vietnam",
+        "D": "La Chine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0289",
+      "difficulty": "hard",
+      "question": "Quelle cité antique a été détruite par Rome après trois guerres ?",
+      "options": {
+        "A": "Athènes",
+        "B": "Carthage",
+        "C": "Alexandrie",
+        "D": "Sparte"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0290",
+      "difficulty": "easy",
+      "question": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+      "options": {
+        "A": "Le Violet",
+        "B": "Le Vert",
+        "C": "L'Orange",
+        "D": "Le Marron"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0291",
+      "difficulty": "medium",
+      "question": "Qui était le chef des Gaulois battu par Jules César à Alésia ?",
+      "options": {
+        "A": "Astérix",
+        "B": "Vercingétorix",
+        "C": "Obélix",
+        "D": "Ambiorix"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0292",
+      "difficulty": "hard",
+      "question": "Quelle femme a été la première Première ministre du Royaume-Uni, surnommée 'La Dame de Fer' ?",
+      "options": {
+        "A": "Angela Merkel",
+        "B": "Margaret Thatcher",
+        "C": "Theresa May",
+        "D": "Indira Gandhi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0293",
+      "difficulty": "easy",
+      "question": "Quel est le nom du satellite naturel de la Terre ?",
+      "options": {
+        "A": "Mars",
+        "B": "La Lune",
+        "C": "Vénus",
+        "D": "Le Soleil"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0294",
+      "difficulty": "medium",
+      "question": "Quelle invention a permis de s'éclairer la nuit sans danger avant l'électricité ?",
+      "options": {
+        "A": "La lampe à gaz",
+        "B": "La lampe à pétrole",
+        "C": "La bougie de cire",
+        "D": "La torche de résine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0295",
+      "difficulty": "hard",
+      "question": "Quel astronome a découvert les quatre plus gros satellites de Jupiter ?",
+      "options": {
+        "A": "Copernic",
+        "B": "Galilée",
+        "C": "Kepler",
+        "D": "Cassini"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0296",
+      "difficulty": "easy",
+      "question": "Quel pays a pour drapeau 'Le drapeau étoilé' (Stars and Stripes) ?",
+      "options": {
+        "A": "Le Canada",
+        "B": "Les États-Unis",
+        "C": "L'Australie",
+        "D": "Le Brésil"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0297",
+      "difficulty": "medium",
+      "question": "Comment s'appelle l'épopée grecque racontant le retour d'Ulysse chez lui ?",
+      "options": {
+        "A": "L'Iliade",
+        "B": "L'Odyssée",
+        "C": "L'Énéide",
+        "D": "La Théogonie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0298",
+      "difficulty": "hard",
+      "question": "Quel empereur a été sacré à Rome le jour de Noël de l'an 800 ?",
+      "options": {
+        "A": "Napoléon",
+        "B": "Charlemagne",
+        "C": "Clovis",
+        "D": "Louis le Pieux"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0299",
+      "difficulty": "easy",
+      "question": "Dans quel pays se trouvent les pyramides de Gizeh ?",
+      "options": {
+        "A": "Le Mexique",
+        "B": "L'Égypte",
+        "C": "Le Pérou",
+        "D": "La Chine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0300",
+      "difficulty": "medium",
+      "question": "Qui a peint les célèbres 'Tournesols' ?",
+      "options": {
+        "A": "Claude Monet",
+        "B": "Vincent van Gogh",
+        "C": "Pablo Picasso",
+        "D": "Henri Matisse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0301",
+      "difficulty": "easy",
+      "question": "Quel mammifère marin est le plus grand animal vivant sur Terre ?",
+      "options": {
+        "A": "Le Grand Requin Blanc",
+        "B": "La Baleine Bleue",
+        "C": "L'Orque",
+        "D": "Le Cachalot"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0302",
+      "difficulty": "medium",
+      "question": "Quel pays a offert la statue de la Liberté aux États-Unis pour le centenaire de leur indépendance ?",
+      "options": {
+        "A": "L'Angleterre",
+        "B": "La France",
+        "C": "L'Espagne",
+        "D": "L'Allemagne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0303",
+      "difficulty": "hard",
+      "question": "Quel traité de 1494 a partagé le 'Nouveau Monde' entre l'Espagne et le Portugal ?",
+      "options": {
+        "A": "Le traité de Versailles",
+        "B": "Le traité de Tordesillas",
+        "C": "Le traité de Madrid",
+        "D": "Le traité de Rome"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0304",
+      "difficulty": "easy",
+      "question": "Comment s'appelle l'étoile la plus proche de la Terre, qui nous éclaire le jour ?",
+      "options": {
+        "A": "La Lune",
+        "B": "Le Soleil",
+        "C": "L'Étoile Polaire",
+        "D": "Sirius"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0305",
+      "difficulty": "medium",
+      "question": "Quel empereur français a été exilé et est mort sur l'île de Sainte-Hélène ?",
+      "options": {
+        "A": "Napoléon III",
+        "B": "Napoléon Ier",
+        "C": "Louis-Philippe",
+        "D": "Charles X"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0306",
+      "difficulty": "hard",
+      "question": "Qui était le dieu du vin et de la fête dans la mythologie grecque ?",
+      "options": {
+        "A": "Apollon",
+        "B": "Dionysos",
+        "C": "Hermès",
+        "D": "Arès"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0307",
+      "difficulty": "easy",
+      "question": "Quelle ville est célèbre pour son grand carnaval et ses défilés de samba ?",
+      "options": {
+        "A": "Venise",
+        "B": "Rio de Janeiro",
+        "C": "Nice",
+        "D": "La Nouvelle-Orléans"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0308",
+      "difficulty": "medium",
+      "question": "Quel inventeur a créé le code fait de points et de traits pour communiquer par télégraphe ?",
+      "options": {
+        "A": "Graham Bell",
+        "B": "Samuel Morse",
+        "C": "Thomas Edison",
+        "D": "Guglielmo Marconi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0309",
+      "difficulty": "hard",
+      "question": "Comment s'appelait le premier satellite artificiel lancé dans l'espace en 1957 ?",
+      "options": {
+        "A": "Apollo 11",
+        "B": "Spoutnik 1",
+        "C": "Explorer 1",
+        "D": "Vostok 1"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0310",
+      "difficulty": "easy",
+      "question": "Quel pays est le pays d'origine du Père Noël selon la légende ?",
+      "options": {
+        "A": "La Laponie (Finlande)",
+        "B": "Le Canada",
+        "C": "L'Islande",
+        "D": "La Norvège"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0311",
+      "difficulty": "medium",
+      "question": "Quel écrivain a inventé le personnage de Sherlock Holmes ?",
+      "options": {
+        "A": "Agatha Christie",
+        "B": "Arthur Conan Doyle",
+        "C": "Maurice Leblanc",
+        "D": "Edgar Allan Poe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0312",
+      "difficulty": "hard",
+      "question": "Quel roi de France a été surnommé 'Le Roi-Soleil' ?",
+      "options": {
+        "A": "Louis XIII",
+        "B": "Louis XIV",
+        "C": "Louis XV",
+        "D": "François Ier"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0313",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le bébé du cheval ?",
+      "options": {
+        "A": "Le veau",
+        "B": "Le poulain",
+        "C": "L'agneau",
+        "D": "Le chevreau"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0314",
+      "difficulty": "medium",
+      "question": "Quelle est la capitale de l'Espagne ?",
+      "options": {
+        "A": "Barcelone",
+        "B": "Madrid",
+        "C": "Séville",
+        "D": "Valence"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0315",
+      "difficulty": "hard",
+      "question": "Qui a été la première femme à remporter un prix Nobel ?",
+      "options": {
+        "A": "Irène Joliot-Curie",
+        "B": "Marie Curie",
+        "C": "Mother Teresa",
+        "D": "Rosalind Franklin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0316",
+      "difficulty": "easy",
+      "question": "Dans quelle ville peut-on voir la célèbre tour Big Ben ?",
+      "options": {
+        "A": "Paris",
+        "B": "Londres",
+        "C": "Berlin",
+        "D": "New York"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0317",
+      "difficulty": "medium",
+      "question": "Quel animal est connu pour changer de couleur pour se camoufler ?",
+      "options": {
+        "A": "Le lézard",
+        "B": "Le caméléon",
+        "C": "La grenouille",
+        "D": "Le serpent"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0318",
+      "difficulty": "hard",
+      "question": "Quel compositeur sourd a écrit la célèbre '9ème Symphonie' (Hymne à la Joie) ?",
+      "options": {
+        "A": "Mozart",
+        "B": "Beethoven",
+        "C": "Bach",
+        "D": "Schubert"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0319",
+      "difficulty": "easy",
+      "question": "Quel continent est presque entièrement recouvert de glace ?",
+      "options": {
+        "A": "L'Asie",
+        "B": "L'Antarctique",
+        "C": "L'Europe",
+        "D": "L'Afrique"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0320",
+      "difficulty": "medium",
+      "question": "Qui était le mari de la reine Marie-Antoinette ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Louis XVI",
+        "C": "Napoléon",
+        "D": "Charles X"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0321",
+      "difficulty": "hard",
+      "question": "Quelle bataille de 1815 a marqué la défaite finale de Napoléon Ier ?",
+      "options": {
+        "A": "La bataille d'Austerlitz",
+        "B": "La bataille de Waterloo",
+        "C": "La bataille de Verdun",
+        "D": "La bataille de la Marne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0322",
+      "difficulty": "easy",
+      "question": "Quel est l'organe qui permet de pomper le sang dans tout le corps ?",
+      "options": {
+        "A": "Le cerveau",
+        "B": "Le cœur",
+        "C": "Le poumon",
+        "D": "L'estomac"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0323",
+      "difficulty": "medium",
+      "question": "Quel monument français a été construit par Napoléon pour célébrer ses victoires ?",
+      "options": {
+        "A": "La Tour Eiffel",
+        "B": "L'Arc de Triomphe",
+        "C": "Le Panthéon",
+        "D": "L'Opéra Garnier"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0324",
+      "difficulty": "hard",
+      "question": "Quel médecin a découvert la circulation du sang au 17ème siècle ?",
+      "options": {
+        "A": "Louis Pasteur",
+        "B": "William Harvey",
+        "C": "Claude Bernard",
+        "D": "Ambroise Paré"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0325",
+      "difficulty": "easy",
+      "question": "Quelle est la langue la plus parlée au Brésil ?",
+      "options": {
+        "A": "L'Espagnol",
+        "B": "Le Portugais",
+        "C": "L'Anglais",
+        "D": "Le Français"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0326",
+      "difficulty": "medium",
+      "question": "Quel pays a accueilli la Coupe du Monde de Football en 1998 (remportée par son équipe nationale) ?",
+      "options": {
+        "A": "Le Brésil",
+        "B": "La France",
+        "C": "L'Italie",
+        "D": "L'Allemagne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0327",
+      "difficulty": "hard",
+      "question": "Quel célèbre peintre espagnol est le maître du cubisme ?",
+      "options": {
+        "A": "Salvador Dalí",
+        "B": "Pablo Picasso",
+        "C": "Francisco Goya",
+        "D": "Joan Miró"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0328",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on la femelle du lion ?",
+      "options": {
+        "A": "La liona",
+        "B": "La lionne",
+        "C": "La tigresse",
+        "D": "La léoparde"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0329",
+      "difficulty": "medium",
+      "question": "Quelle planète est surnommée 'La Planète Rouge' ?",
+      "options": {
+        "A": "Vénus",
+        "B": "Mars",
+        "C": "Jupiter",
+        "D": "Saturne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0330",
+      "difficulty": "hard",
+      "question": "Quel philosophe grec a été le professeur d'Alexandre le Grand ?",
+      "options": {
+        "A": "Socrate",
+        "B": "Aristote",
+        "C": "Platon",
+        "D": "Épicure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0331",
+      "difficulty": "easy",
+      "question": "Quelle est la capitale de l'Allemagne ?",
+      "options": {
+        "A": "Munich",
+        "B": "Berlin",
+        "C": "Francfort",
+        "D": "Hambourg"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0332",
+      "difficulty": "medium",
+      "question": "Quel gaz les plantes absorbent-elles pour rejeter de l'oxygène ?",
+      "options": {
+        "A": "Le dioxyde de carbone (CO2)",
+        "B": "L'azote",
+        "C": "Le méthane",
+        "D": "L'hélium"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0333",
+      "difficulty": "hard",
+      "question": "Quelle dynastie régnait en Russie avant la Révolution de 1917 ?",
+      "options": {
+        "A": "Les Bourbons",
+        "B": "Les Romanov",
+        "C": "Les Habsbourg",
+        "D": "Les Tudors"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0334",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le sport qui consiste à nager sous l'eau avec des palmes et un masque ?",
+      "options": {
+        "A": "Le surf",
+        "B": "La plongée",
+        "C": "Le ski nautique",
+        "D": "La voile"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0335",
+      "difficulty": "medium",
+      "question": "Quelle invention de 1450 a permis de fabriquer des livres en grande quantité ?",
+      "options": {
+        "A": "Le papier",
+        "B": "L'imprimerie",
+        "C": "La plume d'oie",
+        "D": "L'ordinateur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0336",
+      "difficulty": "hard",
+      "question": "Qui était le chef du mouvement pour les droits civiques aux USA, auteur du discours 'I Have a Dream' ?",
+      "options": {
+        "A": "Malcolm X",
+        "B": "Martin Luther King Jr.",
+        "C": "Nelson Mandela",
+        "D": "Barack Obama"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0337",
+      "difficulty": "easy",
+      "question": "Quel est le plus grand pays du monde par sa surface ?",
+      "options": {
+        "A": "Le Canada",
+        "B": "La Russie",
+        "C": "La Chine",
+        "D": "Les États-Unis"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0338",
+      "difficulty": "medium",
+      "question": "Quelle ville italienne a été détruite par l'éruption du Vésuve en l'an 79 ?",
+      "options": {
+        "A": "Rome",
+        "B": "Pompéi",
+        "C": "Florence",
+        "D": "Venise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0339",
+      "difficulty": "hard",
+      "question": "Quel était le nom du navire de recherche du Commandant Cousteau ?",
+      "options": {
+        "A": "Le Titanic",
+        "B": "La Calypso",
+        "C": "Le Nautilus",
+        "D": "Le Beagle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0340",
+      "difficulty": "easy",
+      "question": "Quelle est la couleur principale d'une émeraude ?",
+      "options": {
+        "A": "Rouge",
+        "B": "Vert",
+        "C": "Bleu",
+        "D": "Jaune"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0341",
+      "difficulty": "medium",
+      "question": "Quel oiseau est capable de voler en arrière ?",
+      "options": {
+        "A": "L'hirondelle",
+        "B": "Le colibri (oiseau-mouche)",
+        "C": "L'aigle",
+        "D": "Le perroquet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0342",
+      "difficulty": "hard",
+      "question": "Quelle célèbre reine d'Écosse a été exécutée par ordre de sa cousine Élisabeth Ière ?",
+      "options": {
+        "A": "Anne Boleyn",
+        "B": "Marie Stuart",
+        "C": "Victoria",
+        "D": "Catherine d'Aragon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0343",
+      "difficulty": "easy",
+      "question": "Combien de jours y a-t-il dans une année non bissextile ?",
+      "options": {
+        "A": "360",
+        "B": "365",
+        "C": "366",
+        "D": "350"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0344",
+      "difficulty": "medium",
+      "question": "Quel pays a pour symbole la feuille d'érable sur son drapeau ?",
+      "options": {
+        "A": "Les États-Unis",
+        "B": "Le Canada",
+        "C": "Le Japon",
+        "D": "La Suisse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0345",
+      "difficulty": "hard",
+      "question": "Quel événement a déclenché la Première Guerre mondiale en 1914 ?",
+      "options": {
+        "A": "L'invasion de la Pologne",
+        "B": "L'assassinat de l'archiduc François-Ferdinand",
+        "C": "La chute du mur de Berlin",
+        "D": "La révolution russe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0346",
+      "difficulty": "easy",
+      "question": "Comment s'appelle l'endroit où les abeilles fabriquent le miel ?",
+      "options": {
+        "A": "Un nid",
+        "B": "Une ruche",
+        "C": "Une grotte",
+        "D": "Un terrier"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0347",
+      "difficulty": "medium",
+      "question": "Quel est le nom du plus grand océan de la planète ?",
+      "options": {
+        "A": "L'Océan Atlantique",
+        "B": "L'Océan Pacifique",
+        "C": "L'Océan Indien",
+        "D": "L'Océan Arctique"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0348",
+      "difficulty": "hard",
+      "question": "Quel savant a formulé la théorie de la relativité ?",
+      "options": {
+        "A": "Isaac Newton",
+        "B": "Albert Einstein",
+        "C": "Stephen Hawking",
+        "D": "Marie Curie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0349",
+      "difficulty": "easy",
+      "question": "Quel est l'animal qui produit la laine pour faire des pulls ?",
+      "options": {
+        "A": "La vache",
+        "B": "Le mouton",
+        "C": "Le cochon",
+        "D": "Le poulet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0350",
+      "difficulty": "medium",
+      "question": "Quelle ville est surnommée 'La Ville Lumière' ?",
+      "options": {
+        "A": "New York",
+        "B": "Paris",
+        "C": "Londres",
+        "D": "Tokyo"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0351",
+      "difficulty": "easy",
+      "question": "Quel fruit Newton aurait-il vu tomber d'un arbre pour comprendre la gravité ?",
+      "options": {
+        "A": "Une poire",
+        "B": "Une pomme",
+        "C": "Une cerise",
+        "D": "Une orange"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0352",
+      "difficulty": "medium",
+      "question": "Qui a écrit le célèbre conte 'Le Petit Prince' ?",
+      "options": {
+        "A": "Victor Hugo",
+        "B": "Antoine de Saint-Exupéry",
+        "C": "Jules Verne",
+        "D": "Jean de La Fontaine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0353",
+      "difficulty": "hard",
+      "question": "Quel pharaon a tenté d'imposer le culte d'un dieu unique, Aton, en Égypte ?",
+      "options": {
+        "A": "Ramsès II",
+        "B": "Akhenaton",
+        "C": "Toutânkhamon",
+        "D": "Khéops"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0354",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le liquide chaud qui sort d'un volcan en éruption ?",
+      "options": {
+        "A": "De l'eau",
+        "B": "De la lave",
+        "C": "De la boue",
+        "D": "Du pétrole"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0355",
+      "difficulty": "medium",
+      "question": "Quel pays a pour hymne national 'La Marseillaise' ?",
+      "options": {
+        "A": "La Belgique",
+        "B": "La France",
+        "C": "La Suisse",
+        "D": "Le Canada"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0356",
+      "difficulty": "hard",
+      "question": "Qui était le président français lors de la chute du mur de Berlin en 1989 ?",
+      "options": {
+        "A": "Valéry Giscard d'Estaing",
+        "B": "François Mitterrand",
+        "C": "Jacques Chirac",
+        "D": "Charles de Gaulle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0357",
+      "difficulty": "easy",
+      "question": "Quel est l'animal le plus rapide du monde sur terre ?",
+      "options": {
+        "A": "Le lion",
+        "B": "Le guépard",
+        "C": "Le cheval",
+        "D": "L'autruche"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0358",
+      "difficulty": "medium",
+      "question": "Dans quel pays se trouve la cité antique inca de Machu Picchu ?",
+      "options": {
+        "A": "Le Mexique",
+        "B": "Le Pérou",
+        "C": "La Bolivie",
+        "D": "Le Chili"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0359",
+      "difficulty": "hard",
+      "question": "Quel roi d'Angleterre a été forcé de signer la 'Magna Carta' en 1215 ?",
+      "options": {
+        "A": "Richard Cœur de Lion",
+        "B": "Jean sans Terre",
+        "C": "Henri III",
+        "D": "Édouard Ier"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0360",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on les personnes qui voyageaient dans l'espace ?",
+      "options": {
+        "A": "Des marins",
+        "B": "Des astronautes",
+        "C": "Des pilotes",
+        "D": "Des explorateurs"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0361",
+      "difficulty": "medium",
+      "question": "Quelle ville américaine est célèbre pour ses ponts suspendus et son brouillard (Golden Gate) ?",
+      "options": {
+        "A": "Los Angeles",
+        "B": "San Francisco",
+        "C": "Seattle",
+        "D": "Miami"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0362",
+      "difficulty": "hard",
+      "question": "Qui a sculpté la statue de David à la Renaissance ?",
+      "options": {
+        "A": "Léonard de Vinci",
+        "B": "Michel-Ange",
+        "C": "Donatello",
+        "D": "Bernini"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0363",
+      "difficulty": "easy",
+      "question": "Quel pays est connu pour ses pyramides et son fleuve, le Nil ?",
+      "options": {
+        "A": "Le Maroc",
+        "B": "L'Égypte",
+        "C": "L'Algérie",
+        "D": "Le Kenya"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0364",
+      "difficulty": "medium",
+      "question": "Quel est le nom du célèbre détective belge créé par Agatha Christie ?",
+      "options": {
+        "A": "Sherlock Holmes",
+        "B": "Hercule Poirot",
+        "C": "Arsène Lupin",
+        "D": "Commissaire Maigret"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0365",
+      "difficulty": "hard",
+      "question": "Quelle reine de France était la mère de trois rois de France (François II, Charles IX, Henri III) ?",
+      "options": {
+        "A": "Anne d'Autriche",
+        "B": "Catherine de Médicis",
+        "C": "Marie de Médicis",
+        "D": "Anne de Bretagne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0366",
+      "difficulty": "easy",
+      "question": "Quel est le nom du grand canyon situé aux États-Unis ?",
+      "options": {
+        "A": "Le Grand Canyon",
+        "B": "Les Gorges du Verdon",
+        "C": "La Vallée de la Mort",
+        "D": "Le Canyon du Colorado"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0367",
+      "difficulty": "medium",
+      "question": "Qui était le chef de la Révolution cubaine avec Fidel Castro ?",
+      "options": {
+        "A": "Hugo Chávez",
+        "B": "Che Guevara",
+        "C": "Simon Bolivar",
+        "D": "Zapata"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0368",
+      "difficulty": "hard",
+      "question": "Quel souverain prussien était un ami proche de Voltaire et un 'despote éclairé' ?",
+      "options": {
+        "A": "Guillaume II",
+        "B": "Frédéric II le Grand",
+        "C": "Bismarck",
+        "D": "Louis II de Bavière"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0369",
+      "difficulty": "easy",
+      "question": "Quel métal précieux est de couleur jaune ?",
+      "options": {
+        "A": "L'argent",
+        "B": "L'or",
+        "C": "Le cuivre",
+        "D": "Le fer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0370",
+      "difficulty": "medium",
+      "question": "Quel était le nom de famille de la reine Élisabeth II ?",
+      "options": {
+        "A": "Tudor",
+        "B": "Windsor",
+        "C": "Stuart",
+        "D": "Plantagenêt"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0371",
+      "difficulty": "hard",
+      "question": "Quelle ville fut la capitale de l'Allemagne de l'Ouest avant la réunification ?",
+      "options": {
+        "A": "Berlin",
+        "B": "Bonn",
+        "C": "Munich",
+        "D": "Hambourg"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0372",
+      "difficulty": "easy",
+      "question": "Combien de pattes a une araignée ?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0373",
+      "difficulty": "medium",
+      "question": "Quel physicien a découvert la loi de la chute des corps et a défendu l'héliocentrisme ?",
+      "options": {
+        "A": "Newton",
+        "B": "Galilée",
+        "C": "Pascal",
+        "D": "Einstein"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0374",
+      "difficulty": "hard",
+      "question": "Quel traité de 1648 a mis fin à la guerre de Trente Ans en Europe ?",
+      "options": {
+        "A": "Le traité d'Utrecht",
+        "B": "Les traités de Westphalie",
+        "C": "Le traité de Nimègue",
+        "D": "Le traité des Pyrénées"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0375",
+      "difficulty": "easy",
+      "question": "Quel est le nom de la montagne sacrée du Japon ?",
+      "options": {
+        "A": "L'Everest",
+        "B": "Le Mont Fuji",
+        "C": "Le Kilimandjaro",
+        "D": "L'Olympe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0376",
+      "difficulty": "medium",
+      "question": "Quel écrivain français a écrit 'Les Misérables' ?",
+      "options": {
+        "A": "Émile Zola",
+        "B": "Victor Hugo",
+        "C": "Gustave Flaubert",
+        "D": "Balzac"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0377",
+      "difficulty": "hard",
+      "question": "Quelle était la capitale de l'Empire aztèque, située là où se trouve Mexico aujourd'hui ?",
+      "options": {
+        "A": "Cuzco",
+        "B": "Tenochtitlan",
+        "C": "Tikal",
+        "D": "Chichén Itzá"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0378",
+      "difficulty": "easy",
+      "question": "Quelle couleur obtient-on en mélangeant du rouge et du bleu ?",
+      "options": {
+        "A": "Le vert",
+        "B": "Le violet",
+        "C": "L'orange",
+        "D": "Le rose"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0379",
+      "difficulty": "medium",
+      "question": "Quel explorateur a été le premier Européen à voir l'océan Pacifique depuis l'Amérique ?",
+      "options": {
+        "A": "Magellan",
+        "B": "Vasco Núñez de Balboa",
+        "C": "Cortés",
+        "D": "Pizarro"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0380",
+      "difficulty": "hard",
+      "question": "En quelle année l'esclavage a-t-il été définitivement aboli en France ?",
+      "options": {
+        "A": "1789",
+        "B": "1848",
+        "C": "1804",
+        "D": "1905"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0381",
+      "difficulty": "easy",
+      "question": "Quel est le nom de la galaxie dans laquelle nous vivons ?",
+      "options": {
+        "A": "Andromède",
+        "B": "La Voie Lactée",
+        "C": "Orion",
+        "D": "Le Grand Nuage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0382",
+      "difficulty": "medium",
+      "question": "Quel roi a régné le plus longtemps dans l'histoire de France ?",
+      "options": {
+        "A": "Saint Louis",
+        "B": "Louis XIV",
+        "C": "Louis XV",
+        "D": "Henri IV"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0383",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'Empire Mandingue, considéré comme l'un des hommes les plus riches de l'histoire ?",
+      "options": {
+        "A": "Soundiata Keïta",
+        "B": "Mansa Moussa",
+        "C": "Chaka Zulu",
+        "D": "Behanzin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0384",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le sommeil profond de certains animaux pendant l'hiver ?",
+      "options": {
+        "A": "La sieste",
+        "B": "L'hibernation",
+        "C": "La migration",
+        "D": "Le repos"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0385",
+      "difficulty": "medium",
+      "question": "Qui a peint 'Le Cri', célèbre tableau représentant l'angoisse ?",
+      "options": {
+        "A": "Van Gogh",
+        "B": "Edvard Munch",
+        "C": "Salvador Dalí",
+        "D": "Gustav Klimt"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0386",
+      "difficulty": "hard",
+      "question": "Quel scientifique a découvert les lois de l'hérédité en étudiant des petits pois ?",
+      "options": {
+        "A": "Darwin",
+        "B": "Gregor Mendel",
+        "C": "Pasteur",
+        "D": "Lamarck"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0387",
+      "difficulty": "easy",
+      "question": "Quelle est la capitale de la Chine ?",
+      "options": {
+        "A": "Shanghai",
+        "B": "Pékin (Beijing)",
+        "C": "Hong Kong",
+        "D": "Canton"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0388",
+      "difficulty": "medium",
+      "question": "Quelle était la fonction principale de la Grande Muraille de Chine ?",
+      "options": {
+        "A": "Une route commerciale",
+        "B": "Une barrière de défense",
+        "C": "Un monument religieux",
+        "D": "Un aqueduc"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0389",
+      "difficulty": "hard",
+      "question": "Qui était la déesse égyptienne de la magie et du foyer, épouse d'Osiris ?",
+      "options": {
+        "A": "Bastet",
+        "B": "Isis",
+        "C": "Hathor",
+        "D": "Sekhmet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0390",
+      "difficulty": "easy",
+      "question": "Quelle est la fleur qui produit le safran ?",
+      "options": {
+        "A": "La rose",
+        "B": "Le crocus",
+        "C": "La tulipe",
+        "D": "Le lys"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0391",
+      "difficulty": "medium",
+      "question": "Quel pays a pour langue officielle le japonais ?",
+      "options": {
+        "A": "La Chine",
+        "B": "Le Japon",
+        "C": "La Corée",
+        "D": "Le Vietnam"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0392",
+      "difficulty": "hard",
+      "question": "Quel philosophe des Lumières a dirigé l'écriture de l'Encyclopédie avec d'Alembert ?",
+      "options": {
+        "A": "Voltaire",
+        "B": "Denis Diderot",
+        "C": "Rousseau",
+        "D": "Montesquieu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0393",
+      "difficulty": "easy",
+      "question": "Quel animal est le symbole de la paix ?",
+      "options": {
+        "A": "Le lion",
+        "B": "La colombe",
+        "C": "L'aigle",
+        "D": "Le cygne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0394",
+      "difficulty": "medium",
+      "question": "Quel pays a inventé les Jeux Olympiques ?",
+      "options": {
+        "A": "L'Italie",
+        "B": "La Grèce",
+        "C": "La France",
+        "D": "L'Égypte"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0395",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la première femme à être allée dans l'espace en 1963 ?",
+      "options": {
+        "A": "Sally Ride",
+        "B": "Valentina Terechkova",
+        "C": "Claudie Haigneré",
+        "D": "Peggy Whitson"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0396",
+      "difficulty": "easy",
+      "question": "Quel est le plus petit continent du monde ?",
+      "options": {
+        "A": "L'Europe",
+        "B": "L'Océanie",
+        "C": "L'Afrique",
+        "D": "L'Amérique du Sud"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0397",
+      "difficulty": "medium",
+      "question": "Quel explorateur norvégien a traversé le Pacifique sur un radeau de balsa nommé Kon-Tiki ?",
+      "options": {
+        "A": "Roald Amundsen",
+        "B": "Thor Heyerdahl",
+        "C": "Fridtjof Nansen",
+        "D": "Erik le Rouge"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0398",
+      "difficulty": "hard",
+      "question": "Qui était le chef du gouvernement de la France Libre pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Philippe Pétain",
+        "B": "Charles de Gaulle",
+        "C": "Léon Blum",
+        "D": "Jean Moulin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0399",
+      "difficulty": "easy",
+      "question": "Combien de cœurs possède un poulpe ?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "2",
+        "D": "0"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0400",
+      "difficulty": "medium",
+      "question": "Quelle est la capitale de la Russie ?",
+      "options": {
+        "A": "Saint-Pétersbourg",
+        "B": "Moscou",
+        "C": "Kiev",
+        "D": "Varsovie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0401",
+      "difficulty": "easy",
+      "question": "Quel organe nous permet de respirer ?",
+      "options": {
+        "A": "Le cœur",
+        "B": "Les poumons",
+        "C": "Le foie",
+        "D": "L'estomac"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0402",
+      "difficulty": "medium",
+      "question": "Quel inventeur a déposé le brevet du téléphone en 1876 ?",
+      "options": {
+        "A": "Thomas Edison",
+        "B": "Alexander Graham Bell",
+        "C": "Nikola Tesla",
+        "D": "Samuel Morse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0403",
+      "difficulty": "hard",
+      "question": "Quel empereur romain a légalisé le christianisme avec l'édit de Milan ?",
+      "options": {
+        "A": "Néron",
+        "B": "Constantin Ier",
+        "C": "Auguste",
+        "D": "Marc Aurèle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0404",
+      "difficulty": "easy",
+      "question": "Quel est le nom du bateau qui a coulé après avoir heurté un iceberg en 1912 ?",
+      "options": {
+        "A": "Le Queen Mary",
+        "B": "Le Titanic",
+        "C": "Le France",
+        "D": "Le Beagle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0405",
+      "difficulty": "medium",
+      "question": "Dans quelle ville se trouve le célèbre gratte-ciel Empire State Building ?",
+      "options": {
+        "A": "Chicago",
+        "B": "New York",
+        "C": "Los Angeles",
+        "D": "San Francisco"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0406",
+      "difficulty": "hard",
+      "question": "Qui était le dieu égyptien à tête de faucon, protecteur des pharaons ?",
+      "options": {
+        "A": "Anubis",
+        "B": "Horus",
+        "C": "Seth",
+        "D": "Sobek"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0407",
+      "difficulty": "easy",
+      "question": "Quelle est la couleur du rubis ?",
+      "options": {
+        "A": "Bleu",
+        "B": "Rouge",
+        "C": "Jaune",
+        "D": "Vert"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0408",
+      "difficulty": "medium",
+      "question": "Quel explorateur a donné son nom au détroit situé au sud du Chili ?",
+      "options": {
+        "A": "Vasco de Gama",
+        "B": "Ferdinand Magellan",
+        "C": "Amerigo Vespucci",
+        "D": "James Cook"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0409",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la première dynastie de l'Empire de Chine (vers 221 av. J.-C.) ?",
+      "options": {
+        "A": "Han",
+        "B": "Qin",
+        "C": "Ming",
+        "D": "Tang"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0410",
+      "difficulty": "easy",
+      "question": "Comment s'appelle la poudre que les abeilles transportent de fleur en fleur ?",
+      "options": {
+        "A": "La sève",
+        "B": "Le pollen",
+        "C": "Le nectar",
+        "D": "La résine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0411",
+      "difficulty": "medium",
+      "question": "Qui est l'auteur du roman d'aventure 'Vingt mille lieues sous les mers' ?",
+      "options": {
+        "A": "Robert Louis Stevenson",
+        "B": "Jules Verne",
+        "C": "Charles Dickens",
+        "D": "Alexandre Dumas"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0412",
+      "difficulty": "hard",
+      "question": "Quelle reine d'Angleterre était surnommée 'La Reine Vierge' ?",
+      "options": {
+        "A": "Victoria",
+        "B": "Élisabeth Ière",
+        "C": "Marie Ière",
+        "D": "Anne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0413",
+      "difficulty": "easy",
+      "question": "Quelle est la capitale du Royaume-Uni ?",
+      "options": {
+        "A": "Édimbourg",
+        "B": "Londres",
+        "C": "Dublin",
+        "D": "Cardiff"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0414",
+      "difficulty": "medium",
+      "question": "Quel pays européen est célèbre pour ses fjords ?",
+      "options": {
+        "A": "La Suède",
+        "B": "La Norvège",
+        "C": "La Finlande",
+        "D": "Le Danemark"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0415",
+      "difficulty": "hard",
+      "question": "Qui a peint 'La Jeune Fille à la perle' ?",
+      "options": {
+        "A": "Rembrandt",
+        "B": "Johannes Vermeer",
+        "C": "Van Gogh",
+        "D": "Rubens"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0416",
+      "difficulty": "easy",
+      "question": "Quel oiseau ne peut pas voler mais court très vite ?",
+      "options": {
+        "A": "Le pingouin",
+        "B": "L'autruche",
+        "C": "Le paon",
+        "D": "Le pélican"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0417",
+      "difficulty": "medium",
+      "question": "Quel président américain a aboli l'esclavage aux États-Unis ?",
+      "options": {
+        "A": "George Washington",
+        "B": "Abraham Lincoln",
+        "C": "Thomas Jefferson",
+        "D": "Andrew Jackson"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0418",
+      "difficulty": "hard",
+      "question": "Quel compositeur baroque est l'auteur des 'Quatre Saisons' ?",
+      "options": {
+        "A": "Bach",
+        "B": "Antonio Vivaldi",
+        "C": "Haendel",
+        "D": "Lully"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0419",
+      "difficulty": "easy",
+      "question": "Quel animal vit dans une tanière et hiberne l'hiver ?",
+      "options": {
+        "A": "Le loup",
+        "B": "L'ours",
+        "C": "Le cerf",
+        "D": "Le renard"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0420",
+      "difficulty": "medium",
+      "question": "Dans quel océan se trouve l'île de Madagascar ?",
+      "options": {
+        "A": "Océan Atlantique",
+        "B": "Océan Indien",
+        "C": "Océan Pacifique",
+        "D": "Océan Arctique"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0421",
+      "difficulty": "hard",
+      "question": "Comment s'appelle le texte fondateur de la démocratie athénienne au 5ème siècle av. J.-C. ?",
+      "options": {
+        "A": "Le Code d'Hammourabi",
+        "B": "Les réformes de Clisthène",
+        "C": "La Grande Charte",
+        "D": "Les Douze Tables"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0422",
+      "difficulty": "easy",
+      "question": "Quelle est la monnaie utilisée dans la plupart des pays de l'Union européenne ?",
+      "options": {
+        "A": "Le Franc",
+        "B": "L'Euro",
+        "C": "La Livre",
+        "D": "Le Dollar"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0423",
+      "difficulty": "medium",
+      "question": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+      "options": {
+        "A": "L'oxygène",
+        "B": "L'hydrogène",
+        "C": "L'hélium",
+        "D": "Le carbone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0424",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'expédition qui a découvert la tombe de Toutânkhamon en 1922 ?",
+      "options": {
+        "A": "Lord Carnarvon",
+        "B": "Howard Carter",
+        "C": "Zahi Hawass",
+        "D": "Champollion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0425",
+      "difficulty": "easy",
+      "question": "Dans quel pays peut-on voir la Tour Eiffel ?",
+      "options": {
+        "A": "En Angleterre",
+        "B": "En France",
+        "C": "En Allemagne",
+        "D": "En Italie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0426",
+      "difficulty": "medium",
+      "question": "Quel pays est surnommé 'Le pays du Soleil Levant' ?",
+      "options": {
+        "A": "La Chine",
+        "B": "Le Japon",
+        "C": "La Thaïlande",
+        "D": "La Corée du Sud"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0427",
+      "difficulty": "hard",
+      "question": "Qui a écrit 'L'Iliade' et 'L'Odyssée' ?",
+      "options": {
+        "A": "Sophocle",
+        "B": "Homère",
+        "C": "Euripide",
+        "D": "Virgile"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0428",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le petit de la vache ?",
+      "options": {
+        "A": "Le poulain",
+        "B": "Le veau",
+        "C": "Le chevreau",
+        "D": "L'agneau"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0429",
+      "difficulty": "medium",
+      "question": "Quel inventeur suédois a créé le prix Nobel ?",
+      "options": {
+        "A": "Gustaf Dalén",
+        "B": "Alfred Nobel",
+        "C": "Anders Celsius",
+        "D": "Carl von Linné"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0430",
+      "difficulty": "hard",
+      "question": "Quel explorateur fut le premier à traverser l'Atlantique en avion sans escale en 1927 ?",
+      "options": {
+        "A": "Saint-Exupéry",
+        "B": "Charles Lindbergh",
+        "C": "Jean Mermoz",
+        "D": "Louis Blériot"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0431",
+      "difficulty": "easy",
+      "question": "Combien de couleurs y a-t-il dans l'arc-en-ciel ?",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "9",
+        "D": "12"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0432",
+      "difficulty": "medium",
+      "question": "Quelle est la capitale de l'Australie ?",
+      "options": {
+        "A": "Sydney",
+        "B": "Canberra",
+        "C": "Melbourne",
+        "D": "Perth"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0433",
+      "difficulty": "hard",
+      "question": "Quelle cité grecque était la grande rivale d'Athènes pendant la guerre du Péloponnèse ?",
+      "options": {
+        "A": "Corinthe",
+        "B": "Sparte",
+        "C": "Thèbes",
+        "D": "Mycènes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0434",
+      "difficulty": "easy",
+      "question": "Quel est le nom du scientifique qui étudie les dinosaures ?",
+      "options": {
+        "A": "Un archéologue",
+        "B": "Un paléontologue",
+        "C": "Un géologue",
+        "D": "Un biologiste"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0435",
+      "difficulty": "medium",
+      "question": "Quelle est la plus grande planète du système solaire ?",
+      "options": {
+        "A": "Saturne",
+        "B": "Jupiter",
+        "C": "Neptune",
+        "D": "La Terre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0436",
+      "difficulty": "hard",
+      "question": "Qui était le Premier ministre d'Israël, surnommée 'La Dame de Fer' du Moyen-Orient ?",
+      "options": {
+        "A": "Indira Gandhi",
+        "B": "Golda Meir",
+        "C": "Benazir Bhutto",
+        "D": "Tzipi Livni"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0437",
+      "difficulty": "easy",
+      "question": "De quel pays Madrid est-elle la capitale ?",
+      "options": {
+        "A": "Le Portugal",
+        "B": "L'Espagne",
+        "C": "Le Mexique",
+        "D": "L'Argentine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0438",
+      "difficulty": "medium",
+      "question": "Quel gaz compose environ 78% de l'air que nous respirons ?",
+      "options": {
+        "A": "L'oxygène",
+        "B": "Le diazote (azote)",
+        "C": "Le dioxyde de carbone",
+        "D": "L'argon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0439",
+      "difficulty": "hard",
+      "question": "Quelle était la monnaie de l'Allemagne avant l'Euro ?",
+      "options": {
+        "A": "Le Florin",
+        "B": "Le Deutsche Mark",
+        "C": "Le Schilling",
+        "D": "La Couronne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0440",
+      "difficulty": "easy",
+      "question": "Quel est le nom de l'instrument utilisé pour mesurer la température ?",
+      "options": {
+        "A": "Un baromètre",
+        "B": "Un thermomètre",
+        "C": "Un hygromètre",
+        "D": "Un anémomètre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0441",
+      "difficulty": "medium",
+      "question": "Quel artiste est célèbre pour ses œuvres de Pop Art représentant des boîtes de soupe Campbell ?",
+      "options": {
+        "A": "Keith Haring",
+        "B": "Andy Warhol",
+        "C": "Roy Lichtenstein",
+        "D": "Jean-Michel Basquiat"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0442",
+      "difficulty": "hard",
+      "question": "En quelle année a eu lieu la chute de l'Empire romain d'Orient (prise de Constantinople) ?",
+      "options": {
+        "A": "1492",
+        "B": "1453",
+        "C": "1515",
+        "D": "1204"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0443",
+      "difficulty": "easy",
+      "question": "Quel est le plus grand désert du monde ?",
+      "options": {
+        "A": "Le Gobi",
+        "B": "L'Antarctique (désert de glace)",
+        "C": "Le Sahara",
+        "D": "Le Kalahari"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0444",
+      "difficulty": "medium",
+      "question": "Quel souverain a instauré le Code Civil en France en 1804 ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Napoléon Bonaparte",
+        "C": "Charles de Gaulle",
+        "D": "Louis XVI"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0445",
+      "difficulty": "hard",
+      "question": "Quel pays fut le premier à lancer un être vivant dans l'espace (la chienne Laïka) ?",
+      "options": {
+        "A": "Les États-Unis",
+        "B": "L'URSS",
+        "C": "La Chine",
+        "D": "La France"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0446",
+      "difficulty": "easy",
+      "question": "De quelle couleur est le drapeau de la paix ?",
+      "options": {
+        "A": "Bleu",
+        "B": "Blanc",
+        "C": "Rouge",
+        "D": "Jaune"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0447",
+      "difficulty": "medium",
+      "question": "Qui a découvert la radioactivité avec son mari Pierre ?",
+      "options": {
+        "A": "Simone Veil",
+        "B": "Marie Curie",
+        "C": "Ada Lovelace",
+        "D": "Rosalind Franklin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0448",
+      "difficulty": "hard",
+      "question": "Quelle bataille navale en 1571 a vu la victoire d'une coalition chrétienne sur la flotte ottomane ?",
+      "options": {
+        "A": "Trafalgar",
+        "B": "Lépante",
+        "C": "Actium",
+        "D": "Salamine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0449",
+      "difficulty": "easy",
+      "question": "Quel est le nom de la montagne la plus haute d'Afrique ?",
+      "options": {
+        "A": "Le Mont Kenya",
+        "B": "Le Kilimandjaro",
+        "C": "L'Atlas",
+        "D": "Le Drakensberg"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0450",
+      "difficulty": "medium",
+      "question": "Quel écrivain a créé le personnage de 'Tarzan' ?",
+      "options": {
+        "A": "Rudyard Kipling",
+        "B": "Edgar Rice Burroughs",
+        "C": "Jack London",
+        "D": "H.G. Wells"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0451",
+      "difficulty": "easy",
+      "question": "Quel est l'organe principal du système nerveux, situé dans la tête ?",
+      "options": {
+        "A": "Le cœur",
+        "B": "Le cerveau",
+        "C": "L'estomac",
+        "D": "Le foie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0452",
+      "difficulty": "medium",
+      "question": "Quel scientifique a découvert le vaccin contre la rage en 1885 ?",
+      "options": {
+        "A": "Alexander Fleming",
+        "B": "Louis Pasteur",
+        "C": "Robert Koch",
+        "D": "Edward Jenner"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0453",
+      "difficulty": "hard",
+      "question": "Quel mathématicien britannique a brisé le code Enigma pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Isaac Newton",
+        "B": "Alan Turing",
+        "C": "Stephen Hawking",
+        "D": "Charles Babbage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0454",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on un polygone qui possède trois côtés ?",
+      "options": {
+        "A": "Un carré",
+        "B": "Un triangle",
+        "C": "Un rectangle",
+        "D": "Un losange"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0455",
+      "difficulty": "medium",
+      "question": "Quelle cité antique, célèbre pour sa bibliothèque, a été fondée par Alexandre le Grand en Égypte ?",
+      "options": {
+        "A": "Le Caire",
+        "B": "Alexandrie",
+        "C": "Louxor",
+        "D": "Thèbes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0456",
+      "difficulty": "hard",
+      "question": "Qui était le chef des armées spartiate lors de la bataille des Thermopyles ?",
+      "options": {
+        "A": "Périclès",
+        "B": "Léonidas",
+        "C": "Agamemnon",
+        "D": "Ulysse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0457",
+      "difficulty": "easy",
+      "question": "Quel est le nom de la mer qui borde le sud de la France ?",
+      "options": {
+        "A": "L'Océan Atlantique",
+        "B": "La Mer Méditerranée",
+        "C": "La Mer Rouge",
+        "D": "La Mer Noire"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0458",
+      "difficulty": "medium",
+      "question": "Dans quel pays se trouve le célèbre site de Pétra, taillé dans la roche ?",
+      "options": {
+        "A": "L'Égypte",
+        "B": "La Jordanie",
+        "C": "L'Arabie Saoudite",
+        "D": "La Turquie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0459",
+      "difficulty": "hard",
+      "question": "Quelle impératrice d'Autriche était surnommée 'Sissi' ?",
+      "options": {
+        "A": "Marie-Thérèse",
+        "B": "Élisabeth de Wittelsbach",
+        "C": "Marie-Antoinette",
+        "D": "Catherine II"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0460",
+      "difficulty": "easy",
+      "question": "Quel animal est connu pour sa trompe et ses grandes oreilles ?",
+      "options": {
+        "A": "L'hippopotame",
+        "B": "L'éléphant",
+        "C": "Le rhinocéros",
+        "D": "Le lion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0461",
+      "difficulty": "medium",
+      "question": "Qui a écrit la pièce de théâtre 'L'Avare' ?",
+      "options": {
+        "A": "Jean Racine",
+        "B": "Molière",
+        "C": "Pierre Corneille",
+        "D": "Victor Hugo"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0462",
+      "difficulty": "hard",
+      "question": "Quel roi français a été surnommé le 'Père des Lettres' à la Renaissance ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "François Ier",
+        "C": "Henri IV",
+        "D": "Charles V"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0463",
+      "difficulty": "easy",
+      "question": "Quel pays a pour symbole le trèfle ?",
+      "options": {
+        "A": "L'Écosse",
+        "B": "L'Irlande",
+        "C": "Le Pays de Galles",
+        "D": "L'Angleterre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0464",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on le passage de l'état liquide à l'état gazeux pour l'eau ?",
+      "options": {
+        "A": "La fusion",
+        "B": "L'évaporation",
+        "C": "La condensation",
+        "D": "La solidification"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0465",
+      "difficulty": "hard",
+      "question": "Quel philosophe a écrit 'Le Contrat Social' en 1762 ?",
+      "options": {
+        "A": "Montesquieu",
+        "B": "Jean-Jacques Rousseau",
+        "C": "Diderot",
+        "D": "Voltaire"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0466",
+      "difficulty": "easy",
+      "question": "Quel est le nom de la planète où nous vivons ?",
+      "options": {
+        "A": "Vénus",
+        "B": "La Terre",
+        "C": "Mars",
+        "D": "Jupiter"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0467",
+      "difficulty": "medium",
+      "question": "Quelle femme politique française a porté la loi légalisant l'IVG en 1974 ?",
+      "options": {
+        "A": "Édith Cresson",
+        "B": "Simone Veil",
+        "C": "Françoise Giroud",
+        "D": "Christiane Taubira"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0468",
+      "difficulty": "hard",
+      "question": "Quelle civilisation a inventé l'écriture cunéiforme en Mésopotamie ?",
+      "options": {
+        "A": "Les Égyptiens",
+        "B": "Les Sumériens",
+        "C": "Les Grecs",
+        "D": "Les Phéniciens"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0469",
+      "difficulty": "easy",
+      "question": "Quelle est la capitale de la France ?",
+      "options": {
+        "A": "Lyon",
+        "B": "Paris",
+        "C": "Marseille",
+        "D": "Bordeaux"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0470",
+      "difficulty": "medium",
+      "question": "Quel instrument à vent utilise une anche et est souvent associé au jazz ?",
+      "options": {
+        "A": "La trompette",
+        "B": "Le saxophone",
+        "C": "La flûte",
+        "D": "Le trombone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0471",
+      "difficulty": "hard",
+      "question": "Quel traité de 1919 a mis fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Le traité de Vienne",
+        "B": "Le traité de Versailles",
+        "C": "Le traité de Trianon",
+        "D": "Le traité de Rome"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0472",
+      "difficulty": "easy",
+      "question": "Quelle est la couleur d'un saphir traditionnel ?",
+      "options": {
+        "A": "Rouge",
+        "B": "Bleu",
+        "C": "Vert",
+        "D": "Jaune"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0473",
+      "difficulty": "medium",
+      "question": "Quel navigateur a découvert l'archipel des Bahamas en 1492 ?",
+      "options": {
+        "A": "Vasco de Gama",
+        "B": "Christophe Colomb",
+        "C": "Amerigo Vespucci",
+        "D": "Magellan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0474",
+      "difficulty": "hard",
+      "question": "Qui était le dieu des enfers dans la mythologie grecque ?",
+      "options": {
+        "A": "Poséidon",
+        "B": "Hadès",
+        "C": "Zeus",
+        "D": "Hermès"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0475",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le mouvement de la Terre sur elle-même ?",
+      "options": {
+        "A": "La révolution",
+        "B": "La rotation",
+        "C": "L'inclinaison",
+        "D": "L'orbite"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0476",
+      "difficulty": "medium",
+      "question": "Dans quelle ville peut-on admirer le Colisée ?",
+      "options": {
+        "A": "Athènes",
+        "B": "Rome",
+        "C": "Naples",
+        "D": "Milan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0477",
+      "difficulty": "hard",
+      "question": "Quelle femme d'origine polonaise a découvert le polonium et le radium ?",
+      "options": {
+        "A": "Irène Joliot-Curie",
+        "B": "Marie Curie",
+        "C": "Mileva Marić",
+        "D": "Rosalind Franklin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0478",
+      "difficulty": "easy",
+      "question": "Quel est l'animal qui aboie ?",
+      "options": {
+        "A": "Le chat",
+        "B": "Le chien",
+        "C": "La vache",
+        "D": "Le cochon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0479",
+      "difficulty": "medium",
+      "question": "Quelle invention de 1895 a permis de projeter des films sur grand écran ?",
+      "options": {
+        "A": "La télévision",
+        "B": "Le cinématographe",
+        "C": "Le phonographe",
+        "D": "L'appareil photo"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0480",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'État soviétique lors de la chute de l'URSS ?",
+      "options": {
+        "A": "Boris Eltsine",
+        "B": "Mikhaïl Gorbatchev",
+        "C": "Vladimir Poutine",
+        "D": "Léonid Brejnev"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0481",
+      "difficulty": "easy",
+      "question": "Quelle est la forme géométrique d'un ballon de football ?",
+      "options": {
+        "A": "Un cercle",
+        "B": "Une sphère",
+        "C": "Un cube",
+        "D": "Un ovale"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0482",
+      "difficulty": "medium",
+      "question": "Quelle est la capitale du Portugal ?",
+      "options": {
+        "A": "Porto",
+        "B": "Lisbonne",
+        "C": "Madère",
+        "D": "Faro"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0483",
+      "difficulty": "hard",
+      "question": "Quel empereur a fondé l'Empire carolingien ?",
+      "options": {
+        "A": "Clovis",
+        "B": "Charlemagne",
+        "C": "Charles Martel",
+        "D": "Pépin le Bref"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0484",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le résultat d'une addition ?",
+      "options": {
+        "A": "La différence",
+        "B": "La somme",
+        "C": "Le produit",
+        "D": "Le quotient"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0485",
+      "difficulty": "medium",
+      "question": "Qui a peint les plafonds de la chapelle Sixtine ?",
+      "options": {
+        "A": "Léonard de Vinci",
+        "B": "Michel-Ange",
+        "C": "Raphaël",
+        "D": "Botticelli"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0486",
+      "difficulty": "hard",
+      "question": "Quelle était la fonction du 'rideau de fer' pendant la Guerre Froide ?",
+      "options": {
+        "A": "Une barrière commerciale",
+        "B": "Une séparation idéologique et physique en Europe",
+        "C": "Un monument aux morts",
+        "D": "Un réseau de tunnels"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0487",
+      "difficulty": "easy",
+      "question": "Quelle est la monnaie des États-Unis ?",
+      "options": {
+        "A": "L'Euro",
+        "B": "Le Dollar",
+        "C": "La Livre",
+        "D": "Le Yen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0488",
+      "difficulty": "medium",
+      "question": "Quel écrivain français a écrit 'Le Tour du monde en quatre-vingts jours' ?",
+      "options": {
+        "A": "Victor Hugo",
+        "B": "Jules Verne",
+        "C": "Gustave Flaubert",
+        "D": "Guy de Maupassant"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0489",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la première mission spatiale à avoir posé un homme sur la Lune ?",
+      "options": {
+        "A": "Vostok 1",
+        "B": "Apollo 11",
+        "C": "Gemini 4",
+        "D": "Mercury 7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0490",
+      "difficulty": "easy",
+      "question": "Quel oiseau est le symbole de la sagesse ?",
+      "options": {
+        "A": "Le perroquet",
+        "B": "Le hibou (ou la chouette)",
+        "C": "L'aigle",
+        "D": "La colombe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0491",
+      "difficulty": "medium",
+      "question": "Quel pays a pour capitale Tokyo ?",
+      "options": {
+        "A": "La Chine",
+        "B": "Le Japon",
+        "C": "La Corée du Sud",
+        "D": "Le Vietnam"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0492",
+      "difficulty": "hard",
+      "question": "Qui était le chef de la résistance écossaise contre l'Angleterre à la fin du 13ème siècle ?",
+      "options": {
+        "A": "Robert the Bruce",
+        "B": "William Wallace",
+        "C": "Macbeth",
+        "D": "Richard Cœur de Lion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0493",
+      "difficulty": "easy",
+      "question": "Quel est le jour de la fête nationale française ?",
+      "options": {
+        "A": "1er mai",
+        "B": "14 juillet",
+        "C": "11 novembre",
+        "D": "25 décembre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0494",
+      "difficulty": "medium",
+      "question": "Comment s'appelle l'endroit où sont conservées les archives de l'Internet ?",
+      "options": {
+        "A": "Le Cloud",
+        "B": "Le Wayback Machine (ou Archive.org)",
+        "C": "Google Drive",
+        "D": "Wikipédia"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0495",
+      "difficulty": "hard",
+      "question": "Quel compositeur autrichien, enfant prodige, a écrit 'Don Giovanni' ?",
+      "options": {
+        "A": "Beethoven",
+        "B": "Wolfgang Amadeus Mozart",
+        "C": "Haydn",
+        "D": "Strauss"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0496",
+      "difficulty": "easy",
+      "question": "Quel fruit produit le pommier ?",
+      "options": {
+        "A": "La poire",
+        "B": "La pomme",
+        "C": "La cerise",
+        "D": "La pêche"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0497",
+      "difficulty": "medium",
+      "question": "Quelle est la plus haute montagne d'Europe ?",
+      "options": {
+        "A": "Le Mont Rose",
+        "B": "Le Mont Blanc",
+        "C": "Le Cervin",
+        "D": "L'Everest"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0498",
+      "difficulty": "hard",
+      "question": "Quel explorateur a atteint le pôle Sud en premier en 1911 ?",
+      "options": {
+        "A": "Robert Falcon Scott",
+        "B": "Roald Amundsen",
+        "C": "Ernest Shackleton",
+        "D": "Richard Byrd"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0499",
+      "difficulty": "easy",
+      "question": "Quel est le nom de l'astre qui nous donne de la lumière la nuit ?",
+      "options": {
+        "A": "Le Soleil",
+        "B": "La Lune",
+        "C": "Vénus",
+        "D": "Jupiter"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0500",
+      "difficulty": "medium",
+      "question": "Quel est le nom du célèbre mur qui séparait Berlin en deux ?",
+      "options": {
+        "A": "Le Mur de la Paix",
+        "B": "Le Mur de Berlin",
+        "C": "Le Mur de l'Est",
+        "D": "Le Mur de la Liberté"
+      },
+      "answer": "B"
     }
   ]
 }
