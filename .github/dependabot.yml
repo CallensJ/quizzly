@@ -1,10 +1,7 @@
 # .github/dependabot.yml
 #
-# Configuration Dependabot — ouvre automatiquement des PRs quand une dépendance
-# npm a une nouvelle version disponible.
-#
-# Dependabot vérifie chaque semaine et crée des PRs séparées par dépendance.
-# La CI tourne automatiquement sur ces PRs → tu peux merger en confiance.
+# Dependabot configuré en mode alertes uniquement — aucune PR automatique.
+# Les mises à jour sont gérées manuellement.
 
 version: 2
 
@@ -13,33 +10,13 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      # Vérification hebdomadaire le lundi matin
       interval: 'weekly'
-      day: 'monday'
-      time: '08:00'
-      timezone: 'Europe/Paris'
-
-    # Regroupe les mises à jour mineures et patch ensemble (moins de PRs)
-    # Les mises à jour majeures restent séparées (risque de casse)
-    groups:
-      minor-and-patch:
-        update-types:
-          - 'minor'
-          - 'patch'
-
-    # Limite le nombre de PRs ouvertes en même temps
-    open-pull-requests-limit: 5
-
-    # Labels appliqués automatiquement aux PRs Dependabot
-    labels:
-      - 'dependencies'
+    # 0 = pas de PRs automatiques, alertes de sécurité conservées
+    open-pull-requests-limit: 0
 
   # ─── Actions GitHub ─────────────────────────────────────────────────────────
-  # Maintient aussi les versions des actions utilisées dans les workflows CI
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
       interval: 'monthly'
-    labels:
-      - 'dependencies'
-      - 'ci'
+    open-pull-requests-limit: 0
