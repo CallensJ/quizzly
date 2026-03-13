@@ -50,10 +50,23 @@ interface QuizState {
   resetAll: () => void;
 }
 
+/**
+ * Fisher-Yates shuffle — distribution uniformément aléatoire.
+ * Remplace le sort(() => Math.random() - 0.5) qui était biaisé
+ * (certaines questions revenaient systématiquement plus souvent).
+ */
+function fisherYates<T>(arr: T[]): T[] {
+  const result = [...arr];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
 // Tire n éléments aléatoires sans remise depuis un tableau
 function sampleRandom<T>(arr: T[], n: number): T[] {
-  const shuffled = [...arr].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, n);
+  return fisherYates(arr).slice(0, n);
 }
 
 /**
@@ -68,8 +81,8 @@ function shuffleOptions(question: Question): Question {
   const keys: AnswerKey[] = ['A', 'B', 'C', 'D'];
   const correctText = question.options[question.answer];
 
-  // Ordre mélangé des 4 options source
-  const shuffled = [...keys].sort(() => Math.random() - 0.5);
+  // Ordre mélangé des 4 options source (Fisher-Yates)
+  const shuffled = fisherYates(keys);
 
   const newOptions = {
     A: question.options[shuffled[0]],

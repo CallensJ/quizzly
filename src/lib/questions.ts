@@ -1,14 +1,15 @@
 /**
  * src/lib/questions.ts
  *
- * Service de chargement des questions — remplace les dynamic imports JSON.
- * Source de données : table Supabase `questions`.
+ * Service de chargement des questions.
+ * Source de données : table Supabase `questions`, avec double fallback.
  *
  * Stratégie offline-first :
  *   1. Si cache localStorage valide (< 24h) → retour immédiat
  *   2. Sinon → fetch Supabase → cache le résultat complet (toutes difficultés)
  *   3. Si Supabase échoue et cache présent (même expiré) → fallback cache
- *   4. Si pas de cache du tout → throw (l'UI affiche un message d'erreur)
+ *   4. Si pas de cache du tout → fallback fichiers JSON locaux (src/data/questions/)
+ *   5. Si JSON local introuvable → throw (l'UI affiche un message d'erreur)
  *
  * Le cache stocke toutes les difficultés d'un (category, locale) ensemble.
  * Le filtrage par difficulté se fait côté client après récupération.
@@ -138,7 +139,23 @@ export async function fetchQuestions(
       return difficulty ? stale.filter((q) => q.difficulty === difficulty) : stale;
     }
 
-    // 4. Pas de cache du tout → erreur remontée à l'UI
+    // 4. Fallback : fichiers JSON locaux (src/data/questions/{locale}/{category}.json)
+    //    Permet d'utiliser les catégories qui ne sont pas encore dans Supabase
+    //    (heroes, etc.) et garantit un fonctionnement offline complet.
+    try {
+      // Chemin relatif depuis src/lib/ — webpack résout les 6 combinaisons à la compilation
+      const localData = await import(`../data/questions/${locale}/${category}.json`);
+      const questions: Question[] = localData.questions as Question[];
+      if (questions && questions.length > 0) {
+        // Met en cache pour éviter de re-importer à chaque partie
+        setCache(category, locale, questions);
+        return difficulty ? questions.filter((q) => q.difficulty === difficulty) : questions;
+      }
+    } catch {
+      // Fichier JSON local absent — on laisse l'erreur originale remonter
+    }
+
+    // 5. Pas de cache, pas de JSON local → erreur remontée à l'UI
     throw fetchError;
   }
 }
