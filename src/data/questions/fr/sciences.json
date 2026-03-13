@@ -3,7 +3,7 @@
   "lang": "fr",
   "questions": [
     {
-      "id": "sci-easy-001",
+      "id": "sci-fr-easy-001",
       "difficulty": "easy",
       "question": "Quelle couleur a souvent le ciel quand il fait beau ?",
       "options": {
@@ -15,7 +15,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-easy-002",
+      "id": "sci-fr-easy-002",
       "difficulty": "easy",
       "question": "Que respirons-nous pour vivre ?",
       "options": {
@@ -27,7 +27,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-easy-003",
+      "id": "sci-fr-easy-003",
       "difficulty": "easy",
       "question": "Combien de pattes a un chien ?",
       "options": {
@@ -39,7 +39,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-easy-004",
+      "id": "sci-fr-easy-004",
       "difficulty": "easy",
       "question": "Quel animal pond des œufs ?",
       "options": {
@@ -51,7 +51,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-easy-005",
+      "id": "sci-fr-easy-005",
       "difficulty": "easy",
       "question": "Avec quoi voit-on ?",
       "options": {
@@ -63,7 +63,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-easy-006",
+      "id": "sci-fr-easy-006",
       "difficulty": "easy",
       "question": "Quand l’eau gèle, elle devient quoi ?",
       "options": {
@@ -75,7 +75,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-easy-007",
+      "id": "sci-fr-easy-007",
       "difficulty": "easy",
       "question": "Qu’est-ce qui éclaire la Terre le jour ?",
       "options": {
@@ -87,7 +87,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-easy-008",
+      "id": "sci-fr-easy-008",
       "difficulty": "easy",
       "question": "Quel fruit pousse sur un pommier ?",
       "options": {
@@ -99,7 +99,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-easy-009",
+      "id": "sci-fr-easy-009",
       "difficulty": "easy",
       "question": "Quel animal est très grand et a une trompe ?",
       "options": {
@@ -111,7 +111,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-easy-010",
+      "id": "sci-fr-easy-010",
       "difficulty": "easy",
       "question": "De quoi les plantes ont-elles besoin pour boire ?",
       "options": {
@@ -123,7 +123,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-easy-011",
+      "id": "sci-fr-easy-011",
       "difficulty": "easy",
       "question": "Quel animal donne du lait ?",
       "options": {
@@ -135,7 +135,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-easy-012",
+      "id": "sci-fr-easy-012",
       "difficulty": "easy",
       "question": "Quel organe bat dans notre poitrine ?",
       "options": {
@@ -147,7 +147,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-easy-013",
+      "id": "sci-fr-easy-013",
       "difficulty": "easy",
       "question": "Quel animal a une longue trompe ?",
       "options": {
@@ -159,7 +159,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-easy-014",
+      "id": "sci-fr-easy-014",
       "difficulty": "easy",
       "question": "Quand l’eau bout, elle devient quoi ?",
       "options": {
@@ -171,7 +171,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-easy-015",
+      "id": "sci-fr-easy-015",
       "difficulty": "easy",
       "question": "Quel animal miaule ?",
       "options": {
@@ -183,7 +183,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-easy-016",
+      "id": "sci-fr-easy-016",
       "difficulty": "easy",
       "question": "Quel animal porte une coquille sur son dos ?",
       "options": {
@@ -195,7 +195,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-easy-017",
+      "id": "sci-fr-easy-017",
       "difficulty": "easy",
       "question": "Quel animal peut voler dans le ciel ?",
       "options": {
@@ -207,7 +207,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-easy-018",
+      "id": "sci-fr-easy-018",
       "difficulty": "easy",
       "question": "Quel animal vit dans l’eau et nage avec des nageoires ?",
       "options": {
@@ -219,7 +219,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-easy-019",
+      "id": "sci-fr-easy-019",
       "difficulty": "easy",
       "question": "Quel animal rugit ?",
       "options": {
@@ -231,7 +231,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-easy-020",
+      "id": "sci-fr-easy-020",
       "difficulty": "easy",
       "question": "Quel animal a une grande crinière ?",
       "options": {
@@ -243,7 +243,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-easy-021",
+      "id": "sci-fr-easy-021",
       "difficulty": "easy",
       "question": "Quel insecte fait du miel ?",
       "options": {
@@ -255,7 +255,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-easy-022",
+      "id": "sci-fr-easy-022",
       "difficulty": "easy",
       "question": "Quel animal a une bosse sur le dos ?",
       "options": {
@@ -267,7 +267,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-easy-023",
+      "id": "sci-fr-easy-023",
       "difficulty": "easy",
       "question": "Quel animal aboie ?",
       "options": {
@@ -279,7 +279,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-easy-024",
+      "id": "sci-fr-easy-024",
       "difficulty": "easy",
       "question": "Quel animal a un très long cou ?",
       "options": {
@@ -291,7 +291,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-easy-025",
+      "id": "sci-fr-easy-025",
       "difficulty": "easy",
       "question": "Quel animal nage dans l’eau ?",
       "options": {
@@ -303,7 +303,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-medium-001",
+      "id": "sci-fr-medium-001",
       "difficulty": "medium",
       "question": "Quel organe pompe le sang ?",
       "options": {
@@ -315,7 +315,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-medium-002",
+      "id": "sci-fr-medium-002",
       "difficulty": "medium",
       "question": "Quel animal a une carapace dure ?",
       "options": {
@@ -327,7 +327,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-medium-003",
+      "id": "sci-fr-medium-003",
       "difficulty": "medium",
       "question": "Quelle partie d'une plante fait la photosynthèse ?",
       "options": {
@@ -339,7 +339,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-medium-004",
+      "id": "sci-fr-medium-004",
       "difficulty": "medium",
       "question": "Quelle planète est la plus proche du Soleil ?",
       "options": {
@@ -351,7 +351,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-medium-005",
+      "id": "sci-fr-medium-005",
       "difficulty": "medium",
       "question": "Le vent est causé par quoi ?",
       "options": {
@@ -363,7 +363,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-medium-006",
+      "id": "sci-fr-medium-006",
       "difficulty": "medium",
       "question": "Qu'est-ce qu'un solide qui fond devient ?",
       "options": {
@@ -375,7 +375,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-medium-007",
+      "id": "sci-fr-medium-007",
       "difficulty": "medium",
       "question": "Quel gaz les plantes absorbent ?",
       "options": {
@@ -387,7 +387,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-medium-008",
+      "id": "sci-fr-medium-008",
       "difficulty": "medium",
       "question": "Quel sens utilise-t-on pour écouter ?",
       "options": {
@@ -399,7 +399,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-medium-009",
+      "id": "sci-fr-medium-009",
       "difficulty": "medium",
       "question": "Quel organe aide à respirer ?",
       "options": {
@@ -411,7 +411,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-medium-010",
+      "id": "sci-fr-medium-010",
       "difficulty": "medium",
       "question": "Quel animal pond des œufs et vole ?",
       "options": {
@@ -423,7 +423,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-medium-011",
+      "id": "sci-fr-medium-011",
       "difficulty": "medium",
       "question": "La lumière voyage plus vite que quoi ?",
       "options": {
@@ -435,7 +435,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-medium-012",
+      "id": "sci-fr-medium-012",
       "difficulty": "medium",
       "question": "Quelle planète est appelée la planète rouge ?",
       "options": {
@@ -447,7 +447,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-medium-013",
+      "id": "sci-fr-medium-013",
       "difficulty": "medium",
       "question": "Quel liquide transporte les nutriments dans le corps ?",
       "options": {
@@ -459,7 +459,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-medium-014",
+      "id": "sci-fr-medium-014",
       "difficulty": "medium",
       "question": "Quel animal est un mammifère marin ?",
       "options": {
@@ -471,7 +471,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-medium-015",
+      "id": "sci-fr-medium-015",
       "difficulty": "medium",
       "question": "La pluie est eau sous quelle forme ?",
       "options": {
@@ -483,7 +483,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-medium-016",
+      "id": "sci-fr-medium-016",
       "difficulty": "medium",
       "question": "Quel organe digère la nourriture ?",
       "options": {
@@ -495,7 +495,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-medium-017",
+      "id": "sci-fr-medium-017",
       "difficulty": "medium",
       "question": "Quel phénomène cause un arc-en-ciel ?",
       "options": {
@@ -507,7 +507,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-medium-018",
+      "id": "sci-fr-medium-018",
       "difficulty": "medium",
       "question": "Quel animal a des écailles et respire dans l'eau ?",
       "options": {
@@ -519,7 +519,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-medium-019",
+      "id": "sci-fr-medium-019",
       "difficulty": "medium",
       "question": "Quel élément est nécessaire pour brûler ?",
       "options": {
@@ -531,7 +531,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-medium-020",
+      "id": "sci-fr-medium-020",
       "difficulty": "medium",
       "question": "Que mesure un thermomètre ?",
       "options": {
@@ -543,7 +543,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-medium-021",
+      "id": "sci-fr-medium-021",
       "difficulty": "medium",
       "question": "Quelle partie de la graine devient la plante ?",
       "options": {
@@ -555,7 +555,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-medium-022",
+      "id": "sci-fr-medium-022",
       "difficulty": "medium",
       "question": "Quel corps céleste éclaire la nuit sur Terre ?",
       "options": {
@@ -567,7 +567,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-medium-023",
+      "id": "sci-fr-medium-023",
       "difficulty": "medium",
       "question": "Quelle force nous garde au sol ?",
       "options": {
@@ -579,7 +579,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-medium-024",
+      "id": "sci-fr-medium-024",
       "difficulty": "medium",
       "question": "Quel liquide protège la plante dans ses feuilles ?",
       "options": {
@@ -591,7 +591,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-medium-025",
+      "id": "sci-fr-medium-025",
       "difficulty": "medium",
       "question": "Qu'est-ce qu'un habitat naturel ?",
       "options": {
@@ -603,7 +603,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-001",
+      "id": "sci-fr-hard-001",
       "difficulty": "hard",
       "question": "Quel système transporte l'oxygène dans le corps ?",
       "options": {
@@ -615,7 +615,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-002",
+      "id": "sci-fr-hard-002",
       "difficulty": "hard",
       "question": "Quelle classification regroupe mammifères et oiseaux ?",
       "options": {
@@ -627,7 +627,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-hard-003",
+      "id": "sci-fr-hard-003",
       "difficulty": "hard",
       "question": "Quel organe filtre le sang ?",
       "options": {
@@ -639,7 +639,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-004",
+      "id": "sci-fr-hard-004",
       "difficulty": "hard",
       "question": "Quelle partie de la fleur contient le pollen ?",
       "options": {
@@ -651,7 +651,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-hard-005",
+      "id": "sci-fr-hard-005",
       "difficulty": "hard",
       "question": "Quel est l'état d'un gaz comprimé qui devient liquide ?",
       "options": {
@@ -663,7 +663,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-hard-006",
+      "id": "sci-fr-hard-006",
       "difficulty": "hard",
       "question": "Quelle planète a des anneaux visibles ?",
       "options": {
@@ -675,7 +675,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-007",
+      "id": "sci-fr-hard-007",
       "difficulty": "hard",
       "question": "Quel os protège le cerveau ?",
       "options": {
@@ -687,7 +687,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-008",
+      "id": "sci-fr-hard-008",
       "difficulty": "hard",
       "question": "Quel gaz est le plus présent dans l'air ?",
       "options": {
@@ -699,7 +699,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-hard-009",
+      "id": "sci-fr-hard-009",
       "difficulty": "hard",
       "question": "Comment s'appelle la force entre charges opposées ?",
       "options": {
@@ -711,7 +711,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-010",
+      "id": "sci-fr-hard-010",
       "difficulty": "hard",
       "question": "Quel instrument mesure la pression atmosphérique ?",
       "options": {
@@ -723,7 +723,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-011",
+      "id": "sci-fr-hard-011",
       "difficulty": "hard",
       "question": "Quelle molécule est l'unité de l'ADN ?",
       "options": {
@@ -735,7 +735,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-hard-012",
+      "id": "sci-fr-hard-012",
       "difficulty": "hard",
       "question": "Quelle est la vitesse du son approximative dans l'air ?",
       "options": {
@@ -747,7 +747,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-hard-013",
+      "id": "sci-fr-hard-013",
       "difficulty": "hard",
       "question": "Comment s'appelle le cycle de l'eau ?",
       "options": {
@@ -759,7 +759,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-014",
+      "id": "sci-fr-hard-014",
       "difficulty": "hard",
       "question": "Quel type de roche vient du refroidissement du magma ?",
       "options": {
@@ -771,7 +771,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-hard-015",
+      "id": "sci-fr-hard-015",
       "difficulty": "hard",
       "question": "Quel organe produit la bile ?",
       "options": {
@@ -783,7 +783,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-016",
+      "id": "sci-fr-hard-016",
       "difficulty": "hard",
       "question": "Quel phénomène explique les saisons ?",
       "options": {
@@ -795,7 +795,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-017",
+      "id": "sci-fr-hard-017",
       "difficulty": "hard",
       "question": "Quel ion donne une solution acide ?",
       "options": {
@@ -807,7 +807,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-hard-018",
+      "id": "sci-fr-hard-018",
       "difficulty": "hard",
       "question": "Quel terme décrit la variation héréditaire ?",
       "options": {
@@ -819,7 +819,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-hard-019",
+      "id": "sci-fr-hard-019",
       "difficulty": "hard",
       "question": "Quel organe réagit aux signaux et contrôle le corps ?",
       "options": {
@@ -831,7 +831,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-020",
+      "id": "sci-fr-hard-020",
       "difficulty": "hard",
       "question": "Comment s'appelle la transformation solide → gaz sans liquide ?",
       "options": {
@@ -843,7 +843,7 @@
       "answer": "B"
     },
     {
-      "id": "sci-hard-021",
+      "id": "sci-fr-hard-021",
       "difficulty": "hard",
       "question": "Quel type d'énergie produit une éolienne ?",
       "options": {
@@ -855,7 +855,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-hard-022",
+      "id": "sci-fr-hard-022",
       "difficulty": "hard",
       "question": "Quel nombre décrit la masse d'un atome principalement ?",
       "options": {
@@ -867,7 +867,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-hard-023",
+      "id": "sci-fr-hard-023",
       "difficulty": "hard",
       "question": "Quel organe stocke l'urine avant évacuation ?",
       "options": {
@@ -879,7 +879,7 @@
       "answer": "A"
     },
     {
-      "id": "sci-hard-024",
+      "id": "sci-fr-hard-024",
       "difficulty": "hard",
       "question": "Quelle couche protège la Terre des météores ?",
       "options": {
@@ -891,7 +891,7 @@
       "answer": "C"
     },
     {
-      "id": "sci-hard-025",
+      "id": "sci-fr-hard-025",
       "difficulty": "hard",
       "question": "Quel élément forme l'eau avec l'oxygène ?",
       "options": {

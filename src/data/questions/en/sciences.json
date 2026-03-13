@@ -3,528 +3,903 @@
   "lang": "en",
   "questions": [
     {
-      "id": "sci-easy-001",
+      "id": "sci-en-easy-001",
       "difficulty": "easy",
       "question": "Which planet is closest to the Sun?",
-      "options": { "A": "Venus", "B": "Mars", "C": "Mercury", "D": "Earth" },
+      "options": {
+        "A": "Venus",
+        "B": "Mars",
+        "C": "Mercury",
+        "D": "Earth"
+      },
       "answer": "C"
     },
     {
-      "id": "sci-easy-002",
+      "id": "sci-en-easy-002",
       "difficulty": "easy",
       "question": "Which gas do we mainly breathe to live?",
-      "options": { "A": "Oxygen", "B": "Hydrogen", "C": "Carbon", "D": "Nitrogen" },
+      "options": {
+        "A": "Oxygen",
+        "B": "Hydrogen",
+        "C": "Carbon",
+        "D": "Nitrogen"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-easy-003",
+      "id": "sci-en-easy-003",
       "difficulty": "easy",
       "question": "How many legs does a spider have?",
-      "options": { "A": "Six", "B": "Eight", "C": "Ten", "D": "Four" },
+      "options": {
+        "A": "Six",
+        "B": "Eight",
+        "C": "Ten",
+        "D": "Four"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-easy-004",
+      "id": "sci-en-easy-004",
       "difficulty": "easy",
       "question": "Which animal lays eggs?",
-      "options": { "A": "Dog", "B": "Cat", "C": "Chicken", "D": "Horse" },
+      "options": {
+        "A": "Dog",
+        "B": "Cat",
+        "C": "Chicken",
+        "D": "Horse"
+      },
       "answer": "C"
     },
     {
-      "id": "sci-easy-005",
+      "id": "sci-en-easy-005",
       "difficulty": "easy",
       "question": "Which part of the body allows us to see?",
-      "options": { "A": "Ears", "B": "Eyes", "C": "Mouth", "D": "Hands" },
+      "options": {
+        "A": "Ears",
+        "B": "Eyes",
+        "C": "Mouth",
+        "D": "Hands"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-easy-006",
+      "id": "sci-en-easy-006",
       "difficulty": "easy",
       "question": "What is the state of water when it freezes?",
-      "options": { "A": "Gas", "B": "Liquid", "C": "Solid", "D": "Steam" },
+      "options": {
+        "A": "Gas",
+        "B": "Liquid",
+        "C": "Solid",
+        "D": "Steam"
+      },
       "answer": "C"
     },
     {
-      "id": "sci-easy-007",
+      "id": "sci-en-easy-007",
       "difficulty": "easy",
       "question": "Which star lights up the Earth during the day?",
-      "options": { "A": "The Moon", "B": "The Sun", "C": "The stars", "D": "Mars" },
+      "options": {
+        "A": "The Moon",
+        "B": "The Sun",
+        "C": "The stars",
+        "D": "Mars"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-easy-008",
+      "id": "sci-en-easy-008",
       "difficulty": "easy",
       "question": "Which fruit grows on an apple tree?",
-      "options": { "A": "Pear", "B": "Orange", "C": "Apple", "D": "Banana" },
+      "options": {
+        "A": "Pear",
+        "B": "Orange",
+        "C": "Apple",
+        "D": "Banana"
+      },
       "answer": "C"
     },
     {
-      "id": "sci-easy-009",
+      "id": "sci-en-easy-009",
       "difficulty": "easy",
       "question": "What is the largest land animal?",
-      "options": { "A": "Elephant", "B": "Giraffe", "C": "Rhinoceros", "D": "Hippopotamus" },
+      "options": {
+        "A": "Elephant",
+        "B": "Giraffe",
+        "C": "Rhinoceros",
+        "D": "Hippopotamus"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-easy-010",
+      "id": "sci-en-easy-010",
       "difficulty": "easy",
       "question": "What liquid do plants absorb through their roots?",
-      "options": { "A": "Juice", "B": "Water", "C": "Oil", "D": "Milk" },
+      "options": {
+        "A": "Juice",
+        "B": "Water",
+        "C": "Oil",
+        "D": "Milk"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-easy-011",
+      "id": "sci-en-easy-011",
       "difficulty": "easy",
       "question": "Which animal gives milk?",
-      "options": { "A": "Cow", "B": "Horse", "C": "Dog", "D": "Rabbit" },
+      "options": {
+        "A": "Cow",
+        "B": "Horse",
+        "C": "Dog",
+        "D": "Rabbit"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-easy-012",
+      "id": "sci-en-easy-012",
       "difficulty": "easy",
       "question": "Which organ pumps blood in our body?",
-      "options": { "A": "The brain", "B": "The heart", "C": "The lungs", "D": "The stomach" },
+      "options": {
+        "A": "The brain",
+        "B": "The heart",
+        "C": "The lungs",
+        "D": "The stomach"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-easy-013",
+      "id": "sci-en-easy-013",
       "difficulty": "easy",
       "question": "Which animal has a long trunk?",
-      "options": { "A": "Giraffe", "B": "Elephant", "C": "Lion", "D": "Zebra" },
+      "options": {
+        "A": "Giraffe",
+        "B": "Elephant",
+        "C": "Lion",
+        "D": "Zebra"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-easy-014",
+      "id": "sci-en-easy-014",
       "difficulty": "easy",
       "question": "What is the state of water when it boils?",
-      "options": { "A": "Solid", "B": "Liquid", "C": "Gas", "D": "Ice" },
+      "options": {
+        "A": "Solid",
+        "B": "Liquid",
+        "C": "Gas",
+        "D": "Ice"
+      },
       "answer": "C"
     },
     {
-      "id": "sci-easy-015",
+      "id": "sci-en-easy-015",
       "difficulty": "easy",
       "question": "Which animal meows?",
-      "options": { "A": "Dog", "B": "Cat", "C": "Bird", "D": "Horse" },
+      "options": {
+        "A": "Dog",
+        "B": "Cat",
+        "C": "Bird",
+        "D": "Horse"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-easy-016",
+      "id": "sci-en-easy-016",
       "difficulty": "easy",
       "question": "Which animal has a shell?",
-      "options": { "A": "Snail", "B": "Fish", "C": "Dog", "D": "Cat" },
+      "options": {
+        "A": "Snail",
+        "B": "Fish",
+        "C": "Dog",
+        "D": "Cat"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-easy-017",
+      "id": "sci-en-easy-017",
       "difficulty": "easy",
       "question": "Which animal can fly?",
-      "options": { "A": "Bird", "B": "Dog", "C": "Cat", "D": "Rabbit" },
+      "options": {
+        "A": "Bird",
+        "B": "Dog",
+        "C": "Cat",
+        "D": "Rabbit"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-easy-018",
+      "id": "sci-en-easy-018",
       "difficulty": "easy",
       "question": "Which animal lives in water and has fins?",
-      "options": { "A": "Dog", "B": "Cat", "C": "Fish", "D": "Horse" },
+      "options": {
+        "A": "Dog",
+        "B": "Cat",
+        "C": "Fish",
+        "D": "Horse"
+      },
       "answer": "C"
     },
     {
-      "id": "sci-easy-019",
+      "id": "sci-en-easy-019",
       "difficulty": "easy",
       "question": "Which animal roars?",
-      "options": { "A": "Lion", "B": "Cat", "C": "Dog", "D": "Bird" },
+      "options": {
+        "A": "Lion",
+        "B": "Cat",
+        "C": "Dog",
+        "D": "Bird"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-easy-020",
+      "id": "sci-en-easy-020",
       "difficulty": "easy",
       "question": "Which animal has a mane?",
-      "options": { "A": "Lion", "B": "Elephant", "C": "Giraffe", "D": "Zebra" },
+      "options": {
+        "A": "Lion",
+        "B": "Elephant",
+        "C": "Giraffe",
+        "D": "Zebra"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-easy-021",
+      "id": "sci-en-easy-021",
       "difficulty": "easy",
       "question": "Which animal makes honey?",
-      "options": { "A": "Bee", "B": "Butterfly", "C": "Fly", "D": "Ant" },
+      "options": {
+        "A": "Bee",
+        "B": "Butterfly",
+        "C": "Fly",
+        "D": "Ant"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-easy-022",
+      "id": "sci-en-easy-022",
       "difficulty": "easy",
       "question": "Which animal has a hump?",
-      "options": { "A": "Camel", "B": "Horse", "C": "Cow", "D": "Zebra" },
+      "options": {
+        "A": "Camel",
+        "B": "Horse",
+        "C": "Cow",
+        "D": "Zebra"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-easy-023",
+      "id": "sci-en-easy-023",
       "difficulty": "easy",
       "question": "Which animal barks?",
-      "options": { "A": "Cat", "B": "Dog", "C": "Bird", "D": "Rabbit" },
+      "options": {
+        "A": "Cat",
+        "B": "Dog",
+        "C": "Bird",
+        "D": "Rabbit"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-easy-024",
+      "id": "sci-en-easy-024",
       "difficulty": "easy",
       "question": "Which animal lives in the savannah and has a long neck?",
-      "options": { "A": "Giraffe", "B": "Lion", "C": "Elephant", "D": "Zebra" },
+      "options": {
+        "A": "Giraffe",
+        "B": "Lion",
+        "C": "Elephant",
+        "D": "Zebra"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-easy-025",
+      "id": "sci-en-easy-025",
       "difficulty": "easy",
       "question": "Which animal can swim and has fins?",
-      "options": { "A": "Dog", "B": "Cat", "C": "Fish", "D": "Rabbit" },
+      "options": {
+        "A": "Dog",
+        "B": "Cat",
+        "C": "Fish",
+        "D": "Rabbit"
+      },
       "answer": "C"
     },
     {
-      "id": "sci-medium-001",
+      "id": "sci-en-medium-001",
       "difficulty": "medium",
       "question": "How many planets are in the solar system?",
-      "options": { "A": "Seven", "B": "Eight", "C": "Nine", "D": "Ten" },
+      "options": {
+        "A": "Seven",
+        "B": "Eight",
+        "C": "Nine",
+        "D": "Ten"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-002",
+      "id": "sci-en-medium-002",
       "difficulty": "medium",
       "question": "Which organ controls the whole body?",
-      "options": { "A": "The heart", "B": "The brain", "C": "The lungs", "D": "The stomach" },
+      "options": {
+        "A": "The heart",
+        "B": "The brain",
+        "C": "The lungs",
+        "D": "The stomach"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-003",
+      "id": "sci-en-medium-003",
       "difficulty": "medium",
       "question": "Which gas do plants release during photosynthesis?",
-      "options": { "A": "Oxygen", "B": "Carbon dioxide", "C": "Nitrogen", "D": "Hydrogen" },
+      "options": {
+        "A": "Oxygen",
+        "B": "Carbon dioxide",
+        "C": "Nitrogen",
+        "D": "Hydrogen"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-medium-004",
+      "id": "sci-en-medium-004",
       "difficulty": "medium",
       "question": "Which is the fastest land animal?",
-      "options": { "A": "Lion", "B": "Cheetah", "C": "Horse", "D": "Tiger" },
+      "options": {
+        "A": "Lion",
+        "B": "Cheetah",
+        "C": "Horse",
+        "D": "Tiger"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-005",
+      "id": "sci-en-medium-005",
       "difficulty": "medium",
       "question": "Which is the largest ocean in the world?",
-      "options": { "A": "Atlantic", "B": "Pacific", "C": "Indian", "D": "Arctic" },
+      "options": {
+        "A": "Atlantic",
+        "B": "Pacific",
+        "C": "Indian",
+        "D": "Arctic"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-006",
+      "id": "sci-en-medium-006",
       "difficulty": "medium",
       "question": "Which metal is used to make soda cans?",
-      "options": { "A": "Iron", "B": "Aluminum", "C": "Copper", "D": "Zinc" },
+      "options": {
+        "A": "Iron",
+        "B": "Aluminum",
+        "C": "Copper",
+        "D": "Zinc"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-007",
+      "id": "sci-en-medium-007",
       "difficulty": "medium",
       "question": "Which is the largest marine animal?",
-      "options": { "A": "Great white shark", "B": "Blue whale", "C": "Orca", "D": "Dolphin" },
+      "options": {
+        "A": "Great white shark",
+        "B": "Blue whale",
+        "C": "Orca",
+        "D": "Dolphin"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-008",
+      "id": "sci-en-medium-008",
       "difficulty": "medium",
       "question": "Which celestial body orbits the Earth?",
-      "options": { "A": "The Sun", "B": "The Moon", "C": "Mars", "D": "Venus" },
+      "options": {
+        "A": "The Sun",
+        "B": "The Moon",
+        "C": "Mars",
+        "D": "Venus"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-009",
+      "id": "sci-en-medium-009",
       "difficulty": "medium",
       "question": "Which animal can change its color to camouflage?",
-      "options": { "A": "Chameleon", "B": "Zebra", "C": "Lion", "D": "Giraffe" },
+      "options": {
+        "A": "Chameleon",
+        "B": "Zebra",
+        "C": "Lion",
+        "D": "Giraffe"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-medium-010",
+      "id": "sci-en-medium-010",
       "difficulty": "medium",
       "question": "Which organ allows us to breathe?",
-      "options": { "A": "The heart", "B": "The lungs", "C": "The liver", "D": "The stomach" },
+      "options": {
+        "A": "The heart",
+        "B": "The lungs",
+        "C": "The liver",
+        "D": "The stomach"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-011",
+      "id": "sci-en-medium-011",
       "difficulty": "medium",
       "question": "Which sea animal has tentacles?",
-      "options": { "A": "Jellyfish", "B": "Fish", "C": "Crab", "D": "Turtle" },
+      "options": {
+        "A": "Jellyfish",
+        "B": "Fish",
+        "C": "Crab",
+        "D": "Turtle"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-medium-012",
+      "id": "sci-en-medium-012",
       "difficulty": "medium",
       "question": "Which is the smallest bone in the human body?",
-      "options": { "A": "Femur", "B": "Stapes", "C": "Tibia", "D": "Clavicle" },
+      "options": {
+        "A": "Femur",
+        "B": "Stapes",
+        "C": "Tibia",
+        "D": "Clavicle"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-013",
+      "id": "sci-en-medium-013",
       "difficulty": "medium",
       "question": "Which animals live in polar regions and eat fish?",
-      "options": { "A": "Penguin", "B": "Polar bear", "C": "Seal", "D": "All three" },
+      "options": {
+        "A": "Penguin",
+        "B": "Polar bear",
+        "C": "Seal",
+        "D": "All three"
+      },
       "answer": "D"
     },
     {
-      "id": "sci-medium-014",
+      "id": "sci-en-medium-014",
       "difficulty": "medium",
       "question": "Which star is at the center of the solar system?",
-      "options": { "A": "Earth", "B": "The Sun", "C": "The Moon", "D": "Mars" },
+      "options": {
+        "A": "Earth",
+        "B": "The Sun",
+        "C": "The Moon",
+        "D": "Mars"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-015",
+      "id": "sci-en-medium-015",
       "difficulty": "medium",
       "question": "Which animal has a pouch for its babies?",
-      "options": { "A": "Kangaroo", "B": "Lion", "C": "Giraffe", "D": "Dog" },
+      "options": {
+        "A": "Kangaroo",
+        "B": "Lion",
+        "C": "Giraffe",
+        "D": "Dog"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-medium-016",
+      "id": "sci-en-medium-016",
       "difficulty": "medium",
       "question": "Which is the largest desert in the world?",
-      "options": { "A": "Sahara", "B": "Gobi", "C": "Kalahari", "D": "Atacama" },
+      "options": {
+        "A": "Sahara",
+        "B": "Gobi",
+        "C": "Kalahari",
+        "D": "Atacama"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-medium-017",
+      "id": "sci-en-medium-017",
       "difficulty": "medium",
       "question": "Which animal has feathers and lays eggs?",
-      "options": { "A": "Bird", "B": "Dog", "C": "Cat", "D": "Rabbit" },
+      "options": {
+        "A": "Bird",
+        "B": "Dog",
+        "C": "Cat",
+        "D": "Rabbit"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-medium-018",
+      "id": "sci-en-medium-018",
       "difficulty": "medium",
       "question": "Which sea animal has a shell?",
-      "options": { "A": "Snail", "B": "Oyster", "C": "Crab", "D": "Jellyfish" },
+      "options": {
+        "A": "Snail",
+        "B": "Oyster",
+        "C": "Crab",
+        "D": "Jellyfish"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-019",
+      "id": "sci-en-medium-019",
       "difficulty": "medium",
       "question": "Which animal flies at night and uses echolocation?",
-      "options": { "A": "Bat", "B": "Bird", "C": "Butterfly", "D": "Fly" },
+      "options": {
+        "A": "Bat",
+        "B": "Bird",
+        "C": "Butterfly",
+        "D": "Fly"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-medium-020",
+      "id": "sci-en-medium-020",
       "difficulty": "medium",
       "question": "Which sea animal has eight arms?",
-      "options": { "A": "Crab", "B": "Octopus", "C": "Jellyfish", "D": "Fish" },
+      "options": {
+        "A": "Crab",
+        "B": "Octopus",
+        "C": "Jellyfish",
+        "D": "Fish"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-medium-021",
+      "id": "sci-en-medium-021",
       "difficulty": "medium",
       "question": "Which animal can live without water for a long time?",
-      "options": { "A": "Camel", "B": "Horse", "C": "Cow", "D": "Zebra" },
+      "options": {
+        "A": "Camel",
+        "B": "Horse",
+        "C": "Cow",
+        "D": "Zebra"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-medium-022",
+      "id": "sci-en-medium-022",
       "difficulty": "medium",
       "question": "Which animal has a hard shell?",
-      "options": { "A": "Turtle", "B": "Fish", "C": "Dog", "D": "Cat" },
+      "options": {
+        "A": "Turtle",
+        "B": "Fish",
+        "C": "Dog",
+        "D": "Cat"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-medium-023",
+      "id": "sci-en-medium-023",
       "difficulty": "medium",
       "question": "Which animal can live both on land and in water?",
-      "options": { "A": "Frog", "B": "Dog", "C": "Cat", "D": "Bird" },
+      "options": {
+        "A": "Frog",
+        "B": "Dog",
+        "C": "Cat",
+        "D": "Bird"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-medium-024",
+      "id": "sci-en-medium-024",
       "difficulty": "medium",
       "question": "Which animal has a trunk and big ears?",
-      "options": { "A": "Elephant", "B": "Giraffe", "C": "Lion", "D": "Zebra" },
+      "options": {
+        "A": "Elephant",
+        "B": "Giraffe",
+        "C": "Lion",
+        "D": "Zebra"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-medium-025",
+      "id": "sci-en-medium-025",
       "difficulty": "medium",
       "question": "Which animal lives in the ocean and breathes through gills?",
-      "options": { "A": "Dog", "B": "Cat", "C": "Fish", "D": "Rabbit" },
+      "options": {
+        "A": "Dog",
+        "B": "Cat",
+        "C": "Fish",
+        "D": "Rabbit"
+      },
       "answer": "C"
     },
     {
-      "id": "sci-hard-001",
+      "id": "sci-en-hard-001",
       "difficulty": "hard",
       "question": "Which chemical element has the symbol Fe?",
-      "options": { "A": "Iron", "B": "Fluorine", "C": "Francium", "D": "Fermium" },
+      "options": {
+        "A": "Iron",
+        "B": "Fluorine",
+        "C": "Francium",
+        "D": "Fermium"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-hard-002",
+      "id": "sci-en-hard-002",
       "difficulty": "hard",
       "question": "What is the largest organ in the human body?",
-      "options": { "A": "The liver", "B": "The skin", "C": "The heart", "D": "The lungs" },
+      "options": {
+        "A": "The liver",
+        "B": "The skin",
+        "C": "The heart",
+        "D": "The lungs"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-003",
+      "id": "sci-en-hard-003",
       "difficulty": "hard",
       "question": "Which celestial body is closest to Earth after the Moon?",
-      "options": { "A": "Mars", "B": "Venus", "C": "The Sun", "D": "Jupiter" },
+      "options": {
+        "A": "Mars",
+        "B": "Venus",
+        "C": "The Sun",
+        "D": "Jupiter"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-004",
+      "id": "sci-en-hard-004",
       "difficulty": "hard",
       "question": "Which gas is most abundant in Earth's atmosphere?",
-      "options": { "A": "Oxygen", "B": "Nitrogen", "C": "Carbon dioxide", "D": "Hydrogen" },
+      "options": {
+        "A": "Oxygen",
+        "B": "Nitrogen",
+        "C": "Carbon dioxide",
+        "D": "Hydrogen"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-005",
+      "id": "sci-en-hard-005",
       "difficulty": "hard",
       "question": "Which scientist discovered the law of universal gravitation?",
-      "options": { "A": "Galileo", "B": "Newton", "C": "Einstein", "D": "Copernicus" },
+      "options": {
+        "A": "Galileo",
+        "B": "Newton",
+        "C": "Einstein",
+        "D": "Copernicus"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-006",
+      "id": "sci-en-hard-006",
       "difficulty": "hard",
       "question": "Which organ produces insulin?",
-      "options": { "A": "The liver", "B": "The pancreas", "C": "The kidneys", "D": "The stomach" },
+      "options": {
+        "A": "The liver",
+        "B": "The pancreas",
+        "C": "The kidneys",
+        "D": "The stomach"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-007",
+      "id": "sci-en-hard-007",
       "difficulty": "hard",
       "question": "Which ocean animal is considered the most intelligent?",
-      "options": { "A": "Dolphin", "B": "Octopus", "C": "Orca", "D": "Seal" },
+      "options": {
+        "A": "Dolphin",
+        "B": "Octopus",
+        "C": "Orca",
+        "D": "Seal"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-hard-008",
+      "id": "sci-en-hard-008",
       "difficulty": "hard",
       "question": "What is the scientific name for water?",
-      "options": { "A": "H2O", "B": "CO2", "C": "NaCl", "D": "O2" },
+      "options": {
+        "A": "H2O",
+        "B": "CO2",
+        "C": "NaCl",
+        "D": "O2"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-hard-009",
+      "id": "sci-en-hard-009",
       "difficulty": "hard",
       "question": "Which is the longest bone in the human body?",
-      "options": { "A": "Femur", "B": "Tibia", "C": "Humerus", "D": "Clavicle" },
+      "options": {
+        "A": "Femur",
+        "B": "Tibia",
+        "C": "Humerus",
+        "D": "Clavicle"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-hard-010",
+      "id": "sci-en-hard-010",
       "difficulty": "hard",
       "question": "Which animal can regenerate its limbs?",
-      "options": { "A": "Starfish", "B": "Frog", "C": "Dog", "D": "Cat" },
+      "options": {
+        "A": "Starfish",
+        "B": "Frog",
+        "C": "Dog",
+        "D": "Cat"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-hard-011",
+      "id": "sci-en-hard-011",
       "difficulty": "hard",
       "question": "What is the name of the galaxy where Earth is located?",
-      "options": { "A": "Andromeda", "B": "Milky Way", "C": "Sagittarius", "D": "Orion" },
+      "options": {
+        "A": "Andromeda",
+        "B": "Milky Way",
+        "C": "Sagittarius",
+        "D": "Orion"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-012",
+      "id": "sci-en-hard-012",
       "difficulty": "hard",
       "question": "Which animal has three hearts?",
-      "options": { "A": "Octopus", "B": "Dolphin", "C": "Shark", "D": "Turtle" },
+      "options": {
+        "A": "Octopus",
+        "B": "Dolphin",
+        "C": "Shark",
+        "D": "Turtle"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-hard-013",
+      "id": "sci-en-hard-013",
       "difficulty": "hard",
       "question": "What is the name of Earth's natural satellite?",
-      "options": { "A": "Mars", "B": "The Moon", "C": "Io", "D": "Titan" },
+      "options": {
+        "A": "Mars",
+        "B": "The Moon",
+        "C": "Io",
+        "D": "Titan"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-014",
+      "id": "sci-en-hard-014",
       "difficulty": "hard",
       "question": "Which is the smallest planet in the solar system?",
-      "options": { "A": "Mars", "B": "Mercury", "C": "Pluto", "D": "Venus" },
+      "options": {
+        "A": "Mars",
+        "B": "Mercury",
+        "C": "Pluto",
+        "D": "Venus"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-015",
+      "id": "sci-en-hard-015",
       "difficulty": "hard",
       "question": "What is the process by which plants make their food?",
-      "options": { "A": "Respiration", "B": "Photosynthesis", "C": "Digestion", "D": "Fermentation" },
+      "options": {
+        "A": "Respiration",
+        "B": "Photosynthesis",
+        "C": "Digestion",
+        "D": "Fermentation"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-016",
+      "id": "sci-en-hard-016",
       "difficulty": "hard",
       "question": "Which animal can live without its head for several days?",
-      "options": { "A": "Cockroach", "B": "Frog", "C": "Fish", "D": "Snail" },
+      "options": {
+        "A": "Cockroach",
+        "B": "Frog",
+        "C": "Fish",
+        "D": "Snail"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-hard-017",
+      "id": "sci-en-hard-017",
       "difficulty": "hard",
       "question": "What is the name of the air layer that protects Earth from the Sun's rays?",
-      "options": { "A": "Troposphere", "B": "Ozone", "C": "Stratosphere", "D": "Atmosphere" },
+      "options": {
+        "A": "Troposphere",
+        "B": "Ozone",
+        "C": "Stratosphere",
+        "D": "Atmosphere"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-018",
+      "id": "sci-en-hard-018",
       "difficulty": "hard",
       "question": "What is the name of the closest star to Earth after the Sun?",
-      "options": { "A": "Sirius", "B": "Proxima Centauri", "C": "Polaris", "D": "Vega" },
+      "options": {
+        "A": "Sirius",
+        "B": "Proxima Centauri",
+        "C": "Polaris",
+        "D": "Vega"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-019",
+      "id": "sci-en-hard-019",
       "difficulty": "hard",
       "question": "Which animal can produce electricity?",
-      "options": { "A": "Electric eel", "B": "Shark", "C": "Dolphin", "D": "Jellyfish" },
+      "options": {
+        "A": "Electric eel",
+        "B": "Shark",
+        "C": "Dolphin",
+        "D": "Jellyfish"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-hard-020",
+      "id": "sci-en-hard-020",
       "difficulty": "hard",
       "question": "Which is the largest active volcano in the world?",
-      "options": { "A": "Etna", "B": "Mauna Loa", "C": "Krakatoa", "D": "Vesuvius" },
+      "options": {
+        "A": "Etna",
+        "B": "Mauna Loa",
+        "C": "Krakatoa",
+        "D": "Vesuvius"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-021",
+      "id": "sci-en-hard-021",
       "difficulty": "hard",
       "question": "Which planet is known for its rings?",
-      "options": { "A": "Jupiter", "B": "Saturn", "C": "Uranus", "D": "Neptune" },
+      "options": {
+        "A": "Jupiter",
+        "B": "Saturn",
+        "C": "Uranus",
+        "D": "Neptune"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-022",
+      "id": "sci-en-hard-022",
       "difficulty": "hard",
       "question": "Which organism can live in hot springs?",
-      "options": { "A": "Thermophilic bacteria", "B": "Frog", "C": "Fish", "D": "Snail" },
+      "options": {
+        "A": "Thermophilic bacteria",
+        "B": "Frog",
+        "C": "Fish",
+        "D": "Snail"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-hard-023",
+      "id": "sci-en-hard-023",
       "difficulty": "hard",
       "question": "Which animal can survive in space for some time?",
-      "options": { "A": "Tardigrade", "B": "Ant", "C": "Frog", "D": "Snail" },
+      "options": {
+        "A": "Tardigrade",
+        "B": "Ant",
+        "C": "Frog",
+        "D": "Snail"
+      },
       "answer": "A"
     },
     {
-      "id": "sci-hard-024",
+      "id": "sci-en-hard-024",
       "difficulty": "hard",
       "question": "Which is the largest planet in the solar system?",
-      "options": { "A": "Saturn", "B": "Jupiter", "C": "Neptune", "D": "Uranus" },
+      "options": {
+        "A": "Saturn",
+        "B": "Jupiter",
+        "C": "Neptune",
+        "D": "Uranus"
+      },
       "answer": "B"
     },
     {
-      "id": "sci-hard-025",
+      "id": "sci-en-hard-025",
       "difficulty": "hard",
       "question": "What is the phenomenon that creates a multicolored arc in the sky after rain?",
-      "options": { "A": "Eclipse", "B": "Rainbow", "C": "Storm", "D": "Aurora Borealis" },
+      "options": {
+        "A": "Eclipse",
+        "B": "Rainbow",
+        "C": "Storm",
+        "D": "Aurora Borealis"
+      },
       "answer": "B"
     }
   ]

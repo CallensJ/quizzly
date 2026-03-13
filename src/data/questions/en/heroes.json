@@ -1,906 +1,906 @@
 {
-"category": "heroes",
-"lang": "en",
-"questions": [
-{
-"id": "hero-easy-001",
-"difficulty": "easy",
-"question": "Who protects a castle in stories?",
-"options": {
-"A": "Knight",
-"B": "Farmer",
-"C": "Baker",
-"D": "Painter"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-002",
-"difficulty": "easy",
-"question": "Who sails a pirate ship?",
-"options": {
-"A": "Pirate",
-"B": "Doctor",
-"C": "Tailor",
-"D": "Gardener"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-003",
-"difficulty": "easy",
-"question": "Which creature breathes fire in tales?",
-"options": {
-"A": "Dragon",
-"B": "Sheep",
-"C": "Horse",
-"D": "Cat"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-004",
-"difficulty": "easy",
-"question": "Who casts spells in many stories?",
-"options": {
-"A": "Wizard",
-"B": "Carpenter",
-"C": "Baker",
-"D": "Tailor"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-005",
-"difficulty": "easy",
-"question": "Who wears shining armor?",
-"options": {
-"A": "Knight",
-"B": "Poet",
-"C": "Cook",
-"D": "Farmer"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-006",
-"difficulty": "easy",
-"question": "Who looks for treasure on islands?",
-"options": {
-"A": "Pirate",
-"B": "Teacher",
-"C": "Driver",
-"D": "Painter"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-007",
-"difficulty": "easy",
-"question": "What protects a knight's head?",
-"options": {
-"A": "Helmet",
-"B": "Boot",
-"C": "Glove",
-"D": "Shoe"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-008",
-"difficulty": "easy",
-"question": "Who has superpowers and helps others?",
-"options": {
-"A": "Superhero",
-"B": "Baker",
-"C": "Driver",
-"D": "Farmer"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-009",
-"difficulty": "easy",
-"question": "Who follows a treasure map?",
-"options": {
-"A": "Pirate",
-"B": "Chef",
-"C": "Tailor",
-"D": "Teacher"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-010",
-"difficulty": "easy",
-"question": "Who often wears a magic cape?",
-"options": {
-"A": "Mage",
-"B": "Carpenter",
-"C": "Butcher",
-"D": "Driver"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-011",
-"difficulty": "easy",
-"question": "Who guards the city at night?",
-"options": {
-"A": "Guardian",
-"B": "Chef",
-"C": "Farmer",
-"D": "Artist"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-012",
-"difficulty": "easy",
-"question": "Who climbs a ship's mast?",
-"options": {
-"A": "Sailor",
-"B": "Baker",
-"C": "Carpenter",
-"D": "Blacksmith"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-013",
-"difficulty": "easy",
-"question": "Who defeats monsters in tales?",
-"options": {
-"A": "Hero",
-"B": "Chair",
-"C": "Cloud",
-"D": "Spoon"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-014",
-"difficulty": "easy",
-"question": "Which instrument does a bard play?",
-"options": {
-"A": "Lute",
-"B": "Hammer",
-"C": "Sewing needle",
-"D": "Shovel"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-015",
-"difficulty": "easy",
-"question": "Who uses compass and maps on quests?",
-"options": {
-"A": "Adventurer",
-"B": "Baker",
-"C": "Tailor",
-"D": "Driver"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-016",
-"difficulty": "easy",
-"question": "Which animal often guards treasure?",
-"options": {
-"A": "Dragon",
-"B": "Cow",
-"C": "Dog",
-"D": "Cat"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-017",
-"difficulty": "easy",
-"question": "Who deciphers clues to find treasure?",
-"options": {
-"A": "Detective",
-"B": "Baker",
-"C": "Cleaner",
-"D": "Driver"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-018",
-"difficulty": "easy",
-"question": "Which object helps talk to animals?",
-"options": {
-"A": "Amulet",
-"B": "Fork",
-"C": "Book",
-"D": "Plate"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-019",
-"difficulty": "easy",
-"question": "Who explores distant islands?",
-"options": {
-"A": "Explorer",
-"B": "Baker",
-"C": "Artist",
-"D": "Tailor"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-020",
-"difficulty": "easy",
-"question": "Which hero often carries a sword?",
-"options": {
-"A": "Knight",
-"B": "Teacher",
-"C": "Doctor",
-"D": "Pilot"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-021",
-"difficulty": "easy",
-"question": "Who defends the weak in tales?",
-"options": {
-"A": "Knight",
-"B": "Thief",
-"C": "Merchant",
-"D": "Baker"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-022",
-"difficulty": "easy",
-"question": "What item lets you understand animals?",
-"options": {
-"A": "Magic amulet",
-"B": "Sword",
-"C": "Shield",
-"D": "Helmet"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-023",
-"difficulty": "easy",
-"question": "Who braves rough seas to explore?",
-"options": {
-"A": "Sailor",
-"B": "Baker",
-"C": "Blacksmith",
-"D": "Tailor"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-024",
-"difficulty": "easy",
-"question": "Which hero wears a shining shield?",
-"options": {
-"A": "Knight",
-"B": "Farmer",
-"C": "Priest",
-"D": "Actor"
-},
-"answer": "A"
-},
-{
-"id": "hero-easy-025",
-"difficulty": "easy",
-"question": "Who defends a town from monsters?",
-"options": {
-"A": "Guardian",
-"B": "Chef",
-"C": "Tailor",
-"D": "Fisher"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-001",
-"difficulty": "medium",
-"question": "What does a knight's code stress?",
-"options": {
-"A": "Courage and honor",
-"B": "Hiding",
-"C": "Stealing",
-"D": "Laziness"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-002",
-"difficulty": "medium",
-"question": "What do pirates often seek at sea?",
-"options": {
-"A": "Treasure",
-"B": "Schools",
-"C": "Markets",
-"D": "Hospitals"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-003",
-"difficulty": "medium",
-"question": "Which tool helps mapmakers most?",
-"options": {
-"A": "Compass",
-"B": "Spoon",
-"C": "Broom",
-"D": "Knife"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-004",
-"difficulty": "medium",
-"question": "Who defends the realm at night?",
-"options": {
-"A": "Knight",
-"B": "Merchant",
-"C": "Farmer",
-"D": "Baker"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-005",
-"difficulty": "medium",
-"question": "What guards a hoard in legend?",
-"options": {
-"A": "Dragon",
-"B": "Goat",
-"C": "Sheep",
-"D": "Rabbit"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-006",
-"difficulty": "medium",
-"question": "What protects against dark magic?",
-"options": {
-"A": "Protective charm",
-"B": "Empty box",
-"C": "Broken sword",
-"D": "Paper"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-007",
-"difficulty": "medium",
-"question": "What role scouts play in quests?",
-"options": {
-"A": "Spot danger first",
-"B": "Cook food only",
-"C": "Sleep a lot",
-"D": "Sew clothes"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-008",
-"difficulty": "medium",
-"question": "What does a bard bring to a group?",
-"options": {
-"A": "Songs and stories",
-"B": "Iron alone",
-"C": "Heavy armor",
-"D": "Food only"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-009",
-"difficulty": "medium",
-"question": "Which weapon does a pirate favor?",
-"options": {
-"A": "Cutlass",
-"B": "Spoon",
-"C": "Feather",
-"D": "Hammer"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-010",
-"difficulty": "medium",
-"question": "What hazard does a map help avoid?",
-"options": {
-"A": "Hidden rocks",
-"B": "Boring roads",
-"C": "Bright sunlight",
-"D": "Friendly birds"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-011",
-"difficulty": "medium",
-"question": "How judge a blade's quality?",
-"options": {
-"A": "Steel and balance",
-"B": "Color only",
-"C": "Length only",
-"D": "Handle decoration"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-012",
-"difficulty": "medium",
-"question": "How does a mage focus power?",
-"options": {
-"A": "Meditation",
-"B": "Shouting",
-"C": "Running",
-"D": "Laughing"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-013",
-"difficulty": "medium",
-"question": "Which terrain lures many adventurers?",
-"options": {
-"A": "Mysterious forest",
-"B": "Factory floor",
-"C": "Shopping mall",
-"D": "Parking lot"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-014",
-"difficulty": "medium",
-"question": "Which object can reveal hidden maps?",
-"options": {
-"A": "Magic lantern",
-"B": "Stone",
-"C": "Rope",
-"D": "Sack"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-015",
-"difficulty": "medium",
-"question": "What does an enchanted shield block?",
-"options": {
-"A": "Attacks and spells",
-"B": "Hunger",
-"C": "Smell",
-"D": "Time"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-016",
-"difficulty": "medium",
-"question": "What ally does a knight prefer?",
-"options": {
-"A": "Loyal companion",
-"B": "Loud rival",
-"C": "Greedy merchant",
-"D": "Silent tree"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-017",
-"difficulty": "medium",
-"question": "What name fits an old secret map?",
-"options": {
-"A": "Treasure map",
-"B": "Menu",
-"C": "Receipt",
-"D": "Novel"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-018",
-"difficulty": "medium",
-"question": "What danger does a ship dread most?",
-"options": {
-"A": "Reefs",
-"B": "Seagulls",
-"C": "Smooth sails",
-"D": "Calm weather"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-019",
-"difficulty": "medium",
-"question": "Which spell helps heal wounds?",
-"options": {
-"A": "Healing spell",
-"B": "Fear spell",
-"C": "Invisibility",
-"D": "Rust spell"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-020",
-"difficulty": "medium",
-"question": "Who studies maps and roads?",
-"options": {
-"A": "Cartographer",
-"B": "Baker",
-"C": "Cook",
-"D": "Singer"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-021",
-"difficulty": "medium",
-"question": "What challenge might a knight face?",
-"options": {
-"A": "Duel of honor",
-"B": "Baking contest",
-"C": "Dance-off",
-"D": "Sewing class"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-022",
-"difficulty": "medium",
-"question": "Which trait aids an adventurer most?",
-"options": {
-"A": "Curiosity",
-"B": "Laziness",
-"C": "Greed",
-"D": "Fear"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-023",
-"difficulty": "medium",
-"question": "Which mythical creature has a human head and lion body?",
-"options": {
-"A": "Sphinx",
-"B": "Unicorn",
-"C": "Griffin",
-"D": "Hydra"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-024",
-"difficulty": "medium",
-"question": "What lights dark caves for explorers?",
-"options": {
-"A": "Magic lantern",
-"B": "Feather",
-"C": "Stone",
-"D": "Empty bottle"
-},
-"answer": "A"
-},
-{
-"id": "hero-medium-025",
-"difficulty": "medium",
-"question": "Which legendary mount aids travel?",
-"options": {
-"A": "Horse",
-"B": "Mouse",
-"C": "Chicken",
-"D": "Turtle"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-001",
-"difficulty": "hard",
-"question": "What tactic breaks heavy plate armor?",
-"options": {
-"A": "Blunt strikes",
-"B": "Tickling",
-"C": "Singing",
-"D": "Waving flags"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-002",
-"difficulty": "hard",
-"question": "What disease threatened old sailors on long voyages?",
-"options": {
-"A": "Scurvy",
-"B": "Cold feet",
-"C": "Sore throat",
-"D": "Sunburn only"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-003",
-"difficulty": "hard",
-"question": "Which quality defines an excellent sword?",
-"options": {
-"A": "Balance and tempered steel",
-"B": "Bright color",
-"C": "Long tassel",
-"D": "Heavy rust"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-004",
-"difficulty": "hard",
-"question": "What ensures success for a long expedition?",
-"options": {
-"A": "Good planning and crew",
-"B": "Leaving at random",
-"C": "No supplies",
-"D": "Ignoring maps"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-005",
-"difficulty": "hard",
-"question": "Which defense helps a besieged castle most?",
-"options": {
-"A": "Moat and tall walls",
-"B": "Open gates",
-"C": "No guards",
-"D": "Thin walls"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-006",
-"difficulty": "hard",
-"question": "What knowledge helps read ancient tablets?",
-"options": {
-"A": "Symbol interpretation",
-"B": "Cooking recipes",
-"C": "Horse riding only",
-"D": "Sewing patterns"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-007",
-"difficulty": "hard",
-"question": "How prevent armor from rusting?",
-"options": {
-"A": "Oil and maintenance",
-"B": "Leave in rain",
-"C": "Bury it",
-"D": "Paint with flour"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-008",
-"difficulty": "hard",
-"question": "Which sea route reduced pirate attacks?",
-"options": {
-"A": "Convoyed and patrolled lanes",
-"B": "Unknown waters",
-"C": "Shallow bays",
-"D": "Hidden coves"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-009",
-"difficulty": "hard",
-"question": "How test whether a potion is harmful?",
-"options": {
-"A": "Analyze and dilute carefully",
-"B": "Drink immediately",
-"C": "Throw it away",
-"D": "Smell loudly"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-010",
-"difficulty": "hard",
-"question": "What tactic helps cross hostile forests safely?",
-"options": {
-"A": "Follow trails and markers",
-"B": "Split group randomly",
-"C": "Run blindly",
-"D": "Sing loudly"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-011",
-"difficulty": "hard",
-"question": "What principle guides a successful quest?",
-"options": {
-"A": "Clear goal and teamwork",
-"B": "Selfishness",
-"C": "Hiding always",
-"D": "Avoid planning"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-012",
-"difficulty": "hard",
-"question": "Which skill helps persuade a lord?",
-"options": {
-"A": "Diplomacy",
-"B": "Running fast",
-"C": "Whistling",
-"D": "Carving wood"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-013",
-"difficulty": "hard",
-"question": "Which sign indicates a coded map?",
-"options": {
-"A": "Repeated symbols",
-"B": "Tidy margins",
-"C": "Bright colors",
-"D": "Blank spots"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-014",
-"difficulty": "hard",
-"question": "Which tactic can repel a dragon's flames?",
-"options": {
-"A": "Reflective shield",
-"B": "Throwing stones",
-"C": "Yelling",
-"D": "Running circles"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-015",
-"difficulty": "hard",
-"question": "What must travelers pack for a long voyage?",
-"options": {
-"A": "Food, water and maps",
-"B": "Only clothes",
-"C": "Just a hat",
-"D": "No supplies"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-016",
-"difficulty": "hard",
-"question": "What does a blacksmith teach a knight?",
-"options": {
-"A": "Weapon care",
-"B": "Dancing steps",
-"C": "Cooking soups",
-"D": "Singing"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-017",
-"difficulty": "hard",
-"question": "Which resource saves a city in siege?",
-"options": {
-"A": "Stored water and food",
-"B": "Decorations",
-"C": "Empty halls",
-"D": "Songs"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-018",
-"difficulty": "hard",
-"question": "What helps cross a dangerous swamp?",
-"options": {
-"A": "Know safe paths",
-"B": "Walk anywhere",
-"C": "Run quickly",
-"D": "Sing loudly"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-019",
-"difficulty": "hard",
-"question": "Which art convinces kings and rulers?",
-"options": {
-"A": "Oratory",
-"B": "Juggling",
-"C": "Whistling",
-"D": "Sleeping well"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-020",
-"difficulty": "hard",
-"question": "What benefit does an organized army bring?",
-"options": {
-"A": "Strategy and coordination",
-"B": "Chaos",
-"C": "Confusion",
-"D": "Noise only"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-021",
-"difficulty": "hard",
-"question": "How counter magical illusions effectively?",
-"options": {
-"A": "Dispel rituals",
-"B": "Ignore them",
-"C": "Sleep",
-"D": "Sneeze"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-022",
-"difficulty": "hard",
-"question": "What should explorers map first?",
-"options": {
-"A": "Water sources",
-"B": "Flowers",
-"C": "Bird songs",
-"D": "Clouds"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-023",
-"difficulty": "hard",
-"question": "Which military skill matters for leaders?",
-"options": {
-"A": "Tactics and strategy",
-"B": "Painting",
-"C": "Baking",
-"D": "Sleeping"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-024",
-"difficulty": "hard",
-"question": "What is a common battlefield deception?",
-"options": {
-"A": "Feint",
-"B": "Singing loudly",
-"C": "Standing still",
-"D": "Showing maps"
-},
-"answer": "A"
-},
-{
-"id": "hero-hard-025",
-"difficulty": "hard",
-"question": "Which values form a lasting hero code?",
-"options": {
-"A": "Honor, courage, respect",
-"B": "Trickery alone",
-"C": "Fear only",
-"D": "Silence"
-},
-"answer": "A"
-}
-]
+  "category": "heroes",
+  "lang": "en",
+  "questions": [
+    {
+      "id": "hero-en-easy-001",
+      "difficulty": "easy",
+      "question": "Who protects a castle in stories?",
+      "options": {
+        "A": "Knight",
+        "B": "Farmer",
+        "C": "Baker",
+        "D": "Painter"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-002",
+      "difficulty": "easy",
+      "question": "Who sails a pirate ship?",
+      "options": {
+        "A": "Pirate",
+        "B": "Doctor",
+        "C": "Tailor",
+        "D": "Gardener"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-003",
+      "difficulty": "easy",
+      "question": "Which creature breathes fire in tales?",
+      "options": {
+        "A": "Dragon",
+        "B": "Sheep",
+        "C": "Horse",
+        "D": "Cat"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-004",
+      "difficulty": "easy",
+      "question": "Who casts spells in many stories?",
+      "options": {
+        "A": "Wizard",
+        "B": "Carpenter",
+        "C": "Baker",
+        "D": "Tailor"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-005",
+      "difficulty": "easy",
+      "question": "Who wears shining armor?",
+      "options": {
+        "A": "Knight",
+        "B": "Poet",
+        "C": "Cook",
+        "D": "Farmer"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-006",
+      "difficulty": "easy",
+      "question": "Who looks for treasure on islands?",
+      "options": {
+        "A": "Pirate",
+        "B": "Teacher",
+        "C": "Driver",
+        "D": "Painter"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-007",
+      "difficulty": "easy",
+      "question": "What protects a knight's head?",
+      "options": {
+        "A": "Helmet",
+        "B": "Boot",
+        "C": "Glove",
+        "D": "Shoe"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-008",
+      "difficulty": "easy",
+      "question": "Who has superpowers and helps others?",
+      "options": {
+        "A": "Superhero",
+        "B": "Baker",
+        "C": "Driver",
+        "D": "Farmer"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-009",
+      "difficulty": "easy",
+      "question": "Who follows a treasure map?",
+      "options": {
+        "A": "Pirate",
+        "B": "Chef",
+        "C": "Tailor",
+        "D": "Teacher"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-010",
+      "difficulty": "easy",
+      "question": "Who often wears a magic cape?",
+      "options": {
+        "A": "Mage",
+        "B": "Carpenter",
+        "C": "Butcher",
+        "D": "Driver"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-011",
+      "difficulty": "easy",
+      "question": "Who guards the city at night?",
+      "options": {
+        "A": "Guardian",
+        "B": "Chef",
+        "C": "Farmer",
+        "D": "Artist"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-012",
+      "difficulty": "easy",
+      "question": "Who climbs a ship's mast?",
+      "options": {
+        "A": "Sailor",
+        "B": "Baker",
+        "C": "Carpenter",
+        "D": "Blacksmith"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-013",
+      "difficulty": "easy",
+      "question": "Who defeats monsters in tales?",
+      "options": {
+        "A": "Hero",
+        "B": "Chair",
+        "C": "Cloud",
+        "D": "Spoon"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-014",
+      "difficulty": "easy",
+      "question": "Which instrument does a bard play?",
+      "options": {
+        "A": "Lute",
+        "B": "Hammer",
+        "C": "Sewing needle",
+        "D": "Shovel"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-015",
+      "difficulty": "easy",
+      "question": "Who uses compass and maps on quests?",
+      "options": {
+        "A": "Adventurer",
+        "B": "Baker",
+        "C": "Tailor",
+        "D": "Driver"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-016",
+      "difficulty": "easy",
+      "question": "Which animal often guards treasure?",
+      "options": {
+        "A": "Dragon",
+        "B": "Cow",
+        "C": "Dog",
+        "D": "Cat"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-017",
+      "difficulty": "easy",
+      "question": "Who deciphers clues to find treasure?",
+      "options": {
+        "A": "Detective",
+        "B": "Baker",
+        "C": "Cleaner",
+        "D": "Driver"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-018",
+      "difficulty": "easy",
+      "question": "Which object helps talk to animals?",
+      "options": {
+        "A": "Amulet",
+        "B": "Fork",
+        "C": "Book",
+        "D": "Plate"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-019",
+      "difficulty": "easy",
+      "question": "Who explores distant islands?",
+      "options": {
+        "A": "Explorer",
+        "B": "Baker",
+        "C": "Artist",
+        "D": "Tailor"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-020",
+      "difficulty": "easy",
+      "question": "Which hero often carries a sword?",
+      "options": {
+        "A": "Knight",
+        "B": "Teacher",
+        "C": "Doctor",
+        "D": "Pilot"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-021",
+      "difficulty": "easy",
+      "question": "Who defends the weak in tales?",
+      "options": {
+        "A": "Knight",
+        "B": "Thief",
+        "C": "Merchant",
+        "D": "Baker"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-022",
+      "difficulty": "easy",
+      "question": "What item lets you understand animals?",
+      "options": {
+        "A": "Magic amulet",
+        "B": "Sword",
+        "C": "Shield",
+        "D": "Helmet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-023",
+      "difficulty": "easy",
+      "question": "Who braves rough seas to explore?",
+      "options": {
+        "A": "Sailor",
+        "B": "Baker",
+        "C": "Blacksmith",
+        "D": "Tailor"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-024",
+      "difficulty": "easy",
+      "question": "Which hero wears a shining shield?",
+      "options": {
+        "A": "Knight",
+        "B": "Farmer",
+        "C": "Priest",
+        "D": "Actor"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-easy-025",
+      "difficulty": "easy",
+      "question": "Who defends a town from monsters?",
+      "options": {
+        "A": "Guardian",
+        "B": "Chef",
+        "C": "Tailor",
+        "D": "Fisher"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-001",
+      "difficulty": "medium",
+      "question": "What does a knight's code stress?",
+      "options": {
+        "A": "Courage and honor",
+        "B": "Hiding",
+        "C": "Stealing",
+        "D": "Laziness"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-002",
+      "difficulty": "medium",
+      "question": "What do pirates often seek at sea?",
+      "options": {
+        "A": "Treasure",
+        "B": "Schools",
+        "C": "Markets",
+        "D": "Hospitals"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-003",
+      "difficulty": "medium",
+      "question": "Which tool helps mapmakers most?",
+      "options": {
+        "A": "Compass",
+        "B": "Spoon",
+        "C": "Broom",
+        "D": "Knife"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-004",
+      "difficulty": "medium",
+      "question": "Who defends the realm at night?",
+      "options": {
+        "A": "Knight",
+        "B": "Merchant",
+        "C": "Farmer",
+        "D": "Baker"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-005",
+      "difficulty": "medium",
+      "question": "What guards a hoard in legend?",
+      "options": {
+        "A": "Dragon",
+        "B": "Goat",
+        "C": "Sheep",
+        "D": "Rabbit"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-006",
+      "difficulty": "medium",
+      "question": "What protects against dark magic?",
+      "options": {
+        "A": "Protective charm",
+        "B": "Empty box",
+        "C": "Broken sword",
+        "D": "Paper"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-007",
+      "difficulty": "medium",
+      "question": "What role scouts play in quests?",
+      "options": {
+        "A": "Spot danger first",
+        "B": "Cook food only",
+        "C": "Sleep a lot",
+        "D": "Sew clothes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-008",
+      "difficulty": "medium",
+      "question": "What does a bard bring to a group?",
+      "options": {
+        "A": "Songs and stories",
+        "B": "Iron alone",
+        "C": "Heavy armor",
+        "D": "Food only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-009",
+      "difficulty": "medium",
+      "question": "Which weapon does a pirate favor?",
+      "options": {
+        "A": "Cutlass",
+        "B": "Spoon",
+        "C": "Feather",
+        "D": "Hammer"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-010",
+      "difficulty": "medium",
+      "question": "What hazard does a map help avoid?",
+      "options": {
+        "A": "Hidden rocks",
+        "B": "Boring roads",
+        "C": "Bright sunlight",
+        "D": "Friendly birds"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-011",
+      "difficulty": "medium",
+      "question": "How judge a blade's quality?",
+      "options": {
+        "A": "Steel and balance",
+        "B": "Color only",
+        "C": "Length only",
+        "D": "Handle decoration"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-012",
+      "difficulty": "medium",
+      "question": "How does a mage focus power?",
+      "options": {
+        "A": "Meditation",
+        "B": "Shouting",
+        "C": "Running",
+        "D": "Laughing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-013",
+      "difficulty": "medium",
+      "question": "Which terrain lures many adventurers?",
+      "options": {
+        "A": "Mysterious forest",
+        "B": "Factory floor",
+        "C": "Shopping mall",
+        "D": "Parking lot"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-014",
+      "difficulty": "medium",
+      "question": "Which object can reveal hidden maps?",
+      "options": {
+        "A": "Magic lantern",
+        "B": "Stone",
+        "C": "Rope",
+        "D": "Sack"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-015",
+      "difficulty": "medium",
+      "question": "What does an enchanted shield block?",
+      "options": {
+        "A": "Attacks and spells",
+        "B": "Hunger",
+        "C": "Smell",
+        "D": "Time"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-016",
+      "difficulty": "medium",
+      "question": "What ally does a knight prefer?",
+      "options": {
+        "A": "Loyal companion",
+        "B": "Loud rival",
+        "C": "Greedy merchant",
+        "D": "Silent tree"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-017",
+      "difficulty": "medium",
+      "question": "What name fits an old secret map?",
+      "options": {
+        "A": "Treasure map",
+        "B": "Menu",
+        "C": "Receipt",
+        "D": "Novel"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-018",
+      "difficulty": "medium",
+      "question": "What danger does a ship dread most?",
+      "options": {
+        "A": "Reefs",
+        "B": "Seagulls",
+        "C": "Smooth sails",
+        "D": "Calm weather"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-019",
+      "difficulty": "medium",
+      "question": "Which spell helps heal wounds?",
+      "options": {
+        "A": "Healing spell",
+        "B": "Fear spell",
+        "C": "Invisibility",
+        "D": "Rust spell"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-020",
+      "difficulty": "medium",
+      "question": "Who studies maps and roads?",
+      "options": {
+        "A": "Cartographer",
+        "B": "Baker",
+        "C": "Cook",
+        "D": "Singer"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-021",
+      "difficulty": "medium",
+      "question": "What challenge might a knight face?",
+      "options": {
+        "A": "Duel of honor",
+        "B": "Baking contest",
+        "C": "Dance-off",
+        "D": "Sewing class"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-022",
+      "difficulty": "medium",
+      "question": "Which trait aids an adventurer most?",
+      "options": {
+        "A": "Curiosity",
+        "B": "Laziness",
+        "C": "Greed",
+        "D": "Fear"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-023",
+      "difficulty": "medium",
+      "question": "Which mythical creature has a human head and lion body?",
+      "options": {
+        "A": "Sphinx",
+        "B": "Unicorn",
+        "C": "Griffin",
+        "D": "Hydra"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-024",
+      "difficulty": "medium",
+      "question": "What lights dark caves for explorers?",
+      "options": {
+        "A": "Magic lantern",
+        "B": "Feather",
+        "C": "Stone",
+        "D": "Empty bottle"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-medium-025",
+      "difficulty": "medium",
+      "question": "Which legendary mount aids travel?",
+      "options": {
+        "A": "Horse",
+        "B": "Mouse",
+        "C": "Chicken",
+        "D": "Turtle"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-001",
+      "difficulty": "hard",
+      "question": "What tactic breaks heavy plate armor?",
+      "options": {
+        "A": "Blunt strikes",
+        "B": "Tickling",
+        "C": "Singing",
+        "D": "Waving flags"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-002",
+      "difficulty": "hard",
+      "question": "What disease threatened old sailors on long voyages?",
+      "options": {
+        "A": "Scurvy",
+        "B": "Cold feet",
+        "C": "Sore throat",
+        "D": "Sunburn only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-003",
+      "difficulty": "hard",
+      "question": "Which quality defines an excellent sword?",
+      "options": {
+        "A": "Balance and tempered steel",
+        "B": "Bright color",
+        "C": "Long tassel",
+        "D": "Heavy rust"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-004",
+      "difficulty": "hard",
+      "question": "What ensures success for a long expedition?",
+      "options": {
+        "A": "Good planning and crew",
+        "B": "Leaving at random",
+        "C": "No supplies",
+        "D": "Ignoring maps"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-005",
+      "difficulty": "hard",
+      "question": "Which defense helps a besieged castle most?",
+      "options": {
+        "A": "Moat and tall walls",
+        "B": "Open gates",
+        "C": "No guards",
+        "D": "Thin walls"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-006",
+      "difficulty": "hard",
+      "question": "What knowledge helps read ancient tablets?",
+      "options": {
+        "A": "Symbol interpretation",
+        "B": "Cooking recipes",
+        "C": "Horse riding only",
+        "D": "Sewing patterns"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-007",
+      "difficulty": "hard",
+      "question": "How prevent armor from rusting?",
+      "options": {
+        "A": "Oil and maintenance",
+        "B": "Leave in rain",
+        "C": "Bury it",
+        "D": "Paint with flour"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-008",
+      "difficulty": "hard",
+      "question": "Which sea route reduced pirate attacks?",
+      "options": {
+        "A": "Convoyed and patrolled lanes",
+        "B": "Unknown waters",
+        "C": "Shallow bays",
+        "D": "Hidden coves"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-009",
+      "difficulty": "hard",
+      "question": "How test whether a potion is harmful?",
+      "options": {
+        "A": "Analyze and dilute carefully",
+        "B": "Drink immediately",
+        "C": "Throw it away",
+        "D": "Smell loudly"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-010",
+      "difficulty": "hard",
+      "question": "What tactic helps cross hostile forests safely?",
+      "options": {
+        "A": "Follow trails and markers",
+        "B": "Split group randomly",
+        "C": "Run blindly",
+        "D": "Sing loudly"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-011",
+      "difficulty": "hard",
+      "question": "What principle guides a successful quest?",
+      "options": {
+        "A": "Clear goal and teamwork",
+        "B": "Selfishness",
+        "C": "Hiding always",
+        "D": "Avoid planning"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-012",
+      "difficulty": "hard",
+      "question": "Which skill helps persuade a lord?",
+      "options": {
+        "A": "Diplomacy",
+        "B": "Running fast",
+        "C": "Whistling",
+        "D": "Carving wood"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-013",
+      "difficulty": "hard",
+      "question": "Which sign indicates a coded map?",
+      "options": {
+        "A": "Repeated symbols",
+        "B": "Tidy margins",
+        "C": "Bright colors",
+        "D": "Blank spots"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-014",
+      "difficulty": "hard",
+      "question": "Which tactic can repel a dragon's flames?",
+      "options": {
+        "A": "Reflective shield",
+        "B": "Throwing stones",
+        "C": "Yelling",
+        "D": "Running circles"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-015",
+      "difficulty": "hard",
+      "question": "What must travelers pack for a long voyage?",
+      "options": {
+        "A": "Food, water and maps",
+        "B": "Only clothes",
+        "C": "Just a hat",
+        "D": "No supplies"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-016",
+      "difficulty": "hard",
+      "question": "What does a blacksmith teach a knight?",
+      "options": {
+        "A": "Weapon care",
+        "B": "Dancing steps",
+        "C": "Cooking soups",
+        "D": "Singing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-017",
+      "difficulty": "hard",
+      "question": "Which resource saves a city in siege?",
+      "options": {
+        "A": "Stored water and food",
+        "B": "Decorations",
+        "C": "Empty halls",
+        "D": "Songs"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-018",
+      "difficulty": "hard",
+      "question": "What helps cross a dangerous swamp?",
+      "options": {
+        "A": "Know safe paths",
+        "B": "Walk anywhere",
+        "C": "Run quickly",
+        "D": "Sing loudly"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-019",
+      "difficulty": "hard",
+      "question": "Which art convinces kings and rulers?",
+      "options": {
+        "A": "Oratory",
+        "B": "Juggling",
+        "C": "Whistling",
+        "D": "Sleeping well"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-020",
+      "difficulty": "hard",
+      "question": "What benefit does an organized army bring?",
+      "options": {
+        "A": "Strategy and coordination",
+        "B": "Chaos",
+        "C": "Confusion",
+        "D": "Noise only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-021",
+      "difficulty": "hard",
+      "question": "How counter magical illusions effectively?",
+      "options": {
+        "A": "Dispel rituals",
+        "B": "Ignore them",
+        "C": "Sleep",
+        "D": "Sneeze"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-022",
+      "difficulty": "hard",
+      "question": "What should explorers map first?",
+      "options": {
+        "A": "Water sources",
+        "B": "Flowers",
+        "C": "Bird songs",
+        "D": "Clouds"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-023",
+      "difficulty": "hard",
+      "question": "Which military skill matters for leaders?",
+      "options": {
+        "A": "Tactics and strategy",
+        "B": "Painting",
+        "C": "Baking",
+        "D": "Sleeping"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-024",
+      "difficulty": "hard",
+      "question": "What is a common battlefield deception?",
+      "options": {
+        "A": "Feint",
+        "B": "Singing loudly",
+        "C": "Standing still",
+        "D": "Showing maps"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hero-en-hard-025",
+      "difficulty": "hard",
+      "question": "Which values form a lasting hero code?",
+      "options": {
+        "A": "Honor, courage, respect",
+        "B": "Trickery alone",
+        "C": "Fear only",
+        "D": "Silence"
+      },
+      "answer": "A"
+    }
+  ]
 }

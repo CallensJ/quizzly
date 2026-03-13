@@ -38,6 +38,7 @@ export default function ResultsScreen() {
   const { status, score, category, difficulty, questions, startQuiz, resetAll } = useQuizStore();
   const soundEnabled = useProfileStore((s) => s.soundEnabled);
   const deviceId = useProfileStore((s) => s.deviceId);
+  const ageGroup = useProfileStore((s) => s.profile?.ageGroup ?? '6-9');
 
   const total = questions.length || 20;
   const badgeEarnedThisSession = score >= BADGE_THRESHOLD;
@@ -113,7 +114,7 @@ export default function ResultsScreen() {
     setLoading(true);
     try {
       // Récupère les questions depuis Supabase (cache 24h + fallback offline)
-      const pool = await fetchQuestions(category, locale as Locale, difficulty);
+      const pool = await fetchQuestions(category, locale as Locale, difficulty, ageGroup);
       startQuiz(pool);
       router.push('/quiz');
     } finally {
