@@ -15,7 +15,7 @@
 
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { ArrowLeft, Pencil, Lock, Crown } from 'lucide-react';
+import { ArrowLeft, Pencil, Lock, Crown, BarChart2 } from 'lucide-react';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useAuthStore } from '@/stores/authStore';
@@ -338,6 +338,16 @@ export default function ProfileScreen() {
             </div>
           )}
         </section>
+
+        {/* ── Bouton statistiques détaillées ────────────────────────────── */}
+        <button
+          type="button"
+          className="profile__cta-stats"
+          onClick={() => router.push('/stats')}
+        >
+          <BarChart2 size={20} aria-hidden="true" />
+          {t('statsLink')}
+        </button>
 
         {/* ── Bouton retour ─────────────────────────────────────────────── */}
         <button

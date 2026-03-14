@@ -88,7 +88,27 @@
     "soundDesc": "Effets sonores pendant le quiz",
     "langLabel": "Langue",
     "langDesc": "Changer la langue de l'application",
-    "adminLink": "Espace parent"
+    "adminLink": "Espace parent",
+    "statsLink": "Mes statistiques"
+  },
+  "stats": {
+    "title": "Mes statistiques",
+    "noData": "Joue quelques parties pour voir tes stats !",
+    "recentGames": "Parties récentes",
+    "byCategory": "Par catégorie",
+    "byDifficulty": "Par difficulté",
+    "avgScore": "Moy.",
+    "bestScore": "Meilleur",
+    "games": "{count} partie(s)",
+    "ctaBack": "Retour au profil",
+    "scoreLabel": "Score %",
+    "easy": "Facile",
+    "medium": "Moyen",
+    "hard": "Difficile",
+    "noGamesCategory": "—",
+    "sciences": "Sciences",
+    "histoire": "Histoire",
+    "heroes": "Héros"
   },
   "admin": {
     "title": "Espace Parent",

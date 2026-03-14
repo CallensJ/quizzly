@@ -535,6 +535,35 @@
     }
   }
 
+  // ── Bouton stats détaillées ───────────────────────────────────────────────
+  // Secondaire (outline) — moins prioritaire visuellement que le bouton retour
+
+  &__cta-stats {
+    width: 100%;
+    min-height: v.$touch-target-lg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: v.$spacing-sm;
+    background: v.$white;
+    color: v.$primary;
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    border-radius: v.$radius-full;
+    border: 2px solid v.$primary;
+    box-shadow: v.$shadow-sm;
+    transition:
+      background v.$transition-fast,
+      color v.$transition-fast;
+
+    &:hover {
+      background: v.$primary;
+      color: v.$white;
+    }
+
+    @include m.focus-ring;
+  }
+
   // ── Bouton retour ─────────────────────────────────────────────────────────
 
   &__cta-home {
@@ -702,9 +731,18 @@
       }
     }
 
+    // Bouton stats — pleine largeur, centré (avant le bouton retour)
+    &__cta-stats {
+      order: 7;
+      grid-column: 1 / -1;
+      max-width: 400px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
     // Bouton retour — pleine largeur, limité en largeur et centré
     &__cta-home {
-      order: 7;
+      order: 8;
       grid-column: 1 / -1;
       max-width: 400px;
       margin: 0 auto;
@@ -713,7 +751,7 @@
 
     // Lien espace parent — pleine largeur, centré
     &__admin-link {
-      order: 8;
+      order: 9;
       grid-column: 1 / -1;
     }
   }
