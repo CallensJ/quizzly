@@ -22,10 +22,8 @@ import { useQuizStore } from '@/stores/quizStore';
 import { useProfileStore } from '@/stores/profileStore';
 import Nova, { type NovaState } from '@/components/ui/Nova';
 import { playSound } from '@/lib/sound';
+import { getNewlyEarnedBadges } from '@/lib/badges';
 import type { AnswerKey } from '@/types';
-
-// Seuil d'obtention du badge : 20% de bonnes réponses = 4/20
-const BADGE_THRESHOLD = 4;
 
 // Ordre fixe d'affichage des boutons réponse
 const ANSWER_KEYS: AnswerKey[] = ['A', 'B', 'C', 'D'];
@@ -46,7 +44,7 @@ export default function QuizScreen() {
     selectAnswer, nextQuestion,
   } = useQuizStore();
 
-  const { addSession, earnBadge } = useProfileStore();
+  const { addSession, awardBadges } = useProfileStore();
   const timerEnabled = useProfileStore((s) => s.timerEnabled);
   const soundEnabled = useProfileStore((s) => s.soundEnabled);
 
@@ -153,13 +151,15 @@ export default function QuizScreen() {
     }
   }, [status, router]);
 
-  // ── Fin de partie : enregistrement + redirection ─────────────────────────
+  // ── Fin de partie : enregistrement + badges + redirection ────────────────
   useEffect(() => {
     if (status === 'finished') {
       if (category && difficulty) {
         addSession({ category, difficulty, score, totalQuestions: total });
-        // Badge si score ≥ 20% (4 bonnes réponses sur 20)
-        if (score >= BADGE_THRESHOLD) earnBadge();
+        // Lecture synchrone du store après addSession — Zustand set() est synchrone
+        const { sessions, earnedBadgeIds } = useProfileStore.getState();
+        const newBadges = getNewlyEarnedBadges(sessions, earnedBadgeIds);
+        if (newBadges.length > 0) awardBadges(newBadges);
       }
       router.push('/results');
     }

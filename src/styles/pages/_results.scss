@@ -133,43 +133,57 @@
     animation-delay: 150ms;
   }
 
-  // ── Carte badge ────────────────────────────────────────────────────────
+  // ── Badges gagnés cette session ────────────────────────────────────────
 
-  &__badge {
+  &__badges {
     @include m.flex-column;
     align-items: center;
-    gap: v.$spacing-sm;
+    gap: v.$spacing-md;
     background: v.$white;
     border: 2px solid rgba(v.$accent, 0.4);
     border-radius: v.$radius-lg;
     padding: v.$spacing-xl;
     box-shadow:
       v.$shadow-md,
-      // Halo doré pour mettre en valeur le badge
       0 0 24px rgba(v.$accent, 0.25);
-    // Bounce à l'apparition
     animation: results-badge-bounce 500ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
     animation-delay: 300ms;
     width: 100%;
   }
 
-  &__badge-icon {
-    font-size: 3.5rem;
-    // Pulse subtil en boucle pour attirer l'œil
-    animation: results-trophy-pulse 2s ease-in-out infinite;
-    animation-delay: 800ms;
-    display: block;
-  }
-
-  &__badge-title {
+  &__badges-title {
     font-size: v.$font-size-xl;
     font-weight: 800;
     color: v.$foreground;
   }
 
-  &__badge-desc {
-    font-size: v.$font-size-base;
-    font-weight: 600;
+  // Ligne horizontale de cartes badge (peut en avoir plusieurs)
+  &__badges-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: v.$spacing-md;
+    justify-content: center;
+  }
+
+  // Carte individuelle pour un badge gagné
+  &__badge-card {
+    @include m.flex-column;
+    align-items: center;
+    gap: v.$spacing-xs;
+    // Pulse subtil en boucle pour attirer l'œil
+    animation: results-trophy-pulse 2s ease-in-out infinite;
+    animation-delay: 800ms;
+  }
+
+  &__badge-emoji {
+    font-size: 3rem;
+    display: block;
+    line-height: 1;
+  }
+
+  &__badge-name {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
     color: v.$text-muted;
   }
 

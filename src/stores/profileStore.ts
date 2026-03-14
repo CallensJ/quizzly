@@ -15,6 +15,13 @@ interface ProfileState {
   adminPin: string | null;       // null = pas encore défini
   adminEmail: string | null;     // email adulte pour notifications futures (MVP 3)
   dailyGoal: number | null;      // objectif journalier (bonnes réponses), null = désactivé
+
+  // ── Système de badges étendu (MVP 4) ─────────────────────────────────────
+  // Source de vérité : liste des IDs de badges obtenus (persistée)
+  earnedBadgeIds: string[];
+  // Badges gagnés lors de la dernière session uniquement (non persisté — reset au rechargement)
+  newBadgesThisSession: string[];
+
   createProfile: (data: Omit<Profile, 'createdAt'>) => void;
   setLocale: (locale: Locale) => void;
   updateAvatar: (avatarId: string, avatarStyle?: string) => void;
@@ -24,7 +31,11 @@ interface ProfileState {
   setAdminEmail: (email: string | null) => void;
   setDailyGoal: (goal: number | null) => void;
   addSession: (session: Omit<QuizSession, 'playedAt'>) => void;
-  earnBadge: () => void;
+  // Remplace earnBadge() — accepte plusieurs IDs, met à jour earned + newBadgesThisSession
+  awardBadges: (ids: string[]) => void;
+  // Vide les badges de la session courante (appelé au reset)
+  clearNewBadges: () => void;
+  earnBadge: () => void; // conservé pour rétro-compat Supabase sync — délègue à awardBadges
   resetProgress: () => void;
   deleteProfile: () => void;
 }
@@ -40,6 +51,9 @@ export const useProfileStore = create<ProfileState>()(
       adminPin: null,
       adminEmail: null,
       dailyGoal: null,
+      earnedBadgeIds: [],
+      // newBadgesThisSession n'est pas persisté (exclu via partialize ci-dessous)
+      newBadgesThisSession: [],
 
       createProfile: (data) =>
         set({
@@ -81,26 +95,50 @@ export const useProfileStore = create<ProfileState>()(
           ],
         })),
 
+      awardBadges: (ids) =>
+        set((state) => ({
+          // Ajoute uniquement les IDs non déjà présents (idempotent)
+          earnedBadgeIds: [...new Set([...state.earnedBadgeIds, ...ids])],
+          newBadgesThisSession: ids,
+          // Rétro-compat : marque badgeEarned si premier badge reçu
+          profile: state.profile && ids.length > 0
+            ? { ...state.profile, badgeEarned: true }
+            : state.profile,
+        })),
+
+      clearNewBadges: () => set({ newBadgesThisSession: [] }),
+
+      // Rétro-compat — assure que 'first_game' est toujours dans earnedBadgeIds
       earnBadge: () =>
         set((state) => ({
-          profile: state.profile
-            ? { ...state.profile, badgeEarned: true }
-            : null,
+          earnedBadgeIds: state.earnedBadgeIds.includes('first_game')
+            ? state.earnedBadgeIds
+            : [...state.earnedBadgeIds, 'first_game'],
+          profile: state.profile ? { ...state.profile, badgeEarned: true } : null,
         })),
 
       resetProgress: () =>
         set((state) => ({
           sessions: [],
+          earnedBadgeIds: [],
+          newBadgesThisSession: [],
           profile: state.profile
             ? { ...state.profile, badgeEarned: false }
             : null,
         })),
 
       deleteProfile: () =>
-        set({ profile: null, sessions: [] }),
+        set({ profile: null, sessions: [], earnedBadgeIds: [], newBadgesThisSession: [] }),
     }),
     {
       name: 'quizzly-profile',
+      // newBadgesThisSession est volontairement exclu — sa valeur ne doit pas
+      // survivre à un rechargement de page (état de session uniquement)
+      partialize: (state) => {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        const { newBadgesThisSession, ...rest } = state;
+        return rest;
+      },
     }
   )
 );

@@ -23,15 +23,14 @@ import { playSound } from '@/lib/sound';
 import { syncSession, syncBadge } from '@/lib/sync';
 import { fetchQuestions } from '@/lib/questions';
 import Nova from '@/components/ui/Nova';
+import { BADGE_DEFINITIONS } from '@/lib/badges';
 import type { Locale } from '@/types';
-
-// Doit rester synchronisé avec QuizScreen.tsx
-const BADGE_THRESHOLD = 4;
 
 export default function ResultsScreen() {
   const t = useTranslations('results');
   const tHome = useTranslations('home');
   const tNova = useTranslations('nova');
+  const tBadges = useTranslations('badges');
   const locale = useLocale() as Locale;
   const router = useRouter();
 
@@ -39,9 +38,12 @@ export default function ResultsScreen() {
   const soundEnabled = useProfileStore((s) => s.soundEnabled);
   const deviceId = useProfileStore((s) => s.deviceId);
   const ageGroup = useProfileStore((s) => s.profile?.ageGroup ?? '6-9');
+  // Badges gagnés lors de cette session (non persisté — vide après rechargement)
+  const newBadgesThisSession = useProfileStore((s) => s.newBadgesThisSession);
 
   const total = questions.length || 20;
-  const badgeEarnedThisSession = score >= BADGE_THRESHOLD;
+  // Un badge a été obtenu si au moins un nouveau badge cette session
+  const badgeEarnedThisSession = newBadgesThisSession.length > 0;
   const [loading, setLoading] = useState(false);
   // Ref pour éviter que le guard ne redirige vers /home pendant un replay.
   // handlePlayAgain appelle startQuiz() qui change status → 'active' AVANT
@@ -176,12 +178,24 @@ export default function ResultsScreen() {
         {/* Message contextuel adapté au score */}
         <p className="results__message">{getScoreMessage()}</p>
 
-        {/* Badge — affiché uniquement si obtenu lors de cette session */}
-        {badgeEarnedThisSession && (
-          <div className="results__badge" role="status">
-            <span className="results__badge-icon" aria-hidden="true">🏆</span>
-            <p className="results__badge-title">{t('badgeTitle')}</p>
-            <p className="results__badge-desc">{t('badgeEarned')}</p>
+        {/* Nouveaux badges débloqués cette session */}
+        {newBadgesThisSession.length > 0 && (
+          <div className="results__badges" role="status" aria-label={tBadges('newBadgeTitle')}>
+            <p className="results__badges-title">{tBadges('newBadgeTitle')}</p>
+            <div className="results__badges-list">
+              {newBadgesThisSession.map((id) => {
+                const def = BADGE_DEFINITIONS.find((b) => b.id === id);
+                if (!def) return null;
+                // Cast nécessaire car les clés i18n sont dynamiques
+                const name = tBadges(`${id}_name` as Parameters<typeof tBadges>[0]);
+                return (
+                  <div key={id} className="results__badge-card">
+                    <span className="results__badge-emoji" aria-hidden="true">{def.emoji}</span>
+                    <span className="results__badge-name">{name}</span>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         )}
 

@@ -23,6 +23,7 @@ import type { Locale } from '@/i18n/routing';
 import type { Category, QuizSession } from '@/types';
 import { FREE_SEEDS, FREE_STYLE, PREMIUM_STYLES, buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
+import { BADGE_DEFINITIONS } from '@/lib/badges';
 
 /**
  * Calcule le meilleur score (en %) parmi toutes les sessions.
@@ -65,6 +66,7 @@ export default function ProfileScreen() {
   const t = useTranslations('profile');
   const tSidebar = useTranslations('sidebar');
   const tHome = useTranslations('home'); // noms des catégories
+  const tBadges = useTranslations('badges');
   const router = useRouter();
   const pathname = usePathname();
   const locale = useLocale() as Locale;
@@ -76,6 +78,7 @@ export default function ProfileScreen() {
 
   const profile = useProfileStore((s) => s.profile);
   const sessions = useProfileStore((s) => s.sessions);
+  const earnedBadgeIds = useProfileStore((s) => s.earnedBadgeIds);
   const updateAvatar = useProfileStore((s) => s.updateAvatar);
   const authUser = useAuthStore((s) => s.user);
   const timerEnabled = useProfileStore((s) => s.timerEnabled);
@@ -320,23 +323,30 @@ export default function ProfileScreen() {
           </div>
         </section>
 
-        {/* ── Badge ─────────────────────────────────────────────────────── */}
-        <section className="profile__badge-section" aria-label={tSidebar('badgesTitle')}>
-          <h2 className="profile__section-title">{tSidebar('badgesTitle')}</h2>
+        {/* ── Badges — grille complète 11 badges earned/locked ──────────── */}
+        <section className="profile__badge-section" aria-label={tBadges('sectionTitle')}>
+          <h2 className="profile__section-title">{tBadges('sectionTitle')}</h2>
 
-          {profile.badgeEarned ? (
-            // Badge obtenu
-            <div className="profile__badge profile__badge--earned">
-              <span className="profile__badge-icon" aria-hidden="true">🏆</span>
-              <p className="profile__badge-name">{tSidebar('firstBadge')}</p>
-            </div>
-          ) : (
-            // Placeholder — badge verrouillé
-            <div className="profile__badge profile__badge--locked" aria-label={t('noBadge')}>
-              <span className="profile__badge-icon" aria-hidden="true">🔒</span>
-              <p className="profile__badge-name">{t('noBadge')}</p>
-            </div>
-          )}
+          <div className="profile__badge-grid">
+            {BADGE_DEFINITIONS.map((badge) => {
+              const earned = earnedBadgeIds.includes(badge.id);
+              const name = tBadges(`${badge.id}_name` as Parameters<typeof tBadges>[0]);
+              const desc = tBadges(`${badge.id}_desc` as Parameters<typeof tBadges>[0]);
+              return (
+                <div
+                  key={badge.id}
+                  className={`profile__badge-tile${earned ? ' profile__badge-tile--earned' : ' profile__badge-tile--locked'}`}
+                  title={earned ? desc : tBadges('locked')}
+                  aria-label={`${name} — ${earned ? desc : tBadges('locked')}`}
+                >
+                  <span className="profile__badge-tile-emoji" aria-hidden="true">
+                    {earned ? badge.emoji : '🔒'}
+                  </span>
+                  <span className="profile__badge-tile-name">{name}</span>
+                </div>
+              );
+            })}
+          </div>
         </section>
 
         {/* ── Bouton statistiques détaillées ────────────────────────────── */}
