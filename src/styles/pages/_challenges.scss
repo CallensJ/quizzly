@@ -10,6 +10,7 @@
  *   - panel Mes défis : liste historique
  */
 
+@use 'sass:color';
 @use '../abstracts/variables' as v;
 @use '../abstracts/mixins' as m;
 
@@ -388,9 +389,9 @@
     padding: 2px v.$spacing-sm;
     border-radius: v.$radius-full;
 
-    &--win      { background: rgba(v.$secondary, 0.15); color: darken(v.$secondary, 10%); }
+    &--win      { background: rgba(v.$secondary, 0.15); color: color.adjust(v.$secondary, $lightness: -10%); }
     &--loss     { background: rgba(v.$hard, 0.12); color: v.$hard; }
-    &--draw     { background: rgba(v.$accent, 0.2); color: darken(v.$accent, 20%); }
+    &--draw     { background: rgba(v.$accent, 0.2); color: color.adjust(v.$accent, $lightness: -20%); }
     &--pending  { background: rgba(v.$primary, 0.1); color: v.$primary; }
     &--expired  { background: rgba(0, 0, 0, 0.06); color: v.$text-muted; }
   }
