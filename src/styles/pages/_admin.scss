@@ -380,6 +380,53 @@
     }
   }
 
+  // ── Toggle switch (Mode Défi) ────────────────────────────────────────────────
+
+  &__toggle-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: v.$spacing-md;
+    padding: v.$spacing-sm 0;
+  }
+
+  &__toggle-label {
+    font-size: v.$font-size-base;
+    font-weight: 600;
+    color: v.$foreground;
+  }
+
+  // Bouton switch iOS-style
+  &__toggle {
+    position: relative;
+    width: 52px;
+    height: 28px;
+    background: #d1d5db;
+    border-radius: v.$radius-full;
+    flex-shrink: 0;
+    transition: background v.$transition-base;
+
+    @include m.focus-ring;
+
+    &--on { background: v.$primary; }
+  }
+
+  &__toggle-thumb {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 22px;
+    height: 22px;
+    background: v.$white;
+    border-radius: v.$radius-full;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    transition: transform v.$transition-base;
+
+    .admin__toggle--on & {
+      transform: translateX(24px);
+    }
+  }
+
   // ── Zone de danger ──────────────────────────────────────────────────────────
 
   &__danger-item {

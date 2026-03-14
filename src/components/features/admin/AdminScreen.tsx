@@ -22,7 +22,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { ArrowLeft, Target, Trash2, RotateCcw, BarChart3, Mail, LogOut } from 'lucide-react';
+import { ArrowLeft, Target, Trash2, RotateCcw, BarChart3, Mail, LogOut, Swords } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useAuthStore } from '@/stores/authStore';
@@ -47,6 +47,9 @@ export default function AdminScreen() {
 
   // Auth Supabase — utilisateur connecté
   const authUser = useAuthStore((s) => s.user);
+
+  const multiplayerUnlocked    = useProfileStore((s) => s.multiplayerUnlocked);
+  const setMultiplayerUnlocked = useProfileStore((s) => s.setMultiplayerUnlocked);
 
   const setAdminEmail = useProfileStore((s) => s.setAdminEmail);
   const setDailyGoal  = useProfileStore((s) => s.setDailyGoal);
@@ -244,6 +247,32 @@ export default function AdminScreen() {
               {t('emailRemove')}
             </button>
           )}
+        </section>
+
+        {/* ── Mode Défi (multijoueur) ──────────────────────────────────────── */}
+        <section className="admin__section admin__section--multiplayer" aria-labelledby="admin-multiplayer-title">
+          <div className="admin__section-header">
+            <Swords size={18} strokeWidth={2} aria-hidden="true" />
+            <h2 id="admin-multiplayer-title" className="admin__section-title">
+              {t('multiplayerTitle')}
+            </h2>
+          </div>
+          <p className="admin__section-desc">{t('multiplayerDesc')}</p>
+
+          <div className="admin__toggle-row">
+            <span className="admin__toggle-label">
+              {multiplayerUnlocked ? t('multiplayerEnabled') : t('multiplayerDisabled')}
+            </span>
+            <button
+              type="button"
+              role="switch"
+              aria-checked={multiplayerUnlocked}
+              className={`admin__toggle${multiplayerUnlocked ? ' admin__toggle--on' : ''}`}
+              onClick={() => setMultiplayerUnlocked(!multiplayerUnlocked)}
+            >
+              <span className="admin__toggle-thumb" />
+            </button>
+          </div>
         </section>
 
         {/* ── Zone de danger ───────────────────────────────────────────────── */}

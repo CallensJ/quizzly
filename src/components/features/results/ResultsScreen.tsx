@@ -6,15 +6,19 @@
  * Écran de fin de partie. Affiche le score final, le badge si obtenu,
  * un message contextuel adapté au score, et deux actions : rejouer ou retour Home.
  *
- * Flux :
+ * Flux normal :
  *   status !== 'finished' → redirige vers /home (refresh ou accès direct)
  *   Rejouer → recharge le même pool de questions → startQuiz() → /quiz
  *   Retour  → resetAll() → /home
  *
- * Confetti : déclenché au montage si score ≥ BADGE_THRESHOLD.
+ * Flux défi (challengeId !== null — Joueur B vient de finir) :
+ *   Au montage → completeChallenge() → récupère le résultat (Joueur A vs Joueur B)
+ *   Affiche le panneau de comparaison duel sous le score
+ *
+ * Confetti : déclenché au montage si score ≥ BADGE_THRESHOLD ou victoire en duel.
  */
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useQuizStore } from '@/stores/quizStore';
@@ -22,27 +26,32 @@ import { useProfileStore } from '@/stores/profileStore';
 import { playSound } from '@/lib/sound';
 import { syncSession, syncBadge } from '@/lib/sync';
 import { fetchQuestions } from '@/lib/questions';
+import { createChallenge, completeChallenge } from '@/lib/challenges';
 import Nova from '@/components/ui/Nova';
 import { BADGE_DEFINITIONS } from '@/lib/badges';
-import type { Locale } from '@/types';
+import { buildAvatarUrl } from '@/lib/avatars';
+import type { AvatarStyle } from '@/lib/avatars';
+import type { Locale, Challenge } from '@/types';
+import { Swords, Copy, Check } from 'lucide-react';
 
 export default function ResultsScreen() {
-  const t = useTranslations('results');
-  const tHome = useTranslations('home');
-  const tNova = useTranslations('nova');
-  const tBadges = useTranslations('badges');
-  const locale = useLocale() as Locale;
-  const router = useRouter();
+  const t         = useTranslations('results');
+  const tHome     = useTranslations('home');
+  const tNova     = useTranslations('nova');
+  const tBadges   = useTranslations('badges');
+  const tChal     = useTranslations('challenges');
+  const locale    = useLocale() as Locale;
+  const router    = useRouter();
 
-  const { status, score, category, difficulty, questions, startQuiz, resetAll } = useQuizStore();
-  const soundEnabled = useProfileStore((s) => s.soundEnabled);
-  const deviceId = useProfileStore((s) => s.deviceId);
-  const ageGroup = useProfileStore((s) => s.profile?.ageGroup ?? '6-9');
-  // Badges gagnés lors de cette session (non persisté — vide après rechargement)
+  const { status, score, category, difficulty, questions, challengeId, startQuiz, resetAll } = useQuizStore();
+  const soundEnabled         = useProfileStore((s) => s.soundEnabled);
+  const deviceId             = useProfileStore((s) => s.deviceId);
+  const ageGroup             = useProfileStore((s) => s.profile?.ageGroup ?? '6-9');
+  const profile              = useProfileStore((s) => s.profile);
+  const multiplayerUnlocked  = useProfileStore((s) => s.multiplayerUnlocked);
   const newBadgesThisSession = useProfileStore((s) => s.newBadgesThisSession);
 
   const total = questions.length || 20;
-  // Un badge a été obtenu si au moins un nouveau badge cette session
   const badgeEarnedThisSession = newBadgesThisSession.length > 0;
   const [loading, setLoading] = useState(false);
   // Ref pour éviter que le guard ne redirige vers /home pendant un replay.
@@ -50,6 +59,15 @@ export default function ResultsScreen() {
   // que router.push('/quiz') prenne effet — sans ce ref, le guard se déclenche
   // et router.replace('/home') écrase la navigation vers /quiz.
   const isReplayingRef = useRef(false);
+
+  // ── État mode défi (Joueur B) ───────────────────────────────────────────────
+  const [duelResult, setDuelResult]   = useState<Challenge | null>(null);
+  const [duelLoading, setDuelLoading] = useState(false);
+
+  // ── État création défi (Joueur A — bouton "Défier un ami") ─────────────────
+  const [createLoading, setCreateLoading] = useState(false);
+  const [createdCode, setCreatedCode]     = useState<string | null>(null);
+  const [codeCopied, setCodeCopied]       = useState(false);
 
   // ── Garde : quiz non terminé → retour Home ───────────────────────────────
   useEffect(() => {
@@ -85,6 +103,41 @@ export default function ResultsScreen() {
       if (badgeEarnedThisSession) syncBadge(deviceId, true);
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ── Complétion du défi (Joueur B vient de finir son quiz) ─────────────────
+  // Déclenché uniquement si challengeId est présent (mode défi)
+
+  const completeChallengeFlow = useCallback(async () => {
+    if (!challengeId || !profile) return;
+    setDuelLoading(true);
+    const result = await completeChallenge(
+      challengeId,
+      profile.pseudo,
+      profile.avatarId,
+      score
+    );
+    if (result) {
+      setDuelResult(result);
+      // Confetti si victoire ou match nul
+      if (result.winner === 'b' || result.winner === 'draw') {
+        import('canvas-confetti').then((mod) => {
+          mod.default({
+            particleCount: 80,
+            spread: 60,
+            origin: { y: 0.6 },
+            colors: ['#667eea', '#764ba2', '#FFD700'],
+          });
+        });
+      }
+    }
+    setDuelLoading(false);
+  }, [challengeId, profile, score]);
+
+  useEffect(() => {
+    if (status === 'finished' && challengeId) {
+      completeChallengeFlow();
+    }
+  }, [status, challengeId, completeChallengeFlow]);
 
   // ── Helpers ──────────────────────────────────────────────────────────────
 
@@ -129,6 +182,54 @@ export default function ResultsScreen() {
     router.push('/home');
   }
 
+  // ── Créer un défi depuis cet écran de résultats (Joueur A) ───────────────
+
+  async function handleCreateChallenge() {
+    if (!profile || !category || !difficulty || createLoading || !questions.length) return;
+    setCreateLoading(true);
+    try {
+      const code = await createChallenge({
+        pseudo: profile.pseudo,
+        avatarId: profile.avatarId,
+        category,
+        difficulty,
+        locale,
+        ageGroup: profile.ageGroup,
+        // Snapshot des questions jouées — ordre identique pour Joueur B
+        questions,
+        scoreA: score,
+      });
+      setCreatedCode(code);
+    } catch {
+      // Silencieux — l'utilisateur peut réessayer
+    } finally {
+      setCreateLoading(false);
+    }
+  }
+
+  async function handleCopyCode() {
+    if (!createdCode) return;
+    try {
+      await navigator.clipboard.writeText(createdCode);
+      setCodeCopied(true);
+      setTimeout(() => setCodeCopied(false), 2500);
+    } catch {
+      // Fallback silencieux
+    }
+  }
+
+  /** Retourne le message de victoire/défaite/égalité pour le duel. */
+  function getDuelWinnerMessage(): string {
+    if (!duelResult || !profile) return '';
+    const iAmB = duelResult.challenged_by === profile.pseudo;
+    if (duelResult.winner === 'draw') return tChal('duelDraw');
+    // Victoire Joueur B : iAmB + winner === 'b', ou !iAmB + winner === 'a'
+    const iWon = (iAmB && duelResult.winner === 'b') || (!iAmB && duelResult.winner === 'a');
+    if (iWon) return tChal('duelYouWin');
+    const opponentPseudo = iAmB ? duelResult.created_by : (duelResult.challenged_by ?? '');
+    return tChal('duelWinner', { pseudo: opponentPseudo });
+  }
+
   if (status !== 'finished') return null;
 
   // ── Render ───────────────────────────────────────────────────────────────
@@ -150,6 +251,12 @@ export default function ResultsScreen() {
               {tHome(difficulty)}
             </span>
           )}
+          {/* Badge "Défi" visible quand on joue en mode défi */}
+          {challengeId && (
+            <span className="results__challenge-badge">
+              <Swords size={14} aria-hidden="true" /> Défi
+            </span>
+          )}
         </div>
 
         {/* Score central — affiché en grand */}
@@ -164,7 +271,7 @@ export default function ResultsScreen() {
 
       </header>
 
-      {/* ── Corps : message + Nova + badge + boutons ───────────────────────── */}
+      {/* ── Corps : message + Nova + badge + duel + boutons ────────────────── */}
       <main className="results__body">
 
         {/* Nova félicite ou encourage selon le score — fixe bas-droite, permanente */}
@@ -199,28 +306,125 @@ export default function ResultsScreen() {
           </div>
         )}
 
-        {/* Actions */}
-        <div className="results__actions">
-          {category && difficulty && (
+        {/* ── Résultat du duel (affiché quand Joueur B finit un défi) ─────── */}
+        {challengeId && (
+          <div className="results__duel" aria-live="polite">
+            {duelLoading ? (
+              <p className="results__duel-loading">⏳</p>
+            ) : duelResult ? (
+              <>
+                <h2 className="results__duel-title">{tChal('duelResultTitle')}</h2>
+
+                {/* Scores côte à côte : Joueur A vs Joueur B */}
+                <div className="results__duel-scores">
+                  <div className={`results__duel-player${duelResult.winner === 'a' ? ' results__duel-player--winner' : ''}`}>
+                    {duelResult.avatar_a && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={buildAvatarUrl(duelResult.avatar_a, 'adventurer' as AvatarStyle)}
+                        alt={duelResult.created_by}
+                        className="results__duel-avatar"
+                        width={56}
+                        height={56}
+                      />
+                    )}
+                    <span className="results__duel-pseudo">{duelResult.created_by}</span>
+                    <span className="results__duel-score">{duelResult.score_a}/{duelResult.total}</span>
+                  </div>
+
+                  <span className="results__duel-vs" aria-hidden="true">⚔️</span>
+
+                  <div className={`results__duel-player${duelResult.winner === 'b' ? ' results__duel-player--winner' : ''}`}>
+                    {duelResult.avatar_b && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={buildAvatarUrl(duelResult.avatar_b, 'adventurer' as AvatarStyle)}
+                        alt={duelResult.challenged_by ?? ''}
+                        className="results__duel-avatar"
+                        width={56}
+                        height={56}
+                      />
+                    )}
+                    <span className="results__duel-pseudo">{duelResult.challenged_by}</span>
+                    <span className="results__duel-score">{duelResult.score_b}/{duelResult.total}</span>
+                  </div>
+                </div>
+
+                <p className="results__duel-winner-msg">{getDuelWinnerMessage()}</p>
+              </>
+            ) : null}
+          </div>
+        )}
+
+        {/* ── Modal partage de code (après création d'un défi par Joueur A) ─ */}
+        {createdCode && (
+          <div className="results__challenge-modal" role="dialog" aria-modal="true" aria-label={tChal('createTitle')}>
+            <p className="results__challenge-modal-title">{tChal('createTitle')}</p>
+            <p className="results__challenge-modal-desc">{tChal('createDesc')}</p>
+            <div className="results__challenge-code-wrap">
+              <span className="results__challenge-code">{createdCode}</span>
+              <button
+                type="button"
+                className="results__challenge-copy-btn"
+                onClick={handleCopyCode}
+                aria-label={tChal('createCopy')}
+              >
+                {codeCopied ? <Check size={18} /> : <Copy size={18} />}
+                {codeCopied ? tChal('createCopied') : tChal('createCopy')}
+              </button>
+            </div>
+            <p className="results__challenge-expiry">⏱ {tChal('createExpiry')}</p>
             <button
               type="button"
-              data-testid="play-again-btn"
-              className="results__cta-primary"
-              onClick={handlePlayAgain}
-              disabled={loading}
+              className="results__cta-secondary"
+              onClick={() => setCreatedCode(null)}
             >
-              {loading ? '…' : t('ctaPlayAgain')}
+              {tChal('createCtaDone')}
             </button>
-          )}
-          <button
-            type="button"
-            data-testid="home-btn"
-            className="results__cta-secondary"
-            onClick={handleHome}
-          >
-            {t('ctaHome')}
-          </button>
-        </div>
+          </div>
+        )}
+
+        {/* ── Actions ──────────────────────────────────────────────────────── */}
+        {!createdCode && (
+          <div className="results__actions">
+
+            {/* Bouton "Défier un ami" — mode normal uniquement, multijoueur débloqué */}
+            {!challengeId && multiplayerUnlocked && category && difficulty && (
+              <button
+                type="button"
+                className="results__cta-challenge"
+                onClick={handleCreateChallenge}
+                disabled={createLoading}
+              >
+                <Swords size={18} aria-hidden="true" />
+                {createLoading ? '…' : tChal('defierBtn')}
+              </button>
+            )}
+
+            {/* Rejouer — uniquement en mode normal (pas après un défi) */}
+            {!challengeId && category && difficulty && (
+              <button
+                type="button"
+                data-testid="play-again-btn"
+                className="results__cta-primary"
+                onClick={handlePlayAgain}
+                disabled={loading}
+              >
+                {loading ? '…' : t('ctaPlayAgain')}
+              </button>
+            )}
+
+            {/* Retour Home */}
+            <button
+              type="button"
+              data-testid="home-btn"
+              className="results__cta-secondary"
+              onClick={handleHome}
+            >
+              {t('ctaHome')}
+            </button>
+          </div>
+        )}
 
       </main>
     </div>

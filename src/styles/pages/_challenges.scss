@@ -1,0 +1,409 @@
+/**
+ * src/styles/pages/_challenges.scss
+ *
+ * Styles de l'écran Mode Défi (multijoueur asynchrone — MVP 4).
+ * Structure :
+ *   - header (titre + icône)
+ *   - écran verrouillé (si multiplayerUnlocked === false)
+ *   - onglets (Rejoindre / Mes défis)
+ *   - panel Rejoindre : formulaire code + aperçu défi
+ *   - panel Mes défis : liste historique
+ */
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.challenges {
+  min-height: 100dvh;
+  @include m.flex-column;
+  background: v.$bg;
+
+  // ── Header ─────────────────────────────────────────────────────────────────
+
+  &__header {
+    @include m.gradient-primary;
+    @include m.flex-center;
+    gap: v.$spacing-sm;
+    padding: v.$spacing-lg;
+    padding-top: calc(v.$spacing-lg + env(safe-area-inset-top, 0px));
+    color: v.$white;
+  }
+
+  &__title {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$white;
+  }
+
+  // ── Écran verrouillé ───────────────────────────────────────────────────────
+
+  &__locked {
+    @include m.flex-column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: v.$spacing-lg;
+    padding: v.$spacing-2xl v.$spacing-xl;
+    text-align: center;
+  }
+
+  &__lock-icon {
+    color: v.$text-muted;
+    opacity: 0.5;
+  }
+
+  &__locked-title {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  &__locked-desc {
+    font-size: v.$font-size-base;
+    color: v.$text-muted;
+    max-width: 300px;
+    line-height: 1.5;
+  }
+
+  &__locked-cta {
+    @include m.gradient-primary;
+    @include m.focus-ring;
+    color: v.$white;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    padding: v.$spacing-md v.$spacing-xl;
+    border-radius: v.$radius-full;
+    min-height: v.$touch-target-min;
+    transition: opacity v.$transition-fast;
+
+    &:hover { opacity: 0.9; }
+  }
+
+  // ── Onglets ────────────────────────────────────────────────────────────────
+
+  &__tabs {
+    display: flex;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    background: v.$white;
+  }
+
+  &__tab {
+    flex: 1;
+    padding: v.$spacing-md;
+    font-size: v.$font-size-base;
+    font-weight: 600;
+    color: v.$text-muted;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    transition: color v.$transition-fast, border-color v.$transition-fast;
+    min-height: v.$touch-target-min;
+
+    @include m.focus-ring;
+
+    &--active {
+      color: v.$primary;
+      border-bottom-color: v.$primary;
+    }
+  }
+
+  // ── Panel commun ───────────────────────────────────────────────────────────
+
+  &__panel {
+    @include m.flex-column;
+    gap: v.$spacing-lg;
+    padding: v.$spacing-xl v.$spacing-lg;
+    flex: 1;
+  }
+
+  &__panel-title {
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  &__loading,
+  &__empty {
+    color: v.$text-muted;
+    font-size: v.$font-size-base;
+    text-align: center;
+    padding: v.$spacing-2xl 0;
+  }
+
+  // ── Formulaire Rejoindre ───────────────────────────────────────────────────
+
+  &__join-form {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+    max-width: 360px;
+  }
+
+  &__join-label {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$foreground;
+  }
+
+  &__join-input {
+    font-size: v.$font-size-2xl;
+    font-weight: 800;
+    letter-spacing: 0.25em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: v.$spacing-md;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: v.$radius-md;
+    background: v.$white;
+    color: v.$foreground;
+    transition: border-color v.$transition-fast;
+
+    @include m.focus-ring;
+
+    &:focus {
+      border-color: v.$primary;
+    }
+
+    &--error {
+      border-color: v.$error;
+    }
+  }
+
+  &__join-error {
+    font-size: v.$font-size-sm;
+    color: v.$error;
+    font-weight: 600;
+  }
+
+  &__join-cta {
+    @include m.gradient-primary;
+    @include m.flex-center;
+    @include m.focus-ring;
+    color: v.$white;
+    font-size: v.$font-size-lg;
+    font-weight: 700;
+    padding: v.$spacing-md v.$spacing-xl;
+    border-radius: v.$radius-full;
+    min-height: v.$touch-target-lg;
+    transition: opacity v.$transition-fast;
+
+    &:hover:not(:disabled) { opacity: 0.9; }
+    &:disabled { opacity: 0.5; cursor: not-allowed; }
+  }
+
+  // ── Aperçu du défi trouvé ──────────────────────────────────────────────────
+
+  &__preview {
+    @include m.flex-column;
+    gap: v.$spacing-lg;
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-xl;
+    box-shadow: v.$shadow-md;
+    max-width: 400px;
+  }
+
+  &__preview-title {
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    color: v.$primary;
+    text-align: center;
+  }
+
+  &__preview-challenger {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-md;
+  }
+
+  &__preview-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: v.$radius-full;
+    border: 3px solid v.$primary;
+    flex-shrink: 0;
+  }
+
+  &__preview-from {
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  &__preview-meta {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+    margin-top: v.$spacing-xs;
+  }
+
+  &__preview-score {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$primary;
+    margin-top: v.$spacing-xs;
+  }
+
+  &__preview-actions {
+    @include m.flex-column;
+    gap: v.$spacing-sm;
+  }
+
+  &__preview-cta {
+    @include m.gradient-primary;
+    @include m.flex-center;
+    @include m.focus-ring;
+    color: v.$white;
+    font-size: v.$font-size-lg;
+    font-weight: 700;
+    padding: v.$spacing-md v.$spacing-xl;
+    border-radius: v.$radius-full;
+    min-height: v.$touch-target-lg;
+    transition: opacity v.$transition-fast;
+
+    &:hover { opacity: 0.9; }
+  }
+
+  &__preview-cancel {
+    @include m.flex-center;
+    @include m.focus-ring;
+    color: v.$text-muted;
+    font-size: v.$font-size-base;
+    font-weight: 600;
+    padding: v.$spacing-sm;
+    border-radius: v.$radius-md;
+    transition: color v.$transition-fast;
+
+    &:hover { color: v.$foreground; }
+  }
+
+  // ── Liste des défis ────────────────────────────────────────────────────────
+
+  &__my-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__refresh-btn {
+    @include m.flex-center;
+    width: 36px;
+    height: 36px;
+    border-radius: v.$radius-md;
+    color: v.$text-muted;
+    transition: color v.$transition-fast, background v.$transition-fast;
+
+    @include m.focus-ring;
+
+    &:hover:not(:disabled) {
+      color: v.$primary;
+      background: rgba(v.$primary, 0.08);
+    }
+
+    &:disabled { opacity: 0.5; }
+  }
+
+  &__refresh-icon--spinning {
+    animation: spin 0.8s linear infinite;
+  }
+
+  &__list {
+    @include m.flex-column;
+    gap: v.$spacing-sm;
+    list-style: none;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: v.$spacing-md;
+    background: v.$white;
+    border-radius: v.$radius-md;
+    padding: v.$spacing-md;
+    box-shadow: v.$shadow-sm;
+
+    &--expired { opacity: 0.6; }
+  }
+
+  &__item-left {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    min-width: 0;
+  }
+
+  &__item-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: v.$radius-full;
+    flex-shrink: 0;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+  }
+
+  &__item-avatar-placeholder {
+    width: 40px;
+    height: 40px;
+    border-radius: v.$radius-full;
+    flex-shrink: 0;
+    background: rgba(v.$primary, 0.1);
+    @include m.flex-center;
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    color: v.$primary;
+  }
+
+  &__item-info {
+    @include m.flex-column;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  &__item-vs {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$foreground;
+    @include m.truncate;
+  }
+
+  &__item-meta {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+  }
+
+  &__item-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+
+  &__item-scores {
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  &__item-result {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    padding: 2px v.$spacing-sm;
+    border-radius: v.$radius-full;
+
+    &--win      { background: rgba(v.$secondary, 0.15); color: darken(v.$secondary, 10%); }
+    &--loss     { background: rgba(v.$hard, 0.12); color: v.$hard; }
+    &--draw     { background: rgba(v.$accent, 0.2); color: darken(v.$accent, 20%); }
+    &--pending  { background: rgba(v.$primary, 0.1); color: v.$primary; }
+    &--expired  { background: rgba(0, 0, 0, 0.06); color: v.$text-muted; }
+  }
+
+  &__status-icon {
+    &--completed { color: v.$secondary; }
+    &--pending   { color: v.$primary; }
+    &--expired   { color: v.$text-muted; }
+  }
+
+  // ── Animation ─────────────────────────────────────────────────────────────
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+}

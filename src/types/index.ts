@@ -66,3 +66,35 @@ export interface QuestionFile {
 // ─── État du quiz en cours (non persisté) ─────────────────────────────────────
 
 export type QuizStatus = 'idle' | 'playing' | 'finished';
+
+// ─── Mode multijoueur — Duel asynchrone (MVP 4) ────────────────────────────────
+
+export type ChallengeStatus = 'pending' | 'completed' | 'expired';
+
+/**
+ * Représente un défi entre deux joueurs.
+ * Joueur A crée le challenge après son quiz, Joueur B le rejoint via un code court.
+ * Les questions sont snapshotées au moment de la création pour garantir
+ * la même partie aux deux joueurs.
+ */
+export interface Challenge {
+  id: string;
+  code: string;               // Code 6 chars, ex: "ZBRE7K"
+  created_by: string;         // Pseudo Joueur A
+  avatar_a: string | null;    // Seed avatar Joueur A
+  category: Category;
+  difficulty: Difficulty;
+  locale: Locale;
+  age_group: AgeGroup;
+  questions: Question[];      // Snapshot des questions (même ordre pour les 2 joueurs)
+  score_a: number;
+  total: number;              // Toujours 20
+  challenged_by: string | null; // Pseudo Joueur B (null si pas encore joué)
+  avatar_b: string | null;
+  score_b: number | null;
+  winner: 'a' | 'b' | 'draw' | null;
+  status: ChallengeStatus;
+  created_at: string;
+  expires_at: string;
+  completed_at: string | null;
+}

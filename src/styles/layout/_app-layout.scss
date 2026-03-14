@@ -181,6 +181,27 @@
     line-height: 1.5;
   }
 
+  // ── Bouton Mode Défi (sidebar) ───────────────────────────────────────────
+
+  &__challenges-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: v.$spacing-xs;
+    background: rgba(255, 255, 255, 0.15);
+    color: v.$white;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    padding: v.$spacing-sm v.$spacing-md;
+    border-radius: v.$radius-full;
+    transition: background v.$transition-fast;
+    width: 100%;
+
+    @include m.focus-ring;
+
+    &:hover { background: rgba(255, 255, 255, 0.25); }
+  }
+
   // ── Zone de contenu principale ───────────────────────────────────────────
 
   &__main {

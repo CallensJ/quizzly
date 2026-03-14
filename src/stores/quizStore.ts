@@ -24,6 +24,11 @@ interface QuizState {
   score: number;
   selectedAnswer: AnswerKey | null; // réponse du joueur pour la question courante
 
+  // ── Mode défi (MVP 4) ─────────────────────────────────────────────────────────
+  // Code du challenge en cours (non null = Joueur B joue un défi)
+  // Utilisé par ResultsScreen pour afficher la comparaison et mettre à jour Supabase
+  challengeId: string | null;
+
   // ── Actions ───────────────────────────────────────────────────────────────────
   setCategory: (category: Category) => void;
   setDifficulty: (difficulty: Difficulty) => void;
@@ -33,6 +38,13 @@ interface QuizState {
    * depuis le composant, tire 20 questions aléatoirement et lance le jeu.
    */
   startQuiz: (pool: Question[]) => void;
+
+  /**
+   * Démarre un quiz en mode défi (Joueur B).
+   * Les questions sont fournies telles quelles (snapshot du challenge — même ordre que Joueur A).
+   * Pas de shuffle ni de sample : les deux joueurs jouent exactement les mêmes questions.
+   */
+  startChallengeQuiz: (questions: Question[], challengeCode: string) => void;
 
   /** Enregistre la réponse du joueur pour la question courante. */
   selectAnswer: (answer: AnswerKey) => void;
@@ -105,6 +117,7 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
   currentIndex: 0,
   score: 0,
   selectedAnswer: null,
+  challengeId: null,
 
   setCategory: (category) => set({ category }),
 
@@ -119,6 +132,21 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       currentIndex: 0,
       score: 0,
       selectedAnswer: null,
+      challengeId: null, // mode normal — pas de défi
+    });
+  },
+
+  startChallengeQuiz: (questions, challengeCode) => {
+    // Mode défi : questions fournies telles quelles depuis le snapshot Supabase.
+    // Les options sont déjà dans leur ordre d'origine — on ne re-shuffle pas
+    // pour garantir la même expérience visuelle que Joueur A.
+    set({
+      status: 'playing',
+      questions,
+      currentIndex: 0,
+      score: 0,
+      selectedAnswer: null,
+      challengeId: challengeCode,
     });
   },
 
@@ -153,6 +181,7 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       currentIndex: 0,
       score: 0,
       selectedAnswer: null,
+      challengeId: null,
       // Conserve category + difficulty pour "Rejouer"
     }),
 
@@ -165,5 +194,6 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       currentIndex: 0,
       score: 0,
       selectedAnswer: null,
+      challengeId: null,
     }),
 }));

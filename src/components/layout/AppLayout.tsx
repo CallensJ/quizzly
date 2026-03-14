@@ -16,7 +16,7 @@
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
-import { Star, Trophy, Gamepad2 } from 'lucide-react';
+import { Star, Trophy, Gamepad2, Swords } from 'lucide-react';
 import { buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
 
@@ -27,8 +27,9 @@ interface AppLayoutProps {
 export default function AppLayout({ children }: AppLayoutProps) {
   const t = useTranslations('sidebar');
   const router = useRouter();
-  const profile = useProfileStore((s) => s.profile);
-  const sessions = useProfileStore((s) => s.sessions);
+  const profile              = useProfileStore((s) => s.profile);
+  const sessions             = useProfileStore((s) => s.sessions);
+  const multiplayerUnlocked  = useProfileStore((s) => s.multiplayerUnlocked);
 
   // Pas de profil → on passe les enfants tel quel (garde assurée par les pages)
   if (!profile) return <>{children}</>;
@@ -80,6 +81,18 @@ export default function AppLayout({ children }: AppLayoutProps) {
             <span>{t('games', { count: totalGames })}</span>
           </div>
         </div>
+
+        {/* Lien Mode Défi — visible uniquement si multiplayerUnlocked */}
+        {multiplayerUnlocked && (
+          <button
+            className="app-layout__challenges-btn"
+            onClick={() => router.push('/challenges')}
+            aria-label="Mode Défi"
+          >
+            <Swords size={16} aria-hidden="true" />
+            <span>Défis</span>
+          </button>
+        )}
 
         {/* Section badges */}
         <div className="app-layout__badges-section">

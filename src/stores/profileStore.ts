@@ -16,12 +16,17 @@ interface ProfileState {
   adminEmail: string | null;     // email adulte pour notifications futures (MVP 3)
   dailyGoal: number | null;      // objectif journalier (bonnes réponses), null = désactivé
 
+  // ── Mode multijoueur — accès conditionné à l'autorisation parent (MVP 4) ──
+  // Débloqué une fois via le mode admin (PIN). False par défaut.
+  multiplayerUnlocked: boolean;
+
   // ── Système de badges étendu (MVP 4) ─────────────────────────────────────
   // Source de vérité : liste des IDs de badges obtenus (persistée)
   earnedBadgeIds: string[];
   // Badges gagnés lors de la dernière session uniquement (non persisté — reset au rechargement)
   newBadgesThisSession: string[];
 
+  setMultiplayerUnlocked: (enabled: boolean) => void;
   createProfile: (data: Omit<Profile, 'createdAt'>) => void;
   setLocale: (locale: Locale) => void;
   updateAvatar: (avatarId: string, avatarStyle?: string) => void;
@@ -47,6 +52,7 @@ export const useProfileStore = create<ProfileState>()(
       sessions: [],
       deviceId: null,
       timerEnabled: false,
+      multiplayerUnlocked: false,
       soundEnabled: true, // activé par défaut — les enfants apprécient le feedback sonore
       adminPin: null,
       adminEmail: null,
@@ -76,6 +82,8 @@ export const useProfileStore = create<ProfileState>()(
             ? { ...state.profile, avatarId, ...(avatarStyle !== undefined ? { avatarStyle } : {}) }
             : null,
         })),
+
+      setMultiplayerUnlocked: (enabled) => set({ multiplayerUnlocked: enabled }),
 
       setTimerEnabled: (enabled) => set({ timerEnabled: enabled }),
 
