@@ -1,0 +1,337 @@
+/**
+ * src/styles/pages/_daily.scss
+ *
+ * Styles de l'écran Mode Défi Quotidien (MVP 4).
+ * Structure :
+ *   - header gradient (soleil + titre + date)
+ *   - streak row (flamme + compteur + boucliers)
+ *   - XP card (titre joueur + barre de progression)
+ *   - quiz card (catégorie + difficulté du jour)
+ *   - done card (score si déjà joué)
+ *   - actions (CTA jouer + retour)
+ */
+
+@use 'sass:color';
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.daily {
+  min-height: 100dvh;
+  @include m.flex-column;
+  background: v.$bg;
+
+  // ── Header ────────────────────────────────────────────────────────────────
+
+  &__header {
+    @include m.gradient-primary;
+    @include m.flex-column;
+    align-items: center;
+    gap: v.$spacing-sm;
+    padding: v.$spacing-xl v.$spacing-lg;
+    padding-top: calc(v.$spacing-xl + env(safe-area-inset-top, 0px));
+    text-align: center;
+  }
+
+  &__sun-icon {
+    color: v.$accent;
+    // Rotation lente — évoque le soleil qui se lève
+    animation: daily-sun-spin 20s linear infinite;
+  }
+
+  &__title {
+    font-size: v.$font-size-2xl;
+    font-weight: 800;
+    color: v.$white;
+  }
+
+  &__date {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+    text-transform: capitalize;
+  }
+
+  // ── Corps ─────────────────────────────────────────────────────────────────
+
+  &__body {
+    @include m.flex-column;
+    gap: v.$spacing-lg;
+    padding: v.$spacing-xl v.$spacing-lg;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+  }
+
+  // ── Streak + Shields ───────────────────────────────────────────────────────
+
+  &__streak-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-md v.$spacing-lg;
+    box-shadow: v.$shadow-sm;
+  }
+
+  &__streak {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+  }
+
+  &__flame {
+    // Couleur orange/rouge pour l'icône flamme
+    color: #FF6B35;
+  }
+
+  &__streak-count {
+    font-size: v.$font-size-2xl;
+    font-weight: 800;
+    color: v.$foreground;
+    line-height: 1;
+  }
+
+  &__streak-label {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+  }
+
+  &__shields {
+    display: flex;
+    gap: v.$spacing-xs;
+  }
+
+  &__shield-icon {
+    color: rgba(0, 0, 0, 0.15);
+    transition: color v.$transition-fast;
+
+    &--active {
+      // Bouclier disponible — couleur primaire
+      color: v.$primary;
+      filter: drop-shadow(0 0 4px rgba(v.$primary, 0.4));
+    }
+  }
+
+  // ── Carte XP + Titre ──────────────────────────────────────────────────────
+
+  &__xp-card {
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-lg;
+    box-shadow: v.$shadow-sm;
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-md;
+  }
+
+  &__title-emoji {
+    font-size: 2.5rem;
+    line-height: 1;
+    text-align: center;
+  }
+
+  &__xp-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__player-title {
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  &__xp-total {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$primary;
+  }
+
+  &__xp-progress-wrap {
+    @include m.flex-column;
+    gap: v.$spacing-xs;
+  }
+
+  &__xp-progress {
+    height: 8px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: v.$radius-full;
+    overflow: hidden;
+  }
+
+  &__xp-bar {
+    height: 100%;
+    width: var(--bar-pct, 0%);
+    background: linear-gradient(90deg, v.$primary, v.$primary-dark);
+    border-radius: v.$radius-full;
+    transition: width 600ms ease;
+  }
+
+  &__xp-next {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+    font-weight: 600;
+    text-align: right;
+  }
+
+  // ── Carte Quiz du jour ────────────────────────────────────────────────────
+
+  &__quiz-card {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-lg;
+    box-shadow: v.$shadow-sm;
+    border-left: 4px solid v.$primary;
+  }
+
+  &__quiz-title {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$text-muted;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  &__quiz-meta {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-md;
+  }
+
+  &__quiz-category {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  &__quiz-diff {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    padding: 3px v.$spacing-md;
+    border-radius: v.$radius-full;
+    border: 1px solid transparent;
+
+    &--easy   {
+      background: rgba(v.$secondary, 0.15);
+      color: color.adjust(v.$secondary, $lightness: -10%);
+      border-color: rgba(v.$secondary, 0.3);
+    }
+    &--medium {
+      background: rgba(v.$accent-orange, 0.15);
+      color: color.adjust(v.$accent-orange, $lightness: -15%);
+      border-color: rgba(v.$accent-orange, 0.3);
+    }
+  }
+
+  &__quiz-desc {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+    line-height: 1.5;
+  }
+
+  // ── Carte "Déjà joué" ─────────────────────────────────────────────────────
+
+  &__done-card {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-md;
+    background: rgba(v.$secondary, 0.08);
+    border: 2px solid rgba(v.$secondary, 0.25);
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-md v.$spacing-lg;
+  }
+
+  &__done-icon {
+    font-size: 2rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  &__done-info {
+    @include m.flex-column;
+    gap: 2px;
+  }
+
+  &__done-label {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: color.adjust(v.$secondary, $lightness: -10%);
+  }
+
+  &__done-score {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  // ── Actions ───────────────────────────────────────────────────────────────
+
+  &__actions {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+    margin-top: auto;
+  }
+
+  &__cta {
+    @include m.gradient-primary;
+    @include m.flex-center;
+    @include m.focus-ring;
+    gap: v.$spacing-sm;
+    color: v.$white;
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    padding: v.$spacing-md v.$spacing-xl;
+    border-radius: v.$radius-full;
+    min-height: v.$touch-target-lg;
+    box-shadow: v.$shadow-md;
+    transition: opacity v.$transition-fast, transform v.$transition-fast;
+
+    &:hover:not(:disabled) {
+      opacity: 0.92;
+      transform: translateY(-2px);
+    }
+
+    &:disabled {
+      // Déjà joué — état neutre, pas d'aspect cassé
+      background: linear-gradient(135deg, rgba(v.$primary, 0.5), rgba(v.$primary-dark, 0.5));
+      cursor: default;
+      box-shadow: none;
+    }
+  }
+
+  &__error {
+    font-size: v.$font-size-sm;
+    color: v.$error;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  &__back {
+    @include m.flex-center;
+    @include m.focus-ring;
+    color: v.$text-muted;
+    font-size: v.$font-size-base;
+    font-weight: 600;
+    padding: v.$spacing-sm;
+    border-radius: v.$radius-md;
+    transition: color v.$transition-fast;
+    min-height: v.$touch-target-min;
+
+    &:hover { color: v.$foreground; }
+  }
+
+  // ── Animations ────────────────────────────────────────────────────────────
+
+  @keyframes daily-sun-spin {
+    to { transform: rotate(360deg); }
+  }
+}

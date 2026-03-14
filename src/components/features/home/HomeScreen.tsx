@@ -17,11 +17,13 @@ import {
   Atom, Landmark, Swords, User, Lock,
   Trophy, Globe, Palette, Film, Scale,
   Calculator, ChefHat, Cpu, Sparkles, Rocket, BookA,
+  Sun, Flame, ChevronRight,
 } from 'lucide-react';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
 import { fetchQuestions } from '@/lib/questions';
+import { getDailyDateString } from '@/lib/daily';
 import type { Category, Difficulty, Locale } from '@/types';
 
 // Catégories jouables — questions disponibles (gratuites)
@@ -78,7 +80,11 @@ export default function HomeScreen() {
     router.replace(pathname, { locale: next });
   }
 
-  const profile = useProfileStore((s) => s.profile);
+  const profile        = useProfileStore((s) => s.profile);
+  const dailyStreak    = useProfileStore((s) => s.dailyStreak);
+  const dailyLastDate  = useProfileStore((s) => s.dailyLastDate);
+  const alreadyPlayedToday = dailyLastDate === getDailyDateString();
+
   const { category, difficulty, setCategory, setDifficulty, startQuiz } = useQuizStore();
 
   const [loading, setLoading] = useState(false);
@@ -145,6 +151,33 @@ export default function HomeScreen() {
       </header>
 
       <main className="home__body">
+
+        {/* ── Banner Défi Quotidien ─────────────────────────────────────────── */}
+        <section className="home__section">
+          <button
+            type="button"
+            className={`home__daily-banner${alreadyPlayedToday ? ' home__daily-banner--done' : ''}`}
+            onClick={() => router.push('/daily')}
+            aria-label={t('dailyAriaLabel')}
+          >
+            <Sun size={28} className="home__daily-sun" aria-hidden="true" />
+            <div className="home__daily-content">
+              <span className="home__daily-label">{t('dailyTitle')}</span>
+              <span className="home__daily-sub">
+                {alreadyPlayedToday ? t('dailyDone') : t('dailyPlay')}
+              </span>
+            </div>
+            {dailyStreak > 0 && (
+              <div className="home__daily-streak">
+                <Flame size={16} aria-hidden="true" />
+                <span>{dailyStreak}</span>
+              </div>
+            )}
+            {!alreadyPlayedToday && (
+              <ChevronRight size={20} className="home__daily-chevron" aria-hidden="true" />
+            )}
+          </button>
+        </section>
 
         {/* ── Catégories gratuites ──────────────────────────────────────────── */}
         <section className="home__section">

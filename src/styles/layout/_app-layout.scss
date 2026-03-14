@@ -181,6 +181,55 @@
     line-height: 1.5;
   }
 
+  // ── Titre joueur (XP daily) ───────────────────────────────────────────────
+
+  &__player-title {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$accent;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  // ── Bouton Défi Quotidien (sidebar) ──────────────────────────────────────
+
+  &__daily-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: v.$spacing-xs;
+    background: rgba(245, 158, 11, 0.2);
+    color: v.$white;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    padding: v.$spacing-sm v.$spacing-md;
+    border-radius: v.$radius-full;
+    transition: background v.$transition-fast;
+    width: 100%;
+
+    @include m.focus-ring;
+
+    &:hover { background: rgba(245, 158, 11, 0.35); }
+
+    &--done {
+      background: rgba(255, 255, 255, 0.08);
+      opacity: 0.7;
+    }
+  }
+
+  &__daily-streak {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-left: auto;
+    font-size: 0.7rem;
+    font-weight: 800;
+    background: rgba(245, 158, 11, 0.3);
+    border-radius: v.$radius-full;
+    padding: 1px 6px;
+    color: v.$accent;
+  }
+
   // ── Bouton Mode Défi (sidebar) ───────────────────────────────────────────
 
   &__challenges-btn {

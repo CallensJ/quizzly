@@ -27,6 +27,10 @@
     "heroes": "Heroes & Adventures",
     "heroesDesc": "Animated characters, superheroes, magic…",
     "fetchError": "Unable to load questions. Check your connection.",
+    "dailyAriaLabel": "Play today's challenge",
+    "dailyTitle": "Daily Challenge ☀️",
+    "dailyDone": "Completed today ✓",
+    "dailyPlay": "Play now →",
     "premiumTitle": "Coming soon",
     "premiumTag": "Premium",
     "premiumLocked": "Premium content — coming soon",
@@ -135,7 +139,13 @@
     "brave_name": "Brave",
     "brave_desc": "1 game in Hard mode",
     "hard_expert_name": "Warrior",
-    "hard_expert_desc": "Score ≥ 50% in Hard mode"
+    "hard_expert_desc": "Score ≥ 50% in Hard mode",
+    "streak_3_name": "On fire!",
+    "streak_3_desc": "3 days in a row",
+    "streak_7_name": "Rising star",
+    "streak_7_desc": "7 days in a row",
+    "streak_30_name": "Legend of knowledge",
+    "streak_30_desc": "30 days in a row"
   },
   "admin": {
     "title": "Parent Space",
@@ -291,5 +301,27 @@
     "noBadge": "Play to earn your first badge!",
     "age6to9": "6 to 9 years",
     "age10to13": "10 to 13 years"
+  },
+  "daily": {
+    "title": "Daily Challenge",
+    "streakLabel": "days in a row",
+    "shieldAvailable": "Shield available",
+    "shieldEmpty": "Shield not available",
+    "quizTitle": "Today's quiz",
+    "quizDesc": "20 questions — same challenge for everyone today!",
+    "alreadyPlayed": "Already completed today!",
+    "ctaPlay": "Play the challenge!",
+    "ctaDone": "Already played",
+    "ctaBack": "Back to home",
+    "fetchError": "Unable to load questions. Check your connection.",
+    "title_apprenti": "Apprentice",
+    "title_erudit": "Scholar",
+    "title_sage": "Sage",
+    "title_maitre": "Master",
+    "title_legende": "Legend",
+    "resultTitle": "Daily challenge completed!",
+    "resultStreak": "{count} day(s) in a row",
+    "shieldUsed": "Shield used — streak preserved!",
+    "shieldEarned": "New shield earned!"
   }
 }

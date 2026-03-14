@@ -24,10 +24,14 @@ interface QuizState {
   score: number;
   selectedAnswer: AnswerKey | null; // réponse du joueur pour la question courante
 
-  // ── Mode défi (MVP 4) ─────────────────────────────────────────────────────────
+  // ── Mode défi asynchrone (MVP 4) ─────────────────────────────────────────────
   // Code du challenge en cours (non null = Joueur B joue un défi)
   // Utilisé par ResultsScreen pour afficher la comparaison et mettre à jour Supabase
   challengeId: string | null;
+
+  // ── Mode défi quotidien (MVP 4) ───────────────────────────────────────────────
+  // true = le quiz en cours est le défi du jour (questions seedées par la date)
+  isDailyChallenge: boolean;
 
   // ── Actions ───────────────────────────────────────────────────────────────────
   setCategory: (category: Category) => void;
@@ -45,6 +49,14 @@ interface QuizState {
    * Pas de shuffle ni de sample : les deux joueurs jouent exactement les mêmes questions.
    */
   startChallengeQuiz: (questions: Question[], challengeCode: string) => void;
+
+  /**
+   * Démarre le défi quotidien.
+   * Les questions sont fournies pré-seedées par daily.ts (ordre déterministe par date).
+   * Pas de shuffle supplémentaire — toujours le même quiz pour tout le monde aujourd'hui.
+   * category + difficulty requis pour que ResultsScreen puisse les afficher correctement.
+   */
+  startDailyQuiz: (questions: Question[], category: Category, difficulty: Difficulty) => void;
 
   /** Enregistre la réponse du joueur pour la question courante. */
   selectAnswer: (answer: AnswerKey) => void;
@@ -118,6 +130,7 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
   score: 0,
   selectedAnswer: null,
   challengeId: null,
+  isDailyChallenge: false,
 
   setCategory: (category) => set({ category }),
 
@@ -132,7 +145,8 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       currentIndex: 0,
       score: 0,
       selectedAnswer: null,
-      challengeId: null, // mode normal — pas de défi
+      challengeId: null,       // mode normal — pas de défi
+      isDailyChallenge: false,
     });
   },
 
@@ -147,6 +161,24 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       score: 0,
       selectedAnswer: null,
       challengeId: challengeCode,
+      isDailyChallenge: false,
+    });
+  },
+
+  startDailyQuiz: (questions, category, difficulty) => {
+    // Défi quotidien : questions pré-seedées par getDailyQuestions() dans daily.ts.
+    // Pas de re-shuffle — l'ordre déterministe garantit le même quiz pour tous.
+    // category + difficulty transmis pour que ResultsScreen puisse les afficher.
+    set({
+      status: 'playing',
+      questions,
+      currentIndex: 0,
+      score: 0,
+      selectedAnswer: null,
+      challengeId: null,
+      isDailyChallenge: true,
+      category,
+      difficulty,
     });
   },
 
@@ -182,6 +214,7 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       score: 0,
       selectedAnswer: null,
       challengeId: null,
+      isDailyChallenge: false,
       // Conserve category + difficulty pour "Rejouer"
     }),
 
@@ -195,5 +228,6 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       score: 0,
       selectedAnswer: null,
       challengeId: null,
+      isDailyChallenge: false,
     }),
 }));

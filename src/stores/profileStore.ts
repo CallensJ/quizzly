@@ -2,6 +2,21 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { Profile, QuizSession, Locale } from '@/types';
+import {
+  calculateDailyXp,
+  getDailyDateString,
+  SHIELD_EVERY_N_DAYS,
+  MAX_SHIELDS,
+} from '@/lib/daily';
+
+// Résultat retourné par completeDailyChallenge — utilisé par ResultsScreen pour l'affichage
+export interface DailyResult {
+  xpGained: number;
+  newStreak: number;
+  shieldUsed: boolean;
+  shieldEarned: boolean;
+  newBadgeIds: string[];
+}
 
 interface ProfileState {
   profile: Profile | null;
@@ -26,7 +41,21 @@ interface ProfileState {
   // Badges gagnés lors de la dernière session uniquement (non persisté — reset au rechargement)
   newBadgesThisSession: string[];
 
+  // ── Mode Défi Quotidien (MVP 4) ────────────────────────────────────────────
+  // Tout persisté en localStorage — pas de table Supabase nécessaire.
+  dailyStreak: number;           // jours consécutifs complétés
+  dailyLastDate: string | null;  // YYYY-MM-DD de la dernière complétion
+  dailyXp: number;               // XP total accumulé (système de titres)
+  dailyShields: number;          // boucliers disponibles (max 2, protège le streak)
+  dailyTodayScore: number | null; // score du jour (null = pas encore joué)
+
   setMultiplayerUnlocked: (enabled: boolean) => void;
+  /**
+   * Enregistre la complétion du défi quotidien.
+   * Met à jour le streak (avec gestion du shield si 1 jour manqué),
+   * ajoute les XP, vérifie les badges streak, retourne le résultat pour l'affichage.
+   */
+  completeDailyChallenge: (score: number, total: number) => DailyResult;
   createProfile: (data: Omit<Profile, 'createdAt'>) => void;
   setLocale: (locale: Locale) => void;
   updateAvatar: (avatarId: string, avatarStyle?: string) => void;
@@ -60,6 +89,12 @@ export const useProfileStore = create<ProfileState>()(
       earnedBadgeIds: [],
       // newBadgesThisSession n'est pas persisté (exclu via partialize ci-dessous)
       newBadgesThisSession: [],
+      // Daily challenge — état initial
+      dailyStreak: 0,
+      dailyLastDate: null,
+      dailyXp: 0,
+      dailyShields: 0,
+      dailyTodayScore: null,
 
       createProfile: (data) =>
         set({
@@ -84,6 +119,79 @@ export const useProfileStore = create<ProfileState>()(
         })),
 
       setMultiplayerUnlocked: (enabled) => set({ multiplayerUnlocked: enabled }),
+
+      completeDailyChallenge: (score, total) => {
+        const state = get();
+        const today = getDailyDateString();
+        const last  = state.dailyLastDate;
+
+        // Calcul du nouveau streak ─────────────────────────────────────────────
+        // On détermine le nombre de jours depuis la dernière complétion
+        let daysSinceLast = Infinity;
+        if (last) {
+          const msPerDay = 86_400_000;
+          daysSinceLast = Math.round(
+            (new Date(today).getTime() - new Date(last).getTime()) / msPerDay
+          );
+        }
+
+        let newStreak = state.dailyStreak;
+        let shieldUsed = false;
+
+        if (daysSinceLast === 1) {
+          // Jour consécutif — streak + 1
+          newStreak = state.dailyStreak + 1;
+        } else if (daysSinceLast === 2 && state.dailyShields > 0) {
+          // 1 jour manqué + bouclier disponible → streak préservé
+          newStreak = state.dailyStreak + 1;
+          shieldUsed = true;
+        } else if (daysSinceLast === Infinity || daysSinceLast > (state.dailyShields > 0 ? 2 : 1)) {
+          // Streak cassé (ou premier défi)
+          newStreak = 1;
+        }
+
+        // Calcul XP ────────────────────────────────────────────────────────────
+        const xpGained = calculateDailyXp(newStreak, score, total);
+        const newXp = state.dailyXp + xpGained;
+
+        // Shield earned : un bouclier gagné quand le streak atteint un multiple de 7
+        const shieldEarned =
+          newStreak > 0 &&
+          newStreak % SHIELD_EVERY_N_DAYS === 0 &&
+          state.dailyShields < MAX_SHIELDS;
+
+        const newShields = Math.min(
+          (shieldUsed ? state.dailyShields - 1 : state.dailyShields) +
+          (shieldEarned ? 1 : 0),
+          MAX_SHIELDS
+        );
+
+        // Badges streak ────────────────────────────────────────────────────────
+        const newBadgeIds: string[] = [];
+        const streakBadges = [
+          { id: 'streak_3',  threshold: 3  },
+          { id: 'streak_7',  threshold: 7  },
+          { id: 'streak_30', threshold: 30 },
+        ];
+        for (const { id, threshold } of streakBadges) {
+          if (newStreak >= threshold && !state.earnedBadgeIds.includes(id)) {
+            newBadgeIds.push(id);
+          }
+        }
+
+        set({
+          dailyStreak: newStreak,
+          dailyLastDate: today,
+          dailyXp: newXp,
+          dailyShields: newShields,
+          dailyTodayScore: score,
+          // Award badges via earnedBadgeIds directement (badges daily, path séparé)
+          earnedBadgeIds: [...new Set([...state.earnedBadgeIds, ...newBadgeIds])],
+          newBadgesThisSession: newBadgeIds.length > 0 ? newBadgeIds : state.newBadgesThisSession,
+        });
+
+        return { xpGained, newStreak, shieldUsed, shieldEarned, newBadgeIds };
+      },
 
       setTimerEnabled: (enabled) => set({ timerEnabled: enabled }),
 
@@ -130,13 +238,28 @@ export const useProfileStore = create<ProfileState>()(
           sessions: [],
           earnedBadgeIds: [],
           newBadgesThisSession: [],
+          dailyStreak: 0,
+          dailyLastDate: null,
+          dailyXp: 0,
+          dailyShields: 0,
+          dailyTodayScore: null,
           profile: state.profile
             ? { ...state.profile, badgeEarned: false }
             : null,
         })),
 
       deleteProfile: () =>
-        set({ profile: null, sessions: [], earnedBadgeIds: [], newBadgesThisSession: [] }),
+        set({
+          profile: null,
+          sessions: [],
+          earnedBadgeIds: [],
+          newBadgesThisSession: [],
+          dailyStreak: 0,
+          dailyLastDate: null,
+          dailyXp: 0,
+          dailyShields: 0,
+          dailyTodayScore: null,
+        }),
     }),
     {
       name: 'quizzly-profile',

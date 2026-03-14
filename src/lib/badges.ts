@@ -93,6 +93,26 @@ export const BADGE_DEFINITIONS: BadgeDefinition[] = [
     condition: (sessions) =>
       sessions.some((s) => s.difficulty === 'hard' && s.score / s.totalQuestions >= 0.5),
   },
+
+  // ── Défi quotidien — streak (MVP 4) ────────────────────────────────────────
+  // Ces badges sont attribués manuellement via completeDailyChallenge() dans profileStore.
+  // La condition retourne false ici pour éviter un double-award via getNewlyEarnedBadges().
+  // Ils sont présents dans BADGE_DEFINITIONS uniquement pour l'affichage dans la grille du profil.
+  {
+    id: 'streak_3',
+    emoji: '🔥',
+    condition: () => false,
+  },
+  {
+    id: 'streak_7',
+    emoji: '🌟',
+    condition: () => false,
+  },
+  {
+    id: 'streak_30',
+    emoji: '👑',
+    condition: () => false,
+  },
 ];
 
 /**

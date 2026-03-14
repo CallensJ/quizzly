@@ -307,6 +307,78 @@
     @include m.focus-ring;
   }
 
+  // ── Banner Défi Quotidien ─────────────────────────────────────────────────
+
+  &__daily-banner {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-md;
+    width: 100%;
+    // Gradient distinct du primary pour différencier visuellement du header
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-md v.$spacing-lg;
+    box-shadow: v.$shadow-sm;
+    color: v.$white;
+    transition: transform v.$transition-fast, box-shadow v.$transition-fast;
+    min-height: v.$touch-target-lg;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: v.$shadow-md;
+    }
+
+    // État "déjà joué" — teinte plus douce
+    &--done {
+      background: linear-gradient(135deg, rgba(#f59e0b, 0.6) 0%, rgba(#d97706, 0.6) 100%);
+    }
+
+    @include m.focus-ring;
+  }
+
+  &__daily-sun {
+    // Couleur blanc légèrement transparente pour rester lisible sur le fond jaune
+    color: rgba(255, 255, 255, 0.9);
+    flex-shrink: 0;
+  }
+
+  &__daily-content {
+    @include m.flex-column;
+    gap: 2px;
+    flex: 1;
+    text-align: left;
+  }
+
+  &__daily-label {
+    font-size: v.$font-size-base;
+    font-weight: 800;
+    color: v.$white;
+  }
+
+  &__daily-sub {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  &__daily-streak {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: v.$radius-full;
+    padding: 2px v.$spacing-sm;
+    font-size: v.$font-size-sm;
+    font-weight: 800;
+    color: v.$white;
+    flex-shrink: 0;
+  }
+
+  &__daily-chevron {
+    color: rgba(255, 255, 255, 0.75);
+    flex-shrink: 0;
+  }
+
   // Message d'erreur chargement questions (réseau indisponible + pas de cache)
   &__fetch-error {
     font-size: v.$font-size-sm;

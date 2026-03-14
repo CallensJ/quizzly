@@ -16,8 +16,9 @@
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
-import { Star, Trophy, Gamepad2, Swords } from 'lucide-react';
+import { Star, Trophy, Gamepad2, Swords, Sun, Flame } from 'lucide-react';
 import { buildAvatarUrl } from '@/lib/avatars';
+import { getDailyDateString, getTitleForXp } from '@/lib/daily';
 import type { AvatarStyle } from '@/lib/avatars';
 
 interface AppLayoutProps {
@@ -30,15 +31,19 @@ export default function AppLayout({ children }: AppLayoutProps) {
   const profile              = useProfileStore((s) => s.profile);
   const sessions             = useProfileStore((s) => s.sessions);
   const multiplayerUnlocked  = useProfileStore((s) => s.multiplayerUnlocked);
+  const dailyStreak          = useProfileStore((s) => s.dailyStreak);
+  const dailyXp              = useProfileStore((s) => s.dailyXp);
+  const dailyLastDate        = useProfileStore((s) => s.dailyLastDate);
+  const alreadyPlayedToday   = dailyLastDate === getDailyDateString();
 
   // Pas de profil → on passe les enfants tel quel (garde assurée par les pages)
   if (!profile) return <>{children}</>;
 
-  const totalScore = sessions.reduce((acc, s) => acc + s.score, 0);
-  const totalGames = sessions.length;
-  // Construit l'URL en tenant compte du style stocké (rétro-compat : défaut adventurer)
-  const avatarUrl = buildAvatarUrl(profile.avatarId, (profile.avatarStyle as AvatarStyle) || 'adventurer');
-  const ageLabel = profile.ageGroup === '6-9' ? t('age6to9') : t('age10to13');
+  const totalScore  = sessions.reduce((acc, s) => acc + s.score, 0);
+  const totalGames  = sessions.length;
+  const avatarUrl   = buildAvatarUrl(profile.avatarId, (profile.avatarStyle as AvatarStyle) || 'adventurer');
+  const ageLabel    = profile.ageGroup === '6-9' ? t('age6to9') : t('age10to13');
+  const playerTitle = getTitleForXp(dailyXp);
 
   return (
     <div className="app-layout">
@@ -68,6 +73,11 @@ export default function AppLayout({ children }: AppLayoutProps) {
           />
           <strong className="app-layout__pseudo">{profile.pseudo}</strong>
           <span className="app-layout__age">{ageLabel}</span>
+          {dailyXp > 0 && (
+            <span className="app-layout__player-title">
+              {playerTitle.emoji} {playerTitle.id}
+            </span>
+          )}
         </button>
 
         {/* Statistiques de jeu */}
@@ -81,6 +91,22 @@ export default function AppLayout({ children }: AppLayoutProps) {
             <span>{t('games', { count: totalGames })}</span>
           </div>
         </div>
+
+        {/* Défi Quotidien — toujours visible (pas de verrou parental) */}
+        <button
+          className={`app-layout__daily-btn${alreadyPlayedToday ? ' app-layout__daily-btn--done' : ''}`}
+          onClick={() => router.push('/daily')}
+          aria-label="Défi du jour"
+        >
+          <Sun size={16} aria-hidden="true" />
+          <span>Défi du jour</span>
+          {dailyStreak > 0 && (
+            <span className="app-layout__daily-streak">
+              <Flame size={12} aria-hidden="true" />
+              {dailyStreak}
+            </span>
+          )}
+        </button>
 
         {/* Lien Mode Défi — visible uniquement si multiplayerUnlocked */}
         {multiplayerUnlocked && (

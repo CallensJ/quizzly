@@ -27,6 +27,10 @@
     "heroes": "Héros & Aventures",
     "heroesDesc": "Personnages animés, super-héros, magie…",
     "fetchError": "Impossible de charger les questions. Vérifie ta connexion.",
+    "dailyAriaLabel": "Jouer le défi du jour",
+    "dailyTitle": "Défi du jour ☀️",
+    "dailyDone": "Complété aujourd'hui ✓",
+    "dailyPlay": "Jouer maintenant →",
     "premiumTitle": "Bientôt disponible",
     "premiumTag": "Premium",
     "premiumLocked": "Contenu premium — bientôt disponible",
@@ -135,7 +139,13 @@
     "brave_name": "Courageux",
     "brave_desc": "1 partie en mode Difficile",
     "hard_expert_name": "Guerrier",
-    "hard_expert_desc": "Score ≥ 50% en Difficile"
+    "hard_expert_desc": "Score ≥ 50% en Difficile",
+    "streak_3_name": "En feu !",
+    "streak_3_desc": "3 jours consécutifs",
+    "streak_7_name": "Étoile montante",
+    "streak_7_desc": "7 jours consécutifs",
+    "streak_30_name": "Légende du savoir",
+    "streak_30_desc": "30 jours consécutifs"
   },
   "admin": {
     "title": "Espace Parent",
@@ -291,5 +301,27 @@
     "noBadge": "Joue pour gagner ton premier badge !",
     "age6to9": "6 à 9 ans",
     "age10to13": "10 à 13 ans"
+  },
+  "daily": {
+    "title": "Défi du jour",
+    "streakLabel": "jours de suite",
+    "shieldAvailable": "Bouclier disponible",
+    "shieldEmpty": "Bouclier non disponible",
+    "quizTitle": "Quiz du jour",
+    "quizDesc": "20 questions, même défi pour tout le monde aujourd'hui !",
+    "alreadyPlayed": "Déjà complété aujourd'hui !",
+    "ctaPlay": "Jouer le défi !",
+    "ctaDone": "Déjà joué",
+    "ctaBack": "Retour à l'accueil",
+    "fetchError": "Impossible de charger les questions. Vérifie ta connexion.",
+    "title_apprenti": "Apprenti",
+    "title_erudit": "Érudit",
+    "title_sage": "Sage",
+    "title_maitre": "Maître",
+    "title_legende": "Légende",
+    "resultTitle": "Défi quotidien complété !",
+    "resultStreak": "{count} jour(s) de suite",
+    "shieldUsed": "Bouclier utilisé — streak préservé !",
+    "shieldEarned": "Nouveau bouclier gagné !"
   }
 }

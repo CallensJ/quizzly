@@ -27,12 +27,14 @@ import { playSound } from '@/lib/sound';
 import { syncSession, syncBadge } from '@/lib/sync';
 import { fetchQuestions } from '@/lib/questions';
 import { createChallenge, completeChallenge } from '@/lib/challenges';
+import { getTitleForXp } from '@/lib/daily';
 import Nova from '@/components/ui/Nova';
 import { BADGE_DEFINITIONS } from '@/lib/badges';
 import { buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
+import type { DailyResult } from '@/stores/profileStore';
 import type { Locale, Challenge } from '@/types';
-import { Swords, Copy, Check } from 'lucide-react';
+import { Swords, Copy, Check, Sun, Flame, Shield } from 'lucide-react';
 
 export default function ResultsScreen() {
   const t         = useTranslations('results');
@@ -40,16 +42,19 @@ export default function ResultsScreen() {
   const tNova     = useTranslations('nova');
   const tBadges   = useTranslations('badges');
   const tChal     = useTranslations('challenges');
+  const tDaily    = useTranslations('daily');
   const locale    = useLocale() as Locale;
   const router    = useRouter();
 
-  const { status, score, category, difficulty, questions, challengeId, startQuiz, resetAll } = useQuizStore();
-  const soundEnabled         = useProfileStore((s) => s.soundEnabled);
-  const deviceId             = useProfileStore((s) => s.deviceId);
-  const ageGroup             = useProfileStore((s) => s.profile?.ageGroup ?? '6-9');
-  const profile              = useProfileStore((s) => s.profile);
-  const multiplayerUnlocked  = useProfileStore((s) => s.multiplayerUnlocked);
-  const newBadgesThisSession = useProfileStore((s) => s.newBadgesThisSession);
+  const { status, score, category, difficulty, questions, challengeId, isDailyChallenge, startQuiz, resetAll } = useQuizStore();
+  const soundEnabled           = useProfileStore((s) => s.soundEnabled);
+  const deviceId               = useProfileStore((s) => s.deviceId);
+  const ageGroup               = useProfileStore((s) => s.profile?.ageGroup ?? '6-9');
+  const profile                = useProfileStore((s) => s.profile);
+  const multiplayerUnlocked    = useProfileStore((s) => s.multiplayerUnlocked);
+  const newBadgesThisSession   = useProfileStore((s) => s.newBadgesThisSession);
+  const completeDailyChallenge = useProfileStore((s) => s.completeDailyChallenge);
+  const dailyXp                = useProfileStore((s) => s.dailyXp);
 
   const total = questions.length || 20;
   const badgeEarnedThisSession = newBadgesThisSession.length > 0;
@@ -63,6 +68,9 @@ export default function ResultsScreen() {
   // ── État mode défi (Joueur B) ───────────────────────────────────────────────
   const [duelResult, setDuelResult]   = useState<Challenge | null>(null);
   const [duelLoading, setDuelLoading] = useState(false);
+
+  // ── État mode défi quotidien ────────────────────────────────────────────────
+  const [dailyResult, setDailyResult] = useState<DailyResult | null>(null);
 
   // ── État création défi (Joueur A — bouton "Défier un ami") ─────────────────
   const [createLoading, setCreateLoading] = useState(false);
@@ -138,6 +146,26 @@ export default function ResultsScreen() {
       completeChallengeFlow();
     }
   }, [status, challengeId, completeChallengeFlow]);
+
+  // ── Complétion du défi quotidien ──────────────────────────────────────────
+  // Déclenché uniquement si isDailyChallenge — met à jour le store et capture le résultat.
+  useEffect(() => {
+    if (status === 'finished' && isDailyChallenge) {
+      const result = completeDailyChallenge(score, total);
+      setDailyResult(result);
+      // Confetti si streak ≥ 3 ou score parfait
+      if (result.newStreak >= 3 || score === total) {
+        import('canvas-confetti').then((mod) => {
+          mod.default({
+            particleCount: 60,
+            spread: 50,
+            origin: { y: 0.6 },
+            colors: ['#f59e0b', '#d97706', '#667eea', '#FFD700'],
+          });
+        });
+      }
+    }
+  }, [status, isDailyChallenge]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Helpers ──────────────────────────────────────────────────────────────
 
@@ -306,6 +334,39 @@ export default function ResultsScreen() {
           </div>
         )}
 
+        {/* ── Résultat du défi quotidien ────────────────────────────────────── */}
+        {isDailyChallenge && dailyResult && (
+          <div className="results__daily" role="status">
+            <div className="results__daily-header">
+              <Sun size={22} aria-hidden="true" />
+              <span className="results__daily-title">{tDaily('resultTitle')}</span>
+            </div>
+            <div className="results__daily-xp">
+              <span className="results__daily-xp-amount">+{dailyResult.xpGained} XP</span>
+            </div>
+            <div className="results__daily-streak">
+              <Flame size={18} aria-hidden="true" />
+              <span>{tDaily('resultStreak', { count: dailyResult.newStreak })}</span>
+            </div>
+            {dailyResult.shieldUsed && (
+              <p className="results__daily-shield-used">
+                <Shield size={14} aria-hidden="true" />
+                {tDaily('shieldUsed')}
+              </p>
+            )}
+            {dailyResult.shieldEarned && (
+              <p className="results__daily-shield-earned">
+                <Shield size={14} aria-hidden="true" />
+                {tDaily('shieldEarned')}
+              </p>
+            )}
+            <p className="results__daily-player-title">
+              {/* Titre recalculé depuis le XP mis à jour dans le store */}
+              {(() => { const t = getTitleForXp(dailyXp); return `${t.emoji} ${tDaily(`title_${t.id}` as Parameters<typeof tDaily>[0])}`; })()}
+            </p>
+          </div>
+        )}
+
         {/* ── Résultat du duel (affiché quand Joueur B finit un défi) ─────── */}
         {challengeId && (
           <div className="results__duel" aria-live="polite">
@@ -389,7 +450,7 @@ export default function ResultsScreen() {
           <div className="results__actions">
 
             {/* Bouton "Défier un ami" — mode normal uniquement, multijoueur débloqué */}
-            {!challengeId && multiplayerUnlocked && category && difficulty && (
+            {!challengeId && !isDailyChallenge && multiplayerUnlocked && category && difficulty && (
               <button
                 type="button"
                 className="results__cta-challenge"
@@ -401,8 +462,8 @@ export default function ResultsScreen() {
               </button>
             )}
 
-            {/* Rejouer — uniquement en mode normal (pas après un défi) */}
-            {!challengeId && category && difficulty && (
+            {/* Rejouer — uniquement en mode normal (pas après un défi ou quotidien) */}
+            {!challengeId && !isDailyChallenge && category && difficulty && (
               <button
                 type="button"
                 data-testid="play-again-btn"

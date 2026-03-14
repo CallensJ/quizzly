@@ -288,6 +288,68 @@
     text-align: center;
   }
 
+  // ── Panneau Défi Quotidien (résultat après complétion) ──────────────────
+
+  &__daily {
+    @include m.flex-column;
+    align-items: center;
+    gap: v.$spacing-md;
+    background: linear-gradient(135deg, rgba(#f59e0b, 0.08), rgba(#d97706, 0.05));
+    border: 2px solid rgba(#f59e0b, 0.3);
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-xl;
+    width: 100%;
+    text-align: center;
+    animation: results-badge-bounce 400ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  }
+
+  &__daily-header {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    color: #d97706;
+  }
+
+  &__daily-title {
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  &__daily-xp-amount {
+    font-size: v.$font-size-2xl;
+    font-weight: 800;
+    color: #d97706;
+  }
+
+  &__daily-streak {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$foreground;
+  }
+
+  &__daily-shield-used,
+  &__daily-shield-earned {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-xs;
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+  }
+
+  &__daily-shield-used   { color: v.$text-muted; }
+  &__daily-shield-earned { color: v.$primary; }
+
+  &__daily-player-title {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$text-muted;
+    margin-top: v.$spacing-xs;
+  }
+
   // ── Modal partage de code (Joueur A après création d'un défi) ──────────
 
   &__challenge-modal {
