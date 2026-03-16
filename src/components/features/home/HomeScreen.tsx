@@ -80,10 +80,11 @@ export default function HomeScreen() {
     router.replace(pathname, { locale: next });
   }
 
-  const profile        = useProfileStore((s) => s.profile);
-  const dailyStreak    = useProfileStore((s) => s.dailyStreak);
-  const dailyLastDate  = useProfileStore((s) => s.dailyLastDate);
-  const alreadyPlayedToday = dailyLastDate === getDailyDateString();
+  const profile              = useProfileStore((s) => s.profile);
+  const dailyStreak          = useProfileStore((s) => s.dailyStreak);
+  const dailyLastDate        = useProfileStore((s) => s.dailyLastDate);
+  const multiplayerUnlocked  = useProfileStore((s) => s.multiplayerUnlocked);
+  const alreadyPlayedToday   = dailyLastDate === getDailyDateString();
 
   const { category, difficulty, setCategory, setDifficulty, startQuiz } = useQuizStore();
 
@@ -178,6 +179,25 @@ export default function HomeScreen() {
             )}
           </button>
         </section>
+
+        {/* ── Banner Mode Défi — mobile only (sidebar gère desktop) ──────────── */}
+        {multiplayerUnlocked && (
+          <section className="home__section home__section--challenges-mobile">
+            <button
+              type="button"
+              className="home__challenges-banner"
+              onClick={() => router.push('/challenges')}
+              aria-label={t('challengesBannerLabel')}
+            >
+              <Swords size={24} className="home__challenges-icon" aria-hidden="true" />
+              <div className="home__daily-content">
+                <span className="home__daily-label">{t('challengesBannerLabel')}</span>
+                <span className="home__daily-sub">{t('challengesBannerSub')}</span>
+              </div>
+              <ChevronRight size={20} className="home__daily-chevron" aria-hidden="true" />
+            </button>
+          </section>
+        )}
 
         {/* ── Catégories gratuites ──────────────────────────────────────────── */}
         <section className="home__section">

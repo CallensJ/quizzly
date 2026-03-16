@@ -307,6 +307,40 @@
     @include m.focus-ring;
   }
 
+  // ── Banner Mode Défi — mobile uniquement ─────────────────────────────────
+  // Sur desktop (≥1024px) la sidebar contient déjà le lien → on masque le banner
+
+  &__section--challenges-mobile {
+    // Visible seulement sur mobile
+    @media (min-width: v.$bp-lg) { display: none; }
+  }
+
+  &__challenges-banner {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-md;
+    width: 100%;
+    @include m.gradient-primary;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-md v.$spacing-lg;
+    box-shadow: v.$shadow-sm;
+    color: v.$white;
+    transition: transform v.$transition-fast, box-shadow v.$transition-fast;
+    min-height: v.$touch-target-lg;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: v.$shadow-md;
+    }
+
+    @include m.focus-ring;
+  }
+
+  &__challenges-icon {
+    color: rgba(255, 255, 255, 0.9);
+    flex-shrink: 0;
+  }
+
   // ── Banner Défi Quotidien ─────────────────────────────────────────────────
 
   &__daily-banner {
