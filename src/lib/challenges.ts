@@ -42,6 +42,7 @@ export interface CreateChallengeParams {
   ageGroup: AgeGroup;
   questions: Question[];   // snapshot des 20 questions jouées par A (ordre fixe)
   scoreA: number;
+  timeA?: number;          // temps total de réponse en ms (pour départage à égalité de score)
 }
 
 /**
@@ -67,6 +68,7 @@ export async function createChallenge(params: CreateChallengeParams): Promise<st
       // Sérialisation du snapshot — stocké en jsonb dans Supabase
       questions: params.questions,
       score_a: params.scoreA,
+      time_a: params.timeA ?? null,
       total: params.questions.length,
       status: 'pending',
       expires_at: expiresAt,
@@ -136,25 +138,47 @@ export async function joinChallenge(
 /**
  * Met à jour le challenge avec le score de Joueur B et détermine le gagnant.
  * Appelé depuis ResultsScreen quand challengeId !== null.
+ *
+ * Règle de départage (égalité de score) :
+ *   Si time_a et time_b sont tous deux connus → le plus rapide gagne.
+ *   Si l'un des temps est inconnu (anciens challenges) → draw.
  */
 export async function completeChallenge(
   code: string,
   pseudo: string,
   avatarId: string,
-  scoreB: number
+  scoreB: number,
+  timeB?: number
 ): Promise<Challenge | null> {
-  // D'abord récupérer le score A pour calculer le gagnant
-  const { data: existing } = await supabase
+  // Récupère score_a et time_a pour calculer le gagnant
+  const { data: existing, error: fetchError } = await supabase
     .from('challenges')
-    .select('score_a, total')
+    .select('score_a, time_a, total')
     .eq('code', code)
     .single();
 
-  if (!existing) return null;
+  if (fetchError || !existing) {
+    console.error('[challenges] completeChallenge — fetch existing failed:', fetchError);
+    return null;
+  }
 
   const scoreA = existing.score_a as number;
-  const winner: 'a' | 'b' | 'draw' =
-    scoreB > scoreA ? 'b' : scoreB < scoreA ? 'a' : 'draw';
+  const timeA  = existing.time_a as number | null;
+
+  // Calcul du gagnant — avec départage par temps si scores égaux
+  let winner: 'a' | 'b' | 'draw';
+  if (scoreB > scoreA) {
+    winner = 'b';
+  } else if (scoreB < scoreA) {
+    winner = 'a';
+  } else {
+    // Égalité de score → départage par temps (le plus rapide gagne)
+    if (timeA !== null && timeB !== undefined) {
+      winner = timeB < timeA ? 'b' : timeB > timeA ? 'a' : 'draw';
+    } else {
+      winner = 'draw';
+    }
+  }
 
   const { data, error } = await supabase
     .from('challenges')
@@ -162,6 +186,7 @@ export async function completeChallenge(
       challenged_by: pseudo,
       avatar_b: avatarId,
       score_b: scoreB,
+      time_b: timeB ?? null,
       winner,
       status: 'completed',
       completed_at: new Date().toISOString(),
@@ -170,7 +195,10 @@ export async function completeChallenge(
     .select('*')
     .single();
 
-  if (error || !data) return null;
+  if (error || !data) {
+    console.error('[challenges] completeChallenge — update failed:', error);
+    return null;
+  }
   return data as Challenge;
 }
 

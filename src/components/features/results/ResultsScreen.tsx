@@ -46,7 +46,7 @@ export default function ResultsScreen() {
   const locale    = useLocale() as Locale;
   const router    = useRouter();
 
-  const { status, score, category, difficulty, questions, challengeId, isDailyChallenge, startQuiz, resetAll } = useQuizStore();
+  const { status, score, category, difficulty, questions, challengeId, isDailyChallenge, totalTimeMs, startQuiz, resetAll } = useQuizStore();
   const soundEnabled           = useProfileStore((s) => s.soundEnabled);
   const deviceId               = useProfileStore((s) => s.deviceId);
   const ageGroup               = useProfileStore((s) => s.profile?.ageGroup ?? '6-9');
@@ -122,7 +122,8 @@ export default function ResultsScreen() {
       challengeId,
       profile.pseudo,
       profile.avatarId,
-      score
+      score,
+      totalTimeMs > 0 ? totalTimeMs : undefined
     );
     if (result) {
       setDuelResult(result);
@@ -226,6 +227,7 @@ export default function ResultsScreen() {
         // Snapshot des questions jouées — ordre identique pour Joueur B
         questions,
         scoreA: score,
+        timeA: totalTimeMs > 0 ? totalTimeMs : undefined,
       });
       setCreatedCode(code);
     } catch {
@@ -246,11 +248,22 @@ export default function ResultsScreen() {
     }
   }
 
+  /** Formate un temps en ms en "Xm Xs" ou "Xs" */
+  function formatTime(ms: number): string {
+    const s = Math.round(ms / 1000);
+    if (s < 60) return `${s}s`;
+    return `${Math.floor(s / 60)}m ${s % 60}s`;
+  }
+
   /** Retourne le message de victoire/défaite/égalité pour le duel. */
   function getDuelWinnerMessage(): string {
     if (!duelResult || !profile) return '';
     const iAmB = duelResult.challenged_by === profile.pseudo;
-    if (duelResult.winner === 'draw') return tChal('duelDraw');
+    if (duelResult.winner === 'draw') {
+      // Draw par temps identique ou score identique sans timing
+      const hasTiming = duelResult.time_a !== null && duelResult.time_b !== null;
+      return hasTiming ? tChal('duelDrawByTime') : tChal('duelDraw');
+    }
     // Victoire Joueur B : iAmB + winner === 'b', ou !iAmB + winner === 'a'
     const iWon = (iAmB && duelResult.winner === 'b') || (!iAmB && duelResult.winner === 'a');
     if (iWon) return tChal('duelYouWin');
@@ -391,6 +404,14 @@ export default function ResultsScreen() {
                     )}
                     <span className="results__duel-pseudo">{duelResult.created_by}</span>
                     <span className="results__duel-score">{duelResult.score_a}/{duelResult.total}</span>
+                    {duelResult.time_a !== null && (
+                      <span className="results__duel-time">
+                        {tChal('duelTimeLabel')} : {formatTime(duelResult.time_a)}
+                        {duelResult.winner === 'a' && duelResult.score_a === duelResult.score_b && (
+                          <span className="results__duel-faster">{tChal('duelTimeFaster')}</span>
+                        )}
+                      </span>
+                    )}
                   </div>
 
                   <span className="results__duel-vs" aria-hidden="true">⚔️</span>
@@ -408,6 +429,14 @@ export default function ResultsScreen() {
                     )}
                     <span className="results__duel-pseudo">{duelResult.challenged_by}</span>
                     <span className="results__duel-score">{duelResult.score_b}/{duelResult.total}</span>
+                    {duelResult.time_b !== null && (
+                      <span className="results__duel-time">
+                        {tChal('duelTimeLabel')} : {formatTime(duelResult.time_b)}
+                        {duelResult.winner === 'b' && duelResult.score_a === duelResult.score_b && (
+                          <span className="results__duel-faster">{tChal('duelTimeFaster')}</span>
+                        )}
+                      </span>
+                    )}
                   </div>
                 </div>
 

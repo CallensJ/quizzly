@@ -276,6 +276,23 @@
     color: v.$foreground;
   }
 
+  // Temps de réponse affiché sous le score — visible uniquement si enregistré
+  &__duel-time {
+    @include m.flex-column;
+    align-items: center;
+    gap: 2px;
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+    font-weight: 600;
+  }
+
+  // Badge "⚡ Plus rapide !" — uniquement en cas d'égalité de score, gagnant par le temps
+  &__duel-faster {
+    color: v.$accent-orange;
+    font-weight: 800;
+    font-size: v.$font-size-sm;
+  }
+
   &__duel-vs {
     font-size: v.$font-size-xl;
     flex-shrink: 0;

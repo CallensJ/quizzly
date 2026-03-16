@@ -88,10 +88,12 @@ export interface Challenge {
   age_group: AgeGroup;
   questions: Question[];      // Snapshot des questions (même ordre pour les 2 joueurs)
   score_a: number;
+  time_a: number | null;      // Temps total de réponse Joueur A en ms (null = ancienne version)
   total: number;              // Toujours 20
   challenged_by: string | null; // Pseudo Joueur B (null si pas encore joué)
   avatar_b: string | null;
   score_b: number | null;
+  time_b: number | null;      // Temps total de réponse Joueur B en ms
   winner: 'a' | 'b' | 'draw' | null;
   status: ChallengeStatus;
   created_at: string;

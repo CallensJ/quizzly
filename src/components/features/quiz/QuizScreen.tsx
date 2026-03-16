@@ -41,7 +41,7 @@ export default function QuizScreen() {
 
   const {
     status, questions, currentIndex, score, selectedAnswer, category, difficulty,
-    selectAnswer, nextQuestion,
+    selectAnswer, nextQuestion, startQuestionTimer,
   } = useQuizStore();
 
   const { addSession, awardBadges } = useProfileStore();
@@ -58,11 +58,13 @@ export default function QuizScreen() {
   const [timeLeft, setTimeLeft] = useState(TIMER_DURATION);
   const timedOutRef = useRef(false); // évite un double déclenchement
 
-  // Réinitialise le timer à chaque nouvelle question
+  // Réinitialise le timer à chaque nouvelle question et démarre le chrono pour le scoring
   useEffect(() => {
     setTimeLeft(TIMER_DURATION);
     timedOutRef.current = false;
-  }, [currentIndex]);
+    // Enregistre l'instant d'affichage pour le scoring temps (départage en duel)
+    startQuestionTimer();
+  }, [currentIndex]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Décompte seconde par seconde via setTimeout (évite les problèmes de stale closure)
   useEffect(() => {

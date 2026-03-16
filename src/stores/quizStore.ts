@@ -33,6 +33,13 @@ interface QuizState {
   // true = le quiz en cours est le défi du jour (questions seedées par la date)
   isDailyChallenge: boolean;
 
+  // ── Scoring basé sur le temps (MVP 4 — départage en duel) ───────────────────
+  // Temps d'affichage de la question courante (ms depuis epoch) — null entre questions
+  questionStartTime: number | null;
+  // Cumul des temps de réponse sur toutes les questions répondues (ms)
+  // Utilisé comme départage en duel : même score → le plus rapide gagne
+  totalTimeMs: number;
+
   // ── Actions ───────────────────────────────────────────────────────────────────
   setCategory: (category: Category) => void;
   setDifficulty: (difficulty: Difficulty) => void;
@@ -57,6 +64,12 @@ interface QuizState {
    * category + difficulty requis pour que ResultsScreen puisse les afficher correctement.
    */
   startDailyQuiz: (questions: Question[], category: Category, difficulty: Difficulty) => void;
+
+  /**
+   * Démarre le chrono de la question courante.
+   * Appelé depuis QuizScreen quand la question est affichée et que le joueur peut répondre.
+   */
+  startQuestionTimer: () => void;
 
   /** Enregistre la réponse du joueur pour la question courante. */
   selectAnswer: (answer: AnswerKey) => void;
@@ -131,6 +144,8 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
   selectedAnswer: null,
   challengeId: null,
   isDailyChallenge: false,
+  questionStartTime: null,
+  totalTimeMs: 0,
 
   setCategory: (category) => set({ category }),
 
@@ -147,6 +162,8 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       selectedAnswer: null,
       challengeId: null,       // mode normal — pas de défi
       isDailyChallenge: false,
+      questionStartTime: null,
+      totalTimeMs: 0,
     });
   },
 
@@ -162,6 +179,8 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       selectedAnswer: null,
       challengeId: challengeCode,
       isDailyChallenge: false,
+      questionStartTime: null,
+      totalTimeMs: 0,
     });
   },
 
@@ -179,19 +198,32 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       isDailyChallenge: true,
       category,
       difficulty,
+      questionStartTime: null,
+      totalTimeMs: 0,
     });
   },
 
+  startQuestionTimer: () => {
+    // Enregistre l'instant d'affichage de la question courante.
+    // Appelé par QuizScreen dès que le joueur peut interagir.
+    set({ questionStartTime: Date.now() });
+  },
+
   selectAnswer: (answer) => {
-    const { questions, currentIndex, score, selectedAnswer } = get();
+    const { questions, currentIndex, score, selectedAnswer, questionStartTime, totalTimeMs } = get();
 
     // Empêche de changer de réponse après avoir sélectionné
     if (selectedAnswer !== null) return;
+
+    // Cumule le temps écoulé depuis le début de la question
+    const elapsed = questionStartTime ? Date.now() - questionStartTime : 0;
 
     const isCorrect = answer === questions[currentIndex]?.answer;
     set({
       selectedAnswer: answer,
       score: isCorrect ? score + 1 : score,
+      totalTimeMs: totalTimeMs + elapsed,
+      questionStartTime: null, // réinitialise pour la prochaine question
     });
   },
 
@@ -215,6 +247,8 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       selectedAnswer: null,
       challengeId: null,
       isDailyChallenge: false,
+      questionStartTime: null,
+      totalTimeMs: 0,
       // Conserve category + difficulty pour "Rejouer"
     }),
 
@@ -229,5 +263,7 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       selectedAnswer: null,
       challengeId: null,
       isDailyChallenge: false,
+      questionStartTime: null,
+      totalTimeMs: 0,
     }),
 }));
