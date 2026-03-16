@@ -380,6 +380,134 @@
     }
   }
 
+  // ── Rapport de progression PDF ───────────────────────────────────────────────
+
+  &__report-actions {
+    display: flex;
+    gap: v.$spacing-sm;
+    flex-wrap: wrap;
+  }
+
+  // Bouton principal (télécharger) et secondaire (envoyer email)
+  &__report-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: v.$spacing-xs;
+    padding: v.$spacing-sm v.$spacing-md;
+    border-radius: v.$radius-md;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    cursor: pointer;
+    min-height: v.$touch-target-min;
+    transition:
+      background v.$transition-fast,
+      opacity v.$transition-fast;
+    @include m.focus-ring;
+
+    &:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    // Télécharger — gradient primary
+    &--primary {
+      @include m.gradient-primary;
+      color: v.$white;
+      border: none;
+
+      &:not(:disabled):hover { opacity: 0.9; }
+    }
+
+    // Envoyer par email — contour primary
+    &--secondary {
+      background: transparent;
+      color: v.$primary;
+      border: 2px solid v.$primary;
+
+      &:not(:disabled):hover {
+        background: v.$primary;
+        color: v.$white;
+      }
+    }
+  }
+
+  // Icône spinner en rotation pour les états loading
+  &__report-spinner {
+    animation: admin-spin 0.8s linear infinite;
+  }
+
+  // Texte d'aide (email manquant, hint planification)
+  &__report-hint {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+    line-height: 1.5;
+  }
+
+  // ── Planification automatique ────────────────────────────────────────────────
+
+  &__report-schedule {
+    @include m.flex-column;
+    gap: v.$spacing-sm;
+    padding-top: v.$spacing-sm;
+    border-top: 1px solid #f3f4f6;
+  }
+
+  &__report-schedule-header {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-xs;
+    color: v.$text-muted;
+  }
+
+  &__report-schedule-label {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$foreground;
+    flex: 1;
+  }
+
+  &__report-schedule-saved {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$success;
+  }
+
+  // Boutons de sélection fréquence (Aucun / Hebdo / Mensuel)
+  &__schedule-options {
+    display: flex;
+    gap: v.$spacing-sm;
+    flex-wrap: wrap;
+  }
+
+  &__schedule-btn {
+    padding: v.$spacing-xs v.$spacing-md;
+    border: 2px solid v.$primary;
+    border-radius: v.$radius-full;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$primary;
+    background: transparent;
+    cursor: pointer;
+    min-height: 40px;
+    transition:
+      background v.$transition-fast,
+      color v.$transition-fast;
+
+    @include m.focus-ring;
+
+    &--active {
+      background: v.$primary;
+      color: v.$white;
+    }
+
+    &:not(&--active):hover {
+      background: rgba(v.$primary, 0.08);
+    }
+  }
+
   // ── Toggle switch (Mode Défi) ────────────────────────────────────────────────
 
   &__toggle-row {
@@ -523,6 +651,11 @@
   }
 
   // ── Animations ──────────────────────────────────────────────────────────────
+
+  @keyframes admin-spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
 
   @keyframes admin-fade-in {
     from { opacity: 0; transform: translateY(10px); }

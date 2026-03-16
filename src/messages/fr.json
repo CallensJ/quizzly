@@ -197,7 +197,21 @@
     "multiplayerTitle": "Mode Défi",
     "multiplayerDesc": "Permet à l'enfant de créer et rejoindre des défis avec des amis.",
     "multiplayerEnabled": "Mode Défi activé",
-    "multiplayerDisabled": "Mode Défi désactivé"
+    "multiplayerDisabled": "Mode Défi désactivé",
+    "reportTitle": "Rapport de progression",
+    "reportDesc": "Téléchargez ou envoyez un rapport PDF de la progression de votre enfant.",
+    "reportDownload": "Télécharger le PDF",
+    "reportDownloaded": "PDF téléchargé !",
+    "reportSend": "Envoyer par email",
+    "reportSent": "Email envoyé !",
+    "reportError": "Erreur — réessayez",
+    "reportNoEmail": "Configurez un email de contact pour l'envoi automatique.",
+    "reportScheduleLabel": "Envoi automatique",
+    "reportScheduleNone": "Désactivé",
+    "reportScheduleWeekly": "Hebdomadaire",
+    "reportScheduleMonthly": "Mensuel",
+    "reportScheduleSaved": "Enregistré !",
+    "reportScheduleHint": "Le rapport sera envoyé automatiquement à {email}."
   },
   "auth": {
     "title": "Espace Parent",

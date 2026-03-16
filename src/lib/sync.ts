@@ -14,6 +14,7 @@
 
 import { supabase } from './supabase';
 import type { Profile, QuizSession } from '@/types';
+import type { ReportSchedule } from './report';
 
 // ─── Profil ───────────────────────────────────────────────────────────────────
 
@@ -75,7 +76,8 @@ export async function syncProfile(
 export async function syncAdminSettings(
   deviceId: string,
   dailyGoal: number | null,
-  adminEmail: string | null
+  adminEmail: string | null,
+  reportSchedule?: ReportSchedule    // optionnel pour rétro-compat des anciens appelants
 ): Promise<void> {
   try {
     const { data: profileRow, error } = await supabase
@@ -90,10 +92,12 @@ export async function syncAdminSettings(
       .from('admin_settings')
       .upsert(
         {
-          profile_id: profileRow.id,
-          daily_goal: dailyGoal,
-          admin_email: adminEmail,
-          updated_at: new Date().toISOString(),
+          profile_id:      profileRow.id,
+          daily_goal:      dailyGoal,
+          admin_email:     adminEmail,
+          // report_schedule inclus seulement si fourni — évite d'écraser la valeur existante
+          ...(reportSchedule !== undefined ? { report_schedule: reportSchedule } : {}),
+          updated_at:      new Date().toISOString(),
         },
         { onConflict: 'profile_id' }
       );

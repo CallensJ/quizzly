@@ -15,6 +15,8 @@
  *   - Stats enfant en lecture seule
  *   - Objectif journalier (bonnes réponses)
  *   - Email de contact adulte
+ *   - Rapport de progression PDF (téléchargement + envoi email + planification auto)
+ *   - Mode Défi (multijoueur asynchrone)
  *   - Déconnexion
  *   - Remettre la progression à zéro (irréversible)
  *   - Supprimer le compte (irréversible)
@@ -28,6 +30,7 @@ import { useProfileStore } from '@/stores/profileStore';
 import { useAuthStore } from '@/stores/authStore';
 import { syncAdminSettings } from '@/lib/sync';
 import { signOut } from '@/lib/auth';
+import ReportSection from './ReportSection';
 
 // Validation basique d'une adresse email
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -248,6 +251,9 @@ export default function AdminScreen() {
             </button>
           )}
         </section>
+
+        {/* ── Rapport de progression PDF ───────────────────────────────────── */}
+        <ReportSection />
 
         {/* ── Mode Défi (multijoueur) ──────────────────────────────────────── */}
         <section className="admin__section admin__section--multiplayer" aria-labelledby="admin-multiplayer-title">

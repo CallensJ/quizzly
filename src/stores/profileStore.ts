@@ -8,6 +8,7 @@ import {
   SHIELD_EVERY_N_DAYS,
   MAX_SHIELDS,
 } from '@/lib/daily';
+import type { ReportSchedule } from '@/lib/report';
 
 // Résultat retourné par completeDailyChallenge — utilisé par ResultsScreen pour l'affichage
 export interface DailyResult {
@@ -35,6 +36,11 @@ interface ProfileState {
   // Débloqué une fois via le mode admin (PIN). False par défaut.
   multiplayerUnlocked: boolean;
 
+  // ── Rapports de progression PDF (MVP 4) ────────────────────────────────────
+  // Fréquence d'envoi automatique — 'none' par défaut (désactivé).
+  // Synced vers admin_settings.report_schedule pour le cron Supabase.
+  reportSchedule: ReportSchedule;
+
   // ── Système de badges étendu (MVP 4) ─────────────────────────────────────
   // Source de vérité : liste des IDs de badges obtenus (persistée)
   earnedBadgeIds: string[];
@@ -50,6 +56,7 @@ interface ProfileState {
   dailyTodayScore: number | null; // score du jour (null = pas encore joué)
 
   setMultiplayerUnlocked: (enabled: boolean) => void;
+  setReportSchedule: (schedule: ReportSchedule) => void;
   /**
    * Enregistre la complétion du défi quotidien.
    * Met à jour le streak (avec gestion du shield si 1 jour manqué),
@@ -82,6 +89,7 @@ export const useProfileStore = create<ProfileState>()(
       deviceId: null,
       timerEnabled: false,
       multiplayerUnlocked: false,
+      reportSchedule: 'none',
       soundEnabled: true, // activé par défaut — les enfants apprécient le feedback sonore
       adminPin: null,
       adminEmail: null,
@@ -119,6 +127,8 @@ export const useProfileStore = create<ProfileState>()(
         })),
 
       setMultiplayerUnlocked: (enabled) => set({ multiplayerUnlocked: enabled }),
+
+      setReportSchedule: (schedule) => set({ reportSchedule: schedule }),
 
       completeDailyChallenge: (score, total) => {
         const state = get();

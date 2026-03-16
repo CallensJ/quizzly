@@ -197,7 +197,21 @@
     "multiplayerTitle": "Challenge mode",
     "multiplayerDesc": "Allows the child to create and join challenges with friends.",
     "multiplayerEnabled": "Challenge mode enabled",
-    "multiplayerDisabled": "Challenge mode disabled"
+    "multiplayerDisabled": "Challenge mode disabled",
+    "reportTitle": "Progress report",
+    "reportDesc": "Download or send a PDF report of your child's progress.",
+    "reportDownload": "Download PDF",
+    "reportDownloaded": "PDF downloaded!",
+    "reportSend": "Send by email",
+    "reportSent": "Email sent!",
+    "reportError": "Error — please retry",
+    "reportNoEmail": "Set up a contact email to enable automatic sending.",
+    "reportScheduleLabel": "Automatic sending",
+    "reportScheduleNone": "Disabled",
+    "reportScheduleWeekly": "Weekly",
+    "reportScheduleMonthly": "Monthly",
+    "reportScheduleSaved": "Saved!",
+    "reportScheduleHint": "The report will be sent automatically to {email}."
   },
   "auth": {
     "title": "Parent Space",
