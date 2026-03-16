@@ -10,6 +10,19 @@ import {
 } from '@/lib/daily';
 import type { ReportSchedule } from '@/lib/report';
 
+// Fallback pour les navigateurs mobiles qui n'implémentent pas crypto.randomUUID()
+// (certains Android WebView, iOS Safari < 15.4)
+function generateUUID(): string {
+  if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+    return crypto.randomUUID();
+  }
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
+    const r = Math.random() * 16 | 0;
+    const v = c === 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
+}
+
 // Résultat retourné par completeDailyChallenge — utilisé par ResultsScreen pour l'affichage
 export interface DailyResult {
   xpGained: number;
@@ -106,8 +119,8 @@ export const useProfileStore = create<ProfileState>()(
 
       createProfile: (data) =>
         set({
-          // Génère un deviceId unique à la création du profil (UUID v4 natif)
-          deviceId: crypto.randomUUID(),
+          // Génère un deviceId unique à la création du profil (UUID v4, avec fallback mobile)
+          deviceId: generateUUID(),
           profile: {
             ...data,
             createdAt: new Date().toISOString(),
