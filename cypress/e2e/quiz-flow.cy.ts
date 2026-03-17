@@ -43,8 +43,10 @@ describe('Flux Home → Quiz → Results', () => {
     // Lancer le quiz
     cy.get('[data-testid="play-btn"]').click();
 
-    // On doit être sur /quiz
+    // Attendre la navigation ET que la première question soit visible
+    // Le timeout de 15s couvre le chargement du bundle en CI (prod build)
     cy.url().should('include', '/quiz');
+    cy.get('[data-testid="answer-A"]', { timeout: 15000 }).should('be.visible');
 
     // Répondre à toutes les questions
     cy.answerAllQuestions();
@@ -68,6 +70,7 @@ describe('Flux Home → Quiz → Results', () => {
     cy.get('[data-testid="play-btn"]').click();
 
     cy.url().should('include', '/quiz');
+    cy.get('[data-testid="answer-A"]', { timeout: 15000 }).should('be.visible');
     cy.answerAllQuestions();
     cy.url().should('include', '/results');
 
@@ -81,6 +84,8 @@ describe('Flux Home → Quiz → Results', () => {
     cy.get('[data-testid="diff-easy"]').click();
     cy.get('[data-testid="play-btn"]').click();
 
+    cy.url().should('include', '/quiz');
+    cy.get('[data-testid="answer-A"]', { timeout: 15000 }).should('be.visible');
     cy.answerAllQuestions();
     cy.url().should('include', '/results');
 
@@ -93,11 +98,12 @@ describe('Flux Home → Quiz → Results', () => {
   });
 
   it('bouton Rejouer relance le quiz avec la même catégorie et difficulté', () => {
-    // diff-easy : fr/sciences n'a que des questions easy (pas de medium/hard)
     cy.get('[data-testid="cat-sciences"]').click();
     cy.get('[data-testid="diff-easy"]').click();
     cy.get('[data-testid="play-btn"]').click();
 
+    cy.url().should('include', '/quiz');
+    cy.get('[data-testid="answer-A"]', { timeout: 15000 }).should('be.visible');
     cy.answerAllQuestions();
     cy.url().should('include', '/results');
 
@@ -108,7 +114,7 @@ describe('Flux Home → Quiz → Results', () => {
     cy.url().should('include', '/quiz');
 
     // La première question doit être visible
-    cy.get('[data-testid="answer-A"]').should('be.visible');
+    cy.get('[data-testid="answer-A"]', { timeout: 15000 }).should('be.visible');
   });
 
 });

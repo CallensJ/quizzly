@@ -114,6 +114,8 @@ export default function HomeScreen() {
       // Récupère les questions — le pool de difficultés est adapté à la tranche d'âge du profil
       // (Option A : 6-9 ans → pool plus doux, 10-13 ans → pool plus exigeant, cf. questions.ts)
       const pool = await fetchQuestions(category!, locale as Locale, difficulty!);
+      // Sécurité : ne pas démarrer un quiz vide (ne devrait pas arriver si le cache est correct)
+      if (!pool.length) throw new Error('Pool vide — aucune question disponible pour cette difficulté');
       startQuiz(pool);
       router.push('/quiz');
     } catch {

@@ -128,8 +128,14 @@ export async function fetchQuestions(
   }
 
   // 1. Cache valide → retour immédiat (offline ou online)
+  // Note : si le cache existe mais ne contient aucune question pour la difficulté
+  // demandée (filterByPool retourne []), on laisse tomber vers Supabase pour
+  // ne pas démarrer un quiz avec 0 questions.
   const cached = getCache(category, locale);
-  if (cached) return filterByPool(cached);
+  if (cached) {
+    const filtered = filterByPool(cached);
+    if (filtered.length > 0) return filtered;
+  }
 
   // 2. Fetch Supabase — toutes les difficultés de ce (category, locale)
   //    On récupère tout pour ne faire qu'un seul appel réseau et tout mettre en cache
