@@ -96,7 +96,7 @@ interface ProfileState {
 
 export const useProfileStore = create<ProfileState>()(
   persist(
-    (set) => ({
+    (set, get) => ({
       profile: null,
       sessions: [],
       deviceId: null,
@@ -144,7 +144,7 @@ export const useProfileStore = create<ProfileState>()(
       setReportSchedule: (schedule) => set({ reportSchedule: schedule }),
 
       completeDailyChallenge: (score, total) => {
-        const state = useProfileStore.getState();
+        const state = get();
         const today = getDailyDateString();
         const last  = state.dailyLastDate;
 
