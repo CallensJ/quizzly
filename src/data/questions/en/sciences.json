@@ -1,906 +1,3602 @@
-{
-  "category": "sciences",
-  "lang": "en",
-  "questions": [
-    {
-      "id": "sci-en-easy-001",
-      "difficulty": "easy",
-      "question": "Which planet is closest to the Sun?",
-      "options": {
-        "A": "Venus",
-        "B": "Mars",
-        "C": "Mercury",
-        "D": "Earth"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "sci-en-easy-002",
-      "difficulty": "easy",
-      "question": "Which gas do we mainly breathe to live?",
-      "options": {
-        "A": "Oxygen",
-        "B": "Hydrogen",
-        "C": "Carbon",
-        "D": "Nitrogen"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-easy-003",
-      "difficulty": "easy",
-      "question": "How many legs does a spider have?",
-      "options": {
-        "A": "Six",
-        "B": "Eight",
-        "C": "Ten",
-        "D": "Four"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-easy-004",
-      "difficulty": "easy",
-      "question": "Which animal lays eggs?",
-      "options": {
-        "A": "Dog",
-        "B": "Cat",
-        "C": "Chicken",
-        "D": "Horse"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "sci-en-easy-005",
-      "difficulty": "easy",
-      "question": "Which part of the body allows us to see?",
-      "options": {
-        "A": "Ears",
-        "B": "Eyes",
-        "C": "Mouth",
-        "D": "Hands"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-easy-006",
-      "difficulty": "easy",
-      "question": "What is the state of water when it freezes?",
-      "options": {
-        "A": "Gas",
-        "B": "Liquid",
-        "C": "Solid",
-        "D": "Steam"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "sci-en-easy-007",
-      "difficulty": "easy",
-      "question": "Which star lights up the Earth during the day?",
-      "options": {
-        "A": "The Moon",
-        "B": "The Sun",
-        "C": "The stars",
-        "D": "Mars"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-easy-008",
-      "difficulty": "easy",
-      "question": "Which fruit grows on an apple tree?",
-      "options": {
-        "A": "Pear",
-        "B": "Orange",
-        "C": "Apple",
-        "D": "Banana"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "sci-en-easy-009",
-      "difficulty": "easy",
-      "question": "What is the largest land animal?",
-      "options": {
-        "A": "Elephant",
-        "B": "Giraffe",
-        "C": "Rhinoceros",
-        "D": "Hippopotamus"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-easy-010",
-      "difficulty": "easy",
-      "question": "What liquid do plants absorb through their roots?",
-      "options": {
-        "A": "Juice",
-        "B": "Water",
-        "C": "Oil",
-        "D": "Milk"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-easy-011",
-      "difficulty": "easy",
-      "question": "Which animal gives milk?",
-      "options": {
-        "A": "Cow",
-        "B": "Horse",
-        "C": "Dog",
-        "D": "Rabbit"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-easy-012",
-      "difficulty": "easy",
-      "question": "Which organ pumps blood in our body?",
-      "options": {
-        "A": "The brain",
-        "B": "The heart",
-        "C": "The lungs",
-        "D": "The stomach"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-easy-013",
-      "difficulty": "easy",
-      "question": "Which animal has a long trunk?",
-      "options": {
-        "A": "Giraffe",
-        "B": "Elephant",
-        "C": "Lion",
-        "D": "Zebra"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-easy-014",
-      "difficulty": "easy",
-      "question": "What is the state of water when it boils?",
-      "options": {
-        "A": "Solid",
-        "B": "Liquid",
-        "C": "Gas",
-        "D": "Ice"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "sci-en-easy-015",
-      "difficulty": "easy",
-      "question": "Which animal meows?",
-      "options": {
-        "A": "Dog",
-        "B": "Cat",
-        "C": "Bird",
-        "D": "Horse"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-easy-016",
-      "difficulty": "easy",
-      "question": "Which animal has a shell?",
-      "options": {
-        "A": "Snail",
-        "B": "Fish",
-        "C": "Dog",
-        "D": "Cat"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-easy-017",
-      "difficulty": "easy",
-      "question": "Which animal can fly?",
-      "options": {
-        "A": "Bird",
-        "B": "Dog",
-        "C": "Cat",
-        "D": "Rabbit"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-easy-018",
-      "difficulty": "easy",
-      "question": "Which animal lives in water and has fins?",
-      "options": {
-        "A": "Dog",
-        "B": "Cat",
-        "C": "Fish",
-        "D": "Horse"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "sci-en-easy-019",
-      "difficulty": "easy",
-      "question": "Which animal roars?",
-      "options": {
-        "A": "Lion",
-        "B": "Cat",
-        "C": "Dog",
-        "D": "Bird"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-easy-020",
-      "difficulty": "easy",
-      "question": "Which animal has a mane?",
-      "options": {
-        "A": "Lion",
-        "B": "Elephant",
-        "C": "Giraffe",
-        "D": "Zebra"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-easy-021",
-      "difficulty": "easy",
-      "question": "Which animal makes honey?",
-      "options": {
-        "A": "Bee",
-        "B": "Butterfly",
-        "C": "Fly",
-        "D": "Ant"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-easy-022",
-      "difficulty": "easy",
-      "question": "Which animal has a hump?",
-      "options": {
-        "A": "Camel",
-        "B": "Horse",
-        "C": "Cow",
-        "D": "Zebra"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-easy-023",
-      "difficulty": "easy",
-      "question": "Which animal barks?",
-      "options": {
-        "A": "Cat",
-        "B": "Dog",
-        "C": "Bird",
-        "D": "Rabbit"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-easy-024",
-      "difficulty": "easy",
-      "question": "Which animal lives in the savannah and has a long neck?",
-      "options": {
-        "A": "Giraffe",
-        "B": "Lion",
-        "C": "Elephant",
-        "D": "Zebra"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-easy-025",
-      "difficulty": "easy",
-      "question": "Which animal can swim and has fins?",
-      "options": {
-        "A": "Dog",
-        "B": "Cat",
-        "C": "Fish",
-        "D": "Rabbit"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "sci-en-medium-001",
-      "difficulty": "medium",
-      "question": "How many planets are in the solar system?",
-      "options": {
-        "A": "Seven",
-        "B": "Eight",
-        "C": "Nine",
-        "D": "Ten"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-002",
-      "difficulty": "medium",
-      "question": "Which organ controls the whole body?",
-      "options": {
-        "A": "The heart",
-        "B": "The brain",
-        "C": "The lungs",
-        "D": "The stomach"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-003",
-      "difficulty": "medium",
-      "question": "Which gas do plants release during photosynthesis?",
-      "options": {
-        "A": "Oxygen",
-        "B": "Carbon dioxide",
-        "C": "Nitrogen",
-        "D": "Hydrogen"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-medium-004",
-      "difficulty": "medium",
-      "question": "Which is the fastest land animal?",
-      "options": {
-        "A": "Lion",
-        "B": "Cheetah",
-        "C": "Horse",
-        "D": "Tiger"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-005",
-      "difficulty": "medium",
-      "question": "Which is the largest ocean in the world?",
-      "options": {
-        "A": "Atlantic",
-        "B": "Pacific",
-        "C": "Indian",
-        "D": "Arctic"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-006",
-      "difficulty": "medium",
-      "question": "Which metal is used to make soda cans?",
-      "options": {
-        "A": "Iron",
-        "B": "Aluminum",
-        "C": "Copper",
-        "D": "Zinc"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-007",
-      "difficulty": "medium",
-      "question": "Which is the largest marine animal?",
-      "options": {
-        "A": "Great white shark",
-        "B": "Blue whale",
-        "C": "Orca",
-        "D": "Dolphin"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-008",
-      "difficulty": "medium",
-      "question": "Which celestial body orbits the Earth?",
-      "options": {
-        "A": "The Sun",
-        "B": "The Moon",
-        "C": "Mars",
-        "D": "Venus"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-009",
-      "difficulty": "medium",
-      "question": "Which animal can change its color to camouflage?",
-      "options": {
-        "A": "Chameleon",
-        "B": "Zebra",
-        "C": "Lion",
-        "D": "Giraffe"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-medium-010",
-      "difficulty": "medium",
-      "question": "Which organ allows us to breathe?",
-      "options": {
-        "A": "The heart",
-        "B": "The lungs",
-        "C": "The liver",
-        "D": "The stomach"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-011",
-      "difficulty": "medium",
-      "question": "Which sea animal has tentacles?",
-      "options": {
-        "A": "Jellyfish",
-        "B": "Fish",
-        "C": "Crab",
-        "D": "Turtle"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-medium-012",
-      "difficulty": "medium",
-      "question": "Which is the smallest bone in the human body?",
-      "options": {
-        "A": "Femur",
-        "B": "Stapes",
-        "C": "Tibia",
-        "D": "Clavicle"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-013",
-      "difficulty": "medium",
-      "question": "Which animals live in polar regions and eat fish?",
-      "options": {
-        "A": "Penguin",
-        "B": "Polar bear",
-        "C": "Seal",
-        "D": "All three"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "sci-en-medium-014",
-      "difficulty": "medium",
-      "question": "Which star is at the center of the solar system?",
-      "options": {
-        "A": "Earth",
-        "B": "The Sun",
-        "C": "The Moon",
-        "D": "Mars"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-015",
-      "difficulty": "medium",
-      "question": "Which animal has a pouch for its babies?",
-      "options": {
-        "A": "Kangaroo",
-        "B": "Lion",
-        "C": "Giraffe",
-        "D": "Dog"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-medium-016",
-      "difficulty": "medium",
-      "question": "Which is the largest desert in the world?",
-      "options": {
-        "A": "Sahara",
-        "B": "Gobi",
-        "C": "Kalahari",
-        "D": "Atacama"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-medium-017",
-      "difficulty": "medium",
-      "question": "Which animal has feathers and lays eggs?",
-      "options": {
-        "A": "Bird",
-        "B": "Dog",
-        "C": "Cat",
-        "D": "Rabbit"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-medium-018",
-      "difficulty": "medium",
-      "question": "Which sea animal has a shell?",
-      "options": {
-        "A": "Snail",
-        "B": "Oyster",
-        "C": "Crab",
-        "D": "Jellyfish"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-019",
-      "difficulty": "medium",
-      "question": "Which animal flies at night and uses echolocation?",
-      "options": {
-        "A": "Bat",
-        "B": "Bird",
-        "C": "Butterfly",
-        "D": "Fly"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-medium-020",
-      "difficulty": "medium",
-      "question": "Which sea animal has eight arms?",
-      "options": {
-        "A": "Crab",
-        "B": "Octopus",
-        "C": "Jellyfish",
-        "D": "Fish"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-medium-021",
-      "difficulty": "medium",
-      "question": "Which animal can live without water for a long time?",
-      "options": {
-        "A": "Camel",
-        "B": "Horse",
-        "C": "Cow",
-        "D": "Zebra"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-medium-022",
-      "difficulty": "medium",
-      "question": "Which animal has a hard shell?",
-      "options": {
-        "A": "Turtle",
-        "B": "Fish",
-        "C": "Dog",
-        "D": "Cat"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-medium-023",
-      "difficulty": "medium",
-      "question": "Which animal can live both on land and in water?",
-      "options": {
-        "A": "Frog",
-        "B": "Dog",
-        "C": "Cat",
-        "D": "Bird"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-medium-024",
-      "difficulty": "medium",
-      "question": "Which animal has a trunk and big ears?",
-      "options": {
-        "A": "Elephant",
-        "B": "Giraffe",
-        "C": "Lion",
-        "D": "Zebra"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-medium-025",
-      "difficulty": "medium",
-      "question": "Which animal lives in the ocean and breathes through gills?",
-      "options": {
-        "A": "Dog",
-        "B": "Cat",
-        "C": "Fish",
-        "D": "Rabbit"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "sci-en-hard-001",
-      "difficulty": "hard",
-      "question": "Which chemical element has the symbol Fe?",
-      "options": {
-        "A": "Iron",
-        "B": "Fluorine",
-        "C": "Francium",
-        "D": "Fermium"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-hard-002",
-      "difficulty": "hard",
-      "question": "What is the largest organ in the human body?",
-      "options": {
-        "A": "The liver",
-        "B": "The skin",
-        "C": "The heart",
-        "D": "The lungs"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-003",
-      "difficulty": "hard",
-      "question": "Which celestial body is closest to Earth after the Moon?",
-      "options": {
-        "A": "Mars",
-        "B": "Venus",
-        "C": "The Sun",
-        "D": "Jupiter"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-004",
-      "difficulty": "hard",
-      "question": "Which gas is most abundant in Earth's atmosphere?",
-      "options": {
-        "A": "Oxygen",
-        "B": "Nitrogen",
-        "C": "Carbon dioxide",
-        "D": "Hydrogen"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-005",
-      "difficulty": "hard",
-      "question": "Which scientist discovered the law of universal gravitation?",
-      "options": {
-        "A": "Galileo",
-        "B": "Newton",
-        "C": "Einstein",
-        "D": "Copernicus"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-006",
-      "difficulty": "hard",
-      "question": "Which organ produces insulin?",
-      "options": {
-        "A": "The liver",
-        "B": "The pancreas",
-        "C": "The kidneys",
-        "D": "The stomach"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-007",
-      "difficulty": "hard",
-      "question": "Which ocean animal is considered the most intelligent?",
-      "options": {
-        "A": "Dolphin",
-        "B": "Octopus",
-        "C": "Orca",
-        "D": "Seal"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-hard-008",
-      "difficulty": "hard",
-      "question": "What is the scientific name for water?",
-      "options": {
-        "A": "H2O",
-        "B": "CO2",
-        "C": "NaCl",
-        "D": "O2"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-hard-009",
-      "difficulty": "hard",
-      "question": "Which is the longest bone in the human body?",
-      "options": {
-        "A": "Femur",
-        "B": "Tibia",
-        "C": "Humerus",
-        "D": "Clavicle"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-hard-010",
-      "difficulty": "hard",
-      "question": "Which animal can regenerate its limbs?",
-      "options": {
-        "A": "Starfish",
-        "B": "Frog",
-        "C": "Dog",
-        "D": "Cat"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-hard-011",
-      "difficulty": "hard",
-      "question": "What is the name of the galaxy where Earth is located?",
-      "options": {
-        "A": "Andromeda",
-        "B": "Milky Way",
-        "C": "Sagittarius",
-        "D": "Orion"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-012",
-      "difficulty": "hard",
-      "question": "Which animal has three hearts?",
-      "options": {
-        "A": "Octopus",
-        "B": "Dolphin",
-        "C": "Shark",
-        "D": "Turtle"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-hard-013",
-      "difficulty": "hard",
-      "question": "What is the name of Earth's natural satellite?",
-      "options": {
-        "A": "Mars",
-        "B": "The Moon",
-        "C": "Io",
-        "D": "Titan"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-014",
-      "difficulty": "hard",
-      "question": "Which is the smallest planet in the solar system?",
-      "options": {
-        "A": "Mars",
-        "B": "Mercury",
-        "C": "Pluto",
-        "D": "Venus"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-015",
-      "difficulty": "hard",
-      "question": "What is the process by which plants make their food?",
-      "options": {
-        "A": "Respiration",
-        "B": "Photosynthesis",
-        "C": "Digestion",
-        "D": "Fermentation"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-016",
-      "difficulty": "hard",
-      "question": "Which animal can live without its head for several days?",
-      "options": {
-        "A": "Cockroach",
-        "B": "Frog",
-        "C": "Fish",
-        "D": "Snail"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-hard-017",
-      "difficulty": "hard",
-      "question": "What is the name of the air layer that protects Earth from the Sun's rays?",
-      "options": {
-        "A": "Troposphere",
-        "B": "Ozone",
-        "C": "Stratosphere",
-        "D": "Atmosphere"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-018",
-      "difficulty": "hard",
-      "question": "What is the name of the closest star to Earth after the Sun?",
-      "options": {
-        "A": "Sirius",
-        "B": "Proxima Centauri",
-        "C": "Polaris",
-        "D": "Vega"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-019",
-      "difficulty": "hard",
-      "question": "Which animal can produce electricity?",
-      "options": {
-        "A": "Electric eel",
-        "B": "Shark",
-        "C": "Dolphin",
-        "D": "Jellyfish"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-hard-020",
-      "difficulty": "hard",
-      "question": "Which is the largest active volcano in the world?",
-      "options": {
-        "A": "Etna",
-        "B": "Mauna Loa",
-        "C": "Krakatoa",
-        "D": "Vesuvius"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-021",
-      "difficulty": "hard",
-      "question": "Which planet is known for its rings?",
-      "options": {
-        "A": "Jupiter",
-        "B": "Saturn",
-        "C": "Uranus",
-        "D": "Neptune"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-022",
-      "difficulty": "hard",
-      "question": "Which organism can live in hot springs?",
-      "options": {
-        "A": "Thermophilic bacteria",
-        "B": "Frog",
-        "C": "Fish",
-        "D": "Snail"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-hard-023",
-      "difficulty": "hard",
-      "question": "Which animal can survive in space for some time?",
-      "options": {
-        "A": "Tardigrade",
-        "B": "Ant",
-        "C": "Frog",
-        "D": "Snail"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-en-hard-024",
-      "difficulty": "hard",
-      "question": "Which is the largest planet in the solar system?",
-      "options": {
-        "A": "Saturn",
-        "B": "Jupiter",
-        "C": "Neptune",
-        "D": "Uranus"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-en-hard-025",
-      "difficulty": "hard",
-      "question": "What is the phenomenon that creates a multicolored arc in the sky after rain?",
-      "options": {
-        "A": "Eclipse",
-        "B": "Rainbow",
-        "C": "Storm",
-        "D": "Aurora Borealis"
-      },
-      "answer": "B"
-    }
-  ]
-}
+[
+  {
+    "id": "sci-fr-easy-001",
+    "difficulty": "easy",
+    "question": "Which sense do we use to smell a perfume?",
+    "options": {
+      "A": "Hearing",
+      "B": "Touch",
+      "C": "Sight",
+      "D": "Smell"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-002",
+    "difficulty": "easy",
+    "question": "Which sense do we use to listen to music?",
+    "options": {
+      "A": "Hearing",
+      "B": "Taste",
+      "C": "Smell",
+      "D": "Sight"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-003",
+    "difficulty": "easy",
+    "question": "Which sense do we use to read a book?",
+    "options": {
+      "A": "Sight",
+      "B": "Smell",
+      "C": "Hearing",
+      "D": "Touch"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-004",
+    "difficulty": "easy",
+    "question": "Which sense do we use to touch a surface?",
+    "options": {
+      "A": "Taste",
+      "B": "Hearing",
+      "C": "Touch",
+      "D": "Sight"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-005",
+    "difficulty": "easy",
+    "question": "Which part of the body is mainly used to see?",
+    "options": {
+      "A": "Hands",
+      "B": "The genoux",
+      "C": "Ears",
+      "D": "Eyes"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-006",
+    "difficulty": "easy",
+    "question": "Which part of the body is mainly used to hear?",
+    "options": {
+      "A": "The pieds",
+      "B": "Teeth",
+      "C": "Ears",
+      "D": "Windre"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-007",
+    "difficulty": "easy",
+    "question": "Which organ beats to circulate blood?",
+    "options": {
+      "A": "The nez",
+      "B": "Brain",
+      "C": "Heart",
+      "D": "The liver"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-008",
+    "difficulty": "easy",
+    "question": "Which organ helps us breathe?",
+    "options": {
+      "A": "Lungs",
+      "B": "The cheveux",
+      "C": "Kidneys",
+      "D": "The os"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-009",
+    "difficulty": "easy",
+    "question": "Which habit helps keep teeth clean?",
+    "options": {
+      "A": "The peindre",
+      "B": "The brosser",
+      "C": "The plier",
+      "D": "The compter"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-010",
+    "difficulty": "easy",
+    "question": "Which habit helps maintain good hygiene before eating?",
+    "options": {
+      "A": "Open the window",
+      "B": "Jump in place",
+      "C": "Wash hands",
+      "D": "Close your eyes"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-011",
+    "difficulty": "easy",
+    "question": "Which one is a living thing?",
+    "options": {
+      "A": "A balle",
+      "B": "A plant",
+      "C": "A chair",
+      "D": "A stone"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-012",
+    "difficulty": "easy",
+    "question": "Which one is an animal?",
+    "options": {
+      "A": "The notebook",
+      "B": "The table",
+      "C": "Cat",
+      "D": "The lamp"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-013",
+    "difficulty": "easy",
+    "question": "Which one is a plant?",
+    "options": {
+      "A": "Tree",
+      "B": "Rug",
+      "C": "Bicycle",
+      "D": "Spoon"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-014",
+    "difficulty": "easy",
+    "question": "Which animal often lives in water?",
+    "options": {
+      "A": "The voiture",
+      "B": "Hammer",
+      "C": "The book",
+      "D": "Fish"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-015",
+    "difficulty": "easy",
+    "question": "Which animal is often a pet?",
+    "options": {
+      "A": "The serpent",
+      "B": "The lion",
+      "C": "The requin",
+      "D": "The chien"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-016",
+    "difficulty": "easy",
+    "question": "Which living thing can fly?",
+    "options": {
+      "A": "Oiseau",
+      "B": "The bouteille",
+      "C": "The rocher",
+      "D": "The thermometer"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-017",
+    "difficulty": "easy",
+    "question": "What is a plant's need?",
+    "options": {
+      "A": "Light",
+      "B": "noise",
+      "C": "Metal",
+      "D": "peinture"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-018",
+    "difficulty": "easy",
+    "question": "What does a seed do when it begins to grow?",
+    "options": {
+      "A": "It rougit",
+      "B": "It met to chanter",
+      "C": "It fond",
+      "D": "It germe"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-019",
+    "difficulty": "easy",
+    "question": "Which word describes something that is not living?",
+    "options": {
+      "A": "A flower",
+      "B": "A chat",
+      "C": "A stone",
+      "D": "A tree"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-020",
+    "difficulty": "easy",
+    "question": "Which living thing makes honey?",
+    "options": {
+      "A": "Hedgehog",
+      "B": "Bee",
+      "C": "Fox",
+      "D": "Frog"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-021",
+    "difficulty": "easy",
+    "question": "In what state is ice?",
+    "options": {
+      "A": "Liquid",
+      "B": "Gas",
+      "C": "Solid",
+      "D": "Vapor"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-022",
+    "difficulty": "easy",
+    "question": "In what state is the water in a glass?",
+    "options": {
+      "A": "Liquid",
+      "B": "Solid",
+      "C": "Wood",
+      "D": "Metal"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-023",
+    "difficulty": "easy",
+    "question": "When water gets very hot, it can become...",
+    "options": {
+      "A": "Vapor",
+      "B": "Sand",
+      "C": "Sugar",
+      "D": "Paper"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-024",
+    "difficulty": "easy",
+    "question": "When water freezes, it becomes...",
+    "options": {
+      "A": "Ice",
+      "B": "jus",
+      "C": "salt",
+      "D": "Wind"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-025",
+    "difficulty": "easy",
+    "question": "Which word names water that falls from the sky?",
+    "options": {
+      "A": "The smoke",
+      "B": "Rain",
+      "C": "The rust",
+      "D": "The dust"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-026",
+    "difficulty": "easy",
+    "question": "Which action often melts ice?",
+    "options": {
+      "A": "Cut",
+      "B": "Chauffer",
+      "C": "Colorier",
+      "D": "Hide"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-027",
+    "difficulty": "easy",
+    "question": "Which liquid drinks-we generally?",
+    "options": {
+      "A": "Oil",
+      "B": "Encre",
+      "C": "The colle",
+      "D": "Water"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-028",
+    "difficulty": "easy",
+    "question": "Which matter is often transparent?",
+    "options": {
+      "A": "Stone",
+      "B": "Glass",
+      "C": "Wood",
+      "D": "Fabric"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-029",
+    "difficulty": "easy",
+    "question": "Which word describes the passage from water to vapor?",
+    "options": {
+      "A": "Evaporation",
+      "B": "Solidification",
+      "C": "Repair",
+      "D": "Decoration"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-030",
+    "difficulty": "easy",
+    "question": "Which word describes the passage from vapor to liquid water?",
+    "options": {
+      "A": "Condensation",
+      "B": "Dissolution",
+      "C": "Filtration",
+      "D": "Rotation"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-031",
+    "difficulty": "easy",
+    "question": "Which season comes often after winter?",
+    "options": {
+      "A": "Summer",
+      "B": "The spring",
+      "C": "Autumn",
+      "D": "The night"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-032",
+    "difficulty": "easy",
+    "question": "Which season is often the hottest?",
+    "options": {
+      "A": "Summer",
+      "B": "The fog",
+      "C": "Winter",
+      "D": "The morning"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-033",
+    "difficulty": "easy",
+    "question": "Which celestial body us lights the day?",
+    "options": {
+      "A": "Jupiter",
+      "B": "Mars",
+      "C": "The Moon",
+      "D": "The Sun"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-034",
+    "difficulty": "easy",
+    "question": "What do we often see in the night sky?",
+    "options": {
+      "A": "A chair",
+      "B": "A key",
+      "C": "The Moon",
+      "D": "A pen"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-035",
+    "difficulty": "easy",
+    "question": "What is the name of our planet?",
+    "options": {
+      "A": "The Sun",
+      "B": "The Moon",
+      "C": "The Earth",
+      "D": "Saturn"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-036",
+    "difficulty": "easy",
+    "question": "Which object helps to see the shape of the earth?",
+    "options": {
+      "A": "A plume",
+      "B": "A globe",
+      "C": "An eraser",
+      "D": "A spoon"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-037",
+    "difficulty": "easy",
+    "question": "Which phenomenon brings parfois water to the plantes?",
+    "options": {
+      "A": "Rain",
+      "B": "The craie",
+      "C": "Sand",
+      "D": "The silence"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-038",
+    "difficulty": "easy",
+    "question": "What ressent-we often in winter?",
+    "options": {
+      "A": "Taste",
+      "B": "The cold",
+      "C": "The light bleue",
+      "D": "The chaleur intense"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-039",
+    "difficulty": "easy",
+    "question": "Which word describes a sky with lots of clouds?",
+    "options": {
+      "A": "Silky",
+      "B": "Square",
+      "C": "Sharp",
+      "D": "Cloudy"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-040",
+    "difficulty": "easy",
+    "question": "What happens when the sun sets?",
+    "options": {
+      "A": "The Earth disappears",
+      "B": "Trees walk",
+      "C": "The wind always stops",
+      "D": "Night begins"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-041",
+    "difficulty": "easy",
+    "question": "Which object is used to write?",
+    "options": {
+      "A": "A scarf",
+      "B": "A pebble",
+      "C": "A pen",
+      "D": "A plate"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-042",
+    "difficulty": "easy",
+    "question": "Which object is used to measure a length?",
+    "options": {
+      "A": "A ruler",
+      "B": "A tasse",
+      "C": "A coussin",
+      "D": "A chaussure"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-043",
+    "difficulty": "easy",
+    "question": "Which object is used to tell time?",
+    "options": {
+      "A": "A rideau",
+      "B": "A tournevis",
+      "C": "A shows",
+      "D": "A balai"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-044",
+    "difficulty": "easy",
+    "question": "Which object lights a room?",
+    "options": {
+      "A": "A fork",
+      "B": "A lamp",
+      "C": "A napkin",
+      "D": "A box"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-045",
+    "difficulty": "easy",
+    "question": "Which object is used to cut paper?",
+    "options": {
+      "A": "A spoon",
+      "B": "Some scissors",
+      "C": "A glass",
+      "D": "A peigne"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-046",
+    "difficulty": "easy",
+    "question": "In a simple circuit, what does the battery provide?",
+    "options": {
+      "A": "Wind",
+      "B": "Flour",
+      "C": "Electrical energy",
+      "D": "perfume"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-047",
+    "difficulty": "easy",
+    "question": "Which component can light up in a simple circuit?",
+    "options": {
+      "A": "A chair",
+      "B": "A ball",
+      "C": "A bulb",
+      "D": "A rocher"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-048",
+    "difficulty": "easy",
+    "question": "Which object helps you see closer?",
+    "options": {
+      "A": "A brosse",
+      "B": "A magnifying glass",
+      "C": "A marteau",
+      "D": "A glass vide"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-049",
+    "difficulty": "easy",
+    "question": "Which object often transports people?",
+    "options": {
+      "A": "A board",
+      "B": "A bicycle",
+      "C": "A cloche",
+      "D": "A coussin"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-050",
+    "difficulty": "easy",
+    "question": "Which tool is often used to take temperature?",
+    "options": {
+      "A": "A compass",
+      "B": "A cup",
+      "C": "A ruler",
+      "D": "A thermometer"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-051",
+    "difficulty": "easy",
+    "question": "Which food is a fruit?",
+    "options": {
+      "A": "The fromage",
+      "B": "The riz",
+      "C": "Salt",
+      "D": "The pomme"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-052",
+    "difficulty": "easy",
+    "question": "Which food comes from cereals?",
+    "options": {
+      "A": "Stone",
+      "B": "The chaise",
+      "C": "The plume",
+      "D": "The pain"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-053",
+    "difficulty": "easy",
+    "question": "Which food is rich in protein?",
+    "options": {
+      "A": "Egg",
+      "B": "Sugar",
+      "C": "Pepper",
+      "D": "Water"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-054",
+    "difficulty": "easy",
+    "question": "What must-it drink regularly?",
+    "options": {
+      "A": "glass",
+      "B": "Water",
+      "C": "Sand",
+      "D": "Chalk"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-055",
+    "difficulty": "easy",
+    "question": "Which meal do we often eat in the morning?",
+    "options": {
+      "A": "Tasteer of night",
+      "B": "The breakfast",
+      "C": "The dinner",
+      "D": "The meal of the future"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-056",
+    "difficulty": "easy",
+    "question": "Which habit helps the body stay fit?",
+    "options": {
+      "A": "Eat paper",
+      "B": "Bouger",
+      "C": "Stay immobile toute the life",
+      "D": "Ne jamais breathe"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-057",
+    "difficulty": "easy",
+    "question": "Which organ uses the air we breathe?",
+    "options": {
+      "A": "Lungs",
+      "B": "The ongles",
+      "C": "The genou",
+      "D": "Brain only"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-058",
+    "difficulty": "easy",
+    "question": "Which food is often sweet?",
+    "options": {
+      "A": "The pebble",
+      "B": "The cake",
+      "C": "Wood",
+      "D": "Metal"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-059",
+    "difficulty": "easy",
+    "question": "What is a sign of fatigue?",
+    "options": {
+      "A": "Asee cold to the Sun",
+      "B": "Asee some ailes",
+      "C": "Asee of the peinture",
+      "D": "Asee sommeil"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-060",
+    "difficulty": "easy",
+    "question": "Which object helps protect from the cold?",
+    "options": {
+      "A": "A fork",
+      "B": "A notebook",
+      "C": "A ruler",
+      "D": "A manteau"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-061",
+    "difficulty": "easy",
+    "question": "When we look at something carefully, we...",
+    "options": {
+      "A": "Invent",
+      "B": "Break",
+      "C": "Cuts",
+      "D": "Observe"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-062",
+    "difficulty": "easy",
+    "question": "Before doing an experiment, we often must...",
+    "options": {
+      "A": "Sleep",
+      "B": "Predict",
+      "C": "Put the moon away",
+      "D": "Forget"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-063",
+    "difficulty": "easy",
+    "question": "Which tool is used to measure temperature?",
+    "options": {
+      "A": "A magnifying glass",
+      "B": "A thermometer",
+      "C": "A key",
+      "D": "A boulier"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-064",
+    "difficulty": "easy",
+    "question": "Which tool can help you see a small object?",
+    "options": {
+      "A": "A glass vide",
+      "B": "A magnifying glass",
+      "C": "A brosse",
+      "D": "A marteau"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-065",
+    "difficulty": "easy",
+    "question": "Which notebook is used to write down observations?",
+    "options": {
+      "A": "A chair",
+      "B": "A parapluie",
+      "C": "A notebook",
+      "D": "A oreiller"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-066",
+    "difficulty": "easy",
+    "question": "Why do we compare two objects?",
+    "options": {
+      "A": "To spot some differences",
+      "B": "To make them invisible",
+      "C": "To the do disappear",
+      "D": "To changer the sun"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-067",
+    "difficulty": "easy",
+    "question": "Which sense helps to observe a color?",
+    "options": {
+      "A": "Taste",
+      "B": "Hearing",
+      "C": "Sight",
+      "D": "Smell"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-068",
+    "difficulty": "easy",
+    "question": "Which sentence best describes an experiment?",
+    "options": {
+      "A": "We draw a tree only",
+      "B": "We sleep during a time",
+      "C": "We test something",
+      "D": "We forget the result"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-069",
+    "difficulty": "easy",
+    "question": "Which object is used to a liquid precisely?",
+    "options": {
+      "A": "A graduated cup",
+      "B": "A chair",
+      "C": "A ball",
+      "D": "A dictionnaire"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-070",
+    "difficulty": "easy",
+    "question": "Which word names what we see during an experiment?",
+    "options": {
+      "A": "An observation",
+      "B": "A secret",
+      "C": "A cloud",
+      "D": "A noise"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-071",
+    "difficulty": "easy",
+    "question": "Which animal often sings at dawn?",
+    "options": {
+      "A": "The lapin",
+      "B": "Fish",
+      "C": "The coq",
+      "D": "The tortue"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-072",
+    "difficulty": "easy",
+    "question": "Which animal a a shell?",
+    "options": {
+      "A": "The moineau",
+      "B": "The tortue",
+      "C": "The dauphin",
+      "D": "Cat"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-073",
+    "difficulty": "easy",
+    "question": "Which environment is salty?",
+    "options": {
+      "A": "The chambre",
+      "B": "School",
+      "C": "The sea",
+      "D": "Mountain"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-074",
+    "difficulty": "easy",
+    "question": "Which object can show the direction of north?",
+    "options": {
+      "A": "The chaussette",
+      "B": "The ruler",
+      "C": "The compass",
+      "D": "The eraser"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-075",
+    "difficulty": "easy",
+    "question": "Which material often comes from wood?",
+    "options": {
+      "A": "Paper",
+      "B": "Metal",
+      "C": "Glass",
+      "D": "Plastic"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-076",
+    "difficulty": "easy",
+    "question": "Which part of a plant often carries the seeds?",
+    "options": {
+      "A": "The ruler",
+      "B": "The fruit",
+      "C": "The battery",
+      "D": "Stone"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-077",
+    "difficulty": "easy",
+    "question": "Which word names very cold solid water?",
+    "options": {
+      "A": "The fog",
+      "B": "The chaleur",
+      "C": "The vapor",
+      "D": "The ice"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-078",
+    "difficulty": "easy",
+    "question": "Which object often uses a wheel?",
+    "options": {
+      "A": "A spoon",
+      "B": "A voiture",
+      "C": "A trombone",
+      "D": "A book"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-079",
+    "difficulty": "easy",
+    "question": "What is a loud noise?",
+    "options": {
+      "A": "A plume",
+      "B": "A leaf",
+      "C": "A murmure",
+      "D": "The thunder"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-080",
+    "difficulty": "easy",
+    "question": "Which device allows you to listen to sound?",
+    "options": {
+      "A": "A speaker",
+      "B": "A pencil",
+      "C": "A stone",
+      "D": "A window"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-081",
+    "difficulty": "easy",
+    "question": "Which material is often hard and shiny?",
+    "options": {
+      "A": "Cotton",
+      "B": "Metal",
+      "C": "Foam",
+      "D": "Paper"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-082",
+    "difficulty": "easy",
+    "question": "Which material is flexible?",
+    "options": {
+      "A": "Glass",
+      "B": "Wood massif",
+      "C": "Stone",
+      "D": "Rubber"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-083",
+    "difficulty": "easy",
+    "question": "Which material is often light?",
+    "options": {
+      "A": "Granite",
+      "B": "Iron",
+      "C": "Plastic",
+      "D": "Concrete"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-084",
+    "difficulty": "easy",
+    "question": "Which material comes from a tree?",
+    "options": {
+      "A": "Salt",
+      "B": "Glass",
+      "C": "Sand",
+      "D": "Wood"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-085",
+    "difficulty": "easy",
+    "question": "Which material is fragile?",
+    "options": {
+      "A": "Cardboard thick",
+      "B": "Rubber",
+      "C": "Leather",
+      "D": "Glass"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-086",
+    "difficulty": "easy",
+    "question": "Which material often absorbs water?",
+    "options": {
+      "A": "Metal",
+      "B": "Fabric",
+      "C": "Plastic hard",
+      "D": "Stone"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-087",
+    "difficulty": "easy",
+    "question": "Which material is generally opaque?",
+    "options": {
+      "A": "Air",
+      "B": "Wood",
+      "C": "Glass",
+      "D": "Water claire"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-088",
+    "difficulty": "easy",
+    "question": "Which material is transparent?",
+    "options": {
+      "A": "Metal",
+      "B": "Glass",
+      "C": "Wood",
+      "D": "The brique"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-089",
+    "difficulty": "easy",
+    "question": "Which material can be easily recycled?",
+    "options": {
+      "A": "Argile cuite",
+      "B": "Sand",
+      "C": "The rock",
+      "D": "Paper"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-090",
+    "difficulty": "easy",
+    "question": "Which material is used to make bottles?",
+    "options": {
+      "A": "The craie",
+      "B": "Cotton",
+      "C": "Plastic",
+      "D": "Cardboard of laine"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-091",
+    "difficulty": "easy",
+    "question": "Which word describes a cloudless sky?",
+    "options": {
+      "A": "Sandy",
+      "B": "Square",
+      "C": "Sticky",
+      "D": "Clear"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-092",
+    "difficulty": "easy",
+    "question": "Which phenomenon is often associated with thunder?",
+    "options": {
+      "A": "Melted snow",
+      "B": "The fog",
+      "C": "Storm",
+      "D": "The heatwave"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-easy-093",
+    "difficulty": "easy",
+    "question": "Which weather symbol often indicates wind?",
+    "options": {
+      "A": "An arrow",
+      "B": "A plate",
+      "C": "A fork",
+      "D": "A pen"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-094",
+    "difficulty": "easy",
+    "question": "What does weather often measure?",
+    "options": {
+      "A": "The color of stones",
+      "B": "The size of shoes",
+      "C": "Taste of the pain",
+      "D": "State of the temps"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-095",
+    "difficulty": "easy",
+    "question": "Which object helps tell the outside temperature?",
+    "options": {
+      "A": "A thermometer",
+      "B": "A ruler",
+      "C": "A sifflet",
+      "D": "A lamp"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-096",
+    "difficulty": "easy",
+    "question": "Which phenomenon can make the ground wet after the night?",
+    "options": {
+      "A": "The fog sec",
+      "B": "The dew",
+      "C": "Metal fondu",
+      "D": "Sand hot"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-easy-097",
+    "difficulty": "easy",
+    "question": "Which word describes a very hot period?",
+    "options": {
+      "A": "A heatwave",
+      "B": "A girafe",
+      "C": "A root",
+      "D": "A cloud"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-098",
+    "difficulty": "easy",
+    "question": "Which word describes a very cold period with snow?",
+    "options": {
+      "A": "A vague of cold",
+      "B": "A vague of light",
+      "C": "A vague of noise",
+      "D": "A vague of salt"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-easy-099",
+    "difficulty": "easy",
+    "question": "Which instrument often measures rain?",
+    "options": {
+      "A": "A mirror",
+      "B": "A scale",
+      "C": "A compass",
+      "D": "A rain gauge"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-easy-100",
+    "difficulty": "easy",
+    "question": "Which phenomenon sometimes forms near the sea?",
+    "options": {
+      "A": "The Sun",
+      "B": "Stone",
+      "C": "Salt",
+      "D": "The fog"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-001",
+    "difficulty": "medium",
+    "question": "What is the correct order of a butterfly's life cycle?",
+    "options": {
+      "A": "Butterfly, egg, chrysalis, caterpillar",
+      "B": "Egg, caterpillar, chrysalis, butterfly",
+      "C": "Caterpillar, egg, butterfly, chrysalis",
+      "D": "Egg, butterfly, caterpillar, chrysalis"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-002",
+    "difficulty": "medium",
+    "question": "What is the correct order of a plant's life cycle?",
+    "options": {
+      "A": "Seed, germination, growth, flowering",
+      "B": "Croissance, floraison, seed, germination",
+      "C": "Flowering, growth, seed, germination",
+      "D": "Germination, seed, flowering, growth"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-003",
+    "difficulty": "medium",
+    "question": "When an animal grows, we say it...",
+    "options": {
+      "A": "Cools",
+      "B": "Draws",
+      "C": "Takes off",
+      "D": "Develops"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-004",
+    "difficulty": "medium",
+    "question": "Which need is common to all living things?",
+    "options": {
+      "A": "Teindre",
+      "B": "Nourrir",
+      "C": "Rouler",
+      "D": "Habiller"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-005",
+    "difficulty": "medium",
+    "question": "Which phenomenon shows that a seed begins to live?",
+    "options": {
+      "A": "The cuisson",
+      "B": "The peinture",
+      "C": "The rust",
+      "D": "The germination"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-006",
+    "difficulty": "medium",
+    "question": "What is the main role of roots?",
+    "options": {
+      "A": "Make honey",
+      "B": "Produire of the noise",
+      "C": "Melt snow",
+      "D": "Absorber water of the ground"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-007",
+    "difficulty": "medium",
+    "question": "What does a green plant produce thanks to light?",
+    "options": {
+      "A": "Sa clean food",
+      "B": "Some os",
+      "C": "salt",
+      "D": "Metal"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-008",
+    "difficulty": "medium",
+    "question": "What does a caterpillar do before becoming a butterfly?",
+    "options": {
+      "A": "It grows some teeth",
+      "B": "It changes in tree",
+      "C": "It becomes a pebble",
+      "D": "It transforms in chrysalis"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-009",
+    "difficulty": "medium",
+    "question": "What is a common trait of many animals?",
+    "options": {
+      "A": "They are born, grow and reproduce",
+      "B": "They never eat",
+      "C": "They all have wings",
+      "D": "They are all marine"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-010",
+    "difficulty": "medium",
+    "question": "Which part of the plant often protects the seeds?",
+    "options": {
+      "A": "The Sun",
+      "B": "The stem",
+      "C": "The fruit",
+      "D": "The compass"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-011",
+    "difficulty": "medium",
+    "question": "Which phenomenon explains the alternation of day and night?",
+    "options": {
+      "A": "The movement of the clouds",
+      "B": "The rotation of the sun around the earth",
+      "C": "The Earth's rotation we itself",
+      "D": "The Earth's revolution around the sun"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-012",
+    "difficulty": "medium",
+    "question": "Which movement of the earth around the sun is linked to the seasons?",
+    "options": {
+      "A": "Condensation",
+      "B": "Solidification",
+      "C": "Filtration",
+      "D": "Revolution"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-013",
+    "difficulty": "medium",
+    "question": "Which planet is closest to the sun?",
+    "options": {
+      "A": "Mars",
+      "B": "Venus",
+      "C": "Mercury",
+      "D": "Jupiter"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-014",
+    "difficulty": "medium",
+    "question": "Which celestial body is Earth's natural satellite?",
+    "options": {
+      "A": "Mercury",
+      "B": "The Sun",
+      "C": "Saturn",
+      "D": "The Moon"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-015",
+    "difficulty": "medium",
+    "question": "Which object is a good model of the solar system in class?",
+    "options": {
+      "A": "A model",
+      "B": "A fork",
+      "C": "An eraser",
+      "D": "A notebook"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-016",
+    "difficulty": "medium",
+    "question": "Which phenomenon is due to the tilt of Earth's axis?",
+    "options": {
+      "A": "Taste of the pain",
+      "B": "The shape of the clouds",
+      "C": "The seasons",
+      "D": "The color of stones"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-017",
+    "difficulty": "medium",
+    "question": "What goes around the sun?",
+    "options": {
+      "A": "Scissors",
+      "B": "Planets",
+      "C": "Pens",
+      "D": "Chairs"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-018",
+    "difficulty": "medium",
+    "question": "What is the correct order of the celestial bodies from nearest to farthest from earth?",
+    "options": {
+      "A": "Sun, Earth, Moon",
+      "B": "Sun, Moon, Earth",
+      "C": "Moon, Sun, Earth",
+      "D": "Earth, Moon, Sun"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-019",
+    "difficulty": "medium",
+    "question": "Which word names the path of a planet around a star?",
+    "options": {
+      "A": "A ruler",
+      "B": "A circuit electrical",
+      "C": "A root",
+      "D": "An orbit"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-020",
+    "difficulty": "medium",
+    "question": "Which phenomenon can partially hide the sun by the moon?",
+    "options": {
+      "A": "A aurore aurora",
+      "B": "A solar eclipse",
+      "C": "A tide of sand",
+      "D": "A rain stars"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-021",
+    "difficulty": "medium",
+    "question": "What does filtration do?",
+    "options": {
+      "A": "It makes electricity",
+      "B": "It separates a solid from a liquid",
+      "C": "It transforms water into ice",
+      "D": "It mixes two liquids"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-022",
+    "difficulty": "medium",
+    "question": "What does decantation do?",
+    "options": {
+      "A": "It allows of separate some elements of densities different",
+      "B": "It augmente the light",
+      "C": "It creates wind",
+      "D": "It heats water"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-023",
+    "difficulty": "medium",
+    "question": "What does dissolve mean?",
+    "options": {
+      "A": "Make a solid disappear in a liquid",
+      "B": "Make rain fall",
+      "C": "Grow a seed",
+      "D": "Do fondre a stone in air"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-024",
+    "difficulty": "medium",
+    "question": "Which mixture is homogeneous?",
+    "options": {
+      "A": "A mixture of deux couleurs always visibles",
+      "B": "A mixture with some cailloux giants",
+      "C": "A mixture where we ne distingue more the constituants",
+      "D": "A mixture a seul object"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-025",
+    "difficulty": "medium",
+    "question": "Which changes is reversible?",
+    "options": {
+      "A": "Melt ice",
+      "B": "Rouiller a clou",
+      "C": "Burn paper",
+      "D": "cook a egg"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-026",
+    "difficulty": "medium",
+    "question": "Which material changes state when it is heated or cooled?",
+    "options": {
+      "A": "Water",
+      "B": "Iron only",
+      "C": "Paper",
+      "D": "Plastic transparent"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-027",
+    "difficulty": "medium",
+    "question": "What do we keep during a mixture?",
+    "options": {
+      "A": "Taste wind",
+      "B": "The nombre of saisons",
+      "C": "The total mass",
+      "D": "The color of the sky"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-028",
+    "difficulty": "medium",
+    "question": "What is the common property of a solid?",
+    "options": {
+      "A": "It is always invisible",
+      "B": "It garde sa shape",
+      "C": "It flotte without exception",
+      "D": "It a step of mass"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-029",
+    "difficulty": "medium",
+    "question": "What is the common property of a liquid?",
+    "options": {
+      "A": "It takes the shape of the container",
+      "B": "It garde always a shape squaree",
+      "C": "It is always hard",
+      "D": "It a jamais of volume"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-030",
+    "difficulty": "medium",
+    "question": "What is the common property of a gas?",
+    "options": {
+      "A": "It garde a shape rigide",
+      "B": "It weighs exactement zero",
+      "C": "It is always liquid",
+      "D": "It can diffuser in air"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-031",
+    "difficulty": "medium",
+    "question": "Which is a renewable energy source?",
+    "options": {
+      "A": "Natural gas",
+      "B": "Oil",
+      "C": "Coal",
+      "D": "The Sun"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-032",
+    "difficulty": "medium",
+    "question": "Which is a non-renewable energy source?",
+    "options": {
+      "A": "Wind",
+      "B": "The Sun",
+      "C": "Coal",
+      "D": "Water"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-033",
+    "difficulty": "medium",
+    "question": "Which object transforms energy into motion?",
+    "options": {
+      "A": "An eraser",
+      "B": "A pencil",
+      "C": "A ruler",
+      "D": "A bicycle"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-034",
+    "difficulty": "medium",
+    "question": "Which device allows you to see a computer program?",
+    "options": {
+      "A": "A pebble",
+      "B": "A screen",
+      "C": "A spoon",
+      "D": "A book closed"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-035",
+    "difficulty": "medium",
+    "question": "Which element is important in a technical chain?",
+    "options": {
+      "A": "The hasard seul",
+      "B": "The need",
+      "C": "The color of the wall",
+      "D": "The noise some oiseaux"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-036",
+    "difficulty": "medium",
+    "question": "Which technical object can be used to transport water?",
+    "options": {
+      "A": "A coussin",
+      "B": "A trombone",
+      "C": "A puzzle",
+      "D": "A pompe"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-037",
+    "difficulty": "medium",
+    "question": "What is the point of a technical diagram?",
+    "options": {
+      "A": "Explain how an object works",
+      "B": "Write a poem",
+      "C": "Describe a dream",
+      "D": "Montrer a photo of famille"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-038",
+    "difficulty": "medium",
+    "question": "Which object helps measure a distance we a map?",
+    "options": {
+      "A": "The window",
+      "B": "The Sun",
+      "C": "Scale",
+      "D": "The thermometer"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-039",
+    "difficulty": "medium",
+    "question": "Which action does often an object recycled?",
+    "options": {
+      "A": "It is reused or transformed",
+      "B": "It becomes living",
+      "C": "It illumine tout seul",
+      "D": "It disappears to always"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-040",
+    "difficulty": "medium",
+    "question": "What is the purpose of a dawn?",
+    "options": {
+      "A": "Changes the weather",
+      "B": "Help to soulever or move a load",
+      "C": "Create clouds",
+      "D": "Measure time"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-041",
+    "difficulty": "medium",
+    "question": "Which organ pumps blood?",
+    "options": {
+      "A": "The liver",
+      "B": "Brain",
+      "C": "Heart",
+      "D": "The skin"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-042",
+    "difficulty": "medium",
+    "question": "Which organ filters blood?",
+    "options": {
+      "A": "Kidneys",
+      "B": "Ears",
+      "C": "Teeth",
+      "D": "The doigts"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-043",
+    "difficulty": "medium",
+    "question": "What does the stomach do?",
+    "options": {
+      "A": "It does grow the cheveux",
+      "B": "It helps to digest the food",
+      "C": "It makes the os",
+      "D": "It produces the light"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-044",
+    "difficulty": "medium",
+    "question": "Which system transports blood in the body?",
+    "options": {
+      "A": "The system of chauffage",
+      "B": "The circulatory system",
+      "C": "The system writing",
+      "D": "The solar system"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-045",
+    "difficulty": "medium",
+    "question": "Which system allows us to eat and process food?",
+    "options": {
+      "A": "The nervous system",
+      "B": "The skeletal system",
+      "C": "The digestive system",
+      "D": "The respiratory system"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-046",
+    "difficulty": "medium",
+    "question": "Why should we drink water?",
+    "options": {
+      "A": "To changer speed wind",
+      "B": "To do grow some cailloux",
+      "C": "To make the sky bleu",
+      "D": "To hydrater the body"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-047",
+    "difficulty": "medium",
+    "question": "Which movement helps the body stay fit?",
+    "options": {
+      "A": "The silence absolu",
+      "B": "Activity physique",
+      "C": "The sommeil permanent",
+      "D": "Stillness totale"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-048",
+    "difficulty": "medium",
+    "question": "Which food often belongs to the dairy group?",
+    "options": {
+      "A": "Stone",
+      "B": "The yaourt",
+      "C": "Metal",
+      "D": "The pebble"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-049",
+    "difficulty": "medium",
+    "question": "What is one role of teeth?",
+    "options": {
+      "A": "Make noise",
+      "B": "Warm up the room",
+      "C": "Cut and broyer the food",
+      "D": "See in the noir"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-050",
+    "difficulty": "medium",
+    "question": "What is a good choice for a balanced snack?",
+    "options": {
+      "A": "A pebble",
+      "B": "A morceau of wood",
+      "C": "A fruit",
+      "D": "A battery"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-051",
+    "difficulty": "medium",
+    "question": "What does a food chain show?",
+    "options": {
+      "A": "Who eats what",
+      "B": "The colors of the seasons",
+      "C": "The distance between cities",
+      "D": "The weight of clouds"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-052",
+    "difficulty": "medium",
+    "question": "Which living thing is often a producer?",
+    "options": {
+      "A": "A poisson",
+      "B": "A hibou",
+      "C": "A fox",
+      "D": "A green plant"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-053",
+    "difficulty": "medium",
+    "question": "Which living thing is often a consumer?",
+    "options": {
+      "A": "The Sun",
+      "B": "Water",
+      "C": "A lapin",
+      "D": "The rock"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-054",
+    "difficulty": "medium",
+    "question": "What is the role of decomposers?",
+    "options": {
+      "A": "Recycle the matter morte",
+      "B": "Create mountains",
+      "C": "Light the night",
+      "D": "Make glass"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-055",
+    "difficulty": "medium",
+    "question": "What does biodiversity mean?",
+    "options": {
+      "A": "The nombre of voitures",
+      "B": "The size of buildings",
+      "C": "The variety of living things",
+      "D": "Taste some food"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-056",
+    "difficulty": "medium",
+    "question": "Which environment is a habitat for many animals?",
+    "options": {
+      "A": "The garage vide",
+      "B": "The placard",
+      "C": "The tiroir",
+      "D": "The forest"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-057",
+    "difficulty": "medium",
+    "question": "What is an example of an adaptation?",
+    "options": {
+      "A": "A book which parle",
+      "B": "The pelage thick of the fox polaire",
+      "C": "A chair which grows",
+      "D": "A stone which sings"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-058",
+    "difficulty": "medium",
+    "question": "Which behavior helps protect nature?",
+    "options": {
+      "A": "Trier waste",
+      "B": "Arroser plastic",
+      "C": "Breakr the plants",
+      "D": "Throw everything we the ground"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-059",
+    "difficulty": "medium",
+    "question": "Which element is essential for plant life?",
+    "options": {
+      "A": "The light",
+      "B": "Metal",
+      "C": "The noise",
+      "D": "Cardboard"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-060",
+    "difficulty": "medium",
+    "question": "Which term describes an endangered species?",
+    "options": {
+      "A": "Invisible to coup sure",
+      "B": "Threatened",
+      "C": "Extinct by avance",
+      "D": "Made in paper"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-061",
+    "difficulty": "medium",
+    "question": "What is the first step in a scientific approach?",
+    "options": {
+      "A": "Invent a result",
+      "B": "Observe",
+      "C": "Put away the crayons",
+      "D": "Tell a story"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-062",
+    "difficulty": "medium",
+    "question": "What do we do after forming a hypothesis?",
+    "options": {
+      "A": "We the tests",
+      "B": "We the hides",
+      "C": "We forget",
+      "D": "We the draws seulement"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-063",
+    "difficulty": "medium",
+    "question": "Which tool is used to measure mass?",
+    "options": {
+      "A": "A compass",
+      "B": "A magnifying glass",
+      "C": "A scale",
+      "D": "A horloge"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-064",
+    "difficulty": "medium",
+    "question": "Which tool is used to measure the volume of a liquid?",
+    "options": {
+      "A": "A ruler",
+      "B": "A graduated cylinder",
+      "C": "A mirror",
+      "D": "A compass"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-065",
+    "difficulty": "medium",
+    "question": "What does a graph represent?",
+    "options": {
+      "A": "Data organized visually",
+      "B": "A dessin to the hasard",
+      "C": "A poem",
+      "D": "A meal"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-066",
+    "difficulty": "medium",
+    "question": "Why do we use a data table?",
+    "options": {
+      "A": "To sleep less",
+      "B": "To changer the sujet",
+      "C": "To do disappear the nombres",
+      "D": "To compare more facilement"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-067",
+    "difficulty": "medium",
+    "question": "What is a conclusion?",
+    "options": {
+      "A": "A noise",
+      "B": "A answer based on the results",
+      "C": "A devinette",
+      "D": "An object technical"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-068",
+    "difficulty": "medium",
+    "question": "Which attitude is important in science?",
+    "options": {
+      "A": "Ignore the results",
+      "B": "Avoid toute measures",
+      "C": "Being precise",
+      "D": "Deviner without test"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-069",
+    "difficulty": "medium",
+    "question": "What does a repeated experiment do?",
+    "options": {
+      "A": "It remplace the sun",
+      "B": "It confirme or non a hypothesis",
+      "C": "It supprime data",
+      "D": "It changes weather"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-070",
+    "difficulty": "medium",
+    "question": "Why do we write down observations?",
+    "options": {
+      "A": "To ne step the forget",
+      "B": "To changer leur sense",
+      "C": "To the make more floues",
+      "D": "To the effacer"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-071",
+    "difficulty": "medium",
+    "question": "Which gas is most abundant in the air?",
+    "options": {
+      "A": "Carbon dioxide",
+      "B": "Nitrogen",
+      "C": "Oxygen",
+      "D": "Helium"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-072",
+    "difficulty": "medium",
+    "question": "Which gas is essential for breathing?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Argon",
+      "C": "The krypton",
+      "D": "The neon"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-073",
+    "difficulty": "medium",
+    "question": "Which word names very small particles that make up matter?",
+    "options": {
+      "A": "The routes",
+      "B": "The seasons",
+      "C": "Atoms",
+      "D": "The couleurs"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-074",
+    "difficulty": "medium",
+    "question": "What does the combination of atoms form?",
+    "options": {
+      "A": "A molecule",
+      "B": "A planet",
+      "C": "A volcano",
+      "D": "A stone"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-075",
+    "difficulty": "medium",
+    "question": "What is an example of a mixture in the air?",
+    "options": {
+      "A": "Distilled water",
+      "B": "Pure iron",
+      "C": "The air itself",
+      "D": "Pure sugar"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-076",
+    "difficulty": "medium",
+    "question": "What is the result of dissolving salt in water?",
+    "options": {
+      "A": "A flamme",
+      "B": "A gas invisible seulement",
+      "C": "A mixture homogeneous",
+      "D": "A solid separated"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-077",
+    "difficulty": "medium",
+    "question": "Which phenomenon allows water to pass from liquid to gas?",
+    "options": {
+      "A": "The rigidification",
+      "B": "Melting",
+      "C": "Evaporation",
+      "D": "Condensation"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-078",
+    "difficulty": "medium",
+    "question": "Which phenomenon allows water to pass from gas to liquid?",
+    "options": {
+      "A": "Condensation",
+      "B": "Solidification",
+      "C": "Combustion",
+      "D": "Effacement"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-079",
+    "difficulty": "medium",
+    "question": "Which state of matter a no fixed shape?",
+    "options": {
+      "A": "The solid",
+      "B": "Wood",
+      "C": "The liquid",
+      "D": "Metal"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-080",
+    "difficulty": "medium",
+    "question": "Which state of matter is compressible?",
+    "options": {
+      "A": "Glass",
+      "B": "The gas",
+      "C": "Stone",
+      "D": "The solid"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-081",
+    "difficulty": "medium",
+    "question": "Why do we see a shadow?",
+    "options": {
+      "A": "Parce what water evaporates",
+      "B": "Parce an object bloque the light",
+      "C": "Parce what the night is always noire",
+      "D": "Parce what air becomes solid"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-082",
+    "difficulty": "medium",
+    "question": "Which object reflects light?",
+    "options": {
+      "A": "A mirror",
+      "B": "A chair",
+      "C": "A pebble",
+      "D": "An eraser"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-083",
+    "difficulty": "medium",
+    "question": "How does light travel in a homogeneous medium?",
+    "options": {
+      "A": "In spirale",
+      "B": "In zigzag permanent",
+      "C": "In ligne droite",
+      "D": "In cercle"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-084",
+    "difficulty": "medium",
+    "question": "Which phenomenon occurs when the moon hides the sun?",
+    "options": {
+      "A": "A tide basse",
+      "B": "An earthquake",
+      "C": "A rain stars",
+      "D": "A solar eclipse"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-medium-085",
+    "difficulty": "medium",
+    "question": "Which phenomenon occurs when the earth casts its shadow we the moon?",
+    "options": {
+      "A": "A melting",
+      "B": "A arc-in-sky",
+      "C": "A lunar eclipse",
+      "D": "A storm electrical"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-086",
+    "difficulty": "medium",
+    "question": "Why do we see an object?",
+    "options": {
+      "A": "Parce it sent bon",
+      "B": "Parce it reflects light to nos yeux",
+      "C": "Parce it sings",
+      "D": "Parce it weighs lourd"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-087",
+    "difficulty": "medium",
+    "question": "Which word names the bending of light by a mirror?",
+    "options": {
+      "A": "Filtration",
+      "B": "Dissolution",
+      "C": "Reflection",
+      "D": "Combustion"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-088",
+    "difficulty": "medium",
+    "question": "What can a prism sometimes do?",
+    "options": {
+      "A": "Chauffer a metal",
+      "B": "Produire of the sound",
+      "C": "Break down white light",
+      "D": "Grow a plant"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-089",
+    "difficulty": "medium",
+    "question": "Which source of light is natural?",
+    "options": {
+      "A": "A ardoise",
+      "B": "The Sun",
+      "C": "A television",
+      "D": "A pen"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-090",
+    "difficulty": "medium",
+    "question": "Which condition favors a sharp shadow?",
+    "options": {
+      "A": "A page blanche",
+      "B": "A light source bien directed",
+      "C": "A ground wet",
+      "D": "A tasse pleine"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-091",
+    "difficulty": "medium",
+    "question": "What does a technical diagram represent?",
+    "options": {
+      "A": "How an object works",
+      "B": "A poem",
+      "C": "A photo of vacances",
+      "D": "A dessin without sense"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-092",
+    "difficulty": "medium",
+    "question": "What is the point of a graph?",
+    "options": {
+      "A": "Montrer data visuellement",
+      "B": "Grow a plant",
+      "C": "Replace the experiment",
+      "D": "Turn off a device"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-093",
+    "difficulty": "medium",
+    "question": "Which term describes a network of connected computers?",
+    "options": {
+      "A": "A computer network",
+      "B": "A plumbing circuit",
+      "C": "A liquid mixture",
+      "D": "A cloud of dust"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-094",
+    "difficulty": "medium",
+    "question": "What does the Internet allow in a network?",
+    "options": {
+      "A": "The light of the sun",
+      "B": "The exchange of information",
+      "C": "The solidification of water",
+      "D": "The formation of rocks"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-medium-095",
+    "difficulty": "medium",
+    "question": "What is the first need studied when designing an object?",
+    "options": {
+      "A": "The shape of the moon",
+      "B": "The color of the ground",
+      "C": "The user's need",
+      "D": "The noise wind"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-096",
+    "difficulty": "medium",
+    "question": "Why do we recycle a product?",
+    "options": {
+      "A": "To reduce waste and reuse the matter",
+      "B": "To make it alive",
+      "C": "To erase it from memory",
+      "D": "To changes gravity"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-097",
+    "difficulty": "medium",
+    "question": "Which word names the stages in the life of a technical object?",
+    "options": {
+      "A": "The orbit",
+      "B": "The food chain",
+      "C": "The life cycle",
+      "D": "Breathing"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-098",
+    "difficulty": "medium",
+    "question": "Which tool helps organize data?",
+    "options": {
+      "A": "A board",
+      "B": "A coussin",
+      "C": "A wet eraser",
+      "D": "A broken pen"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-medium-099",
+    "difficulty": "medium",
+    "question": "In a technical project, what do we do after observation?",
+    "options": {
+      "A": "We always give up",
+      "B": "We remove needs",
+      "C": "We look for a solution",
+      "D": "We changes planets"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-medium-100",
+    "difficulty": "medium",
+    "question": "Why do we test a prototype?",
+    "options": {
+      "A": "To draw the sky",
+      "B": "To the do disappear",
+      "C": "To verify it responds to the need",
+      "D": "To measure rain"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-001",
+    "difficulty": "hard",
+    "question": "Which microscopic structure is the basic unit of life?",
+    "options": {
+      "A": "The water molecule",
+      "B": "Cell",
+      "C": "Earth's core",
+      "D": "Mountain"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-002",
+    "difficulty": "hard",
+    "question": "Which organite contient the material genetic in beaucoup of cellules?",
+    "options": {
+      "A": "The nucleus",
+      "B": "The bronzage",
+      "C": "The skin",
+      "D": "The muscle"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-003",
+    "difficulty": "hard",
+    "question": "Which system of the body coordonne the messages nervous?",
+    "options": {
+      "A": "The system plant",
+      "B": "The nervous system",
+      "C": "The solar system",
+      "D": "The digestive system"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-004",
+    "difficulty": "hard",
+    "question": "Which system of the body assure the exchanges air?",
+    "options": {
+      "A": "The skeletal system",
+      "B": "The system plant",
+      "C": "The digestive system",
+      "D": "The respiratory system"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-005",
+    "difficulty": "hard",
+    "question": "Which system allows the circulation of the blood?",
+    "options": {
+      "A": "The circulatory system",
+      "B": "The system lunaire",
+      "C": "The system of sorting",
+      "D": "The system of peinture"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-006",
+    "difficulty": "hard",
+    "question": "Which is the role main some alveoli pulmonaires?",
+    "options": {
+      "A": "Make bones",
+      "B": "Produire some sons",
+      "C": "Digest the pain",
+      "D": "Exchange the gas"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-007",
+    "difficulty": "hard",
+    "question": "Which organ commande the plupart some fonctions of the body?",
+    "options": {
+      "A": "Ongle",
+      "B": "The poumon gauche",
+      "C": "The genou",
+      "D": "Brain"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-008",
+    "difficulty": "hard",
+    "question": "Which change marque generally the puberty?",
+    "options": {
+      "A": "The disappearance of the need to sleep",
+      "B": "Body changes linked to maturation",
+      "C": "The change of planet",
+      "D": "The passage instant to age adulte"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-009",
+    "difficulty": "hard",
+    "question": "Pourquoi parle-t-we of reproduction humaine?",
+    "options": {
+      "A": "To expliquer the naissance a nouvel being humain",
+      "B": "To peindre an animal",
+      "C": "To measure a plant",
+      "D": "To make an object"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-010",
+    "difficulty": "hard",
+    "question": "Which organ helps mainly to the digestion and to absorption some nutrients?",
+    "options": {
+      "A": "Intestin hail",
+      "B": "The poignet",
+      "C": "The cartilage",
+      "D": "The tympan"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-011",
+    "difficulty": "hard",
+    "question": "How appelle-t-we the separation of the earth in grandes plates?",
+    "options": {
+      "A": "Plate tectonics",
+      "B": "Melting nuclear",
+      "C": "The photosynthesis",
+      "D": "Weatherrologie"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-012",
+    "difficulty": "hard",
+    "question": "Which phenomenon can result of the movement some plates?",
+    "options": {
+      "A": "A noise of cloche",
+      "B": "A recette",
+      "C": "An earthquake",
+      "D": "A photographie"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-013",
+    "difficulty": "hard",
+    "question": "Which phenomenon can create of the lava in surface?",
+    "options": {
+      "A": "A frost",
+      "B": "A shadow",
+      "C": "A eruption volcanique",
+      "D": "A rain fine"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-014",
+    "difficulty": "hard",
+    "question": "Which word names a opening where sort of the magma?",
+    "options": {
+      "A": "A cloud",
+      "B": "A canyon",
+      "C": "A marais",
+      "D": "A volcano"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-015",
+    "difficulty": "hard",
+    "question": "Is-this what the magma?",
+    "options": {
+      "A": "Dry sand",
+      "B": "Compressed air",
+      "C": "rock in melting under Earth",
+      "D": "Of ice-cold water"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-016",
+    "difficulty": "hard",
+    "question": "Is-this what the lava?",
+    "options": {
+      "A": "Only burnt wood",
+      "B": "Of melted snow",
+      "C": "Magma that a reached the surface",
+      "D": "Dissolved salt"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-017",
+    "difficulty": "hard",
+    "question": "Pourquoi certaines regions are-they more seismic?",
+    "options": {
+      "A": "Parce what wind y is more doux",
+      "B": "Parce it pleut always",
+      "C": "Parce they are proches some limites of plates",
+      "D": "Parce it y a more oiseaux"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-018",
+    "difficulty": "hard",
+    "question": "Which effect a earthquake of Earth can-it provoquer?",
+    "options": {
+      "A": "A baisse of the taste",
+      "B": "Ground vibrations",
+      "C": "A augmentation of the Sun",
+      "D": "A croissance some arbres"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-019",
+    "difficulty": "hard",
+    "question": "What measures a seismograph?",
+    "options": {
+      "A": "The secousses of the ground",
+      "B": "The water temperature",
+      "C": "The nombre of leaves",
+      "D": "The speed of a bicycle"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-020",
+    "difficulty": "hard",
+    "question": "Which word describes a rock formed to partir of magma cooled?",
+    "options": {
+      "A": "A rock liquid",
+      "B": "A rock musicale",
+      "C": "A rock sweet",
+      "D": "A rock magmatique"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-021",
+    "difficulty": "hard",
+    "question": "In a circuit in series, what happens si a lamp grille?",
+    "options": {
+      "A": "The autres lampes brillent more fort",
+      "B": "The circuit opens and everything stops",
+      "C": "The current becomes visible",
+      "D": "Rien ne changes"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-022",
+    "difficulty": "hard",
+    "question": "Which type of circuit allows to the lampes of fonctionner independently?",
+    "options": {
+      "A": "The parallel circuit",
+      "B": "The series circuit",
+      "C": "The broken circuit",
+      "D": "The paint circuit"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-023",
+    "difficulty": "hard",
+    "question": "What measures intensity electrical?",
+    "options": {
+      "A": "The poids of the battery",
+      "B": "The current flow rate",
+      "C": "The size of the bulb",
+      "D": "The color of the wire"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-024",
+    "difficulty": "hard",
+    "question": "What represents the voltage electrical?",
+    "options": {
+      "A": "The length of a cable",
+      "B": "The temperature of the metal",
+      "C": "A measures of the noise",
+      "D": "A difference state electrical"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-025",
+    "difficulty": "hard",
+    "question": "Which component is used often switch?",
+    "options": {
+      "A": "A ruler",
+      "B": "A aimant",
+      "C": "A cloud",
+      "D": "A switch"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-026",
+    "difficulty": "hard",
+    "question": "Which matter is generally conductive?",
+    "options": {
+      "A": "Cotton",
+      "B": "Metal",
+      "C": "Plastic",
+      "D": "Wood sec"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-027",
+    "difficulty": "hard",
+    "question": "Which component transforms electrical energy in light?",
+    "options": {
+      "A": "A leaf",
+      "B": "A lamp",
+      "C": "An eraser",
+      "D": "A stone"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-028",
+    "difficulty": "hard",
+    "question": "Pourquoi a circuit doit-it being closed?",
+    "options": {
+      "A": "To what the plants chantent",
+      "B": "To what the earth turns",
+      "C": "To what rain falls",
+      "D": "To what current puisse circulate"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-029",
+    "difficulty": "hard",
+    "question": "Which is the role a wire conductor?",
+    "options": {
+      "A": "Measure the distances",
+      "B": "Grow trees",
+      "C": "Relier the composants and laisser pass current",
+      "D": "Changes the color of the sky"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-030",
+    "difficulty": "hard",
+    "question": "Which device measures intensity?",
+    "options": {
+      "A": "A ammeter",
+      "B": "A compass",
+      "C": "A stopwatch",
+      "D": "A thermometer"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-031",
+    "difficulty": "hard",
+    "question": "Why do we see a shadow?",
+    "options": {
+      "A": "Parce what air becomes solid",
+      "B": "Parce an object bloque the light",
+      "C": "Parce what water evaporates",
+      "D": "Parce what the night is always noire"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-032",
+    "difficulty": "hard",
+    "question": "Which object reflects light?",
+    "options": {
+      "A": "A mirror",
+      "B": "An eraser",
+      "C": "A chair",
+      "D": "A pebble"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-033",
+    "difficulty": "hard",
+    "question": "How does light travel in a homogeneous medium?",
+    "options": {
+      "A": "In cercle",
+      "B": "In ligne droite",
+      "C": "In spirale",
+      "D": "In zigzag permanent"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-034",
+    "difficulty": "hard",
+    "question": "Which phenomenon occurs when the moon hides the sun?",
+    "options": {
+      "A": "A solar eclipse",
+      "B": "A tide basse",
+      "C": "A rain stars",
+      "D": "An earthquake"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-035",
+    "difficulty": "hard",
+    "question": "Which phenomenon occurs when the earth casts its shadow we the moon?",
+    "options": {
+      "A": "A arc-in-sky",
+      "B": "A storm electrical",
+      "C": "A lunar eclipse",
+      "D": "A melting"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-036",
+    "difficulty": "hard",
+    "question": "Why do we see an object?",
+    "options": {
+      "A": "Parce it sent bon",
+      "B": "Parce it sings",
+      "C": "Parce it reflects light to nos yeux",
+      "D": "Parce it weighs lourd"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-037",
+    "difficulty": "hard",
+    "question": "Which word names the bending of light by a mirror?",
+    "options": {
+      "A": "Dissolution",
+      "B": "Reflection",
+      "C": "Filtration",
+      "D": "Combustion"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-038",
+    "difficulty": "hard",
+    "question": "What can a prism sometimes do?",
+    "options": {
+      "A": "Grow a plant",
+      "B": "Produire of the sound",
+      "C": "Chauffer a metal",
+      "D": "Break down white light"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-039",
+    "difficulty": "hard",
+    "question": "Which source of light is natural?",
+    "options": {
+      "A": "A pen",
+      "B": "A television",
+      "C": "The Sun",
+      "D": "A ardoise"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-040",
+    "difficulty": "hard",
+    "question": "Which condition favors a sharp shadow?",
+    "options": {
+      "A": "A tasse pleine",
+      "B": "A page blanche",
+      "C": "A ground wet",
+      "D": "A light source bien directed"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-041",
+    "difficulty": "hard",
+    "question": "What is the basic unit of a chemical element?",
+    "options": {
+      "A": "Atom",
+      "B": "Planet",
+      "C": "Cell",
+      "D": "Leaf"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-042",
+    "difficulty": "hard",
+    "question": "What does the combination of atoms form?",
+    "options": {
+      "A": "A planet",
+      "B": "A stone",
+      "C": "A molecule",
+      "D": "A volcano"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-043",
+    "difficulty": "hard",
+    "question": "Which gas is most abundant in the air?",
+    "options": {
+      "A": "Nitrogen",
+      "B": "Carbon dioxide",
+      "C": "Oxygen",
+      "D": "Helium"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-044",
+    "difficulty": "hard",
+    "question": "Which gas is essential for breathing?",
+    "options": {
+      "A": "Argon",
+      "B": "The neon",
+      "C": "Oxygen",
+      "D": "The krypton"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-045",
+    "difficulty": "hard",
+    "question": "What is an example of a mixture in the air?",
+    "options": {
+      "A": "Distilled water",
+      "B": "The air itself",
+      "C": "Pure sugar",
+      "D": "Pure iron"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-046",
+    "difficulty": "hard",
+    "question": "What is a chemical transformation?",
+    "options": {
+      "A": "A transformation which creates of nouvelles substances",
+      "B": "A dessin to the pencil",
+      "C": "A simple movement object",
+      "D": "A measures of length"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-047",
+    "difficulty": "hard",
+    "question": "Which phenomenon is often irreversible?",
+    "options": {
+      "A": "The changes in position of a chair",
+      "B": "The melting of ice",
+      "C": "The dissolution of salt",
+      "D": "Combustion"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-048",
+    "difficulty": "hard",
+    "question": "Why do we say a reaction can be fast?",
+    "options": {
+      "A": "Parce it is very lourde",
+      "B": "Parce it produces in peu of temps",
+      "C": "Parce it existe step",
+      "D": "Parce it a always lieu the night"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-049",
+    "difficulty": "hard",
+    "question": "Which terme names some particles very petites which make up the matter?",
+    "options": {
+      "A": "Atoms",
+      "B": "The couleurs",
+      "C": "The seasons",
+      "D": "The routes"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-050",
+    "difficulty": "hard",
+    "question": "Which laboratory tool is used to observe tiny objects?",
+    "options": {
+      "A": "The telephone",
+      "B": "Hammer",
+      "C": "The dry-cheveux",
+      "D": "The microscope"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-051",
+    "difficulty": "hard",
+    "question": "What does a technical diagram represent?",
+    "options": {
+      "A": "A poem",
+      "B": "A photo of vacances",
+      "C": "A dessin without sense",
+      "D": "How an object works"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-052",
+    "difficulty": "hard",
+    "question": "What is the point of a graph?",
+    "options": {
+      "A": "Grow a plant",
+      "B": "Replace the experiment",
+      "C": "Turn off a device",
+      "D": "Montrer data visuellement"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-053",
+    "difficulty": "hard",
+    "question": "Which term describes a network of connected computers?",
+    "options": {
+      "A": "A cloud of dust",
+      "B": "A plumbing circuit",
+      "C": "A liquid mixture",
+      "D": "A computer network"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-054",
+    "difficulty": "hard",
+    "question": "What does the Internet allow in a network?",
+    "options": {
+      "A": "The solidification of water",
+      "B": "The exchange of information",
+      "C": "The formation of rocks",
+      "D": "The light of the sun"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-055",
+    "difficulty": "hard",
+    "question": "What is the first need studied when designing an object?",
+    "options": {
+      "A": "The color of the ground",
+      "B": "The user's need",
+      "C": "The noise wind",
+      "D": "The shape of the moon"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-056",
+    "difficulty": "hard",
+    "question": "Why do we recycle a product?",
+    "options": {
+      "A": "To make it alive",
+      "B": "To erase it from memory",
+      "C": "To changes gravity",
+      "D": "To reduce waste and reuse the matter"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-057",
+    "difficulty": "hard",
+    "question": "Which word names the stages in the life of a technical object?",
+    "options": {
+      "A": "The orbit",
+      "B": "The food chain",
+      "C": "Breathing",
+      "D": "The life cycle"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-058",
+    "difficulty": "hard",
+    "question": "Which tool helps organize data?",
+    "options": {
+      "A": "A coussin",
+      "B": "A broken pen",
+      "C": "A wet eraser",
+      "D": "A board"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-059",
+    "difficulty": "hard",
+    "question": "In a technical project, what do we do after observation?",
+    "options": {
+      "A": "We remove needs",
+      "B": "We always give up",
+      "C": "We changes planets",
+      "D": "We look for a solution"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-060",
+    "difficulty": "hard",
+    "question": "Why do we test a prototype?",
+    "options": {
+      "A": "To verify it responds to the need",
+      "B": "To draw the sky",
+      "C": "To measure rain",
+      "D": "To the do disappear"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-061",
+    "difficulty": "hard",
+    "question": "What is gravity's main effect?",
+    "options": {
+      "A": "It attire the objets to the ground",
+      "B": "It the does briller",
+      "C": "It the transforms in gas",
+      "D": "It the makes transparents"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-062",
+    "difficulty": "hard",
+    "question": "What does a pushing force do?",
+    "options": {
+      "A": "It the shrinks",
+      "B": "It grows an object",
+      "C": "It turns off",
+      "D": "It the colore"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-063",
+    "difficulty": "hard",
+    "question": "What does a pulling force do?",
+    "options": {
+      "A": "It humidifie",
+      "B": "It tire an object",
+      "C": "It the heats",
+      "D": "It the cuts"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-064",
+    "difficulty": "hard",
+    "question": "Which tool measures mass in a lab?",
+    "options": {
+      "A": "A thermometer",
+      "B": "A magnifying glass",
+      "C": "A scale",
+      "D": "A switch"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-065",
+    "difficulty": "hard",
+    "question": "Which tool measures temperature?",
+    "options": {
+      "A": "A ruler",
+      "B": "A scale",
+      "C": "A thermometer",
+      "D": "A microscope"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-066",
+    "difficulty": "hard",
+    "question": "Which tool measures the volume of a liquid?",
+    "options": {
+      "A": "A graduated cylinder",
+      "B": "A compass",
+      "C": "A boulier",
+      "D": "A perceuse"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-067",
+    "difficulty": "hard",
+    "question": "Which tool is used to measure a duration?",
+    "options": {
+      "A": "A meter",
+      "B": "A stopwatch",
+      "C": "A compass",
+      "D": "A aimant"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-068",
+    "difficulty": "hard",
+    "question": "What is often seen we a temperature graph?",
+    "options": {
+      "A": "Some couleurs seulement",
+      "B": "Some lettres of alphabet",
+      "C": "Changes over time",
+      "D": "Invisible objects"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-069",
+    "difficulty": "hard",
+    "question": "What type of movement describes an object turning around a point?",
+    "options": {
+      "A": "A movement solaire",
+      "B": "A movement aromatique",
+      "C": "A movement liquid",
+      "D": "A movement circulaire"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-070",
+    "difficulty": "hard",
+    "question": "Which phenomenon occurs when a force changes an object's speed?",
+    "options": {
+      "A": "A photocopie",
+      "B": "A acceleration or a ralentissement",
+      "C": "A floraison",
+      "D": "A disparition"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-071",
+    "difficulty": "hard",
+    "question": "Which gas is often mentioned in the enhanced greenhouse effect?",
+    "options": {
+      "A": "Carbon dioxide",
+      "B": "hydrogen",
+      "C": "Oxygen",
+      "D": "Nitrogen"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-072",
+    "difficulty": "hard",
+    "question": "Which action reduces waste?",
+    "options": {
+      "A": "The casser on purpose",
+      "B": "The burn without raison",
+      "C": "The jeter more vite",
+      "D": "Reuse an object"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-073",
+    "difficulty": "hard",
+    "question": "Which phenomenon corresponds to the increase in Earth's average temperature?",
+    "options": {
+      "A": "The rotation of the seasons",
+      "B": "The solidification of the oceans",
+      "C": "The disappearance of gravity",
+      "D": "The warming climatique"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-074",
+    "difficulty": "hard",
+    "question": "Which method helps save energy at home?",
+    "options": {
+      "A": "Let the water flow",
+      "B": "Turn off the lights inutiles",
+      "C": "Open the freezer in continu",
+      "D": "Turn we all the lamps"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-075",
+    "difficulty": "hard",
+    "question": "Which means of transport is often less polluting?",
+    "options": {
+      "A": "Bicycle",
+      "B": "A motorcycle for a tiny trip",
+      "C": "The camion vide",
+      "D": "The jet private"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-076",
+    "difficulty": "hard",
+    "question": "Why do we sort waste?",
+    "options": {
+      "A": "To the process in rain",
+      "B": "To make them invisible",
+      "C": "To the mix davantage",
+      "D": "To faciliter the recycling"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-077",
+    "difficulty": "hard",
+    "question": "Which natural element is renewable in the short term?",
+    "options": {
+      "A": "Oil",
+      "B": "Coal",
+      "C": "Wind",
+      "D": "Natural gas"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-078",
+    "difficulty": "hard",
+    "question": "Which behavior protects biodiversity?",
+    "options": {
+      "A": "Polluer the rivers",
+      "B": "Cut all the flowers",
+      "C": "preserve the habitats",
+      "D": "destroy the forests"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-079",
+    "difficulty": "hard",
+    "question": "What is a possible effect of air pollution?",
+    "options": {
+      "A": "Breathing problems",
+      "B": "A skin of stone",
+      "C": "A croissance instant",
+      "D": "Some ailes extra"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-080",
+    "difficulty": "hard",
+    "question": "Why do scientists monitor the climate?",
+    "options": {
+      "A": "To changer the seasons",
+      "B": "To choose the color clouds",
+      "C": "To comprendre and anticiper the changements",
+      "D": "To stop the Earth's rotation"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-081",
+    "difficulty": "hard",
+    "question": "Which phenomenon explains the apparent changes in the position of the stars during the night?",
+    "options": {
+      "A": "Plate tectonics",
+      "B": "Condensation of air",
+      "C": "The Earth's rotation",
+      "D": "The Earth's revolution"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-082",
+    "difficulty": "hard",
+    "question": "Why do we observe different seasons depending we the hemisphere?",
+    "options": {
+      "A": "To cause clouds",
+      "B": "To cause of the magnetism",
+      "C": "To cause some tides",
+      "D": "To cause of tilt of axis terrestre"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-083",
+    "difficulty": "hard",
+    "question": "Which celestial body is a star?",
+    "options": {
+      "A": "The Sun",
+      "B": "The Moon",
+      "C": "Mercury",
+      "D": "Mars"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-084",
+    "difficulty": "hard",
+    "question": "Which word names the distance traveled by a planet around the sun?",
+    "options": {
+      "A": "Sa mass",
+      "B": "Sa skin",
+      "C": "Sa racine",
+      "D": "Sound orbit"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-085",
+    "difficulty": "hard",
+    "question": "Which phenomenon is linked to the earth passing into the moon's shadow?",
+    "options": {
+      "A": "An earthquake",
+      "B": "A aurore aurora",
+      "C": "A rain of meteors",
+      "D": "A solar eclipse"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-086",
+    "difficulty": "hard",
+    "question": "Which phenomenon is linked to the earth passing into the shadow it casts itself?",
+    "options": {
+      "A": "A storm of sand",
+      "B": "A lunar eclipse",
+      "C": "A storm",
+      "D": "A heatwave"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-087",
+    "difficulty": "hard",
+    "question": "Which object can represent the phases of the moon?",
+    "options": {
+      "A": "A thermometer",
+      "B": "A board of multiplication",
+      "C": "A model",
+      "D": "A magnifying glass"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-088",
+    "difficulty": "hard",
+    "question": "Why does the moon appear luminous to us?",
+    "options": {
+      "A": "Parce it produces sa clean light",
+      "B": "Parce it reflects the light of the sun",
+      "C": "Parce it is transparent",
+      "D": "Parce it burns"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-089",
+    "difficulty": "hard",
+    "question": "What is the name of the Earth's movement around itself?",
+    "options": {
+      "A": "The dilution",
+      "B": "Rotation",
+      "C": "Revolution",
+      "D": "Filtration"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-090",
+    "difficulty": "hard",
+    "question": "What is the name of the Earth's movement around the sun?",
+    "options": {
+      "A": "The refraction",
+      "B": "Revolution",
+      "C": "Combustion",
+      "D": "Rotation"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-091",
+    "difficulty": "hard",
+    "question": "What must we do to verify a hypothesis?",
+    "options": {
+      "A": "Turn it into a drawing",
+      "B": "The keep secretes",
+      "C": "perform an experiment or an observation",
+      "D": "The supprimer"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-092",
+    "difficulty": "hard",
+    "question": "Why do we repeat an experiment?",
+    "options": {
+      "A": "To verify the reliability of the result",
+      "B": "To do more of noise",
+      "C": "To avoid of comprendre",
+      "D": "To the make more longue"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-093",
+    "difficulty": "hard",
+    "question": "What is a good attitude when facing different results?",
+    "options": {
+      "A": "Ignore the data",
+      "B": "Choose to the hasard",
+      "C": "Compare and look for a explication",
+      "D": "Changer the question"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-094",
+    "difficulty": "hard",
+    "question": "What does 'variable' mean in an experiment?",
+    "options": {
+      "A": "A tool broken",
+      "B": "A stone",
+      "C": "A result certain",
+      "D": "A element which can changer"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "sci-fr-hard-095",
+    "difficulty": "hard",
+    "question": "Which variable must remain the same in a fair experiment?",
+    "options": {
+      "A": "Tout changer to chaque fois",
+      "B": "The remains of the protocol sauf the variable tested",
+      "C": "Ne rien measure",
+      "D": "reinvent the rules"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-096",
+    "difficulty": "hard",
+    "question": "Why do we use units?",
+    "options": {
+      "A": "To decorate the leaves",
+      "B": "To compare measurements",
+      "C": "To hide the nombres",
+      "D": "To make some microbes"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-097",
+    "difficulty": "hard",
+    "question": "What is the purpose of an experimental protocol?",
+    "options": {
+      "A": "Supprimer the results",
+      "B": "Avoid the precision",
+      "C": "Describe the steps to follow",
+      "D": "Make a joke"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "sci-fr-hard-098",
+    "difficulty": "hard",
+    "question": "What is the purpose of a control in an experiment?",
+    "options": {
+      "A": "Servir of reference",
+      "B": "Montrer weather",
+      "C": "Create randomness",
+      "D": "Remplacer observations"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "sci-fr-hard-099",
+    "difficulty": "hard",
+    "question": "What do we look for in a scientific conclusion?",
+    "options": {
+      "A": "To forget data",
+      "B": "To answer to the question of start",
+      "C": "To repeat hypothesis word to word",
+      "D": "To changer of sujet"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "sci-fr-hard-100",
+    "difficulty": "hard",
+    "question": "Why do scientists write units with values?",
+    "options": {
+      "A": "Just to look nice",
+      "B": "To make reading harder",
+      "C": "To interpret the measurements correctly",
+      "D": "To avoid comparisons"
+    },
+    "answer": "C"
+  }
+]
