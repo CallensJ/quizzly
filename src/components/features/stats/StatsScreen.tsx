@@ -24,7 +24,7 @@ import { useTranslations } from 'next-intl';
 import { ArrowLeft, BarChart2, BookOpen, Trophy } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
-import type { QuizSession, Category, Difficulty } from '@/types';
+import type { Category, Difficulty } from '@/types';
 import {
   BarChart,
   Bar,

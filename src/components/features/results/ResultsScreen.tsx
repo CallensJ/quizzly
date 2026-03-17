@@ -139,7 +139,7 @@ export default function ResultsScreen() {
       }
     }
     setDuelLoading(false);
-  }, [challengeId, profile, score]);
+  }, [challengeId, profile, score, totalTimeMs]);
 
   useEffect(() => {
     if (status === 'finished' && challengeId) {
