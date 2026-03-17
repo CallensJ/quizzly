@@ -55,7 +55,7 @@ export async function signIn(email: string, password: string) {
  * Important : configurer l'URL de redirect dans le dashboard Supabase
  * Authentication → URL Configuration → Redirect URLs :
  *   - http://localhost:3000/auth/callback (dev)
- *   - https://app.quizzly.com/auth/callback (prod)
+ *   - https://app.erudia.app/auth/callback (prod)
  *   - https://*.vercel.app/auth/callback (preview)
  */
 export async function signInWithGoogle(locale: string = 'en') {

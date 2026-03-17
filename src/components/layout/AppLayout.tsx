@@ -53,7 +53,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
         {/* Logo */}
         <div className="app-layout__logo">
           <span className="app-layout__logo-icon">🦉</span>
-          <span className="app-layout__logo-text">Quizzly</span>
+          <span className="app-layout__logo-text">Erudia</span>
         </div>
 
         {/* Carte profil — cliquable → page /profile */}

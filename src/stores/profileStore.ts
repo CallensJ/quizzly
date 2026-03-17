@@ -285,7 +285,7 @@ export const useProfileStore = create<ProfileState>()(
         }),
     }),
     {
-      name: 'quizzly-profile',
+      name: 'erudia-profile',
       // newBadgesThisSession est volontairement exclu — sa valeur ne doit pas
       // survivre à un rechargement de page (état de session uniquement)
       partialize: (state) => {

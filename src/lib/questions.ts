@@ -28,7 +28,7 @@ interface QCache {
 }
 
 function cacheKey(category: Category, locale: Locale): string {
-  return `quizzly-q-${category}-${locale}`;
+  return `erudia-q-${category}-${locale}`;
 }
 
 function getCache(category: Category, locale: Locale): Question[] | null {

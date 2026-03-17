@@ -1,10 +1,10 @@
 {
   "app": {
-    "title": "Quizzly",
+    "title": "Erudia",
     "tagline": "Learn by playing!"
   },
   "onboarding": {
-    "title": "Welcome to Quizzly!",
+    "title": "Welcome to Erudia!",
     "pseudoLabel": "Choose your nickname",
     "pseudoPlaceholder": "SuperStar123",
     "avatarLabel": "Pick your avatar",

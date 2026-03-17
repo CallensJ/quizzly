@@ -92,7 +92,7 @@ export default function ReportSection() {
       // Déclenchement du téléchargement navigateur
       const a = document.createElement('a');
       a.href     = url;
-      a.download = `rapport-${profile?.pseudo ?? 'quizzly'}-${data.generatedAt.split('T')[0]}.pdf`;
+      a.download = `rapport-${profile?.pseudo ?? 'erudia'}-${data.generatedAt.split('T')[0]}.pdf`;
       a.click();
       URL.revokeObjectURL(url);
 

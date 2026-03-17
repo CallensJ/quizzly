@@ -12,8 +12,8 @@ import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Quizzly',
-    short_name: 'Quizzly',
+    name: 'Erudia',
+    short_name: 'Erudia',
     description: 'Application de quiz éducatif pour les 6–11 ans',
     start_url: '/',
     display: 'standalone',

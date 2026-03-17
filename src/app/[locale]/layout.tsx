@@ -15,7 +15,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Quizzly",
+  title: "Erudia",
   description: "Application de quiz éducatif pour les 6–11 ans",
   // ── PWA metadata ──────────────────────────────────────────────────────────
   // manifest.webmanifest auto-généré par src/app/manifest.ts
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     // Permet l'installation sur iOS (Add to Home Screen)
     capable: true,
     statusBarStyle: 'default',
-    title: 'Quizzly',
+    title: 'Erudia',
   },
 };
 

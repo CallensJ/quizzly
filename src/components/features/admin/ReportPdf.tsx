@@ -7,7 +7,7 @@
  *     @react-pdf/renderer est incompatible SSR. Utiliser un dynamic import depuis
  *     un handler de clic (voir ReportSection.tsx).
  *
- * Design : sobre, aligné avec le design system Quizzly (#667eea).
+ * Design : sobre, aligné avec le design system Erudia (#667eea).
  * Pas de dépendance next-intl — les libellés sont embarqués directement
  * pour garantir le rendu hors contexte React.
  *
@@ -299,7 +299,7 @@ const LABELS: Record<'fr' | 'en', Record<LabelKey, string>> = {
     medium:         'Moyen',
     hard:           'Difficile',
     noGames:        'Aucune partie',
-    footerApp:      'Quizzly — Application educative',
+    footerApp:      'Erudia — Application educative',
     footerNote:     'Rapport confidentiel — Parents et enseignants',
   },
   en: {
@@ -331,7 +331,7 @@ const LABELS: Record<'fr' | 'en', Record<LabelKey, string>> = {
     medium:         'Medium',
     hard:           'Hard',
     noGames:        'No games yet',
-    footerApp:      'Quizzly — Educational app',
+    footerApp:      'Erudia — Educational app',
     footerNote:     'Confidential report — For parents and teachers',
   },
 };
@@ -363,14 +363,14 @@ export function ReportPdf({ data }: ReportPdfProps) {
   return (
     <Document
       title={`${L.title} — ${data.pseudo}`}
-      author="Quizzly"
+      author="Erudia"
       subject={L.title}
     >
       <Page size="A4" style={s.page}>
 
         {/* ── 1. Header ───────────────────────────────────────────────────── */}
         <View style={s.header}>
-          <Text style={s.headerTitle}>Quizzly — {L.title}</Text>
+          <Text style={s.headerTitle}>Erudia — {L.title}</Text>
           <Text style={s.headerSub}>{data.pseudo}</Text>
           <View style={s.headerRow}>
             <Text style={s.headerPill}>
