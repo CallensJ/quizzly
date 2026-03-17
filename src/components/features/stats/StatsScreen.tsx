@@ -272,9 +272,9 @@ export default function StatsScreen() {
                         ))}
                       </Pie>
                       <Tooltip
-                        formatter={(value: number, name: string) => [
-                          `${value} ${t('games', { count: value })}`,
-                          t(name as 'easy' | 'medium' | 'hard'),
+                        formatter={(value, name) => [
+                          `${value ?? 0} ${t('games', { count: Number(value ?? 0) })}`,
+                          t((name as string) as 'easy' | 'medium' | 'hard'),
                         ]}
                         contentStyle={{
                           fontFamily: 'Nunito, sans-serif',
