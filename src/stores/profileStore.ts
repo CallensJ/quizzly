@@ -144,7 +144,7 @@ export const useProfileStore = create<ProfileState>()(
       setReportSchedule: (schedule) => set({ reportSchedule: schedule }),
 
       completeDailyChallenge: (score, total) => {
-        const state = get();
+        const state = useProfileStore.getState();
         const today = getDailyDateString();
         const last  = state.dailyLastDate;
 
