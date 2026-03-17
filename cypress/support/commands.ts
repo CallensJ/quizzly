@@ -1,6 +1,6 @@
 // cypress/support/commands.ts
 //
-// Commandes Cypress personnalisées pour Quizzly.
+// Commandes Cypress personnalisées pour Erudia.
 // Ces commandes sont disponibles via cy.xxx() dans tous les tests.
 
 /// <reference types="cypress" />
@@ -11,19 +11,18 @@
  * Injecte un profil utilisateur directement en localStorage avant de visiter l'app.
  * Permet de sauter l'onboarding dans les tests qui n'ont pas besoin de le tester.
  *
- * Format : structure persistée par Zustand (clé "quizzly-profile").
+ * Format : structure persistée par Zustand (clé "erudia-profile").
  */
 Cypress.Commands.add('setupProfile', () => {
   // On doit d'abord visiter l'app pour que localStorage soit disponible sur le bon origin
   cy.visit('/fr');
   cy.window().then((win) => {
     win.localStorage.setItem(
-      'quizzly-profile',
+      'erudia-profile',
       JSON.stringify({
         state: {
           profile: {
             pseudo: 'TestPlayer',
-            ageGroup: '6-9',
             avatarId: 'Milo',
             badgeEarned: false,
             locale: 'fr',
@@ -44,7 +43,7 @@ Cypress.Commands.add('setupProfile', () => {
 /**
  * cy.setupQuestionsCache()
  *
- * Pré-remplit le cache localStorage des questions (clé `quizzly-q-{cat}-fr`)
+ * Pré-remplit le cache localStorage des questions (clé `erudia-q-{cat}-fr`)
  * avec des données mock pour toutes les catégories et difficultés.
  *
  * Nécessaire depuis que fetchQuestions() interroge Supabase : en CI il n'y a
@@ -72,7 +71,7 @@ Cypress.Commands.add('setupQuestionsCache', () => {
     categories.forEach((category) => {
       const questions = difficulties.flatMap((diff) => makeQuestions(category, diff, 25));
       win.localStorage.setItem(
-        `quizzly-q-${category}-fr`,
+        `erudia-q-${category}-fr`,
         JSON.stringify({ questions, cachedAt: Date.now() })
       );
     });
