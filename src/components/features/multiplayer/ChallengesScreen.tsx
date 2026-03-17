@@ -99,7 +99,7 @@ export default function ChallengesScreen() {
         completed:   'joinErrorCompleted',
         same_player: 'joinErrorSamePlayer',
       };
-      const msgKey = errorMap[result.error as JoinError] as keyof ReturnType<typeof t>;
+      const msgKey = errorMap[result.error as JoinError] as Parameters<typeof t>[0];
       setJoinError(t(msgKey));
     } else {
       setPreview(result.challenge);
