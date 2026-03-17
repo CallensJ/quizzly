@@ -197,7 +197,7 @@ export default function StatsScreen() {
                       tickLine={false}
                     />
                     <Tooltip
-                      formatter={(value: number) => [`${value}%`, t('scoreLabel')]}
+                      formatter={(value) => [`${value ?? 0}%`, t('scoreLabel')]}
                       contentStyle={{
                         fontFamily: 'Nunito, sans-serif',
                         fontSize: '13px',
