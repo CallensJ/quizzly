@@ -37,7 +37,6 @@ export async function syncProfile(
         {
           device_id: deviceId,
           pseudo: profile.pseudo,
-          age_group: profile.ageGroup,
           avatar_id: profile.avatarId,
           locale: profile.locale,
           created_at: profile.createdAt,

@@ -36,7 +36,6 @@ export interface ReportBadge {
 export interface ReportData {
   generatedAt: string;                          // ISO 8601
   pseudo: string;
-  ageGroup: string;                             // '6-9' | '10-13'
   locale: string;                               // 'fr' | 'en'
   totalGames: number;
   totalPoints: number;
@@ -80,14 +79,13 @@ const CATEGORIES: Category[] = ['sciences', 'histoire', 'heroes'];
  */
 export function buildReportData(params: {
   pseudo: string;
-  ageGroup: string;
   locale: string;
   sessions: QuizSession[];
   earnedBadgeIds: string[];
   dailyStreak: number;
   dailyXp: number;
 }): ReportData {
-  const { pseudo, ageGroup, locale, sessions, earnedBadgeIds, dailyStreak, dailyXp } = params;
+  const { pseudo, locale, sessions, earnedBadgeIds, dailyStreak, dailyXp } = params;
 
   // Stats globales
   const totalGames  = sessions.length;
@@ -129,7 +127,6 @@ export function buildReportData(params: {
   return {
     generatedAt:    new Date().toISOString(),
     pseudo,
-    ageGroup,
     locale,
     totalGames,
     totalPoints,

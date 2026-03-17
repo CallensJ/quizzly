@@ -7,9 +7,6 @@
     "title": "Welcome to Quizzly!",
     "pseudoLabel": "Choose your nickname",
     "pseudoPlaceholder": "SuperStar123",
-    "ageLabel": "How old are you?",
-    "age6to9": "6 to 9 years",
-    "age10to13": "10 to 13 years",
     "avatarLabel": "Pick your avatar",
     "ctaConfirm": "Let's go!"
   },
@@ -317,9 +314,7 @@
     "games": "{count} game(s)",
     "badgesTitle": "Badges",
     "firstBadge": "First badge!",
-    "noBadge": "Play to earn your first badge!",
-    "age6to9": "6 to 9 years",
-    "age10to13": "10 to 13 years"
+    "noBadge": "Play to earn your first badge!"
   },
   "daily": {
     "title": "Daily Challenge",

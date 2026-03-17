@@ -15,7 +15,7 @@
  *   - TITLES                     → liste ordonnée des paliers de titre
  */
 
-import type { Question, Category, AgeGroup } from '@/types';
+import type { Question, Category } from '@/types';
 
 // Catégories disponibles en free tier — cycle quotidien
 const FREE_CATEGORIES: Category[] = ['sciences', 'histoire', 'heroes'];
@@ -86,11 +86,11 @@ export function getDailyQuestions(pool: Question[], date: Date = new Date()): Qu
 }
 
 /**
- * Retourne la difficulté du défi selon la tranche d'âge.
- * Les 6-9 ans jouent en facile, les 10-13 ans en moyen.
+ * Retourne la difficulté du défi quotidien.
+ * Fixée à 'medium' — la tranche d'âge a été supprimée (app ciblée 6-11 ans).
  */
-export function getDailyDifficulty(ageGroup: AgeGroup): 'easy' | 'medium' {
-  return ageGroup === '6-9' ? 'easy' : 'medium';
+export function getDailyDifficulty(): 'medium' {
+  return 'medium';
 }
 
 // ── Système XP ───────────────────────────────────────────────────────────────

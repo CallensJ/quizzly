@@ -64,7 +64,7 @@ export default function DailyScreen() {
   const alreadyPlayed = dailyLastDate === todayStr;
 
   const category   = getDailyCategory();
-  const difficulty = getDailyDifficulty(profile?.ageGroup ?? '6-9');
+  const difficulty = getDailyDifficulty();
   const title      = getTitleForXp(dailyXp);
   const nextTitle  = TITLES.find((t) => t.minXp > dailyXp);
 
@@ -76,7 +76,7 @@ export default function DailyScreen() {
     setLoading(true);
     setFetchError(false);
     try {
-      const pool = await fetchQuestions(category, locale, difficulty, profile.ageGroup);
+      const pool = await fetchQuestions(category, locale, difficulty);
       const questions = getDailyQuestions(pool);
       startDailyQuiz(questions, category, difficulty);
       router.push('/quiz');

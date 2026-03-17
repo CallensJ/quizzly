@@ -16,7 +16,7 @@
  */
 
 import { supabase } from './supabase';
-import type { AgeGroup, Category, Difficulty, Locale, Question } from '@/types';
+import type { Category, Difficulty, Locale, Question } from '@/types';
 
 // ─── Cache localStorage ───────────────────────────────────────────────────────
 
@@ -99,32 +99,15 @@ function rowToQuestion(row: QuestionRow): Question {
 
 // ─── Fetch principal ──────────────────────────────────────────────────────────
 
-// ─── Mapping difficulty × ageGroup → pool de difficultés ─────────────────────
+// ─── Mapping difficulté → pool ────────────────────────────────────────────────
 //
-// Option A (MVP 2) — decision architecturale :
-// Les JSON ne contiennent pas de champ ageGroup. On adapte plutôt le pool
-// de difficultés en fonction de la tranche d'âge du profil.
+// Mapping direct : le joueur choisit lui-même son niveau.
+// Les questions sont calibrées 6-11 ans avec un plafond jusqu'à ~13 ans
+// pour garantir du challenge sur le long terme.
+// L'app cible 6-11 ans — la sélection de tranche d'âge a été supprimée (MVP 4).
 //
-// | Sélection "Jouer" | 6-9 ans              | 10-13 ans            |
-// |--------------------|----------------------|----------------------|
-// | Facile             | easy                 | easy + medium        |
-// | Moyen              | easy + medium        | medium               |
-// | Difficile          | medium               | medium + hard        |
-//
-// Cela garantit qu'un enfant de 6 ans ne tombe jamais sur des questions "hard"
-// même en choisissant "difficile", et qu'un ado de 13 ans n'est pas bloqué sur
-// des questions trop simples.
-//
-function getDifficultyPool(difficulty: Difficulty, ageGroup: AgeGroup): Difficulty[] {
-  if (ageGroup === '6-9') {
-    return difficulty === 'easy'   ? ['easy']
-         : difficulty === 'medium' ? ['easy', 'medium']
-         :                           ['medium'];
-  }
-  // 10-13
-  return difficulty === 'easy'   ? ['easy', 'medium']
-       : difficulty === 'medium' ? ['medium']
-       :                           ['medium', 'hard'];
+function getDifficultyPool(difficulty: Difficulty): Difficulty[] {
+  return [difficulty];
 }
 
 /**
@@ -136,10 +119,9 @@ function getDifficultyPool(difficulty: Difficulty, ageGroup: AgeGroup): Difficul
 export async function fetchQuestions(
   category: Category,
   locale: Locale,
-  difficulty: Difficulty,
-  ageGroup: AgeGroup
+  difficulty: Difficulty
 ): Promise<Question[]> {
-  const diffPool = getDifficultyPool(difficulty, ageGroup);
+  const diffPool = getDifficultyPool(difficulty);
 
   function filterByPool(qs: Question[]): Question[] {
     return qs.filter((q) => diffPool.includes(q.difficulty));

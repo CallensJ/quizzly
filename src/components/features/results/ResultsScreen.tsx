@@ -49,7 +49,6 @@ export default function ResultsScreen() {
   const { status, score, category, difficulty, questions, challengeId, isDailyChallenge, totalTimeMs, startQuiz, resetAll } = useQuizStore();
   const soundEnabled           = useProfileStore((s) => s.soundEnabled);
   const deviceId               = useProfileStore((s) => s.deviceId);
-  const ageGroup               = useProfileStore((s) => s.profile?.ageGroup ?? '6-9');
   const profile                = useProfileStore((s) => s.profile);
   const multiplayerUnlocked    = useProfileStore((s) => s.multiplayerUnlocked);
   const newBadgesThisSession   = useProfileStore((s) => s.newBadgesThisSession);
@@ -198,7 +197,7 @@ export default function ResultsScreen() {
     setLoading(true);
     try {
       // Récupère les questions depuis Supabase (cache 24h + fallback offline)
-      const pool = await fetchQuestions(category, locale as Locale, difficulty, ageGroup);
+      const pool = await fetchQuestions(category, locale as Locale, difficulty);
       startQuiz(pool);
       router.push('/quiz');
     } finally {
@@ -223,7 +222,7 @@ export default function ResultsScreen() {
         category,
         difficulty,
         locale,
-        ageGroup: profile.ageGroup,
+
         // Snapshot des questions jouées — ordre identique pour Joueur B
         questions,
         scoreA: score,

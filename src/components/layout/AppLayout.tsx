@@ -42,7 +42,6 @@ export default function AppLayout({ children }: AppLayoutProps) {
   const totalScore  = sessions.reduce((acc, s) => acc + s.score, 0);
   const totalGames  = sessions.length;
   const avatarUrl   = buildAvatarUrl(profile.avatarId, (profile.avatarStyle as AvatarStyle) || 'adventurer');
-  const ageLabel    = profile.ageGroup === '6-9' ? t('age6to9') : t('age10to13');
   const playerTitle = getTitleForXp(dailyXp);
 
   return (
@@ -72,7 +71,6 @@ export default function AppLayout({ children }: AppLayoutProps) {
             height={88}
           />
           <strong className="app-layout__pseudo">{profile.pseudo}</strong>
-          <span className="app-layout__age">{ageLabel}</span>
           {dailyXp > 0 && (
             <span className="app-layout__player-title">
               {playerTitle.emoji} {playerTitle.id}

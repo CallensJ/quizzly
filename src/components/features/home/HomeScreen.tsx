@@ -26,6 +26,7 @@ import { fetchQuestions } from '@/lib/questions';
 import { getDailyDateString } from '@/lib/daily';
 import type { Category, Difficulty, Locale } from '@/types';
 
+
 // Catégories jouables — questions disponibles (gratuites)
 const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = [
   {
@@ -80,10 +81,10 @@ export default function HomeScreen() {
     router.replace(pathname, { locale: next });
   }
 
-  const profile              = useProfileStore((s) => s.profile);
-  const dailyStreak          = useProfileStore((s) => s.dailyStreak);
-  const dailyLastDate        = useProfileStore((s) => s.dailyLastDate);
-  const multiplayerUnlocked  = useProfileStore((s) => s.multiplayerUnlocked);
+  const profile             = useProfileStore((s) => s.profile);
+  const dailyStreak         = useProfileStore((s) => s.dailyStreak);
+  const dailyLastDate       = useProfileStore((s) => s.dailyLastDate);
+  const multiplayerUnlocked = useProfileStore((s) => s.multiplayerUnlocked);
   const alreadyPlayedToday   = dailyLastDate === getDailyDateString();
 
   const { category, difficulty, setCategory, setDifficulty, startQuiz } = useQuizStore();
@@ -112,7 +113,7 @@ export default function HomeScreen() {
     try {
       // Récupère les questions — le pool de difficultés est adapté à la tranche d'âge du profil
       // (Option A : 6-9 ans → pool plus doux, 10-13 ans → pool plus exigeant, cf. questions.ts)
-      const pool = await fetchQuestions(category!, locale as Locale, difficulty!, profile!.ageGroup);
+      const pool = await fetchQuestions(category!, locale as Locale, difficulty!);
       startQuiz(pool);
       router.push('/quiz');
     } catch {

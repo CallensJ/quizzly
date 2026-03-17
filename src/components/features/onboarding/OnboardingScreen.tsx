@@ -4,8 +4,11 @@
  * src/components/features/onboarding/OnboardingScreen.tsx
  *
  * Écran d'onboarding — affiché au premier lancement (aucun profil en localStorage).
- * Recueille : pseudo (≥ 2 chars), tranche d'âge (6-9 / 10-13), avatar DiceBear.
+ * Recueille : pseudo (≥ 2 chars) + avatar DiceBear.
  * Le toggle de langue est accessible directement sur cet écran.
+ *
+ * La tranche d'âge a été supprimée (MVP 4) — l'app cible 6-11 ans, le niveau
+ * de difficulté est choisi par le joueur lui-même sur l'écran Home.
  *
  * À la confirmation, createProfile() persiste le profil via Zustand → localStorage.
  * Pas de validation email/nom réel (conformité COPPA).
@@ -17,7 +20,7 @@ import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { syncProfile } from '@/lib/sync';
 import Nova from '@/components/ui/Nova';
-import type { AgeGroup, Locale } from '@/types';
+import type { Locale } from '@/types';
 import { FREE_SEEDS, FREE_STYLE, buildAvatarUrl } from '@/lib/avatars';
 
 export default function OnboardingScreen() {
@@ -30,20 +33,18 @@ export default function OnboardingScreen() {
   const setLocale = useProfileStore((s) => s.setLocale);
 
   const [pseudo, setPseudo] = useState('');
-  const [ageGroup, setAgeGroup] = useState<AgeGroup | null>(null);
   const [avatarId, setAvatarId] = useState<string | null>(null);
 
   // Nova : accueil à l'arrivée sur l'écran, disparaît après 3s
   const [novaVisible, setNovaVisible] = useState(true);
 
-  // Le CTA n'est actif que si tous les champs sont remplis
-  const canSubmit = pseudo.trim().length >= 2 && ageGroup !== null && avatarId !== null;
+  // Le CTA n'est actif que si pseudo + avatar sont remplis
+  const canSubmit = pseudo.trim().length >= 2 && avatarId !== null;
 
   function handleSubmit() {
     if (!canSubmit) return;
     createProfile({
       pseudo: pseudo.trim(),
-      ageGroup: ageGroup!,
       avatarId: avatarId!,
       avatarStyle: FREE_STYLE, // adventurer — style gratuit par défaut
       badgeEarned: false,
@@ -110,25 +111,6 @@ export default function OnboardingScreen() {
             autoComplete="off"
             spellCheck={false}
           />
-        </section>
-
-        {/* ── Tranche d'âge ───────────────────────────────────────────────── */}
-        <section className="onboarding__section">
-          <p className="onboarding__label">{t('ageLabel')}</p>
-          <div className="onboarding__age-group">
-            {(['6-9', '10-13'] as AgeGroup[]).map((group) => (
-              <button
-                key={group}
-                type="button"
-                data-testid={`age-${group}`}
-                className={`onboarding__age-btn${ageGroup === group ? ' onboarding__age-btn--active' : ''}`}
-                onClick={() => setAgeGroup(group)}
-                aria-pressed={ageGroup === group}
-              >
-                {group === '6-9' ? t('age6to9') : t('age10to13')}
-              </button>
-            ))}
-          </div>
         </section>
 
         {/* ── Galerie d'avatars ────────────────────────────────────────────── */}

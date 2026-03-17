@@ -7,9 +7,6 @@
     "title": "Bienvenue sur Quizzly !",
     "pseudoLabel": "Choisis ton pseudo",
     "pseudoPlaceholder": "SuperStar123",
-    "ageLabel": "Quel âge as-tu ?",
-    "age6to9": "6 à 9 ans",
-    "age10to13": "10 à 13 ans",
     "avatarLabel": "Choisis ton avatar",
     "ctaConfirm": "C'est parti !"
   },
@@ -317,9 +314,7 @@
     "games": "{count} partie(s)",
     "badgesTitle": "Badges",
     "firstBadge": "Premier badge !",
-    "noBadge": "Joue pour gagner ton premier badge !",
-    "age6to9": "6 à 9 ans",
-    "age10to13": "10 à 13 ans"
+    "noBadge": "Joue pour gagner ton premier badge !"
   },
   "daily": {
     "title": "Défi du jour",

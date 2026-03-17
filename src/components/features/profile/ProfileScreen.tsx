@@ -147,9 +147,6 @@ export default function ProfileScreen() {
           </div>
           <div className="profile__identity-info">
             <p className="profile__pseudo">{profile.pseudo}</p>
-            <p className="profile__age">
-              {profile.ageGroup === '6-9' ? tSidebar('age6to9') : tSidebar('age10to13')}
-            </p>
             <button
               type="button"
               className="profile__avatar-change-label"

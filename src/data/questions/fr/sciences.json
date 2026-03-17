@@ -3,904 +3,3604 @@
   "lang": "fr",
   "questions": [
     {
+      "question": "Quel sens utilise-t-on pour sentir un parfum ?",
+      "options": {
+        "A": "L'ouïe",
+        "B": "Le toucher",
+        "C": "La vue",
+        "D": "L'odorat"
+      },
+      "answer": "D",
       "id": "sci-fr-easy-001",
-      "difficulty": "easy",
-      "question": "Quelle couleur a souvent le ciel quand il fait beau ?",
-      "options": {
-        "A": "Rouge",
-        "B": "Vert",
-        "C": "Bleu",
-        "D": "Noir"
-      },
-      "answer": "C"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel sens utilise-t-on pour écouter de la musique ?",
+      "options": {
+        "A": "L'ouïe",
+        "B": "Le goût",
+        "C": "L'odorat",
+        "D": "La vue"
+      },
+      "answer": "A",
       "id": "sci-fr-easy-002",
-      "difficulty": "easy",
-      "question": "Que respirons-nous pour vivre ?",
-      "options": {
-        "A": "Air",
-        "B": "Eau",
-        "C": "Sable",
-        "D": "Lait"
-      },
-      "answer": "A"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel sens utilise-t-on pour lire un livre ?",
+      "options": {
+        "A": "La vue",
+        "B": "L'odorat",
+        "C": "L'ouïe",
+        "D": "Le toucher"
+      },
+      "answer": "A",
       "id": "sci-fr-easy-003",
-      "difficulty": "easy",
-      "question": "Combien de pattes a un chien ?",
-      "options": {
-        "A": "Deux",
-        "B": "Quatre",
-        "C": "Six",
-        "D": "Huit"
-      },
-      "answer": "B"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel sens utilise-t-on pour toucher une surface ?",
+      "options": {
+        "A": "Le goût",
+        "B": "L'ouïe",
+        "C": "Le toucher",
+        "D": "La vue"
+      },
+      "answer": "C",
       "id": "sci-fr-easy-004",
-      "difficulty": "easy",
-      "question": "Quel animal pond des œufs ?",
-      "options": {
-        "A": "Chien",
-        "B": "Chat",
-        "C": "Poule",
-        "D": "Cheval"
-      },
-      "answer": "C"
+      "difficulty": "easy"
     },
     {
+      "question": "Quelle partie du corps sert surtout à voir ?",
+      "options": {
+        "A": "Les mains",
+        "B": "Les genoux",
+        "C": "Les oreilles",
+        "D": "Les yeux"
+      },
+      "answer": "D",
       "id": "sci-fr-easy-005",
-      "difficulty": "easy",
-      "question": "Avec quoi voit-on ?",
-      "options": {
-        "A": "Les oreilles",
-        "B": "Les yeux",
-        "C": "Le nez",
-        "D": "Les pieds"
-      },
-      "answer": "B"
+      "difficulty": "easy"
     },
     {
+      "question": "Quelle partie du corps sert surtout à entendre ?",
+      "options": {
+        "A": "Les pieds",
+        "B": "Les dents",
+        "C": "Les oreilles",
+        "D": "Le ventre"
+      },
+      "answer": "C",
       "id": "sci-fr-easy-006",
-      "difficulty": "easy",
-      "question": "Quand l’eau gèle, elle devient quoi ?",
-      "options": {
-        "A": "Fumée",
-        "B": "Jus",
-        "C": "Glace",
-        "D": "Sable"
-      },
-      "answer": "C"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel organe bat pour faire circuler le sang ?",
+      "options": {
+        "A": "Le nez",
+        "B": "Le cerveau",
+        "C": "Le cœur",
+        "D": "Le foie"
+      },
+      "answer": "C",
       "id": "sci-fr-easy-007",
-      "difficulty": "easy",
-      "question": "Qu’est-ce qui éclaire la Terre le jour ?",
-      "options": {
-        "A": "La Lune",
-        "B": "Le Soleil",
-        "C": "Une lampe",
-        "D": "Une étoile filante"
-      },
-      "answer": "B"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel organe aide à respirer ?",
+      "options": {
+        "A": "Les poumons",
+        "B": "Les cheveux",
+        "C": "Les reins",
+        "D": "Les os"
+      },
+      "answer": "A",
       "id": "sci-fr-easy-008",
-      "difficulty": "easy",
-      "question": "Quel fruit pousse sur un pommier ?",
-      "options": {
-        "A": "Banane",
-        "B": "Orange",
-        "C": "Pomme",
-        "D": "Cerise"
-      },
-      "answer": "C"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel geste aide à garder les dents propres ?",
+      "options": {
+        "A": "Les peindre",
+        "B": "Les brosser",
+        "C": "Les plier",
+        "D": "Les compter"
+      },
+      "answer": "B",
       "id": "sci-fr-easy-009",
-      "difficulty": "easy",
-      "question": "Quel animal est très grand et a une trompe ?",
-      "options": {
-        "A": "Éléphant",
-        "B": "Chat",
-        "C": "Chien",
-        "D": "Lapin"
-      },
-      "answer": "A"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel geste aide à rester en bonne hygiène avant de manger ?",
+      "options": {
+        "A": "Ouvrir la fenêtre",
+        "B": "Sauter sur place",
+        "C": "Se laver les mains",
+        "D": "Fermer les yeux"
+      },
+      "answer": "C",
       "id": "sci-fr-easy-010",
-      "difficulty": "easy",
-      "question": "De quoi les plantes ont-elles besoin pour boire ?",
-      "options": {
-        "A": "Huile",
-        "B": "Eau",
-        "C": "Lait",
-        "D": "Jus"
-      },
-      "answer": "B"
+      "difficulty": "easy"
     },
     {
+      "question": "Lequel est un être vivant ?",
+      "options": {
+        "A": "Une balle",
+        "B": "Une plante",
+        "C": "Une chaise",
+        "D": "Une pierre"
+      },
+      "answer": "B",
       "id": "sci-fr-easy-011",
-      "difficulty": "easy",
-      "question": "Quel animal donne du lait ?",
-      "options": {
-        "A": "Vache",
-        "B": "Lion",
-        "C": "Chien",
-        "D": "Renard"
-      },
-      "answer": "A"
+      "difficulty": "easy"
     },
     {
+      "question": "Lequel est un animal ?",
+      "options": {
+        "A": "Le cahier",
+        "B": "La table",
+        "C": "Le chat",
+        "D": "La lampe"
+      },
+      "answer": "C",
       "id": "sci-fr-easy-012",
-      "difficulty": "easy",
-      "question": "Quel organe bat dans notre poitrine ?",
-      "options": {
-        "A": "Le cerveau",
-        "B": "Le cœur",
-        "C": "Le nez",
-        "D": "La main"
-      },
-      "answer": "B"
+      "difficulty": "easy"
     },
     {
+      "question": "Lequel est un végétal ?",
+      "options": {
+        "A": "L'arbre",
+        "B": "Le tapis",
+        "C": "Le vélo",
+        "D": "La cuillère"
+      },
+      "answer": "A",
       "id": "sci-fr-easy-013",
-      "difficulty": "easy",
-      "question": "Quel animal a une longue trompe ?",
-      "options": {
-        "A": "Girafe",
-        "B": "Éléphant",
-        "C": "Chat",
-        "D": "Chien"
-      },
-      "answer": "B"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel animal vit souvent dans l'eau ?",
+      "options": {
+        "A": "La voiture",
+        "B": "Le marteau",
+        "C": "Le livre",
+        "D": "Le poisson"
+      },
+      "answer": "D",
       "id": "sci-fr-easy-014",
-      "difficulty": "easy",
-      "question": "Quand l’eau bout, elle devient quoi ?",
-      "options": {
-        "A": "Glace",
-        "B": "Jus",
-        "C": "Vapeur",
-        "D": "Sable"
-      },
-      "answer": "C"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel animal est souvent domestique ?",
+      "options": {
+        "A": "Le serpent",
+        "B": "Le lion",
+        "C": "Le requin",
+        "D": "Le chien"
+      },
+      "answer": "D",
       "id": "sci-fr-easy-015",
-      "difficulty": "easy",
-      "question": "Quel animal miaule ?",
-      "options": {
-        "A": "Chien",
-        "B": "Chat",
-        "C": "Vache",
-        "D": "Cheval"
-      },
-      "answer": "B"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel être vivant peut voler ?",
+      "options": {
+        "A": "L'oiseau",
+        "B": "La bouteille",
+        "C": "Le rocher",
+        "D": "Le thermomètre"
+      },
+      "answer": "A",
       "id": "sci-fr-easy-016",
-      "difficulty": "easy",
-      "question": "Quel animal porte une coquille sur son dos ?",
-      "options": {
-        "A": "Escargot",
-        "B": "Chat",
-        "C": "Chien",
-        "D": "Poisson"
-      },
-      "answer": "A"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel est un besoin d'une plante ?",
+      "options": {
+        "A": "De la lumière",
+        "B": "Du bruit",
+        "C": "Du métal",
+        "D": "De la peinture"
+      },
+      "answer": "A",
       "id": "sci-fr-easy-017",
-      "difficulty": "easy",
-      "question": "Quel animal peut voler dans le ciel ?",
-      "options": {
-        "A": "Oiseau",
-        "B": "Chien",
-        "C": "Chat",
-        "D": "Tortue"
-      },
-      "answer": "A"
+      "difficulty": "easy"
     },
     {
+      "question": "Que fait une graine quand elle commence à pousser ?",
+      "options": {
+        "A": "Elle rougit",
+        "B": "Elle se met à chanter",
+        "C": "Elle fond",
+        "D": "Elle germe"
+      },
+      "answer": "D",
       "id": "sci-fr-easy-018",
-      "difficulty": "easy",
-      "question": "Quel animal vit dans l’eau et nage avec des nageoires ?",
-      "options": {
-        "A": "Chat",
-        "B": "Chien",
-        "C": "Poisson",
-        "D": "Lapin"
-      },
-      "answer": "C"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel mot décrit quelque chose qui n'est pas vivant ?",
+      "options": {
+        "A": "Une fleur",
+        "B": "Un chat",
+        "C": "Une pierre",
+        "D": "Un arbre"
+      },
+      "answer": "C",
       "id": "sci-fr-easy-019",
-      "difficulty": "easy",
-      "question": "Quel animal rugit ?",
-      "options": {
-        "A": "Lion",
-        "B": "Chat",
-        "C": "Lapin",
-        "D": "Vache"
-      },
-      "answer": "A"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel être vivant fabrique du miel ?",
+      "options": {
+        "A": "Le hérisson",
+        "B": "L'abeille",
+        "C": "Le renard",
+        "D": "La grenouille"
+      },
+      "answer": "B",
       "id": "sci-fr-easy-020",
-      "difficulty": "easy",
-      "question": "Quel animal a une grande crinière ?",
-      "options": {
-        "A": "Lion",
-        "B": "Chien",
-        "C": "Poisson",
-        "D": "Lapin"
-      },
-      "answer": "A"
+      "difficulty": "easy"
     },
     {
+      "question": "Dans quel état est la glace ?",
+      "options": {
+        "A": "Liquide",
+        "B": "Gaz",
+        "C": "Solide",
+        "D": "Vapeur"
+      },
+      "answer": "C",
       "id": "sci-fr-easy-021",
-      "difficulty": "easy",
-      "question": "Quel insecte fait du miel ?",
-      "options": {
-        "A": "Abeille",
-        "B": "Mouche",
-        "C": "Fourmi",
-        "D": "Papillon"
-      },
-      "answer": "A"
+      "difficulty": "easy"
     },
     {
+      "question": "Dans quel état est l'eau dans un verre ?",
+      "options": {
+        "A": "Liquide",
+        "B": "Solide",
+        "C": "Bois",
+        "D": "Métal"
+      },
+      "answer": "A",
       "id": "sci-fr-easy-022",
-      "difficulty": "easy",
-      "question": "Quel animal a une bosse sur le dos ?",
-      "options": {
-        "A": "Chameau",
-        "B": "Chat",
-        "C": "Chien",
-        "D": "Cheval"
-      },
-      "answer": "A"
+      "difficulty": "easy"
     },
     {
+      "question": "Quand l'eau chauffe beaucoup, elle peut devenir...",
+      "options": {
+        "A": "De la vapeur",
+        "B": "Du sable",
+        "C": "Du sucre",
+        "D": "Du papier"
+      },
+      "answer": "A",
       "id": "sci-fr-easy-023",
-      "difficulty": "easy",
-      "question": "Quel animal aboie ?",
-      "options": {
-        "A": "Chat",
-        "B": "Chien",
-        "C": "Poisson",
-        "D": "Lapin"
-      },
-      "answer": "B"
+      "difficulty": "easy"
     },
     {
+      "question": "Quand l'eau gèle, elle devient...",
+      "options": {
+        "A": "De la glace",
+        "B": "Du jus",
+        "C": "Du sel",
+        "D": "Du vent"
+      },
+      "answer": "A",
       "id": "sci-fr-easy-024",
-      "difficulty": "easy",
-      "question": "Quel animal a un très long cou ?",
-      "options": {
-        "A": "Girafe",
-        "B": "Chat",
-        "C": "Chien",
-        "D": "Poisson"
-      },
-      "answer": "A"
+      "difficulty": "easy"
     },
     {
+      "question": "Quel mot désigne l'eau qui tombe du ciel ?",
+      "options": {
+        "A": "La fumée",
+        "B": "La pluie",
+        "C": "La rouille",
+        "D": "La poussière"
+      },
+      "answer": "B",
       "id": "sci-fr-easy-025",
-      "difficulty": "easy",
-      "question": "Quel animal nage dans l’eau ?",
-      "options": {
-        "A": "Chien",
-        "B": "Chat",
-        "C": "Poisson",
-        "D": "Vache"
-      },
-      "answer": "C"
+      "difficulty": "easy"
     },
     {
+      "question": "Quelle action permet souvent de faire fondre la glace ?",
+      "options": {
+        "A": "Couper",
+        "B": "Chauffer",
+        "C": "Colorier",
+        "D": "Cacher"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-026",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel liquide boit-on généralement ?",
+      "options": {
+        "A": "Le pétrole",
+        "B": "L'encre",
+        "C": "La colle",
+        "D": "L'eau"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-027",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quelle matière est souvent transparente ?",
+      "options": {
+        "A": "La pierre",
+        "B": "Le verre",
+        "C": "Le bois",
+        "D": "Le tissu"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-028",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel mot décrit le passage de l'eau vers la vapeur ?",
+      "options": {
+        "A": "Évaporation",
+        "B": "Solidification",
+        "C": "Réparation",
+        "D": "Décoration"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-029",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel mot décrit le passage de la vapeur vers l'eau liquide ?",
+      "options": {
+        "A": "Condensation",
+        "B": "Dissolution",
+        "C": "Filtration",
+        "D": "Rotation"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-030",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quelle saison vient souvent après l'hiver ?",
+      "options": {
+        "A": "L'été",
+        "B": "Le printemps",
+        "C": "L'automne",
+        "D": "La nuit"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-031",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quelle saison est souvent la plus chaude ?",
+      "options": {
+        "A": "L'été",
+        "B": "Le brouillard",
+        "C": "L'hiver",
+        "D": "Le matin"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-032",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel astre nous éclaire le jour ?",
+      "options": {
+        "A": "Jupiter",
+        "B": "Mars",
+        "C": "La Lune",
+        "D": "Le Soleil"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-033",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Que voit-on souvent dans le ciel la nuit ?",
+      "options": {
+        "A": "Une chaise",
+        "B": "Une clé",
+        "C": "La Lune",
+        "D": "Un stylo"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-034",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel est le nom de notre planète ?",
+      "options": {
+        "A": "Le Soleil",
+        "B": "La Lune",
+        "C": "La Terre",
+        "D": "Saturne"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-035",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet aide à voir la forme de la Terre ?",
+      "options": {
+        "A": "Une plume",
+        "B": "Un globe",
+        "C": "Une gomme",
+        "D": "Une cuillère"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-036",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel phénomène apporte parfois de l'eau aux plantes ?",
+      "options": {
+        "A": "La pluie",
+        "B": "La craie",
+        "C": "Le sable",
+        "D": "Le silence"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-037",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Que ressent-on souvent en hiver ?",
+      "options": {
+        "A": "Le goût",
+        "B": "Le froid",
+        "C": "La lumière bleue",
+        "D": "La chaleur intense"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-038",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel mot décrit le ciel avec beaucoup de nuages ?",
+      "options": {
+        "A": "Soyeux",
+        "B": "Carré",
+        "C": "Coupant",
+        "D": "Nuageux"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-039",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Que se passe-t-il quand le Soleil se couche ?",
+      "options": {
+        "A": "La Terre disparaît",
+        "B": "Les arbres marchent",
+        "C": "Le vent s'arrête toujours",
+        "D": "La nuit commence"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-040",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet sert à écrire ?",
+      "options": {
+        "A": "Une écharpe",
+        "B": "Un caillou",
+        "C": "Un stylo",
+        "D": "Une assiette"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-041",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet sert à mesurer une longueur ?",
+      "options": {
+        "A": "Une règle",
+        "B": "Une tasse",
+        "C": "Un coussin",
+        "D": "Une chaussure"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-042",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet sert à regarder l'heure ?",
+      "options": {
+        "A": "Un rideau",
+        "B": "Un tournevis",
+        "C": "Une montre",
+        "D": "Un balai"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-043",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet éclaire une pièce ?",
+      "options": {
+        "A": "Une fourchette",
+        "B": "Une lampe",
+        "C": "Une serviette",
+        "D": "Une boîte"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-044",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet sert à couper du papier ?",
+      "options": {
+        "A": "Une cuillère",
+        "B": "Des ciseaux",
+        "C": "Un verre",
+        "D": "Un peigne"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-045",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Dans un circuit simple, que fournit la pile ?",
+      "options": {
+        "A": "Du vent",
+        "B": "De la farine",
+        "C": "L'énergie électrique",
+        "D": "Du parfum"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-046",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel composant peut s'allumer dans un circuit simple ?",
+      "options": {
+        "A": "Une chaise",
+        "B": "Un ballon",
+        "C": "Une ampoule",
+        "D": "Un rocher"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-047",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet aide à voir de plus près ?",
+      "options": {
+        "A": "Une brosse",
+        "B": "Une loupe",
+        "C": "Un marteau",
+        "D": "Un verre vide"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-048",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet transporte souvent des personnes ?",
+      "options": {
+        "A": "Un tableau",
+        "B": "Un vélo",
+        "C": "Une cloche",
+        "D": "Un coussin"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-049",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel outil permet souvent de prendre la température ?",
+      "options": {
+        "A": "Un compas",
+        "B": "Un gobelet",
+        "C": "Une règle",
+        "D": "Un thermomètre"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-050",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel aliment est un fruit ?",
+      "options": {
+        "A": "Le fromage",
+        "B": "Le riz",
+        "C": "Le sel",
+        "D": "La pomme"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-051",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel aliment vient des céréales ?",
+      "options": {
+        "A": "La pierre",
+        "B": "La chaise",
+        "C": "La plume",
+        "D": "Le pain"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-052",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel est un aliment riche en protéines ?",
+      "options": {
+        "A": "L'œuf",
+        "B": "Le sucre",
+        "C": "Le poivre",
+        "D": "L'eau"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-053",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Que faut-il boire régulièrement ?",
+      "options": {
+        "A": "Du verre",
+        "B": "De l'eau",
+        "C": "Du sable",
+        "D": "De la craie"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-054",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel repas prend-on souvent le matin ?",
+      "options": {
+        "A": "Le goûter de nuit",
+        "B": "Le petit-déjeuner",
+        "C": "Le dîner",
+        "D": "Le repas du futur"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-055",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel geste aide le corps à rester en forme ?",
+      "options": {
+        "A": "Manger du papier",
+        "B": "Bouger",
+        "C": "Rester immobile toute la vie",
+        "D": "Ne jamais respirer"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-056",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel organe utilise l'air que nous respirons ?",
+      "options": {
+        "A": "Les poumons",
+        "B": "Les ongles",
+        "C": "Le genou",
+        "D": "Le cerveau uniquement"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-057",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel aliment est souvent sucré ?",
+      "options": {
+        "A": "Le caillou",
+        "B": "Le gâteau",
+        "C": "Le bois",
+        "D": "Le métal"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-058",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel est un signe de fatigue ?",
+      "options": {
+        "A": "Avoir froid au soleil",
+        "B": "Avoir des ailes",
+        "C": "Avoir de la peinture",
+        "D": "Avoir sommeil"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-059",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet aide à protéger du froid ?",
+      "options": {
+        "A": "Une fourchette",
+        "B": "Un carnet",
+        "C": "Une règle",
+        "D": "Un manteau"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-060",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quand on regarde quelque chose avec attention, on...",
+      "options": {
+        "A": "Invente",
+        "B": "Casse",
+        "C": "Coupe",
+        "D": "Observe"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-061",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Avant de faire une expérience, on doit souvent...",
+      "options": {
+        "A": "Dormir",
+        "B": "Prédire",
+        "C": "Ranger la lune",
+        "D": "Oublier"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-062",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel outil sert à mesurer la température ?",
+      "options": {
+        "A": "Une loupe",
+        "B": "Un thermomètre",
+        "C": "Une clé",
+        "D": "Un boulier"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-063",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel outil peut aider à voir un petit objet ?",
+      "options": {
+        "A": "Un verre vide",
+        "B": "Une loupe",
+        "C": "Une brosse",
+        "D": "Un marteau"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-064",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel carnet sert à noter les observations ?",
+      "options": {
+        "A": "Une chaise",
+        "B": "Un parapluie",
+        "C": "Un cahier",
+        "D": "Un oreiller"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-065",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Pourquoi compare-t-on deux objets ?",
+      "options": {
+        "A": "Pour repérer des différences",
+        "B": "Pour les rendre invisibles",
+        "C": "Pour les faire disparaître",
+        "D": "Pour changer le soleil"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-066",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel sens aide à observer une couleur ?",
+      "options": {
+        "A": "Le goût",
+        "B": "L'ouïe",
+        "C": "La vue",
+        "D": "L'odorat"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-067",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quelle phrase décrit le mieux une expérience ?",
+      "options": {
+        "A": "On dessine un arbre uniquement",
+        "B": "On dort pendant une heure",
+        "C": "On teste quelque chose",
+        "D": "On oublie le résultat"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-068",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet sert à verser un liquide avec précision ?",
+      "options": {
+        "A": "Un gobelet gradué",
+        "B": "Une chaise",
+        "C": "Un ballon",
+        "D": "Un dictionnaire"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-069",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel mot désigne ce qu'on voit pendant une expérience ?",
+      "options": {
+        "A": "Une observation",
+        "B": "Un secret",
+        "C": "Un nuage",
+        "D": "Un bruit"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-070",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel animal chante souvent au lever du jour ?",
+      "options": {
+        "A": "Le lapin",
+        "B": "Le poisson",
+        "C": "Le coq",
+        "D": "La tortue"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-071",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel animal porte une carapace ?",
+      "options": {
+        "A": "Le moineau",
+        "B": "La tortue",
+        "C": "Le dauphin",
+        "D": "Le chat"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-072",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel milieu est salé ?",
+      "options": {
+        "A": "La chambre",
+        "B": "L'école",
+        "C": "La mer",
+        "D": "La montagne"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-073",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet peut indiquer la direction du nord ?",
+      "options": {
+        "A": "La chaussette",
+        "B": "La règle",
+        "C": "La boussole",
+        "D": "La gomme"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-074",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel matériau vient souvent du bois ?",
+      "options": {
+        "A": "Le papier",
+        "B": "Le métal",
+        "C": "Le verre",
+        "D": "Le plastique"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-075",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quelle partie d'une plante porte souvent les graines ?",
+      "options": {
+        "A": "La règle",
+        "B": "Le fruit",
+        "C": "La pile",
+        "D": "La pierre"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-076",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel mot désigne une eau très froide et solide ?",
+      "options": {
+        "A": "Le brouillard",
+        "B": "La chaleur",
+        "C": "La vapeur",
+        "D": "La glace"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-077",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet utilise souvent une roue ?",
+      "options": {
+        "A": "Une cuillère",
+        "B": "Une voiture",
+        "C": "Un trombone",
+        "D": "Un livre"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-078",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel est un bruit fort ?",
+      "options": {
+        "A": "Une plume",
+        "B": "Une feuille",
+        "C": "Un murmure",
+        "D": "Le tonnerre"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-079",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel appareil permet d'écouter du son ?",
+      "options": {
+        "A": "Un haut-parleur",
+        "B": "Un crayon",
+        "C": "Une pierre",
+        "D": "Une fenêtre"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-080",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel matériau est souvent dur et brillant ?",
+      "options": {
+        "A": "Le coton",
+        "B": "Le métal",
+        "C": "La mousse",
+        "D": "Le papier"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-081",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel matériau est souple ?",
+      "options": {
+        "A": "Le verre",
+        "B": "Le bois massif",
+        "C": "La pierre",
+        "D": "Le caoutchouc"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-082",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel matériau est souvent léger ?",
+      "options": {
+        "A": "Le granit",
+        "B": "Le fer",
+        "C": "Le plastique",
+        "D": "Le béton"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-083",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel matériau vient d'un arbre ?",
+      "options": {
+        "A": "Le sel",
+        "B": "Le verre",
+        "C": "Le sable",
+        "D": "Le bois"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-084",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel matériau est fragile ?",
+      "options": {
+        "A": "Le carton épais",
+        "B": "Le caoutchouc",
+        "C": "Le cuir",
+        "D": "Le verre"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-085",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel matériau absorbe souvent l'eau ?",
+      "options": {
+        "A": "Le métal",
+        "B": "Le tissu",
+        "C": "Le plastique dur",
+        "D": "La pierre"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-086",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel matériau est généralement opaque ?",
+      "options": {
+        "A": "L'air",
+        "B": "Le bois",
+        "C": "Le verre",
+        "D": "L'eau claire"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-087",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel matériau est transparent ?",
+      "options": {
+        "A": "Le métal",
+        "B": "Le verre",
+        "C": "Le bois",
+        "D": "La brique"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-088",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel matériau peut être recyclé facilement ?",
+      "options": {
+        "A": "L'argile cuite",
+        "B": "Le sable",
+        "C": "La roche",
+        "D": "Le papier"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-089",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel matériau est utilisé pour fabriquer des bouteilles ?",
+      "options": {
+        "A": "La craie",
+        "B": "Le coton",
+        "C": "Le plastique",
+        "D": "Le carton de laine"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-090",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel mot décrit un ciel sans nuages ?",
+      "options": {
+        "A": "Sableux",
+        "B": "Carré",
+        "C": "Collant",
+        "D": "Dégagé"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-091",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel phénomène est souvent associé au tonnerre ?",
+      "options": {
+        "A": "La neige fondue",
+        "B": "Le brouillard",
+        "C": "L'orage",
+        "D": "La canicule"
+      },
+      "answer": "C",
+      "id": "sci-fr-easy-092",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel symbole de météo indique souvent le vent ?",
+      "options": {
+        "A": "Une flèche",
+        "B": "Une assiette",
+        "C": "Une fourchette",
+        "D": "Un stylo"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-093",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Que mesure souvent la météo ?",
+      "options": {
+        "A": "La couleur des pierres",
+        "B": "La taille des chaussures",
+        "C": "Le goût du pain",
+        "D": "L'état du temps"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-094",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel objet aide à savoir la température extérieure ?",
+      "options": {
+        "A": "Un thermomètre",
+        "B": "Une règle",
+        "C": "Un sifflet",
+        "D": "Une lampe"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-095",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel phénomène peut rendre le sol mouillé après la nuit ?",
+      "options": {
+        "A": "Le brouillard sec",
+        "B": "La rosée",
+        "C": "Le métal fondu",
+        "D": "Le sable chaud"
+      },
+      "answer": "B",
+      "id": "sci-fr-easy-096",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel mot décrit une période très chaude ?",
+      "options": {
+        "A": "Une canicule",
+        "B": "Une girafe",
+        "C": "Une racine",
+        "D": "Une nuée"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-097",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel mot décrit une période très froide avec de la neige ?",
+      "options": {
+        "A": "Une vague de froid",
+        "B": "Une vague de lumière",
+        "C": "Une vague de bruit",
+        "D": "Une vague de sel"
+      },
+      "answer": "A",
+      "id": "sci-fr-easy-098",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel instrument mesure souvent la pluie ?",
+      "options": {
+        "A": "Un miroir",
+        "B": "Une balance",
+        "C": "Une boussole",
+        "D": "Un pluviomètre"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-099",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel phénomène se forme parfois près de la mer ?",
+      "options": {
+        "A": "Le soleil",
+        "B": "La pierre",
+        "C": "Le sel",
+        "D": "Le brouillard"
+      },
+      "answer": "D",
+      "id": "sci-fr-easy-100",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Quel est le bon ordre du cycle de vie d'un papillon ?",
+      "options": {
+        "A": "Papillon, œuf, chrysalide, chenille",
+        "B": "Œuf, chenille, chrysalide, papillon",
+        "C": "Chenille, œuf, papillon, chrysalide",
+        "D": "Œuf, papillon, chenille, chrysalide"
+      },
+      "answer": "B",
       "id": "sci-fr-medium-001",
-      "difficulty": "medium",
-      "question": "Quel organe pompe le sang ?",
-      "options": {
-        "A": "Poumon",
-        "B": "Cœur",
-        "C": "Estomac",
-        "D": "Foie"
-      },
-      "answer": "B"
+      "difficulty": "medium"
     },
     {
+      "question": "Quel est le bon ordre du cycle de vie d'une plante ?",
+      "options": {
+        "A": "Graine, germination, croissance, floraison",
+        "B": "Croissance, floraison, graine, germination",
+        "C": "Floraison, croissance, graine, germination",
+        "D": "Germination, graine, floraison, croissance"
+      },
+      "answer": "A",
       "id": "sci-fr-medium-002",
-      "difficulty": "medium",
-      "question": "Quel animal a une carapace dure ?",
-      "options": {
-        "A": "Tortue",
-        "B": "Aigle",
-        "C": "Dauphin",
-        "D": "Renard"
-      },
-      "answer": "A"
+      "difficulty": "medium"
     },
     {
+      "question": "Quand un animal grandit, on dit qu'il...",
+      "options": {
+        "A": "Se refroidit",
+        "B": "Se dessine",
+        "C": "Se décolle",
+        "D": "Se développe"
+      },
+      "answer": "D",
       "id": "sci-fr-medium-003",
-      "difficulty": "medium",
-      "question": "Quelle partie d'une plante fait la photosynthèse ?",
-      "options": {
-        "A": "Racine",
-        "B": "Fleur",
-        "C": "Feuille",
-        "D": "Tige"
-      },
-      "answer": "C"
+      "difficulty": "medium"
     },
     {
+      "question": "Quel besoin est commun à tous les êtres vivants ?",
+      "options": {
+        "A": "Se teindre",
+        "B": "Se nourrir",
+        "C": "Rouler",
+        "D": "S'habiller"
+      },
+      "answer": "B",
       "id": "sci-fr-medium-004",
-      "difficulty": "medium",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel phénomène indique qu'une graine commence à vivre ?",
+      "options": {
+        "A": "La cuisson",
+        "B": "La peinture",
+        "C": "La rouille",
+        "D": "La germination"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-005",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est le rôle principal des racines ?",
+      "options": {
+        "A": "Fabriquer du miel",
+        "B": "Produire du bruit",
+        "C": "Faire fondre la neige",
+        "D": "Absorber l'eau du sol"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-006",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Que produit une plante verte grâce à la lumière ?",
+      "options": {
+        "A": "Sa propre nourriture",
+        "B": "Des os",
+        "C": "Du sel",
+        "D": "Du métal"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-007",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Que fait une chenille avant de devenir papillon ?",
+      "options": {
+        "A": "Elle pousse des dents",
+        "B": "Elle se change en arbre",
+        "C": "Elle devient un caillou",
+        "D": "Elle se transforme en chrysalide"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-008",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est un caractère commun à beaucoup d'animaux ?",
+      "options": {
+        "A": "Ils naissent, grandissent et se reproduisent",
+        "B": "Ils ne mangent jamais",
+        "C": "Ils ont tous des ailes",
+        "D": "Ils sont tous marins"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-009",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quelle partie de la plante protège souvent les graines ?",
+      "options": {
+        "A": "Le soleil",
+        "B": "La tige",
+        "C": "Le fruit",
+        "D": "La boussole"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-010",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel phénomène explique l'alternance du jour et de la nuit ?",
+      "options": {
+        "A": "Le déplacement des nuages",
+        "B": "La rotation du Soleil autour de la Terre",
+        "C": "La rotation de la Terre sur elle-même",
+        "D": "La révolution de la Terre autour du Soleil"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-011",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel mouvement de la Terre autour du Soleil est lié aux saisons ?",
+      "options": {
+        "A": "La condensation",
+        "B": "La solidification",
+        "C": "La filtration",
+        "D": "La révolution"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-012",
+      "difficulty": "medium"
+    },
+    {
       "question": "Quelle planète est la plus proche du Soleil ?",
       "options": {
-        "A": "Terre",
-        "B": "Mars",
+        "A": "Mars",
+        "B": "Vénus",
         "C": "Mercure",
         "D": "Jupiter"
       },
-      "answer": "C"
-    },
-    {
-      "id": "sci-fr-medium-005",
-      "difficulty": "medium",
-      "question": "Le vent est causé par quoi ?",
-      "options": {
-        "A": "Mouvements de l'air",
-        "B": "Courants marins",
-        "C": "Croissance des plantes",
-        "D": "Soleil éteint"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-fr-medium-006",
-      "difficulty": "medium",
-      "question": "Qu'est-ce qu'un solide qui fond devient ?",
-      "options": {
-        "A": "Gaz",
-        "B": "Liquide",
-        "C": "Autre solide",
-        "D": "Plasma"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-fr-medium-007",
-      "difficulty": "medium",
-      "question": "Quel gaz les plantes absorbent ?",
-      "options": {
-        "A": "Oxygène",
-        "B": "Azote",
-        "C": "Dioxyde de carbone",
-        "D": "Hydrogène"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "sci-fr-medium-008",
-      "difficulty": "medium",
-      "question": "Quel sens utilise-t-on pour écouter ?",
-      "options": {
-        "A": "Vue",
-        "B": "Ouïe",
-        "C": "Goût",
-        "D": "Odorat"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "sci-fr-medium-009",
-      "difficulty": "medium",
-      "question": "Quel organe aide à respirer ?",
-      "options": {
-        "A": "Poumons",
-        "B": "Cœur",
-        "C": "Estomac",
-        "D": "Peau"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-fr-medium-010",
-      "difficulty": "medium",
-      "question": "Quel animal pond des œufs et vole ?",
-      "options": {
-        "A": "Chien",
-        "B": "Poisson",
-        "C": "Oiseau",
-        "D": "Chat"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "sci-fr-medium-011",
-      "difficulty": "medium",
-      "question": "La lumière voyage plus vite que quoi ?",
-      "options": {
-        "A": "Le son",
-        "B": "La pensée",
-        "C": "Le vent",
-        "D": "La glace"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "sci-fr-medium-012",
-      "difficulty": "medium",
-      "question": "Quelle planète est appelée la planète rouge ?",
-      "options": {
-        "A": "Vénus",
-        "B": "Mars",
-        "C": "Saturne",
-        "D": "Mercure"
-      },
-      "answer": "B"
-    },
-    {
+      "answer": "C",
       "id": "sci-fr-medium-013",
-      "difficulty": "medium",
-      "question": "Quel liquide transporte les nutriments dans le corps ?",
-      "options": {
-        "A": "Lait",
-        "B": "Sang",
-        "C": "Urine",
-        "D": "Salive"
-      },
-      "answer": "B"
+      "difficulty": "medium"
     },
     {
+      "question": "Quel astre est un satellite naturel de la Terre ?",
+      "options": {
+        "A": "Mercure",
+        "B": "Le Soleil",
+        "C": "Saturne",
+        "D": "La Lune"
+      },
+      "answer": "D",
       "id": "sci-fr-medium-014",
-      "difficulty": "medium",
-      "question": "Quel animal est un mammifère marin ?",
-      "options": {
-        "A": "Requin",
-        "B": "Dauphin",
-        "C": "Pieuvre",
-        "D": "Étoile de mer"
-      },
-      "answer": "B"
+      "difficulty": "medium"
     },
     {
+      "question": "Quel objet représente bien le système solaire en classe ?",
+      "options": {
+        "A": "Une maquette",
+        "B": "Une fourchette",
+        "C": "Une gomme",
+        "D": "Un cahier"
+      },
+      "answer": "A",
       "id": "sci-fr-medium-015",
-      "difficulty": "medium",
-      "question": "La pluie est eau sous quelle forme ?",
-      "options": {
-        "A": "Solide",
-        "B": "Gaz",
-        "C": "Liquide",
-        "D": "Plasma"
-      },
-      "answer": "C"
+      "difficulty": "medium"
     },
     {
+      "question": "Quel phénomène est dû à l'inclinaison de l'axe terrestre ?",
+      "options": {
+        "A": "Le goût du pain",
+        "B": "La forme des nuages",
+        "C": "Les saisons",
+        "D": "La couleur des pierres"
+      },
+      "answer": "C",
       "id": "sci-fr-medium-016",
-      "difficulty": "medium",
-      "question": "Quel organe digère la nourriture ?",
-      "options": {
-        "A": "Cerveau",
-        "B": "Estomac",
-        "C": "Rein",
-        "D": "Poumon"
-      },
-      "answer": "B"
+      "difficulty": "medium"
     },
     {
+      "question": "Que tourne autour du Soleil ?",
+      "options": {
+        "A": "Les ciseaux",
+        "B": "Les planètes",
+        "C": "Les stylos",
+        "D": "Les chaises"
+      },
+      "answer": "B",
       "id": "sci-fr-medium-017",
-      "difficulty": "medium",
-      "question": "Quel phénomène cause un arc-en-ciel ?",
-      "options": {
-        "A": "Réflexion du son",
-        "B": "Réfraction de la lumière",
-        "C": "Magnétisme",
-        "D": "Vents forts"
-      },
-      "answer": "B"
+      "difficulty": "medium"
     },
     {
+      "question": "Quel est l'ordre correct des astres du plus proche au plus lointain pour la Terre ?",
+      "options": {
+        "A": "Soleil, Terre, Lune",
+        "B": "Soleil, Lune, Terre",
+        "C": "Lune, Soleil, Terre",
+        "D": "Terre, Lune, Soleil"
+      },
+      "answer": "A",
       "id": "sci-fr-medium-018",
-      "difficulty": "medium",
-      "question": "Quel animal a des écailles et respire dans l'eau ?",
-      "options": {
-        "A": "Poisson",
-        "B": "Chien",
-        "C": "Oiseau",
-        "D": "Lapin"
-      },
-      "answer": "A"
+      "difficulty": "medium"
     },
     {
+      "question": "Quel mot désigne la trajectoire d'une planète autour d'une étoile ?",
+      "options": {
+        "A": "Une règle",
+        "B": "Un circuit électrique",
+        "C": "Une racine",
+        "D": "Une orbite"
+      },
+      "answer": "D",
       "id": "sci-fr-medium-019",
-      "difficulty": "medium",
-      "question": "Quel élément est nécessaire pour brûler ?",
-      "options": {
-        "A": "Eau",
-        "B": "Air (oxygène)",
-        "C": "Glaçon",
-        "D": "Terre"
-      },
-      "answer": "B"
+      "difficulty": "medium"
     },
     {
+      "question": "Quel phénomène peut cacher partiellement le Soleil par la Lune ?",
+      "options": {
+        "A": "Une aurore boréale",
+        "B": "Une éclipse de Soleil",
+        "C": "Une marée de sable",
+        "D": "Une pluie d'étoiles"
+      },
+      "answer": "B",
       "id": "sci-fr-medium-020",
-      "difficulty": "medium",
-      "question": "Que mesure un thermomètre ?",
-      "options": {
-        "A": "Vitesse",
-        "B": "Température",
-        "C": "Pression",
-        "D": "Distance"
-      },
-      "answer": "B"
+      "difficulty": "medium"
     },
     {
+      "question": "Que fait une filtration ?",
+      "options": {
+        "A": "Elle fabrique de l'électricité",
+        "B": "Elle sépare un solide d'un liquide",
+        "C": "Elle transforme l'eau en glace",
+        "D": "Elle mélange deux liquides"
+      },
+      "answer": "B",
       "id": "sci-fr-medium-021",
-      "difficulty": "medium",
-      "question": "Quelle partie de la graine devient la plante ?",
-      "options": {
-        "A": "Feuille",
-        "B": "Graine",
-        "C": "Embryon",
-        "D": "Fleur"
-      },
-      "answer": "C"
+      "difficulty": "medium"
     },
     {
+      "question": "Que fait la décantation ?",
+      "options": {
+        "A": "Elle permet de séparer des éléments de densités différentes",
+        "B": "Elle augmente la lumière",
+        "C": "Elle crée du vent",
+        "D": "Elle chauffe l'eau"
+      },
+      "answer": "A",
       "id": "sci-fr-medium-022",
-      "difficulty": "medium",
-      "question": "Quel corps céleste éclaire la nuit sur Terre ?",
-      "options": {
-        "A": "Lune",
-        "B": "Soleil",
-        "C": "Mars",
-        "D": "Étoile filante"
-      },
-      "answer": "A"
+      "difficulty": "medium"
     },
     {
+      "question": "Que signifie dissoudre ?",
+      "options": {
+        "A": "Faire disparaître un solide dans un liquide",
+        "B": "Faire tomber la pluie",
+        "C": "Faire pousser une graine",
+        "D": "Faire fondre une pierre dans l'air"
+      },
+      "answer": "A",
       "id": "sci-fr-medium-023",
-      "difficulty": "medium",
-      "question": "Quelle force nous garde au sol ?",
-      "options": {
-        "A": "Frottement",
-        "B": "Magnétisme",
-        "C": "Gravité",
-        "D": "Pression"
-      },
-      "answer": "C"
+      "difficulty": "medium"
     },
     {
+      "question": "Quel mélange est homogène ?",
+      "options": {
+        "A": "Un mélange de deux couleurs toujours visibles",
+        "B": "Un mélange avec des cailloux géants",
+        "C": "Un mélange où on ne distingue plus les constituants",
+        "D": "Un mélange d'un seul objet"
+      },
+      "answer": "C",
       "id": "sci-fr-medium-024",
-      "difficulty": "medium",
-      "question": "Quel liquide protège la plante dans ses feuilles ?",
-      "options": {
-        "A": "Sève",
-        "B": "Sang",
-        "C": "Lait",
-        "D": "Urine"
-      },
-      "answer": "A"
+      "difficulty": "medium"
     },
     {
+      "question": "Quel changement est réversible ?",
+      "options": {
+        "A": "Faire fondre la glace",
+        "B": "Rouiller un clou",
+        "C": "Brûler du papier",
+        "D": "Cuire un œuf"
+      },
+      "answer": "A",
       "id": "sci-fr-medium-025",
-      "difficulty": "medium",
-      "question": "Qu'est-ce qu'un habitat naturel ?",
-      "options": {
-        "A": "Maison humaine",
-        "B": "Environnement d'un animal",
-        "C": "Magasin",
-        "D": "Bibliothèque"
-      },
-      "answer": "B"
+      "difficulty": "medium"
     },
     {
-      "id": "sci-fr-hard-001",
-      "difficulty": "hard",
-      "question": "Quel système transporte l'oxygène dans le corps ?",
+      "question": "Quelle matière change d'état quand on la chauffe ou la refroidit ?",
       "options": {
-        "A": "Digestif",
-        "B": "Circulatoire",
-        "C": "Nerveux",
-        "D": "Squelettique"
+        "A": "L'eau",
+        "B": "Le fer uniquement",
+        "C": "Le papier",
+        "D": "Le plastique transparent"
       },
-      "answer": "B"
+      "answer": "A",
+      "id": "sci-fr-medium-026",
+      "difficulty": "medium"
     },
     {
-      "id": "sci-fr-hard-002",
-      "difficulty": "hard",
-      "question": "Quelle classification regroupe mammifères et oiseaux ?",
+      "question": "Que conserve-t-on lors d'un mélange ?",
       "options": {
-        "A": "Règne",
-        "B": "Ordre",
-        "C": "Classe",
-        "D": "Famille"
+        "A": "Le goût du vent",
+        "B": "Le nombre de saisons",
+        "C": "La masse totale",
+        "D": "La couleur du ciel"
       },
-      "answer": "C"
+      "answer": "C",
+      "id": "sci-fr-medium-027",
+      "difficulty": "medium"
     },
     {
-      "id": "sci-fr-hard-003",
-      "difficulty": "hard",
+      "question": "Quel est le point commun d'un solide ?",
+      "options": {
+        "A": "Il est toujours invisible",
+        "B": "Il garde sa forme",
+        "C": "Il flotte sans exception",
+        "D": "Il n'a pas de masse"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-028",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est le point commun d'un liquide ?",
+      "options": {
+        "A": "Il prend la forme du récipient",
+        "B": "Il garde toujours une forme carrée",
+        "C": "Il est toujours dur",
+        "D": "Il n'a jamais de volume"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-029",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est le point commun d'un gaz ?",
+      "options": {
+        "A": "Il garde une forme rigide",
+        "B": "Il pèse exactement zéro",
+        "C": "Il est toujours liquide",
+        "D": "Il peut se diffuser dans l'air"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-030",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quelle est une source d'énergie renouvelable ?",
+      "options": {
+        "A": "Le gaz naturel",
+        "B": "Le pétrole",
+        "C": "Le charbon",
+        "D": "Le soleil"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-031",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quelle est une source d'énergie non renouvelable ?",
+      "options": {
+        "A": "Le vent",
+        "B": "Le soleil",
+        "C": "Le charbon",
+        "D": "L'eau"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-032",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel objet transforme une énergie en mouvement ?",
+      "options": {
+        "A": "Une gomme",
+        "B": "Un crayon",
+        "C": "Une règle",
+        "D": "Un vélo"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-033",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel appareil permet de voir un programme informatique ?",
+      "options": {
+        "A": "Un caillou",
+        "B": "Un écran",
+        "C": "Une cuillère",
+        "D": "Un livre fermé"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-034",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel élément est important dans une chaîne technique ?",
+      "options": {
+        "A": "Le hasard seul",
+        "B": "Le besoin",
+        "C": "La couleur du mur",
+        "D": "Le bruit des oiseaux"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-035",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel objet technique peut servir à transporter de l'eau ?",
+      "options": {
+        "A": "Un coussin",
+        "B": "Un trombone",
+        "C": "Un puzzle",
+        "D": "Une pompe"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-036",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est l'intérêt d'un schéma technique ?",
+      "options": {
+        "A": "Expliquer le fonctionnement d'un objet",
+        "B": "Faire une poésie",
+        "C": "Décrire un rêve",
+        "D": "Montrer une photo de famille"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-037",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel objet aide à mesurer une distance sur une carte ?",
+      "options": {
+        "A": "La fenêtre",
+        "B": "Le soleil",
+        "C": "L'échelle",
+        "D": "Le thermomètre"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-038",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quelle action fait souvent un objet recyclé ?",
+      "options": {
+        "A": "Il est réutilisé ou transformé",
+        "B": "Il devient vivant",
+        "C": "Il s'illumine tout seul",
+        "D": "Il disparaît pour toujours"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-039",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est le rôle d'un levier ?",
+      "options": {
+        "A": "Changer la météo",
+        "B": "Aider à soulever ou déplacer une charge",
+        "C": "Créer des nuages",
+        "D": "Mesurer l'heure"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-040",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel organe permet de pomper le sang ?",
+      "options": {
+        "A": "Le foie",
+        "B": "Le cerveau",
+        "C": "Le cœur",
+        "D": "La peau"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-041",
+      "difficulty": "medium"
+    },
+    {
       "question": "Quel organe filtre le sang ?",
       "options": {
-        "A": "Foie",
-        "B": "Rein",
-        "C": "Cœur",
-        "D": "Poumon"
+        "A": "Les reins",
+        "B": "Les oreilles",
+        "C": "Les dents",
+        "D": "Les doigts"
       },
-      "answer": "B"
+      "answer": "A",
+      "id": "sci-fr-medium-042",
+      "difficulty": "medium"
     },
     {
-      "id": "sci-fr-hard-004",
-      "difficulty": "hard",
-      "question": "Quelle partie de la fleur contient le pollen ?",
+      "question": "Que fait l'estomac ?",
       "options": {
-        "A": "Pistil",
-        "B": "Sépale",
-        "C": "Étamine",
-        "D": "Tige"
+        "A": "Il fait pousser les cheveux",
+        "B": "Il aide à digérer les aliments",
+        "C": "Il fabrique les os",
+        "D": "Il produit la lumière"
       },
-      "answer": "C"
+      "answer": "B",
+      "id": "sci-fr-medium-043",
+      "difficulty": "medium"
     },
     {
-      "id": "sci-fr-hard-005",
-      "difficulty": "hard",
-      "question": "Quel est l'état d'un gaz comprimé qui devient liquide ?",
+      "question": "Quel système transporte le sang dans le corps ?",
       "options": {
-        "A": "Condensation",
-        "B": "Évaporation",
-        "C": "Sublimation",
-        "D": "Fusion"
+        "A": "Le système de chauffage",
+        "B": "Le système circulatoire",
+        "C": "Le système d'écriture",
+        "D": "Le système solaire"
       },
-      "answer": "A"
+      "answer": "B",
+      "id": "sci-fr-medium-044",
+      "difficulty": "medium"
     },
     {
-      "id": "sci-fr-hard-006",
-      "difficulty": "hard",
-      "question": "Quelle planète a des anneaux visibles ?",
+      "question": "Quel système permet de manger et de transformer les aliments ?",
       "options": {
-        "A": "Mars",
-        "B": "Saturne",
-        "C": "Venus",
-        "D": "Mercure"
+        "A": "Le système nerveux",
+        "B": "Le système osseux",
+        "C": "Le système digestif",
+        "D": "Le système respiratoire"
       },
-      "answer": "B"
+      "answer": "C",
+      "id": "sci-fr-medium-045",
+      "difficulty": "medium"
     },
     {
-      "id": "sci-fr-hard-007",
-      "difficulty": "hard",
-      "question": "Quel os protège le cerveau ?",
+      "question": "Pourquoi faut-il boire de l'eau ?",
       "options": {
-        "A": "Côtes",
-        "B": "Crâne",
-        "C": "Femur",
-        "D": "Vertèbre"
+        "A": "Pour changer la vitesse du vent",
+        "B": "Pour faire pousser des cailloux",
+        "C": "Pour rendre le ciel bleu",
+        "D": "Pour hydrater le corps"
       },
-      "answer": "B"
+      "answer": "D",
+      "id": "sci-fr-medium-046",
+      "difficulty": "medium"
     },
     {
-      "id": "sci-fr-hard-008",
-      "difficulty": "hard",
+      "question": "Quel mouvement aide le corps à rester en forme ?",
+      "options": {
+        "A": "Le silence absolu",
+        "B": "L'activité physique",
+        "C": "Le sommeil permanent",
+        "D": "L'immobilité totale"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-047",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel aliment appartient souvent au groupe des produits laitiers ?",
+      "options": {
+        "A": "La pierre",
+        "B": "Le yaourt",
+        "C": "Le métal",
+        "D": "Le caillou"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-048",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est un rôle des dents ?",
+      "options": {
+        "A": "Faire du bruit",
+        "B": "Réchauffer la pièce",
+        "C": "Couper et broyer les aliments",
+        "D": "Voir dans le noir"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-049",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est un bon choix pour un goûter équilibré ?",
+      "options": {
+        "A": "Un caillou",
+        "B": "Un morceau de bois",
+        "C": "Un fruit",
+        "D": "Une pile"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-050",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Que montre une chaîne alimentaire ?",
+      "options": {
+        "A": "Qui mange qui",
+        "B": "Les couleurs des saisons",
+        "C": "La distance entre les villes",
+        "D": "Le poids des nuages"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-051",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel être vivant est souvent un producteur ?",
+      "options": {
+        "A": "Un poisson",
+        "B": "Un hibou",
+        "C": "Un renard",
+        "D": "Une plante verte"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-052",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel être vivant est souvent un consommateur ?",
+      "options": {
+        "A": "Le soleil",
+        "B": "L'eau",
+        "C": "Un lapin",
+        "D": "La roche"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-053",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est le rôle des décomposeurs ?",
+      "options": {
+        "A": "Recycler la matière morte",
+        "B": "Créer des montagnes",
+        "C": "Éclairer la nuit",
+        "D": "Fabriquer du verre"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-054",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Que signifie biodiversité ?",
+      "options": {
+        "A": "Le nombre de voitures",
+        "B": "La taille des bâtiments",
+        "C": "La variété des êtres vivants",
+        "D": "Le goût des aliments"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-055",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel milieu est un habitat pour beaucoup d'animaux ?",
+      "options": {
+        "A": "Le garage vide",
+        "B": "Le placard",
+        "C": "Le tiroir",
+        "D": "La forêt"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-056",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est un exemple d'adaptation ?",
+      "options": {
+        "A": "Un livre qui parle",
+        "B": "Le pelage épais du renard polaire",
+        "C": "Une chaise qui grandit",
+        "D": "Une pierre qui chante"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-057",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel comportement aide à protéger la nature ?",
+      "options": {
+        "A": "Trier les déchets",
+        "B": "Arroser le plastique",
+        "C": "Casser les plantes",
+        "D": "Jeter tout par terre"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-058",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel élément est essentiel à la vie des plantes ?",
+      "options": {
+        "A": "La lumière",
+        "B": "Le métal",
+        "C": "Le bruit",
+        "D": "Le carton"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-059",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel terme décrit une espèce en danger ?",
+      "options": {
+        "A": "Invisible à coup sûr",
+        "B": "Menacée",
+        "C": "Éteinte par avance",
+        "D": "Fabriquée en papier"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-060",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est le premier pas d'une démarche scientifique ?",
+      "options": {
+        "A": "Inventer un résultat",
+        "B": "Observer",
+        "C": "Ranger les crayons",
+        "D": "Raconter une histoire"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-061",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Que fait-on après avoir formulé une hypothèse ?",
+      "options": {
+        "A": "On la teste",
+        "B": "On la cache",
+        "C": "On l'oublie",
+        "D": "On la dessine seulement"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-062",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel outil sert à mesurer une masse ?",
+      "options": {
+        "A": "Une boussole",
+        "B": "Une loupe",
+        "C": "Une balance",
+        "D": "Une horloge"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-063",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel outil sert à mesurer un volume de liquide ?",
+      "options": {
+        "A": "Une règle",
+        "B": "Une éprouvette graduée",
+        "C": "Un miroir",
+        "D": "Un compas"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-064",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Que représente un graphique ?",
+      "options": {
+        "A": "Des données organisées visuellement",
+        "B": "Un dessin au hasard",
+        "C": "Une poésie",
+        "D": "Un repas"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-065",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Pourquoi utilise-t-on un tableau de données ?",
+      "options": {
+        "A": "Pour dormir moins",
+        "B": "Pour changer le sujet",
+        "C": "Pour faire disparaître les nombres",
+        "D": "Pour comparer plus facilement"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-066",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Qu'est-ce qu'une conclusion ?",
+      "options": {
+        "A": "Un bruit",
+        "B": "Une réponse basée sur les résultats",
+        "C": "Une devinette",
+        "D": "Un objet technique"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-067",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quelle attitude est importante en science ?",
+      "options": {
+        "A": "Ignorer les résultats",
+        "B": "Éviter toute mesure",
+        "C": "Être précis",
+        "D": "Deviner sans test"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-068",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Que fait une expérience répétée ?",
+      "options": {
+        "A": "Elle remplace le Soleil",
+        "B": "Elle confirme ou non une hypothèse",
+        "C": "Elle supprime les données",
+        "D": "Elle change la météo"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-069",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Pourquoi note-t-on les observations ?",
+      "options": {
+        "A": "Pour ne pas les oublier",
+        "B": "Pour changer leur sens",
+        "C": "Pour les rendre plus floues",
+        "D": "Pour les effacer"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-070",
+      "difficulty": "medium"
+    },
+    {
       "question": "Quel gaz est le plus présent dans l'air ?",
       "options": {
-        "A": "Oxygène",
-        "B": "Dioxyde de carbone",
-        "C": "Azote",
-        "D": "Argon"
+        "A": "Le dioxyde de carbone",
+        "B": "L'azote",
+        "C": "L'oxygène",
+        "D": "L'hélium"
       },
-      "answer": "C"
+      "answer": "B",
+      "id": "sci-fr-medium-071",
+      "difficulty": "medium"
     },
     {
+      "question": "Quel gaz est indispensable à la respiration ?",
+      "options": {
+        "A": "Le dioxygène",
+        "B": "L'argon",
+        "C": "Le krypton",
+        "D": "Le néon"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-072",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel mot désigne des particules très petites qui composent la matière ?",
+      "options": {
+        "A": "Les routes",
+        "B": "Les saisons",
+        "C": "Les atomes",
+        "D": "Les couleurs"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-073",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Que forme l'association d'atomes ?",
+      "options": {
+        "A": "Une molécule",
+        "B": "Une planète",
+        "C": "Un volcan",
+        "D": "Une pierre"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-074",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est un exemple de mélange dans l'air ?",
+      "options": {
+        "A": "L'eau distillée",
+        "B": "Le fer pur",
+        "C": "L'air lui-même",
+        "D": "Le sucre pur"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-075",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est le résultat d'une dissolution du sel dans l'eau ?",
+      "options": {
+        "A": "Une flamme",
+        "B": "Un gaz invisible seulement",
+        "C": "Un mélange homogène",
+        "D": "Un solide séparé"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-076",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel phénomène permet à l'eau de passer de l'état liquide à l'état gazeux ?",
+      "options": {
+        "A": "La rigidification",
+        "B": "La fusion",
+        "C": "L'évaporation",
+        "D": "La condensation"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-077",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel phénomène permet à l'eau de passer de l'état gazeux à l'état liquide ?",
+      "options": {
+        "A": "La condensation",
+        "B": "La solidification",
+        "C": "La combustion",
+        "D": "L'effacement"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-078",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel état de la matière n'a pas de forme propre ?",
+      "options": {
+        "A": "Le solide",
+        "B": "Le bois",
+        "C": "Le liquide",
+        "D": "Le métal"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-079",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel état de la matière est compressible ?",
+      "options": {
+        "A": "Le verre",
+        "B": "Le gaz",
+        "C": "La pierre",
+        "D": "Le solide"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-080",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Pourquoi voit-on une ombre ?",
+      "options": {
+        "A": "Parce que l'eau s'évapore",
+        "B": "Parce qu'un objet bloque la lumière",
+        "C": "Parce que la nuit est toujours noire",
+        "D": "Parce que l'air devient solide"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-081",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel objet renvoie la lumière ?",
+      "options": {
+        "A": "Un miroir",
+        "B": "Une chaise",
+        "C": "Un caillou",
+        "D": "Une gomme"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-082",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Comment se déplace la lumière dans un milieu homogène ?",
+      "options": {
+        "A": "En spirale",
+        "B": "En zigzag permanent",
+        "C": "En ligne droite",
+        "D": "En cercle"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-083",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel phénomène se produit quand la Lune cache le Soleil ?",
+      "options": {
+        "A": "Une marée basse",
+        "B": "Un séisme",
+        "C": "Une pluie d'étoiles",
+        "D": "Une éclipse de Soleil"
+      },
+      "answer": "D",
+      "id": "sci-fr-medium-084",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel phénomène se produit quand la Terre projette son ombre sur la Lune ?",
+      "options": {
+        "A": "Une fusion",
+        "B": "Un arc-en-ciel",
+        "C": "Une éclipse de Lune",
+        "D": "Une tempête électrique"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-085",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Pourquoi voit-on un objet ?",
+      "options": {
+        "A": "Parce qu'il sent bon",
+        "B": "Parce qu'il renvoie de la lumière vers nos yeux",
+        "C": "Parce qu'il chante",
+        "D": "Parce qu'il pèse lourd"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-086",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel mot désigne la déviation de la lumière par un miroir ?",
+      "options": {
+        "A": "Filtration",
+        "B": "Dissolution",
+        "C": "Réflexion",
+        "D": "Combustion"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-087",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Que permet un prisme parfois ?",
+      "options": {
+        "A": "Chauffer un métal",
+        "B": "Produire du son",
+        "C": "Décomposer la lumière blanche",
+        "D": "Faire pousser une plante"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-088",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quelle source de lumière est naturelle ?",
+      "options": {
+        "A": "Une ardoise",
+        "B": "Le Soleil",
+        "C": "Une télévision",
+        "D": "Un stylo"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-089",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quelle condition favorise une ombre nette ?",
+      "options": {
+        "A": "Une page blanche",
+        "B": "Une source lumineuse bien dirigée",
+        "C": "Un sol mouillé",
+        "D": "Une tasse pleine"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-090",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Que représente un schéma technique ?",
+      "options": {
+        "A": "Le fonctionnement d'un objet",
+        "B": "Un poème",
+        "C": "Une photo de vacances",
+        "D": "Un dessin sans sens"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-091",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est l'intérêt d'un graphique ?",
+      "options": {
+        "A": "Montrer des données visuellement",
+        "B": "Faire pousser une plante",
+        "C": "Remplacer l'expérience",
+        "D": "Éteindre un appareil"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-092",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel terme décrit un réseau d'ordinateurs reliés ?",
+      "options": {
+        "A": "Un réseau informatique",
+        "B": "Un circuit de plomberie",
+        "C": "Un mélange liquide",
+        "D": "Un nuage de poussière"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-093",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Que permet Internet dans un réseau ?",
+      "options": {
+        "A": "La lumière du Soleil",
+        "B": "L'échange d'informations",
+        "C": "La solidification de l'eau",
+        "D": "La fabrication des roches"
+      },
+      "answer": "B",
+      "id": "sci-fr-medium-094",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel est le premier besoin étudié dans la conception d'un objet ?",
+      "options": {
+        "A": "La forme de la Lune",
+        "B": "La couleur du sol",
+        "C": "Le besoin de l'utilisateur",
+        "D": "Le bruit du vent"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-095",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Pourquoi recycle-t-on un produit ?",
+      "options": {
+        "A": "Pour réduire les déchets et réutiliser la matière",
+        "B": "Pour le rendre vivant",
+        "C": "Pour l'effacer de la mémoire",
+        "D": "Pour changer la gravité"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-096",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel mot désigne les étapes de la vie d'un objet technique ?",
+      "options": {
+        "A": "L'orbite",
+        "B": "La chaîne alimentaire",
+        "C": "Le cycle de vie",
+        "D": "La respiration"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-097",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quel outil aide à organiser des données ?",
+      "options": {
+        "A": "Un tableau",
+        "B": "Un coussin",
+        "C": "Une gomme humide",
+        "D": "Un stylo cassé"
+      },
+      "answer": "A",
+      "id": "sci-fr-medium-098",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Dans un projet technique, que fait-on après l'observation ?",
+      "options": {
+        "A": "On abandonne toujours",
+        "B": "On supprime les besoins",
+        "C": "On cherche une solution",
+        "D": "On change de planète"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-099",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Pourquoi teste-t-on un prototype ?",
+      "options": {
+        "A": "Pour dessiner le ciel",
+        "B": "Pour le faire disparaître",
+        "C": "Pour vérifier s'il répond au besoin",
+        "D": "Pour mesurer la pluie"
+      },
+      "answer": "C",
+      "id": "sci-fr-medium-100",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Quelle structure microscopique constitue l'unité de base du vivant ?",
+      "options": {
+        "A": "La molécule d'eau",
+        "B": "La cellule",
+        "C": "Le noyau de la Terre",
+        "D": "La montagne"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-001",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel organite contient le matériel génétique dans beaucoup de cellules ?",
+      "options": {
+        "A": "Le noyau",
+        "B": "Le bronzage",
+        "C": "La peau",
+        "D": "Le muscle"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-002",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel système du corps coordonne les messages nerveux ?",
+      "options": {
+        "A": "Le système végétal",
+        "B": "Le système nerveux",
+        "C": "Le système solaire",
+        "D": "Le système digestif"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-003",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel système du corps assure les échanges d'air ?",
+      "options": {
+        "A": "Le système osseux",
+        "B": "Le système végétal",
+        "C": "Le système digestif",
+        "D": "Le système respiratoire"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-004",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel système permet la circulation du sang ?",
+      "options": {
+        "A": "Le système circulatoire",
+        "B": "Le système lunaire",
+        "C": "Le système de tri",
+        "D": "Le système de peinture"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-005",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel est le rôle principal des alvéoles pulmonaires ?",
+      "options": {
+        "A": "Fabriquer les os",
+        "B": "Produire des sons",
+        "C": "Digérer le pain",
+        "D": "Échanger les gaz"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-006",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel organe commande la plupart des fonctions du corps ?",
+      "options": {
+        "A": "L'ongle",
+        "B": "Le poumon gauche",
+        "C": "Le genou",
+        "D": "Le cerveau"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-007",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel changement marque généralement la puberté ?",
+      "options": {
+        "A": "La disparition du besoin de dormir",
+        "B": "Des transformations du corps liées à la maturation",
+        "C": "Le changement de planète",
+        "D": "Le passage instantané à l'âge adulte"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-008",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi parle-t-on de reproduction humaine ?",
+      "options": {
+        "A": "Pour expliquer la naissance d'un nouvel être humain",
+        "B": "Pour peindre un animal",
+        "C": "Pour mesurer une plante",
+        "D": "Pour fabriquer un objet"
+      },
+      "answer": "A",
       "id": "sci-fr-hard-009",
-      "difficulty": "hard",
-      "question": "Comment s'appelle la force entre charges opposées ?",
-      "options": {
-        "A": "Réaction",
-        "B": "Attraction",
-        "C": "Frottement",
-        "D": "Inertie"
-      },
-      "answer": "B"
+      "difficulty": "hard"
     },
     {
+      "question": "Quel organe aide surtout à la digestion et à l'absorption des nutriments ?",
+      "options": {
+        "A": "L'intestin grêle",
+        "B": "Le poignet",
+        "C": "Le cartilage",
+        "D": "Le tympan"
+      },
+      "answer": "A",
       "id": "sci-fr-hard-010",
-      "difficulty": "hard",
-      "question": "Quel instrument mesure la pression atmosphérique ?",
-      "options": {
-        "A": "Thermomètre",
-        "B": "Baromètre",
-        "C": "Hygromètre",
-        "D": "Altimètre"
-      },
-      "answer": "B"
+      "difficulty": "hard"
     },
     {
+      "question": "Comment appelle-t-on la séparation de la Terre en grandes plaques ?",
+      "options": {
+        "A": "La tectonique des plaques",
+        "B": "La fusion nucléaire",
+        "C": "La photosynthèse",
+        "D": "La météorologie"
+      },
+      "answer": "A",
       "id": "sci-fr-hard-011",
-      "difficulty": "hard",
-      "question": "Quelle molécule est l'unité de l'ADN ?",
-      "options": {
-        "A": "Nucléotide",
-        "B": "Acide aminé",
-        "C": "Glucide",
-        "D": "Lipide"
-      },
-      "answer": "A"
+      "difficulty": "hard"
     },
     {
+      "question": "Quel phénomène peut résulter du mouvement des plaques ?",
+      "options": {
+        "A": "Un bruit de cloche",
+        "B": "Une recette",
+        "C": "Un séisme",
+        "D": "Une photographie"
+      },
+      "answer": "C",
       "id": "sci-fr-hard-012",
-      "difficulty": "hard",
-      "question": "Quelle est la vitesse du son approximative dans l'air ?",
-      "options": {
-        "A": "340 m/s",
-        "B": "3 m/s",
-        "C": "3400 m/s",
-        "D": "34 m/s"
-      },
-      "answer": "A"
+      "difficulty": "hard"
     },
     {
+      "question": "Quel phénomène peut créer de la lave en surface ?",
+      "options": {
+        "A": "Une gelée",
+        "B": "Une ombre",
+        "C": "Une éruption volcanique",
+        "D": "Une pluie fine"
+      },
+      "answer": "C",
       "id": "sci-fr-hard-013",
-      "difficulty": "hard",
-      "question": "Comment s'appelle le cycle de l'eau ?",
-      "options": {
-        "A": "Hydratation",
-        "B": "Cycle hydrologique",
-        "C": "Photosynthèse",
-        "D": "Érosion"
-      },
-      "answer": "B"
+      "difficulty": "hard"
     },
     {
+      "question": "Quel mot désigne une ouverture d'où sort du magma ?",
+      "options": {
+        "A": "Un nuage",
+        "B": "Un canyon",
+        "C": "Un marais",
+        "D": "Un volcan"
+      },
+      "answer": "D",
       "id": "sci-fr-hard-014",
-      "difficulty": "hard",
-      "question": "Quel type de roche vient du refroidissement du magma ?",
-      "options": {
-        "A": "Sédimentaire",
-        "B": "Métamorphique",
-        "C": "Ignée (magmatique)",
-        "D": "Fossile"
-      },
-      "answer": "C"
+      "difficulty": "hard"
     },
     {
+      "question": "Qu'est-ce que le magma ?",
+      "options": {
+        "A": "Du sable sec",
+        "B": "De l'air comprimé",
+        "C": "De la roche en fusion sous terre",
+        "D": "De l'eau glacée"
+      },
+      "answer": "C",
       "id": "sci-fr-hard-015",
-      "difficulty": "hard",
-      "question": "Quel organe produit la bile ?",
-      "options": {
-        "A": "Pancréas",
-        "B": "Foie",
-        "C": "Estomac",
-        "D": "Vésicule biliaire"
-      },
-      "answer": "B"
+      "difficulty": "hard"
     },
     {
+      "question": "Qu'est-ce que la lave ?",
+      "options": {
+        "A": "Du bois brûlé seulement",
+        "B": "De la neige fondue",
+        "C": "Du magma arrivé en surface",
+        "D": "Du sel dissous"
+      },
+      "answer": "C",
       "id": "sci-fr-hard-016",
-      "difficulty": "hard",
-      "question": "Quel phénomène explique les saisons ?",
-      "options": {
-        "A": "Distance variable Terre-Soleil",
-        "B": "Inclinaison de l'axe terrestre",
-        "C": "Activité solaire uniquement",
-        "D": "Lune proche"
-      },
-      "answer": "B"
+      "difficulty": "hard"
     },
     {
+      "question": "Pourquoi certaines régions sont-elles plus sismiques ?",
+      "options": {
+        "A": "Parce que le vent y est plus doux",
+        "B": "Parce qu'il pleut toujours",
+        "C": "Parce qu'elles sont proches des limites de plaques",
+        "D": "Parce qu'il y a plus d'oiseaux"
+      },
+      "answer": "C",
       "id": "sci-fr-hard-017",
-      "difficulty": "hard",
-      "question": "Quel ion donne une solution acide ?",
-      "options": {
-        "A": "H+",
-        "B": "OH-",
-        "C": "Na+",
-        "D": "Cl-"
-      },
-      "answer": "A"
+      "difficulty": "hard"
     },
     {
+      "question": "Quel effet un tremblement de terre peut-il provoquer ?",
+      "options": {
+        "A": "Une baisse du goût",
+        "B": "Des vibrations du sol",
+        "C": "Une augmentation du soleil",
+        "D": "Une croissance des arbres"
+      },
+      "answer": "B",
       "id": "sci-fr-hard-018",
-      "difficulty": "hard",
-      "question": "Quel terme décrit la variation héréditaire ?",
-      "options": {
-        "A": "Mutation",
-        "B": "Évaporation",
-        "C": "Photosynthèse",
-        "D": "Condensation"
-      },
-      "answer": "A"
+      "difficulty": "hard"
     },
     {
+      "question": "Que mesure un sismographe ?",
+      "options": {
+        "A": "Les secousses du sol",
+        "B": "La température de l'eau",
+        "C": "Le nombre de feuilles",
+        "D": "La vitesse d'un vélo"
+      },
+      "answer": "A",
       "id": "sci-fr-hard-019",
-      "difficulty": "hard",
-      "question": "Quel organe réagit aux signaux et contrôle le corps ?",
-      "options": {
-        "A": "Poumon",
-        "B": "Cerveau",
-        "C": "Cœur",
-        "D": "Rein"
-      },
-      "answer": "B"
+      "difficulty": "hard"
     },
     {
+      "question": "Quel mot décrit une roche formée à partir de magma refroidi ?",
+      "options": {
+        "A": "Une roche liquide",
+        "B": "Une roche musicale",
+        "C": "Une roche sucrée",
+        "D": "Une roche magmatique"
+      },
+      "answer": "D",
       "id": "sci-fr-hard-020",
-      "difficulty": "hard",
-      "question": "Comment s'appelle la transformation solide → gaz sans liquide ?",
-      "options": {
-        "A": "Fusion",
-        "B": "Sublimation",
-        "C": "Condensation",
-        "D": "Évaporation"
-      },
-      "answer": "B"
+      "difficulty": "hard"
     },
     {
+      "question": "Dans un circuit en série, que se passe-t-il si une lampe grille ?",
+      "options": {
+        "A": "Les autres lampes brillent plus fort",
+        "B": "Le circuit s'ouvre et tout s'arrête",
+        "C": "Le courant devient visible",
+        "D": "Rien ne change"
+      },
+      "answer": "B",
       "id": "sci-fr-hard-021",
-      "difficulty": "hard",
-      "question": "Quel type d'énergie produit une éolienne ?",
-      "options": {
-        "A": "Thermique",
-        "B": "Chimique",
-        "C": "Électrique via énergie mécanique",
-        "D": "Nulle"
-      },
-      "answer": "C"
+      "difficulty": "hard"
     },
     {
+      "question": "Quel type de circuit permet aux lampes de fonctionner indépendamment ?",
+      "options": {
+        "A": "Le circuit en dérivation",
+        "B": "Le circuit en série",
+        "C": "Le circuit cassé",
+        "D": "Le circuit de peinture"
+      },
+      "answer": "A",
       "id": "sci-fr-hard-022",
-      "difficulty": "hard",
-      "question": "Quel nombre décrit la masse d'un atome principalement ?",
-      "options": {
-        "A": "Nombre d'électrons",
-        "B": "Nombre de protons",
-        "C": "Nombre de nucléons (protons+neutrons)",
-        "D": "Nombre de molécules"
-      },
-      "answer": "C"
+      "difficulty": "hard"
     },
     {
+      "question": "Que mesure l'intensité électrique ?",
+      "options": {
+        "A": "Le poids de la pile",
+        "B": "Le débit du courant",
+        "C": "La taille de l'ampoule",
+        "D": "La couleur du fil"
+      },
+      "answer": "B",
       "id": "sci-fr-hard-023",
-      "difficulty": "hard",
-      "question": "Quel organe stocke l'urine avant évacuation ?",
-      "options": {
-        "A": "Vessie",
-        "B": "Foie",
-        "C": "Estomac",
-        "D": "Rein"
-      },
-      "answer": "A"
+      "difficulty": "hard"
     },
     {
+      "question": "Que représente la tension électrique ?",
+      "options": {
+        "A": "La longueur d'un câble",
+        "B": "La température du métal",
+        "C": "Une mesure du bruit",
+        "D": "Une différence d'état électrique"
+      },
+      "answer": "D",
       "id": "sci-fr-hard-024",
-      "difficulty": "hard",
-      "question": "Quelle couche protège la Terre des météores ?",
-      "options": {
-        "A": "Lithosphère",
-        "B": "Troposphère",
-        "C": "Mésosphère",
-        "D": "Thermosphère"
-      },
-      "answer": "C"
+      "difficulty": "hard"
     },
     {
-      "id": "sci-fr-hard-025",
-      "difficulty": "hard",
-      "question": "Quel élément forme l'eau avec l'oxygène ?",
+      "question": "Quel composant sert souvent d'interrupteur ?",
       "options": {
-        "A": "Carbone",
-        "B": "Hydrogène",
-        "C": "Azote",
-        "D": "Calcium"
+        "A": "Une règle",
+        "B": "Un aimant",
+        "C": "Un nuage",
+        "D": "Un interrupteur"
       },
-      "answer": "B"
+      "answer": "D",
+      "id": "sci-fr-hard-025",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quelle matière est généralement conductrice ?",
+      "options": {
+        "A": "Le coton",
+        "B": "Le métal",
+        "C": "Le plastique",
+        "D": "Le bois sec"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-026",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel composant transforme l'énergie électrique en lumière ?",
+      "options": {
+        "A": "Une feuille",
+        "B": "Une lampe",
+        "C": "Une gomme",
+        "D": "Une pierre"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-027",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi un circuit doit-il être fermé ?",
+      "options": {
+        "A": "Pour que les plantes chantent",
+        "B": "Pour que la Terre tourne",
+        "C": "Pour que la pluie tombe",
+        "D": "Pour que le courant puisse circuler"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-028",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel est le rôle d'un fil conducteur ?",
+      "options": {
+        "A": "Mesurer les distances",
+        "B": "Faire pousser les arbres",
+        "C": "Relier les composants et laisser passer le courant",
+        "D": "Changer la couleur du ciel"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-029",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel appareil mesure l'intensité ?",
+      "options": {
+        "A": "Un ampèremètre",
+        "B": "Une boussole",
+        "C": "Un chronomètre",
+        "D": "Un thermomètre"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-030",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi voit-on une ombre ?",
+      "options": {
+        "A": "Parce que l'air devient solide",
+        "B": "Parce qu'un objet bloque la lumière",
+        "C": "Parce que l'eau s'évapore",
+        "D": "Parce que la nuit est toujours noire"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-031",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel objet renvoie la lumière ?",
+      "options": {
+        "A": "Un miroir",
+        "B": "Une gomme",
+        "C": "Une chaise",
+        "D": "Un caillou"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-032",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Comment se déplace la lumière dans un milieu homogène ?",
+      "options": {
+        "A": "En cercle",
+        "B": "En ligne droite",
+        "C": "En spirale",
+        "D": "En zigzag permanent"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-033",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel phénomène se produit quand la Lune cache le Soleil ?",
+      "options": {
+        "A": "Une éclipse de Soleil",
+        "B": "Une marée basse",
+        "C": "Une pluie d'étoiles",
+        "D": "Un séisme"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-034",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel phénomène se produit quand la Terre projette son ombre sur la Lune ?",
+      "options": {
+        "A": "Un arc-en-ciel",
+        "B": "Une tempête électrique",
+        "C": "Une éclipse de Lune",
+        "D": "Une fusion"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-035",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi voit-on un objet ?",
+      "options": {
+        "A": "Parce qu'il sent bon",
+        "B": "Parce qu'il chante",
+        "C": "Parce qu'il renvoie de la lumière vers nos yeux",
+        "D": "Parce qu'il pèse lourd"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-036",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel mot désigne la déviation de la lumière par un miroir ?",
+      "options": {
+        "A": "Dissolution",
+        "B": "Réflexion",
+        "C": "Filtration",
+        "D": "Combustion"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-037",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Que permet un prisme parfois ?",
+      "options": {
+        "A": "Faire pousser une plante",
+        "B": "Produire du son",
+        "C": "Chauffer un métal",
+        "D": "Décomposer la lumière blanche"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-038",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quelle source de lumière est naturelle ?",
+      "options": {
+        "A": "Un stylo",
+        "B": "Une télévision",
+        "C": "Le Soleil",
+        "D": "Une ardoise"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-039",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quelle condition favorise une ombre nette ?",
+      "options": {
+        "A": "Une tasse pleine",
+        "B": "Une page blanche",
+        "C": "Un sol mouillé",
+        "D": "Une source lumineuse bien dirigée"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-040",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quelle est l'unité de base d'un élément chimique ?",
+      "options": {
+        "A": "L'atome",
+        "B": "La planète",
+        "C": "La cellule",
+        "D": "La feuille"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-041",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Que forme l'association d'atomes ?",
+      "options": {
+        "A": "Une planète",
+        "B": "Une pierre",
+        "C": "Une molécule",
+        "D": "Un volcan"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-042",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel gaz est le plus présent dans l'air ?",
+      "options": {
+        "A": "L'azote",
+        "B": "Le dioxyde de carbone",
+        "C": "L'oxygène",
+        "D": "L'hélium"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-043",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel gaz est indispensable à la respiration ?",
+      "options": {
+        "A": "L'argon",
+        "B": "Le néon",
+        "C": "Le dioxygène",
+        "D": "Le krypton"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-044",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel est un exemple de mélange dans l'air ?",
+      "options": {
+        "A": "L'eau distillée",
+        "B": "L'air lui-même",
+        "C": "Le sucre pur",
+        "D": "Le fer pur"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-045",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Qu'est-ce qu'une transformation chimique ?",
+      "options": {
+        "A": "Une transformation qui crée de nouvelles substances",
+        "B": "Un dessin au crayon",
+        "C": "Un simple déplacement d'objet",
+        "D": "Une mesure de longueur"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-046",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel phénomène est souvent irréversible ?",
+      "options": {
+        "A": "Le changement de position d'une chaise",
+        "B": "La fonte de la glace",
+        "C": "La dissolution du sel",
+        "D": "La combustion"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-047",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi dit-on qu'une réaction peut être rapide ?",
+      "options": {
+        "A": "Parce qu'elle est très lourde",
+        "B": "Parce qu'elle se produit en peu de temps",
+        "C": "Parce qu'elle n'existe pas",
+        "D": "Parce qu'elle a toujours lieu la nuit"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-048",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel terme désigne des particules très petites qui composent la matière ?",
+      "options": {
+        "A": "Les atomes",
+        "B": "Les couleurs",
+        "C": "Les saisons",
+        "D": "Les routes"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-049",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel outil de laboratoire sert à observer des objets minuscules ?",
+      "options": {
+        "A": "Le téléphone",
+        "B": "Le marteau",
+        "C": "Le sèche-cheveux",
+        "D": "Le microscope"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-050",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Que représente un schéma technique ?",
+      "options": {
+        "A": "Un poème",
+        "B": "Une photo de vacances",
+        "C": "Un dessin sans sens",
+        "D": "Le fonctionnement d'un objet"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-051",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel est l'intérêt d'un graphique ?",
+      "options": {
+        "A": "Faire pousser une plante",
+        "B": "Remplacer l'expérience",
+        "C": "Éteindre un appareil",
+        "D": "Montrer des données visuellement"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-052",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel terme décrit un réseau d'ordinateurs reliés ?",
+      "options": {
+        "A": "Un nuage de poussière",
+        "B": "Un circuit de plomberie",
+        "C": "Un mélange liquide",
+        "D": "Un réseau informatique"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-053",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Que permet Internet dans un réseau ?",
+      "options": {
+        "A": "La solidification de l'eau",
+        "B": "L'échange d'informations",
+        "C": "La fabrication des roches",
+        "D": "La lumière du Soleil"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-054",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel est le premier besoin étudié dans la conception d'un objet ?",
+      "options": {
+        "A": "La couleur du sol",
+        "B": "Le besoin de l'utilisateur",
+        "C": "Le bruit du vent",
+        "D": "La forme de la Lune"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-055",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi recycle-t-on un produit ?",
+      "options": {
+        "A": "Pour le rendre vivant",
+        "B": "Pour l'effacer de la mémoire",
+        "C": "Pour changer la gravité",
+        "D": "Pour réduire les déchets et réutiliser la matière"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-056",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel mot désigne les étapes de la vie d'un objet technique ?",
+      "options": {
+        "A": "L'orbite",
+        "B": "La chaîne alimentaire",
+        "C": "La respiration",
+        "D": "Le cycle de vie"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-057",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel outil aide à organiser des données ?",
+      "options": {
+        "A": "Un coussin",
+        "B": "Un stylo cassé",
+        "C": "Une gomme humide",
+        "D": "Un tableau"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-058",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Dans un projet technique, que fait-on après l'observation ?",
+      "options": {
+        "A": "On supprime les besoins",
+        "B": "On abandonne toujours",
+        "C": "On change de planète",
+        "D": "On cherche une solution"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-059",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi teste-t-on un prototype ?",
+      "options": {
+        "A": "Pour vérifier s'il répond au besoin",
+        "B": "Pour dessiner le ciel",
+        "C": "Pour mesurer la pluie",
+        "D": "Pour le faire disparaître"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-060",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel effet principal a la gravité ?",
+      "options": {
+        "A": "Elle attire les objets vers le sol",
+        "B": "Elle les fait briller",
+        "C": "Elle les transforme en gaz",
+        "D": "Elle les rend transparents"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-061",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Que fait une force de poussée ?",
+      "options": {
+        "A": "Elle le rétrécit",
+        "B": "Elle pousse un objet",
+        "C": "Elle l'éteint",
+        "D": "Elle le colore"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-062",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Que fait une force de traction ?",
+      "options": {
+        "A": "Elle l'humidifie",
+        "B": "Elle tire un objet",
+        "C": "Elle le chauffe",
+        "D": "Elle le découpe"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-063",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel outil mesure la masse en laboratoire ?",
+      "options": {
+        "A": "Un thermomètre",
+        "B": "Une loupe",
+        "C": "Une balance",
+        "D": "Un interrupteur"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-064",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel outil mesure la température ?",
+      "options": {
+        "A": "Une règle",
+        "B": "Une balance",
+        "C": "Un thermomètre",
+        "D": "Un microscope"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-065",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel outil mesure un volume de liquide ?",
+      "options": {
+        "A": "Une éprouvette graduée",
+        "B": "Un compas",
+        "C": "Un boulier",
+        "D": "Une perceuse"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-066",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel outil sert à mesurer une durée ?",
+      "options": {
+        "A": "Un mètre",
+        "B": "Un chronomètre",
+        "C": "Une boussole",
+        "D": "Un aimant"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-067",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Qu'observe-t-on souvent sur un graphique de température ?",
+      "options": {
+        "A": "Des couleurs seulement",
+        "B": "Des lettres de l'alphabet",
+        "C": "Des variations au cours du temps",
+        "D": "Des objets invisibles"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-068",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel type de mouvement décrit un objet qui tourne autour d'un point ?",
+      "options": {
+        "A": "Un mouvement solaire",
+        "B": "Un mouvement aromatique",
+        "C": "Un mouvement liquide",
+        "D": "Un mouvement circulaire"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-069",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel phénomène se produit quand une force change la vitesse d'un objet ?",
+      "options": {
+        "A": "Une photocopie",
+        "B": "Une accélération ou un ralentissement",
+        "C": "Une floraison",
+        "D": "Une disparition"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-070",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel gaz est souvent cité dans l'effet de serre renforcé ?",
+      "options": {
+        "A": "Le dioxyde de carbone",
+        "B": "L'hydrogène",
+        "C": "Le dioxygène",
+        "D": "L'azote"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-071",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel geste réduit les déchets ?",
+      "options": {
+        "A": "Le casser exprès",
+        "B": "Le brûler sans raison",
+        "C": "Le jeter plus vite",
+        "D": "Réutiliser un objet"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-072",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel phénomène correspond à l'augmentation de la température moyenne de la Terre ?",
+      "options": {
+        "A": "La rotation des saisons",
+        "B": "La solidification des océans",
+        "C": "La disparition de la gravité",
+        "D": "Le réchauffement climatique"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-073",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel moyen aide à économiser l'énergie à la maison ?",
+      "options": {
+        "A": "Laisser couler l'eau",
+        "B": "Éteindre les lumières inutiles",
+        "C": "Ouvrir le congélateur en continu",
+        "D": "Allumer toutes les lampes"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-074",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel mode de transport est souvent moins polluant ?",
+      "options": {
+        "A": "Le vélo",
+        "B": "La moto pour un trajet minuscule",
+        "C": "Le camion vide",
+        "D": "Le jet privé"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-075",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi trie-t-on les déchets ?",
+      "options": {
+        "A": "Pour les transformer en pluie",
+        "B": "Pour les rendre invisibles",
+        "C": "Pour les mélanger davantage",
+        "D": "Pour faciliter le recyclage"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-076",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel élément de la nature est renouvelable à court terme ?",
+      "options": {
+        "A": "Le pétrole",
+        "B": "Le charbon",
+        "C": "Le vent",
+        "D": "Le gaz naturel"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-077",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel comportement protège la biodiversité ?",
+      "options": {
+        "A": "Polluer les rivières",
+        "B": "Couper toutes les fleurs",
+        "C": "Préserver les habitats",
+        "D": "Détruire les forêts"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-078",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel est un effet possible de la pollution de l'air ?",
+      "options": {
+        "A": "Des problèmes respiratoires",
+        "B": "Une peau de pierre",
+        "C": "Une croissance instantanée",
+        "D": "Des ailes supplémentaires"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-079",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi les scientifiques surveillent-ils le climat ?",
+      "options": {
+        "A": "Pour changer les saisons",
+        "B": "Pour choisir la couleur des nuages",
+        "C": "Pour comprendre et anticiper les changements",
+        "D": "Pour arrêter la rotation de la Terre"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-080",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel phénomène explique le changement apparent de position des étoiles au cours de la nuit ?",
+      "options": {
+        "A": "La tectonique des plaques",
+        "B": "La condensation de l'air",
+        "C": "La rotation de la Terre",
+        "D": "La révolution de la Terre"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-081",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi observe-t-on des saisons différentes selon l'hémisphère ?",
+      "options": {
+        "A": "À cause des nuages",
+        "B": "À cause du magnétisme",
+        "C": "À cause des marées",
+        "D": "À cause de l'inclinaison de l'axe terrestre"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-082",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel astre est une étoile ?",
+      "options": {
+        "A": "Le Soleil",
+        "B": "La Lune",
+        "C": "Mercure",
+        "D": "Mars"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-083",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel mot désigne la distance parcourue par une planète autour du Soleil ?",
+      "options": {
+        "A": "Sa masse",
+        "B": "Sa peau",
+        "C": "Sa racine",
+        "D": "Son orbite"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-084",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel phénomène est lié au passage de la Terre dans l'ombre de la Lune ?",
+      "options": {
+        "A": "Un séisme",
+        "B": "Une aurore boréale",
+        "C": "Une pluie de météores",
+        "D": "Une éclipse de Soleil"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-085",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel phénomène est lié au passage de la Terre dans l'ombre projetée par elle-même ?",
+      "options": {
+        "A": "Une tempête de sable",
+        "B": "Une éclipse de Lune",
+        "C": "Un orage",
+        "D": "Une canicule"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-086",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel objet permet de représenter les phases de la Lune ?",
+      "options": {
+        "A": "Un thermomètre",
+        "B": "Un tableau de multiplication",
+        "C": "Une maquette",
+        "D": "Une loupe"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-087",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi la Lune nous paraît-elle lumineuse ?",
+      "options": {
+        "A": "Parce qu'elle produit sa propre lumière",
+        "B": "Parce qu'elle réfléchit la lumière du Soleil",
+        "C": "Parce qu'elle est transparente",
+        "D": "Parce qu'elle brûle"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-088",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel est le nom du mouvement de la Terre autour d'elle-même ?",
+      "options": {
+        "A": "La dilution",
+        "B": "La rotation",
+        "C": "La révolution",
+        "D": "La filtration"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-089",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel est le nom du mouvement de la Terre autour du Soleil ?",
+      "options": {
+        "A": "La réfraction",
+        "B": "La révolution",
+        "C": "La combustion",
+        "D": "La rotation"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-090",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Que doit-on faire pour vérifier une hypothèse ?",
+      "options": {
+        "A": "La transformer en dessin",
+        "B": "La garder secrète",
+        "C": "Réaliser une expérience ou une observation",
+        "D": "La supprimer"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-091",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi répète-t-on une expérience ?",
+      "options": {
+        "A": "Pour vérifier la fiabilité du résultat",
+        "B": "Pour faire plus de bruit",
+        "C": "Pour éviter de comprendre",
+        "D": "Pour la rendre plus longue"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-092",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel est un bon comportement face à des résultats différents ?",
+      "options": {
+        "A": "Ignorer les données",
+        "B": "Choisir au hasard",
+        "C": "Comparer et chercher une explication",
+        "D": "Changer la question"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-093",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Que signifie 'variable' dans une expérience ?",
+      "options": {
+        "A": "Un outil cassé",
+        "B": "Une pierre",
+        "C": "Un résultat certain",
+        "D": "Un élément qui peut changer"
+      },
+      "answer": "D",
+      "id": "sci-fr-hard-094",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quelle donnée doit rester identique dans une expérience juste ?",
+      "options": {
+        "A": "Tout changer à chaque fois",
+        "B": "Le reste du protocole sauf la variable testée",
+        "C": "Ne rien mesurer",
+        "D": "Réinventer les règles"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-095",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi utilise-t-on des unités ?",
+      "options": {
+        "A": "Pour décorer les feuilles",
+        "B": "Pour comparer les mesures",
+        "C": "Pour cacher les nombres",
+        "D": "Pour fabriquer des microbes"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-096",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel est le but d'un protocole expérimental ?",
+      "options": {
+        "A": "Supprimer les résultats",
+        "B": "Éviter la précision",
+        "C": "Décrire les étapes à suivre",
+        "D": "Faire une blague"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-097",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Quel est l'intérêt d'un témoin dans une expérience ?",
+      "options": {
+        "A": "Servir de référence",
+        "B": "Montrer la météo",
+        "C": "Créer du hasard",
+        "D": "Remplacer les observations"
+      },
+      "answer": "A",
+      "id": "sci-fr-hard-098",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Que cherche-t-on dans une conclusion scientifique ?",
+      "options": {
+        "A": "À oublier les données",
+        "B": "À répondre à la question de départ",
+        "C": "À répéter l'hypothèse mot pour mot",
+        "D": "À changer de sujet"
+      },
+      "answer": "B",
+      "id": "sci-fr-hard-099",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Pourquoi les scientifiques notent-ils les unités avec les valeurs ?",
+      "options": {
+        "A": "Pour faire joli seulement",
+        "B": "Pour compliquer la lecture",
+        "C": "Pour interpréter correctement les mesures",
+        "D": "Pour éviter les comparaisons"
+      },
+      "answer": "C",
+      "id": "sci-fr-hard-100",
+      "difficulty": "hard"
     }
   ]
 }

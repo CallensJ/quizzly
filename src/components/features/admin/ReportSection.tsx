@@ -64,7 +64,6 @@ export default function ReportSection() {
     if (!profile) return null;
     return buildReportData({
       pseudo:        profile.pseudo,
-      ageGroup:      profile.ageGroup,
       locale:        profile.locale,
       sessions,
       earnedBadgeIds,

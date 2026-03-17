@@ -258,7 +258,7 @@ const s = StyleSheet.create({
 // ─── Libellés bilingues ────────────────────────────────────────────────────────
 
 type LabelKey =
-  | 'title' | 'generatedOn' | 'ageGroup69' | 'ageGroup1013'
+  | 'title' | 'generatedOn'
   | 'statsTitle' | 'totalGames' | 'totalPoints' | 'bestScore'
   | 'dailyTitle' | 'streak' | 'xp' | 'titleLabel'
   | 'badgesTitle' | 'noBadges'
@@ -273,8 +273,6 @@ const LABELS: Record<'fr' | 'en', Record<LabelKey, string>> = {
   fr: {
     title:          'Rapport de progression',
     generatedOn:    'Genere le',
-    ageGroup69:     '6-9 ans',
-    ageGroup1013:   '10-13 ans',
     statsTitle:     'Statistiques globales',
     totalGames:     'Parties jouees',
     totalPoints:    'Points',
@@ -307,8 +305,6 @@ const LABELS: Record<'fr' | 'en', Record<LabelKey, string>> = {
   en: {
     title:          'Progress Report',
     generatedOn:    'Generated on',
-    ageGroup69:     '6-9 years',
-    ageGroup1013:   '10-13 years',
     statsTitle:     'Overall statistics',
     totalGames:     'Games played',
     totalPoints:    'Points',
@@ -363,7 +359,6 @@ interface ReportPdfProps {
 export function ReportPdf({ data }: ReportPdfProps) {
   // Libellés selon la locale de l'enfant
   const L = LABELS[data.locale as 'fr' | 'en'] ?? LABELS.fr;
-  const ageLabel = data.ageGroup === '6-9' ? L.ageGroup69 : L.ageGroup1013;
 
   return (
     <Document
@@ -376,7 +371,7 @@ export function ReportPdf({ data }: ReportPdfProps) {
         {/* ── 1. Header ───────────────────────────────────────────────────── */}
         <View style={s.header}>
           <Text style={s.headerTitle}>Quizzly — {L.title}</Text>
-          <Text style={s.headerSub}>{data.pseudo} · {ageLabel}</Text>
+          <Text style={s.headerSub}>{data.pseudo}</Text>
           <View style={s.headerRow}>
             <Text style={s.headerPill}>
               {L.generatedOn} {formatDate(data.generatedAt, data.locale)}

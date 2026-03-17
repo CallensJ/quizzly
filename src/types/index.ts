@@ -3,14 +3,13 @@
  *
  * Point d'entrée unique pour tous les types TypeScript du projet Quizzly.
  * Centralise les types partagés entre composants, stores et données :
- *   - types primitifs (AgeGroup, Difficulty, Category, Locale)
+ *   - types primitifs (Difficulty, Category, Locale)
  *   - interfaces de domaine (Profile, QuizSession, Question, QuestionFile)
  *   - types d'état UI (QuizStatus, AnswerKey)
  *
  * Règle : tout type utilisé dans plus d'un fichier doit être défini ici.
  */
 
-export type AgeGroup = '6-9' | '10-13';
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
 // Identifiants de catégorie — correspondent aux noms de fichiers JSON (data/questions/{lang}/{category}.json)
@@ -22,7 +21,6 @@ export type Locale = 'en' | 'fr';
 
 export interface Profile {
   pseudo: string;
-  ageGroup: AgeGroup;
   avatarId: string;
   avatarStyle?: string; // Style DiceBear — défaut 'adventurer' si absent (rétro-compat profils existants)
   badgeEarned: boolean;
@@ -85,7 +83,7 @@ export interface Challenge {
   category: Category;
   difficulty: Difficulty;
   locale: Locale;
-  age_group: AgeGroup;
+  age_group: string; // Valeur fixe '6-11' depuis MVP 4 — champ conservé pour rétro-compat Supabase
   questions: Question[];      // Snapshot des questions (même ordre pour les 2 joueurs)
   score_a: number;
   time_a: number | null;      // Temps total de réponse Joueur A en ms (null = ancienne version)

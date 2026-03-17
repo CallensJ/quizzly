@@ -15,7 +15,7 @@
  */
 
 import { supabase } from '@/lib/supabase';
-import type { Challenge, Category, Difficulty, Locale, AgeGroup, Question } from '@/types';
+import type { Challenge, Category, Difficulty, Locale, Question } from '@/types';
 
 // ─── Génération du code ────────────────────────────────────────────────────────
 
@@ -39,7 +39,6 @@ export interface CreateChallengeParams {
   category: Category;
   difficulty: Difficulty;
   locale: Locale;
-  ageGroup: AgeGroup;
   questions: Question[];   // snapshot des 20 questions jouées par A (ordre fixe)
   scoreA: number;
   timeA?: number;          // temps total de réponse en ms (pour départage à égalité de score)
@@ -64,7 +63,7 @@ export async function createChallenge(params: CreateChallengeParams): Promise<st
       category: params.category,
       difficulty: params.difficulty,
       locale: params.locale,
-      age_group: params.ageGroup,
+      age_group: '6-11', // tranche d'âge unique — la sélection a été supprimée (MVP 4)
       // Sérialisation du snapshot — stocké en jsonb dans Supabase
       questions: params.questions,
       score_a: params.scoreA,
