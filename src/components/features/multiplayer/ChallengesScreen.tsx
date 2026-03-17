@@ -19,6 +19,7 @@ import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
 import { joinChallenge, fetchMyChallenges } from '@/lib/challenges';
+import type { JoinError } from '@/lib/challenges';
 import { buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
 import type { Challenge, Locale } from '@/types';
@@ -92,13 +93,13 @@ export default function ChallengesScreen() {
     const result = await joinChallenge(trimmed, profile.pseudo);
 
     if ('error' in result) {
-      const errorMap: Record<string, string> = {
+      const errorMap: Record<JoinError, string> = {
         not_found:   'joinErrorNotFound',
         expired:     'joinErrorExpired',
         completed:   'joinErrorCompleted',
         same_player: 'joinErrorSamePlayer',
       };
-      const msgKey = (errorMap[result.error] ?? 'joinErrorNotFound') as keyof ReturnType<typeof t>;
+      const msgKey = errorMap[result.error as JoinError] as keyof ReturnType<typeof t>;
       setJoinError(t(msgKey));
     } else {
       setPreview(result.challenge);
