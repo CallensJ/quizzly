@@ -92,12 +92,13 @@ export default function ChallengesScreen() {
     const result = await joinChallenge(trimmed, profile.pseudo);
 
     if ('error' in result) {
-      const msgKey = {
+      const errorMap: Record<string, string> = {
         not_found:   'joinErrorNotFound',
         expired:     'joinErrorExpired',
         completed:   'joinErrorCompleted',
         same_player: 'joinErrorSamePlayer',
-      }[result.error] as keyof ReturnType<typeof t>;
+      };
+      const msgKey = (errorMap[result.error] ?? 'joinErrorNotFound') as keyof ReturnType<typeof t>;
       setJoinError(t(msgKey));
     } else {
       setPreview(result.challenge);
