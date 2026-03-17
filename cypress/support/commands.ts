@@ -94,20 +94,27 @@ Cypress.Commands.add('setupQuestionsCache', () => {
  * Répond à toutes les questions du quiz en cours en cliquant sur la réponse A,
  * puis en cliquant sur "Suivant" / "Terminer".
  *
- * Utilise 25 itérations (marge de sécurité) avec should('be.visible') avant
- * chaque clic pour attendre que les éléments soient prêts (animations, transitions).
- * Sans ce wait explicite, un clic peut ne pas s'enregistrer si l'UI est en transition,
- * ce qui fait rater une question et bloquer le flux.
+ * Utilise 25 itérations (marge de sécurité) avec $body.find() pour détecter
+ * la présence de answer-A SANS timeout bloquant.
+ *
+ * Pourquoi $body.find() plutôt que cy.url() + cy.get({timeout}) ?
+ * Après la dernière question (question 20), nextQuestion() met status='finished'.
+ * QuizScreen rend null (plus de answer-A dans le DOM). Mais l'URL est encore '/quiz'
+ * pendant quelques ms avant que l'effet router.push('/results') ne fire.
+ * Avec cy.url() + cy.get({timeout:10000}), l'itération 21 voyait '/quiz', cherchait
+ * answer-A pendant 10s et échouait. Avec $body.find(), le check est instantané :
+ * si answer-A n'est pas dans le DOM → skip immédiat.
  *
  * Note : on répond toujours A — l'objectif est de tester le flux, pas les questions.
  */
 Cypress.Commands.add('answerAllQuestions', () => {
   // 25 itérations — marge de sécurité au-delà des 20 questions
   Cypress._.times(25, () => {
-    cy.url().then((url) => {
-      if (url.includes('/quiz')) {
-        // Attendre que la réponse soit cliquable (fin d'animation de transition)
-        cy.get('[data-testid="answer-A"]', { timeout: 10000 }).should('be.visible').click();
+    cy.get('body').then(($body) => {
+      // Check synchrone sans timeout : si answer-A n'est pas visible (quiz fini
+      // ou en transition), on skipe cette itération sans bloquer.
+      if ($body.find('[data-testid="answer-A"]').is(':visible')) {
+        cy.get('[data-testid="answer-A"]').click();
         cy.get('[data-testid="next-btn"]', { timeout: 10000 }).should('be.visible').should('not.be.disabled').click();
       }
     });
