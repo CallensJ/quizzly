@@ -68,8 +68,19 @@ interface ProfileState {
   dailyShields: number;          // boucliers disponibles (max 2, protège le streak)
   dailyTodayScore: number | null; // score du jour (null = pas encore joué)
 
+  // ── Sync bidirectionnelle (MVP 2) ─────────────────────────────────────────
+  // Date de la dernière notification "objectif non atteint" — YYYY-MM-DD
+  lastGoalNotifDate: string | null;
+
   setMultiplayerUnlocked: (enabled: boolean) => void;
   setReportSchedule: (schedule: ReportSchedule) => void;
+  setLastGoalNotifDate: (date: string) => void;
+  /**
+   * Fusionne les données Supabase dans le store local (sync bidirectionnelle).
+   * - Sessions : union par playedAt (déduplique, conserve les locales inconnues de Supabase)
+   * - earnedBadgeIds : union (add-only, local-first)
+   */
+  mergeFromRemote: (remoteSessions: QuizSession[], remoteEarnedBadgeIds: string[]) => void;
   /**
    * Enregistre la complétion du défi quotidien.
    * Met à jour le streak (avec gestion du shield si 1 jour manqué),
@@ -110,6 +121,8 @@ export const useProfileStore = create<ProfileState>()(
       earnedBadgeIds: [],
       // newBadgesThisSession n'est pas persisté (exclu via partialize ci-dessous)
       newBadgesThisSession: [],
+      // Sync bidirectionnelle — date de la dernière notification objectif
+      lastGoalNotifDate: null,
       // Daily challenge — état initial
       dailyStreak: 0,
       dailyLastDate: null,
@@ -142,6 +155,24 @@ export const useProfileStore = create<ProfileState>()(
       setMultiplayerUnlocked: (enabled) => set({ multiplayerUnlocked: enabled }),
 
       setReportSchedule: (schedule) => set({ reportSchedule: schedule }),
+
+      setLastGoalNotifDate: (date) => set({ lastGoalNotifDate: date }),
+
+      mergeFromRemote: (remoteSessions, remoteEarnedBadgeIds) =>
+        set((state) => {
+          // Déduplique les sessions par playedAt — les locales non connues de Supabase sont conservées
+          const existingDates = new Set(state.sessions.map((s) => s.playedAt));
+          const newSessions = remoteSessions.filter((s) => !existingDates.has(s.playedAt));
+          // Union badgeIds — add-only, local-first
+          const mergedBadgeIds = [...new Set([...state.earnedBadgeIds, ...remoteEarnedBadgeIds])];
+          return {
+            sessions: [...state.sessions, ...newSessions],
+            earnedBadgeIds: mergedBadgeIds,
+            profile: state.profile && mergedBadgeIds.length > 0
+              ? { ...state.profile, badgeEarned: true }
+              : state.profile,
+          };
+        }),
 
       completeDailyChallenge: (score, total) => {
         const state = get();

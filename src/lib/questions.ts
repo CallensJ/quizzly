@@ -5,7 +5,7 @@
  * Source de données : table Supabase `questions`, avec double fallback.
  *
  * Stratégie offline-first :
- *   1. Si cache localStorage valide (< 24h) → retour immédiat
+ *   1. Si cache IndexedDB valide (< 24h) → retour immédiat
  *   2. Sinon → fetch Supabase → cache le résultat complet (toutes difficultés)
  *   3. Si Supabase échoue et cache présent (même expiré) → fallback cache
  *   4. Si pas de cache du tout → fallback fichiers JSON locaux (src/data/questions/)
@@ -13,59 +13,56 @@
  *
  * Le cache stocke toutes les difficultés d'un (category, locale) ensemble.
  * Le filtrage par difficulté se fait côté client après récupération.
+ *
+ * Migration MVP 2 : cache migré localStorage → IndexedDB (Dexie) pour
+ * une meilleure capacité de stockage et une gestion TTL plus robuste.
  */
 
 import { supabase } from './supabase';
+import { getDB, CACHE_TTL_MS } from './db';
 import type { Category, Difficulty, Locale, Question } from '@/types';
 
-// ─── Cache localStorage ───────────────────────────────────────────────────────
-
-const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 heures
-
-interface QCache {
-  questions: Question[];
-  cachedAt: number;
-}
+// ─── Clé de cache ─────────────────────────────────────────────────────────────
 
 function cacheKey(category: Category, locale: Locale): string {
   return `erudia-q-${category}-${locale}`;
 }
 
-function getCache(category: Category, locale: Locale): Question[] | null {
-  if (typeof window === 'undefined') return null;
+// ─── Cache IndexedDB ──────────────────────────────────────────────────────────
+
+async function getCache(category: Category, locale: Locale): Promise<Question[] | null> {
+  const db = getDB();
+  if (!db) return null;
   try {
-    const raw = localStorage.getItem(cacheKey(category, locale));
-    if (!raw) return null;
-    const data: QCache = JSON.parse(raw);
-    // Cache expiré — on le garde quand même en mémoire pour le fallback offline
-    // mais on signale qu'il doit être rafraîchi (retourne null pour forcer le fetch)
-    if (Date.now() - data.cachedAt > CACHE_TTL_MS) return null;
-    return data.questions;
+    const entry = await db.questionCache.get(cacheKey(category, locale));
+    if (!entry) return null;
+    // Cache expiré → retourne null pour forcer le fetch Supabase
+    if (Date.now() - entry.cachedAt > CACHE_TTL_MS) return null;
+    return entry.questions;
   } catch {
     return null;
   }
 }
 
-function getStaleCache(category: Category, locale: Locale): Question[] | null {
-  // Même fonction que getCache mais sans vérification TTL — fallback offline
-  if (typeof window === 'undefined') return null;
+async function getStaleCache(category: Category, locale: Locale): Promise<Question[] | null> {
+  // Sans vérification TTL — utilisé comme fallback offline
+  const db = getDB();
+  if (!db) return null;
   try {
-    const raw = localStorage.getItem(cacheKey(category, locale));
-    if (!raw) return null;
-    const data: QCache = JSON.parse(raw);
-    return data.questions;
+    const entry = await db.questionCache.get(cacheKey(category, locale));
+    return entry?.questions ?? null;
   } catch {
     return null;
   }
 }
 
-function setCache(category: Category, locale: Locale, questions: Question[]): void {
-  if (typeof window === 'undefined') return;
+async function setCache(category: Category, locale: Locale, questions: Question[]): Promise<void> {
+  const db = getDB();
+  if (!db) return;
   try {
-    const data: QCache = { questions, cachedAt: Date.now() };
-    localStorage.setItem(cacheKey(category, locale), JSON.stringify(data));
+    await db.questionCache.put({ key: cacheKey(category, locale), questions, cachedAt: Date.now() });
   } catch {
-    // localStorage plein ou désactivé — silencieux
+    // IndexedDB indisponible — silencieux (l'app fonctionne sans cache)
   }
 }
 
@@ -97,9 +94,7 @@ function rowToQuestion(row: QuestionRow): Question {
   };
 }
 
-// ─── Fetch principal ──────────────────────────────────────────────────────────
-
-// ─── Mapping difficulté → pool ────────────────────────────────────────────────
+// ─── Mapping difficulté ───────────────────────────────────────────────────────
 //
 // Mapping direct : le joueur choisit lui-même son niveau.
 // Les questions sont calibrées 6-11 ans avec un plafond jusqu'à ~13 ans
@@ -110,9 +105,10 @@ function getDifficultyPool(difficulty: Difficulty): Difficulty[] {
   return [difficulty];
 }
 
+// ─── Fetch principal ──────────────────────────────────────────────────────────
+
 /**
  * Récupère les questions pour une catégorie + locale donnée.
- * Le pool de difficultés est adapté selon la tranche d'âge (Option A).
  *
  * @throws Error si Supabase est inaccessible ET qu'il n'y a pas de cache
  */
@@ -127,18 +123,15 @@ export async function fetchQuestions(
     return qs.filter((q) => diffPool.includes(q.difficulty));
   }
 
-  // 1. Cache valide → retour immédiat (offline ou online)
-  // Note : si le cache existe mais ne contient aucune question pour la difficulté
-  // demandée (filterByPool retourne []), on laisse tomber vers Supabase pour
-  // ne pas démarrer un quiz avec 0 questions.
-  const cached = getCache(category, locale);
+  // 1. Cache IndexedDB valide → retour immédiat (offline ou online)
+  const cached = await getCache(category, locale);
   if (cached) {
     const filtered = filterByPool(cached);
     if (filtered.length > 0) return filtered;
   }
 
   // 2. Fetch Supabase — toutes les difficultés de ce (category, locale)
-  //    On récupère tout pour ne faire qu'un seul appel réseau et tout mettre en cache
+  //    Un seul appel réseau → tout mis en cache pour les requêtes suivantes
   try {
     const { data, error } = await supabase
       .from('questions')
@@ -150,27 +143,25 @@ export async function fetchQuestions(
     if (!data || data.length === 0) throw new Error('No questions found');
 
     const questions = (data as QuestionRow[]).map(rowToQuestion);
-    setCache(category, locale, questions);
+    await setCache(category, locale, questions);
 
     return filterByPool(questions);
   } catch (fetchError) {
     // 3. Fallback : cache périmé (offline ou erreur réseau)
-    const stale = getStaleCache(category, locale);
+    const stale = await getStaleCache(category, locale);
     if (stale) return filterByPool(stale);
 
     // 4. Fallback : fichiers JSON locaux (src/data/questions/{locale}/{category}.json)
-    //    Permet d'utiliser les catégories qui ne sont pas encore dans Supabase
-    //    (heroes, etc.) et garantit un fonctionnement offline complet.
+    //    Garantit le fonctionnement offline même sans cache IndexedDB.
     try {
-      // Chemin relatif depuis src/lib/ — webpack résout les 6 combinaisons à la compilation
       const localData = await import(`../data/questions/${locale}/${category}.json`);
       const questions: Question[] = localData.questions as Question[];
       if (questions && questions.length > 0) {
-        setCache(category, locale, questions);
+        await setCache(category, locale, questions);
         return filterByPool(questions);
       }
     } catch {
-      // Fichier JSON local absent — on laisse l'erreur originale remonter
+      // Fichier JSON local absent — erreur originale remontera
     }
 
     // 5. Pas de cache, pas de JSON local → erreur remontée à l'UI
@@ -179,10 +170,15 @@ export async function fetchQuestions(
 }
 
 /**
- * Invalide le cache pour une catégorie+locale — utile si les questions
- * ont été mises à jour en base et qu'on veut forcer le rechargement.
+ * Invalide le cache pour une catégorie+locale.
+ * Utile si les questions ont été mises à jour en base.
  */
-export function invalidateQuestionsCache(category: Category, locale: Locale): void {
-  if (typeof window === 'undefined') return;
-  localStorage.removeItem(cacheKey(category, locale));
+export async function invalidateQuestionsCache(category: Category, locale: Locale): Promise<void> {
+  const db = getDB();
+  if (!db) return;
+  try {
+    await db.questionCache.delete(cacheKey(category, locale));
+  } catch {
+    // Silencieux
+  }
 }
