@@ -22,7 +22,7 @@ import {
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
-import { fetchQuestions } from '@/lib/questions';
+import { fetchQuestions, prewarmQuestionsCache } from '@/lib/questions';
 import { getDailyDateString } from '@/lib/daily';
 import type { Category, Difficulty, Locale } from '@/types';
 
@@ -91,6 +91,12 @@ export default function HomeScreen() {
 
   const [loading, setLoading] = useState(false);
   const [fetchError, setFetchError] = useState(false);
+
+  // Pré-chauffe le cache questions en arrière-plan dès que HomeScreen monte.
+  // Garantit le mode offline lors des visites suivantes, même sans avoir joué.
+  useEffect(() => {
+    prewarmQuestionsCache();
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Ref sur le CTA "Jouer !" — pour le scroll automatique sur mobile
   const ctaRef = useRef<HTMLButtonElement>(null);

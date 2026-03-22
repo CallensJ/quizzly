@@ -22,6 +22,30 @@ import { supabase } from './supabase';
 import { getDB, CACHE_TTL_MS } from './db';
 import type { Category, Difficulty, Locale, Question } from '@/types';
 
+// ─── Imports statiques JSON locaux ────────────────────────────────────────────
+//
+// Webpack ne peut PAS analyser les template literals dynamiques pour les imports.
+// Ces imports statiques garantissent que les fichiers sont inclus dans le bundle
+// et disponibles offline sans réseau ni cache IndexedDB.
+//
+const LOCAL_JSON_MAP: Partial<Record<string, () => Promise<{ questions: Question[] }>>> = {
+  'fr/sciences': () => import('../data/questions/fr/sciences.json') as Promise<{ questions: Question[] }>,
+  'fr/histoire': () => import('../data/questions/fr/histoire.json') as Promise<{ questions: Question[] }>,
+  'fr/heroes':   () => import('../data/questions/fr/heroes.json')   as Promise<{ questions: Question[] }>,
+  'en/sciences': () => import('../data/questions/en/sciences.json') as Promise<{ questions: Question[] }>,
+  'en/histoire': () => import('../data/questions/en/histoire.json') as Promise<{ questions: Question[] }>,
+  'en/heroes':   () => import('../data/questions/en/heroes.json')   as Promise<{ questions: Question[] }>,
+};
+
+async function loadLocalJSON(
+  category: Category,
+  locale: Locale
+): Promise<{ questions: Question[] } | null> {
+  const loader = LOCAL_JSON_MAP[`${locale}/${category}`];
+  if (!loader) return null;
+  return loader();
+}
+
 // ─── Clé de cache ─────────────────────────────────────────────────────────────
 
 function cacheKey(category: Category, locale: Locale): string {
@@ -153,12 +177,16 @@ export async function fetchQuestions(
 
     // 4. Fallback : fichiers JSON locaux (src/data/questions/{locale}/{category}.json)
     //    Garantit le fonctionnement offline même sans cache IndexedDB.
+    //    IMPORTANT : imports statiques requis — webpack ne peut pas analyser
+    //    les template literals dynamiques et n'inclut pas les fichiers dans le bundle.
     try {
-      const localData = await import(`../data/questions/${locale}/${category}.json`);
-      const questions: Question[] = localData.questions as Question[];
-      if (questions && questions.length > 0) {
-        await setCache(category, locale, questions);
-        return filterByPool(questions);
+      const localData = await loadLocalJSON(category, locale);
+      if (localData) {
+        const questions: Question[] = localData.questions as Question[];
+        if (questions && questions.length > 0) {
+          await setCache(category, locale, questions);
+          return filterByPool(questions);
+        }
       }
     } catch {
       // Fichier JSON local absent — erreur originale remontera
@@ -167,6 +195,45 @@ export async function fetchQuestions(
     // 5. Pas de cache, pas de JSON local → erreur remontée à l'UI
     throw fetchError;
   }
+}
+
+/**
+ * Pré-chauffe le cache IndexedDB pour toutes les catégories et locales.
+ * À appeler en arrière-plan au montage de l'app (HomeScreen) quand le réseau est disponible.
+ * Garantit que les questions sont disponibles offline lors de la prochaine visite.
+ */
+export async function prewarmQuestionsCache(): Promise<void> {
+  if (typeof window === 'undefined' || !navigator.onLine) return;
+
+  const categories: Category[] = ['sciences', 'histoire', 'heroes'];
+  const locales: Locale[] = ['fr', 'en'];
+
+  await Promise.allSettled(
+    categories.flatMap((category) =>
+      locales.map(async (locale) => {
+        // Ne pré-charge que si le cache est absent ou périmé
+        const existing = await getCache(category, locale);
+        if (existing && existing.length > 0) return;
+
+        try {
+          const { data, error } = await supabase
+            .from('questions')
+            .select('id, difficulty, question, option_a, option_b, option_c, option_d, answer')
+            .eq('category', category)
+            .eq('locale', locale);
+
+          if (error || !data || data.length === 0) throw new Error('Supabase unavailable');
+          await setCache(category, locale, (data as QuestionRow[]).map(rowToQuestion));
+        } catch {
+          // Fallback : on met en cache les JSON locaux si Supabase échoue
+          const localData = await loadLocalJSON(category, locale);
+          if (localData?.questions?.length) {
+            await setCache(category, locale, localData.questions);
+          }
+        }
+      })
+    )
+  );
 }
 
 /**
