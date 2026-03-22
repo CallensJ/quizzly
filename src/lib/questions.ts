@@ -28,22 +28,27 @@ import type { Category, Difficulty, Locale, Question } from '@/types';
 // Ces imports statiques garantissent que les fichiers sont inclus dans le bundle
 // et disponibles offline sans réseau ni cache IndexedDB.
 //
-const LOCAL_JSON_MAP: Partial<Record<string, () => Promise<{ questions: Question[] }>>> = {
-  'fr/sciences': () => import('../data/questions/fr/sciences.json') as Promise<{ questions: Question[] }>,
-  'fr/histoire': () => import('../data/questions/fr/histoire.json') as Promise<{ questions: Question[] }>,
-  'fr/heroes':   () => import('../data/questions/fr/heroes.json')   as Promise<{ questions: Question[] }>,
-  'en/sciences': () => import('../data/questions/en/sciences.json') as Promise<{ questions: Question[] }>,
-  'en/histoire': () => import('../data/questions/en/histoire.json') as Promise<{ questions: Question[] }>,
-  'en/heroes':   () => import('../data/questions/en/heroes.json')   as Promise<{ questions: Question[] }>,
+// Les imports JSON webpack retournent { default: <contenu JSON> } — pas de cast direct.
+// On laisse le type inféré et on accède à .default dans loadLocalJSON.
+const LOCAL_JSON_MAP: Partial<Record<string, () => Promise<unknown>>> = {
+  'fr/sciences': () => import('../data/questions/fr/sciences.json'),
+  'fr/histoire': () => import('../data/questions/fr/histoire.json'),
+  'fr/heroes':   () => import('../data/questions/fr/heroes.json'),
+  'en/sciences': () => import('../data/questions/en/sciences.json'),
+  'en/histoire': () => import('../data/questions/en/histoire.json'),
+  'en/heroes':   () => import('../data/questions/en/heroes.json'),
 };
 
 async function loadLocalJSON(
   category: Category,
   locale: Locale
-): Promise<{ questions: Question[] } | null> {
+): Promise<Question[] | null> {
   const loader = LOCAL_JSON_MAP[`${locale}/${category}`];
   if (!loader) return null;
-  return loader();
+  // Les modules JSON webpack exposent la valeur sous `.default`
+  const mod = await loader() as { default?: { questions?: Question[] }; questions?: Question[] };
+  const data = (mod.default ?? mod) as { questions?: Question[] };
+  return data.questions ?? null;
 }
 
 // ─── Clé de cache ─────────────────────────────────────────────────────────────
@@ -180,13 +185,10 @@ export async function fetchQuestions(
     //    IMPORTANT : imports statiques requis — webpack ne peut pas analyser
     //    les template literals dynamiques et n'inclut pas les fichiers dans le bundle.
     try {
-      const localData = await loadLocalJSON(category, locale);
-      if (localData) {
-        const questions: Question[] = localData.questions as Question[];
-        if (questions && questions.length > 0) {
-          await setCache(category, locale, questions);
-          return filterByPool(questions);
-        }
+      const localQuestions = await loadLocalJSON(category, locale);
+      if (localQuestions && localQuestions.length > 0) {
+        await setCache(category, locale, localQuestions);
+        return filterByPool(localQuestions);
       }
     } catch {
       // Fichier JSON local absent — erreur originale remontera
@@ -226,9 +228,9 @@ export async function prewarmQuestionsCache(): Promise<void> {
           await setCache(category, locale, (data as QuestionRow[]).map(rowToQuestion));
         } catch {
           // Fallback : on met en cache les JSON locaux si Supabase échoue
-          const localData = await loadLocalJSON(category, locale);
-          if (localData?.questions?.length) {
-            await setCache(category, locale, localData.questions);
+          const localQuestions = await loadLocalJSON(category, locale);
+          if (localQuestions?.length) {
+            await setCache(category, locale, localQuestions);
           }
         }
       })
