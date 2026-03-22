@@ -15,7 +15,8 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'Erudia',
     short_name: 'Erudia',
     description: 'Application de quiz éducatif pour les 6–11 ans',
-    start_url: '/',
+    // /fr/home — évite la redirection serveur next-intl depuis '/' qui échoue offline
+    start_url: '/fr/home',
     display: 'standalone',
     // Orientation portrait — optimisée pour enfants sur mobile
     orientation: 'portrait',
@@ -24,14 +25,12 @@ export default function manifest(): MetadataRoute.Manifest {
     categories: ['education', 'games', 'kids'],
     icons: [
       {
-        // TODO : créer public/icons/icon-192.png (Canva — 192×192)
         src: '/icons/icon-192.png',
         sizes: '192x192',
         type: 'image/png',
         purpose: 'any',
       },
       {
-        // TODO : créer public/icons/icon-512.png (Canva — 512×512)
         src: '/icons/icon-512.png',
         sizes: '512x512',
         type: 'image/png',
@@ -39,11 +38,26 @@ export default function manifest(): MetadataRoute.Manifest {
       },
       {
         // Icône maskable — avec zone de sécurité pour fond coloré (Android)
-        // TODO : créer public/icons/icon-512-maskable.png (Canva — ajouter padding 20%)
         src: '/icons/icon-512-maskable.png',
         sizes: '512x512',
         type: 'image/png',
         purpose: 'maskable',
+      },
+    ],
+    // Screenshots requis pour le "Richer Install UI" dans Chrome/Android
+    // Dimensions minimales recommandées : 1080×1920 (mobile) et 1280×800 (desktop)
+    screenshots: [
+      {
+        src: '/screenshots/mobile.png',
+        sizes: '1080x1920',
+        type: 'image/png',
+        // form_factor absent = mobile
+      },
+      {
+        src: '/screenshots/desktop.png',
+        sizes: '1280x800',
+        type: 'image/png',
+        form_factor: 'wide',
       },
     ],
   };

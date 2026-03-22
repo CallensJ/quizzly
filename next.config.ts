@@ -29,6 +29,11 @@ const withPWA = require('@ducanh2912/next-pwa').default({
   skipWaiting: true,
   // Exclure le manifest next-intl du précache (généré dynamiquement)
   buildExcludes: [/middleware-manifest\.json$/],
+  // Fallback servi par le SW quand la page demandée n'est pas dans le cache
+  // et que le réseau est indisponible. Évite la page native "you're offline".
+  fallbacks: {
+    document: '/offline',
+  },
 
   // --- Stratégies de cache runtime (Workbox) ---
   runtimeCaching: [

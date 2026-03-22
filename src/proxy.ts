@@ -6,5 +6,6 @@ import { routing } from './i18n/routing';
 export default createMiddleware(routing);
 
 export const config = {
-  matcher: ['/((?!_next|_vercel|.*\\..*).*)'],
+  // `offline` exclu — page de fallback PWA servie sans locale (pas de redirect next-intl)
+  matcher: ['/((?!_next|_vercel|offline|.*\\..*).*)'],
 };
