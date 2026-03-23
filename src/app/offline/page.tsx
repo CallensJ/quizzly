@@ -78,7 +78,7 @@ export default function OfflinePage() {
           <div className="emoji">📡</div>
           <h1>Pas de connexion</h1>
           <p>
-            Tu es hors ligne pour l'instant.<br />
+            Tu es hors ligne pour l&apos;instant.<br />
             Reconnecte-toi pour jouer !
           </p>
           <div className="tip">

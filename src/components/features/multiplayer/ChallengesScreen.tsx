@@ -14,7 +14,7 @@
  */
 
 import { useState, useEffect, useRef } from 'react';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
@@ -22,7 +22,7 @@ import { joinChallenge, fetchMyChallenges } from '@/lib/challenges';
 import type { JoinError } from '@/lib/challenges';
 import { buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
-import type { Challenge, Locale } from '@/types';
+import type { Challenge } from '@/types';
 import { Lock, Swords, Clock, CheckCircle, XCircle, RefreshCw } from 'lucide-react';
 
 type Tab = 'join' | 'my';
@@ -33,7 +33,6 @@ const POLL_INTERVAL_MS = 30_000;
 export default function ChallengesScreen() {
   const t      = useTranslations('challenges');
   const tHome  = useTranslations('home');
-  const locale = useLocale() as Locale;
   const router = useRouter();
 
   const profile              = useProfileStore((s) => s.profile);

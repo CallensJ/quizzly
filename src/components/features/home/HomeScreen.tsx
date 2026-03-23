@@ -96,7 +96,7 @@ export default function HomeScreen() {
   // Garantit le mode offline lors des visites suivantes, même sans avoir joué.
   useEffect(() => {
     prewarmQuestionsCache();
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, []);
 
   // Ref sur le CTA "Jouer !" — pour le scroll automatique sur mobile
   const ctaRef = useRef<HTMLButtonElement>(null);

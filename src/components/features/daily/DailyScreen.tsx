@@ -17,7 +17,7 @@
  *   Résultats gérés dans ResultsScreen (isDailyChallenge === true)
  */
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { Atom, Landmark, Swords, Sun, Shield, Flame, ChevronRight } from 'lucide-react';
