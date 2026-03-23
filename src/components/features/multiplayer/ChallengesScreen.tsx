@@ -56,6 +56,9 @@ export default function ChallengesScreen() {
 
   const loadMyChallenges = useCallback(async () => {
     if (!profile) return;
+    // Déférer le premier setState pour éviter react-hooks/set-state-in-effect
+    // (tous les setState sont après un await → pas de rendu synchrone en cascade)
+    await Promise.resolve();
     setMyLoading(true);
     const data = await fetchMyChallenges(profile.pseudo);
     setChallenges(data);
