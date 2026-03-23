@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * src/app/offline/page.tsx
  *
