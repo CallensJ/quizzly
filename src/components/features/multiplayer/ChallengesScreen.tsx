@@ -13,7 +13,7 @@
  * L'onglet "Mes défis" affiche l'historique des défis créés et reçus avec polling 30s.
  */
 
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
@@ -50,38 +50,48 @@ export default function ChallengesScreen() {
 
   const [challenges, setChallenges]         = useState<Challenge[]>([]);
   const [myLoading, setMyLoading]           = useState(false);
+  // Clé incrémentée pour déclencher un rechargement (bouton refresh, polling)
+  const [refreshKey, setRefreshKey]         = useState(0);
   const pollRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // ── Chargement de l'historique ──────────────────────────────────────────────
-
-  const loadMyChallenges = useCallback(async () => {
-    if (!profile) return;
-    // Déférer le premier setState pour éviter react-hooks/set-state-in-effect
-    // (tous les setState sont après un await → pas de rendu synchrone en cascade)
-    await Promise.resolve();
-    setMyLoading(true);
-    const data = await fetchMyChallenges(profile.pseudo);
-    setChallenges(data);
-    setMyLoading(false);
-  }, [profile]);
+  // Pattern React recommandé : fonction async locale dans l'effet (pas de useCallback
+  // externe avec setState, ce qui déclencherait react-hooks/set-state-in-effect).
 
   useEffect(() => {
-    if (tab === 'my' && multiplayerUnlocked) {
-      loadMyChallenges();
+    if (tab !== 'my' || !multiplayerUnlocked || !profile) return;
+    let cancelled = false;
+
+    async function load() {
+      // Tous les setState sont après un await → pas de rendu synchrone en cascade
+      await Promise.resolve();
+      if (cancelled) return;
+      setMyLoading(true);
+      const data = await fetchMyChallenges(profile.pseudo);
+      if (!cancelled) {
+        setChallenges(data);
+        setMyLoading(false);
+      }
     }
-  }, [tab, multiplayerUnlocked, loadMyChallenges]);
+
+    void load();
+    return () => { cancelled = true; };
+  }, [tab, multiplayerUnlocked, profile, refreshKey]);
 
   // ── Polling 30s — rafraîchit l'historique si des défis sont en attente ─────
 
   useEffect(() => {
     const hasPending = challenges.some((c) => c.status === 'pending');
     if (tab === 'my' && multiplayerUnlocked && hasPending) {
-      pollRef.current = setInterval(loadMyChallenges, POLL_INTERVAL_MS);
+      pollRef.current = setInterval(
+        () => setRefreshKey((k) => k + 1),
+        POLL_INTERVAL_MS,
+      );
     }
     return () => {
       if (pollRef.current) clearInterval(pollRef.current);
     };
-  }, [tab, challenges, multiplayerUnlocked, loadMyChallenges]);
+  }, [tab, challenges, multiplayerUnlocked]);
 
   // ── Rejoindre — validation du code ─────────────────────────────────────────
 
@@ -312,7 +322,7 @@ export default function ChallengesScreen() {
             <button
               type="button"
               className="challenges__refresh-btn"
-              onClick={loadMyChallenges}
+              onClick={() => setRefreshKey((k) => k + 1)}
               aria-label="Rafraîchir"
               disabled={myLoading}
             >
