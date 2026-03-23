@@ -64,7 +64,7 @@ export default function ChallengesScreen() {
     async function load() {
       // Tous les setState sont après un await → pas de rendu synchrone en cascade
       await Promise.resolve();
-      if (cancelled) return;
+      if (cancelled || !profile) return;
       setMyLoading(true);
       const data = await fetchMyChallenges(profile.pseudo);
       if (!cancelled) {
