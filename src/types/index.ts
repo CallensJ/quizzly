@@ -13,7 +13,7 @@
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
 // Identifiants de catégorie — correspondent aux noms de fichiers JSON (data/questions/{lang}/{category}.json)
-export type Category = 'sciences' | 'histoire' | 'heroes';
+export type Category = 'sciences' | 'histoire' | 'heroes' | 'math';
 
 export type Locale = 'en' | 'fr';
 

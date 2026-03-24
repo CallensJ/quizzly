@@ -225,7 +225,9 @@ export const useProfileStore = create<ProfileState>()(
         const streakBadges = [
           { id: 'streak_3',  threshold: 3  },
           { id: 'streak_7',  threshold: 7  },
+          { id: 'streak_14', threshold: 14 },
           { id: 'streak_30', threshold: 30 },
+          { id: 'streak_60', threshold: 60 },
         ];
         for (const { id, threshold } of streakBadges) {
           if (newStreak >= threshold && !state.earnedBadgeIds.includes(id)) {
