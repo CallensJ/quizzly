@@ -51,6 +51,7 @@ function statsByCategory(sessions: QuizSession[]): Record<Category, { games: num
     sciences: { games: 0, best: null },
     histoire:  { games: 0, best: null },
     heroes:    { games: 0, best: null },
+    math:      { games: 0, best: null },
   };
   for (const s of sessions) {
     result[s.category].games += 1;
