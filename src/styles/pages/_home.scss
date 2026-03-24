@@ -79,6 +79,18 @@
       background: rgba(255, 255, 255, 0.32);
     }
 
+    // Avatar de l'utilisateur dans le bouton — image ronde, overflow caché
+    overflow: hidden;
+    padding: 0;
+
+    .home__profile-avatar {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: v.$radius-full;
+      display: block;
+    }
+
     // Sur desktop, le profil est accessible via la sidebar — bouton masqué
     @include m.lg {
       display: none;
