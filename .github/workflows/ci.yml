@@ -37,6 +37,15 @@ jobs:
           node-version: '24'
           cache: 'npm'
 
+      # Cache Next.js build — restaure .next/cache entre les runs pour accélérer le build
+      - name: Cache Next.js build
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/.next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
+
       # npm ci (plus rapide et strict que npm install) — utilise package-lock.json
       - name: Installer les dépendances
         run: npm ci
@@ -83,6 +92,15 @@ jobs:
         with:
           node-version: '24'
           cache: 'npm'
+
+      # Cache Next.js build — restaure .next/cache entre les runs
+      - name: Cache Next.js build
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/.next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
 
       # L'action officielle Cypress gère automatiquement :
       #   - l'installation des dépendances
