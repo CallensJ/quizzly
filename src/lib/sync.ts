@@ -93,13 +93,13 @@ export async function syncAdminSettings(
   reportSchedule?: ReportSchedule
 ): Promise<void> {
   try {
-    const { data: profileRow, error } = await supabase
+    const { data: profileRow } = await supabase
       .from('profiles')
       .select('id')
       .eq('device_id', deviceId)
-      .single();
+      .maybeSingle();
 
-    if (error || !profileRow) return;
+    if (!profileRow) return;
 
     await supabase
       .from('admin_settings')
@@ -143,13 +143,13 @@ export async function syncSession(
 }
 
 async function _syncSessionCore(deviceId: string, session: QuizSession): Promise<void> {
-  const { data: profileRow, error } = await supabase
+  const { data: profileRow } = await supabase
     .from('profiles')
     .select('id')
     .eq('device_id', deviceId)
-    .single();
+    .maybeSingle();
 
-  if (error || !profileRow) throw new Error('Profile not found');
+  if (!profileRow) throw new Error('Profile not found');
 
   const { error: insertError } = await supabase.from('sessions').insert({
     profile_id: profileRow.id,
@@ -175,13 +175,13 @@ export async function syncBadge(
   earnedBadgeIds: string[] = []
 ): Promise<void> {
   try {
-    const { data: profileRow, error } = await supabase
+    const { data: profileRow } = await supabase
       .from('profiles')
       .select('id')
       .eq('device_id', deviceId)
-      .single();
+      .maybeSingle();
 
-    if (error || !profileRow) return;
+    if (!profileRow) return;
 
     await supabase
       .from('badges')
@@ -252,13 +252,13 @@ export interface PulledData {
  */
 export async function pullFromSupabase(deviceId: string): Promise<PulledData | null> {
   try {
-    const { data: profileRow, error } = await supabase
+    const { data: profileRow } = await supabase
       .from('profiles')
       .select('id')
       .eq('device_id', deviceId)
-      .single();
+      .maybeSingle();
 
-    if (error || !profileRow) return null;
+    if (!profileRow) return null;
 
     // Sessions — 50 dernières, ordre chronologique inverse
     const { data: sessionRows } = await supabase
