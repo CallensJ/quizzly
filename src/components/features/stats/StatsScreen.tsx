@@ -44,6 +44,7 @@ const CAT_COLORS: Record<Category, string> = {
   sciences: '#2196F3',
   histoire: '#795548',
   heroes:   '#E91E63',
+  math:     '#FF9800',
 };
 
 const DIFF_COLORS: Record<Difficulty, string> = {
