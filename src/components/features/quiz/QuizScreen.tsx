@@ -115,18 +115,20 @@ export default function QuizScreen() {
 
     const isCorrect = selectedAnswer === question.answer;
 
+    let soundId: Parameters<typeof playSound>[0];
+
     if (isCorrect) {
       consecutiveCorrectRef.current += 1;
       consecutiveWrongRef.current = 0;
-      // Streak à partir de 3 bonnes réponses consécutives — son streak prioritaire sur correct
+      // Streak à partir de 3 bonnes réponses consécutives
       if (consecutiveCorrectRef.current >= 3) {
         setNovaState('streak');
         setNovaMessage(tNova('streak'));
-        playSound('streak', soundEnabled);
+        soundId = 'streak';
       } else {
         setNovaState('correct');
         setNovaMessage(tNova('correct'));
-        playSound('correct', soundEnabled);
+        soundId = 'correct';
       }
     } else {
       consecutiveWrongRef.current += 1;
@@ -139,11 +141,28 @@ export default function QuizScreen() {
         setNovaState('wrong');
         setNovaMessage(tNova('wrong'));
       }
-      // Un seul son wrong, qu'il soit "wrong" ou "encouragement"
-      playSound('wrong', soundEnabled);
+      soundId = 'wrong';
     }
 
+    // Nova devient visible AVANT le son : requestAnimationFrame garantit que
+    // React a commité le DOM (Nova rendue) quand l'audio démarre — sync visuel/son.
     setNovaVisible(true);
+    const rafId = requestAnimationFrame(() => playSound(soundId, soundEnabled));
+    return () => cancelAnimationFrame(rafId);
+  }, [selectedAnswer]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ── Auto-avance sur bonne réponse ─────────────────────────────────────────
+  // Passe automatiquement à la question suivante 1200ms après une bonne réponse.
+  // Sur mauvaise réponse : l'utilisateur doit cliquer "Suivant" manuellement
+  // (lui laisse le temps de voir la bonne réponse).
+  const autoAdvanceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(() => {
+    if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
+    if (!isAnswered || !question || selectedAnswer !== question.answer) return;
+    autoAdvanceRef.current = setTimeout(nextQuestion, 1200);
+    return () => {
+      if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
+    };
   }, [selectedAnswer]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Garde : quiz non démarré → retour Home ──────────────────────────────
@@ -308,8 +327,9 @@ export default function QuizScreen() {
           ))}
         </div>
 
-        {/* Bouton Suivant — fade-in après sélection */}
-        {isAnswered && (
+        {/* Bouton Suivant — uniquement sur mauvaise réponse.
+            Bonne réponse → auto-avance après 1200ms (voir autoAdvanceRef ci-dessus). */}
+        {isAnswered && selectedAnswer !== question.answer && (
           <button
             type="button"
             data-testid="next-btn"
