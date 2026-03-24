@@ -1,4 +1,7 @@
-[
+{
+  "category": "math",
+  "lang": "en",
+  "questions": [
   {
     "question": "What is 11 + 6?",
     "options": {
@@ -8,7 +11,7 @@
       "D": "18"
     },
     "answer": "C",
-    "id": "math-fr-easy-001",
+    "id": "math-en-easy-001",
     "difficulty": "easy"
   },
   {
@@ -20,7 +23,7 @@
       "D": "4"
     },
     "answer": "D",
-    "id": "math-fr-easy-002",
+    "id": "math-en-easy-002",
     "difficulty": "easy"
   },
   {
@@ -32,7 +35,7 @@
       "D": "24"
     },
     "answer": "A",
-    "id": "math-fr-easy-003",
+    "id": "math-en-easy-003",
     "difficulty": "easy"
   },
   {
@@ -44,7 +47,7 @@
       "D": "26"
     },
     "answer": "D",
-    "id": "math-fr-easy-004",
+    "id": "math-en-easy-004",
     "difficulty": "easy"
   },
   {
@@ -56,7 +59,7 @@
       "D": "3"
     },
     "answer": "C",
-    "id": "math-fr-easy-005",
+    "id": "math-en-easy-005",
     "difficulty": "easy"
   },
   {
@@ -68,7 +71,7 @@
       "D": "32"
     },
     "answer": "D",
-    "id": "math-fr-easy-006",
+    "id": "math-en-easy-006",
     "difficulty": "easy"
   },
   {
@@ -80,7 +83,7 @@
       "D": "17"
     },
     "answer": "B",
-    "id": "math-fr-easy-007",
+    "id": "math-en-easy-007",
     "difficulty": "easy"
   },
   {
@@ -92,7 +95,7 @@
       "D": "16"
     },
     "answer": "B",
-    "id": "math-fr-easy-008",
+    "id": "math-en-easy-008",
     "difficulty": "easy"
   },
   {
@@ -104,7 +107,7 @@
       "D": "25"
     },
     "answer": "A",
-    "id": "math-fr-easy-009",
+    "id": "math-en-easy-009",
     "difficulty": "easy"
   },
   {
@@ -116,7 +119,7 @@
       "D": "27"
     },
     "answer": "D",
-    "id": "math-fr-easy-010",
+    "id": "math-en-easy-010",
     "difficulty": "easy"
   },
   {
@@ -128,7 +131,7 @@
       "D": "14"
     },
     "answer": "B",
-    "id": "math-fr-easy-011",
+    "id": "math-en-easy-011",
     "difficulty": "easy"
   },
   {
@@ -140,7 +143,7 @@
       "D": "33"
     },
     "answer": "D",
-    "id": "math-fr-easy-012",
+    "id": "math-en-easy-012",
     "difficulty": "easy"
   },
   {
@@ -152,7 +155,7 @@
       "D": "36"
     },
     "answer": "D",
-    "id": "math-fr-easy-013",
+    "id": "math-en-easy-013",
     "difficulty": "easy"
   },
   {
@@ -164,7 +167,7 @@
       "D": "12"
     },
     "answer": "C",
-    "id": "math-fr-easy-014",
+    "id": "math-en-easy-014",
     "difficulty": "easy"
   },
   {
@@ -176,7 +179,7 @@
       "D": "43"
     },
     "answer": "A",
-    "id": "math-fr-easy-015",
+    "id": "math-en-easy-015",
     "difficulty": "easy"
   },
   {
@@ -188,7 +191,7 @@
       "D": "27"
     },
     "answer": "C",
-    "id": "math-fr-easy-016",
+    "id": "math-en-easy-016",
     "difficulty": "easy"
   },
   {
@@ -200,7 +203,7 @@
       "D": "23"
     },
     "answer": "D",
-    "id": "math-fr-easy-017",
+    "id": "math-en-easy-017",
     "difficulty": "easy"
   },
   {
@@ -212,7 +215,7 @@
       "D": "36"
     },
     "answer": "B",
-    "id": "math-fr-easy-018",
+    "id": "math-en-easy-018",
     "difficulty": "easy"
   },
   {
@@ -224,7 +227,7 @@
       "D": "39"
     },
     "answer": "C",
-    "id": "math-fr-easy-019",
+    "id": "math-en-easy-019",
     "difficulty": "easy"
   },
   {
@@ -236,7 +239,7 @@
       "D": "21"
     },
     "answer": "A",
-    "id": "math-fr-easy-020",
+    "id": "math-en-easy-020",
     "difficulty": "easy"
   },
   {
@@ -248,7 +251,7 @@
       "D": "43"
     },
     "answer": "D",
-    "id": "math-fr-easy-021",
+    "id": "math-en-easy-021",
     "difficulty": "easy"
   },
   {
@@ -260,7 +263,7 @@
       "D": "46"
     },
     "answer": "D",
-    "id": "math-fr-easy-022",
+    "id": "math-en-easy-022",
     "difficulty": "easy"
   },
   {
@@ -272,7 +275,7 @@
       "D": "18"
     },
     "answer": "C",
-    "id": "math-fr-easy-023",
+    "id": "math-en-easy-023",
     "difficulty": "easy"
   },
   {
@@ -284,7 +287,7 @@
       "D": "37"
     },
     "answer": "B",
-    "id": "math-fr-easy-024",
+    "id": "math-en-easy-024",
     "difficulty": "easy"
   },
   {
@@ -296,7 +299,7 @@
       "D": "37"
     },
     "answer": "B",
-    "id": "math-fr-easy-025",
+    "id": "math-en-easy-025",
     "difficulty": "easy"
   },
   {
@@ -308,7 +311,7 @@
       "D": "33"
     },
     "answer": "B",
-    "id": "math-fr-easy-026",
+    "id": "math-en-easy-026",
     "difficulty": "easy"
   },
   {
@@ -320,7 +323,7 @@
       "D": "46"
     },
     "answer": "A",
-    "id": "math-fr-easy-027",
+    "id": "math-en-easy-027",
     "difficulty": "easy"
   },
   {
@@ -332,7 +335,7 @@
       "D": "47"
     },
     "answer": "D",
-    "id": "math-fr-easy-028",
+    "id": "math-en-easy-028",
     "difficulty": "easy"
   },
   {
@@ -344,7 +347,7 @@
       "D": "29"
     },
     "answer": "B",
-    "id": "math-fr-easy-029",
+    "id": "math-en-easy-029",
     "difficulty": "easy"
   },
   {
@@ -356,7 +359,7 @@
       "D": "52"
     },
     "answer": "A",
-    "id": "math-fr-easy-030",
+    "id": "math-en-easy-030",
     "difficulty": "easy"
   },
   {
@@ -368,7 +371,7 @@
       "D": "58"
     },
     "answer": "C",
-    "id": "math-fr-easy-031",
+    "id": "math-en-easy-031",
     "difficulty": "easy"
   },
   {
@@ -380,7 +383,7 @@
       "D": "25"
     },
     "answer": "D",
-    "id": "math-fr-easy-032",
+    "id": "math-en-easy-032",
     "difficulty": "easy"
   },
   {
@@ -392,7 +395,7 @@
       "D": "44"
     },
     "answer": "B",
-    "id": "math-fr-easy-033",
+    "id": "math-en-easy-033",
     "difficulty": "easy"
   },
   {
@@ -404,7 +407,7 @@
       "D": "47"
     },
     "answer": "C",
-    "id": "math-fr-easy-034",
+    "id": "math-en-easy-034",
     "difficulty": "easy"
   },
   {
@@ -416,7 +419,7 @@
       "D": "41"
     },
     "answer": "A",
-    "id": "math-fr-easy-035",
+    "id": "math-en-easy-035",
     "difficulty": "easy"
   },
   {
@@ -428,7 +431,7 @@
       "D": "56"
     },
     "answer": "A",
-    "id": "math-fr-easy-036",
+    "id": "math-en-easy-036",
     "difficulty": "easy"
   },
   {
@@ -440,7 +443,7 @@
       "D": "59"
     },
     "answer": "C",
-    "id": "math-fr-easy-037",
+    "id": "math-en-easy-037",
     "difficulty": "easy"
   },
   {
@@ -452,7 +455,7 @@
       "D": "39"
     },
     "answer": "C",
-    "id": "math-fr-easy-038",
+    "id": "math-en-easy-038",
     "difficulty": "easy"
   },
   {
@@ -464,7 +467,7 @@
       "D": "65"
     },
     "answer": "A",
-    "id": "math-fr-easy-039",
+    "id": "math-en-easy-039",
     "difficulty": "easy"
   },
   {
@@ -476,7 +479,7 @@
       "D": "68"
     },
     "answer": "A",
-    "id": "math-fr-easy-040",
+    "id": "math-en-easy-040",
     "difficulty": "easy"
   },
   {
@@ -488,7 +491,7 @@
       "D": "53"
     },
     "answer": "B",
-    "id": "math-fr-easy-041",
+    "id": "math-en-easy-041",
     "difficulty": "easy"
   },
   {
@@ -500,7 +503,7 @@
       "D": "56"
     },
     "answer": "A",
-    "id": "math-fr-easy-042",
+    "id": "math-en-easy-042",
     "difficulty": "easy"
   },
   {
@@ -512,7 +515,7 @@
       "D": "57"
     },
     "answer": "A",
-    "id": "math-fr-easy-043",
+    "id": "math-en-easy-043",
     "difficulty": "easy"
   },
   {
@@ -524,7 +527,7 @@
       "D": "47"
     },
     "answer": "D",
-    "id": "math-fr-easy-044",
+    "id": "math-en-easy-044",
     "difficulty": "easy"
   },
   {
@@ -536,7 +539,7 @@
       "D": "66"
     },
     "answer": "C",
-    "id": "math-fr-easy-045",
+    "id": "math-en-easy-045",
     "difficulty": "easy"
   },
   {
@@ -548,7 +551,7 @@
       "D": "68"
     },
     "answer": "B",
-    "id": "math-fr-easy-046",
+    "id": "math-en-easy-046",
     "difficulty": "easy"
   },
   {
@@ -560,7 +563,7 @@
       "D": "46"
     },
     "answer": "A",
-    "id": "math-fr-easy-047",
+    "id": "math-en-easy-047",
     "difficulty": "easy"
   },
   {
@@ -572,7 +575,7 @@
       "D": "74"
     },
     "answer": "C",
-    "id": "math-fr-easy-048",
+    "id": "math-en-easy-048",
     "difficulty": "easy"
   },
   {
@@ -584,7 +587,7 @@
       "D": "76"
     },
     "answer": "D",
-    "id": "math-fr-easy-049",
+    "id": "math-en-easy-049",
     "difficulty": "easy"
   },
   {
@@ -596,7 +599,7 @@
       "D": "4"
     },
     "answer": "D",
-    "id": "math-fr-easy-050",
+    "id": "math-en-easy-050",
     "difficulty": "easy"
   },
   {
@@ -608,7 +611,7 @@
       "D": "2"
     },
     "answer": "D",
-    "id": "math-fr-easy-051",
+    "id": "math-en-easy-051",
     "difficulty": "easy"
   },
   {
@@ -620,7 +623,7 @@
       "D": "8"
     },
     "answer": "D",
-    "id": "math-fr-easy-052",
+    "id": "math-en-easy-052",
     "difficulty": "easy"
   },
   {
@@ -632,7 +635,7 @@
       "D": "1"
     },
     "answer": "A",
-    "id": "math-fr-easy-053",
+    "id": "math-en-easy-053",
     "difficulty": "easy"
   },
   {
@@ -644,7 +647,7 @@
       "D": "18"
     },
     "answer": "A",
-    "id": "math-fr-easy-054",
+    "id": "math-en-easy-054",
     "difficulty": "easy"
   },
   {
@@ -656,7 +659,7 @@
       "D": "3"
     },
     "answer": "A",
-    "id": "math-fr-easy-055",
+    "id": "math-en-easy-055",
     "difficulty": "easy"
   },
   {
@@ -668,7 +671,7 @@
       "D": "2"
     },
     "answer": "A",
-    "id": "math-fr-easy-056",
+    "id": "math-en-easy-056",
     "difficulty": "easy"
   },
   {
@@ -680,7 +683,7 @@
       "D": "9"
     },
     "answer": "D",
-    "id": "math-fr-easy-057",
+    "id": "math-en-easy-057",
     "difficulty": "easy"
   },
   {
@@ -692,7 +695,7 @@
       "D": "4"
     },
     "answer": "C",
-    "id": "math-fr-easy-058",
+    "id": "math-en-easy-058",
     "difficulty": "easy"
   },
   {
@@ -704,7 +707,7 @@
       "D": "16"
     },
     "answer": "B",
-    "id": "math-fr-easy-059",
+    "id": "math-en-easy-059",
     "difficulty": "easy"
   },
   {
@@ -716,7 +719,7 @@
       "D": "4"
     },
     "answer": "C",
-    "id": "math-fr-easy-060",
+    "id": "math-en-easy-060",
     "difficulty": "easy"
   },
   {
@@ -728,7 +731,7 @@
       "D": "21"
     },
     "answer": "D",
-    "id": "math-fr-easy-061",
+    "id": "math-en-easy-061",
     "difficulty": "easy"
   },
   {
@@ -740,7 +743,7 @@
       "D": "8"
     },
     "answer": "D",
-    "id": "math-fr-easy-062",
+    "id": "math-en-easy-062",
     "difficulty": "easy"
   },
   {
@@ -752,7 +755,7 @@
       "D": "5"
     },
     "answer": "C",
-    "id": "math-fr-easy-063",
+    "id": "math-en-easy-063",
     "difficulty": "easy"
   },
   {
@@ -764,7 +767,7 @@
       "D": "20"
     },
     "answer": "B",
-    "id": "math-fr-easy-064",
+    "id": "math-en-easy-064",
     "difficulty": "easy"
   },
   {
@@ -776,7 +779,7 @@
       "D": "5"
     },
     "answer": "A",
-    "id": "math-fr-easy-065",
+    "id": "math-en-easy-065",
     "difficulty": "easy"
   },
   {
@@ -788,7 +791,7 @@
       "D": "25"
     },
     "answer": "C",
-    "id": "math-fr-easy-066",
+    "id": "math-en-easy-066",
     "difficulty": "easy"
   },
   {
@@ -800,7 +803,7 @@
       "D": "4"
     },
     "answer": "D",
-    "id": "math-fr-easy-067",
+    "id": "math-en-easy-067",
     "difficulty": "easy"
   },
   {
@@ -812,7 +815,7 @@
       "D": "6"
     },
     "answer": "B",
-    "id": "math-fr-easy-068",
+    "id": "math-en-easy-068",
     "difficulty": "easy"
   },
   {
@@ -824,7 +827,7 @@
       "D": "16"
     },
     "answer": "B",
-    "id": "math-fr-easy-069",
+    "id": "math-en-easy-069",
     "difficulty": "easy"
   },
   {
@@ -836,7 +839,7 @@
       "D": "5"
     },
     "answer": "D",
-    "id": "math-fr-easy-070",
+    "id": "math-en-easy-070",
     "difficulty": "easy"
   },
   {
@@ -848,7 +851,7 @@
       "D": "20"
     },
     "answer": "C",
-    "id": "math-fr-easy-071",
+    "id": "math-en-easy-071",
     "difficulty": "easy"
   },
   {
@@ -860,7 +863,7 @@
       "D": "4"
     },
     "answer": "B",
-    "id": "math-fr-easy-072",
+    "id": "math-en-easy-072",
     "difficulty": "easy"
   },
   {
@@ -872,7 +875,7 @@
       "D": "36"
     },
     "answer": "B",
-    "id": "math-fr-easy-073",
+    "id": "math-en-easy-073",
     "difficulty": "easy"
   },
   {
@@ -884,7 +887,7 @@
       "D": "10"
     },
     "answer": "B",
-    "id": "math-fr-easy-074",
+    "id": "math-en-easy-074",
     "difficulty": "easy"
   },
   {
@@ -896,7 +899,7 @@
       "D": "5"
     },
     "answer": "A",
-    "id": "math-fr-easy-075",
+    "id": "math-en-easy-075",
     "difficulty": "easy"
   },
   {
@@ -908,7 +911,7 @@
       "D": "20"
     },
     "answer": "B",
-    "id": "math-fr-easy-076",
+    "id": "math-en-easy-076",
     "difficulty": "easy"
   },
   {
@@ -920,7 +923,7 @@
       "D": "6"
     },
     "answer": "D",
-    "id": "math-fr-easy-077",
+    "id": "math-en-easy-077",
     "difficulty": "easy"
   },
   {
@@ -932,7 +935,7 @@
       "D": "42"
     },
     "answer": "C",
-    "id": "math-fr-easy-078",
+    "id": "math-en-easy-078",
     "difficulty": "easy"
   },
   {
@@ -944,7 +947,7 @@
       "D": "6"
     },
     "answer": "D",
-    "id": "math-fr-easy-079",
+    "id": "math-en-easy-079",
     "difficulty": "easy"
   },
   {
@@ -956,7 +959,7 @@
       "D": "6"
     },
     "answer": "C",
-    "id": "math-fr-easy-080",
+    "id": "math-en-easy-080",
     "difficulty": "easy"
   },
   {
@@ -968,7 +971,7 @@
       "D": "22"
     },
     "answer": "C",
-    "id": "math-fr-easy-081",
+    "id": "math-en-easy-081",
     "difficulty": "easy"
   },
   {
@@ -980,7 +983,7 @@
       "D": "6"
     },
     "answer": "C",
-    "id": "math-fr-easy-082",
+    "id": "math-en-easy-082",
     "difficulty": "easy"
   },
   {
@@ -992,7 +995,7 @@
       "D": "36"
     },
     "answer": "A",
-    "id": "math-fr-easy-083",
+    "id": "math-en-easy-083",
     "difficulty": "easy"
   },
   {
@@ -1004,7 +1007,7 @@
       "D": "7"
     },
     "answer": "D",
-    "id": "math-fr-easy-084",
+    "id": "math-en-easy-084",
     "difficulty": "easy"
   },
   {
@@ -1016,7 +1019,7 @@
       "D": "49"
     },
     "answer": "D",
-    "id": "math-fr-easy-085",
+    "id": "math-en-easy-085",
     "difficulty": "easy"
   },
   {
@@ -1028,7 +1031,7 @@
       "D": "18"
     },
     "answer": "C",
-    "id": "math-fr-easy-086",
+    "id": "math-en-easy-086",
     "difficulty": "easy"
   },
   {
@@ -1040,7 +1043,7 @@
       "D": "7"
     },
     "answer": "B",
-    "id": "math-fr-easy-087",
+    "id": "math-en-easy-087",
     "difficulty": "easy"
   },
   {
@@ -1052,7 +1055,7 @@
       "D": "36"
     },
     "answer": "B",
-    "id": "math-fr-easy-088",
+    "id": "math-en-easy-088",
     "difficulty": "easy"
   },
   {
@@ -1064,7 +1067,7 @@
       "D": "7"
     },
     "answer": "C",
-    "id": "math-fr-easy-089",
+    "id": "math-en-easy-089",
     "difficulty": "easy"
   },
   {
@@ -1076,7 +1079,7 @@
       "D": "49"
     },
     "answer": "A",
-    "id": "math-fr-easy-090",
+    "id": "math-en-easy-090",
     "difficulty": "easy"
   },
   {
@@ -1088,7 +1091,7 @@
       "D": "10"
     },
     "answer": "B",
-    "id": "math-fr-easy-091",
+    "id": "math-en-easy-091",
     "difficulty": "easy"
   },
   {
@@ -1100,7 +1103,7 @@
       "D": "9"
     },
     "answer": "D",
-    "id": "math-fr-easy-092",
+    "id": "math-en-easy-092",
     "difficulty": "easy"
   },
   {
@@ -1112,7 +1115,7 @@
       "D": "27"
     },
     "answer": "D",
-    "id": "math-fr-easy-093",
+    "id": "math-en-easy-093",
     "difficulty": "easy"
   },
   {
@@ -1124,7 +1127,7 @@
       "D": "11"
     },
     "answer": "A",
-    "id": "math-fr-easy-094",
+    "id": "math-en-easy-094",
     "difficulty": "easy"
   },
   {
@@ -1136,7 +1139,7 @@
       "D": "46"
     },
     "answer": "C",
-    "id": "math-fr-easy-095",
+    "id": "math-en-easy-095",
     "difficulty": "easy"
   },
   {
@@ -1148,7 +1151,7 @@
       "D": "9"
     },
     "answer": "D",
-    "id": "math-fr-easy-096",
+    "id": "math-en-easy-096",
     "difficulty": "easy"
   },
   {
@@ -1160,7 +1163,7 @@
       "D": "56"
     },
     "answer": "B",
-    "id": "math-fr-easy-097",
+    "id": "math-en-easy-097",
     "difficulty": "easy"
   },
   {
@@ -1172,7 +1175,7 @@
       "D": "18"
     },
     "answer": "C",
-    "id": "math-fr-easy-098",
+    "id": "math-en-easy-098",
     "difficulty": "easy"
   },
   {
@@ -1184,7 +1187,7 @@
       "D": "9"
     },
     "answer": "C",
-    "id": "math-fr-easy-099",
+    "id": "math-en-easy-099",
     "difficulty": "easy"
   },
   {
@@ -1196,7 +1199,7 @@
       "D": "40"
     },
     "answer": "D",
-    "id": "math-fr-easy-100",
+    "id": "math-en-easy-100",
     "difficulty": "easy"
   },
   {
@@ -1208,7 +1211,7 @@
       "D": "11"
     },
     "answer": "A",
-    "id": "math-fr-easy-101",
+    "id": "math-en-easy-101",
     "difficulty": "easy"
   },
   {
@@ -1220,7 +1223,7 @@
       "D": "66"
     },
     "answer": "C",
-    "id": "math-fr-easy-102",
+    "id": "math-en-easy-102",
     "difficulty": "easy"
   },
   {
@@ -1232,7 +1235,7 @@
       "D": "11"
     },
     "answer": "C",
-    "id": "math-fr-easy-103",
+    "id": "math-en-easy-103",
     "difficulty": "easy"
   },
   {
@@ -1244,7 +1247,7 @@
       "D": "11"
     },
     "answer": "D",
-    "id": "math-fr-easy-104",
+    "id": "math-en-easy-104",
     "difficulty": "easy"
   },
   {
@@ -1256,7 +1259,7 @@
       "D": "30"
     },
     "answer": "B",
-    "id": "math-fr-easy-105",
+    "id": "math-en-easy-105",
     "difficulty": "easy"
   },
   {
@@ -1268,7 +1271,7 @@
       "D": "12"
     },
     "answer": "C",
-    "id": "math-fr-easy-106",
+    "id": "math-en-easy-106",
     "difficulty": "easy"
   },
   {
@@ -1280,7 +1283,7 @@
       "D": "50"
     },
     "answer": "C",
-    "id": "math-fr-easy-107",
+    "id": "math-en-easy-107",
     "difficulty": "easy"
   },
   {
@@ -1292,7 +1295,7 @@
       "D": "12"
     },
     "answer": "A",
-    "id": "math-fr-easy-108",
+    "id": "math-en-easy-108",
     "difficulty": "easy"
   },
   {
@@ -1304,7 +1307,7 @@
       "D": "77"
     },
     "answer": "D",
-    "id": "math-fr-easy-109",
+    "id": "math-en-easy-109",
     "difficulty": "easy"
   },
   {
@@ -1316,7 +1319,7 @@
       "D": "24"
     },
     "answer": "D",
-    "id": "math-fr-easy-110",
+    "id": "math-en-easy-110",
     "difficulty": "easy"
   },
   {
@@ -1328,7 +1331,7 @@
       "D": "13"
     },
     "answer": "B",
-    "id": "math-fr-easy-111",
+    "id": "math-en-easy-111",
     "difficulty": "easy"
   },
   {
@@ -1340,7 +1343,7 @@
       "D": "48"
     },
     "answer": "D",
-    "id": "math-fr-easy-112",
+    "id": "math-en-easy-112",
     "difficulty": "easy"
   },
   {
@@ -1352,7 +1355,7 @@
       "D": "11"
     },
     "answer": "A",
-    "id": "math-fr-easy-113",
+    "id": "math-en-easy-113",
     "difficulty": "easy"
   },
   {
@@ -1364,7 +1367,7 @@
       "D": "66"
     },
     "answer": "A",
-    "id": "math-fr-easy-114",
+    "id": "math-en-easy-114",
     "difficulty": "easy"
   },
   {
@@ -1376,7 +1379,7 @@
       "D": "12"
     },
     "answer": "D",
-    "id": "math-fr-easy-115",
+    "id": "math-en-easy-115",
     "difficulty": "easy"
   },
   {
@@ -1388,7 +1391,7 @@
       "D": "1.5"
     },
     "answer": "B",
-    "id": "math-fr-easy-116",
+    "id": "math-en-easy-116",
     "difficulty": "easy"
   },
   {
@@ -1400,7 +1403,7 @@
       "D": "0.6"
     },
     "answer": "C",
-    "id": "math-fr-easy-117",
+    "id": "math-en-easy-117",
     "difficulty": "easy"
   },
   {
@@ -1412,7 +1415,7 @@
       "D": "1.4"
     },
     "answer": "B",
-    "id": "math-fr-easy-118",
+    "id": "math-en-easy-118",
     "difficulty": "easy"
   },
   {
@@ -1424,7 +1427,7 @@
       "D": "1"
     },
     "answer": "B",
-    "id": "math-fr-easy-119",
+    "id": "math-en-easy-119",
     "difficulty": "easy"
   },
   {
@@ -1436,7 +1439,7 @@
       "D": "2.1"
     },
     "answer": "D",
-    "id": "math-fr-easy-120",
+    "id": "math-en-easy-120",
     "difficulty": "easy"
   },
   {
@@ -1448,7 +1451,7 @@
       "D": "1.4"
     },
     "answer": "D",
-    "id": "math-fr-easy-121",
+    "id": "math-en-easy-121",
     "difficulty": "easy"
   },
   {
@@ -1460,7 +1463,7 @@
       "D": "2"
     },
     "answer": "D",
-    "id": "math-fr-easy-122",
+    "id": "math-en-easy-122",
     "difficulty": "easy"
   },
   {
@@ -1472,7 +1475,7 @@
       "D": "1.3"
     },
     "answer": "C",
-    "id": "math-fr-easy-123",
+    "id": "math-en-easy-123",
     "difficulty": "easy"
   },
   {
@@ -1484,7 +1487,7 @@
       "D": "1.8"
     },
     "answer": "A",
-    "id": "math-fr-easy-124",
+    "id": "math-en-easy-124",
     "difficulty": "easy"
   },
   {
@@ -1496,7 +1499,7 @@
       "D": "1.6"
     },
     "answer": "A",
-    "id": "math-fr-easy-125",
+    "id": "math-en-easy-125",
     "difficulty": "easy"
   },
   {
@@ -1508,7 +1511,7 @@
       "D": "2.6"
     },
     "answer": "B",
-    "id": "math-fr-easy-126",
+    "id": "math-en-easy-126",
     "difficulty": "easy"
   },
   {
@@ -1520,7 +1523,7 @@
       "D": "2.3"
     },
     "answer": "B",
-    "id": "math-fr-easy-127",
+    "id": "math-en-easy-127",
     "difficulty": "easy"
   },
   {
@@ -1532,7 +1535,7 @@
       "D": "2.7"
     },
     "answer": "B",
-    "id": "math-fr-easy-128",
+    "id": "math-en-easy-128",
     "difficulty": "easy"
   },
   {
@@ -1544,7 +1547,7 @@
       "D": "1.6"
     },
     "answer": "D",
-    "id": "math-fr-easy-129",
+    "id": "math-en-easy-129",
     "difficulty": "easy"
   },
   {
@@ -1556,7 +1559,7 @@
       "D": "2.5"
     },
     "answer": "D",
-    "id": "math-fr-easy-130",
+    "id": "math-en-easy-130",
     "difficulty": "easy"
   },
   {
@@ -1568,7 +1571,7 @@
       "D": "2.2"
     },
     "answer": "C",
-    "id": "math-fr-easy-131",
+    "id": "math-en-easy-131",
     "difficulty": "easy"
   },
   {
@@ -1580,7 +1583,7 @@
       "D": "3.5"
     },
     "answer": "C",
-    "id": "math-fr-easy-132",
+    "id": "math-en-easy-132",
     "difficulty": "easy"
   },
   {
@@ -1592,7 +1595,7 @@
       "D": "2.9"
     },
     "answer": "B",
-    "id": "math-fr-easy-133",
+    "id": "math-en-easy-133",
     "difficulty": "easy"
   },
   {
@@ -1604,7 +1607,7 @@
       "D": "3.4"
     },
     "answer": "A",
-    "id": "math-fr-easy-134",
+    "id": "math-en-easy-134",
     "difficulty": "easy"
   },
   {
@@ -1616,7 +1619,7 @@
       "D": "2.4"
     },
     "answer": "A",
-    "id": "math-fr-easy-135",
+    "id": "math-en-easy-135",
     "difficulty": "easy"
   },
   {
@@ -1628,7 +1631,7 @@
       "D": "3"
     },
     "answer": "C",
-    "id": "math-fr-easy-136",
+    "id": "math-en-easy-136",
     "difficulty": "easy"
   },
   {
@@ -1640,7 +1643,7 @@
       "D": "3"
     },
     "answer": "B",
-    "id": "math-fr-easy-137",
+    "id": "math-en-easy-137",
     "difficulty": "easy"
   },
   {
@@ -1652,7 +1655,7 @@
       "D": "4.1"
     },
     "answer": "A",
-    "id": "math-fr-easy-138",
+    "id": "math-en-easy-138",
     "difficulty": "easy"
   },
   {
@@ -1664,7 +1667,7 @@
       "D": "3.2"
     },
     "answer": "D",
-    "id": "math-fr-easy-139",
+    "id": "math-en-easy-139",
     "difficulty": "easy"
   },
   {
@@ -1676,7 +1679,7 @@
       "D": "3.7"
     },
     "answer": "C",
-    "id": "math-fr-easy-140",
+    "id": "math-en-easy-140",
     "difficulty": "easy"
   },
   {
@@ -1688,7 +1691,7 @@
       "D": "3.1"
     },
     "answer": "C",
-    "id": "math-fr-easy-141",
+    "id": "math-en-easy-141",
     "difficulty": "easy"
   },
   {
@@ -1700,7 +1703,7 @@
       "D": "3.6"
     },
     "answer": "C",
-    "id": "math-fr-easy-142",
+    "id": "math-en-easy-142",
     "difficulty": "easy"
   },
   {
@@ -1712,7 +1715,7 @@
       "D": "3.4"
     },
     "answer": "A",
-    "id": "math-fr-easy-143",
+    "id": "math-en-easy-143",
     "difficulty": "easy"
   },
   {
@@ -1724,7 +1727,7 @@
       "D": "4.7"
     },
     "answer": "A",
-    "id": "math-fr-easy-144",
+    "id": "math-en-easy-144",
     "difficulty": "easy"
   },
   {
@@ -1736,7 +1739,7 @@
       "D": "4"
     },
     "answer": "A",
-    "id": "math-fr-easy-145",
+    "id": "math-en-easy-145",
     "difficulty": "easy"
   },
   {
@@ -1748,7 +1751,7 @@
       "D": "4.3"
     },
     "answer": "B",
-    "id": "math-fr-easy-146",
+    "id": "math-en-easy-146",
     "difficulty": "easy"
   },
   {
@@ -1760,7 +1763,7 @@
       "D": "3.7"
     },
     "answer": "C",
-    "id": "math-fr-easy-147",
+    "id": "math-en-easy-147",
     "difficulty": "easy"
   },
   {
@@ -1772,7 +1775,7 @@
       "D": "4.4"
     },
     "answer": "B",
-    "id": "math-fr-easy-148",
+    "id": "math-en-easy-148",
     "difficulty": "easy"
   },
   {
@@ -1784,7 +1787,7 @@
       "D": "3.9"
     },
     "answer": "D",
-    "id": "math-fr-easy-149",
+    "id": "math-en-easy-149",
     "difficulty": "easy"
   },
   {
@@ -1796,7 +1799,7 @@
       "D": "5.2"
     },
     "answer": "C",
-    "id": "math-fr-easy-150",
+    "id": "math-en-easy-150",
     "difficulty": "easy"
   },
   {
@@ -1808,7 +1811,7 @@
       "D": "4.5"
     },
     "answer": "C",
-    "id": "math-fr-easy-151",
+    "id": "math-en-easy-151",
     "difficulty": "easy"
   },
   {
@@ -1820,7 +1823,7 @@
       "D": "5.1"
     },
     "answer": "C",
-    "id": "math-fr-easy-152",
+    "id": "math-en-easy-152",
     "difficulty": "easy"
   },
   {
@@ -1832,7 +1835,7 @@
       "D": "4.3"
     },
     "answer": "B",
-    "id": "math-fr-easy-153",
+    "id": "math-en-easy-153",
     "difficulty": "easy"
   },
   {
@@ -1844,7 +1847,7 @@
       "D": "5.1"
     },
     "answer": "C",
-    "id": "math-fr-easy-154",
+    "id": "math-en-easy-154",
     "difficulty": "easy"
   },
   {
@@ -1856,7 +1859,7 @@
       "D": "4.5"
     },
     "answer": "D",
-    "id": "math-fr-easy-155",
+    "id": "math-en-easy-155",
     "difficulty": "easy"
   },
   {
@@ -1868,7 +1871,7 @@
       "D": "5.7"
     },
     "answer": "D",
-    "id": "math-fr-easy-156",
+    "id": "math-en-easy-156",
     "difficulty": "easy"
   },
   {
@@ -1880,7 +1883,7 @@
       "D": "5.2"
     },
     "answer": "A",
-    "id": "math-fr-easy-157",
+    "id": "math-en-easy-157",
     "difficulty": "easy"
   },
   {
@@ -1892,7 +1895,7 @@
       "D": "5.8"
     },
     "answer": "C",
-    "id": "math-fr-easy-158",
+    "id": "math-en-easy-158",
     "difficulty": "easy"
   },
   {
@@ -1904,7 +1907,7 @@
       "D": "4.7"
     },
     "answer": "B",
-    "id": "math-fr-easy-159",
+    "id": "math-en-easy-159",
     "difficulty": "easy"
   },
   {
@@ -1916,7 +1919,7 @@
       "D": "5.4"
     },
     "answer": "C",
-    "id": "math-fr-easy-160",
+    "id": "math-en-easy-160",
     "difficulty": "easy"
   },
   {
@@ -1928,7 +1931,7 @@
       "D": "70"
     },
     "answer": "C",
-    "id": "math-fr-easy-161",
+    "id": "math-en-easy-161",
     "difficulty": "easy"
   },
   {
@@ -1940,7 +1943,7 @@
       "D": "110"
     },
     "answer": "B",
-    "id": "math-fr-easy-162",
+    "id": "math-en-easy-162",
     "difficulty": "easy"
   },
   {
@@ -1952,7 +1955,7 @@
       "D": "180"
     },
     "answer": "D",
-    "id": "math-fr-easy-163",
+    "id": "math-en-easy-163",
     "difficulty": "easy"
   },
   {
@@ -1964,7 +1967,7 @@
       "D": "240"
     },
     "answer": "D",
-    "id": "math-fr-easy-164",
+    "id": "math-en-easy-164",
     "difficulty": "easy"
   },
   {
@@ -1976,7 +1979,7 @@
       "D": "330"
     },
     "answer": "A",
-    "id": "math-fr-easy-165",
+    "id": "math-en-easy-165",
     "difficulty": "easy"
   },
   {
@@ -1988,7 +1991,7 @@
       "D": "370"
     },
     "answer": "B",
-    "id": "math-fr-easy-166",
+    "id": "math-en-easy-166",
     "difficulty": "easy"
   },
   {
@@ -2000,7 +2003,7 @@
       "D": "450"
     },
     "answer": "C",
-    "id": "math-fr-easy-167",
+    "id": "math-en-easy-167",
     "difficulty": "easy"
   },
   {
@@ -2012,7 +2015,7 @@
       "D": "510"
     },
     "answer": "A",
-    "id": "math-fr-easy-168",
+    "id": "math-en-easy-168",
     "difficulty": "easy"
   },
   {
@@ -2024,7 +2027,7 @@
       "D": "540"
     },
     "answer": "D",
-    "id": "math-fr-easy-169",
+    "id": "math-en-easy-169",
     "difficulty": "easy"
   },
   {
@@ -2036,7 +2039,7 @@
       "D": "630"
     },
     "answer": "B",
-    "id": "math-fr-easy-170",
+    "id": "math-en-easy-170",
     "difficulty": "easy"
   },
   {
@@ -2048,7 +2051,7 @@
       "D": "2.3"
     },
     "answer": "A",
-    "id": "math-fr-easy-171",
+    "id": "math-en-easy-171",
     "difficulty": "easy"
   },
   {
@@ -2060,7 +2063,7 @@
       "D": "5.1"
     },
     "answer": "D",
-    "id": "math-fr-easy-172",
+    "id": "math-en-easy-172",
     "difficulty": "easy"
   },
   {
@@ -2072,7 +2075,7 @@
       "D": "8"
     },
     "answer": "D",
-    "id": "math-fr-easy-173",
+    "id": "math-en-easy-173",
     "difficulty": "easy"
   },
   {
@@ -2084,7 +2087,7 @@
       "D": "11.5"
     },
     "answer": "C",
-    "id": "math-fr-easy-174",
+    "id": "math-en-easy-174",
     "difficulty": "easy"
   },
   {
@@ -2096,7 +2099,7 @@
       "D": "14.3"
     },
     "answer": "A",
-    "id": "math-fr-easy-175",
+    "id": "math-en-easy-175",
     "difficulty": "easy"
   },
   {
@@ -2108,7 +2111,7 @@
       "D": "17.1"
     },
     "answer": "D",
-    "id": "math-fr-easy-176",
+    "id": "math-en-easy-176",
     "difficulty": "easy"
   },
   {
@@ -2120,7 +2123,7 @@
       "D": "1/2"
     },
     "answer": "D",
-    "id": "math-fr-medium-177",
+    "id": "math-en-medium-177",
     "difficulty": "medium"
   },
   {
@@ -2132,7 +2135,7 @@
       "D": "2/3"
     },
     "answer": "A",
-    "id": "math-fr-medium-178",
+    "id": "math-en-medium-178",
     "difficulty": "medium"
   },
   {
@@ -2144,7 +2147,7 @@
       "D": "2/4"
     },
     "answer": "C",
-    "id": "math-fr-medium-179",
+    "id": "math-en-medium-179",
     "difficulty": "medium"
   },
   {
@@ -2156,7 +2159,7 @@
       "D": "1/4"
     },
     "answer": "D",
-    "id": "math-fr-medium-180",
+    "id": "math-en-medium-180",
     "difficulty": "medium"
   },
   {
@@ -2168,7 +2171,7 @@
       "D": "1/4"
     },
     "answer": "A",
-    "id": "math-fr-medium-181",
+    "id": "math-en-medium-181",
     "difficulty": "medium"
   },
   {
@@ -2180,7 +2183,7 @@
       "D": "2/4"
     },
     "answer": "B",
-    "id": "math-fr-medium-182",
+    "id": "math-en-medium-182",
     "difficulty": "medium"
   },
   {
@@ -2192,7 +2195,7 @@
       "D": "1/5*3"
     },
     "answer": "A",
-    "id": "math-fr-medium-183",
+    "id": "math-en-medium-183",
     "difficulty": "medium"
   },
   {
@@ -2204,7 +2207,7 @@
       "D": "1/5"
     },
     "answer": "C",
-    "id": "math-fr-medium-184",
+    "id": "math-en-medium-184",
     "difficulty": "medium"
   },
   {
@@ -2216,7 +2219,7 @@
       "D": "3/5"
     },
     "answer": "D",
-    "id": "math-fr-medium-185",
+    "id": "math-en-medium-185",
     "difficulty": "medium"
   },
   {
@@ -2228,7 +2231,7 @@
       "D": "3/5"
     },
     "answer": "B",
-    "id": "math-fr-medium-186",
+    "id": "math-en-medium-186",
     "difficulty": "medium"
   },
   {
@@ -2240,7 +2243,7 @@
       "D": "1/6"
     },
     "answer": "D",
-    "id": "math-fr-medium-187",
+    "id": "math-en-medium-187",
     "difficulty": "medium"
   },
   {
@@ -2252,7 +2255,7 @@
       "D": "2/6"
     },
     "answer": "D",
-    "id": "math-fr-medium-188",
+    "id": "math-en-medium-188",
     "difficulty": "medium"
   },
   {
@@ -2264,7 +2267,7 @@
       "D": "2/6"
     },
     "answer": "B",
-    "id": "math-fr-medium-189",
+    "id": "math-en-medium-189",
     "difficulty": "medium"
   },
   {
@@ -2276,7 +2279,7 @@
       "D": "4/6"
     },
     "answer": "D",
-    "id": "math-fr-medium-190",
+    "id": "math-en-medium-190",
     "difficulty": "medium"
   },
   {
@@ -2288,7 +2291,7 @@
       "D": "4/6"
     },
     "answer": "A",
-    "id": "math-fr-medium-191",
+    "id": "math-en-medium-191",
     "difficulty": "medium"
   },
   {
@@ -2300,7 +2303,7 @@
       "D": "2/8"
     },
     "answer": "C",
-    "id": "math-fr-medium-192",
+    "id": "math-en-medium-192",
     "difficulty": "medium"
   },
   {
@@ -2312,7 +2315,7 @@
       "D": "3/8"
     },
     "answer": "A",
-    "id": "math-fr-medium-193",
+    "id": "math-en-medium-193",
     "difficulty": "medium"
   },
   {
@@ -2324,7 +2327,7 @@
       "D": "4/8"
     },
     "answer": "A",
-    "id": "math-fr-medium-194",
+    "id": "math-en-medium-194",
     "difficulty": "medium"
   },
   {
@@ -2336,7 +2339,7 @@
       "D": "4/8"
     },
     "answer": "D",
-    "id": "math-fr-medium-195",
+    "id": "math-en-medium-195",
     "difficulty": "medium"
   },
   {
@@ -2348,7 +2351,7 @@
       "D": "6/8"
     },
     "answer": "A",
-    "id": "math-fr-medium-196",
+    "id": "math-en-medium-196",
     "difficulty": "medium"
   },
   {
@@ -2360,7 +2363,7 @@
       "D": "5/8"
     },
     "answer": "B",
-    "id": "math-fr-medium-197",
+    "id": "math-en-medium-197",
     "difficulty": "medium"
   },
   {
@@ -2372,7 +2375,7 @@
       "D": "7/8*3"
     },
     "answer": "C",
-    "id": "math-fr-medium-198",
+    "id": "math-en-medium-198",
     "difficulty": "medium"
   },
   {
@@ -2384,7 +2387,7 @@
       "D": "1/10"
     },
     "answer": "D",
-    "id": "math-fr-medium-199",
+    "id": "math-en-medium-199",
     "difficulty": "medium"
   },
   {
@@ -2396,7 +2399,7 @@
       "D": "2/10"
     },
     "answer": "D",
-    "id": "math-fr-medium-200",
+    "id": "math-en-medium-200",
     "difficulty": "medium"
   },
   {
@@ -2408,7 +2411,7 @@
       "D": "4/10"
     },
     "answer": "C",
-    "id": "math-fr-medium-201",
+    "id": "math-en-medium-201",
     "difficulty": "medium"
   },
   {
@@ -2420,7 +2423,7 @@
       "D": "3/10"
     },
     "answer": "A",
-    "id": "math-fr-medium-202",
+    "id": "math-en-medium-202",
     "difficulty": "medium"
   },
   {
@@ -2432,7 +2435,7 @@
       "D": "4/10"
     },
     "answer": "A",
-    "id": "math-fr-medium-203",
+    "id": "math-en-medium-203",
     "difficulty": "medium"
   },
   {
@@ -2444,7 +2447,7 @@
       "D": "6/11"
     },
     "answer": "B",
-    "id": "math-fr-medium-204",
+    "id": "math-en-medium-204",
     "difficulty": "medium"
   },
   {
@@ -2456,7 +2459,7 @@
       "D": "8/10"
     },
     "answer": "A",
-    "id": "math-fr-medium-205",
+    "id": "math-en-medium-205",
     "difficulty": "medium"
   },
   {
@@ -2468,7 +2471,7 @@
       "D": "7/10"
     },
     "answer": "C",
-    "id": "math-fr-medium-206",
+    "id": "math-en-medium-206",
     "difficulty": "medium"
   },
   {
@@ -2480,7 +2483,7 @@
       "D": "8/10"
     },
     "answer": "B",
-    "id": "math-fr-medium-207",
+    "id": "math-en-medium-207",
     "difficulty": "medium"
   },
   {
@@ -2492,7 +2495,7 @@
       "D": "1/13"
     },
     "answer": "C",
-    "id": "math-fr-medium-208",
+    "id": "math-en-medium-208",
     "difficulty": "medium"
   },
   {
@@ -2504,7 +2507,7 @@
       "D": "2/12"
     },
     "answer": "D",
-    "id": "math-fr-medium-209",
+    "id": "math-en-medium-209",
     "difficulty": "medium"
   },
   {
@@ -2516,7 +2519,7 @@
       "D": "3/13"
     },
     "answer": "C",
-    "id": "math-fr-medium-210",
+    "id": "math-en-medium-210",
     "difficulty": "medium"
   },
   {
@@ -2528,7 +2531,7 @@
       "D": "4/12"
     },
     "answer": "D",
-    "id": "math-fr-medium-211",
+    "id": "math-en-medium-211",
     "difficulty": "medium"
   },
   {
@@ -2540,7 +2543,7 @@
       "D": "5/13"
     },
     "answer": "C",
-    "id": "math-fr-medium-212",
+    "id": "math-en-medium-212",
     "difficulty": "medium"
   },
   {
@@ -2552,7 +2555,7 @@
       "D": "6/12"
     },
     "answer": "D",
-    "id": "math-fr-medium-213",
+    "id": "math-en-medium-213",
     "difficulty": "medium"
   },
   {
@@ -2564,7 +2567,7 @@
       "D": "7/12"
     },
     "answer": "D",
-    "id": "math-fr-medium-214",
+    "id": "math-en-medium-214",
     "difficulty": "medium"
   },
   {
@@ -2576,7 +2579,7 @@
       "D": "7/12"
     },
     "answer": "C",
-    "id": "math-fr-medium-215",
+    "id": "math-en-medium-215",
     "difficulty": "medium"
   },
   {
@@ -2588,7 +2591,7 @@
       "D": "9/13"
     },
     "answer": "C",
-    "id": "math-fr-medium-216",
+    "id": "math-en-medium-216",
     "difficulty": "medium"
   },
   {
@@ -2600,7 +2603,7 @@
       "D": "11/12"
     },
     "answer": "A",
-    "id": "math-fr-medium-217",
+    "id": "math-en-medium-217",
     "difficulty": "medium"
   },
   {
@@ -2612,7 +2615,7 @@
       "D": "10/12"
     },
     "answer": "B",
-    "id": "math-fr-medium-218",
+    "id": "math-en-medium-218",
     "difficulty": "medium"
   },
   {
@@ -2624,7 +2627,7 @@
       "D": "1"
     },
     "answer": "D",
-    "id": "math-fr-medium-219",
+    "id": "math-en-medium-219",
     "difficulty": "medium"
   },
   {
@@ -2636,7 +2639,7 @@
       "D": "1"
     },
     "answer": "A",
-    "id": "math-fr-medium-220",
+    "id": "math-en-medium-220",
     "difficulty": "medium"
   },
   {
@@ -2648,7 +2651,7 @@
       "D": "5"
     },
     "answer": "B",
-    "id": "math-fr-medium-221",
+    "id": "math-en-medium-221",
     "difficulty": "medium"
   },
   {
@@ -2660,7 +2663,7 @@
       "D": "4"
     },
     "answer": "D",
-    "id": "math-fr-medium-222",
+    "id": "math-en-medium-222",
     "difficulty": "medium"
   },
   {
@@ -2672,7 +2675,7 @@
       "D": "6"
     },
     "answer": "B",
-    "id": "math-fr-medium-223",
+    "id": "math-en-medium-223",
     "difficulty": "medium"
   },
   {
@@ -2684,7 +2687,7 @@
       "D": "8"
     },
     "answer": "A",
-    "id": "math-fr-medium-224",
+    "id": "math-en-medium-224",
     "difficulty": "medium"
   },
   {
@@ -2696,7 +2699,7 @@
       "D": "9"
     },
     "answer": "B",
-    "id": "math-fr-medium-225",
+    "id": "math-en-medium-225",
     "difficulty": "medium"
   },
   {
@@ -2708,7 +2711,7 @@
       "D": "8"
     },
     "answer": "D",
-    "id": "math-fr-medium-226",
+    "id": "math-en-medium-226",
     "difficulty": "medium"
   },
   {
@@ -2720,7 +2723,7 @@
       "D": "9"
     },
     "answer": "D",
-    "id": "math-fr-medium-227",
+    "id": "math-en-medium-227",
     "difficulty": "medium"
   },
   {
@@ -2732,7 +2735,7 @@
       "D": "9"
     },
     "answer": "C",
-    "id": "math-fr-medium-228",
+    "id": "math-en-medium-228",
     "difficulty": "medium"
   },
   {
@@ -2744,7 +2747,7 @@
       "D": "10"
     },
     "answer": "C",
-    "id": "math-fr-medium-229",
+    "id": "math-en-medium-229",
     "difficulty": "medium"
   },
   {
@@ -2756,7 +2759,7 @@
       "D": "14"
     },
     "answer": "B",
-    "id": "math-fr-medium-230",
+    "id": "math-en-medium-230",
     "difficulty": "medium"
   },
   {
@@ -2768,7 +2771,7 @@
       "D": "12"
     },
     "answer": "A",
-    "id": "math-fr-medium-231",
+    "id": "math-en-medium-231",
     "difficulty": "medium"
   },
   {
@@ -2780,7 +2783,7 @@
       "D": "14"
     },
     "answer": "D",
-    "id": "math-fr-medium-232",
+    "id": "math-en-medium-232",
     "difficulty": "medium"
   },
   {
@@ -2792,7 +2795,7 @@
       "D": "16"
     },
     "answer": "A",
-    "id": "math-fr-medium-233",
+    "id": "math-en-medium-233",
     "difficulty": "medium"
   },
   {
@@ -2804,7 +2807,7 @@
       "D": "15"
     },
     "answer": "C",
-    "id": "math-fr-medium-234",
+    "id": "math-en-medium-234",
     "difficulty": "medium"
   },
   {
@@ -2816,7 +2819,7 @@
       "D": "17"
     },
     "answer": "D",
-    "id": "math-fr-medium-235",
+    "id": "math-en-medium-235",
     "difficulty": "medium"
   },
   {
@@ -2828,7 +2831,7 @@
       "D": "17"
     },
     "answer": "B",
-    "id": "math-fr-medium-236",
+    "id": "math-en-medium-236",
     "difficulty": "medium"
   },
   {
@@ -2840,7 +2843,7 @@
       "D": "19"
     },
     "answer": "D",
-    "id": "math-fr-medium-237",
+    "id": "math-en-medium-237",
     "difficulty": "medium"
   },
   {
@@ -2852,7 +2855,7 @@
       "D": "19"
     },
     "answer": "B",
-    "id": "math-fr-medium-238",
+    "id": "math-en-medium-238",
     "difficulty": "medium"
   },
   {
@@ -2864,7 +2867,7 @@
       "D": "2/4"
     },
     "answer": "A",
-    "id": "math-fr-medium-239",
+    "id": "math-en-medium-239",
     "difficulty": "medium"
   },
   {
@@ -2876,7 +2879,7 @@
       "D": "1/2"
     },
     "answer": "D",
-    "id": "math-fr-medium-240",
+    "id": "math-en-medium-240",
     "difficulty": "medium"
   },
   {
@@ -2888,7 +2891,7 @@
       "D": "1/2"
     },
     "answer": "D",
-    "id": "math-fr-medium-241",
+    "id": "math-en-medium-241",
     "difficulty": "medium"
   },
   {
@@ -2900,7 +2903,7 @@
       "D": "1/5"
     },
     "answer": "C",
-    "id": "math-fr-medium-242",
+    "id": "math-en-medium-242",
     "difficulty": "medium"
   },
   {
@@ -2912,7 +2915,7 @@
       "D": "1/6"
     },
     "answer": "B",
-    "id": "math-fr-medium-243",
+    "id": "math-en-medium-243",
     "difficulty": "medium"
   },
   {
@@ -2924,7 +2927,7 @@
       "D": "7/1"
     },
     "answer": "C",
-    "id": "math-fr-medium-244",
+    "id": "math-en-medium-244",
     "difficulty": "medium"
   },
   {
@@ -2936,7 +2939,7 @@
       "D": "2/16"
     },
     "answer": "B",
-    "id": "math-fr-medium-245",
+    "id": "math-en-medium-245",
     "difficulty": "medium"
   },
   {
@@ -2948,7 +2951,7 @@
       "D": "9/1"
     },
     "answer": "A",
-    "id": "math-fr-medium-246",
+    "id": "math-en-medium-246",
     "difficulty": "medium"
   },
   {
@@ -2960,7 +2963,7 @@
       "D": "2/20"
     },
     "answer": "C",
-    "id": "math-fr-medium-247",
+    "id": "math-en-medium-247",
     "difficulty": "medium"
   },
   {
@@ -2972,7 +2975,7 @@
       "D": "1/2"
     },
     "answer": "D",
-    "id": "math-fr-medium-248",
+    "id": "math-en-medium-248",
     "difficulty": "medium"
   },
   {
@@ -2984,7 +2987,7 @@
       "D": "15*3"
     },
     "answer": "A",
-    "id": "math-fr-medium-249",
+    "id": "math-en-medium-249",
     "difficulty": "medium"
   },
   {
@@ -2996,7 +2999,7 @@
       "D": "22"
     },
     "answer": "C",
-    "id": "math-fr-medium-250",
+    "id": "math-en-medium-250",
     "difficulty": "medium"
   },
   {
@@ -3008,7 +3011,7 @@
       "D": "34"
     },
     "answer": "A",
-    "id": "math-fr-medium-251",
+    "id": "math-en-medium-251",
     "difficulty": "medium"
   },
   {
@@ -3020,7 +3023,7 @@
       "D": "28"
     },
     "answer": "D",
-    "id": "math-fr-medium-252",
+    "id": "math-en-medium-252",
     "difficulty": "medium"
   },
   {
@@ -3032,7 +3035,7 @@
       "D": "13"
     },
     "answer": "A",
-    "id": "math-fr-medium-253",
+    "id": "math-en-medium-253",
     "difficulty": "medium"
   },
   {
@@ -3044,7 +3047,7 @@
       "D": "24"
     },
     "answer": "B",
-    "id": "math-fr-medium-254",
+    "id": "math-en-medium-254",
     "difficulty": "medium"
   },
   {
@@ -3056,7 +3059,7 @@
       "D": "26"
     },
     "answer": "B",
-    "id": "math-fr-medium-255",
+    "id": "math-en-medium-255",
     "difficulty": "medium"
   },
   {
@@ -3068,7 +3071,7 @@
       "D": "30"
     },
     "answer": "D",
-    "id": "math-fr-medium-256",
+    "id": "math-en-medium-256",
     "difficulty": "medium"
   },
   {
@@ -3080,7 +3083,7 @@
       "D": "65"
     },
     "answer": "A",
-    "id": "math-fr-medium-257",
+    "id": "math-en-medium-257",
     "difficulty": "medium"
   },
   {
@@ -3092,7 +3095,7 @@
       "D": "38"
     },
     "answer": "D",
-    "id": "math-fr-medium-258",
+    "id": "math-en-medium-258",
     "difficulty": "medium"
   },
   {
@@ -3104,7 +3107,7 @@
       "D": "105"
     },
     "answer": "C",
-    "id": "math-fr-medium-259",
+    "id": "math-en-medium-259",
     "difficulty": "medium"
   },
   {
@@ -3116,7 +3119,7 @@
       "D": "30"
     },
     "answer": "B",
-    "id": "math-fr-medium-260",
+    "id": "math-en-medium-260",
     "difficulty": "medium"
   },
   {
@@ -3128,7 +3131,7 @@
       "D": "45"
     },
     "answer": "D",
-    "id": "math-fr-medium-261",
+    "id": "math-en-medium-261",
     "difficulty": "medium"
   },
   {
@@ -3140,7 +3143,7 @@
       "D": "40"
     },
     "answer": "D",
-    "id": "math-fr-medium-262",
+    "id": "math-en-medium-262",
     "difficulty": "medium"
   },
   {
@@ -3152,7 +3155,7 @@
       "D": "85"
     },
     "answer": "D",
-    "id": "math-fr-medium-263",
+    "id": "math-en-medium-263",
     "difficulty": "medium"
   },
   {
@@ -3164,7 +3167,7 @@
       "D": "46"
     },
     "answer": "C",
-    "id": "math-fr-medium-264",
+    "id": "math-en-medium-264",
     "difficulty": "medium"
   },
   {
@@ -3176,7 +3179,7 @@
       "D": "133"
     },
     "answer": "D",
-    "id": "math-fr-medium-265",
+    "id": "math-en-medium-265",
     "difficulty": "medium"
   },
   {
@@ -3188,7 +3191,7 @@
       "D": "58"
     },
     "answer": "A",
-    "id": "math-fr-medium-266",
+    "id": "math-en-medium-266",
     "difficulty": "medium"
   },
   {
@@ -3200,7 +3203,7 @@
       "D": "46"
     },
     "answer": "A",
-    "id": "math-fr-medium-267",
+    "id": "math-en-medium-267",
     "difficulty": "medium"
   },
   {
@@ -3212,7 +3215,7 @@
       "D": "52"
     },
     "answer": "B",
-    "id": "math-fr-medium-268",
+    "id": "math-en-medium-268",
     "difficulty": "medium"
   },
   {
@@ -3224,7 +3227,7 @@
       "D": "1100"
     },
     "answer": "A",
-    "id": "math-fr-medium-269",
+    "id": "math-en-medium-269",
     "difficulty": "medium"
   },
   {
@@ -3236,7 +3239,7 @@
       "D": "2000"
     },
     "answer": "D",
-    "id": "math-fr-medium-270",
+    "id": "math-en-medium-270",
     "difficulty": "medium"
   },
   {
@@ -3248,7 +3251,7 @@
       "D": "2900"
     },
     "answer": "B",
-    "id": "math-fr-medium-271",
+    "id": "math-en-medium-271",
     "difficulty": "medium"
   },
   {
@@ -3260,7 +3263,7 @@
       "D": "4100"
     },
     "answer": "C",
-    "id": "math-fr-medium-272",
+    "id": "math-en-medium-272",
     "difficulty": "medium"
   },
   {
@@ -3272,7 +3275,7 @@
       "D": "5500"
     },
     "answer": "A",
-    "id": "math-fr-medium-273",
+    "id": "math-en-medium-273",
     "difficulty": "medium"
   },
   {
@@ -3284,7 +3287,7 @@
       "D": "6100"
     },
     "answer": "C",
-    "id": "math-fr-medium-274",
+    "id": "math-en-medium-274",
     "difficulty": "medium"
   },
   {
@@ -3296,7 +3299,7 @@
       "D": "7500"
     },
     "answer": "A",
-    "id": "math-fr-medium-275",
+    "id": "math-en-medium-275",
     "difficulty": "medium"
   },
   {
@@ -3308,7 +3311,7 @@
       "D": "8500"
     },
     "answer": "B",
-    "id": "math-fr-medium-276",
+    "id": "math-en-medium-276",
     "difficulty": "medium"
   },
   {
@@ -3320,7 +3323,7 @@
       "D": "9000"
     },
     "answer": "D",
-    "id": "math-fr-medium-277",
+    "id": "math-en-medium-277",
     "difficulty": "medium"
   },
   {
@@ -3332,7 +3335,7 @@
       "D": "10000"
     },
     "answer": "D",
-    "id": "math-fr-medium-278",
+    "id": "math-en-medium-278",
     "difficulty": "medium"
   },
   {
@@ -3344,7 +3347,7 @@
       "D": "11500"
     },
     "answer": "B",
-    "id": "math-fr-medium-279",
+    "id": "math-en-medium-279",
     "difficulty": "medium"
   },
   {
@@ -3356,7 +3359,7 @@
       "D": "12500"
     },
     "answer": "A",
-    "id": "math-fr-medium-280",
+    "id": "math-en-medium-280",
     "difficulty": "medium"
   },
   {
@@ -3368,7 +3371,7 @@
       "D": "13100"
     },
     "answer": "A",
-    "id": "math-fr-medium-281",
+    "id": "math-en-medium-281",
     "difficulty": "medium"
   },
   {
@@ -3380,7 +3383,7 @@
       "D": "14500"
     },
     "answer": "B",
-    "id": "math-fr-medium-282",
+    "id": "math-en-medium-282",
     "difficulty": "medium"
   },
   {
@@ -3392,7 +3395,7 @@
       "D": "15100"
     },
     "answer": "C",
-    "id": "math-fr-medium-283",
+    "id": "math-en-medium-283",
     "difficulty": "medium"
   },
   {
@@ -3404,7 +3407,7 @@
       "D": "16100"
     },
     "answer": "A",
-    "id": "math-fr-medium-284",
+    "id": "math-en-medium-284",
     "difficulty": "medium"
   },
   {
@@ -3416,7 +3419,7 @@
       "D": "17100"
     },
     "answer": "A",
-    "id": "math-fr-medium-285",
+    "id": "math-en-medium-285",
     "difficulty": "medium"
   },
   {
@@ -3428,7 +3431,7 @@
       "D": "18000"
     },
     "answer": "D",
-    "id": "math-fr-medium-286",
+    "id": "math-en-medium-286",
     "difficulty": "medium"
   },
   {
@@ -3440,7 +3443,7 @@
       "D": "19500"
     },
     "answer": "C",
-    "id": "math-fr-medium-287",
+    "id": "math-en-medium-287",
     "difficulty": "medium"
   },
   {
@@ -3452,7 +3455,7 @@
       "D": "20000"
     },
     "answer": "D",
-    "id": "math-fr-medium-288",
+    "id": "math-en-medium-288",
     "difficulty": "medium"
   },
   {
@@ -3464,7 +3467,7 @@
       "D": "obtuse"
     },
     "answer": "A",
-    "id": "math-fr-medium-289",
+    "id": "math-en-medium-289",
     "difficulty": "medium"
   },
   {
@@ -3476,7 +3479,7 @@
       "D": "acute"
     },
     "answer": "D",
-    "id": "math-fr-medium-290",
+    "id": "math-en-medium-290",
     "difficulty": "medium"
   },
   {
@@ -3488,7 +3491,7 @@
       "D": "acute"
     },
     "answer": "D",
-    "id": "math-fr-medium-291",
+    "id": "math-en-medium-291",
     "difficulty": "medium"
   },
   {
@@ -3500,7 +3503,7 @@
       "D": "acute"
     },
     "answer": "B",
-    "id": "math-fr-medium-292",
+    "id": "math-en-medium-292",
     "difficulty": "medium"
   },
   {
@@ -3512,7 +3515,7 @@
       "D": "right"
     },
     "answer": "B",
-    "id": "math-fr-medium-293",
+    "id": "math-en-medium-293",
     "difficulty": "medium"
   },
   {
@@ -3524,7 +3527,7 @@
       "D": "obtuse*3"
     },
     "answer": "C",
-    "id": "math-fr-medium-294",
+    "id": "math-en-medium-294",
     "difficulty": "medium"
   },
   {
@@ -3536,7 +3539,7 @@
       "D": "obtuse*3"
     },
     "answer": "B",
-    "id": "math-fr-medium-295",
+    "id": "math-en-medium-295",
     "difficulty": "medium"
   },
   {
@@ -3548,7 +3551,7 @@
       "D": "straight"
     },
     "answer": "D",
-    "id": "math-fr-medium-296",
+    "id": "math-en-medium-296",
     "difficulty": "medium"
   },
   {
@@ -3560,7 +3563,7 @@
       "D": "1"
     },
     "answer": "C",
-    "id": "math-fr-medium-297",
+    "id": "math-en-medium-297",
     "difficulty": "medium"
   },
   {
@@ -3572,7 +3575,7 @@
       "D": "5"
     },
     "answer": "A",
-    "id": "math-fr-medium-298",
+    "id": "math-en-medium-298",
     "difficulty": "medium"
   },
   {
@@ -3584,7 +3587,7 @@
       "D": "6"
     },
     "answer": "B",
-    "id": "math-fr-medium-299",
+    "id": "math-en-medium-299",
     "difficulty": "medium"
   },
   {
@@ -3596,7 +3599,7 @@
       "D": "5"
     },
     "answer": "D",
-    "id": "math-fr-medium-300",
+    "id": "math-en-medium-300",
     "difficulty": "medium"
   },
   {
@@ -3608,7 +3611,7 @@
       "D": "6"
     },
     "answer": "D",
-    "id": "math-fr-medium-301",
+    "id": "math-en-medium-301",
     "difficulty": "medium"
   },
   {
@@ -3620,7 +3623,7 @@
       "D": "6"
     },
     "answer": "B",
-    "id": "math-fr-medium-302",
+    "id": "math-en-medium-302",
     "difficulty": "medium"
   },
   {
@@ -3632,7 +3635,7 @@
       "D": "7"
     },
     "answer": "C",
-    "id": "math-fr-medium-303",
+    "id": "math-en-medium-303",
     "difficulty": "medium"
   },
   {
@@ -3644,7 +3647,7 @@
       "D": "9"
     },
     "answer": "D",
-    "id": "math-fr-medium-304",
+    "id": "math-en-medium-304",
     "difficulty": "medium"
   },
   {
@@ -3656,7 +3659,7 @@
       "D": "11"
     },
     "answer": "A",
-    "id": "math-fr-medium-305",
+    "id": "math-en-medium-305",
     "difficulty": "medium"
   },
   {
@@ -3668,7 +3671,7 @@
       "D": "10"
     },
     "answer": "C",
-    "id": "math-fr-medium-306",
+    "id": "math-en-medium-306",
     "difficulty": "medium"
   },
   {
@@ -3680,7 +3683,7 @@
       "D": "14"
     },
     "answer": "B",
-    "id": "math-fr-medium-307",
+    "id": "math-en-medium-307",
     "difficulty": "medium"
   },
   {
@@ -3692,7 +3695,7 @@
       "D": "15"
     },
     "answer": "C",
-    "id": "math-fr-medium-308",
+    "id": "math-en-medium-308",
     "difficulty": "medium"
   },
   {
@@ -3704,7 +3707,7 @@
       "D": "13"
     },
     "answer": "A",
-    "id": "math-fr-medium-309",
+    "id": "math-en-medium-309",
     "difficulty": "medium"
   },
   {
@@ -3716,7 +3719,7 @@
       "D": "14"
     },
     "answer": "B",
-    "id": "math-fr-medium-310",
+    "id": "math-en-medium-310",
     "difficulty": "medium"
   },
   {
@@ -3728,7 +3731,7 @@
       "D": "17"
     },
     "answer": "B",
-    "id": "math-fr-medium-311",
+    "id": "math-en-medium-311",
     "difficulty": "medium"
   },
   {
@@ -3740,7 +3743,7 @@
       "D": "19"
     },
     "answer": "A",
-    "id": "math-fr-medium-312",
+    "id": "math-en-medium-312",
     "difficulty": "medium"
   },
   {
@@ -3752,7 +3755,7 @@
       "D": "18"
     },
     "answer": "D",
-    "id": "math-fr-medium-313",
+    "id": "math-en-medium-313",
     "difficulty": "medium"
   },
   {
@@ -3764,7 +3767,7 @@
       "D": "19"
     },
     "answer": "D",
-    "id": "math-fr-medium-314",
+    "id": "math-en-medium-314",
     "difficulty": "medium"
   },
   {
@@ -3776,7 +3779,7 @@
       "D": "21"
     },
     "answer": "B",
-    "id": "math-fr-medium-315",
+    "id": "math-en-medium-315",
     "difficulty": "medium"
   },
   {
@@ -3788,7 +3791,7 @@
       "D": "22"
     },
     "answer": "C",
-    "id": "math-fr-medium-316",
+    "id": "math-en-medium-316",
     "difficulty": "medium"
   },
   {
@@ -3800,7 +3803,7 @@
       "D": "6*3"
     },
     "answer": "C",
-    "id": "math-fr-medium-317",
+    "id": "math-en-medium-317",
     "difficulty": "medium"
   },
   {
@@ -3812,7 +3815,7 @@
       "D": "3"
     },
     "answer": "C",
-    "id": "math-fr-medium-318",
+    "id": "math-en-medium-318",
     "difficulty": "medium"
   },
   {
@@ -3824,7 +3827,7 @@
       "D": "3"
     },
     "answer": "D",
-    "id": "math-fr-medium-319",
+    "id": "math-en-medium-319",
     "difficulty": "medium"
   },
   {
@@ -3836,7 +3839,7 @@
       "D": "2.4"
     },
     "answer": "D",
-    "id": "math-fr-medium-320",
+    "id": "math-en-medium-320",
     "difficulty": "medium"
   },
   {
@@ -3848,7 +3851,7 @@
       "D": "4"
     },
     "answer": "B",
-    "id": "math-fr-medium-321",
+    "id": "math-en-medium-321",
     "difficulty": "medium"
   },
   {
@@ -3860,7 +3863,7 @@
       "D": "1.5"
     },
     "answer": "B",
-    "id": "math-fr-medium-322",
+    "id": "math-en-medium-322",
     "difficulty": "medium"
   },
   {
@@ -3872,7 +3875,7 @@
       "D": "1.5"
     },
     "answer": "D",
-    "id": "math-fr-medium-323",
+    "id": "math-en-medium-323",
     "difficulty": "medium"
   },
   {
@@ -3884,7 +3887,7 @@
       "D": "1.5"
     },
     "answer": "C",
-    "id": "math-fr-medium-324",
+    "id": "math-en-medium-324",
     "difficulty": "medium"
   },
   {
@@ -3896,7 +3899,7 @@
       "D": "1.33"
     },
     "answer": "B",
-    "id": "math-fr-medium-325",
+    "id": "math-en-medium-325",
     "difficulty": "medium"
   },
   {
@@ -3908,7 +3911,7 @@
       "D": "1.09"
     },
     "answer": "D",
-    "id": "math-fr-medium-326",
+    "id": "math-en-medium-326",
     "difficulty": "medium"
   },
   {
@@ -3920,7 +3923,7 @@
       "D": "2"
     },
     "answer": "B",
-    "id": "math-fr-medium-327",
+    "id": "math-en-medium-327",
     "difficulty": "medium"
   },
   {
@@ -3932,7 +3935,7 @@
       "D": "1.85"
     },
     "answer": "C",
-    "id": "math-fr-medium-328",
+    "id": "math-en-medium-328",
     "difficulty": "medium"
   },
   {
@@ -3944,7 +3947,7 @@
       "D": "1.71"
     },
     "answer": "B",
-    "id": "math-fr-medium-329",
+    "id": "math-en-medium-329",
     "difficulty": "medium"
   },
   {
@@ -3956,7 +3959,7 @@
       "D": "0.8"
     },
     "answer": "D",
-    "id": "math-fr-medium-330",
+    "id": "math-en-medium-330",
     "difficulty": "medium"
   },
   {
@@ -3968,7 +3971,7 @@
       "D": "0.71"
     },
     "answer": "A",
-    "id": "math-fr-medium-331",
+    "id": "math-en-medium-331",
     "difficulty": "medium"
   },
   {
@@ -3980,7 +3983,7 @@
       "D": "0.67"
     },
     "answer": "B",
-    "id": "math-fr-medium-332",
+    "id": "math-en-medium-332",
     "difficulty": "medium"
   },
   {
@@ -3992,7 +3995,7 @@
       "D": "0.63"
     },
     "answer": "B",
-    "id": "math-fr-medium-333",
+    "id": "math-en-medium-333",
     "difficulty": "medium"
   },
   {
@@ -4004,7 +4007,7 @@
       "D": "1.26"
     },
     "answer": "C",
-    "id": "math-fr-medium-334",
+    "id": "math-en-medium-334",
     "difficulty": "medium"
   },
   {
@@ -4016,7 +4019,7 @@
       "D": "0.6"
     },
     "answer": "D",
-    "id": "math-fr-medium-335",
+    "id": "math-en-medium-335",
     "difficulty": "medium"
   },
   {
@@ -4028,7 +4031,7 @@
       "D": "0.6"
     },
     "answer": "A",
-    "id": "math-fr-medium-336",
+    "id": "math-en-medium-336",
     "difficulty": "medium"
   },
   {
@@ -4040,7 +4043,7 @@
       "D": "28"
     },
     "answer": "D",
-    "id": "math-fr-hard-337",
+    "id": "math-en-hard-337",
     "difficulty": "hard"
   },
   {
@@ -4052,7 +4055,7 @@
       "D": "45"
     },
     "answer": "D",
-    "id": "math-fr-hard-338",
+    "id": "math-en-hard-338",
     "difficulty": "hard"
   },
   {
@@ -4064,7 +4067,7 @@
       "D": "60"
     },
     "answer": "B",
-    "id": "math-fr-hard-339",
+    "id": "math-en-hard-339",
     "difficulty": "hard"
   },
   {
@@ -4076,7 +4079,7 @@
       "D": "26"
     },
     "answer": "D",
-    "id": "math-fr-hard-340",
+    "id": "math-en-hard-340",
     "difficulty": "hard"
   },
   {
@@ -4088,7 +4091,7 @@
       "D": "51"
     },
     "answer": "C",
-    "id": "math-fr-hard-341",
+    "id": "math-en-hard-341",
     "difficulty": "hard"
   },
   {
@@ -4100,7 +4103,7 @@
       "D": "76"
     },
     "answer": "A",
-    "id": "math-fr-hard-342",
+    "id": "math-en-hard-342",
     "difficulty": "hard"
   },
   {
@@ -4112,7 +4115,7 @@
       "D": "105"
     },
     "answer": "C",
-    "id": "math-fr-hard-343",
+    "id": "math-en-hard-343",
     "difficulty": "hard"
   },
   {
@@ -4124,7 +4127,7 @@
       "D": "132"
     },
     "answer": "C",
-    "id": "math-fr-hard-344",
+    "id": "math-en-hard-344",
     "difficulty": "hard"
   },
   {
@@ -4136,7 +4139,7 @@
       "D": "46"
     },
     "answer": "D",
-    "id": "math-fr-hard-345",
+    "id": "math-en-hard-345",
     "difficulty": "hard"
   },
   {
@@ -4148,7 +4151,7 @@
       "D": "72"
     },
     "answer": "B",
-    "id": "math-fr-hard-346",
+    "id": "math-en-hard-346",
     "difficulty": "hard"
   },
   {
@@ -4160,7 +4163,7 @@
       "D": "108"
     },
     "answer": "D",
-    "id": "math-fr-hard-347",
+    "id": "math-en-hard-347",
     "difficulty": "hard"
   },
   {
@@ -4172,7 +4175,7 @@
       "D": "150"
     },
     "answer": "C",
-    "id": "math-fr-hard-348",
+    "id": "math-en-hard-348",
     "difficulty": "hard"
   },
   {
@@ -4184,7 +4187,7 @@
       "D": "192"
     },
     "answer": "C",
-    "id": "math-fr-hard-349",
+    "id": "math-en-hard-349",
     "difficulty": "hard"
   },
   {
@@ -4196,7 +4199,7 @@
       "D": "70"
     },
     "answer": "A",
-    "id": "math-fr-hard-350",
+    "id": "math-en-hard-350",
     "difficulty": "hard"
   },
   {
@@ -4208,7 +4211,7 @@
       "D": "111"
     },
     "answer": "A",
-    "id": "math-fr-hard-351",
+    "id": "math-en-hard-351",
     "difficulty": "hard"
   },
   {
@@ -4220,7 +4223,7 @@
       "D": "144"
     },
     "answer": "C",
-    "id": "math-fr-hard-352",
+    "id": "math-en-hard-352",
     "difficulty": "hard"
   },
   {
@@ -4232,7 +4235,7 @@
       "D": "190"
     },
     "answer": "A",
-    "id": "math-fr-hard-353",
+    "id": "math-en-hard-353",
     "difficulty": "hard"
   },
   {
@@ -4244,7 +4247,7 @@
       "D": "240"
     },
     "answer": "C",
-    "id": "math-fr-hard-354",
+    "id": "math-en-hard-354",
     "difficulty": "hard"
   },
   {
@@ -4256,7 +4259,7 @@
       "D": "4"
     },
     "answer": "B",
-    "id": "math-fr-hard-355",
+    "id": "math-en-hard-355",
     "difficulty": "hard"
   },
   {
@@ -4268,7 +4271,7 @@
       "D": "4"
     },
     "answer": "C",
-    "id": "math-fr-hard-356",
+    "id": "math-en-hard-356",
     "difficulty": "hard"
   },
   {
@@ -4280,7 +4283,7 @@
       "D": "5"
     },
     "answer": "C",
-    "id": "math-fr-hard-357",
+    "id": "math-en-hard-357",
     "difficulty": "hard"
   },
   {
@@ -4292,7 +4295,7 @@
       "D": "4"
     },
     "answer": "A",
-    "id": "math-fr-hard-358",
+    "id": "math-en-hard-358",
     "difficulty": "hard"
   },
   {
@@ -4304,7 +4307,7 @@
       "D": "7"
     },
     "answer": "C",
-    "id": "math-fr-hard-359",
+    "id": "math-en-hard-359",
     "difficulty": "hard"
   },
   {
@@ -4316,7 +4319,7 @@
       "D": "9"
     },
     "answer": "A",
-    "id": "math-fr-hard-360",
+    "id": "math-en-hard-360",
     "difficulty": "hard"
   },
   {
@@ -4328,7 +4331,7 @@
       "D": "1"
     },
     "answer": "D",
-    "id": "math-fr-hard-361",
+    "id": "math-en-hard-361",
     "difficulty": "hard"
   },
   {
@@ -4340,7 +4343,7 @@
       "D": "2"
     },
     "answer": "D",
-    "id": "math-fr-hard-362",
+    "id": "math-en-hard-362",
     "difficulty": "hard"
   },
   {
@@ -4352,7 +4355,7 @@
       "D": "2"
     },
     "answer": "C",
-    "id": "math-fr-hard-363",
+    "id": "math-en-hard-363",
     "difficulty": "hard"
   },
   {
@@ -4364,7 +4367,7 @@
       "D": "4"
     },
     "answer": "D",
-    "id": "math-fr-hard-364",
+    "id": "math-en-hard-364",
     "difficulty": "hard"
   },
   {
@@ -4376,7 +4379,7 @@
       "D": "6"
     },
     "answer": "B",
-    "id": "math-fr-hard-365",
+    "id": "math-en-hard-365",
     "difficulty": "hard"
   },
   {
@@ -4388,7 +4391,7 @@
       "D": "5"
     },
     "answer": "B",
-    "id": "math-fr-hard-366",
+    "id": "math-en-hard-366",
     "difficulty": "hard"
   },
   {
@@ -4400,7 +4403,7 @@
       "D": "6"
     },
     "answer": "B",
-    "id": "math-fr-hard-367",
+    "id": "math-en-hard-367",
     "difficulty": "hard"
   },
   {
@@ -4412,7 +4415,7 @@
       "D": "1"
     },
     "answer": "D",
-    "id": "math-fr-hard-368",
+    "id": "math-en-hard-368",
     "difficulty": "hard"
   },
   {
@@ -4424,7 +4427,7 @@
       "D": "4"
     },
     "answer": "B",
-    "id": "math-fr-hard-369",
+    "id": "math-en-hard-369",
     "difficulty": "hard"
   },
   {
@@ -4436,7 +4439,7 @@
       "D": "5"
     },
     "answer": "A",
-    "id": "math-fr-hard-370",
+    "id": "math-en-hard-370",
     "difficulty": "hard"
   },
   {
@@ -4448,7 +4451,7 @@
       "D": "5"
     },
     "answer": "C",
-    "id": "math-fr-hard-371",
+    "id": "math-en-hard-371",
     "difficulty": "hard"
   },
   {
@@ -4460,7 +4463,7 @@
       "D": "6"
     },
     "answer": "C",
-    "id": "math-fr-hard-372",
+    "id": "math-en-hard-372",
     "difficulty": "hard"
   },
   {
@@ -4472,7 +4475,7 @@
       "D": "8"
     },
     "answer": "B",
-    "id": "math-fr-hard-373",
+    "id": "math-en-hard-373",
     "difficulty": "hard"
   },
   {
@@ -4484,7 +4487,7 @@
       "D": "2"
     },
     "answer": "B",
-    "id": "math-fr-hard-374",
+    "id": "math-en-hard-374",
     "difficulty": "hard"
   },
   {
@@ -4496,7 +4499,7 @@
       "D": "7"
     },
     "answer": "A",
-    "id": "math-fr-hard-375",
+    "id": "math-en-hard-375",
     "difficulty": "hard"
   },
   {
@@ -4508,7 +4511,7 @@
       "D": "8"
     },
     "answer": "A",
-    "id": "math-fr-hard-376",
+    "id": "math-en-hard-376",
     "difficulty": "hard"
   },
   {
@@ -4520,7 +4523,7 @@
       "D": "16"
     },
     "answer": "C",
-    "id": "math-fr-hard-377",
+    "id": "math-en-hard-377",
     "difficulty": "hard"
   },
   {
@@ -4532,7 +4535,7 @@
       "D": "15"
     },
     "answer": "D",
-    "id": "math-fr-hard-378",
+    "id": "math-en-hard-378",
     "difficulty": "hard"
   },
   {
@@ -4544,7 +4547,7 @@
       "D": "24"
     },
     "answer": "C",
-    "id": "math-fr-hard-379",
+    "id": "math-en-hard-379",
     "difficulty": "hard"
   },
   {
@@ -4556,7 +4559,7 @@
       "D": "28"
     },
     "answer": "B",
-    "id": "math-fr-hard-380",
+    "id": "math-en-hard-380",
     "difficulty": "hard"
   },
   {
@@ -4568,7 +4571,7 @@
       "D": "25"
     },
     "answer": "A",
-    "id": "math-fr-hard-381",
+    "id": "math-en-hard-381",
     "difficulty": "hard"
   },
   {
@@ -4580,7 +4583,7 @@
       "D": "28"
     },
     "answer": "A",
-    "id": "math-fr-hard-382",
+    "id": "math-en-hard-382",
     "difficulty": "hard"
   },
   {
@@ -4592,7 +4595,7 @@
       "D": "29"
     },
     "answer": "B",
-    "id": "math-fr-hard-383",
+    "id": "math-en-hard-383",
     "difficulty": "hard"
   },
   {
@@ -4604,7 +4607,7 @@
       "D": "32"
     },
     "answer": "A",
-    "id": "math-fr-hard-384",
+    "id": "math-en-hard-384",
     "difficulty": "hard"
   },
   {
@@ -4616,7 +4619,7 @@
       "D": "37"
     },
     "answer": "C",
-    "id": "math-fr-hard-385",
+    "id": "math-en-hard-385",
     "difficulty": "hard"
   },
   {
@@ -4628,7 +4631,7 @@
       "D": "52"
     },
     "answer": "B",
-    "id": "math-fr-hard-386",
+    "id": "math-en-hard-386",
     "difficulty": "hard"
   },
   {
@@ -4640,7 +4643,7 @@
       "D": "43"
     },
     "answer": "C",
-    "id": "math-fr-hard-387",
+    "id": "math-en-hard-387",
     "difficulty": "hard"
   },
   {
@@ -4652,7 +4655,7 @@
       "D": "60"
     },
     "answer": "C",
-    "id": "math-fr-hard-388",
+    "id": "math-en-hard-388",
     "difficulty": "hard"
   },
   {
@@ -4664,7 +4667,7 @@
       "D": "64"
     },
     "answer": "A",
-    "id": "math-fr-hard-389",
+    "id": "math-en-hard-389",
     "difficulty": "hard"
   },
   {
@@ -4676,7 +4679,7 @@
       "D": "68"
     },
     "answer": "B",
-    "id": "math-fr-hard-390",
+    "id": "math-en-hard-390",
     "difficulty": "hard"
   },
   {
@@ -4688,7 +4691,7 @@
       "D": "72"
     },
     "answer": "C",
-    "id": "math-fr-hard-391",
+    "id": "math-en-hard-391",
     "difficulty": "hard"
   },
   {
@@ -4700,7 +4703,7 @@
       "D": "58"
     },
     "answer": "C",
-    "id": "math-fr-hard-392",
+    "id": "math-en-hard-392",
     "difficulty": "hard"
   },
   {
@@ -4712,7 +4715,7 @@
       "D": "61"
     },
     "answer": "B",
-    "id": "math-fr-hard-393",
+    "id": "math-en-hard-393",
     "difficulty": "hard"
   },
   {
@@ -4724,7 +4727,7 @@
       "D": "84"
     },
     "answer": "A",
-    "id": "math-fr-hard-394",
+    "id": "math-en-hard-394",
     "difficulty": "hard"
   },
   {
@@ -4736,7 +4739,7 @@
       "D": "66"
     },
     "answer": "D",
-    "id": "math-fr-hard-395",
+    "id": "math-en-hard-395",
     "difficulty": "hard"
   },
   {
@@ -4748,7 +4751,7 @@
       "D": "68"
     },
     "answer": "B",
-    "id": "math-fr-hard-396",
+    "id": "math-en-hard-396",
     "difficulty": "hard"
   },
   {
@@ -4760,7 +4763,7 @@
       "D": "73"
     },
     "answer": "A",
-    "id": "math-fr-hard-397",
+    "id": "math-en-hard-397",
     "difficulty": "hard"
   },
   {
@@ -4772,7 +4775,7 @@
       "D": "76"
     },
     "answer": "C",
-    "id": "math-fr-hard-398",
+    "id": "math-en-hard-398",
     "difficulty": "hard"
   },
   {
@@ -4784,7 +4787,7 @@
       "D": "79"
     },
     "answer": "C",
-    "id": "math-fr-hard-399",
+    "id": "math-en-hard-399",
     "difficulty": "hard"
   },
   {
@@ -4796,7 +4799,7 @@
       "D": "82"
     },
     "answer": "A",
-    "id": "math-fr-hard-400",
+    "id": "math-en-hard-400",
     "difficulty": "hard"
   },
   {
@@ -4808,7 +4811,7 @@
       "D": "83"
     },
     "answer": "A",
-    "id": "math-fr-hard-401",
+    "id": "math-en-hard-401",
     "difficulty": "hard"
   },
   {
@@ -4820,7 +4823,7 @@
       "D": "87"
     },
     "answer": "D",
-    "id": "math-fr-hard-402",
+    "id": "math-en-hard-402",
     "difficulty": "hard"
   },
   {
@@ -4832,7 +4835,7 @@
       "D": "90"
     },
     "answer": "D",
-    "id": "math-fr-hard-403",
+    "id": "math-en-hard-403",
     "difficulty": "hard"
   },
   {
@@ -4844,7 +4847,7 @@
       "D": "40"
     },
     "answer": "C",
-    "id": "math-fr-hard-404",
+    "id": "math-en-hard-404",
     "difficulty": "hard"
   },
   {
@@ -4856,7 +4859,7 @@
       "D": "26"
     },
     "answer": "C",
-    "id": "math-fr-hard-405",
+    "id": "math-en-hard-405",
     "difficulty": "hard"
   },
   {
@@ -4868,7 +4871,7 @@
       "D": "34"
     },
     "answer": "D",
-    "id": "math-fr-hard-406",
+    "id": "math-en-hard-406",
     "difficulty": "hard"
   },
   {
@@ -4880,7 +4883,7 @@
       "D": "38"
     },
     "answer": "D",
-    "id": "math-fr-hard-407",
+    "id": "math-en-hard-407",
     "difficulty": "hard"
   },
   {
@@ -4892,7 +4895,7 @@
       "D": "27"
     },
     "answer": "C",
-    "id": "math-fr-hard-408",
+    "id": "math-en-hard-408",
     "difficulty": "hard"
   },
   {
@@ -4904,7 +4907,7 @@
       "D": "24"
     },
     "answer": "B",
-    "id": "math-fr-hard-409",
+    "id": "math-en-hard-409",
     "difficulty": "hard"
   },
   {
@@ -4916,7 +4919,7 @@
       "D": "28"
     },
     "answer": "A",
-    "id": "math-fr-hard-410",
+    "id": "math-en-hard-410",
     "difficulty": "hard"
   },
   {
@@ -4928,7 +4931,7 @@
       "D": "36"
     },
     "answer": "D",
-    "id": "math-fr-hard-411",
+    "id": "math-en-hard-411",
     "difficulty": "hard"
   },
   {
@@ -4940,7 +4943,7 @@
       "D": "91"
     },
     "answer": "C",
-    "id": "math-fr-hard-412",
+    "id": "math-en-hard-412",
     "difficulty": "hard"
   },
   {
@@ -4952,7 +4955,7 @@
       "D": "40"
     },
     "answer": "B",
-    "id": "math-fr-hard-413",
+    "id": "math-en-hard-413",
     "difficulty": "hard"
   },
   {
@@ -4964,7 +4967,7 @@
       "D": "48"
     },
     "answer": "D",
-    "id": "math-fr-hard-414",
+    "id": "math-en-hard-414",
     "difficulty": "hard"
   },
   {
@@ -4976,7 +4979,7 @@
       "D": "52"
     },
     "answer": "D",
-    "id": "math-fr-hard-415",
+    "id": "math-en-hard-415",
     "difficulty": "hard"
   },
   {
@@ -4988,7 +4991,7 @@
       "D": "56"
     },
     "answer": "D",
-    "id": "math-fr-hard-416",
+    "id": "math-en-hard-416",
     "difficulty": "hard"
   },
   {
@@ -5000,7 +5003,7 @@
       "D": "46"
     },
     "answer": "C",
-    "id": "math-fr-hard-417",
+    "id": "math-en-hard-417",
     "difficulty": "hard"
   },
   {
@@ -5012,7 +5015,7 @@
       "D": "46"
     },
     "answer": "D",
-    "id": "math-fr-hard-418",
+    "id": "math-en-hard-418",
     "difficulty": "hard"
   },
   {
@@ -5024,7 +5027,7 @@
       "D": "54"
     },
     "answer": "C",
-    "id": "math-fr-hard-419",
+    "id": "math-en-hard-419",
     "difficulty": "hard"
   },
   {
@@ -5036,7 +5039,7 @@
       "D": "58"
     },
     "answer": "C",
-    "id": "math-fr-hard-420",
+    "id": "math-en-hard-420",
     "difficulty": "hard"
   },
   {
@@ -5048,7 +5051,7 @@
       "D": "58"
     },
     "answer": "D",
-    "id": "math-fr-hard-421",
+    "id": "math-en-hard-421",
     "difficulty": "hard"
   },
   {
@@ -5060,7 +5063,7 @@
       "D": "66"
     },
     "answer": "B",
-    "id": "math-fr-hard-422",
+    "id": "math-en-hard-422",
     "difficulty": "hard"
   },
   {
@@ -5072,7 +5075,7 @@
       "D": "62"
     },
     "answer": "B",
-    "id": "math-fr-hard-423",
+    "id": "math-en-hard-423",
     "difficulty": "hard"
   },
   {
@@ -5084,7 +5087,7 @@
       "D": "250"
     },
     "answer": "B",
-    "id": "math-fr-hard-424",
+    "id": "math-en-hard-424",
     "difficulty": "hard"
   },
   {
@@ -5096,7 +5099,7 @@
       "D": "286"
     },
     "answer": "B",
-    "id": "math-fr-hard-425",
+    "id": "math-en-hard-425",
     "difficulty": "hard"
   },
   {
@@ -5108,7 +5111,7 @@
       "D": "60"
     },
     "answer": "D",
-    "id": "math-fr-hard-426",
+    "id": "math-en-hard-426",
     "difficulty": "hard"
   },
   {
@@ -5120,7 +5123,7 @@
       "D": "112"
     },
     "answer": "B",
-    "id": "math-fr-hard-427",
+    "id": "math-en-hard-427",
     "difficulty": "hard"
   },
   {
@@ -5132,7 +5135,7 @@
       "D": "64"
     },
     "answer": "B",
-    "id": "math-fr-hard-428",
+    "id": "math-en-hard-428",
     "difficulty": "hard"
   },
   {
@@ -5144,7 +5147,7 @@
       "D": "68"
     },
     "answer": "C",
-    "id": "math-fr-hard-429",
+    "id": "math-en-hard-429",
     "difficulty": "hard"
   },
   {
@@ -5156,7 +5159,7 @@
       "D": "72"
     },
     "answer": "B",
-    "id": "math-fr-hard-430",
+    "id": "math-en-hard-430",
     "difficulty": "hard"
   },
   {
@@ -5168,7 +5171,7 @@
       "D": "84"
     },
     "answer": "B",
-    "id": "math-fr-hard-431",
+    "id": "math-en-hard-431",
     "difficulty": "hard"
   },
   {
@@ -5180,7 +5183,7 @@
       "D": "80"
     },
     "answer": "C",
-    "id": "math-fr-hard-432",
+    "id": "math-en-hard-432",
     "difficulty": "hard"
   },
   {
@@ -5192,7 +5195,7 @@
       "D": "92"
     },
     "answer": "A",
-    "id": "math-fr-hard-433",
+    "id": "math-en-hard-433",
     "difficulty": "hard"
   },
   {
@@ -5204,7 +5207,7 @@
       "D": "0.75"
     },
     "answer": "D",
-    "id": "math-fr-hard-434",
+    "id": "math-en-hard-434",
     "difficulty": "hard"
   },
   {
@@ -5216,7 +5219,7 @@
       "D": "1"
     },
     "answer": "D",
-    "id": "math-fr-hard-435",
+    "id": "math-en-hard-435",
     "difficulty": "hard"
   },
   {
@@ -5228,7 +5231,7 @@
       "D": "5"
     },
     "answer": "B",
-    "id": "math-fr-hard-436",
+    "id": "math-en-hard-436",
     "difficulty": "hard"
   },
   {
@@ -5240,7 +5243,7 @@
       "D": "1.75"
     },
     "answer": "C",
-    "id": "math-fr-hard-437",
+    "id": "math-en-hard-437",
     "difficulty": "hard"
   },
   {
@@ -5252,7 +5255,7 @@
       "D": "1.75"
     },
     "answer": "D",
-    "id": "math-fr-hard-438",
+    "id": "math-en-hard-438",
     "difficulty": "hard"
   },
   {
@@ -5264,7 +5267,7 @@
       "D": "2.25"
     },
     "answer": "B",
-    "id": "math-fr-hard-439",
+    "id": "math-en-hard-439",
     "difficulty": "hard"
   },
   {
@@ -5276,7 +5279,7 @@
       "D": "9"
     },
     "answer": "C",
-    "id": "math-fr-hard-440",
+    "id": "math-en-hard-440",
     "difficulty": "hard"
   },
   {
@@ -5288,7 +5291,7 @@
       "D": "2.75"
     },
     "answer": "B",
-    "id": "math-fr-hard-441",
+    "id": "math-en-hard-441",
     "difficulty": "hard"
   },
   {
@@ -5300,7 +5303,7 @@
       "D": "3"
     },
     "answer": "B",
-    "id": "math-fr-hard-442",
+    "id": "math-en-hard-442",
     "difficulty": "hard"
   },
   {
@@ -5312,7 +5315,7 @@
       "D": "3.25"
     },
     "answer": "C",
-    "id": "math-fr-hard-443",
+    "id": "math-en-hard-443",
     "difficulty": "hard"
   },
   {
@@ -5324,7 +5327,7 @@
       "D": "3"
     },
     "answer": "C",
-    "id": "math-fr-hard-444",
+    "id": "math-en-hard-444",
     "difficulty": "hard"
   },
   {
@@ -5336,7 +5339,7 @@
       "D": "3.75"
     },
     "answer": "A",
-    "id": "math-fr-hard-445",
+    "id": "math-en-hard-445",
     "difficulty": "hard"
   },
   {
@@ -5348,7 +5351,7 @@
       "D": "15"
     },
     "answer": "B",
-    "id": "math-fr-hard-446",
+    "id": "math-en-hard-446",
     "difficulty": "hard"
   },
   {
@@ -5360,7 +5363,7 @@
       "D": "16"
     },
     "answer": "B",
-    "id": "math-fr-hard-447",
+    "id": "math-en-hard-447",
     "difficulty": "hard"
   },
   {
@@ -5372,7 +5375,7 @@
       "D": "4"
     },
     "answer": "A",
-    "id": "math-fr-hard-448",
+    "id": "math-en-hard-448",
     "difficulty": "hard"
   },
   {
@@ -5384,7 +5387,7 @@
       "D": "4.5"
     },
     "answer": "D",
-    "id": "math-fr-hard-449",
+    "id": "math-en-hard-449",
     "difficulty": "hard"
   },
   {
@@ -5396,7 +5399,7 @@
       "D": "4.5"
     },
     "answer": "A",
-    "id": "math-fr-hard-450",
+    "id": "math-en-hard-450",
     "difficulty": "hard"
   },
   {
@@ -5408,7 +5411,7 @@
       "D": "4.75"
     },
     "answer": "B",
-    "id": "math-fr-hard-451",
+    "id": "math-en-hard-451",
     "difficulty": "hard"
   },
   {
@@ -5420,7 +5423,7 @@
       "D": "5"
     },
     "answer": "B",
-    "id": "math-fr-hard-452",
+    "id": "math-en-hard-452",
     "difficulty": "hard"
   },
   {
@@ -5432,7 +5435,7 @@
       "D": "5.25"
     },
     "answer": "B",
-    "id": "math-fr-hard-453",
+    "id": "math-en-hard-453",
     "difficulty": "hard"
   },
   {
@@ -5444,7 +5447,7 @@
       "D": "6"
     },
     "answer": "C",
-    "id": "math-fr-hard-454",
+    "id": "math-en-hard-454",
     "difficulty": "hard"
   },
   {
@@ -5456,7 +5459,7 @@
       "D": "6.25"
     },
     "answer": "C",
-    "id": "math-fr-hard-455",
+    "id": "math-en-hard-455",
     "difficulty": "hard"
   },
   {
@@ -5468,7 +5471,7 @@
       "D": "6"
     },
     "answer": "B",
-    "id": "math-fr-hard-456",
+    "id": "math-en-hard-456",
     "difficulty": "hard"
   },
   {
@@ -5480,7 +5483,7 @@
       "D": "6.5"
     },
     "answer": "D",
-    "id": "math-fr-hard-457",
+    "id": "math-en-hard-457",
     "difficulty": "hard"
   },
   {
@@ -5492,7 +5495,7 @@
       "D": "7"
     },
     "answer": "A",
-    "id": "math-fr-hard-458",
+    "id": "math-en-hard-458",
     "difficulty": "hard"
   },
   {
@@ -5504,7 +5507,7 @@
       "D": "6.75"
     },
     "answer": "C",
-    "id": "math-fr-hard-459",
+    "id": "math-en-hard-459",
     "difficulty": "hard"
   },
   {
@@ -5516,7 +5519,7 @@
       "D": "29"
     },
     "answer": "C",
-    "id": "math-fr-hard-460",
+    "id": "math-en-hard-460",
     "difficulty": "hard"
   },
   {
@@ -5528,7 +5531,7 @@
       "D": "30"
     },
     "answer": "C",
-    "id": "math-fr-hard-461",
+    "id": "math-en-hard-461",
     "difficulty": "hard"
   },
   {
@@ -5540,7 +5543,7 @@
       "D": "7.75"
     },
     "answer": "D",
-    "id": "math-fr-hard-462",
+    "id": "math-en-hard-462",
     "difficulty": "hard"
   },
   {
@@ -5552,7 +5555,7 @@
       "D": "8.25"
     },
     "answer": "B",
-    "id": "math-fr-hard-463",
+    "id": "math-en-hard-463",
     "difficulty": "hard"
   },
   {
@@ -5564,7 +5567,7 @@
       "D": "8.25"
     },
     "answer": "D",
-    "id": "math-fr-hard-464",
+    "id": "math-en-hard-464",
     "difficulty": "hard"
   },
   {
@@ -5576,7 +5579,7 @@
       "D": "8.25"
     },
     "answer": "A",
-    "id": "math-fr-hard-465",
+    "id": "math-en-hard-465",
     "difficulty": "hard"
   },
   {
@@ -5588,7 +5591,7 @@
       "D": "9"
     },
     "answer": "C",
-    "id": "math-fr-hard-466",
+    "id": "math-en-hard-466",
     "difficulty": "hard"
   },
   {
@@ -5600,7 +5603,7 @@
       "D": "36"
     },
     "answer": "B",
-    "id": "math-fr-hard-467",
+    "id": "math-en-hard-467",
     "difficulty": "hard"
   },
   {
@@ -5612,7 +5615,7 @@
       "D": "9.25"
     },
     "answer": "D",
-    "id": "math-fr-hard-468",
+    "id": "math-en-hard-468",
     "difficulty": "hard"
   },
   {
@@ -5624,7 +5627,7 @@
       "D": "9.5"
     },
     "answer": "D",
-    "id": "math-fr-hard-469",
+    "id": "math-en-hard-469",
     "difficulty": "hard"
   },
   {
@@ -5636,7 +5639,7 @@
       "D": "9.5"
     },
     "answer": "A",
-    "id": "math-fr-hard-470",
+    "id": "math-en-hard-470",
     "difficulty": "hard"
   },
   {
@@ -5648,7 +5651,7 @@
       "D": "8"
     },
     "answer": "D",
-    "id": "math-fr-hard-471",
+    "id": "math-en-hard-471",
     "difficulty": "hard"
   },
   {
@@ -5660,7 +5663,7 @@
       "D": "11"
     },
     "answer": "A",
-    "id": "math-fr-medium-472",
+    "id": "math-en-medium-472",
     "difficulty": "medium"
   },
   {
@@ -5672,7 +5675,7 @@
       "D": "9"
     },
     "answer": "A",
-    "id": "math-fr-hard-473",
+    "id": "math-en-hard-473",
     "difficulty": "hard"
   },
   {
@@ -5684,7 +5687,7 @@
       "D": "10"
     },
     "answer": "A",
-    "id": "math-fr-medium-474",
+    "id": "math-en-medium-474",
     "difficulty": "medium"
   },
   {
@@ -5696,7 +5699,7 @@
       "D": "11"
     },
     "answer": "B",
-    "id": "math-fr-hard-475",
+    "id": "math-en-hard-475",
     "difficulty": "hard"
   },
   {
@@ -5708,7 +5711,7 @@
       "D": "14"
     },
     "answer": "B",
-    "id": "math-fr-medium-476",
+    "id": "math-en-medium-476",
     "difficulty": "medium"
   },
   {
@@ -5720,7 +5723,7 @@
       "D": "15"
     },
     "answer": "B",
-    "id": "math-fr-hard-477",
+    "id": "math-en-hard-477",
     "difficulty": "hard"
   },
   {
@@ -5732,7 +5735,7 @@
       "D": "14"
     },
     "answer": "B",
-    "id": "math-fr-medium-478",
+    "id": "math-en-medium-478",
     "difficulty": "medium"
   },
   {
@@ -5744,7 +5747,7 @@
       "D": "17"
     },
     "answer": "A",
-    "id": "math-fr-hard-479",
+    "id": "math-en-hard-479",
     "difficulty": "hard"
   },
   {
@@ -5756,7 +5759,7 @@
       "D": "17"
     },
     "answer": "D",
-    "id": "math-fr-medium-480",
+    "id": "math-en-medium-480",
     "difficulty": "medium"
   },
   {
@@ -5768,7 +5771,7 @@
       "D": "20"
     },
     "answer": "B",
-    "id": "math-fr-hard-481",
+    "id": "math-en-hard-481",
     "difficulty": "hard"
   },
   {
@@ -5780,7 +5783,7 @@
       "D": "19"
     },
     "answer": "D",
-    "id": "math-fr-medium-482",
+    "id": "math-en-medium-482",
     "difficulty": "medium"
   },
   {
@@ -5792,7 +5795,7 @@
       "D": "21"
     },
     "answer": "A",
-    "id": "math-fr-hard-483",
+    "id": "math-en-hard-483",
     "difficulty": "hard"
   },
   {
@@ -5804,7 +5807,7 @@
       "D": "20"
     },
     "answer": "A",
-    "id": "math-fr-medium-484",
+    "id": "math-en-medium-484",
     "difficulty": "medium"
   },
   {
@@ -5816,7 +5819,7 @@
       "D": "22"
     },
     "answer": "D",
-    "id": "math-fr-hard-485",
+    "id": "math-en-hard-485",
     "difficulty": "hard"
   },
   {
@@ -5828,7 +5831,7 @@
       "D": "22"
     },
     "answer": "B",
-    "id": "math-fr-medium-486",
+    "id": "math-en-medium-486",
     "difficulty": "medium"
   },
   {
@@ -5840,7 +5843,7 @@
       "D": "25"
     },
     "answer": "C",
-    "id": "math-fr-hard-487",
+    "id": "math-en-hard-487",
     "difficulty": "hard"
   },
   {
@@ -5852,7 +5855,7 @@
       "D": "27"
     },
     "answer": "B",
-    "id": "math-fr-medium-488",
+    "id": "math-en-medium-488",
     "difficulty": "medium"
   },
   {
@@ -5864,7 +5867,7 @@
       "D": "25"
     },
     "answer": "B",
-    "id": "math-fr-hard-489",
+    "id": "math-en-hard-489",
     "difficulty": "hard"
   },
   {
@@ -5876,7 +5879,7 @@
       "D": "29"
     },
     "answer": "B",
-    "id": "math-fr-medium-490",
+    "id": "math-en-medium-490",
     "difficulty": "medium"
   },
   {
@@ -5888,7 +5891,7 @@
       "D": "28"
     },
     "answer": "D",
-    "id": "math-fr-hard-491",
+    "id": "math-en-hard-491",
     "difficulty": "hard"
   },
   {
@@ -5900,7 +5903,7 @@
       "D": "28"
     },
     "answer": "B",
-    "id": "math-fr-medium-492",
+    "id": "math-en-medium-492",
     "difficulty": "medium"
   },
   {
@@ -5912,7 +5915,7 @@
       "D": "30"
     },
     "answer": "D",
-    "id": "math-fr-hard-493",
+    "id": "math-en-hard-493",
     "difficulty": "hard"
   },
   {
@@ -5924,7 +5927,7 @@
       "D": "32"
     },
     "answer": "A",
-    "id": "math-fr-medium-494",
+    "id": "math-en-medium-494",
     "difficulty": "medium"
   },
   {
@@ -5936,7 +5939,7 @@
       "D": "34"
     },
     "answer": "C",
-    "id": "math-fr-hard-495",
+    "id": "math-en-hard-495",
     "difficulty": "hard"
   },
   {
@@ -5948,7 +5951,7 @@
       "D": "34"
     },
     "answer": "B",
-    "id": "math-fr-medium-496",
+    "id": "math-en-medium-496",
     "difficulty": "medium"
   },
   {
@@ -5960,7 +5963,7 @@
       "D": "34"
     },
     "answer": "D",
-    "id": "math-fr-hard-497",
+    "id": "math-en-hard-497",
     "difficulty": "hard"
   },
   {
@@ -5972,7 +5975,7 @@
       "D": "36"
     },
     "answer": "C",
-    "id": "math-fr-medium-498",
+    "id": "math-en-medium-498",
     "difficulty": "medium"
   },
   {
@@ -5984,7 +5987,7 @@
       "D": "38"
     },
     "answer": "C",
-    "id": "math-fr-hard-499",
+    "id": "math-en-hard-499",
     "difficulty": "hard"
   },
   {
@@ -5996,7 +5999,8 @@
       "D": "38"
     },
     "answer": "B",
-    "id": "math-fr-medium-500",
+    "id": "math-en-medium-500",
     "difficulty": "medium"
   }
 ]
+}

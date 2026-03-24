@@ -1,3 +1,7 @@
+{
+  "category": "math",
+  "lang": "fr",
+  "questions":
 [
   {
     "question": "Combien font 11 + 6 ?",
@@ -6000,3 +6004,4 @@
     "difficulty": "medium"
   }
 ]
+}

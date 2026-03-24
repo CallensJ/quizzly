@@ -44,6 +44,8 @@ const FILES = [
   { path: 'src/data/questions/en/sciences.json', category: 'sciences', locale: 'en' },
   { path: 'src/data/questions/en/histoire.json', category: 'histoire', locale: 'en' },
   { path: 'src/data/questions/en/heroes.json',   category: 'heroes',   locale: 'en' },
+  { path: 'src/data/questions/fr/math.json',     category: 'math',     locale: 'fr' },
+  { path: 'src/data/questions/en/math.json',     category: 'math',     locale: 'en' },
 ] as const;
 
 // ─── Types ────────────────────────────────────────────────────────────────────
@@ -77,9 +79,11 @@ interface DbRow {
 
 async function migrateFile(filePath: string, category: string, locale: string): Promise<void> {
   const absPath = join(process.cwd(), filePath);
-  const file: JsonFile = JSON.parse(readFileSync(absPath, 'utf-8'));
+  const raw = JSON.parse(readFileSync(absPath, 'utf-8'));
+  // Support tableau à la racine ou { questions: [...] }
+  const questions: JsonQuestion[] = Array.isArray(raw) ? raw : raw.questions;
 
-  const rows: DbRow[] = file.questions.map((q) => ({
+  const rows: DbRow[] = questions.map((q) => ({
     id:         q.id,
     category,
     locale,
@@ -120,7 +124,8 @@ async function main() {
     process.stdout.write(`📂 ${file.path} ... `);
     try {
       await migrateFile(file.path, file.category, file.locale);
-      const count = JSON.parse(readFileSync(join(process.cwd(), file.path), 'utf-8')).questions.length;
+      const rawCount = JSON.parse(readFileSync(join(process.cwd(), file.path), 'utf-8'));
+      const count = Array.isArray(rawCount) ? rawCount.length : rawCount.questions.length;
       total += count;
     } catch (err) {
       console.error(`\n❌ Échec sur ${file.path}`, err);
