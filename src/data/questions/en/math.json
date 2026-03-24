@@ -1,0 +1,6002 @@
+[
+  {
+    "question": "What is 11 + 6?",
+    "options": {
+      "A": "16",
+      "B": "19",
+      "C": "17",
+      "D": "18"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-001",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 12 - 8?",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "6",
+      "D": "4"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-002",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 13 + 10?",
+    "options": {
+      "A": "23",
+      "B": "22",
+      "C": "25",
+      "D": "24"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-003",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 14 + 12?",
+    "options": {
+      "A": "28",
+      "B": "25",
+      "C": "27",
+      "D": "26"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-004",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 15 - 14?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "1",
+      "D": "3"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-005",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 16 + 16?",
+    "options": {
+      "A": "31",
+      "B": "34",
+      "C": "33",
+      "D": "32"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-006",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 17 + 1?",
+    "options": {
+      "A": "20",
+      "B": "18",
+      "C": "19",
+      "D": "17"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-007",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 18 - 3?",
+    "options": {
+      "A": "18",
+      "B": "15",
+      "C": "17",
+      "D": "16"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-008",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 19 + 5?",
+    "options": {
+      "A": "24",
+      "B": "23",
+      "C": "26",
+      "D": "25"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-009",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 20 + 7?",
+    "options": {
+      "A": "29",
+      "B": "26",
+      "C": "28",
+      "D": "27"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-010",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 21 - 9?",
+    "options": {
+      "A": "15",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-011",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 22 + 11?",
+    "options": {
+      "A": "35",
+      "B": "32",
+      "C": "34",
+      "D": "33"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-012",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 23 + 13?",
+    "options": {
+      "A": "38",
+      "B": "35",
+      "C": "37",
+      "D": "36"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-013",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 24 - 15?",
+    "options": {
+      "A": "11",
+      "B": "10",
+      "C": "9",
+      "D": "12"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-014",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 25 + 17?",
+    "options": {
+      "A": "42",
+      "B": "44",
+      "C": "41",
+      "D": "43"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-015",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 26 + 2?",
+    "options": {
+      "A": "30",
+      "B": "29",
+      "C": "28",
+      "D": "27"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-016",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 27 - 4?",
+    "options": {
+      "A": "24",
+      "B": "26",
+      "C": "25",
+      "D": "23"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-017",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 28 + 6?",
+    "options": {
+      "A": "33",
+      "B": "34",
+      "C": "35",
+      "D": "36"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-018",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 29 + 8?",
+    "options": {
+      "A": "36",
+      "B": "38",
+      "C": "37",
+      "D": "39"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-019",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 30 - 10?",
+    "options": {
+      "A": "20",
+      "B": "23",
+      "C": "22",
+      "D": "21"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-020",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 31 + 12?",
+    "options": {
+      "A": "44",
+      "B": "45",
+      "C": "42",
+      "D": "43"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-021",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 32 + 14?",
+    "options": {
+      "A": "48",
+      "B": "47",
+      "C": "45",
+      "D": "46"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-022",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 33 - 16?",
+    "options": {
+      "A": "20",
+      "B": "19",
+      "C": "17",
+      "D": "18"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-023",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 34 + 1?",
+    "options": {
+      "A": "34",
+      "B": "35",
+      "C": "36",
+      "D": "37"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-024",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 35 + 3?",
+    "options": {
+      "A": "40",
+      "B": "38",
+      "C": "39",
+      "D": "37"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-025",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 36 - 5?",
+    "options": {
+      "A": "32",
+      "B": "31",
+      "C": "34",
+      "D": "33"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-026",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 37 + 7?",
+    "options": {
+      "A": "44",
+      "B": "45",
+      "C": "43",
+      "D": "46"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-027",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 38 + 9?",
+    "options": {
+      "A": "48",
+      "B": "46",
+      "C": "49",
+      "D": "47"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-028",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 39 - 11?",
+    "options": {
+      "A": "30",
+      "B": "28",
+      "C": "31",
+      "D": "29"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-029",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 40 + 13?",
+    "options": {
+      "A": "53",
+      "B": "54",
+      "C": "55",
+      "D": "52"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-030",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 41 + 15?",
+    "options": {
+      "A": "55",
+      "B": "57",
+      "C": "56",
+      "D": "58"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-031",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 42 - 17?",
+    "options": {
+      "A": "27",
+      "B": "26",
+      "C": "28",
+      "D": "25"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-032",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 43 + 2?",
+    "options": {
+      "A": "46",
+      "B": "45",
+      "C": "47",
+      "D": "44"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-033",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 44 + 4?",
+    "options": {
+      "A": "50",
+      "B": "49",
+      "C": "48",
+      "D": "47"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-034",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 45 - 6?",
+    "options": {
+      "A": "39",
+      "B": "42",
+      "C": "40",
+      "D": "41"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-035",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 46 + 8?",
+    "options": {
+      "A": "54",
+      "B": "53",
+      "C": "55",
+      "D": "56"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-036",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 47 + 10?",
+    "options": {
+      "A": "56",
+      "B": "58",
+      "C": "57",
+      "D": "59"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-037",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 48 - 12?",
+    "options": {
+      "A": "37",
+      "B": "38",
+      "C": "36",
+      "D": "39"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-038",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 49 + 14?",
+    "options": {
+      "A": "63",
+      "B": "64",
+      "C": "62",
+      "D": "65"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-039",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 50 + 16?",
+    "options": {
+      "A": "66",
+      "B": "67",
+      "C": "65",
+      "D": "68"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-040",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 51 - 1?",
+    "options": {
+      "A": "52",
+      "B": "50",
+      "C": "51",
+      "D": "53"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-041",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 52 + 3?",
+    "options": {
+      "A": "55",
+      "B": "57",
+      "C": "54",
+      "D": "56"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-042",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 53 + 5?",
+    "options": {
+      "A": "58",
+      "B": "59",
+      "C": "60",
+      "D": "57"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-043",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 54 - 7?",
+    "options": {
+      "A": "50",
+      "B": "49",
+      "C": "48",
+      "D": "47"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-044",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 55 + 9?",
+    "options": {
+      "A": "63",
+      "B": "65",
+      "C": "64",
+      "D": "66"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-045",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 56 + 11?",
+    "options": {
+      "A": "69",
+      "B": "67",
+      "C": "66",
+      "D": "68"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-046",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 57 - 13?",
+    "options": {
+      "A": "44",
+      "B": "47",
+      "C": "45",
+      "D": "46"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-047",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 58 + 15?",
+    "options": {
+      "A": "75",
+      "B": "72",
+      "C": "73",
+      "D": "74"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-048",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 59 + 17?",
+    "options": {
+      "A": "77",
+      "B": "78",
+      "C": "75",
+      "D": "76"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-049",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2 × 2?",
+    "options": {
+      "A": "2",
+      "B": "6",
+      "C": "5",
+      "D": "4"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-050",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 6 ÷ 3?",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "4",
+      "D": "2"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-051",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2 × 4?",
+    "options": {
+      "A": "4",
+      "B": "9",
+      "C": "12",
+      "D": "8"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-052",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 10 ÷ 5?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "3",
+      "D": "1"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-053",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2 × 6?",
+    "options": {
+      "A": "12",
+      "B": "6",
+      "C": "13",
+      "D": "18"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-054",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 14 ÷ 7?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "1",
+      "D": "3"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-055",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 6 ÷ 2?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "2"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-056",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3 × 3?",
+    "options": {
+      "A": "6",
+      "B": "10",
+      "C": "12",
+      "D": "9"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-057",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 12 ÷ 4?",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-058",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3 × 5?",
+    "options": {
+      "A": "10",
+      "B": "15",
+      "C": "20",
+      "D": "16"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-059",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 18 ÷ 6?",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-060",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3 × 7?",
+    "options": {
+      "A": "14",
+      "B": "22",
+      "C": "28",
+      "D": "21"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-061",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4 × 2?",
+    "options": {
+      "A": "6",
+      "B": "10",
+      "C": "9",
+      "D": "8"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-062",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 12 ÷ 3?",
+    "options": {
+      "A": "3",
+      "B": "6",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-063",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4 × 4?",
+    "options": {
+      "A": "12",
+      "B": "16",
+      "C": "17",
+      "D": "20"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-064",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 20 ÷ 5?",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "6",
+      "D": "5"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-065",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4 × 6?",
+    "options": {
+      "A": "30",
+      "B": "18",
+      "C": "24",
+      "D": "25"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-066",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 28 ÷ 7?",
+    "options": {
+      "A": "6",
+      "B": "3",
+      "C": "5",
+      "D": "4"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-067",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 10 ÷ 2?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "7",
+      "D": "6"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-068",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 5 × 3?",
+    "options": {
+      "A": "12",
+      "B": "15",
+      "C": "18",
+      "D": "16"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-069",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 20 ÷ 4?",
+    "options": {
+      "A": "7",
+      "B": "4",
+      "C": "6",
+      "D": "5"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-070",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 5 × 5?",
+    "options": {
+      "A": "26",
+      "B": "30",
+      "C": "25",
+      "D": "20"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-071",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 30 ÷ 6?",
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "7",
+      "D": "4"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-072",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 5 × 7?",
+    "options": {
+      "A": "28",
+      "B": "35",
+      "C": "42",
+      "D": "36"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-073",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 6 × 2?",
+    "options": {
+      "A": "13",
+      "B": "12",
+      "C": "14",
+      "D": "10"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-074",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 18 ÷ 3?",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "7",
+      "D": "5"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-075",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 6 × 4?",
+    "options": {
+      "A": "28",
+      "B": "24",
+      "C": "25",
+      "D": "20"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-076",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 30 ÷ 5?",
+    "options": {
+      "A": "8",
+      "B": "7",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-077",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 6 × 6?",
+    "options": {
+      "A": "30",
+      "B": "37",
+      "C": "36",
+      "D": "42"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-078",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 42 ÷ 7?",
+    "options": {
+      "A": "8",
+      "B": "7",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-079",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 14 ÷ 2?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "7",
+      "D": "6"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-080",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 7 × 3?",
+    "options": {
+      "A": "24",
+      "B": "18",
+      "C": "21",
+      "D": "22"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-081",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 28 ÷ 4?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "7",
+      "D": "6"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-082",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 7 × 5?",
+    "options": {
+      "A": "35",
+      "B": "40",
+      "C": "30",
+      "D": "36"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-083",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 42 ÷ 6?",
+    "options": {
+      "A": "9",
+      "B": "8",
+      "C": "6",
+      "D": "7"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-084",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 7 × 7?",
+    "options": {
+      "A": "56",
+      "B": "50",
+      "C": "42",
+      "D": "49"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-085",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 8 × 2?",
+    "options": {
+      "A": "17",
+      "B": "14",
+      "C": "16",
+      "D": "18"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-086",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 24 ÷ 3?",
+    "options": {
+      "A": "10",
+      "B": "8",
+      "C": "9",
+      "D": "7"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-087",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 8 × 4?",
+    "options": {
+      "A": "28",
+      "B": "32",
+      "C": "33",
+      "D": "36"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-088",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 40 ÷ 5?",
+    "options": {
+      "A": "10",
+      "B": "9",
+      "C": "8",
+      "D": "7"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-089",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 8 × 6?",
+    "options": {
+      "A": "48",
+      "B": "42",
+      "C": "54",
+      "D": "49"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-090",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 56 ÷ 7?",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-091",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 18 ÷ 2?",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-092",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 9 × 3?",
+    "options": {
+      "A": "24",
+      "B": "28",
+      "C": "30",
+      "D": "27"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-093",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 36 ÷ 4?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "8",
+      "D": "11"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-094",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 9 × 5?",
+    "options": {
+      "A": "40",
+      "B": "50",
+      "C": "45",
+      "D": "46"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-095",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 54 ÷ 6?",
+    "options": {
+      "A": "8",
+      "B": "11",
+      "C": "10",
+      "D": "9"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-096",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 9 × 7?",
+    "options": {
+      "A": "64",
+      "B": "63",
+      "C": "70",
+      "D": "56"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-097",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 10 × 2?",
+    "options": {
+      "A": "22",
+      "B": "21",
+      "C": "20",
+      "D": "18"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-098",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 30 ÷ 3?",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "10",
+      "D": "9"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-099",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 10 × 4?",
+    "options": {
+      "A": "44",
+      "B": "41",
+      "C": "36",
+      "D": "40"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-100",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 50 ÷ 5?",
+    "options": {
+      "A": "10",
+      "B": "9",
+      "C": "12",
+      "D": "11"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-101",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 10 × 6?",
+    "options": {
+      "A": "54",
+      "B": "61",
+      "C": "60",
+      "D": "66"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-102",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 70 ÷ 7?",
+    "options": {
+      "A": "9",
+      "B": "12",
+      "C": "10",
+      "D": "11"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-103",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 22 ÷ 2?",
+    "options": {
+      "A": "13",
+      "B": "10",
+      "C": "12",
+      "D": "11"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-104",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 11 × 3?",
+    "options": {
+      "A": "36",
+      "B": "33",
+      "C": "34",
+      "D": "30"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-105",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 44 ÷ 4?",
+    "options": {
+      "A": "13",
+      "B": "10",
+      "C": "11",
+      "D": "12"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-106",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 11 × 5?",
+    "options": {
+      "A": "56",
+      "B": "60",
+      "C": "55",
+      "D": "50"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-107",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 66 ÷ 6?",
+    "options": {
+      "A": "11",
+      "B": "10",
+      "C": "13",
+      "D": "12"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-108",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 11 × 7?",
+    "options": {
+      "A": "70",
+      "B": "84",
+      "C": "78",
+      "D": "77"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-109",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 12 × 2?",
+    "options": {
+      "A": "25",
+      "B": "26",
+      "C": "22",
+      "D": "24"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-110",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 36 ÷ 3?",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "14",
+      "D": "13"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-111",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 12 × 4?",
+    "options": {
+      "A": "52",
+      "B": "49",
+      "C": "44",
+      "D": "48"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-112",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 60 ÷ 5?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "14",
+      "D": "11"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-113",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 12 × 6?",
+    "options": {
+      "A": "72",
+      "B": "73",
+      "C": "78",
+      "D": "66"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-114",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 84 ÷ 7?",
+    "options": {
+      "A": "14",
+      "B": "11",
+      "C": "13",
+      "D": "12"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-115",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 1 + 0.4?",
+    "options": {
+      "A": "1.6",
+      "B": "1.4",
+      "C": "1.3",
+      "D": "1.5"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-116",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 1.1 - 0.7?",
+    "options": {
+      "A": "0.5",
+      "B": "0.7",
+      "C": "0.4",
+      "D": "0.6"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-117",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 1.2 + 0.1?",
+    "options": {
+      "A": "1.5",
+      "B": "1.3",
+      "C": "1.2",
+      "D": "1.4"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-118",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 1.3 - 0.4?",
+    "options": {
+      "A": "1.1",
+      "B": "0.9",
+      "C": "1.2",
+      "D": "1"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-119",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 1.4 + 0.7?",
+    "options": {
+      "A": "2",
+      "B": "2.3",
+      "C": "2.2",
+      "D": "2.1"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-120",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 1.5 - 0.1?",
+    "options": {
+      "A": "1.6",
+      "B": "1.5",
+      "C": "1.7",
+      "D": "1.4"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-121",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 1.6 + 0.4?",
+    "options": {
+      "A": "2.1",
+      "B": "1.9",
+      "C": "2.2",
+      "D": "2"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-122",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 1.7 - 0.7?",
+    "options": {
+      "A": "1.1",
+      "B": "1.2",
+      "C": "1",
+      "D": "1.3"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-123",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 1.8 + 0.1?",
+    "options": {
+      "A": "1.9",
+      "B": "2",
+      "C": "2.1",
+      "D": "1.8"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-124",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 1.9 - 0.4?",
+    "options": {
+      "A": "1.5",
+      "B": "1.8",
+      "C": "1.7",
+      "D": "1.6"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-125",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2 + 0.7?",
+    "options": {
+      "A": "2.8",
+      "B": "2.7",
+      "C": "2.9",
+      "D": "2.6"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-126",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2.1 - 0.1?",
+    "options": {
+      "A": "2.1",
+      "B": "2",
+      "C": "2.2",
+      "D": "2.3"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-127",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2.2 + 0.4?",
+    "options": {
+      "A": "2.5",
+      "B": "2.6",
+      "C": "2.8",
+      "D": "2.7"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-128",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2.3 - 0.7?",
+    "options": {
+      "A": "1.7",
+      "B": "1.9",
+      "C": "1.8",
+      "D": "1.6"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-129",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2.4 + 0.1?",
+    "options": {
+      "A": "2.7",
+      "B": "2.6",
+      "C": "2.4",
+      "D": "2.5"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-130",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2.5 - 0.4?",
+    "options": {
+      "A": "2.3",
+      "B": "2.4",
+      "C": "2.1",
+      "D": "2.2"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-131",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2.6 + 0.7?",
+    "options": {
+      "A": "3.4",
+      "B": "3.2",
+      "C": "3.3",
+      "D": "3.5"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-132",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2.7 - 0.1?",
+    "options": {
+      "A": "2.7",
+      "B": "2.6",
+      "C": "2.8",
+      "D": "2.9"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-133",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2.8 + 0.4?",
+    "options": {
+      "A": "3.2",
+      "B": "3.1",
+      "C": "3.3",
+      "D": "3.4"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-134",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2.9 - 0.7?",
+    "options": {
+      "A": "2.2",
+      "B": "2.3",
+      "C": "2.5",
+      "D": "2.4"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-135",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3 + 0.1?",
+    "options": {
+      "A": "3.2",
+      "B": "3.3",
+      "C": "3.1",
+      "D": "3"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-136",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3.1 - 0.4?",
+    "options": {
+      "A": "2.8",
+      "B": "2.7",
+      "C": "2.9",
+      "D": "3"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-137",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3.2 + 0.7?",
+    "options": {
+      "A": "3.9",
+      "B": "4",
+      "C": "3.8",
+      "D": "4.1"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-138",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3.3 - 0.1?",
+    "options": {
+      "A": "3.5",
+      "B": "3.4",
+      "C": "3.3",
+      "D": "3.2"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-139",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3.4 + 0.4?",
+    "options": {
+      "A": "3.9",
+      "B": "4",
+      "C": "3.8",
+      "D": "3.7"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-140",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3.5 - 0.7?",
+    "options": {
+      "A": "3",
+      "B": "2.9",
+      "C": "2.8",
+      "D": "3.1"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-141",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3.6 + 0.1?",
+    "options": {
+      "A": "3.9",
+      "B": "3.8",
+      "C": "3.7",
+      "D": "3.6"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-142",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3.7 - 0.4?",
+    "options": {
+      "A": "3.3",
+      "B": "3.6",
+      "C": "3.5",
+      "D": "3.4"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-143",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3.8 + 0.7?",
+    "options": {
+      "A": "4.5",
+      "B": "4.4",
+      "C": "4.6",
+      "D": "4.7"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-144",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 3.9 - 0.1?",
+    "options": {
+      "A": "3.8",
+      "B": "4.1",
+      "C": "3.9",
+      "D": "4"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-145",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4 + 0.4?",
+    "options": {
+      "A": "4.6",
+      "B": "4.4",
+      "C": "4.5",
+      "D": "4.3"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-146",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4.1 - 0.7?",
+    "options": {
+      "A": "3.5",
+      "B": "3.6",
+      "C": "3.4",
+      "D": "3.7"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-147",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4.2 + 0.1?",
+    "options": {
+      "A": "4.2",
+      "B": "4.3",
+      "C": "4.5",
+      "D": "4.4"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-148",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4.3 - 0.4?",
+    "options": {
+      "A": "4.2",
+      "B": "4.1",
+      "C": "4",
+      "D": "3.9"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-149",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4.4 + 0.7?",
+    "options": {
+      "A": "5",
+      "B": "5.3",
+      "C": "5.1",
+      "D": "5.2"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-150",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4.5 - 0.1?",
+    "options": {
+      "A": "4.7",
+      "B": "4.6",
+      "C": "4.4",
+      "D": "4.5"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-151",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4.6 + 0.4?",
+    "options": {
+      "A": "4.9",
+      "B": "5.2",
+      "C": "5",
+      "D": "5.1"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-152",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4.7 - 0.7?",
+    "options": {
+      "A": "4.2",
+      "B": "4",
+      "C": "4.1",
+      "D": "4.3"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-153",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4.8 + 0.1?",
+    "options": {
+      "A": "5",
+      "B": "4.8",
+      "C": "4.9",
+      "D": "5.1"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-154",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 4.9 - 0.4?",
+    "options": {
+      "A": "4.8",
+      "B": "4.6",
+      "C": "4.7",
+      "D": "4.5"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-155",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 5 + 0.7?",
+    "options": {
+      "A": "5.8",
+      "B": "5.6",
+      "C": "5.9",
+      "D": "5.7"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-156",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 5.1 - 0.1?",
+    "options": {
+      "A": "5",
+      "B": "5.3",
+      "C": "5.1",
+      "D": "5.2"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-157",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 5.2 + 0.4?",
+    "options": {
+      "A": "5.7",
+      "B": "5.5",
+      "C": "5.6",
+      "D": "5.8"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-158",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 5.3 - 0.7?",
+    "options": {
+      "A": "4.9",
+      "B": "4.6",
+      "C": "4.8",
+      "D": "4.7"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-159",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 5.4 + 0.1?",
+    "options": {
+      "A": "5.7",
+      "B": "5.6",
+      "C": "5.5",
+      "D": "5.4"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-160",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many minutes are there in 1 hour?",
+    "options": {
+      "A": "90",
+      "B": "50",
+      "C": "60",
+      "D": "70"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-161",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many minutes are there in 2 hours?",
+    "options": {
+      "A": "150",
+      "B": "120",
+      "C": "130",
+      "D": "110"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-162",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many minutes are there in 3 hours?",
+    "options": {
+      "A": "210",
+      "B": "170",
+      "C": "190",
+      "D": "180"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-163",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many minutes are there in 4 hours?",
+    "options": {
+      "A": "250",
+      "B": "230",
+      "C": "270",
+      "D": "240"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-164",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many minutes are there in 5 hours?",
+    "options": {
+      "A": "300",
+      "B": "310",
+      "C": "290",
+      "D": "330"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-165",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many minutes are there in 6 hours?",
+    "options": {
+      "A": "350",
+      "B": "360",
+      "C": "390",
+      "D": "370"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-166",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many minutes are there in 7 hours?",
+    "options": {
+      "A": "430",
+      "B": "410",
+      "C": "420",
+      "D": "450"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-167",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many minutes are there in 8 hours?",
+    "options": {
+      "A": "480",
+      "B": "470",
+      "C": "490",
+      "D": "510"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-168",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many minutes are there in 9 hours?",
+    "options": {
+      "A": "550",
+      "B": "570",
+      "C": "530",
+      "D": "540"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-169",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many minutes are there in 10 hours?",
+    "options": {
+      "A": "610",
+      "B": "600",
+      "C": "590",
+      "D": "630"
+    },
+    "answer": "B",
+    "id": "math-fr-easy-170",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How much is 2 euros and 20 cents?",
+    "options": {
+      "A": "2.2",
+      "B": "2.4",
+      "C": "2.5",
+      "D": "2.3"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-171",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How much is 5 euros and 10 cents?",
+    "options": {
+      "A": "5.2",
+      "B": "5.4",
+      "C": "5.3",
+      "D": "5.1"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-172",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How much is 8 euros and 0 cents?",
+    "options": {
+      "A": "8.3",
+      "B": "8.2",
+      "C": "8.1",
+      "D": "8"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-173",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How much is 11 euros and 30 cents?",
+    "options": {
+      "A": "11.4",
+      "B": "11.6",
+      "C": "11.3",
+      "D": "11.5"
+    },
+    "answer": "C",
+    "id": "math-fr-easy-174",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How much is 14 euros and 20 cents?",
+    "options": {
+      "A": "14.2",
+      "B": "14.4",
+      "C": "14.5",
+      "D": "14.3"
+    },
+    "answer": "A",
+    "id": "math-fr-easy-175",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How much is 17 euros and 10 cents?",
+    "options": {
+      "A": "17.2",
+      "B": "17.4",
+      "C": "17.3",
+      "D": "17.1"
+    },
+    "answer": "D",
+    "id": "math-fr-easy-176",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which fraction represents 1 part out of 2 equal parts?",
+    "options": {
+      "A": "1/3",
+      "B": "1/2*2",
+      "C": "1/2*3",
+      "D": "1/2"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-177",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 1 part out of 3 equal parts?",
+    "options": {
+      "A": "1/3",
+      "B": "1/3*3",
+      "C": "1/4",
+      "D": "2/3"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-178",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 2 parts out of 3 equal parts?",
+    "options": {
+      "A": "2/3*3",
+      "B": "1/3",
+      "C": "2/3",
+      "D": "2/4"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-179",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 1 part out of 4 equal parts?",
+    "options": {
+      "A": "1/5",
+      "B": "2/4",
+      "C": "1/4*3",
+      "D": "1/4"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-180",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 2 parts out of 4 equal parts?",
+    "options": {
+      "A": "2/4",
+      "B": "3/4",
+      "C": "2/5",
+      "D": "1/4"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-181",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 3 parts out of 4 equal parts?",
+    "options": {
+      "A": "3/4*3",
+      "B": "3/4",
+      "C": "3/5",
+      "D": "2/4"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-182",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 1 part out of 5 equal parts?",
+    "options": {
+      "A": "1/5",
+      "B": "2/5",
+      "C": "1/6",
+      "D": "1/5*3"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-183",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 2 parts out of 5 equal parts?",
+    "options": {
+      "A": "2/6",
+      "B": "3/5",
+      "C": "2/5",
+      "D": "1/5"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-184",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 3 parts out of 5 equal parts?",
+    "options": {
+      "A": "3/6",
+      "B": "2/5",
+      "C": "4/5",
+      "D": "3/5"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-185",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 4 parts out of 5 equal parts?",
+    "options": {
+      "A": "4/6",
+      "B": "4/5",
+      "C": "4/5*3",
+      "D": "3/5"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-186",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 1 part out of 6 equal parts?",
+    "options": {
+      "A": "1/6*3",
+      "B": "1/7",
+      "C": "2/6",
+      "D": "1/6"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-187",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 2 parts out of 6 equal parts?",
+    "options": {
+      "A": "3/6",
+      "B": "2/7",
+      "C": "1/6",
+      "D": "2/6"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-188",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 3 parts out of 6 equal parts?",
+    "options": {
+      "A": "4/6",
+      "B": "3/6",
+      "C": "3/7",
+      "D": "2/6"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-189",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 4 parts out of 6 equal parts?",
+    "options": {
+      "A": "5/6",
+      "B": "3/6",
+      "C": "4/7",
+      "D": "4/6"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-190",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 5 parts out of 6 equal parts?",
+    "options": {
+      "A": "5/6",
+      "B": "5/7",
+      "C": "5/6*3",
+      "D": "4/6"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-191",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 1 part out of 8 equal parts?",
+    "options": {
+      "A": "1/8*3",
+      "B": "1/9",
+      "C": "1/8",
+      "D": "2/8"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-192",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 2 parts out of 8 equal parts?",
+    "options": {
+      "A": "2/8",
+      "B": "1/8",
+      "C": "2/9",
+      "D": "3/8"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-193",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 3 parts out of 8 equal parts?",
+    "options": {
+      "A": "3/8",
+      "B": "2/8",
+      "C": "3/9",
+      "D": "4/8"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-194",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 4 parts out of 8 equal parts?",
+    "options": {
+      "A": "3/8",
+      "B": "5/8",
+      "C": "4/9",
+      "D": "4/8"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-195",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 5 parts out of 8 equal parts?",
+    "options": {
+      "A": "5/8",
+      "B": "4/8",
+      "C": "5/9",
+      "D": "6/8"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-196",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 6 parts out of 8 equal parts?",
+    "options": {
+      "A": "6/9",
+      "B": "6/8",
+      "C": "7/8",
+      "D": "5/8"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-197",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 7 parts out of 8 equal parts?",
+    "options": {
+      "A": "6/8",
+      "B": "7/9",
+      "C": "7/8",
+      "D": "7/8*3"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-198",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 1 part out of 10 equal parts?",
+    "options": {
+      "A": "2/10",
+      "B": "1/11",
+      "C": "1/10*3",
+      "D": "1/10"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-199",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 2 parts out of 10 equal parts?",
+    "options": {
+      "A": "3/10",
+      "B": "1/10",
+      "C": "2/11",
+      "D": "2/10"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-200",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 3 parts out of 10 equal parts?",
+    "options": {
+      "A": "3/11",
+      "B": "2/10",
+      "C": "3/10",
+      "D": "4/10"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-201",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 4 parts out of 10 equal parts?",
+    "options": {
+      "A": "4/10",
+      "B": "4/11",
+      "C": "5/10",
+      "D": "3/10"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-202",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 5 parts out of 10 equal parts?",
+    "options": {
+      "A": "5/10",
+      "B": "6/10",
+      "C": "5/11",
+      "D": "4/10"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-203",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 6 parts out of 10 equal parts?",
+    "options": {
+      "A": "5/10",
+      "B": "6/10",
+      "C": "7/10",
+      "D": "6/11"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-204",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 7 parts out of 10 equal parts?",
+    "options": {
+      "A": "7/10",
+      "B": "7/11",
+      "C": "6/10",
+      "D": "8/10"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-205",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 8 parts out of 10 equal parts?",
+    "options": {
+      "A": "8/11",
+      "B": "9/10",
+      "C": "8/10",
+      "D": "7/10"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-206",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 9 parts out of 10 equal parts?",
+    "options": {
+      "A": "9/11",
+      "B": "9/10",
+      "C": "9/10*3",
+      "D": "8/10"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-207",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 1 part out of 12 equal parts?",
+    "options": {
+      "A": "2/12",
+      "B": "1/12*3",
+      "C": "1/12",
+      "D": "1/13"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-208",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 2 parts out of 12 equal parts?",
+    "options": {
+      "A": "3/12",
+      "B": "1/12",
+      "C": "2/13",
+      "D": "2/12"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-209",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 3 parts out of 12 equal parts?",
+    "options": {
+      "A": "4/12",
+      "B": "2/12",
+      "C": "3/12",
+      "D": "3/13"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-210",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 4 parts out of 12 equal parts?",
+    "options": {
+      "A": "3/12",
+      "B": "4/13",
+      "C": "5/12",
+      "D": "4/12"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-211",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 5 parts out of 12 equal parts?",
+    "options": {
+      "A": "4/12",
+      "B": "6/12",
+      "C": "5/12",
+      "D": "5/13"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-212",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 6 parts out of 12 equal parts?",
+    "options": {
+      "A": "6/13",
+      "B": "7/12",
+      "C": "5/12",
+      "D": "6/12"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-213",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 7 parts out of 12 equal parts?",
+    "options": {
+      "A": "7/13",
+      "B": "8/12",
+      "C": "6/12",
+      "D": "7/12"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-214",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 8 parts out of 12 equal parts?",
+    "options": {
+      "A": "9/12",
+      "B": "8/13",
+      "C": "8/12",
+      "D": "7/12"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-215",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 9 parts out of 12 equal parts?",
+    "options": {
+      "A": "10/12",
+      "B": "8/12",
+      "C": "9/12",
+      "D": "9/13"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-216",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 10 parts out of 12 equal parts?",
+    "options": {
+      "A": "10/12",
+      "B": "9/12",
+      "C": "10/13",
+      "D": "11/12"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-217",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction represents 11 parts out of 12 equal parts?",
+    "options": {
+      "A": "11/13",
+      "B": "11/12",
+      "C": "11/12*3",
+      "D": "10/12"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-218",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 4?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1*3",
+      "D": "1"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-219",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 8?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "1"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-220",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 12?",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "5"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-221",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 16?",
+    "options": {
+      "A": "3",
+      "B": "6",
+      "C": "5",
+      "D": "4"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-222",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 20?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "7",
+      "D": "6"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-223",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 24?",
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-224",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 28?",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-225",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 32?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-226",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 36?",
+    "options": {
+      "A": "11",
+      "B": "10",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-227",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 40?",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "10",
+      "D": "9"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-228",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 44?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "11",
+      "D": "10"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-229",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 48?",
+    "options": {
+      "A": "13",
+      "B": "12",
+      "C": "11",
+      "D": "14"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-230",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 52?",
+    "options": {
+      "A": "13",
+      "B": "15",
+      "C": "14",
+      "D": "12"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-231",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 56?",
+    "options": {
+      "A": "13",
+      "B": "15",
+      "C": "16",
+      "D": "14"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-232",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 60?",
+    "options": {
+      "A": "15",
+      "B": "17",
+      "C": "14",
+      "D": "16"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-233",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 64?",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "16",
+      "D": "15"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-234",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 68?",
+    "options": {
+      "A": "16",
+      "B": "19",
+      "C": "18",
+      "D": "17"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-235",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 72?",
+    "options": {
+      "A": "20",
+      "B": "18",
+      "C": "19",
+      "D": "17"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-236",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 76?",
+    "options": {
+      "A": "20",
+      "B": "21",
+      "C": "18",
+      "D": "19"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-237",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is one quarter of 80?",
+    "options": {
+      "A": "22",
+      "B": "20",
+      "C": "21",
+      "D": "19"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-238",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction is equivalent to 2/4?",
+    "options": {
+      "A": "1/2",
+      "B": "2/1",
+      "C": "1/2*3",
+      "D": "2/4"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-239",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction is equivalent to 3/6?",
+    "options": {
+      "A": "1/3",
+      "B": "2/6",
+      "C": "3/1",
+      "D": "1/2"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-240",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction is equivalent to 4/8?",
+    "options": {
+      "A": "2/8",
+      "B": "1/4",
+      "C": "4/1",
+      "D": "1/2"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-241",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction is equivalent to 5/10?",
+    "options": {
+      "A": "2/10",
+      "B": "5/1",
+      "C": "1/2",
+      "D": "1/5"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-242",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction is equivalent to 6/12?",
+    "options": {
+      "A": "6/1",
+      "B": "1/2",
+      "C": "2/12",
+      "D": "1/6"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-243",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction is equivalent to 7/14?",
+    "options": {
+      "A": "1/7",
+      "B": "2/14",
+      "C": "1/2",
+      "D": "7/1"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-244",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction is equivalent to 8/16?",
+    "options": {
+      "A": "8/1",
+      "B": "1/2",
+      "C": "1/8",
+      "D": "2/16"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-245",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction is equivalent to 9/18?",
+    "options": {
+      "A": "1/2",
+      "B": "2/18",
+      "C": "1/9",
+      "D": "9/1"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-246",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction is equivalent to 10/20?",
+    "options": {
+      "A": "1/10",
+      "B": "10/1",
+      "C": "1/2",
+      "D": "2/20"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-247",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which fraction is equivalent to 11/22?",
+    "options": {
+      "A": "2/22",
+      "B": "1/11",
+      "C": "11/1",
+      "D": "1/2"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-248",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the area of a rectangle with length 3 cm and width 5 cm?",
+    "options": {
+      "A": "15",
+      "B": "14",
+      "C": "16",
+      "D": "15*3"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-249",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 4 cm and width 6 cm?",
+    "options": {
+      "A": "24",
+      "B": "18",
+      "C": "20",
+      "D": "22"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-250",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the area of a rectangle with length 5 cm and width 7 cm?",
+    "options": {
+      "A": "35",
+      "B": "24",
+      "C": "36",
+      "D": "34"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-251",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 6 cm and width 8 cm?",
+    "options": {
+      "A": "48",
+      "B": "30",
+      "C": "26",
+      "D": "28"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-252",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the area of a rectangle with length 7 cm and width 2 cm?",
+    "options": {
+      "A": "14",
+      "B": "18",
+      "C": "15",
+      "D": "13"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-253",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 8 cm and width 3 cm?",
+    "options": {
+      "A": "22*3",
+      "B": "22",
+      "C": "20",
+      "D": "24"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-254",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the area of a rectangle with length 9 cm and width 4 cm?",
+    "options": {
+      "A": "35",
+      "B": "36",
+      "C": "37",
+      "D": "26"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-255",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 10 cm and width 5 cm?",
+    "options": {
+      "A": "50",
+      "B": "28",
+      "C": "32",
+      "D": "30"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-256",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the area of a rectangle with length 11 cm and width 6 cm?",
+    "options": {
+      "A": "66",
+      "B": "67",
+      "C": "34",
+      "D": "65"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-257",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 12 cm and width 7 cm?",
+    "options": {
+      "A": "36",
+      "B": "84",
+      "C": "40",
+      "D": "38"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-258",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the area of a rectangle with length 13 cm and width 8 cm?",
+    "options": {
+      "A": "42",
+      "B": "103",
+      "C": "104",
+      "D": "105"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-259",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 14 cm and width 2 cm?",
+    "options": {
+      "A": "34",
+      "B": "32",
+      "C": "28",
+      "D": "30"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-260",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the area of a rectangle with length 15 cm and width 3 cm?",
+    "options": {
+      "A": "46",
+      "B": "44",
+      "C": "36",
+      "D": "45"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-261",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 16 cm and width 4 cm?",
+    "options": {
+      "A": "38",
+      "B": "42",
+      "C": "64",
+      "D": "40"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-262",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the area of a rectangle with length 17 cm and width 5 cm?",
+    "options": {
+      "A": "86",
+      "B": "44",
+      "C": "84",
+      "D": "85"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-263",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 18 cm and width 6 cm?",
+    "options": {
+      "A": "108",
+      "B": "50",
+      "C": "48",
+      "D": "46"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-264",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the area of a rectangle with length 19 cm and width 7 cm?",
+    "options": {
+      "A": "132",
+      "B": "52",
+      "C": "134",
+      "D": "133"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-265",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 20 cm and width 8 cm?",
+    "options": {
+      "A": "56",
+      "B": "54",
+      "C": "160",
+      "D": "58"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-266",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the area of a rectangle with length 21 cm and width 2 cm?",
+    "options": {
+      "A": "42",
+      "B": "43",
+      "C": "41",
+      "D": "46"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-267",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 22 cm and width 3 cm?",
+    "options": {
+      "A": "66",
+      "B": "50",
+      "C": "48",
+      "D": "52"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-268",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 1 km?",
+    "options": {
+      "A": "1000",
+      "B": "1500",
+      "C": "900",
+      "D": "1100"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-269",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 2 km?",
+    "options": {
+      "A": "2100",
+      "B": "1900",
+      "C": "2500",
+      "D": "2000"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-270",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 3 km?",
+    "options": {
+      "A": "3500",
+      "B": "3000",
+      "C": "3100",
+      "D": "2900"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-271",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 4 km?",
+    "options": {
+      "A": "3900",
+      "B": "4500",
+      "C": "4000",
+      "D": "4100"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-272",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 5 km?",
+    "options": {
+      "A": "5000",
+      "B": "4900",
+      "C": "5100",
+      "D": "5500"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-273",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 6 km?",
+    "options": {
+      "A": "5900",
+      "B": "6500",
+      "C": "6000",
+      "D": "6100"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-274",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 7 km?",
+    "options": {
+      "A": "7000",
+      "B": "6900",
+      "C": "7100",
+      "D": "7500"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-275",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 8 km?",
+    "options": {
+      "A": "8100",
+      "B": "8000",
+      "C": "7900",
+      "D": "8500"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-276",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 9 km?",
+    "options": {
+      "A": "8900",
+      "B": "9100",
+      "C": "9500",
+      "D": "9000"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-277",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 10 km?",
+    "options": {
+      "A": "10100",
+      "B": "10500",
+      "C": "9900",
+      "D": "10000"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-278",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 11 km?",
+    "options": {
+      "A": "10900",
+      "B": "11000",
+      "C": "11100",
+      "D": "11500"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-279",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 12 km?",
+    "options": {
+      "A": "12000",
+      "B": "12100",
+      "C": "11900",
+      "D": "12500"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-280",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 13 km?",
+    "options": {
+      "A": "13000",
+      "B": "12900",
+      "C": "13500",
+      "D": "13100"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-281",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 14 km?",
+    "options": {
+      "A": "14100",
+      "B": "14000",
+      "C": "13900",
+      "D": "14500"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-282",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 15 km?",
+    "options": {
+      "A": "15500",
+      "B": "14900",
+      "C": "15000",
+      "D": "15100"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-283",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 16 km?",
+    "options": {
+      "A": "16000",
+      "B": "15900",
+      "C": "16500",
+      "D": "16100"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-284",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 17 km?",
+    "options": {
+      "A": "17000",
+      "B": "16900",
+      "C": "17500",
+      "D": "17100"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-285",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 18 km?",
+    "options": {
+      "A": "18100",
+      "B": "18500",
+      "C": "17900",
+      "D": "18000"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-286",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 19 km?",
+    "options": {
+      "A": "19100",
+      "B": "18900",
+      "C": "19000",
+      "D": "19500"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-287",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many meters are there in 20 km?",
+    "options": {
+      "A": "20500",
+      "B": "20100",
+      "C": "19900",
+      "D": "20000"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-288",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What type of angle is 30°?",
+    "options": {
+      "A": "acute",
+      "B": "acute*3",
+      "C": "right",
+      "D": "obtuse"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-289",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What type of angle is 45°?",
+    "options": {
+      "A": "acute*3",
+      "B": "obtuse",
+      "C": "right",
+      "D": "acute"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-290",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What type of angle is 60°?",
+    "options": {
+      "A": "right",
+      "B": "acute*3",
+      "C": "obtuse",
+      "D": "acute"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-291",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What type of angle is 90°?",
+    "options": {
+      "A": "right*3",
+      "B": "right",
+      "C": "obtuse",
+      "D": "acute"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-292",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What type of angle is 120°?",
+    "options": {
+      "A": "obtuse*3",
+      "B": "obtuse",
+      "C": "acute",
+      "D": "right"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-293",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What type of angle is 135°?",
+    "options": {
+      "A": "acute",
+      "B": "right",
+      "C": "obtuse",
+      "D": "obtuse*3"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-294",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What type of angle is 150°?",
+    "options": {
+      "A": "right",
+      "B": "obtuse",
+      "C": "acute",
+      "D": "obtuse*3"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-295",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What type of angle is 180°?",
+    "options": {
+      "A": "acute",
+      "B": "right",
+      "C": "obtuse",
+      "D": "straight"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-296",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 10?",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "1"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-297",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 15?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "2",
+      "D": "5"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-298",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 20?",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "6"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-299",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 25?",
+    "options": {
+      "A": "4",
+      "B": "7",
+      "C": "6",
+      "D": "5"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-300",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 30?",
+    "options": {
+      "A": "8",
+      "B": "5",
+      "C": "7",
+      "D": "6"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-301",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 35?",
+    "options": {
+      "A": "8",
+      "B": "7",
+      "C": "9",
+      "D": "6"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-302",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 40?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "8",
+      "D": "7"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-303",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 45?",
+    "options": {
+      "A": "11",
+      "B": "10",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-304",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 50?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "9",
+      "D": "11"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-305",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 55?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "11",
+      "D": "10"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-306",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 60?",
+    "options": {
+      "A": "13",
+      "B": "12",
+      "C": "11",
+      "D": "14"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-307",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 65?",
+    "options": {
+      "A": "14",
+      "B": "12",
+      "C": "13",
+      "D": "15"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-308",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 70?",
+    "options": {
+      "A": "14",
+      "B": "15",
+      "C": "16",
+      "D": "13"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-309",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 75?",
+    "options": {
+      "A": "17",
+      "B": "15",
+      "C": "16",
+      "D": "14"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-310",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 80?",
+    "options": {
+      "A": "18",
+      "B": "16",
+      "C": "15",
+      "D": "17"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-311",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 85?",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "16",
+      "D": "19"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-312",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 90?",
+    "options": {
+      "A": "17",
+      "B": "19",
+      "C": "20",
+      "D": "18"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-313",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 95?",
+    "options": {
+      "A": "21",
+      "B": "20",
+      "C": "18",
+      "D": "19"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-314",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 100?",
+    "options": {
+      "A": "22",
+      "B": "20",
+      "C": "19",
+      "D": "21"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-315",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is 20% of 105?",
+    "options": {
+      "A": "23",
+      "B": "20",
+      "C": "21",
+      "D": "22"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-316",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 2 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "4",
+      "B": "12",
+      "C": "6",
+      "D": "6*3"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-317",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 3 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "8",
+      "B": "6",
+      "C": "4",
+      "D": "3"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-318",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 4 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "6",
+      "B": "4",
+      "C": "2.4",
+      "D": "3"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-319",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 5 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4.8",
+      "D": "2.4"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-320",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 6 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "1.71",
+      "B": "2",
+      "C": "2.4",
+      "D": "4"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-321",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 7 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "3.43",
+      "B": "1.71",
+      "C": "2",
+      "D": "1.5"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-322",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 8 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "1.71",
+      "B": "3",
+      "C": "1.33",
+      "D": "1.5"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-323",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 9 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "1.2",
+      "B": "2.67",
+      "C": "1.33",
+      "D": "1.5"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-324",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 10 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "2.4",
+      "B": "1.2",
+      "C": "1.09",
+      "D": "1.33"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-325",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 11 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "1.2",
+      "B": "1",
+      "C": "2.18",
+      "D": "1.09"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-326",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 12 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "0.92",
+      "B": "1",
+      "C": "1.09",
+      "D": "2"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-327",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 13 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "1",
+      "B": "0.86",
+      "C": "0.92",
+      "D": "1.85"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-328",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 14 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "0.8",
+      "B": "0.86",
+      "C": "0.92",
+      "D": "1.71"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-329",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 15 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "1.6",
+      "B": "0.75",
+      "C": "0.86",
+      "D": "0.8"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-330",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 16 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "0.75",
+      "B": "1.5",
+      "C": "0.8",
+      "D": "0.71"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-331",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 17 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "1.41",
+      "B": "0.71",
+      "C": "0.75",
+      "D": "0.67"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-332",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 18 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "0.71",
+      "B": "0.67",
+      "C": "1.33",
+      "D": "0.63"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-333",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 19 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "0.67",
+      "B": "0.6",
+      "C": "0.63",
+      "D": "1.26"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-334",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 20 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "0.57",
+      "B": "0.63",
+      "C": "1.2",
+      "D": "0.6"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-335",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 21 notebooks cost 12 euros, how much does 1 notebook cost?",
+    "options": {
+      "A": "0.57",
+      "B": "1.14",
+      "C": "0.55",
+      "D": "0.6"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-336",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Calculate: (2 + 5) × 4",
+    "options": {
+      "A": "36",
+      "B": "32",
+      "C": "24",
+      "D": "28"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-337",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (3 + 6) × 5",
+    "options": {
+      "A": "55",
+      "B": "40",
+      "C": "50",
+      "D": "45"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-338",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (4 + 7) × 6",
+    "options": {
+      "A": "78",
+      "B": "66",
+      "C": "72",
+      "D": "60"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-339",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (5 + 8) × 2",
+    "options": {
+      "A": "24",
+      "B": "30",
+      "C": "28",
+      "D": "26"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-340",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (6 + 9) × 3",
+    "options": {
+      "A": "42",
+      "B": "48",
+      "C": "45",
+      "D": "51"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-341",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (7 + 10) × 4",
+    "options": {
+      "A": "68",
+      "B": "64",
+      "C": "72",
+      "D": "76"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-342",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (8 + 11) × 5",
+    "options": {
+      "A": "100",
+      "B": "90",
+      "C": "95",
+      "D": "105"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-343",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (9 + 12) × 6",
+    "options": {
+      "A": "120",
+      "B": "138",
+      "C": "126",
+      "D": "132"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-344",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (10 + 13) × 2",
+    "options": {
+      "A": "44",
+      "B": "48",
+      "C": "50",
+      "D": "46"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-345",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (11 + 14) × 3",
+    "options": {
+      "A": "81",
+      "B": "75",
+      "C": "78",
+      "D": "72"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-346",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (12 + 15) × 4",
+    "options": {
+      "A": "116",
+      "B": "104",
+      "C": "112",
+      "D": "108"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-347",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (13 + 16) × 5",
+    "options": {
+      "A": "140",
+      "B": "155",
+      "C": "145",
+      "D": "150"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-348",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (14 + 17) × 6",
+    "options": {
+      "A": "198",
+      "B": "180",
+      "C": "186",
+      "D": "192"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-349",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (15 + 18) × 2",
+    "options": {
+      "A": "66",
+      "B": "68",
+      "C": "64",
+      "D": "70"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-350",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (16 + 19) × 3",
+    "options": {
+      "A": "105",
+      "B": "102",
+      "C": "108",
+      "D": "111"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-351",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (17 + 20) × 4",
+    "options": {
+      "A": "152",
+      "B": "156",
+      "C": "148",
+      "D": "144"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-352",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (18 + 21) × 5",
+    "options": {
+      "A": "195",
+      "B": "205",
+      "C": "200",
+      "D": "190"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-353",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate: (19 + 22) × 6",
+    "options": {
+      "A": "258",
+      "B": "252",
+      "C": "246",
+      "D": "240"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-354",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 5 = 11",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-355",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 6 = 15",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-356",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 7 = 19",
+    "options": {
+      "A": "6",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-357",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 8 = 23",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "4"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-358",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 4 = 22",
+    "options": {
+      "A": "5",
+      "B": "8",
+      "C": "6",
+      "D": "7"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-359",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 5 = 26",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "6",
+      "D": "9"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-360",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 6 = 9",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1*3",
+      "D": "1"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-361",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 7 = 13",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-362",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 8 = 17",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "3",
+      "D": "2"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-363",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 4 = 16",
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-364",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 5 = 20",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "7",
+      "D": "6"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-365",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 6 = 24",
+    "options": {
+      "A": "8",
+      "B": "6",
+      "C": "7",
+      "D": "5"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-366",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 7 = 28",
+    "options": {
+      "A": "8",
+      "B": "7",
+      "C": "9",
+      "D": "6"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-367",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 8 = 11",
+    "options": {
+      "A": "3",
+      "B": "1*3",
+      "C": "2",
+      "D": "1"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-368",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 4 = 10",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-369",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 5 = 14",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "2",
+      "D": "5"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-370",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 6 = 18",
+    "options": {
+      "A": "6",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-371",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 7 = 22",
+    "options": {
+      "A": "4",
+      "B": "7",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-372",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 3x + 8 = 26",
+    "options": {
+      "A": "7",
+      "B": "6",
+      "C": "5",
+      "D": "8"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-373",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 4?",
+    "options": {
+      "A": "3*3",
+      "B": "3",
+      "C": "4",
+      "D": "2"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-374",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 8?",
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "8",
+      "D": "7"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-375",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 12?",
+    "options": {
+      "A": "9",
+      "B": "12",
+      "C": "10",
+      "D": "8"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-376",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 16?",
+    "options": {
+      "A": "11",
+      "B": "13",
+      "C": "12",
+      "D": "16"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-377",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 20?",
+    "options": {
+      "A": "20",
+      "B": "16",
+      "C": "14",
+      "D": "15"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-378",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 24?",
+    "options": {
+      "A": "19",
+      "B": "17",
+      "C": "18",
+      "D": "24"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-379",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 28?",
+    "options": {
+      "A": "22",
+      "B": "21",
+      "C": "20",
+      "D": "28"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-380",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 32?",
+    "options": {
+      "A": "24",
+      "B": "23",
+      "C": "32",
+      "D": "25"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-381",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 36?",
+    "options": {
+      "A": "27",
+      "B": "26",
+      "C": "36",
+      "D": "28"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-382",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 40?",
+    "options": {
+      "A": "31",
+      "B": "30",
+      "C": "40",
+      "D": "29"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-383",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 44?",
+    "options": {
+      "A": "33",
+      "B": "44",
+      "C": "34",
+      "D": "32"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-384",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 48?",
+    "options": {
+      "A": "35",
+      "B": "48",
+      "C": "36",
+      "D": "37"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-385",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 52?",
+    "options": {
+      "A": "40",
+      "B": "39",
+      "C": "38",
+      "D": "52"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-386",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 56?",
+    "options": {
+      "A": "41",
+      "B": "56",
+      "C": "42",
+      "D": "43"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-387",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 60?",
+    "options": {
+      "A": "44",
+      "B": "46",
+      "C": "45",
+      "D": "60"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-388",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 64?",
+    "options": {
+      "A": "48",
+      "B": "47",
+      "C": "49",
+      "D": "64"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-389",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 68?",
+    "options": {
+      "A": "52",
+      "B": "51",
+      "C": "50",
+      "D": "68"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-390",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 72?",
+    "options": {
+      "A": "53",
+      "B": "55",
+      "C": "54",
+      "D": "72"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-391",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 76?",
+    "options": {
+      "A": "76",
+      "B": "56",
+      "C": "57",
+      "D": "58"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-392",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 80?",
+    "options": {
+      "A": "59",
+      "B": "60",
+      "C": "80",
+      "D": "61"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-393",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 84?",
+    "options": {
+      "A": "63",
+      "B": "64",
+      "C": "62",
+      "D": "84"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-394",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 88?",
+    "options": {
+      "A": "88",
+      "B": "65",
+      "C": "67",
+      "D": "66"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-395",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 92?",
+    "options": {
+      "A": "92",
+      "B": "69",
+      "C": "70",
+      "D": "68"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-396",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 96?",
+    "options": {
+      "A": "72",
+      "B": "71",
+      "C": "96",
+      "D": "73"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-397",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 100?",
+    "options": {
+      "A": "74",
+      "B": "100",
+      "C": "75",
+      "D": "76"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-398",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 104?",
+    "options": {
+      "A": "104",
+      "B": "77",
+      "C": "78",
+      "D": "79"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-399",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 108?",
+    "options": {
+      "A": "81",
+      "B": "108",
+      "C": "80",
+      "D": "82"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-400",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 112?",
+    "options": {
+      "A": "84",
+      "B": "112",
+      "C": "85",
+      "D": "83"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-401",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 116?",
+    "options": {
+      "A": "116",
+      "B": "88",
+      "C": "86",
+      "D": "87"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-402",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is three-quarters of 120?",
+    "options": {
+      "A": "89",
+      "B": "91",
+      "C": "120",
+      "D": "90"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-403",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 5 cm and width 8 cm?",
+    "options": {
+      "A": "30",
+      "B": "22",
+      "C": "26",
+      "D": "40"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-404",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 6 cm and width 9 cm?",
+    "options": {
+      "A": "54",
+      "B": "34",
+      "C": "30",
+      "D": "26"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-405",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 7 cm and width 10 cm?",
+    "options": {
+      "A": "30",
+      "B": "70",
+      "C": "38",
+      "D": "34"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-406",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 8 cm and width 11 cm?",
+    "options": {
+      "A": "42",
+      "B": "88",
+      "C": "34",
+      "D": "38"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-407",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 9 cm and width 3 cm?",
+    "options": {
+      "A": "28",
+      "B": "20",
+      "C": "24",
+      "D": "27"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-408",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 10 cm and width 4 cm?",
+    "options": {
+      "A": "40",
+      "B": "28",
+      "C": "32",
+      "D": "24"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-409",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 11 cm and width 5 cm?",
+    "options": {
+      "A": "32",
+      "B": "55",
+      "C": "36",
+      "D": "28"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-410",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 12 cm and width 6 cm?",
+    "options": {
+      "A": "40",
+      "B": "72",
+      "C": "32",
+      "D": "36"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-411",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 13 cm and width 7 cm?",
+    "options": {
+      "A": "36",
+      "B": "44",
+      "C": "40",
+      "D": "91"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-412",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 14 cm and width 8 cm?",
+    "options": {
+      "A": "48",
+      "B": "44",
+      "C": "112",
+      "D": "40"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-413",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 15 cm and width 9 cm?",
+    "options": {
+      "A": "44",
+      "B": "52",
+      "C": "135",
+      "D": "48"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-414",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 16 cm and width 10 cm?",
+    "options": {
+      "A": "56",
+      "B": "48",
+      "C": "160",
+      "D": "52"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-415",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 17 cm and width 11 cm?",
+    "options": {
+      "A": "60",
+      "B": "52",
+      "C": "187",
+      "D": "56"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-416",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 18 cm and width 3 cm?",
+    "options": {
+      "A": "54",
+      "B": "38",
+      "C": "42",
+      "D": "46"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-417",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 19 cm and width 4 cm?",
+    "options": {
+      "A": "76",
+      "B": "50",
+      "C": "42",
+      "D": "46"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-418",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 20 cm and width 5 cm?",
+    "options": {
+      "A": "46",
+      "B": "100",
+      "C": "50",
+      "D": "54"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-419",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 21 cm and width 6 cm?",
+    "options": {
+      "A": "126",
+      "B": "50",
+      "C": "54",
+      "D": "58"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-420",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 22 cm and width 7 cm?",
+    "options": {
+      "A": "62",
+      "B": "54",
+      "C": "154",
+      "D": "58"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-421",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 23 cm and width 8 cm?",
+    "options": {
+      "A": "58",
+      "B": "62",
+      "C": "184",
+      "D": "66"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-422",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 24 cm and width 9 cm?",
+    "options": {
+      "A": "216",
+      "B": "66",
+      "C": "70",
+      "D": "62"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-423",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 25 cm and width 10 cm?",
+    "options": {
+      "A": "66",
+      "B": "70",
+      "C": "74",
+      "D": "250"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-424",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 26 cm and width 11 cm?",
+    "options": {
+      "A": "78",
+      "B": "74",
+      "C": "70",
+      "D": "286"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-425",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 27 cm and width 3 cm?",
+    "options": {
+      "A": "81",
+      "B": "64",
+      "C": "56",
+      "D": "60"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-426",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 28 cm and width 4 cm?",
+    "options": {
+      "A": "68",
+      "B": "64",
+      "C": "60",
+      "D": "112"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-427",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 29 cm and width 5 cm?",
+    "options": {
+      "A": "145",
+      "B": "68",
+      "C": "72",
+      "D": "64"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-428",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 30 cm and width 6 cm?",
+    "options": {
+      "A": "180",
+      "B": "76",
+      "C": "72",
+      "D": "68"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-429",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 31 cm and width 7 cm?",
+    "options": {
+      "A": "217",
+      "B": "76",
+      "C": "80",
+      "D": "72"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-430",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 32 cm and width 8 cm?",
+    "options": {
+      "A": "256",
+      "B": "80",
+      "C": "76",
+      "D": "84"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-431",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 33 cm and width 9 cm?",
+    "options": {
+      "A": "297",
+      "B": "88",
+      "C": "84",
+      "D": "80"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-432",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 34 cm and width 10 cm?",
+    "options": {
+      "A": "88",
+      "B": "340",
+      "C": "84",
+      "D": "92"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-433",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 750 g to kilograms.",
+    "options": {
+      "A": "0.5",
+      "B": "3",
+      "C": "1",
+      "D": "0.75"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-434",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 1000 g to kilograms.",
+    "options": {
+      "A": "1.25",
+      "B": "4",
+      "C": "0.75",
+      "D": "1"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-435",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 1250 g to kilograms.",
+    "options": {
+      "A": "1",
+      "B": "1.25",
+      "C": "1.5",
+      "D": "5"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-436",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 1500 g to kilograms.",
+    "options": {
+      "A": "6",
+      "B": "1.25",
+      "C": "1.5",
+      "D": "1.75"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-437",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 1750 g to kilograms.",
+    "options": {
+      "A": "7",
+      "B": "2",
+      "C": "1.5",
+      "D": "1.75"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-438",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 2000 g to kilograms.",
+    "options": {
+      "A": "8",
+      "B": "2",
+      "C": "1.75",
+      "D": "2.25"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-439",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 2250 g to kilograms.",
+    "options": {
+      "A": "2",
+      "B": "2.5",
+      "C": "2.25",
+      "D": "9"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-440",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 2500 g to kilograms.",
+    "options": {
+      "A": "10",
+      "B": "2.5",
+      "C": "2.25",
+      "D": "2.75"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-441",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 2750 g to kilograms.",
+    "options": {
+      "A": "11",
+      "B": "2.75",
+      "C": "2.5",
+      "D": "3"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-442",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 3000 g to kilograms.",
+    "options": {
+      "A": "12",
+      "B": "2.75",
+      "C": "3",
+      "D": "3.25"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-443",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 3250 g to kilograms.",
+    "options": {
+      "A": "13",
+      "B": "3.5",
+      "C": "3.25",
+      "D": "3"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-444",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 3500 g to kilograms.",
+    "options": {
+      "A": "3.5",
+      "B": "3.25",
+      "C": "14",
+      "D": "3.75"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-445",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 3750 g to kilograms.",
+    "options": {
+      "A": "3.5",
+      "B": "3.75",
+      "C": "4",
+      "D": "15"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-446",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 4000 g to kilograms.",
+    "options": {
+      "A": "3.75",
+      "B": "4",
+      "C": "4.25",
+      "D": "16"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-447",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 4250 g to kilograms.",
+    "options": {
+      "A": "4.25",
+      "B": "17",
+      "C": "4.5",
+      "D": "4"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-448",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 4500 g to kilograms.",
+    "options": {
+      "A": "18",
+      "B": "4.25",
+      "C": "4.75",
+      "D": "4.5"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-449",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 4750 g to kilograms.",
+    "options": {
+      "A": "4.75",
+      "B": "19",
+      "C": "5",
+      "D": "4.5"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-450",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 5000 g to kilograms.",
+    "options": {
+      "A": "5.25",
+      "B": "5",
+      "C": "20",
+      "D": "4.75"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-451",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 5250 g to kilograms.",
+    "options": {
+      "A": "5.5",
+      "B": "5.25",
+      "C": "21",
+      "D": "5"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-452",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 5500 g to kilograms.",
+    "options": {
+      "A": "5.75",
+      "B": "5.5",
+      "C": "22",
+      "D": "5.25"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-453",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 5750 g to kilograms.",
+    "options": {
+      "A": "5.5",
+      "B": "23",
+      "C": "5.75",
+      "D": "6"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-454",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 6000 g to kilograms.",
+    "options": {
+      "A": "24",
+      "B": "5.75",
+      "C": "6",
+      "D": "6.25"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-455",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 6250 g to kilograms.",
+    "options": {
+      "A": "25",
+      "B": "6.25",
+      "C": "6.5",
+      "D": "6"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-456",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 6500 g to kilograms.",
+    "options": {
+      "A": "6.75",
+      "B": "26",
+      "C": "6.25",
+      "D": "6.5"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-457",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 6750 g to kilograms.",
+    "options": {
+      "A": "6.75",
+      "B": "27",
+      "C": "6.5",
+      "D": "7"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-458",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 7000 g to kilograms.",
+    "options": {
+      "A": "7.25",
+      "B": "28",
+      "C": "7",
+      "D": "6.75"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-459",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 7250 g to kilograms.",
+    "options": {
+      "A": "7.5",
+      "B": "7",
+      "C": "7.25",
+      "D": "29"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-460",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 7500 g to kilograms.",
+    "options": {
+      "A": "7.75",
+      "B": "7.25",
+      "C": "7.5",
+      "D": "30"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-461",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 7750 g to kilograms.",
+    "options": {
+      "A": "7.5",
+      "B": "8",
+      "C": "31",
+      "D": "7.75"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-462",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 8000 g to kilograms.",
+    "options": {
+      "A": "32",
+      "B": "8",
+      "C": "7.75",
+      "D": "8.25"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-463",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 8250 g to kilograms.",
+    "options": {
+      "A": "33",
+      "B": "8.5",
+      "C": "8",
+      "D": "8.25"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-464",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 8500 g to kilograms.",
+    "options": {
+      "A": "8.5",
+      "B": "8.75",
+      "C": "34",
+      "D": "8.25"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-465",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 8750 g to kilograms.",
+    "options": {
+      "A": "35",
+      "B": "8.5",
+      "C": "8.75",
+      "D": "9"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-466",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 9000 g to kilograms.",
+    "options": {
+      "A": "8.75",
+      "B": "9",
+      "C": "9.25",
+      "D": "36"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-467",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 9250 g to kilograms.",
+    "options": {
+      "A": "9.5",
+      "B": "37",
+      "C": "9",
+      "D": "9.25"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-468",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 9500 g to kilograms.",
+    "options": {
+      "A": "9.25",
+      "B": "9.75",
+      "C": "38",
+      "D": "9.5"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-469",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Convert 9750 g to kilograms.",
+    "options": {
+      "A": "9.75",
+      "B": "10",
+      "C": "39",
+      "D": "9.5"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-470",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 5, 7, 9 et 11?",
+    "options": {
+      "A": "7",
+      "B": "10",
+      "C": "9",
+      "D": "8"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-471",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 6, 8, 10 et 12?",
+    "options": {
+      "A": "9",
+      "B": "8",
+      "C": "10",
+      "D": "11"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-472",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 7, 9, 11 et 13?",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "9"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-473",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 8, 10, 12 et 14?",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "10"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-474",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 9, 11, 13 et 15?",
+    "options": {
+      "A": "13",
+      "B": "12",
+      "C": "14",
+      "D": "11"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-475",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 10, 12, 14 et 16?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "15",
+      "D": "14"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-476",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 11, 13, 15 et 17?",
+    "options": {
+      "A": "16",
+      "B": "14",
+      "C": "13",
+      "D": "15"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-477",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 12, 14, 16 et 18?",
+    "options": {
+      "A": "16",
+      "B": "15",
+      "C": "17",
+      "D": "14"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-478",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 13, 15, 17 et 19?",
+    "options": {
+      "A": "16",
+      "B": "15",
+      "C": "18",
+      "D": "17"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-479",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 14, 16, 18 et 20?",
+    "options": {
+      "A": "16",
+      "B": "18",
+      "C": "19",
+      "D": "17"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-480",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 15, 17, 19 et 21?",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "19",
+      "D": "20"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-481",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 16, 18, 20 et 22?",
+    "options": {
+      "A": "18",
+      "B": "21",
+      "C": "20",
+      "D": "19"
+    },
+    "answer": "D",
+    "id": "math-fr-medium-482",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 17, 19, 21 et 23?",
+    "options": {
+      "A": "20",
+      "B": "19",
+      "C": "22",
+      "D": "21"
+    },
+    "answer": "A",
+    "id": "math-fr-hard-483",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 18, 20, 22 et 24?",
+    "options": {
+      "A": "21",
+      "B": "23",
+      "C": "22",
+      "D": "20"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-484",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 19, 21, 23 et 25?",
+    "options": {
+      "A": "24",
+      "B": "21",
+      "C": "23",
+      "D": "22"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-485",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 20, 22, 24 et 26?",
+    "options": {
+      "A": "25",
+      "B": "23",
+      "C": "24",
+      "D": "22"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-486",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 21, 23, 25 et 27?",
+    "options": {
+      "A": "26",
+      "B": "23",
+      "C": "24",
+      "D": "25"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-487",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 22, 24, 26 et 28?",
+    "options": {
+      "A": "26",
+      "B": "25",
+      "C": "24",
+      "D": "27"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-488",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 23, 25, 27 et 29?",
+    "options": {
+      "A": "28",
+      "B": "26",
+      "C": "27",
+      "D": "25"
+    },
+    "answer": "B",
+    "id": "math-fr-hard-489",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 24, 26, 28 et 30?",
+    "options": {
+      "A": "28",
+      "B": "27",
+      "C": "26",
+      "D": "29"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-490",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 25, 27, 29 et 31?",
+    "options": {
+      "A": "30",
+      "B": "29",
+      "C": "27",
+      "D": "28"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-491",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 26, 28, 30 et 32?",
+    "options": {
+      "A": "31",
+      "B": "29",
+      "C": "30",
+      "D": "28"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-492",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 27, 29, 31 et 33?",
+    "options": {
+      "A": "32",
+      "B": "29",
+      "C": "31",
+      "D": "30"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-493",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 28, 30, 32 et 34?",
+    "options": {
+      "A": "31",
+      "B": "30",
+      "C": "33",
+      "D": "32"
+    },
+    "answer": "A",
+    "id": "math-fr-medium-494",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 29, 31, 33 et 35?",
+    "options": {
+      "A": "31",
+      "B": "33",
+      "C": "32",
+      "D": "34"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-495",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 30, 32, 34 et 36?",
+    "options": {
+      "A": "32",
+      "B": "33",
+      "C": "35",
+      "D": "34"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-496",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 31, 33, 35 et 37?",
+    "options": {
+      "A": "35",
+      "B": "36",
+      "C": "33",
+      "D": "34"
+    },
+    "answer": "D",
+    "id": "math-fr-hard-497",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 32, 34, 36 et 38?",
+    "options": {
+      "A": "34",
+      "B": "37",
+      "C": "35",
+      "D": "36"
+    },
+    "answer": "C",
+    "id": "math-fr-medium-498",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average of the numbers 33, 35, 37 et 39?",
+    "options": {
+      "A": "37",
+      "B": "35",
+      "C": "36",
+      "D": "38"
+    },
+    "answer": "C",
+    "id": "math-fr-hard-499",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average of the numbers 34, 36, 38 et 40?",
+    "options": {
+      "A": "39",
+      "B": "37",
+      "C": "36",
+      "D": "38"
+    },
+    "answer": "B",
+    "id": "math-fr-medium-500",
+    "difficulty": "medium"
+  }
+]
