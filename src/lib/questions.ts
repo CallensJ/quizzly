@@ -34,9 +34,11 @@ const LOCAL_JSON_MAP: Partial<Record<string, () => Promise<unknown>>> = {
   'fr/sciences': () => import('../data/questions/fr/sciences.json'),
   'fr/histoire': () => import('../data/questions/fr/histoire.json'),
   'fr/heroes':   () => import('../data/questions/fr/heroes.json'),
+  'fr/math':     () => import('../data/questions/fr/math.json'),
   'en/sciences': () => import('../data/questions/en/sciences.json'),
   'en/histoire': () => import('../data/questions/en/histoire.json'),
   'en/heroes':   () => import('../data/questions/en/heroes.json'),
+  'en/math':     () => import('../data/questions/en/math.json'),
 };
 
 async function loadLocalJSON(
@@ -207,7 +209,7 @@ export async function fetchQuestions(
 export async function prewarmQuestionsCache(): Promise<void> {
   if (typeof window === 'undefined' || !navigator.onLine) return;
 
-  const categories: Category[] = ['sciences', 'histoire', 'heroes'];
+  const categories: Category[] = ['sciences', 'histoire', 'heroes', 'math'];
   const locales: Locale[] = ['fr', 'en'];
 
   await Promise.allSettled(

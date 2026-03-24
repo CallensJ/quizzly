@@ -67,14 +67,17 @@ const withPWA = require('@ducanh2912/next-pwa').default({
     },
     {
       // Pages Next.js — NetworkFirst : on essaie le réseau, fallback cache
-      // Couvre les routes /fr/* et /en/* (next-intl)
-      urlPattern: /^\//,
+      // Couvre les routes /fr/* et /en/* (next-intl) ainsi que les payloads RSC
+      // ⚠️  Workbox teste la regex sur l'URL complète (ex: https://app.erudia.app/fr/home)
+      //     /^\// ne matchait pas — on cible les segments de locale à la place
+      urlPattern: /\/(fr|en)(\/|$)/,
       handler: 'NetworkFirst',
       options: {
         cacheName: 'pages',
         networkTimeoutSeconds: 10,
         expiration: {
-          maxEntries: 32,
+          // 128 entrées : pages HTML + payloads RSC (navigation client Next.js)
+          maxEntries: 128,
           // 24h — les pages peuvent se mettre à jour
           maxAgeSeconds: 24 * 60 * 60,
         },
