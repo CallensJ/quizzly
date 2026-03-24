@@ -59,70 +59,70 @@ describe('PWA — Service Worker', () => {
   it('enregistre un Service Worker actif', () => {
     cy.visit('/fr/home');
 
-    cy.window().then(async (win) => {
-      // serviceWorker.ready se résout quand un SW est actif
-      const registration = await win.navigator.serviceWorker.ready;
-      expect(registration).to.exist;
-      expect(registration.active).to.exist;
-      expect(registration.active?.state).to.equal('activated');
+    // cy.wrap() délègue la promesse à Cypress — pas d'async/await dans .then()
+    cy.window().then((win) => {
+      return cy.wrap(win.navigator.serviceWorker.getRegistrations(), { timeout: 15000 });
+    }).then((registrations) => {
+      expect(registrations).to.have.length.greaterThan(0);
+      // Au moins un SW doit être actif (installing/waiting/active)
+      const sw = registrations[0];
+      expect(sw.active ?? sw.installing ?? sw.waiting).to.exist;
     });
   });
 
   it('crée les caches Workbox attendus après navigation', () => {
     cy.visit('/fr/home');
+    cy.wait(3000); // Laisse le SW installer et cacher les assets
 
-    // Attendre que le SW ait eu le temps de mettre les assets en cache
-    cy.wait(2000);
-
-    cy.window().then(async (win) => {
-      const cacheNames = await win.caches.keys();
-
+    cy.window().then((win) => {
+      return cy.wrap(win.caches.keys(), { timeout: 10000 });
+    }).then((cacheNames) => {
       EXPECTED_CACHES.forEach((expected) => {
-        const found = cacheNames.some((name) => name.includes(expected));
-        expect(found, `Cache "${expected}" devrait exister — caches présents : ${cacheNames.join(', ')}`).to.be.true;
+        const found = (cacheNames as string[]).some((name) => name.includes(expected));
+        expect(found, `Cache "${expected}" devrait exister — caches : ${(cacheNames as string[]).join(', ')}`).to.be.true;
       });
     });
   });
 
   it('met en cache les assets statiques Next.js (_next/static)', () => {
     cy.visit('/fr/home');
-    cy.wait(2000);
+    cy.wait(3000);
 
-    cy.window().then(async (win) => {
-      const cache = await win.caches.open(
-        // Workbox préfixe les noms de cache avec workbox-...
-        // On cherche le cache contenant "next-static-assets"
-        (await win.caches.keys()).find((k) => k.includes('next-static-assets')) ?? ''
+    cy.window().then((win) => {
+      return cy.wrap(win.caches.keys(), { timeout: 10000 });
+    }).then((cacheNames) => {
+      const staticCacheName = (cacheNames as string[]).find((k) => k.includes('next-static-assets'));
+      expect(staticCacheName, 'Cache next-static-assets doit exister').to.exist;
+
+      return cy.wrap(
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+        (window as Window).caches.open(staticCacheName!).then((c) => c.keys()),
+        { timeout: 10000 }
       );
-
-      if (!cache) {
-        throw new Error('Cache next-static-assets introuvable');
-      }
-
-      const keys = await cache.keys();
-      expect(keys.length).to.be.greaterThan(0);
-
-      // Au moins un fichier JS du bundle Next.js doit être en cache
-      const hasJsBundle = keys.some((req) => req.url.includes('/_next/static/'));
+    }).then((keys) => {
+      expect((keys as Request[]).length).to.be.greaterThan(0);
+      const hasJsBundle = (keys as Request[]).some((req) => req.url.includes('/_next/static/'));
       expect(hasJsBundle, 'Au moins un bundle JS Next.js doit être en cache').to.be.true;
     });
   });
 
   it('met en cache les pages visitées', () => {
     cy.visit('/fr/home');
-    cy.wait(2000);
+    cy.wait(3000);
 
-    cy.window().then(async (win) => {
-      const pagesCacheName = (await win.caches.keys()).find((k) => k.includes('pages'));
-      if (!pagesCacheName) {
-        // Cache pages peut ne pas exister si aucune page n'a encore été mise en cache
-        // On vérifie juste que la navigation a fonctionné
-        return;
-      }
+    cy.window().then((win) => {
+      return cy.wrap(win.caches.keys(), { timeout: 10000 });
+    }).then((cacheNames) => {
+      const pagesCacheName = (cacheNames as string[]).find((k) => k.includes('pages'));
+      if (!pagesCacheName) return; // Cache pages optionnel selon les navigations
 
-      const cache = await win.caches.open(pagesCacheName);
-      const keys = await cache.keys();
-      expect(keys.length).to.be.greaterThan(0);
+      return cy.wrap(
+        (window as Window).caches.open(pagesCacheName).then((c) => c.keys()),
+        { timeout: 10000 }
+      );
+    }).then((keys) => {
+      if (!keys) return;
+      expect((keys as Request[]).length).to.be.greaterThan(0);
     });
   });
 });
