@@ -1,4 +1,18 @@
 // src/stores/profileStore.ts
+//
+// Store Zustand principal — gestion des profils enfants (multi-profils MVP 4)
+// et des préférences parent.
+//
+// Architecture multi-profils :
+//   - `profiles` : liste de tous les profils enfants du device
+//   - `activeProfileId` : ID du profil actuellement en jeu
+//   - `inactiveData` : données persistées des profils non-actifs (sessions, badges, daily)
+//   - Les champs plats (profile, sessions, earnedBadgeIds, daily*) représentent
+//     TOUJOURS le profil actif — les composants existants ne changent pas.
+//
+// Migration transparente : si des données v1 (profil sans `id`) sont détectées,
+// elles sont migrées vers v2 via la fonction `migrate` de Zustand persist.
+
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { Profile, QuizSession, Locale } from '@/types';
@@ -32,62 +46,71 @@ export interface DailyResult {
   newBadgeIds: string[];
 }
 
+// Données persistées pour un profil non-actif
+interface InactiveProfileData {
+  sessions: QuizSession[];
+  earnedBadgeIds: string[];
+  dailyStreak: number;
+  dailyLastDate: string | null;
+  dailyXp: number;
+  dailyShields: number;
+  dailyTodayScore: number | null;
+}
+
 interface ProfileState {
+  // ── Multi-profils (MVP 4) ────────────────────────────────────────────────
+  profiles: Profile[];                              // liste de tous les profils enfants
+  activeProfileId: string | null;                   // profil actif
+  inactiveData: Record<string, InactiveProfileData>; // données des profils non-actifs
+
+  // ── Profil actif (identique à v1 — les composants n'ont pas à changer) ──
   profile: Profile | null;
   sessions: QuizSession[];
-  // Identifiant unique du device — généré à l'onboarding, utilisé pour la sync Supabase sans auth
+
+  // Identifiant unique du device — généré à la création du premier profil
   deviceId: string | null;
-  // Préférences persistées séparément du profil — indépendantes des données joueur
+
+  // ── Préférences device (indépendantes du profil actif) ──────────────────
   timerEnabled: boolean;
   soundEnabled: boolean;
-  // Mode Admin — accès parent/enseignant protégé par PIN
-  adminPin: string | null;       // null = pas encore défini
-  adminEmail: string | null;     // email adulte pour notifications futures (MVP 3)
-  dailyGoal: number | null;      // objectif journalier (bonnes réponses), null = désactivé
 
-  // ── Mode multijoueur — accès conditionné à l'autorisation parent (MVP 4) ──
-  // Débloqué une fois via le mode admin (PIN). False par défaut.
+  // ── Mode Admin — accès parent/enseignant ─────────────────────────────────
+  adminPin: string | null;
+  adminEmail: string | null;
+  dailyGoal: number | null;
   multiplayerUnlocked: boolean;
-
-  // ── Rapports de progression PDF (MVP 4) ────────────────────────────────────
-  // Fréquence d'envoi automatique — 'none' par défaut (désactivé).
-  // Synced vers admin_settings.report_schedule pour le cron Supabase.
   reportSchedule: ReportSchedule;
 
-  // ── Système de badges étendu (MVP 4) ─────────────────────────────────────
-  // Source de vérité : liste des IDs de badges obtenus (persistée)
+  // ── Système de badges (profil actif) ────────────────────────────────────
   earnedBadgeIds: string[];
-  // Badges gagnés lors de la dernière session uniquement (non persisté — reset au rechargement)
-  newBadgesThisSession: string[];
+  newBadgesThisSession: string[]; // non persisté — reset au rechargement
 
-  // ── Mode Défi Quotidien (MVP 4) ────────────────────────────────────────────
-  // Tout persisté en localStorage — pas de table Supabase nécessaire.
-  dailyStreak: number;           // jours consécutifs complétés
-  dailyLastDate: string | null;  // YYYY-MM-DD de la dernière complétion
-  dailyXp: number;               // XP total accumulé (système de titres)
-  dailyShields: number;          // boucliers disponibles (max 2, protège le streak)
-  dailyTodayScore: number | null; // score du jour (null = pas encore joué)
+  // ── Mode Défi Quotidien (profil actif) ──────────────────────────────────
+  dailyStreak: number;
+  dailyLastDate: string | null;
+  dailyXp: number;
+  dailyShields: number;
+  dailyTodayScore: number | null;
 
-  // ── Sync bidirectionnelle (MVP 2) ─────────────────────────────────────────
-  // Date de la dernière notification "objectif non atteint" — YYYY-MM-DD
+  // ── Sync bidirectionnelle ────────────────────────────────────────────────
   lastGoalNotifDate: string | null;
 
+  // ── Actions multi-profils ────────────────────────────────────────────────
+  /** Crée un nouveau profil enfant et l'active */
+  addChildProfile: (data: Omit<Profile, 'createdAt' | 'id'>) => void;
+  /** Bascule vers un autre profil enfant */
+  switchProfile: (id: string) => void;
+  /** Supprime un profil enfant (actif ou non) */
+  removeChildProfile: (id: string) => void;
+
+  // ── Actions existantes (opèrent sur le profil actif) ────────────────────
   setMultiplayerUnlocked: (enabled: boolean) => void;
   setReportSchedule: (schedule: ReportSchedule) => void;
   setLastGoalNotifDate: (date: string) => void;
-  /**
-   * Fusionne les données Supabase dans le store local (sync bidirectionnelle).
-   * - Sessions : union par playedAt (déduplique, conserve les locales inconnues de Supabase)
-   * - earnedBadgeIds : union (add-only, local-first)
-   */
   mergeFromRemote: (remoteSessions: QuizSession[], remoteEarnedBadgeIds: string[]) => void;
-  /**
-   * Enregistre la complétion du défi quotidien.
-   * Met à jour le streak (avec gestion du shield si 1 jour manqué),
-   * ajoute les XP, vérifie les badges streak, retourne le résultat pour l'affichage.
-   */
   completeDailyChallenge: (score: number, total: number) => DailyResult;
-  createProfile: (data: Omit<Profile, 'createdAt'>) => void;
+  /** @deprecated Utiliser addChildProfile — conservé pour rétro-compat OnboardingScreen */
+  createProfile: (data: Omit<Profile, 'createdAt' | 'id'>) => void;
   setLocale: (locale: Locale) => void;
   updateAvatar: (avatarId: string, avatarStyle?: string) => void;
   setTimerEnabled: (enabled: boolean) => void;
@@ -96,81 +119,208 @@ interface ProfileState {
   setAdminEmail: (email: string | null) => void;
   setDailyGoal: (goal: number | null) => void;
   addSession: (session: Omit<QuizSession, 'playedAt'>) => void;
-  // Remplace earnBadge() — accepte plusieurs IDs, met à jour earned + newBadgesThisSession
   awardBadges: (ids: string[]) => void;
-  // Vide les badges de la session courante (appelé au reset)
   clearNewBadges: () => void;
-  earnBadge: () => void; // conservé pour rétro-compat Supabase sync — délègue à awardBadges
+  earnBadge: () => void;
   resetProgress: () => void;
   deleteProfile: () => void;
 }
 
+// ── Helpers internes ─────────────────────────────────────────────────────────
+
+/** Extrait les données per-profil de l'état plat courant */
+function extractActiveData(state: ProfileState): InactiveProfileData {
+  return {
+    sessions: state.sessions,
+    earnedBadgeIds: state.earnedBadgeIds,
+    dailyStreak: state.dailyStreak,
+    dailyLastDate: state.dailyLastDate,
+    dailyXp: state.dailyXp,
+    dailyShields: state.dailyShields,
+    dailyTodayScore: state.dailyTodayScore,
+  };
+}
+
+/** Données vides pour un nouveau profil */
+const EMPTY_PROFILE_DATA: InactiveProfileData = {
+  sessions: [],
+  earnedBadgeIds: [],
+  dailyStreak: 0,
+  dailyLastDate: null,
+  dailyXp: 0,
+  dailyShields: 0,
+  dailyTodayScore: null,
+};
+
 export const useProfileStore = create<ProfileState>()(
   persist(
     (set, get) => ({
+      // ── État initial ───────────────────────────────────────────────────
+      profiles: [],
+      activeProfileId: null,
+      inactiveData: {},
       profile: null,
       sessions: [],
       deviceId: null,
-      timerEnabled: true, // activé par défaut — l'utilisateur découvre le timer dès la première partie
+      timerEnabled: true,
+      soundEnabled: true,
       multiplayerUnlocked: false,
       reportSchedule: 'none',
-      soundEnabled: true, // activé par défaut — les enfants apprécient le feedback sonore
       adminPin: null,
       adminEmail: null,
       dailyGoal: null,
       earnedBadgeIds: [],
-      // newBadgesThisSession n'est pas persisté (exclu via partialize ci-dessous)
       newBadgesThisSession: [],
-      // Sync bidirectionnelle — date de la dernière notification objectif
       lastGoalNotifDate: null,
-      // Daily challenge — état initial
       dailyStreak: 0,
       dailyLastDate: null,
       dailyXp: 0,
       dailyShields: 0,
       dailyTodayScore: null,
 
-      createProfile: (data) =>
+      // ── Multi-profils ──────────────────────────────────────────────────
+
+      addChildProfile: (data) => {
+        const state = get();
+        const id = generateUUID();
+        const newProfile: Profile = {
+          ...data,
+          id,
+          createdAt: new Date().toISOString(),
+        };
+
+        // Sauvegarde les données du profil actif avant de basculer
+        const inactiveData = { ...state.inactiveData };
+        if (state.activeProfileId) {
+          inactiveData[state.activeProfileId] = extractActiveData(state);
+        }
+
         set({
-          // Génère un deviceId unique à la création du profil (UUID v4, avec fallback mobile)
-          deviceId: generateUUID(),
-          profile: {
-            ...data,
-            createdAt: new Date().toISOString(),
-          },
-        }),
+          // deviceId ne change pas — il est propre au device, pas au profil
+          deviceId: state.deviceId ?? generateUUID(),
+          profiles: [...state.profiles, newProfile],
+          activeProfileId: id,
+          inactiveData,
+          profile: newProfile,
+          // Données vierges pour le nouveau profil
+          ...EMPTY_PROFILE_DATA,
+          newBadgesThisSession: [],
+        });
+      },
+
+      switchProfile: (id) => {
+        const state = get();
+        if (id === state.activeProfileId) return;
+
+        const targetProfile = state.profiles.find((p) => p.id === id);
+        if (!targetProfile) return;
+
+        // Sauvegarde profil actif
+        const inactiveData = { ...state.inactiveData };
+        if (state.activeProfileId) {
+          inactiveData[state.activeProfileId] = extractActiveData(state);
+        }
+
+        // Charge les données du profil cible
+        const targetData = inactiveData[id] ?? { ...EMPTY_PROFILE_DATA };
+        delete inactiveData[id]; // il devient actif
+
+        set({
+          profile: targetProfile,
+          activeProfileId: id,
+          inactiveData,
+          ...targetData,
+          newBadgesThisSession: [],
+        });
+      },
+
+      removeChildProfile: (id) => {
+        const state = get();
+        const remaining = state.profiles.filter((p) => p.id !== id);
+        const inactiveData = { ...state.inactiveData };
+        delete inactiveData[id];
+
+        if (id === state.activeProfileId) {
+          if (remaining.length > 0) {
+            // Bascule sur le premier profil restant
+            const next = remaining[0];
+            const nextData = inactiveData[next.id] ?? { ...EMPTY_PROFILE_DATA };
+            delete inactiveData[next.id];
+            set({
+              profiles: remaining,
+              activeProfileId: next.id,
+              inactiveData,
+              profile: next,
+              ...nextData,
+              newBadgesThisSession: [],
+            });
+          } else {
+            // Dernier profil supprimé → retour à l'état vierge
+            set({
+              profiles: [],
+              activeProfileId: null,
+              inactiveData: {},
+              profile: null,
+              ...EMPTY_PROFILE_DATA,
+              newBadgesThisSession: [],
+            });
+          }
+        } else {
+          set({ profiles: remaining, inactiveData });
+        }
+      },
+
+      // ── createProfile — rétro-compat OnboardingScreen ─────────────────
+      // Délègue à addChildProfile (même logique)
+      createProfile: (data) => {
+        get().addChildProfile(data);
+      },
+
+      // ── Actions profil actif ──────────────────────────────────────────
 
       setLocale: (locale) =>
-        set((state) => ({
-          profile: state.profile ? { ...state.profile, locale } : null,
-        })),
+        set((state) => {
+          const updatedProfile = state.profile ? { ...state.profile, locale } : null;
+          return {
+            profile: updatedProfile,
+            profiles: updatedProfile
+              ? state.profiles.map((p) => (p.id === state.activeProfileId ? updatedProfile : p))
+              : state.profiles,
+          };
+        }),
 
       updateAvatar: (avatarId, avatarStyle) =>
-        set((state) => ({
-          profile: state.profile
+        set((state) => {
+          const updatedProfile = state.profile
             ? { ...state.profile, avatarId, ...(avatarStyle !== undefined ? { avatarStyle } : {}) }
-            : null,
-        })),
+            : null;
+          return {
+            profile: updatedProfile,
+            profiles: updatedProfile
+              ? state.profiles.map((p) => (p.id === state.activeProfileId ? updatedProfile : p))
+              : state.profiles,
+          };
+        }),
 
       setMultiplayerUnlocked: (enabled) => set({ multiplayerUnlocked: enabled }),
-
       setReportSchedule: (schedule) => set({ reportSchedule: schedule }),
-
       setLastGoalNotifDate: (date) => set({ lastGoalNotifDate: date }),
 
       mergeFromRemote: (remoteSessions, remoteEarnedBadgeIds) =>
         set((state) => {
-          // Déduplique les sessions par playedAt — les locales non connues de Supabase sont conservées
           const existingDates = new Set(state.sessions.map((s) => s.playedAt));
           const newSessions = remoteSessions.filter((s) => !existingDates.has(s.playedAt));
-          // Union badgeIds — add-only, local-first
           const mergedBadgeIds = [...new Set([...state.earnedBadgeIds, ...remoteEarnedBadgeIds])];
+          const updatedProfile = state.profile && mergedBadgeIds.length > 0
+            ? { ...state.profile, badgeEarned: true }
+            : state.profile;
           return {
             sessions: [...state.sessions, ...newSessions],
             earnedBadgeIds: mergedBadgeIds,
-            profile: state.profile && mergedBadgeIds.length > 0
-              ? { ...state.profile, badgeEarned: true }
-              : state.profile,
+            profile: updatedProfile,
+            profiles: updatedProfile
+              ? state.profiles.map((p) => (p.id === state.activeProfileId ? updatedProfile! : p))
+              : state.profiles,
           };
         }),
 
@@ -179,8 +329,6 @@ export const useProfileStore = create<ProfileState>()(
         const today = getDailyDateString();
         const last  = state.dailyLastDate;
 
-        // Calcul du nouveau streak ─────────────────────────────────────────────
-        // On détermine le nombre de jours depuis la dernière complétion
         let daysSinceLast = Infinity;
         if (last) {
           const msPerDay = 86_400_000;
@@ -193,22 +341,17 @@ export const useProfileStore = create<ProfileState>()(
         let shieldUsed = false;
 
         if (daysSinceLast === 1) {
-          // Jour consécutif — streak + 1
           newStreak = state.dailyStreak + 1;
         } else if (daysSinceLast === 2 && state.dailyShields > 0) {
-          // 1 jour manqué + bouclier disponible → streak préservé
           newStreak = state.dailyStreak + 1;
           shieldUsed = true;
         } else if (daysSinceLast === Infinity || daysSinceLast > (state.dailyShields > 0 ? 2 : 1)) {
-          // Streak cassé (ou premier défi)
           newStreak = 1;
         }
 
-        // Calcul XP ────────────────────────────────────────────────────────────
         const xpGained = calculateDailyXp(newStreak, score, total);
         const newXp = state.dailyXp + xpGained;
 
-        // Shield earned : un bouclier gagné quand le streak atteint un multiple de 7
         const shieldEarned =
           newStreak > 0 &&
           newStreak % SHIELD_EVERY_N_DAYS === 0 &&
@@ -220,7 +363,6 @@ export const useProfileStore = create<ProfileState>()(
           MAX_SHIELDS
         );
 
-        // Badges streak ────────────────────────────────────────────────────────
         const newBadgeIds: string[] = [];
         const streakBadges = [
           { id: 'streak_3',  threshold: 3  },
@@ -241,7 +383,6 @@ export const useProfileStore = create<ProfileState>()(
           dailyXp: newXp,
           dailyShields: newShields,
           dailyTodayScore: score,
-          // Award badges via earnedBadgeIds directement (badges daily, path séparé)
           earnedBadgeIds: [...new Set([...state.earnedBadgeIds, ...newBadgeIds])],
           newBadgesThisSession: newBadgeIds.length > 0 ? newBadgeIds : state.newBadgesThisSession,
         });
@@ -250,13 +391,9 @@ export const useProfileStore = create<ProfileState>()(
       },
 
       setTimerEnabled: (enabled) => set({ timerEnabled: enabled }),
-
       setSoundEnabled: (enabled) => set({ soundEnabled: enabled }),
-
       setAdminPin: (pin) => set({ adminPin: pin }),
-
       setAdminEmail: (email) => set({ adminEmail: email }),
-
       setDailyGoal: (goal) => set({ dailyGoal: goal }),
 
       addSession: (session) =>
@@ -268,59 +405,96 @@ export const useProfileStore = create<ProfileState>()(
         })),
 
       awardBadges: (ids) =>
-        set((state) => ({
-          // Ajoute uniquement les IDs non déjà présents (idempotent)
-          earnedBadgeIds: [...new Set([...state.earnedBadgeIds, ...ids])],
-          newBadgesThisSession: ids,
-          // Rétro-compat : marque badgeEarned si premier badge reçu
-          profile: state.profile && ids.length > 0
+        set((state) => {
+          const updatedProfile = state.profile && ids.length > 0
             ? { ...state.profile, badgeEarned: true }
-            : state.profile,
-        })),
+            : state.profile;
+          return {
+            earnedBadgeIds: [...new Set([...state.earnedBadgeIds, ...ids])],
+            newBadgesThisSession: ids,
+            profile: updatedProfile,
+            profiles: updatedProfile
+              ? state.profiles.map((p) => (p.id === state.activeProfileId ? updatedProfile! : p))
+              : state.profiles,
+          };
+        }),
 
       clearNewBadges: () => set({ newBadgesThisSession: [] }),
 
-      // Rétro-compat — assure que 'first_game' est toujours dans earnedBadgeIds
       earnBadge: () =>
-        set((state) => ({
-          earnedBadgeIds: state.earnedBadgeIds.includes('first_game')
-            ? state.earnedBadgeIds
-            : [...state.earnedBadgeIds, 'first_game'],
-          profile: state.profile ? { ...state.profile, badgeEarned: true } : null,
-        })),
+        set((state) => {
+          const updatedProfile = state.profile ? { ...state.profile, badgeEarned: true } : null;
+          return {
+            earnedBadgeIds: state.earnedBadgeIds.includes('first_game')
+              ? state.earnedBadgeIds
+              : [...state.earnedBadgeIds, 'first_game'],
+            profile: updatedProfile,
+            profiles: updatedProfile
+              ? state.profiles.map((p) => (p.id === state.activeProfileId ? updatedProfile! : p))
+              : state.profiles,
+          };
+        }),
 
       resetProgress: () =>
-        set((state) => ({
-          sessions: [],
-          earnedBadgeIds: [],
-          newBadgesThisSession: [],
-          dailyStreak: 0,
-          dailyLastDate: null,
-          dailyXp: 0,
-          dailyShields: 0,
-          dailyTodayScore: null,
-          profile: state.profile
+        set((state) => {
+          const updatedProfile = state.profile
             ? { ...state.profile, badgeEarned: false }
-            : null,
-        })),
-
-      deleteProfile: () =>
-        set({
-          profile: null,
-          sessions: [],
-          earnedBadgeIds: [],
-          newBadgesThisSession: [],
-          dailyStreak: 0,
-          dailyLastDate: null,
-          dailyXp: 0,
-          dailyShields: 0,
-          dailyTodayScore: null,
+            : null;
+          return {
+            sessions: [],
+            earnedBadgeIds: [],
+            newBadgesThisSession: [],
+            dailyStreak: 0,
+            dailyLastDate: null,
+            dailyXp: 0,
+            dailyShields: 0,
+            dailyTodayScore: null,
+            profile: updatedProfile,
+            profiles: updatedProfile
+              ? state.profiles.map((p) => (p.id === state.activeProfileId ? updatedProfile! : p))
+              : state.profiles,
+          };
         }),
+
+      deleteProfile: () => {
+        // Supprime le profil actif via removeChildProfile
+        const { activeProfileId, removeChildProfile } = get();
+        if (activeProfileId) {
+          removeChildProfile(activeProfileId);
+        }
+      },
     }),
     {
       name: 'erudia-profile',
-      // newBadgesThisSession est volontairement exclu — sa valeur ne doit pas
-      // survivre à un rechargement de page (état de session uniquement)
+      version: 2,
+      // Migration v1 → v2 : profil sans `id` ni `profiles[]`
+      migrate: (persistedState: unknown, version: number) => {
+        if (version < 2) {
+          const old = persistedState as Record<string, unknown>;
+          const oldProfile = old.profile as (Profile & { id?: string }) | null;
+          if (oldProfile && !oldProfile.id) {
+            const profileWithId: Profile = { ...oldProfile, id: generateUUID() };
+            return {
+              ...old,
+              profile: profileWithId,
+              profiles: [profileWithId],
+              activeProfileId: profileWithId.id,
+              inactiveData: {},
+            };
+          }
+          // Profil avec id mais sans profiles[] (migration partielle)
+          if (oldProfile && oldProfile.id && !Array.isArray(old.profiles)) {
+            return {
+              ...old,
+              profiles: [oldProfile],
+              activeProfileId: oldProfile.id,
+              inactiveData: {},
+            };
+          }
+        }
+        return persistedState;
+      },
+      // newBadgesThisSession est exclu — état de session non persisté
       partialize: (state) => {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { newBadgesThisSession, ...rest } = state;

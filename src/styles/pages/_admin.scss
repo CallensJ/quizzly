@@ -872,6 +872,112 @@
     }
   }
 
+  // ── Section profils enfants ────────────────────────────────────────────────
+
+  &__profiles-list {
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-sm;
+    margin-bottom: v.$spacing-md;
+  }
+
+  &__profile-item {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    padding: v.$spacing-sm v.$spacing-md;
+    background: v.$bg;
+    border-radius: v.$radius-md;
+  }
+
+  &__profile-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  &__profile-pseudo {
+    flex: 1;
+    font-weight: 700;
+    font-size: v.$font-size-base;
+    color: v.$foreground;
+  }
+
+  &__profile-active {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    background: v.$secondary;
+    color: v.$white;
+    padding: 2px 8px;
+    border-radius: v.$radius-full;
+    flex-shrink: 0;
+  }
+
+  &__profile-actions {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-xs;
+    flex-shrink: 0;
+  }
+
+  &__profile-switch {
+    padding: 4px 12px;
+    background: v.$primary;
+    color: v.$white;
+    border: none;
+    border-radius: v.$radius-full;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    cursor: pointer;
+    transition: opacity v.$transition-fast;
+
+    &:hover { opacity: 0.85; }
+  }
+
+  &__profile-delete {
+    width: 30px;
+    height: 30px;
+    background: rgba(v.$hard, 0.1);
+    border: none;
+    border-radius: 50%;
+    color: v.$hard;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background v.$transition-fast;
+
+    &:hover { background: rgba(v.$hard, 0.2); }
+  }
+
+  &__profiles-add-btn {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    padding: v.$spacing-sm v.$spacing-md;
+    background: transparent;
+    border: 2px dashed #e5e7eb;
+    border-radius: v.$radius-md;
+    color: v.$text-muted;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    cursor: pointer;
+    width: 100%;
+    justify-content: center;
+    transition: border-color v.$transition-fast, color v.$transition-fast;
+
+    &:hover {
+      border-color: v.$primary;
+      color: v.$primary;
+    }
+  }
+
   // ── Animations ─────────────────────────────────────────────────────────────
 
   @keyframes pin-overlay-in {

@@ -419,5 +419,23 @@
     "resultStreak": "{count} day(s) in a row",
     "shieldUsed": "Shield used — streak preserved!",
     "shieldEarned": "New shield earned!"
+  },
+  "profiles": {
+    "title": "Who's playing?",
+    "subtitle": "Choose your profile to start",
+    "selectAriaLabel": "Play as {pseudo}",
+    "activeBadge": "Active",
+    "addAriaLabel": "Add a child",
+    "addLabel": "Add a child",
+    "addFormTitle": "New profile",
+    "pseudoLabel": "Nickname",
+    "pseudoPlaceholder": "SuperStar123",
+    "avatarLabel": "Choose an avatar",
+    "cancelLabel": "Cancel",
+    "cancelAriaLabel": "Close form",
+    "addConfirmLabel": "Create profile",
+    "deleteAriaLabel": "Delete {pseudo}",
+    "deleteConfirmMsg": "Delete {pseudo}'s profile? All progress will be lost.",
+    "deleteConfirmLabel": "Delete"
   }
 }

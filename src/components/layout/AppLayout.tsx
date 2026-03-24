@@ -16,7 +16,7 @@
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
-import { Star, Trophy, Gamepad2, Swords, Sun, Flame } from 'lucide-react';
+import { Star, Trophy, Gamepad2, Swords, Sun, Flame, Users } from 'lucide-react';
 import { buildAvatarUrl } from '@/lib/avatars';
 import { getDailyDateString, getTitleForXp } from '@/lib/daily';
 import type { AvatarStyle } from '@/lib/avatars';
@@ -30,6 +30,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
   const router = useRouter();
   const profile              = useProfileStore((s) => s.profile);
   const sessions             = useProfileStore((s) => s.sessions);
+  const profiles             = useProfileStore((s) => s.profiles);
   const multiplayerUnlocked  = useProfileStore((s) => s.multiplayerUnlocked);
   const dailyStreak          = useProfileStore((s) => s.dailyStreak);
   const dailyXp              = useProfileStore((s) => s.dailyXp);
@@ -115,6 +116,18 @@ export default function AppLayout({ children }: AppLayoutProps) {
           >
             <Swords size={16} aria-hidden="true" />
             <span>Défis</span>
+          </button>
+        )}
+
+        {/* Changer d'enfant — visible uniquement si plusieurs profils */}
+        {profiles.length > 1 && (
+          <button
+            className="app-layout__switch-btn"
+            onClick={() => router.push('/profiles')}
+            aria-label="Changer d'enfant"
+          >
+            <Users size={16} aria-hidden="true" />
+            <span>Changer d&apos;enfant</span>
           </button>
         )}
 

@@ -1,0 +1,374 @@
+// src/styles/pages/_profiles.scss
+//
+// Écran de sélection des profils enfants (multi-profils MVP 4).
+// Grille de cartes profil + mini-formulaire ajout + modale suppression.
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.profiles {
+  min-height: 100dvh;
+  background: linear-gradient(135deg, v.$primary 0%, v.$primary-dark 100%);
+  display: flex;
+  flex-direction: column;
+  padding: v.$spacing-xl v.$spacing-md;
+
+  // ── Header ─────────────────────────────────────────────────────────────
+  &__header {
+    text-align: center;
+    margin-bottom: v.$spacing-xl;
+    color: v.$white;
+  }
+
+  &__title {
+    font-size: v.$font-size-2xl;
+    font-weight: 800;
+    margin-bottom: v.$spacing-xs;
+  }
+
+  &__subtitle {
+    font-size: v.$font-size-base;
+    opacity: 0.85;
+  }
+
+  // ── Body ───────────────────────────────────────────────────────────────
+  &__body {
+    flex: 1;
+    position: relative;
+  }
+
+  // ── Grille des profils ─────────────────────────────────────────────────
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: v.$spacing-md;
+    max-width: 600px;
+    margin: 0 auto;
+
+    @include m.respond-to('md') {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  // ── Carte profil ───────────────────────────────────────────────────────
+  &__card {
+    width: 100%;
+    background: rgba(v.$white, 0.15);
+    border: 2px solid rgba(v.$white, 0.3);
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-md v.$spacing-sm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: v.$spacing-sm;
+    cursor: pointer;
+    transition: transform v.$transition-base, background v.$transition-base, border-color v.$transition-base;
+    color: v.$white;
+    font-family: v.$font-primary;
+    min-height: v.$touch-target-lg * 2;
+
+    &:hover {
+      background: rgba(v.$white, 0.25);
+      transform: translateY(-3px);
+    }
+
+    &--active {
+      border-color: v.$accent;
+      background: rgba(v.$white, 0.25);
+    }
+  }
+
+  &__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(v.$white, 0.2);
+  }
+
+  &__pseudo {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    text-align: center;
+    word-break: break-word;
+  }
+
+  &__active-badge {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    background: v.$accent;
+    color: v.$foreground;
+    padding: 2px 8px;
+    border-radius: v.$radius-full;
+  }
+
+  // ── Bouton supprimer ───────────────────────────────────────────────────
+  &__delete-btn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 28px;
+    height: 28px;
+    background: rgba(v.$hard, 0.85);
+    border: none;
+    border-radius: 50%;
+    color: v.$white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background v.$transition-fast;
+
+    &:hover {
+      background: v.$hard;
+    }
+  }
+
+  // ── Carte "Ajouter un enfant" ──────────────────────────────────────────
+  &__add-card {
+    width: 100%;
+    min-height: v.$touch-target-lg * 2;
+    background: rgba(v.$white, 0.1);
+    border: 2px dashed rgba(v.$white, 0.5);
+    border-radius: v.$radius-lg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: v.$spacing-sm;
+    color: rgba(v.$white, 0.85);
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    cursor: pointer;
+    transition: background v.$transition-base, border-color v.$transition-base;
+
+    &:hover {
+      background: rgba(v.$white, 0.2);
+      border-color: rgba(v.$white, 0.8);
+    }
+  }
+
+  // ── Formulaire ajout de profil ─────────────────────────────────────────
+  &__add-form {
+    position: fixed;
+    inset: 0;
+    background: rgba(v.$foreground, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    padding: v.$spacing-md;
+  }
+
+  &__add-form-inner {
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-xl;
+    width: 100%;
+    max-width: 480px;
+    max-height: 90dvh;
+    overflow-y: auto;
+  }
+
+  &__add-form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: v.$spacing-lg;
+  }
+
+  &__add-form-title {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$foreground;
+  }
+
+  &__add-form-close {
+    width: 36px;
+    height: 36px;
+    background: v.$bg;
+    border: none;
+    border-radius: 50%;
+    color: v.$text-muted;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      background: darken(v.$bg, 5%);
+    }
+  }
+
+  &__add-label {
+    display: block;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$foreground;
+    margin-bottom: v.$spacing-sm;
+    margin-top: v.$spacing-md;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  &__add-input {
+    width: 100%;
+    padding: 0.75rem v.$spacing-md;
+    border: 2px solid #e5e7eb;
+    border-radius: v.$radius-md;
+    font-size: v.$font-size-lg;
+    font-family: v.$font-primary;
+    color: v.$foreground;
+    outline: none;
+    transition: border-color v.$transition-fast;
+
+    &:focus {
+      border-color: v.$primary;
+    }
+  }
+
+  &__add-avatars {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: v.$spacing-sm;
+    margin-top: v.$spacing-sm;
+  }
+
+  &__add-avatar {
+    aspect-ratio: 1;
+    background: v.$bg;
+    border: 2px solid transparent;
+    border-radius: v.$radius-md;
+    padding: 4px;
+    cursor: pointer;
+    transition: border-color v.$transition-fast, background v.$transition-fast;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    &--active {
+      border-color: v.$primary;
+      background: rgba(v.$primary, 0.08);
+    }
+
+    &:hover:not(&--active) {
+      border-color: rgba(v.$primary, 0.4);
+    }
+  }
+
+  &__add-actions {
+    display: flex;
+    gap: v.$spacing-sm;
+    margin-top: v.$spacing-xl;
+  }
+
+  &__add-cancel {
+    flex: 1;
+    padding: 0.75rem;
+    background: v.$bg;
+    border: none;
+    border-radius: v.$radius-md;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    color: v.$text-muted;
+    cursor: pointer;
+
+    &:hover {
+      background: darken(v.$bg, 4%);
+    }
+  }
+
+  &__add-confirm {
+    flex: 2;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    border: none;
+    border-radius: v.$radius-md;
+    font-size: v.$font-size-base;
+    font-weight: 800;
+    font-family: v.$font-primary;
+    color: v.$white;
+    cursor: pointer;
+    transition: opacity v.$transition-fast;
+
+    &:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+  }
+
+  // ── Modale confirmation suppression ────────────────────────────────────
+  &__confirm-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(v.$foreground, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 110;
+    padding: v.$spacing-md;
+  }
+
+  &__confirm {
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-xl;
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+  }
+
+  &__confirm-msg {
+    font-size: v.$font-size-base;
+    font-weight: 600;
+    color: v.$foreground;
+    margin-bottom: v.$spacing-lg;
+    line-height: 1.5;
+  }
+
+  &__confirm-actions {
+    display: flex;
+    gap: v.$spacing-sm;
+  }
+
+  &__confirm-cancel {
+    flex: 1;
+    padding: 0.75rem;
+    background: v.$bg;
+    border: none;
+    border-radius: v.$radius-md;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    color: v.$text-muted;
+    cursor: pointer;
+  }
+
+  &__confirm-delete {
+    flex: 1;
+    padding: 0.75rem;
+    background: v.$hard;
+    border: none;
+    border-radius: v.$radius-md;
+    font-size: v.$font-size-base;
+    font-weight: 800;
+    font-family: v.$font-primary;
+    color: v.$white;
+    cursor: pointer;
+  }
+}

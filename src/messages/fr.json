@@ -419,5 +419,23 @@
     "resultStreak": "{count} jour(s) de suite",
     "shieldUsed": "Bouclier utilisé — streak préservé !",
     "shieldEarned": "Nouveau bouclier gagné !"
+  },
+  "profiles": {
+    "title": "Qui joue ?",
+    "subtitle": "Choisis ton profil pour commencer",
+    "selectAriaLabel": "Jouer avec {pseudo}",
+    "activeBadge": "En cours",
+    "addAriaLabel": "Ajouter un enfant",
+    "addLabel": "Ajouter un enfant",
+    "addFormTitle": "Nouveau profil",
+    "pseudoLabel": "Pseudo",
+    "pseudoPlaceholder": "SuperStar123",
+    "avatarLabel": "Choisis un avatar",
+    "cancelLabel": "Annuler",
+    "cancelAriaLabel": "Fermer le formulaire",
+    "addConfirmLabel": "Créer le profil",
+    "deleteAriaLabel": "Supprimer {pseudo}",
+    "deleteConfirmMsg": "Supprimer le profil de {pseudo} ? Toute la progression sera perdue.",
+    "deleteConfirmLabel": "Supprimer"
   }
 }

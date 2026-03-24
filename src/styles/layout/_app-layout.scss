@@ -251,6 +251,32 @@
     &:hover { background: rgba(255, 255, 255, 0.25); }
   }
 
+  // ── Bouton Changer d'enfant (sidebar) ────────────────────────────────────
+
+  &__switch-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: v.$spacing-xs;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(v.$white, 0.8);
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    padding: v.$spacing-sm v.$spacing-md;
+    border-radius: v.$radius-full;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background v.$transition-fast, color v.$transition-fast;
+    width: 100%;
+    font-family: v.$font-primary;
+
+    @include m.focus-ring;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+      color: v.$white;
+    }
+  }
+
   // ── Zone de contenu principale ───────────────────────────────────────────
 
   &__main {

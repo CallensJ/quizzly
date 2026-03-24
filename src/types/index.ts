@@ -20,6 +20,7 @@ export type Locale = 'en' | 'fr';
 // ─── Profil utilisateur ────────────────────────────────────────────────────────
 
 export interface Profile {
+  id: string;           // UUID unique par profil enfant (ajouté MVP 4 multi-profils)
   pseudo: string;
   avatarId: string;
   avatarStyle?: string; // Style DiceBear — défaut 'adventurer' si absent (rétro-compat profils existants)

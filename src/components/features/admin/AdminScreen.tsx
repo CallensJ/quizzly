@@ -24,12 +24,14 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { ArrowLeft, Target, Trash2, RotateCcw, BarChart3, Mail, LogOut, Swords } from 'lucide-react';
+import { ArrowLeft, Target, Trash2, RotateCcw, BarChart3, Mail, LogOut, Swords, Users, UserPlus, Check } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useAuthStore } from '@/stores/authStore';
 import { syncAdminSettings } from '@/lib/sync';
 import { signOut } from '@/lib/auth';
+import { buildAvatarUrl } from '@/lib/avatars';
+import type { AvatarStyle } from '@/lib/avatars';
 import ReportSection from './ReportSection';
 
 // Validation basique d'une adresse email
@@ -42,11 +44,15 @@ export default function AdminScreen() {
   const t = useTranslations('admin');
   const router = useRouter();
 
-  const profile       = useProfileStore((s) => s.profile);
-  const sessions      = useProfileStore((s) => s.sessions);
-  const deviceId      = useProfileStore((s) => s.deviceId);
-  const adminEmail    = useProfileStore((s) => s.adminEmail);
-  const dailyGoal     = useProfileStore((s) => s.dailyGoal);
+  const profile            = useProfileStore((s) => s.profile);
+  const sessions           = useProfileStore((s) => s.sessions);
+  const deviceId           = useProfileStore((s) => s.deviceId);
+  const adminEmail         = useProfileStore((s) => s.adminEmail);
+  const dailyGoal          = useProfileStore((s) => s.dailyGoal);
+  const profiles           = useProfileStore((s) => s.profiles);
+  const activeProfileId    = useProfileStore((s) => s.activeProfileId);
+  const switchProfile      = useProfileStore((s) => s.switchProfile);
+  const removeChildProfile = useProfileStore((s) => s.removeChildProfile);
 
   // Auth Supabase — utilisateur connecté
   const authUser = useAuthStore((s) => s.user);
@@ -60,8 +66,9 @@ export default function AdminScreen() {
   const deleteProfile = useProfileStore((s) => s.deleteProfile);
 
   // ── État UI ─────────────────────────────────────────────────────────────────
-  const [confirmReset, setConfirmReset]   = useState(false);
-  const [confirmDelete, setConfirmDelete] = useState(false);
+  const [confirmReset, setConfirmReset]       = useState(false);
+  const [confirmDelete, setConfirmDelete]     = useState(false);
+  const [deleteChildId, setDeleteChildId]     = useState<string | null>(null);
   const [goalFeedback, setGoalFeedback]   = useState(false);
   const [selectedGoal, setSelectedGoal]   = useState<number>(dailyGoal ?? 0);
 
@@ -104,6 +111,21 @@ export default function AdminScreen() {
   function handleDelete() {
     deleteProfile();
     router.replace('/');
+  }
+
+  function handleDeleteChild(id: string) {
+    removeChildProfile(id);
+    setDeleteChildId(null);
+    // Si plus aucun profil → retour à l'onboarding
+    const remaining = useProfileStore.getState().profiles;
+    if (remaining.length === 0) {
+      router.replace('/');
+    }
+  }
+
+  function handleSwitchProfile(id: string) {
+    switchProfile(id);
+    router.replace('/home');
   }
 
   async function handleSignOut() {
@@ -279,6 +301,99 @@ export default function AdminScreen() {
               <span className="admin__toggle-thumb" />
             </button>
           </div>
+        </section>
+
+        {/* ── Gestion des profils enfants ──────────────────────────────────── */}
+        <section className="admin__section admin__section--profiles" aria-labelledby="admin-profiles-title">
+          <div className="admin__section-header">
+            <Users size={18} strokeWidth={2} aria-hidden="true" />
+            <h2 id="admin-profiles-title" className="admin__section-title">
+              Profils enfants
+            </h2>
+          </div>
+          <p className="admin__section-desc">
+            Gérez les profils de vos enfants. Chaque enfant a ses propres scores et badges.
+          </p>
+
+          {/* Liste des profils */}
+          <div className="admin__profiles-list">
+            {profiles.map((p) => (
+              <div key={p.id} className="admin__profile-item">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  className="admin__profile-avatar"
+                  src={buildAvatarUrl(p.avatarId, (p.avatarStyle as AvatarStyle) ?? 'adventurer')}
+                  alt=""
+                  width={40}
+                  height={40}
+                />
+                <span className="admin__profile-pseudo">{p.pseudo}</span>
+                {p.id === activeProfileId && (
+                  <span className="admin__profile-active">
+                    <Check size={12} aria-hidden="true" />
+                    Actif
+                  </span>
+                )}
+                <div className="admin__profile-actions">
+                  {p.id !== activeProfileId && (
+                    <button
+                      type="button"
+                      className="admin__profile-switch"
+                      onClick={() => handleSwitchProfile(p.id)}
+                    >
+                      Jouer
+                    </button>
+                  )}
+                  {profiles.length > 1 && (
+                    <button
+                      type="button"
+                      className="admin__profile-delete"
+                      onClick={() => setDeleteChildId(p.id)}
+                      aria-label={`Supprimer ${p.pseudo}`}
+                    >
+                      <Trash2 size={14} />
+                    </button>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Ajouter un enfant */}
+          <button
+            type="button"
+            className="admin__profiles-add-btn"
+            onClick={() => router.push('/profiles')}
+          >
+            <UserPlus size={16} strokeWidth={2} />
+            Ajouter un enfant
+          </button>
+
+          {/* Confirmation suppression profil enfant */}
+          {deleteChildId && (
+            <div className="admin__danger-confirm" style={{ marginTop: '1rem' }}>
+              <p className="admin__danger-confirm-msg">
+                Supprimer le profil de «&nbsp;{profiles.find((p) => p.id === deleteChildId)?.pseudo}&nbsp;» ?
+                Toute la progression sera perdue.
+              </p>
+              <div className="admin__danger-confirm-actions">
+                <button
+                  type="button"
+                  className="admin__danger-btn admin__danger-btn--cancel"
+                  onClick={() => setDeleteChildId(null)}
+                >
+                  Annuler
+                </button>
+                <button
+                  type="button"
+                  className="admin__danger-btn admin__danger-btn--destructive"
+                  onClick={() => handleDeleteChild(deleteChildId)}
+                >
+                  Supprimer
+                </button>
+              </div>
+            </div>
+          )}
         </section>
 
         {/* ── Zone de danger ───────────────────────────────────────────────── */}
