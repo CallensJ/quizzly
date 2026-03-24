@@ -115,7 +115,16 @@ Cypress.Commands.add('answerAllQuestions', () => {
       // ou en transition), on skipe cette itération sans bloquer.
       if ($body.find('[data-testid="answer-A"]').is(':visible')) {
         cy.get('[data-testid="answer-A"]').click();
-        cy.get('[data-testid="next-btn"]', { timeout: 10000 }).should('be.visible').should('not.be.disabled').click();
+        // Bonne réponse → auto-avance après 1200ms (pas de next-btn)
+        // Mauvaise réponse → next-btn apparaît, on clique
+        cy.get('body').then(($b) => {
+          if ($b.find('[data-testid="next-btn"]').length) {
+            cy.get('[data-testid="next-btn"]').should('be.visible').click();
+          } else {
+            // Auto-advance — attendre que la question suivante charge
+            cy.wait(1400);
+          }
+        });
       }
     });
   });
