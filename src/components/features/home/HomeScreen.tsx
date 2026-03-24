@@ -20,7 +20,7 @@ import {
   Calculator, ChefHat, Cpu, Sparkles, Rocket, BookA,
   Sun, Flame, ChevronRight,
 } from 'lucide-react';
-import { buildAvatarUrl } from '@/lib/avatars';
+import { buildAvatarUrl, type AvatarStyle } from '@/lib/avatars';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
@@ -159,7 +159,7 @@ export default function HomeScreen() {
           >
             {profile ? (
               <Image
-                src={buildAvatarUrl(profile.avatarId, profile.avatarStyle)}
+                src={buildAvatarUrl(profile.avatarId, profile.avatarStyle as AvatarStyle | undefined)}
                 alt={profile.pseudo}
                 width={36}
                 height={36}
