@@ -58,6 +58,7 @@ async function _syncProfileCore(
         pseudo:      profile.pseudo,
         avatar_id:   profile.avatarId,
         locale:      profile.locale,
+        age_group:   '6-11', // supprimé de l'app MVP 4, hardcodé pour rétro-compat Supabase
         created_at:  profile.createdAt,
         updated_at:  new Date().toISOString(),
       },
