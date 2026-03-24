@@ -111,7 +111,7 @@ export const useProfileStore = create<ProfileState>()(
       profile: null,
       sessions: [],
       deviceId: null,
-      timerEnabled: false,
+      timerEnabled: true, // activé par défaut — l'utilisateur découvre le timer dès la première partie
       multiplayerUnlocked: false,
       reportSchedule: 'none',
       soundEnabled: true, // activé par défaut — les enfants apprécient le feedback sonore
