@@ -44,9 +44,9 @@ const goOnline = () =>
 // ─── Noms des caches Workbox (définis dans next.config.ts) ───────────────────
 // Noms réels générés par @ducanh2912/next-pwa (visible dans caches.keys())
 // Les assets statiques sont dans le precache Workbox, pas un cache runtime séparé
+// Le cache "pages" n'apparaît qu'après une navigation runtime (pas au premier chargement)
 const EXPECTED_CACHES = [
   'workbox-precache',  // contient tous les _next/static + fichiers précachés
-  'pages',             // cache runtime des pages HTML visitées
 ];
 
 // ─── Détection mode prod ─────────────────────────────────────────────────────
@@ -143,9 +143,13 @@ describe('PWA — Service Worker', () => {
     });
   });
 
-  it('met en cache les pages visitées', () => {
+  it('met en cache les pages visitées après navigation', () => {
+    // Le cache "pages" n'est créé qu'après une navigation runtime
+    // On visite plusieurs pages pour déclencher le handler NetworkFirst
     cy.visit('/fr/home');
-    cy.wait(4000);
+    cy.wait(2000);
+    cy.visit('/fr/profile');
+    cy.wait(3000);
 
     assertProductionBuild();
 
@@ -154,11 +158,11 @@ describe('PWA — Service Worker', () => {
     }).then((cacheNames) => {
       const names = cacheNames as string[];
       const pagesCacheName = names.find((k) => k.includes('pages'));
-      if (!pagesCacheName) return;
+      expect(pagesCacheName, `Cache "pages" attendu après navigation — présents : ${names.join(', ')}`).to.exist;
 
       cy.window().then((win) => {
         return cy.wrap(
-          win.caches.open(pagesCacheName).then((c) => c.keys()),
+          win.caches.open(pagesCacheName as string).then((c) => c.keys()),
           { timeout: 10000 }
         );
       }).then((keys) => {
