@@ -457,5 +457,28 @@
     "scoreLabel": "Score",
     "trendLabel": "Trend",
     "notEnoughData": "Not enough data — play a few games first!"
+  },
+  "recommendations": {
+    "title": "Recommendations",
+    "titleParent": "Recommendations for {pseudo}",
+    "subtitle": "Based on your results",
+    "playCta": "Play",
+    "playAriaLabel": "Play {category} at {difficulty} level",
+
+    "level_upBadge": "Ready to level up",
+    "level_upTitle": "Try {category} at {difficulty}!",
+    "level_upDesc": "You averaged {score}% at the lower level. Time to step it up!",
+
+    "practiceBadge": "Keep practicing",
+    "practiceTitle": "Keep practicing {category}",
+    "practiceDesc": "You averaged {score}% at {difficulty}. A few more games and you'll improve!",
+
+    "try_newBadge": "Discover",
+    "try_newTitle": "Discover {category}!",
+    "try_newDesc": "You've never tried this category. Start at {difficulty} level!",
+
+    "diversifyBadge": "Broaden your horizons",
+    "diversifyTitle": "Try {category} too!",
+    "diversifyDesc": "You often play the same category. Mix it up to improve everywhere!"
   }
 }

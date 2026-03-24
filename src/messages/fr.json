@@ -457,5 +457,28 @@
     "scoreLabel": "Score",
     "trendLabel": "Tendance",
     "notEnoughData": "Pas assez de données — jouez quelques parties !"
+  },
+  "recommendations": {
+    "title": "Recommandations",
+    "titleParent": "Recommandations pour {pseudo}",
+    "subtitle": "Basées sur tes résultats",
+    "playCta": "Jouer",
+    "playAriaLabel": "Jouer {category} niveau {difficulty}",
+
+    "level_upBadge": "Prêt à progresser",
+    "level_upTitle": "Essaie {category} en {difficulty} !",
+    "level_upDesc": "Tu as {score}% de moyenne en niveau inférieur. C'est le moment de monter !",
+
+    "practiceBadge": "À renforcer",
+    "practiceTitle": "Continue à pratiquer {category}",
+    "practiceDesc": "Tu as {score}% de moyenne en {difficulty}. Encore quelques parties pour progresser !",
+
+    "try_newBadge": "À découvrir",
+    "try_newTitle": "Découvre {category} !",
+    "try_newDesc": "Tu n'as jamais joué cette catégorie. Commence par le niveau {difficulty} !",
+
+    "diversifyBadge": "Élargis tes horizons",
+    "diversifyTitle": "Essaie {category} aussi !",
+    "diversifyDesc": "Tu joues souvent la même catégorie. Diversifie pour progresser partout !"
   }
 }

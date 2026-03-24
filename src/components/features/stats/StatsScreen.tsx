@@ -21,6 +21,7 @@
 
 import { useMemo } from 'react';
 import { useTranslations } from 'next-intl';
+import RecommendationsSection from '@/components/features/recommendations/RecommendationsSection';
 import { ArrowLeft, BarChart2, BookOpen, Trophy } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
@@ -305,6 +306,9 @@ export default function StatsScreen() {
             )}
           </>
         )}
+
+        {/* ── Recommandations pédagogiques ──────────────────────────────── */}
+        <RecommendationsSection />
 
         {/* ── CTA retour ────────────────────────────────────────────────── */}
         <button

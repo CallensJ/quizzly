@@ -19,6 +19,7 @@
 
 import { useMemo, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import RecommendationsSection from '@/components/features/recommendations/RecommendationsSection';
 import { ArrowLeft, TrendingUp, Gamepad2, Star, Flame, BarChart3 } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
@@ -430,6 +431,9 @@ export default function DashboardScreen() {
             )}
           </>
         )}
+
+        {/* ── Recommandations pédagogiques (vue parent) ────────────────── */}
+        <RecommendationsSection parentView />
 
         <button
           type="button"

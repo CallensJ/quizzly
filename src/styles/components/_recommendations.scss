@@ -1,0 +1,149 @@
+// src/styles/components/_recommendations.scss
+//
+// Section recommandations pédagogiques (MVP 4).
+// Cartes colorées selon le type de recommandation.
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.rec {
+  // ── En-tête de section ──────────────────────────────────────────────────
+  &__header {
+    margin-bottom: v.$spacing-md;
+  }
+
+  &__title {
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    color: v.$foreground;
+    margin-bottom: v.$spacing-xs;
+  }
+
+  &__subtitle {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+  }
+
+  // ── Liste de cartes ─────────────────────────────────────────────────────
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-md;
+
+    @include m.md {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+  }
+
+  // ── Carte individuelle ──────────────────────────────────────────────────
+  &__card {
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-md;
+    border-left: 4px solid transparent;
+    box-shadow: v.$shadow-sm;
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-sm;
+    transition: transform v.$transition-base, box-shadow v.$transition-base;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: v.$shadow-md;
+    }
+
+    // Couleurs par type
+    &--level-up  { border-left-color: v.$primary; }
+    &--practice  { border-left-color: v.$accent-orange; }
+    &--try-new   { border-left-color: v.$secondary; }
+    &--diversify { border-left-color: v.$accent; }
+  }
+
+  // ── Header carte ────────────────────────────────────────────────────────
+  &__card-header {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+  }
+
+  &__card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    flex-shrink: 0;
+
+    .rec__card--level-up  & { background: rgba(v.$primary, 0.1);       color: v.$primary;       }
+    .rec__card--practice  & { background: rgba(v.$accent-orange, 0.1); color: v.$accent-orange; }
+    .rec__card--try-new   & { background: rgba(v.$secondary, 0.1);     color: v.$secondary;     }
+    .rec__card--diversify & { background: rgba(v.$accent, 0.15);       color: darken(v.$accent, 20%); }
+  }
+
+  &__card-type-label {
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+
+    .rec__card--level-up  & { color: v.$primary;       }
+    .rec__card--practice  & { color: v.$accent-orange; }
+    .rec__card--try-new   & { color: v.$secondary;     }
+    .rec__card--diversify & { color: darken(v.$accent, 20%); }
+  }
+
+  // ── Corps carte ─────────────────────────────────────────────────────────
+  &__card-body {
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-xs;
+    flex: 1;
+  }
+
+  &__cat-pill {
+    display: inline-flex;
+    align-self: flex-start;
+    padding: 2px 10px;
+    border-radius: v.$radius-full;
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: v.$white;
+    text-transform: capitalize;
+  }
+
+  &__card-title {
+    font-size: v.$font-size-base;
+    font-weight: 800;
+    color: v.$foreground;
+    line-height: 1.3;
+  }
+
+  &__card-desc {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+    line-height: 1.5;
+  }
+
+  // ── CTA ────────────────────────────────────────────────────────────────
+  &__card-cta {
+    display: inline-flex;
+    align-self: flex-start;
+    padding: 6px 16px;
+    border-radius: v.$radius-full;
+    font-size: v.$font-size-sm;
+    font-weight: 800;
+    font-family: v.$font-primary;
+    border: none;
+    cursor: pointer;
+    transition: opacity v.$transition-fast;
+
+    .rec__card--level-up  & { background: v.$primary;       color: v.$white; }
+    .rec__card--practice  & { background: v.$accent-orange; color: v.$white; }
+    .rec__card--try-new   & { background: v.$secondary;     color: v.$white; }
+    .rec__card--diversify & { background: darken(v.$accent, 15%); color: v.$white; }
+
+    &:hover { opacity: 0.85; }
+  }
+}
