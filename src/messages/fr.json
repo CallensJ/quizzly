@@ -437,5 +437,25 @@
     "deleteAriaLabel": "Supprimer {pseudo}",
     "deleteConfirmMsg": "Supprimer le profil de {pseudo} ? Toute la progression sera perdue.",
     "deleteConfirmLabel": "Supprimer"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "ctaBack": "Retour",
+    "noData": "Aucune partie jouée — revenez quand votre enfant aura joué !",
+    "kpiGames": "Parties",
+    "kpiPoints": "Points",
+    "kpiBest": "Meilleur",
+    "kpiStreak": "Jours streak",
+    "periodLabel": "Période",
+    "trendTitle": "Tendance du score",
+    "weeklyTitle": "Activité par semaine",
+    "weeklyLabel": "Parties",
+    "catEvolutionTitle": "Progression par catégorie",
+    "catEvolutionDesc": "Comparaison du score moyen entre les premières et les dernières parties.",
+    "catBefore": "Avant",
+    "catAfter": "Après",
+    "scoreLabel": "Score",
+    "trendLabel": "Tendance",
+    "notEnoughData": "Pas assez de données — jouez quelques parties !"
   }
 }

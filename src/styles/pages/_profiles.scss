@@ -45,7 +45,7 @@
     max-width: 600px;
     margin: 0 auto;
 
-    @include m.respond-to('md') {
+    @include m.md {
       grid-template-columns: repeat(3, 1fr);
     }
   }

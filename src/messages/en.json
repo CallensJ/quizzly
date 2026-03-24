@@ -437,5 +437,25 @@
     "deleteAriaLabel": "Delete {pseudo}",
     "deleteConfirmMsg": "Delete {pseudo}'s profile? All progress will be lost.",
     "deleteConfirmLabel": "Delete"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "ctaBack": "Back",
+    "noData": "No games played yet — come back after your child has played!",
+    "kpiGames": "Games",
+    "kpiPoints": "Points",
+    "kpiBest": "Best",
+    "kpiStreak": "Streak days",
+    "periodLabel": "Period",
+    "trendTitle": "Score trend",
+    "weeklyTitle": "Weekly activity",
+    "weeklyLabel": "Games",
+    "catEvolutionTitle": "Progress by category",
+    "catEvolutionDesc": "Comparison of average score between first and last games.",
+    "catBefore": "Before",
+    "catAfter": "After",
+    "scoreLabel": "Score",
+    "trendLabel": "Trend",
+    "notEnoughData": "Not enough data — play a few games first!"
   }
 }

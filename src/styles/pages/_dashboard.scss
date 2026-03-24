@@ -1,0 +1,346 @@
+// src/styles/pages/_dashboard.scss
+//
+// Dashboard avancé parent — graphiques de progression dans le temps (MVP 4 Premium).
+// Design adulte sobre, structuré, cohérent avec _admin.scss et _stats.scss.
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.dashboard {
+  min-height: 100dvh;
+  @include m.flex-column;
+  background: v.$bg;
+
+  // ── Header gradient ───────────────────────────────────────────────────────
+
+  &__header {
+    @include m.gradient-primary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: v.$spacing-lg;
+    padding-top: calc(v.$spacing-lg + env(safe-area-inset-top, 0px));
+    gap: v.$spacing-md;
+  }
+
+  &__back-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(v.$white, 0.2);
+    border: none;
+    border-radius: 50%;
+    color: v.$white;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background v.$transition-fast;
+
+    &:hover { background: rgba(v.$white, 0.3); }
+  }
+
+  &__header-info {
+    flex: 1;
+    text-align: center;
+    color: v.$white;
+  }
+
+  &__title {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  &__subtitle {
+    font-size: v.$font-size-sm;
+    opacity: 0.8;
+    margin: 2px 0 0;
+  }
+
+  &__header-spacer {
+    width: 40px;
+    flex-shrink: 0;
+  }
+
+  // ── Body ──────────────────────────────────────────────────────────────────
+
+  &__body {
+    flex: 1;
+    padding: v.$spacing-lg v.$spacing-md;
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-lg;
+    max-width: 720px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  // ── État vide ─────────────────────────────────────────────────────────────
+
+  &__empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: v.$spacing-md;
+    padding: v.$spacing-2xl;
+    text-align: center;
+    flex: 1;
+  }
+
+  &__empty-icon {
+    font-size: 3rem;
+  }
+
+  &__empty-text {
+    color: v.$text-muted;
+    font-size: v.$font-size-lg;
+    font-weight: 600;
+  }
+
+  // ── KPIs ──────────────────────────────────────────────────────────────────
+
+  &__kpis {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: v.$spacing-sm;
+
+    @include m.sm {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__kpi {
+    background: v.$white;
+    border-radius: v.$radius-md;
+    padding: v.$spacing-md;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: v.$spacing-xs;
+    box-shadow: v.$shadow-sm;
+    text-align: center;
+
+    &--highlight {
+      background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+      color: v.$white;
+
+      .dashboard__kpi-icon,
+      .dashboard__kpi-value,
+      .dashboard__kpi-label {
+        color: v.$white;
+      }
+    }
+  }
+
+  &__kpi-icon {
+    color: v.$primary;
+  }
+
+  &__kpi-value {
+    font-size: v.$font-size-2xl;
+    font-weight: 800;
+    color: v.$foreground;
+    line-height: 1;
+  }
+
+  &__kpi-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: v.$text-muted;
+  }
+
+  // ── Filtre période ────────────────────────────────────────────────────────
+
+  &__period-filter {
+    display: flex;
+    gap: v.$spacing-xs;
+    background: v.$white;
+    border-radius: v.$radius-full;
+    padding: 4px;
+    box-shadow: v.$shadow-sm;
+    width: fit-content;
+  }
+
+  &__period-btn {
+    padding: 6px 16px;
+    border: none;
+    border-radius: v.$radius-full;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    color: v.$text-muted;
+    background: transparent;
+    cursor: pointer;
+    transition: background v.$transition-fast, color v.$transition-fast;
+
+    &--active {
+      background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+      color: v.$white;
+    }
+  }
+
+  // ── Sections graphiques ───────────────────────────────────────────────────
+
+  &__section {
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-lg;
+    box-shadow: v.$shadow-sm;
+  }
+
+  &__section-title {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    font-size: v.$font-size-base;
+    font-weight: 800;
+    color: v.$foreground;
+    margin-bottom: v.$spacing-md;
+  }
+
+  &__section-desc {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+    margin-bottom: v.$spacing-md;
+    margin-top: calc(-1 * v.$spacing-sm);
+  }
+
+  &__section-empty {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+    font-style: italic;
+    text-align: center;
+    padding: v.$spacing-md 0;
+  }
+
+  &__chart-wrap {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  // ── Évolution par catégorie ───────────────────────────────────────────────
+
+  &__cat-evol-list {
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-md;
+  }
+
+  &__cat-evol-item {
+    background: v.$bg;
+    border-radius: v.$radius-md;
+    padding: v.$spacing-md;
+  }
+
+  &__cat-evol-header {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    margin-bottom: v.$spacing-sm;
+    flex-wrap: wrap;
+  }
+
+  &__cat-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  &__cat-name {
+    font-weight: 700;
+    font-size: v.$font-size-base;
+    color: v.$foreground;
+    flex: 1;
+    text-transform: capitalize;
+  }
+
+  &__cat-games {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+  }
+
+  &__cat-delta {
+    font-size: v.$font-size-sm;
+    font-weight: 800;
+    color: v.$text-muted;
+
+    &--up   { color: v.$secondary; }
+    &--down { color: v.$hard; }
+  }
+
+  &__cat-evol-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  &__cat-evol-bar-row {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+  }
+
+  &__cat-evol-bar-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: v.$text-muted;
+    width: 40px;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  &__cat-evol-track {
+    flex: 1;
+    height: 10px;
+    background: #e5e7eb;
+    border-radius: v.$radius-full;
+    overflow: hidden;
+  }
+
+  &__cat-evol-fill {
+    height: 100%;
+    border-radius: v.$radius-full;
+    background: v.$primary;
+    transition: width 0.6s ease;
+
+    &--before {
+      background: #d1d5db;
+    }
+  }
+
+  &__cat-evol-pct {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$foreground;
+    width: 36px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  // ── CTA retour ────────────────────────────────────────────────────────────
+
+  &__cta-back {
+    padding: 0.875rem v.$spacing-xl;
+    background: transparent;
+    border: 2px solid #e5e7eb;
+    border-radius: v.$radius-full;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    color: v.$text-muted;
+    cursor: pointer;
+    align-self: center;
+    transition: border-color v.$transition-fast, color v.$transition-fast;
+
+    &:hover {
+      border-color: v.$primary;
+      color: v.$primary;
+    }
+  }
+}

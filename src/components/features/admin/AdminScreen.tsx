@@ -24,7 +24,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { ArrowLeft, Target, Trash2, RotateCcw, BarChart3, Mail, LogOut, Swords, Users, UserPlus, Check } from 'lucide-react';
+import { ArrowLeft, Target, Trash2, RotateCcw, BarChart3, Mail, LogOut, Swords, Users, UserPlus, Check, TrendingUp } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useAuthStore } from '@/stores/authStore';
@@ -178,6 +178,16 @@ export default function AdminScreen() {
               {t('statsTitle', { pseudo: profile?.pseudo ?? '' })}
             </h2>
           </div>
+
+          {/* Accès dashboard avancé */}
+          <button
+            type="button"
+            className="admin__dashboard-btn"
+            onClick={() => router.push('/dashboard')}
+          >
+            <TrendingUp size={16} strokeWidth={2} />
+            Voir la progression dans le temps
+          </button>
 
           {totalGames === 0 ? (
             <p className="admin__empty">{t('statsNoSession')}</p>

@@ -872,6 +872,32 @@
     }
   }
 
+  // ── Bouton accès dashboard avancé ─────────────────────────────────────────
+
+  &__dashboard-btn {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    padding: v.$spacing-sm v.$spacing-md;
+    background: linear-gradient(135deg, rgba(v.$primary, 0.08), rgba(v.$primary-dark, 0.08));
+    border: 1.5px solid rgba(v.$primary, 0.25);
+    border-radius: v.$radius-md;
+    color: v.$primary;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    cursor: pointer;
+    margin-bottom: v.$spacing-md;
+    width: 100%;
+    justify-content: center;
+    transition: background v.$transition-fast, border-color v.$transition-fast;
+
+    &:hover {
+      background: linear-gradient(135deg, rgba(v.$primary, 0.14), rgba(v.$primary-dark, 0.14));
+      border-color: rgba(v.$primary, 0.5);
+    }
+  }
+
   // ── Section profils enfants ────────────────────────────────────────────────
 
   &__profiles-list {
