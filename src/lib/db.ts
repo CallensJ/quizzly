@@ -45,12 +45,21 @@ class ErudiaDB extends Dexie {
       questionCache: 'key, cachedAt',
       pendingSyncs:  '++id, type, createdAt',
     });
+    // Libérer le verrou si une autre connexion demande un upgrade de version
+    // (ex: nouvel onglet, rechargement SW). Sans ça → AbortError "steal".
+    this.on('versionchange', () => {
+      this.close();
+      delete (globalThis as typeof globalThis & { __erudiaDb?: ErudiaDB }).__erudiaDb;
+    });
   }
 }
 
 // ─── Singleton ────────────────────────────────────────────────────────────────
 
-let _db: ErudiaDB | null = null;
+// Stocké dans globalThis pour survivre aux rechargements HMR (Next.js dev).
+// Sans ça, chaque HMR crée une nouvelle connexion pendant que l'ancienne
+// est encore ouverte → AbortError "Lock broken by another request".
+const g = globalThis as typeof globalThis & { __erudiaDb?: ErudiaDB };
 
 /**
  * Retourne l'instance Dexie (créée au premier appel côté client).
@@ -58,8 +67,10 @@ let _db: ErudiaDB | null = null;
  */
 export function getDB(): ErudiaDB | null {
   if (typeof window === 'undefined') return null;
-  if (!_db) _db = new ErudiaDB();
-  return _db;
+  if (!g.__erudiaDb || !g.__erudiaDb.isOpen()) {
+    g.__erudiaDb = new ErudiaDB();
+  }
+  return g.__erudiaDb;
 }
 
 export const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 heures

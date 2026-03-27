@@ -677,7 +677,7 @@
   &__cat-goals-name {
     font-weight: 700;
     font-size: v.$font-size-sm;
-    color: v.$text-primary;
+    color: v.$foreground;
   }
 
   &__cat-goals-options {
@@ -691,8 +691,8 @@
     border-radius: v.$radius-sm;
     font-size: v.$font-size-sm;
     font-weight: 600;
-    border: 2px solid v.$border;
-    color: v.$text-secondary;
+    border: 2px solid #e5e7eb;
+    color: v.$text-muted;
     background: transparent;
     cursor: pointer;
     transition: all v.$transition-fast;
