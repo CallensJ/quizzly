@@ -111,7 +111,11 @@
     "noGamesCategory": "—",
     "sciences": "Science",
     "histoire": "History",
-    "heroes": "Heroes"
+    "heroes": "Heroes",
+    "goalsTitle": "Weekly goals",
+    "goalsMet": "✓ Reached",
+    "goalsInProgress": "In progress",
+    "goalsNoData": "Not played yet"
   },
   "badges": {
     "sectionTitle": "My badges",
@@ -464,7 +468,13 @@
     "catAfter": "After",
     "scoreLabel": "Score",
     "trendLabel": "Trend",
-    "notEnoughData": "Not enough data — play a few games first!"
+    "notEnoughData": "Not enough data — play a few games first!",
+    "goalsTitle": "Goals tracking",
+    "goalsNone": "No goals configured — set them from the parent space.",
+    "goalsTarget": "Target",
+    "goalsWeekAvg": "This week",
+    "goalsOverall": "Overall avg.",
+    "goalsNoData": "—"
   },
   "recommendations": {
     "title": "Recommendations",

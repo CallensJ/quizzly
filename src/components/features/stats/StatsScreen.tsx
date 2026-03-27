@@ -25,7 +25,8 @@ import RecommendationsSection from '@/components/features/recommendations/Recomm
 import { ArrowLeft, BarChart2, BookOpen, Trophy } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
-import type { Category, Difficulty } from '@/types';
+import { getCategoryAvg } from '@/lib/goals';
+import type { Category, Difficulty, GoalCategory } from '@/types';
 import {
   BarChart,
   Bar,
@@ -77,7 +78,8 @@ function pct(score: number, total: number): number {
 export default function StatsScreen() {
   const t = useTranslations('stats');
   const router = useRouter();
-  const sessions = useProfileStore((s) => s.sessions);
+  const sessions      = useProfileStore((s) => s.sessions);
+  const categoryGoals = useProfileStore((s) => s.categoryGoals);
 
   // ── Résumé global ─────────────────────────────────────────────────────────
   const totalGames  = sessions.length;
@@ -252,6 +254,61 @@ export default function StatsScreen() {
                 ))}
               </div>
             </section>
+
+            {/* ── Objectifs de la semaine ───────────────────────────────── */}
+            {Object.keys(categoryGoals).length > 0 && (
+              <section className="stats__section" aria-label={t('goalsTitle')}>
+                <h2 className="stats__section-title">{t('goalsTitle')}</h2>
+                <div className="stats__goals-list">
+                  {(Object.entries(categoryGoals) as [GoalCategory, number][]).map(([cat, target]) => {
+                    const weekAvg     = getCategoryAvg(sessions, cat, true);
+                    const weekRounded = weekAvg !== null ? Math.round(weekAvg) : null;
+                    const met         = weekRounded !== null && weekRounded >= target;
+                    return (
+                      <div key={cat} className="stats__goals-item">
+                        <div className="stats__goals-header">
+                          <span
+                            className="stats__goals-dot"
+                            style={{ background: CAT_COLORS[cat as Category] }}
+                            aria-hidden="true"
+                          />
+                          <span className="stats__goals-name">
+                            {t(cat as 'sciences' | 'histoire' | 'heroes')}
+                          </span>
+                          <span className={`stats__goals-status${met ? ' stats__goals-status--met' : ''}`}>
+                            {weekRounded === null
+                              ? t('goalsNoData')
+                              : met
+                                ? t('goalsMet')
+                                : t('goalsInProgress')}
+                          </span>
+                        </div>
+                        <div
+                          className="stats__goals-track"
+                          role="progressbar"
+                          aria-valuenow={weekRounded ?? 0}
+                          aria-valuemin={0}
+                          aria-valuemax={100}
+                          aria-label={`${cat} : ${weekRounded ?? 0}% / ${target}%`}
+                        >
+                          {/* Remplissage : orange si en cours, vert si atteint */}
+                          <div
+                            className={`stats__goals-fill${met ? ' stats__goals-fill--met' : ''}`}
+                            style={{ width: `${weekRounded ?? 0}%` }}
+                          />
+                          {/* Marqueur de l'objectif cible */}
+                          <div className="stats__goals-target-line" style={{ left: `${target}%` }} />
+                        </div>
+                        <div className="stats__goals-meta">
+                          <span>{weekRounded !== null ? `${weekRounded}%` : '—'}</span>
+                          <span>{target}%</span>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            )}
 
             {/* ── Par difficulté — PieChart ─────────────────────────────── */}
             {diffData.length > 0 && (
