@@ -15,7 +15,7 @@
 
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import type { Profile, QuizSession, Locale } from '@/types';
+import type { Profile, QuizSession, Locale, GoalCategory } from '@/types';
 import {
   calculateDailyXp,
   getDailyDateString,
@@ -79,6 +79,8 @@ interface ProfileState {
   adminEmail: string | null;
   dailyGoal: number | null;
   multiplayerUnlocked: boolean;
+  // TODO: gate premium (Stripe) — categoryGoals toujours accessible en dev
+  categoryGoals: Partial<Record<GoalCategory, number>>;
   reportSchedule: ReportSchedule;
 
   // ── Système de badges (profil actif) ────────────────────────────────────
@@ -105,6 +107,7 @@ interface ProfileState {
 
   // ── Actions existantes (opèrent sur le profil actif) ────────────────────
   setMultiplayerUnlocked: (enabled: boolean) => void;
+  setCategoryGoal: (category: GoalCategory, target: number | null) => void;
   setReportSchedule: (schedule: ReportSchedule) => void;
   setLastGoalNotifDate: (date: string) => void;
   mergeFromRemote: (remoteSessions: QuizSession[], remoteEarnedBadgeIds: string[]) => void;
@@ -165,6 +168,7 @@ export const useProfileStore = create<ProfileState>()(
       timerEnabled: true,
       soundEnabled: true,
       multiplayerUnlocked: false,
+      categoryGoals: {},
       reportSchedule: 'none',
       adminPin: null,
       adminEmail: null,
@@ -303,6 +307,18 @@ export const useProfileStore = create<ProfileState>()(
         }),
 
       setMultiplayerUnlocked: (enabled) => set({ multiplayerUnlocked: enabled }),
+      setCategoryGoal: (category, target) =>
+        set((state) => {
+          // Copie immutable du Partial<Record> avant modification
+          const updated = { ...state.categoryGoals };
+          if (target === null) {
+            // target=null → désactive l'objectif en supprimant la clé
+            delete updated[category];
+          } else {
+            updated[category] = target;
+          }
+          return { categoryGoals: updated };
+        }),
       setReportSchedule: (schedule) => set({ reportSchedule: schedule }),
       setLastGoalNotifDate: (date) => set({ lastGoalNotifDate: date }),
 
