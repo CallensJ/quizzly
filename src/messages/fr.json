@@ -292,7 +292,15 @@
     "reportScheduleWeekly": "Hebdomadaire",
     "reportScheduleMonthly": "Mensuel",
     "reportScheduleSaved": "Enregistré !",
-    "reportScheduleHint": "Le rapport sera envoyé automatiquement à {email}."
+    "reportScheduleHint": "Le rapport sera envoyé automatiquement à {email}.",
+    "categoryGoalsTitle": "Objectifs par catégorie",
+    "categoryGoalsDesc": "Définissez un score % minimum à atteindre par catégorie chaque semaine.",
+    "categoryGoalsDisabled": "Désactivé",
+    "categoryGoalsSave": "Enregistrer",
+    "categoryGoalsSaved": "Objectifs enregistrés !",
+    "sciences": "Sciences",
+    "histoire": "Histoire",
+    "heroes": "Héros"
   },
   "auth": {
     "title": "Espace Parent",

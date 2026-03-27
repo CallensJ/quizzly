@@ -33,6 +33,7 @@ import { signOut } from '@/lib/auth';
 import { buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
 import ReportSection from './ReportSection';
+import GoalsSection from './GoalsSection';
 
 // Validation basique d'une adresse email
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -241,6 +242,9 @@ export default function AdminScreen() {
             {goalFeedback ? t('goalSaved') : t('goalSave')}
           </button>
         </section>
+
+        {/* ── Objectifs par catégorie ─────────────────────────────────────── */}
+        <GoalsSection />
 
         {/* ── Email de contact ────────────────────────────────────────────── */}
         <section className="admin__section admin__section--email" aria-labelledby="admin-email-title">

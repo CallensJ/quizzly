@@ -662,6 +662,55 @@
     to   { opacity: 1; transform: translateY(0); }
   }
 
+  // ── Goals par catégorie ─────────────────────────────────────────────────────
+
+  &__cat-goals-list {
+    @include m.flex-column;
+    gap: v.$spacing-lg;
+  }
+
+  &__cat-goals-item {
+    @include m.flex-column;
+    gap: v.$spacing-sm;
+  }
+
+  &__cat-goals-name {
+    font-weight: 700;
+    font-size: v.$font-size-sm;
+    color: v.$text-primary;
+  }
+
+  &__cat-goals-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: v.$spacing-xs;
+  }
+
+  &__cat-goals-btn {
+    padding: v.$spacing-xs v.$spacing-sm;
+    border-radius: v.$radius-sm;
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    border: 2px solid v.$border;
+    color: v.$text-secondary;
+    background: transparent;
+    cursor: pointer;
+    transition: all v.$transition-fast;
+
+    &:hover {
+      border-color: v.$primary;
+      color: v.$primary;
+    }
+
+    &--active {
+      border-color: v.$primary;
+      background: v.$primary;
+      color: v.$white;
+    }
+
+    @include m.focus-ring;
+  }
+
   // ── Desktop — Bento Grid (≥ 1024px) ─────────────────────────────────────────
   //
   // L'admin n'a pas de sidebar (AppLayout absent). Sur desktop, on adopte

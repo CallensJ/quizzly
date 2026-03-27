@@ -292,7 +292,15 @@
     "reportScheduleWeekly": "Weekly",
     "reportScheduleMonthly": "Monthly",
     "reportScheduleSaved": "Saved!",
-    "reportScheduleHint": "The report will be sent automatically to {email}."
+    "reportScheduleHint": "The report will be sent automatically to {email}.",
+    "categoryGoalsTitle": "Goals by category",
+    "categoryGoalsDesc": "Set a minimum score % to reach per category each week.",
+    "categoryGoalsDisabled": "Disabled",
+    "categoryGoalsSave": "Save",
+    "categoryGoalsSaved": "Goals saved!",
+    "sciences": "Science",
+    "histoire": "History",
+    "heroes": "Heroes"
   },
   "auth": {
     "title": "Parent Space",
