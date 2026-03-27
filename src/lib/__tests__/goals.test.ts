@@ -119,7 +119,6 @@ describe('getCategoryTrend', () => {
   });
 
   it("gère le changement d'année (2025-12-29 = ISO W01 2026)", () => {
-    jest.restoreAllMocks();
     jest.spyOn(Date, 'now').mockReturnValue(new Date('2026-01-09T12:00:00.000Z').getTime());
     const sessions = [makeSession('sciences', 20, 20, '2025-12-29T12:00:00.000Z')];
     const result = getCategoryTrend(sessions, 'sciences');

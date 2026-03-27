@@ -18,6 +18,22 @@ export type Category = 'sciences' | 'histoire' | 'heroes' | 'math';
 // Catégories ayant des objectifs de score configurables (gratuites jouables)
 export type GoalCategory = Exclude<Category, 'math'>;
 
+// ─── Objectifs par catégorie ───────────────────────────────────────────────────
+
+export interface WeeklyAvg {
+  week: string;   // format "2026-W13" (ISO 8601 week)
+  avg: number;    // score % moyen (0–100), 0 si count=0
+  count: number;  // nombre de parties dans la semaine
+}
+
+export interface GoalStatus {
+  category: GoalCategory;
+  target: number;              // % cible (50–90)
+  overallAvg: number | null;   // avg toutes sessions valides
+  weekAvg: number | null;      // avg semaine ISO courante (null si aucune partie)
+  trend: WeeklyAvg[];          // 8 semaines glissantes
+}
+
 export type Locale = 'en' | 'fr';
 
 // ─── Profil utilisateur ────────────────────────────────────────────────────────

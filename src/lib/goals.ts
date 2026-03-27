@@ -11,21 +11,7 @@
  *   - Format clé : "YYYY-Www" (ex: "2026-W13")
  */
 
-import type { QuizSession, GoalCategory } from '@/types';
-
-export interface WeeklyAvg {
-  week: string;
-  avg: number;
-  count: number;
-}
-
-export interface GoalStatus {
-  category: GoalCategory;
-  target: number;
-  overallAvg: number | null;
-  weekAvg: number | null;
-  trend: WeeklyAvg[];
-}
+import type { QuizSession, GoalCategory, WeeklyAvg, GoalStatus } from '@/types';
 
 function getISOWeekKey(date: Date): string {
   const d = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
@@ -47,9 +33,12 @@ function getLast8WeekKeys(): string[] {
     ));
     keys.push(getISOWeekKey(d));
   }
-  return keys;
+  return keys; // 8 dates espacées de 7 jours → 8 semaines ISO distinctes garanties (7 jours = exactement 1 semaine ISO)
 }
 
+/**
+ * Retourne une valeur non arrondie — arrondir côté consommateur (Math.round) si nécessaire pour l'affichage.
+ */
 export function getCategoryAvg(
   sessions: QuizSession[],
   category: GoalCategory,
