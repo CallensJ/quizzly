@@ -5,6 +5,7 @@
 
 @use '../abstracts/variables' as v;
 @use '../abstracts/mixins' as m;
+@use 'sass:color';
 
 .rec {
   // ── En-tête de section ──────────────────────────────────────────────────
@@ -79,7 +80,7 @@
     .rec__card--level-up  & { background: rgba(v.$primary, 0.1);       color: v.$primary;       }
     .rec__card--practice  & { background: rgba(v.$accent-orange, 0.1); color: v.$accent-orange; }
     .rec__card--try-new   & { background: rgba(v.$secondary, 0.1);     color: v.$secondary;     }
-    .rec__card--diversify & { background: rgba(v.$accent, 0.15);       color: darken(v.$accent, 20%); }
+    .rec__card--diversify & { background: rgba(v.$accent, 0.15);       color: color.adjust(v.$accent, $lightness: -20%); }
   }
 
   &__card-type-label {
@@ -91,7 +92,7 @@
     .rec__card--level-up  & { color: v.$primary;       }
     .rec__card--practice  & { color: v.$accent-orange; }
     .rec__card--try-new   & { color: v.$secondary;     }
-    .rec__card--diversify & { color: darken(v.$accent, 20%); }
+    .rec__card--diversify & { color: color.adjust(v.$accent, $lightness: -20%); }
   }
 
   // ── Corps carte ─────────────────────────────────────────────────────────
@@ -142,7 +143,7 @@
     .rec__card--level-up  & { background: v.$primary;       color: v.$white; }
     .rec__card--practice  & { background: v.$accent-orange; color: v.$white; }
     .rec__card--try-new   & { background: v.$secondary;     color: v.$white; }
-    .rec__card--diversify & { background: darken(v.$accent, 15%); color: v.$white; }
+    .rec__card--diversify & { background: color.adjust(v.$accent, $lightness: -15%); color: v.$white; }
 
     &:hover { opacity: 0.85; }
   }

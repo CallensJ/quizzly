@@ -23,7 +23,8 @@
   // ── Header ───────────────────────────────────────────────────────────────
 
   &__header {
-    @include m.gradient-primary;
+    // Fallback — écrasé par le style inline de QuizScreen.tsx avec la couleur de catégorie.
+    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
     @include m.flex-column;
     gap: v.$spacing-md;
     padding: v.$spacing-lg;

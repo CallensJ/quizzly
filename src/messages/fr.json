@@ -30,7 +30,7 @@
     "dailyPlay": "Jouer maintenant →",
     "challengesBannerLabel": "Mode Défi ⚔️",
     "challengesBannerSub": "Défie tes amis !",
-    "premiumTitle": "Bientôt disponible",
+    "premiumTitle": "Contenu Premium",
     "premiumTag": "Premium",
     "premiumLocked": "Contenu premium — bientôt disponible",
     "sport": "Sport",
@@ -45,7 +45,15 @@
     "espace": "Espace & Astronomie",
     "languesTitle": "Langues",
     "langueFr": "Français",
-    "langueEn": "Anglais"
+    "langueEn": "Anglais",
+    "comingSoonTitle": "Bientôt disponible",
+    "comingSoonTag": "À venir",
+    "comingSoonFree": "Gratuit",
+    "animaux": "Animaux & Nature",
+    "corpsHumain": "Corps humain",
+    "musique": "Musique",
+    "environnement": "Environnement",
+    "dinosaures": "Dinosaures"
   },
   "quiz": {
     "question": "Question {current} / {total}",

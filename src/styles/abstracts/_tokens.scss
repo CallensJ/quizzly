@@ -31,6 +31,13 @@
   --color-cat-langue-fr:  #{v.$cat-langue-fr};
   --color-cat-langue-en:  #{v.$cat-langue-en};
 
+  // Catégories "Bientôt disponible"
+  --color-cat-animaux:    #{v.$cat-animaux};
+  --color-cat-corps:      #{v.$cat-corps};
+  --color-cat-musique:    #{v.$cat-musique};
+  --color-cat-enviro:     #{v.$cat-enviro};
+  --color-cat-dino:       #{v.$cat-dino};
+
   // Fond & texte
   --color-bg:            #{v.$bg};
   --color-foreground:    #{v.$foreground};

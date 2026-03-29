@@ -5,6 +5,7 @@
 
 @use '../abstracts/variables' as v;
 @use '../abstracts/mixins' as m;
+@use 'sass:color';
 
 .profiles {
   min-height: 100dvh;
@@ -204,7 +205,7 @@
     justify-content: center;
 
     &:hover {
-      background: darken(v.$bg, 5%);
+      background: color.adjust(v.$bg, $lightness: -5%);
     }
   }
 
@@ -288,7 +289,7 @@
     cursor: pointer;
 
     &:hover {
-      background: darken(v.$bg, 4%);
+      background: color.adjust(v.$bg, $lightness: -4%);
     }
   }
 

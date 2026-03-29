@@ -38,7 +38,8 @@
       top: 0;
       align-self: flex-start;
 
-      // Gradient vertical — reprend l'identité visuelle principale
+      // Gradient vertical — écrasé par le style inline de AppLayout.tsx avec la couleur
+      // de la catégorie en cours. Cette règle sert de fallback si le composant ne se monte pas.
       background: linear-gradient(180deg, v.$primary 0%, v.$primary-dark 100%);
       color: v.$white;
       padding: v.$spacing-xl v.$spacing-lg;

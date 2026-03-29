@@ -26,6 +26,7 @@ import { ArrowLeft, BarChart2, BookOpen, Trophy } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { getCategoryAvg } from '@/lib/goals';
+import { getCategoryColor } from '@/lib/categories';
 import type { Category, Difficulty, GoalCategory } from '@/types';
 import {
   BarChart,
@@ -41,13 +42,8 @@ import {
 
 // ─── Constantes ─────────────────────────────────────────────────────────────
 
-// Couleurs issues du design system
-const CAT_COLORS: Record<Category, string> = {
-  sciences: '#2196F3',
-  histoire: '#795548',
-  heroes:   '#E91E63',
-  math:     '#FF9800',
-};
+// Couleurs de difficulté — cohérentes avec le design system
+
 
 const DIFF_COLORS: Record<Difficulty, string> = {
   easy:   '#4CAF50',
@@ -97,7 +93,7 @@ export default function StatsScreen() {
         name: shortDate(s.playedAt),
         score: pct(s.score, s.totalQuestions),
         // couleur de barre selon la catégorie de la session
-        fill: CAT_COLORS[s.category],
+        fill: getCategoryColor(s.category),
         // index pour tooltip unique
         index: i,
       }));
@@ -230,7 +226,7 @@ export default function StatsScreen() {
                     <div className="stats__cat-header">
                       <span
                         className="stats__cat-dot"
-                        style={{ background: CAT_COLORS[cat] }}
+                        style={{ background: getCategoryColor(cat) }}
                         aria-hidden="true"
                       />
                       <span className="stats__cat-name">{t(cat as 'sciences' | 'histoire' | 'heroes')}</span>
@@ -246,7 +242,7 @@ export default function StatsScreen() {
                         className="stats__cat-bar-fill"
                         style={{
                           width: `${avg ?? 0}%`,
-                          background: CAT_COLORS[cat],
+                          background: getCategoryColor(cat),
                         }}
                       />
                     </div>
@@ -269,7 +265,7 @@ export default function StatsScreen() {
                         <div className="stats__goals-header">
                           <span
                             className="stats__goals-dot"
-                            style={{ background: CAT_COLORS[cat as Category] }}
+                            style={{ background: getCategoryColor(cat) }}
                             aria-hidden="true"
                           />
                           <span className="stats__goals-name">

@@ -17,6 +17,7 @@
   // ── Barre de navigation ──────────────────────────────────────────────────
 
   &__header {
+    // Fallback — écrasé par le style inline de HomeScreen.tsx avec la couleur de catégorie sélectionnée.
     @include m.gradient-primary;
     display: flex;
     align-items: center;
@@ -236,11 +237,73 @@
     line-height: 1.4;
   }
 
-  // Grille spéciale pour les 2 cartes Langues — 2 colonnes, même comportement responsive
-  &__langues {
+  // ── Section "Bientôt disponible" ────────────────────────────────────────
+
+  // Badge "À venir" — pastille foncée sobre, distinct du badge Premium
+  &__coming-soon-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    background: v.$foreground;
+    color: v.$white;
+    font-size: 0.7rem;
+    font-weight: 800;
+    border-radius: v.$radius-full;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    flex-shrink: 0;
+  }
+
+  // Grille compacte — cartes plus petites pour signifier "pas encore là"
+  &__coming-soon-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr));
-    gap: v.$spacing-md;
+    grid-template-columns: repeat(auto-fill, minmax(min(130px, 100%), 1fr));
+    gap: v.$spacing-sm;
+  }
+
+  // Carte "Bientôt" — bordure pointillée couleur catégorie, légèrement atténuée
+  &__coming-soon-card {
+    position: relative;
+    @include m.flex-column;
+    align-items: center;
+    gap: v.$spacing-xs;
+    padding: v.$spacing-md v.$spacing-sm;
+    background: v.$white;
+    // Bordure pointillée teintée de la couleur catégorie — signal visuel "en cours"
+    border: 2px dashed color-mix(in srgb, var(--cat-color) 45%, transparent);
+    border-radius: v.$radius-lg;
+    text-align: center;
+    opacity: 0.68;
+    pointer-events: none;
+
+    // Icône légèrement atténuée pour renforcer l'effet "à venir"
+    .home__cat-icon {
+      opacity: 0.8;
+    }
+  }
+
+  // Emoji 🚀 positionné en haut à droite — indicateur visuel "bientôt"
+  &__coming-soon-badge {
+    position: absolute;
+    top: v.$spacing-xs;
+    right: v.$spacing-xs;
+    font-size: 0.85rem;
+    line-height: 1;
+  }
+
+  // Badge "Gratuit" — indique que la catégorie sera gratuite à sa sortie
+  &__coming-soon-free {
+    position: absolute;
+    top: -1px;
+    left: v.$spacing-sm;
+    background: v.$secondary;
+    color: v.$white;
+    font-size: 0.6rem;
+    font-weight: 800;
+    padding: 2px 7px;
+    border-radius: 0 0 v.$radius-sm v.$radius-sm;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
   }
 
   // ── Boutons de difficulté ────────────────────────────────────────────────
@@ -474,9 +537,9 @@
         grid-template-columns: 1fr 1fr 1fr;
       }
 
-      // Langues : 2 cartes larges côte à côte dans la colonne gauche
-      .home__langues {
-        grid-template-columns: 1fr 1fr;
+      // Coming soon : 5 cartes sur une ligne (grille compacte)
+      .home__coming-soon-grid {
+        grid-template-columns: repeat(5, 1fr);
       }
     }
 

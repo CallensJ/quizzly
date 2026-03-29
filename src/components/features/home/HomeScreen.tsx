@@ -19,6 +19,7 @@ import {
   Trophy, Globe, Palette, Film, Scale,
   Calculator, ChefHat, Cpu, Sparkles, Rocket, BookA,
   Sun, Flame, ChevronRight,
+  PawPrint, Heart, Music2, Leaf, Bone,
 } from 'lucide-react';
 import { buildAvatarUrl, type AvatarStyle } from '@/lib/avatars';
 import { useRouter, usePathname } from '@/i18n/navigation';
@@ -26,6 +27,7 @@ import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
 import { fetchQuestions, prewarmQuestionsCache } from '@/lib/questions';
 import { getDailyDateString } from '@/lib/daily';
+import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
 import type { Category, Difficulty, Locale } from '@/types';
 
 
@@ -49,7 +51,7 @@ const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = 
   },
 ];
 
-// Catégories premium verrouillées — UI uniquement, pas de questions pour l'instant (MVP 4)
+// Catégories premium verrouillées — Français + Anglais fusionnés dans la même grille
 const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string }[] = [
   { i18nKey: 'sport',          icon: <Trophy    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-sport)' },
   { i18nKey: 'geographie',     icon: <Globe     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-geography)' },
@@ -61,12 +63,18 @@ const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: st
   { i18nKey: 'technologie',    icon: <Cpu       size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-techno)' },
   { i18nKey: 'mythologie',     icon: <Sparkles  size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-mythologie)' },
   { i18nKey: 'espace',         icon: <Rocket    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-espace)' },
+  { i18nKey: 'langueFr',       icon: <BookA     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-fr)' },
+  { i18nKey: 'langueEn',       icon: <BookA     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-en)' },
 ];
 
-// Section spéciale "Langues" — deux sous-cartes verrouillées (Français + Anglais)
-const LANGUE_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string }[] = [
-  { i18nKey: 'langueFr', icon: <BookA size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-fr)' },
-  { i18nKey: 'langueEn', icon: <BookA size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-en)' },
+// Catégories "Bientôt disponible" — en cours de préparation, pas encore jouables
+// free: true → sera gratuit à la sortie (sinon premium)
+const COMING_SOON_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string; free?: boolean }[] = [
+  { i18nKey: 'animaux',        icon: <PawPrint  size={30} strokeWidth={1.5} />, colorVar: 'var(--color-cat-animaux)', free: true },
+  { i18nKey: 'corpsHumain',    icon: <Heart     size={30} strokeWidth={1.5} />, colorVar: 'var(--color-cat-corps)' },
+  { i18nKey: 'musique',        icon: <Music2    size={30} strokeWidth={1.5} />, colorVar: 'var(--color-cat-musique)' },
+  { i18nKey: 'environnement',  icon: <Leaf      size={30} strokeWidth={1.5} />, colorVar: 'var(--color-cat-enviro)' },
+  { i18nKey: 'dinosaures',     icon: <Bone      size={30} strokeWidth={1.5} />, colorVar: 'var(--color-cat-dino)' },
 ];
 
 const DIFFICULTIES: Difficulty[] = ['easy', 'medium', 'hard'];
@@ -90,6 +98,8 @@ export default function HomeScreen() {
   const alreadyPlayedToday   = dailyLastDate === getDailyDateString();
 
   const { category, difficulty, setCategory, setDifficulty, startQuiz } = useQuizStore();
+  const headerColor     = getCategoryColor(category);
+  const headerColorDark = getCategoryColorDark(category);
 
   const [loading, setLoading] = useState(false);
   const [fetchError, setFetchError] = useState(false);
@@ -138,7 +148,10 @@ export default function HomeScreen() {
     <div className="home">
 
       {/* ── Barre de navigation ────────────────────────────────────────────── */}
-      <header className="home__header">
+      <header
+        className="home__header"
+        style={{ background: `linear-gradient(135deg, ${headerColor}, ${headerColorDark})` }}
+      >
         <h1 className="home__greeting">
           {/* Salutation personnalisée avec le pseudo */}
           Salut, <span>{profile?.pseudo}</span> !
@@ -268,25 +281,30 @@ export default function HomeScreen() {
           </div>
         </section>
 
-        {/* ── Section spéciale Langues (premium) ───────────────────────────── */}
-        <section className="home__section home__section--langues">
+        {/* ── Bientôt disponible (5 nouvelles catégories) ──────────────────── */}
+        <section className="home__section">
           <div className="home__section-header">
-            <h2 className="home__section-title">{t('languesTitle')}</h2>
-            <span className="home__premium-tag">{t('premiumTag')}</span>
+            <h2 className="home__section-title">{t('comingSoonTitle')}</h2>
+            <span className="home__coming-soon-tag">{t('comingSoonTag')}</span>
           </div>
-          <div className="home__langues">
-            {LANGUE_CATEGORIES.map(({ i18nKey, icon, colorVar }) => (
+          <div className="home__coming-soon-grid">
+            {COMING_SOON_CATEGORIES.map(({ i18nKey, icon, colorVar, free }) => (
               <div
                 key={i18nKey}
-                className="home__cat-card home__cat-card--locked home__cat-card--langue"
+                className="home__coming-soon-card"
                 style={{ '--cat-color': colorVar } as React.CSSProperties}
-                aria-label={`${t(i18nKey)} — ${t('premiumLocked')}`}
+                aria-label={`${t(i18nKey)} — ${t('comingSoonTag')}`}
               >
+                {free && (
+                  <span className="home__coming-soon-free" aria-hidden="true">
+                    {t('comingSoonFree')}
+                  </span>
+                )}
+                <span className="home__coming-soon-badge" aria-hidden="true">
+                  🚀
+                </span>
                 <span className="home__cat-icon">{icon}</span>
                 <span className="home__cat-name">{t(i18nKey)}</span>
-                <span className="home__cat-lock" aria-hidden="true">
-                  <Lock size={18} strokeWidth={2.5} />
-                </span>
               </div>
             ))}
           </div>

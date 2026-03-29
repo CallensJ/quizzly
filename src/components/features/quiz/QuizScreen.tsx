@@ -23,6 +23,7 @@ import { useProfileStore } from '@/stores/profileStore';
 import Nova, { type NovaState } from '@/components/ui/Nova';
 import { playSound } from '@/lib/sound';
 import { getNewlyEarnedBadges } from '@/lib/badges';
+import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
 import type { AnswerKey } from '@/types';
 
 // Ordre fixe d'affichage des boutons réponse
@@ -188,6 +189,10 @@ export default function QuizScreen() {
 
   if (!question || status !== 'playing') return null;
 
+  // Couleurs de la catégorie courante — injectées en CSS vars pour le header et la progress bar
+  const catColor     = getCategoryColor(category);
+  const catColorDark = getCategoryColorDark(category);
+
   // ── Helpers ─────────────────────────────────────────────────────────────
 
   /**
@@ -220,7 +225,10 @@ export default function QuizScreen() {
       />
 
       {/* ── Header : progression + métadonnées ───────────────────────────── */}
-      <header className="quiz__header">
+      <header
+        className="quiz__header"
+        style={{ background: `linear-gradient(135deg, ${catColor}, ${catColorDark})` }}
+      >
         <div className="quiz__header-top">
           <span className="quiz__cat-label">
             {category === 'sciences' ? '🔬' : '📜'} {tHome(category!)}

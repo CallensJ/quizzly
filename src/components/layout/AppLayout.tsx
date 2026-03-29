@@ -16,9 +16,11 @@
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
+import { useQuizStore } from '@/stores/quizStore';
 import { Star, Trophy, Gamepad2, Swords, Sun, Flame, Users } from 'lucide-react';
 import { buildAvatarUrl } from '@/lib/avatars';
 import { getDailyDateString, getTitleForXp } from '@/lib/daily';
+import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
 import type { AvatarStyle } from '@/lib/avatars';
 
 interface AppLayoutProps {
@@ -37,6 +39,11 @@ export default function AppLayout({ children }: AppLayoutProps) {
   const dailyLastDate        = useProfileStore((s) => s.dailyLastDate);
   const alreadyPlayedToday   = dailyLastDate === getDailyDateString();
 
+  // Catégorie du quiz en cours — colore la sidebar avec la couleur de catégorie
+  const quizCategory    = useQuizStore((s) => s.category);
+  const sidebarColor    = getCategoryColor(quizCategory);
+  const sidebarColorDark = getCategoryColorDark(quizCategory);
+
   // Pas de profil → on passe les enfants tel quel (garde assurée par les pages)
   if (!profile) return <>{children}</>;
 
@@ -49,7 +56,12 @@ export default function AppLayout({ children }: AppLayoutProps) {
     <div className="app-layout">
 
       {/* ── Sidebar (visible uniquement sur desktop ≥ 1024px) ──────────────── */}
-      <aside className="app-layout__sidebar" aria-label={t('sidebarLabel')}>
+      {/* background calculé directement en JS — plus fiable que CSS custom properties via inline style */}
+      <aside
+        className="app-layout__sidebar"
+        aria-label={t('sidebarLabel')}
+        style={{ background: `linear-gradient(180deg, ${sidebarColor} 0%, ${sidebarColorDark} 100%)` }}
+      >
 
         {/* Logo */}
         <div className="app-layout__logo">
