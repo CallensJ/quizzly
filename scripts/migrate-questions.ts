@@ -46,6 +46,8 @@ const FILES = [
   { path: 'src/data/questions/en/heroes.json',   category: 'heroes',   locale: 'en' },
   { path: 'src/data/questions/fr/math.json',     category: 'math',     locale: 'fr' },
   { path: 'src/data/questions/en/math.json',     category: 'math',     locale: 'en' },
+  { path: 'src/data/questions/fr/francais.json', category: 'francais', locale: 'fr' },
+  { path: 'src/data/questions/fr/sport.json',    category: 'sport',    locale: 'fr' },
 ] as const;
 
 // ─── Types ────────────────────────────────────────────────────────────────────
