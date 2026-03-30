@@ -24,7 +24,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { ArrowLeft, Target, Trash2, RotateCcw, BarChart3, Mail, LogOut, Swords, Users, UserPlus, Check, TrendingUp } from 'lucide-react';
+import { ArrowLeft, Target, Trash2, RotateCcw, BarChart3, Mail, LogOut, Swords, Users, UserPlus, Check, TrendingUp, Crown, CreditCard, Zap } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useAuthStore } from '@/stores/authStore';
@@ -34,6 +34,8 @@ import { buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
 import ReportSection from './ReportSection';
 import GoalsSection from './GoalsSection';
+import { useSubscription } from '@/hooks/useSubscription';
+import { usePortal } from '@/hooks/usePortal';
 
 // Validation basique d'une adresse email
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -57,6 +59,8 @@ export default function AdminScreen() {
 
   // Auth Supabase — utilisateur connecté
   const authUser = useAuthStore((s) => s.user);
+  const { isPremium, status: subStatus } = useSubscription();
+  const { openPortal, loading: portalLoading, error: portalError } = usePortal();
 
   const multiplayerUnlocked    = useProfileStore((s) => s.multiplayerUnlocked);
   const setMultiplayerUnlocked = useProfileStore((s) => s.setMultiplayerUnlocked);
@@ -170,6 +174,45 @@ export default function AdminScreen() {
       </header>
 
       <main className="admin__body">
+
+        {/* ── Abonnement Premium ──────────────────────────────────────────── */}
+        <section className="admin__section admin__section--subscription" aria-labelledby="admin-sub-title">
+          <div className="admin__section-header">
+            <Crown size={18} strokeWidth={2} aria-hidden="true" />
+            <h2 id="admin-sub-title" className="admin__section-title">{t('subTitle')}</h2>
+          </div>
+
+          {isPremium ? (
+            <div className="admin__sub-active">
+              <p className="admin__sub-status admin__sub-status--active">{t('subActive')}</p>
+              <p className="admin__sub-plan">
+                {subStatus === 'trialing' ? t('subTrialing') : t('subRenews')}
+              </p>
+              <button
+                type="button"
+                className="admin__sub-manage-btn"
+                onClick={openPortal}
+                disabled={portalLoading}
+              >
+                <CreditCard size={16} />
+                {portalLoading ? t('subManageLoading') : t('subManage')}
+              </button>
+              {portalError && <p className="admin__error">{portalError}</p>}
+            </div>
+          ) : (
+            <div className="admin__sub-inactive">
+              <p className="admin__section-desc">{t('subDesc')}</p>
+              <button
+                type="button"
+                className="admin__sub-upgrade-btn"
+                onClick={() => router.push('/subscribe')}
+              >
+                <Zap size={16} />
+                {t('subUpgrade')}
+              </button>
+            </div>
+          )}
+        </section>
 
         {/* ── Stats enfant (lecture seule) ────────────────────────────────── */}
         <section className="admin__section admin__section--stats" aria-labelledby="admin-stats-title">

@@ -1053,6 +1053,76 @@
     }
   }
 
+  // ── Section abonnement ────────────────────────────────────────────────────
+
+  &__sub-active,
+  &__sub-inactive {
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-sm;
+  }
+
+  &__sub-status {
+    font-size: 0.875rem;
+    font-weight: 700;
+
+    &--active { color: v.$secondary; }
+  }
+
+  &__sub-plan {
+    font-size: 0.8rem;
+    color: v.$text-muted;
+  }
+
+  &__sub-manage-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.6rem 1rem;
+    background: none;
+    border: 1.5px solid v.$primary;
+    border-radius: v.$radius-md;
+    color: v.$primary;
+    font-size: 0.875rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    align-self: flex-start;
+
+    &:hover:not(:disabled) {
+      background: v.$primary;
+      color: #fff;
+    }
+
+    &:disabled { opacity: 0.6; cursor: not-allowed; }
+  }
+
+  &__sub-upgrade-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.65rem 1.25rem;
+    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    border: none;
+    border-radius: v.$radius-md;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.15s;
+    align-self: flex-start;
+
+    &:hover {
+      opacity: 0.88;
+      transform: translateY(-1px);
+    }
+  }
+
+  &__error {
+    font-size: 0.8rem;
+    color: v.$error;
+  }
+
   // ── Animations ─────────────────────────────────────────────────────────────
 
   @keyframes pin-overlay-in {

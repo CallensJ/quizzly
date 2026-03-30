@@ -13,10 +13,16 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: "2025-02-24.acacia",
 });
 
-// Client anon — utilisé uniquement pour vérifier le JWT entrant
+// Client anon — vérifie le JWT entrant
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+);
+
+// Client admin — lit la table subscriptions pour récupérer le stripe_customer_id existant
+const supabaseAdmin = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.SUPABASE_SERVICE_ROLE_KEY!
 );
 
 export async function POST(req: NextRequest) {
@@ -29,9 +35,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Non authentifié" }, { status: 401 });
     }
 
-    const {
-      data: { user },
-    } = await supabase.auth.getUser(token);
+    const { data: { user } } = await supabase.auth.getUser(token);
 
     if (!user) {
       return NextResponse.json({ error: "Non authentifié" }, { status: 401 });
@@ -39,17 +43,28 @@ export async function POST(req: NextRequest) {
 
     // 2. Récupère l'interval choisi (monthly ou yearly)
     const { interval } = await req.json();
-
     const priceId =
       interval === "yearly"
         ? process.env.STRIPE_PRICE_YEARLY!
         : process.env.STRIPE_PRICE_MONTHLY!;
 
-    // 3. Crée la session Checkout Stripe
+    // 3. Réutilise le stripe_customer_id existant si l'utilisateur a déjà souscrit
+    //    → évite la création de clients en double dans Stripe
+    const { data: existing } = await supabaseAdmin
+      .from("subscriptions")
+      .select("stripe_customer_id")
+      .eq("user_id", user.id)
+      .maybeSingle();
+
+    const customerParam = existing?.stripe_customer_id
+      ? { customer: existing.stripe_customer_id }
+      : { customer_email: user.email };
+
+    // 4. Crée la session Checkout Stripe
     const session = await stripe.checkout.sessions.create({
       mode: "subscription",
       payment_method_types: ["card"],
-      customer_email: user.email,
+      ...customerParam,
       line_items: [{ price: priceId, quantity: 1 }],
       success_url: `${process.env.NEXT_PUBLIC_APP_URL}/subscribe/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${process.env.NEXT_PUBLIC_APP_URL}/subscribe/cancel`,

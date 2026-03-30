@@ -131,15 +131,16 @@ export default function HomeScreen() {
     setLoading(true);
     setFetchError(false);
     try {
-      // Récupère les questions — le pool de difficultés est adapté à la tranche d'âge du profil
-      // (Option A : 6-9 ans → pool plus doux, 10-13 ans → pool plus exigeant, cf. questions.ts)
       const pool = await fetchQuestions(category!, locale as Locale, difficulty!);
-      // Sécurité : ne pas démarrer un quiz vide (ne devrait pas arriver si le cache est correct)
       if (!pool.length) throw new Error('Pool vide — aucune question disponible pour cette difficulté');
       startQuiz(pool);
       router.push('/quiz');
-    } catch {
-      // Échec réseau sans cache — affiche un message d'erreur à l'utilisateur
+    } catch (err) {
+      // RLS Supabase → 0 questions retournées pour une catégorie premium sans abonnement
+      if ((err as Error & { code?: string }).code === 'PREMIUM_REQUIRED') {
+        router.push('/subscribe');
+        return;
+      }
       setFetchError(true);
     } finally {
       setLoading(false);

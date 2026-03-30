@@ -28,17 +28,19 @@ import type { Category, Difficulty, Locale, Question } from '@/types';
 // Ces imports statiques garantissent que les fichiers sont inclus dans le bundle
 // et disponibles offline sans réseau ni cache IndexedDB.
 //
-// Les imports JSON webpack retournent { default: <contenu JSON> } — pas de cast direct.
-// On laisse le type inféré et on accède à .default dans loadLocalJSON.
+// IMPORTANT — double protection premium :
+//   Seules les catégories GRATUITES sont bundlées ici pour le fallback offline.
+//   Les catégories premium (math, sport, geographie, francais…) ne sont PAS incluses —
+//   elles ne sont accessibles que via Supabase + RLS (abonnement actif requis).
+//   Les fichiers JSON premium existent dans src/data/ uniquement pour le script
+//   de migration Supabase (scripts/migrate-questions.ts).
 const LOCAL_JSON_MAP: Partial<Record<string, () => Promise<unknown>>> = {
   'fr/sciences': () => import('../data/questions/fr/sciences.json'),
   'fr/histoire': () => import('../data/questions/fr/histoire.json'),
   'fr/heroes':   () => import('../data/questions/fr/heroes.json'),
-  'fr/math':     () => import('../data/questions/fr/math.json'),
   'en/sciences': () => import('../data/questions/en/sciences.json'),
   'en/histoire': () => import('../data/questions/en/histoire.json'),
   'en/heroes':   () => import('../data/questions/en/heroes.json'),
-  'en/math':     () => import('../data/questions/en/math.json'),
 };
 
 async function loadLocalJSON(
@@ -163,6 +165,7 @@ export async function fetchQuestions(
 
   // 2. Fetch Supabase — toutes les difficultés de ce (category, locale)
   //    Un seul appel réseau → tout mis en cache pour les requêtes suivantes
+  //    La RLS retourne 0 lignes (pas d'erreur explicite) si l'abonnement est inactif.
   try {
     const { data, error } = await supabase
       .from('questions')
@@ -171,7 +174,13 @@ export async function fetchQuestions(
       .eq('locale', locale);
 
     if (error) throw new Error(error.message);
-    if (!data || data.length === 0) throw new Error('No questions found');
+    // 0 lignes = catégorie premium sans abonnement actif (RLS silencieuse)
+    // On lève une erreur typée pour que l'UI puisse afficher le bon message.
+    if (!data || data.length === 0) {
+      const err = new Error('No questions found') as Error & { code?: string };
+      err.code = 'PREMIUM_REQUIRED';
+      throw err;
+    }
 
     const questions = (data as QuestionRow[]).map(rowToQuestion);
     await setCache(category, locale, questions);
@@ -209,7 +218,9 @@ export async function fetchQuestions(
 export async function prewarmQuestionsCache(): Promise<void> {
   if (typeof window === 'undefined' || !navigator.onLine) return;
 
-  const categories: Category[] = ['sciences', 'histoire', 'heroes', 'math'];
+  // Seules les catégories gratuites sont pré-chargées — les catégories premium
+  // sont chargées à la demande (fetchQuestions) uniquement si l'utilisateur est abonné.
+  const categories: Category[] = ['sciences', 'histoire', 'heroes'];
   const locales: Locale[] = ['fr', 'en'];
 
   await Promise.allSettled(
