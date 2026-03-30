@@ -174,7 +174,31 @@
     }
   }
 
-  // Texte d'aide premium — incite à s'abonner
+  // Bannière CTA premium — bouton pleine largeur sous le titre "Premium"
+  &__premium-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.65rem 1rem;
+    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    color: v.$white;
+    font-size: 0.875rem;
+    font-weight: 800;
+    border: none;
+    border-radius: v.$radius-lg;
+    cursor: pointer;
+    margin-bottom: v.$spacing-sm;
+    transition: opacity 0.2s, transform 0.15s;
+
+    &:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+  }
+
+  // Texte d'aide premium — conservé pour rétro-compat éventuelle
   &__avatar-premium-hint {
     font-size: v.$font-size-sm;
     font-weight: 600;

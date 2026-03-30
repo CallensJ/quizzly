@@ -13,7 +13,9 @@
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
 // Identifiants de catégorie — correspondent aux noms de fichiers JSON (data/questions/{lang}/{category}.json)
-export type Category = 'sciences' | 'histoire' | 'heroes' | 'math';
+// Catégories gratuites : sciences, histoire, heroes
+// Catégories premium avec contenu disponible : math, sport, geographie, francais
+export type Category = 'sciences' | 'histoire' | 'heroes' | 'math' | 'sport' | 'geographie' | 'francais';
 
 // Catégories ayant des objectifs de score configurables (gratuites jouables)
 export type GoalCategory = Exclude<Category, 'math'>;

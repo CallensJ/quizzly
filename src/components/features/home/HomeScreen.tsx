@@ -28,6 +28,7 @@ import { useQuizStore } from '@/stores/quizStore';
 import { fetchQuestions, prewarmQuestionsCache } from '@/lib/questions';
 import { getDailyDateString } from '@/lib/daily';
 import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
+import { useSubscription } from '@/hooks/useSubscription';
 import type { Category, Difficulty, Locale } from '@/types';
 
 
@@ -51,19 +52,19 @@ const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = 
   },
 ];
 
-// Catégories premium verrouillées — Français + Anglais fusionnés dans la même grille
-const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string }[] = [
-  { i18nKey: 'sport',          icon: <Trophy    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-sport)' },
-  { i18nKey: 'geographie',     icon: <Globe     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-geography)' },
+// Catégories premium — id défini pour celles qui ont des questions disponibles (jouables si premium)
+const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string; id?: Category }[] = [
+  { i18nKey: 'sport',          icon: <Trophy    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-sport)',       id: 'sport' },
+  { i18nKey: 'geographie',     icon: <Globe     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-geography)',   id: 'geographie' },
+  { i18nKey: 'mathematiques',  icon: <Calculator size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-maths)',     id: 'math' },
+  { i18nKey: 'langueFr',       icon: <BookA     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-fr)',  id: 'francais' },
   { i18nKey: 'art',            icon: <Palette   size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-art)' },
   { i18nKey: 'culturePop',     icon: <Film      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-culture)' },
   { i18nKey: 'civique',        icon: <Scale     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-civique)' },
-  { i18nKey: 'mathematiques',  icon: <Calculator size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-maths)' },
   { i18nKey: 'cuisine',        icon: <ChefHat   size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-cuisine)' },
   { i18nKey: 'technologie',    icon: <Cpu       size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-techno)' },
   { i18nKey: 'mythologie',     icon: <Sparkles  size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-mythologie)' },
   { i18nKey: 'espace',         icon: <Rocket    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-espace)' },
-  { i18nKey: 'langueFr',       icon: <BookA     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-fr)' },
   { i18nKey: 'langueEn',       icon: <BookA     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-en)' },
 ];
 
@@ -96,6 +97,7 @@ export default function HomeScreen() {
   const dailyLastDate       = useProfileStore((s) => s.dailyLastDate);
   const multiplayerUnlocked = useProfileStore((s) => s.multiplayerUnlocked);
   const alreadyPlayedToday   = dailyLastDate === getDailyDateString();
+  const { isPremium } = useSubscription();
 
   const { category, difficulty, setCategory, setDifficulty, startQuiz } = useQuizStore();
   const headerColor     = getCategoryColor(category);
@@ -254,30 +256,64 @@ export default function HomeScreen() {
           </div>
         </section>
 
-        {/* ── Catégories premium verrouillées ───────────────────────────────── */}
+        {/* ── Catégories premium ────────────────────────────────────────────── */}
         <section className="home__section">
           <div className="home__section-header">
             <h2 className="home__section-title">{t('premiumTitle')}</h2>
-            {/* Badge "Premium" visuel — indique clairement le contenu payant */}
-            <span className="home__premium-tag">{t('premiumTag')}</span>
+            {isPremium
+              ? <span className="home__premium-tag home__premium-tag--active">{t('premiumActive')}</span>
+              : (
+                <button
+                  className="home__premium-cta"
+                  onClick={() => router.push('/subscribe')}
+                >
+                  {t('premiumUpgrade')}
+                </button>
+              )
+            }
           </div>
           <div className="home__categories">
-            {PREMIUM_CATEGORIES.map(({ i18nKey, icon, colorVar }) => (
-              // div non-interactive — les catégories premium ne sont pas jouables (MVP 4)
-              <div
-                key={i18nKey}
-                className="home__cat-card home__cat-card--locked"
-                style={{ '--cat-color': colorVar } as React.CSSProperties}
-                aria-label={`${t(i18nKey)} — ${t('premiumLocked')}`}
-              >
-                <span className="home__cat-icon">{icon}</span>
-                <span className="home__cat-name">{t(i18nKey)}</span>
-                {/* Overlay cadenas — repositionné en absolu sur la carte */}
-                <span className="home__cat-lock" aria-hidden="true">
-                  <Lock size={18} strokeWidth={2.5} />
-                </span>
-              </div>
-            ))}
+            {PREMIUM_CATEGORIES.map(({ i18nKey, icon, colorVar, id }) => {
+              // Premium + questions disponibles → jouable comme une catégorie normale
+              const isPlayable = isPremium && !!id;
+              // Premium mais pas de questions encore → verrouillé même pour les abonnés
+              const isLocked = !isPremium || !id;
+
+              if (isPlayable && id) {
+                return (
+                  <button
+                    key={i18nKey}
+                    type="button"
+                    className={`home__cat-card${category === id ? ' home__cat-card--selected' : ''}`}
+                    style={{ '--cat-color': colorVar } as React.CSSProperties}
+                    onClick={() => setCategory(id)}
+                    aria-pressed={category === id}
+                    aria-label={t(i18nKey)}
+                  >
+                    <span className="home__cat-icon">{icon}</span>
+                    <span className="home__cat-name">{t(i18nKey)}</span>
+                  </button>
+                );
+              }
+
+              return (
+                // Non-premium ou pas de contenu → clic redirige vers /subscribe
+                <button
+                  key={i18nKey}
+                  type="button"
+                  className="home__cat-card home__cat-card--locked"
+                  style={{ '--cat-color': colorVar } as React.CSSProperties}
+                  aria-label={`${t(i18nKey)} — ${isLocked && !isPremium ? t('premiumLocked') : t('comingSoonTag')}`}
+                  onClick={() => !isPremium && router.push('/subscribe')}
+                >
+                  <span className="home__cat-icon">{icon}</span>
+                  <span className="home__cat-name">{t(i18nKey)}</span>
+                  <span className="home__cat-lock" aria-hidden="true">
+                    <Lock size={18} strokeWidth={2.5} />
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </section>
 

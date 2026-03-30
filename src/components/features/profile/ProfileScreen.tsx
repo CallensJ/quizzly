@@ -24,6 +24,7 @@ import type { Category, QuizSession } from '@/types';
 import { FREE_SEEDS, FREE_STYLE, PREMIUM_STYLES, buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
 import { BADGE_DEFINITIONS } from '@/lib/badges';
+import { useSubscription } from '@/hooks/useSubscription';
 
 /**
  * Calcule le meilleur score (en %) parmi toutes les sessions.
@@ -82,6 +83,7 @@ export default function ProfileScreen() {
   const earnedBadgeIds = useProfileStore((s) => s.earnedBadgeIds);
   const updateAvatar = useProfileStore((s) => s.updateAvatar);
   const authUser = useAuthStore((s) => s.user);
+  const { isPremium } = useSubscription();
   const timerEnabled = useProfileStore((s) => s.timerEnabled);
   const setTimerEnabled = useProfileStore((s) => s.setTimerEnabled);
   const soundEnabled = useProfileStore((s) => s.soundEnabled);
@@ -184,34 +186,57 @@ export default function ProfileScreen() {
               })}
             </div>
 
-            {/* Section premium — styles verrouillés, aperçu 4 avatars par style */}
+            {/* Section premium — déverrouillée si abonné, sinon redirige vers /subscribe */}
             <p className="profile__avatar-section-title profile__avatar-section-title--premium">
               <Crown size={14} aria-hidden="true" />
               {t('avatarPremium')}
             </p>
-            <p className="profile__avatar-premium-hint">{t('avatarPremiumHint')}</p>
+            {!isPremium && (
+              <button
+                className="profile__premium-banner"
+                onClick={() => router.push('/subscribe')}
+              >
+                <Crown size={16} aria-hidden="true" />
+                {t('avatarPremiumUpgrade')}
+              </button>
+            )}
 
             {PREMIUM_STYLES.map(({ style, label, seeds }) => (
               <div key={style} className="profile__avatar-premium-group">
                 <p className="profile__avatar-style-label">{label}</p>
                 <div className="profile__avatar-row">
-                  {/* 4 avatars en aperçu par style (sur 8 disponibles) */}
-                  {seeds.slice(0, 4).map((seed) => (
-                    <button
-                      key={seed}
-                      type="button"
-                      className="profile__avatar-option profile__avatar-option--locked"
-                      aria-label={`${seed} — ${t('avatarPremiumRequired')}`}
-                      aria-disabled="true"
-                      onClick={() => {/* verrouillé — débloqué avec un abonnement Premium (MVP 4) */}}
-                    >
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={buildAvatarUrl(seed, style)} alt="" width={60} height={60} loading="lazy" />
-                      <span className="profile__avatar-lock-icon" aria-hidden="true">
-                        <Lock size={16} />
-                      </span>
-                    </button>
-                  ))}
+                  {seeds.slice(0, isPremium ? 8 : 4).map((seed) => {
+                    const isActive = profile?.avatarId === seed && profile?.avatarStyle === style;
+                    return (
+                      <button
+                        key={seed}
+                        type="button"
+                        className={`profile__avatar-option${
+                          isPremium
+                            ? isActive ? ' profile__avatar-option--selected' : ''
+                            : ' profile__avatar-option--locked'
+                        }`}
+                        aria-label={isPremium ? seed : `${seed} — ${t('avatarPremiumRequired')}`}
+                        aria-pressed={isPremium ? isActive : undefined}
+                        aria-disabled={!isPremium}
+                        onClick={() => {
+                          if (isPremium) {
+                            updateAvatar(seed, style);
+                          } else {
+                            router.push('/subscribe');
+                          }
+                        }}
+                      >
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={buildAvatarUrl(seed, style)} alt="" width={60} height={60} loading="lazy" />
+                        {!isPremium && (
+                          <span className="profile__avatar-lock-icon" aria-hidden="true">
+                            <Lock size={16} />
+                          </span>
+                        )}
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
             ))}
