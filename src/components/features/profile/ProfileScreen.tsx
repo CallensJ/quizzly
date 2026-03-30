@@ -49,10 +49,13 @@ const CATEGORIES: { key: Category; emoji: string }[] = [
  */
 function statsByCategory(sessions: QuizSession[]): Record<Category, { games: number; best: number | null }> {
   const result: Record<Category, { games: number; best: number | null }> = {
-    sciences: { games: 0, best: null },
-    histoire:  { games: 0, best: null },
-    heroes:    { games: 0, best: null },
-    math:      { games: 0, best: null },
+    sciences:   { games: 0, best: null },
+    histoire:   { games: 0, best: null },
+    heroes:     { games: 0, best: null },
+    math:       { games: 0, best: null },
+    sport:      { games: 0, best: null },
+    geographie: { games: 0, best: null },
+    francais:   { games: 0, best: null },
   };
   for (const s of sessions) {
     result[s.category].games += 1;
