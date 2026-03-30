@@ -25,8 +25,8 @@ export default function DailyBanner() {
 
   return (
     <>
-      {/* Banner Défi quotidien */}
-      <section className="home__section">
+      {/* Banner Défi quotidien — home__section--daily permet le repositionnement desktop (col 2) */}
+      <section className="home__section home__section--daily">
         <button
           type="button"
           className={`home__daily-banner${alreadyPlayedToday ? ' home__daily-banner--done' : ''}`}

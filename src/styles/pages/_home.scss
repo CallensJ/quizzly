@@ -175,6 +175,18 @@
 
   // ── Cartes de catégories ─────────────────────────────────────────────────
 
+  // Animation d'entrée des cartes — fade + slide vers le haut
+  @keyframes home-cat-enter {
+    from {
+      opacity: 0;
+      transform: translateY(10px) scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
   &__categories {
     display: grid;
     // auto-fill + minmax : 2 colonnes sur mobile standard, wrap vers 1 col si < ~280px.
@@ -194,6 +206,13 @@
     border-radius: v.$radius-lg;
     box-shadow: v.$shadow-sm;
     text-align: center;
+    // Animation d'entrée échelonnée (0..11 → délais 0ms..275ms)
+    animation: home-cat-enter 0.3s ease both;
+    @for $i from 1 through 12 {
+      &:nth-child(#{$i}) {
+        animation-delay: #{($i - 1) * 0.035}s;
+      }
+    }
     transition:
       border-color v.$transition-base,
       transform v.$transition-base,
@@ -201,29 +220,32 @@
 
     &:hover {
       border-color: var(--cat-color);
-      transform: translateY(-3px);
+      transform: translateY(-4px);
       box-shadow: v.$shadow-md;
     }
 
-    // État sélectionné — bordure + fond teinté avec la couleur de catégorie
+    // État sélectionné — bordure + fond teinté + anneau lumineux
     &--active {
       border-color: var(--cat-color);
-      // Fond légèrement teinté de la couleur catégorie
       background: color-mix(in srgb, var(--cat-color) 8%, white);
-      transform: translateY(-3px);
-      box-shadow: v.$shadow-md;
+      transform: translateY(-4px);
+      box-shadow:
+        v.$shadow-md,
+        0 0 0 3px color-mix(in srgb, var(--cat-color) 30%, transparent);
     }
 
     @include m.focus-ring;
 
-    // Carte premium verrouillée — non interactive, visuellement atténuée
+    // Carte verrouillée (contenu pas encore disponible, même pour abonnés)
+    // pointer-events: none uniquement pour les cartes vraiment inaccessibles
     &--locked {
-      opacity: 0.55;
       cursor: default;
       pointer-events: none;
-      position: relative; // nécessaire pour l'overlay cadenas absolu
+      position: relative;
+      // Teinte douce — la couleur reste visible pour susciter l'envie
+      opacity: 0.72;
+      background: color-mix(in srgb, var(--cat-color) 5%, white);
 
-      // Supprime les effets hover hérités (sécurité pointer-events = none)
       &:hover {
         border-color: transparent;
         transform: none;
@@ -231,10 +253,42 @@
       }
     }
 
+    // Carte verrouillée mais cliquable → redirige vers /subscribe
+    // Visible pour les non-abonnés — icône cadenas animée au hover
+    &--locked-cta {
+      cursor: pointer;
+      pointer-events: auto;
+      position: relative;
+      opacity: 0.78;
+      background: color-mix(in srgb, var(--cat-color) 5%, white);
+      border: 3px dashed color-mix(in srgb, var(--cat-color) 40%, transparent);
+
+      &:hover {
+        opacity: 1;
+        border-style: solid;
+        border-color: color-mix(in srgb, var(--cat-color) 60%, transparent);
+        transform: translateY(-3px);
+        box-shadow: v.$shadow-md;
+
+        .home__cat-lock {
+          // L'icône cadenas se secoue légèrement pour signifier "déverrouillable"
+          animation: lock-shake 0.4s ease;
+        }
+      }
+    }
+
     // Variante compacte pour les sous-cartes Langues
     &--langue {
       padding: v.$spacing-md v.$spacing-md;
     }
+  }
+
+  // Animation secouer le cadenas au hover
+  @keyframes lock-shake {
+    0%, 100% { transform: rotate(0deg); }
+    20%       { transform: rotate(-8deg); }
+    60%       { transform: rotate(8deg); }
+    80%       { transform: rotate(-4deg); }
   }
 
   // Icône cadenas — positionnée en haut-droite de la carte
@@ -245,6 +299,7 @@
     color: v.$text-muted;
     display: flex;
     opacity: 0.8;
+    transition: color v.$transition-fast;
   }
 
   &__cat-icon {
@@ -288,6 +343,12 @@
     gap: v.$spacing-sm;
   }
 
+  // Shimmer — balayage lumineux de gauche à droite sur les cartes "bientôt"
+  @keyframes home-shimmer {
+    0%   { background-position: -200% center; }
+    100% { background-position: 200% center; }
+  }
+
   // Carte "Bientôt" — bordure pointillée couleur catégorie, légèrement atténuée
   &__coming-soon-card {
     position: relative;
@@ -300,8 +361,26 @@
     border: 2px dashed color-mix(in srgb, var(--cat-color) 45%, transparent);
     border-radius: v.$radius-lg;
     text-align: center;
-    opacity: 0.68;
+    opacity: 0.72;
     pointer-events: none;
+    overflow: hidden;
+
+    // Shimmer animé par-dessus la carte — effet "en préparation"
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        105deg,
+        transparent 40%,
+        rgba(255, 255, 255, 0.55) 50%,
+        transparent 60%
+      );
+      background-size: 200% 100%;
+      animation: home-shimmer 3.5s ease infinite;
+      border-radius: inherit;
+      pointer-events: none;
+    }
 
     // Icône légèrement atténuée pour renforcer l'effet "à venir"
     .home__cat-icon {
@@ -334,26 +413,27 @@
   }
 
   // ── Boutons de difficulté ────────────────────────────────────────────────
+  // Ligne horizontale de pills — compact, lisible sur mobile + desktop
 
   &__difficulties {
     display: flex;
-    // Colonnes sur mobile — plus lisible, cibles tactiles larges pour les enfants
-    flex-direction: column;
-    gap: v.$spacing-md;
+    flex-direction: row;
+    gap: v.$spacing-sm;
   }
 
   &__diff-btn {
     flex: 1;
-    min-height: v.$touch-target-lg;
+    min-height: v.$touch-target-min;
     border: 3px solid currentColor;
-    border-radius: v.$radius-md;
-    font-size: v.$font-size-base;
-    font-weight: 700;
+    border-radius: v.$radius-full; // pill
+    font-size: v.$font-size-sm;
+    font-weight: 800;
     background: v.$bg;
     transition:
       background v.$transition-fast,
       color v.$transition-fast,
-      transform v.$transition-fast;
+      transform v.$transition-fast,
+      box-shadow v.$transition-fast;
 
     // Couleurs par niveau de difficulté — cohérence avec le design system
     &--easy   { color: v.$secondary; }
@@ -361,17 +441,29 @@
     &--hard   { color: v.$hard; }
 
     &:hover {
-      transform: scale(1.03);
+      transform: scale(1.04);
     }
 
     // État sélectionné — fond plein couleur difficulté
     &--active {
       color: v.$white;
-      transform: scale(1.03);
+      transform: scale(1.04);
 
-      &.home__diff-btn--easy   { background: v.$secondary;     border-color: v.$secondary; }
-      &.home__diff-btn--medium { background: v.$accent-orange; border-color: v.$accent-orange; }
-      &.home__diff-btn--hard   { background: v.$hard;          border-color: v.$hard; }
+      &.home__diff-btn--easy {
+        background: v.$secondary;
+        border-color: v.$secondary;
+        box-shadow: 0 3px 12px rgba(v.$secondary, 0.4);
+      }
+      &.home__diff-btn--medium {
+        background: v.$accent-orange;
+        border-color: v.$accent-orange;
+        box-shadow: 0 3px 12px rgba(v.$accent-orange, 0.4);
+      }
+      &.home__diff-btn--hard {
+        background: v.$hard;
+        border-color: v.$hard;
+        box-shadow: 0 3px 12px rgba(v.$hard, 0.4);
+      }
     }
 
     @include m.focus-ring;
@@ -534,23 +626,23 @@
 
   // ── Desktop — Bento Grid (≥ 1024px) ────────────────────────────────────────
   //
-  // Sur desktop (AppLayout actif), le home adopte un layout bento 2 colonnes :
-  //   Col gauche (1fr) : toutes les sections de catégories (grilles 3-col uniformes)
-  //   Col droite (300px) : panneau sticky difficulté + Play
+  // Layout 2 colonnes :
+  //   Col gauche (1fr)   : sections catégories (grilles 3-4 cols)
+  //   Col droite (300px) : DailyBanner (row 1) + panneau sticky difficulté/Play (row 2+)
   //
-  // Avantage : les cartes free et premium ont la même taille (même colonne, même grid).
-  // display:contents sur .home__controls (mobile) → flex normal sur .home__body
+  // Pourquoi DailyBanner en col droite :
+  //   Sur mobile il est en haut de page (flux normal).
+  //   Sur desktop, le placer en col droite row 1 élimine le gap entre les catégories
+  //   et le panneau controls, et libère la col gauche pour les catégories dès row 1.
 
   @media (min-width: v.$bp-lg) {
 
     &__body {
       display: grid;
       grid-template-columns: 1fr 300px;
-      // Le body n'a plus de max-width — le parent AppLayout le contraint déjà
       max-width: none;
-      // Alignement en haut pour que le panneau droit ne s'étire pas
       align-items: start;
-      gap: v.$spacing-xl;
+      gap: v.$spacing-lg;
       padding: v.$spacing-xl;
     }
 
@@ -558,41 +650,59 @@
     &__section {
       grid-column: 1;
 
-      // Uniformisation des grilles : toutes en 3 colonnes
-      // → cartes free et premium identiques en taille
       .home__categories {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
       }
 
-      // Coming soon : 5 cartes sur une ligne (grille compacte)
+      // Coming soon : toutes les cartes sur une ligne (grille compacte)
       .home__coming-soon-grid {
         grid-template-columns: repeat(5, 1fr);
       }
     }
 
-    // Panneau de contrôle → colonne droite, sticky
+    // Section premium : 4 colonnes pour réduire le scroll (12 cartes → 3 rangées)
+    &__section--premium {
+      .home__categories {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    // DailyBanner → col droite, row 1 (au-dessus du panneau controls)
+    // Élimine le gap visuel entre banner et catégories sur desktop
+    &__section--daily {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    // Banner challenges mobile → masqué sur desktop (sidebar gère le lien)
+    &__section--challenges-mobile {
+      display: none;
+    }
+
+    // Panneau de contrôle → col droite, row 2 et suivants, sticky
     &__controls {
-      // Annule display:contents (mobile) — redevient un bloc normal
       display: flex;
       flex-direction: column;
       gap: v.$spacing-lg;
       grid-column: 2;
-      // Span toutes les lignes de la colonne droite (autant que la colonne gauche)
-      grid-row: 1 / -1;
-
-      // Panneau visuel "card" pour regrouper les contrôles
+      grid-row: 2 / -1;
       background: v.$white;
       border-radius: v.$radius-lg;
       padding: v.$spacing-xl v.$spacing-lg;
       box-shadow: v.$shadow-md;
-
-      // Sticky : reste visible lorsque l'utilisateur scrolle les catégories
       position: sticky;
       top: v.$spacing-xl;
       align-self: start;
     }
 
-    // Réinitialise le margin-top:auto (utile en mobile flex, inutile en grid)
+    // CTA premium dans le panneau controls — pleine largeur, sobre
+    &__premium-cta {
+      width: 100%;
+      justify-content: center;
+      font-size: v.$font-size-sm;
+      padding: 8px v.$spacing-md;
+    }
+
     &__cta {
       margin-top: 0;
     }

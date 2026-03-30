@@ -210,21 +210,8 @@ export default function HomeScreen() {
         </section>
 
         {/* ── Catégories premium ────────────────────────────────────────────── */}
-        <section className="home__section">
-          <div className="home__section-header">
-            <h2 className="home__section-title">{t('premiumTitle')}</h2>
-            {isPremium
-              ? <span className="home__premium-tag home__premium-tag--active">{t('premiumActive')}</span>
-              : (
-                <button
-                  className="home__premium-cta"
-                  onClick={() => router.push('/subscribe')}
-                >
-                  {t('premiumUpgrade')}
-                </button>
-              )
-            }
-          </div>
+        {/* Pas de titre : le cadenas + fond gris des cartes locked suffit à signifier Premium */}
+        <section className="home__section home__section--premium">
           <div className="home__categories">
             {PREMIUM_CATEGORIES.map(({ i18nKey, icon, colorVar, id }) => {
               // Premium + questions disponibles → jouable comme une catégorie normale
@@ -250,13 +237,14 @@ export default function HomeScreen() {
               }
 
               return (
-                // Non-premium ou pas de contenu → clic redirige vers /subscribe
+                // Non-premium → cliquable (--locked-cta), redirige vers /subscribe
+                // Premium mais pas de contenu → mort (--locked, pointer-events: none)
                 <button
                   key={i18nKey}
                   type="button"
-                  className="home__cat-card home__cat-card--locked"
+                  className={`home__cat-card ${!isPremium ? 'home__cat-card--locked-cta' : 'home__cat-card--locked'}`}
                   style={{ '--cat-color': colorVar } as React.CSSProperties}
-                  aria-label={`${t(i18nKey)} — ${isLocked && !isPremium ? t('premiumLocked') : t('comingSoonTag')}`}
+                  aria-label={`${t(i18nKey)} — ${!isPremium ? t('premiumLocked') : t('comingSoonTag')}`}
                   onClick={() => !isPremium && router.push('/subscribe')}
                 >
                   <span className="home__cat-icon">{icon}</span>
@@ -270,12 +258,9 @@ export default function HomeScreen() {
           </div>
         </section>
 
-        {/* ── Bientôt disponible (5 nouvelles catégories) ──────────────────── */}
+        {/* ── Bientôt disponible ───────────────────────────────────────────── */}
+        {/* Pas de titre : bordure pointillée + badge 🚀 sur les cartes suffisent */}
         <section className="home__section">
-          <div className="home__section-header">
-            <h2 className="home__section-title">{t('comingSoonTitle')}</h2>
-            <span className="home__coming-soon-tag">{t('comingSoonTag')}</span>
-          </div>
           <div className="home__coming-soon-grid">
             {COMING_SOON_CATEGORIES.map(({ i18nKey, icon, colorVar, free }) => (
               <div
@@ -340,6 +325,16 @@ export default function HomeScreen() {
           {/* Erreur chargement questions (pas de réseau + pas de cache) */}
           {fetchError && (
             <p className="home__fetch-error" role="alert">{t('fetchError')}</p>
+          )}
+
+          {/* CTA Premium — visible uniquement si non-abonné, discret en bas du panneau */}
+          {!isPremium && (
+            <button
+              className="home__premium-cta"
+              onClick={() => router.push('/subscribe')}
+            >
+              {t('premiumUpgrade')}
+            </button>
           )}
 
         </div>
