@@ -506,5 +506,30 @@
     "diversifyBadge": "Broaden your horizons",
     "diversifyTitle": "Try {category} too!",
     "diversifyDesc": "You often play the same category. Mix it up to improve everywhere!"
+  },
+
+  "subscribe": {
+    "back": "Back",
+    "badgeLabel": "Erudia Premium",
+    "title": "Unlock all of Erudia",
+    "subtitle": "Access all categories and boost your child's progress.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "yearlySavings": "-33%",
+    "perMonth": "/ month",
+    "perYear": "/ year",
+    "yearlyEquiv": "only €3.33 / month — 2 months free",
+    "feature1": "All premium categories unlocked",
+    "feature2": "Premium avatars (fun-emoji, bottts, pixel-art, micah)",
+    "feature3": "Unlimited cloud history",
+    "feature4": "Multiplayer challenge mode",
+    "feature5": "PDF progress reports",
+    "cta": "Start subscription",
+    "loading": "Redirecting…",
+    "legal": "Cancel anytime. Secure payment via Stripe.",
+    "successTitle": "Subscription activated!",
+    "successMessage": "Welcome to Erudia Premium. All categories are now unlocked.",
+    "cancelTitle": "Payment cancelled",
+    "cancelMessage": "Your subscription was not activated. You can try again at any time."
   }
 }

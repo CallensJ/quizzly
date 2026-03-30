@@ -506,5 +506,30 @@
     "diversifyBadge": "Élargis tes horizons",
     "diversifyTitle": "Essaie {category} aussi !",
     "diversifyDesc": "Tu joues souvent la même catégorie. Diversifie pour progresser partout !"
+  },
+
+  "subscribe": {
+    "back": "Retour",
+    "badgeLabel": "Erudia Premium",
+    "title": "Débloque tout Erudia",
+    "subtitle": "Accède à toutes les catégories et booste la progression de ton enfant.",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "yearlySavings": "-33%",
+    "perMonth": "/ mois",
+    "perYear": "/ an",
+    "yearlyEquiv": "soit 3,33 € / mois — 2 mois offerts",
+    "feature1": "Toutes les catégories premium débloquées",
+    "feature2": "Avatars premium (fun-emoji, bottts, pixel-art, micah)",
+    "feature3": "Historique cloud illimité",
+    "feature4": "Mode multijoueur défi",
+    "feature5": "Rapports de progression PDF",
+    "cta": "Commencer l'abonnement",
+    "loading": "Redirection…",
+    "legal": "Résiliable à tout moment. Paiement sécurisé via Stripe.",
+    "successTitle": "Abonnement activé !",
+    "successMessage": "Bienvenue dans Erudia Premium. Toutes les catégories sont maintenant débloquées.",
+    "cancelTitle": "Paiement annulé",
+    "cancelMessage": "Ton abonnement n'a pas été activé. Tu peux réessayer à tout moment."
   }
 }
