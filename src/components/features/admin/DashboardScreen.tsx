@@ -20,7 +20,8 @@
 import { useMemo, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import RecommendationsSection from '@/components/features/recommendations/RecommendationsSection';
-import { ArrowLeft, TrendingUp, Gamepad2, Star, Flame, BarChart3, Target } from 'lucide-react';
+import GoalTrackerSection from './GoalTrackerSection';
+import { ArrowLeft, TrendingUp, Gamepad2, Star, Flame, BarChart3 } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { getGoalStatus } from '@/lib/goals';
@@ -36,7 +37,6 @@ import {
   ResponsiveContainer,
   CartesianGrid,
   Legend,
-  ReferenceLine,
 } from 'recharts';
 
 // ─── Constantes ──────────────────────────────────────────────────────────────
@@ -445,110 +445,7 @@ export default function DashboardScreen() {
         )}
 
         {/* ── Suivi des objectifs par catégorie ────────────────────────── */}
-        {goalStatuses.length > 0 && (
-          <section className="dashboard__section" aria-label={t('goalsTitle')}>
-            <h2 className="dashboard__section-title">
-              <Target size={16} aria-hidden="true" />
-              {t('goalsTitle')}
-            </h2>
-            <div className="dashboard__goals-list">
-              {goalStatuses.map(({ category, target, weekAvg, overallAvg, trend }) => {
-                const weekRounded    = weekAvg !== null ? Math.round(weekAvg) : null;
-                const overallRounded = overallAvg !== null ? Math.round(overallAvg) : null;
-                const met            = weekRounded !== null && weekRounded >= target;
-
-                // Données du mini LineChart : avg par semaine sur 8 semaines
-                // null si aucune session cette semaine (connectNulls=false → pas de trait)
-                const trendChartData = trend.map((w) => ({
-                  name: w.week.replace(/^\d{4}-/, ''), // "W13"
-                  avg:  w.count > 0 ? Math.round(w.avg) : null,
-                }));
-
-                return (
-                  <div key={category} className="dashboard__goals-card">
-                    <div className="dashboard__goals-card-header">
-                      <span
-                        className="dashboard__goals-dot"
-                        style={{ background: CAT_COLORS[category as Category] }}
-                        aria-hidden="true"
-                      />
-                      <span className="dashboard__goals-name">{category}</span>
-                      <span className={`dashboard__goals-badge${met ? ' dashboard__goals-badge--met' : ''}`}>
-                        {t('goalsTarget')} : {target}%
-                      </span>
-                    </div>
-
-                    {/* KPIs : cette semaine + moyenne globale */}
-                    <div className="dashboard__goals-kpis">
-                      <div className="dashboard__goals-kpi">
-                        <span className="dashboard__goals-kpi-label">{t('goalsWeekAvg')}</span>
-                        <span className={`dashboard__goals-kpi-value${met ? ' dashboard__goals-kpi-value--met' : ''}`}>
-                          {weekRounded !== null ? `${weekRounded}%` : t('goalsNoData')}
-                        </span>
-                      </div>
-                      <div className="dashboard__goals-kpi">
-                        <span className="dashboard__goals-kpi-label">{t('goalsOverall')}</span>
-                        <span className="dashboard__goals-kpi-value">
-                          {overallRounded !== null ? `${overallRounded}%` : '—'}
-                        </span>
-                      </div>
-                    </div>
-
-                    {/* Mini LineChart 8 semaines + ligne cible */}
-                    <div className="dashboard__chart-wrap">
-                      <ResponsiveContainer width="100%" height={120}>
-                        <LineChart data={trendChartData} margin={{ top: 4, right: 4, left: -28, bottom: 0 }}>
-                          <XAxis
-                            dataKey="name"
-                            tick={{ fontSize: 10, fontFamily: 'Nunito, sans-serif', fill: '#9ca3af' }}
-                            axisLine={false}
-                            tickLine={false}
-                            interval={1}
-                          />
-                          <YAxis
-                            domain={[0, 100]}
-                            tickFormatter={(v) => `${v}%`}
-                            tick={{ fontSize: 10, fontFamily: 'Nunito, sans-serif', fill: '#9ca3af' }}
-                            axisLine={false}
-                            tickLine={false}
-                            tickCount={3}
-                          />
-                          <Tooltip
-                            formatter={(value) => [`${value ?? 0}%`, t('goalsWeekAvg')]}
-                            contentStyle={{
-                              fontFamily: 'Nunito, sans-serif',
-                              fontSize: '12px',
-                              borderRadius: '8px',
-                              border: 'none',
-                              boxShadow: '0 4px 12px rgba(0,0,0,0.12)',
-                            }}
-                          />
-                          {/* Ligne de l'objectif cible — pointillé orange */}
-                          <ReferenceLine
-                            y={target}
-                            stroke="#FF9800"
-                            strokeDasharray="4 3"
-                            strokeWidth={1.5}
-                          />
-                          {/* Courbe de la moyenne hebdomadaire */}
-                          <Line
-                            type="monotone"
-                            dataKey="avg"
-                            stroke={CAT_COLORS[category as Category]}
-                            strokeWidth={2}
-                            dot={{ r: 2.5, fill: CAT_COLORS[category as Category] }}
-                            activeDot={{ r: 4 }}
-                            connectNulls={false}
-                          />
-                        </LineChart>
-                      </ResponsiveContainer>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </section>
-        )}
+        <GoalTrackerSection goalStatuses={goalStatuses} />
 
         {/* ── Recommandations pédagogiques (vue parent) ────────────────── */}
         <RecommendationsSection parentView />
