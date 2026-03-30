@@ -37,10 +37,13 @@ const TYPE_META: Record<RecommendationType, {
 
 // Couleurs des catégories (design system)
 const CAT_COLORS: Record<Category, string> = {
-  sciences: '#2196F3',
-  histoire: '#795548',
-  heroes:   '#E91E63',
-  math:     '#FF9800',
+  sciences:   '#2196F3',
+  histoire:   '#795548',
+  heroes:     '#E91E63',
+  math:       '#FF9800',
+  sport:      '#4CAF50',
+  geographie: '#00BCD4',
+  francais:   '#795548',
 };
 
 // ─── Composant carte individuelle ────────────────────────────────────────────
