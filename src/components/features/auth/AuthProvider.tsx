@@ -16,7 +16,7 @@ import { useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
 import { useAuthStore } from '@/stores/authStore';
 import { useProfileStore } from '@/stores/profileStore';
-import { pullFromSupabase } from '@/lib/sync';
+import { pullFromSupabase, linkProfileToAuthUser } from '@/lib/sync';
 import { useOnlineSync } from '@/hooks/useOnlineSync';
 import { useGoalNotification } from '@/hooks/useGoalNotification';
 
@@ -42,15 +42,28 @@ export default function AuthProvider({ children }: { children: React.ReactNode }
       if (session) {
         setSession(session);
 
-        // SIGNED_IN : sync bidirectionnelle — tire les données cloud dans le store local
-        // Utile si l'enfant a joué sur un autre appareil depuis la dernière connexion.
-        if (event === 'SIGNED_IN') {
+        // SIGNED_IN : lien profil → compte parent + sync premium cross-device
+        if (event === 'SIGNED_IN' && session.user) {
           const { deviceId, mergeFromRemote } = useProfileStore.getState();
-          if (deviceId) {
-            const pulled = await pullFromSupabase(deviceId);
-            if (pulled) {
-              mergeFromRemote(pulled.sessions, pulled.earnedBadgeIds);
-            }
+          if (!deviceId) return;
+
+          // Toujours lier le profil au compte parent (prépare un futur upgrade)
+          await linkProfileToAuthUser(deviceId, session.user.id);
+
+          // Pull uniquement pour les abonnés premium
+          const { data: sub } = await supabase
+            .from('subscriptions')
+            .select('status')
+            .eq('user_id', session.user.id)
+            .maybeSingle();
+
+          const isPremium = sub?.status === 'active' || sub?.status === 'trialing';
+          if (!isPremium) return;
+
+          // Restauration cross-device : cherche par auth_user_id (tous appareils du parent)
+          const pulled = await pullFromSupabase(deviceId, session.user.id);
+          if (pulled) {
+            mergeFromRemote(pulled.sessions, pulled.earnedBadgeIds);
           }
         }
       } else {

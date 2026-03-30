@@ -10,7 +10,8 @@
  *   - syncSession(deviceId, session)                        — insert session (avec queue offline)
  *   - syncBadge(deviceId, badgeEarned, earnedBadgeIds)      — upsert badges
  *   - processOfflineQueue()                                 — rejoue les syncs en attente
- *   - pullFromSupabase(deviceId)                            — sync bidirectionnelle → local
+ *   - linkProfileToAuthUser(deviceId, authUserId)           — lie le profil au compte parent
+ *   - pullFromSupabase(deviceId, authUserId?)               — sync bidirectionnelle → local (premium only)
  */
 
 import { supabase } from './supabase';
@@ -234,6 +235,27 @@ export async function processOfflineQueue(): Promise<void> {
   }
 }
 
+// ─── Lien profil → compte parent ──────────────────────────────────────────────
+
+/**
+ * Lie le profil du device au compte Supabase Auth du parent.
+ * Appelé à chaque SIGNED_IN pour maintenir le lien à jour.
+ * Permet la restauration cross-device en mode premium.
+ */
+export async function linkProfileToAuthUser(
+  deviceId: string,
+  authUserId: string
+): Promise<void> {
+  try {
+    await supabase
+      .from('profiles')
+      .update({ auth_user_id: authUserId })
+      .eq('device_id', deviceId);
+  } catch {
+    // Échec silencieux — non critique
+  }
+}
+
 // ─── Sync bidirectionnelle ────────────────────────────────────────────────────
 
 export interface PulledData {
@@ -242,39 +264,40 @@ export interface PulledData {
 }
 
 /**
- * Tire les données depuis Supabase → local.
- * Appelé à la connexion du parent (SIGNED_IN) pour fusionner
- * les données cloud dans le store local (multi-device).
+ * Tire les données depuis Supabase → local. Réservé aux abonnés premium.
  *
- * Les sessions sont limitées aux 50 dernières pour éviter les volumes excessifs.
- * earnedBadgeIds sont chargés depuis la colonne earned_badge_ids (migration 20260322).
+ * Si authUserId est fourni, cherche tous les profils liés à ce compte parent
+ * (sync cross-device). Sinon, fallback sur device_id (même appareil).
  *
- * Retourne null si le device_id n'a pas encore de profil en base.
+ * Retourne null si aucun profil trouvé.
  */
-export async function pullFromSupabase(deviceId: string): Promise<PulledData | null> {
+export async function pullFromSupabase(
+  deviceId: string,
+  authUserId?: string
+): Promise<PulledData | null> {
   try {
-    const { data: profileRow } = await supabase
-      .from('profiles')
-      .select('id')
-      .eq('device_id', deviceId)
-      .maybeSingle();
+    // Cherche le(s) profil(s) — par auth_user_id si dispo, sinon device_id
+    const query = authUserId
+      ? supabase.from('profiles').select('id').eq('auth_user_id', authUserId)
+      : supabase.from('profiles').select('id').eq('device_id', deviceId).limit(1);
 
-    if (!profileRow) return null;
+    const { data: profileRows } = await query;
+    if (!profileRows || profileRows.length === 0) return null;
 
-    // Sessions — 50 dernières, ordre chronologique inverse
+    const profileIds = profileRows.map((r) => r.id);
+
+    // Sessions — historique complet pour tous les profils du parent
     const { data: sessionRows } = await supabase
       .from('sessions')
       .select('category, difficulty, score, total, played_at')
-      .eq('profile_id', profileRow.id)
-      .order('played_at', { ascending: false })
-      .limit(50);
+      .in('profile_id', profileIds)
+      .order('played_at', { ascending: false });
 
-    // Badges — earned_badge_ids (ajouté en migration 20260322)
-    const { data: badgeRow } = await supabase
+    // Badges — union de tous les profils
+    const { data: badgeRows } = await supabase
       .from('badges')
       .select('earned_badge_ids')
-      .eq('profile_id', profileRow.id)
-      .single();
+      .in('profile_id', profileIds);
 
     const sessions: QuizSession[] = (sessionRows ?? []).map((row) => ({
       category:       row.category as Category,
@@ -284,7 +307,9 @@ export async function pullFromSupabase(deviceId: string): Promise<PulledData | n
       playedAt:       row.played_at,
     }));
 
-    const earnedBadgeIds: string[] = badgeRow?.earned_badge_ids ?? [];
+    const earnedBadgeIds: string[] = [
+      ...new Set((badgeRows ?? []).flatMap((r) => r.earned_badge_ids ?? [])),
+    ];
 
     return { sessions, earnedBadgeIds };
   } catch {
