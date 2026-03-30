@@ -15,7 +15,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import Stripe from 'stripe';
-import { createClient } from '@supabase/supabase-js';
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
 export async function POST(req: NextRequest) {
   // Instanciation dans le handler — env vars runtime non disponibles au build
@@ -85,7 +85,7 @@ export async function POST(req: NextRequest) {
  */
 async function handleCheckoutCompleted(
   stripe: Stripe,
-  supabaseAdmin: ReturnType<typeof createClient>,
+  supabaseAdmin: SupabaseClient,
   session: Stripe.Checkout.Session
 ) {
   const userId = session.metadata?.supabase_user_id;
@@ -117,7 +117,7 @@ async function handleCheckoutCompleted(
  * Abonnement modifié (renouvellement, changement de plan, échec de paiement…).
  */
 async function handleSubscriptionUpdated(
-  supabaseAdmin: ReturnType<typeof createClient>,
+  supabaseAdmin: SupabaseClient,
   subscription: Stripe.Subscription
 ) {
   const plan =
@@ -139,7 +139,7 @@ async function handleSubscriptionUpdated(
  * Abonnement annulé (fin de période ou résiliation immédiate).
  */
 async function handleSubscriptionDeleted(
-  supabaseAdmin: ReturnType<typeof createClient>,
+  supabaseAdmin: SupabaseClient,
   subscription: Stripe.Subscription
 ) {
   await supabaseAdmin
