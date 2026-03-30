@@ -208,6 +208,97 @@ export const BADGE_DEFINITIONS: BadgeDefinition[] = [
   { id: 'collector_50', emoji: '🌠', condition: (_s, earned) => earned >= 50 },
 ];
 
+// ─── Groupes de badges ───────────────────────────────────────────────────────
+//
+// Chaque groupe correspond à une thématique (catégorie, mécanique de jeu…).
+// Utilisé par la modale trophées pour afficher les badges par section accordéon.
+// Extensible : ajouter un groupe ici suffit pour qu'il apparaisse automatiquement.
+
+export interface BadgeGroup {
+  id: string;
+  /** Clé i18n dans le namespace "badges" — ex: "groupSciences" */
+  labelKey: string;
+  /** Emoji représentatif du groupe */
+  emoji: string;
+  /** Couleur CSS du groupe (barre de progression, accents) */
+  color: string;
+  /** IDs des badges appartenant à ce groupe, dans l'ordre d'affichage */
+  badgeIds: string[];
+}
+
+export const BADGE_GROUPS: BadgeGroup[] = [
+  {
+    id: 'sciences',
+    labelKey: 'groupSciences',
+    emoji: '🔬',
+    color: '#2196F3',
+    badgeIds: ['sci_curious', 'sci_passionate', 'sci_expert', 'sci_master', 'sci_legend'],
+  },
+  {
+    id: 'histoire',
+    labelKey: 'groupHistoire',
+    emoji: '📜',
+    color: '#795548',
+    badgeIds: ['hist_curious', 'hist_passionate', 'hist_expert', 'hist_master', 'hist_legend'],
+  },
+  {
+    id: 'heroes',
+    labelKey: 'groupHeroes',
+    emoji: '⚔️',
+    color: '#E91E63',
+    badgeIds: ['hero_curious', 'hero_passionate', 'hero_expert', 'hero_master', 'hero_legend'],
+  },
+  {
+    id: 'math',
+    labelKey: 'groupMath',
+    emoji: '🔢',
+    color: '#FF5252',
+    badgeIds: ['math_curious', 'math_passionate', 'math_expert', 'math_master', 'math_legend'],
+  },
+  {
+    id: 'score',
+    labelKey: 'groupScore',
+    emoji: '🌟',
+    color: '#FFB300',
+    badgeIds: ['first_game', 'good_score', 'great_score', 'perfect', 'triple_perfect', 'perfect_ten'],
+  },
+  {
+    id: 'volume',
+    labelKey: 'groupVolume',
+    emoji: '📚',
+    color: '#667eea',
+    badgeIds: ['games_5', 'games_20', 'games_50', 'games_100', 'games_200', 'games_500'],
+  },
+  {
+    id: 'difficulte',
+    labelKey: 'groupDifficulte',
+    emoji: '💪',
+    color: '#F44336',
+    badgeIds: ['easy_perfect', 'brave', 'hard_half', 'hard_ace', 'hard_perfect'],
+  },
+  {
+    id: 'streak',
+    labelKey: 'groupStreak',
+    emoji: '🔥',
+    color: '#FF9800',
+    badgeIds: ['streak_3', 'streak_7', 'streak_14', 'streak_30', 'streak_60'],
+  },
+  {
+    id: 'transversaux',
+    labelKey: 'groupTransversaux',
+    emoji: '🌍',
+    color: '#4CAF50',
+    badgeIds: ['all_rounder', 'polymath', 'all_difficulties', 'all_perfect_cats', 'knowledge_legend'],
+  },
+  {
+    id: 'meta',
+    labelKey: 'groupMeta',
+    emoji: '🏛️',
+    color: '#764ba2',
+    badgeIds: ['collector_15', 'collector_30', 'collector_50'],
+  },
+];
+
 // ─── Évaluation ─────────────────────────────────────────────────────────────
 
 /**

@@ -241,7 +241,25 @@
     "collector_30_name": "Coffre au trésor",
     "collector_30_desc": "Obtenir 30 badges",
     "collector_50_name": "Salle des trophées",
-    "collector_50_desc": "Obtenir 50 badges"
+    "collector_50_desc": "Obtenir 50 badges",
+
+    "groupSciences": "Sciences",
+    "groupHistoire": "Histoire",
+    "groupHeroes": "Héros & Aventures",
+    "groupMath": "Mathématiques",
+    "groupScore": "Score global",
+    "groupVolume": "Parties jouées",
+    "groupDifficulte": "Difficulté",
+    "groupStreak": "Streak quotidien",
+    "groupTransversaux": "Multi-catégories",
+    "groupMeta": "Collectionneurs",
+
+    "modalTitle": "Mes Trophées",
+    "filterAll": "Tous",
+    "filterEarned": "Obtenus",
+    "filterLocked": "À débloquer",
+    "seeAllCta": "Voir mes trophées",
+    "previewEmpty": "Joue ta première partie pour gagner des badges !"
   },
   "admin": {
     "title": "Espace Parent",

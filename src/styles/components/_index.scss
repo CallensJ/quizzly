@@ -1,5 +1,6 @@
 // src/styles/components/_index.scss
 // Composants UI réutilisables
 
+@forward 'badges';
 @forward 'nova';
 @forward 'recommendations';

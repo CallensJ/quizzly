@@ -241,7 +241,25 @@
     "collector_30_name": "Treasure Chest",
     "collector_30_desc": "Earn 30 badges",
     "collector_50_name": "Trophy Room",
-    "collector_50_desc": "Earn 50 badges"
+    "collector_50_desc": "Earn 50 badges",
+
+    "groupSciences": "Science",
+    "groupHistoire": "History",
+    "groupHeroes": "Heroes & Adventures",
+    "groupMath": "Mathematics",
+    "groupScore": "Global Score",
+    "groupVolume": "Games Played",
+    "groupDifficulte": "Difficulty",
+    "groupStreak": "Daily Streak",
+    "groupTransversaux": "Multi-category",
+    "groupMeta": "Collectors",
+
+    "modalTitle": "My Trophies",
+    "filterAll": "All",
+    "filterEarned": "Earned",
+    "filterLocked": "Locked",
+    "seeAllCta": "See my trophies",
+    "previewEmpty": "Play your first game to earn badges!"
   },
   "admin": {
     "title": "Parent Space",

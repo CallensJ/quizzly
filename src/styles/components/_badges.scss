@@ -1,0 +1,461 @@
+// src/styles/components/_badges.scss
+//
+// Système de badges — modale trophées + aperçu profil.
+//
+// Composants couverts :
+//   .badges-preview   — aperçu compact sur ProfileScreen
+//   .badges-modal     — shell overlay + panel
+//   .badge-group      — accordéon d'un groupe (utilise --group-color CSS var)
+//   .badge-tile       — tuile individuelle earned/locked
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+@use 'sass:color';
+
+// ─── Aperçu profil ────────────────────────────────────────────────────────────
+
+.badges-preview {
+  @include m.flex-column;
+  gap: v.$spacing-sm;
+  background: v.$white;
+  border-radius: v.$radius-lg;
+  padding: v.$spacing-lg;
+  box-shadow: v.$shadow-sm;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: v.$spacing-sm;
+  }
+
+  &__title {
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$foreground;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  &__count {
+    font-size: v.$font-size-sm;
+    font-weight: 800;
+    color: v.$primary;
+    flex-shrink: 0;
+  }
+
+  // Barre de progression globale
+  &__bar-track {
+    height: 8px;
+    background: #e5e7eb;
+    border-radius: v.$radius-full;
+    overflow: hidden;
+  }
+
+  &__bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, v.$primary, v.$primary-dark);
+    border-radius: v.$radius-full;
+    transition: width v.$transition-slow;
+  }
+
+  // Rangée des 5 derniers badges
+  &__recent {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    flex-wrap: wrap;
+  }
+
+  &__badge {
+    @include m.flex-center;
+    width: 44px;
+    height: 44px;
+    border-radius: v.$radius-md;
+    background: rgba(v.$accent, 0.12);
+    border: 2px solid rgba(v.$accent, 0.4);
+    font-size: 1.4rem;
+    transition: transform v.$transition-fast;
+
+    &:hover { transform: scale(1.1); }
+
+    // Badge "+N restants"
+    &--more {
+      background: v.$bg;
+      border-color: #d1d5db;
+      font-size: v.$font-size-sm;
+      font-weight: 800;
+      color: v.$text-muted;
+    }
+  }
+
+  &__empty {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    padding: v.$spacing-sm 0;
+  }
+
+  // CTA "Voir mes trophées"
+  &__cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: v.$spacing-sm v.$spacing-md;
+    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    color: v.$white;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-sm;
+    font-weight: 800;
+    border-radius: v.$radius-full;
+    transition: opacity v.$transition-fast, transform v.$transition-fast;
+
+    &:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
+    @include m.focus-ring;
+  }
+}
+
+// ─── Modale shell ─────────────────────────────────────────────────────────────
+
+.badges-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: flex-end; // slide-up sur mobile
+  justify-content: center;
+
+  @include m.md {
+    align-items: center; // centré sur desktop
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    animation: modal-fade-in 200ms ease both;
+  }
+
+  &__panel {
+    position: relative;
+    z-index: 1;
+    background: v.$white;
+    width: 100%;
+    max-height: 92dvh;
+    border-radius: v.$radius-lg v.$radius-lg 0 0;
+    @include m.flex-column;
+    overflow: hidden;
+    animation: modal-slide-up 300ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+
+    @include m.md {
+      max-width: 680px;
+      max-height: 85dvh;
+      border-radius: v.$radius-lg;
+      animation: modal-scale-in 250ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    }
+  }
+
+  // Header sticky avec gradient
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: v.$spacing-lg;
+    @include m.gradient-primary;
+    flex-shrink: 0;
+  }
+
+  &__title {
+    font-size: v.$font-size-xl;
+    font-weight: 800;
+    color: v.$white;
+  }
+
+  &__close {
+    @include m.flex-center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: v.$white;
+    background: rgba(255, 255, 255, 0.2);
+    transition: background v.$transition-fast;
+
+    &:hover { background: rgba(255, 255, 255, 0.35); }
+    @include m.focus-ring;
+  }
+
+  // Zone scrollable
+  &__content {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+    overflow-y: auto;
+    padding: v.$spacing-lg;
+    flex: 1;
+  }
+
+  // Barre de progression globale
+  &__global {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-md;
+  }
+
+  &__global-bar {
+    flex: 1;
+    height: 10px;
+    background: #e5e7eb;
+    border-radius: v.$radius-full;
+    overflow: hidden;
+  }
+
+  &__global-fill {
+    height: 100%;
+    background: linear-gradient(90deg, v.$primary, v.$primary-dark);
+    border-radius: v.$radius-full;
+    transition: width v.$transition-slow;
+  }
+
+  &__global-count {
+    font-size: v.$font-size-sm;
+    font-weight: 800;
+    color: v.$primary;
+    flex-shrink: 0;
+    min-width: 52px;
+    text-align: right;
+  }
+
+  // Filtres
+  &__filters {
+    display: flex;
+    gap: v.$spacing-xs;
+    flex-wrap: wrap;
+  }
+
+  &__filter {
+    padding: 6px v.$spacing-md;
+    border-radius: v.$radius-full;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    background: v.$bg;
+    color: v.$text-muted;
+    border: 2px solid transparent;
+    transition: background v.$transition-fast, color v.$transition-fast, border-color v.$transition-fast;
+
+    &:hover {
+      background: rgba(v.$primary, 0.08);
+      color: v.$primary;
+    }
+
+    &--active {
+      background: rgba(v.$primary, 0.1);
+      color: v.$primary;
+      border-color: rgba(v.$primary, 0.3);
+    }
+
+    @include m.focus-ring;
+  }
+
+  &__groups {
+    @include m.flex-column;
+    gap: v.$spacing-xs;
+  }
+
+  @keyframes modal-fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @keyframes modal-slide-up {
+    from { transform: translateY(100%); opacity: 0; }
+    to   { transform: translateY(0);    opacity: 1; }
+  }
+
+  @keyframes modal-scale-in {
+    from { transform: scale(0.92); opacity: 0; }
+    to   { transform: scale(1);    opacity: 1; }
+  }
+}
+
+// ─── Accordéon groupe ─────────────────────────────────────────────────────────
+//
+// --group-color est défini inline sur chaque .badge-group via le composant React.
+
+.badge-group {
+  border-radius: v.$radius-md;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  transition: border-color v.$transition-fast;
+
+  &:hover {
+    border-color: rgba(var(--group-color, #{v.$primary}), 0.4);
+  }
+
+  // Header cliquable
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    width: 100%;
+    padding: v.$spacing-sm v.$spacing-md;
+    background: v.$white;
+    text-align: left;
+    transition: background v.$transition-fast;
+
+    &:hover { background: #f9fafb; }
+    @include m.focus-ring;
+  }
+
+  &__emoji {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    width: 28px;
+    text-align: center;
+  }
+
+  &__label {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$foreground;
+    flex: 1;
+    text-align: left;
+  }
+
+  // Barre de progression + compteur
+  &__progress {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-xs;
+    flex-shrink: 0;
+  }
+
+  &__progress-track {
+    width: 64px;
+    height: 6px;
+    background: #e5e7eb;
+    border-radius: v.$radius-full;
+    overflow: hidden;
+
+    @include m.sm {
+      width: 80px;
+    }
+  }
+
+  &__progress-fill {
+    height: 100%;
+    background: var(--group-color, #{v.$primary});
+    border-radius: v.$radius-full;
+    transition: width v.$transition-slow;
+  }
+
+  &__count {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: var(--group-color, #{v.$primary});
+    min-width: 28px;
+    text-align: right;
+  }
+
+  // Chevron rotatif
+  &__chevron {
+    color: v.$text-muted;
+    flex-shrink: 0;
+    transition: transform v.$transition-base;
+
+    .badge-group--open & {
+      transform: rotate(180deg);
+    }
+  }
+
+  // Animation accordéon via grid-template-rows — pas de calcul JS de hauteur
+  &__body {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows v.$transition-base;
+
+    .badge-group--open & {
+      grid-template-rows: 1fr;
+    }
+  }
+
+  // Wrapper interne requis pour overflow: hidden sur l'animation
+  &__body-inner {
+    overflow: hidden;
+    padding: 0 v.$spacing-md;
+    transition: padding v.$transition-base;
+
+    .badge-group--open & {
+      padding: v.$spacing-sm v.$spacing-md v.$spacing-md;
+    }
+  }
+
+  // Grille de tuiles — 5 colonnes fixes (1 groupe = max 6 badges)
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: v.$spacing-xs;
+
+    @include m.sm {
+      grid-template-columns: repeat(6, 1fr);
+    }
+
+    @include m.md {
+      grid-template-columns: repeat(8, 1fr);
+    }
+  }
+}
+
+// ─── Tuile individuelle ───────────────────────────────────────────────────────
+
+.badge-tile {
+  @include m.flex-column;
+  align-items: center;
+  gap: 3px;
+  padding: v.$spacing-xs;
+  border-radius: v.$radius-sm;
+  border: 2px solid transparent;
+  text-align: center;
+  transition: transform v.$transition-fast, box-shadow v.$transition-fast;
+
+  // Badge obtenu — doré lumineux
+  &--earned {
+    background: rgba(v.$accent, 0.1);
+    border-color: rgba(v.$accent, 0.45);
+
+    &:hover {
+      transform: scale(1.08);
+      box-shadow: 0 4px 12px rgba(v.$accent, 0.3);
+    }
+  }
+
+  // Badge verrouillé — discret
+  &--locked {
+    background: v.$bg;
+    border-color: #e5e7eb;
+    opacity: 0.45;
+  }
+
+  &__emoji {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  &__name {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: v.$foreground;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+}

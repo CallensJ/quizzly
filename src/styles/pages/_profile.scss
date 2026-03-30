@@ -383,74 +383,6 @@
     flex-shrink: 0;
   }
 
-  // ── Section badges ────────────────────────────────────────────────────────
-
-  &__badge-section {
-    @include m.flex-column;
-    gap: v.$spacing-md;
-    animation: profile-fade-in 300ms ease both;
-    animation-delay: 200ms;
-  }
-
-  &__section-title {
-    font-size: v.$font-size-base;
-    font-weight: 700;
-    color: v.$foreground;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-  }
-
-  // Grille 4 colonnes — 11 badges (enfants, petites tuiles carrées)
-  &__badge-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: v.$spacing-sm;
-  }
-
-  // Tuile individuelle : emoji + nom centré
-  &__badge-tile {
-    @include m.flex-column;
-    align-items: center;
-    gap: 4px;
-    padding: v.$spacing-sm v.$spacing-xs;
-    border-radius: v.$radius-md;
-    border: 2px solid transparent;
-    text-align: center;
-    transition: transform v.$transition-fast;
-
-    // Badge obtenu — fond doré doux + bordure accentuée
-    &--earned {
-      background: rgba(v.$accent, 0.1);
-      border-color: rgba(v.$accent, 0.5);
-
-      &:hover { transform: scale(1.05); }
-    }
-
-    // Badge verrouillé — gris atténué
-    &--locked {
-      background: v.$bg;
-      border-color: #e5e7eb;
-      opacity: 0.5;
-    }
-  }
-
-  &__badge-tile-emoji {
-    font-size: 1.6rem;
-    line-height: 1;
-  }
-
-  &__badge-tile-name {
-    font-size: 0.65rem;
-    font-weight: 700;
-    color: v.$foreground;
-    line-height: 1.2;
-    // Tronqué si trop long (rare)
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 100%;
-  }
-
   // ── Paramètres ────────────────────────────────────────────────────────────
 
   &__settings {
@@ -719,18 +651,7 @@
       gap: v.$spacing-sm;
     }
 
-    // Badges — pleine largeur sous identity+stats (11 tuiles = besoin d'espace)
-    &__badge-section {
-      order: 3;
-      grid-column: 1 / -1;
-    }
-
-    // Grille badges desktop — 6 colonnes (11 badges sur 2 rangées)
-    &__badge-grid {
-      grid-template-columns: repeat(6, 1fr);
-    }
-
-    // Galerie avatar — si ouverte, pleine largeur après identité+stats+badge
+    // Galerie avatar — si ouverte, pleine largeur après identité+stats+aperçu badges
     &__avatar-gallery {
       order: 4;
       grid-column: 1 / -1;
