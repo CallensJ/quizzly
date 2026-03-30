@@ -17,17 +17,18 @@ import { NextRequest, NextResponse } from 'next/server';
 import Stripe from 'stripe';
 import { createClient } from '@supabase/supabase-js';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2026-03-25.dahlia',
-});
-
-// Client admin Supabase — service role pour bypass RLS (opérations serveur uniquement)
-const supabaseAdmin = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
-
 export async function POST(req: NextRequest) {
+  // Instanciation dans le handler — env vars runtime non disponibles au build
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+    apiVersion: '2026-03-25.dahlia',
+  });
+
+  // Client admin Supabase — service role pour bypass RLS (opérations serveur uniquement)
+  const supabaseAdmin = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.SUPABASE_SERVICE_ROLE_KEY!
+  );
+
   // Corps brut requis pour la vérification de signature Stripe
   const body = await req.text();
   const sig = req.headers.get('stripe-signature');
@@ -53,17 +54,17 @@ export async function POST(req: NextRequest) {
     switch (event.type) {
       case 'checkout.session.completed': {
         const session = event.data.object as Stripe.Checkout.Session;
-        await handleCheckoutCompleted(session);
+        await handleCheckoutCompleted(stripe, supabaseAdmin, session);
         break;
       }
       case 'customer.subscription.updated': {
         const subscription = event.data.object as Stripe.Subscription;
-        await handleSubscriptionUpdated(subscription);
+        await handleSubscriptionUpdated(supabaseAdmin, subscription);
         break;
       }
       case 'customer.subscription.deleted': {
         const subscription = event.data.object as Stripe.Subscription;
-        await handleSubscriptionDeleted(subscription);
+        await handleSubscriptionDeleted(supabaseAdmin, subscription);
         break;
       }
       // Autres événements ignorés silencieusement
@@ -82,7 +83,11 @@ export async function POST(req: NextRequest) {
  * Paiement initial validé — crée l'entrée subscriptions en base.
  * Le supabase_user_id est transmis via metadata lors du checkout.
  */
-async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
+async function handleCheckoutCompleted(
+  stripe: Stripe,
+  supabaseAdmin: ReturnType<typeof createClient>,
+  session: Stripe.Checkout.Session
+) {
   const userId = session.metadata?.supabase_user_id;
   if (!userId || !session.subscription) return;
 
@@ -111,7 +116,10 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
 /**
  * Abonnement modifié (renouvellement, changement de plan, échec de paiement…).
  */
-async function handleSubscriptionUpdated(subscription: Stripe.Subscription) {
+async function handleSubscriptionUpdated(
+  supabaseAdmin: ReturnType<typeof createClient>,
+  subscription: Stripe.Subscription
+) {
   const plan =
     subscription.items.data[0].price.recurring?.interval === 'year'
       ? 'yearly'
@@ -130,7 +138,10 @@ async function handleSubscriptionUpdated(subscription: Stripe.Subscription) {
 /**
  * Abonnement annulé (fin de période ou résiliation immédiate).
  */
-async function handleSubscriptionDeleted(subscription: Stripe.Subscription) {
+async function handleSubscriptionDeleted(
+  supabaseAdmin: ReturnType<typeof createClient>,
+  subscription: Stripe.Subscription
+) {
   await supabaseAdmin
     .from('subscriptions')
     .update({ status: 'canceled' })
