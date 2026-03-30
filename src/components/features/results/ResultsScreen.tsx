@@ -32,7 +32,7 @@ import Nova from '@/components/ui/Nova';
 import DuelResultPanel from './DuelResultPanel';
 import { BADGE_DEFINITIONS } from '@/lib/badges';
 import type { DailyResult } from '@/stores/profileStore';
-import type { Locale } from '@/types';
+import type { Locale, Challenge } from '@/types';
 import { Swords, Copy, Check, Sun, Flame, Shield } from 'lucide-react';
 
 export default function ResultsScreen() {
