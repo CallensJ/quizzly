@@ -130,6 +130,8 @@
   // ── CTA ────────────────────────────────────────────────────────────────
   &__card-cta {
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
     align-self: flex-start;
     padding: 6px 16px;
     border-radius: v.$radius-full;

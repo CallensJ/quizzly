@@ -54,7 +54,11 @@ button {
   background: none;
   border: none;
   cursor: pointer;
-  min-height: v.$touch-target-min;
+  // Exclut les rôles décoratifs/composés qui ont une hauteur fixe définie
+  // (switch, tab, option) — évite d'écraser leur sizing interne
+  &:not([role="switch"]):not([role="tab"]):not([role="option"]) {
+    min-height: v.$touch-target-min;
+  }
 }
 
 #root, #__next {
