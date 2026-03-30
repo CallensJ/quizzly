@@ -530,6 +530,9 @@
     "successTitle": "Subscription activated!",
     "successMessage": "Welcome to Erudia Premium. All categories are now unlocked.",
     "cancelTitle": "Payment cancelled",
-    "cancelMessage": "Your subscription was not activated. You can try again at any time."
+    "cancelMessage": "Your subscription was not activated. You can try again at any time.",
+    "goToApp": "Go to the app",
+    "retryLabel": "Try again",
+    "backHome": "Back to home"
   }
 }

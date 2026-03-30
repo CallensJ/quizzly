@@ -530,6 +530,9 @@
     "successTitle": "Abonnement activé !",
     "successMessage": "Bienvenue dans Erudia Premium. Toutes les catégories sont maintenant débloquées.",
     "cancelTitle": "Paiement annulé",
-    "cancelMessage": "Ton abonnement n'a pas été activé. Tu peux réessayer à tout moment."
+    "cancelMessage": "Ton abonnement n'a pas été activé. Tu peux réessayer à tout moment.",
+    "goToApp": "Accéder à l'application",
+    "retryLabel": "Réessayer",
+    "backHome": "Retour à l'accueil"
   }
 }
