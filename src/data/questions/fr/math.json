@@ -10745,7 +10745,7 @@
     {
       "id": "math-fr-hard-299",
       "difficulty": "hard",
-      "question": "Résous : 3x + 4 = 19. Quelle est la valeur de x ?",
+      "question": "Résous : 3 x + 4 = 19. Quelle est la valeur de x ?",
       "options": {
         "A": "5",
         "B": "6",
