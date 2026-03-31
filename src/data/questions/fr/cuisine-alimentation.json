@@ -1,0 +1,6002 @@
+[
+  {
+    "id": "food-fr-easy-001",
+    "question": "D'où vient le lait que tu bois au petit-déjeuner ?",
+    "choices": [
+      "D'une vache",
+      "D'un arbre",
+      "D'une poule",
+      "D'un poisson"
+    ],
+    "answer": "D'une vache",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-002",
+    "question": "Parmi ces aliments, lequel est un fruit au sens botanique ?",
+    "choices": [
+      "La carotte",
+      "La tomate",
+      "Le brocoli",
+      "L'épinard"
+    ],
+    "answer": "La tomate",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-003",
+    "question": "Quel légume est de saison en été ?",
+    "choices": [
+      "La courgette",
+      "Le poireau",
+      "Le chou",
+      "La clémentine"
+    ],
+    "answer": "La courgette",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-004",
+    "question": "Quel aliment est fabriqué à partir du blé ?",
+    "choices": [
+      "Le pain",
+      "Le lait",
+      "Le miel",
+      "Le fromage"
+    ],
+    "answer": "Le pain",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-005",
+    "question": "Trouve l'intrus : lequel n'est PAS un fruit ?",
+    "choices": [
+      "La fraise",
+      "La pomme",
+      "La carotte",
+      "La banane"
+    ],
+    "answer": "La carotte",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-006",
+    "question": "D'où vient le miel ?",
+    "choices": [
+      "Des abeilles",
+      "Des vaches",
+      "Des arbres",
+      "Des poissons"
+    ],
+    "answer": "Des abeilles",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-007",
+    "question": "Quel fruit pousse sur un arbre appelé 'pommier' ?",
+    "choices": [
+      "La poire",
+      "La pomme",
+      "La fraise",
+      "La pastèque"
+    ],
+    "answer": "La pomme",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-008",
+    "question": "Lequel de ces aliments vient d'un animal ?",
+    "choices": [
+      "Le fromage",
+      "Le riz",
+      "La pomme",
+      "La carotte"
+    ],
+    "answer": "Le fromage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-009",
+    "question": "Quel aliment est fabriqué à partir du maïs ?",
+    "choices": [
+      "Le pop-corn",
+      "Le poisson",
+      "Le miel",
+      "Le yaourt"
+    ],
+    "answer": "Le pop-corn",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-010",
+    "question": "Parmi ces aliments, lequel est une céréale ?",
+    "choices": [
+      "Le riz",
+      "La tomate",
+      "Le fromage",
+      "L'œuf"
+    ],
+    "answer": "Le riz",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-011",
+    "question": "Quel légume est souvent orange et croquant ?",
+    "choices": [
+      "La carotte",
+      "La banane",
+      "La tomate",
+      "La pomme de terre"
+    ],
+    "answer": "La carotte",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-012",
+    "question": "D'où vient l'œuf que l'on mange ?",
+    "choices": [
+      "De la poule",
+      "De la vache",
+      "De l'arbre",
+      "Du blé"
+    ],
+    "answer": "De la poule",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-013",
+    "question": "Parmi ces aliments, lequel est un fruit tropical ?",
+    "choices": [
+      "La mangue",
+      "La pomme",
+      "La carotte",
+      "Le chou"
+    ],
+    "answer": "La mangue",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-014",
+    "question": "Quel aliment est obtenu en pressant des olives ?",
+    "choices": [
+      "L'huile d'olive",
+      "Le beurre",
+      "Le miel",
+      "Le fromage"
+    ],
+    "answer": "L'huile d'olive",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-015",
+    "question": "Parmi ces aliments, lequel pousse sous terre ?",
+    "choices": [
+      "La pomme de terre",
+      "La tomate",
+      "La fraise",
+      "La pêche"
+    ],
+    "answer": "La pomme de terre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-016",
+    "question": "Quel fruit est jaune et très acide ?",
+    "choices": [
+      "Le citron",
+      "La banane",
+      "La pastèque",
+      "La cerise"
+    ],
+    "answer": "Le citron",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-017",
+    "question": "Quel aliment vient du champ puis du moulin avant d'être du pain ?",
+    "choices": [
+      "Le blé",
+      "La vache",
+      "La poule",
+      "L'abeille"
+    ],
+    "answer": "Le blé",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-018",
+    "question": "Parmi ces aliments, lequel est un légume vert que l'on mange en salade ?",
+    "choices": [
+      "La laitue",
+      "La fraise",
+      "La banane",
+      "La pomme"
+    ],
+    "answer": "La laitue",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-019",
+    "question": "Quel fruit est rouge et souvent utilisé pour faire des confitures ?",
+    "choices": [
+      "La fraise",
+      "La pomme",
+      "La banane",
+      "Le citron"
+    ],
+    "answer": "La fraise",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-020",
+    "question": "D'où vient le chocolat à l'état brut ?",
+    "choices": [
+      "Du cacaoyer",
+      "De la vache",
+      "Du blé",
+      "De l'abeille"
+    ],
+    "answer": "Du cacaoyer",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-021",
+    "question": "Parmi ces aliments, lequel est une baie en botanique ?",
+    "choices": [
+      "La banane",
+      "La pomme de terre",
+      "La carotte",
+      "Le chou"
+    ],
+    "answer": "La banane",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-022",
+    "question": "Quel légume est rond, rouge et souvent utilisé en salade ?",
+    "choices": [
+      "La tomate",
+      "La pomme",
+      "La carotte",
+      "La poire"
+    ],
+    "answer": "La tomate",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-023",
+    "question": "Quel aliment est produit par la vache après la traite ?",
+    "choices": [
+      "Le lait",
+      "Le miel",
+      "Le riz",
+      "La farine"
+    ],
+    "answer": "Le lait",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-024",
+    "question": "Quel fruit est vert à l'extérieur et rouge à l'intérieur en été ?",
+    "choices": [
+      "La pastèque",
+      "La pomme",
+      "La poire",
+      "La cerise"
+    ],
+    "answer": "La pastèque",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-025",
+    "question": "Parmi ces aliments, lequel est une céréale que l'on mange souvent au petit-déjeuner ?",
+    "choices": [
+      "L'avoine",
+      "La tomate",
+      "Le fromage",
+      "L'œuf"
+    ],
+    "answer": "L'avoine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-026",
+    "question": "Quel aliment sucré est fabriqué par des insectes ?",
+    "choices": [
+      "Le miel",
+      "Le sucre",
+      "Le chocolat",
+      "La confiture"
+    ],
+    "answer": "Le miel",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-027",
+    "question": "Quel légume est souvent utilisé pour faire de la purée ?",
+    "choices": [
+      "La pomme de terre",
+      "La fraise",
+      "La banane",
+      "La tomate"
+    ],
+    "answer": "La pomme de terre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-028",
+    "question": "Parmi ces aliments, lequel pousse sur une liane ou un arbuste et est souvent violet ?",
+    "choices": [
+      "La vigne (raisin)",
+      "La vache (lait)",
+      "Le blé (pain)",
+      "La poule (œuf)"
+    ],
+    "answer": "La vigne (raisin)",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-029",
+    "question": "Quel fruit est petit, rouge et souvent utilisé pour décorer les gâteaux ?",
+    "choices": [
+      "La cerise",
+      "La pomme",
+      "La banane",
+      "La carotte"
+    ],
+    "answer": "La cerise",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-030",
+    "question": "Quel aliment est obtenu en transformant le lait ?",
+    "choices": [
+      "Le fromage",
+      "Le riz",
+      "La farine",
+      "Le miel"
+    ],
+    "answer": "Le fromage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-031",
+    "question": "Parmi ces aliments, lequel est un agrume ?",
+    "choices": [
+      "L'orange",
+      "La pomme de terre",
+      "La fraise",
+      "Le maïs"
+    ],
+    "answer": "L'orange",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-032",
+    "question": "Quel légume est long, vert et souvent servi en haricots verts ?",
+    "choices": [
+      "Le haricot vert",
+      "La pomme",
+      "La banane",
+      "La tomate"
+    ],
+    "answer": "Le haricot vert",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-034",
+    "question": "Quel fruit est souvent jaune et courbé ?",
+    "choices": [
+      "La banane",
+      "La pomme",
+      "La fraise",
+      "La cerise"
+    ],
+    "answer": "La banane",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-035",
+    "question": "Parmi ces aliments, lequel est un légume-feuille que l'on met dans les salades ?",
+    "choices": [
+      "La salade",
+      "La pomme",
+      "La banane",
+      "La carotte"
+    ],
+    "answer": "La salade",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-036",
+    "question": "Quel aliment sucré est fabriqué à partir du jus de raisin pressé ?",
+    "choices": [
+      "Le jus de raisin",
+      "Le lait",
+      "Le pain",
+      "Le fromage"
+    ],
+    "answer": "Le jus de raisin",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-037",
+    "question": "Quel fruit est petit, orange et souvent mangé en hiver ?",
+    "choices": [
+      "La clémentine",
+      "La pastèque",
+      "La fraise",
+      "La cerise"
+    ],
+    "answer": "La clémentine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-038",
+    "question": "D'où vient le sucre blanc quand il vient de la betterave ?",
+    "choices": [
+      "De la betterave sucrière",
+      "De la vache",
+      "De l'abeille",
+      "De l'arbre"
+    ],
+    "answer": "De la betterave sucrière",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-039",
+    "question": "Parmi ces aliments, lequel est un légume-racine souvent orange ?",
+    "choices": [
+      "La carotte",
+      "La pomme",
+      "La tomate",
+      "La banane"
+    ],
+    "answer": "La carotte",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-040",
+    "question": "Quel fruit est souvent vert à l'extérieur et jaune à l'intérieur, avec une chair douce ?",
+    "choices": [
+      "Le kiwi",
+      "La pomme",
+      "La carotte",
+      "La tomate"
+    ],
+    "answer": "Le kiwi",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-041",
+    "question": "Quel aliment est obtenu en faisant fermenter le lait avec des bactéries ?",
+    "choices": [
+      "Le yaourt",
+      "Le pain",
+      "Le miel",
+      "La farine"
+    ],
+    "answer": "Le yaourt",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-042",
+    "question": "Parmi ces aliments, lequel est un fruit que l'on trouve souvent en été ?",
+    "choices": [
+      "La pêche",
+      "La pomme de terre",
+      "Le chou",
+      "Le poireau"
+    ],
+    "answer": "La pêche",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-043",
+    "question": "Quel aliment est souvent servi en tranches fines sur une pizza ?",
+    "choices": [
+      "La tomate",
+      "La banane",
+      "La pomme",
+      "La carotte"
+    ],
+    "answer": "La tomate",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-044",
+    "question": "Quel aliment est une graine que l'on mange souvent en accompagnement, comme le riz ?",
+    "choices": [
+      "Le riz",
+      "La fraise",
+      "La pomme",
+      "Le fromage"
+    ],
+    "answer": "Le riz",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-045",
+    "question": "Parmi ces aliments, lequel est un fruit que l'on coupe souvent en tranches pour un dessert ?",
+    "choices": [
+      "La pomme",
+      "La carotte",
+      "Le chou",
+      "Le poireau"
+    ],
+    "answer": "La pomme",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-046",
+    "question": "Quel aliment est souvent utilisé pour faire des frites ?",
+    "choices": [
+      "La pomme de terre",
+      "La fraise",
+      "La banane",
+      "La tomate"
+    ],
+    "answer": "La pomme de terre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-047",
+    "question": "Quel fruit est souvent utilisé pour faire du jus orange ?",
+    "choices": [
+      "L'orange",
+      "La pomme de terre",
+      "La carotte",
+      "La tomate"
+    ],
+    "answer": "L'orange",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-048",
+    "question": "Parmi ces aliments, lequel est un légume que l'on trouve souvent en conserve ou surgelé ?",
+    "choices": [
+      "Le petit pois",
+      "La fraise",
+      "La banane",
+      "La pomme"
+    ],
+    "answer": "Le petit pois",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-049",
+    "question": "Quel aliment est fait à partir de fèves de cacao transformées ?",
+    "choices": [
+      "Le chocolat",
+      "Le fromage",
+      "Le pain",
+      "Le miel"
+    ],
+    "answer": "Le chocolat",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-050",
+    "question": "Parmi ces aliments, lequel est un fruit que l'on mange souvent en été et qui est juteux ?",
+    "choices": [
+      "La pastèque",
+      "La pomme de terre",
+      "Le chou",
+      "Le poireau"
+    ],
+    "answer": "La pastèque",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-051",
+    "question": "Quelle saveur correspond au sucre ?",
+    "choices": [
+      "Sucrée",
+      "Salée",
+      "Amère",
+      "Acide"
+    ],
+    "answer": "Sucrée",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-052",
+    "question": "Laquelle de ces saveurs est associée au citron ?",
+    "choices": [
+      "Acide",
+      "Umami",
+      "Sucrée",
+      "Salée"
+    ],
+    "answer": "Acide",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-053",
+    "question": "Quelle saveur est souvent ressentie avec le chocolat noir ?",
+    "choices": [
+      "Amer",
+      "Acide",
+      "Salé",
+      "Sucré"
+    ],
+    "answer": "Amer",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-054",
+    "question": "Parmi ces aliments, lequel a une saveur umami ?",
+    "choices": [
+      "Le parmesan",
+      "La fraise",
+      "La pomme",
+      "La carotte"
+    ],
+    "answer": "Le parmesan",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-055",
+    "question": "Quel ustensile utilises-tu pour mélanger une pâte ?",
+    "choices": [
+      "Une cuillère en bois",
+      "Un couteau",
+      "Une planche à découper",
+      "Un économe"
+    ],
+    "answer": "Une cuillère en bois",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-056",
+    "question": "Avec quel ustensile coupes-tu des légumes en tranches ?",
+    "choices": [
+      "Un couteau",
+      "Une fourchette",
+      "Un fouet",
+      "Une cuillère"
+    ],
+    "answer": "Un couteau",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-057",
+    "question": "Quel appareil sert à garder les aliments au frais ?",
+    "choices": [
+      "Le réfrigérateur",
+      "Le four",
+      "La poêle",
+      "Le mixeur"
+    ],
+    "answer": "Le réfrigérateur",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-058",
+    "question": "Quel ustensile utilises-tu pour battre des œufs en omelette ?",
+    "choices": [
+      "Un fouet",
+      "Une spatule",
+      "Une casserole",
+      "Une passoire"
+    ],
+    "answer": "Un fouet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-059",
+    "question": "Quel ustensile permet de mesurer une petite quantité (une cuillère) ?",
+    "choices": [
+      "Une cuillère à soupe",
+      "Une poêle",
+      "Un couteau",
+      "Un bol"
+    ],
+    "answer": "Une cuillère à soupe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-060",
+    "question": "Quel ustensile utilises-tu pour faire bouillir de l'eau ?",
+    "choices": [
+      "Une casserole",
+      "Un grille-pain",
+      "Un fouet",
+      "Une planche à découper"
+    ],
+    "answer": "Une casserole",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-061",
+    "question": "Quel repas prend-on généralement le matin ?",
+    "choices": [
+      "Le petit-déjeuner",
+      "Le dîner",
+      "Le déjeuner",
+      "Le goûter"
+    ],
+    "answer": "Le petit-déjeuner",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-062",
+    "question": "Quel repas est souvent pris à midi à l'école ?",
+    "choices": [
+      "Le déjeuner",
+      "Le petit-déjeuner",
+      "Le dîner",
+      "Le goûter"
+    ],
+    "answer": "Le déjeuner",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-063",
+    "question": "Quel moment correspond au goûter pour les enfants ?",
+    "choices": [
+      "L'après-midi",
+      "Le matin",
+      "La nuit",
+      "Le midi"
+    ],
+    "answer": "L'après-midi",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-064",
+    "question": "Quel repas prend-on le soir en famille ?",
+    "choices": [
+      "Le dîner",
+      "Le petit-déjeuner",
+      "Le déjeuner",
+      "Le goûter"
+    ],
+    "answer": "Le dîner",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-065",
+    "question": "Quel plat est familier et souvent mangé avec des pâtes ?",
+    "choices": [
+      "La sauce tomate",
+      "Le poisson cru",
+      "Le couscous",
+      "Le guacamole"
+    ],
+    "answer": "La sauce tomate",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-066",
+    "question": "Quel plat simple connaissent la plupart des enfants et qui vient d'Italie ?",
+    "choices": [
+      "La pizza",
+      "Le sushi",
+      "Le curry",
+      "Le taco"
+    ],
+    "answer": "La pizza",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-067",
+    "question": "Quel plat est une crêpe sucrée que l'on mange souvent au goûter ?",
+    "choices": [
+      "La crêpe",
+      "Le ramen",
+      "Le falafel",
+      "Le burrito"
+    ],
+    "answer": "La crêpe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-068",
+    "question": "Quel plat est souvent servi avec des frites et une viande hachée ?",
+    "choices": [
+      "Le hamburger",
+      "Le sushi",
+      "La paella",
+      "Le couscous"
+    ],
+    "answer": "Le hamburger",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-069",
+    "question": "Quel plat familial est souvent préparé avec des œufs et du lait ?",
+    "choices": [
+      "L'omelette",
+      "Le guacamole",
+      "Le curry",
+      "Le sushi"
+    ],
+    "answer": "L'omelette",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-070",
+    "question": "Quel plat est une soupe froide très populaire en été en Espagne ?",
+    "choices": [
+      "Le gazpacho",
+      "La fondue",
+      "Le borscht",
+      "Le pho"
+    ],
+    "answer": "Le gazpacho",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-071",
+    "question": "Quel plat italien est composé de pâtes longues et d'une sauce ?",
+    "choices": [
+      "Les spaghetti",
+      "Les tacos",
+      "Les sushis",
+      "Les samosas"
+    ],
+    "answer": "Les spaghetti",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-072",
+    "question": "Quel plat français est souvent servi au petit-déjeuner et est une viennoiserie ?",
+    "choices": [
+      "Le croissant",
+      "Le burrito",
+      "Le ramen",
+      "Le falafel"
+    ],
+    "answer": "Le croissant",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-073",
+    "question": "Quel plat est une galette fine que l'on garnit de sucre ou de confiture ?",
+    "choices": [
+      "La crêpe",
+      "Le sushi",
+      "Le taco",
+      "Le curry"
+    ],
+    "answer": "La crêpe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-074",
+    "question": "Quel ustensile utilises-tu pour retourner une crêpe dans la poêle ?",
+    "choices": [
+      "Une spatule",
+      "Un fouet",
+      "Une passoire",
+      "Un couteau"
+    ],
+    "answer": "Une spatule",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-076",
+    "question": "Quel ustensile utilises-tu pour égoutter des pâtes ?",
+    "choices": [
+      "Une passoire",
+      "Un couteau",
+      "Un fouet",
+      "Une poêle"
+    ],
+    "answer": "Une passoire",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-077",
+    "question": "Quel ustensile permet de mélanger une salade dans un grand bol ?",
+    "choices": [
+      "Une cuillère en bois",
+      "Un grille-pain",
+      "Un four",
+      "Un mixeur"
+    ],
+    "answer": "Une cuillère en bois",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-078",
+    "question": "Quel aliment est souvent mangé au petit-déjeuner avec du lait et des céréales ?",
+    "choices": [
+      "Les céréales",
+      "Le steak",
+      "Le sushi",
+      "La paella"
+    ],
+    "answer": "Les céréales",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-079",
+    "question": "Quel plat simple est souvent préparé en faisant cuire du riz avec des légumes ?",
+    "choices": [
+      "Le riz sauté",
+      "La pizza",
+      "La quiche",
+      "Le hamburger"
+    ],
+    "answer": "Le riz sauté",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-080",
+    "question": "Quel aliment est typique d'un sandwich chaud américain avec du fromage fondu ?",
+    "choices": [
+      "Le grilled cheese",
+      "Le sushi",
+      "Le couscous",
+      "Le pad thaï"
+    ],
+    "answer": "Le grilled cheese",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-081",
+    "question": "Quel plat est une pâte fine garnie et roulée, souvent sucrée ou salée ?",
+    "choices": [
+      "La crêpe",
+      "Le curry",
+      "Le ramen",
+      "Le falafel"
+    ],
+    "answer": "La crêpe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-082",
+    "question": "Quel ustensile utilises-tu pour éplucher une pomme de terre ?",
+    "choices": [
+      "Un économe",
+      "Un fouet",
+      "Une spatule",
+      "Une passoire"
+    ],
+    "answer": "Un économe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-083",
+    "question": "Quel aliment est souvent servi en tranches fines sur une tartine au petit-déjeuner ?",
+    "choices": [
+      "Le jambon",
+      "Le riz",
+      "La pastèque",
+      "Le brocoli"
+    ],
+    "answer": "Le jambon",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-084",
+    "question": "Quel plat est une soupe japonaise servie avec des nouilles ?",
+    "choices": [
+      "Le ramen",
+      "La paella",
+      "Le chili",
+      "La fondue"
+    ],
+    "answer": "Le ramen",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-085",
+    "question": "Quel aliment est souvent tartiné sur du pain au petit-déjeuner et est sucré ?",
+    "choices": [
+      "La confiture",
+      "Le fromage",
+      "Le riz",
+      "Le poisson"
+    ],
+    "answer": "La confiture",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-086",
+    "question": "Quel plat est une omelette fine garnie et pliée, souvent servie chaude ?",
+    "choices": [
+      "La crêpe salée (galette)",
+      "Le sushi",
+      "Le taco",
+      "Le curry"
+    ],
+    "answer": "La crêpe salée (galette)",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-087",
+    "question": "Quel ustensile utilises-tu pour couper du pain en tranches ?",
+    "choices": [
+      "Un couteau à pain",
+      "Un fouet",
+      "Une râpe",
+      "Une passoire"
+    ],
+    "answer": "Un couteau à pain",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-088",
+    "question": "Quel plat est une pâte ronde garnie de fromage et de sauce tomate ?",
+    "choices": [
+      "La pizza",
+      "Le sushi",
+      "Le curry",
+      "Le pad thaï"
+    ],
+    "answer": "La pizza",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-089",
+    "question": "Quel aliment est souvent mangé en dessert et est fait avec du lait et du sucre chauffés ?",
+    "choices": [
+      "Le flan",
+      "Le riz",
+      "Le pain",
+      "La salade"
+    ],
+    "answer": "Le flan",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-090",
+    "question": "Quel plat simple est préparé en mélangeant œufs et lait puis en cuisant à la poêle ?",
+    "choices": [
+      "L'omelette",
+      "Le sushi",
+      "La paella",
+      "Le taco"
+    ],
+    "answer": "L'omelette",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-091",
+    "question": "Quel ustensile utilises-tu pour retourner une crêpe ou une omelette ?",
+    "choices": [
+      "Une spatule",
+      "Un couteau à pain",
+      "Une râpe",
+      "Un économe"
+    ],
+    "answer": "Une spatule",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-092",
+    "question": "Quel aliment est souvent servi en accompagnement des hamburgers ?",
+    "choices": [
+      "Les frites",
+      "Le riz",
+      "Le sushi",
+      "La paella"
+    ],
+    "answer": "Les frites",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-093",
+    "question": "Quel plat est une soupe vietnamienne à base de bouillon et de nouilles ?",
+    "choices": [
+      "Le pho",
+      "Le ramen",
+      "La paella",
+      "Le chili"
+    ],
+    "answer": "Le pho",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-094",
+    "question": "Quel ustensile utilises-tu pour mélanger une pâte à gâteau ?",
+    "choices": [
+      "Un fouet",
+      "Une râpe",
+      "Un couteau",
+      "Une passoire"
+    ],
+    "answer": "Un fouet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-095",
+    "question": "Quel aliment est souvent mangé au petit-déjeuner avec du beurre et de la confiture ?",
+    "choices": [
+      "La tartine",
+      "Le sushi",
+      "La paella",
+      "Le curry"
+    ],
+    "answer": "La tartine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-096",
+    "question": "Quel plat est une omelette japonaise roulée et sucrée-salée ?",
+    "choices": [
+      "Le tamagoyaki",
+      "Le taco",
+      "La paella",
+      "Le burrito"
+    ],
+    "answer": "Le tamagoyaki",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-097",
+    "question": "Quel ustensile utilises-tu pour mesurer des ingrédients en grammes ?",
+    "choices": [
+      "Une balance",
+      "Une cuillère",
+      "Une poêle",
+      "Un couteau"
+    ],
+    "answer": "Une balance",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-098",
+    "question": "Quel plat est une pâte feuilletée garnie et cuite au four, souvent sucrée ?",
+    "choices": [
+      "La tarte",
+      "Le sushi",
+      "Le curry",
+      "Le pho"
+    ],
+    "answer": "La tarte",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-099",
+    "question": "Quel aliment est souvent mangé en dessert et est fait avec du chocolat ?",
+    "choices": [
+      "Le gâteau au chocolat",
+      "La salade",
+      "Le riz",
+      "Le poisson"
+    ],
+    "answer": "Le gâteau au chocolat",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-100",
+    "question": "Quel plat est une soupe de légumes souvent servie chaude à la cantine ?",
+    "choices": [
+      "La soupe",
+      "Le sushi",
+      "La pizza",
+      "Le taco"
+    ],
+    "answer": "La soupe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-102",
+    "question": "Quel plat est une galette de pommes de terre râpées et dorées à la poêle ?",
+    "choices": [
+      "La rösti",
+      "Le sushi",
+      "Le curry",
+      "La paella"
+    ],
+    "answer": "La rösti",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-103",
+    "question": "Quel aliment est souvent servi en tranches fines sur une pizza margherita ?",
+    "choices": [
+      "La mozzarella",
+      "La banane",
+      "La pomme",
+      "La carotte"
+    ],
+    "answer": "La mozzarella",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-104",
+    "question": "Quel plat est une omelette garnie de fromage et de jambon, pliée en deux ?",
+    "choices": [
+      "L'omelette",
+      "Le sushi",
+      "La paella",
+      "Le taco"
+    ],
+    "answer": "L'omelette",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-105",
+    "question": "Quel ustensile utilises-tu pour verser une sauce sans en renverser ?",
+    "choices": [
+      "Une louche",
+      "Un couteau",
+      "Une râpe",
+      "Un économe"
+    ],
+    "answer": "Une louche",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-106",
+    "question": "Quel plat est une pâte fine garnie de viande et d'épices, typique du Mexique ?",
+    "choices": [
+      "Le taco",
+      "Le sushi",
+      "La paella",
+      "Le ramen"
+    ],
+    "answer": "Le taco",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-107",
+    "question": "Quel aliment est souvent mangé au goûter et est un biscuit sucré ?",
+    "choices": [
+      "Le biscuit",
+      "Le riz",
+      "La salade",
+      "Le poisson"
+    ],
+    "answer": "Le biscuit",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-108",
+    "question": "Quel ustensile utilises-tu pour écraser de l'ail ou des pommes de terre ?",
+    "choices": [
+      "Un presse-ail / un pilon",
+      "Un fouet",
+      "Une râpe",
+      "Une passoire"
+    ],
+    "answer": "Un presse-ail / un pilon",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-109",
+    "question": "Quel plat est une omelette japonaise fine et roulée, souvent servie en tranches ?",
+    "choices": [
+      "Le tamagoyaki",
+      "La paella",
+      "Le curry",
+      "Le burrito"
+    ],
+    "answer": "Le tamagoyaki",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-110",
+    "question": "Quel aliment est souvent servi en accompagnement d'un plat principal et est une purée de pommes de terre ?",
+    "choices": [
+      "La purée",
+      "Le sushi",
+      "La salade",
+      "La paella"
+    ],
+    "answer": "La purée",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-111",
+    "question": "Vrai ou faux : le miel peut se conserver très longtemps sans périr.",
+    "choices": [
+      "Vrai",
+      "Faux",
+      "Parfois",
+      "Jamais"
+    ],
+    "answer": "Vrai",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-112",
+    "question": "Avant d'être orange, de quelle couleur étaient souvent les carottes ?",
+    "choices": [
+      "Violet",
+      "Bleu",
+      "Vert",
+      "Rouge"
+    ],
+    "answer": "Violet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-113",
+    "question": "Combien d'ingrédients principaux faut-il pour faire une omelette simple (œufs + ... ) ?",
+    "choices": [
+      "Du lait ou de l'eau",
+      "Du chocolat",
+      "Du riz",
+      "Du poisson"
+    ],
+    "answer": "Du lait ou de l'eau",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-114",
+    "question": "Tu prépares un gâteau et tu oublies la levure. Que va-t-il se passer ?",
+    "choices": [
+      "Le gâteau restera plat",
+      "Il gonflera plus",
+      "Il deviendra liquide",
+      "Il changera de couleur"
+    ],
+    "answer": "Le gâteau restera plat",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-115",
+    "question": "Quel fruit est connu pour être une baie et souvent mangé au petit-déjeuner ?",
+    "choices": [
+      "La banane",
+      "La pomme de terre",
+      "La carotte",
+      "Le chou"
+    ],
+    "answer": "La banane",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-116",
+    "question": "Le ketchup était autrefois vendu comme quoi au XIXe siècle ?",
+    "choices": [
+      "Un médicament",
+      "Un jouet",
+      "Un vêtement",
+      "Un parfum"
+    ],
+    "answer": "Un médicament",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-117",
+    "question": "Quel fruit met environ 2 à 3 ans pour pousser et ne donne qu'un seul fruit par plant ?",
+    "choices": [
+      "L'ananas",
+      "La fraise",
+      "La pomme",
+      "La cerise"
+    ],
+    "answer": "L'ananas",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-118",
+    "question": "Tu es au marché en décembre et le vendeur dit que ces fraises sont 'de saison'. A-t-il probablement raison ?",
+    "choices": [
+      "Non, généralement non",
+      "Oui, toujours",
+      "Toujours en décembre",
+      "Seulement la nuit"
+    ],
+    "answer": "Non, généralement non",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-119",
+    "question": "Parmi ces affirmations, laquelle est vraie ?",
+    "choices": [
+      "La pizza Margherita vient de Naples",
+      "La pizza vient des États-Unis",
+      "La pizza est une invention chinoise",
+      "La pizza est un fruit"
+    ],
+    "answer": "La pizza Margherita vient de Naples",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-120",
+    "question": "Quel aliment a été trouvé encore comestible dans des tombes égyptiennes ?",
+    "choices": [
+      "Le miel",
+      "Le pain",
+      "La pomme",
+      "Le fromage"
+    ],
+    "answer": "Le miel",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-121",
+    "question": "Quelle est la première étape pour faire du pain à partir du blé ?",
+    "choices": [
+      "Moudre le blé en farine",
+      "Tondre la vache",
+      "Cueillir les pommes",
+      "Faire bouillir l'eau"
+    ],
+    "answer": "Moudre le blé en farine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-122",
+    "question": "Quel fruit est souvent confondu avec un légume en cuisine mais est un fruit botaniquement ?",
+    "choices": [
+      "La tomate",
+      "La carotte",
+      "La laitue",
+      "La pomme de terre"
+    ],
+    "answer": "La tomate",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-123",
+    "question": "Quel aliment est souvent utilisé pour faire du jus de raisin ?",
+    "choices": [
+      "Le raisin",
+      "La pomme de terre",
+      "La carotte",
+      "La tomate"
+    ],
+    "answer": "Le raisin",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-124",
+    "question": "Tu visites le Japon et on te sert du riz vinaigré garni de poisson cru. C'est...",
+    "choices": [
+      "Du sushi",
+      "Du taco",
+      "De la paella",
+      "Du hamburger"
+    ],
+    "answer": "Du sushi",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-125",
+    "question": "Quel aliment est souvent utilisé pour faire des frites ?",
+    "choices": [
+      "La pomme de terre",
+      "La fraise",
+      "La banane",
+      "La tomate"
+    ],
+    "answer": "La pomme de terre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-126",
+    "question": "Parmi ces affirmations, laquelle est une anecdote vraie ?",
+    "choices": [
+      "Il existe plus de 300 formes de pâtes",
+      "Les pâtes poussent sur les arbres",
+      "Le riz est un fromage",
+      "Le chocolat pousse en Europe"
+    ],
+    "answer": "Il existe plus de 300 formes de pâtes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-127",
+    "question": "Quel fruit est souvent utilisé pour faire de la confiture rouge et sucrée ?",
+    "choices": [
+      "La fraise",
+      "La pomme de terre",
+      "Le brocoli",
+      "Le poireau"
+    ],
+    "answer": "La fraise",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-128",
+    "question": "Quel aliment est fabriqué à partir de fèves de cacao ?",
+    "choices": [
+      "Le chocolat",
+      "Le fromage",
+      "Le pain",
+      "Le miel"
+    ],
+    "answer": "Le chocolat",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-129",
+    "question": "Tu prépares une salade et tu veux la rendre plus salée. Quel condiment ajoutes-tu ?",
+    "choices": [
+      "Du sel",
+      "Du sucre",
+      "De la farine",
+      "Du lait"
+    ],
+    "answer": "Du sel",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-130",
+    "question": "Quel fruit est souvent mangé en tranches et est très juteux en été ?",
+    "choices": [
+      "La pastèque",
+      "La pomme de terre",
+      "Le chou",
+      "Le poireau"
+    ],
+    "answer": "La pastèque",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-131",
+    "question": "Quel aliment est souvent servi chaud et crémeux au petit-déjeuner, fait avec du lait chauffé et du sucre ?",
+    "choices": [
+      "Le porridge",
+      "La pizza",
+      "Le sushi",
+      "Le taco"
+    ],
+    "answer": "Le porridge",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-132",
+    "question": "Quel légume est souvent utilisé pour faire une soupe orange et douce ?",
+    "choices": [
+      "La carotte",
+      "La fraise",
+      "La banane",
+      "La tomate"
+    ],
+    "answer": "La carotte",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-133",
+    "question": "Quel aliment est une source de protéines et vient d'un animal ?",
+    "choices": [
+      "Le poulet",
+      "La pomme",
+      "La carotte",
+      "Le riz"
+    ],
+    "answer": "Le poulet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-134",
+    "question": "Quel fruit est petit, rouge et souvent mis sur les gâteaux comme décoration ?",
+    "choices": [
+      "La cerise",
+      "La pomme de terre",
+      "La carotte",
+      "La banane"
+    ],
+    "answer": "La cerise",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-135",
+    "question": "Quel aliment est souvent mangé au goûter et est une tranche de pain avec du chocolat ?",
+    "choices": [
+      "Le pain au chocolat",
+      "La salade",
+      "Le riz",
+      "Le poisson"
+    ],
+    "answer": "Le pain au chocolat",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-136",
+    "question": "Quel fruit est souvent associé au petit-déjeuner et est jaune et courbé ?",
+    "choices": [
+      "La banane",
+      "La pomme",
+      "La fraise",
+      "La cerise"
+    ],
+    "answer": "La banane",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-137",
+    "question": "Quel aliment est fabriqué en faisant fermenter du lait avec des bactéries ?",
+    "choices": [
+      "Le yaourt",
+      "Le pain",
+      "Le miel",
+      "La farine"
+    ],
+    "answer": "Le yaourt",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-138",
+    "question": "Tu ouvres un yaourt dont la DDM est dépassée de 3 jours. Est-il forcément dangereux ?",
+    "choices": [
+      "Pas forcément",
+      "Oui toujours",
+      "Non, jamais",
+      "Seulement s'il est rouge"
+    ],
+    "answer": "Pas forcément",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-139",
+    "question": "Quel aliment est souvent utilisé pour faire des crêpes sucrées ?",
+    "choices": [
+      "La farine",
+      "Le poisson",
+      "Le riz",
+      "Le brocoli"
+    ],
+    "answer": "La farine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-140",
+    "question": "Quel fruit est souvent pressé pour faire du jus orange ?",
+    "choices": [
+      "L'orange",
+      "La pomme de terre",
+      "La carotte",
+      "La tomate"
+    ],
+    "answer": "L'orange",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-141",
+    "question": "Quel aliment est souvent servi en tranches fines sur une pizza et est un fromage italien ?",
+    "choices": [
+      "La mozzarella",
+      "La banane",
+      "La pomme",
+      "La carotte"
+    ],
+    "answer": "La mozzarella",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-142",
+    "question": "Quel aliment est une boisson chaude faite avec des feuilles infusées ?",
+    "choices": [
+      "Le thé",
+      "Le riz",
+      "La pizza",
+      "Le sushi"
+    ],
+    "answer": "Le thé",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-143",
+    "question": "Quel fruit est souvent utilisé pour faire de la compote ?",
+    "choices": [
+      "La pomme",
+      "La carotte",
+      "Le chou",
+      "Le poireau"
+    ],
+    "answer": "La pomme",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-144",
+    "question": "Quel aliment est souvent mangé en sandwich et est une tranche de viande cuite froide ?",
+    "choices": [
+      "Le jambon",
+      "La fraise",
+      "La banane",
+      "La tomate"
+    ],
+    "answer": "Le jambon",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-145",
+    "question": "Quel fruit est souvent associé à la tarte américaine 'apple pie' ?",
+    "choices": [
+      "La pomme",
+      "La carotte",
+      "La tomate",
+      "La banane"
+    ],
+    "answer": "La pomme",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-146",
+    "question": "Quel aliment est souvent servi chaud et croustillant, fait de pommes de terre coupées et frites ?",
+    "choices": [
+      "Les frites",
+      "La salade",
+      "Le riz",
+      "Le poisson"
+    ],
+    "answer": "Les frites",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-147",
+    "question": "Quel fruit est souvent mangé en été et a une peau velue et une chair sucrée ?",
+    "choices": [
+      "La pêche",
+      "La pomme de terre",
+      "Le chou",
+      "Le poireau"
+    ],
+    "answer": "La pêche",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-148",
+    "question": "Quel aliment est souvent utilisé pour faire des pancakes au petit-déjeuner ?",
+    "choices": [
+      "La farine",
+      "Le poisson",
+      "La tomate",
+      "Le brocoli"
+    ],
+    "answer": "La farine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-149",
+    "question": "Quel fruit est petit, bleu et souvent utilisé pour les muffins ?",
+    "choices": [
+      "La myrtille",
+      "La pomme de terre",
+      "La carotte",
+      "La banane"
+    ],
+    "answer": "La myrtille",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-150",
+    "question": "Quel aliment est souvent servi en dessert et est un gâteau au cacao ?",
+    "choices": [
+      "Le gâteau au chocolat",
+      "La salade",
+      "Le riz",
+      "Le poisson"
+    ],
+    "answer": "Le gâteau au chocolat",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-151",
+    "question": "Quel aliment est souvent utilisé pour faire des pâtes fraîches ?",
+    "choices": [
+      "La farine de blé",
+      "Le poisson",
+      "La tomate",
+      "La pomme de terre"
+    ],
+    "answer": "La farine de blé",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-152",
+    "question": "Quel fruit est souvent mangé en tranches au dessert et est croquant ?",
+    "choices": [
+      "La pomme",
+      "La carotte",
+      "Le chou",
+      "Le poireau"
+    ],
+    "answer": "La pomme",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-153",
+    "question": "Quel aliment est souvent servi chaud et est une soupe épaisse à base de tomates en été ?",
+    "choices": [
+      "Le gazpacho",
+      "La fondue",
+      "Le borscht",
+      "Le pho"
+    ],
+    "answer": "Le gazpacho",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-154",
+    "question": "Quel fruit est souvent utilisé pour faire du guacamole ?",
+    "choices": [
+      "L'avocat",
+      "La pomme",
+      "La carotte",
+      "La tomate"
+    ],
+    "answer": "L'avocat",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-155",
+    "question": "Quel aliment est souvent mangé au petit-déjeuner et est une tranche de pain grillée ?",
+    "choices": [
+      "La tartine",
+      "Le sushi",
+      "La paella",
+      "Le curry"
+    ],
+    "answer": "La tartine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-156",
+    "question": "Quel fruit est souvent associé aux crêpes et aux confitures rouges ?",
+    "choices": [
+      "La fraise",
+      "La pomme de terre",
+      "La carotte",
+      "La banane"
+    ],
+    "answer": "La fraise",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-157",
+    "question": "Quel aliment est souvent utilisé pour faire du riz cantonais ?",
+    "choices": [
+      "Le riz",
+      "La pomme",
+      "La carotte",
+      "Le brocoli"
+    ],
+    "answer": "Le riz",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-158",
+    "question": "Quel fruit est souvent mangé en rondelles sur une tarte tatin ?",
+    "choices": [
+      "La pomme",
+      "La carotte",
+      "La tomate",
+      "La banane"
+    ],
+    "answer": "La pomme",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-159",
+    "question": "Quel aliment est souvent servi en accompagnement et est une purée lisse de pommes de terre ?",
+    "choices": [
+      "La purée",
+      "Le sushi",
+      "La salade",
+      "La paella"
+    ],
+    "answer": "La purée",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-160",
+    "question": "Quel fruit est souvent utilisé pour faire du jus et est orange à l'intérieur ?",
+    "choices": [
+      "L'orange",
+      "La pomme de terre",
+      "La carotte",
+      "La tomate"
+    ],
+    "answer": "L'orange",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-161",
+    "question": "Quel aliment est souvent mangé en dessert et est une tarte aux fruits ?",
+    "choices": [
+      "La tarte",
+      "Le sushi",
+      "La paella",
+      "Le curry"
+    ],
+    "answer": "La tarte",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-162",
+    "question": "Quel fruit est souvent mangé en été et a une peau velue ?",
+    "choices": [
+      "La pêche",
+      "La pomme de terre",
+      "Le chou",
+      "Le poireau"
+    ],
+    "answer": "La pêche",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-163",
+    "question": "Quel aliment est souvent utilisé pour faire du popcorn ?",
+    "choices": [
+      "Le maïs",
+      "La pomme",
+      "La carotte",
+      "La tomate"
+    ],
+    "answer": "Le maïs",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-164",
+    "question": "Quel fruit est souvent utilisé pour faire du jus de pomme ?",
+    "choices": [
+      "La pomme",
+      "La carotte",
+      "La tomate",
+      "La banane"
+    ],
+    "answer": "La pomme",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-165",
+    "question": "Quel aliment est souvent mangé en dessert et est une crème cuite au four ?",
+    "choices": [
+      "Le flan",
+      "Le riz",
+      "Le pain",
+      "La salade"
+    ],
+    "answer": "Le flan",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-166",
+    "question": "Quel fruit est souvent utilisé pour faire des compotes et des tartes ?",
+    "choices": [
+      "La pomme",
+      "La carotte",
+      "Le chou",
+      "Le poireau"
+    ],
+    "answer": "La pomme",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-167",
+    "question": "Quel aliment est souvent servi en tranches fines sur une pizza et est une charcuterie ?",
+    "choices": [
+      "Le jambon",
+      "La fraise",
+      "La banane",
+      "La tomate"
+    ],
+    "answer": "Le jambon",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-168",
+    "question": "Quel fruit est souvent mangé en été et est sucré et juteux, avec une peau duveteuse ?",
+    "choices": [
+      "La pêche",
+      "La pomme de terre",
+      "Le chou",
+      "Le poireau"
+    ],
+    "answer": "La pêche",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-169",
+    "question": "Quel aliment est souvent utilisé pour faire des crêpes sucrées et salées ?",
+    "choices": [
+      "La farine",
+      "Le poisson",
+      "La tomate",
+      "Le brocoli"
+    ],
+    "answer": "La farine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-170",
+    "question": "Quel fruit est souvent mangé en dessert et est rouge, sucré et petit ?",
+    "choices": [
+      "La fraise",
+      "La pomme de terre",
+      "La carotte",
+      "La banane"
+    ],
+    "answer": "La fraise",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-medium-001",
+    "question": "Quel plat est emblématique du Japon ?",
+    "choices": [
+      "Le sushi",
+      "La paella",
+      "La pizza",
+      "Le couscous"
+    ],
+    "answer": "Le sushi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-002",
+    "question": "De quel pays vient la pizza Margherita ?",
+    "choices": [
+      "L'Italie",
+      "Les États-Unis",
+      "La France",
+      "L'Espagne"
+    ],
+    "answer": "L'Italie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-003",
+    "question": "Quel condiment est indispensable dans la cuisine japonaise pour accompagner les sushis ?",
+    "choices": [
+      "La sauce soja",
+      "Le ketchup",
+      "La moutarde",
+      "La harissa"
+    ],
+    "answer": "La sauce soja",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-004",
+    "question": "Quel plat est une spécialité espagnole à base de riz, souvent cuite avec des fruits de mer ?",
+    "choices": [
+      "La paella",
+      "Le ramen",
+      "Le taco",
+      "Le goulash"
+    ],
+    "answer": "La paella",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-005",
+    "question": "Avec quoi mange-t-on traditionnellement au Japon ?",
+    "choices": [
+      "Des baguettes (hashi)",
+      "Une fourchette",
+      "Une cuillère en bois",
+      "Des mains nues"
+    ],
+    "answer": "Des baguettes (hashi)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-006",
+    "question": "Quel plat italien est composé de riz cuit lentement avec du bouillon et du parmesan ?",
+    "choices": [
+      "Le risotto",
+      "La lasagne",
+      "La polenta",
+      "Le tiramisu"
+    ],
+    "answer": "Le risotto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-007",
+    "question": "Quel plat coréen fermenté et épicé est souvent servi en accompagnement ?",
+    "choices": [
+      "Le kimchi",
+      "Le hummus",
+      "La moussaka",
+      "Le ceviche"
+    ],
+    "answer": "Le kimchi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-008",
+    "question": "Quel plat français est une soupe froide à base de tomates, populaire en été ?",
+    "choices": [
+      "Le gazpacho",
+      "La bouillabaisse",
+      "Le pot-au-feu",
+      "La ratatouille"
+    ],
+    "answer": "Le gazpacho",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-009",
+    "question": "Quel plat japonais est une soupe de nouilles dans un bouillon savoureux ?",
+    "choices": [
+      "Le ramen",
+      "La paella",
+      "Le pho",
+      "Le borscht"
+    ],
+    "answer": "Le ramen",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-010",
+    "question": "Quel ingrédient est typique de la cuisine indienne et donne une couleur jaune aux plats ?",
+    "choices": [
+      "Le curcuma",
+      "La cannelle",
+      "Le paprika",
+      "Le safran"
+    ],
+    "answer": "Le curcuma",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-011",
+    "question": "Quel plat chinois est composé de petites bouchées cuites à la vapeur, souvent servies en assortiment ?",
+    "choices": [
+      "Le dim sum",
+      "Le taco",
+      "La pizza",
+      "Le schnitzel"
+    ],
+    "answer": "Le dim sum",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-012",
+    "question": "Quel fromage italien est traditionnellement râpé sur les pâtes ?",
+    "choices": [
+      "Le parmigiano reggiano",
+      "Le camembert",
+      "Le cheddar",
+      "La feta"
+    ],
+    "answer": "Le parmigiano reggiano",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-013",
+    "question": "Quel plat japonais se compose de riz vinaigré garni de poisson cru ?",
+    "choices": [
+      "Le sushi",
+      "Le bibimbap",
+      "Le pad thaï",
+      "Le ceviche"
+    ],
+    "answer": "Le sushi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-014",
+    "question": "Quel condiment italien à base de tomates, basilic et huile d'olive accompagne souvent les pâtes ?",
+    "choices": [
+      "La sauce tomate",
+      "La sauce soja",
+      "La harissa",
+      "Le chutney"
+    ],
+    "answer": "La sauce tomate",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-015",
+    "question": "Quel plat japonais est une omelette roulée sucrée-salée ?",
+    "choices": [
+      "Le tamagoyaki",
+      "Le takoyaki",
+      "Le tempura",
+      "Le tonkatsu"
+    ],
+    "answer": "Le tamagoyaki",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-016",
+    "question": "Quel plat français est une préparation de légumes mijotés, souvent provençale ?",
+    "choices": [
+      "La ratatouille",
+      "Le sushi",
+      "Le curry",
+      "Le bibimbap"
+    ],
+    "answer": "La ratatouille",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-017",
+    "question": "Quel ingrédient est essentiel pour préparer des ramen authentiques ?",
+    "choices": [
+      "Un bouillon savoureux",
+      "De la sauce barbecue",
+      "Du fromage fondu",
+      "Du sirop d'érable"
+    ],
+    "answer": "Un bouillon savoureux",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-018",
+    "question": "Quel plat coréen est un bol de riz garni de légumes, viande et œuf, souvent mélangé avant de manger ?",
+    "choices": [
+      "Le bibimbap",
+      "Le burrito",
+      "La paella",
+      "Le goulash"
+    ],
+    "answer": "Le bibimbap",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-019",
+    "question": "Quel aliment est une spécialité italienne faite de pâte fine, fromage et sauce tomate ?",
+    "choices": [
+      "La pizza",
+      "Le sushi",
+      "Le taco",
+      "Le pho"
+    ],
+    "answer": "La pizza",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-020",
+    "question": "Quel plat japonais frit en boulettes contient souvent du poulpe et une sauce sucrée-salée ?",
+    "choices": [
+      "Le takoyaki",
+      "Le tempura",
+      "Le onigiri",
+      "Le okonomiyaki"
+    ],
+    "answer": "Le takoyaki",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-021",
+    "question": "Quel plat français est une pâtisserie feuilletée souvent garnie de crème ou de fruits ?",
+    "choices": [
+      "La tarte",
+      "Le sushi",
+      "Le ramen",
+      "Le taco"
+    ],
+    "answer": "La tarte",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-022",
+    "question": "Quel ingrédient japonais apporte l'umami et est souvent utilisé dans les bouillons ?",
+    "choices": [
+      "Le kombu (algue)",
+      "La cannelle",
+      "Le cumin",
+      "Le paprika"
+    ],
+    "answer": "Le kombu (algue)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-023",
+    "question": "Quel plat italien sucré est composé de couches de mascarpone et de biscuits imbibés de café ?",
+    "choices": [
+      "Le tiramisu",
+      "La panna cotta",
+      "La gelato",
+      "La sfogliatella"
+    ],
+    "answer": "Le tiramisu",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-024",
+    "question": "Quel plat japonais consiste en beignets légers de légumes ou de fruits de mer ?",
+    "choices": [
+      "Le tempura",
+      "Le sashimi",
+      "Le yakitori",
+      "Le sukiyaki"
+    ],
+    "answer": "Le tempura",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-025",
+    "question": "Quel fromage français est à pâte molle et souvent affiné en boîte ?",
+    "choices": [
+      "Le camembert",
+      "Le gouda",
+      "Le cheddar",
+      "La feta"
+    ],
+    "answer": "Le camembert",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-026",
+    "question": "Quel plat japonais est une crêpe salée garnie d'ingrédients et cuite sur une plaque ?",
+    "choices": [
+      "L'okonomiyaki",
+      "Le bibimbap",
+      "La paella",
+      "Le goulash"
+    ],
+    "answer": "L'okonomiyaki",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-027",
+    "question": "Quel ingrédient est souvent utilisé dans la cuisine thaïlandaise pour son goût citronné et parfumé ?",
+    "choices": [
+      "La citronnelle",
+      "La vanille",
+      "La coriandre",
+      "La cannelle"
+    ],
+    "answer": "La citronnelle",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-028",
+    "question": "Quel plat japonais est composé de petites galettes de pâte garnies et souvent grillées (okonomiyaki ou autre) ?",
+    "choices": [
+      "L'okonomiyaki",
+      "La paella",
+      "Le taco",
+      "Le schnitzel"
+    ],
+    "answer": "L'okonomiyaki",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-029",
+    "question": "Quel plat français est une préparation de pâte levée garnie de jambon et fromage, souvent servie chaude ?",
+    "choices": [
+      "La quiche",
+      "Le sushi",
+      "Le ramen",
+      "Le taco"
+    ],
+    "answer": "La quiche",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-030",
+    "question": "Quel condiment japonais vert piquant est souvent remplacé par du raifort coloré dans les restaurants ?",
+    "choices": [
+      "Le wasabi",
+      "La moutarde",
+      "Le ketchup",
+      "La harissa"
+    ],
+    "answer": "Le wasabi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-031",
+    "question": "Quel plat coréen de rue est une galette frite à base de légumes et parfois de fruits de mer ?",
+    "choices": [
+      "Le jeon",
+      "Le sushi",
+      "La paella",
+      "Le taco"
+    ],
+    "answer": "Le jeon",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-032",
+    "question": "Quel plat japonais est un bol de riz garni de poisson cru, légumes et sauce soja ?",
+    "choices": [
+      "Le donburi",
+      "Le bibimbap",
+      "La paella",
+      "Le goulash"
+    ],
+    "answer": "Le donburi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-033",
+    "question": "Quel ingrédient est la base du pesto italien traditionnel ?",
+    "choices": [
+      "Le basilic",
+      "La coriandre",
+      "Le persil",
+      "La menthe"
+    ],
+    "answer": "Le basilic",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-034",
+    "question": "Quel plat japonais de rue est une boule de riz panée et frite, souvent fourrée ?",
+    "choices": [
+      "L'onigiri frit (arancini japonais)",
+      "Le taco",
+      "La paella",
+      "Le burrito"
+    ],
+    "answer": "L'onigiri frit (arancini japonais)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-035",
+    "question": "Quel plat italien glacé est une crème glacée italienne très populaire ?",
+    "choices": [
+      "La gelato",
+      "Le sorbet",
+      "La panna cotta",
+      "Le tiramisu"
+    ],
+    "answer": "La gelato",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-036",
+    "question": "Quel plat japonais est une brochette de poulet grillé souvent assaisonnée de sauce soja sucrée ?",
+    "choices": [
+      "Le yakitori",
+      "Le tempura",
+      "Le sashimi",
+      "Le ramen"
+    ],
+    "answer": "Le yakitori",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-037",
+    "question": "Quel ingrédient parfumé est souvent utilisé dans la cuisine indienne pour son arôme chaud et sucré ?",
+    "choices": [
+      "La cannelle",
+      "Le wasabi",
+      "La citronnelle",
+      "Le kombu"
+    ],
+    "answer": "La cannelle",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-038",
+    "question": "Quel plat japonais est composé de fines tranches de poisson cru, sans riz ?",
+    "choices": [
+      "Le sashimi",
+      "Le sushi",
+      "Le tempura",
+      "Le takoyaki"
+    ],
+    "answer": "Le sashimi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-039",
+    "question": "Quel plat français est une préparation de viande et légumes mijotés, souvent servie en hiver ?",
+    "choices": [
+      "Le pot-au-feu",
+      "Le sushi",
+      "Le ramen",
+      "La paella"
+    ],
+    "answer": "Le pot-au-feu",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-040",
+    "question": "Quel ingrédient japonais fermenté est utilisé pour aromatiser les soupes et sauces (miso) ?",
+    "choices": [
+      "La pâte de soja fermentée (miso)",
+      "La mayonnaise",
+      "Le ketchup",
+      "La confiture"
+    ],
+    "answer": "La pâte de soja fermentée (miso)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-041",
+    "question": "Quel plat italien est une soupe froide sucrée à base de fruits ou de crème glacée ?",
+    "choices": [
+      "La granita",
+      "Le ramen",
+      "La paella",
+      "Le bibimbap"
+    ],
+    "answer": "La granita",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-042",
+    "question": "Quel plat japonais est une crêpe salée garnie de chou, viande et sauce, souvent vendue en rue ?",
+    "choices": [
+      "L'okonomiyaki",
+      "Le sushi",
+      "La paella",
+      "Le taco"
+    ],
+    "answer": "L'okonomiyaki",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-043",
+    "question": "Quel fromage italien frais est souvent utilisé sur la pizza Margherita ?",
+    "choices": [
+      "La mozzarella",
+      "Le camembert",
+      "Le cheddar",
+      "La feta"
+    ],
+    "answer": "La mozzarella",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-044",
+    "question": "Quel plat japonais de rue est une crêpe fourrée de poulpe et de sauce ?",
+    "choices": [
+      "Le takoyaki",
+      "Le tempura",
+      "Le sashimi",
+      "Le ramen"
+    ],
+    "answer": "Le takoyaki",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-045",
+    "question": "Quel ingrédient est souvent utilisé dans la cuisine méditerranéenne pour assaisonner les salades et les plats ?",
+    "choices": [
+      "L'huile d'olive",
+      "La sauce soja",
+      "Le sirop d'érable",
+      "La crème fraîche"
+    ],
+    "answer": "L'huile d'olive",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-046",
+    "question": "Quel plat japonais est une crêpe fine garnie et souvent roulée, appelée aussi 'okonomiyaki' ou 'monjayaki' selon la région ?",
+    "choices": [
+      "L'okonomiyaki",
+      "La paella",
+      "Le taco",
+      "Le goulash"
+    ],
+    "answer": "L'okonomiyaki",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-047",
+    "question": "Quel plat italien est une soupe épaisse à base de maïs ou de semoule, parfois servie en accompagnement ?",
+    "choices": [
+      "La polenta",
+      "Le ramen",
+      "Le sushi",
+      "Le bibimbap"
+    ],
+    "answer": "La polenta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-048",
+    "question": "Quel ingrédient japonais vert est souvent utilisé pour garnir les sushis et ajouter du piquant ?",
+    "choices": [
+      "Le wasabi",
+      "La menthe",
+      "Le basilic",
+      "La coriandre"
+    ],
+    "answer": "Le wasabi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-049",
+    "question": "Quel plat italien sucré est une crème cuite souvent servie avec un coulis de fruits ?",
+    "choices": [
+      "La panna cotta",
+      "Le ramen",
+      "Le sushi",
+      "La paella"
+    ],
+    "answer": "La panna cotta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-050",
+    "question": "Quel ingrédient est souvent utilisé dans la cuisine japonaise pour frire légèrement et donner du croustillant ?",
+    "choices": [
+      "La farine et la fécule pour tempura",
+      "Le beurre",
+      "La crème fraîche",
+      "Le sirop d'érable"
+    ],
+    "answer": "La farine et la fécule pour tempura",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-051",
+    "question": "Quel plat est emblématique du Pérou, à base de poisson cru mariné au citron vert ?",
+    "choices": [
+      "Le ceviche",
+      "Le feijoada",
+      "Le empanada",
+      "Le poutine"
+    ],
+    "answer": "Le ceviche",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-052",
+    "question": "De quel pays vient la feijoada, un ragoût de haricots et de viande ?",
+    "choices": [
+      "Le Brésil",
+      "Le Mexique",
+      "L'Argentine",
+      "Le Chili"
+    ],
+    "answer": "Le Brésil",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-053",
+    "question": "Quel plat argentin est connu pour être un grand barbecue de viandes grillées ?",
+    "choices": [
+      "Le asado",
+      "Le taco",
+      "Le sushi",
+      "Le pho"
+    ],
+    "answer": "Le asado",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-054",
+    "question": "Quel aliment de rue mexicain est une tortilla garnie et pliée ?",
+    "choices": [
+      "Le taco",
+      "Le arepa",
+      "Le empanada",
+      "Le poutine"
+    ],
+    "answer": "Le taco",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-055",
+    "question": "Quel plat vénézuélien/colombien est une galette de maïs souvent garnie ?",
+    "choices": [
+      "L'arepa",
+      "Le burrito",
+      "Le sushi",
+      "La paella"
+    ],
+    "answer": "L'arepa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-056",
+    "question": "Quel plat canadien est composé de frites, fromage en grains et sauce ?",
+    "choices": [
+      "Le poutine",
+      "Le ceviche",
+      "Le feijoada",
+      "Le kimchi"
+    ],
+    "answer": "Le poutine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-057",
+    "question": "Quel plat jamaïcain épicé est souvent préparé avec du poulet mariné et grillé ?",
+    "choices": [
+      "Le jerk chicken",
+      "Le tamale",
+      "Le empanada",
+      "Le bibimbap"
+    ],
+    "answer": "Le jerk chicken",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-058",
+    "question": "Quel plat brésilien à base de riz, haricots et viande est considéré comme un plat national ?",
+    "choices": [
+      "La feijoada",
+      "La paella",
+      "Le ramen",
+      "Le goulash"
+    ],
+    "answer": "La feijoada",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-059",
+    "question": "Quel plat mexicain enveloppé dans une feuille et cuit à la vapeur est traditionnel ?",
+    "choices": [
+      "Le tamal",
+      "Le sushi",
+      "Le taco",
+      "Le bibimbap"
+    ],
+    "answer": "Le tamal",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-060",
+    "question": "Quel plat salvadorien est une galette de maïs farcie, souvent servie au petit-déjeuner ?",
+    "choices": [
+      "La pupusa",
+      "La arepa",
+      "Le sushi",
+      "Le poutine"
+    ],
+    "answer": "La pupusa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-061",
+    "question": "Quel ingrédient donne au guacamole sa texture crémeuse ?",
+    "choices": [
+      "L'avocat",
+      "La tomate",
+      "Le maïs",
+      "La pomme de terre"
+    ],
+    "answer": "L'avocat",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-062",
+    "question": "Quel plat péruvien à base de pommes de terre écrasées et farcies est populaire ?",
+    "choices": [
+      "Les papas a la huancaína",
+      "Les empanadas",
+      "Le ramen",
+      "La paella"
+    ],
+    "answer": "Les papas a la huancaína",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-063",
+    "question": "Quel plat brésilien de rue est une boulette de haricots et de viande frite, souvent servie en snack ?",
+    "choices": [
+      "Le bolinho de feijoada",
+      "Le sushi",
+      "Le taco",
+      "Le bibimbap"
+    ],
+    "answer": "Le bolinho de feijoada",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-064",
+    "question": "Quel plat argentin est une pâte feuilletée ou brisée garnie de viande ?",
+    "choices": [
+      "L'empanada",
+      "Le sushi",
+      "La paella",
+      "Le ramen"
+    ],
+    "answer": "L'empanada",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-065",
+    "question": "Quel plat éthiopien est une grande crêpe fermentée servie avec des ragoûts ?",
+    "choices": [
+      "L'injera",
+      "Le couscous",
+      "Le bobotie",
+      "Le jollof"
+    ],
+    "answer": "L'injera",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-066",
+    "question": "Quel plat ouest-africain à base de riz et de tomate est populaire au Nigeria et au Ghana ?",
+    "choices": [
+      "Le jollof rice",
+      "Le sushi",
+      "La paella",
+      "Le ramen"
+    ],
+    "answer": "Le jollof rice",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-067",
+    "question": "Quel plat marocain mijoté est souvent cuit dans un récipient conique appelé 'tajine' ?",
+    "choices": [
+      "Le tajine",
+      "Le bibimbap",
+      "Le taco",
+      "Le poutine"
+    ],
+    "answer": "Le tajine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-068",
+    "question": "Quel plat nord-africain à base de semoule est souvent servi avec des légumes et de la viande ?",
+    "choices": [
+      "Le couscous",
+      "Le sushi",
+      "Le ramen",
+      "La paella"
+    ],
+    "answer": "Le couscous",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-069",
+    "question": "Quel condiment nord-africain épicé à base de piment est utilisé en Tunisie et au Maroc ?",
+    "choices": [
+      "La harissa",
+      "La moutarde",
+      "Le ketchup",
+      "La sauce soja"
+    ],
+    "answer": "La harissa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-070",
+    "question": "Quel plat sud-africain sucré-salé à base de viande hachée et d'épices est souvent cuit au four ?",
+    "choices": [
+      "Le bobotie",
+      "Le sushi",
+      "La paella",
+      "Le ramen"
+    ],
+    "answer": "Le bobotie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-071",
+    "question": "Quel snack nigérian est de la viande séchée et épicée, similaire à du jerky ?",
+    "choices": [
+      "Le suya",
+      "Le poutine",
+      "Le ceviche",
+      "Le tamal"
+    ],
+    "answer": "Le suya",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-072",
+    "question": "Quel ingrédient africain est la base du plat éthiopien 'doro wat' (ragoût de poulet) ?",
+    "choices": [
+      "Le berbere (mélange d'épices)",
+      "La sauce soja",
+      "Le sirop d'érable",
+      "La crème fraîche"
+    ],
+    "answer": "Le berbere (mélange d'épices)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-073",
+    "question": "Quel plat brésilien de rue est un sandwich chaud à base de viande effilochée et fromage ?",
+    "choices": [
+      "Le churrasco sandwich",
+      "Le sushi",
+      "Le taco",
+      "Le ramen"
+    ],
+    "answer": "Le churrasco sandwich",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-074",
+    "question": "Quel ingrédient originaire des Amériques a révolutionné la cuisine mondiale et est la base du guacamole ?",
+    "choices": [
+      "L'avocat",
+      "La pomme de terre",
+      "Le blé",
+      "La betterave"
+    ],
+    "answer": "L'avocat",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-075",
+    "question": "Quel plat péruvien de rue est une brochette de viande souvent servie avec du maïs et des pommes de terre ?",
+    "choices": [
+      "L'anticucho",
+      "Le taco",
+      "Le sushi",
+      "La paella"
+    ],
+    "answer": "L'anticucho",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-076",
+    "question": "Quel ingrédient, très utilisé en cuisine africaine, est une pâte de piment souvent appelée 'peri-peri' ?",
+    "choices": [
+      "Le piri-piri (peri-peri)",
+      "La vanille",
+      "La cannelle",
+      "Le basilic"
+    ],
+    "answer": "Le piri-piri (peri-peri)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-077",
+    "question": "Quel plat mexicain est une sauce complexe à base de piments, chocolat et épices, souvent servie avec du poulet ?",
+    "choices": [
+      "Le mole",
+      "Le guacamole",
+      "La paella",
+      "Le ramen"
+    ],
+    "answer": "Le mole",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-078",
+    "question": "Quel ingrédient, originaire d'Amérique, est la base du chocolat ?",
+    "choices": [
+      "Le cacao",
+      "Le blé",
+      "La vanille",
+      "La cannelle"
+    ],
+    "answer": "Le cacao",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-079",
+    "question": "Quel plat caribéen combine riz, pois et épices, souvent servi avec du poulet ou du poisson ?",
+    "choices": [
+      "Le rice and peas",
+      "Le sushi",
+      "La paella",
+      "Le ramen"
+    ],
+    "answer": "Le rice and peas",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-080",
+    "question": "Quel ingrédient est la base du 'chimichurri', sauce argentine pour viandes grillées ?",
+    "choices": [
+      "Le persil",
+      "La menthe",
+      "La coriandre",
+      "Le basilic"
+    ],
+    "answer": "Le persil",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-081",
+    "question": "Quel plat péruvien sucré est une crème à base de lait concentré et œufs, souvent caramélisée ?",
+    "choices": [
+      "Le suspiro a la limeña",
+      "Le tiramisu",
+      "La panna cotta",
+      "Le flan"
+    ],
+    "answer": "Le suspiro a la limeña",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-082",
+    "question": "Quel ingrédient africain est souvent utilisé pour fumer et aromatiser les viandes, appelé 'biltong' quand séché ?",
+    "choices": [
+      "La viande séchée (biltong)",
+      "La mozzarella",
+      "Le tofu",
+      "Le riz"
+    ],
+    "answer": "La viande séchée (biltong)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-083",
+    "question": "Quel plat brésilien de rue sucré est une pâte frite recouverte de sucre et parfois fourrée ?",
+    "choices": [
+      "Le sonho",
+      "Le sushi",
+      "Le taco",
+      "La paella"
+    ],
+    "answer": "Le sonho",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-084",
+    "question": "Quel ingrédient, très utilisé en cuisine mexicaine, est une pâte faite de maïs nixtamalisé ?",
+    "choices": [
+      "La masa",
+      "La farine de blé",
+      "La semoule",
+      "La polenta"
+    ],
+    "answer": "La masa",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-085",
+    "question": "Quel plat argentin sucré est une pâtisserie fourrée à la confiture ou au dulce de leche ?",
+    "choices": [
+      "Les alfajores",
+      "Les empanadas",
+      "Le sushi",
+      "La paella"
+    ],
+    "answer": "Les alfajores",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-086",
+    "question": "Quel ingrédient africain est une épice rouge fumée souvent utilisée dans les mélanges d'épices ?",
+    "choices": [
+      "Le paprika fumé",
+      "La vanille",
+      "La cannelle",
+      "La menthe"
+    ],
+    "answer": "Le paprika fumé",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-087",
+    "question": "Quel plat brésilien à base de riz, haricots et viande est souvent servi lors des fêtes ?",
+    "choices": [
+      "La feijoada",
+      "Le sushi",
+      "Le ramen",
+      "La paella"
+    ],
+    "answer": "La feijoada",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-088",
+    "question": "Quel ingrédient, originaire d'Amérique, a été introduit en Afrique et est maintenant cultivé largement (ex : Nigeria) ?",
+    "choices": [
+      "Le manioc (cassava)",
+      "Le blé",
+      "La betterave",
+      "Le seigle"
+    ],
+    "answer": "Le manioc (cassava)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-089",
+    "question": "Quel plat mexicain est une sauce verte à base de tomatillo souvent servie avec des tacos ?",
+    "choices": [
+      "La salsa verde",
+      "La harissa",
+      "Le chimichurri",
+      "La béchamel"
+    ],
+    "answer": "La salsa verde",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-090",
+    "question": "Quelle épice, très chère, provient des stigmates d'une fleur et est utilisée en petites quantités ?",
+    "choices": [
+      "Le safran",
+      "Le poivre",
+      "La cannelle",
+      "Le cumin"
+    ],
+    "answer": "Le safran",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-091",
+    "question": "Quel ingrédient est la base du 'moqueca', ragoût de poisson brésilien ?",
+    "choices": [
+      "Le poisson et le lait de coco",
+      "Le porc et la crème",
+      "Le bœuf et la bière",
+      "Le tofu et la sauce soja"
+    ],
+    "answer": "Le poisson et le lait de coco",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-092",
+    "question": "Quel plat péruvien de rue est un sandwich de viande grillée souvent servi avec sauce ?",
+    "choices": [
+      "Le sanguchito",
+      "Le sushi",
+      "La paella",
+      "Le ramen"
+    ],
+    "answer": "Le sanguchito",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-093",
+    "question": "Quelle épice, originaire d'Asie mais cultivée à Madagascar, parfume souvent les desserts ?",
+    "choices": [
+      "La vanille",
+      "Le paprika",
+      "Le cumin",
+      "Le piment"
+    ],
+    "answer": "La vanille",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-094",
+    "question": "Quel plat caribéen à base de poisson mariné et cuit au citron est proche du ceviche ?",
+    "choices": [
+      "Le poisson cru mariné (variantes caribéennes)",
+      "Le sushi",
+      "La paella",
+      "Le ramen"
+    ],
+    "answer": "Le poisson cru mariné (variantes caribéennes)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-095",
+    "question": "Quel mélange d'épices marocain signifie littéralement 'tête de magasin' et contient souvent de nombreuses épices ?",
+    "choices": [
+      "Le ras el hanout",
+      "Le berbere",
+      "La harissa",
+      "Le za'atar"
+    ],
+    "answer": "Le ras el hanout",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-096",
+    "question": "Quel plat brésilien de riz et haricots est souvent accompagné de chou frisé et d'orange ?",
+    "choices": [
+      "La feijoada",
+      "Le sushi",
+      "Le ramen",
+      "La paella"
+    ],
+    "answer": "La feijoada",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-097",
+    "question": "Quel ingrédient, très utilisé en cuisine mexicaine, est une poudre rouge faite à partir de piments séchés ?",
+    "choices": [
+      "Le chili en poudre",
+      "La cannelle",
+      "La vanille",
+      "Le curcuma"
+    ],
+    "answer": "Le chili en poudre",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-098",
+    "question": "Quel plat péruvien sucré est un dessert à base de lait concentré caramélisé ?",
+    "choices": [
+      "Le dulce de leche (variantes latino-américaines)",
+      "Le tiramisu",
+      "La panna cotta",
+      "Le flan"
+    ],
+    "answer": "Le dulce de leche (variantes latino-américaines)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-099",
+    "question": "Quel ingrédient africain est une pâte d'arachide utilisée dans des sauces et ragoûts ?",
+    "choices": [
+      "Le beurre d'arachide (peanut butter)",
+      "La mozzarella",
+      "La crème fraîche",
+      "La sauce soja"
+    ],
+    "answer": "Le beurre d'arachide (peanut butter)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-100",
+    "question": "Quelle épice chaude et jaune est très utilisée dans la cuisine indienne et parfois en Amérique latine pour la couleur ?",
+    "choices": [
+      "Le curcuma",
+      "La cannelle",
+      "Le safran",
+      "Le poivre"
+    ],
+    "answer": "Le curcuma",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-101",
+    "question": "Quelle est la première étape pour transformer le blé en pain ?",
+    "choices": [
+      "Moudre le blé en farine",
+      "Faire fermenter le lait",
+      "Torréfier les fèves",
+      "Presser les olives"
+    ],
+    "answer": "Moudre le blé en farine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-102",
+    "question": "Dans quel pays pousse principalement le cacao utilisé pour le chocolat ?",
+    "choices": [
+      "Côte d'Ivoire",
+      "France",
+      "Canada",
+      "Norvège"
+    ],
+    "answer": "Côte d'Ivoire",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-103",
+    "question": "Quelle étape suit la traite pour obtenir du lait prêt à la vente ?",
+    "choices": [
+      "La pasteurisation",
+      "La torréfaction",
+      "La fermentation alcoolique",
+      "La salaison"
+    ],
+    "answer": "La pasteurisation",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-104",
+    "question": "Quel processus transforme le lait en fromage ?",
+    "choices": [
+      "La coagulation (présure) et l'affinage",
+      "La torréfaction",
+      "La distillation",
+      "La congélation"
+    ],
+    "answer": "La coagulation (présure) et l'affinage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-105",
+    "question": "Lequel de ces fromages est à pâte molle ?",
+    "choices": [
+      "Le camembert",
+      "Le parmesan",
+      "Le cheddar",
+      "Le gouda"
+    ],
+    "answer": "Le camembert",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-106",
+    "question": "Quel pays est célèbre pour le fromage parmigiano reggiano ?",
+    "choices": [
+      "L'Italie",
+      "La Suède",
+      "Le Japon",
+      "Le Brésil"
+    ],
+    "answer": "L'Italie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-107",
+    "question": "Quelle est la matière première pour fabriquer de l'huile d'olive ?",
+    "choices": [
+      "Les olives",
+      "Les graines de tournesol",
+      "Le maïs",
+      "La betterave"
+    ],
+    "answer": "Les olives",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-108",
+    "question": "Quel pays produit beaucoup de cacao, avec le Ghana ?",
+    "choices": [
+      "La Côte d'Ivoire",
+      "La Suède",
+      "La Russie",
+      "L'Islande"
+    ],
+    "answer": "La Côte d'Ivoire",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-109",
+    "question": "Quel est le rôle de la fermentation dans la fabrication du fromage ?",
+    "choices": [
+      "Les bactéries transforment le lait et donnent du goût",
+      "Elle rend le lait sucré",
+      "Elle colore le lait en rouge",
+      "Elle enlève l'eau du lait"
+    ],
+    "answer": "Les bactéries transforment le lait et donnent du goût",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-110",
+    "question": "Quel produit obtient-on en moulant des grains de cacao torréfiés ?",
+    "choices": [
+      "La pâte de cacao",
+      "La farine de blé",
+      "L'huile d'olive",
+      "Le sirop d'érable"
+    ],
+    "answer": "La pâte de cacao",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-111",
+    "question": "Quel est l'ingrédient principal du beurre ?",
+    "choices": [
+      "La crème de lait",
+      "La farine de blé",
+      "Le jus de raisin",
+      "L'huile d'olive"
+    ],
+    "answer": "La crème de lait",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-112",
+    "question": "Quel fromage est une pâte persillée célèbre en France ?",
+    "choices": [
+      "Le roquefort",
+      "La mozzarella",
+      "Le cheddar",
+      "Le gouda"
+    ],
+    "answer": "Le roquefort",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-113",
+    "question": "Quelle transformation suit la récolte des olives pour obtenir de l'huile ?",
+    "choices": [
+      "Le pressage",
+      "La fermentation",
+      "La torréfaction",
+      "La congélation"
+    ],
+    "answer": "Le pressage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-114",
+    "question": "Quel est le produit final après la fermentation et le pressage du raisin ?",
+    "choices": [
+      "Le vin",
+      "Le pain",
+      "Le fromage",
+      "Le chocolat"
+    ],
+    "answer": "Le vin",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-115",
+    "question": "Quel fromage italien est à pâte filée et souvent utilisé sur les pizzas ?",
+    "choices": [
+      "La mozzarella",
+      "Le camembert",
+      "Le roquefort",
+      "Le cheddar"
+    ],
+    "answer": "La mozzarella",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-116",
+    "question": "Quelle étape est nécessaire pour transformer le lait en yaourt ?",
+    "choices": [
+      "Ajouter des ferments (bactéries) et laisser fermenter",
+      "Torréfier le lait",
+      "Le congeler immédiatement",
+      "Le presser"
+    ],
+    "answer": "Ajouter des ferments (bactéries) et laisser fermenter",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-117",
+    "question": "Quel ingrédient est obtenu après la mouture du blé ?",
+    "choices": [
+      "La farine",
+      "Le sucre",
+      "Le sel",
+      "L'huile"
+    ],
+    "answer": "La farine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-118",
+    "question": "Quel fromage est originaire des Pays-Bas et souvent rond ?",
+    "choices": [
+      "Le gouda",
+      "Le camembert",
+      "Le parmigiano reggiano",
+      "Le feta"
+    ],
+    "answer": "Le gouda",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-119",
+    "question": "Quelle méthode conserve les aliments en les chauffant et en les fermant hermétiquement (inventée par Appert) ?",
+    "choices": [
+      "La conserve en bocal",
+      "La pasteurisation",
+      "La congélation",
+      "La salaison"
+    ],
+    "answer": "La conserve en bocal",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-120",
+    "question": "Quel fromage grec est souvent émietté sur les salades ?",
+    "choices": [
+      "La feta",
+      "Le cheddar",
+      "La mozzarella",
+      "Le camembert"
+    ],
+    "answer": "La feta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-121",
+    "question": "Quel est le rôle du salage dans la fabrication du fromage et de la charcuterie ?",
+    "choices": [
+      "Aider à conserver et à donner du goût",
+      "Rendre les aliments sucrés",
+      "Colorer les aliments en bleu",
+      "Faire pousser des fruits"
+    ],
+    "answer": "Aider à conserver et à donner du goût",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-122",
+    "question": "Quel fromage anglais est célèbre et souvent utilisé dans les sandwiches ?",
+    "choices": [
+      "Le cheddar",
+      "Le camembert",
+      "La mozzarella",
+      "La feta"
+    ],
+    "answer": "Le cheddar",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-123",
+    "question": "Quelle étape suit la récolte du raisin pour faire du vin ?",
+    "choices": [
+      "La fermentation alcoolique",
+      "La pasteurisation",
+      "Le pressage des olives",
+      "La salaison"
+    ],
+    "answer": "La fermentation alcoolique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-124",
+    "question": "Quel fromage italien dur est souvent râpé sur les pâtes ?",
+    "choices": [
+      "Le parmigiano reggiano",
+      "Le camembert",
+      "La feta",
+      "Le brie"
+    ],
+    "answer": "Le parmigiano reggiano",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-125",
+    "question": "Quel produit obtient-on en pressant des olives après les avoir broyées ?",
+    "choices": [
+      "L'huile d'olive",
+      "Le jus d'orange",
+      "Le lait",
+      "La farine"
+    ],
+    "answer": "L'huile d'olive",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-126",
+    "question": "Quel fromage français est souvent associé à la Normandie ?",
+    "choices": [
+      "Le camembert",
+      "Le gouda",
+      "Le cheddar",
+      "La feta"
+    ],
+    "answer": "Le camembert",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-127",
+    "question": "Quel est le principal pays producteur de vanille aujourd'hui, souvent utilisé en pâtisserie ?",
+    "choices": [
+      "Madagascar",
+      "La Suède",
+      "Le Canada",
+      "La Norvège"
+    ],
+    "answer": "Madagascar",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-128",
+    "question": "Quel fromage grec est protégé par une appellation et fabriqué à partir de lait de brebis ou de chèvre ?",
+    "choices": [
+      "La feta",
+      "Le cheddar",
+      "La mozzarella",
+      "Le camembert"
+    ],
+    "answer": "La feta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-129",
+    "question": "Quel processus chimique est utilisé pour transformer le lait en beurre ?",
+    "choices": [
+      "La barattage de la crème",
+      "La fermentation alcoolique",
+      "La torréfaction",
+      "La salaison"
+    ],
+    "answer": "La barattage de la crème",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-130",
+    "question": "Quel fromage italien est protégé et fabriqué dans une zone précise (AOP) ?",
+    "choices": [
+      "Le parmigiano reggiano",
+      "Le cheddar",
+      "La feta",
+      "Le camembert"
+    ],
+    "answer": "Le parmigiano reggiano",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-131",
+    "question": "Quel ingrédient est nécessaire pour faire du pain au levain (sourdough) ?",
+    "choices": [
+      "Un levain naturel (ferments)",
+      "Du chocolat",
+      "De l'huile d'olive",
+      "Du fromage"
+    ],
+    "answer": "Un levain naturel (ferments)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-132",
+    "question": "Quel fromage hollandais est souvent affiné et peut être jeune ou vieux ?",
+    "choices": [
+      "Le gouda",
+      "Le camembert",
+      "Le cheddar",
+      "La feta"
+    ],
+    "answer": "Le gouda",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-133",
+    "question": "Quelle est la matière première pour fabriquer du sucre de canne ?",
+    "choices": [
+      "La canne à sucre",
+      "La betterave",
+      "Le blé",
+      "La pomme de terre"
+    ],
+    "answer": "La canne à sucre",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-134",
+    "question": "Quel fromage français est souvent consommé avec du cidre en Normandie ?",
+    "choices": [
+      "Le camembert",
+      "Le cheddar",
+      "La mozzarella",
+      "La feta"
+    ],
+    "answer": "Le camembert",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-135",
+    "question": "Quel est le rôle de l'affinage dans la fabrication du fromage ?",
+    "choices": [
+      "Développer les arômes et la texture",
+      "Rendre le fromage liquide",
+      "Le transformer en chocolat",
+      "Le congeler"
+    ],
+    "answer": "Développer les arômes et la texture",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-136",
+    "question": "Quel légume est de saison au printemps ?",
+    "choices": [
+      "L'asperge",
+      "La courge",
+      "La clémentine",
+      "Le poireau"
+    ],
+    "answer": "L'asperge",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-137",
+    "question": "Quel fruit est typiquement de saison en automne ?",
+    "choices": [
+      "La pomme",
+      "La pastèque",
+      "La fraise",
+      "La cerise"
+    ],
+    "answer": "La pomme",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-138",
+    "question": "Quelle technique consiste à plonger un légume dans l'eau bouillante puis dans l'eau glacée ?",
+    "choices": [
+      "Blanchir",
+      "Rôtir",
+      "Frire",
+      "Sauter"
+    ],
+    "answer": "Blanchir",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-139",
+    "question": "Quelle technique utilise-t-on pour faire fondre doucement du chocolat sans le brûler ?",
+    "choices": [
+      "Le bain-marie",
+      "La friture",
+      "Le gril",
+      "La torréfaction"
+    ],
+    "answer": "Le bain-marie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-140",
+    "question": "Que célèbre-t-on en mangeant des crêpes le 2 février en France ?",
+    "choices": [
+      "La Chandeleur",
+      "Noël",
+      "Pâques",
+      "La Toussaint"
+    ],
+    "answer": "La Chandeleur",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-141",
+    "question": "Quel plat est traditionnellement servi à Thanksgiving aux États-Unis ?",
+    "choices": [
+      "La dinde farcie",
+      "Le sushi",
+      "La paella",
+      "Le bobotie"
+    ],
+    "answer": "La dinde farcie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-142",
+    "question": "Quelle technique permet de concentrer les saveurs en faisant évaporer un liquide ?",
+    "choices": [
+      "Réduire",
+      "Blanchir",
+      "Fouetter",
+      "Émincer"
+    ],
+    "answer": "Réduire",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-143",
+    "question": "Quel ingrédient est souvent ajouté pour aider une émulsion comme la mayonnaise à tenir ?",
+    "choices": [
+      "Le jaune d'œuf",
+      "Le sucre",
+      "La farine",
+      "Le sel"
+    ],
+    "answer": "Le jaune d'œuf",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-144",
+    "question": "Quel fruit est de saison en été et très sucré ?",
+    "choices": [
+      "La pêche",
+      "Le poireau",
+      "Le chou",
+      "La clémentine"
+    ],
+    "answer": "La pêche",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-145",
+    "question": "Quelle fête française est associée à la galette des rois ?",
+    "choices": [
+      "L'Épiphanie",
+      "La Chandeleur",
+      "Noël",
+      "La Fête nationale"
+    ],
+    "answer": "L'Épiphanie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-146",
+    "question": "Quelle technique consiste à verser un liquide chaud dans une poêle pour récupérer les sucs de cuisson ?",
+    "choices": [
+      "Déglacer",
+      "Blanchir",
+      "Rôtir",
+      "Fouetter"
+    ],
+    "answer": "Déglacer",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-147",
+    "question": "Quel fruit est de saison en hiver et riche en vitamine C ?",
+    "choices": [
+      "L'orange",
+      "La fraise",
+      "La pastèque",
+      "La pêche"
+    ],
+    "answer": "L'orange",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-148",
+    "question": "Quelle technique de cuisson utilise de l'huile très chaude pour cuire rapidement un aliment ?",
+    "choices": [
+      "Frire",
+      "Cuire à la vapeur",
+      "Rôtir",
+      "Blanchir"
+    ],
+    "answer": "Frire",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-149",
+    "question": "Quel dessert est traditionnellement servi à Noël en France sous forme roulée ?",
+    "choices": [
+      "La bûche de Noël",
+      "La galette des rois",
+      "Le panettone",
+      "Le pudding"
+    ],
+    "answer": "La bûche de Noël",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-150",
+    "question": "Quel légume est de saison en hiver et souvent utilisé dans les soupes ?",
+    "choices": [
+      "Le poireau",
+      "La courgette",
+      "La tomate",
+      "L'asperge"
+    ],
+    "answer": "Le poireau",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-151",
+    "question": "Quelle technique consiste à couper des légumes en fines lanières appelées julienne ?",
+    "choices": [
+      "Julienne",
+      "Brunoise",
+      "Macerer",
+      "Sauter"
+    ],
+    "answer": "Julienne",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-152",
+    "question": "Quel ingrédient est souvent utilisé pour caraméliser les desserts en surface (crème brûlée) ?",
+    "choices": [
+      "Le sucre",
+      "Le sel",
+      "La farine",
+      "Le vinaigre"
+    ],
+    "answer": "Le sucre",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-153",
+    "question": "Quel plat est associé au Nouvel An chinois dans de nombreuses régions ?",
+    "choices": [
+      "Les raviolis",
+      "La pizza",
+      "Le hamburger",
+      "La paella"
+    ],
+    "answer": "Les raviolis",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-154",
+    "question": "Quel fruit est de saison au printemps et souvent rouge et sucré ?",
+    "choices": [
+      "La fraise",
+      "La pomme",
+      "La clémentine",
+      "La poire"
+    ],
+    "answer": "La fraise",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-155",
+    "question": "Quelle technique permet d'enlever la peau d'une tomate en la plongeant dans l'eau bouillante ?",
+    "choices": [
+      "Blanchir",
+      "Rôtir",
+      "Frire",
+      "Sauter"
+    ],
+    "answer": "Blanchir",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-156",
+    "question": "Quel ingrédient donne la couleur jaune au riz pilaf ou au curry ?",
+    "choices": [
+      "Le curcuma",
+      "La vanille",
+      "Le cacao",
+      "Le poivre"
+    ],
+    "answer": "Le curcuma",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-157",
+    "question": "Quel dessert italien est souvent mangé après un repas et contient du mascarpone ?",
+    "choices": [
+      "Le tiramisu",
+      "La panna cotta",
+      "La gelato",
+      "La granita"
+    ],
+    "answer": "Le tiramisu",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-158",
+    "question": "Quel aliment était inconnu en Europe avant la découverte des Amériques ?",
+    "choices": [
+      "La pomme de terre",
+      "Le blé",
+      "L'olive",
+      "Le raisin"
+    ],
+    "answer": "La pomme de terre",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-159",
+    "question": "Quelle fête est souvent célébrée avec des œufs en chocolat ?",
+    "choices": [
+      "Pâques",
+      "Noël",
+      "La Chandeleur",
+      "La Toussaint"
+    ],
+    "answer": "Pâques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-160",
+    "question": "Quelle technique consiste à cuire doucement un aliment dans un four à chaleur sèche ?",
+    "choices": [
+      "Rôtir",
+      "Bouillir",
+      "Frire",
+      "Blanchir"
+    ],
+    "answer": "Rôtir",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-161",
+    "question": "Quel fruit est de saison en été et souvent utilisé pour faire des confitures ?",
+    "choices": [
+      "La cerise",
+      "La clémentine",
+      "Le poireau",
+      "La pomme de terre"
+    ],
+    "answer": "La cerise",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-162",
+    "question": "Quel ustensile utilise-t-on pour réduire un liquide en le faisant évaporer doucement ?",
+    "choices": [
+      "Une casserole",
+      "Un économe",
+      "Une râpe",
+      "Un presse-ail"
+    ],
+    "answer": "Une casserole",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-163",
+    "question": "Quel fun fact est vrai ?",
+    "choices": [
+      "Le ketchup était vendu comme médicament au XIXe siècle",
+      "La pizza a été inventée en Chine",
+      "Le chocolat pousse en France",
+      "Les pâtes poussent sur des arbres"
+    ],
+    "answer": "Le ketchup était vendu comme médicament au XIXe siècle",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-164",
+    "question": "Quel ingrédient est souvent utilisé pour parfumer les desserts et vient de Madagascar ?",
+    "choices": [
+      "La vanille",
+      "Le poivre",
+      "Le sel",
+      "La moutarde"
+    ],
+    "answer": "La vanille",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-165",
+    "question": "Quelle technique consiste à couper en très petits dés (brunoise) ?",
+    "choices": [
+      "Brunoise",
+      "Julienne",
+      "Émincer",
+      "Râper"
+    ],
+    "answer": "Brunoise",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-166",
+    "question": "Quel plat est traditionnellement associé à la fête de Noël en Italie (panettone) ?",
+    "choices": [
+      "Le panettone",
+      "La bûche de Noël",
+      "La galette des rois",
+      "Le pudding"
+    ],
+    "answer": "Le panettone",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-167",
+    "question": "Quel légume est souvent récolté en automne et utilisé pour faire des soupes et des purées ?",
+    "choices": [
+      "La courge",
+      "La fraise",
+      "La pastèque",
+      "La cerise"
+    ],
+    "answer": "La courge",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-168",
+    "question": "Quel ustensile est utilisé pour râper le fromage ou les légumes ?",
+    "choices": [
+      "Une râpe",
+      "Un fouet",
+      "Une louche",
+      "Un économe"
+    ],
+    "answer": "Une râpe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-169",
+    "question": "Quel fun fact est vrai concernant les pâtes ?",
+    "choices": [
+      "Il existe plus de 300 formes de pâtes",
+      "Les pâtes poussent sur des arbres",
+      "Les pâtes viennent d'Amérique",
+      "Les pâtes sont un fruit"
+    ],
+    "answer": "Il existe plus de 300 formes de pâtes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-medium-170",
+    "question": "Quel ingrédient est souvent ajouté pour saler et assaisonner les plats ?",
+    "choices": [
+      "Le sel",
+      "Le sucre",
+      "La farine",
+      "L'eau"
+    ],
+    "answer": "Le sel",
+    "difficulty": "medium"
+  },
+  {
+    "id": "food-fr-hard-001",
+    "question": "Pourquoi la pâte à pain gonfle-t-elle pendant la fermentation ?",
+    "choices": [
+      "Parce que la levure produit du CO2 en se nourrissant de sucre",
+      "Parce que la farine absorbe l'eau et se dilate",
+      "Parce qu'on ajoute de l'air manuellement",
+      "Parce que le four chauffe la pâte"
+    ],
+    "answer": "Parce que la levure produit du CO2 en se nourrissant de sucre",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-002",
+    "question": "La fermentation lactique transforme le lait en quel produit ?",
+    "choices": [
+      "Le yaourt",
+      "Le pain",
+      "Le chocolat",
+      "L'huile d'olive"
+    ],
+    "answer": "Le yaourt",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-003",
+    "question": "Quelle réaction chimique donne la couleur brune et les arômes quand on grille de la viande ?",
+    "choices": [
+      "La réaction de Maillard",
+      "La caramélisation",
+      "L'oxydation",
+      "La saponification"
+    ],
+    "answer": "La réaction de Maillard",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-004",
+    "question": "Quand on chauffe du sucre seul jusqu'à ce qu'il brunisse, comment s'appelle ce phénomène ?",
+    "choices": [
+      "La caramélisation",
+      "La fermentation",
+      "La Maillard",
+      "L'émulsification"
+    ],
+    "answer": "La caramélisation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-005",
+    "question": "Qu'est-ce qu'une émulsion stable comme la mayonnaise doit contenir pour tenir ?",
+    "choices": [
+      "Un émulsifiant comme la lécithine du jaune d'œuf",
+      "Beaucoup de sel",
+      "Du sucre",
+      "De la levure"
+    ],
+    "answer": "Un émulsifiant comme la lécithine du jaune d'œuf",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-006",
+    "question": "Quel rôle joue le sel dans la conservation des aliments ?",
+    "choices": [
+      "Il retire l'eau des bactéries et ralentit leur croissance",
+      "Il rend les aliments sucrés",
+      "Il colore les aliments en rouge",
+      "Il augmente la température"
+    ],
+    "answer": "Il retire l'eau des bactéries et ralentit leur croissance",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-007",
+    "question": "Pourquoi met-on les aliments au réfrigérateur ?",
+    "choices": [
+      "Pour ralentir la croissance des bactéries",
+      "Pour les rendre plus sucrés",
+      "Pour les faire fermenter",
+      "Pour les caraméliser"
+    ],
+    "answer": "Pour ralentir la croissance des bactéries",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-008",
+    "question": "Quelle micro-organisme est responsable de la fermentation alcoolique dans la bière ?",
+    "choices": [
+      "La levure",
+      "La bactérie lactique",
+      "Le moisissure bleu",
+      "Le virus"
+    ],
+    "answer": "La levure",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-009",
+    "question": "Quelle différence principale existe entre la caramélisation et la réaction de Maillard ?",
+    "choices": [
+      "La caramélisation concerne le sucre seul; Maillard implique protéines et sucres",
+      "La caramélisation se produit à froid; Maillard à chaud",
+      "La Maillard colore en vert; la caramélisation en bleu",
+      "Il n'y a aucune différence"
+    ],
+    "answer": "La caramélisation concerne le sucre seul; Maillard implique protéines et sucres",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-010",
+    "question": "Qu'est-ce que le levain naturel apporte au pain par rapport à une levure commerciale ?",
+    "choices": [
+      "Un goût plus acide et une fermentation plus lente",
+      "Une couleur verte",
+      "Une texture liquide",
+      "Une conservation instantanée"
+    ],
+    "answer": "Un goût plus acide et une fermentation plus lente",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-011",
+    "question": "Quelle technique permet de stabiliser une vinaigrette si on veut qu'elle ne se sépare pas ?",
+    "choices": [
+      "Ajouter un émulsifiant comme de la moutarde ou du jaune d'œuf",
+      "Ajouter du sucre",
+      "La congeler",
+      "La faire bouillir"
+    ],
+    "answer": "Ajouter un émulsifiant comme de la moutarde ou du jaune d'œuf",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-012",
+    "question": "Pourquoi la croûte du pain devient-elle dorée au four ?",
+    "choices": [
+      "À cause de la réaction de Maillard et de la caramélisation des sucres",
+      "Parce que le pain absorbe la lumière",
+      "Parce qu'on ajoute du colorant",
+      "Parce que la farine fond"
+    ],
+    "answer": "À cause de la réaction de Maillard et de la caramélisation des sucres",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-013",
+    "question": "Quel est l'effet principal de la pasteurisation sur le lait ?",
+    "choices": [
+      "Tuer ou réduire les bactéries pathogènes par chauffage contrôlé",
+      "Transformer le lait en fromage",
+      "Faire fermenter le lait",
+      "Le rendre sucré"
+    ],
+    "answer": "Tuer ou réduire les bactéries pathogènes par chauffage contrôlé",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-014",
+    "question": "Qu'est-ce que la lactofermentation produit souvent comme gaz et saveur ?",
+    "choices": [
+      "Du CO2 et une saveur acidulée",
+      "De l'oxygène et une saveur sucrée",
+      "De l'azote et une saveur salée",
+      "Du méthane et une saveur amère"
+    ],
+    "answer": "Du CO2 et une saveur acidulée",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-015",
+    "question": "Quelle température approximative est recommandée pour conserver un réfrigérateur domestique ?",
+    "choices": [
+      "Environ 4°C",
+      "Environ 20°C",
+      "Environ 37°C",
+      "Environ -18°C"
+    ],
+    "answer": "Environ 4°C",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-016",
+    "question": "Quel rôle joue la levure dans la fabrication de la bière et du pain ?",
+    "choices": [
+      "Elle transforme les sucres en CO2 et alcool",
+      "Elle colore les aliments",
+      "Elle rend les aliments salés",
+      "Elle congèle la pâte"
+    ],
+    "answer": "Elle transforme les sucres en CO2 et alcool",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-017",
+    "question": "Pourquoi le sel est-il utilisé dans la fabrication du jambon salé (salaison) ?",
+    "choices": [
+      "Pour déshydrater et empêcher la croissance bactérienne",
+      "Pour le rendre sucré",
+      "Pour le rendre liquide",
+      "Pour le faire fermenter en alcool"
+    ],
+    "answer": "Pour déshydrater et empêcher la croissance bactérienne",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-018",
+    "question": "Qu'est-ce que l'oxydation provoque souvent dans les aliments exposés à l'air ?",
+    "choices": [
+      "Un brunissement et une perte de vitamines",
+      "Une augmentation de la douceur",
+      "Une fermentation instantanée",
+      "Une congélation spontanée"
+    ],
+    "answer": "Un brunissement et une perte de vitamines",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-019",
+    "question": "Quelle est la fonction principale des ferments dans la fabrication du fromage ?",
+    "choices": [
+      "Transformer le lactose en acides et développer les arômes",
+      "Rendre le fromage liquide",
+      "Colorer le fromage en bleu",
+      "Faire pousser des fruits"
+    ],
+    "answer": "Transformer le lactose en acides et développer les arômes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-020",
+    "question": "Quel phénomène explique pourquoi une viande grillée a une saveur plus complexe qu'une viande bouillie ?",
+    "choices": [
+      "La réaction de Maillard produit de nouveaux composés aromatiques",
+      "La viande bouillie devient plus sucrée",
+      "La viande grillée perd toutes ses protéines",
+      "La viande bouillie caramélise davantage"
+    ],
+    "answer": "La réaction de Maillard produit de nouveaux composés aromatiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-021",
+    "question": "Quel est l'effet de la congélation rapide sur la qualité des aliments ?",
+    "choices": [
+      "Elle préserve mieux la texture en formant de petits cristaux de glace",
+      "Elle rend les aliments plus salés",
+      "Elle augmente la fermentation",
+      "Elle caramélise les sucres"
+    ],
+    "answer": "Elle préserve mieux la texture en formant de petits cristaux de glace",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-022",
+    "question": "Pourquoi ajoute-t-on du sel à l'eau de cuisson des pâtes ?",
+    "choices": [
+      "Pour assaisonner et légèrement augmenter la température d'ébullition",
+      "Pour rendre les pâtes sucrées",
+      "Pour les faire gonfler comme du pain",
+      "Pour les colorer en rouge"
+    ],
+    "answer": "Pour assaisonner et légèrement augmenter la température d'ébullition",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-023",
+    "question": "Qu'est-ce que la fermentation acétique produit comme aliment courant ?",
+    "choices": [
+      "Le vinaigre",
+      "Le fromage",
+      "Le pain",
+      "Le chocolat"
+    ],
+    "answer": "Le vinaigre",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-024",
+    "question": "Quel ingrédient aide à rendre une pâte plus légère en retenant des bulles de gaz ?",
+    "choices": [
+      "La levure ou le levain",
+      "Le sel",
+      "La farine complète",
+      "L'eau froide"
+    ],
+    "answer": "La levure ou le levain",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-025",
+    "question": "Quelle est la différence entre fermentation aérobie et anaérobie ?",
+    "choices": [
+      "Aérobie utilise de l'oxygène; anaérobie se passe sans oxygène",
+      "Anaérobie utilise de l'oxygène; aérobie sans oxygène",
+      "Les deux sont identiques",
+      "Aucune fermentation n'existe sans lumière"
+    ],
+    "answer": "Aérobie utilise de l'oxygène; anaérobie se passe sans oxygène",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-026",
+    "question": "Quel est l'effet de la chaleur sur les protéines alimentaires lors de la cuisson ?",
+    "choices": [
+      "Elles se dénaturent et changent de texture",
+      "Elles se transforment en sucre",
+      "Elles deviennent des lipides",
+      "Elles disparaissent complètement"
+    ],
+    "answer": "Elles se dénaturent et changent de texture",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-027",
+    "question": "Pourquoi la choucroute est-elle conservée sans se gâter ?",
+    "choices": [
+      "Parce que la fermentation lactique acidifie et empêche les bactéries nuisibles",
+      "Parce qu'on la congèle",
+      "Parce qu'on la rôtit",
+      "Parce qu'on y ajoute du sucre"
+    ],
+    "answer": "Parce que la fermentation lactique acidifie et empêche les bactéries nuisibles",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-028",
+    "question": "Quel rôle joue la température dans la vitesse de fermentation ?",
+    "choices": [
+      "Une température plus élevée accélère généralement la fermentation jusqu'à un certain seuil",
+      "La température n'a aucun effet",
+      "Une température plus élevée la ralentit toujours",
+      "La fermentation ne dépend que de la lumière"
+    ],
+    "answer": "Une température plus élevée accélère généralement la fermentation jusqu'à un certain seuil",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-029",
+    "question": "Qu'est-ce que l'émulsification inversée (huile dans eau) produit si elle est mal stabilisée ?",
+    "choices": [
+      "La séparation en deux couches (huile et eau)",
+      "Une mousse solide",
+      "Une congélation instantanée",
+      "Une caramélisation"
+    ],
+    "answer": "La séparation en deux couches (huile et eau)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-030",
+    "question": "Quel est l'effet de la cuisson à haute température sur les sucres et protéines d'un aliment ?",
+    "choices": [
+      "Formation de composés aromatiques via Maillard et caramélisation",
+      "Ils deviennent plus liquides",
+      "Ils se transforment en eau",
+      "Ils deviennent invisibles"
+    ],
+    "answer": "Formation de composés aromatiques via Maillard et caramélisation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-031",
+    "question": "Pourquoi le pain au levain a-t-il souvent une meilleure conservation que le pain ordinaire ?",
+    "choices": [
+      "L'acidité du levain ralentit la croissance de moisissures",
+      "Il contient plus de sucre",
+      "Il est cuit plus longtemps",
+      "Il est toujours congelé"
+    ],
+    "answer": "L'acidité du levain ralentit la croissance de moisissures",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-032",
+    "question": "Quel est l'effet principal de la déglace lors de la cuisson d'une sauce ?",
+    "choices": [
+      "Récupérer les sucs de cuisson pour concentrer la saveur",
+      "Refroidir la poêle",
+      "Faire bouillir le sucre",
+      "Séparer l'huile de l'eau"
+    ],
+    "answer": "Récupérer les sucs de cuisson pour concentrer la saveur",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-033",
+    "question": "Quel micro-organisme est utilisé pour faire du pain au levain ?",
+    "choices": [
+      "Un mélange de levures et de bactéries lactiques naturelles",
+      "Un virus",
+      "Une moisissure bleue",
+      "Un parasite"
+    ],
+    "answer": "Un mélange de levures et de bactéries lactiques naturelles",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-034",
+    "question": "Pourquoi la cuisson à la vapeur est-elle souvent recommandée pour conserver les vitamines ?",
+    "choices": [
+      "Parce qu'elle utilise moins d'eau et des températures modérées",
+      "Parce qu'elle caramélise les aliments",
+      "Parce qu'elle ajoute du sel",
+      "Parce qu'elle congèle les aliments"
+    ],
+    "answer": "Parce qu'elle utilise moins d'eau et des températures modérées",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-035",
+    "question": "Quel est l'effet de l'ajout de sucre sur la fermentation de la levure ?",
+    "choices": [
+      "La levure utilise le sucre comme nourriture et produit CO2; trop de sucre peut ralentir la fermentation",
+      "Le sucre tue la levure immédiatement",
+      "Le sucre transforme la levure en sel",
+      "Le sucre empêche la caramélisation"
+    ],
+    "answer": "La levure utilise le sucre comme nourriture et produit CO2; trop de sucre peut ralentir la fermentation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-036",
+    "question": "Qu'appelle-t-on une émulsion instable comme une vinaigrette huile + vinaigre sans émulsifiant ?",
+    "choices": [
+      "Une émulsion qui se sépare rapidement en deux phases",
+      "Une mousse solide",
+      "Un gel",
+      "Une fermentation"
+    ],
+    "answer": "Une émulsion qui se sépare rapidement en deux phases",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-037",
+    "question": "Quel est le rôle des enzymes dans la maturation des fromages ?",
+    "choices": [
+      "Décomposer les protéines et les graisses pour créer arômes et texture",
+      "Rendre le fromage sucré",
+      "Colorer le fromage en vert",
+      "Le transformer en pain"
+    ],
+    "answer": "Décomposer les protéines et les graisses pour créer arômes et texture",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-038",
+    "question": "Pourquoi la cuisson lente à basse température est-elle utilisée pour certaines viandes ?",
+    "choices": [
+      "Pour attendrir les fibres et développer les arômes sans dessécher",
+      "Pour les rendre croustillantes immédiatement",
+      "Pour les congeler",
+      "Pour les rendre sucrées"
+    ],
+    "answer": "Pour attendrir les fibres et développer les arômes sans dessécher",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-039",
+    "question": "Quel phénomène explique que les blancs d'œufs montent en neige lorsqu'on les bat ?",
+    "choices": [
+      "Les protéines se déplient et emprisonnent de l'air",
+      "Le sucre se transforme en protéines",
+      "La levure se multiplie",
+      "L'eau se transforme en huile"
+    ],
+    "answer": "Les protéines se déplient et emprisonnent de l'air",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-040",
+    "question": "Quel est l'effet de saler la viande avant la cuisson ?",
+    "choices": [
+      "Améliorer la saveur et aider à former une croûte en extrayant un peu d'humidité",
+      "La rendre plus sucrée",
+      "La transformer en fromage",
+      "La congeler"
+    ],
+    "answer": "Améliorer la saveur et aider à former une croûte en extrayant un peu d'humidité",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-041",
+    "question": "Quelle technique utilise une eau chaude mais pas d'ébullition pour cuire doucement des aliments délicats ?",
+    "choices": [
+      "Le bain-marie",
+      "La friture",
+      "Le gril",
+      "La torréfaction"
+    ],
+    "answer": "Le bain-marie",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-042",
+    "question": "Pourquoi la fermentation est-elle utilisée pour conserver certains légumes ?",
+    "choices": [
+      "Parce qu'elle acidifie l'aliment et empêche les bactéries nuisibles de se développer",
+      "Parce qu'elle les rend sucrés",
+      "Parce qu'elle les colore en bleu",
+      "Parce qu'elle les rend plus lourds"
+    ],
+    "answer": "Parce qu'elle acidifie l'aliment et empêche les bactéries nuisibles de se développer",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-043",
+    "question": "Quel est l'effet de la cuisson sous vide (sous vide à basse température) sur la texture des aliments ?",
+    "choices": [
+      "Permet une cuisson uniforme et conserve l'humidité",
+      "Les rend croustillants immédiatement",
+      "Les transforme en poudre",
+      "Les congèle"
+    ],
+    "answer": "Permet une cuisson uniforme et conserve l'humidité",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-044",
+    "question": "Quel composé est principalement responsable de l'arôme umami dans les aliments fermentés ?",
+    "choices": [
+      "Le glutamate",
+      "Le lactose",
+      "Le saccharose",
+      "Le méthane"
+    ],
+    "answer": "Le glutamate",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-045",
+    "question": "Pourquoi certains fromages ont-ils des moisissures bleues ?",
+    "choices": [
+      "Parce qu'on inocule des spores de Penicillium qui créent des veines et des arômes",
+      "Parce qu'ils ont été brûlés",
+      "Parce qu'ils ont été congelés",
+      "Parce qu'ils contiennent du chocolat"
+    ],
+    "answer": "Parce qu'on inocule des spores de Penicillium qui créent des veines et des arômes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-046",
+    "question": "Quel est l'effet de la cuisson à haute température sur les huiles ?",
+    "choices": [
+      "Elles peuvent fumer et se décomposer au-delà de leur point de fumée",
+      "Elles deviennent plus sucrées",
+      "Elles se transforment en protéines",
+      "Elles se solidifient toujours"
+    ],
+    "answer": "Elles peuvent fumer et se décomposer au-delà de leur point de fumée",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-047",
+    "question": "Qu'est-ce que la fermentation malolactique dans le vin ?",
+    "choices": [
+      "La transformation de l'acide malique en acide lactique, adoucissant le vin",
+      "La transformation du sucre en alcool",
+      "La congélation du vin",
+      "La carbonatation du vin"
+    ],
+    "answer": "La transformation de l'acide malique en acide lactique, adoucissant le vin",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-048",
+    "question": "Pourquoi la cuisson à sec (gril, four) donne-t-elle souvent une meilleure coloration qu'une cuisson à l'eau ?",
+    "choices": [
+      "Parce que les températures plus élevées favorisent Maillard et caramélisation",
+      "Parce que l'eau colore les aliments en vert",
+      "Parce que la cuisson à l'eau ajoute du sucre",
+      "Parce que la cuisson à sec congèle les aliments"
+    ],
+    "answer": "Parce que les températures plus élevées favorisent Maillard et caramélisation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-049",
+    "question": "Quel est l'effet de l'ajout d'acide (citron, vinaigre) sur la cuisson du poisson cru dans un ceviche ?",
+    "choices": [
+      "L'acide 'cuit' les protéines en modifiant leur structure sans chaleur",
+      "Il rend le poisson sucré",
+      "Il le transforme en pain",
+      "Il le congèle"
+    ],
+    "answer": "L'acide 'cuit' les protéines en modifiant leur structure sans chaleur",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-050",
+    "question": "Quel est le principal avantage de la fermentation contrôlée dans la production alimentaire ?",
+    "choices": [
+      "Créer des saveurs, améliorer la conservation et augmenter la digestibilité",
+      "Rendre les aliments plus lourds",
+      "Les rendre invisibles",
+      "Les transformer en métal"
+    ],
+    "answer": "Créer des saveurs, améliorer la conservation et augmenter la digestibilité",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-051",
+    "question": "Qui est considéré comme le père de la cuisine française moderne et a organisé la brigade de cuisine ?",
+    "choices": [
+      "Auguste Escoffier",
+      "Paul Bocuse",
+      "Ferran Adrià",
+      "Julia Child"
+    ],
+    "answer": "Auguste Escoffier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-052",
+    "question": "Quelle invention de Nicolas Appert en 1810 a révolutionné la conservation des aliments ?",
+    "choices": [
+      "La conserve en bocal",
+      "La pasteurisation",
+      "Le réfrigérateur",
+      "La congélation"
+    ],
+    "answer": "La conserve en bocal",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-053",
+    "question": "Pourquoi Louis Pasteur a-t-il donné son nom à la pasteurisation ?",
+    "choices": [
+      "Parce qu'il a montré qu'un chauffage contrôlé tue des bactéries",
+      "Parce qu'il a inventé la conserve",
+      "Parce qu'il a découvert le cacao",
+      "Parce qu'il a créé le pain au levain"
+    ],
+    "answer": "Parce qu'il a montré qu'un chauffage contrôlé tue des bactéries",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-054",
+    "question": "Quelle période historique a apporté en Europe la pomme de terre, la tomate et le cacao ?",
+    "choices": [
+      "Les Grandes découvertes (XVe–XVIe siècles)",
+      "Le Néolithique",
+      "Le Moyen Âge",
+      "La Révolution industrielle"
+    ],
+    "answer": "Les Grandes découvertes (XVe–XVIe siècles)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-055",
+    "question": "Quel chef espagnol est connu pour la cuisine moléculaire et elBulli ?",
+    "choices": [
+      "Ferran Adrià",
+      "Auguste Escoffier",
+      "Paul Bocuse",
+      "Julia Child"
+    ],
+    "answer": "Ferran Adrià",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-056",
+    "question": "Quelle pratique culinaire française a été inscrite au patrimoine culturel immatériel de l'UNESCO en 2010 ?",
+    "choices": [
+      "Le repas gastronomique des Français",
+      "La pizza napolitaine",
+      "Le sushi",
+      "Le curry indien"
+    ],
+    "answer": "Le repas gastronomique des Français",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-057",
+    "question": "Quel procédé du XIXe siècle a permis de conserver le lait en tuant les bactéries pathogènes ?",
+    "choices": [
+      "La pasteurisation",
+      "La nixtamalisation",
+      "La fermentation acétique",
+      "La salaison"
+    ],
+    "answer": "La pasteurisation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-058",
+    "question": "Quel changement majeur a accompagné la révolution néolithique vers 10 000 av. J.-C. ?",
+    "choices": [
+      "L'invention de l'agriculture et la sédentarisation",
+      "L'apparition du fast-food",
+      "La découverte de la pasteurisation",
+      "L'invention de la conserve"
+    ],
+    "answer": "L'invention de l'agriculture et la sédentarisation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-059",
+    "question": "Quel pays est traditionnellement associé à l'origine de la pizza Margherita ?",
+    "choices": [
+      "L'Italie (Naples)",
+      "Les États-Unis",
+      "La France",
+      "L'Espagne"
+    ],
+    "answer": "L'Italie (Naples)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-060",
+    "question": "Quel mouvement culinaire est Paul Bocuse associé à ?",
+    "choices": [
+      "La nouvelle cuisine",
+      "La cuisine moléculaire",
+      "La cuisine médiévale",
+      "La cuisine fusion"
+    ],
+    "answer": "La nouvelle cuisine",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-061",
+    "question": "Quelle invention du XIXe siècle a facilité le transport et la conservation des aliments frais ?",
+    "choices": [
+      "Le réfrigérateur",
+      "La machine à vapeur",
+      "La presse à huile",
+      "La meule à grain"
+    ],
+    "answer": "Le réfrigérateur",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-062",
+    "question": "Quel aliment venu des Amériques a profondément transformé l'alimentation européenne après sa diffusion ?",
+    "choices": [
+      "La pomme de terre",
+      "Le blé",
+      "L'olive",
+      "Le raisin"
+    ],
+    "answer": "La pomme de terre",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-063",
+    "question": "Quel chef a popularisé la cuisine française aux États-Unis grâce à la télévision dans les années 1960 ?",
+    "choices": [
+      "Julia Child",
+      "Auguste Escoffier",
+      "Ferran Adrià",
+      "Paul Bocuse"
+    ],
+    "answer": "Julia Child",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-064",
+    "question": "Quelle pratique culinaire japonaise, axée sur l'équilibre et la saisonnalité, a été inscrite à l'UNESCO en 2013 ?",
+    "choices": [
+      "Le washoku (cuisine japonaise)",
+      "La nouvelle cuisine",
+      "La cuisine moléculaire",
+      "La cuisine tex-mex"
+    ],
+    "answer": "Le washoku (cuisine japonaise)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-065",
+    "question": "Quel phénomène historique a rendu les épices si précieuses en Europe au Moyen Âge ?",
+    "choices": [
+      "Les routes commerciales lointaines et leur rareté",
+      "La production locale abondante",
+      "La pasteurisation",
+      "La conservation par congélation"
+    ],
+    "answer": "Les routes commerciales lointaines et leur rareté",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-066",
+    "question": "Quel rôle a joué la conserve inventée par Appert pour les armées napoléoniennes ?",
+    "choices": [
+      "Permettre de stocker et transporter des rations sûres",
+      "Remplacer le pain",
+      "Produire du vin",
+      "Faire fermenter le lait"
+    ],
+    "answer": "Permettre de stocker et transporter des rations sûres",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-067",
+    "question": "Quelle évolution du XXe siècle a transformé la restauration et la consommation rapide ?",
+    "choices": [
+      "L'essor du fast-food (ex : McDonald's)",
+      "L'invention du pain",
+      "La découverte du feu",
+      "La domestication du blé"
+    ],
+    "answer": "L'essor du fast-food (ex : McDonald's)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-068",
+    "question": "Quel est l'impact culturel de la cuisine fusion ?",
+    "choices": [
+      "Mélanger des traditions culinaires pour créer de nouvelles saveurs",
+      "Interdire les épices",
+      "Remplacer toutes les cuisines locales",
+      "Uniformiser les recettes mondiales"
+    ],
+    "answer": "Mélanger des traditions culinaires pour créer de nouvelles saveurs",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-069",
+    "question": "Quel aliment a été introduit en Europe après les voyages de Christophe Colomb et a d'abord été considéré comme ornemental ?",
+    "choices": [
+      "La tomate",
+      "Le blé",
+      "L'olive",
+      "Le raisin"
+    ],
+    "answer": "La tomate",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-070",
+    "question": "Quel chef est associé à l'organisation moderne des cuisines en brigade ?",
+    "choices": [
+      "Auguste Escoffier",
+      "Ferran Adrià",
+      "Paul Bocuse",
+      "Julia Child"
+    ],
+    "answer": "Auguste Escoffier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-071",
+    "question": "Quelle pratique agricole et alimentaire a émergé au Néolithique et a permis la sédentarisation ?",
+    "choices": [
+      "La domestication des plantes et des animaux",
+      "La cuisine moléculaire",
+      "La pasteurisation",
+      "La conservation par congélation"
+    ],
+    "answer": "La domestication des plantes et des animaux",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-072",
+    "question": "Quel mouvement gastronomique a mis l'accent sur la créativité, la technique et la déconstruction des plats à la fin du XXe siècle ?",
+    "choices": [
+      "La cuisine moléculaire",
+      "La nouvelle cuisine",
+      "Le repas gastronomique des Français",
+      "La cuisine traditionnelle"
+    ],
+    "answer": "La cuisine moléculaire",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-073",
+    "question": "Quel rôle a joué la révolution industrielle dans l'alimentation ?",
+    "choices": [
+      "Industrialisation de la production alimentaire et développement des conserves",
+      "Retour au troc",
+      "Interdiction des épices",
+      "Fin de l'agriculture"
+    ],
+    "answer": "Industrialisation de la production alimentaire et développement des conserves",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-074",
+    "question": "Quel aliment a été popularisé en Europe après avoir été ramené des Amériques et est devenu un aliment de base en Irlande ?",
+    "choices": [
+      "La pomme de terre",
+      "Le riz",
+      "Le blé",
+      "L'olive"
+    ],
+    "answer": "La pomme de terre",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-075",
+    "question": "Quel chef français est surnommé le 'pape de la gastronomie' et a influencé la cuisine moderne ?",
+    "choices": [
+      "Paul Bocuse",
+      "Auguste Escoffier",
+      "Ferran Adrià",
+      "Julia Child"
+    ],
+    "answer": "Paul Bocuse",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-076",
+    "question": "Quelle innovation culinaire est souvent attribuée à la recherche et à l'expérimentation en laboratoire par des chefs comme Ferran Adrià ?",
+    "choices": [
+      "Sphérification et techniques de cuisine moléculaire",
+      "La fabrication du pain",
+      "La domestication du blé",
+      "La conservation par sel"
+    ],
+    "answer": "Sphérification et techniques de cuisine moléculaire",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-077",
+    "question": "Quel événement historique a favorisé la diffusion mondiale des épices et des produits exotiques ?",
+    "choices": [
+      "Les grandes routes maritimes et les explorations",
+      "La révolution industrielle locale",
+      "La découverte du feu",
+      "La domestication du cheval"
+    ],
+    "answer": "Les grandes routes maritimes et les explorations",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-078",
+    "question": "Quel est l'intérêt culturel de classer un repas ou une cuisine au patrimoine immatériel de l'UNESCO ?",
+    "choices": [
+      "Reconnaître et protéger une tradition culinaire et ses savoir-faire",
+      "Interdire sa pratique",
+      "La transformer en produit industriel",
+      "La breveter pour une entreprise"
+    ],
+    "answer": "Reconnaître et protéger une tradition culinaire et ses savoir-faire",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-079",
+    "question": "Quel aliment a été introduit en Europe depuis les Amériques et a d'abord été suspecté d'être toxique avant d'être adopté ?",
+    "choices": [
+      "La tomate",
+      "Le blé",
+      "L'olive",
+      "Le raisin"
+    ],
+    "answer": "La tomate",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-080",
+    "question": "Quel chef a contribué à rendre la cuisine française accessible au grand public via la télévision américaine ?",
+    "choices": [
+      "Julia Child",
+      "Auguste Escoffier",
+      "Paul Bocuse",
+      "Ferran Adrià"
+    ],
+    "answer": "Julia Child",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-081",
+    "question": "Quelle pratique culinaire ancienne a permis la conservation des aliments avant la réfrigération moderne ?",
+    "choices": [
+      "Le salage et le fumage",
+      "La pasteurisation",
+      "La congélation",
+      "La stérilisation en usine"
+    ],
+    "answer": "Le salage et le fumage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-082",
+    "question": "Quel rôle a joué la colonisation dans la diffusion des aliments et des techniques culinaires ?",
+    "choices": [
+      "Échanges forcés et introduction de nouvelles cultures alimentaires",
+      "Interdiction totale des épices",
+      "Uniformisation immédiate des cuisines",
+      "Arrêt de l'agriculture locale"
+    ],
+    "answer": "Échanges forcés et introduction de nouvelles cultures alimentaires",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-083",
+    "question": "Quel plat traditionnel français est souvent cité comme exemple du patrimoine gastronomique national ?",
+    "choices": [
+      "Le pot-au-feu",
+      "Le sushi",
+      "Le taco",
+      "Le bibimbap"
+    ],
+    "answer": "Le pot-au-feu",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-084",
+    "question": "Quelle transformation technique a permis la production industrielle du pain au XIXe siècle ?",
+    "choices": [
+      "La mécanisation des moulins et la production de farine",
+      "La découverte du cacao",
+      "La fermentation alcoolique",
+      "La salaison"
+    ],
+    "answer": "La mécanisation des moulins et la production de farine",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-085",
+    "question": "Quel est l'impact de la mondialisation sur la gastronomie contemporaine ?",
+    "choices": [
+      "Accès à des ingrédients du monde et hybridation des cuisines",
+      "Interdiction des cuisines locales",
+      "Retour exclusif aux recettes anciennes",
+      "Suppression des épices"
+    ],
+    "answer": "Accès à des ingrédients du monde et hybridation des cuisines",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-086",
+    "question": "Quel chef est célèbre pour avoir structuré la cuisine professionnelle en postes (brigade) ?",
+    "choices": [
+      "Auguste Escoffier",
+      "Ferran Adrià",
+      "Paul Bocuse",
+      "Julia Child"
+    ],
+    "answer": "Auguste Escoffier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-087",
+    "question": "Quelle invention du XIXe siècle a permis la conservation des aliments par chauffage et mise en bocaux hermétiques ?",
+    "choices": [
+      "La conserve en bocal (Appert)",
+      "La pasteurisation",
+      "La congélation",
+      "La réfrigération électrique"
+    ],
+    "answer": "La conserve en bocal (Appert)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-088",
+    "question": "Quel rôle ont joué les foires et marchés médiévaux dans l'histoire de l'alimentation ?",
+    "choices": [
+      "Diffusion des produits locaux et échanges commerciaux",
+      "Interdiction des épices",
+      "Production industrielle de masse",
+      "Pasteurisation des aliments"
+    ],
+    "answer": "Diffusion des produits locaux et échanges commerciaux",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-089",
+    "question": "Quelle cuisine est souvent citée comme modèle d'équilibre alimentaire et fait partie des recommandations santé ?",
+    "choices": [
+      "Le régime méditerranéen",
+      "La cuisine fast-food",
+      "La cuisine moléculaire",
+      "La cuisine fusion"
+    ],
+    "answer": "Le régime méditerranéen",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-090",
+    "question": "Quel événement a favorisé la diffusion du café, du sucre et des épices entre continents aux XVIIe–XVIIIe siècles ?",
+    "choices": [
+      "Le commerce colonial et les routes maritimes",
+      "La domestication du blé",
+      "La découverte du feu",
+      "La mécanisation des moulins"
+    ],
+    "answer": "Le commerce colonial et les routes maritimes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-091",
+    "question": "Quel est l'effet culturel de la reconnaissance UNESCO d'une pratique culinaire comme le washoku ?",
+    "choices": [
+      "Valoriser et protéger les savoir-faire et traditions culinaires",
+      "Interdire sa pratique",
+      "La transformer en produit industriel",
+      "La breveter pour une entreprise"
+    ],
+    "answer": "Valoriser et protéger les savoir-faire et traditions culinaires",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-092",
+    "question": "Quel aliment, introduit d'Amérique, a contribué à l'augmentation de la population européenne grâce à son rendement calorique ?",
+    "choices": [
+      "La pomme de terre",
+      "Le blé",
+      "L'olive",
+      "Le raisin"
+    ],
+    "answer": "La pomme de terre",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-093",
+    "question": "Quel chef a popularisé des techniques créatives et expérimentales qui ont influencé la gastronomie mondiale ?",
+    "choices": [
+      "Ferran Adrià",
+      "Auguste Escoffier",
+      "Paul Bocuse",
+      "Julia Child"
+    ],
+    "answer": "Ferran Adrià",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-094",
+    "question": "Quelle pratique ancienne de conservation a permis aux marins de garder des provisions pendant de longs voyages ?",
+    "choices": [
+      "La salaison et le séchage",
+      "La pasteurisation",
+      "La congélation",
+      "La stérilisation en usine"
+    ],
+    "answer": "La salaison et le séchage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-095",
+    "question": "Quel est l'impact historique de l'introduction du maïs en Europe et en Afrique après sa domestication en Amérique ?",
+    "choices": [
+      "Nouvelle culture alimentaire adaptable et source d'énergie",
+      "Remplacement immédiat du blé",
+      "Interdiction des céréales locales",
+      "Fin de l'agriculture"
+    ],
+    "answer": "Nouvelle culture alimentaire adaptable et source d'énergie",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-096",
+    "question": "Quel chef français a contribué à la renommée internationale de la gastronomie française au XXe siècle par ses restaurants et écoles ?",
+    "choices": [
+      "Paul Bocuse",
+      "Auguste Escoffier",
+      "Ferran Adrià",
+      "Julia Child"
+    ],
+    "answer": "Paul Bocuse",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-097",
+    "question": "Quelle invention a permis la production industrielle de conserves et a été motivée par des besoins militaires ?",
+    "choices": [
+      "La conserve en bocal (Appert)",
+      "La pasteurisation",
+      "La réfrigération domestique",
+      "La machine à vapeur"
+    ],
+    "answer": "La conserve en bocal (Appert)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-098",
+    "question": "Quel rôle ont joué les explorateurs et commerçants arabes dans l'histoire des épices ?",
+    "choices": [
+      "Ils ont établi des routes et marchés pour les épices entre l'Asie et l'Europe",
+      "Ils ont interdit les épices",
+      "Ils ont inventé la pasteurisation",
+      "Ils ont domestiqué le blé"
+    ],
+    "answer": "Ils ont établi des routes et marchés pour les épices entre l'Asie et l'Europe",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-099",
+    "question": "Quel est l'effet de la reconnaissance d'un produit par une AOC/AOP ?",
+    "choices": [
+      "Protéger l'origine géographique et le savoir-faire",
+      "Interdire sa vente",
+      "La transformer en boisson",
+      "La rendre gratuite"
+    ],
+    "answer": "Protéger l'origine géographique et le savoir-faire",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-100",
+    "question": "Quel aliment a été popularisé en Europe après avoir été ramené des Amériques et est devenu un ingrédient clé dans de nombreuses cuisines africaines ?",
+    "choices": [
+      "Le manioc (cassava)",
+      "Le blé",
+      "L'olive",
+      "Le raisin"
+    ],
+    "answer": "Le manioc (cassava)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-101",
+    "question": "Quel chef a été une figure majeure de la 'nouvelle cuisine' française et a influencé la restauration moderne ?",
+    "choices": [
+      "Paul Bocuse",
+      "Ferran Adrià",
+      "Auguste Escoffier",
+      "Julia Child"
+    ],
+    "answer": "Paul Bocuse",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-102",
+    "question": "Quelle pratique culinaire ancienne a contribué à la diffusion du pain et du vin dans les civilisations méditerranéennes ?",
+    "choices": [
+      "L'agriculture du blé et de la vigne",
+      "La cuisine moléculaire",
+      "La pasteurisation",
+      "La conservation par congélation"
+    ],
+    "answer": "L'agriculture du blé et de la vigne",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-103",
+    "question": "Quel est l'impact de la gastronomie sur le tourisme culturel contemporain ?",
+    "choices": [
+      "Attirer des visiteurs pour découvrir des traditions culinaires locales",
+      "Interdire les restaurants",
+      "Uniformiser les menus mondiaux",
+      "Remplacer les musées"
+    ],
+    "answer": "Attirer des visiteurs pour découvrir des traditions culinaires locales",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-104",
+    "question": "Quel chef espagnol a transformé la scène gastronomique mondiale avec des techniques expérimentales et créatives ?",
+    "choices": [
+      "Ferran Adrià",
+      "Paul Bocuse",
+      "Auguste Escoffier",
+      "Julia Child"
+    ],
+    "answer": "Ferran Adrià",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-105",
+    "question": "Quelle invention du XIXe siècle a permis de conserver les aliments en chauffant puis en scellant les bocaux, méthode utilisée pour les armées et les explorations ?",
+    "choices": [
+      "La conserve en bocal (Appert)",
+      "La pasteurisation",
+      "La réfrigération électrique",
+      "La congélation industrielle"
+    ],
+    "answer": "La conserve en bocal (Appert)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-106",
+    "question": "Environ quelle part de la nourriture produite dans le monde est gaspillée ?",
+    "choices": [
+      "Un tiers",
+      "Un dixième",
+      "La moitié",
+      "Un quart"
+    ],
+    "answer": "Un tiers",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-107",
+    "question": "Que signifie le label 'AB' en France ?",
+    "choices": [
+      "Agriculture biologique",
+      "Appellation de base",
+      "Aide aux boulangers",
+      "Analyse bactériologique"
+    ],
+    "answer": "Agriculture biologique",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-108",
+    "question": "Quelle différence principale existe entre une DLC et une DDM ?",
+    "choices": [
+      "DLC = à consommer jusqu'à; DDM = à consommer de préférence avant",
+      "DLC = date de fabrication; DDM = date d'expiration",
+      "DLC = date de distribution; DDM = date de mise",
+      "DLC = date durable; DDM = date limitée"
+    ],
+    "answer": "DLC = à consommer jusqu'à; DDM = à consommer de préférence avant",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-109",
+    "question": "Que protège une AOC/AOP pour un produit alimentaire ?",
+    "choices": [
+      "L'origine géographique et le savoir-faire",
+      "Le prix de vente",
+      "La recette exacte",
+      "La couleur du produit"
+    ],
+    "answer": "L'origine géographique et le savoir-faire",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-110",
+    "question": "Quel label français indique une qualité supérieure pour un produit (ex : poulet) ?",
+    "choices": [
+      "Label Rouge",
+      "Label Vert",
+      "Label Bio",
+      "Label Bleu"
+    ],
+    "answer": "Label Rouge",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-111",
+    "question": "Quel est l'objectif du commerce équitable (Fairtrade) ?",
+    "choices": [
+      "Payer un prix juste aux producteurs",
+      "Augmenter les taxes à l'import",
+      "Standardiser les recettes",
+      "Interdire les exportations"
+    ],
+    "answer": "Payer un prix juste aux producteurs",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-112",
+    "question": "Quel est un conseil simple pour réduire le gaspillage alimentaire à la maison ?",
+    "choices": [
+      "Planifier les repas et conserver correctement les restes",
+      "Jeter tout ce qui dépasse la date",
+      "Acheter uniquement des produits emballés",
+      "Ne jamais cuisiner à la maison"
+    ],
+    "answer": "Planifier les repas et conserver correctement les restes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-113",
+    "question": "Quel label européen indique un produit issu de l'agriculture biologique ?",
+    "choices": [
+      "Le logo feuille verte",
+      "Le logo étoile rouge",
+      "Le logo bleu",
+      "Le logo jaune"
+    ],
+    "answer": "Le logo feuille verte",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-114",
+    "question": "Quel est l'enjeu principal de l'agriculture biologique par rapport à l'agriculture conventionnelle ?",
+    "choices": [
+      "Limiter l'usage de pesticides de synthèse",
+      "Augmenter l'utilisation d'engrais chimiques",
+      "Interdire la rotation des cultures",
+      "Favoriser les monocultures intensives"
+    ],
+    "answer": "Limiter l'usage de pesticides de synthèse",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-115",
+    "question": "Quel chef est célèbre pour avoir structuré la cuisine professionnelle en brigade ?",
+    "choices": [
+      "Auguste Escoffier",
+      "Ferran Adrià",
+      "Julia Child",
+      "Paul Bocuse"
+    ],
+    "answer": "Auguste Escoffier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-116",
+    "question": "Quel chef français est souvent appelé le 'pape de la gastronomie' ?",
+    "choices": [
+      "Paul Bocuse",
+      "Auguste Escoffier",
+      "Ferran Adrià",
+      "Julia Child"
+    ],
+    "answer": "Paul Bocuse",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-117",
+    "question": "Quel chef a popularisé la cuisine moléculaire et des techniques comme la sphérification ?",
+    "choices": [
+      "Ferran Adrià",
+      "Paul Bocuse",
+      "Auguste Escoffier",
+      "Julia Child"
+    ],
+    "answer": "Ferran Adrià",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-118",
+    "question": "Quel est l'objectif principal des labels alimentaires pour le consommateur ?",
+    "choices": [
+      "Informer sur l'origine, la qualité ou le mode de production",
+      "Augmenter le prix automatiquement",
+      "Interdire la vente hors pays",
+      "Remplacer la liste d'ingrédients"
+    ],
+    "answer": "Informer sur l'origine, la qualité ou le mode de production",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-119",
+    "question": "Quel label protège des produits comme le champagne en France ?",
+    "choices": [
+      "AOC / AOP",
+      "Label Rouge",
+      "AB",
+      "Fairtrade"
+    ],
+    "answer": "AOC / AOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-120",
+    "question": "Quel est un exemple d'action pour une alimentation plus durable ?",
+    "choices": [
+      "Manger local et de saison",
+      "Importer tous les aliments exotiques",
+      "Augmenter la consommation de viande chaque jour",
+      "Jeter les restes immédiatement"
+    ],
+    "answer": "Manger local et de saison",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-121",
+    "question": "Quel est l'effet attendu du commerce équitable sur les communautés productrices ?",
+    "choices": [
+      "Améliorer les revenus et les conditions de travail",
+      "Réduire la production locale",
+      "Augmenter l'usage de pesticides",
+      "Interdire l'exportation de cacao"
+    ],
+    "answer": "Améliorer les revenus et les conditions de travail",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-122",
+    "question": "Quel label indique qu'un produit est issu d'une agriculture sans pesticides de synthèse en France ?",
+    "choices": [
+      "AB",
+      "AOC",
+      "Label Rouge",
+      "IGP"
+    ],
+    "answer": "AB",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-123",
+    "question": "Quel est l'enjeu principal de la sécurité alimentaire mondiale ?",
+    "choices": [
+      "Assurer l'accès à une nourriture suffisante et nutritive pour tous",
+      "Interdire l'agriculture biologique",
+      "Uniformiser les menus mondiaux",
+      "Supprimer les marchés locaux"
+    ],
+    "answer": "Assurer l'accès à une nourriture suffisante et nutritive pour tous",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-124",
+    "question": "Quel label garantit souvent des conditions de production respectueuses des travailleurs dans les pays producteurs ?",
+    "choices": [
+      "Commerce équitable (Fairtrade)",
+      "AOC",
+      "Label Rouge",
+      "AB"
+    ],
+    "answer": "Commerce équitable (Fairtrade)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-125",
+    "question": "Quel chef a contribué à faire connaître la cuisine française aux États-Unis via la télévision ?",
+    "choices": [
+      "Julia Child",
+      "Auguste Escoffier",
+      "Paul Bocuse",
+      "Ferran Adrià"
+    ],
+    "answer": "Julia Child",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-126",
+    "question": "Quel label français protège une spécialité liée à une région (ex : camembert de Normandie) ?",
+    "choices": [
+      "AOC / AOP",
+      "AB",
+      "Label Vert",
+      "Fairtrade"
+    ],
+    "answer": "AOC / AOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-127",
+    "question": "Quel est un indicateur fréquent pour mesurer le gaspillage alimentaire national ?",
+    "choices": [
+      "Tonnes de nourriture jetées par an",
+      "Nombre de restaurants",
+      "Nombre de recettes publiées",
+      "Surface des marchés couverts"
+    ],
+    "answer": "Tonnes de nourriture jetées par an",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-128",
+    "question": "Quel label européen vise à garantir des pratiques agricoles respectueuses de l'environnement ?",
+    "choices": [
+      "Le label biologique européen (feuille verte)",
+      "Le label industriel",
+      "Le label urbain",
+      "Le label sucré"
+    ],
+    "answer": "Le label biologique européen (feuille verte)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-129",
+    "question": "Quel est l'objectif d'une AOP pour un fromage comme le parmigiano reggiano ?",
+    "choices": [
+      "Protéger l'appellation et les méthodes de production locales",
+      "Interdire l'export",
+      "Changer la recette chaque année",
+      "Augmenter artificiellement le prix"
+    ],
+    "answer": "Protéger l'appellation et les méthodes de production locales",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-130",
+    "question": "Quel record alimentaire concerne la force d'un piment ?",
+    "choices": [
+      "Carolina Reaper est l'un des piments les plus forts",
+      "La pomme la plus lourde",
+      "Le plus grand gâteau au chocolat",
+      "La plus longue baguette"
+    ],
+    "answer": "Carolina Reaper est l'un des piments les plus forts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-131",
+    "question": "Quelle épice est la plus chère au monde en raison du travail nécessaire à sa récolte ?",
+    "choices": [
+      "Le safran",
+      "Le poivre",
+      "La cannelle",
+      "Le cumin"
+    ],
+    "answer": "Le safran",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-132",
+    "question": "Quelle région donne son nom à un vin effervescent protégé par une AOC ?",
+    "choices": [
+      "La Champagne",
+      "La Bourgogne",
+      "La Toscane",
+      "La Rioja"
+    ],
+    "answer": "La Champagne",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-133",
+    "question": "Quelle ville a le plus grand nombre de restaurants étoilés Michelin au monde ?",
+    "choices": [
+      "Tokyo",
+      "Paris",
+      "New York",
+      "Londres"
+    ],
+    "answer": "Tokyo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-134",
+    "question": "Quel record concerne la durée de croissance d'un ananas avant récolte ?",
+    "choices": [
+      "2 à 3 ans pour produire un fruit sur un plant",
+      "1 mois",
+      "1 semaine",
+      "10 ans"
+    ],
+    "answer": "2 à 3 ans pour produire un fruit sur un plant",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-136",
+    "question": "Quel label français garantit une indication géographique protégée pour un produit ?",
+    "choices": [
+      "IGP",
+      "AB",
+      "Label Rouge",
+      "Fairtrade"
+    ],
+    "answer": "IGP",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-137",
+    "question": "Quel est l'objectif principal d'une politique de réduction du gaspillage alimentaire dans les cantines scolaires ?",
+    "choices": [
+      "Adapter les portions et sensibiliser les élèves",
+      "Augmenter les portions systématiquement",
+      "Supprimer les repas chauds",
+      "Interdire les fruits"
+    ],
+    "answer": "Adapter les portions et sensibiliser les élèves",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-138",
+    "question": "Quel chef est connu pour avoir popularisé la cuisine française moderne au début du XXe siècle ?",
+    "choices": [
+      "Auguste Escoffier",
+      "Ferran Adrià",
+      "Paul Bocuse",
+      "Julia Child"
+    ],
+    "answer": "Auguste Escoffier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-139",
+    "question": "Quel label indique souvent qu'un produit a été élevé selon des règles de qualité (ex : Label Rouge pour le poulet) ?",
+    "choices": [
+      "Label Rouge",
+      "AB",
+      "AOC",
+      "IGP"
+    ],
+    "answer": "Label Rouge",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-140",
+    "question": "Quel record culinaire concerne le prix d'une pizza très luxueuse vendue dans le monde ?",
+    "choices": [
+      "Plusieurs milliers de dollars pour une pizza très garnie (truffes, caviar)",
+      "La pizza la moins chère",
+      "La pizza la plus petite",
+      "La pizza la plus ancienne"
+    ],
+    "answer": "Plusieurs milliers de dollars pour une pizza très garnie (truffes, caviar)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-141",
+    "question": "Quel est l'effet attendu d'un label 'bio' sur les pratiques agricoles ?",
+    "choices": [
+      "Réduire l'usage de pesticides de synthèse et favoriser la biodiversité",
+      "Augmenter l'usage d'engrais chimiques",
+      "Interdire la rotation des cultures",
+      "Favoriser les monocultures intensives"
+    ],
+    "answer": "Réduire l'usage de pesticides de synthèse et favoriser la biodiversité",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-142",
+    "question": "Quel chef a été une figure majeure de la gastronomie française et a fondé une école culinaire renommée ?",
+    "choices": [
+      "Paul Bocuse",
+      "Ferran Adrià",
+      "Auguste Escoffier",
+      "Julia Child"
+    ],
+    "answer": "Paul Bocuse",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-143",
+    "question": "Quel label protège la qualité d'un produit en indiquant son origine géographique (ex : IGP pour une saucisse) ?",
+    "choices": [
+      "IGP",
+      "AB",
+      "Label Vert",
+      "Fairtrade"
+    ],
+    "answer": "IGP",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-144",
+    "question": "Quel record concerne l'épice la plus chère au kilo ?",
+    "choices": [
+      "Le safran",
+      "Le poivre",
+      "La cannelle",
+      "Le cumin"
+    ],
+    "answer": "Le safran",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-145",
+    "question": "Quel est un indicateur de sécurité alimentaire utilisé par les organisations internationales ?",
+    "choices": [
+      "Le nombre de personnes souffrant de la faim",
+      "Le nombre de restaurants étoilés",
+      "La quantité de chocolat consommée",
+      "La longueur des baguettes produites"
+    ],
+    "answer": "Le nombre de personnes souffrant de la faim",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-146",
+    "question": "Quel chef espagnol a influencé la cuisine moderne par l'innovation et la créativité ?",
+    "choices": [
+      "Ferran Adrià",
+      "Paul Bocuse",
+      "Auguste Escoffier",
+      "Julia Child"
+    ],
+    "answer": "Ferran Adrià",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-147",
+    "question": "Quel label indique qu'un produit respecte des critères de qualité gustative et de production en France ?",
+    "choices": [
+      "Label Rouge",
+      "AB",
+      "IGP",
+      "Fairtrade"
+    ],
+    "answer": "Label Rouge",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-148",
+    "question": "Quel record concerne la durée nécessaire pour produire 1 kg de safran ?",
+    "choices": [
+      "Des centaines de milliers de fleurs (environ 150 000) pour 1 kg",
+      "10 fleurs",
+      "100 fleurs",
+      "1 000 fleurs"
+    ],
+    "answer": "Des centaines de milliers de fleurs (environ 150 000) pour 1 kg",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-149",
+    "question": "Quel est un effet attendu du commerce équitable sur la qualité des produits ?",
+    "choices": [
+      "Meilleures conditions de production et traçabilité",
+      "Moins de transparence",
+      "Plus de pesticides",
+      "Moins de diversité de produits"
+    ],
+    "answer": "Meilleures conditions de production et traçabilité",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-150",
+    "question": "Quel chef a popularisé des techniques de cuisine expérimentale et a dirigé le restaurant elBulli ?",
+    "choices": [
+      "Ferran Adrià",
+      "Paul Bocuse",
+      "Auguste Escoffier",
+      "Julia Child"
+    ],
+    "answer": "Ferran Adrià",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-151",
+    "question": "Quel label protège une spécialité régionale en garantissant l'origine (ex : Parmigiano Reggiano) ?",
+    "choices": [
+      "AOP / AOC",
+      "AB",
+      "Label Vert",
+      "Fairtrade"
+    ],
+    "answer": "AOP / AOC",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-152",
+    "question": "Quel record concerne le piment le plus fort mesuré sur l'échelle de Scoville ?",
+    "choices": [
+      "Carolina Reaper atteint des millions d'unités Scoville",
+      "La tomate est le piment le plus fort",
+      "Le poivre noir est le plus fort",
+      "Le safran est le plus fort"
+    ],
+    "answer": "Carolina Reaper atteint des millions d'unités Scoville",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-153",
+    "question": "Quel est un moyen pour les consommateurs de soutenir une production alimentaire plus juste ?",
+    "choices": [
+      "Choisir des produits labellisés commerce équitable",
+      "Acheter uniquement des produits importés",
+      "Ignorer les labels",
+      "Acheter toujours le moins cher"
+    ],
+    "answer": "Choisir des produits labellisés commerce équitable",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-154",
+    "question": "Quel chef a contribué à structurer la cuisine professionnelle et à codifier des recettes classiques ?",
+    "choices": [
+      "Auguste Escoffier",
+      "Ferran Adrià",
+      "Paul Bocuse",
+      "Julia Child"
+    ],
+    "answer": "Auguste Escoffier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-155",
+    "question": "Quel label indique qu'un produit a une indication géographique protégée au niveau européen ?",
+    "choices": [
+      "AOP / IGP",
+      "AB",
+      "Label Rouge",
+      "Fairtrade"
+    ],
+    "answer": "AOP / IGP",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-156",
+    "question": "Quel record culinaire concerne la rareté et le prix d'une épice utilisée en petite quantité ?",
+    "choices": [
+      "Le safran est très cher au kilo",
+      "Le sel est le plus cher",
+      "Le poivre est gratuit",
+      "La farine est la plus rare"
+    ],
+    "answer": "Le safran est très cher au kilo",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-157",
+    "question": "Quel est un indicateur de progrès pour réduire le gaspillage alimentaire dans une ville ?",
+    "choices": [
+      "Diminution des tonnes jetées et augmentation du compostage",
+      "Augmentation des emballages",
+      "Plus de restaurants fermés",
+      "Plus d'importations alimentaires"
+    ],
+    "answer": "Diminution des tonnes jetées et augmentation du compostage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-158",
+    "question": "Quel chef a popularisé la cuisine française auprès du grand public à la télévision américaine ?",
+    "choices": [
+      "Julia Child",
+      "Auguste Escoffier",
+      "Paul Bocuse",
+      "Ferran Adrià"
+    ],
+    "answer": "Julia Child",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-159",
+    "question": "Quel label indique qu'un produit a été cultivé sans pesticides de synthèse en Europe ?",
+    "choices": [
+      "Le label biologique européen (feuille verte)",
+      "Label Rouge",
+      "AOC",
+      "IGP"
+    ],
+    "answer": "Le label biologique européen (feuille verte)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-hard-160",
+    "question": "Quel record concerne la production d'ananas par plant ?",
+    "choices": [
+      "Un plant produit généralement un seul fruit après 2–3 ans",
+      "Un plant produit des centaines de fruits chaque mois",
+      "Un plant produit un fruit par semaine",
+      "Un plant ne produit jamais de fruit"
+    ],
+    "answer": "Un plant produit généralement un seul fruit après 2–3 ans",
+    "difficulty": "hard"
+  },
+  {
+    "id": "food-fr-easy-033",
+    "question": "Parmi ces aliments, lequel pousse sous la terre ?",
+    "choices": [
+      "La pomme de terre",
+      "La tomate",
+      "La fraise",
+      "La cerise"
+    ],
+    "answer": "La pomme de terre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-075",
+    "question": "Quel ustensile utilises-tu pour mesurer une quantité de farine dans une recette ?",
+    "choices": [
+      "La balance ou le verre mesureur",
+      "La passoire",
+      "La spatule",
+      "Le fouet"
+    ],
+    "answer": "La balance ou le verre mesureur",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-easy-101",
+    "question": "Quel plat traditionnel français est fait de pommes de terre écrasées avec du beurre et du lait ?",
+    "choices": [
+      "La purée",
+      "La ratatouille",
+      "Le gratin",
+      "La quiche"
+    ],
+    "answer": "La purée",
+    "difficulty": "easy"
+  },
+  {
+    "id": "food-fr-hard-135",
+    "question": "Quel terme désigne la technique culinaire consistant à cuire un aliment à basse température dans un bain d'eau contrôlé ?",
+    "choices": [
+      "Le sous-vide",
+      "Le braisage",
+      "La meunière",
+      "Le confit"
+    ],
+    "answer": "Le sous-vide",
+    "difficulty": "hard"
+  }
+]

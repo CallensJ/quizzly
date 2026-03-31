@@ -1,1 +1,6002 @@
-[]
+[
+  {
+    "id": "dino-fr-0001",
+    "question": "Quel dinosaure avait une grande crête osseuse sur la tête et mangeait des plantes ?",
+    "choices": [
+      "Triceratops",
+      "Tyrannosaurus rex",
+      "Velociraptor",
+      "Spinosaurus"
+    ],
+    "answer": "Triceratops",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0002",
+    "question": "Lequel de ces animaux était carnivore ?",
+    "choices": [
+      "Stegosaurus",
+      "Tyrannosaurus rex",
+      "Brachiosaurus",
+      "Iguanodon"
+    ],
+    "answer": "Tyrannosaurus rex",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0003",
+    "question": "Il y a environ combien d'années la grande extinction qui a tué la plupart des dinosaures a eu lieu ?",
+    "choices": [
+      "66 millions d'années",
+      "10 000 ans",
+      "1 million d'années",
+      "250 millions d'années"
+    ],
+    "answer": "66 millions d'années",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0004",
+    "question": "Quel dinosaure est célèbre pour être très grand et avoir un long cou ?",
+    "choices": [
+      "Velociraptor",
+      "Argentinosaurus",
+      "Compsognathus",
+      "Microraptor"
+    ],
+    "answer": "Argentinosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0005",
+    "question": "Les oiseaux d'aujourd'hui sont apparentés à quel groupe de dinosaures ?",
+    "choices": [
+      "Theropodes",
+      "Sauropodes",
+      "Stegosaure",
+      "Plesiosaures"
+    ],
+    "answer": "Theropodes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0006",
+    "question": "Le Mésozoïque comprend trois grandes périodes. Laquelle en fait partie ?",
+    "choices": [
+      "Jurassique",
+      "Paléozoïque",
+      "Cénozoïque",
+      "Quaternaire"
+    ],
+    "answer": "Jurassique",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0007",
+    "question": "Comment s'appelle la science qui étudie les fossiles ?",
+    "choices": [
+      "Paléontologie",
+      "Astronomie",
+      "Botanique",
+      "Archéologie"
+    ],
+    "answer": "Paléontologie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0008",
+    "question": "Où se trouve le cratère lié à l'impact souvent associé à l'extinction de la fin du Crétacé ?",
+    "choices": [
+      "Chicxulub, Mexique",
+      "Sahara, Afrique",
+      "Sibérie, Russie",
+      "Himalaya, Asie"
+    ],
+    "answer": "Chicxulub, Mexique",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0009",
+    "question": "Quel dinosaure avait des plaques osseuses le long du dos ?",
+    "choices": [
+      "Stegosaurus",
+      "Velociraptor",
+      "Tyrannosaurus rex",
+      "Triceratops"
+    ],
+    "answer": "Stegosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0010",
+    "question": "Quel dinosaure était principalement herbivore et très grand ?",
+    "choices": [
+      "Brachiosaurus",
+      "Allosaurus",
+      "Velociraptor",
+      "Spinosaurus"
+    ],
+    "answer": "Brachiosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0011",
+    "question": "Quel événement naturel est souvent cité comme cause de l'extinction de la fin du Crétacé en plus de la météorite ?",
+    "choices": [
+      "Volcanisme massif",
+      "Invasion d'aliens",
+      "Glaciation instantanée",
+      "Sécheresse de 1 jour"
+    ],
+    "answer": "Volcanisme massif",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0012",
+    "question": "Quel dinosaure est souvent représenté avec de grandes dents et de petites pattes avant ?",
+    "choices": [
+      "Tyrannosaurus rex",
+      "Iguanodon",
+      "Diplodocus",
+      "Ankylosaurus"
+    ],
+    "answer": "Tyrannosaurus rex",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0013",
+    "question": "Les oiseaux modernes sont considérés comme des descendants de dinosaures. Vrai ou faux ?",
+    "choices": [
+      "Vrai",
+      "Faux",
+      "Peut-être",
+      "Jamais"
+    ],
+    "answer": "Vrai",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0014",
+    "question": "Quelle période vient en dernier dans le Mésozoïque ?",
+    "choices": [
+      "Crétacé",
+      "Trias",
+      "Jurassique",
+      "Paléozoïque"
+    ],
+    "answer": "Crétacé",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0015",
+    "question": "Un fossile est :",
+    "choices": [
+      "Une trace ou reste d'un organisme ancien",
+      "Un animal vivant",
+      "Une pierre précieuse",
+      "Un type de plante"
+    ],
+    "answer": "Une trace ou reste d'un organisme ancien",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0016",
+    "question": "Quel continent a livré de nombreux fossiles de dinosaures géants comme Argentinosaurus ?",
+    "choices": [
+      "Amérique du Sud",
+      "Antarctique",
+      "Océanie",
+      "Europe"
+    ],
+    "answer": "Amérique du Sud",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0017",
+    "question": "Quel dinosaure avait trois cornes sur la tête ?",
+    "choices": [
+      "Triceratops",
+      "Velociraptor",
+      "Brachiosaurus",
+      "Tyrannosaurus rex"
+    ],
+    "answer": "Triceratops",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0018",
+    "question": "Quel dinosaure utilisait probablement son bec pour manger des plantes ?",
+    "choices": [
+      "Iguanodon",
+      "Allosaurus",
+      "Spinosaurus",
+      "Giganotosaurus"
+    ],
+    "answer": "Iguanodon",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0019",
+    "question": "La chute d'une grosse météorite a créé un cratère et a contribué à l'extinction des dinosaures. Où est situé ce cratère ?",
+    "choices": [
+      "Mexique",
+      "Japon",
+      "Islande",
+      "Kenya"
+    ],
+    "answer": "Mexique",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0020",
+    "question": "Quel dinosaure est connu pour être très lourd et très long, un des plus grands jamais découverts ?",
+    "choices": [
+      "Argentinosaurus",
+      "Velociraptor",
+      "Compsognathus",
+      "Oviraptor"
+    ],
+    "answer": "Argentinosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0021",
+    "question": "Les oiseaux sont des dinosaures modernes. Quel mot simple décrit cette idée ?",
+    "choices": [
+      "Descendance",
+      "Volcan",
+      "Fossile",
+      "Cratère"
+    ],
+    "answer": "Descendance",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0022",
+    "question": "Quelle période du Mésozoïque est connue pour les grands dinosaures comme ceux du film Jurassic Park ?",
+    "choices": [
+      "Jurassique",
+      "Cénozoïque",
+      "Paléozoïque",
+      "Quaternaire"
+    ],
+    "answer": "Jurassique",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0023",
+    "question": "Un paléontologue fait quoi ?",
+    "choices": [
+      "Il étudie les fossiles",
+      "Il pilote un avion",
+      "Il cultive des plantes",
+      "Il peint des tableaux"
+    ],
+    "answer": "Il étudie les fossiles",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0024",
+    "question": "Quel pays est célèbre pour des fossiles d'Archaeopteryx découverts il y a longtemps ?",
+    "choices": [
+      "Allemagne",
+      "Brésil",
+      "Canada",
+      "Inde"
+    ],
+    "answer": "Allemagne",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0025",
+    "question": "Quel dinosaure avait une queue en forme de massue pour se défendre ?",
+    "choices": [
+      "Ankylosaurus",
+      "Velociraptor",
+      "Brachiosaurus",
+      "Archaeopteryx"
+    ],
+    "answer": "Ankylosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0026",
+    "question": "Quel dinosaure était probablement omnivore ou mangeait de tout ?",
+    "choices": [
+      "Oviraptor",
+      "Diplodocus",
+      "Stegosaurus",
+      "Apatosaurus"
+    ],
+    "answer": "Oviraptor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0027",
+    "question": "La fin du Crétacé et la disparition des dinosaures ont eu lieu il y a environ :",
+    "choices": [
+      "66 millions d'années",
+      "5 000 ans",
+      "200 millions d'années",
+      "1 milliard d'années"
+    ],
+    "answer": "66 millions d'années",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0028",
+    "question": "Quel dinosaure est souvent montré comme un grand prédateur à deux pattes ?",
+    "choices": [
+      "Tyrannosaurus rex",
+      "Triceratops",
+      "Brachiosaurus",
+      "Stegosaurus"
+    ],
+    "answer": "Tyrannosaurus rex",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0029",
+    "question": "Les oiseaux modernes ont des plumes. Quel dinosaure ancien avait aussi des plumes ?",
+    "choices": [
+      "Velociraptor",
+      "Diplodocus",
+      "Ankylosaurus",
+      "Stegosaurus"
+    ],
+    "answer": "Velociraptor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0030",
+    "question": "Quelle période du Mésozoïque est la plus ancienne ?",
+    "choices": [
+      "Trias",
+      "Jurassique",
+      "Crétacé",
+      "Cénozoïque"
+    ],
+    "answer": "Trias",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0031",
+    "question": "Où trouve-t-on souvent des fossiles de dinosaures ?",
+    "choices": [
+      "Dans des couches de roche",
+      "Dans l'eau du robinet",
+      "Dans les nuages",
+      "Dans les arbres"
+    ],
+    "answer": "Dans des couches de roche",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0032",
+    "question": "Quel pays a livré des fossiles célèbres comme ceux du Gobi ?",
+    "choices": [
+      "Mongolie",
+      "France",
+      "Italie",
+      "Norvège"
+    ],
+    "answer": "Mongolie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0033",
+    "question": "Quel dinosaure avait des plaques et une petite tête ?",
+    "choices": [
+      "Stegosaurus",
+      "Tyrannosaurus rex",
+      "Velociraptor",
+      "Triceratops"
+    ],
+    "answer": "Stegosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0034",
+    "question": "Quel animal ancien n'est pas un dinosaure : un ptérosaure, un tricératops, un brachiosaure ou un vélociraptor ?",
+    "choices": [
+      "Ptérosaure",
+      "Tricératops",
+      "Brachiosaure",
+      "Vélociraptor"
+    ],
+    "answer": "Ptérosaure",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0035",
+    "question": "La disparition de la plupart des dinosaures a coïncidé avec quel âge géologique ?",
+    "choices": [
+      "Fin du Crétacé",
+      "Début du Quaternaire",
+      "Début du Paléozoïque",
+      "Fin du Cénozoïque"
+    ],
+    "answer": "Fin du Crétacé",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0036",
+    "question": "Quel dinosaure herbivore avait une très longue queue et un long cou ?",
+    "choices": [
+      "Diplodocus",
+      "Velociraptor",
+      "Tyrannosaurus rex",
+      "Oviraptor"
+    ],
+    "answer": "Diplodocus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0037",
+    "question": "Les oiseaux sont liés aux dinosaures. Quel mot décrit un petit dinosaure à plumes apparenté aux oiseaux ?",
+    "choices": [
+      "Archaeopteryx",
+      "Stegosaurus",
+      "Ankylosaurus",
+      "Diplodocus"
+    ],
+    "answer": "Archaeopteryx",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0038",
+    "question": "Le Mésozoïque est l'ère des dinosaures. Quelle est une de ses périodes ?",
+    "choices": [
+      "Jurassique",
+      "Holocène",
+      "Permien",
+      "Éocène"
+    ],
+    "answer": "Jurassique",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0039",
+    "question": "Que fait un paléontologue sur un site de fouilles ?",
+    "choices": [
+      "Il creuse pour trouver des os fossilisés",
+      "Il construit des maisons",
+      "Il cueille des fruits",
+      "Il pilote un bateau"
+    ],
+    "answer": "Il creuse pour trouver des os fossilisés",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0040",
+    "question": "Quel pays a des fossiles célèbres comme ceux du parc de Dinosaur Provincial ?",
+    "choices": [
+      "Canada",
+      "Chine",
+      "Égypte",
+      "Argentine"
+    ],
+    "answer": "Canada",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0041",
+    "question": "Quel dinosaure est souvent montré avec une grande voile sur le dos ?",
+    "choices": [
+      "Spinosaurus",
+      "Triceratops",
+      "Velociraptor",
+      "Stegosaurus"
+    ],
+    "answer": "Spinosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0042",
+    "question": "Quel dinosaure utilisait probablement ses griffes pour attraper des proies ?",
+    "choices": [
+      "Velociraptor",
+      "Brachiosaurus",
+      "Triceratops",
+      "Stegosaurus"
+    ],
+    "answer": "Velociraptor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0043",
+    "question": "Quel âge approximatif a la couche de roche liée à l'extinction des dinosaures ?",
+    "choices": [
+      "66 millions d'années",
+      "5 millions d'années",
+      "500 ans",
+      "2 milliards d'années"
+    ],
+    "answer": "66 millions d'années",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0044",
+    "question": "Quel dinosaure est souvent cité comme l'un des plus grands carnivores connus ?",
+    "choices": [
+      "Tyrannosaurus rex",
+      "Compsognathus",
+      "Microraptor",
+      "Hypsilophodon"
+    ],
+    "answer": "Tyrannosaurus rex",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0045",
+    "question": "Quel petit dinosaure à plumes est souvent montré comme proche des oiseaux ?",
+    "choices": [
+      "Microraptor",
+      "Diplodocus",
+      "Ankylosaurus",
+      "Stegosaurus"
+    ],
+    "answer": "Microraptor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0046",
+    "question": "Quelle période suit le Trias dans le Mésozoïque ?",
+    "choices": [
+      "Jurassique",
+      "Crétacé",
+      "Paléozoïque",
+      "Cénozoïque"
+    ],
+    "answer": "Jurassique",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0047",
+    "question": "Que trouve-t-on souvent autour d'un os fossile pour l'étudier ?",
+    "choices": [
+      "Matrice rocheuse",
+      "Eau de mer",
+      "Feuilles fraîches",
+      "Sable de plage"
+    ],
+    "answer": "Matrice rocheuse",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0048",
+    "question": "Quel pays d'Amérique du Sud a livré des fossiles d'Argentinosaurus ?",
+    "choices": [
+      "Argentine",
+      "Mexique",
+      "Canada",
+      "Espagne"
+    ],
+    "answer": "Argentine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0049",
+    "question": "Quel dinosaure est souvent représenté comme rapide et petit dans les livres pour enfants ?",
+    "choices": [
+      "Velociraptor",
+      "Brachiosaurus",
+      "Triceratops",
+      "Ankylosaurus"
+    ],
+    "answer": "Velociraptor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0050",
+    "question": "Quel animal marin ancien n'est pas un dinosaure : plésiosaure, tyrannosaure, tricératops ou vélociraptor ?",
+    "choices": [
+      "Plésiosaure",
+      "Tyrannosaure",
+      "Tricératops",
+      "Vélociraptor"
+    ],
+    "answer": "Plésiosaure",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0051",
+    "question": "Quel dinosaure est connu pour sa grande collerette osseuse autour du cou ?",
+    "choices": [
+      "Dilophosaurus",
+      "Triceratops",
+      "Velociraptor",
+      "Brachiosaurus"
+    ],
+    "answer": "Triceratops",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0052",
+    "question": "Quel dinosaure se nourrissait principalement de feuilles et de plantes ?",
+    "choices": [
+      "Iguanodon",
+      "Allosaurus",
+      "Tyrannosaurus rex",
+      "Spinosaurus"
+    ],
+    "answer": "Iguanodon",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0053",
+    "question": "La grande extinction qui a touché les dinosaures a eu lieu à la fin de quelle période ?",
+    "choices": [
+      "Crétacé",
+      "Jurassique",
+      "Trias",
+      "Paléozoïque"
+    ],
+    "answer": "Crétacé",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0054",
+    "question": "Quel dinosaure est célèbre pour ses très longues pattes avant et son cou élevé ?",
+    "choices": [
+      "Brachiosaurus",
+      "Velociraptor",
+      "Stegosaurus",
+      "Triceratops"
+    ],
+    "answer": "Brachiosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0055",
+    "question": "Quel mot simple décrit l'idée que les oiseaux viennent des dinosaures ?",
+    "choices": [
+      "Évolution",
+      "Extinction",
+      "Fossile",
+      "Volcan"
+    ],
+    "answer": "Évolution",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0056",
+    "question": "Quelle période du Mésozoïque vient entre le Trias et le Crétacé ?",
+    "choices": [
+      "Jurassique",
+      "Paléozoïque",
+      "Cénozoïque",
+      "Quaternaire"
+    ],
+    "answer": "Jurassique",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0057",
+    "question": "Quel outil utilise un paléontologue pour dégager délicatement un os fossilisé ?",
+    "choices": [
+      "Pinceau",
+      "Tondeuse",
+      "Scie électrique",
+      "Filet"
+    ],
+    "answer": "Pinceau",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0058",
+    "question": "Dans quel pays a été trouvé le célèbre site de fossiles du Gobi ?",
+    "choices": [
+      "Mongolie",
+      "France",
+      "Australie",
+      "États-Unis"
+    ],
+    "answer": "Mongolie",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0059",
+    "question": "Quel dinosaure avait une grande plaque osseuse sur la tête et un bec ?",
+    "choices": [
+      "Pachycephalosaurus",
+      "Tyrannosaurus rex",
+      "Velociraptor",
+      "Brachiosaurus"
+    ],
+    "answer": "Pachycephalosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0060",
+    "question": "Quel dinosaure utilisait probablement un bec pour brouter des plantes ?",
+    "choices": [
+      "Hadrosaure",
+      "Allosaurus",
+      "Spinosaurus",
+      "Giganotosaurus"
+    ],
+    "answer": "Hadrosaure",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0061",
+    "question": "Quel facteur est souvent cité comme ayant contribué à l'extinction de la fin du Crétacé ?",
+    "choices": [
+      "Impact d'une météorite",
+      "Invasion de dinosaures modernes",
+      "Chute des étoiles",
+      "Gel instantané"
+    ],
+    "answer": "Impact d'une météorite",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0062",
+    "question": "Quel dinosaure est souvent montré comme ayant de grandes dents et une mâchoire puissante ?",
+    "choices": [
+      "Tyrannosaurus rex",
+      "Stegosaurus",
+      "Triceratops",
+      "Iguanodon"
+    ],
+    "answer": "Tyrannosaurus rex",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0063",
+    "question": "Quel petit dinosaure à plumes est souvent cité comme proche des premiers oiseaux ?",
+    "choices": [
+      "Archaeopteryx",
+      "Diplodocus",
+      "Ankylosaurus",
+      "Stegosaurus"
+    ],
+    "answer": "Archaeopteryx",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0064",
+    "question": "Le Mésozoïque est l'ère des dinosaures. Quel mot décrit une de ses périodes ?",
+    "choices": [
+      "Trias",
+      "Holocène",
+      "Anthropocène",
+      "Permien"
+    ],
+    "answer": "Trias",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0065",
+    "question": "Que collecte un paléontologue pour étudier un squelette ancien ?",
+    "choices": [
+      "Os fossilisés",
+      "Fruits frais",
+      "Eau de pluie",
+      "Sable de plage"
+    ],
+    "answer": "Os fossilisés",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0066",
+    "question": "Quel pays d'Amérique du Sud est connu pour des fossiles de très grands sauropodes ?",
+    "choices": [
+      "Argentine",
+      "Japon",
+      "Islande",
+      "Norvège"
+    ],
+    "answer": "Argentine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0067",
+    "question": "Quel dinosaure avait une grande crête osseuse en forme de voile sur le dos ?",
+    "choices": [
+      "Spinosaurus",
+      "Triceratops",
+      "Velociraptor",
+      "Iguanodon"
+    ],
+    "answer": "Spinosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0068",
+    "question": "Quel dinosaure était surtout carnivore et chasseur ?",
+    "choices": [
+      "Allosaurus",
+      "Brachiosaurus",
+      "Stegosaurus",
+      "Hadrosaure"
+    ],
+    "answer": "Allosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0069",
+    "question": "Quel phénomène naturel, en plus de la météorite, a pu aggraver l'extinction des dinosaures ?",
+    "choices": [
+      "Volcanisme massif",
+      "Arrivée des humains",
+      "Invasion d'algues",
+      "Pluie de météores tous les jours"
+    ],
+    "answer": "Volcanisme massif",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0070",
+    "question": "Quel dinosaure est souvent montré comme l'un des plus grands sauropodes connus ?",
+    "choices": [
+      "Argentinosaurus",
+      "Velociraptor",
+      "Compsognathus",
+      "Oviraptor"
+    ],
+    "answer": "Argentinosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0071",
+    "question": "Quel trait des oiseaux modernes vient des dinosaures ?",
+    "choices": [
+      "Plumes",
+      "Nageoires",
+      "Branchies",
+      "Écailles de poisson"
+    ],
+    "answer": "Plumes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0072",
+    "question": "Quelle période du Mésozoïque est connue pour l'apparition des premiers dinosaures ?",
+    "choices": [
+      "Trias",
+      "Crétacé",
+      "Quaternaire",
+      "Cénozoïque"
+    ],
+    "answer": "Trias",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0073",
+    "question": "Quel instrument aide à dater les couches de roche contenant des fossiles ?",
+    "choices": [
+      "Datation radiométrique",
+      "Thermomètre",
+      "Boussole",
+      "Microscope optique"
+    ],
+    "answer": "Datation radiométrique",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0074",
+    "question": "Quel désert d'Asie centrale est célèbre pour ses découvertes de dinosaures ?",
+    "choices": [
+      "Gobi",
+      "Sahara",
+      "Kalahari",
+      "Atacama"
+    ],
+    "answer": "Gobi",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0075",
+    "question": "Quel dinosaure avait une grande plaque osseuse en forme de toit sur la tête ?",
+    "choices": [
+      "Pachycephalosaurus",
+      "Velociraptor",
+      "Brachiosaurus",
+      "Hadrosaure"
+    ],
+    "answer": "Pachycephalosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0076",
+    "question": "Quel dinosaure est connu pour avoir un bec en forme de canard chez certains individus ?",
+    "choices": [
+      "Hadrosaure",
+      "Tyrannosaurus rex",
+      "Spinosaurus",
+      "Ankylosaurus"
+    ],
+    "answer": "Hadrosaure",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0077",
+    "question": "Quel âge approximatif a la couche de la météorite de Chicxulub liée à l'extinction ?",
+    "choices": [
+      "66 millions d'années",
+      "1 million d'années",
+      "10 000 ans",
+      "500 millions d'années"
+    ],
+    "answer": "66 millions d'années",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0078",
+    "question": "Quel dinosaure est souvent montré comme un grand prédateur à mâchoire puissante ?",
+    "choices": [
+      "Tyrannosaurus rex",
+      "Stegosaurus",
+      "Triceratops",
+      "Iguanodon"
+    ],
+    "answer": "Tyrannosaurus rex",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0079",
+    "question": "Quel fossile célèbre trouvé en Allemagne montre des plumes et des ailes primitives ?",
+    "choices": [
+      "Archaeopteryx",
+      "Diplodocus",
+      "Ankylosaurus",
+      "Spinosaurus"
+    ],
+    "answer": "Archaeopteryx",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0080",
+    "question": "Quelle période du Mésozoïque est souvent associée aux grands sauropodes ?",
+    "choices": [
+      "Jurassique",
+      "Cénozoïque",
+      "Paléozoïque",
+      "Quaternaire"
+    ],
+    "answer": "Jurassique",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0081",
+    "question": "Quel type de roche contient souvent des fossiles de dinosaures ?",
+    "choices": [
+      "Sédimentaire",
+      "Ignée",
+      "Métamorphique",
+      "Obsidienne"
+    ],
+    "answer": "Sédimentaire",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0082",
+    "question": "Quel pays a produit de nombreux fossiles dans la formation de Liaoning, célèbre pour les dinosaures à plumes ?",
+    "choices": [
+      "Chine",
+      "Brésil",
+      "Kenya",
+      "Islande"
+    ],
+    "answer": "Chine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0083",
+    "question": "Quel dinosaure est souvent représenté avec une grande queue en forme de fouet ?",
+    "choices": [
+      "Diplodocus",
+      "Velociraptor",
+      "Triceratops",
+      "Pachycephalosaurus"
+    ],
+    "answer": "Diplodocus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0084",
+    "question": "Quel dinosaure avait probablement un régime composé surtout de poissons et de proies aquatiques ?",
+    "choices": [
+      "Spinosaurus",
+      "Brachiosaurus",
+      "Stegosaurus",
+      "Triceratops"
+    ],
+    "answer": "Spinosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0085",
+    "question": "Quel événement a laissé une couche riche en iridium dans les roches du monde entier ?",
+    "choices": [
+      "Impact de météorite à la fin du Crétacé",
+      "Éruption volcanique locale",
+      "Inondation récente",
+      "Tempête solaire"
+    ],
+    "answer": "Impact de météorite à la fin du Crétacé",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0086",
+    "question": "Quel dinosaure est souvent montré comme l'un des plus grands carnivores terrestres ?",
+    "choices": [
+      "Tyrannosaurus rex",
+      "Compsognathus",
+      "Microraptor",
+      "Hypsilophodon"
+    ],
+    "answer": "Tyrannosaurus rex",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0087",
+    "question": "Quel petit dinosaure à plumes a été trouvé en Chine et montre des adaptations au vol ?",
+    "choices": [
+      "Microraptor",
+      "Diplodocus",
+      "Ankylosaurus",
+      "Stegosaurus"
+    ],
+    "answer": "Microraptor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0088",
+    "question": "Quelle période du Mésozoïque a vu l'explosion de la diversité des dinosaures avant leur disparition ?",
+    "choices": [
+      "Crétacé",
+      "Paléozoïque",
+      "Cénozoïque",
+      "Quaternaire"
+    ],
+    "answer": "Crétacé",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0089",
+    "question": "Quel type d'étude compare les os fossiles pour comprendre les relations entre espèces ?",
+    "choices": [
+      "Comparaison anatomique",
+      "Cuisine",
+      "Astronomie",
+      "Botanique"
+    ],
+    "answer": "Comparaison anatomique",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0090",
+    "question": "Quel pays a livré des fossiles célèbres comme ceux du parc de Ischigualasto et d'autres sites argentins ?",
+    "choices": [
+      "Argentine",
+      "Norvège",
+      "Japon",
+      "Égypte"
+    ],
+    "answer": "Argentine",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0091",
+    "question": "Quel dinosaure est souvent montré avec une grande crête osseuse sur le museau ?",
+    "choices": [
+      "Corythosaurus",
+      "Tyrannosaurus rex",
+      "Velociraptor",
+      "Diplodocus"
+    ],
+    "answer": "Corythosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0092",
+    "question": "Quel dinosaure avait des dents adaptées pour couper la végétation ?",
+    "choices": [
+      "Iguanodon",
+      "Allosaurus",
+      "Spinosaurus",
+      "Tyrannosaurus rex"
+    ],
+    "answer": "Iguanodon",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0093",
+    "question": "Quel indice géologique montre souvent un changement brutal lié à l'extinction de la fin du Crétacé ?",
+    "choices": [
+      "Couche riche en iridium",
+      "Présence de coquillages modernes",
+      "Sable blanc",
+      "Couches de lave récentes"
+    ],
+    "answer": "Couche riche en iridium",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0094",
+    "question": "Quel dinosaure herbivore est connu pour son long cou et sa taille gigantesque ?",
+    "choices": [
+      "Sauropode",
+      "Velociraptor",
+      "Tyrannosaurus rex",
+      "Compsognathus"
+    ],
+    "answer": "Sauropode",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0095",
+    "question": "Quel fossile célèbre a été découvert en Allemagne et montre des caractéristiques d'oiseau et de dinosaure ?",
+    "choices": [
+      "Archaeopteryx",
+      "Tyrannosaurus rex",
+      "Stegosaurus",
+      "Brachiosaurus"
+    ],
+    "answer": "Archaeopteryx",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0096",
+    "question": "Quelle période du Mésozoïque a précédé le Jurassique ?",
+    "choices": [
+      "Trias",
+      "Crétacé",
+      "Cénozoïque",
+      "Paléozoïque"
+    ],
+    "answer": "Trias",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0097",
+    "question": "Quel travail implique de nettoyer, cataloguer et conserver des os fossiles en laboratoire ?",
+    "choices": [
+      "Préparation de fossiles",
+      "Jardinage",
+      "Cuisine",
+      "Peinture"
+    ],
+    "answer": "Préparation de fossiles",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0098",
+    "question": "Quel pays possède des sites célèbres comme le parc national de Dinosaur Provincial ?",
+    "choices": [
+      "Canada",
+      "Chine",
+      "Inde",
+      "Brésil"
+    ],
+    "answer": "Canada",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0099",
+    "question": "Quel dinosaure est souvent montré comme petit, rapide et à plumes dans les livres pour enfants ?",
+    "choices": [
+      "Velociraptor",
+      "Brachiosaurus",
+      "Triceratops",
+      "Ankylosaurus"
+    ],
+    "answer": "Velociraptor",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0100",
+    "question": "Lequel de ces animaux marins anciens n'est pas un dinosaure : plésiosaure, tricératops, brachiosaure ou vélociraptor ?",
+    "choices": [
+      "Plésiosaure",
+      "Tricératops",
+      "Brachiosaure",
+      "Vélociraptor"
+    ],
+    "answer": "Plésiosaure",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0101",
+    "question": "Quelle est la bonne succession des périodes du Mésozoïque, de la plus ancienne à la plus récente ?",
+    "choices": [
+      "Trias → Jurassique → Crétacé",
+      "Jurassique → Trias → Crétacé",
+      "Crétacé → Jurassique → Trias",
+      "Paléozoïque → Trias → Crétacé"
+    ],
+    "answer": "Trias → Jurassique → Crétacé",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0102",
+    "question": "Quel dinosaure est caractérisé par une grande collerette osseuse et trois cornes ?",
+    "choices": [
+      "Triceratops",
+      "Stegosaurus",
+      "Velociraptor",
+      "Allosaurus"
+    ],
+    "answer": "Triceratops",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0103",
+    "question": "Quel groupe de dinosaures était principalement herbivore et comprenait des formes à bec et dents spécialisées ?",
+    "choices": [
+      "Ornithopodes",
+      "Theropodes",
+      "Sauropodes",
+      "Cératopsiens"
+    ],
+    "answer": "Ornithopodes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0104",
+    "question": "Quel type d'information un paléontologue obtient en étudiant la position des os dans une couche rocheuse ?",
+    "choices": [
+      "L'âge relatif et le contexte de dépôt",
+      "La couleur exacte de la peau",
+      "La vitesse de course précise",
+      "La température actuelle du site"
+    ],
+    "answer": "L'âge relatif et le contexte de dépôt",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0105",
+    "question": "Quel est l'âge approximatif de l'extinction massive qui a éliminé la plupart des dinosaures non aviens ?",
+    "choices": [
+      "66 millions d'années",
+      "250 millions d'années",
+      "2 millions d'années",
+      "10 000 ans"
+    ],
+    "answer": "66 millions d'années",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0106",
+    "question": "Quel sauropode est souvent cité comme l'un des plus lourds jamais estimés ?",
+    "choices": [
+      "Argentinosaurus",
+      "Velociraptor",
+      "Stegosaurus",
+      "Oviraptor"
+    ],
+    "answer": "Argentinosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0107",
+    "question": "Quelle découverte a renforcé l'idée que les oiseaux descendent de dinosaures théropodes ?",
+    "choices": [
+      "Fossiles de dinosaures à plumes comme Archaeopteryx",
+      "Empreintes de pas humains",
+      "Os de poissons fossilisés",
+      "Cratères d'impact"
+    ],
+    "answer": "Fossiles de dinosaures à plumes comme Archaeopteryx",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0108",
+    "question": "Dans quel pays se trouve le cratère de Chicxulub lié à l'impact de la fin du Crétacé ?",
+    "choices": [
+      "Mexique",
+      "États-Unis",
+      "Chine",
+      "Argentine"
+    ],
+    "answer": "Mexique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0109",
+    "question": "Quelle période du Mésozoïque est connue pour l'apparition et la diversification initiale des dinosaures ?",
+    "choices": [
+      "Trias",
+      "Crétacé",
+      "Jurassique",
+      "Cénozoïque"
+    ],
+    "answer": "Trias",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0110",
+    "question": "Quel dinosaure est identifié par des plaques dorsales et une queue à pointes ?",
+    "choices": [
+      "Stegosaurus",
+      "Tyrannosaurus rex",
+      "Velociraptor",
+      "Iguanodon"
+    ],
+    "answer": "Stegosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0111",
+    "question": "Quel type d'alimentation est associé aux sauropodes comme Diplodocus ?",
+    "choices": [
+      "Herbivore strict",
+      "Carnivore",
+      "Piscivore",
+      "Omnivore"
+    ],
+    "answer": "Herbivore strict",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0112",
+    "question": "Quelle méthode permet de dater une couche volcanique associée à des fossiles ?",
+    "choices": [
+      "Datation radiométrique",
+      "Mesure de la salinité",
+      "Observation des étoiles",
+      "Test de goût"
+    ],
+    "answer": "Datation radiométrique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0113",
+    "question": "Outre l'impact de météorite, quel processus géologique majeur est souvent invoqué pour expliquer l'extinction de la fin du Crétacé ?",
+    "choices": [
+      "Volcanisme massif (trapps)",
+      "Glaciation soudaine",
+      "Collision avec une comète de glace",
+      "Éruption solaire"
+    ],
+    "answer": "Volcanisme massif (trapps)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0114",
+    "question": "Quel record est associé à Argentinosaurus parmi les sauropodes ?",
+    "choices": [
+      "Parmi les plus grands et lourds herbivores estimés",
+      "Plus petit dinosaure connu",
+      "Premier dinosaure volant",
+      "Dinosaure marin"
+    ],
+    "answer": "Parmi les plus grands et lourds herbivores estimés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0115",
+    "question": "Quelle caractéristique anatomique des théropodes a favorisé l'évolution des oiseaux ?",
+    "choices": [
+      "Plumes et structure du poignet",
+      "Nageoires",
+      "Carapace",
+      "Branchies"
+    ],
+    "answer": "Plumes et structure du poignet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0116",
+    "question": "Quelle région est célèbre pour la formation de Liaoning, riche en fossiles de dinosaures à plumes ?",
+    "choices": [
+      "Chine",
+      "Canada",
+      "Afrique du Sud",
+      "États-Unis"
+    ],
+    "answer": "Chine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0117",
+    "question": "Quelle période du Mésozoïque a vu l'explosion de diversité des dinosaures avant la fin du groupe non avien ?",
+    "choices": [
+      "Crétacé",
+      "Trias",
+      "Paléozoïque",
+      "Cénozoïque"
+    ],
+    "answer": "Crétacé",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0118",
+    "question": "Quel dinosaure possède une grande crête en forme de casque sur le crâne, souvent creuse à l'intérieur ?",
+    "choices": [
+      "Corythosaurus",
+      "Tyrannosaurus rex",
+      "Stegosaurus",
+      "Brachiosaurus"
+    ],
+    "answer": "Corythosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0119",
+    "question": "Quel groupe de dinosaures comprend principalement des prédateurs bipèdes comme Allosaurus ?",
+    "choices": [
+      "Theropoda",
+      "Sauropoda",
+      "Ornithopoda",
+      "Cératopsia"
+    ],
+    "answer": "Theropoda",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0120",
+    "question": "Que peut révéler la présence d'empreintes fossiles sur un site ?",
+    "choices": [
+      "Comportement locomoteur et taille approximative",
+      "La couleur de la peau",
+      "Le régime alimentaire exact",
+      "La date précise de la mort"
+    ],
+    "answer": "Comportement locomoteur et taille approximative",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0121",
+    "question": "Quel élément chimique, rare dans la croûte terrestre, est enrichi dans la couche limite Crétacé-Paléogène et soutient l'hypothèse d'un impact ?",
+    "choices": [
+      "Iridium",
+      "Oxygène",
+      "Fer",
+      "Calcium"
+    ],
+    "answer": "Iridium",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0122",
+    "question": "Quel dinosaure carnivore du Crétacé tardif est souvent étudié pour son rôle d'apex prédateur en Amérique du Nord ?",
+    "choices": [
+      "Tyrannosaurus rex",
+      "Compsognathus",
+      "Microraptor",
+      "Hypsilophodon"
+    ],
+    "answer": "Tyrannosaurus rex",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0123",
+    "question": "Quel fossile découvert en Allemagne, vieux d'environ 150 Ma, montre des plumes et des caractéristiques d'oiseau ?",
+    "choices": [
+      "Archaeopteryx",
+      "Velociraptor",
+      "Brachiosaurus",
+      "Spinosaurus"
+    ],
+    "answer": "Archaeopteryx",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0124",
+    "question": "Quelle région d'Amérique du Sud est célèbre pour des découvertes de grands sauropodes comme Argentinosaurus ?",
+    "choices": [
+      "Patagonie (Argentine)",
+      "Sahara (Afrique)",
+      "Gobi (Mongolie)",
+      "Liaoning (Chine)"
+    ],
+    "answer": "Patagonie (Argentine)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0125",
+    "question": "Quelle est la principale différence anatomique entre un ptérosaure et un dinosaure ?",
+    "choices": [
+      "Les ptérosaures sont des reptiles volants non-dinosaures",
+      "Les ptérosaures ont des plumes comme les dinosaures",
+      "Les ptérosaures sont des mammifères",
+      "Il n'y a aucune différence"
+    ],
+    "answer": "Les ptérosaures sont des reptiles volants non-dinosaures",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0126",
+    "question": "Quel dinosaure est connu pour une grande crête osseuse en forme de voile et des dents coniques adaptées au poisson ?",
+    "choices": [
+      "Spinosaurus",
+      "Triceratops",
+      "Stegosaurus",
+      "Ankylosaurus"
+    ],
+    "answer": "Spinosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0127",
+    "question": "Quel groupe de dinosaures comprend des formes à becs en canard appelées hadrosaures ?",
+    "choices": [
+      "Hadrosauridae (ornithopodes)",
+      "Theropoda",
+      "Sauropoda",
+      "Plesiosauria"
+    ],
+    "answer": "Hadrosauridae (ornithopodes)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0128",
+    "question": "Quel type de fossile fournit souvent des informations sur la peau ou les plumes d'un dinosaure ?",
+    "choices": [
+      "Impressions ou empreintes de tissus mous",
+      "Empreintes de pas",
+      "Fragments de bois",
+      "Silex"
+    ],
+    "answer": "Impressions ou empreintes de tissus mous",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0129",
+    "question": "Quel est le principal argument en faveur de l'hypothèse d'impact pour l'extinction de la fin du Crétacé ?",
+    "choices": [
+      "Couche mondiale enrichie en iridium et cratère de Chicxulub",
+      "Augmentation soudaine des mammifères",
+      "Apparition des humains",
+      "Disparition des océans"
+    ],
+    "answer": "Couche mondiale enrichie en iridium et cratère de Chicxulub",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0130",
+    "question": "Quel dinosaure du Jurassique est connu pour son long cou et ses pattes antérieures plus longues que les postérieures ?",
+    "choices": [
+      "Brachiosaurus",
+      "Velociraptor",
+      "Tyrannosaurus rex",
+      "Triceratops"
+    ],
+    "answer": "Brachiosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0131",
+    "question": "Quelle découverte fossile a été cruciale pour montrer la transition entre dinosaures et oiseaux ?",
+    "choices": [
+      "Archaeopteryx avec plumes et dents",
+      "Un crâne de Triceratops",
+      "Une carapace d'ankylosaure",
+      "Un os de sauropode"
+    ],
+    "answer": "Archaeopteryx avec plumes et dents",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0132",
+    "question": "Quelle province canadienne est célèbre pour ses sites fossilifères comme Dinosaur Provincial Park ?",
+    "choices": [
+      "Alberta",
+      "Ontario",
+      "Québec",
+      "Colombie-Britannique"
+    ],
+    "answer": "Alberta",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0133",
+    "question": "Quel événement marque la limite entre le Crétacé et le Paléogène dans les strates géologiques ?",
+    "choices": [
+      "Une couche riche en iridium et changements fossiles brusques",
+      "La première apparition des mammouths",
+      "La formation des Alpes",
+      "La dernière glaciation"
+    ],
+    "answer": "Une couche riche en iridium et changements fossiles brusques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0134",
+    "question": "Quel dinosaure est souvent identifié par une grande tête blindée et une massue osseuse au bout de la queue ?",
+    "choices": [
+      "Ankylosaurus",
+      "Velociraptor",
+      "Brachiosaurus",
+      "Iguanodon"
+    ],
+    "answer": "Ankylosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0135",
+    "question": "Quel type de dentition est typique des dinosaures herbivores broyeurs comme certains ornithopodes ?",
+    "choices": [
+      "Dents en batteries adaptées au broyage",
+      "Dents pointues pour déchirer la viande",
+      "Dents en forme de peigne pour filtrer l'eau",
+      "Absence totale de dents"
+    ],
+    "answer": "Dents en batteries adaptées au broyage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0136",
+    "question": "Quel instrument de laboratoire aide à étudier la microstructure des os fossiles ?",
+    "choices": [
+      "Microscope électronique",
+      "Thermomètre",
+      "Boussole",
+      "Pinceau"
+    ],
+    "answer": "Microscope électronique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0137",
+    "question": "Quel scénario explique pourquoi certains groupes comme les oiseaux ont survécu à l'extinction de la fin du Crétacé ?",
+    "choices": [
+      "Petite taille, capacités de vol et niches écologiques variées",
+      "Ils vivaient tous sous terre",
+      "Ils étaient invisibles",
+      "Ils se sont transformés en poissons"
+    ],
+    "answer": "Petite taille, capacités de vol et niches écologiques variées",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0138",
+    "question": "Quel dinosaure du Crétacé d'Amérique du Sud rivalise en taille avec les plus grands sauropodes ?",
+    "choices": [
+      "Argentinosaurus",
+      "Velociraptor",
+      "Microraptor",
+      "Compsognathus"
+    ],
+    "answer": "Argentinosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0139",
+    "question": "Quel fossile chinois a fourni des preuves de plumes chez des théropodes non aviens ?",
+    "choices": [
+      "Microraptor et autres découvertes du Liaoning",
+      "Triceratops du Montana",
+      "Diplodocus d'Argentine",
+      "Ankylosaurus d'Asie"
+    ],
+    "answer": "Microraptor et autres découvertes du Liaoning",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0140",
+    "question": "Quelle province argentine est célèbre pour des sites paléontologiques du Trias et du Jurassique ?",
+    "choices": [
+      "San Juan et La Rioja (Ischigualasto et autres)",
+      "Québec",
+      "Sicile",
+      "Bavière"
+    ],
+    "answer": "San Juan et La Rioja (Ischigualasto et autres)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0141",
+    "question": "Quelle méthode comparative aide à reconstruire l'apparence d'un dinosaure à partir d'os fragmentaires ?",
+    "choices": [
+      "Comparaison anatomique avec espèces proches",
+      "Lecture dans les os",
+      "Deviner au hasard",
+      "Utiliser uniquement des peintures"
+    ],
+    "answer": "Comparaison anatomique avec espèces proches",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0142",
+    "question": "Quel dinosaure est connu pour une crête osseuse creuse utilisée possiblement pour la communication acoustique ?",
+    "choices": [
+      "Corythosaurus",
+      "Tyrannosaurus rex",
+      "Stegosaurus",
+      "Brachiosaurus"
+    ],
+    "answer": "Corythosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0143",
+    "question": "Quel groupe de dinosaures comprend des formes à dents en scie et souvent des becs pour couper la végétation ?",
+    "choices": [
+      "Ornithopodes",
+      "Theropodes",
+      "Sauropodes",
+      "Ptérosaures"
+    ],
+    "answer": "Ornithopodes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0144",
+    "question": "Quel type d'analyse permet d'étudier la composition isotopique des os fossiles pour déduire le régime alimentaire ?",
+    "choices": [
+      "Analyse isotopique du carbone et de l'oxygène",
+      "Test de pH",
+      "Mesure de la radioactivité ambiante",
+      "Test de solubilité"
+    ],
+    "answer": "Analyse isotopique du carbone et de l'oxygène",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0145",
+    "question": "Quel est l'un des principaux indices géologiques qui soutient l'hypothèse d'un impact global à la fin du Crétacé ?",
+    "choices": [
+      "Couche limite riche en iridium retrouvée mondialement",
+      "Augmentation soudaine des fossiles de dinosaures",
+      "Présence d'os humains",
+      "Couches de neige fossilisées"
+    ],
+    "answer": "Couche limite riche en iridium retrouvée mondialement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0146",
+    "question": "Quel sauropode du Jurassique est célèbre pour sa très longue queue et son cou allongé ?",
+    "choices": [
+      "Diplodocus",
+      "Velociraptor",
+      "Tyrannosaurus rex",
+      "Triceratops"
+    ],
+    "answer": "Diplodocus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0147",
+    "question": "Quelle découverte a montré que certains théropodes non aviens portaient des plumes ?",
+    "choices": [
+      "Fossiles du Liaoning et découvertes comme Microraptor",
+      "Empreintes de pas de sauropodes",
+      "Os d'ankylosaure",
+      "Cratères d'impact"
+    ],
+    "answer": "Fossiles du Liaoning et découvertes comme Microraptor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0148",
+    "question": "Quel site paléontologique en Chine est célèbre pour ses fossiles à plumes du Crétacé ?",
+    "choices": [
+      "Liaoning",
+      "Gobi",
+      "Ischigualasto",
+      "Dinosaur Provincial Park"
+    ],
+    "answer": "Liaoning",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0149",
+    "question": "Quel critère est souvent utilisé pour distinguer un dinosaure d'autres reptiles mésozoïques comme les plésiosaures ?",
+    "choices": [
+      "Structure des hanches et posture érigée",
+      "Présence de nageoires",
+      "Capacité à respirer sous l'eau",
+      "Taille du cerveau"
+    ],
+    "answer": "Structure des hanches et posture érigée",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0150",
+    "question": "Quel fossile, découvert en Allemagne, est souvent cité comme preuve d'une étape intermédiaire entre dinosaures et oiseaux ?",
+    "choices": [
+      "Archaeopteryx",
+      "Tyrannosaurus rex",
+      "Brachiosaurus",
+      "Ankylosaurus"
+    ],
+    "answer": "Archaeopteryx",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0151",
+    "question": "Quelle caractéristique anatomique des théropodes a facilité l'évolution du vol chez les oiseaux ?",
+    "choices": [
+      "Structure du poignet et plumes",
+      "Nageoires osseuses",
+      "Carapace dorsale",
+      "Branchies externes"
+    ],
+    "answer": "Structure du poignet et plumes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0152",
+    "question": "Quelle région est célèbre pour des fossiles de dinosaures à plumes du Crétacé inférieur ?",
+    "choices": [
+      "Liaoning (Chine)",
+      "Gobi (Mongolie)",
+      "Patagonie (Argentine)",
+      "Alberta (Canada)"
+    ],
+    "answer": "Liaoning (Chine)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0153",
+    "question": "Quelle technique permet d'extraire un fossile sans l'endommager sur le terrain ?",
+    "choices": [
+      "Consolidation et dégagement à la brosse",
+      "Explosion contrôlée",
+      "Arrosage intensif",
+      "Grattage au marteau-piqueur"
+    ],
+    "answer": "Consolidation et dégagement à la brosse",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0154",
+    "question": "Quelle période du Mésozoïque est caractérisée par la diversification des sauropodes géants ?",
+    "choices": [
+      "Jurassique",
+      "Trias",
+      "Crétacé",
+      "Paléozoïque"
+    ],
+    "answer": "Jurassique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0155",
+    "question": "Quel dinosaure est identifié par une grande massue osseuse au bout de la queue ?",
+    "choices": [
+      "Ankylosaurus",
+      "Velociraptor",
+      "Brachiosaurus",
+      "Iguanodon"
+    ],
+    "answer": "Ankylosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0156",
+    "question": "Quel type d'alimentation est associé aux hadrosaures ?",
+    "choices": [
+      "Herbivorie spécialisée",
+      "Carnivorie exclusive",
+      "Piscivorie",
+      "Nectarivorie"
+    ],
+    "answer": "Herbivorie spécialisée",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0157",
+    "question": "Quel indice géologique mondial soutient l'hypothèse d'un impact à la fin du Crétacé ?",
+    "choices": [
+      "Couche enrichie en iridium",
+      "Augmentation des fossiles de dinosaures",
+      "Présence d'os humains",
+      "Couches de glace fossiles"
+    ],
+    "answer": "Couche enrichie en iridium",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0158",
+    "question": "Quel dinosaure détient un record de longueur parmi les sauropodes connus ?",
+    "choices": [
+      "Argentinosaurus",
+      "Velociraptor",
+      "Microraptor",
+      "Oviraptor"
+    ],
+    "answer": "Argentinosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0159",
+    "question": "Quel trait morphologique est considéré comme une préadaptation au vol chez certains théropodes ?",
+    "choices": [
+      "Plumes asymétriques",
+      "Nageoires caudales",
+      "Carapace dorsale",
+      "Cornes frontales"
+    ],
+    "answer": "Plumes asymétriques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0160",
+    "question": "Dans quelle région d'Amérique du Nord se trouvent de riches gisements crétacés comme Hell Creek ?",
+    "choices": [
+      "Montana (États-Unis)",
+      "Sicile (Italie)",
+      "Gobi (Mongolie)",
+      "Liaoning (Chine)"
+    ],
+    "answer": "Montana (États-Unis)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0161",
+    "question": "Quel fossile fournit souvent des informations sur la croissance et l'âge d'un dinosaure ?",
+    "choices": [
+      "Coupe histologique des os",
+      "Empreinte de pas",
+      "Fragment de coquillage",
+      "Silex"
+    ],
+    "answer": "Coupe histologique des os",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0162",
+    "question": "Quelle période du Mésozoïque a vu l'apparition d'Archaeopteryx il y a environ 150 Ma ?",
+    "choices": [
+      "Jurassique",
+      "Trias",
+      "Crétacé",
+      "Cénozoïque"
+    ],
+    "answer": "Jurassique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0163",
+    "question": "Quel dinosaure est reconnu pour ses doigts griffus puissants et son comportement prédateur ?",
+    "choices": [
+      "Velociraptor",
+      "Brachiosaurus",
+      "Triceratops",
+      "Stegosaurus"
+    ],
+    "answer": "Velociraptor",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0164",
+    "question": "Quel indice anatomique aide à déterminer si un dinosaure était herbivore ?",
+    "choices": [
+      "Dents plates ou en batteries pour broyer",
+      "Dents pointues et courbes",
+      "Nageoires",
+      "Branchies"
+    ],
+    "answer": "Dents plates ou en batteries pour broyer",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0165",
+    "question": "Quelle preuve soutient l'idée que le volcanisme a contribué à l'extinction de la fin du Crétacé ?",
+    "choices": [
+      "Épisodes de trapps et émissions massives de gaz",
+      "Augmentation soudaine des oiseaux",
+      "Présence d'os humains",
+      "Formation de glaciers"
+    ],
+    "answer": "Épisodes de trapps et émissions massives de gaz",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0166",
+    "question": "Quel sauropode du Jurassique est célèbre pour sa colonne vertébrale allongée et sa queue fouet ?",
+    "choices": [
+      "Diplodocus",
+      "Velociraptor",
+      "Tyrannosaurus rex",
+      "Iguanodon"
+    ],
+    "answer": "Diplodocus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0167",
+    "question": "Quelle preuve fossile montre des comportements sociaux ou de troupeau chez certains dinosaures ?",
+    "choices": [
+      "Dépôts d'ossements groupés et pistes parallèles",
+      "Os isolés uniquement",
+      "Présence de coquillages",
+      "Cratères d'impact"
+    ],
+    "answer": "Dépôts d'ossements groupés et pistes parallèles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0168",
+    "question": "Quel pays d'Asie centrale est célèbre pour ses découvertes de dinosaures du Crétacé et du Jurassique ?",
+    "choices": [
+      "Mongolie",
+      "France",
+      "Argentine",
+      "États-Unis"
+    ],
+    "answer": "Mongolie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0169",
+    "question": "Quel type d'empreinte fossile peut renseigner sur la vitesse de déplacement d'un dinosaure ?",
+    "choices": [
+      "Trace de pas et espacement des empreintes",
+      "Empreinte de feuille",
+      "Empreinte de coquillage",
+      "Empreinte de nuage"
+    ],
+    "answer": "Trace de pas et espacement des empreintes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0170",
+    "question": "Quelle période du Mésozoïque a précédé le Crétacé ?",
+    "choices": [
+      "Jurassique",
+      "Trias",
+      "Cénozoïque",
+      "Paléozoïque"
+    ],
+    "answer": "Jurassique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0171",
+    "question": "Quel dinosaure est caractérisé par une grande voile dorsale et des adaptations possibles à la pêche ?",
+    "choices": [
+      "Spinosaurus",
+      "Triceratops",
+      "Stegosaurus",
+      "Ankylosaurus"
+    ],
+    "answer": "Spinosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0172",
+    "question": "Quel indice anatomique distingue souvent un herbivore d'un carnivore chez les dinosaures ?",
+    "choices": [
+      "Forme des dents et mâchoires",
+      "Présence de plumes",
+      "Taille des yeux uniquement",
+      "Couleur des os"
+    ],
+    "answer": "Forme des dents et mâchoires",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0173",
+    "question": "Quel marqueur géochimique dans les sédiments est utilisé pour repérer l'événement d'impact de la fin du Crétacé ?",
+    "choices": [
+      "Iridium",
+      "Carbone 14",
+      "Azote",
+      "Sodium"
+    ],
+    "answer": "Iridium",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0174",
+    "question": "Quel dinosaure du Crétacé sud-américain est souvent cité parmi les plus massifs ?",
+    "choices": [
+      "Argentinosaurus",
+      "Velociraptor",
+      "Microraptor",
+      "Compsognathus"
+    ],
+    "answer": "Argentinosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0175",
+    "question": "Quelle adaptation chez certains théropodes suggère une capacité à réguler la température corporelle ?",
+    "choices": [
+      "Plumage isolant",
+      "Nageoires",
+      "Carapace épaisse",
+      "Branchies"
+    ],
+    "answer": "Plumage isolant",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0176",
+    "question": "Quel pays d'Amérique du Sud a livré des fossiles de grands sauropodes et de théropodes importants ?",
+    "choices": [
+      "Argentine",
+      "Islande",
+      "Norvège",
+      "Japon"
+    ],
+    "answer": "Argentine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0177",
+    "question": "Quel type de fossile est le plus utile pour étudier la structure interne des os ?",
+    "choices": [
+      "Coupe histologique",
+      "Empreinte de pas",
+      "Fragment de coquille",
+      "Silex"
+    ],
+    "answer": "Coupe histologique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0178",
+    "question": "Quelle période du Mésozoïque est souvent associée à l'essor des grands ornithopodes et cératopsiens ?",
+    "choices": [
+      "Crétacé",
+      "Trias",
+      "Jurassique",
+      "Paléozoïque"
+    ],
+    "answer": "Crétacé",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0179",
+    "question": "Quel dinosaure est connu pour une crête osseuse creuse pouvant servir de caisse de résonance ?",
+    "choices": [
+      "Corythosaurus",
+      "Tyrannosaurus rex",
+      "Stegosaurus",
+      "Brachiosaurus"
+    ],
+    "answer": "Corythosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0180",
+    "question": "Quel groupe de dinosaures comprend des formes à dents en batteries adaptées au broyage des plantes ?",
+    "choices": [
+      "Ornithopodes",
+      "Theropodes",
+      "Sauropodes",
+      "Ptérosaures"
+    ],
+    "answer": "Ornithopodes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0181",
+    "question": "Quelle conséquence globale un impact météoritique majeur peut-il provoquer, contribuant à une extinction ?",
+    "choices": [
+      "Refroidissement climatique et obscurcissement du ciel",
+      "Augmentation immédiate de la photosynthèse",
+      "Apparition instantanée d'arbres géants",
+      "Transformation des dinosaures en poissons"
+    ],
+    "answer": "Refroidissement climatique et obscurcissement du ciel",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0182",
+    "question": "Quel dinosaure du Jurassique est célèbre pour sa posture avec les pattes antérieures plus longues que les postérieures ?",
+    "choices": [
+      "Brachiosaurus",
+      "Velociraptor",
+      "Tyrannosaurus rex",
+      "Triceratops"
+    ],
+    "answer": "Brachiosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0183",
+    "question": "Quelle preuve fossile a permis d'identifier des comportements parentaux chez certains dinosaures ?",
+    "choices": [
+      "Nids et ossements juvéniles associés",
+      "Empreintes de pas isolées",
+      "Fragments de coquillages",
+      "Cratères d'impact"
+    ],
+    "answer": "Nids et ossements juvéniles associés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0184",
+    "question": "Quel pays d'Asie a livré des fossiles remarquables de dinosaures à plumes et d'oiseaux primitifs ?",
+    "choices": [
+      "Chine",
+      "Brésil",
+      "Égypte",
+      "Norvège"
+    ],
+    "answer": "Chine",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0185",
+    "question": "Quel type d'étude compare la morphologie des os pour établir des relations évolutives entre espèces ?",
+    "choices": [
+      "Analyse phylogénétique",
+      "Cuisine comparative",
+      "Astrologie",
+      "Hydrologie"
+    ],
+    "answer": "Analyse phylogénétique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0186",
+    "question": "Quelle période du Mésozoïque est souvent associée à l'apparition des premiers dinosaures ?",
+    "choices": [
+      "Trias",
+      "Crétacé",
+      "Jurassique",
+      "Cénozoïque"
+    ],
+    "answer": "Trias",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0187",
+    "question": "Quel dinosaure est connu pour une grande crête osseuse en forme de casque et des dents pointues à l'avant ?",
+    "choices": [
+      "Pachycephalosaurus",
+      "Brachiosaurus",
+      "Triceratops",
+      "Velociraptor"
+    ],
+    "answer": "Pachycephalosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0188",
+    "question": "Quel groupe de dinosaures présente souvent des adaptations dentaires pour broyer la végétation ?",
+    "choices": [
+      "Ornithopodes",
+      "Theropodes",
+      "Sauropodes",
+      "Ptérosaures"
+    ],
+    "answer": "Ornithopodes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0189",
+    "question": "Quel marqueur géologique global est associé à l'événement d'extinction Crétacé-Paléogène ?",
+    "choices": [
+      "Couche limite riche en iridium",
+      "Augmentation des fossiles de mammouths",
+      "Présence d'os humains",
+      "Couches de lave récentes"
+    ],
+    "answer": "Couche limite riche en iridium",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0190",
+    "question": "Quel dinosaure du Jurassique est célèbre pour sa très longue queue et son cou allongé ?",
+    "choices": [
+      "Diplodocus",
+      "Velociraptor",
+      "Tyrannosaurus rex",
+      "Triceratops"
+    ],
+    "answer": "Diplodocus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0191",
+    "question": "Quelle adaptation chez certains dinosaures a pu favoriser la thermorégulation et l'affichage social ?",
+    "choices": [
+      "Crêtes, plaques ou voiles cutanés",
+      "Nageoires caudales",
+      "Branchies externes",
+      "Carapace marine"
+    ],
+    "answer": "Crêtes, plaques ou voiles cutanés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0192",
+    "question": "Quel site paléontologique argentin est connu pour des fossiles du Trias et du Jurassique précoce ?",
+    "choices": [
+      "Ischigualasto",
+      "Gobi",
+      "Liaoning",
+      "Hell Creek"
+    ],
+    "answer": "Ischigualasto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0193",
+    "question": "Quel type d'analyse permet d'estimer la température de l'eau ou du climat à partir d'os fossiles ?",
+    "choices": [
+      "Analyse isotopique de l'oxygène",
+      "Test de pH",
+      "Mesure de la couleur",
+      "Test de solubilité"
+    ],
+    "answer": "Analyse isotopique de l'oxygène",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0194",
+    "question": "Quelle période du Mésozoïque est la plus courte en durée relative ?",
+    "choices": [
+      "Jurassique",
+      "Trias",
+      "Crétacé",
+      "Paléozoïque"
+    ],
+    "answer": "Jurassique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0195",
+    "question": "Quel dinosaure est connu pour une grande collerette osseuse et des cornes faciales ?",
+    "choices": [
+      "Triceratops",
+      "Velociraptor",
+      "Brachiosaurus",
+      "Microraptor"
+    ],
+    "answer": "Triceratops",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0196",
+    "question": "Quel groupe de dinosaures comprend des prédateurs bipèdes comme Allosaurus et Tyrannosaurus ?",
+    "choices": [
+      "Theropoda",
+      "Sauropoda",
+      "Ornithopoda",
+      "Cératopsia"
+    ],
+    "answer": "Theropoda",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0197",
+    "question": "Quel facteur combiné avec l'impact de Chicxulub est souvent proposé pour expliquer l'ampleur de l'extinction ?",
+    "choices": [
+      "Volcanisme massif (trapps)",
+      "Arrivée des humains",
+      "Invasion d'algues",
+      "Refroidissement instantané dû aux étoiles"
+    ],
+    "answer": "Volcanisme massif (trapps)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0198",
+    "question": "Quel sauropode sud-américain est souvent cité parmi les plus grands en masse estimée ?",
+    "choices": [
+      "Argentinosaurus",
+      "Velociraptor",
+      "Compsognathus",
+      "Oviraptor"
+    ],
+    "answer": "Argentinosaurus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0199",
+    "question": "Quelle preuve fossile a permis d'établir que certains dinosaures portaient des plumes colorées ?",
+    "choices": [
+      "Impressions de mélanosomes dans les plumes fossiles",
+      "Empreintes de pas colorées",
+      "Os teintés",
+      "Couches de lave colorées"
+    ],
+    "answer": "Impressions de mélanosomes dans les plumes fossiles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0200",
+    "question": "Quel bassin sédimentaire nord-américain est célèbre pour des fossiles du Crétacé supérieur et la limite K-Pg ?",
+    "choices": [
+      "Bassin de Hell Creek",
+      "Bassin de Paris",
+      "Bassin de Gobi",
+      "Bassin de Liaoning"
+    ],
+    "answer": "Bassin de Hell Creek",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0201",
+    "question": "Quelle preuve fossile suggère que certains dinosaures vivaient en groupes sociaux ?",
+    "choices": [
+      "Dépôts d'ossements multiples d'individus de même espèce",
+      "Os isolés dispersés",
+      "Présence de coquillages",
+      "Cratères d'impact"
+    ],
+    "answer": "Dépôts d'ossements multiples d'individus de même espèce",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0202",
+    "question": "Quel site est célèbre pour des fossiles montrant des nids et des œufs de dinosaures ?",
+    "choices": [
+      "Dinosaur Provincial Park (Canada)",
+      "Sahara (Afrique)",
+      "Liaoning (Chine)",
+      "Gobi (Mongolie)"
+    ],
+    "answer": "Dinosaur Provincial Park (Canada)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0203",
+    "question": "Quelle méthode permet d'étudier la croissance et l'âge des dinosaures à partir des os ?",
+    "choices": [
+      "Histologie osseuse (coupes fines)",
+      "Mesure de la couleur des os",
+      "Test de solubilité",
+      "Observation à l'œil nu uniquement"
+    ],
+    "answer": "Histologie osseuse (coupes fines)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0204",
+    "question": "Les migrations saisonnières chez certains dinosaures sont suggérées par :",
+    "choices": [
+      "Dépôts d'ossements et pistes répartis sur de longues distances",
+      "Présence d'os humains",
+      "Couches de lave",
+      "Fossiles marins uniquement"
+    ],
+    "answer": "Dépôts d'ossements et pistes répartis sur de longues distances",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0205",
+    "question": "Quel dinosaure est souvent étudié pour ses preuves de soins parentaux (nids et juvéniles associés) ?",
+    "choices": [
+      "Maiasaura",
+      "Tyrannosaurus rex",
+      "Velociraptor",
+      "Stegosaurus"
+    ],
+    "answer": "Maiasaura",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0206",
+    "question": "Quel indice anatomique aide à déduire si un dinosaure pouvait digérer des plantes dures ?",
+    "choices": [
+      "Présence de dents en batteries ou d'un gésier avec gastrolithes",
+      "Dents pointues et courbes",
+      "Nageoires",
+      "Branchies"
+    ],
+    "answer": "Présence de dents en batteries ou d'un gésier avec gastrolithes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0207",
+    "question": "Quel marqueur chimique dans les sédiments est utilisé pour repérer l'événement d'impact à la fin du Crétacé ?",
+    "choices": [
+      "Iridium",
+      "Carbone 14",
+      "Azote",
+      "Soufre"
+    ],
+    "answer": "Iridium",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0208",
+    "question": "Quel critère permet de comparer la taille de deux sauropodes fragmentaires ?",
+    "choices": [
+      "Mesure et comparaison des vertèbres et des os limbaires",
+      "Couleur des os",
+      "Nombre d'empreintes",
+      "Présence d'iridium"
+    ],
+    "answer": "Mesure et comparaison des vertèbres et des os limbaires",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0209",
+    "question": "Quelle preuve soutient que certains dinosaures régulaient leur température par des structures externes ?",
+    "choices": [
+      "Présence de plaques, crêtes ou voiles susceptibles d'échanger la chaleur",
+      "Empreintes de pas",
+      "Couche d'iridium",
+      "Os colorés"
+    ],
+    "answer": "Présence de plaques, crêtes ou voiles susceptibles d'échanger la chaleur",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0210",
+    "question": "Quel bassin contient des pistes fossiles montrant des déplacements groupés de dinosaures ?",
+    "choices": [
+      "Bassin de Paluxy (Texas)",
+      "Bassin de Paris",
+      "Bassin de Liaoning",
+      "Bassin de Gobi"
+    ],
+    "answer": "Bassin de Paluxy (Texas)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0211",
+    "question": "Quelle technique permet de reconstituer la posture et la locomotion d'un dinosaure ?",
+    "choices": [
+      "Modèles biomécaniques et analyse des articulations",
+      "Lecture dans les os",
+      "Test de goût",
+      "Observation des nuages"
+    ],
+    "answer": "Modèles biomécaniques et analyse des articulations",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0212",
+    "question": "Les migrations de dinosaures sont souvent déduites par l'étude de :",
+    "choices": [
+      "Isotopes stables dans les os indiquant changements d'habitat",
+      "Couche d'iridium",
+      "Présence d'os humains",
+      "Cratères d'impact"
+    ],
+    "answer": "Isotopes stables dans les os indiquant changements d'habitat",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0213",
+    "question": "Quel fossile montre des preuves directes de nidification et de soins parentaux ?",
+    "choices": [
+      "Nids avec œufs et juvéniles associés (ex. Maiasaura)",
+      "Os isolés",
+      "Empreintes de poissons",
+      "Couches de lave"
+    ],
+    "answer": "Nids avec œufs et juvéniles associés (ex. Maiasaura)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0214",
+    "question": "Quel type de dentition indique une alimentation principalement herbivore chez les ornithopodes ?",
+    "choices": [
+      "Dents en batteries et becs pour couper",
+      "Dents pointues et courbes",
+      "Dents en forme de peigne pour filtrer",
+      "Absence totale de dents"
+    ],
+    "answer": "Dents en batteries et becs pour couper",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0215",
+    "question": "Quel facteur climatique a pu amplifier les effets de l'impact de Chicxulub sur les écosystèmes ?",
+    "choices": [
+      "Refroidissement global dû aux poussières et aérosols",
+      "Réchauffement immédiat de 1000°C partout",
+      "Apparition instantanée d'arbres géants",
+      "Augmentation soudaine des mammifères"
+    ],
+    "answer": "Refroidissement global dû aux poussières et aérosols",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0216",
+    "question": "Quelle mesure comparative aide à estimer la masse d'un sauropode incomplet ?",
+    "choices": [
+      "Extrapolation à partir des proportions d'espèces proches complètes",
+      "Couleur des os",
+      "Nombre d'empreintes",
+      "Présence d'iridium"
+    ],
+    "answer": "Extrapolation à partir des proportions d'espèces proches complètes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0217",
+    "question": "Quel comportement social est suggéré par des pistes parallèles de plusieurs individus ?",
+    "choices": [
+      "Déplacements en troupeau ou en groupe",
+      "Chasse solitaire exclusive",
+      "Nage en banc",
+      "Vol migratoire"
+    ],
+    "answer": "Déplacements en troupeau ou en groupe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0218",
+    "question": "Quel site chinois a fourni des fossiles montrant des plumages et des comportements potentiels de parade ?",
+    "choices": [
+      "Liaoning",
+      "Hell Creek",
+      "Ischigualasto",
+      "Paluxy"
+    ],
+    "answer": "Liaoning",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0219",
+    "question": "Quelle pratique de terrain protège un fossile fragile pendant son transport ?",
+    "choices": [
+      "Plâtrer le bloc rocheux pour stabiliser le fossile",
+      "Laver le fossile à grande eau",
+      "Le laisser exposé au soleil",
+      "Le casser en petits morceaux"
+    ],
+    "answer": "Plâtrer le bloc rocheux pour stabiliser le fossile",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0220",
+    "question": "Comment les scientifiques détectent-ils des changements saisonniers dans l'habitat des dinosaures ?",
+    "choices": [
+      "Analyse isotopique et variations de croissance osseuse",
+      "Présence d'iridium",
+      "Couleur des sédiments uniquement",
+      "Taille des coquillages"
+    ],
+    "answer": "Analyse isotopique et variations de croissance osseuse",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0221",
+    "question": "Quel fossile de nid a montré que certains dinosaures réutilisaient des sites de nidification ?",
+    "choices": [
+      "Nids empilés et couches d'œufs successives",
+      "Os isolés",
+      "Empreintes de poissons",
+      "Couches de lave"
+    ],
+    "answer": "Nids empilés et couches d'œufs successives",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0222",
+    "question": "Quel indice dans les dents peut indiquer un régime mixte (omnivore) chez certains dinosaures ?",
+    "choices": [
+      "Combinaison de dents tranchantes et de surfaces broyeuses",
+      "Absence totale de dents",
+      "Dents en forme de nageoire",
+      "Dents en forme de peigne"
+    ],
+    "answer": "Combinaison de dents tranchantes et de surfaces broyeuses",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0223",
+    "question": "Quel effet global l'impact de Chicxulub a-t-il probablement eu sur la photosynthèse terrestre ?",
+    "choices": [
+      "Obscurcissement du ciel réduisant la photosynthèse",
+      "Augmentation immédiate de la photosynthèse",
+      "Aucun effet",
+      "Transformation des plantes en algues"
+    ],
+    "answer": "Obscurcissement du ciel réduisant la photosynthèse",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0224",
+    "question": "Quelle méthode comparative aide à estimer la vitesse de course d'un dinosaure à partir d'empreintes ?",
+    "choices": [
+      "Rapport entre longueur de foulée et hauteur de la hanche",
+      "Couleur des empreintes",
+      "Présence d'iridium",
+      "Nombre d'œufs trouvés"
+    ],
+    "answer": "Rapport entre longueur de foulée et hauteur de la hanche",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0225",
+    "question": "Quel comportement est suggéré par des ossements juvéniles trouvés près d'adultes ?",
+    "choices": [
+      "Soins parentaux ou vie en groupe familial",
+      "Cannibalisme systématique",
+      "Migration individuelle",
+      "Vol migratoire"
+    ],
+    "answer": "Soins parentaux ou vie en groupe familial",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0226",
+    "question": "Quel désert contient des sites montrant des troupeaux de dinosaures et des nids fossilisés ?",
+    "choices": [
+      "Gobi (Mongolie)",
+      "Sahara (Afrique)",
+      "Kalahari (Afrique)",
+      "Atacama (Amérique du Sud)"
+    ],
+    "answer": "Gobi (Mongolie)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0227",
+    "question": "Quelle pratique en laboratoire permet d'identifier des microstructures osseuses liées à la croissance ?",
+    "choices": [
+      "Préparation de lames minces et observation microscopique",
+      "Mesure de la couleur des os",
+      "Test de solubilité",
+      "Observation à l'œil nu uniquement"
+    ],
+    "answer": "Préparation de lames minces et observation microscopique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0228",
+    "question": "Comment les scientifiques distinguent-ils migrations et dispersions ponctuelles dans le registre fossile ?",
+    "choices": [
+      "Par la répétition spatiale et temporelle des preuves isotopiques et des pistes",
+      "Par la couleur des roches uniquement",
+      "Par la présence d'iridium",
+      "Par la taille des coquillages"
+    ],
+    "answer": "Par la répétition spatiale et temporelle des preuves isotopiques et des pistes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0229",
+    "question": "Quel fossile de dinosaure montre des preuves de regroupement de juvéniles, suggérant un comportement social ?",
+    "choices": [
+      "Nids et amas d'ossements juvéniles de Maiasaura",
+      "Os isolés de sauropodes",
+      "Empreintes de poissons",
+      "Couches de lave"
+    ],
+    "answer": "Nids et amas d'ossements juvéniles de Maiasaura",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0230",
+    "question": "Quel type de dentition est typique des théropodes carnivores ?",
+    "choices": [
+      "Dents tranchantes et recurvées pour déchirer la chair",
+      "Dents plates pour broyer",
+      "Bec en forme de canard",
+      "Absence de dents"
+    ],
+    "answer": "Dents tranchantes et recurvées pour déchirer la chair",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0231",
+    "question": "Quel impact écologique immédiat a suivi l'événement d'impact de la fin du Crétacé ?",
+    "choices": [
+      "Effondrement des réseaux trophiques terrestres et marins",
+      "Augmentation soudaine des plantes",
+      "Apparition instantanée des mammifères géants",
+      "Renaissance immédiate des dinosaures"
+    ],
+    "answer": "Effondrement des réseaux trophiques terrestres et marins",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0232",
+    "question": "Quelle méthode permet d'estimer la taille relative d'un dinosaure à partir d'un seul os long ?",
+    "choices": [
+      "Utiliser des équations allométriques basées sur espèces parentes complètes",
+      "Mesurer la couleur de l'os",
+      "Compter les anneaux de croissance visibles à l'œil nu",
+      "Tester la solubilité"
+    ],
+    "answer": "Utiliser des équations allométriques basées sur espèces parentes complètes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0233",
+    "question": "Quel comportement est suggéré par des traces de pas superposées et orientées de la même façon ?",
+    "choices": [
+      "Migration ou déplacement dirigé en groupe",
+      "Chasse solitaire",
+      "Nidification",
+      "Vol stationnaire"
+    ],
+    "answer": "Migration ou déplacement dirigé en groupe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0234",
+    "question": "Quel site argentin est connu pour des découvertes montrant des assemblages d'ossements et comportements variés ?",
+    "choices": [
+      "Ischigualasto",
+      "Liaoning",
+      "Hell Creek",
+      "Paluxy"
+    ],
+    "answer": "Ischigualasto",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0235",
+    "question": "Quel protocole de fouille réduit le risque de perte d'informations comportementales sur le terrain ?",
+    "choices": [
+      "Cartographie précise et enregistrement stratigraphique détaillé",
+      "Ramasser tout au hasard",
+      "Nettoyer sans documenter",
+      "Cacher les fossiles"
+    ],
+    "answer": "Cartographie précise et enregistrement stratigraphique détaillé",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0236",
+    "question": "Quel type de données isotopiques peut indiquer des déplacements saisonniers chez un dinosaure ?",
+    "choices": [
+      "Variations isotopiques de l'oxygène et du strontium dans les os",
+      "Présence d'iridium",
+      "Couleur des sédiments",
+      "Taille des coquillages"
+    ],
+    "answer": "Variations isotopiques de l'oxygène et du strontium dans les os",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0237",
+    "question": "Quel fossile a fourni des indices sur la nidification en colonie chez certains dinosaures ?",
+    "choices": [
+      "Nids rapprochés contenant œufs et juvéniles",
+      "Os isolés",
+      "Empreintes de poissons",
+      "Couches de lave"
+    ],
+    "answer": "Nids rapprochés contenant œufs et juvéniles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0238",
+    "question": "Quel type de bec est associé aux dinosaures qui broutaient des plantes basses ?",
+    "choices": [
+      "Bec large et plat pour arracher la végétation",
+      "Bec pointu pour attraper poissons",
+      "Bec en forme de peigne pour filtrer",
+      "Absence de bec"
+    ],
+    "answer": "Bec large et plat pour arracher la végétation",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0239",
+    "question": "Quel mécanisme a pu favoriser la survie des petits animaux après l'impact de la fin du Crétacé ?",
+    "choices": [
+      "Petite taille, alimentation variée et capacité à se cacher",
+      "Capacité à voler vers la Lune",
+      "Transformation en poissons",
+      "Présence d'iridium"
+    ],
+    "answer": "Petite taille, alimentation variée et capacité à se cacher",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0240",
+    "question": "Quelle comparaison anatomique aide à estimer la force de morsure d'un prédateur fossile ?",
+    "choices": [
+      "Taille et robustesse de la mâchoire et des muscles attachés",
+      "Couleur des dents",
+      "Nombre d'empreintes",
+      "Présence d'iridium"
+    ],
+    "answer": "Taille et robustesse de la mâchoire et des muscles attachés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0241",
+    "question": "Quel comportement est suggéré par des ossements d'adultes et de juvéniles trouvés ensemble dans un même site ?",
+    "choices": [
+      "Soins parentaux ou vie en groupe familial",
+      "Migration individuelle",
+      "Chasse solitaire",
+      "Vol migratoire"
+    ],
+    "answer": "Soins parentaux ou vie en groupe familial",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0242",
+    "question": "Quel site nord-américain a livré des preuves de troupeaux et de nids de dinosaures ?",
+    "choices": [
+      "Dinosaur Provincial Park (Canada)",
+      "Liaoning (Chine)",
+      "Gobi (Mongolie)",
+      "Ischigualasto (Argentine)"
+    ],
+    "answer": "Dinosaur Provincial Park (Canada)",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0243",
+    "question": "Quelle technique permet d'identifier des blessures de combat ou de prédation sur des os fossiles ?",
+    "choices": [
+      "Analyse des traces de guérison et des marques de morsure",
+      "Mesure de la couleur des os",
+      "Test de solubilité",
+      "Observation des nuages"
+    ],
+    "answer": "Analyse des traces de guérison et des marques de morsure",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0244",
+    "question": "Comment les scientifiques distinguent-ils un site de nidification d'un simple dépôt d'œufs isolés ?",
+    "choices": [
+      "Organisation répétée d'œufs et structures de nid",
+      "Présence d'iridium",
+      "Couleur des sédiments",
+      "Taille des coquillages"
+    ],
+    "answer": "Organisation répétée d'œufs et structures de nid",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0245",
+    "question": "Quel fossile a fourni des indices sur la croissance rapide chez certains dinosaures ?",
+    "choices": [
+      "Coupe histologique montrant anneaux de croissance rapprochés",
+      "Empreintes de pas",
+      "Présence d'iridium",
+      "Couches de lave"
+    ],
+    "answer": "Coupe histologique montrant anneaux de croissance rapprochés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0246",
+    "question": "Quel type de bec est associé aux hadrosaures pour récolter et broyer la végétation ?",
+    "choices": [
+      "Bec plat combiné à dents en batteries",
+      "Bec pointu pour attraper poissons",
+      "Bec en forme de peigne",
+      "Absence de bec"
+    ],
+    "answer": "Bec plat combiné à dents en batteries",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0247",
+    "question": "Quel facteur a rendu la récupération des écosystèmes difficile après l'extinction du Crétacé ?",
+    "choices": [
+      "Effondrement des chaînes alimentaires et perte de producteurs primaires",
+      "Apparition instantanée d'arbres géants",
+      "Transformation des dinosaures en poissons",
+      "Présence d'iridium"
+    ],
+    "answer": "Effondrement des chaînes alimentaires et perte de producteurs primaires",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0248",
+    "question": "Quelle mesure comparative est utilisée pour estimer la longueur d'un sauropode à partir d'une vertèbre ?",
+    "choices": [
+      "Comparaison avec vertèbres homologues d'espèces complètes",
+      "Couleur de la vertèbre",
+      "Présence d'iridium",
+      "Nombre d'œufs trouvés"
+    ],
+    "answer": "Comparaison avec vertèbres homologues d'espèces complètes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0249",
+    "question": "Quel comportement social est suggéré par des sites contenant des individus de différentes tailles mais d'une même espèce ?",
+    "choices": [
+      "Structure sociale avec juvéniles et adultes coexistant",
+      "Présence d'os humains",
+      "Migration individuelle",
+      "Vol migratoire"
+    ],
+    "answer": "Structure sociale avec juvéniles et adultes coexistant",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0250",
+    "question": "Quel type de site fournit souvent des preuves de comportements collectifs comme la migration ou le pâturage ?",
+    "choices": [
+      "Traces de pas longues et alignées sur plusieurs kilomètres",
+      "Présence d'iridium",
+      "Couches de lave",
+      "Empreintes de poissons"
+    ],
+    "answer": "Traces de pas longues et alignées sur plusieurs kilomètres",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0251",
+    "question": "Quel taxon latin désigne l'oiseau primitif découvert en Allemagne et daté d'environ 150 Ma ?",
+    "choices": [
+      "Archaeopteryx lithographica",
+      "Velociraptor mongoliensis",
+      "Tyrannosaurus rex",
+      "Brachiosaurus altithorax"
+    ],
+    "answer": "Archaeopteryx lithographica",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0252",
+    "question": "Quel paléontologue est célèbre pour ses travaux sur les comportements parentaux de Maiasaura ?",
+    "choices": [
+      "Jack Horner",
+      "Mary Anning",
+      "Robert Bakker",
+      "Xu Xing"
+    ],
+    "answer": "Jack Horner",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0253",
+    "question": "La formation géologique Morrison est surtout connue pour des fossiles de quelle période ?",
+    "choices": [
+      "Jurassique supérieur",
+      "Trias moyen",
+      "Crétacé inférieur",
+      "Paléozoïque"
+    ],
+    "answer": "Jurassique supérieur",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0254",
+    "question": "Quelle datation correspond approximativement à l'apparition des premiers dinosaures au Trias ?",
+    "choices": [
+      "≈ 230 millions d'années",
+      "≈ 66 millions d'années",
+      "≈ 500 millions d'années",
+      "≈ 10 000 ans"
+    ],
+    "answer": "≈ 230 millions d'années",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0255",
+    "question": "Quel taxon latin désigne le grand théropode nord-américain étudié par Robert Bakker pour son comportement actif ?",
+    "choices": [
+      "Tyrannosaurus rex",
+      "Allosaurus fragilis",
+      "Velociraptor mongoliensis",
+      "Spinosaurus aegyptiacus"
+    ],
+    "answer": "Tyrannosaurus rex",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0256",
+    "question": "Quel indice anatomique chez les sauropodes est utilisé pour estimer leur régime alimentaire ?",
+    "choices": [
+      "Morphologie des dents et usure dentaire",
+      "Taille des orbites",
+      "Nombre de vertèbres cervicales uniquement",
+      "Présence d'iridium"
+    ],
+    "answer": "Morphologie des dents et usure dentaire",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0257",
+    "question": "Quel mécanisme d'extinction est associé à la formation des trapps du Deccan et discuté pour la fin du Crétacé ?",
+    "choices": [
+      "Volcanisme massif libérant gaz et particules",
+      "Collision avec un autre dinosaure",
+      "Refroidissement dû aux glaces polaires",
+      "Augmentation soudaine d'oxygène"
+    ],
+    "answer": "Volcanisme massif libérant gaz et particules",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0258",
+    "question": "Quel clade latin regroupe les dinosaures bipèdes carnivores dont descendent les oiseaux ?",
+    "choices": [
+      "Theropoda",
+      "Sauropoda",
+      "Ornithopoda",
+      "Ankylosauria"
+    ],
+    "answer": "Theropoda",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0259",
+    "question": "Quel paléontologue britannique du XIXe siècle est célèbre pour ses découvertes de fossiles marins et de reptiles fossiles ?",
+    "choices": [
+      "Mary Anning",
+      "Jack Horner",
+      "Robert Bakker",
+      "Xu Xing"
+    ],
+    "answer": "Mary Anning",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0260",
+    "question": "La formation de Tendaguru, riche en dinosaures, se situe sur quel continent actuel ?",
+    "choices": [
+      "Afrique (Tanzanie)",
+      "Amérique du Sud (Argentine)",
+      "Asie (Chine)",
+      "Europe (Allemagne)"
+    ],
+    "answer": "Afrique (Tanzanie)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0261",
+    "question": "Quelle méthode permet de déterminer l'âge absolu d'une couche volcanique associée à des fossiles ?",
+    "choices": [
+      "Datation radiométrique (ex. U-Pb, Ar-Ar)",
+      "Mesure de la salinité",
+      "Observation des fossiles modernes",
+      "Test de goût"
+    ],
+    "answer": "Datation radiométrique (ex. U-Pb, Ar-Ar)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0262",
+    "question": "Quel taxon latin désigne le petit théropode mongol souvent couvert de plumes et célèbre pour son griffes au pied ?",
+    "choices": [
+      "Velociraptor mongoliensis",
+      "Tyrannosaurus rex",
+      "Brachiosaurus altithorax",
+      "Stegosaurus stenops"
+    ],
+    "answer": "Velociraptor mongoliensis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0263",
+    "question": "Quelle preuve directe permet d'inférer la thermorégulation chez certains dinosaures ?",
+    "choices": [
+      "Présence de structures externes (plumes, crêtes) et histologie osseuse",
+      "Couleur des sédiments",
+      "Taille des empreintes",
+      "Présence d'iridium"
+    ],
+    "answer": "Présence de structures externes (plumes, crêtes) et histologie osseuse",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0264",
+    "question": "Quel argument principal soutient l'hypothèse d'un impact comme cause majeure de l'extinction K-Pg ?",
+    "choices": [
+      "Cratère de Chicxulub et couche mondiale enrichie en iridium",
+      "Augmentation des fossiles de dinosaures",
+      "Apparition des humains",
+      "Présence d'os de poissons"
+    ],
+    "answer": "Cratère de Chicxulub et couche mondiale enrichie en iridium",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0265",
+    "question": "Quel groupe taxonomique latin inclut les hadrosaures à bec en canard ?",
+    "choices": [
+      "Hadrosauridae",
+      "Theropoda",
+      "Sauropoda",
+      "Ceratopsia"
+    ],
+    "answer": "Hadrosauridae",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0266",
+    "question": "Quel paléontologue chinois est reconnu pour ses nombreuses découvertes de dinosaures à plumes ?",
+    "choices": [
+      "Xu Xing",
+      "Mary Anning",
+      "Jack Horner",
+      "Robert Bakker"
+    ],
+    "answer": "Xu Xing",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0267",
+    "question": "La formation de Nemegt et d'autres sites du Gobi ont livré principalement des fossiles de quelle époque ?",
+    "choices": [
+      "Crétacé supérieur",
+      "Trias inférieur",
+      "Jurassique moyen",
+      "Paléozoïque"
+    ],
+    "answer": "Crétacé supérieur",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0268",
+    "question": "Quelle technique permet d'étudier la microstructure osseuse pour estimer la vitesse de croissance ?",
+    "choices": [
+      "Histologie osseuse (lames minces)",
+      "Mesure de la couleur des os",
+      "Test de solubilité",
+      "Observation macroscopique seule"
+    ],
+    "answer": "Histologie osseuse (lames minces)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0269",
+    "question": "Quel taxon latin désigne le grand sauropode sud-américain souvent cité parmi les plus massifs ?",
+    "choices": [
+      "Argentinosaurus huinculensis",
+      "Velociraptor mongoliensis",
+      "Archaeopteryx lithographica",
+      "Allosaurus fragilis"
+    ],
+    "answer": "Argentinosaurus huinculensis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0270",
+    "question": "Quel marqueur isotopique dans les os peut renseigner sur les migrations saisonnières ?",
+    "choices": [
+      "Rapports isotopiques du strontium et de l'oxygène",
+      "Concentration d'iridium",
+      "Teneur en carbone 14",
+      "Présence de plomb"
+    ],
+    "answer": "Rapports isotopiques du strontium et de l'oxygène",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0271",
+    "question": "Quel facteur combiné avec l'impact de Chicxulub est souvent proposé pour expliquer l'ampleur de l'extinction ?",
+    "choices": [
+      "Volcanisme massif (trapps) libérant gaz et cendres",
+      "Invasion d'algues",
+      "Apparition des humains",
+      "Refroidissement dû aux comètes"
+    ],
+    "answer": "Volcanisme massif (trapps) libérant gaz et cendres",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0272",
+    "question": "Quel clade latin regroupe les dinosaures à becs cornus comme Triceratops ?",
+    "choices": [
+      "Ceratopsia",
+      "Theropoda",
+      "Sauropoda",
+      "Ornithopoda"
+    ],
+    "answer": "Ceratopsia",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0273",
+    "question": "Quel paléontologue américain a popularisé l'idée des dinosaures comme animaux actifs et à sang chaud ?",
+    "choices": [
+      "Robert Bakker",
+      "Mary Anning",
+      "Xu Xing",
+      "Jack Horner"
+    ],
+    "answer": "Robert Bakker",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0274",
+    "question": "La formation de Tendaguru a livré des sauropodes et des théropodes. Dans quel pays colonial ces fouilles ont-elles été menées au début du XXe siècle ?",
+    "choices": [
+      "Allemagne (Tanzanie alors colonie allemande)",
+      "Royaume-Uni (Kenya)",
+      "France (Algérie)",
+      "États-Unis (Mexique)"
+    ],
+    "answer": "Allemagne (Tanzanie alors colonie allemande)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0275",
+    "question": "Quelle méthode permet d'estimer la position phylogénétique d'une espèce fossile ?",
+    "choices": [
+      "Analyse cladistique basée sur caractères morphologiques",
+      "Mesure de la couleur des os",
+      "Test de solubilité",
+      "Observation des nuages"
+    ],
+    "answer": "Analyse cladistique basée sur caractères morphologiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0276",
+    "question": "Quel taxon latin désigne le théropode nord-américain Allosaurus connu du Jurassique ?",
+    "choices": [
+      "Allosaurus fragilis",
+      "Tyrannosaurus rex",
+      "Velociraptor mongoliensis",
+      "Spinosaurus aegyptiacus"
+    ],
+    "answer": "Allosaurus fragilis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0277",
+    "question": "Quel indice taphonomique peut indiquer un comportement de troupeau chez des sauropodes ?",
+    "choices": [
+      "Assemblages d'ossements d'individus de tailles variées et orientation similaire",
+      "Os isolés dispersés",
+      "Présence d'iridium",
+      "Couches de lave"
+    ],
+    "answer": "Assemblages d'ossements d'individus de tailles variées et orientation similaire",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0278",
+    "question": "Quel site du Gobi a livré des squelettes articulés de théropodes et d'ovipares célèbres ?",
+    "choices": [
+      "Formation Nemegt",
+      "Formation Morrison",
+      "Formation Tendaguru",
+      "Formation Hell Creek"
+    ],
+    "answer": "Formation Nemegt",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0279",
+    "question": "Quelle subdivision du Mésozoïque correspond au Crétacé supérieur en millions d'années ?",
+    "choices": [
+      "≈ 100–66 Ma",
+      "≈ 250–200 Ma",
+      "≈ 201–145 Ma",
+      "≈ 500–400 Ma"
+    ],
+    "answer": "≈ 100–66 Ma",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0280",
+    "question": "Quel taxon latin désigne le petit dinosaure à plumes chinois Microraptor ?",
+    "choices": [
+      "Microraptor zhaoianus",
+      "Velociraptor mongoliensis",
+      "Tyrannosaurus rex",
+      "Brachiosaurus altithorax"
+    ],
+    "answer": "Microraptor zhaoianus",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0281",
+    "question": "Quelle approche permet d'estimer la proportion de viande dans le régime d'un théropode fossile ?",
+    "choices": [
+      "Analyse isotopique et usure dentaire combinées",
+      "Mesure de la longueur du cou",
+      "Couleur des os",
+      "Présence d'iridium"
+    ],
+    "answer": "Analyse isotopique et usure dentaire combinées",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0282",
+    "question": "Quel paléontologue a dirigé des recherches majeures sur la paléobiologie des dinosaures en Amérique du Nord et a popularisé l'idée de dinosaures sociaux ?",
+    "choices": [
+      "Jack Horner",
+      "Mary Anning",
+      "Xu Xing",
+      "Robert Bakker"
+    ],
+    "answer": "Jack Horner",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0283",
+    "question": "Quel argument paléontologique soutient que les oiseaux sont des théropodes avialiens ?",
+    "choices": [
+      "Caractères partagés : plumes, structure du poignet, pelvienne et dents chez certains fossiles",
+      "Présence d'iridium",
+      "Taille des empreintes",
+      "Couleur des sédiments"
+    ],
+    "answer": "Caractères partagés : plumes, structure du poignet, pelvienne et dents chez certains fossiles",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0284",
+    "question": "Quelle formation nord-américaine est célèbre pour ses dinosaures du Jurassique supérieur comme Allosaurus et Stegosaurus ?",
+    "choices": [
+      "Morrison Formation",
+      "Hell Creek Formation",
+      "Liaoning Formation",
+      "Nemegt Formation"
+    ],
+    "answer": "Morrison Formation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0285",
+    "question": "Quelle méthode phylogénétique moderne est utilisée pour reconstruire les relations entre dinosaures ?",
+    "choices": [
+      "Analyse cladistique avec matrices de caractères",
+      "Mesure de la couleur des os",
+      "Test de solubilité",
+      "Observation des nuages"
+    ],
+    "answer": "Analyse cladistique avec matrices de caractères",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0286",
+    "question": "Quelle datation place l'extinction de masse K-Pg à la limite Crétacé-Paléogène ?",
+    "choices": [
+      "≈ 66 Ma",
+      "≈ 200 Ma",
+      "≈ 2 Ma",
+      "≈ 500 Ma"
+    ],
+    "answer": "≈ 66 Ma",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0287",
+    "question": "Quel taxon latin désigne le grand théropode égyptien connu pour ses adaptations aquatiques ?",
+    "choices": [
+      "Spinosaurus aegyptiacus",
+      "Tyrannosaurus rex",
+      "Allosaurus fragilis",
+      "Velociraptor mongoliensis"
+    ],
+    "answer": "Spinosaurus aegyptiacus",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0288",
+    "question": "Quelle technique permet d'identifier des pigments ou couleurs possibles dans des plumes fossiles ?",
+    "choices": [
+      "Analyse des mélanosomes par microscopie électronique",
+      "Mesure de la longueur du fémur",
+      "Test de solubilité",
+      "Présence d'iridium"
+    ],
+    "answer": "Analyse des mélanosomes par microscopie électronique",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0289",
+    "question": "Quel bassin sédimentaire africain a livré des restes de dinosaures dans la formation Tendaguru ?",
+    "choices": [
+      "Bassin de Tendaguru (Tanzanie)",
+      "Bassin de Hell Creek (USA)",
+      "Bassin de Liaoning (Chine)",
+      "Bassin de Gobi (Mongolie)"
+    ],
+    "answer": "Bassin de Tendaguru (Tanzanie)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0290",
+    "question": "Quelle approche permet d'estimer l'âge d'un individu dinosaurien à partir d'une coupe osseuse ?",
+    "choices": [
+      "Comptage des lignes de croissance (LAGs) en histologie osseuse",
+      "Mesure de la longueur du fémur uniquement",
+      "Présence d'iridium",
+      "Couleur des sédiments"
+    ],
+    "answer": "Comptage des lignes de croissance (LAGs) en histologie osseuse",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0291",
+    "question": "Quel taxon latin désigne le dinosaure à plumes découvert en Chine et souvent cité pour le vol plané ?",
+    "choices": [
+      "Microraptor zhaoianus",
+      "Tyrannosaurus rex",
+      "Brachiosaurus altithorax",
+      "Stegosaurus stenops"
+    ],
+    "answer": "Microraptor zhaoianus",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0292",
+    "question": "Quelle méthode combine données anatomiques et modélisation pour estimer la puissance de morsure d'un dinosaure ?",
+    "choices": [
+      "Analyse biomécanique et reconstruction musculaire",
+      "Mesure de la couleur des dents",
+      "Présence d'iridium",
+      "Test de solubilité"
+    ],
+    "answer": "Analyse biomécanique et reconstruction musculaire",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0293",
+    "question": "Quel paléontologue a décrit de nombreuses espèces chinoises et contribué à la compréhension des dinosaures à plumes ?",
+    "choices": [
+      "Xu Xing",
+      "Mary Anning",
+      "Jack Horner",
+      "Robert Bakker"
+    ],
+    "answer": "Xu Xing",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0294",
+    "question": "Quelle formation nord-américaine est associée à la limite Crétacé-Paléogène et à des fossiles de la fin du Crétacé ?",
+    "choices": [
+      "Hell Creek Formation",
+      "Morrison Formation",
+      "Tendaguru Formation",
+      "Nemegt Formation"
+    ],
+    "answer": "Hell Creek Formation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0295",
+    "question": "Quelle analyse permet d'identifier des blessures cicatrisées sur des os fossiles indiquant survie après combat ?",
+    "choices": [
+      "Étude taphonomique et histologique des marques de guérison",
+      "Mesure de la couleur des os",
+      "Présence d'iridium",
+      "Test de solubilité"
+    ],
+    "answer": "Étude taphonomique et histologique des marques de guérison",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0296",
+    "question": "Quelle datation place l'apparition d'Archaeopteryx lithographica dans le Jurassique ?",
+    "choices": [
+      "≈ 150 millions d'années",
+      "≈ 66 millions d'années",
+      "≈ 230 millions d'années",
+      "≈ 2 millions d'années"
+    ],
+    "answer": "≈ 150 millions d'années",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0297",
+    "question": "Quel taxon latin désigne le grand sauropode du Jurassique Brachiosaurus ?",
+    "choices": [
+      "Brachiosaurus altithorax",
+      "Argentinosaurus huinculensis",
+      "Velociraptor mongoliensis",
+      "Tyrannosaurus rex"
+    ],
+    "answer": "Brachiosaurus altithorax",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0298",
+    "question": "Quelle preuve isotopique peut indiquer des changements de régime alimentaire chez un dinosaure au cours de sa vie ?",
+    "choices": [
+      "Variations isotopiques du carbone dans les tissus osseux",
+      "Présence d'iridium",
+      "Couleur des sédiments",
+      "Taille des empreintes"
+    ],
+    "answer": "Variations isotopiques du carbone dans les tissus osseux",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0299",
+    "question": "Quel paléontologue a popularisé l'idée que les dinosaures étaient des animaux actifs et a contribué à la 'révolution des dinosaures' ?",
+    "choices": [
+      "Robert Bakker",
+      "Mary Anning",
+      "Xu Xing",
+      "Jack Horner"
+    ],
+    "answer": "Robert Bakker",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0300",
+    "question": "Quelle formation jurassique nord-américaine est une source majeure de données pour la paléobiologie des dinosaures du Jurassique supérieur ?",
+    "choices": [
+      "Morrison Formation",
+      "Nemegt Formation",
+      "Tendaguru Formation",
+      "Liaoning Formation"
+    ],
+    "answer": "Morrison Formation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0301",
+    "question": "Quel clade regroupe les oiseaux modernes et les dinosaures proches des oiseaux dans la classification actuelle ?",
+    "choices": [
+      "Avialae",
+      "Sauropoda",
+      "Ornithopoda",
+      "Ankylosauria"
+    ],
+    "answer": "Avialae",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0302",
+    "question": "Quelle découverte post-2000 a renforcé l'idée que de nombreux théropodes portaient des plumes ?",
+    "choices": [
+      "Fossiles à plumes du Liaoning (Chine)",
+      "Cratère de Chicxulub",
+      "Traces d'iridium",
+      "Découverte de trilobites"
+    ],
+    "answer": "Fossiles à plumes du Liaoning (Chine)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0303",
+    "question": "Quel débat scientifique concerne la position exacte d'Archaeopteryx dans l'arbre évolutif des oiseaux ?",
+    "choices": [
+      "Archaeopteryx est-il un Avialae basal ou un deinonychosaurien proche ?",
+      "Archaeopteryx est-il un mammifère ?",
+      "Archaeopteryx a-t-il vécu au Crétacé supérieur ?",
+      "Archaeopteryx est-il marin ?"
+    ],
+    "answer": "Archaeopteryx est-il un Avialae basal ou un deinonychosaurien proche ?",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0304",
+    "question": "Quel paléontologue chinois est associé à la description de nombreux dinosaures à plumes depuis les années 1990-2000 ?",
+    "choices": [
+      "Xu Xing",
+      "Mary Anning",
+      "Jack Horner",
+      "Robert Bakker"
+    ],
+    "answer": "Xu Xing",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0305",
+    "question": "Quelle découverte récente remet en question l'exclusivité du vol chez Avialae en montrant des capacités planantes chez d'autres théropodes ?",
+    "choices": [
+      "Fossiles de Microraptor avec plumes sur membres antérieurs et postérieurs",
+      "Traces d'iridium",
+      "Os de sauropode géant",
+      "Nids de Maiasaura"
+    ],
+    "answer": "Fossiles de Microraptor avec plumes sur membres antérieurs et postérieurs",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0306",
+    "question": "Quel site géologique chinois est célèbre pour ses fossiles de dinosaures à plumes découverts au XXIe siècle ?",
+    "choices": [
+      "Formation de Jehol (Liaoning)",
+      "Formation Morrison",
+      "Formation Tendaguru",
+      "Formation Hell Creek"
+    ],
+    "answer": "Formation de Jehol (Liaoning)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0307",
+    "question": "Quelle méthode microscopique a permis d'inférer la couleur possible des plumes fossiles ?",
+    "choices": [
+      "Analyse des mélanosomes par microscopie électronique",
+      "Datation radiométrique",
+      "Mesure de la densité osseuse",
+      "Analyse de l'iridium"
+    ],
+    "answer": "Analyse des mélanosomes par microscopie électronique",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0308",
+    "question": "Quel concept controversé concerne la position du Vélociraptor par rapport aux oiseaux ?",
+    "choices": [
+      "Vélociraptor est-il un deinonychosaurien proche des oiseaux ou un Avialae basal ?",
+      "Vélociraptor était-il herbivore ?",
+      "Vélociraptor vivait-il dans l'eau ?",
+      "Vélociraptor est-il un mammifère ?"
+    ],
+    "answer": "Vélociraptor est-il un deinonychosaurien proche des oiseaux ou un Avialae basal ?",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0309",
+    "question": "Quel paléontologue américain a défendu l'idée que certains dinosaures étaient endothermes et très actifs ?",
+    "choices": [
+      "Robert Bakker",
+      "Mary Anning",
+      "Xu Xing",
+      "Jack Horner"
+    ],
+    "answer": "Robert Bakker",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0310",
+    "question": "Quelle découverte post-2000 a alimenté la controverse sur l'origine du vol chez les dinosaures (sol vs arbres) ?",
+    "choices": [
+      "Fossiles montrant plumes asymétriques et structures de vol chez des théropodes terrestres",
+      "Cratère de Chicxulub",
+      "Découverte d'os de trilobites",
+      "Nids de tortues"
+    ],
+    "answer": "Fossiles montrant plumes asymétriques et structures de vol chez des théropodes terrestres",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0311",
+    "question": "Quel taxon latin inclut Archaeopteryx dans sa dénomination scientifique complète ?",
+    "choices": [
+      "Archaeopteryx lithographica",
+      "Archaeopteryx rex",
+      "Archaeopteryx mongoliensis",
+      "Archaeopteryx altithorax"
+    ],
+    "answer": "Archaeopteryx lithographica",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0312",
+    "question": "Quel argument a été avancé pour reclasser certains fossiles autrefois considérés comme oiseaux primitifs en deinonychosauriens ?",
+    "choices": [
+      "Analyse cladistique montrant des caractères partagés plus proches des deinonychosauriens",
+      "Présence d'iridium",
+      "Taille des empreintes",
+      "Couleur des sédiments"
+    ],
+    "answer": "Analyse cladistique montrant des caractères partagés plus proches des deinonychosauriens",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0313",
+    "question": "Quelle découverte a montré des structures filamenteuses chez des dinosaures non théropodes, élargissant la distribution des proto-plumes ?",
+    "choices": [
+      "Fossiles de certains ornithischiens avec filaments (ex. Tianyulong)",
+      "Cratère de Chicxulub",
+      "Nids de Maiasaura",
+      "Empreintes de pas isolées"
+    ],
+    "answer": "Fossiles de certains ornithischiens avec filaments (ex. Tianyulong)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0314",
+    "question": "Quel site historique allemand a fourni les premiers spécimens d'Archaeopteryx au XIXe siècle ?",
+    "choices": [
+      "Solnhofen (calcaire lithographique)",
+      "Gobi",
+      "Liaoning",
+      "Morrison"
+    ],
+    "answer": "Solnhofen (calcaire lithographique)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0315",
+    "question": "Quelle technique récente a permis de révéler des détails de plumage invisibles à l'œil nu sur certains fossiles ?",
+    "choices": [
+      "Imagerie à haute résolution et analyse des mélanosomes",
+      "Datation au carbone 14",
+      "Mesure de la salinité",
+      "Test de goût"
+    ],
+    "answer": "Imagerie à haute résolution et analyse des mélanosomes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0316",
+    "question": "Quel débat entoure l'interprétation des structures filamenteuses chez certains dinosaures : plumes homologues ou structures convergentes ?",
+    "choices": [
+      "Homologie vs convergence des structures kératiniques",
+      "Présence d'iridium",
+      "Taille des empreintes",
+      "Couleur des sédiments"
+    ],
+    "answer": "Homologie vs convergence des structures kératiniques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0317",
+    "question": "Quel paléontologue a joué un rôle clé dans l'étude des comportements parentaux et de la paléobiologie des dinosaures nord-américains ?",
+    "choices": [
+      "Jack Horner",
+      "Mary Anning",
+      "Xu Xing",
+      "Robert Bakker"
+    ],
+    "answer": "Jack Horner",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0318",
+    "question": "Quel fossile controversé a été proposé comme un oiseau plus dérivé qu'Archaeopteryx, mais dont la position reste débattue ?",
+    "choices": [
+      "Confuciusornis",
+      "Tyrannosaurus rex",
+      "Velociraptor mongoliensis",
+      "Diplodocus"
+    ],
+    "answer": "Confuciusornis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0319",
+    "question": "Quel clade comprend les théropodes les plus proches des oiseaux, souvent étudiés pour l'origine du vol ?",
+    "choices": [
+      "Paraves",
+      "Sauropoda",
+      "Ornithopoda",
+      "Ceratopsia"
+    ],
+    "answer": "Paraves",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0320",
+    "question": "Quelle découverte post-2000 a fourni des preuves de plumes colorées chez des dinosaures ?",
+    "choices": [
+      "Identification de mélanosomes indiquant des motifs de couleur",
+      "Couches d'iridium",
+      "Traces de pas colorées",
+      "Nids fossilisés"
+    ],
+    "answer": "Identification de mélanosomes indiquant des motifs de couleur",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0321",
+    "question": "Quel fossile historique d'Archaeopteryx a été au centre d'un débat sur l'authenticité et la préparation au XIXe siècle ?",
+    "choices": [
+      "Le spécimen de Berlin et les discussions sur les restaurations",
+      "Le spécimen de Hell Creek",
+      "Le spécimen de Liaoning",
+      "Le spécimen de Tendaguru"
+    ],
+    "answer": "Le spécimen de Berlin et les discussions sur les restaurations",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0322",
+    "question": "Quel paléontologue du XIXe siècle est célèbre pour ses découvertes sur la côte jurassique anglaise, influençant la paléontologie des vertébrés ?",
+    "choices": [
+      "Mary Anning",
+      "Jack Horner",
+      "Robert Bakker",
+      "Xu Xing"
+    ],
+    "answer": "Mary Anning",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0323",
+    "question": "Quel concept phylogénétique a été révisé par les découvertes de dinosaures à plumes au XXIe siècle ?",
+    "choices": [
+      "La distribution des caractères aviens au sein des théropodes",
+      "La présence d'iridium mondiale",
+      "La datation du Paléozoïque",
+      "La composition des océans"
+    ],
+    "answer": "La distribution des caractères aviens au sein des théropodes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0324",
+    "question": "Quel site du Jurassique supérieur nord-américain a fourni des squelettes complets d'Allosaurus et d'autres dinosaures ?",
+    "choices": [
+      "Morrison Formation",
+      "Liaoning Formation",
+      "Nemegt Formation",
+      "Tendaguru Formation"
+    ],
+    "answer": "Morrison Formation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0325",
+    "question": "Quelle découverte a relancé le débat sur la validité d'Archaeopteryx comme premier oiseau ?",
+    "choices": [
+      "Découvertes de paraviens plus anciens ou contemporains avec caractères aviens",
+      "Cratère de Chicxulub",
+      "Nids de sauropodes",
+      "Traces d'iridium"
+    ],
+    "answer": "Découvertes de paraviens plus anciens ou contemporains avec caractères aviens",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0326",
+    "question": "Quel paléontologue a fortement contribué à la popularisation de l'idée d'oiseaux comme dinosaures dans la seconde moitié du XXe siècle ?",
+    "choices": [
+      "John Ostrom (influence sur la vision avienne des théropodes)",
+      "Mary Anning",
+      "Xu Xing",
+      "Jack Horner"
+    ],
+    "answer": "John Ostrom (influence sur la vision avienne des théropodes)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0327",
+    "question": "Quel fossile chinois a été décrit après 2000 et a montré des plumes pennées sur les pattes postérieures, suggérant le vol à quatre ailes ?",
+    "choices": [
+      "Microraptor",
+      "Tyrannosaurus rex",
+      "Brachiosaurus altithorax",
+      "Allosaurus fragilis"
+    ],
+    "answer": "Microraptor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0328",
+    "question": "Quelle controverse entoure l'interprétation fonctionnelle des grandes crêtes creuses chez certains hadrosaures et lambeosaurines ?",
+    "choices": [
+      "Fonction acoustique vs thermorégulation vs affichage",
+      "Fonction de nageoire",
+      "Fonction de filtration",
+      "Fonction de respiration aquatique"
+    ],
+    "answer": "Fonction acoustique vs thermorégulation vs affichage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0329",
+    "question": "Quel clade inclut Archaeopteryx et d'autres formes proches des oiseaux selon certaines analyses ?",
+    "choices": [
+      "Avialae",
+      "Sauropoda",
+      "Ceratopsia",
+      "Ankylosauria"
+    ],
+    "answer": "Avialae",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0330",
+    "question": "Quel site paléontologique a fourni des spécimens d'Archaeopteryx exceptionnellement préservés dans du calcaire lithographique ?",
+    "choices": [
+      "Solnhofen (Bavière, Allemagne)",
+      "Gobi (Mongolie)",
+      "Liaoning (Chine)",
+      "Morrison (USA)"
+    ],
+    "answer": "Solnhofen (Bavière, Allemagne)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0331",
+    "question": "Quelle découverte récente a complexifié la définition d'« oiseau » en paléontologie ?",
+    "choices": [
+      "Découverte de caractères aviens chez des non-avialiens (plumes, structures du poignet)",
+      "Découverte d'iridium",
+      "Découverte de trilobites",
+      "Découverte d'os humains"
+    ],
+    "answer": "Découverte de caractères aviens chez des non-avialiens (plumes, structures du poignet)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0332",
+    "question": "Quel paléontologue a décrit et nommé de nombreuses espèces de dinosaures à plumes en Chine au XXIe siècle ?",
+    "choices": [
+      "Xu Xing",
+      "Mary Anning",
+      "Jack Horner",
+      "Robert Bakker"
+    ],
+    "answer": "Xu Xing",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0333",
+    "question": "Quel fossile d'Archaeopteryx a été au centre d'une controverse sur la présence de plumes primaires complètes ?",
+    "choices": [
+      "Le spécimen de Solnhofen (Berlin) et ses interprétations",
+      "Le spécimen de Hell Creek",
+      "Le spécimen de Liaoning",
+      "Le spécimen de Tendaguru"
+    ],
+    "answer": "Le spécimen de Solnhofen (Berlin) et ses interprétations",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0334",
+    "question": "Quel concept phylogénétique a été renforcé par la découverte de plumes chez des théropodes non aviens ?",
+    "choices": [
+      "Les caractères aviens sont largement distribués chez les théropodes",
+      "Les dinosaures sont tous marins",
+      "Les dinosaures sont des mammifères",
+      "Les dinosaures n'ont jamais eu de plumes"
+    ],
+    "answer": "Les caractères aviens sont largement distribués chez les théropodes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0335",
+    "question": "Quel site chinois a livré des fossiles montrant des plumages complexes et des structures de vol chez des paraviens ?",
+    "choices": [
+      "Liaoning / Jehol Biota",
+      "Morrison",
+      "Tendaguru",
+      "Hell Creek"
+    ],
+    "answer": "Liaoning / Jehol Biota",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0336",
+    "question": "Quelle controverse entoure l'interprétation des empreintes fossiles attribuées à des oiseaux primitifs ?",
+    "choices": [
+      "Attribution correcte à oiseaux vs petits théropodes paraviens",
+      "Présence d'iridium",
+      "Datation au carbone 14",
+      "Couleur des sédiments"
+    ],
+    "answer": "Attribution correcte à oiseaux vs petits théropodes paraviens",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0337",
+    "question": "Quel paléontologue a proposé que certains dinosaures avaient des comportements sociaux complexes et a étudié des sites de troupeaux ?",
+    "choices": [
+      "Jack Horner",
+      "Mary Anning",
+      "Xu Xing",
+      "John Ostrom"
+    ],
+    "answer": "Jack Horner",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0338",
+    "question": "Quel fossile découvert au XXIe siècle a montré des plumes pennées sur les pattes postérieures, suggérant une diversité fonctionnelle des plumes ?",
+    "choices": [
+      "Microraptor",
+      "Tyrannosaurus rex",
+      "Brachiosaurus altithorax",
+      "Allosaurus fragilis"
+    ],
+    "answer": "Microraptor",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0339",
+    "question": "Quelle question reste débattue concernant la position d'Archaeopteryx : est-il le premier oiseau ou un membre d'un groupe plus large de paraviens ?",
+    "choices": [
+      "Archaeopteryx est-il un Avialae basal ou un paravien non-avien ?",
+      "Archaeopteryx était-il marin ?",
+      "Archaeopteryx vivait-il au Crétacé supérieur ?",
+      "Archaeopteryx est-il un mammifère ?"
+    ],
+    "answer": "Archaeopteryx est-il un Avialae basal ou un paravien non-avien ?",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0340",
+    "question": "Quel développement méthodologique récent a permis d'affiner les arbres phylogénétiques des paraviens et Avialae ?",
+    "choices": [
+      "Analyses cladistiques étendues avec matrices de caractères et méthodes bayésiennes",
+      "Mesure de la couleur des os",
+      "Test de solubilité",
+      "Observation des nuages"
+    ],
+    "answer": "Analyses cladistiques étendues avec matrices de caractères et méthodes bayésiennes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0341",
+    "question": "Quel fossile historique d'Archaeopteryx a été utilisé pour argumenter que certaines caractéristiques aviennes étaient déjà présentes au Jurassique ?",
+    "choices": [
+      "Spécimens de Solnhofen montrant plumes et structure squelettique avienne",
+      "Spécimens de Hell Creek",
+      "Spécimens de Liaoning",
+      "Spécimens de Tendaguru"
+    ],
+    "answer": "Spécimens de Solnhofen montrant plumes et structure squelettique avienne",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0342",
+    "question": "Quelle découverte a alimenté la controverse sur l'origine des plumes : fonctions thermiques, d'affichage ou de vol ?",
+    "choices": [
+      "Variété de structures plumées chez des dinosaures de tailles et modes de vie différents",
+      "Couches d'iridium",
+      "Nids fossilisés",
+      "Traces de pas"
+    ],
+    "answer": "Variété de structures plumées chez des dinosaures de tailles et modes de vie différents",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0343",
+    "question": "Quel paléontologue a été central dans la redéfinition des dinosaures comme animaux dynamiques et parfois à plumes ?",
+    "choices": [
+      "Robert Bakker",
+      "Mary Anning",
+      "Xu Xing",
+      "Jack Horner"
+    ],
+    "answer": "Robert Bakker",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0344",
+    "question": "Quel fossile chinois post-2000 a fourni des preuves de structures de type plume chez un grand théropode non-avien ?",
+    "choices": [
+      "Découvertes de plumes chez certains dromaeosauridés et troodontidés du Liaoning",
+      "Cratère de Chicxulub",
+      "Nids de sauropodes",
+      "Empreintes de poissons"
+    ],
+    "answer": "Découvertes de plumes chez certains dromaeosauridés et troodontidés du Liaoning",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0345",
+    "question": "Quelle question phylogénétique reste ouverte concernant Avialae et certains paraviens fossiles ?",
+    "choices": [
+      "Délimitation exacte d'Avialae et inclusion/exclusion d'espèces intermédiaires",
+      "Présence d'iridium",
+      "Taille des empreintes",
+      "Couleur des sédiments"
+    ],
+    "answer": "Délimitation exacte d'Avialae et inclusion/exclusion d'espèces intermédiaires",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0346",
+    "question": "Quel site paléontologique a fourni des preuves de plumage complexe et d'organes de réserve chez des oiseaux primitifs ?",
+    "choices": [
+      "Liaoning (Jehol Biota)",
+      "Morrison",
+      "Tendaguru",
+      "Hell Creek"
+    ],
+    "answer": "Liaoning (Jehol Biota)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0347",
+    "question": "Quelle découverte a conduit à reconsidérer la fonction des plumes chez des dinosaures non volants ?",
+    "choices": [
+      "Plumes utilisées pour isolation, affichage et thermorégulation",
+      "Plumes servant de nageoires",
+      "Plumes servant à filtrer l'eau",
+      "Plumes servant à produire iridium"
+    ],
+    "answer": "Plumes utilisées pour isolation, affichage et thermorégulation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0348",
+    "question": "Quel paléontologue a contribué à la découverte et à l'étude des dinosaures du Gobi et de Mongolie au XXe siècle ?",
+    "choices": [
+      "Roy Chapman Andrews (expéditions au Gobi)",
+      "Mary Anning",
+      "Jack Horner",
+      "Robert Bakker"
+    ],
+    "answer": "Roy Chapman Andrews (expéditions au Gobi)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0349",
+    "question": "Quelle découverte récente a permis d'étudier la microstructure des plumes fossiles et d'inférer des fonctions ?",
+    "choices": [
+      "Analyse des mélanosomes et microstructure des barbes",
+      "Mesure de la longueur du fémur",
+      "Présence d'iridium",
+      "Test de solubilité"
+    ],
+    "answer": "Analyse des mélanosomes et microstructure des barbes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0350",
+    "question": "Quelle question reste centrale dans l'étude d'Archaeopteryx et des premiers oiseaux : vol actif, plané ou simple saut arboricole ?",
+    "choices": [
+      "Mode de locomotion aérienne exact d'Archaeopteryx (vol actif vs plané vs saut)",
+      "Si Archaeopteryx était marin",
+      "Si Archaeopteryx vivait au Crétacé supérieur",
+      "Si Archaeopteryx était un mammifère"
+    ],
+    "answer": "Mode de locomotion aérienne exact d'Archaeopteryx (vol actif vs plané vs saut)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0351",
+    "question": "Dans quelle région de Patagonie a été découvert le grand théropode Mapusaurus, souvent associé à des assemblages de plusieurs individus ?",
+    "choices": [
+      "Province de Neuquén",
+      "Province de Buenos Aires",
+      "Province de Santa Cruz",
+      "Province de Mendoza"
+    ],
+    "answer": "Province de Neuquén",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0352",
+    "question": "Quelle datation approximative est attribuée à la formation Morrison, riche en dinosaures du Jurassique supérieur ?",
+    "choices": [
+      "≈ 156–146 Ma",
+      "≈ 230–220 Ma",
+      "≈ 100–66 Ma",
+      "≈ 66–56 Ma"
+    ],
+    "answer": "≈ 156–146 Ma",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0353",
+    "question": "Quel dinosaure méconnu mais important, découvert à Madagascar, présente des dents orientées vers l'avant et un museau particulier ?",
+    "choices": [
+      "Masiakasaurus knopfleri",
+      "Majungasaurus crenatissimus",
+      "Rahonavis ostromi",
+      "Mapusaurus roseae"
+    ],
+    "answer": "Masiakasaurus knopfleri",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0354",
+    "question": "Quel fossile italien du Crétacé inférieur, Scipionyx samniticus, est célèbre pour la préservation de tissus mous et d'organes ?",
+    "choices": [
+      "Scipionyx samniticus",
+      "Eoraptor lunensis",
+      "Herrerasaurus ischigualastensis",
+      "Concavenator corcovatus"
+    ],
+    "answer": "Scipionyx samniticus",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0355",
+    "question": "Quelle formation du Gobi a livré des taxons comme Velociraptor et Protoceratops ?",
+    "choices": [
+      "Formation Djadokhta",
+      "Formation Morrison",
+      "Formation Hell Creek",
+      "Formation Tendaguru"
+    ],
+    "answer": "Formation Djadokhta",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0356",
+    "question": "Quel dinosaure chinois, découvert après 2000, a été crucial pour montrer des plumes longues sur les membres antérieurs et postérieurs ?",
+    "choices": [
+      "Microraptor gui",
+      "Tyrannosaurus rex",
+      "Brachiosaurus altithorax",
+      "Allosaurus fragilis"
+    ],
+    "answer": "Microraptor gui",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0357",
+    "question": "Quel âge géologique précis correspond à la formation Nemegt, riche en dinosaures du Crétacé supérieur mongol ?",
+    "choices": [
+      "≈ 70–66 Ma",
+      "≈ 156–146 Ma",
+      "≈ 230–220 Ma",
+      "≈ 201–190 Ma"
+    ],
+    "answer": "≈ 70–66 Ma",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0358",
+    "question": "Quel taxon chinois, découvert dans le Liaoning, est connu pour ses longues plumes et son importance pour l'étude de l'origine des oiseaux ?",
+    "choices": [
+      "Anchiornis huxleyi",
+      "Argentinosaurus huinculensis",
+      "Allosaurus fragilis",
+      "Diplodocus carnegii"
+    ],
+    "answer": "Anchiornis huxleyi",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0359",
+    "question": "Quel site argentin est célèbre pour des découvertes de dinosaures du Trias et pour des espèces comme Eoraptor ?",
+    "choices": [
+      "Ischigualasto",
+      "Patagonie centrale",
+      "La Pampa",
+      "Sierra de la Ventana"
+    ],
+    "answer": "Ischigualasto",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0360",
+    "question": "Quelle espèce méconnue du Jurassique européen, Europasaurus holgeri, illustre quel phénomène chez les sauropodes ?",
+    "choices": [
+      "Nanisme insulaire",
+      "Gigantisme extrême",
+      "Aquaticité",
+      "Vol"
+    ],
+    "answer": "Nanisme insulaire",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0361",
+    "question": "Quel dinosaure italien, décrit récemment, a fourni des informations rares sur la musculature et les organes internes ?",
+    "choices": [
+      "Scipionyx samniticus",
+      "Eoraptor lunensis",
+      "Herrerasaurus ischigualastensis",
+      "Concavenator corcovatus"
+    ],
+    "answer": "Scipionyx samniticus",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0362",
+    "question": "Quel taxon malgache, Rahonavis ostromi, est important pour le débat sur l'origine du vol et la distribution des caractères aviens ?",
+    "choices": [
+      "Rahonavis ostromi",
+      "Masiakasaurus knopfleri",
+      "Majungasaurus crenatissimus",
+      "Mapusaurus roseae"
+    ],
+    "answer": "Rahonavis ostromi",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0363",
+    "question": "Quelle datation précise est généralement attribuée à la formation de Tendaguru, riche en fossiles du Jurassique supérieur africain ?",
+    "choices": [
+      "≈ 155–145 Ma",
+      "≈ 230–220 Ma",
+      "≈ 100–90 Ma",
+      "≈ 66–56 Ma"
+    ],
+    "answer": "≈ 155–145 Ma",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0364",
+    "question": "Quel taxon chinois, Kulindadromeus zabaikalicus, est notable pour quoi dans le débat sur l'origine des plumes ?",
+    "choices": [
+      "Présence de filaments kératiniques chez un ornithischien",
+      "Première preuve d'ailes membraneuses",
+      "Preuve d'un dinosaure marin",
+      "Preuve d'un dinosaure volant géant"
+    ],
+    "answer": "Présence de filaments kératiniques chez un ornithischien",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0365",
+    "question": "Quel site nord-américain du Crétacé supérieur est célèbre pour la préservation d'ossements articulés et de la limite K-Pg ?",
+    "choices": [
+      "Hell Creek (Montana, USA)",
+      "Morrison (Utah, USA)",
+      "Liaoning (Chine)",
+      "Tendaguru (Tanzanie)"
+    ],
+    "answer": "Hell Creek (Montana, USA)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0366",
+    "question": "Quelle espèce méconnue du Crétacé, Halszkaraptor escuilliei, a surpris par quelles adaptations ?",
+    "choices": [
+      "Combinaison d'adaptations aquatiques et cursoriales",
+      "Capacité de vol soutenu",
+      "Carapace marine complète",
+      "Dentition en peigne"
+    ],
+    "answer": "Combinaison d'adaptations aquatiques et cursoriales",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0367",
+    "question": "Quelle méthode permet de dater précisément une couche volcanique intercalée dans des sédiments fossilifères ?",
+    "choices": [
+      "Datation Ar-Ar sur feldspaths ou biotite",
+      "Mesure de la salinité",
+      "Observation des fossiles modernes",
+      "Test de goût"
+    ],
+    "answer": "Datation Ar-Ar sur feldspaths ou biotite",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0368",
+    "question": "Quel dinosaure chinois, Beipiaosaurus inexpectus, est important pour quelles raisons paléontologiques ?",
+    "choices": [
+      "Plumage filamentaire et implications pour l'origine des plumes",
+      "Gigantisme extrême",
+      "Première preuve d'ailes membraneuses",
+      "Dinosaure marin"
+    ],
+    "answer": "Plumage filamentaire et implications pour l'origine des plumes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0369",
+    "question": "Quel site argentin a livré des restes de Herrerasaurus, important pour comprendre les origines des dinosaures ?",
+    "choices": [
+      "Ischigualasto (La Rioja)",
+      "Patagonie méridionale",
+      "Pampa del Castillo",
+      "Sierra de la Ventana"
+    ],
+    "answer": "Ischigualasto (La Rioja)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0370",
+    "question": "Quel taxon méconnu, Eoraptor lunensis, est souvent cité comme quoi dans l'histoire des dinosaures ?",
+    "choices": [
+      "Un des premiers dinosaures du Trias basal",
+      "Un grand sauropode du Jurassique",
+      "Un ptérosaure marin",
+      "Un dinosaure du Crétacé supérieur"
+    ],
+    "answer": "Un des premiers dinosaures du Trias basal",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0371",
+    "question": "Quelle technique permet d'identifier des pigments fossiles et d'inférer la couleur des plumes ?",
+    "choices": [
+      "Analyse des mélanosomes et comparaison avec mélanosomes modernes",
+      "Datation radiométrique",
+      "Mesure de la densité osseuse",
+      "Test de solubilité"
+    ],
+    "answer": "Analyse des mélanosomes et comparaison avec mélanosomes modernes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0372",
+    "question": "Quel dinosaure européen du Crétacé, Concavenator corcovatus, est remarquable pour quelle caractéristique anatomique ?",
+    "choices": [
+      "Une bosse ou crête sur les vertèbres dorsales",
+      "Une queue en massue",
+      "Des nageoires caudales",
+      "Un bec en forme de canard"
+    ],
+    "answer": "Une bosse ou crête sur les vertèbres dorsales",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0373",
+    "question": "Quelle datation précise est associée à la formation de Liaoning (Jehol), célèbre pour ses fossiles à plumes ?",
+    "choices": [
+      "≈ 133–120 Ma (Crétacé inférieur)",
+      "≈ 156–146 Ma",
+      "≈ 230–220 Ma",
+      "≈ 66–56 Ma"
+    ],
+    "answer": "≈ 133–120 Ma (Crétacé inférieur)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0374",
+    "question": "Quel taxon asiatique, Gigantoraptor erlianensis, a surpris par quelle combinaison de traits ?",
+    "choices": [
+      "Grande taille chez un oviraptorosaurien apparemment omnivore",
+      "Petite taille et nageoires",
+      "Carapace marine",
+      "Capacité de vol"
+    ],
+    "answer": "Grande taille chez un oviraptorosaurien apparemment omnivore",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0375",
+    "question": "Quel site africain a livré des restes de grands sauropodes et théropodes dans la formation Tendaguru ?",
+    "choices": [
+      "Tendaguru (Tanzanie)",
+      "Ischigualasto (Argentine)",
+      "Liaoning (Chine)",
+      "Hell Creek (USA)"
+    ],
+    "answer": "Tendaguru (Tanzanie)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0376",
+    "question": "Quel dinosaure méconnu d'Europe, Balaur bondoc, a suscité des débats sur sa position phylogénétique ?",
+    "choices": [
+      "Balaur bondoc (dromaeosauridé insulaire)",
+      "Argentinosaurus huinculensis",
+      "Tyrannosaurus rex",
+      "Brachiosaurus altithorax"
+    ],
+    "answer": "Balaur bondoc (dromaeosauridé insulaire)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0377",
+    "question": "Quelle méthode permet d'estimer la saisonnalité et les migrations à partir d'os fossiles ?",
+    "choices": [
+      "Analyse isotopique séquentielle (O, Sr) le long des tissus croissants",
+      "Mesure de la couleur des os",
+      "Présence d'iridium",
+      "Nombre d'empreintes"
+    ],
+    "answer": "Analyse isotopique séquentielle (O, Sr) le long des tissus croissants",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0378",
+    "question": "Quel taxon sud-américain, Giganotosaurus carolinii, est important pour la compréhension de quoi ?",
+    "choices": [
+      "Diversité des grands théropodes en Amérique du Sud",
+      "Origine des oiseaux",
+      "Premiers dinosaures du Trias",
+      "Dinosaure marin"
+    ],
+    "answer": "Diversité des grands théropodes en Amérique du Sud",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0379",
+    "question": "Quel site européen a livré des fossiles d'iguanodontes et d'autres ornithopodes du Crétacé inférieur ?",
+    "choices": [
+      "Bassin de Wealden (Royaume-Uni)",
+      "Morrison (USA)",
+      "Nemegt (Mongolie)",
+      "Tendaguru (Tanzanie)"
+    ],
+    "answer": "Bassin de Wealden (Royaume-Uni)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0380",
+    "question": "Quel dinosaure italien, Scipionyx, a permis d'étudier la position des organes internes grâce à quelle préservation ?",
+    "choices": [
+      "Préservation exceptionnelle de tissus mous et organes",
+      "Préservation d'empreintes de pas",
+      "Préservation d'iridium",
+      "Préservation de plumes colorées"
+    ],
+    "answer": "Préservation exceptionnelle de tissus mous et organes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0381",
+    "question": "Quelle datation est associée aux couches fossilifères de la formation Hell Creek, contenant T. rex et Triceratops ?",
+    "choices": [
+      "≈ 68–66 Ma (Crétacé supérieur)",
+      "≈ 156–146 Ma",
+      "≈ 230–220 Ma",
+      "≈ 201–190 Ma"
+    ],
+    "answer": "≈ 68–66 Ma (Crétacé supérieur)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0382",
+    "question": "Quel taxon chinois, Yi qi, a suscité l'intérêt pour quelle caractéristique unique ?",
+    "choices": [
+      "Ailes membraneuses soutenues par un os allongé du poignet",
+      "Queue en massue",
+      "Bec en forme de canard",
+      "Carapace marine"
+    ],
+    "answer": "Ailes membraneuses soutenues par un os allongé du poignet",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0383",
+    "question": "Quel dinosaure sud-américain, Argentinosaurus huinculensis, est daté approximativement de quelle partie du Crétacé ?",
+    "choices": [
+      "Crétacé supérieur (≈ 96–94 Ma)",
+      "Trias moyen (≈ 230 Ma)",
+      "Jurassique supérieur (≈ 150 Ma)",
+      "Paléozoïque (≈ 300 Ma)"
+    ],
+    "answer": "Crétacé supérieur (≈ 96–94 Ma)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0384",
+    "question": "Quel site chinois a fourni des spécimens d'Anchiornis montrant quelles caractéristiques importantes ?",
+    "choices": [
+      "Plumage étendu et empreintes de motifs de couleur",
+      "Os massifs et carapace",
+      "Nids de sauropodes",
+      "Couches d'iridium"
+    ],
+    "answer": "Plumage étendu et empreintes de motifs de couleur",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0385",
+    "question": "Quel dinosaure européen, Europasaurus, illustre quel phénomène évolutif lié à l'insularité ?",
+    "choices": [
+      "Nanisme insulaire chez les sauropodes",
+      "Gigantisme insulaire",
+      "Aquaticité",
+      "Vol"
+    ],
+    "answer": "Nanisme insulaire chez les sauropodes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0386",
+    "question": "Quel site nord-américain a fourni des preuves de migrations et de troupeaux de hadrosaures via pistes et isotopes ?",
+    "choices": [
+      "Plaines du Montana et formations associées (ex. Hell Creek et environs)",
+      "Liaoning (Chine)",
+      "Tendaguru (Tanzanie)",
+      "Ischigualasto (Argentine)"
+    ],
+    "answer": "Plaines du Montana et formations associées (ex. Hell Creek et environs)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0387",
+    "question": "Quel taxon méconnu, Deinocheirus mirificus, a été redéfini après des découvertes récentes pour montrer quelles caractéristiques ?",
+    "choices": [
+      "Bras massifs, bec en forme de canard et régime omnivore/filtrateur",
+      "Queue en massue et carapace",
+      "Ailes membraneuses",
+      "Carapace marine"
+    ],
+    "answer": "Bras massifs, bec en forme de canard et régime omnivore/filtrateur",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0388",
+    "question": "Quelle datation est attribuée à la formation de La Amarga (Patagonie), connue pour sauropodes et autres dinosaures jurassiques-crétacés ?",
+    "choices": [
+      "≈ 140–125 Ma (Crétacé inférieur)",
+      "≈ 230–220 Ma",
+      "≈ 156–146 Ma",
+      "≈ 66–56 Ma"
+    ],
+    "answer": "≈ 140–125 Ma (Crétacé inférieur)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0389",
+    "question": "Quel dinosaure chinois, Epidexipteryx hui, est remarquable pour quelle caractéristique plumée ?",
+    "choices": [
+      "Plumes longues et ornementales sur la queue",
+      "Plumes membraneuses pour voler",
+      "Carapace dorsale",
+      "Bec en forme de canard"
+    ],
+    "answer": "Plumes longues et ornementales sur la queue",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0390",
+    "question": "Quel site africain a livré des restes de Carcharodontosaurus et d'autres grands théropodes du Crétacé ?",
+    "choices": [
+      "Bassin du Sahara (ex. Kem Kem, Maroc)",
+      "Morrison (USA)",
+      "Liaoning (Chine)",
+      "Nemegt (Mongolie)"
+    ],
+    "answer": "Bassin du Sahara (ex. Kem Kem, Maroc)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0391",
+    "question": "Quelle méthode permet d'estimer l'âge d'un spécimen individuel en paléontologie des vertébrés ?",
+    "choices": [
+      "Comptage des lignes de croissance osseuses (LAGs) en histologie",
+      "Mesure de la longueur du fémur uniquement",
+      "Présence d'iridium",
+      "Couleur des sédiments"
+    ],
+    "answer": "Comptage des lignes de croissance osseuses (LAGs) en histologie",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0392",
+    "question": "Quel taxon sud-américain, Carnotaurus sastrei, est notable pour quelle caractéristique crânienne ?",
+    "choices": [
+      "Cornes proéminentes au-dessus des orbites",
+      "Bec en forme de canard",
+      "Queue en massue",
+      "Nageoires caudales"
+    ],
+    "answer": "Cornes proéminentes au-dessus des orbites",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0393",
+    "question": "Quelle formation européenne du Crétacé inférieur a livré des fossiles d'iguanodontes et d'autres ornithopodes ?",
+    "choices": [
+      "Wealden Group (Royaume-Uni)",
+      "Morrison Formation (USA)",
+      "Nemegt Formation (Mongolie)",
+      "Tendaguru Formation (Tanzanie)"
+    ],
+    "answer": "Wealden Group (Royaume-Uni)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0394",
+    "question": "Quel dinosaure méconnu, Scutellosaurus lawleri, est important pour comprendre l'évolution de quel groupe ?",
+    "choices": [
+      "Ankylosauria (ornithischiens cuirassés primitifs)",
+      "Theropoda",
+      "Sauropoda",
+      "Pterosauria"
+    ],
+    "answer": "Ankylosauria (ornithischiens cuirassés primitifs)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0395",
+    "question": "Quelle datation est associée aux couches fossilifères de la formation Djadokhta, productrice de Protoceratops et Velociraptor ?",
+    "choices": [
+      "≈ 75–71 Ma (Campanien supérieur)",
+      "≈ 156–146 Ma",
+      "≈ 230–220 Ma",
+      "≈ 201–190 Ma"
+    ],
+    "answer": "≈ 75–71 Ma (Campanien supérieur)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0396",
+    "question": "Quel taxon asiatique, Therizinosaurus cheloniformis, est remarquable pour quelle caractéristique extrême ?",
+    "choices": [
+      "Griffes manuelles exceptionnellement longues",
+      "Queue en massue",
+      "Carapace marine",
+      "Ailes membraneuses"
+    ],
+    "answer": "Griffes manuelles exceptionnellement longues",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0397",
+    "question": "Quel site argentin a fourni des restes d'Argentinosaurus et d'autres sauropodes géants ?",
+    "choices": [
+      "Patagonie (Province de Neuquén)",
+      "Ischigualasto (La Rioja)",
+      "Pampa del Castillo",
+      "Sierra de la Ventana"
+    ],
+    "answer": "Patagonie (Province de Neuquén)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0398",
+    "question": "Quelle technique permet d'identifier des comportements alimentaires (carnivore vs herbivore) à partir d'usure dentaire fossile ?",
+    "choices": [
+      "Analyse de l'usure et des microtraces sur les dents",
+      "Mesure de la longueur du fémur",
+      "Présence d'iridium",
+      "Couleur des sédiments"
+    ],
+    "answer": "Analyse de l'usure et des microtraces sur les dents",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0399",
+    "question": "Quel taxon malgache, Majungasaurus crenatissimus, est important pour l'étude de quoi ?",
+    "choices": [
+      "Écologie des prédateurs insulaires et interactions intra-spécifiques",
+      "Origine des oiseaux",
+      "Premiers dinosaures du Trias",
+      "Dinosaure marin"
+    ],
+    "answer": "Écologie des prédateurs insulaires et interactions intra-spécifiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0400",
+    "question": "Quelle datation est généralement attribuée aux couches fossilifères de la formation La Amarga et à quels groupes appartiennent ses fossiles ?",
+    "choices": [
+      "≈ 140–125 Ma (Crétacé inférieur) ; sauropodes et autres dinosaures",
+      "≈ 230–220 Ma ; trilobites",
+      "≈ 156–146 Ma ; mammifères modernes",
+      "≈ 66–56 Ma ; hominidés"
+    ],
+    "answer": "≈ 140–125 Ma (Crétacé inférieur) ; sauropodes et autres dinosaures",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0401",
+    "question": "Un ptérosaure est-il un dinosaure ?",
+    "choices": [
+      "Non, c'est un reptile volant distinct",
+      "Oui, tous les ptérosaures sont des dinosaures",
+      "Oui, mais seulement les petits",
+      "Non, ce sont des mammifères"
+    ],
+    "answer": "Non, c'est un reptile volant distinct",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0402",
+    "question": "Un plésiosaure était-il un dinosaure terrestre ?",
+    "choices": [
+      "Non, c'était un reptile marin",
+      "Oui, il vivait sur la terre ferme",
+      "Oui, c'était un oiseau",
+      "Non, c'était un poisson"
+    ],
+    "answer": "Non, c'était un reptile marin",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0403",
+    "question": "Le Vélociraptor du film Jurassic Park ressemble-t-il à l'animal réel ?",
+    "choices": [
+      "Non, le vrai était plus petit et avait des plumes",
+      "Oui, il était identique",
+      "Non, le vrai était marin",
+      "Oui, mais il volait"
+    ],
+    "answer": "Non, le vrai était plus petit et avait des plumes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0404",
+    "question": "Le mot Brontosaure est-il toujours valide en paléontologie ?",
+    "choices": [
+      "Non, il a été remplacé par Apatosaurus dans la plupart des usages",
+      "Oui, c'est le nom officiel unique",
+      "Oui, mais seulement pour les ptérosaures",
+      "Non, c'était un poisson"
+    ],
+    "answer": "Non, il a été remplacé par Apatosaurus dans la plupart des usages",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0405",
+    "question": "Les oiseaux d'aujourd'hui sont-ils considérés comme des dinosaures ?",
+    "choices": [
+      "Oui, ce sont des dinosaures théropodes modernes",
+      "Non, ce sont des mammifères",
+      "Non, ce sont des reptiles marins",
+      "Oui, mais seulement les autruches"
+    ],
+    "answer": "Oui, ce sont des dinosaures théropodes modernes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0406",
+    "question": "Un ptérosaure avait-il des plumes comme un oiseau ?",
+    "choices": [
+      "Non, la plupart avaient une peau membraneuse, pas des plumes",
+      "Oui, tous avaient des plumes",
+      "Oui, ils avaient des écailles de poisson",
+      "Non, ils étaient couverts d'algues"
+    ],
+    "answer": "Non, la plupart avaient une peau membraneuse, pas des plumes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0407",
+    "question": "Les plésiosaures vivaient-ils dans les océans ?",
+    "choices": [
+      "Oui, ce sont des reptiles marins",
+      "Non, ils vivaient en forêt",
+      "Non, ils volaient",
+      "Oui, mais seulement dans les lacs modernes"
+    ],
+    "answer": "Oui, ce sont des reptiles marins",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0408",
+    "question": "Le Vélociraptor mesurait-il la taille d'un humain comme dans certains films ?",
+    "choices": [
+      "Non, il était plutôt de la taille d'un dindon",
+      "Oui, il était plus grand qu'un éléphant",
+      "Oui, il était de la taille d'un cheval",
+      "Non, c'était un poisson"
+    ],
+    "answer": "Non, il était plutôt de la taille d'un dindon",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0409",
+    "question": "Peut-on appeler tous les reptiles volants du Mésozoïque des dinosaures ?",
+    "choices": [
+      "Non, les ptérosaures sont un groupe distinct",
+      "Oui, tous sont des dinosaures",
+      "Oui, mais seulement ceux du Crétacé",
+      "Non, ce sont des oiseaux"
+    ],
+    "answer": "Non, les ptérosaures sont un groupe distinct",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0410",
+    "question": "Les plésiosaures avaient-ils un long cou et vivaient-ils en mer ?",
+    "choices": [
+      "Oui, beaucoup avaient un long cou et étaient marins",
+      "Non, ils avaient un cou court et vivaient sur terre",
+      "Oui, mais ils volaient",
+      "Non, ils étaient des mammifères"
+    ],
+    "answer": "Oui, beaucoup avaient un long cou et étaient marins",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0411",
+    "question": "Brontosaure et Apatosaurus sont-ils le même type d'animal selon l'histoire des noms ?",
+    "choices": [
+      "Ils ont été confondus ; Apatosaurus est le nom retenu scientifiquement",
+      "Ils sont complètement différents",
+      "Brontosaure est un oiseau",
+      "Apatosaurus est un ptérosaure"
+    ],
+    "answer": "Ils ont été confondus ; Apatosaurus est le nom retenu scientifiquement",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0412",
+    "question": "Les oiseaux modernes partagent-ils des caractéristiques avec certains dinosaures ?",
+    "choices": [
+      "Oui, comme les plumes et certaines structures osseuses",
+      "Non, ils n'ont rien en commun",
+      "Oui, mais seulement les poissons",
+      "Non, ils viennent des mammifères"
+    ],
+    "answer": "Oui, comme les plumes et certaines structures osseuses",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0413",
+    "question": "Un ptérosaure pouvait-il marcher sur deux pattes comme un dinosaure bipède ?",
+    "choices": [
+      "Certains pouvaient se déplacer au sol, mais ils ne sont pas des dinosaures",
+      "Non, ils ne pouvaient jamais marcher",
+      "Oui, tous marchaient comme des dinosaures",
+      "Non, ils nageaient uniquement"
+    ],
+    "answer": "Certains pouvaient se déplacer au sol, mais ils ne sont pas des dinosaures",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0414",
+    "question": "Les plésiosaures chassaient-ils des poissons avec leur long cou ?",
+    "choices": [
+      "Oui, beaucoup utilisaient leur cou pour attraper des proies marines",
+      "Non, ils étaient herbivores terrestres",
+      "Oui, mais seulement des insectes",
+      "Non, ils volaient"
+    ],
+    "answer": "Oui, beaucoup utilisaient leur cou pour attraper des proies marines",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0415",
+    "question": "Le Vélociraptor avait-il une grande griffe en faucille au pied ?",
+    "choices": [
+      "Oui, c'était une de ses caractéristiques",
+      "Non, il n'avait pas de griffes",
+      "Oui, mais c'était une nageoire",
+      "Non, c'était un bec"
+    ],
+    "answer": "Oui, c'était une de ses caractéristiques",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0416",
+    "question": "Peut-on confondre un plésiosaure avec un dinosaure marin ?",
+    "choices": [
+      "Oui, mais les plésiosaures sont des reptiles marins distincts",
+      "Non, ils sont identiques",
+      "Oui, ce sont des oiseaux",
+      "Non, ce sont des poissons"
+    ],
+    "answer": "Oui, mais les plésiosaures sont des reptiles marins distincts",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0417",
+    "question": "Les oiseaux sont-ils les seuls descendants vivants des dinosaures ?",
+    "choices": [
+      "Oui, les oiseaux sont les descendants directs des dinosaures théropodes",
+      "Non, les crocodiles le sont",
+      "Non, les poissons le sont",
+      "Oui, mais seulement les autruches"
+    ],
+    "answer": "Oui, les oiseaux sont les descendants directs des dinosaures théropodes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0418",
+    "question": "Un ptérosaure et un plésiosaure vivaient-ils à la même place ?",
+    "choices": [
+      "Parfois dans les mêmes régions, mais l'un volait et l'autre nageait",
+      "Non, l'un vivait dans le futur",
+      "Oui, ils étaient identiques",
+      "Non, l'un était un mammifère"
+    ],
+    "answer": "Parfois dans les mêmes régions, mais l'un volait et l'autre nageait",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0419",
+    "question": "Le nom Brontosaure signifie-t-il 'lézard tonnerre' ?",
+    "choices": [
+      "Oui, mais le nom scientifique accepté est souvent Apatosaurus",
+      "Non, cela signifie 'lézard marin'",
+      "Oui, et c'est le seul nom valide",
+      "Non, cela signifie 'lézard volant'"
+    ],
+    "answer": "Oui, mais le nom scientifique accepté est souvent Apatosaurus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0420",
+    "question": "Les plésiosaures avaient-ils des nageoires pour nager ?",
+    "choices": [
+      "Oui, ils avaient quatre nageoires puissantes",
+      "Non, ils avaient des ailes",
+      "Oui, mais seulement deux",
+      "Non, ils ramperaient"
+    ],
+    "answer": "Oui, ils avaient quatre nageoires puissantes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0421",
+    "question": "Le Vélociraptor portait-il des plumes selon les découvertes scientifiques ?",
+    "choices": [
+      "Oui, des preuves fossiles montrent des plumes",
+      "Non, il avait des écailles comme un crocodile",
+      "Oui, mais seulement des nageoires",
+      "Non, il était un mammifère"
+    ],
+    "answer": "Oui, des preuves fossiles montrent des plumes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0422",
+    "question": "Un ptérosaure est-il plus proche d'un oiseau ou d'un dinosaure ?",
+    "choices": [
+      "Ni l'un ni l'autre : c'est un groupe de reptiles volants distinct",
+      "Plus proche d'un oiseau",
+      "Plus proche d'un dinosaure",
+      "C'est un mammifère"
+    ],
+    "answer": "Ni l'un ni l'autre : c'est un groupe de reptiles volants distinct",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0423",
+    "question": "Les plésiosaures pondai(en)t-ils des œufs sur la terre ferme ?",
+    "choices": [
+      "Probablement oui, comme beaucoup de reptiles marins, mais les preuves sont rares",
+      "Non, ils donnaient naissance à des mammifères",
+      "Oui, ils volaient pour pondre",
+      "Non, ils étaient végétariens"
+    ],
+    "answer": "Probablement oui, comme beaucoup de reptiles marins, mais les preuves sont rares",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0424",
+    "question": "Peut-on appeler un oiseau moderne un dinosaure dans un sens scientifique ?",
+    "choices": [
+      "Oui, scientifiquement les oiseaux sont des dinosaures",
+      "Non, ce sont des mammifères",
+      "Oui, mais seulement les rapaces",
+      "Non, ce sont des poissons"
+    ],
+    "answer": "Oui, scientifiquement les oiseaux sont des dinosaures",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0425",
+    "question": "Le Vélociraptor du film est-il une représentation fidèle de la taille réelle ?",
+    "choices": [
+      "Non, le film l'a agrandi et rendu sans plumes",
+      "Oui, c'est exact",
+      "Non, il était marin",
+      "Oui, mais il volait"
+    ],
+    "answer": "Non, le film l'a agrandi et rendu sans plumes",
+    "difficulty": "easy"
+  },
+  {
+    "id": "dino-fr-0426",
+    "question": "Pourquoi les ptérosaures ne sont-ils pas classés comme dinosaures dans la taxonomie moderne ?",
+    "choices": [
+      "Ils appartiennent à un clade distinct de reptiles volants avec des caractères anatomiques différents",
+      "Parce qu'ils vivaient après les dinosaures",
+      "Parce qu'ils étaient des mammifères",
+      "Parce qu'ils n'avaient pas d'os"
+    ],
+    "answer": "Ils appartiennent à un clade distinct de reptiles volants avec des caractères anatomiques différents",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0427",
+    "question": "Quelle preuve montre que les plésiosaures n'appartiennent pas aux dinosaures ?",
+    "choices": [
+      "Anatomie du squelette adaptée à la vie aquatique et position phylogénétique distincte",
+      "Ils avaient des plumes",
+      "Ils avaient des dents en batteries",
+      "Ils avaient des ailes membraneuses"
+    ],
+    "answer": "Anatomie du squelette adaptée à la vie aquatique et position phylogénétique distincte",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0428",
+    "question": "Quelle découverte a changé la vision du Vélociraptor par rapport à sa représentation populaire ?",
+    "choices": [
+      "Fossiles montrant des impressions de plumes et des os plus petits que dans les films",
+      "Découverte d'un Vélociraptor géant volant",
+      "Preuve qu'il était un mammifère",
+      "Découverte d'iridium sur ses os"
+    ],
+    "answer": "Fossiles montrant des impressions de plumes et des os plus petits que dans les films",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0429",
+    "question": "Pourquoi le nom Brontosaurus a-t-il été longtemps controversé ?",
+    "choices": [
+      "Parce que des squelettes nommés Brontosaurus et Apatosaurus semblaient appartenir au même genre, créant un conflit de noms",
+      "Parce que Brontosaurus était un oiseau",
+      "Parce que Brontosaurus était marin",
+      "Parce que Brontosaurus n'a jamais existé"
+    ],
+    "answer": "Parce que des squelettes nommés Brontosaurus et Apatosaurus semblaient appartenir au même genre, créant un conflit de noms",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0430",
+    "question": "Quelle ligne de preuve soutient que les oiseaux sont des dinosaures ?",
+    "choices": [
+      "Caractères partagés comme plumes, structure du poignet et anatomie pelvienne chez les théropodes",
+      "Présence d'iridium dans leurs os",
+      "Ils pondent des œufs de poisson",
+      "Ils ont des nageoires"
+    ],
+    "answer": "Caractères partagés comme plumes, structure du poignet et anatomie pelvienne chez les théropodes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0431",
+    "question": "Comment distinguer un ptérosaure d'un oiseau fossile dans les collections ?",
+    "choices": [
+      "Par la morphologie du poignet, la structure des doigts et l'armature des ailes",
+      "Par la couleur des os",
+      "Par la présence d'iridium",
+      "Par la taille des empreintes"
+    ],
+    "answer": "Par la morphologie du poignet, la structure des doigts et l'armature des ailes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0432",
+    "question": "Quel argument a été utilisé pour réhabiliter partiellement le nom Brontosaurus dans des études récentes ?",
+    "choices": [
+      "Analyses cladistiques montrant des différences suffisantes entre certains spécimens pour justifier deux genres",
+      "Découverte d'iridium",
+      "Preuve qu'il volait",
+      "Découverte d'os humains associés"
+    ],
+    "answer": "Analyses cladistiques montrant des différences suffisantes entre certains spécimens pour justifier deux genres",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0433",
+    "question": "Pourquoi certains plésiosaures sont-ils souvent confondus avec des serpents marins dans la culture populaire ?",
+    "choices": [
+      "À cause de leur long cou et de récits folkloriques, malgré leur anatomie distincte",
+      "Parce qu'ils avaient des nageoires comme les serpents",
+      "Parce qu'ils volaient",
+      "Parce qu'ils étaient des oiseaux"
+    ],
+    "answer": "À cause de leur long cou et de récits folkloriques, malgré leur anatomie distincte",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0434",
+    "question": "Quelle preuve soutient que certains dinosaures non aviens avaient des plumes colorées ?",
+    "choices": [
+      "Analyse des mélanosomes fossiles comparée à ceux des oiseaux modernes",
+      "Présence d'iridium",
+      "Taille des empreintes",
+      "Couleur des sédiments"
+    ],
+    "answer": "Analyse des mélanosomes fossiles comparée à ceux des oiseaux modernes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0435",
+    "question": "Pourquoi la représentation du Vélociraptor sans plumes dans les films est-elle scientifiquement incorrecte ?",
+    "choices": [
+      "Parce que des fossiles montrent des impressions de plumes et des structures compatibles avec le plumage",
+      "Parce qu'il vivait dans l'eau",
+      "Parce qu'il était un mammifère",
+      "Parce qu'il avait des nageoires"
+    ],
+    "answer": "Parce que des fossiles montrent des impressions de plumes et des structures compatibles avec le plumage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0436",
+    "question": "Quel critère anatomique aide à séparer un ptérosaure d'un dinosaure volant hypothétique ?",
+    "choices": [
+      "La présence d'un doigt allongé soutenant la membrane alaire chez les ptérosaures",
+      "La présence d'iridium",
+      "La taille des dents",
+      "La couleur des os"
+    ],
+    "answer": "La présence d'un doigt allongé soutenant la membrane alaire chez les ptérosaures",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0437",
+    "question": "Comment les paléontologues déterminent-ils si un fossile marin appartient à un plésiosaure plutôt qu'à un autre reptile marin ?",
+    "choices": [
+      "Par l'ensemble des caractères squelettiques : vertèbres, nageoires et morphologie du crâne",
+      "Par la couleur des sédiments",
+      "Par la présence d'iridium",
+      "Par la taille des empreintes"
+    ],
+    "answer": "Par l'ensemble des caractères squelettiques : vertèbres, nageoires et morphologie du crâne",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0438",
+    "question": "Pourquoi la découverte de plumes chez des ornithischiens remet-elle en question quelles idées ?",
+    "choices": [
+      "Que les plumes étaient limitées aux seuls théropodes, suggérant une origine plus ancienne",
+      "Que les dinosaures volaient tous",
+      "Que les plésiosaures étaient des oiseaux",
+      "Que les ptérosaures étaient des mammifères"
+    ],
+    "answer": "Que les plumes étaient limitées aux seuls théropodes, suggérant une origine plus ancienne",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0439",
+    "question": "Quel type de preuve a permis de proposer que certains ptérosaures avaient des pycnofibres (structures duveteuses) ?",
+    "choices": [
+      "Impressions fossiles de tissus filamenteux autour du corps",
+      "Présence d'iridium",
+      "Taille des empreintes",
+      "Couleur des sédiments"
+    ],
+    "answer": "Impressions fossiles de tissus filamenteux autour du corps",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0440",
+    "question": "En quoi la réévaluation du nom Brontosaurus illustre-t-elle la nature de la science taxonomique ?",
+    "choices": [
+      "Les noms changent avec de nouvelles analyses et de nouveaux spécimens, la taxonomie évolue",
+      "Les noms sont fixes et immuables",
+      "La taxonomie ne dépend pas des fossiles",
+      "Les noms sont choisis au hasard"
+    ],
+    "answer": "Les noms changent avec de nouvelles analyses et de nouveaux spécimens, la taxonomie évolue",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0441",
+    "question": "Pourquoi certains médias continuent-ils de montrer des Vélociraptors sans plumes malgré les preuves ?",
+    "choices": [
+      "Pour des raisons dramatiques et par habitude culturelle, pas par exactitude scientifique",
+      "Parce que la science prouve qu'ils n'avaient pas de plumes",
+      "Parce qu'ils étaient marins",
+      "Parce qu'ils étaient des mammifères"
+    ],
+    "answer": "Pour des raisons dramatiques et par habitude culturelle, pas par exactitude scientifique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0442",
+    "question": "Quel type d'analyse a permis de montrer que certains plésiosaures avaient des régimes alimentaires spécialisés ?",
+    "choices": [
+      "Études d'usure dentaire et d'isotopes stables",
+      "Présence d'iridium",
+      "Mesure de la couleur des os",
+      "Observation des nuages"
+    ],
+    "answer": "Études d'usure dentaire et d'isotopes stables",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0443",
+    "question": "Comment la découverte d'Anchiornis et d'Anchiornis-like a-t-elle influencé la compréhension d'Avialae ?",
+    "choices": [
+      "Elle a montré une diversité de caractères aviens chez des paraviens proches, complexifiant la délimitation d'Avialae",
+      "Elle a prouvé que tous les dinosaures volaient",
+      "Elle a montré que les oiseaux ne sont pas liés aux dinosaures",
+      "Elle a prouvé que les ptérosaures sont des oiseaux"
+    ],
+    "answer": "Elle a montré une diversité de caractères aviens chez des paraviens proches, complexifiant la délimitation d'Avialae",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0444",
+    "question": "Pourquoi la distinction entre ptérosaures et dinosaures est-elle importante pour l'histoire évolutive des vertébrés ?",
+    "choices": [
+      "Parce qu'elle clarifie l'évolution du vol et la diversité des reptiles mésozoïques",
+      "Parce qu'elle montre que tous les reptiles sont identiques",
+      "Parce qu'elle prouve que les dinosaures volaient tous",
+      "Parce qu'elle annule la théorie de l'évolution"
+    ],
+    "answer": "Parce qu'elle clarifie l'évolution du vol et la diversité des reptiles mésozoïques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0445",
+    "question": "Quel type de fossile a permis de confirmer que certains dinosaures avaient des plumes complexes ?",
+    "choices": [
+      "Impressions de plumage et mélanosomes conservés dans la roche",
+      "Couches d'iridium",
+      "Empreintes de poissons",
+      "Os colorés"
+    ],
+    "answer": "Impressions de plumage et mélanosomes conservés dans la roche",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0446",
+    "question": "En quoi la découverte de Kulindadromeus a modifié les idées sur l'origine des plumes ?",
+    "choices": [
+      "Elle suggère que des structures filamenteuses pouvaient être présentes chez des ornithischiens, élargissant l'origine possible des proto-plumes",
+      "Elle prouve que seuls les oiseaux avaient des plumes",
+      "Elle montre que les plumes viennent des poissons",
+      "Elle prouve que les plésiosaures avaient des plumes"
+    ],
+    "answer": "Elle suggère que des structures filamenteuses pouvaient être présentes chez des ornithischiens, élargissant l'origine possible des proto-plumes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0447",
+    "question": "Pourquoi la réévaluation taxonomique peut-elle rendre un nom scientifique obsolète ?",
+    "choices": [
+      "Parce que de nouvelles données montrent que des spécimens appartiennent à un genre différent ou identique à un genre déjà nommé",
+      "Parce que les noms changent chaque année sans raison",
+      "Parce que les fossiles se transforment",
+      "Parce que la couleur des os change"
+    ],
+    "answer": "Parce que de nouvelles données montrent que des spécimens appartiennent à un genre différent ou identique à un genre déjà nommé",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0448",
+    "question": "Quel élément a souvent retardé l'acceptation des dinosaures à plumes dans la culture populaire ?",
+    "choices": [
+      "Images et films anciens montrant des dinosaures écailleux, résistants au changement d'iconographie",
+      "Manque de fossiles",
+      "Preuve qu'ils n'avaient pas d'os",
+      "Présence d'iridium"
+    ],
+    "answer": "Images et films anciens montrant des dinosaures écailleux, résistants au changement d'iconographie",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0449",
+    "question": "Comment les paléontologues testent-ils si une structure fossile est une plume ou un filament taphonomique ?",
+    "choices": [
+      "Analyse microscopique, comparaison morphologique et recherche de mélanosomes",
+      "Mesure de la couleur des sédiments",
+      "Test de solubilité",
+      "Observation à l'œil nu seulement"
+    ],
+    "answer": "Analyse microscopique, comparaison morphologique et recherche de mélanosomes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0450",
+    "question": "Pourquoi la distinction entre plumes homologues et structures convergentes est-elle cruciale pour l'étude de l'évolution ?",
+    "choices": [
+      "Elle détermine si les plumes proviennent d'un ancêtre commun ou se sont développées indépendamment",
+      "Parce qu'elle change la couleur des fossiles",
+      "Parce qu'elle prouve que tous les dinosaures volaient",
+      "Parce qu'elle annule la datation radiométrique"
+    ],
+    "answer": "Elle détermine si les plumes proviennent d'un ancêtre commun ou se sont développées indépendamment",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0451",
+    "question": "Pourquoi les ptérosaures sont souvent confondus avec les oiseaux dans les musées ?",
+    "choices": [
+      "Parce qu'ils volaient mais appartiennent à un groupe différent",
+      "Parce qu'ils avaient des plumes identiques",
+      "Parce qu'ils pondent des œufs de poisson",
+      "Parce qu'ils sont des mammifères"
+    ],
+    "answer": "Parce qu'ils volaient mais appartiennent à un groupe différent",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0452",
+    "question": "Quel fossile fournit la meilleure preuve de soins parentaux chez Maiasaura ?",
+    "choices": [
+      "Nids avec juvéniles et ossements associés",
+      "Empreintes isolées",
+      "Os d'adultes seuls",
+      "Couches d'iridium"
+    ],
+    "answer": "Nids avec juvéniles et ossements associés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0453",
+    "question": "Quel trait distingue Parasaurolophus des autres hadrosaures ?",
+    "choices": [
+      "Une longue crête creuse sur le crâne",
+      "Une queue en massue",
+      "Des griffes géantes",
+      "Des nageoires"
+    ],
+    "answer": "Une longue crête creuse sur le crâne",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0454",
+    "question": "Quelle idée reçue sur Spinosaurus a été révisée par des découvertes récentes ?",
+    "choices": [
+      "Qu'il était strictement terrestre ; il avait des adaptations aquatiques",
+      "Qu'il volait",
+      "Qu'il était un oiseau",
+      "Qu'il vivait au Trias"
+    ],
+    "answer": "Qu'il était strictement terrestre ; il avait des adaptations aquatiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0455",
+    "question": "Quel indice permet de dire qu'Iguanodon pouvait manipuler des objets avec son pouce ?",
+    "choices": [
+      "Présence d'un pouce conique robuste",
+      "Empreintes de plumes",
+      "Os de nageoire",
+      "Couches d'iridium"
+    ],
+    "answer": "Présence d'un pouce conique robuste",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0456",
+    "question": "Quelle méthode aide à distinguer une empreinte d'oiseau fossile d'une empreinte de petit théropode ?",
+    "choices": [
+      "Analyse de la morphologie des doigts et de la présence d'ergots",
+      "Mesure de l'iridium",
+      "Couleur de la roche",
+      "Taille du site"
+    ],
+    "answer": "Analyse de la morphologie des doigts et de la présence d'ergots",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0457",
+    "question": "Quel comportement est suggéré par des pistes parallèles longues de hadrosaures ?",
+    "choices": [
+      "Déplacements en troupeau ou migration",
+      "Chasse solitaire",
+      "Nidification individuelle",
+      "Vol migratoire"
+    ],
+    "answer": "Déplacements en troupeau ou migration",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0458",
+    "question": "Quelle caractéristique rend Pachycephalosaurus reconnaissable ?",
+    "choices": [
+      "Un dôme crânien épais probablement utilisé pour l'affrontement",
+      "Une grande voile dorsale",
+      "Des nageoires caudales",
+      "Des griffes en faucille"
+    ],
+    "answer": "Un dôme crânien épais probablement utilisé pour l'affrontement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0459",
+    "question": "Pourquoi la découverte de Microraptor a-t-elle été importante pour l'étude du vol ?",
+    "choices": [
+      "Elle montre des plumes sur pattes et ailes, suggérant le vol plané ou quadriplan",
+      "Elle prouve que tous les dinosaures volaient",
+      "Elle montre des nageoires",
+      "Elle prouve que les oiseaux ne sont pas liés aux dinosaures"
+    ],
+    "answer": "Elle montre des plumes sur pattes et ailes, suggérant le vol plané ou quadriplan",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0460",
+    "question": "Quel fossile de Carnotaurus illustre une adaptation crânienne unique ?",
+    "choices": [
+      "Cornes courtes au-dessus des yeux et crâne léger",
+      "Crête creuse pour résonance",
+      "Bec en canard",
+      "Queue en massue"
+    ],
+    "answer": "Cornes courtes au-dessus des yeux et crâne léger",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0461",
+    "question": "Quel type d'analyse a montré que certains dinosaures avaient des plumes colorées ?",
+    "choices": [
+      "Étude des mélanosomes fossiles",
+      "Mesure de la densité osseuse",
+      "Présence d'iridium",
+      "Taille des empreintes"
+    ],
+    "answer": "Étude des mélanosomes fossiles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0462",
+    "question": "Quel comportement social est suggéré par des nids groupés de Maiasaura ?",
+    "choices": [
+      "Nidification coloniale et soins parentaux",
+      "Chasse en solitaire",
+      "Migration individuelle",
+      "Vol en formation"
+    ],
+    "answer": "Nidification coloniale et soins parentaux",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0463",
+    "question": "Quelle caractéristique du crâne de Ceratosaurus le distingue des autres théropodes ?",
+    "choices": [
+      "Une crête osseuse ou corne sur le museau",
+      "Un bec en canard",
+      "Une queue en massue",
+      "Des nageoires"
+    ],
+    "answer": "Une crête osseuse ou corne sur le museau",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0464",
+    "question": "Quelle preuve soutient que Therizinosaurus avait un régime probablement herbivore ou omnivore ?",
+    "choices": [
+      "Dents réduites et griffes longues associées à un cou adapté au broutage",
+      "Dents pointues pour déchirer la viande",
+      "Nageoires pour filtrer",
+      "Présence d'iridium"
+    ],
+    "answer": "Dents réduites et griffes longues associées à un cou adapté au broutage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0465",
+    "question": "Pourquoi Deinonychus a-t-il été central dans la révision de l'image des dinosaures ?",
+    "choices": [
+      "Ses caractéristiques actives et son anatomie ont soutenu l'idée de dinosaures agiles et endothermes",
+      "Parce qu'il était marin",
+      "Parce qu'il volait",
+      "Parce qu'il était un mammifère"
+    ],
+    "answer": "Ses caractéristiques actives et son anatomie ont soutenu l'idée de dinosaures agiles et endothermes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0466",
+    "question": "Quel indice dans les os de sauropodes aide à estimer leur vitesse de croissance ?",
+    "choices": [
+      "Histologie osseuse et lignes de croissance",
+      "Couleur des os",
+      "Présence d'iridium",
+      "Taille des empreintes"
+    ],
+    "answer": "Histologie osseuse et lignes de croissance",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0467",
+    "question": "Quel mythe populaire sur Spinosaurus persiste malgré des preuves contraires ?",
+    "choices": [
+      "Qu'il était uniquement un chasseur terrestre géant",
+      "Qu'il était un oiseau",
+      "Qu'il vivait au Trias",
+      "Qu'il avait des nageoires"
+    ],
+    "answer": "Qu'il était uniquement un chasseur terrestre géant",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0468",
+    "question": "Quel fossile de Microraptor a fourni des indices sur la couleur possible de ses plumes ?",
+    "choices": [
+      "Impressions de mélanosomes dans les plumes fossiles",
+      "Empreintes de pas",
+      "Os massifs",
+      "Couches d'iridium"
+    ],
+    "answer": "Impressions de mélanosomes dans les plumes fossiles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0469",
+    "question": "Quel trait du crâne de Parasaurolophus a pu servir à la communication acoustique ?",
+    "choices": [
+      "La crête creuse formant une chambre de résonance",
+      "Des dents en batteries",
+      "Une queue en massue",
+      "Des nageoires"
+    ],
+    "answer": "La crête creuse formant une chambre de résonance",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0470",
+    "question": "Pourquoi la découverte de griffes géantes chez Therizinosaurus a-t-elle surpris les paléontologues ?",
+    "choices": [
+      "Parce qu'elles sont disproportionnées et suggèrent une fonction non prédatrice",
+      "Parce qu'elles prouvent le vol",
+      "Parce qu'elles indiquent une vie aquatique",
+      "Parce qu'elles montrent la présence d'iridium"
+    ],
+    "answer": "Parce qu'elles sont disproportionnées et suggèrent une fonction non prédatrice",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0471",
+    "question": "Quel fossile a aidé à montrer que certains dromaeosauridés chassaient en groupe ?",
+    "choices": [
+      "Assemblages d'ossements et pistes associées suggérant chasse coordonnée",
+      "Os isolés",
+      "Couches d'iridium",
+      "Empreintes de poissons"
+    ],
+    "answer": "Assemblages d'ossements et pistes associées suggérant chasse coordonnée",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0472",
+    "question": "Quel aspect du crâne de Carnotaurus suggère une stratégie de chasse différente des tyrannosaures ?",
+    "choices": [
+      "Crâne léger et cornes, indiquant peut‑être des attaques rapides plutôt que morsures puissantes",
+      "Bec en canard",
+      "Queue en massue",
+      "Nageoires caudales"
+    ],
+    "answer": "Crâne léger et cornes, indiquant peut‑être des attaques rapides plutôt que morsures puissantes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0473",
+    "question": "Quelle preuve soutient que Deinonychus possédait une griffe en faucille fonctionnelle ?",
+    "choices": [
+      "Morphologie du deuxième orteil et usure sur la griffe",
+      "Présence d'iridium",
+      "Couleur des sédiments",
+      "Taille des empreintes"
+    ],
+    "answer": "Morphologie du deuxième orteil et usure sur la griffe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0474",
+    "question": "Quel mythe sur Iguanodon a été corrigé par des études modernes ?",
+    "choices": [
+      "Qu'il portait un cornet nasal ; en réalité il avait un pouce conique et un bec",
+      "Qu'il volait",
+      "Qu'il était marin",
+      "Qu'il avait des nageoires"
+    ],
+    "answer": "Qu'il portait un cornet nasal ; en réalité il avait un pouce conique et un bec",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0475",
+    "question": "Quel type de données a permis de reconstituer la posture probable de Deinonychus et d'autres dromaeosauridés ?",
+    "choices": [
+      "Études anatomiques comparatives et modélisation biomécanique",
+      "Présence d'iridium",
+      "Couleur des sédiments",
+      "Taille des coquillages"
+    ],
+    "answer": "Études anatomiques comparatives et modélisation biomécanique",
+    "difficulty": "medium"
+  },
+  {
+    "id": "dino-fr-0476",
+    "question": "Quelle découverte anatomique récente a modifié la vision de Spinosaurus comme chasseur aquatique ?",
+    "choices": [
+      "Vertèbres et membres postérieurs adaptés à la nage et une queue large pour la propulsion",
+      "Présence d'ailes membraneuses",
+      "Crâne en forme de casque",
+      "Bec en canard"
+    ],
+    "answer": "Vertèbres et membres postérieurs adaptés à la nage et une queue large pour la propulsion",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0477",
+    "question": "Quel argument paléobiologique soutient que Carnotaurus avait une musculature du cou spécialisée ?",
+    "choices": [
+      "Surface d'attache musculaire étendue et crâne léger suggérant mouvements rapides de la tête",
+      "Présence d'iridium",
+      "Dents en batteries",
+      "Nageoires caudales"
+    ],
+    "answer": "Surface d'attache musculaire étendue et crâne léger suggérant mouvements rapides de la tête",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0478",
+    "question": "Quelle interprétation fonctionnelle des griffes de Therizinosaurus est la plus soutenue par les données ?",
+    "choices": [
+      "Utilisation pour arracher végétation ou défense plutôt que prédation active",
+      "Outils de nage",
+      "Structures de vol",
+      "Organes de reproduction"
+    ],
+    "answer": "Utilisation pour arracher végétation ou défense plutôt que prédation active",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0479",
+    "question": "Quel élément des fossiles de Microraptor a permis d'inférer une capacité de vol quadriplan ?",
+    "choices": [
+      "Plumage penné développé sur membres antérieurs et postérieurs",
+      "Présence d'iridium",
+      "Queue en massue",
+      "Dents en batteries"
+    ],
+    "answer": "Plumage penné développé sur membres antérieurs et postérieurs",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0480",
+    "question": "Quelle différence clé sépare Deinonychus de Velociraptor dans les analyses phylogénétiques ?",
+    "choices": [
+      "Taille plus grande et proportions du squelette, indiquant des lignées distinctes au sein des dromaeosauridés",
+      "Présence d'iridium",
+      "Velociraptor avait des nageoires",
+      "Deinonychus volait"
+    ],
+    "answer": "Taille plus grande et proportions du squelette, indiquant des lignées distinctes au sein des dromaeosauridés",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0481",
+    "question": "Quelle découverte sur Maiasaura a permis d'estimer la durée de croissance des juvéniles ?",
+    "choices": [
+      "Histologie osseuse montrant rythmes de croissance et maturation rapide",
+      "Présence d'iridium",
+      "Empreintes de pas",
+      "Couleur des sédiments"
+    ],
+    "answer": "Histologie osseuse montrant rythmes de croissance et maturation rapide",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0482",
+    "question": "Quel mécanisme acoustique a été proposé pour la crête de Parasaurolophus ?",
+    "choices": [
+      "Chambre de résonance produisant des sons de basse fréquence",
+      "Stockage d'eau",
+      "Filtration de nourriture",
+      "Production d'iridium"
+    ],
+    "answer": "Chambre de résonance produisant des sons de basse fréquence",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0483",
+    "question": "Quelle preuve soutient que Pachycephalosaurus utilisait son crâne pour des comportements agonistiques ?",
+    "choices": [
+      "Fractures et marques de guérison sur les dômes crâniens compatibles avec impacts",
+      "Présence d'iridium",
+      "Empreintes de pas",
+      "Dents en batteries"
+    ],
+    "answer": "Fractures et marques de guérison sur les dômes crâniens compatibles avec impacts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0484",
+    "question": "Quelle caractéristique anatomique d'Iguanodon a conduit à des interprétations erronées au XIXe siècle ?",
+    "choices": [
+      "Le pouce conique interprété initialement comme une corne nasale",
+      "Présence d'ailes",
+      "Queue en massue",
+      "Nageoires caudales"
+    ],
+    "answer": "Le pouce conique interprété initialement comme une corne nasale",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0485",
+    "question": "Quel argument soutient que Ceratosaurus occupait une niche écologique différente des autres grands théropodes jurassiques ?",
+    "choices": [
+      "Morphologie crânienne et dentition suggérant alimentation variée et compétition réduite",
+      "Présence d'iridium",
+      "Capacité de vol",
+      "Bec en canard"
+    ],
+    "answer": "Morphologie crânienne et dentition suggérant alimentation variée et compétition réduite",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0486",
+    "question": "Quelle découverte a permis de mieux comprendre la locomotion de Spinosaurus ?",
+    "choices": [
+      "Squelettes plus complets montrant proportions des membres et une queue adaptée à la nage",
+      "Présence d'iridium",
+      "Plumes colorées",
+      "Nids fossilisés"
+    ],
+    "answer": "Squelettes plus complets montrant proportions des membres et une queue adaptée à la nage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0487",
+    "question": "Quel fossile de Microraptor a été crucial pour inférer la présence de motifs de couleur ?",
+    "choices": [
+      "Spécimens avec mélanosomes préservés dans les plumes",
+      "Os massifs sans plumes",
+      "Empreintes de pas",
+      "Couches d'iridium"
+    ],
+    "answer": "Spécimens avec mélanosomes préservés dans les plumes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0488",
+    "question": "Quelle interprétation récente a été proposée pour la fonction des grandes griffes de Therizinosaurus au niveau musculaire ?",
+    "choices": [
+      "Attaches musculaires robustes compatibles avec traction et manipulation de végétation",
+      "Attaches pour nager",
+      "Attaches pour voler",
+      "Attaches pour produire iridium"
+    ],
+    "answer": "Attaches musculaires robustes compatibles avec traction et manipulation de végétation",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0489",
+    "question": "Quel élément du squelette de Deinonychus a été utilisé pour modéliser sa puissance de saut et d'attaque ?",
+    "choices": [
+      "Proportions des membres postérieurs et insertion musculaire du bassin",
+      "Présence d'iridium",
+      "Taille des dents",
+      "Couleur des sédiments"
+    ],
+    "answer": "Proportions des membres postérieurs et insertion musculaire du bassin",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0490",
+    "question": "Quelle preuve soutient que Maiasaura avait une croissance rapide similaire à certains oiseaux modernes ?",
+    "choices": [
+      "Histologie osseuse montrant phases de croissance rapide et maturation précoce",
+      "Présence d'iridium",
+      "Empreintes de pas",
+      "Couleur des sédiments"
+    ],
+    "answer": "Histologie osseuse montrant phases de croissance rapide et maturation précoce",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0491",
+    "question": "Quel argument soutient que Parasaurolophus utilisait sa crête pour la reconnaissance sociale ?",
+    "choices": [
+      "Variations morphologiques de la crête entre individus compatibles avec signalisation visuelle et acoustique",
+      "Présence d'iridium",
+      "Dents en batteries",
+      "Nageoires caudales"
+    ],
+    "answer": "Variations morphologiques de la crête entre individus compatibles avec signalisation visuelle et acoustique",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0492",
+    "question": "Quelle découverte paléontologique a permis de mieux comprendre la niche écologique de Carnotaurus ?",
+    "choices": [
+      "Études fonctionnelles du crâne et des muscles masticateurs montrant attaques rapides",
+      "Présence d'iridium",
+      "Plumes colorées",
+      "Nids fossilisés"
+    ],
+    "answer": "Études fonctionnelles du crâne et des muscles masticateurs montrant attaques rapides",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0493",
+    "question": "Quel fossile européen a fourni des indices sur le nanisme insulaire chez les sauropodes (Europasaurus) ?",
+    "choices": [
+      "Squelettes juvéniles et adultes de petite taille provenant d'un environnement insulaire",
+      "Présence d'iridium",
+      "Empreintes de pas géantes",
+      "Plumes fossiles"
+    ],
+    "answer": "Squelettes juvéniles et adultes de petite taille provenant d'un environnement insulaire",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0494",
+    "question": "Quelle technique a permis d'estimer la proportion de viande dans l'alimentation de certains théropodes comme Ceratosaurus ?",
+    "choices": [
+      "Analyse isotopique et usure dentaire combinées",
+      "Présence d'iridium",
+      "Mesure de la longueur du cou",
+      "Couleur des sédiments"
+    ],
+    "answer": "Analyse isotopique et usure dentaire combinées",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0495",
+    "question": "Quel fossile asiatique a contribué à la compréhension de la diversité des paraviens et de l'origine des plumes ?",
+    "choices": [
+      "Anchiornis et autres taxons du Liaoning montrant plumage complexe",
+      "Tyrannosaurus rex du Hell Creek",
+      "Diplodocus du Morrison",
+      "Carcharodontosaurus du Sahara"
+    ],
+    "answer": "Anchiornis et autres taxons du Liaoning montrant plumage complexe",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0496",
+    "question": "Quelle découverte a modifié l'estimation de la masse d'Argentinosaurus et d'autres sauropodes géants ?",
+    "choices": [
+      "Nouvelles méthodes d'allométrie et découvertes d'éléments squelettiques plus complets",
+      "Présence d'iridium",
+      "Couleur des os",
+      "Taille des empreintes"
+    ],
+    "answer": "Nouvelles méthodes d'allométrie et découvertes d'éléments squelettiques plus complets",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0497",
+    "question": "Quel fossile de Deinonychus a été crucial pour la 'révolution des dinosaures' initiée par John Ostrom ?",
+    "choices": [
+      "Squelettes montrant anatomie active et adaptations cursoriales",
+      "Empreintes de pas",
+      "Présence d'iridium",
+      "Plumes colorées"
+    ],
+    "answer": "Squelettes montrant anatomie active et adaptations cursoriales",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0498",
+    "question": "Quelle découverte récente a complexifié l'interprétation fonctionnelle des grandes griffes de Therizinosaurus ?",
+    "choices": [
+      "Preuves musculaires et usure compatibles avec manipulation végétale et défense",
+      "Preuves d'utilisation comme nageoires",
+      "Preuves d'utilisation pour voler",
+      "Preuves d'iridium"
+    ],
+    "answer": "Preuves musculaires et usure compatibles avec manipulation végétale et défense",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0499",
+    "question": "Quel argument phylogénétique soutient que Microraptor et certains paraviens partagent un ancêtre commun proche des oiseaux ?",
+    "choices": [
+      "Distribution de caractères aviens (plumes pennées, structure du poignet) chez plusieurs paraviens",
+      "Présence d'iridium",
+      "Taille des empreintes",
+      "Couleur des sédiments"
+    ],
+    "answer": "Distribution de caractères aviens (plumes pennées, structure du poignet) chez plusieurs paraviens",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dino-fr-0500",
+    "question": "Quelle synthèse méthodologique moderne aide à résoudre les controverses sur la position d'Avialae et des paraviens ?",
+    "choices": [
+      "Analyses cladistiques étendues combinées à des méthodes bayésiennes et données morpho‑anatomiques détaillées",
+      "Mesure de la couleur des os",
+      "Présence d'iridium",
+      "Observation des nuages"
+    ],
+    "answer": "Analyses cladistiques étendues combinées à des méthodes bayésiennes et données morpho‑anatomiques détaillées",
+    "difficulty": "hard"
+  }
+]
