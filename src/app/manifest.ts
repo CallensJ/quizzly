@@ -15,8 +15,9 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'Erudia',
     short_name: 'Erudia',
     description: 'Application de quiz éducatif pour les 6–11 ans',
-    // /fr/home — évite la redirection serveur next-intl depuis '/' qui échoue offline
-    start_url: '/fr/home',
+    // '/' — next-intl redirige vers la locale détectée (/fr/home ou /en/home).
+    // Ne pas hardcoder '/fr/home' : brise les appareils en langue anglaise.
+    start_url: '/',
     display: 'standalone',
     // Orientation portrait — optimisée pour enfants sur mobile
     orientation: 'portrait',
