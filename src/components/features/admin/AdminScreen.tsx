@@ -14,7 +14,7 @@
  *   - Stats enfant         — lecture seule (inline, simple)
  *   - Objectif journalier  — inline
  *   - GoalsSection         — objectifs par catégorie
- *   - Email de contact     — inline
+ *   - AdminEmailSection    — email de contact (Zod + sync Supabase)
  *   - ReportSection        — rapport PDF
  *   - Mode Défi            — toggle multijoueur
  *   - ChildProfilesSection — gestion des profils enfants
@@ -27,7 +27,6 @@ import {
   ArrowLeft,
   Target,
   BarChart3,
-  Mail,
   LogOut,
   Swords,
   TrendingUp,
@@ -35,16 +34,13 @@ import {
 import { useRouter } from "@/i18n/navigation";
 import { useProfileStore } from "@/stores/profileStore";
 import { useAuthStore } from "@/stores/authStore";
-import { syncAdminSettings } from "@/lib/sync";
 import { signOut } from "@/lib/auth";
 import ReportSection from "./ReportSection";
 import GoalsSection from "./GoalsSection";
 import SubscriptionSection from "./SubscriptionSection";
 import ChildProfilesSection from "./ChildProfilesSection";
+import AdminEmailSection from "./AdminEmailSection";
 import DangerZone from "./DangerZone";
-
-// Validation basique d'une adresse email
-const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 // Valeurs possibles pour l'objectif journalier (0 = désactivé)
 const GOAL_OPTIONS = [0, 5, 10, 15, 20, 30];
@@ -55,8 +51,6 @@ export default function AdminScreen() {
 
   const profile = useProfileStore((s) => s.profile);
   const sessions = useProfileStore((s) => s.sessions);
-  const deviceId = useProfileStore((s) => s.deviceId);
-  const adminEmail = useProfileStore((s) => s.adminEmail);
   const dailyGoal = useProfileStore((s) => s.dailyGoal);
 
   const authUser = useAuthStore((s) => s.user);
@@ -65,7 +59,6 @@ export default function AdminScreen() {
   const setMultiplayerUnlocked = useProfileStore(
     (s) => s.setMultiplayerUnlocked,
   );
-  const setAdminEmail = useProfileStore((s) => s.setAdminEmail);
   const setDailyGoal = useProfileStore((s) => s.setDailyGoal);
   const resetProgress = useProfileStore((s) => s.resetProgress);
   const deleteProfile = useProfileStore((s) => s.deleteProfile);
@@ -73,10 +66,6 @@ export default function AdminScreen() {
   // ── État UI ─────────────────────────────────────────────────────────────────
   const [goalFeedback, setGoalFeedback] = useState(false);
   const [selectedGoal, setSelectedGoal] = useState<number>(dailyGoal ?? 0);
-  const [emailInput, setEmailInput] = useState<string>(adminEmail ?? "");
-  const [emailFeedback, setEmailFeedback] = useState<"saved" | "error" | null>(
-    null,
-  );
 
   // ── Handlers ────────────────────────────────────────────────────────────────
 
@@ -84,26 +73,6 @@ export default function AdminScreen() {
     setDailyGoal(selectedGoal === 0 ? null : selectedGoal);
     setGoalFeedback(true);
     setTimeout(() => setGoalFeedback(false), 2500);
-  }
-
-  function handleSaveEmail() {
-    const trimmed = emailInput.trim();
-    if (trimmed !== "" && !EMAIL_REGEX.test(trimmed)) {
-      setEmailFeedback("error");
-      setTimeout(() => setEmailFeedback(null), 3000);
-      return;
-    }
-    const value = trimmed === "" ? null : trimmed;
-    setAdminEmail(value);
-    if (deviceId) syncAdminSettings(deviceId, dailyGoal, value);
-    setEmailFeedback("saved");
-    setTimeout(() => setEmailFeedback(null), 2500);
-  }
-
-  function handleRemoveEmail() {
-    setEmailInput("");
-    setAdminEmail(null);
-    if (deviceId) syncAdminSettings(deviceId, dailyGoal, null);
   }
 
   async function handleSignOut() {
@@ -240,53 +209,7 @@ export default function AdminScreen() {
         <GoalsSection />
 
         {/* ── Email de contact ────────────────────────────────────────────── */}
-        <section
-          className="admin__section admin__section--email"
-          aria-labelledby="admin-email-title"
-        >
-          <div className="admin__section-header">
-            <Mail size={18} strokeWidth={2} aria-hidden="true" />
-            <h2 id="admin-email-title" className="admin__section-title">
-              {t("emailTitle")}
-            </h2>
-          </div>
-          <p className="admin__section-desc">{t("emailDesc")}</p>
-
-          <div className="admin__email-field">
-            <input
-              type="email"
-              className={`admin__email-input${emailFeedback === "error" ? " admin__email-input--error" : ""}`}
-              value={emailInput}
-              onChange={(e) => setEmailInput(e.target.value)}
-              placeholder={t("emailPlaceholder")}
-              autoComplete="email"
-              aria-label={t("emailTitle")}
-            />
-            <button
-              type="button"
-              className="admin__save-btn"
-              onClick={handleSaveEmail}
-            >
-              {emailFeedback === "saved" ? t("emailSaved") : t("emailSave")}
-            </button>
-          </div>
-
-          {emailFeedback === "error" && (
-            <p className="admin__feedback admin__feedback--error">
-              {t("emailInvalid")}
-            </p>
-          )}
-
-          {adminEmail && (
-            <button
-              type="button"
-              className="admin__email-remove"
-              onClick={handleRemoveEmail}
-            >
-              {t("emailRemove")}
-            </button>
-          )}
-        </section>
+        <AdminEmailSection />
 
         {/* ── Rapport de progression PDF ───────────────────────────────────── */}
         <ReportSection />

@@ -22,6 +22,7 @@ import { useLocale } from 'next-intl';
 import { ArrowLeft, Mail, Lock, Eye, EyeOff, Chrome } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { signIn, signUp, signInWithGoogle, resetPassword } from '@/lib/auth';
+import { SignInSchema, SignUpSchema } from '@/lib/schemas/auth';
 
 type AuthMode = 'login' | 'register';
 
@@ -46,11 +47,23 @@ export default function AuthScreen() {
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     setError(null);
+
+    // Normalisation : lowercase + trim avant validation et envoi à Supabase
+    const normalizedEmail = email.toLowerCase().trim();
+
+    // Validation Zod avant appel réseau
+    const schema = mode === 'login' ? SignInSchema : SignUpSchema;
+    const validation = schema.safeParse({ email: normalizedEmail, password });
+    if (!validation.success) {
+      setError(validation.error.errors[0].message);
+      return;
+    }
+
     setLoading(true);
 
     const { error: authError } = mode === 'login'
-      ? await signIn(email, password)
-      : await signUp(email, password);
+      ? await signIn(normalizedEmail, password)
+      : await signUp(normalizedEmail, password);
 
     setLoading(false);
 
@@ -86,13 +99,14 @@ export default function AuthScreen() {
   // ── Reset mot de passe ────────────────────────────────────────────────────
 
   async function handleResetPassword() {
-    if (!email) {
+    const normalizedEmail = email.toLowerCase().trim();
+    if (!normalizedEmail) {
       setError(t('errorEmailRequired'));
       return;
     }
     setError(null);
     setLoading(true);
-    const { error: resetError } = await resetPassword(email);
+    const { error: resetError } = await resetPassword(normalizedEmail);
     setLoading(false);
     if (resetError) {
       setError(mapError(resetError.message));
