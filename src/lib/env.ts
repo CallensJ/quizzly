@@ -17,13 +17,14 @@ function requireEnv(name: string): string {
   return value;
 }
 
+// Getters — évaluation différée à l'exécution (pas au build Next.js)
 export const env = {
-  supabaseUrl: requireEnv('NEXT_PUBLIC_SUPABASE_URL'),
-  supabaseAnonKey: requireEnv('NEXT_PUBLIC_SUPABASE_ANON_KEY'),
-  supabaseServiceRoleKey: requireEnv('SUPABASE_SERVICE_ROLE_KEY'),
-  stripeSecretKey: requireEnv('STRIPE_SECRET_KEY'),
-  stripeWebhookSecret: requireEnv('STRIPE_WEBHOOK_SECRET'),
-  stripePriceMonthly: requireEnv('STRIPE_PRICE_MONTHLY'),
-  stripePriceYearly: requireEnv('STRIPE_PRICE_YEARLY'),
-  appUrl: requireEnv('NEXT_PUBLIC_APP_URL'),
+  get supabaseUrl()          { return requireEnv('NEXT_PUBLIC_SUPABASE_URL') },
+  get supabaseAnonKey()      { return requireEnv('NEXT_PUBLIC_SUPABASE_ANON_KEY') },
+  get supabaseServiceRoleKey() { return requireEnv('SUPABASE_SERVICE_ROLE_KEY') },
+  get stripeSecretKey()      { return requireEnv('STRIPE_SECRET_KEY') },
+  get stripeWebhookSecret()  { return requireEnv('STRIPE_WEBHOOK_SECRET') },
+  get stripePriceMonthly()   { return requireEnv('STRIPE_PRICE_MONTHLY') },
+  get stripePriceYearly()    { return requireEnv('STRIPE_PRICE_YEARLY') },
+  get appUrl()               { return requireEnv('NEXT_PUBLIC_APP_URL') },
 };
