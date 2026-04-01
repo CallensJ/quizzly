@@ -19,17 +19,24 @@
 import { useState, FormEvent } from 'react';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
+import { useSearchParams } from 'next/navigation';
 import { ArrowLeft, Mail, Lock, Eye, EyeOff, Chrome } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { signIn, signUp, signInWithGoogle, resetPassword } from '@/lib/auth';
 import { SignInSchema, SignUpSchema } from '@/lib/schemas/auth';
+import { getSafeRedirect } from '@/lib/safeRedirect';
 
 type AuthMode = 'login' | 'register';
 
 export default function AuthScreen() {
-  const t      = useTranslations('auth');
-  const router = useRouter();
-  const locale = useLocale();
+  const t            = useTranslations('auth');
+  const router       = useRouter();
+  const locale       = useLocale();
+  const searchParams = useSearchParams();
+
+  // Paramètre ?next= injecté par le middleware pour rediriger après connexion
+  // getSafeRedirect() valide que l'URL est interne avant de l'utiliser
+  const nextUrl = getSafeRedirect(searchParams.get('next'), '/admin');
 
   const [mode, setMode]               = useState<AuthMode>('login');
   const [email, setEmail]             = useState('');
@@ -78,8 +85,8 @@ export default function AuthScreen() {
       setMode('login');
       setRegisterSuccess(true);
     } else {
-      // Login réussi → retour à l'espace parent
-      router.push('/admin');
+      // Login réussi → redirection vers ?next= validé, ou /admin par défaut
+      router.push(nextUrl);
     }
   }
 
