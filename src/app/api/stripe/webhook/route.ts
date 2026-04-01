@@ -207,10 +207,12 @@ async function handlePaymentFailed(
   supabaseAdmin: SupabaseClient,
   invoice: Stripe.Invoice
 ) {
-  if (!invoice.subscription) return;
+  // API 2026-03-25.dahlia : invoice.subscription supprimé — désormais dans invoice.parent.subscription_details.subscription
+  const subscriptionId = invoice.parent?.subscription_details?.subscription;
+  if (!subscriptionId) return;
 
   await supabaseAdmin
     .from('subscriptions')
     .update({ status: 'past_due' })
-    .eq('stripe_subscription_id', invoice.subscription as string);
+    .eq('stripe_subscription_id', subscriptionId as string);
 }
