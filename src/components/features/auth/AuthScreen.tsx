@@ -62,7 +62,7 @@ export default function AuthScreen() {
     const schema = mode === 'login' ? SignInSchema : SignUpSchema;
     const validation = schema.safeParse({ email: normalizedEmail, password });
     if (!validation.success) {
-      setError(validation.error.errors[0].message);
+      setError(validation.error.issues[0].message);
       return;
     }
 
