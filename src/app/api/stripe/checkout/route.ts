@@ -3,72 +3,99 @@
  *
  * Crée une session Stripe Checkout pour un abonnement mensuel ou annuel.
  * L'utilisateur doit être authentifié — le JWT est lu depuis le header Authorization.
+ *
+ * Sécurité :
+ *   - Validation Zod du body entrant (interval)
+ *   - userId lu depuis supabase.auth.getUser() — jamais depuis le body client
+ *   - client_reference_id = userId (doublon de sécurité recommandé Stripe)
+ *   - env vars validées au démarrage via lib/env.ts
  */
 
-import { NextRequest, NextResponse } from "next/server";
-import Stripe from "stripe";
-import { createClient } from "@supabase/supabase-js";
+import { NextRequest, NextResponse } from 'next/server';
+import Stripe from 'stripe';
+import { createClient } from '@supabase/supabase-js';
+import { z } from 'zod';
+import { env } from '@/lib/env';
+import { logger } from '@/lib/logger';
+import { rateLimit, getIp } from '@/lib/rateLimit';
+
+// Schéma Zod — seuls 'monthly' et 'yearly' sont acceptés
+const CheckoutBodySchema = z.object({
+  interval: z.enum(['monthly', 'yearly']),
+});
 
 export async function POST(req: NextRequest) {
-  // Instanciation à l'intérieur du handler — les env vars runtime ne sont pas
-  // disponibles au niveau module lors du build Next.js
-  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-    apiVersion: "2026-03-25.dahlia",
+  const stripe = new Stripe(env.stripeSecretKey, {
+    apiVersion: '2026-03-25.dahlia',
   });
 
   // Client anon — vérifie le JWT entrant
-  const supabase = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-  );
+  const supabase = createClient(env.supabaseUrl, env.supabaseAnonKey);
 
   // Client admin — lit la table subscriptions pour récupérer le stripe_customer_id existant
-  const supabaseAdmin = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!
-  );
-  try {
-    // 1. Vérifie le JWT depuis le header Authorization: Bearer <token>
-    const authHeader = req.headers.get("authorization");
-    const token = authHeader?.replace("Bearer ", "");
+  const supabaseAdmin = createClient(env.supabaseUrl, env.supabaseServiceRoleKey);
 
+  try {
+    // 1. Rate limiting — 10 tentatives de checkout par IP par minute
+    const ip = getIp(req);
+    const { success, remaining, resetAt } = rateLimit(ip, 10, 60_000);
+    if (!success) {
+      return NextResponse.json(
+        { error: 'Trop de requêtes, réessayez dans un moment.' },
+        {
+          status: 429,
+          headers: {
+            'Retry-After': String(Math.ceil((resetAt - Date.now()) / 1000)),
+            'X-RateLimit-Remaining': '0',
+          },
+        }
+      );
+    }
+    logger.info('[checkout] IP:', ip, '— remaining:', remaining);
+
+    // 2. Vérifie le JWT depuis le header Authorization: Bearer <token>
+    const token = req.headers.get('authorization')?.replace('Bearer ', '');
     if (!token) {
-      return NextResponse.json({ error: "Non authentifié" }, { status: 401 });
+      return NextResponse.json({ error: 'Non authentifié' }, { status: 401 });
     }
 
     const { data: { user } } = await supabase.auth.getUser(token);
-
     if (!user) {
-      return NextResponse.json({ error: "Non authentifié" }, { status: 401 });
+      return NextResponse.json({ error: 'Non authentifié' }, { status: 401 });
     }
 
-    // 2. Récupère l'interval choisi (monthly ou yearly)
-    const { interval } = await req.json();
-    const priceId =
-      interval === "yearly"
-        ? process.env.STRIPE_PRICE_YEARLY!
-        : process.env.STRIPE_PRICE_MONTHLY!;
+    // 3. Valide le body avec Zod avant tout traitement
+    const rawBody = await req.json();
+    const result = CheckoutBodySchema.safeParse(rawBody);
+    if (!result.success) {
+      return NextResponse.json({ error: 'Paramètre interval invalide (monthly | yearly)' }, { status: 400 });
+    }
 
-    // 3. Réutilise le stripe_customer_id existant si l'utilisateur a déjà souscrit
+    const priceId = result.data.interval === 'yearly'
+      ? env.stripePriceYearly
+      : env.stripePriceMonthly;
+
+    // 4. Réutilise le stripe_customer_id existant si l'utilisateur a déjà souscrit
     //    → évite la création de clients en double dans Stripe
     const { data: existing } = await supabaseAdmin
-      .from("subscriptions")
-      .select("stripe_customer_id")
-      .eq("user_id", user.id)
+      .from('subscriptions')
+      .select('stripe_customer_id')
+      .eq('user_id', user.id)
       .maybeSingle();
 
     const customerParam = existing?.stripe_customer_id
       ? { customer: existing.stripe_customer_id }
       : { customer_email: user.email };
 
-    // 4. Crée la session Checkout Stripe
+    // 5. Crée la session Checkout Stripe
     const session = await stripe.checkout.sessions.create({
-      mode: "subscription",
-      payment_method_types: ["card"],
+      mode: 'subscription',
+      payment_method_types: ['card'],
       ...customerParam,
       line_items: [{ price: priceId, quantity: 1 }],
-      success_url: `${process.env.NEXT_PUBLIC_APP_URL}/subscribe/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${process.env.NEXT_PUBLIC_APP_URL}/subscribe/cancel`,
+      success_url: `${env.appUrl}/subscribe/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${env.appUrl}/subscribe/cancel`,
+      client_reference_id: user.id,         // doublon de sécurité — lien Stripe ↔ Supabase
       metadata: {
         supabase_user_id: user.id,
       },
@@ -76,7 +103,12 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ url: session.url });
   } catch (error) {
-    console.error("Stripe checkout error:", error);
-    return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
+    logger.error('[checkout] Erreur serveur:', error);
+    return NextResponse.json({ error: 'Erreur serveur' }, { status: 500 });
   }
+}
+
+// Bloquer les autres méthodes HTTP
+export async function GET() {
+  return NextResponse.json({ error: 'Method not allowed' }, { status: 405 });
 }

@@ -21,6 +21,44 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
+// ─── Headers de sécurité HTTP ────────────────────────────────────────────────
+// Appliqués sur toutes les routes sauf le webhook Stripe (CSP exclu sur /api/stripe/webhook).
+const securityHeaders = [
+  // Protection clickjacking — interdit d'intégrer l'app dans un iframe externe
+  { key: "X-Frame-Options", value: "DENY" },
+  // Empêche le MIME sniffing — le navigateur respecte le Content-Type déclaré
+  { key: "X-Content-Type-Options", value: "nosniff" },
+  // Contrôle les infos de referrer envoyées aux sites tiers
+  { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+  // Désactive les features non utilisées par l'app
+  { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
+  // Force HTTPS pendant 1 an (Vercel gère HTTPS, ce header renforce côté client)
+  { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains; preload" },
+  // Content Security Policy — whitelist explicite des sources autorisées
+  {
+    key: "Content-Security-Policy",
+    value: [
+      "default-src 'self'",
+      // Scripts : self + Stripe.js (Checkout) + inline Next.js (hydration)
+      "script-src 'self' 'unsafe-inline' https://js.stripe.com",
+      // Styles : self + Google Fonts + inline (Framer Motion + SCSS)
+      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+      // Fonts : Google Fonts uniquement
+      "font-src 'self' https://fonts.gstatic.com",
+      // iframes : Stripe Checkout + hooks Stripe
+      "frame-src https://js.stripe.com https://hooks.stripe.com",
+      // Connexions réseau : API Stripe + Supabase (REST + WebSocket temps réel)
+      "connect-src 'self' https://api.stripe.com https://*.supabase.co wss://*.supabase.co",
+      // Images : self + DiceBear avatars + data URIs + blobs (canvas-confetti)
+      "img-src 'self' data: blob: https://api.dicebear.com",
+      // Service Worker (PWA)
+      "worker-src 'self' blob:",
+      // Manifest PWA
+      "manifest-src 'self'",
+    ].join("; "),
+  },
+];
+
 // @ducanh2912/next-pwa utilise require() — pas d'export ESM compatible
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const withPWA = require("@ducanh2912/next-pwa").default({
@@ -122,7 +160,25 @@ const withPWA = require("@ducanh2912/next-pwa").default({
   ],
 });
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  async headers() {
+    return [
+      // Headers de sécurité sur toutes les routes
+      {
+        source: "/(.*)",
+        headers: securityHeaders,
+      },
+      // Le webhook Stripe n'a pas besoin de CSP — endpoint purement serveur
+      // On surcharge uniquement X-Content-Type-Options pour cette route
+      {
+        source: "/api/stripe/webhook",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+        ],
+      },
+    ];
+  },
+};
 
 // Ordre : withPWA enveloppe la config brute, withNextIntl enveloppe le tout
 export default withNextIntl(withPWA(nextConfig));
