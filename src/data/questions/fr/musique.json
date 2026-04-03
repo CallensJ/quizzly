@@ -2601,6 +2601,2606 @@
       },
       "answer": "A",
       "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-071",
+      "difficulty": "easy",
+      "question": "Quel instrument a des cordes et se joue avec un archet ?",
+      "options": {
+        "A": "Le violon",
+        "B": "La flûte",
+        "C": "Le tambour",
+        "D": "La trompette"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-072",
+      "difficulty": "easy",
+      "question": "Quel instrument se frappe et marque souvent le rythme ?",
+      "options": {
+        "A": "La guitare",
+        "B": "Le tambour",
+        "C": "La clarinette",
+        "D": "La harpe"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-073",
+      "difficulty": "easy",
+      "question": "Quel instrument est un vent que l'on souffle avec la bouche ?",
+      "options": {
+        "A": "Le piano",
+        "B": "La batterie",
+        "C": "La flûte",
+        "D": "La contrebasse"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-074",
+      "difficulty": "easy",
+      "question": "Quel instrument a des touches et produit des notes mélodiques ?",
+      "options": {
+        "A": "La guitare",
+        "B": "Le xylophone",
+        "C": "Le piano",
+        "D": "La trompette"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-075",
+      "difficulty": "easy",
+      "question": "Quel instrument se gratte avec les doigts et a des cordes ?",
+      "options": {
+        "A": "La harpe",
+        "B": "La clarinette",
+        "C": "Le tambour",
+        "D": "La flûte"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-076",
+      "difficulty": "easy",
+      "question": "Quel instrument est souvent utilisé dans une fanfare scolaire ?",
+      "options": {
+        "A": "Le violon",
+        "B": "La trompette",
+        "C": "La harpe",
+        "D": "La guitare"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-077",
+      "difficulty": "easy",
+      "question": "Quel instrument produit un son aigu et léger comme un sifflet ?",
+      "options": {
+        "A": "La grosse caisse",
+        "B": "La contrebasse",
+        "C": "La flûte",
+        "D": "Le tuba"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-078",
+      "difficulty": "easy",
+      "question": "Quel instrument a un son très grave et profond dans l'orchestre ?",
+      "options": {
+        "A": "La clarinette",
+        "B": "Le tuba",
+        "C": "La flûte",
+        "D": "Le triangle"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-079",
+      "difficulty": "easy",
+      "question": "Quel instrument à vent utilise des clés et une anche pour sonner ?",
+      "options": {
+        "A": "La guitare",
+        "B": "La clarinette",
+        "C": "Le tambour",
+        "D": "Le piano"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-080",
+      "difficulty": "easy",
+      "question": "Quel instrument à cordes se tient entre les jambes et est grand ?",
+      "options": {
+        "A": "Le violoncelle",
+        "B": "La trompette",
+        "C": "La flûte",
+        "D": "La batterie"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-081",
+      "difficulty": "easy",
+      "question": "Quel instrument à vent est petit et souvent en bois ou plastique ?",
+      "options": {
+        "A": "La guitare",
+        "B": "La flûte à bec",
+        "C": "Le tambour",
+        "D": "Le piano"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-082",
+      "difficulty": "easy",
+      "question": "Quel instrument à cordes se joue en pinçant plusieurs cordes ensemble ?",
+      "options": {
+        "A": "La harpe",
+        "B": "La trompette",
+        "C": "La clarinette",
+        "D": "La batterie"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-083",
+      "difficulty": "easy",
+      "question": "Quel son est plus fort qu'un chuchotement et peut surprendre ?",
+      "options": {
+        "A": "Un cri",
+        "B": "Un murmure",
+        "C": "Un souffle",
+        "D": "Un silence"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-084",
+      "difficulty": "easy",
+      "question": "Quel mot décrit une musique jouée très doucement et calmement ?",
+      "options": {
+        "A": "Rapide",
+        "B": "Doux",
+        "C": "Aigu",
+        "D": "Fort"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-085",
+      "difficulty": "easy",
+      "question": "Quel mot décrit une musique jouée à un tempo très rapide ?",
+      "options": {
+        "A": "Lent",
+        "B": "Doux",
+        "C": "Rapide",
+        "D": "Grave"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-086",
+      "difficulty": "easy",
+      "question": "Quel mot décrit un son très aigu comme un sifflement d'oiseau ?",
+      "options": {
+        "A": "Grave",
+        "B": "Aigu",
+        "C": "Lourd",
+        "D": "Lent"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-087",
+      "difficulty": "easy",
+      "question": "Quel mot décrit un son très bas et profond comme un tambour ?",
+      "options": {
+        "A": "Aigu",
+        "B": "Rapide",
+        "C": "Grave",
+        "D": "Doux"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-088",
+      "difficulty": "easy",
+      "question": "Quel mot décrit une musique jouée très lentement et paisiblement ?",
+      "options": {
+        "A": "Lent",
+        "B": "Fort",
+        "C": "Aigu",
+        "D": "Rapide"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-089",
+      "difficulty": "easy",
+      "question": "Quel contraste oppose fort et doux dans une pièce musicale ?",
+      "options": {
+        "A": "La dynamique",
+        "B": "La mélodie",
+        "C": "Le tempo",
+        "D": "La parole"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-090",
+      "difficulty": "easy",
+      "question": "Quel mot décrit la vitesse à laquelle une chanson est jouée ?",
+      "options": {
+        "A": "La mélodie",
+        "B": "Le rythme",
+        "C": "Le tempo",
+        "D": "La voix"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-091",
+      "difficulty": "easy",
+      "question": "Quel mot décrit la suite de notes qui forme une chanson simple ?",
+      "options": {
+        "A": "Le rythme",
+        "B": "La mélodie",
+        "C": "Le silence",
+        "D": "Le bruit"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-092",
+      "difficulty": "easy",
+      "question": "Quel mot décrit la répétition régulière des battements dans une chanson ?",
+      "options": {
+        "A": "La mélodie",
+        "B": "La chanson",
+        "C": "Le rythme",
+        "D": "Le concert"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-093",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on une représentation musicale devant un public nombreux ?",
+      "options": {
+        "A": "Un concert",
+        "B": "Un silence",
+        "C": "Un rythme",
+        "D": "Une mélodie"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-094",
+      "difficulty": "easy",
+      "question": "Quel mot désigne une chanson courte que l'on chante souvent en classe ?",
+      "options": {
+        "A": "Un concert",
+        "B": "Une mélodie",
+        "C": "Une chanson",
+        "D": "Un rythme"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-095",
+      "difficulty": "easy",
+      "question": "Que fait une personne quand elle chante une mélodie à voix haute ?",
+      "options": {
+        "A": "Elle parle",
+        "B": "Elle chante",
+        "C": "Elle crie",
+        "D": "Elle chuchote"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-096",
+      "difficulty": "easy",
+      "question": "Quel geste montre que la musique est trop forte pour les oreilles ?",
+      "options": {
+        "A": "Parler doucement",
+        "B": "Couvrir ses oreilles",
+        "C": "Chuchoter",
+        "D": "Sourire"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-097",
+      "difficulty": "easy",
+      "question": "Quel mot décrit une voix très basse et presque inaudible ?",
+      "options": {
+        "A": "Un cri",
+        "B": "Un chuchotement",
+        "C": "Un chant",
+        "D": "Un discours"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-098",
+      "difficulty": "easy",
+      "question": "Quel mot décrit une voix très forte qui appelle ou avertit ?",
+      "options": {
+        "A": "Un chuchotement",
+        "B": "Un chant",
+        "C": "Un cri",
+        "D": "Une mélodie"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-099",
+      "difficulty": "easy",
+      "question": "Que fait-on quand on parle très doucement à l'oreille d'un ami ?",
+      "options": {
+        "A": "On crie",
+        "B": "On chuchote",
+        "C": "On chante fort",
+        "D": "On joue"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-100",
+      "difficulty": "easy",
+      "question": "Quel mot désigne la voix utilisée quand on chante une chanson ?",
+      "options": {
+        "A": "La voix",
+        "B": "Le tambour",
+        "C": "La flûte",
+        "D": "Le silence"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-101",
+      "difficulty": "easy",
+      "question": "Quel son de la nature entend-on souvent le matin dans un jardin ?",
+      "options": {
+        "A": "Le tonnerre",
+        "B": "Le chant des oiseaux",
+        "C": "Le moteur",
+        "D": "La sirène"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-102",
+      "difficulty": "easy",
+      "question": "Quel son de la campagne est souvent entendu la nuit en été ?",
+      "options": {
+        "A": "Le klaxon",
+        "B": "Le chant des grillons",
+        "C": "La sirène",
+        "D": "La perceuse"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-103",
+      "difficulty": "easy",
+      "question": "Quel son fait le vent quand il passe dans les feuilles des arbres ?",
+      "options": {
+        "A": "Le bruissement des feuilles",
+        "B": "Le bip d'une voiture",
+        "C": "Le tic-tac",
+        "D": "Le sifflet"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-104",
+      "difficulty": "easy",
+      "question": "Quel bruit de la ville est souvent fort et continu près d'une route ?",
+      "options": {
+        "A": "Le chant des oiseaux",
+        "B": "Le bruit des voitures",
+        "C": "Le murmure de la rivière",
+        "D": "Le vent dans les arbres"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-105",
+      "difficulty": "easy",
+      "question": "Quel son obtient-on en frappant deux pierres l'une contre l'autre ?",
+      "options": {
+        "A": "Un sifflement",
+        "B": "Un cliquetis",
+        "C": "Un grondement",
+        "D": "Un silence"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-106",
+      "difficulty": "easy",
+      "question": "Quel son de la nature est souvent doux et apaisant à écouter ?",
+      "options": {
+        "A": "Le bruit d'une perceuse",
+        "B": "Le chant des oiseaux",
+        "C": "Le klaxon",
+        "D": "La sirène"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-107",
+      "difficulty": "easy",
+      "question": "Quel mot décrit une suite de sons agréables que l'on retient facilement ?",
+      "options": {
+        "A": "La mélodie",
+        "B": "Le silence",
+        "C": "Le bruit",
+        "D": "La poussière"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-108",
+      "difficulty": "easy",
+      "question": "Quel mot décrit la partie rythmique que l'on tape avec les mains ?",
+      "options": {
+        "A": "La mélodie",
+        "B": "Le rythme",
+        "C": "Le silence",
+        "D": "La couleur"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-109",
+      "difficulty": "easy",
+      "question": "Quel mot désigne une chanson connue que l'on chante souvent ensemble ?",
+      "options": {
+        "A": "Une mélodie",
+        "B": "Un bruit",
+        "C": "Une chanson",
+        "D": "Un silence"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-110",
+      "difficulty": "easy",
+      "question": "Quel mot décrit un groupe de musiciens jouant ensemble sur scène ?",
+      "options": {
+        "A": "Un orchestre",
+        "B": "Un silence",
+        "C": "Un bruit",
+        "D": "Un chuchotement"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-111",
+      "difficulty": "easy",
+      "question": "Quelle émotion ressent-on souvent en écoutant une musique joyeuse ?",
+      "options": {
+        "A": "La tristesse",
+        "B": "La colère",
+        "C": "La joie",
+        "D": "La peur"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-112",
+      "difficulty": "easy",
+      "question": "Quelle émotion peut évoquer une musique lente et très douce ?",
+      "options": {
+        "A": "La colère",
+        "B": "La sérénité",
+        "C": "La faim",
+        "D": "La surprise"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-113",
+      "difficulty": "easy",
+      "question": "Quelle émotion peut provoquer une musique forte et rapide pour certains ?",
+      "options": {
+        "A": "L'ennui",
+        "B": "La peur",
+        "C": "La joie",
+        "D": "La fatigue"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-114",
+      "difficulty": "easy",
+      "question": "Quelle émotion ressent-on souvent en écoutant une chanson triste ?",
+      "options": {
+        "A": "La tristesse",
+        "B": "La joie",
+        "C": "La surprise",
+        "D": "La faim"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-115",
+      "difficulty": "easy",
+      "question": "Quelle émotion donne souvent envie de danser sur une musique rythmée ?",
+      "options": {
+        "A": "La colère",
+        "B": "La joie",
+        "C": "La tristesse",
+        "D": "La peur"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-116",
+      "difficulty": "easy",
+      "question": "Quel instrument métallique tinte quand on le frappe doucement ?",
+      "options": {
+        "A": "Le triangle",
+        "B": "La guitare",
+        "C": "La flûte",
+        "D": "Le violon"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-117",
+      "difficulty": "easy",
+      "question": "Quel instrument garde souvent le tempo dans un groupe moderne ?",
+      "options": {
+        "A": "La clarinette",
+        "B": "La batterie",
+        "C": "La harpe",
+        "D": "La flûte"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-118",
+      "difficulty": "easy",
+      "question": "Quel instrument à vent a un long tube et un son très grave ?",
+      "options": {
+        "A": "La trompette",
+        "B": "La flûte",
+        "C": "Le tuba",
+        "D": "La guitare"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-119",
+      "difficulty": "easy",
+      "question": "Quel instrument à cordes est le plus grand et joue les notes graves ?",
+      "options": {
+        "A": "La contrebasse",
+        "B": "La clarinette",
+        "C": "La trompette",
+        "D": "Le xylophone"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-120",
+      "difficulty": "easy",
+      "question": "Quel instrument à vent est petit, en métal, et se souffle dedans ?",
+      "options": {
+        "A": "La trompette",
+        "B": "La guitare",
+        "C": "Le violon",
+        "D": "La harpe"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-121",
+      "difficulty": "easy",
+      "question": "Quel instrument a des lames en bois et se frappe avec deux baguettes ?",
+      "options": {
+        "A": "Le xylophone",
+        "B": "La clarinette",
+        "C": "La harpe",
+        "D": "La flûte"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-122",
+      "difficulty": "easy",
+      "question": "Quel instrument a des cordes sous des touches et se joue assis ?",
+      "options": {
+        "A": "La batterie",
+        "B": "La guitare",
+        "C": "Le piano",
+        "D": "La trompette"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-123",
+      "difficulty": "easy",
+      "question": "Quel son produit une porte qui claque brusquement dans une maison ?",
+      "options": {
+        "A": "Un claquement",
+        "B": "Un murmure",
+        "C": "Un sifflement",
+        "D": "Un chant"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-124",
+      "difficulty": "easy",
+      "question": "Quel bruit fait-on en marchant sur des feuilles mortes et sèches ?",
+      "options": {
+        "A": "Un craquement",
+        "B": "Un bip",
+        "C": "Un sifflet",
+        "D": "Un grondement"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-125",
+      "difficulty": "easy",
+      "question": "Quel mot décrit la partie répétée d'une chanson que l'on retient ?",
+      "options": {
+        "A": "La variation",
+        "B": "Le refrain",
+        "C": "Le silence",
+        "D": "La poussière"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-126",
+      "difficulty": "easy",
+      "question": "Quel mot décrit la partie d'une chanson qui change à chaque fois ?",
+      "options": {
+        "A": "Le couplet",
+        "B": "Le refrain",
+        "C": "La pause",
+        "D": "Le bruit"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-127",
+      "difficulty": "easy",
+      "question": "Quel mot désigne une courte pause silencieuse dans une chanson ?",
+      "options": {
+        "A": "Un silence",
+        "B": "Un bruit",
+        "C": "Un cri",
+        "D": "Un sifflet"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-128",
+      "difficulty": "easy",
+      "question": "Quel son de la nature est souvent fort pendant un orage violent ?",
+      "options": {
+        "A": "Le tonnerre",
+        "B": "Le chant des oiseaux",
+        "C": "Le murmure",
+        "D": "Le cliquetis"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-129",
+      "difficulty": "easy",
+      "question": "Quel bruit régulier fait une horloge quand elle fonctionne dans la maison ?",
+      "options": {
+        "A": "Un tic-tac",
+        "B": "Un sifflement",
+        "C": "Un grondement",
+        "D": "Un chant"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-130",
+      "difficulty": "easy",
+      "question": "Quel instrument a un son clair et se joue en soufflant dedans ?",
+      "options": {
+        "A": "La guitare",
+        "B": "La flûte",
+        "C": "La batterie",
+        "D": "La contrebasse"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-131",
+      "difficulty": "easy",
+      "question": "Quel mot décrit un groupe de personnes chantant ensemble harmonieusement ?",
+      "options": {
+        "A": "Un solo",
+        "B": "Un duo",
+        "C": "Un chœur",
+        "D": "Un bruit"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-132",
+      "difficulty": "easy",
+      "question": "Quel son de la nature est produit par l'eau qui coule doucement ?",
+      "options": {
+        "A": "Le murmure d'une rivière",
+        "B": "Le klaxon",
+        "C": "Le sifflet",
+        "D": "Le bip"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-133",
+      "difficulty": "easy",
+      "question": "Quel mot décrit une musique qui donne envie de bouger et danser ?",
+      "options": {
+        "A": "Triste",
+        "B": "Rythmée",
+        "C": "Silencieuse",
+        "D": "Lente"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-134",
+      "difficulty": "easy",
+      "question": "Quel mot désigne une chanson douce que l'on chante pour endormir ?",
+      "options": {
+        "A": "Une berceuse",
+        "B": "Un concert",
+        "C": "Un rythme",
+        "D": "Un bruit"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-135",
+      "difficulty": "easy",
+      "question": "Quel son de la rue avertit souvent d'un danger ou d'une urgence ?",
+      "options": {
+        "A": "Le chant des oiseaux",
+        "B": "La sirène",
+        "C": "Le murmure",
+        "D": "Le tic-tac"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-136",
+      "difficulty": "easy",
+      "question": "Quel instrument à percussion est petit et tinte quand on le frappe ?",
+      "options": {
+        "A": "Le triangle",
+        "B": "La guitare",
+        "C": "La flûte",
+        "D": "Le violon"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-137",
+      "difficulty": "easy",
+      "question": "Quel mot décrit la partie d'une chanson que l'on chante plusieurs fois ?",
+      "options": {
+        "A": "La mélodie",
+        "B": "Le silence",
+        "C": "Le refrain",
+        "D": "La couleur"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-068",
+      "difficulty": "easy",
+      "question": "Quel son entend-on quand on frappe des mains pour applaudir ?",
+      "options": {
+        "A": "Un battement",
+        "B": "Un sifflement",
+        "C": "Un grondement",
+        "D": "Un murmure"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-069",
+      "difficulty": "easy",
+      "question": "Quel instrument à cordes se tient sur les genoux et se joue avec un archet ?",
+      "options": {
+        "A": "Le violoncelle",
+        "B": "La trompette",
+        "C": "La flûte",
+        "D": "La batterie"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-easy-070",
+      "difficulty": "easy",
+      "question": "Quelle émotion peut donner une musique douce et réconfortante ?",
+      "options": {
+        "A": "La colère",
+        "B": "La joie",
+        "C": "La tristesse",
+        "D": "La peur"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-071",
+      "difficulty": "medium",
+      "question": "Quel genre musical utilise souvent improvisation, swing et instruments comme saxophone et piano ?",
+      "options": {
+        "A": "Le jazz",
+        "B": "La pop",
+        "C": "La musique classique",
+        "D": "Le rock"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-072",
+      "difficulty": "medium",
+      "question": "Quel genre est caractérisé par guitare électrique, basse et batterie puissantes et amplifiées ?",
+      "options": {
+        "A": "La pop",
+        "B": "Le rock",
+        "C": "Le jazz",
+        "D": "La musique du monde"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-073",
+      "difficulty": "medium",
+      "question": "Quel style privilégie mélodies accrocheuses, refrains simples et production destinée aux radios ?",
+      "options": {
+        "A": "La pop",
+        "B": "Le classique",
+        "C": "Le jazz",
+        "D": "Le flamenco"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-074",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on la partie répétée d'une chanson que l'on chante plusieurs fois ?",
+      "options": {
+        "A": "L'intro",
+        "B": "Le couplet",
+        "C": "Le refrain",
+        "D": "La coda"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-075",
+      "difficulty": "medium",
+      "question": "Quel mot désigne la première partie d'un morceau qui présente le thème principal ?",
+      "options": {
+        "A": "Le solo",
+        "B": "L'intro",
+        "C": "Le refrain",
+        "D": "La coda"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-076",
+      "difficulty": "medium",
+      "question": "Quel terme décrit une partie où un instrument joue seul pour montrer sa virtuosité ?",
+      "options": {
+        "A": "Le solo",
+        "B": "Le chœur",
+        "C": "Le couplet",
+        "D": "L'intro"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-077",
+      "difficulty": "medium",
+      "question": "Quel compositeur autrichien a écrit des opéras célèbres et des symphonies classiques ?",
+      "options": {
+        "A": "Wolfgang Amadeus Mozart",
+        "B": "Ludwig van Beethoven",
+        "C": "Johann Sebastian Bach",
+        "D": "Franz Schubert"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-078",
+      "difficulty": "medium",
+      "question": "Quel compositeur allemand est connu pour ses symphonies puissantes et motifs dramatiques ?",
+      "options": {
+        "A": "Mozart",
+        "B": "Beethoven",
+        "C": "Haydn",
+        "D": "Bach"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-079",
+      "difficulty": "medium",
+      "question": "Quel artiste pop est célèbre pour la chanson Thriller et ses chorégraphies célèbres ?",
+      "options": {
+        "A": "Michael Jackson",
+        "B": "Elvis Presley",
+        "C": "Prince",
+        "D": "Madonna"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-080",
+      "difficulty": "medium",
+      "question": "Quel groupe britannique a marqué les années 1960 avec des chansons mélodiques et harmonies vocales ?",
+      "options": {
+        "A": "The Beatles",
+        "B": "The Rolling Stones",
+        "C": "Queen",
+        "D": "Pink Floyd"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-081",
+      "difficulty": "medium",
+      "question": "Quel instrument appartient à la famille des cordes et se joue avec un archet ?",
+      "options": {
+        "A": "La trompette",
+        "B": "Le violon",
+        "C": "La clarinette",
+        "D": "Le tambour"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-082",
+      "difficulty": "medium",
+      "question": "Quel ensemble de quatre instruments à cordes forme un quatuor classique habituel ?",
+      "options": {
+        "A": "Deux violons, alto, violoncelle",
+        "B": "Trompette, trombone, tuba, cor",
+        "C": "Piano, guitare, basse, batterie",
+        "D": "Flûte, clarinette, hautbois, basson"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-083",
+      "difficulty": "medium",
+      "question": "Quel musicien dirige l'orchestre et indique tempo, nuances et entrées des musiciens ?",
+      "options": {
+        "A": "Le chef d'orchestre",
+        "B": "Le soliste",
+        "C": "Le compositeur",
+        "D": "Le luthier"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-084",
+      "difficulty": "medium",
+      "question": "Quel mot décrit la vitesse d'exécution d'un morceau, lente ou rapide selon l'indication ?",
+      "options": {
+        "A": "La nuance",
+        "B": "Le tempo",
+        "C": "L'harmonie",
+        "D": "La tessiture"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-085",
+      "difficulty": "medium",
+      "question": "Quel terme désigne l'écriture des notes et indications destinées aux musiciens sur papier ?",
+      "options": {
+        "A": "La partition",
+        "B": "Le micro",
+        "C": "La scène",
+        "D": "Le public"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-086",
+      "difficulty": "medium",
+      "question": "Quel mot décrit l'accord agréable entre plusieurs notes jouées ensemble simultanément ?",
+      "options": {
+        "A": "La dissonance",
+        "B": "L'harmonie",
+        "C": "Le silence",
+        "D": "Le tempo"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-087",
+      "difficulty": "medium",
+      "question": "Quel mot indique une variation de volume entre sons plus forts et plus doux ?",
+      "options": {
+        "A": "La nuance",
+        "B": "Le rythme",
+        "C": "La mélodie",
+        "D": "Le timbre"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-088",
+      "difficulty": "medium",
+      "question": "Quel type de morceau national est joué lors de cérémonies officielles et événements patriotiques ?",
+      "options": {
+        "A": "Une berceuse",
+        "B": "Un hymne national",
+        "C": "Une comptine",
+        "D": "Un solo"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-089",
+      "difficulty": "medium",
+      "question": "Quelle forme musicale contient souvent couplets et refrains alternés dans une chanson populaire ?",
+      "options": {
+        "A": "La forme couplet-refrain",
+        "B": "La fugue",
+        "C": "La sonate",
+        "D": "La symphonie"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-090",
+      "difficulty": "medium",
+      "question": "Quel terme désigne la répétition d'un motif court qui revient dans une composition musicale ?",
+      "options": {
+        "A": "Le motif",
+        "B": "La cadence",
+        "C": "La modulation",
+        "D": "La pause"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-091",
+      "difficulty": "medium",
+      "question": "Quel instrument à vent est souvent soliste dans un orchestre pour jouer des mélodies ?",
+      "options": {
+        "A": "La clarinette",
+        "B": "La contrebasse",
+        "C": "La grosse caisse",
+        "D": "La harpe"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-092",
+      "difficulty": "medium",
+      "question": "Quel instrument à cordes basse soutient souvent l'harmonie et le rythme dans l'orchestre ?",
+      "options": {
+        "A": "La contrebasse",
+        "B": "La flûte",
+        "C": "La trompette",
+        "D": "Le triangle"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-093",
+      "difficulty": "medium",
+      "question": "Quel ensemble réunit cuivres et percussions pour défiler lors d'une parade ou fanfare ?",
+      "options": {
+        "A": "Un quatuor",
+        "B": "Une fanfare",
+        "C": "Un trio",
+        "D": "Un duo"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-094",
+      "difficulty": "medium",
+      "question": "Quel mot décrit la façon dont les notes se suivent pour créer une mélodie chantable ?",
+      "options": {
+        "A": "Le timbre",
+        "B": "L'harmonie",
+        "C": "La mélodie",
+        "D": "La nuance"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-095",
+      "difficulty": "medium",
+      "question": "Quel terme musical signifie accélérer progressivement le tempo dans une phrase musicale ?",
+      "options": {
+        "A": "Accelerando",
+        "B": "Pianissimo",
+        "C": "Legato",
+        "D": "Staccato"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-096",
+      "difficulty": "medium",
+      "question": "Quel mot décrit des notes jouées séparées et courtes, opposées au legato lié ?",
+      "options": {
+        "A": "Legato",
+        "B": "Staccato",
+        "C": "Adagio",
+        "D": "Forte"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-097",
+      "difficulty": "medium",
+      "question": "Quel terme indique de jouer doucement, marqué par la lettre p dans les partitions ?",
+      "options": {
+        "A": "Forte",
+        "B": "Piano",
+        "C": "Allegro",
+        "D": "Vivace"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-098",
+      "difficulty": "medium",
+      "question": "Quel genre musical utilise souvent improvisation sur accords et une section rythmique swing ?",
+      "options": {
+        "A": "La musique classique",
+        "B": "Le jazz",
+        "C": "La musique du monde",
+        "D": "La berceuse"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-099",
+      "difficulty": "medium",
+      "question": "Quel compositeur autrichien a écrit des opéras célèbres et des symphonies du XVIIIe siècle ?",
+      "options": {
+        "A": "Wolfgang Amadeus Mozart",
+        "B": "Michael Jackson",
+        "C": "The Beatles",
+        "D": "Elvis Presley"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-100",
+      "difficulty": "medium",
+      "question": "Quel mot désigne l'ensemble écrit des notes et des indications pour un musicien interprète ?",
+      "options": {
+        "A": "La partition",
+        "B": "Le micro",
+        "C": "La scène",
+        "D": "Le public"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-101",
+      "difficulty": "medium",
+      "question": "Quel style musical utilise souvent rythmes syncopés, improvisation et instruments à vent ?",
+      "options": {
+        "A": "Le jazz",
+        "B": "La musique classique",
+        "C": "La comptine",
+        "D": "La berceuse"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-102",
+      "difficulty": "medium",
+      "question": "Quel mot décrit la couleur sonore propre à une voix ou à un instrument particulier ?",
+      "options": {
+        "A": "Le timbre",
+        "B": "Le tempo",
+        "C": "La partition",
+        "D": "Le rythme"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-103",
+      "difficulty": "medium",
+      "question": "Quel type d'œuvre combine musique, chant et théâtre sur scène devant un public ?",
+      "options": {
+        "A": "Un opéra",
+        "B": "Une berceuse",
+        "C": "Une comptine",
+        "D": "Un quatuor"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-104",
+      "difficulty": "medium",
+      "question": "Quel mot décrit une chanson courte pour enfants, répétitive et facile à mémoriser ?",
+      "options": {
+        "A": "Une comptine",
+        "B": "Un concerto",
+        "C": "Une symphonie",
+        "D": "Un opéra"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-105",
+      "difficulty": "medium",
+      "question": "Quel terme désigne la partie d'une chanson qui change à chaque répétition et raconte l'histoire ?",
+      "options": {
+        "A": "Le refrain",
+        "B": "Le couplet",
+        "C": "L'intro",
+        "D": "La coda"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-106",
+      "difficulty": "medium",
+      "question": "Quel instrument à clavier est utilisé autant en musique classique qu'en musique populaire moderne ?",
+      "options": {
+        "A": "Le piano",
+        "B": "La trompette",
+        "C": "La contrebasse",
+        "D": "Le violon"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-107",
+      "difficulty": "medium",
+      "question": "Quel mot décrit l'accord entre plusieurs voix ou instruments chantant ou jouant ensemble ?",
+      "options": {
+        "A": "La dissonance",
+        "B": "L'harmonie",
+        "C": "Le silence",
+        "D": "Le tempo"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-108",
+      "difficulty": "medium",
+      "question": "Quel genre utilise souvent guitares acoustiques et paroles racontant des histoires personnelles ou sociales ?",
+      "options": {
+        "A": "Le rock",
+        "B": "La pop",
+        "C": "La musique folk",
+        "D": "Le jazz"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-109",
+      "difficulty": "medium",
+      "question": "Quel terme musical décrit une légère accélération ou ralentissement expressif du tempo ?",
+      "options": {
+        "A": "Rubato",
+        "B": "Forte",
+        "C": "Staccato",
+        "D": "Pianissimo"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-110",
+      "difficulty": "medium",
+      "question": "Quel instrument de l'orchestre à vent est souvent utilisé pour solos mélodiques brillants ?",
+      "options": {
+        "A": "Le hautbois",
+        "B": "La grosse caisse",
+        "C": "La trompette",
+        "D": "La cymbale"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-111",
+      "difficulty": "medium",
+      "question": "Quel mot décrit la partie d'une chanson où un instrument joue sans chant vocal ?",
+      "options": {
+        "A": "Le couplet",
+        "B": "Le refrain",
+        "C": "Le solo",
+        "D": "L'intro"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-112",
+      "difficulty": "medium",
+      "question": "Quel compositeur allemand a écrit des symphonies majeures et a influencé le romantisme musical ?",
+      "options": {
+        "A": "Beethoven",
+        "B": "Michael Jackson",
+        "C": "The Beatles",
+        "D": "Elvis Presley"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-113",
+      "difficulty": "medium",
+      "question": "Quel mot décrit la façon dont les notes sont liées ou séparées dans une phrase musicale ?",
+      "options": {
+        "A": "L'articulation",
+        "B": "La partition",
+        "C": "Le timbre",
+        "D": "Le public"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-114",
+      "difficulty": "medium",
+      "question": "Quel instrument de percussion garde souvent le tempo et fournit la base rythmique d'un groupe ?",
+      "options": {
+        "A": "La batterie",
+        "B": "La harpe",
+        "C": "La clarinette",
+        "D": "La contrebasse"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-115",
+      "difficulty": "medium",
+      "question": "Quel mot décrit une chanson lente et douce destinée à aider un enfant à s'endormir ?",
+      "options": {
+        "A": "Une berceuse",
+        "B": "Un hymne",
+        "C": "Un opéra",
+        "D": "Un concerto"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-116",
+      "difficulty": "medium",
+      "question": "Quel terme désigne la partie d'une chanson qui revient identique plusieurs fois ?",
+      "options": {
+        "A": "Le couplet",
+        "B": "Le refrain",
+        "C": "L'intro",
+        "D": "La coda"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-117",
+      "difficulty": "medium",
+      "question": "Quel instrument à cordes est le plus grand et joue les notes les plus graves dans l'orchestre ?",
+      "options": {
+        "A": "Le violon",
+        "B": "La contrebasse",
+        "C": "La flûte",
+        "D": "La trompette"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-118",
+      "difficulty": "medium",
+      "question": "Quel mot décrit une courte conclusion musicale ajoutée à la fin d'un morceau ?",
+      "options": {
+        "A": "La coda",
+        "B": "L'intro",
+        "C": "Le couplet",
+        "D": "Le refrain"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-119",
+      "difficulty": "medium",
+      "question": "Quel genre moderne utilise souvent boucles, samples et rythmes électroniques répétitifs ?",
+      "options": {
+        "A": "La musique électronique",
+        "B": "La musique baroque",
+        "C": "L'opéra",
+        "D": "La comptine"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-120",
+      "difficulty": "medium",
+      "question": "Quel mot désigne la partie chantée par plusieurs personnes en même temps harmonieusement ?",
+      "options": {
+        "A": "Un solo",
+        "B": "Un chœur",
+        "C": "Un couplet",
+        "D": "Une coda"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-121",
+      "difficulty": "medium",
+      "question": "Quel instrument à vent est souvent utilisé pour jouer des mélodies aiguës et brillantes en fanfare ?",
+      "options": {
+        "A": "La trompette",
+        "B": "La contrebasse",
+        "C": "La grosse caisse",
+        "D": "La harpe"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-122",
+      "difficulty": "medium",
+      "question": "Quel mot décrit une pièce écrite pour un instrument solo accompagné d'un orchestre complet ?",
+      "options": {
+        "A": "Un concerto",
+        "B": "Une symphonie",
+        "C": "Une comptine",
+        "D": "Un opéra"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-123",
+      "difficulty": "medium",
+      "question": "Quel mouvement musical des années 1960 a profondément influencé la culture jeune mondiale ?",
+      "options": {
+        "A": "Le jazz",
+        "B": "Le rock",
+        "C": "La musique baroque",
+        "D": "La musique classique"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-124",
+      "difficulty": "medium",
+      "question": "Quel mot décrit la partie d'une chanson qui raconte et change à chaque répétition ?",
+      "options": {
+        "A": "Le couplet",
+        "B": "Le refrain",
+        "C": "La coda",
+        "D": "L'intro"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-125",
+      "difficulty": "medium",
+      "question": "Quel compositeur baroque est célèbre pour ses concertos et Les Quatre Saisons ?",
+      "options": {
+        "A": "Antonio Vivaldi",
+        "B": "Michael Jackson",
+        "C": "The Beatles",
+        "D": "Beethoven"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-126",
+      "difficulty": "medium",
+      "question": "Quel mot décrit la répétition d'une courte phrase rythmique dans une chanson populaire ?",
+      "options": {
+        "A": "Un motif",
+        "B": "Une coda",
+        "C": "Un silence",
+        "D": "Un orchestre"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-127",
+      "difficulty": "medium",
+      "question": "Quel instrument de percussion est frappé avec des baguettes et garde souvent le rythme principal ?",
+      "options": {
+        "A": "La batterie",
+        "B": "La harpe",
+        "C": "La clarinette",
+        "D": "La trompette"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-128",
+      "difficulty": "medium",
+      "question": "Quel mot décrit l'ensemble des notes qui forment l'accompagnement d'une mélodie principale ?",
+      "options": {
+        "A": "Le rythme",
+        "B": "L'harmonie",
+        "C": "La coda",
+        "D": "Le timbre"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-129",
+      "difficulty": "medium",
+      "question": "Quel genre musical utilise souvent improvisation, sections de cuivres et rythme syncopé ?",
+      "options": {
+        "A": "Le jazz",
+        "B": "La musique classique",
+        "C": "La berceuse",
+        "D": "La comptine"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-130",
+      "difficulty": "medium",
+      "question": "Quel mot désigne la personne qui écrit la musique destinée à être jouée par d'autres ?",
+      "options": {
+        "A": "Le chef d'orchestre",
+        "B": "Le compositeur",
+        "C": "Le soliste",
+        "D": "Le public"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-131",
+      "difficulty": "medium",
+      "question": "Quel contexte culturel utilise chants et instruments pour célébrer une nation lors d'événements officiels ?",
+      "options": {
+        "A": "Un hymne national",
+        "B": "Une berceuse",
+        "C": "Une comptine",
+        "D": "Un solo"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-132",
+      "difficulty": "medium",
+      "question": "Quel mot décrit une pièce orchestrale longue composée de plusieurs mouvements distincts ?",
+      "options": {
+        "A": "Une symphonie",
+        "B": "Une comptine",
+        "C": "Un solo",
+        "D": "Une berceuse"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-133",
+      "difficulty": "medium",
+      "question": "Quel instrument à cordes se joue en pinçant et est souvent présent dans orchestres symphoniques ?",
+      "options": {
+        "A": "La harpe",
+        "B": "La trompette",
+        "C": "La flûte",
+        "D": "La grosse caisse"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-134",
+      "difficulty": "medium",
+      "question": "Quel mot décrit la partie d'une chanson qui sert d'introduction musicale répétée avant le chant ?",
+      "options": {
+        "A": "Le couplet",
+        "B": "L'intro",
+        "C": "La coda",
+        "D": "Le refrain"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-135",
+      "difficulty": "medium",
+      "question": "Quel instrument à cordes frottées est plus petit que le violoncelle et joue souvent l'alto ?",
+      "options": {
+        "A": "L'alto",
+        "B": "La contrebasse",
+        "C": "Le violon",
+        "D": "La mandoline"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-136",
+      "difficulty": "medium",
+      "question": "Quel compositeur classique a écrit de nombreuses symphonies et a influencé la musique occidentale ?",
+      "options": {
+        "A": "Beethoven",
+        "B": "Michael Jackson",
+        "C": "The Beatles",
+        "D": "Elvis Presley"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-137",
+      "difficulty": "medium",
+      "question": "Quel mot décrit la répétition d'une phrase musicale courte pour créer un motif reconnaissable ?",
+      "options": {
+        "A": "Le motif",
+        "B": "La coda",
+        "C": "Le silence",
+        "D": "L'orchestre"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-068",
+      "difficulty": "medium",
+      "question": "Quel instrument à vent produit souvent des sons doux et mélodieux dans un quatuor de bois ?",
+      "options": {
+        "A": "La clarinette",
+        "B": "La grosse caisse",
+        "C": "La trompette",
+        "D": "La cymbale"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-069",
+      "difficulty": "medium",
+      "question": "Quel mot décrit la partie d'une chanson que l'on chante ensemble et qui revient souvent ?",
+      "options": {
+        "A": "Le couplet",
+        "B": "Le refrain",
+        "C": "La coda",
+        "D": "L'intro"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-medium-070",
+      "difficulty": "medium",
+      "question": "Quel contexte musical rassemble musiciens pour jouer une œuvre devant un public attentif ?",
+      "options": {
+        "A": "Un concert",
+        "B": "Une partition",
+        "C": "Un studio",
+        "D": "Un enregistrement"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-067",
+      "difficulty": "hard",
+      "question": "Quelle période musicale privilégie l'ornementation, le contrepoint et l'usage fréquent du clavecin ?",
+      "options": {
+        "A": "Le Baroque",
+        "B": "Le Romantique",
+        "C": "Le Moderne",
+        "D": "Le Contemporain"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-068",
+      "difficulty": "hard",
+      "question": "Quelle période valorise la forme sonate, la clarté et l'équilibre des motifs musicaux ?",
+      "options": {
+        "A": "Le Baroque",
+        "B": "Le Classique",
+        "C": "Le Romantique",
+        "D": "Le Contemporain"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-069",
+      "difficulty": "hard",
+      "question": "Quelle époque met l'accent sur l'expression individuelle et l'orchestre élargi romantique ?",
+      "options": {
+        "A": "Le Classique",
+        "B": "Le Baroque",
+        "C": "Le Romantique",
+        "D": "Le Moderne"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-070",
+      "difficulty": "hard",
+      "question": "Quelle période du XXe siècle introduit la dissonance et l'expérimentation tonale systématique ?",
+      "options": {
+        "A": "Le Romantique",
+        "B": "Le Classique",
+        "C": "Le Moderne",
+        "D": "Le Baroque"
+      },
+      "answer": "C",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-071",
+      "difficulty": "hard",
+      "question": "Quelle période contemporaine se caractérise par l'électronique et la pluralité des styles musicaux ?",
+      "options": {
+        "A": "Le Contemporain",
+        "B": "Le Baroque",
+        "C": "Le Classique",
+        "D": "Le Romantique"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-072",
+      "difficulty": "hard",
+      "question": "Quel compositeur a écrit La Flûte enchantée, opéra emblématique du classicisme viennois ?",
+      "options": {
+        "A": "Ludwig van Beethoven",
+        "B": "Wolfgang Amadeus Mozart",
+        "C": "Joseph Haydn",
+        "D": "Franz Schubert"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-073",
+      "difficulty": "hard",
+      "question": "La Cinquième Symphonie, célèbre pour son motif d'ouverture, est l'œuvre de quel compositeur ?",
+      "options": {
+        "A": "Beethoven",
+        "B": "Mozart",
+        "C": "Haydn",
+        "D": "Brahms"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-074",
+      "difficulty": "hard",
+      "question": "Le Lac des cygnes est un ballet romantique composé par quel musicien russe célèbre ?",
+      "options": {
+        "A": "Tchaïkovski",
+        "B": "Rimsky-Korsakov",
+        "C": "Stravinsky",
+        "D": "Prokofiev"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-075",
+      "difficulty": "hard",
+      "question": "Quelle œuvre symphonique est souvent associée à l'idée de destin et de motif rythmique ?",
+      "options": {
+        "A": "La Cinquième de Beethoven",
+        "B": "Les Quatre Saisons",
+        "C": "La Neuvième de Mozart",
+        "D": "Le Sacre du printemps"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-076",
+      "difficulty": "hard",
+      "question": "Quel opéra combine éléments fantastiques et symboliques, souvent étudié au collège aujourd'hui ?",
+      "options": {
+        "A": "La Flûte enchantée",
+        "B": "Don Giovanni",
+        "C": "Les Noces de Figaro",
+        "D": "Cosi fan tutte"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-077",
+      "difficulty": "hard",
+      "question": "Le flamenco combine chant, guitare et danse ; de quelle région espagnole provient-il principalement ?",
+      "options": {
+        "A": "Andalousie",
+        "B": "Catalogne",
+        "C": "Galice",
+        "D": "Valence"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-078",
+      "difficulty": "hard",
+      "question": "Le blues est né dans quel pays et quel contexte social au tournant du XXe siècle ?",
+      "options": {
+        "A": "États-Unis, communautés afro-américaines du Sud",
+        "B": "Brésil, fêtes rurales",
+        "C": "Cuba, musique de rue",
+        "D": "Angleterre, scènes urbaines"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-079",
+      "difficulty": "hard",
+      "question": "Le gamelan indonésien accompagne souvent cérémonies et spectacles sur quelles îles principales ?",
+      "options": {
+        "A": "Bali et Java",
+        "B": "Sumatra et Sulawesi",
+        "C": "Bornéo et Lombok",
+        "D": "Timor et Flores"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-080",
+      "difficulty": "hard",
+      "question": "Quel terme technique désigne l'art d'assembler plusieurs voix indépendantes harmonieusement ?",
+      "options": {
+        "A": "Le contrepoint",
+        "B": "La coda",
+        "C": "La modulation",
+        "D": "La tessiture"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-081",
+      "difficulty": "hard",
+      "question": "Quelle forme musicale baroque développe un sujet par imitation et variations contrapuntiques ?",
+      "options": {
+        "A": "La fugue",
+        "B": "La sonate",
+        "C": "La symphonie",
+        "D": "Le lied"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-082",
+      "difficulty": "hard",
+      "question": "Quel terme désigne une pièce instrumentale en plusieurs mouvements pour soliste et orchestre ?",
+      "options": {
+        "A": "La sonate",
+        "B": "Le concerto",
+        "C": "La symphonie",
+        "D": "La fugue"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-083",
+      "difficulty": "hard",
+      "question": "Quel geste de jeu consiste à pincer les cordes d'un instrument à archet pour produire un son sec ?",
+      "options": {
+        "A": "Le legato",
+        "B": "Le pizzicato",
+        "C": "Le staccato",
+        "D": "Le portamento"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-084",
+      "difficulty": "hard",
+      "question": "Quel terme indique de lier les notes de façon fluide et continue, opposé au jeu détaché ?",
+      "options": {
+        "A": "Le legato",
+        "B": "Le pizzicato",
+        "C": "Le forte",
+        "D": "Le rubato"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-085",
+      "difficulty": "hard",
+      "question": "Quel instrument ancien à cordes pincées était central dans la musique de la Renaissance européenne ?",
+      "options": {
+        "A": "Le luth",
+        "B": "Le clavecin",
+        "C": "La viole",
+        "D": "La mandoline"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-086",
+      "difficulty": "hard",
+      "question": "Quel instrument à clavier baroque produit un son par cordes pincées et précède le piano moderne ?",
+      "options": {
+        "A": "Le clavecin",
+        "B": "L'orgue",
+        "C": "Le pianoforte",
+        "D": "Le virginal"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-087",
+      "difficulty": "hard",
+      "question": "Quel instrument électronique, joué sans contact, fut inventé au début du XXe siècle ?",
+      "options": {
+        "A": "Le theremin",
+        "B": "Le synthétiseur",
+        "C": "Le mellotron",
+        "D": "Les ondes Martenot"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-088",
+      "difficulty": "hard",
+      "question": "Quel instrument aborigène australien produit un drone profond par technique d'embouchure et résonance ?",
+      "options": {
+        "A": "Le didgeridoo",
+        "B": "La balalaïka",
+        "C": "Le kora",
+        "D": "Le oud"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-089",
+      "difficulty": "hard",
+      "question": "Quel métier consiste à fabriquer et réparer des instruments à cordes comme violons et guitares ?",
+      "options": {
+        "A": "Le luthier",
+        "B": "Le chef d'orchestre",
+        "C": "Le librettiste",
+        "D": "L'arrangeur"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-090",
+      "difficulty": "hard",
+      "question": "Quel professionnel écrit le texte chanté d'un opéra et collabore avec le compositeur musical ?",
+      "options": {
+        "A": "Le librettiste",
+        "B": "Le luthier",
+        "C": "Le chef d'orchestre",
+        "D": "Le soliste"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-091",
+      "difficulty": "hard",
+      "question": "Quel rôle organise répétitions, dirige l'orchestre et interprète la partition publiquement ?",
+      "options": {
+        "A": "Le chef d'orchestre",
+        "B": "Le compositeur",
+        "C": "Le luthier",
+        "D": "Le librettiste"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-092",
+      "difficulty": "hard",
+      "question": "Quel compositeur baroque italien a écrit Les Quatre Saisons, concertos pour violon célèbres ?",
+      "options": {
+        "A": "Antonio Vivaldi",
+        "B": "Johann Sebastian Bach",
+        "C": "George Frideric Handel",
+        "D": "Arcangelo Corelli"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-093",
+      "difficulty": "hard",
+      "question": "Quel compositeur allemand est célèbre pour ses fugues, cantates et concertos brandebourgeois baroques ?",
+      "options": {
+        "A": "Johann Sebastian Bach",
+        "B": "George Frideric Handel",
+        "C": "Antonio Vivaldi",
+        "D": "Henry Purcell"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-094",
+      "difficulty": "hard",
+      "question": "Quel compositeur français impressionniste a écrit des pièces évoquant l'eau et la lumière, comme Prélude ?",
+      "options": {
+        "A": "Claude Debussy",
+        "B": "Maurice Ravel",
+        "C": "Camille Saint-Saëns",
+        "D": "Gabriel Fauré"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-095",
+      "difficulty": "hard",
+      "question": "Quel compositeur russe a provoqué un scandale avec Le Sacre du printemps en 1913 à Paris ?",
+      "options": {
+        "A": "Tchaïkovski",
+        "B": "Stravinsky",
+        "C": "Rimsky-Korsakov",
+        "D": "Prokofiev"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-096",
+      "difficulty": "hard",
+      "question": "Quel terme décrit la répétition et le développement d'un motif musical court dans une œuvre ?",
+      "options": {
+        "A": "La cadence",
+        "B": "Le motif",
+        "C": "La coda",
+        "D": "La tessiture"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-097",
+      "difficulty": "hard",
+      "question": "Quel terme désigne la section finale ajoutée par le compositeur pour conclure un morceau musical ?",
+      "options": {
+        "A": "La coda",
+        "B": "L'intro",
+        "C": "Le motif",
+        "D": "La modulation"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-098",
+      "difficulty": "hard",
+      "question": "Quel instrument russe à cordes triangulaire est utilisé dans la musique folklorique et populaire ?",
+      "options": {
+        "A": "La balalaïka",
+        "B": "Le bayan",
+        "C": "Le domra",
+        "D": "La gusli"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-099",
+      "difficulty": "hard",
+      "question": "Quel instrument indien à cordes pincées est central dans la musique classique hindoustanie traditionnelle ?",
+      "options": {
+        "A": "Le sitar",
+        "B": "Le koto",
+        "C": "Le oud",
+        "D": "La kora"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-100",
+      "difficulty": "hard",
+      "question": "Quel compositeur hongrois a intégré le folklore dans ses œuvres et mené des recherches ethnomusicologiques ?",
+      "options": {
+        "A": "Béla Bartók",
+        "B": "Franz Liszt",
+        "C": "Zoltán Kodály",
+        "D": "Antonín Dvořák"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-101",
+      "difficulty": "hard",
+      "question": "Quel instrument à anche libre, proche de l'accordéon, est très utilisé dans la musique russe populaire ?",
+      "options": {
+        "A": "Le bayan",
+        "B": "La balalaïka",
+        "C": "Le domra",
+        "D": "La gusli"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-102",
+      "difficulty": "hard",
+      "question": "Quel compositeur polonais est célèbre pour ses nocturnes, mazurkas et études pianistiques virtuoses ?",
+      "options": {
+        "A": "Frédéric Chopin",
+        "B": "Franz Schubert",
+        "C": "Robert Schumann",
+        "D": "Felix Mendelssohn"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-103",
+      "difficulty": "hard",
+      "question": "Quel terme décrit l'imitation stricte d'une voix par une autre dans une texture polyphonique musicale ?",
+      "options": {
+        "A": "La fugue",
+        "B": "L'imitation",
+        "C": "La modulation",
+        "D": "La cadence"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-104",
+      "difficulty": "hard",
+      "question": "Quel instrument à cordes frottées a une tessiture plus grave que l'alto et soutient l'orchestre ?",
+      "options": {
+        "A": "La contrebasse",
+        "B": "Le violon",
+        "C": "L'alto",
+        "D": "Le violoncelle"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-105",
+      "difficulty": "hard",
+      "question": "Quel compositeur italien baroque a influencé le concerto et l'écriture virtuose pour violon ?",
+      "options": {
+        "A": "Antonio Vivaldi",
+        "B": "Arcangelo Corelli",
+        "C": "Alessandro Scarlatti",
+        "D": "Giovanni Gabrieli"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-106",
+      "difficulty": "hard",
+      "question": "Quel rôle transforme une œuvre écrite en arrangement adapté pour un orchestre ou ensemble différent ?",
+      "options": {
+        "A": "Le librettiste",
+        "B": "L'arrangeur",
+        "C": "Le luthier",
+        "D": "Le chef d'orchestre"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-107",
+      "difficulty": "hard",
+      "question": "Quel instrument rare à cordes métalliques est frappé par des maillets en Europe centrale ?",
+      "options": {
+        "A": "Le cymbalum",
+        "B": "Le clavecin",
+        "C": "Le santur",
+        "D": "Le qanun"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-108",
+      "difficulty": "hard",
+      "question": "Quel compositeur a écrit des poèmes symphoniques et a élargi la palette orchestrale romantique tardive ?",
+      "options": {
+        "A": "Gustav Mahler",
+        "B": "Antonio Vivaldi",
+        "C": "Johann Sebastian Bach",
+        "D": "Claudio Monteverdi"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-109",
+      "difficulty": "hard",
+      "question": "Quel terme décrit la technique d'écriture où plusieurs voix indépendantes s'entrelacent harmonieusement ?",
+      "options": {
+        "A": "Le contrepoint",
+        "B": "La modulation",
+        "C": "La coda",
+        "D": "La tessiture"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-110",
+      "difficulty": "hard",
+      "question": "Quel compositeur russe a composé des ballets célèbres comme Casse-Noisette et Le Lac des cygnes ?",
+      "options": {
+        "A": "Igor Stravinsky",
+        "B": "Piotr Ilitch Tchaïkovski",
+        "C": "Sergei Prokofiev",
+        "D": "Nikolai Rimsky-Korsakov"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-111",
+      "difficulty": "hard",
+      "question": "Quel instrument traditionnel japonais à cordes pincées accompagne souvent le théâtre et la poésie ?",
+      "options": {
+        "A": "Le koto",
+        "B": "Le shamisen",
+        "C": "Le biwa",
+        "D": "Le shakuhachi"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-112",
+      "difficulty": "hard",
+      "question": "Quel compositeur romantique allemand est célèbre pour ses lieder et sa sensibilité mélodique intime ?",
+      "options": {
+        "A": "Franz Schubert",
+        "B": "Johannes Brahms",
+        "C": "Felix Mendelssohn",
+        "D": "Robert Schumann"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-113",
+      "difficulty": "hard",
+      "question": "Quel terme musical désigne une modulation expressive du tempo, souvent utilisée par pianistes romantiques ?",
+      "options": {
+        "A": "Rubato",
+        "B": "Staccato",
+        "C": "Pizzicato",
+        "D": "Legato"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-114",
+      "difficulty": "hard",
+      "question": "Quel instrument à vent en bois est réputé pour sa sonorité sombre et son rôle soliste orchestral ?",
+      "options": {
+        "A": "Le basson",
+        "B": "La clarinette",
+        "C": "Le hautbois",
+        "D": "La flûte"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-115",
+      "difficulty": "hard",
+      "question": "Quel compositeur du XXe siècle a mêlé folklore et modernisme dans ses œuvres orchestrales ?",
+      "options": {
+        "A": "Béla Bartók",
+        "B": "Johann Sebastian Bach",
+        "C": "Antonio Vivaldi",
+        "D": "Claudio Monteverdi"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-116",
+      "difficulty": "hard",
+      "question": "Quel instrument asiatique à cordes pincées possède une table longue et plusieurs cordes accordées ?",
+      "options": {
+        "A": "Le guzheng",
+        "B": "Le sitar",
+        "C": "La balalaïka",
+        "D": "Le oud"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-117",
+      "difficulty": "hard",
+      "question": "Quel métier musical adapte une partition pour différents instruments ou crée de nouvelles orchestrations ?",
+      "options": {
+        "A": "Le luthier",
+        "B": "L'arrangeur",
+        "C": "Le librettiste",
+        "D": "Le chef d'orchestre"
+      },
+      "answer": "B",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-118",
+      "difficulty": "hard",
+      "question": "Quel compositeur français a écrit des œuvres impressionnistes évoquant paysages et couleurs sonores ?",
+      "options": {
+        "A": "Claude Debussy",
+        "B": "Maurice Ravel",
+        "C": "Camille Saint-Saëns",
+        "D": "Gabriel Fauré"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-119",
+      "difficulty": "hard",
+      "question": "Quel instrument traditionnel africain à cordes et calebasse résonnante est joué par griots conteurs ?",
+      "options": {
+        "A": "La kora",
+        "B": "La balalaïka",
+        "C": "Le sitar",
+        "D": "Le oud"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-120",
+      "difficulty": "hard",
+      "question": "Quel compositeur romantique russe a écrit des concertos pour piano d'une grande virtuosité lyrique ?",
+      "options": {
+        "A": "Rachmaninov",
+        "B": "Tchaïkovski",
+        "C": "Stravinsky",
+        "D": "Glinka"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-121",
+      "difficulty": "hard",
+      "question": "Quel terme décrit la technique d'écriture où une voix imite strictement une autre voix musicale ?",
+      "options": {
+        "A": "L'imitation",
+        "B": "La modulation",
+        "C": "La coda",
+        "D": "La cadence"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-122",
+      "difficulty": "hard",
+      "question": "Quel instrument ancien européen à cordes pincées était populaire à la Renaissance et accompagne chansons ?",
+      "options": {
+        "A": "Le luth",
+        "B": "Le clavecin",
+        "C": "La viole",
+        "D": "La mandoline"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-123",
+      "difficulty": "hard",
+      "question": "Quel compositeur romantique a écrit de nombreuses pièces pour piano explorant couleur et virtuosité ?",
+      "options": {
+        "A": "Frédéric Chopin",
+        "B": "Antonio Vivaldi",
+        "C": "Johann Sebastian Bach",
+        "D": "Claudio Monteverdi"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-124",
+      "difficulty": "hard",
+      "question": "Quel instrument d'Asie centrale est frappé ou pincé et possède une sonorité métallique brillante ?",
+      "options": {
+        "A": "Le santur",
+        "B": "Le sitar",
+        "C": "Le kora",
+        "D": "Le oud"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-125",
+      "difficulty": "hard",
+      "question": "Quel compositeur du XXe siècle a utilisé rythmes irréguliers et harmonies novatrices dans ses œuvres ?",
+      "options": {
+        "A": "Igor Stravinsky",
+        "B": "Johann Sebastian Bach",
+        "C": "Antonio Vivaldi",
+        "D": "George Frideric Handel"
+      },
+      "answer": "A",
+      "audioUrl": null
+    },
+    {
+      "id": "music-fr-hard-126",
+      "difficulty": "hard",
+      "question": "Quel professionnel prépare le texte chanté et collabore avec le compositeur d'un opéra ?",
+      "options": {
+        "A": "Le librettiste",
+        "B": "Le luthier",
+        "C": "Le chef d'orchestre",
+        "D": "L'arrangeur"
+      },
+      "answer": "A",
+      "audioUrl": null
     }
   ]
 }
