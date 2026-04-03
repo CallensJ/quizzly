@@ -20,7 +20,7 @@
 
 import { supabase } from './supabase';
 import { getDB, CACHE_TTL_MS } from './db';
-import type { Category, Difficulty, Locale, Question } from '@/types';
+import type { Category, Difficulty, Locale, MythSubcategory, Question } from '@/types';
 
 // ─── Imports statiques JSON locaux ────────────────────────────────────────────
 //
@@ -57,17 +57,19 @@ async function loadLocalJSON(
 
 // ─── Clé de cache ─────────────────────────────────────────────────────────────
 
-function cacheKey(category: Category, locale: Locale): string {
-  return `erudia-q-${category}-${locale}`;
+function cacheKey(category: Category, locale: Locale, subcategory?: MythSubcategory): string {
+  return subcategory
+    ? `erudia-q-${category}-${subcategory}-${locale}`
+    : `erudia-q-${category}-${locale}`;
 }
 
 // ─── Cache IndexedDB ──────────────────────────────────────────────────────────
 
-async function getCache(category: Category, locale: Locale): Promise<Question[] | null> {
+async function getCache(category: Category, locale: Locale, subcategory?: MythSubcategory): Promise<Question[] | null> {
   const db = getDB();
   if (!db) return null;
   try {
-    const entry = await db.questionCache.get(cacheKey(category, locale));
+    const entry = await db.questionCache.get(cacheKey(category, locale, subcategory));
     if (!entry) return null;
     // Cache expiré → retourne null pour forcer le fetch Supabase
     if (Date.now() - entry.cachedAt > CACHE_TTL_MS) return null;
@@ -77,23 +79,23 @@ async function getCache(category: Category, locale: Locale): Promise<Question[] 
   }
 }
 
-async function getStaleCache(category: Category, locale: Locale): Promise<Question[] | null> {
+async function getStaleCache(category: Category, locale: Locale, subcategory?: MythSubcategory): Promise<Question[] | null> {
   // Sans vérification TTL — utilisé comme fallback offline
   const db = getDB();
   if (!db) return null;
   try {
-    const entry = await db.questionCache.get(cacheKey(category, locale));
+    const entry = await db.questionCache.get(cacheKey(category, locale, subcategory));
     return entry?.questions ?? null;
   } catch {
     return null;
   }
 }
 
-async function setCache(category: Category, locale: Locale, questions: Question[]): Promise<void> {
+async function setCache(category: Category, locale: Locale, questions: Question[], subcategory?: MythSubcategory): Promise<void> {
   const db = getDB();
   if (!db) return;
   try {
-    await db.questionCache.put({ key: cacheKey(category, locale), questions, cachedAt: Date.now() });
+    await db.questionCache.put({ key: cacheKey(category, locale, subcategory), questions, cachedAt: Date.now() });
   } catch {
     // IndexedDB indisponible — silencieux (l'app fonctionne sans cache)
   }
@@ -110,6 +112,7 @@ interface QuestionRow {
   option_c: string;
   option_d: string;
   answer: string;
+  subcategory?: string | null;
 }
 
 function rowToQuestion(row: QuestionRow): Question {
@@ -124,6 +127,7 @@ function rowToQuestion(row: QuestionRow): Question {
       D: row.option_d,
     },
     answer: row.answer as Question['answer'],
+    ...(row.subcategory ? { subcategory: row.subcategory as MythSubcategory } : {}),
   };
 }
 
@@ -142,13 +146,15 @@ function getDifficultyPool(difficulty: Difficulty): Difficulty[] {
 
 /**
  * Récupère les questions pour une catégorie + locale donnée.
+ * Pour mythology : passer `subcategory` pour filtrer par civilisation.
  *
  * @throws Error si Supabase est inaccessible ET qu'il n'y a pas de cache
  */
 export async function fetchQuestions(
   category: Category,
   locale: Locale,
-  difficulty: Difficulty
+  difficulty: Difficulty,
+  subcategory?: MythSubcategory
 ): Promise<Question[]> {
   const diffPool = getDifficultyPool(difficulty);
 
@@ -157,21 +163,28 @@ export async function fetchQuestions(
   }
 
   // 1. Cache IndexedDB valide → retour immédiat (offline ou online)
-  const cached = await getCache(category, locale);
+  const cached = await getCache(category, locale, subcategory);
   if (cached) {
     const filtered = filterByPool(cached);
     if (filtered.length > 0) return filtered;
   }
 
-  // 2. Fetch Supabase — toutes les difficultés de ce (category, locale)
+  // 2. Fetch Supabase — toutes les difficultés de ce (category, locale[, subcategory])
   //    Un seul appel réseau → tout mis en cache pour les requêtes suivantes
   //    La RLS retourne 0 lignes (pas d'erreur explicite) si l'abonnement est inactif.
   try {
-    const { data, error } = await supabase
+    let query = supabase
       .from('questions')
-      .select('id, difficulty, question, option_a, option_b, option_c, option_d, answer')
+      .select('id, difficulty, question, option_a, option_b, option_c, option_d, answer, subcategory')
       .eq('category', category)
       .eq('locale', locale);
+
+    // Filtre sous-catégorie pour mythology
+    if (subcategory) {
+      query = query.eq('subcategory', subcategory);
+    }
+
+    const { data, error } = await query;
 
     if (error) throw new Error(error.message);
     // 0 lignes = catégorie premium sans abonnement actif (RLS silencieuse)
@@ -183,12 +196,12 @@ export async function fetchQuestions(
     }
 
     const questions = (data as QuestionRow[]).map(rowToQuestion);
-    await setCache(category, locale, questions);
+    await setCache(category, locale, questions, subcategory);
 
     return filterByPool(questions);
   } catch (fetchError) {
     // 3. Fallback : cache périmé (offline ou erreur réseau)
-    const stale = await getStaleCache(category, locale);
+    const stale = await getStaleCache(category, locale, subcategory);
     if (stale) return filterByPool(stale);
 
     // 4. Fallback : fichiers JSON locaux (src/data/questions/{locale}/{category}.json)
@@ -198,8 +211,11 @@ export async function fetchQuestions(
     try {
       const localQuestions = await loadLocalJSON(category, locale);
       if (localQuestions && localQuestions.length > 0) {
-        await setCache(category, locale, localQuestions);
-        return filterByPool(localQuestions);
+        await setCache(category, locale, localQuestions, subcategory);
+        return filterByPool(subcategory
+          ? localQuestions.filter((q) => q.subcategory === subcategory)
+          : localQuestions
+        );
       }
     } catch {
       // Fichier JSON local absent — erreur originale remontera

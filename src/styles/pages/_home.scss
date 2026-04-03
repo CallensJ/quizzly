@@ -277,6 +277,28 @@
       }
     }
 
+    // Carte "Bientôt disponible" pour abonnés premium — contenu pas encore prêt
+    // Visuel distinct du cadenas (non-premium) : rocket + opacité douce, non cliquable
+    &--coming-soon {
+      cursor: default;
+      pointer-events: none;
+      opacity: 0.60;
+      background: color-mix(in srgb, var(--cat-color) 5%, white);
+      border: 2px dashed color-mix(in srgb, var(--cat-color) 25%, transparent);
+
+      &:hover {
+        transform: none;
+        box-shadow: v.$shadow-sm;
+      }
+
+      // Badge 🚀 en haut-droite — repositionné en emoji, pas en icône Lucide
+      .home__cat-lock {
+        font-size: 0.85rem;
+        opacity: 1;
+        color: inherit;
+      }
+    }
+
     // Variante compacte pour les sous-cartes Langues
     &--langue {
       padding: v.$spacing-md v.$spacing-md;
@@ -705,6 +727,49 @@
 
     &__cta {
       margin-top: 0;
+    }
+  }
+
+  // ── Mythologie : carte parente + tiroir ─────────────────────────────────────
+
+  &__myth-wrapper {
+    // Occupe toute la largeur de la grille premium (1 colonne complète)
+    grid-column: 1 / -1;
+  }
+
+  &__myth-panel {
+    // Fond légèrement différencié du header de section
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 v.$radius-lg v.$radius-lg;
+    margin-top: -4px; // chevauche légèrement la carte parente
+    padding: 0.5rem;
+    animation: myth-panel-in 0.25s ease-out both;
+  }
+
+  &__myth-chevron {
+    color: rgba(255, 255, 255, 0.7);
+    transition: transform 0.2s ease;
+
+    &--open {
+      transform: rotate(180deg);
+    }
+  }
+
+  // Variante spéciale pour la carte Mythology (pleine largeur)
+  &__cat-card--myth {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: v.$spacing-md;
+    width: 100%;
+    padding: v.$spacing-md v.$spacing-lg;
+    border-radius: v.$radius-lg;
+
+    .home__cat-lock {
+      margin-left: auto;
+    }
+
+    .home__myth-chevron {
+      margin-left: auto;
     }
   }
 }

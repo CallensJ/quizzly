@@ -55,7 +55,20 @@
     "corpsHumain": "Human Body",
     "musique": "Music",
     "environnement": "Environment",
-    "dinosaures": "Dinosaurs"
+    "dinosaures": "Dinosaurs",
+    "mythPanelLabel": "Mythology sub-categories",
+    "mythGrecoRoman": "Greco-Roman",
+    "mythEgypt": "Egypt",
+    "mythNordic": "Norse",
+    "mythCeltic": "Celtic",
+    "mythAmerindian": "Native American",
+    "mythAsian": "Asian",
+    "mythAfrican": "African",
+    "mythLocked": "Locked",
+    "mythUnlockCorrect": "correct answers",
+    "mythUnlockSessions": "games",
+    "freeTag": "Free",
+    "comingSoonTag2": "Soon"
   },
   "quiz": {
     "question": "Question {current} / {total}",
@@ -384,7 +397,16 @@
     "badge": "Amazing! You earned a badge! 🏆",
     "finishLow": "Keep practising, you're getting there! 😊",
     "finishMid": "Great game! You're really improving! 🌟",
-    "finishHigh": "You're a champion! I'm so proud of you! 🎉"
+    "finishHigh": "You're a champion! I'm so proud of you! 🎉",
+    "curious": "Ooh, I love that avatar! 😍",
+    "excited": "Great to see you back! 🎉",
+    "sleeping": "Zzz... 💤",
+    "premiumHint": "This is a Premium category! ⭐",
+    "adminWelcome": "Welcome to your space! 👋",
+    "reportSent": "Report sent successfully! 📧",
+    "dashboardCurious": "Your child hasn't played yet! 🎮",
+    "dashboardStreak": "Great week for your child! 🔥",
+    "dashboardBadge": "Daily goal reached! 🏆"
   },
   "challenges": {
     "title": "Challenges",

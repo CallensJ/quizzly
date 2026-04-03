@@ -41,7 +41,7 @@ export default function QuizScreen() {
   const router = useRouter();
 
   const {
-    status, questions, currentIndex, score, selectedAnswer, category, difficulty,
+    status, questions, currentIndex, score, selectedAnswer, category, difficulty, subcategory,
     selectAnswer, nextQuestion, startQuestionTimer,
   } = useQuizStore();
 
@@ -177,7 +177,7 @@ export default function QuizScreen() {
   useEffect(() => {
     if (status === 'finished') {
       if (category && difficulty) {
-        addSession({ category, difficulty, score, totalQuestions: total });
+        addSession({ category, difficulty, score, totalQuestions: total, ...(subcategory ? { subcategory } : {}) });
         // Lecture synchrone du store après addSession — Zustand set() est synchrone
         const { sessions, earnedBadgeIds } = useProfileStore.getState();
         const newBadges = getNewlyEarnedBadges(sessions, earnedBadgeIds);

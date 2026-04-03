@@ -40,7 +40,8 @@ const securityHeaders = [
     value: [
       "default-src 'self'",
       // Scripts : self + Stripe.js (Checkout) + inline Next.js (hydration)
-      "script-src 'self' 'unsafe-inline' https://js.stripe.com",
+      // 'unsafe-eval' requis en dev : React l'utilise pour reconstruire les call stacks
+      `script-src 'self' 'unsafe-inline'${process.env.NODE_ENV === "development" ? " 'unsafe-eval'" : ""} https://js.stripe.com`,
       // Styles : self + Google Fonts + inline (Framer Motion + SCSS)
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       // Fonts : Google Fonts uniquement

@@ -165,6 +165,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
         {children}
       </div>
 
+
     </div>
   );
 }

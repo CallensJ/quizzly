@@ -12,13 +12,27 @@
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
-// Identifiants de catégorie — correspondent aux noms de fichiers JSON (data/questions/{lang}/{category}.json)
+// Identifiants de catégorie — correspondent aux valeurs stockées en base Supabase
 // Catégories gratuites : sciences, histoire, heroes
-// Catégories premium avec contenu disponible : math, sport, geographie, francais
-export type Category = 'sciences' | 'histoire' | 'heroes' | 'math' | 'sport' | 'geographie' | 'francais';
+// Catégories premium avec contenu disponible : math, sport, geographie, francais, mythology
+export type Category =
+  | 'sciences' | 'histoire' | 'heroes'
+  | 'math' | 'sport' | 'geographie' | 'francais'
+  | 'mythology'; // catégorie parente — jouée via une sous-catégorie (MythSubcategory)
+
+// Sous-catégories de Mythology — chaque civilisation est une sous-catégorie indépendante
+// La valeur correspond au champ `subcategory` en base Supabase
+export type MythSubcategory =
+  | 'greco-roman'   // Greco-Romaine — GRATUITE (aperçu freemium)
+  | 'egypt'         // Égyptienne
+  | 'nordic'        // Nordique
+  | 'celtic'        // Celtique & légendes arthuriennes
+  | 'amerindian'    // Amérindienne & Maya
+  | 'asian'         // Asiatique (Chine · Japon · Inde)
+  | 'african';      // Africaine
 
 // Catégories ayant des objectifs de score configurables (gratuites jouables)
-export type GoalCategory = Exclude<Category, 'math'>;
+export type GoalCategory = Exclude<Category, 'math' | 'mythology'>;
 
 // ─── Objectifs par catégorie ───────────────────────────────────────────────────
 
@@ -54,6 +68,8 @@ export interface Profile {
 
 export interface QuizSession {
   category: Category;
+  /** Sous-catégorie — uniquement pour category='mythology'. Rétro-compat : absent sur sessions existantes. */
+  subcategory?: MythSubcategory;
   difficulty: Difficulty;
   score: number;
   totalQuestions: number;
@@ -75,6 +91,8 @@ export interface Question {
     D: string;
   };
   answer: AnswerKey;    // lettre de la bonne réponse
+  /** Sous-catégorie — présent uniquement pour les questions de mythology */
+  subcategory?: MythSubcategory;
 }
 
 export interface QuestionFile {

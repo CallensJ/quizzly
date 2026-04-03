@@ -1,0 +1,15 @@
+{
+  "id": "myth-egypt-fr-easy-001",
+  "category": "mythology",
+  "subcategory": "egypt",
+  "locale": "fr",
+  "difficulty": "easy",
+  "question": "Quel animal représente le dieu Anubis ?",
+  "options": {
+    "A": "Le chacal",
+    "B": "Le crocodile",
+    "C": "Le chat",
+    "D": "L'ibis"
+  },
+  "answer": "A"
+}

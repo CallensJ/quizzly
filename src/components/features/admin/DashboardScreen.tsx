@@ -17,7 +17,7 @@
  * Librairie graphes : Recharts (déjà installée pour StatsScreen)
  */
 
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import RecommendationsSection from '@/components/features/recommendations/RecommendationsSection';
 import GoalTrackerSection from './GoalTrackerSection';
@@ -25,6 +25,7 @@ import { ArrowLeft, TrendingUp, Gamepad2, Star, Flame, BarChart3 } from 'lucide-
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { getGoalStatus } from '@/lib/goals';
+import { useNovaPresence } from '@/hooks/useNovaPresence';
 import type { Category } from '@/types';
 import {
   LineChart,
@@ -123,13 +124,50 @@ function groupByWeek(sessions: ReturnType<typeof useProfileStore.getState>['sess
 
 export default function DashboardScreen() {
   const t       = useTranslations('dashboard');
+  const tNova   = useTranslations('nova');
   const router  = useRouter();
   const profile       = useProfileStore((s) => s.profile);
   const sessions      = useProfileStore((s) => s.sessions);
   const dailyStreak   = useProfileStore((s) => s.dailyStreak);
+  const dailyGoal     = useProfileStore((s) => s.dailyGoal);
   const categoryGoals = useProfileStore((s) => s.categoryGoals);
+  const { showNova, hideNova } = useNovaPresence();
 
   const [period, setPeriod] = useState<Period>('30j');
+
+  // ── Nova : état contextuel au montage ─────────────────────────────────────
+  // Priorité : badge (objectif atteint) > streak (bonne semaine) > curious (0 sessions)
+  useEffect(() => {
+    if (sessions.length === 0) {
+      showNova('curious', tNova('dashboardCurious'), 4000);
+      return () => hideNova();
+    }
+
+    // Objectif journalier atteint aujourd'hui ?
+    if (dailyGoal && dailyGoal > 0) {
+      const today = new Date().toDateString();
+      const todayCorrect = sessions
+        .filter((s) => new Date(s.playedAt).toDateString() === today)
+        .reduce((acc, s) => acc + s.score, 0);
+      if (todayCorrect >= dailyGoal) {
+        showNova('badge', tNova('dashboardBadge'), 5000);
+        return () => hideNova();
+      }
+    }
+
+    // Bonne semaine : ≥ 3 sessions dans les 7 derniers jours
+    const weekAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
+    const thisWeekCount = sessions.filter(
+      (s) => new Date(s.playedAt).getTime() > weekAgo
+    ).length;
+    if (thisWeekCount >= 3) {
+      showNova('streak', tNova('dashboardStreak'), 4000);
+      return () => hideNova();
+    }
+
+    return () => hideNova();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // ── Filtrage sessions par période ─────────────────────────────────────────
   const filteredSessions = useMemo(() => {

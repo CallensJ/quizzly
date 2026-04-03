@@ -14,12 +14,12 @@
  * Pas de validation email/nom réel (conformité COPPA).
  */
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { syncProfile } from '@/lib/sync';
-import Nova from '@/components/ui/Nova';
+import { useNovaPresence } from '@/hooks/useNovaPresence';
 import type { Locale } from '@/types';
 import { FREE_SEEDS, FREE_STYLE, buildAvatarUrl } from '@/lib/avatars';
 
@@ -31,12 +31,17 @@ export default function OnboardingScreen() {
   const pathname = usePathname();
   const createProfile = useProfileStore((s) => s.createProfile);
   const setLocale = useProfileStore((s) => s.setLocale);
+  const { showNova, hideNova } = useNovaPresence();
 
   const [pseudo, setPseudo] = useState('');
   const [avatarId, setAvatarId] = useState<string | null>(null);
 
-  // Nova : accueil à l'arrivée sur l'écran, disparaît après 3s
-  const [novaVisible, setNovaVisible] = useState(true);
+  // Nova : welcome à l'arrivée (3s), puis disparaît
+  useEffect(() => {
+    showNova('welcome', tNova('welcome'), 3000);
+    return () => hideNova();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Le CTA n'est actif que si pseudo + avatar sont remplis
   const canSubmit = pseudo.trim().length >= 2 && avatarId !== null;
@@ -69,15 +74,6 @@ export default function OnboardingScreen() {
 
   return (
     <div className="onboarding">
-
-      {/* Nova accueille l'enfant à l'arrivée — overlay bas-droite, disparaît après 3s */}
-      <Nova
-        state="welcome"
-        message={tNova('welcome')}
-        visible={novaVisible}
-        onHide={() => setNovaVisible(false)}
-        duration={3000}
-      />
 
       <header className="onboarding__header">
         {/* Toggle langue — accessible dès l'onboarding (contrainte MVP 1) */}
@@ -124,7 +120,11 @@ export default function OnboardingScreen() {
                 type="button"
                 data-testid={`avatar-${seed}`}
                 className={`onboarding__avatar-btn${avatarId === seed ? ' onboarding__avatar-btn--active' : ''}`}
-                onClick={() => setAvatarId(seed)}
+                onClick={() => {
+                  setAvatarId(seed);
+                  // Nova réagit à la sélection d'avatar — état curious, 2s
+                  showNova('curious', tNova('curious'), 2000);
+                }}
                 aria-label={seed}
                 aria-pressed={avatarId === seed}
               >

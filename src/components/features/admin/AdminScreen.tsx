@@ -21,7 +21,7 @@
  *   - DangerZone           — reset / suppression
  */
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import {
   ArrowLeft,
@@ -35,6 +35,7 @@ import { useRouter } from "@/i18n/navigation";
 import { useProfileStore } from "@/stores/profileStore";
 import { useAuthStore } from "@/stores/authStore";
 import { signOut } from "@/lib/auth";
+import { useNovaPresence } from "@/hooks/useNovaPresence";
 import ReportSection from "./ReportSection";
 import GoalsSection from "./GoalsSection";
 import SubscriptionSection from "./SubscriptionSection";
@@ -47,7 +48,9 @@ const GOAL_OPTIONS = [0, 5, 10, 15, 20, 30];
 
 export default function AdminScreen() {
   const t = useTranslations("admin");
+  const tNova = useTranslations("nova");
   const router = useRouter();
+  const { showNova, hideNova } = useNovaPresence();
 
   const profile = useProfileStore((s) => s.profile);
   const sessions = useProfileStore((s) => s.sessions);
@@ -62,6 +65,13 @@ export default function AdminScreen() {
   const setDailyGoal = useProfileStore((s) => s.setDailyGoal);
   const resetProgress = useProfileStore((s) => s.resetProgress);
   const deleteProfile = useProfileStore((s) => s.deleteProfile);
+
+  // Nova : welcome à l'entrée de l'espace parent (3s)
+  useEffect(() => {
+    showNova('welcome', tNova('adminWelcome'), 3000);
+    return () => hideNova();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // ── État UI ─────────────────────────────────────────────────────────────────
   const [goalFeedback, setGoalFeedback] = useState(false);

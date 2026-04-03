@@ -5,6 +5,7 @@ import { getMessages } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import AuthProvider from "@/components/features/auth/AuthProvider";
+import NovaProvider from "@/components/mascotte/NovaProvider";
 import "../globals.scss";
 
 const nunito = Nunito({
@@ -83,6 +84,8 @@ export default async function LocaleLayout({
           {/* AuthProvider initialise la session Supabase Auth au montage */}
           <AuthProvider>
             {children}
+            {/* NovaProvider rend NovaMascot globalement sur toutes les pages */}
+            <NovaProvider />
           </AuthProvider>
         </NextIntlClientProvider>
       </body>

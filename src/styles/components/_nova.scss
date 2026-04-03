@@ -1,57 +1,134 @@
 // src/styles/components/_nova.scss
 //
-// Mascotte Nova — toujours en position fixed (bas-droite).
+// Mascotte Nova v2 — position fixed bas-droite (NovaMascot) + overlay centré (NovaOverlay).
 // Ne touche jamais au flux du document → zéro décalage de layout.
 //
-// TODO : remplacer les PNG par des SVG pour gérer le fond transparent proprement.
+// 8 keyframes d'animation : breathing, bounce-in, wiggle, head-tilt, jump, shake, pulse, exit-fade
+// Classes d'état : .nova--breathing, .nova--bounce-in, .nova--wiggle, etc.
 
 @use "../abstracts/variables" as v;
 
-// ── Animations ────────────────────────────────────────────────────────────
+// ── Keyframes ─────────────────────────────────────────────────────────────
 
-// Mascotte : rebond élastique façon jouet
-@keyframes nova-pop {
-    0% {
-        transform: scale(0) rotate(-8deg);
-        opacity: 0;
-    }
-    60% {
-        transform: scale(1.12) rotate(3deg);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1) rotate(0deg);
-        opacity: 1;
-    }
+// 1. Respiration douce — idle, sleeping
+@keyframes nova-breathing {
+    0%, 100% { transform: scale(1) translateY(0); }
+    50%       { transform: scale(1.04) translateY(-3px); }
 }
 
-// Bulle : scale depuis le coin bas-droite (ancrage = mascotte) //ok
+// 2. Entrée rebond élastique — welcome, excited
+@keyframes nova-bounce-in {
+    0%   { transform: scale(0) rotate(-8deg); opacity: 0; }
+    60%  { transform: scale(1.15) rotate(3deg); opacity: 1; }
+    100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+// 3. Tressautement — correct, streak
+@keyframes nova-wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    20%       { transform: rotate(-10deg) scale(1.1); }
+    40%       { transform: rotate(10deg) scale(1.1); }
+    60%       { transform: rotate(-6deg); }
+    80%       { transform: rotate(6deg); }
+}
+
+// 4. Inclinaison tête — curious
+@keyframes nova-head-tilt {
+    0%, 100% { transform: rotate(0deg); }
+    30%       { transform: rotate(-12deg); }
+    70%       { transform: rotate(8deg); }
+}
+
+// 5. Saut — excited
+@keyframes nova-jump {
+    0%, 100% { transform: translateY(0) scale(1); }
+    30%       { transform: translateY(-18px) scale(1.08); }
+    60%       { transform: translateY(-8px) scale(1.03); }
+}
+
+// 6. Secousse — wrong
+@keyframes nova-shake {
+    0%, 100% { transform: translateX(0); }
+    20%       { transform: translateX(-8px) rotate(-4deg); }
+    40%       { transform: translateX(8px) rotate(4deg); }
+    60%       { transform: translateX(-5px) rotate(-2deg); }
+    80%       { transform: translateX(5px) rotate(2deg); }
+}
+
+// 7. Pulsation — badge, grateful
+@keyframes nova-pulse {
+    0%, 100% { transform: scale(1); }
+    40%       { transform: scale(1.18); }
+    70%       { transform: scale(0.95); }
+}
+
+// 8. Sortie fondue — dismiss
+@keyframes nova-exit-fade {
+    from { opacity: 1; transform: scale(1); }
+    to   { opacity: 0; transform: scale(0.85) translateY(10px); }
+}
+
+// ── Entrée bulle ───────────────────────────────────────────────────────────
+
 @keyframes nova-bubble-in {
-    from {
-        transform: scale(0);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
+    from { transform: scale(0); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
 }
 
-// ── Conteneur principal ───────────────────────────────────────────────────
+// ── Conteneur principal (NovaMascot) ──────────────────────────────────────
 
 .nova {
-    // Position fixed : hors flux, ne déplace jamais le contenu
     position: fixed;
     bottom: v.$spacing-xl;
     right: v.$spacing-lg;
     z-index: 200;
 
     display: flex;
-    flex-direction: column; // bulle au-dessus, mascotte en bas
+    flex-direction: column;
     align-items: flex-end;
     gap: v.$spacing-xs;
 
-    animation: nova-pop 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    // Nova ne bloque jamais l'UI sous-jacente
+    pointer-events: none;
+
+    // Entrée par défaut
+    animation: nova-bounce-in 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+// ── Classes d'animation par état ──────────────────────────────────────────
+
+.nova--breathing {
+    animation: nova-bounce-in 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both,
+               nova-breathing 3s 0.5s ease-in-out infinite;
+}
+
+.nova--bounce-in {
+    animation: nova-bounce-in 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.nova--wiggle {
+    animation: nova-bounce-in 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both,
+               nova-wiggle 0.6s 0.3s ease-in-out;
+}
+
+.nova--head-tilt {
+    animation: nova-bounce-in 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both,
+               nova-head-tilt 1s 0.4s ease-in-out infinite;
+}
+
+.nova--jump {
+    animation: nova-bounce-in 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both,
+               nova-jump 0.7s 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+}
+
+.nova--shake {
+    animation: nova-bounce-in 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both,
+               nova-shake 0.6s 0.3s ease-in-out;
+}
+
+.nova--pulse {
+    animation: nova-bounce-in 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both,
+               nova-pulse 1.2s 0.4s ease-in-out infinite;
 }
 
 // ── Bulle de texte ────────────────────────────────────────────────────────
@@ -59,7 +136,7 @@
 .nova__bubble {
     background: v.$white;
     padding: v.$spacing-sm v.$spacing-md;
-    border-radius: v.$radius-md v.$radius-md 0 v.$radius-md; // pointe bas-droite vers mascotte
+    border-radius: v.$radius-md v.$radius-md 0 v.$radius-md;
     box-shadow: v.$shadow-md;
     font-family: v.$font-primary;
     font-size: v.$font-size-sm;
@@ -67,6 +144,9 @@
     color: v.$foreground;
     max-width: 180px;
     line-height: 1.5;
+
+    // La bulle peut recevoir des clics (lien tap-to-dismiss)
+    pointer-events: auto;
 
     transform-origin: bottom right;
     animation: nova-bubble-in 0.3s 0.1s cubic-bezier(0.34, 1.56, 0.64, 1) both;
@@ -79,4 +159,65 @@
     height: 110px;
     object-fit: contain;
     filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.18));
+}
+
+// ── Overlay plein écran (NovaOverlay) ─────────────────────────────────────
+
+.nova-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(2px);
+
+    animation: nova-bubble-in 0.25s ease both;
+}
+
+.nova-overlay__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: v.$spacing-md;
+
+    animation: nova-bounce-in 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.nova-overlay__img {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.25));
+    animation: nova-pulse 1.4s ease-in-out infinite;
+}
+
+.nova-overlay__bubble {
+    // Override : la bulle est centrée dans l'overlay, pas ancrée à droite
+    border-radius: v.$radius-md;
+    max-width: 240px;
+    text-align: center;
+    transform-origin: center bottom;
+}
+
+.nova-overlay__dismiss {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    color: v.$white;
+    font-size: 0.75rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.35);
+    }
 }

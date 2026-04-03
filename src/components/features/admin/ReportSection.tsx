@@ -20,8 +20,9 @@
  *     l'Edge Function send-report pour les profils concernés
  */
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import { useNovaPresence } from '@/hooks/useNovaPresence';
 import { FileText, Send, Calendar, Loader } from 'lucide-react';
 import { useProfileStore } from '@/stores/profileStore';
 import { buildReportData, type ReportSchedule } from '@/lib/report';
@@ -40,6 +41,8 @@ const SCHEDULE_OPTIONS: { value: ReportSchedule; labelKey: string }[] = [
 
 export default function ReportSection() {
   const t = useTranslations('admin');
+  const tNova = useTranslations('nova');
+  const { showNova } = useNovaPresence();
 
   // Store Zustand — données sources du rapport
   const profile          = useProfileStore((s) => s.profile);
@@ -57,6 +60,14 @@ export default function ReportSection() {
   const [downloadStatus, setDownloadStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
   const [sendStatus,     setSendStatus]     = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
   const [scheduleSaved,  setScheduleSaved]  = useState(false);
+
+  // Nova : correct + confirmation après envoi email réussi
+  useEffect(() => {
+    if (sendStatus === 'done') {
+      showNova('correct', tNova('reportSent'), 3000);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sendStatus]);
 
   // ── Génération des données du rapport ────────────────────────────────────────
 

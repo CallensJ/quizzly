@@ -7,7 +7,7 @@
 //        finished → (resetQuiz) → idle
 
 import { create } from 'zustand';
-import type { Category, Difficulty, Question, AnswerKey, QuizStatus } from '@/types';
+import type { Category, Difficulty, MythSubcategory, Question, AnswerKey, QuizStatus } from '@/types';
 
 // Nombre de questions par partie (fixe pour MVP 1)
 const QUESTIONS_PER_GAME = 20;
@@ -16,6 +16,8 @@ interface QuizState {
   // ── Sélections de l'écran Home ──────────────────────────────────────────────
   category: Category | null;
   difficulty: Difficulty | null;
+  /** Sous-catégorie active — uniquement pour category='mythology'. */
+  subcategory: MythSubcategory | null;
 
   // ── Déroulement de la partie ─────────────────────────────────────────────────
   status: QuizStatus;
@@ -43,6 +45,7 @@ interface QuizState {
   // ── Actions ───────────────────────────────────────────────────────────────────
   setCategory: (category: Category) => void;
   setDifficulty: (difficulty: Difficulty) => void;
+  setSubcategory: (subcategory: MythSubcategory | null) => void;
 
   /**
    * Démarre une partie. Reçoit le pool complet filtré (catégorie + difficulté)
@@ -137,6 +140,7 @@ function shuffleOptions(question: Question): Question {
 export const useQuizStore = create<QuizState>()((set, get) => ({
   category: null,
   difficulty: null,
+  subcategory: null,
   status: 'idle',
   questions: [],
   currentIndex: 0,
@@ -147,9 +151,11 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
   questionStartTime: null,
   totalTimeMs: 0,
 
-  setCategory: (category) => set({ category }),
+  setCategory: (category) => set({ category, subcategory: null }),
 
   setDifficulty: (difficulty) => set({ difficulty }),
+
+  setSubcategory: (subcategory) => set({ subcategory }),
 
   startQuiz: (pool) => {
     const questions = sampleRandom(pool, Math.min(QUESTIONS_PER_GAME, pool.length))
