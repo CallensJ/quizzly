@@ -1,1 +1,1202 @@
-[]
+[
+  {
+    "id": "fra-en-0001",
+    "difficulty": "easy",
+    "question": "Which French word means 'hello' used during the day?",
+    "options": {
+      "A": "bonjour",
+      "B": "bonne nuit",
+      "C": "au revoir",
+      "D": "merci"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0002",
+    "difficulty": "easy",
+    "question": "What is the French number for 1?",
+    "options": {
+      "A": "deux",
+      "B": "un",
+      "C": "trois",
+      "D": "zéro"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0003",
+    "difficulty": "easy",
+    "question": "Which French word means 'good night'?",
+    "options": {
+      "A": "salut",
+      "B": "bonjour",
+      "C": "bonne nuit",
+      "D": "s'il vous plaît"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "fra-en-0004",
+    "difficulty": "easy",
+    "question": "What color is 'rouge' in English?",
+    "options": {
+      "A": "red",
+      "B": "blue",
+      "C": "green",
+      "D": "yellow"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0005",
+    "difficulty": "easy",
+    "question": "Which French word means 'please'?",
+    "options": {
+      "A": "merci",
+      "B": "s'il vous plaît",
+      "C": "au revoir",
+      "D": "bonjour"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0006",
+    "difficulty": "easy",
+    "question": "What is 'deux' in English?",
+    "options": {
+      "A": "three",
+      "B": "two",
+      "C": "one",
+      "D": "four"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0007",
+    "difficulty": "easy",
+    "question": "Which French word means 'goodbye'?",
+    "options": {
+      "A": "salut",
+      "B": "bonjour",
+      "C": "au revoir",
+      "D": "merci"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "fra-en-0008",
+    "difficulty": "easy",
+    "question": "What is the French word for 'blue'?",
+    "options": {
+      "A": "vert",
+      "B": "bleu",
+      "C": "noir",
+      "D": "gris"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0009",
+    "difficulty": "easy",
+    "question": "Which day is 'lundi' in English?",
+    "options": {
+      "A": "Monday",
+      "B": "Tuesday",
+      "C": "Sunday",
+      "D": "Friday"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0010",
+    "difficulty": "easy",
+    "question": "What is 'trois' in English?",
+    "options": {
+      "A": "three",
+      "B": "five",
+      "C": "two",
+      "D": "four"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0011",
+    "difficulty": "easy",
+    "question": "Which French word means 'thank you'?",
+    "options": {
+      "A": "s'il vous plaît",
+      "B": "merci",
+      "C": "salut",
+      "D": "bonjour"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0012",
+    "difficulty": "easy",
+    "question": "What is the French word for 'green'?",
+    "options": {
+      "A": "jaune",
+      "B": "gris",
+      "C": "vert",
+      "D": "rose"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "fra-en-0013",
+    "difficulty": "easy",
+    "question": "Which month is 'janvier' in English?",
+    "options": {
+      "A": "June",
+      "B": "January",
+      "C": "March",
+      "D": "September"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0014",
+    "difficulty": "easy",
+    "question": "What is 'quatre' in English?",
+    "options": {
+      "A": "four",
+      "B": "six",
+      "C": "two",
+      "D": "five"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0015",
+    "difficulty": "easy",
+    "question": "Which French word means 'hello' in an informal way?",
+    "options": {
+      "A": "salut",
+      "B": "au revoir",
+      "C": "bonne nuit",
+      "D": "merci"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0016",
+    "difficulty": "easy",
+    "question": "What color is 'jaune' in English?",
+    "options": {
+      "A": "purple",
+      "B": "yellow",
+      "C": "black",
+      "D": "white"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0017",
+    "difficulty": "easy",
+    "question": "Which day is 'dimanche' in English?",
+    "options": {
+      "A": "Saturday",
+      "B": "Sunday",
+      "C": "Wednesday",
+      "D": "Thursday"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0018",
+    "difficulty": "easy",
+    "question": "What is the French number for 10?",
+    "options": {
+      "A": "dix",
+      "B": "neuf",
+      "C": "onze",
+      "D": "huit"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0019",
+    "difficulty": "easy",
+    "question": "Which French word means 'black'?",
+    "options": {
+      "A": "blanc",
+      "B": "gris",
+      "C": "noir",
+      "D": "rose"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "fra-en-0020",
+    "difficulty": "easy",
+    "question": "What is 'sept' in English?",
+    "options": {
+      "A": "seven",
+      "B": "six",
+      "C": "eight",
+      "D": "nine"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0021",
+    "difficulty": "easy",
+    "question": "Which season is 'été' in English?",
+    "options": {
+      "A": "spring",
+      "B": "autumn",
+      "C": "summer",
+      "D": "winter"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "fra-en-0022",
+    "difficulty": "easy",
+    "question": "What is the French word for 'white'?",
+    "options": {
+      "A": "noir",
+      "B": "blanc",
+      "C": "bleu",
+      "D": "vert"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0023",
+    "difficulty": "easy",
+    "question": "Which month is 'décembre' in English?",
+    "options": {
+      "A": "December",
+      "B": "April",
+      "C": "August",
+      "D": "October"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0024",
+    "difficulty": "easy",
+    "question": "What is 'neuf' in English?",
+    "options": {
+      "A": "nine",
+      "B": "eleven",
+      "C": "seven",
+      "D": "ten"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0025",
+    "difficulty": "easy",
+    "question": "Which French word means 'orange' (the color)?",
+    "options": {
+      "A": "orange",
+      "B": "marron",
+      "C": "violet",
+      "D": "gris"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0026",
+    "difficulty": "easy",
+    "question": "What is 'huit' in English?",
+    "options": {
+      "A": "six",
+      "B": "eight",
+      "C": "five",
+      "D": "nine"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0027",
+    "difficulty": "easy",
+    "question": "Which day is 'mercredi' in English?",
+    "options": {
+      "A": "Wednesday",
+      "B": "Monday",
+      "C": "Friday",
+      "D": "Sunday"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0028",
+    "difficulty": "easy",
+    "question": "What is the French word for 'pink'?",
+    "options": {
+      "A": "rose",
+      "B": "vert",
+      "C": "noir",
+      "D": "bleu"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0029",
+    "difficulty": "easy",
+    "question": "Which month is 'mars' in English?",
+    "options": {
+      "A": "May",
+      "B": "March",
+      "C": "June",
+      "D": "November"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0030",
+    "difficulty": "easy",
+    "question": "What is 'onze' in English?",
+    "options": {
+      "A": "twelve",
+      "B": "eleven",
+      "C": "ten",
+      "D": "thirteen"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0031",
+    "difficulty": "easy",
+    "question": "Which French word means 'gray'?",
+    "options": {
+      "A": "gris",
+      "B": "rouge",
+      "C": "jaune",
+      "D": "bleu"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0032",
+    "difficulty": "easy",
+    "question": "What is 'douze' in English?",
+    "options": {
+      "A": "eleven",
+      "B": "twelve",
+      "C": "thirteen",
+      "D": "ten"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0033",
+    "difficulty": "easy",
+    "question": "Which day is 'samedi' in English?",
+    "options": {
+      "A": "Thursday",
+      "B": "Saturday",
+      "C": "Tuesday",
+      "D": "Sunday"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0034",
+    "difficulty": "easy",
+    "question": "What is the French word for 'purple'?",
+    "options": {
+      "A": "violet",
+      "B": "vert",
+      "C": "noir",
+      "D": "orange"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0035",
+    "difficulty": "easy",
+    "question": "Which month is 'juillet' in English?",
+    "options": {
+      "A": "June",
+      "B": "July",
+      "C": "May",
+      "D": "September"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0036",
+    "difficulty": "easy",
+    "question": "What is 'treize' in English?",
+    "options": {
+      "A": "thirteen",
+      "B": "twelve",
+      "C": "fourteen",
+      "D": "eleven"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0037",
+    "difficulty": "easy",
+    "question": "Which French word means 'brown' (commonly used for color)?",
+    "options": {
+      "A": "marron",
+      "B": "rose",
+      "C": "blanc",
+      "D": "gris"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0038",
+    "difficulty": "easy",
+    "question": "What is 'quatorze' in English?",
+    "options": {
+      "A": "fourteen",
+      "B": "fifteen",
+      "C": "thirteen",
+      "D": "sixteen"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0039",
+    "difficulty": "easy",
+    "question": "Which month is 'avril' in English?",
+    "options": {
+      "A": "April",
+      "B": "August",
+      "C": "December",
+      "D": "February"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0040",
+    "difficulty": "easy",
+    "question": "What is 'quinze' in English?",
+    "options": {
+      "A": "fifteen",
+      "B": "fourteen",
+      "C": "sixteen",
+      "D": "thirteen"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0041",
+    "difficulty": "easy",
+    "question": "Which French word means 'spring' (the season)?",
+    "options": {
+      "A": "hiver",
+      "B": "printemps",
+      "C": "été",
+      "D": "automne"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0042",
+    "difficulty": "easy",
+    "question": "What is 'seize' in English?",
+    "options": {
+      "A": "seventeen",
+      "B": "sixteen",
+      "C": "fifteen",
+      "D": "eighteen"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0043",
+    "difficulty": "easy",
+    "question": "Which month is 'septembre' in English?",
+    "options": {
+      "A": "September",
+      "B": "November",
+      "C": "March",
+      "D": "June"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0044",
+    "difficulty": "easy",
+    "question": "What is 'dix-sept' in English?",
+    "options": {
+      "A": "seventeen",
+      "B": "nineteen",
+      "C": "sixteen",
+      "D": "eighteen"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0045",
+    "difficulty": "easy",
+    "question": "Which French word means 'Saturday'?",
+    "options": {
+      "A": "vendredi",
+      "B": "samedi",
+      "C": "mardi",
+      "D": "jeudi"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0046",
+    "difficulty": "easy",
+    "question": "What is 'dix-huit' in English?",
+    "options": {
+      "A": "eighteen",
+      "B": "seventeen",
+      "C": "nineteen",
+      "D": "twenty"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0047",
+    "difficulty": "easy",
+    "question": "Which month is 'octobre' in English?",
+    "options": {
+      "A": "October",
+      "B": "May",
+      "C": "January",
+      "D": "July"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0048",
+    "difficulty": "easy",
+    "question": "What is 'dix-neuf' in English?",
+    "options": {
+      "A": "nineteen",
+      "B": "eighteen",
+      "C": "twenty",
+      "D": "seventeen"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0049",
+    "difficulty": "easy",
+    "question": "Which French word means 'Sunday'?",
+    "options": {
+      "A": "lundi",
+      "B": "dimanche",
+      "C": "mercredi",
+      "D": "samedi"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0050",
+    "difficulty": "easy",
+    "question": "What is 'vingt' in English?",
+    "options": {
+      "A": "twenty",
+      "B": "twelve",
+      "C": "thirty",
+      "D": "nineteen"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0051",
+    "difficulty": "medium",
+    "question": "What is 'trente' in English?",
+    "options": {
+      "A": "thirty",
+      "B": "twenty",
+      "C": "forty",
+      "D": "sixty"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0052",
+    "difficulty": "medium",
+    "question": "Which French word is the ordinal for 'first'?",
+    "options": {
+      "A": "deuxième",
+      "B": "troisième",
+      "C": "premier",
+      "D": "dernier"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "fra-en-0053",
+    "difficulty": "medium",
+    "question": "How do you say 'It is three o'clock' in French?",
+    "options": {
+      "A": "Il est trois heures",
+      "B": "Il est midi",
+      "C": "Quelle heure est-il ?",
+      "D": "Il est une heure"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0054",
+    "difficulty": "medium",
+    "question": "What is 'quarante' in English?",
+    "options": {
+      "A": "forty",
+      "B": "fifty",
+      "C": "thirty",
+      "D": "ninety"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0055",
+    "difficulty": "medium",
+    "question": "Which French word means 'next week'?",
+    "options": {
+      "A": "hier",
+      "B": "aujourd'hui",
+      "C": "la semaine prochaine",
+      "D": "demain"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "fra-en-0056",
+    "difficulty": "medium",
+    "question": "How would you ask 'What time is it?' in French?",
+    "options": {
+      "A": "Où est la montre ?",
+      "B": "Quelle heure est-il ?",
+      "C": "Comment ça va ?",
+      "D": "Quel jour sommes-nous ?"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0057",
+    "difficulty": "medium",
+    "question": "Which is the correct French sentence for 'It is noon'?",
+    "options": {
+      "A": "Il est minuit",
+      "B": "Il est midi",
+      "C": "Il est midi et demi",
+      "D": "Il est une heure"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0058",
+    "difficulty": "medium",
+    "question": "What is 'cinquante' in English?",
+    "options": {
+      "A": "sixty",
+      "B": "fifty",
+      "C": "forty",
+      "D": "thirty"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0059",
+    "difficulty": "medium",
+    "question": "Choose the correct French phrase meaning 'yesterday'.",
+    "options": {
+      "A": "demain",
+      "B": "hier",
+      "C": "aujourd'hui",
+      "D": "la semaine prochaine"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0060",
+    "difficulty": "medium",
+    "question": "Which French word is the ordinal for 'second'?",
+    "options": {
+      "A": "premier",
+      "B": "deuxième",
+      "C": "dernier",
+      "D": "troisième"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0061",
+    "difficulty": "medium",
+    "question": "What is 'soixante' in English?",
+    "options": {
+      "A": "seventy",
+      "B": "sixty",
+      "C": "eighty",
+      "D": "ninety"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0062",
+    "difficulty": "medium",
+    "question": "In the sentence 'une robe rouge', where is the color adjective placed?",
+    "options": {
+      "A": "before the noun",
+      "B": "after the noun",
+      "C": "at the sentence end only",
+      "D": "inside the noun"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0063",
+    "difficulty": "medium",
+    "question": "How do you say 'tomorrow' in French?",
+    "options": {
+      "A": "hier",
+      "B": "aujourd'hui",
+      "C": "demain",
+      "D": "maintenant"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "fra-en-0064",
+    "difficulty": "medium",
+    "question": "What is 'quatre-vingt' commonly used to mean in French numbers?",
+    "options": {
+      "A": "sixty",
+      "B": "eighty",
+      "C": "ninety",
+      "D": "seventy"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0065",
+    "difficulty": "medium",
+    "question": "Which phrase answers 'Quelle heure est-il ?' if it is 1:00 PM?",
+    "options": {
+      "A": "Il est treize heures",
+      "B": "Il est une heure",
+      "C": "Il est midi",
+      "D": "Il est minuit"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0066",
+    "difficulty": "medium",
+    "question": "What is 'soixante-dix' in English?",
+    "options": {
+      "A": "seventy",
+      "B": "sixty",
+      "C": "ninety",
+      "D": "eighty"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0067",
+    "difficulty": "medium",
+    "question": "Which French word means 'last' as in 'the last day'?",
+    "options": {
+      "A": "premier",
+      "B": "dernier",
+      "C": "deuxième",
+      "D": "troisième"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0068",
+    "difficulty": "medium",
+    "question": "How do you say 'It is half past four' in French?",
+    "options": {
+      "A": "Il est quatre heures et demie",
+      "B": "Il est quatre heures moins le quart",
+      "C": "Il est quatre heures et quart",
+      "D": "Il est midi et demi"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0069",
+    "difficulty": "medium",
+    "question": "What is 'quatre-vingt-dix' in English?",
+    "options": {
+      "A": "ninety",
+      "B": "eighty",
+      "C": "seventy",
+      "D": "one hundred"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0070",
+    "difficulty": "medium",
+    "question": "Which phrase means 'today' in French?",
+    "options": {
+      "A": "hier",
+      "B": "aujourd'hui",
+      "C": "demain",
+      "D": "la semaine prochaine"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0071",
+    "difficulty": "medium",
+    "question": "In 'un chat noir', what does 'noir' describe?",
+    "options": {
+      "A": "the cat's color",
+      "B": "the cat's size",
+      "C": "the cat's age",
+      "D": "the cat's name"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0072",
+    "difficulty": "medium",
+    "question": "What is 'cent' in English when counting?",
+    "options": {
+      "A": "one thousand",
+      "B": "one hundred",
+      "C": "ten",
+      "D": "one million"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0073",
+    "difficulty": "medium",
+    "question": "Which French phrase means 'the week after next' (not next week)?",
+    "options": {
+      "A": "la semaine prochaine",
+      "B": "hier",
+      "C": "dans deux semaines",
+      "D": "aujourd'hui"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "fra-en-0074",
+    "difficulty": "medium",
+    "question": "How do you say 'It is a quarter to five' in French?",
+    "options": {
+      "A": "Il est cinq heures et quart",
+      "B": "Il est cinq heures moins le quart",
+      "C": "Il est quatre heures et demie",
+      "D": "Il est quatre heures et quart"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0075",
+    "difficulty": "medium",
+    "question": "What is 'trente et un' in English?",
+    "options": {
+      "A": "thirty-one",
+      "B": "thirty-two",
+      "C": "twenty-one",
+      "D": "forty-one"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0076",
+    "difficulty": "medium",
+    "question": "Which ordinal is 'troisième' in English?",
+    "options": {
+      "A": "third",
+      "B": "second",
+      "C": "first",
+      "D": "fourth"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0077",
+    "difficulty": "medium",
+    "question": "How would you answer 'Quelle heure est-il ?' if it is 12:00 midnight?",
+    "options": {
+      "A": "Il est midi",
+      "B": "Il est minuit",
+      "C": "Il est douze heures",
+      "D": "Il est une heure"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0078",
+    "difficulty": "medium",
+    "question": "What is 'quarante-cinq' in English?",
+    "options": {
+      "A": "forty-five",
+      "B": "fifty-five",
+      "C": "thirty-five",
+      "D": "sixty-five"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0079",
+    "difficulty": "medium",
+    "question": "Which phrase means 'next Monday' in French?",
+    "options": {
+      "A": "lundi dernier",
+      "B": "lundi prochain",
+      "C": "hier",
+      "D": "aujourd'hui"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0080",
+    "difficulty": "medium",
+    "question": "In 'une voiture rouge', what does 'rouge' modify?",
+    "options": {
+      "A": "the verb",
+      "B": "the noun 'voiture'",
+      "C": "the adverb",
+      "D": "the preposition"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0081",
+    "difficulty": "medium",
+    "question": "What is 'soixante-quinze' in English?",
+    "options": {
+      "A": "seventy-five",
+      "B": "sixty-five",
+      "C": "eighty-five",
+      "D": "ninety-five"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0082",
+    "difficulty": "medium",
+    "question": "Which French word means 'the day after tomorrow'?",
+    "options": {
+      "A": "hier",
+      "B": "après-demain",
+      "C": "demain",
+      "D": "aujourd'hui"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0083",
+    "difficulty": "medium",
+    "question": "How do you say 'It is ten past two' in French?",
+    "options": {
+      "A": "Il est deux heures dix",
+      "B": "Il est deux heures moins dix",
+      "C": "Il est deux heures et demie",
+      "D": "Il est trois heures dix"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0084",
+    "difficulty": "medium",
+    "question": "What is 'quatre-vingts' when used as a number?",
+    "options": {
+      "A": "eighty",
+      "B": "seventy",
+      "C": "ninety",
+      "D": "one hundred"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0085",
+    "difficulty": "medium",
+    "question": "Which French phrase means 'last month'?",
+    "options": {
+      "A": "le mois prochain",
+      "B": "le mois dernier",
+      "C": "ce mois-ci",
+      "D": "dans un mois"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0086",
+    "difficulty": "hard",
+    "question": "What is 'deux cents' in English when counting exactly 200?",
+    "options": {
+      "A": "two hundred",
+      "B": "two thousand",
+      "C": "one hundred",
+      "D": "twenty"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0087",
+    "difficulty": "hard",
+    "question": "Which sentence correctly gives the date 'July 14' in French context?",
+    "options": {
+      "A": "Le 14 juillet est la fête nationale française.",
+      "B": "Le 14 juillet est Noël.",
+      "C": "Le 14 juillet est Pâques.",
+      "D": "Le 14 juillet est la rentrée."
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0088",
+    "difficulty": "hard",
+    "question": "Which color adjective changes to agree with a feminine noun: 'blanc' or 'orange'?",
+    "options": {
+      "A": "orange changes, blanc does not",
+      "B": "both change the same way",
+      "C": "blanc changes to blanche, orange is invariable",
+      "D": "neither changes"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "fra-en-0089",
+    "difficulty": "hard",
+    "question": "What does 'mille' mean in English?",
+    "options": {
+      "A": "one hundred",
+      "B": "one thousand",
+      "C": "ten thousand",
+      "D": "one million"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0090",
+    "difficulty": "hard",
+    "question": "Read this short schedule in French: 'Lundi 9h: maths; 10h30: récréation; 11h: français.' What time is the break?",
+    "options": {
+      "A": "9:00",
+      "B": "10:30",
+      "C": "11:00",
+      "D": "12:00"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0091",
+    "difficulty": "hard",
+    "question": "How do you say 'It is half past four' using French compound time?",
+    "options": {
+      "A": "Il est quatre heures et demie",
+      "B": "Il est quatre heures moins le quart",
+      "C": "Il est quatre heures et quart",
+      "D": "Il est cinq heures moins demie"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0092",
+    "difficulty": "hard",
+    "question": "Which color is invariable and does not change for gender: 'marron' or 'blanc'?",
+    "options": {
+      "A": "marron is invariable; blanc changes",
+      "B": "both are invariable",
+      "C": "blanc is invariable; marron changes",
+      "D": "neither is invariable"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0093",
+    "difficulty": "hard",
+    "question": "If a French sentence says 'Il est quatre heures moins le quart', what time is it in English?",
+    "options": {
+      "A": "3:45",
+      "B": "4:15",
+      "C": "4:45",
+      "D": "3:15"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0094",
+    "difficulty": "hard",
+    "question": "Which number is 'cent' in English?",
+    "options": {
+      "A": "one hundred",
+      "B": "one thousand",
+      "C": "ten",
+      "D": "one million"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0095",
+    "difficulty": "hard",
+    "question": "Read this French calendar note: 'Mercredi 14h: visite au musée; 16h: goûter.' What happens at 16:00?",
+    "options": {
+      "A": "museum visit",
+      "B": "lunch",
+      "C": "snack time",
+      "D": "homework"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "fra-en-0096",
+    "difficulty": "hard",
+    "question": "Which form is correct for a feminine color: 'gris' or 'grise' when describing a feminine noun?",
+    "options": {
+      "A": "gris for feminine",
+      "B": "grise for feminine",
+      "C": "both are correct",
+      "D": "neither is used"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0097",
+    "difficulty": "hard",
+    "question": "What is the English meaning of 'Le 1er mai' in French?",
+    "options": {
+      "A": "May 1st",
+      "B": "January 1st",
+      "C": "December 1st",
+      "D": "March 1st"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "fra-en-0098",
+    "difficulty": "hard",
+    "question": "Which sentence shows correct agreement for a feminine white dress?",
+    "options": {
+      "A": "une robe blanc",
+      "B": "une robe blanche",
+      "C": "une robe blancs",
+      "D": "une robe blanches"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0099",
+    "difficulty": "hard",
+    "question": "If a schedule says 'Vendredi 8h30: réunion; 12h: déjeuner', what time is lunch?",
+    "options": {
+      "A": "8:30",
+      "B": "12:00",
+      "C": "9:00",
+      "D": "13:00"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "fra-en-0100",
+    "difficulty": "hard",
+    "question": "How do you say 'two thousand' in French?",
+    "options": {
+      "A": "deux cents",
+      "B": "deux mille",
+      "C": "mille deux",
+      "D": "vingt cents"
+    },
+    "answer": "B"
+  }
+]
