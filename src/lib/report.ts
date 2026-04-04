@@ -46,7 +46,7 @@ export interface ReportData {
   dailyXp: number;
   dailyTitleEmoji: string;
   dailyTitleKey: string;                        // ex: 'sage' → clé i18n daily.title_sage
-  categoryStats: Record<Category, CategoryStats>;
+  categoryStats: Partial<Record<Category, CategoryStats>>;
   recentSessions: QuizSession[];                // 10 dernières, ordre anti-chronologique
 }
 
@@ -69,7 +69,13 @@ const BADGE_NAMES: Record<string, { fr: string; en: string }> = {
   streak_30:    { fr: 'Legende du savoir',  en: 'Legend of knowledge' },
 };
 
-const CATEGORIES: Category[] = ['sciences', 'histoire', 'heroes'];
+const CATEGORIES: Category[] = [
+  'sciences', 'histoire', 'heroes', 'animaux-nature',
+  'math', 'sport', 'geographie', 'francais', 'anglais',
+  'art', 'corps-humain', 'cuisine', 'dinosaures',
+  'education-civique', 'environnement', 'espace-astronomie',
+  'musique', 'pop-culture', 'technologie', 'mythology',
+];
 
 // ─── Constructeur du rapport ───────────────────────────────────────────────────
 
@@ -95,7 +101,7 @@ export function buildReportData(params: {
     : null;
 
   // Stats par catégorie
-  const categoryStats = {} as Record<Category, CategoryStats>;
+  const categoryStats = {} as Partial<Record<Category, CategoryStats>>;
   for (const cat of CATEGORIES) {
     const cs = sessions.filter((s) => s.category === cat);
     categoryStats[cat] = {

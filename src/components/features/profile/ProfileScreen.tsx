@@ -49,21 +49,14 @@ const CATEGORIES: { key: Category; emoji: string }[] = [
  * Calcule les stats par catégorie depuis l'historique des sessions.
  * Retourne un objet { games, best } pour chaque catégorie.
  */
-function statsByCategory(sessions: QuizSession[]): Record<Category, { games: number; best: number | null }> {
-  const result: Record<Category, { games: number; best: number | null }> = {
-    sciences:   { games: 0, best: null },
-    histoire:   { games: 0, best: null },
-    heroes:     { games: 0, best: null },
-    math:       { games: 0, best: null },
-    sport:      { games: 0, best: null },
-    geographie: { games: 0, best: null },
-    francais:   { games: 0, best: null },
-  };
+function statsByCategory(sessions: QuizSession[]): Partial<Record<Category, { games: number; best: number | null }>> {
+  const result: Partial<Record<Category, { games: number; best: number | null }>> = {};
   for (const s of sessions) {
-    result[s.category].games += 1;
+    if (!result[s.category]) result[s.category] = { games: 0, best: null };
+    result[s.category]!.games += 1;
     const pct = Math.round((s.score / s.totalQuestions) * 100);
-    if (result[s.category].best === null || pct > result[s.category].best!) {
-      result[s.category].best = pct;
+    if (result[s.category]!.best === null || pct > result[s.category]!.best!) {
+      result[s.category]!.best = pct;
     }
   }
   return result;

@@ -36,14 +36,27 @@ const TYPE_META: Record<RecommendationType, {
 };
 
 // Couleurs des catégories (design system)
-const CAT_COLORS: Record<Category, string> = {
-  sciences:   '#2196F3',
-  histoire:   '#795548',
-  heroes:     '#E91E63',
-  math:       '#FF9800',
-  sport:      '#4CAF50',
-  geographie: '#00BCD4',
-  francais:   '#795548',
+const CAT_COLORS: Partial<Record<Category, string>> = {
+  sciences:            '#2196F3',
+  histoire:            '#795548',
+  heroes:              '#E91E63',
+  'animaux-nature':    '#8BC34A',
+  math:                '#FF9800',
+  sport:               '#4CAF50',
+  geographie:          '#00BCD4',
+  francais:            '#795548',
+  anglais:             '#C62828',
+  art:                 '#FF5722',
+  'corps-humain':      '#E91E63',
+  cuisine:             '#FF9800',
+  dinosaures:          '#6D4C41',
+  'education-civique': '#607D8B',
+  environnement:       '#2E7D32',
+  'espace-astronomie': '#1A237E',
+  musique:             '#F06292',
+  'pop-culture':       '#FF4081',
+  technologie:         '#009688',
+  mythology:           '#7B1FA2',
 };
 
 // ─── Composant carte individuelle ────────────────────────────────────────────
