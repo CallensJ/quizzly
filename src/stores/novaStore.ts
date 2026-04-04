@@ -49,14 +49,18 @@ interface NovaStore {
 
 // ── Store ──────────────────────────────────────────────────────────────────
 
-export const useNovaStore = create<NovaStore>((set) => ({
+export const useNovaStore = create<NovaStore>((set, get) => ({
   state:    'idle',
   message:  '',
   visible:  false,
   duration: 2500,
 
-  showNova: (state, message, duration = 2500) =>
-    set({ state, message, visible: true, duration }),
+  showNova: (state, message, duration = 2500) => {
+    // Guard anti-double déclenchement : ignore si même état+message déjà visible
+    const current = get();
+    if (current.visible && current.state === state && current.message === message) return;
+    set({ state, message, visible: true, duration });
+  },
 
   hideNova: () => set({ visible: false }),
 }));

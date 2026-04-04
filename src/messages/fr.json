@@ -406,7 +406,12 @@
     "reportSent": "Rapport envoyé avec succès ! 📧",
     "dashboardCurious": "Votre enfant n'a pas encore joué ! 🎮",
     "dashboardStreak": "Super semaine pour votre enfant ! 🔥",
-    "dashboardBadge": "L'objectif du jour est atteint ! 🏆"
+    "dashboardBadge": "L'objectif du jour est atteint ! 🏆",
+    "subscription": "Bienvenue dans le monde Premium ! 🎉",
+    "premiumWelcome": "Toutes les catégories sont maintenant ouvertes ! ✨",
+    "avatarUnlocked": "Superbe choix, cet avatar est à toi ! 🎨",
+    "newChild": "Bienvenue dans la famille, nouveau joueur ! 👋",
+    "cancelSoft": "C'est dommage... Je t'attends si tu changes d'avis ! 💙"
   },
   "challenges": {
     "title": "Défis",

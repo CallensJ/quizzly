@@ -19,10 +19,13 @@ import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { Plus, Trash2, X, Check } from 'lucide-react';
 import { buildAvatarUrl, FREE_SEEDS, FREE_STYLE } from '@/lib/avatars';
+import { useNovaPresence } from '@/hooks/useNovaPresence';
 
 export default function ProfileSelector() {
   const t = useTranslations('profiles');
+  const tNova = useTranslations('nova');
   const router = useRouter();
+  const { showNova } = useNovaPresence();
 
   const profiles           = useProfileStore((s) => s.profiles);
   const activeProfileId    = useProfileStore((s) => s.activeProfileId);
@@ -57,6 +60,8 @@ export default function ProfileSelector() {
     setShowAddForm(false);
     setNewPseudo('');
     setNewAvatarId(null);
+    // Nova welcome — nouveau profil enfant ajouté
+    showNova('welcome', tNova('newChild'), 3000);
     router.replace('/home');
   }
 

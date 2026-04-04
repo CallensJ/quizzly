@@ -157,7 +157,18 @@ export default function HomeScreen() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // 2. sleeping après 30s d'inactivité — reset sur toute interaction
+  // 2. Premier accès post-premium : excited une seule fois par session
+  //    sessionStorage évite le re-déclenchement si l'utilisateur revient sur /home
+  useEffect(() => {
+    if (!isPremium) return;
+    const FLAG = 'nova-premium-welcome-shown';
+    if (sessionStorage.getItem(FLAG)) return;
+    sessionStorage.setItem(FLAG, '1');
+    showNova('excited', tNova('premiumWelcome'), 4000);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isPremium]);
+
+  // 3. sleeping après 30s d'inactivité — reset sur toute interaction
   useEffect(() => {
     let sleepTimer: ReturnType<typeof setTimeout>;
 

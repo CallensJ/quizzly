@@ -82,16 +82,24 @@ export default function NovaMascot() {
     >
       {message && <NovaBubble message={message} />}
 
-      <Image
-        src={STATE_IMAGES[state]}
-        alt=""              // décoratif — aria-live sur la bulle suffit
-        width={110}
-        height={110}
-        className="nova__img"
-        priority
-        unoptimized         // requis pour SVG avec next/image
-        aria-hidden="true"
-      />
+      {/* Tap-to-dismiss : pointer-events auto sur l'image uniquement */}
+      <button
+        type="button"
+        className="nova__img-btn"
+        onClick={hideNova}
+        aria-label="Fermer Nova"
+      >
+        <Image
+          src={STATE_IMAGES[state]}
+          alt=""              // décoratif — aria-live sur la bulle suffit
+          width={110}
+          height={110}
+          className="nova__img"
+          priority
+          unoptimized         // requis pour SVG avec next/image
+          aria-hidden="true"
+        />
+      </button>
     </div>
   );
 }

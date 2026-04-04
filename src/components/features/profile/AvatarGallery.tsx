@@ -15,6 +15,7 @@ import { useRouter } from '@/i18n/navigation';
 import { FREE_SEEDS, FREE_STYLE, PREMIUM_STYLES, buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
 import type { Profile } from '@/types';
+import { useNovaPresence } from '@/hooks/useNovaPresence';
 
 interface Props {
   profile:        Profile;
@@ -24,7 +25,9 @@ interface Props {
 
 export default function AvatarGallery({ profile, isPremium, onSelectAvatar }: Props) {
   const t      = useTranslations('profile');
+  const tNova  = useTranslations('nova');
   const router = useRouter();
+  const { showNova } = useNovaPresence();
 
   return (
     <div className="profile__avatar-gallery" role="group" aria-label={t('changeAvatar')}>
@@ -84,6 +87,8 @@ export default function AvatarGallery({ profile, isPremium, onSelectAvatar }: Pr
                   onClick={() => {
                     if (isPremium) {
                       onSelectAvatar(seed, style);
+                      // Nova badge — avatar premium débloqué sélectionné
+                      showNova('badge', tNova('avatarUnlocked'), 3000);
                     } else {
                       router.push('/subscribe');
                     }
