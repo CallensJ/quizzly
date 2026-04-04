@@ -12,13 +12,20 @@
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
-// Identifiants de catégorie — correspondent aux valeurs stockées en base Supabase
-// Catégories gratuites : sciences, histoire, heroes
-// Catégories premium avec contenu disponible : math, sport, geographie, francais, mythology
+// Identifiants de catégorie — correspondent aux valeurs `category` stockées en base Supabase
+// Catégories gratuites   : sciences, histoire, heroes, animaux-nature
+// Catégories premium FR+EN : math, sport, geographie, francais
+// Catégories premium FR  : anglais, art, corps-humain, cuisine, dinosaures,
+//                          education-civique, environnement, espace-astronomie
+// Catégories à venir     : musique, pop-culture, technologie (pas encore migrées)
+// Catégorie parente      : mythology (jouée via MythSubcategory)
 export type Category =
-  | 'sciences' | 'histoire' | 'heroes'
+  | 'sciences' | 'histoire' | 'heroes' | 'animaux-nature'
   | 'math' | 'sport' | 'geographie' | 'francais'
-  | 'mythology'; // catégorie parente — jouée via une sous-catégorie (MythSubcategory)
+  | 'anglais' | 'art' | 'corps-humain' | 'cuisine'
+  | 'dinosaures' | 'education-civique' | 'environnement' | 'espace-astronomie'
+  | 'musique' | 'pop-culture' | 'technologie'
+  | 'mythology';
 
 // Sous-catégories de Mythology — chaque civilisation est une sous-catégorie indépendante
 // La valeur correspond au champ `subcategory` en base Supabase

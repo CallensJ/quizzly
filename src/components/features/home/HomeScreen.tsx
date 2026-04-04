@@ -42,7 +42,6 @@ const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = 
   {
     id: 'sciences',
     icon: <Atom size={40} strokeWidth={1.5} />,
-    // Variable CSS définie dans _tokens.scss
     colorVar: 'var(--color-cat-science)',
   },
   {
@@ -55,36 +54,42 @@ const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = 
     icon: <Swords size={40} strokeWidth={1.5} />,
     colorVar: 'var(--color-cat-heroes)',
   },
+  {
+    id: 'animaux-nature',
+    icon: <PawPrint size={40} strokeWidth={1.5} />,
+    colorVar: 'var(--color-cat-animaux)',
+  },
 ];
 
-// Catégories premium — id défini pour celles qui ont des questions disponibles (jouables si premium)
+// Catégories premium — id = valeur `category` dans Supabase (scripts/migrate-questions.ts)
+// Sans id → questions pas encore migrées → affiché "Bientôt" pour les abonnés
 const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string; id?: Category }[] = [
-  { i18nKey: 'sport',          icon: <Trophy    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-sport)',       id: 'sport' },
-  { i18nKey: 'geographie',     icon: <Globe     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-geography)',   id: 'geographie' },
-  { i18nKey: 'mathematiques',  icon: <Calculator size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-maths)',     id: 'math' },
-  { i18nKey: 'langueFr',       icon: <BookA     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-fr)',  id: 'francais' },
-  { i18nKey: 'art',            icon: <Palette   size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-art)' },
-  { i18nKey: 'culturePop',     icon: <Film      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-culture)' },
-  { i18nKey: 'civique',        icon: <Scale     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-civique)' },
-  { i18nKey: 'cuisine',        icon: <ChefHat   size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-cuisine)' },
-  { i18nKey: 'technologie',    icon: <Cpu       size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-techno)' },
+  { i18nKey: 'sport',          icon: <Trophy    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-sport)',      id: 'sport' },
+  { i18nKey: 'geographie',     icon: <Globe     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-geography)',  id: 'geographie' },
+  { i18nKey: 'mathematiques',  icon: <Calculator size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-maths)',    id: 'math' },
+  { i18nKey: 'langueFr',       icon: <BookA     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-fr)', id: 'francais' },
+  { i18nKey: 'langueEn',       icon: <BookA     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-en)', id: 'anglais' },
+  { i18nKey: 'art',            icon: <Palette   size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-art)',        id: 'art' },
+  { i18nKey: 'civique',        icon: <Scale     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-civique)',    id: 'education-civique' },
+  { i18nKey: 'cuisine',        icon: <ChefHat   size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-cuisine)',    id: 'cuisine' },
+  { i18nKey: 'corpsHumain',    icon: <Heart     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-corps)',      id: 'corps-humain' },
+  { i18nKey: 'environnement',  icon: <Leaf      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-enviro)',     id: 'environnement' },
+  { i18nKey: 'dinosaures',     icon: <Bone      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-dino)',       id: 'dinosaures' },
   // mythologie est géré séparément (carte expandable avec sous-catégories)
-  { i18nKey: 'espace',         icon: <Rocket    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-espace)' },
-  { i18nKey: 'langueEn',       icon: <BookA     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-en)' },
+  { i18nKey: 'espace',         icon: <Rocket    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-espace)',     id: 'espace-astronomie' },
+  // Pas encore migrés → sans id → "Bientôt" pour les abonnés
+  { i18nKey: 'culturePop',     icon: <Film      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-culture)' },
+  { i18nKey: 'technologie',    icon: <Cpu       size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-techno)' },
+  { i18nKey: 'musique',        icon: <Music2    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-musique)' },
 ];
 
 // Catégorie mythologie — gérée séparément pour les sous-catégories
 const MYTH_COLOR_VAR = 'var(--color-cat-mythologie)';
 
-// Catégories "Bientôt disponible" — en cours de préparation, pas encore jouables
-// free: true → sera gratuit à la sortie (sinon premium)
-const COMING_SOON_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string; free?: boolean }[] = [
-  { i18nKey: 'animaux',        icon: <PawPrint  size={30} strokeWidth={1.5} />, colorVar: 'var(--color-cat-animaux)', free: true },
-  { i18nKey: 'corpsHumain',    icon: <Heart     size={30} strokeWidth={1.5} />, colorVar: 'var(--color-cat-corps)' },
-  { i18nKey: 'musique',        icon: <Music2    size={30} strokeWidth={1.5} />, colorVar: 'var(--color-cat-musique)' },
-  { i18nKey: 'environnement',  icon: <Leaf      size={30} strokeWidth={1.5} />, colorVar: 'var(--color-cat-enviro)' },
-  { i18nKey: 'dinosaures',     icon: <Bone      size={30} strokeWidth={1.5} />, colorVar: 'var(--color-cat-dino)' },
-];
+// Plus de section "Bientôt" autonome — les catégories sans contenu sont gérées
+// directement dans PREMIUM_CATEGORIES (sans id → affichage "Bientôt" pour abonnés,
+// cadenas pour non-abonnés).
+const COMING_SOON_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string }[] = [];
 
 const DIFFICULTIES: Difficulty[] = ['easy', 'medium', 'hard'];
 
@@ -209,8 +214,11 @@ export default function HomeScreen() {
       startQuiz(pool);
       router.push('/quiz');
     } catch (err) {
-      // RLS Supabase → 0 questions retournées pour une catégorie premium sans abonnement
-      if ((err as Error & { code?: string }).code === 'PREMIUM_REQUIRED') {
+      // RLS Supabase → 0 questions retournées pour une catégorie premium sans abonnement.
+      // Ne rediriger vers /subscribe que si l'utilisateur N'est PAS premium —
+      // un premium qui obtient 0 résultats a un problème de données (questions non migrées),
+      // pas d'abonnement manquant.
+      if ((err as Error & { code?: string }).code === 'PREMIUM_REQUIRED' && !isPremium) {
         router.push('/subscribe');
         return;
       }
@@ -405,31 +413,8 @@ export default function HomeScreen() {
           </div>
         </section>
 
-        {/* ── Bientôt disponible ───────────────────────────────────────────── */}
-        {/* Pas de titre : bordure pointillée + badge 🚀 sur les cartes suffisent */}
-        <section className="home__section">
-          <div className="home__coming-soon-grid">
-            {COMING_SOON_CATEGORIES.map(({ i18nKey, icon, colorVar, free }) => (
-              <div
-                key={i18nKey}
-                className="home__coming-soon-card"
-                style={{ '--cat-color': colorVar } as React.CSSProperties}
-                aria-label={`${t(i18nKey)} — ${t('comingSoonTag')}`}
-              >
-                {free && (
-                  <span className="home__coming-soon-free" aria-hidden="true">
-                    {t('comingSoonFree')}
-                  </span>
-                )}
-                <span className="home__coming-soon-badge" aria-hidden="true">
-                  🚀
-                </span>
-                <span className="home__cat-icon">{icon}</span>
-                <span className="home__cat-name">{t(i18nKey)}</span>
-              </div>
-            ))}
-          </div>
-        </section>
+        {/* Section "Bientôt" supprimée — les catégories sans contenu sont désormais
+            intégrées dans la section premium avec le badge 🚀 (PREMIUM_CATEGORIES sans id) */}
 
         {/* ── Panneau de contrôle : difficulté + play ──────────────────────── */}
         {/*

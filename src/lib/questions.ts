@@ -173,9 +173,15 @@ export async function fetchQuestions(
   //    Un seul appel réseau → tout mis en cache pour les requêtes suivantes
   //    La RLS retourne 0 lignes (pas d'erreur explicite) si l'abonnement est inactif.
   try {
+    // subcategory n'existe que pour mythology — on l'inclut uniquement si nécessaire
+    // pour éviter un 400 si la colonne n'est pas encore migrée sur l'instance cible.
+    const selectFields = category === 'mythology'
+      ? 'id, difficulty, question, option_a, option_b, option_c, option_d, answer, subcategory'
+      : 'id, difficulty, question, option_a, option_b, option_c, option_d, answer';
+
     let query = supabase
       .from('questions')
-      .select('id, difficulty, question, option_a, option_b, option_c, option_d, answer, subcategory')
+      .select(selectFields)
       .eq('category', category)
       .eq('locale', locale);
 

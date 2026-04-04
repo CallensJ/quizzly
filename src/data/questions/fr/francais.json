@@ -1,3 +1,8 @@
+{
+  "category": "francais",
+  "lang": "fr",
+  "questions": [
+
 [
   {
     "id": "fra-fr-0001",
@@ -10799,4 +10804,6 @@
     },
     "answer": "A"
   }
+  }
 ]
+}

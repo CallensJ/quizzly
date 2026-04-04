@@ -1,4 +1,9 @@
-[
+{
+  "category": "anglais",
+  "lang": "fr",
+  "questions": [
+
+[[
   {
     "id": "english-fr-easy-001",
     "question": "Quel mot anglais désigne le mot français « chat » ?",

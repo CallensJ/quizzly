@@ -206,6 +206,7 @@
     border-radius: v.$radius-lg;
     box-shadow: v.$shadow-sm;
     text-align: center;
+    cursor: pointer;
     // Animation d'entrée échelonnée (0..11 → délais 0ms..275ms)
     animation: home-cat-enter 0.3s ease both;
     @for $i from 1 through 12 {
