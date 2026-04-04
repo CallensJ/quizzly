@@ -455,6 +455,7 @@ export function ReportPdf({ data }: ReportPdfProps) {
             </View>
             {(['sciences', 'histoire', 'heroes'] as const).map((cat) => {
               const cs = data.categoryStats[cat];
+              if (!cs) return null;
               return (
                 <View key={cat} style={s.tableRow}>
                   <Text style={[s.td, s.cCol1]}>{L[CAT_LABEL[cat]]}</Text>
