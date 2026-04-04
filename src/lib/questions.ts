@@ -201,7 +201,7 @@ export async function fetchQuestions(
       throw err;
     }
 
-    const questions = (data as QuestionRow[]).map(rowToQuestion);
+    const questions = (data as unknown as QuestionRow[]).map(rowToQuestion);
     await setCache(category, locale, questions, subcategory);
 
     return filterByPool(questions);
