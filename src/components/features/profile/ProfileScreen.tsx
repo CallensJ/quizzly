@@ -190,7 +190,7 @@ export default function ProfileScreen() {
           <h2 className="profile__section-title">{t('catStats')}</h2>
 
           {CATEGORIES.map(({ key, emoji }) => {
-            const stat = catStats[key];
+            const stat = catStats[key] ?? { games: 0, best: null };
             return (
               <div key={key} className={`profile__cat-card profile__cat-card--${key}`}>
                 <span className="profile__cat-icon" aria-hidden="true">{emoji}</span>
