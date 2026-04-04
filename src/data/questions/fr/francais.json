@@ -2,8 +2,6 @@
   "category": "francais",
   "lang": "fr",
   "questions": [
-
-[
   {
     "id": "fra-fr-0001",
     "difficulty": "easy",
@@ -10803,7 +10801,6 @@
       "D": "Jules Verne"
     },
     "answer": "A"
-  }
   }
 ]
 }

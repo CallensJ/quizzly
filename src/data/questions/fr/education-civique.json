@@ -2,7 +2,6 @@
   "category": "education-civique",
   "lang": "fr",
   "questions": [
-[
   {
     "question": "Quelle est la devise de la République française ?",
     "options": {
@@ -7204,3 +7203,4 @@
     "difficulty": "hard"
   }
 ]
+}

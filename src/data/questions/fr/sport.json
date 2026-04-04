@@ -2,10 +2,6 @@
   "category": "sport",
   "lang": "fr",
   "questions": [
-
-[
-
-[
   {
     "id": "sport-fr-easy-001",
     "question": "Combien de joueurs composent une équipe de football sur le terrain ?",
@@ -9607,3 +9603,4 @@
     "difficulty": "medium"
   }
 ]
+}

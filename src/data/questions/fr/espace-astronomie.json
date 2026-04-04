@@ -2,8 +2,6 @@
   "category": "espace-astronomie",
   "lang": "fr",
   "questions": [
-
-[
   {
     "id": "fra-2-0001",
     "difficulty": "easy",
@@ -7205,3 +7203,4 @@
     "answer": "A"
   }
 ]
+}

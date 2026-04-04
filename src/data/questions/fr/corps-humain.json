@@ -2,8 +2,6 @@
   "category": "corps-humain",
   "lang": "fr",
   "questions": [
-
-[
   {
     "id": "body-fr-easy-001",
     "question": "Quel sens utilises-tu pour voir un arc-en-ciel ?",
@@ -9605,3 +9603,4 @@
     "difficulty": "medium"
   }
 ]
+}

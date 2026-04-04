@@ -2,8 +2,6 @@
   "category": "animaux-nature",
   "lang": "fr",
   "questions": [
-
-[
   {
     "id": "animals-fr-easy-001",
     "question": "Lequel de ces animaux est un mammifère ?",
@@ -10805,3 +10803,4 @@
     "difficulty": "medium"
   }
 ]
+}

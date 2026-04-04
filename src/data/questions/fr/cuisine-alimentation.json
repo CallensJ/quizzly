@@ -2,7 +2,6 @@
   "category": "cuisine-alimentation",
   "lang": "fr",
   "questions": [
-[
   {
     "id": "food-fr-easy-001",
     "question": "D'où vient le lait que tu bois au petit-déjeuner ?",
@@ -6004,3 +6003,4 @@
     "difficulty": "hard"
   }
 ]
+}

@@ -1,1 +1,3966 @@
-[]
+{
+  "category": "francais",
+  "lang": "fr",
+  "questions": [
+      {
+        "id": "tech-fr-easy-0001",
+        "difficulty": "easy",
+        "question": "Quel périphérique utilises-tu pour déplacer le curseur à l'écran ?",
+        "options": {
+          "A": "La souris",
+          "B": "Le clavier",
+          "C": "L'écran",
+          "D": "L'imprimante"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0002",
+        "difficulty": "easy",
+        "question": "Quel appareil affiche les images et les textes d'un ordinateur ?",
+        "options": {
+          "A": "La souris",
+          "B": "Le clavier",
+          "C": "L'écran",
+          "D": "Le scanner"
+        },
+        "answer": "C"
+      },
+      {
+        "id": "tech-fr-easy-0003",
+        "difficulty": "easy",
+        "question": "Avec quel périphérique écris-tu des lettres sur l'ordinateur ?",
+        "options": {
+          "A": "La souris",
+          "B": "Le clavier",
+          "C": "Le micro",
+          "D": "La webcam"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0004",
+        "difficulty": "easy",
+        "question": "Quel objet contient les composants internes d'un ordinateur de bureau ?",
+        "options": {
+          "A": "La tour",
+          "B": "La souris",
+          "C": "L'écran",
+          "D": "Le casque"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0005",
+        "difficulty": "easy",
+        "question": "Quel câble sert souvent à brancher une souris ou une clé USB ?",
+        "options": {
+          "A": "Le câble HDMI",
+          "B": "Le câble USB",
+          "C": "Le câble d'antenne",
+          "D": "Le câble d'alimentation"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0006",
+        "difficulty": "easy",
+        "question": "Quel périphérique permet d'entendre le son d'un ordinateur ?",
+        "options": {
+          "A": "Le clavier",
+          "B": "L'imprimante",
+          "C": "Les haut-parleurs",
+          "D": "La souris"
+        },
+        "answer": "C"
+      },
+      {
+        "id": "tech-fr-easy-0007",
+        "difficulty": "easy",
+        "question": "Quel appareil prend une photo ou filme pour l'ordinateur ?",
+        "options": {
+          "A": "La webcam",
+          "B": "Le scanner",
+          "C": "Le micro",
+          "D": "La souris"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0008",
+        "difficulty": "easy",
+        "question": "Quel périphérique transforme des mots écrits en papier en image numérique ?",
+        "options": {
+          "A": "L'imprimante",
+          "B": "Le scanner",
+          "C": "La souris",
+          "D": "Le moniteur"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0009",
+        "difficulty": "easy",
+        "question": "Quel objet portable contient souvent un écran et un clavier virtuel ?",
+        "options": {
+          "A": "La montre",
+          "B": "La tablette",
+          "C": "La souris",
+          "D": "Le disque dur"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0010",
+        "difficulty": "easy",
+        "question": "Quel périphérique envoie des documents papier depuis l'ordinateur ?",
+        "options": {
+          "A": "Le scanner",
+          "B": "L'imprimante",
+          "C": "La webcam",
+          "D": "Le clavier"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0001",
+        "difficulty": "medium",
+        "question": "Lequel décrit le mieux le processeur d'un ordinateur ?",
+        "options": {
+          "A": "Un écran qui montre les images",
+          "B": "Le cerveau qui exécute les instructions",
+          "C": "Un périphérique pour imprimer",
+          "D": "Un endroit pour ranger des fichiers"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0002",
+        "difficulty": "medium",
+        "question": "Quelle est la différence principale entre la RAM et le disque dur ?",
+        "options": {
+          "A": "La RAM garde les données quand on éteint l'ordinateur",
+          "B": "Le disque dur est plus rapide que la RAM",
+          "C": "La RAM est rapide mais perd ses données à l'arrêt, le disque dur les garde",
+          "D": "Il n'y a aucune différence"
+        },
+        "answer": "C"
+      },
+      {
+        "id": "tech-fr-medium-0003",
+        "difficulty": "medium",
+        "question": "Quel composant stocke des fichiers même quand l'ordinateur est éteint ?",
+        "options": {
+          "A": "La RAM",
+          "B": "Le processeur",
+          "C": "Le disque dur ou SSD",
+          "D": "La carte graphique"
+        },
+        "answer": "C"
+      },
+      {
+        "id": "tech-fr-medium-0004",
+        "difficulty": "medium",
+        "question": "Quel port est souvent utilisé pour brancher un écran moderne ?",
+        "options": {
+          "A": "USB",
+          "B": "HDMI",
+          "C": "Ethernet",
+          "D": "Jack audio"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0005",
+        "difficulty": "medium",
+        "question": "Que fait une carte graphique dans un ordinateur ?",
+        "options": {
+          "A": "Elle stocke les documents",
+          "B": "Elle aide à afficher les images et vidéos",
+          "C": "Elle refroidit le processeur",
+          "D": "Elle alimente l'ordinateur"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0006",
+        "difficulty": "medium",
+        "question": "Pourquoi on utilise parfois un disque dur externe ?",
+        "options": {
+          "A": "Pour augmenter la vitesse du processeur",
+          "B": "Pour sauvegarder ou transporter des fichiers",
+          "C": "Pour afficher des images",
+          "D": "Pour remplacer la RAM"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0007",
+        "difficulty": "medium",
+        "question": "Que signifie l'abréviation 'USB' dans les câbles ?",
+        "options": {
+          "A": "Universal Serial Bus",
+          "B": "Unique System Board",
+          "C": "User Service Box",
+          "D": "Ultra Speed Battery"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0008",
+        "difficulty": "medium",
+        "question": "Quel composant aide à garder l'ordinateur au frais ?",
+        "options": {
+          "A": "Le ventilateur (ventilo)",
+          "B": "La souris",
+          "C": "Le disque dur",
+          "D": "Le câble HDMI"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0009",
+        "difficulty": "medium",
+        "question": "Quel est le rôle principal d'une carte mère ?",
+        "options": {
+          "A": "Afficher les images",
+          "B": "Relier et faire communiquer les composants",
+          "C": "Stocker les fichiers",
+          "D": "Imprimer des documents"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0010",
+        "difficulty": "medium",
+        "question": "Quel type de mémoire est utilisé pour garder le programme de démarrage (BIOS) ?",
+        "options": {
+          "A": "RAM",
+          "B": "ROM",
+          "C": "SSD",
+          "D": "Cache"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0011",
+        "difficulty": "easy",
+        "question": "Si tu veux cliquer sur une icône, quel périphérique utilises-tu ?",
+        "options": {
+          "A": "Le clavier",
+          "B": "La souris",
+          "C": "L'imprimante",
+          "D": "Le micro"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0012",
+        "difficulty": "easy",
+        "question": "Quel périphérique enregistre ta voix sur l'ordinateur ?",
+        "options": {
+          "A": "Le micro",
+          "B": "La webcam",
+          "C": "La souris",
+          "D": "Le clavier"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0013",
+        "difficulty": "easy",
+        "question": "Quel objet permet de brancher l'ordinateur à la prise électrique ?",
+        "options": {
+          "A": "Le câble d'alimentation",
+          "B": "Le câble USB",
+          "C": "Le câble HDMI",
+          "D": "Le câble réseau"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0014",
+        "difficulty": "easy",
+        "question": "Quel périphérique peut lire des CD ou DVD ?",
+        "options": {
+          "A": "Le lecteur optique",
+          "B": "La souris",
+          "C": "Le clavier",
+          "D": "Le scanner"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0015",
+        "difficulty": "easy",
+        "question": "Quel appareil portable sert surtout à téléphoner et à naviguer sur internet ?",
+        "options": {
+          "A": "La tablette",
+          "B": "Le téléphone portable",
+          "C": "La montre",
+          "D": "La calculatrice"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0016",
+        "difficulty": "easy",
+        "question": "Quel périphérique permet d'entendre et de parler lors d'une visioconférence ?",
+        "options": {
+          "A": "La webcam et le micro",
+          "B": "Le scanner",
+          "C": "Le disque dur",
+          "D": "Le ventilateur"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0017",
+        "difficulty": "easy",
+        "question": "Quel composant est souvent appelé 'écran tactile' quand on peut toucher l'image ?",
+        "options": {
+          "A": "La souris",
+          "B": "L'écran",
+          "C": "Le clavier",
+          "D": "La tour"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0018",
+        "difficulty": "easy",
+        "question": "Quel périphérique transforme le texte numérique en papier ?",
+        "options": {
+          "A": "Le scanner",
+          "B": "L'imprimante",
+          "C": "La webcam",
+          "D": "Le moniteur"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0019",
+        "difficulty": "easy",
+        "question": "Quel objet portable est souvent utilisé pour écouter de la musique sans déranger les autres ?",
+        "options": {
+          "A": "Les écouteurs",
+          "B": "La souris",
+          "C": "Le clavier",
+          "D": "La clé USB"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0020",
+        "difficulty": "easy",
+        "question": "Quel périphérique permet de sauvegarder des fichiers et de les transporter facilement ?",
+        "options": {
+          "A": "La clé USB",
+          "B": "La souris",
+          "C": "Le clavier",
+          "D": "L'écran"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0011",
+        "difficulty": "medium",
+        "question": "Qu'est-ce qu'un SSD par rapport à un disque dur classique ?",
+        "options": {
+          "A": "Un SSD est plus lent et mécanique",
+          "B": "Un SSD est une mémoire sans pièces mobiles, souvent plus rapide",
+          "C": "Un SSD ne peut pas stocker de données",
+          "D": "Un SSD est un type de clavier"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0012",
+        "difficulty": "medium",
+        "question": "Pourquoi on met de la pâte thermique entre le processeur et le radiateur ?",
+        "options": {
+          "A": "Pour décorer l'ordinateur",
+          "B": "Pour améliorer le transfert de chaleur et refroidir le processeur",
+          "C": "Pour stocker des données",
+          "D": "Pour augmenter la vitesse du processeur"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0013",
+        "difficulty": "medium",
+        "question": "Quel composant convertit l'énergie électrique de la prise pour l'ordinateur ?",
+        "options": {
+          "A": "L'alimentation (PSU)",
+          "B": "La carte graphique",
+          "C": "La RAM",
+          "D": "Le disque dur"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0014",
+        "difficulty": "medium",
+        "question": "Que signifie 'plug and play' pour un périphérique ?",
+        "options": {
+          "A": "Il faut l'assembler soi-même",
+          "B": "Il fonctionne immédiatement quand on le branche",
+          "C": "Il ne marche jamais",
+          "D": "Il nécessite un mot de passe"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0015",
+        "difficulty": "medium",
+        "question": "Quel est le rôle d'un ventilateur dans la tour d'ordinateur ?",
+        "options": {
+          "A": "Augmenter la mémoire",
+          "B": "Refroidir les composants pour éviter la surchauffe",
+          "C": "Stocker des fichiers",
+          "D": "Afficher des images"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0016",
+        "difficulty": "medium",
+        "question": "Quel type de câble est utilisé pour une connexion internet filaire à la maison ?",
+        "options": {
+          "A": "HDMI",
+          "B": "USB",
+          "C": "Ethernet (RJ45)",
+          "D": "Jack audio"
+        },
+        "answer": "C"
+      },
+      {
+        "id": "tech-fr-medium-0017",
+        "difficulty": "medium",
+        "question": "Que veut dire 'plug' dans l'expression 'plug USB' ?",
+        "options": {
+          "A": "Brancher",
+          "B": "Éteindre",
+          "C": "Allumer",
+          "D": "Formater"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0018",
+        "difficulty": "medium",
+        "question": "Quel composant aide à accélérer les calculs graphiques pour les jeux ?",
+        "options": {
+          "A": "La carte son",
+          "B": "La carte graphique (GPU)",
+          "C": "Le disque dur",
+          "D": "Le clavier"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0019",
+        "difficulty": "medium",
+        "question": "Pourquoi sauvegarder ses fichiers sur deux supports différents ?",
+        "options": {
+          "A": "Pour les perdre plus vite",
+          "B": "Pour avoir une copie de secours en cas de panne",
+          "C": "Pour ralentir l'ordinateur",
+          "D": "Pour décorer le bureau"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0020",
+        "difficulty": "medium",
+        "question": "Quel est l'avantage d'un écran tactile pour un élève en CP-CE2 ?",
+        "options": {
+          "A": "Il ne s'allume pas",
+          "B": "Il permet d'interagir directement avec les activités en touchant l'écran",
+          "C": "Il remplace la souris uniquement",
+          "D": "Il imprime les exercices"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0021",
+        "difficulty": "easy",
+        "question": "Si tu dois aller tout droit puis tourner à droite, quelle suite de directions écris-tu ?",
+        "options": {
+          "A": "Droite, droite",
+          "B": "Tout droit, droite",
+          "C": "Gauche, tout droit",
+          "D": "Tourner, sauter"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0022",
+        "difficulty": "easy",
+        "question": "Quel mot décrit une suite d'actions à suivre pour résoudre un problème ?",
+        "options": {
+          "A": "Un algorithme",
+          "B": "Un écran",
+          "C": "Un câble",
+          "D": "Un fichier"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0023",
+        "difficulty": "easy",
+        "question": "Si tu dois répéter trois fois 'sauter', quelle instruction utilises-tu ?",
+        "options": {
+          "A": "Sauter une fois",
+          "B": "Répéter 3 fois : sauter",
+          "C": "Arrêter",
+          "D": "Aller à gauche"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0024",
+        "difficulty": "easy",
+        "question": "Quel symbole peut représenter une condition 'si' dans un jeu de programmation pour enfants ?",
+        "options": {
+          "A": "Si ... alors ...",
+          "B": "Toujours",
+          "C": "Répéter",
+          "D": "Fin"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0025",
+        "difficulty": "easy",
+        "question": "Quelle suite d'actions est correcte pour allumer une lampe : appuyer sur l'interrupteur ou le pousser ?",
+        "options": {
+          "A": "Appuyer sur l'interrupteur",
+          "B": "Pousser la lampe",
+          "C": "Secouer la lampe",
+          "D": "Regarder la lampe"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0026",
+        "difficulty": "easy",
+        "question": "Si un robot doit avancer de 2 pas puis tourner, combien d'étapes y a-t-il ?",
+        "options": {
+          "A": "1 étape",
+          "B": "2 étapes",
+          "C": "3 étapes",
+          "D": "4 étapes"
+        },
+        "answer": "C"
+      },
+      {
+        "id": "tech-fr-easy-0027",
+        "difficulty": "easy",
+        "question": "Quel mot décrit une action qui se répète encore et encore ?",
+        "options": {
+          "A": "Condition",
+          "B": "Boucle",
+          "C": "Variable",
+          "D": "Fichier"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0028",
+        "difficulty": "easy",
+        "question": "Si 'si la porte est fermée alors frapper', que fais-tu si la porte est ouverte ?",
+        "options": {
+          "A": "Frapper quand même",
+          "B": "Ne pas frapper",
+          "C": "Crier",
+          "D": "Ouvrir la porte"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0029",
+        "difficulty": "easy",
+        "question": "Quel mot simple peut garder un nombre, comme le score d'un jeu ?",
+        "options": {
+          "A": "Variable",
+          "B": "Boucle",
+          "C": "Condition",
+          "D": "Clavier"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0030",
+        "difficulty": "easy",
+        "question": "Quelle est la première étape pour suivre une recette ou un algorithme ?",
+        "options": {
+          "A": "Commencer par la dernière étape",
+          "B": "Lire toutes les étapes dans l'ordre",
+          "C": "Inventer des étapes",
+          "D": "Ignorer les étapes"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0021",
+        "difficulty": "medium",
+        "question": "Pourquoi utilise-t-on une variable dans un programme simple ?",
+        "options": {
+          "A": "Pour répéter une action",
+          "B": "Pour stocker une valeur qui peut changer",
+          "C": "Pour afficher une image",
+          "D": "Pour éteindre l'ordinateur"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0022",
+        "difficulty": "medium",
+        "question": "Que fait une boucle 'Répéter 5 fois' dans un algorithme ?",
+        "options": {
+          "A": "Elle exécute l'action une seule fois",
+          "B": "Elle exécute l'action cinq fois",
+          "C": "Elle arrête le programme",
+          "D": "Elle efface les données"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0023",
+        "difficulty": "medium",
+        "question": "Dans 'Si la couleur est rouge alors arrêter', que se passe-t-il si la couleur est verte ?",
+        "options": {
+          "A": "Le programme s'arrête",
+          "B": "Rien ne se passe (l'action n'est pas exécutée)",
+          "C": "Le programme plante",
+          "D": "La couleur change"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0024",
+        "difficulty": "medium",
+        "question": "Quel est l'ordre logique pour résoudre un labyrinthe avec des instructions ?",
+        "options": {
+          "A": "Tourner au hasard",
+          "B": "Analyser le chemin, écrire la suite d'actions, exécuter",
+          "C": "Fermer les yeux",
+          "D": "Demander à quelqu'un d'autre"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0025",
+        "difficulty": "medium",
+        "question": "Que signifie 'déboguer' un programme ?",
+        "options": {
+          "A": "Ajouter des insectes",
+          "B": "Trouver et corriger les erreurs",
+          "C": "Écrire plus de code inutile",
+          "D": "Supprimer toutes les données"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0026",
+        "difficulty": "medium",
+        "question": "Quelle structure est utile pour choisir entre deux actions selon une condition ?",
+        "options": {
+          "A": "Boucle",
+          "B": "Condition (Si/Alors)",
+          "C": "Variable",
+          "D": "Fichier"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0027",
+        "difficulty": "medium",
+        "question": "Si on veut compter combien de fois un joueur marque, quelle structure utilise-t-on ?",
+        "options": {
+          "A": "Une variable compteur",
+          "B": "Une boucle infinie",
+          "C": "Un écran tactile",
+          "D": "Un câble USB"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0028",
+        "difficulty": "medium",
+        "question": "Pourquoi est-il utile d'écrire un algorithme avant de coder ?",
+        "options": {
+          "A": "Pour perdre du temps",
+          "B": "Pour planifier les étapes et éviter les erreurs",
+          "C": "Pour décorer le code",
+          "D": "Pour rendre le programme plus lent"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0029",
+        "difficulty": "medium",
+        "question": "Que fait une boucle 'Tant que' dans un programme ?",
+        "options": {
+          "A": "Elle répète tant que la condition est vraie",
+          "B": "Elle exécute une seule fois",
+          "C": "Elle efface la mémoire",
+          "D": "Elle affiche une image"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0030",
+        "difficulty": "medium",
+        "question": "Quel est le meilleur moyen pour tester si un algorithme fonctionne ?",
+        "options": {
+          "A": "Ne jamais l'essayer",
+          "B": "Le tester avec des exemples simples et vérifier les résultats",
+          "C": "Le montrer sans l'exécuter",
+          "D": "Le supprimer"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0031",
+        "difficulty": "easy",
+        "question": "Quel objet technologique peut te donner l'heure et te permettre de jouer ?",
+        "options": {
+          "A": "Une montre connectée",
+          "B": "Un tournevis",
+          "C": "Un livre",
+          "D": "Une lampe"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0032",
+        "difficulty": "easy",
+        "question": "Quel objet te permet d'écouter de la musique et de la porter sur toi ?",
+        "options": {
+          "A": "Un casque audio",
+          "B": "Un marteau",
+          "C": "Un écran",
+          "D": "Un câble"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0033",
+        "difficulty": "easy",
+        "question": "Quel objet technique est utilisé pour mesurer le temps d'une course ?",
+        "options": {
+          "A": "Un chronomètre",
+          "B": "Une clé USB",
+          "C": "Un écran",
+          "D": "Un ventilateur"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0034",
+        "difficulty": "easy",
+        "question": "Quel objet technique te permet d'appeler quelqu'un à distance ?",
+        "options": {
+          "A": "Un téléphone",
+          "B": "Une lampe",
+          "C": "Un tournevis",
+          "D": "Un livre"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0035",
+        "difficulty": "easy",
+        "question": "Quel objet technique aide à trouver son chemin en voiture ?",
+        "options": {
+          "A": "Un GPS",
+          "B": "Une montre",
+          "C": "Un marteau",
+          "D": "Un écran d'ordinateur"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0036",
+        "difficulty": "easy",
+        "question": "Quel objet technique peut être radiocommandé pour jouer ?",
+        "options": {
+          "A": "Un jouet radiocommandé",
+          "B": "Un livre",
+          "C": "Une chaise",
+          "D": "Un tableau"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0037",
+        "difficulty": "easy",
+        "question": "Quel objet technique sert à prendre des photos de vacances ?",
+        "options": {
+          "A": "Un appareil photo",
+          "B": "Un tournevis",
+          "C": "Un câble",
+          "D": "Un écran"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0038",
+        "difficulty": "easy",
+        "question": "Quel objet technique peut t'aider à cuisiner en affichant une recette ?",
+        "options": {
+          "A": "Un four sans écran",
+          "B": "Une tablette",
+          "C": "Un marteau",
+          "D": "Un tournevis"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0039",
+        "difficulty": "easy",
+        "question": "Quel objet technique permet d'allumer et d'éteindre une lumière à distance ?",
+        "options": {
+          "A": "Un interrupteur",
+          "B": "Un livre",
+          "C": "Un écran",
+          "D": "Un câble USB"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0040",
+        "difficulty": "easy",
+        "question": "Quel objet technique peut mesurer la température d'une pièce ?",
+        "options": {
+          "A": "Un thermomètre",
+          "B": "Un chronomètre",
+          "C": "Un tournevis",
+          "D": "Un écran"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0031",
+        "difficulty": "medium",
+        "question": "Quel matériau est souvent utilisé pour le boîtier d'un téléphone pour le rendre léger ?",
+        "options": {
+          "A": "Le verre uniquement",
+          "B": "Le plastique ou l'aluminium selon le modèle",
+          "C": "Le bois",
+          "D": "Le béton"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0032",
+        "difficulty": "medium",
+        "question": "Pourquoi les fabricants conçoivent-ils des appareils plus petits et plus légers ?",
+        "options": {
+          "A": "Pour qu'ils soient plus difficiles à transporter",
+          "B": "Pour faciliter le transport et l'utilisation quotidienne",
+          "C": "Pour augmenter la consommation d'énergie",
+          "D": "Pour rendre la réparation impossible"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0033",
+        "difficulty": "medium",
+        "question": "Quel est un avantage de réparer un objet technique plutôt que de le jeter ?",
+        "options": {
+          "A": "Cela crée plus de déchets",
+          "B": "Cela prolonge la durée de vie et réduit les déchets",
+          "C": "Cela rend l'objet plus lourd",
+          "D": "Cela augmente la consommation d'énergie"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0034",
+        "difficulty": "medium",
+        "question": "Quel composant d'un téléphone contient la batterie et la carte mère ?",
+        "options": {
+          "A": "Le boîtier arrière",
+          "B": "L'écran seulement",
+          "C": "L'intérieur du téléphone (châssis)",
+          "D": "La coque de protection"
+        },
+        "answer": "C"
+      },
+      {
+        "id": "tech-fr-medium-0035",
+        "difficulty": "medium",
+        "question": "Que signifie 'obsolescence' d'un appareil ?",
+        "options": {
+          "A": "Quand il devient plus rapide",
+          "B": "Quand il devient vieux ou moins utile à cause des nouvelles technologies",
+          "C": "Quand il est réparé",
+          "D": "Quand il est nettoyé"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0036",
+        "difficulty": "medium",
+        "question": "Quel geste aide à prolonger la vie d'une batterie rechargeable ?",
+        "options": {
+          "A": "La laisser toujours branchée en permanence",
+          "B": "Éviter les températures extrêmes et charger raisonnablement",
+          "C": "La jeter après une seule utilisation",
+          "D": "La plonger dans l'eau"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0037",
+        "difficulty": "medium",
+        "question": "Quel est un bon endroit pour recycler un vieux téléphone ?",
+        "options": {
+          "A": "La poubelle ordinaire",
+          "B": "Un point de collecte ou une déchetterie spécialisée",
+          "C": "Le lavabo",
+          "D": "Le four"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0038",
+        "difficulty": "medium",
+        "question": "Pourquoi certains objets techniques utilisent du verre renforcé à l'avant ?",
+        "options": {
+          "A": "Pour être plus fragile",
+          "B": "Pour protéger l'écran et résister aux chocs",
+          "C": "Pour augmenter le poids",
+          "D": "Pour empêcher l'écran de s'allumer"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0039",
+        "difficulty": "medium",
+        "question": "Quel est l'intérêt d'un manuel ou d'une notice pour un objet technique ?",
+        "options": {
+          "A": "Pour savoir comment l'utiliser et l'entretenir correctement",
+          "B": "Pour le rendre plus cher",
+          "C": "Pour le cacher",
+          "D": "Pour le rendre plus lourd"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0040",
+        "difficulty": "medium",
+        "question": "Comment l'évolution technologique aide-t-elle les élèves à apprendre ?",
+        "options": {
+          "A": "En rendant les outils plus compliqués",
+          "B": "En proposant des outils interactifs et accessibles pour apprendre",
+          "C": "En supprimant les livres",
+          "D": "En empêchant la communication"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0041",
+        "difficulty": "easy",
+        "question": "Comment appelle-t-on le programme que tu utilises pour accéder à internet, comme Chrome ?",
+        "options": {
+          "A": "Un navigateur",
+          "B": "Un moteur de recherche",
+          "C": "Un site web",
+          "D": "Un câble"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0042",
+        "difficulty": "easy",
+        "question": "Quel mot décrit un ensemble de pages que tu visites sur internet ?",
+        "options": {
+          "A": "Un site internet",
+          "B": "Un clavier",
+          "C": "Un écran",
+          "D": "Un câble"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0043",
+        "difficulty": "easy",
+        "question": "Où écris-tu des mots pour chercher quelque chose sur internet ?",
+        "options": {
+          "A": "Dans la barre de recherche",
+          "B": "Dans la poubelle",
+          "C": "Sur le clavier seulement",
+          "D": "Sur l'écran tactile"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0044",
+        "difficulty": "easy",
+        "question": "Quel exemple est un moteur de recherche que tu peux utiliser ?",
+        "options": {
+          "A": "Un site web",
+          "B": "Google",
+          "C": "Un câble USB",
+          "D": "Un écran"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0045",
+        "difficulty": "easy",
+        "question": "Quel élément commence une adresse internet (URL) d'un site sécurisé ?",
+        "options": {
+          "A": "http://",
+          "B": "https://",
+          "C": "ftp://",
+          "D": "file://"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0046",
+        "difficulty": "easy",
+        "question": "Que dois-tu faire si une page internet te demande ton mot de passe et que tu n'es pas sûr ?",
+        "options": {
+          "A": "Le donner sans réfléchir",
+          "B": "Demander à un adulte avant de le saisir",
+          "C": "L'écrire sur un papier public",
+          "D": "Le crier fort"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0047",
+        "difficulty": "easy",
+        "question": "Quel mot décrit une adresse internet comme 'www.ecole.fr' ?",
+        "options": {
+          "A": "Un navigateur",
+          "B": "Une URL",
+          "C": "Un moteur",
+          "D": "Un fichier"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0048",
+        "difficulty": "easy",
+        "question": "Quel est l'outil qui affiche les pages web et permet de cliquer sur des liens ?",
+        "options": {
+          "A": "Un moteur de recherche",
+          "B": "Un navigateur",
+          "C": "Un câble",
+          "D": "Un disque dur"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0049",
+        "difficulty": "easy",
+        "question": "Que signifie 'site web' pour un élève ?",
+        "options": {
+          "A": "Un lieu sur internet avec des informations ou des jeux",
+          "B": "Un type de câble",
+          "C": "Un périphérique",
+          "D": "Un mot de passe"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0050",
+        "difficulty": "easy",
+        "question": "Quel geste est sûr quand tu navigues : partager ton mot de passe ou le garder secret ?",
+        "options": {
+          "A": "Partager ton mot de passe",
+          "B": "Le garder secret",
+          "C": "L'écrire sur le mur",
+          "D": "Le dire à tout le monde"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0041",
+        "difficulty": "medium",
+        "question": "Quelle partie d'une URL indique le nom du site, par exemple 'ecole' dans 'www.ecole.fr' ?",
+        "options": {
+          "A": "Le protocole",
+          "B": "Le nom de domaine",
+          "C": "Le chemin",
+          "D": "Le port"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0042",
+        "difficulty": "medium",
+        "question": "Comment un moteur de recherche trouve-t-il des pages pour ta recherche ?",
+        "options": {
+          "A": "En devinant au hasard",
+          "B": "En parcourant et indexant des pages puis en les classant selon la requête",
+          "C": "En demandant à ton ordinateur local seulement",
+          "D": "En affichant toujours la même page"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0043",
+        "difficulty": "medium",
+        "question": "Pourquoi est-il important d'utiliser des mots-clés précis dans une recherche ?",
+        "options": {
+          "A": "Pour obtenir des résultats plus pertinents",
+          "B": "Pour ralentir la recherche",
+          "C": "Pour afficher des images seulement",
+          "D": "Pour supprimer les résultats"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0044",
+        "difficulty": "medium",
+        "question": "Que signifie 'https' au début d'une adresse web ?",
+        "options": {
+          "A": "Que la page est en construction",
+          "B": "Que la connexion est sécurisée et chiffrée",
+          "C": "Que le site est lent",
+          "D": "Que le site est privé"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0045",
+        "difficulty": "medium",
+        "question": "Qu'est-ce qu'un cookie sur un site web ?",
+        "options": {
+          "A": "Un petit fichier qui aide le site à se souvenir de certaines informations",
+          "B": "Un virus dangereux",
+          "C": "Un type de navigateur",
+          "D": "Un câble réseau"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0046",
+        "difficulty": "medium",
+        "question": "Que dois-tu vérifier pour savoir si un site est fiable pour un travail scolaire ?",
+        "options": {
+          "A": "La couleur du site",
+          "B": "La source, l'auteur et si l'information est cohérente",
+          "C": "La taille des images",
+          "D": "La vitesse de l'ordinateur"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0047",
+        "difficulty": "medium",
+        "question": "Pourquoi faut-il créer des mots de passe différents pour plusieurs comptes ?",
+        "options": {
+          "A": "Pour se souvenir plus facilement",
+          "B": "Pour éviter que si un mot de passe est volé, tous les comptes soient accessibles",
+          "C": "Pour partager avec des amis",
+          "D": "Pour rendre les comptes publics"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0048",
+        "difficulty": "medium",
+        "question": "Quel est le rôle d'un navigateur privé (mode navigation privée) ?",
+        "options": {
+          "A": "Il rend l'ordinateur plus rapide",
+          "B": "Il n'enregistre pas l'historique de navigation localement",
+          "C": "Il supprime internet",
+          "D": "Il bloque tous les sites"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0049",
+        "difficulty": "medium",
+        "question": "Que signifie 'URL' en termes simples pour un élève ?",
+        "options": {
+          "A": "L'adresse d'une page sur internet",
+          "B": "Un type de navigateur",
+          "C": "Un virus",
+          "D": "Un câble"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0050",
+        "difficulty": "medium",
+        "question": "Que faire si tu reçois un message inconnu demandant des informations personnelles ?",
+        "options": {
+          "A": "Répondre immédiatement",
+          "B": "Ne pas répondre et demander à un adulte de vérifier",
+          "C": "Partager les informations sur les réseaux",
+          "D": "Supprimer ton compte"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0051",
+        "difficulty": "easy",
+        "question": "Qu'est-ce qui allume une ampoule : un circuit ouvert ou un circuit fermé ?",
+        "options": {
+          "A": "Un circuit ouvert",
+          "B": "Un circuit fermé",
+          "C": "Un circuit cassé",
+          "D": "Un circuit invisible"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0052",
+        "difficulty": "easy",
+        "question": "Quel objet fournit l'énergie pour faire fonctionner une lampe portable ?",
+        "options": {
+          "A": "Une pile",
+          "B": "Un écran",
+          "C": "Un câble HDMI",
+          "D": "Un clavier"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0053",
+        "difficulty": "easy",
+        "question": "Quel matériau laisse passer l'électricité facilement : le métal ou le bois ?",
+        "options": {
+          "A": "Le métal (conducteur)",
+          "B": "Le bois (isolant)",
+          "C": "Les deux de la même façon",
+          "D": "Aucun des deux"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0054",
+        "difficulty": "easy",
+        "question": "Quel composant permet d'ouvrir ou fermer le passage du courant dans une lampe ?",
+        "options": {
+          "A": "Un interrupteur",
+          "B": "Un câble USB",
+          "C": "Un écran",
+          "D": "Une clé"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0055",
+        "difficulty": "easy",
+        "question": "Si une lampe ne s'allume pas, que peux-tu vérifier en premier ?",
+        "options": {
+          "A": "Si la pile est en place et si l'interrupteur est fermé",
+          "B": "Si l'écran est allumé",
+          "C": "Si le clavier est branché",
+          "D": "Si la souris est propre"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0056",
+        "difficulty": "easy",
+        "question": "Quel fil est souvent utilisé pour relier une lampe à une pile ?",
+        "options": {
+          "A": "Un fil conducteur (cuivre)",
+          "B": "Un fil en papier",
+          "C": "Un fil en bois",
+          "D": "Un fil en verre"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0057",
+        "difficulty": "easy",
+        "question": "Quel mot décrit un matériau qui n'autorise pas le passage du courant ?",
+        "options": {
+          "A": "Conducteur",
+          "B": "Isolant",
+          "C": "Magnétique",
+          "D": "Transparent"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-easy-0058",
+        "difficulty": "easy",
+        "question": "Quel objet simple peut allumer une petite ampoule pour une expérience en classe ?",
+        "options": {
+          "A": "Une pile, des fils et une ampoule",
+          "B": "Un écran et un clavier",
+          "C": "Un livre et un crayon",
+          "D": "Une gomme et une règle"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0059",
+        "difficulty": "easy",
+        "question": "Quel côté d'une pile est souvent marqué d'un '+' ?",
+        "options": {
+          "A": "La borne positive",
+          "B": "La borne négative",
+          "C": "Le milieu",
+          "D": "Le côté plat"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-easy-0060",
+        "difficulty": "easy",
+        "question": "Quel geste est dangereux près d'une prise électrique : toucher avec les mains mouillées ou sèches ?",
+        "options": {
+          "A": "Mains sèches",
+          "B": "Mains mouillées",
+          "C": "Les deux sont sûrs",
+          "D": "Aucun des deux"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0051",
+        "difficulty": "medium",
+        "question": "Quelle est la différence entre un isolant et un conducteur ?",
+        "options": {
+          "A": "Un isolant laisse passer le courant, un conducteur le bloque",
+          "B": "Un conducteur laisse passer le courant, un isolant le bloque",
+          "C": "Les deux sont identiques",
+          "D": "Un isolant est toujours en métal"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0052",
+        "difficulty": "medium",
+        "question": "Pourquoi un interrupteur placé dans un circuit peut éteindre une lampe ?",
+        "options": {
+          "A": "Parce qu'il ouvre le circuit et empêche le courant de passer",
+          "B": "Parce qu'il augmente la tension",
+          "C": "Parce qu'il change la couleur de la lampe",
+          "D": "Parce qu'il refroidit la pile"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0053",
+        "difficulty": "medium",
+        "question": "Que se passe-t-il si tu branches une ampoule à une pile avec les fils inversés ?",
+        "options": {
+          "A": "L'ampoule s'allume normalement (le sens n'importe pas pour une ampoule simple)",
+          "B": "L'ampoule explose toujours",
+          "C": "La pile devient un écran",
+          "D": "Rien ne se passe toujours"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0054",
+        "difficulty": "medium",
+        "question": "Quel appareil mesure l'intensité du courant électrique dans un circuit scolaire simple ?",
+        "options": {
+          "A": "Un thermomètre",
+          "B": "Un ampèremètre",
+          "C": "Un voltmètre",
+          "D": "Un chronomètre"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0055",
+        "difficulty": "medium",
+        "question": "Pourquoi est-il important d'utiliser des isolants autour des fils électriques ?",
+        "options": {
+          "A": "Pour empêcher le courant de s'échapper et éviter les chocs",
+          "B": "Pour rendre les fils plus lourds",
+          "C": "Pour augmenter la vitesse du courant",
+          "D": "Pour changer la couleur du courant"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0056",
+        "difficulty": "medium",
+        "question": "Que mesure un voltmètre dans un circuit ?",
+        "options": {
+          "A": "La résistance",
+          "B": "La tension (voltage) entre deux points",
+          "C": "La température",
+          "D": "La vitesse du courant"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0057",
+        "difficulty": "medium",
+        "question": "Quel est le rôle d'une mise à la terre pour un appareil électrique ?",
+        "options": {
+          "A": "Empêcher l'appareil de fonctionner",
+          "B": "Diriger un courant de fuite vers la terre pour protéger les personnes",
+          "C": "Augmenter la luminosité",
+          "D": "Rendre l'appareil plus rapide"
+        },
+        "answer": "B"
+      },
+      {
+        "id": "tech-fr-medium-0058",
+        "difficulty": "medium",
+        "question": "Pourquoi faut-il débrancher un appareil avant de le réparer ?",
+        "options": {
+          "A": "Pour éviter d'être électrocuté",
+          "B": "Pour le rendre plus lourd",
+          "C": "Pour augmenter la tension",
+          "D": "Pour le nettoyer"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0059",
+        "difficulty": "medium",
+        "question": "Quel matériau est un bon conducteur utilisé dans les fils électriques ?",
+        "options": {
+          "A": "Le cuivre",
+          "B": "Le caoutchouc",
+          "C": "Le verre",
+          "D": "Le bois"
+        },
+        "answer": "A"
+      },
+      {
+        "id": "tech-fr-medium-0060",
+        "difficulty": "medium",
+        "question": "Que signifie 'court-circuit' dans un circuit électrique ?",
+        "options": {
+          "A": "Un chemin non prévu qui laisse passer beaucoup de courant et peut être dangereux",
+          "B": "Un circuit très long",
+          "C": "Un circuit qui fonctionne parfaitement",
+          "D": "Un type de pile"
+        },
+        "answer": "A"
+      },
+        {
+          "id": "tech-fr-easy-0061",
+          "difficulty": "easy",
+          "question": "Quel périphérique utilises-tu pour sélectionner du texte en faisant glisser le pointeur ?",
+          "options": { "A": "La souris", "B": "Le clavier", "C": "L'écran", "D": "L'imprimante" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0062",
+          "difficulty": "easy",
+          "question": "Quel composant montre l'heure et les notifications sur un ordinateur portable ?",
+          "options": { "A": "Le clavier", "B": "L'écran", "C": "La souris", "D": "La tour" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-easy-0063",
+          "difficulty": "easy",
+          "question": "Quel périphérique sert à taper des chiffres rapidement ?",
+          "options": { "A": "Le pavé numérique du clavier", "B": "La souris", "C": "La webcam", "D": "Le scanner" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0064",
+          "difficulty": "easy",
+          "question": "Quel accessoire protège l'écran d'un ordinateur portable quand on le ferme ?",
+          "options": { "A": "La housse", "B": "La souris", "C": "Le clavier", "D": "La clé USB" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0065",
+          "difficulty": "easy",
+          "question": "Quel petit appareil se branche sur l'ordinateur pour ajouter de la mémoire portable ?",
+          "options": { "A": "La clé USB", "B": "La souris", "C": "Le micro", "D": "La webcam" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0066",
+          "difficulty": "easy",
+          "question": "Quel périphérique permet d'imprimer une feuille depuis l'ordinateur ?",
+          "options": { "A": "L'imprimante", "B": "Le scanner", "C": "La souris", "D": "Le clavier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0067",
+          "difficulty": "easy",
+          "question": "Quel câble relie souvent un écran à un ordinateur pour afficher l'image ?",
+          "options": { "A": "HDMI", "B": "USB", "C": "Ethernet", "D": "Jack" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0068",
+          "difficulty": "easy",
+          "question": "Quel périphérique capte les sons pour les enregistrer ?",
+          "options": { "A": "Le micro", "B": "La webcam", "C": "La souris", "D": "Le clavier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0069",
+          "difficulty": "easy",
+          "question": "Quel composant est souvent appelé 'écran' sur une tablette ?",
+          "options": { "A": "L'écran tactile", "B": "La souris", "C": "Le clavier", "D": "La tour" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0070",
+          "difficulty": "easy",
+          "question": "Quel périphérique permet de voir ton visage lors d'un appel vidéo ?",
+          "options": { "A": "La webcam", "B": "Le scanner", "C": "L'imprimante", "D": "La souris" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0061",
+          "difficulty": "medium",
+          "question": "Quelle est la fonction principale d'un disque dur externe pour une classe ?",
+          "options": { "A": "Augmenter la mémoire vive", "B": "Sauvegarder et transporter des fichiers", "C": "Refroidir l'ordinateur", "D": "Afficher des images" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0062",
+          "difficulty": "medium",
+          "question": "Comment appelle-t-on la mémoire qui s'efface quand on éteint l'ordinateur ?",
+          "options": { "A": "ROM", "B": "RAM", "C": "SSD", "D": "Disque dur" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0063",
+          "difficulty": "medium",
+          "question": "Pourquoi un ordinateur a-t-il besoin d'une alimentation (PSU) ?",
+          "options": { "A": "Pour stocker des fichiers", "B": "Pour fournir l'énergie électrique aux composants", "C": "Pour afficher des images", "D": "Pour imprimer" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0064",
+          "difficulty": "medium",
+          "question": "Quel port est le plus adapté pour brancher une clé USB ?",
+          "options": { "A": "HDMI", "B": "USB", "C": "Ethernet", "D": "VGA" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0065",
+          "difficulty": "medium",
+          "question": "Que signifie 'boot' ou démarrer un ordinateur ?",
+          "options": { "A": "Éteindre l'ordinateur", "B": "Lancer le système pour qu'il soit prêt à l'usage", "C": "Installer une imprimante", "D": "Formater un disque" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0066",
+          "difficulty": "medium",
+          "question": "Quel composant est souvent mis à jour pour améliorer les performances graphiques ?",
+          "options": { "A": "La carte graphique (GPU)", "B": "Le clavier", "C": "La souris", "D": "Le câble HDMI" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0067",
+          "difficulty": "medium",
+          "question": "Pourquoi les ordinateurs ont-ils un ventilateur et un dissipateur thermique ?",
+          "options": { "A": "Pour décorer la tour", "B": "Pour refroidir le processeur et éviter la surchauffe", "C": "Pour stocker des données", "D": "Pour afficher des images" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0068",
+          "difficulty": "medium",
+          "question": "Quel est l'intérêt d'un port Ethernet par rapport au Wi‑Fi ?",
+          "options": { "A": "L'Ethernet est souvent plus stable et rapide", "B": "L'Ethernet est sans fil", "C": "L'Ethernet ne transporte pas de données", "D": "L'Ethernet remplace l'écran" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0069",
+          "difficulty": "medium",
+          "question": "Que veut dire 'plug and play' pour une imprimante en classe ?",
+          "options": { "A": "Elle doit être configurée pendant des heures", "B": "Elle fonctionne immédiatement quand on la branche", "C": "Elle ne marche jamais", "D": "Elle imprime sans papier" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0070",
+          "difficulty": "medium",
+          "question": "Quel composant stocke le système d'exploitation et les fichiers sur un ordinateur moderne ?",
+          "options": { "A": "La RAM", "B": "Le SSD ou disque dur", "C": "Le processeur", "D": "La carte mère" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-easy-0071",
+          "difficulty": "easy",
+          "question": "Si tu veux que ton robot tourne à gauche, quelle instruction écris-tu ?",
+          "options": { "A": "Avancer", "B": "Tourner à gauche", "C": "Sauter", "D": "Arrêter" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-easy-0072",
+          "difficulty": "easy",
+          "question": "Quel mot décrit une suite d'actions à suivre pour faire un dessin étape par étape ?",
+          "options": { "A": "Un algorithme", "B": "Un écran", "C": "Un câble", "D": "Un fichier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0073",
+          "difficulty": "easy",
+          "question": "Si tu dois répéter 'sauter' 4 fois, quelle instruction utilises-tu ?",
+          "options": { "A": "Répéter 4 fois : sauter", "B": "Sauter une fois", "C": "Arrêter", "D": "Aller à droite" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0074",
+          "difficulty": "easy",
+          "question": "Quel mot simple peut garder le score d'un jeu ?",
+          "options": { "A": "Variable", "B": "Boucle", "C": "Condition", "D": "Fichier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0075",
+          "difficulty": "easy",
+          "question": "Quelle est la première chose à faire avant d'exécuter un algorithme ?",
+          "options": { "A": "Écrire les étapes dans l'ordre", "B": "Allumer la lumière", "C": "Crier", "D": "Effacer tout" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0076",
+          "difficulty": "easy",
+          "question": "Si une instruction dit 'si le drapeau est rouge alors s'arrêter', que fais-tu si le drapeau est rouge ?",
+          "options": { "A": "S'arrêter", "B": "Continuer", "C": "Tourner", "D": "Répéter" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0077",
+          "difficulty": "easy",
+          "question": "Quel mot décrit une action qui se répète plusieurs fois ?",
+          "options": { "A": "Variable", "B": "Boucle", "C": "Condition", "D": "Clavier" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-easy-0078",
+          "difficulty": "easy",
+          "question": "Si tu veux que ton personnage avance 3 pas, quelle suite écris-tu ?",
+          "options": { "A": "Avancer, avancer, avancer", "B": "Tourner, sauter, arrêter", "C": "Sauter, sauter, sauter", "D": "Arrêter, arrêter, arrêter" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0079",
+          "difficulty": "easy",
+          "question": "Quel mot utilise-t-on pour dire 'si ceci alors cela' ?",
+          "options": { "A": "Boucle", "B": "Condition", "C": "Variable", "D": "Fichier" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-easy-0080",
+          "difficulty": "easy",
+          "question": "Quel est le bon ordre pour suivre une recette : lire, préparer, exécuter ou exécuter, préparer, lire ?",
+          "options": { "A": "Lire, préparer, exécuter", "B": "Exécuter, préparer, lire", "C": "Préparer, lire, exécuter", "D": "Ignorer les étapes" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0071",
+          "difficulty": "medium",
+          "question": "Quelle est la différence entre une boucle 'pour' et une boucle 'tant que' ?",
+          "options": { "A": "La boucle 'pour' répète un nombre précis de fois, 'tant que' répète tant que la condition est vraie", "B": "Les deux sont identiques", "C": "La boucle 'pour' ne répète jamais", "D": "La boucle 'tant que' est toujours plus rapide" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0072",
+          "difficulty": "medium",
+          "question": "Que signifie 'initialiser une variable' dans un programme ?",
+          "options": { "A": "La supprimer", "B": "Donner une valeur de départ à la variable", "C": "La rendre invisible", "D": "La transformer en boucle" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0073",
+          "difficulty": "medium",
+          "question": "Pourquoi est-il utile d'ajouter des commentaires dans un code ?",
+          "options": { "A": "Pour expliquer ce que fait le code et aider à le comprendre", "B": "Pour ralentir le programme", "C": "Pour supprimer des lignes", "D": "Pour décorer l'écran" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0074",
+          "difficulty": "medium",
+          "question": "Que signifie 'déboguer' un programme ?",
+          "options": { "A": "Ajouter des insectes", "B": "Trouver et corriger les erreurs", "C": "Écrire plus de code inutile", "D": "Effacer le programme" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0075",
+          "difficulty": "medium",
+          "question": "Quel test est utile pour vérifier qu'un algorithme marche pour plusieurs cas ?",
+          "options": { "A": "Tester avec des exemples simples et des cas limites", "B": "Ne jamais tester", "C": "Tester une seule fois", "D": "Supprimer l'algorithme" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0076",
+          "difficulty": "medium",
+          "question": "Si une boucle ne s'arrête jamais, quel problème as-tu ?",
+          "options": { "A": "Une boucle infinie", "B": "Une variable", "C": "Un écran cassé", "D": "Un câble débranché" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0077",
+          "difficulty": "medium",
+          "question": "Pourquoi utiliser une variable compteur dans un jeu ?",
+          "options": { "A": "Pour compter les points ou les répétitions", "B": "Pour afficher des images", "C": "Pour éteindre l'ordinateur", "D": "Pour imprimer" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0078",
+          "difficulty": "medium",
+          "question": "Quel est l'avantage d'écrire un algorithme en pseudo-code avant de coder ?",
+          "options": { "A": "Planifier la logique sans se soucier de la syntaxe", "B": "Rendre le code plus long", "C": "Empêcher le programme de fonctionner", "D": "Décorer l'écran" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0079",
+          "difficulty": "medium",
+          "question": "Que fait une instruction 'break' dans une boucle ?",
+          "options": { "A": "Elle arrête immédiatement la boucle", "B": "Elle répète la boucle", "C": "Elle efface la variable", "D": "Elle redémarre l'ordinateur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0080",
+          "difficulty": "medium",
+          "question": "Quel est le rôle d'un test conditionnel dans un algorithme ?",
+          "options": { "A": "Choisir entre différentes actions selon une situation", "B": "Répéter une action sans condition", "C": "Stocker des fichiers", "D": "Afficher une image" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0081",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut mesurer la vitesse d'une voiture de jouet ?",
+          "options": { "A": "Un chronomètre", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0082",
+          "difficulty": "easy",
+          "question": "Quel objet technique sert à allumer une lampe en appuyant dessus ?",
+          "options": { "A": "Un interrupteur", "B": "Un tournevis", "C": "Un livre", "D": "Un écran" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0083",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut te guider pour trouver une adresse en voiture ?",
+          "options": { "A": "Un GPS", "B": "Un marteau", "C": "Un écran d'ordinateur", "D": "Un câble USB" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0084",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut être rechargé et utilisé sans fil pour écouter de la musique ?",
+          "options": { "A": "Une enceinte Bluetooth", "B": "Un tournevis", "C": "Un câble HDMI", "D": "Un clavier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0085",
+          "difficulty": "easy",
+          "question": "Quel objet technique aide à garder les aliments au frais ?",
+          "options": { "A": "Un réfrigérateur", "B": "Un écran", "C": "Une souris", "D": "Un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0086",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut être programmé pour suivre une ligne noire sur le sol ?",
+          "options": { "A": "Un robot suiveur de ligne", "B": "Un livre", "C": "Un tournevis", "D": "Un écran" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0087",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut mesurer la pression d'air dans un ballon ?",
+          "options": { "A": "Un manomètre", "B": "Un chronomètre", "C": "Un écran", "D": "Un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0088",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut t'aider à écrire sans utiliser d'encre ?",
+          "options": { "A": "Un clavier", "B": "Un stylo", "C": "Un crayon", "D": "Une gomme" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0089",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut te réveiller le matin avec un son ?",
+          "options": { "A": "Un réveil", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0090",
+          "difficulty": "easy",
+          "question": "Quel objet technique permet de mesurer la distance parcourue lors d'une promenade ?",
+          "options": { "A": "Un podomètre", "B": "Un marteau", "C": "Un écran", "D": "Un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0081",
+          "difficulty": "medium",
+          "question": "Pourquoi recycler les composants d'un téléphone est-il important ?",
+          "options": { "A": "Pour récupérer des matériaux et réduire les déchets", "B": "Pour rendre le téléphone plus lent", "C": "Pour augmenter la pollution", "D": "Pour le rendre plus lourd" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0082",
+          "difficulty": "medium",
+          "question": "Qu'est-ce que l'obsolescence programmée ?",
+          "options": { "A": "Quand un appareil est conçu pour durer très longtemps", "B": "Quand un appareil est conçu pour devenir obsolète plus vite", "C": "Quand on répare un appareil", "D": "Quand on recycle un appareil" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0083",
+          "difficulty": "medium",
+          "question": "Quel est l'avantage d'un manuel d'utilisation pour un objet technique ?",
+          "options": { "A": "Il explique comment utiliser et entretenir l'objet", "B": "Il rend l'objet plus cher", "C": "Il empêche l'objet de fonctionner", "D": "Il cache l'objet" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0084",
+          "difficulty": "medium",
+          "question": "Pourquoi certains appareils ont-ils des coques amovibles ?",
+          "options": { "A": "Pour faciliter la réparation ou le remplacement de la batterie", "B": "Pour empêcher l'accès", "C": "Pour augmenter le poids", "D": "Pour cacher l'écran" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0085",
+          "difficulty": "medium",
+          "question": "Que signifie 'durabilité' d'un objet technique ?",
+          "options": { "A": "La capacité à durer longtemps et à être réparable", "B": "La capacité à être jeté rapidement", "C": "La vitesse d'un appareil", "D": "La taille d'un écran" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0086",
+          "difficulty": "medium",
+          "question": "Quel matériau est souvent utilisé pour les circuits imprimés à l'intérieur des appareils ?",
+          "options": { "A": "Le plastique seul", "B": "Le cuivre sur une plaque isolante", "C": "Le bois", "D": "Le verre" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0087",
+          "difficulty": "medium",
+          "question": "Pourquoi documenter le cycle de vie d'un objet technique est utile ?",
+          "options": { "A": "Pour comprendre son impact et améliorer le recyclage", "B": "Pour le rendre plus fragile", "C": "Pour le cacher", "D": "Pour le rendre plus cher" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0088",
+          "difficulty": "medium",
+          "question": "Quel geste réduit l'impact environnemental d'un appareil électronique ?",
+          "options": { "A": "Le réparer plutôt que le jeter", "B": "Le jeter dans la nature", "C": "Le laisser toujours allumé", "D": "Le plonger dans l'eau" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0089",
+          "difficulty": "medium",
+          "question": "Que signifie 'modularité' pour un objet technique ?",
+          "options": { "A": "Qu'il est impossible à démonter", "B": "Qu'il est composé de parties remplaçables", "C": "Qu'il est jetable", "D": "Qu'il est très lourd" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0090",
+          "difficulty": "medium",
+          "question": "Quel est l'intérêt d'utiliser des matériaux recyclés dans la fabrication ?",
+          "options": { "A": "Réduire l'utilisation de ressources neuves et diminuer les déchets", "B": "Augmenter la pollution", "C": "Rendre l'objet plus fragile", "D": "Rendre l'objet plus cher" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0091",
+          "difficulty": "easy",
+          "question": "Quel programme utilises-tu pour chercher des images ou des informations sur internet ?",
+          "options": { "A": "Un moteur de recherche", "B": "Un câble", "C": "Un écran", "D": "Un clavier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0092",
+          "difficulty": "easy",
+          "question": "Quel mot décrit l'adresse d'une page web que tu tapes pour y aller ?",
+          "options": { "A": "URL", "B": "Clavier", "C": "Souris", "D": "Écran" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0093",
+          "difficulty": "easy",
+          "question": "Que dois-tu faire si un site te demande ton mot de passe et que tu n'es pas sûr ?",
+          "options": { "A": "Demander à un adulte", "B": "Le donner tout de suite", "C": "Le publier", "D": "L'oublier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0094",
+          "difficulty": "easy",
+          "question": "Quel est l'outil qui affiche les pages web et permet de cliquer sur des liens ?",
+          "options": { "A": "Un navigateur", "B": "Un moteur de recherche", "C": "Un câble", "D": "Un disque dur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0095",
+          "difficulty": "easy",
+          "question": "Quel mot décrit un message qui essaie de te tromper pour obtenir tes informations ?",
+          "options": { "A": "Phishing (hameçonnage)", "B": "Cookie", "C": "URL", "D": "Navigateur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0096",
+          "difficulty": "easy",
+          "question": "Que dois-tu garder secret pour protéger ton compte en ligne ?",
+          "options": { "A": "Ton mot de passe", "B": "La couleur de ton écran", "C": "Le nom de ton école", "D": "La marque de ton ordinateur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0097",
+          "difficulty": "easy",
+          "question": "Quel bouton du navigateur te permet de revenir à la page précédente ?",
+          "options": { "A": "Le bouton 'Retour'", "B": "Le bouton 'Imprimer'", "C": "Le bouton 'Fermer'", "D": "Le bouton 'Actualiser'" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0098",
+          "difficulty": "easy",
+          "question": "Quel mot décrit un site qui propose des jeux et des activités pour l'école ?",
+          "options": { "A": "Un site éducatif", "B": "Un câble", "C": "Un virus", "D": "Un clavier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0099",
+          "difficulty": "easy",
+          "question": "Que dois-tu faire si une publicité te demande d'entrer ton âge et ton mot de passe ?",
+          "options": { "A": "Ne pas répondre et demander à un adulte", "B": "Répondre tout de suite", "C": "Partager avec des amis", "D": "L'écrire sur le mur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0100",
+          "difficulty": "easy",
+          "question": "Quel est l'avantage d'utiliser un mot de passe long et difficile ?",
+          "options": { "A": "Il protège mieux ton compte", "B": "Il rend l'ordinateur plus lent", "C": "Il affiche plus d'images", "D": "Il casse l'écran" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0091",
+          "difficulty": "medium",
+          "question": "Pourquoi vérifier la source d'une information trouvée sur internet est important pour un exposé ?",
+          "options": { "A": "Pour s'assurer que l'information est fiable et correcte", "B": "Pour rendre l'exposé plus long", "C": "Pour cacher l'information", "D": "Pour augmenter la vitesse d'internet" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0092",
+          "difficulty": "medium",
+          "question": "Que signifie 'phishing' et comment l'éviter ?",
+          "options": { "A": "C'est une technique pour pêcher des poissons", "B": "C'est une tentative de vol d'informations ; on l'évite en ne partageant pas ses données et en vérifiant l'expéditeur", "C": "C'est un type de navigateur", "D": "C'est un virus qui efface l'écran" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0093",
+          "difficulty": "medium",
+          "question": "Quel protocole indique qu'une page web chiffre les données échangées ?",
+          "options": { "A": "http", "B": "https", "C": "ftp", "D": "file" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-medium-0094",
+          "difficulty": "medium",
+          "question": "Pourquoi est-il utile de supprimer les cookies de temps en temps ?",
+          "options": { "A": "Pour protéger la vie privée et supprimer les traces de navigation", "B": "Pour rendre l'ordinateur plus lent", "C": "Pour effacer les images", "D": "Pour augmenter la mémoire" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0095",
+          "difficulty": "medium",
+          "question": "Que signifie 'URL' et quelles parties importantes contient-elle ?",
+          "options": { "A": "C'est l'adresse d'une page ; elle contient le protocole, le nom de domaine et parfois un chemin", "B": "C'est un type de virus", "C": "C'est un périphérique", "D": "C'est un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0001",
+          "difficulty": "hard",
+          "question": "Explique pourquoi la RAM est plus rapide que le stockage permanent en termes simples pour un élève de CM1.",
+          "options": { "A": "Parce qu'elle est plus proche du processeur et conçue pour un accès rapide, mais elle oublie les données à l'arrêt", "B": "Parce qu'elle est plus grande", "C": "Parce qu'elle est plus colorée", "D": "Parce qu'elle est externe" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0002",
+          "difficulty": "hard",
+          "question": "Si un algorithme répète inutilement la même action 100 fois, quelle amélioration proposerais-tu et pourquoi ?",
+          "options": { "A": "Utiliser une boucle pour répéter l'action, car cela rend le code plus court et plus facile à modifier", "B": "Écrire l'action 100 fois", "C": "Supprimer l'action", "D": "Changer l'écran" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0003",
+          "difficulty": "hard",
+          "question": "Pourquoi est-il important de concevoir des objets techniques faciles à réparer pour l'environnement ?",
+          "options": { "A": "Parce que la réparation prolonge la vie des objets et réduit la quantité de déchets électroniques", "B": "Parce que cela rend les objets plus chers", "C": "Parce que cela augmente la consommation d'énergie", "D": "Parce que cela empêche l'utilisation" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0004",
+          "difficulty": "hard",
+          "question": "Comment expliquer à un camarade la différence entre un moteur de recherche et un site web ?",
+          "options": { "A": "Un moteur de recherche trouve et classe des sites ; un site web est une page ou un ensemble de pages avec des informations", "B": "Les deux sont identiques", "C": "Un site web cherche des moteurs", "D": "Un moteur de recherche est un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0005",
+          "difficulty": "hard",
+          "question": "Pourquoi une URL en 'https' est-elle préférée pour transmettre des informations personnelles ?",
+          "options": { "A": "Parce que 'https' chiffre les données entre ton navigateur et le site, rendant l'échange plus sûr", "B": "Parce que 'https' est plus rapide", "C": "Parce que 'https' affiche plus d'images", "D": "Parce que 'https' est plus coloré" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0006",
+          "difficulty": "hard",
+          "question": "Explique pourquoi un court-circuit peut être dangereux et comment l'éviter à la maison.",
+          "options": { "A": "Un court-circuit laisse passer trop de courant, provoquant chaleur ou incendie ; on l'évite en ne reliant pas directement les bornes et en utilisant des fusibles", "B": "Un court-circuit rend l'ordinateur plus rapide", "C": "Un court-circuit est une bonne chose", "D": "Un court-circuit nettoie les fils" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0007",
+          "difficulty": "hard",
+          "question": "Comment comparer l'impact environnemental d'acheter un nouvel appareil versus réparer l'ancien ?",
+          "options": { "A": "Réparer consomme souvent moins de ressources et réduit les déchets par rapport à fabriquer un nouvel appareil", "B": "Acheter neuf est toujours meilleur", "C": "Les deux ont le même impact", "D": "Réparer augmente la pollution" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0008",
+          "difficulty": "hard",
+          "question": "Pourquoi documenter les étapes d'un algorithme aide-t-il à trouver des erreurs plus rapidement ?",
+          "options": { "A": "Parce que cela rend la logique claire et permet d'identifier où le résultat attendu diffère du résultat obtenu", "B": "Parce que cela rend le code plus long", "C": "Parce que cela cache les erreurs", "D": "Parce que cela efface les données" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0009",
+          "difficulty": "hard",
+          "question": "Explique pourquoi il est préférable d'utiliser des mots de passe différents pour chaque compte en ligne.",
+          "options": { "A": "Si un mot de passe est volé, les autres comptes restent protégés si leurs mots de passe sont différents", "B": "Pour se souvenir plus facilement", "C": "Pour partager avec des amis", "D": "Pour rendre les comptes publics" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0010",
+          "difficulty": "hard",
+          "question": "Comment expliquer à un élève la différence entre stockage local et stockage en ligne (cloud) ?",
+          "options": { "A": "Le stockage local garde les fichiers sur ton appareil ; le cloud les garde sur des serveurs accessibles via internet", "B": "Le cloud est un type de câble", "C": "Le stockage local est toujours plus grand", "D": "Le cloud ne stocke rien" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0011",
+          "difficulty": "hard",
+          "question": "Pourquoi la mise à la terre protège-t-elle les personnes en cas de défaut électrique ?",
+          "options": { "A": "Elle offre un chemin sûr pour le courant de fuite vers la terre, réduisant le risque d'électrocution", "B": "Elle augmente la tension", "C": "Elle rend l'appareil plus rapide", "D": "Elle change la couleur des fils" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0012",
+          "difficulty": "hard",
+          "question": "Comment expliquer la notion de 'bit' et 'octet' à un élève de CM2 ?",
+          "options": { "A": "Un bit est une petite unité d'information (0 ou 1) ; 8 bits forment un octet, qui peut représenter un caractère", "B": "Un bit est un câble", "C": "Un octet est un écran", "D": "Un bit est une couleur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0013",
+          "difficulty": "hard",
+          "question": "Pourquoi est-il important d'enseigner la pensée algorithmique dès le Cycle 2 ?",
+          "options": { "A": "Parce que cela aide à structurer la résolution de problèmes et la logique dès le plus jeune âge", "B": "Parce que cela remplace la lecture", "C": "Parce que cela empêche de jouer", "D": "Parce que cela rend l'école plus difficile" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0014",
+          "difficulty": "hard",
+          "question": "Explique pourquoi il est préférable d'utiliser des sources variées et fiables pour un travail de recherche sur internet.",
+          "options": { "A": "Pour vérifier l'exactitude des informations et éviter les erreurs ou les fausses nouvelles", "B": "Pour rendre le travail plus long", "C": "Pour copier sans comprendre", "D": "Pour cacher les erreurs" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0015",
+          "difficulty": "hard",
+          "question": "Comment expliquer la différence entre tension (voltage) et intensité (ampérage) en termes simples ?",
+          "options": { "A": "La tension est la 'force' qui pousse les électrons ; l'intensité est la quantité d'électrons qui passent", "B": "La tension est la couleur du fil ; l'intensité est la longueur", "C": "Les deux sont identiques", "D": "La tension est un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0101",
+          "difficulty": "easy",
+          "question": "Quel périphérique utilises-tu pour faire défiler une page vers le bas ?",
+          "options": { "A": "La souris", "B": "Le clavier", "C": "L'écran", "D": "L'imprimante" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0102",
+          "difficulty": "easy",
+          "question": "Quel composant protège l'ordinateur contre les coupures de courant soudaines ?",
+          "options": { "A": "La souris", "B": "L'onduleur (UPS)", "C": "Le clavier", "D": "Le câble HDMI" },
+          "answer": "B"
+        },
+        {
+          "id": "tech-fr-easy-0103",
+          "difficulty": "easy",
+          "question": "Quel périphérique permet de brancher plusieurs appareils sur une seule prise USB ?",
+          "options": { "A": "Un hub USB", "B": "Un écran", "C": "Un clavier", "D": "Une imprimante" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0104",
+          "difficulty": "easy",
+          "question": "Quel composant affiche les couleurs et les images d'un jeu ?",
+          "options": { "A": "La carte graphique", "B": "La souris", "C": "Le clavier", "D": "La clé USB" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0105",
+          "difficulty": "easy",
+          "question": "Quel petit appareil se branche souvent sur le port USB pour stocker des photos ?",
+          "options": { "A": "La clé USB", "B": "La souris", "C": "Le ventilateur", "D": "Le chargeur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0106",
+          "difficulty": "easy",
+          "question": "Quel périphérique utilises-tu pour écouter de la musique sans déranger la classe ?",
+          "options": { "A": "Les écouteurs", "B": "La souris", "C": "Le clavier", "D": "La clé USB" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0107",
+          "difficulty": "easy",
+          "question": "Quel composant contient le 'cerveau' de l'ordinateur appelé processeur ?",
+          "options": { "A": "La carte mère", "B": "La souris", "C": "L'écran", "D": "La clé USB" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0108",
+          "difficulty": "easy",
+          "question": "Quel périphérique permet de montrer l'écran d'un ordinateur sur un grand mur en classe ?",
+          "options": { "A": "Le projecteur", "B": "La souris", "C": "Le clavier", "D": "La clé USB" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0109",
+          "difficulty": "easy",
+          "question": "Quel accessoire protège l'ordinateur portable quand on le transporte ?",
+          "options": { "A": "La housse", "B": "La souris", "C": "Le ventilateur", "D": "Le câble réseau" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0110",
+          "difficulty": "easy",
+          "question": "Quel composant permet de connecter une imprimante sans fil à l'ordinateur ?",
+          "options": { "A": "Le Wi‑Fi ou Bluetooth", "B": "Le câble HDMI", "C": "Le ventilateur", "D": "La clé USB" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0096",
+          "difficulty": "medium",
+          "question": "Quelle est la différence entre un port USB 2.0 et un port USB 3.0 ?",
+          "options": { "A": "USB 3.0 est généralement plus rapide pour transférer des données", "B": "USB 2.0 est plus rapide", "C": "Ils sont identiques", "D": "USB 3.0 ne fonctionne pas avec les clés USB" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0097",
+          "difficulty": "medium",
+          "question": "Pourquoi la ventilation est-elle importante à l'intérieur d'une tour d'ordinateur ?",
+          "options": { "A": "Pour évacuer la chaleur et protéger les composants", "B": "Pour augmenter la mémoire", "C": "Pour afficher des images", "D": "Pour stocker des fichiers" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0098",
+          "difficulty": "medium",
+          "question": "Que signifie 'plug and play' pour un périphérique en classe ?",
+          "options": { "A": "Il fonctionne immédiatement quand on le branche", "B": "Il ne marche jamais", "C": "Il doit être démonté", "D": "Il nécessite un mot de passe" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0099",
+          "difficulty": "medium",
+          "question": "Quel est l'intérêt d'avoir un SSD plutôt qu'un disque dur mécanique pour démarrer l'ordinateur ?",
+          "options": { "A": "Le SSD permet un démarrage et un accès aux fichiers plus rapides", "B": "Le SSD est plus lent", "C": "Le SSD ne stocke pas les fichiers", "D": "Le SSD est plus bruyant" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0100",
+          "difficulty": "medium",
+          "question": "Que fait la mémoire cache d'un processeur en termes simples ?",
+          "options": { "A": "Elle garde des données proches du processeur pour un accès très rapide", "B": "Elle imprime des documents", "C": "Elle refroidit le processeur", "D": "Elle affiche des images" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0016",
+          "difficulty": "hard",
+          "question": "Explique simplement pourquoi un processeur avec plus de cœurs peut aider à faire plusieurs tâches en même temps.",
+          "options": { "A": "Chaque cœur peut traiter une tâche différente, ce qui permet d'exécuter plusieurs choses simultanément", "B": "Plus de cœurs rend l'écran plus grand", "C": "Plus de cœurs augmente la taille du disque dur", "D": "Plus de cœurs change la couleur du clavier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0017",
+          "difficulty": "hard",
+          "question": "Comment expliquer la différence entre stockage séquentiel et stockage aléatoire à un élève ?",
+          "options": { "A": "Le stockage séquentiel lit les données dans l'ordre ; le stockage aléatoire peut accéder directement à n'importe quelle donnée", "B": "Les deux sont identiques", "C": "Le stockage aléatoire est toujours plus lent", "D": "Le stockage séquentiel ne stocke rien" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0018",
+          "difficulty": "hard",
+          "question": "Pourquoi les connecteurs standardisés (comme USB) sont-ils utiles pour les écoles ?",
+          "options": { "A": "Ils permettent de brancher facilement différents appareils sans adaptateurs spéciaux", "B": "Ils rendent les appareils plus lourds", "C": "Ils empêchent la connexion", "D": "Ils changent la couleur des câbles" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0111",
+          "difficulty": "easy",
+          "question": "Si tu veux que ton robot avance puis tourne, quelle suite d'instructions écris-tu ?",
+          "options": { "A": "Avancer, tourner", "B": "Tourner, avancer", "C": "Sauter, arrêter", "D": "Allumer, éteindre" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0112",
+          "difficulty": "easy",
+          "question": "Quel mot simple décrit une série d'instructions pour un jeu ?",
+          "options": { "A": "Algorithme", "B": "Clavier", "C": "Écran", "D": "Câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0113",
+          "difficulty": "easy",
+          "question": "Que signifie 'répéter' dans une suite d'instructions ?",
+          "options": { "A": "Faire la même action plusieurs fois", "B": "Arrêter tout", "C": "Changer l'écran", "D": "Éteindre l'ordinateur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0114",
+          "difficulty": "easy",
+          "question": "Si une instruction dit 'si le sol est rouge alors tourner', que fais-tu sur du sol rouge ?",
+          "options": { "A": "Tourner", "B": "Aller tout droit", "C": "Sauter", "D": "Arrêter" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0115",
+          "difficulty": "easy",
+          "question": "Quel mot décrit une boîte qui peut contenir un nombre qui change pendant un jeu ?",
+          "options": { "A": "Variable", "B": "Boucle", "C": "Condition", "D": "Clavier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0116",
+          "difficulty": "easy",
+          "question": "Quel est le bon ordre pour suivre des instructions : lire, comprendre, exécuter ?",
+          "options": { "A": "Lire, comprendre, exécuter", "B": "Exécuter, lire, comprendre", "C": "Comprendre, exécuter, lire", "D": "Ignorer" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0117",
+          "difficulty": "easy",
+          "question": "Quel mot utilise-t-on pour dire 'si ceci alors cela' dans un programme ?",
+          "options": { "A": "Condition", "B": "Boucle", "C": "Variable", "D": "Fichier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0118",
+          "difficulty": "easy",
+          "question": "Si tu veux répéter une action 5 fois, quelle instruction utilises-tu ?",
+          "options": { "A": "Répéter 5 fois", "B": "Arrêter", "C": "Aller à gauche", "D": "Sauter" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0119",
+          "difficulty": "easy",
+          "question": "Quel outil aide à dessiner un chemin pour un personnage dans un jeu éducatif ?",
+          "options": { "A": "Un éditeur d'algorithmes simple", "B": "Un câble", "C": "Un écran", "D": "Une imprimante" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0120",
+          "difficulty": "easy",
+          "question": "Quel est le résultat si tu exécutes 'avancer' trois fois ?",
+          "options": { "A": "Le personnage avance de trois pas", "B": "Le personnage tourne", "C": "Le personnage saute", "D": "Rien ne se passe" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0101",
+          "difficulty": "medium",
+          "question": "Pourquoi est-il utile d'utiliser une boucle au lieu d'écrire la même instruction plusieurs fois ?",
+          "options": { "A": "Pour rendre le code plus court et plus facile à modifier", "B": "Pour compliquer le code", "C": "Pour ralentir le programme", "D": "Pour supprimer les variables" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0102",
+          "difficulty": "medium",
+          "question": "Que signifie 'imbrication' de boucles dans un algorithme ?",
+          "options": { "A": "Mettre une boucle à l'intérieur d'une autre boucle", "B": "Écrire deux boucles séparées", "C": "Supprimer toutes les boucles", "D": "Faire une boucle infinie" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0103",
+          "difficulty": "medium",
+          "question": "Comment peut-on vérifier qu'une condition fonctionne correctement dans un programme ?",
+          "options": { "A": "Tester avec des cas où la condition est vraie et des cas où elle est fausse", "B": "Ne pas tester", "C": "Supprimer la condition", "D": "Écrire plus de conditions sans tester" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0104",
+          "difficulty": "medium",
+          "question": "Quel est l'intérêt d'utiliser des noms clairs pour les variables dans un programme scolaire ?",
+          "options": { "A": "Rendre le code plus compréhensible pour soi et les autres", "B": "Rendre le code plus long", "C": "Rendre le programme plus lent", "D": "Cacher la logique" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0105",
+          "difficulty": "medium",
+          "question": "Que signifie 'déboguer' et quelle est une méthode simple pour le faire ?",
+          "options": { "A": "Trouver et corriger les erreurs ; tester étape par étape", "B": "Ajouter des erreurs", "C": "Ignorer les erreurs", "D": "Effacer le programme" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0019",
+          "difficulty": "hard",
+          "question": "Explique pourquoi choisir la bonne condition dans un algorithme évite des actions non voulues.",
+          "options": { "A": "Une condition précise permet d'exécuter l'action seulement quand c'est nécessaire, évitant les erreurs", "B": "Les conditions n'ont pas d'effet", "C": "Les conditions ralentissent toujours le programme", "D": "Les conditions remplacent les variables" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0020",
+          "difficulty": "hard",
+          "question": "Comment montrer qu'un algorithme est correct pour tous les cas simples d'un exercice ?",
+          "options": { "A": "En tester plusieurs exemples, y compris des cas limites, et expliquer pourquoi il marche", "B": "En l'exécutant une seule fois", "C": "En le cachant", "D": "En changeant les instructions au hasard" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0021",
+          "difficulty": "hard",
+          "question": "Pourquoi la lisibilité du code est-elle importante quand plusieurs élèves travaillent ensemble ?",
+          "options": { "A": "Parce qu'un code lisible facilite la compréhension, la correction et la collaboration", "B": "Parce qu'elle rend le code plus long", "C": "Parce qu'elle empêche la collaboration", "D": "Parce qu'elle ralentit l'ordinateur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0121",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut te donner la météo du jour ?",
+          "options": { "A": "Une application météo sur une tablette", "B": "Un tournevis", "C": "Un câble", "D": "Un livre" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0122",
+          "difficulty": "easy",
+          "question": "Quel objet technique sert à mesurer le poids d'un sac à dos ?",
+          "options": { "A": "Une balance", "B": "Un chronomètre", "C": "Un écran", "D": "Un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0123",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut t'aider à lire un livre en grand format sur un écran ?",
+          "options": { "A": "Une tablette ou un ordinateur", "B": "Un marteau", "C": "Un tournevis", "D": "Une règle" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0124",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut être rechargé et utilisé pour appeler tes parents ?",
+          "options": { "A": "Un téléphone portable", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0125",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut enregistrer une vidéo de tes expériences en classe ?",
+          "options": { "A": "Une caméra ou une tablette", "B": "Un marteau", "C": "Un livre", "D": "Un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0126",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut t'aider à calculer rapidement des additions ?",
+          "options": { "A": "Une calculatrice", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0127",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut t'aider à écouter un conte audio ?",
+          "options": { "A": "Un lecteur audio ou une tablette", "B": "Un marteau", "C": "Un tournevis", "D": "Un livre" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0128",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut mesurer la vitesse d'un vélo de jouet ?",
+          "options": { "A": "Un chronomètre", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0129",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut t'aider à traduire un mot dans une autre langue ?",
+          "options": { "A": "Une application de traduction sur une tablette", "B": "Un marteau", "C": "Un tournevis", "D": "Un livre vide" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0130",
+          "difficulty": "easy",
+          "question": "Quel objet technique peut t'aider à mesurer la durée d'une activité ?",
+          "options": { "A": "Un chronomètre", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0106",
+          "difficulty": "medium",
+          "question": "Pourquoi documenter les matériaux d'un objet technique est utile pour le recyclage ?",
+          "options": { "A": "Pour savoir quels matériaux séparer et recycler correctement", "B": "Pour rendre l'objet plus lourd", "C": "Pour cacher les matériaux", "D": "Pour augmenter la pollution" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0107",
+          "difficulty": "medium",
+          "question": "Que signifie 'cycle de vie' d'un objet technique ?",
+          "options": { "A": "Les étapes de sa conception, fabrication, usage et recyclage", "B": "La couleur de l'objet", "C": "La vitesse de l'objet", "D": "La taille de l'objet" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0108",
+          "difficulty": "medium",
+          "question": "Quel avantage apporte la modularité pour la réparation d'un appareil ?",
+          "options": { "A": "Permet de remplacer une pièce sans changer tout l'appareil", "B": "Rend l'appareil plus fragile", "C": "Empêche la réparation", "D": "Augmente la consommation d'énergie" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0109",
+          "difficulty": "medium",
+          "question": "Pourquoi est-il important de lire la notice avant d'utiliser un nouvel objet technique ?",
+          "options": { "A": "Pour savoir comment l'utiliser et l'entretenir en toute sécurité", "B": "Pour le rendre plus cher", "C": "Pour le cacher", "D": "Pour le rendre plus lourd" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0110",
+          "difficulty": "medium",
+          "question": "Que signifie 'réutiliser' dans le contexte des objets techniques ?",
+          "options": { "A": "Utiliser à nouveau un objet ou ses pièces pour réduire les déchets", "B": "Jeter immédiatement", "C": "Brûler l'objet", "D": "Le cacher" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0022",
+          "difficulty": "hard",
+          "question": "Explique pourquoi la conception pour la réparation peut réduire l'impact environnemental d'un produit.",
+          "options": { "A": "Elle permet de remplacer des pièces, prolongeant la durée de vie et réduisant la production de nouveaux appareils", "B": "Elle rend le produit plus cher sans bénéfice", "C": "Elle augmente la pollution", "D": "Elle empêche le recyclage" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0023",
+          "difficulty": "hard",
+          "question": "Comment comparer l'empreinte écologique d'un appareil en plastique et d'un appareil en métal ?",
+          "options": { "A": "Il faut regarder la production, la durée de vie et la recyclabilité ; le métal est souvent plus recyclable", "B": "Le plastique est toujours meilleur", "C": "Le métal est toujours pire", "D": "Les deux sont identiques" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0024",
+          "difficulty": "hard",
+          "question": "Pourquoi la traçabilité des matériaux aide-t-elle les fabricants à améliorer la durabilité ?",
+          "options": { "A": "Elle permet d'identifier les sources et d'optimiser le choix des matériaux pour réduire l'impact", "B": "Elle rend la fabrication plus lente", "C": "Elle augmente les déchets", "D": "Elle cache les matériaux" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0131",
+          "difficulty": "easy",
+          "question": "Quel programme utilises-tu pour chercher des images sur internet ?",
+          "options": { "A": "Un moteur de recherche", "B": "Un câble", "C": "Un écran", "D": "Un clavier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0132",
+          "difficulty": "easy",
+          "question": "Quel mot décrit une adresse web que tu tapes pour aller sur un site ?",
+          "options": { "A": "URL", "B": "Clavier", "C": "Souris", "D": "Écran" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0133",
+          "difficulty": "easy",
+          "question": "Que dois-tu faire si un message inconnu te demande ton mot de passe ?",
+          "options": { "A": "Demander à un adulte", "B": "Répondre tout de suite", "C": "Partager avec des amis", "D": "L'écrire sur le mur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0134",
+          "difficulty": "easy",
+          "question": "Quel bouton du navigateur permet d'actualiser une page ?",
+          "options": { "A": "Actualiser (ou recharger)", "B": "Retour", "C": "Fermer", "D": "Imprimer" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0135",
+          "difficulty": "easy",
+          "question": "Quel mot décrit un site qui propose des jeux et des exercices pour l'école ?",
+          "options": { "A": "Un site éducatif", "B": "Un virus", "C": "Un câble", "D": "Un périphérique" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0136",
+          "difficulty": "easy",
+          "question": "Que dois-tu garder secret pour protéger ton compte en ligne ?",
+          "options": { "A": "Ton mot de passe", "B": "La couleur de ton écran", "C": "Le nom de ton école", "D": "La marque de ton ordinateur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0137",
+          "difficulty": "easy",
+          "question": "Quel est l'outil qui affiche les pages web et permet de cliquer sur des liens ?",
+          "options": { "A": "Un navigateur", "B": "Un moteur de recherche", "C": "Un câble", "D": "Un disque dur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0138",
+          "difficulty": "easy",
+          "question": "Quel mot décrit un message qui essaie de te tromper pour obtenir tes informations ?",
+          "options": { "A": "Hameçonnage (phishing)", "B": "Cookie", "C": "URL", "D": "Navigateur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0139",
+          "difficulty": "easy",
+          "question": "Que dois-tu faire si une publicité te demande ton mot de passe ?",
+          "options": { "A": "Ne pas répondre et demander à un adulte", "B": "Répondre tout de suite", "C": "Partager avec des amis", "D": "L'écrire sur le mur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0140",
+          "difficulty": "easy",
+          "question": "Quel est l'avantage d'un site éducatif par rapport à un site inconnu ?",
+          "options": { "A": "Il propose des activités adaptées et sûres pour apprendre", "B": "Il est toujours payant", "C": "Il est dangereux", "D": "Il ne contient rien" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0111",
+          "difficulty": "medium",
+          "question": "Pourquoi vérifier la source d'une information trouvée sur internet est important pour un exposé ?",
+          "options": { "A": "Pour s'assurer que l'information est fiable et correcte", "B": "Pour rendre l'exposé plus long", "C": "Pour cacher l'information", "D": "Pour augmenter la vitesse d'internet" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0112",
+          "difficulty": "medium",
+          "question": "Que signifie 'https' et pourquoi est-ce important pour les données personnelles ?",
+          "options": { "A": "Le 's' signifie sécurisé ; il chiffre les données échangées entre le navigateur et le site", "B": "Cela rend le site plus lent", "C": "Cela affiche plus d'images", "D": "Cela change la couleur du site" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0113",
+          "difficulty": "medium",
+          "question": "Que fait un moteur de recherche pour classer les résultats ?",
+          "options": { "A": "Il parcourt, indexe et classe les pages selon la pertinence pour la requête", "B": "Il affiche toujours la même page", "C": "Il supprime les pages", "D": "Il imprime les résultats" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0114",
+          "difficulty": "medium",
+          "question": "Pourquoi est-il utile de supprimer les cookies de temps en temps ?",
+          "options": { "A": "Pour protéger la vie privée et supprimer les traces de navigation", "B": "Pour rendre l'ordinateur plus lent", "C": "Pour effacer les images", "D": "Pour augmenter la mémoire" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0115",
+          "difficulty": "medium",
+          "question": "Que signifie 'URL' et quelles parties importantes contient-elle ?",
+          "options": { "A": "C'est l'adresse d'une page ; elle contient le protocole, le nom de domaine et parfois un chemin", "B": "C'est un type de virus", "C": "C'est un périphérique", "D": "C'est un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0025",
+          "difficulty": "hard",
+          "question": "Explique pourquoi il est important d'utiliser des sources variées et fiables pour un travail de recherche sur internet.",
+          "options": { "A": "Pour vérifier l'exactitude des informations et éviter les erreurs ou les fausses nouvelles", "B": "Pour rendre le travail plus long", "C": "Pour copier sans comprendre", "D": "Pour cacher les erreurs" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0026",
+          "difficulty": "hard",
+          "question": "Comment expliquer simplement ce qu'est le 'phishing' et comment s'en protéger ?",
+          "options": { "A": "C'est une tentative de voler des informations ; on s'en protège en vérifiant l'expéditeur et en demandant à un adulte", "B": "C'est un jeu", "C": "C'est un type de navigateur", "D": "C'est un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0027",
+          "difficulty": "hard",
+          "question": "Pourquoi la gestion des mots de passe est-elle une compétence importante à enseigner aux élèves ?",
+          "options": { "A": "Parce qu'elle protège les comptes et les données personnelles et apprend la responsabilité numérique", "B": "Parce qu'elle rend l'ordinateur plus rapide", "C": "Parce qu'elle empêche l'accès à internet", "D": "Parce qu'elle remplace la lecture" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0141",
+          "difficulty": "easy",
+          "question": "Qu'est-ce qui allume une ampoule : un circuit fermé ou un circuit ouvert ?",
+          "options": { "A": "Circuit fermé", "B": "Circuit ouvert", "C": "Circuit cassé", "D": "Circuit invisible" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0142",
+          "difficulty": "easy",
+          "question": "Quel objet fournit l'énergie pour une lampe de poche ?",
+          "options": { "A": "Une pile", "B": "Un écran", "C": "Un câble HDMI", "D": "Un clavier" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0143",
+          "difficulty": "easy",
+          "question": "Quel matériau est un bon conducteur d'électricité : le cuivre ou le plastique ?",
+          "options": { "A": "Le cuivre", "B": "Le plastique", "C": "Les deux", "D": "Aucun" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0144",
+          "difficulty": "easy",
+          "question": "Quel composant permet d'ouvrir ou fermer le passage du courant ?",
+          "options": { "A": "Un interrupteur", "B": "Un câble USB", "C": "Un écran", "D": "Une clé" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0145",
+          "difficulty": "easy",
+          "question": "Si une lampe ne s'allume pas, que peux-tu vérifier en premier ?",
+          "options": { "A": "Si la pile est en place et si l'interrupteur est fermé", "B": "Si l'écran est allumé", "C": "Si le clavier est branché", "D": "Si la souris est propre" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0146",
+          "difficulty": "easy",
+          "question": "Quel fil est souvent utilisé pour conduire l'électricité dans les expériences scolaires ?",
+          "options": { "A": "Un fil en cuivre", "B": "Un fil en papier", "C": "Un fil en bois", "D": "Un fil en verre" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0147",
+          "difficulty": "easy",
+          "question": "Quel mot décrit un matériau qui n'autorise pas le passage du courant ?",
+          "options": { "A": "Isolant", "B": "Conducteur", "C": "Magnétique", "D": "Transparent" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0148",
+          "difficulty": "easy",
+          "question": "Quel objet simple peut allumer une petite ampoule pour une expérience ?",
+          "options": { "A": "Une pile, des fils et une ampoule", "B": "Un écran et un clavier", "C": "Un livre et un crayon", "D": "Une gomme et une règle" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0149",
+          "difficulty": "easy",
+          "question": "Quel côté d'une pile est souvent marqué d'un '+' ?",
+          "options": { "A": "La borne positive", "B": "La borne négative", "C": "Le milieu", "D": "Le côté plat" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-easy-0150",
+          "difficulty": "easy",
+          "question": "Quel geste est dangereux près d'une prise électrique : toucher avec les mains mouillées ou sèches ?",
+          "options": { "A": "Mains mouillées", "B": "Mains sèches", "C": "Les deux sont sûrs", "D": "Aucun des deux" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0116",
+          "difficulty": "medium",
+          "question": "Quelle est la différence entre tension (voltage) et intensité (courant) en termes simples ?",
+          "options": { "A": "La tension pousse les électrons ; l'intensité est la quantité d'électrons qui passent", "B": "La tension est la couleur du fil ; l'intensité est la longueur", "C": "Les deux sont identiques", "D": "La tension est un câble" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0117",
+          "difficulty": "medium",
+          "question": "Pourquoi utilise-t-on des fusibles ou disjoncteurs dans les installations électriques ?",
+          "options": { "A": "Pour couper le courant en cas de problème et éviter les incendies", "B": "Pour augmenter la tension", "C": "Pour rendre les fils plus longs", "D": "Pour décorer la maison" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0118",
+          "difficulty": "medium",
+          "question": "Que mesure un voltmètre dans un circuit ?",
+          "options": { "A": "La tension entre deux points", "B": "La température", "C": "La vitesse", "D": "La couleur" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0119",
+          "difficulty": "medium",
+          "question": "Quel matériau est souvent utilisé pour les fils électriques à cause de sa conductivité ?",
+          "options": { "A": "Le cuivre", "B": "Le bois", "C": "Le verre", "D": "Le plastique" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0120",
+          "difficulty": "medium",
+          "question": "Que signifie 'mise à la terre' et pourquoi est-elle utile ?",
+          "options": { "A": "C'est un chemin pour diriger un courant de fuite vers la terre et protéger les personnes", "B": "C'est pour décorer les fils", "C": "C'est pour augmenter la tension", "D": "C'est pour rendre l'appareil plus rapide" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0121",
+          "difficulty": "medium",
+          "question": "Qu'est-ce qu'un court-circuit et quel risque présente-t-il ?",
+          "options": { "A": "Un chemin non prévu qui laisse passer beaucoup de courant ; il peut provoquer de la chaleur ou un incendie", "B": "Un circuit très long sans risque", "C": "Un circuit qui fonctionne parfaitement", "D": "Un type de pile" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0122",
+          "difficulty": "medium",
+          "question": "Pourquoi est-il important de débrancher un appareil avant de le réparer ?",
+          "options": { "A": "Pour éviter d'être électrocuté", "B": "Pour le rendre plus lourd", "C": "Pour augmenter la tension", "D": "Pour le nettoyer" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0123",
+          "difficulty": "medium",
+          "question": "Quel instrument utilise-t-on pour mesurer l'intensité du courant dans une expérience scolaire ?",
+          "options": { "A": "Un ampèremètre", "B": "Un thermomètre", "C": "Un voltmètre", "D": "Un chronomètre" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-medium-0124",
+          "difficulty": "medium",
+          "question": "Pourquoi les fils électriques sont-ils recouverts d'isolant ?",
+          "options": { "A": "Pour empêcher les contacts dangereux et éviter les courts-circuits", "B": "Pour rendre les fils plus jolis", "C": "Pour augmenter la conductivité", "D": "Pour refroidir les fils" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0028",
+          "difficulty": "hard",
+          "question": "Explique pourquoi un court-circuit peut provoquer un incendie et comment les protections électriques préviennent cela.",
+          "options": { "A": "Un court-circuit laisse passer trop de courant qui chauffe ; les fusibles/disjoncteurs coupent le courant pour éviter la surchauffe", "B": "Un court-circuit refroidit les fils", "C": "Un court-circuit rend l'ordinateur plus rapide", "D": "Un court-circuit nettoie les fils" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0029",
+          "difficulty": "hard",
+          "question": "Comment expliquer la relation entre tension, intensité et résistance avec une analogie simple ?",
+          "options": { "A": "La tension est la force qui pousse l'eau, l'intensité est le débit d'eau, la résistance est un rétrécissement du tuyau qui réduit le débit", "B": "La tension est la couleur, l'intensité est la longueur, la résistance est la largeur", "C": "Les trois sont identiques", "D": "La résistance est la vitesse" },
+          "answer": "A"
+        },
+        {
+          "id": "tech-fr-hard-0030",
+          "difficulty": "hard",
+          "question": "Pourquoi la sécurité électrique à l'école doit-elle inclure des règles simples comme 'ne pas toucher les prises avec les mains mouillées' ?",
+          "options": { "A": "Parce que l'eau conduit l'électricité et augmente le risque d'électrocution ; des règles simples réduisent les accidents", "B": "Parce que cela rend les prises plus propres", "C": "Parce que cela augmente la tension", "D": "Parce que cela rend l'école plus bruyante" },
+          "answer": "A"
+        },
+  {
+    "id": "tech-fr-easy-0151",
+    "difficulty": "easy",
+    "question": "Quel périphérique utilises-tu pour agrandir une image à l'écran en cliquant plusieurs fois ?",
+    "options": { "A": "La souris (double‑clic)", "B": "Le clavier", "C": "L'imprimante", "D": "Le scanner" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0152",
+    "difficulty": "easy",
+    "question": "Quel composant protège l'écran d'un ordinateur portable quand on le ferme ?",
+    "options": { "A": "La charnière et la coque", "B": "La souris", "C": "Le clavier", "D": "La clé USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0153",
+    "difficulty": "easy",
+    "question": "Quel périphérique permet de scanner un dessin et de l'envoyer à l'ordinateur ?",
+    "options": { "A": "Le scanner", "B": "L'imprimante", "C": "La souris", "D": "Le clavier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0154",
+    "difficulty": "easy",
+    "question": "Quel accessoire permet de protéger un téléphone des rayures ?",
+    "options": { "A": "Une coque ou une protection d'écran", "B": "Un câble HDMI", "C": "Un ventilateur", "D": "Une souris" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0155",
+    "difficulty": "easy",
+    "question": "Quel périphérique sert à écrire sans utiliser de papier ?",
+    "options": { "A": "Le clavier", "B": "La souris", "C": "L'imprimante", "D": "Le projecteur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0156",
+    "difficulty": "easy",
+    "question": "Quel objet permet de brancher plusieurs prises électriques en même temps ?",
+    "options": { "A": "Une multiprise", "B": "Un écran", "C": "Un clavier", "D": "Une clé USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0157",
+    "difficulty": "easy",
+    "question": "Quel périphérique peut lire des fichiers audio et les jouer ?",
+    "options": { "A": "Les haut‑parleurs ou le casque", "B": "La souris", "C": "Le clavier", "D": "La clé USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0158",
+    "difficulty": "easy",
+    "question": "Quel composant est souvent appelé 'écran' sur un smartphone ?",
+    "options": { "A": "L'écran tactile", "B": "La souris", "C": "Le clavier", "D": "La tour" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0159",
+    "difficulty": "easy",
+    "question": "Quel périphérique te permet d'imprimer une photo depuis l'ordinateur ?",
+    "options": { "A": "L'imprimante", "B": "Le scanner", "C": "La souris", "D": "Le clavier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0160",
+    "difficulty": "easy",
+    "question": "Quel petit appareil peut stocker des chansons et se brancher sur l'ordinateur ?",
+    "options": { "A": "La clé USB", "B": "La souris", "C": "Le ventilateur", "D": "Le chargeur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0161",
+    "difficulty": "easy",
+    "question": "Si tu veux que ton robot recule puis tourne, quelle suite d'instructions écris-tu ?",
+    "options": { "A": "Reculer, tourner", "B": "Tourner, reculer", "C": "Avancer, sauter", "D": "Arrêter, allumer" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0162",
+    "difficulty": "easy",
+    "question": "Quel mot simple décrit une suite d'actions pour résoudre un problème ?",
+    "options": { "A": "Algorithme", "B": "Clavier", "C": "Écran", "D": "Câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0163",
+    "difficulty": "easy",
+    "question": "Que signifie 'si ... alors ...' dans un jeu de programmation pour enfants ?",
+    "options": { "A": "Une condition qui déclenche une action", "B": "Une boucle", "C": "Une variable", "D": "Un fichier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0164",
+    "difficulty": "easy",
+    "question": "Quel mot décrit une action qui se répète plusieurs fois ?",
+    "options": { "A": "Boucle", "B": "Variable", "C": "Condition", "D": "Clavier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0165",
+    "difficulty": "easy",
+    "question": "Si tu dois avancer 2 pas puis tourner à droite, combien d'instructions y a‑t‑il ?",
+    "options": { "A": "3 instructions", "B": "1 instruction", "C": "2 instructions", "D": "4 instructions" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0166",
+    "difficulty": "easy",
+    "question": "Quel mot simple peut garder un nombre comme le score d'un jeu ?",
+    "options": { "A": "Variable", "B": "Boucle", "C": "Condition", "D": "Fichier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0167",
+    "difficulty": "easy",
+    "question": "Quelle est la première étape avant d'exécuter un algorithme ?",
+    "options": { "A": "Lire et comprendre les étapes", "B": "Allumer la lumière", "C": "Crier", "D": "Effacer tout" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0168",
+    "difficulty": "easy",
+    "question": "Quel mot utilise‑t‑on pour dire 'faire la même chose plusieurs fois' ?",
+    "options": { "A": "Répéter", "B": "Arrêter", "C": "Changer", "D": "Oublier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0169",
+    "difficulty": "easy",
+    "question": "Quel outil simple aide à dessiner un chemin pour un personnage dans un jeu ?",
+    "options": { "A": "Un éditeur d'algorithmes visuel", "B": "Un câble", "C": "Un écran", "D": "Une imprimante" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0170",
+    "difficulty": "easy",
+    "question": "Quel est le résultat si tu exécutes 'tourner' deux fois ?",
+    "options": { "A": "Le personnage tourne deux fois", "B": "Le personnage avance", "C": "Le personnage saute", "D": "Rien ne se passe" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0125",
+    "difficulty": "medium",
+    "question": "Quelle est la différence entre ROM et RAM en termes simples ?",
+    "options": { "A": "La ROM garde des données permanentes ; la RAM est temporaire et rapide", "B": "La ROM est plus rapide que la RAM", "C": "La RAM garde les données quand on éteint", "D": "Il n'y a aucune différence" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0126",
+    "difficulty": "medium",
+    "question": "Pourquoi utiliser un hub USB dans une classe ?",
+    "options": { "A": "Pour connecter plusieurs périphériques à un seul port", "B": "Pour augmenter la vitesse du processeur", "C": "Pour afficher des images", "D": "Pour imprimer" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0127",
+    "difficulty": "medium",
+    "question": "Que fait un système d'exploitation sur un ordinateur ?",
+    "options": { "A": "Il gère les programmes, les fichiers et le matériel pour que tout fonctionne", "B": "Il imprime des documents", "C": "Il refroidit le processeur", "D": "Il stocke les photos" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0128",
+    "difficulty": "medium",
+    "question": "Quel est l'avantage d'utiliser un écran avec une bonne résolution pour les images ?",
+    "options": { "A": "Les images sont plus nettes et détaillées", "B": "Les images disparaissent", "C": "L'écran devient plus lourd", "D": "L'ordinateur s'éteint" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0129",
+    "difficulty": "medium",
+    "question": "Pourquoi sauvegarder régulièrement ses fichiers sur un support externe ?",
+    "options": { "A": "Pour avoir une copie de secours en cas de panne ou de perte", "B": "Pour ralentir l'ordinateur", "C": "Pour effacer les fichiers", "D": "Pour décorer le bureau" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0130",
+    "difficulty": "medium",
+    "question": "Que signifie 'formatage' d'un disque ?",
+    "options": { "A": "Préparer le disque pour stocker des fichiers en effaçant son contenu", "B": "Augmenter la vitesse du disque", "C": "Changer la couleur du disque", "D": "Imprimer le disque" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0131",
+    "difficulty": "medium",
+    "question": "Quel port est adapté pour brancher un casque audio filaire ?",
+    "options": { "A": "La prise jack audio", "B": "HDMI", "C": "Ethernet", "D": "USB‑C uniquement" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0132",
+    "difficulty": "medium",
+    "question": "Pourquoi un ventilateur peut-il ralentir si la poussière s'accumule ?",
+    "options": { "A": "Parce que la poussière bloque les pales et réduit l'efficacité du refroidissement", "B": "Parce que la poussière augmente la vitesse", "C": "Parce que la poussière change la couleur", "D": "Parce que la poussière imprime" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0133",
+    "difficulty": "medium",
+    "question": "Que signifie 'mise à jour' d'un logiciel ?",
+    "options": { "A": "Installer des améliorations ou des corrections pour que le logiciel fonctionne mieux", "B": "Effacer le logiciel", "C": "Changer la couleur du logiciel", "D": "Imprimer le logiciel" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0134",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'éteindre un appareil de temps en temps ?",
+    "options": { "A": "Pour économiser de l'énergie et permettre au système de se reposer", "B": "Pour le rendre plus lent", "C": "Pour effacer les fichiers", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0135",
+    "difficulty": "medium",
+    "question": "Quel est le rôle d'un pare‑feu (firewall) dans un réseau scolaire ?",
+    "options": { "A": "Filtrer les connexions pour protéger le réseau contre les intrusions", "B": "Augmenter la vitesse d'internet", "C": "Imprimer les pages web", "D": "Changer les mots de passe" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0136",
+    "difficulty": "medium",
+    "question": "Que signifie 'sauvegarde dans le cloud' ?",
+    "options": { "A": "Enregistrer des fichiers sur des serveurs accessibles via internet", "B": "Imprimer les fichiers", "C": "Effacer les fichiers", "D": "Stocker uniquement sur une clé USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0137",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'avoir des ports standard comme USB dans une école ?",
+    "options": { "A": "Pour brancher facilement des périphériques sans adaptateurs spéciaux", "B": "Pour rendre les appareils plus lourds", "C": "Pour empêcher la connexion", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0138",
+    "difficulty": "medium",
+    "question": "Que fait un onduleur (UPS) pour un ordinateur en cas de coupure de courant ?",
+    "options": { "A": "Il fournit de l'énergie temporaire pour éteindre proprement l'ordinateur", "B": "Il imprime des documents", "C": "Il augmente la vitesse du processeur", "D": "Il change la couleur de l'écran" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0139",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il important de protéger les appareils contre la poussière et l'humidité ?",
+    "options": { "A": "Pour éviter les pannes et prolonger leur durée de vie", "B": "Pour les rendre plus lourds", "C": "Pour augmenter la consommation d'énergie", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0140",
+    "difficulty": "medium",
+    "question": "Quel est l'intérêt d'utiliser un mot de passe fort pour un compte scolaire ?",
+    "options": { "A": "Protéger les données personnelles et le travail des élèves", "B": "Rendre l'ordinateur plus lent", "C": "Afficher plus d'images", "D": "Changer la couleur du profil" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0141",
+    "difficulty": "medium",
+    "question": "Que signifie 'synchroniser' des fichiers entre un ordinateur et une tablette ?",
+    "options": { "A": "Faire en sorte que les mêmes fichiers soient disponibles sur les deux appareils", "B": "Effacer les fichiers", "C": "Imprimer les fichiers", "D": "Changer la couleur des fichiers" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0142",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'installer des mises à jour de sécurité sur les ordinateurs scolaires ?",
+    "options": { "A": "Pour corriger des failles et protéger les données contre les attaques", "B": "Pour rendre l'ordinateur plus lent", "C": "Pour effacer les fichiers", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0143",
+    "difficulty": "medium",
+    "question": "Quel est l'avantage d'un écran tactile pour des activités en Cycle 2 ?",
+    "options": { "A": "Permet une interaction directe et intuitive pour les jeunes élèves", "B": "Rend l'écran plus lourd", "C": "Empêche l'utilisation de la souris", "D": "Impose des mots de passe" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0144",
+    "difficulty": "medium",
+    "question": "Que signifie 'format de fichier' et pourquoi est‑il important de le connaître ?",
+    "options": { "A": "C'est la façon dont les données sont organisées ; cela permet de savoir quel programme peut l'ouvrir", "B": "C'est la couleur du fichier", "C": "C'est la taille du disque", "D": "C'est le nom de l'ordinateur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0145",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'enseigner la sécurité numérique aux élèves dès le Cycle 3 ?",
+    "options": { "A": "Pour qu'ils sachent protéger leurs données et repérer les dangers en ligne", "B": "Pour les empêcher d'utiliser internet", "C": "Pour rendre l'école plus lente", "D": "Pour effacer les fichiers" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0031",
+    "difficulty": "hard",
+    "question": "Explique pourquoi la séparation entre mémoire vive (RAM) et stockage permanent aide à la performance d'un ordinateur.",
+    "options": { "A": "La RAM permet un accès très rapide aux données en cours d'utilisation, tandis que le stockage permanent garde les fichiers à long terme", "B": "La RAM stocke tout en permanence", "C": "Le stockage permanent est plus rapide que la RAM", "D": "Les deux sont identiques" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0032",
+    "difficulty": "hard",
+    "question": "Pourquoi documenter les étapes d'un dépannage matériel aide‑t‑il les techniciens scolaires ?",
+    "options": { "A": "Parce que cela permet de suivre ce qui a été testé et d'éviter de répéter les mêmes actions", "B": "Parce que cela rend la réparation plus lente", "C": "Parce que cela efface les données", "D": "Parce que cela change la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0033",
+    "difficulty": "hard",
+    "question": "Comment expliquer la différence entre USB‑C et HDMI à un élève de CM2 ?",
+    "options": { "A": "USB‑C sert à transférer données, vidéo et énergie ; HDMI sert surtout à transmettre l'image et le son vers un écran", "B": "Les deux sont identiques", "C": "HDMI charge les appareils", "D": "USB‑C affiche toujours des images" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0034",
+    "difficulty": "hard",
+    "question": "Pourquoi la compatibilité des formats de fichiers est‑elle importante quand on partage un travail en classe ?",
+    "options": { "A": "Pour que tous puissent ouvrir et lire le fichier avec leurs appareils", "B": "Pour rendre le fichier plus lourd", "C": "Pour empêcher l'ouverture", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0035",
+    "difficulty": "hard",
+    "question": "Explique pourquoi il est utile d'avoir des procédures de sauvegarde régulières dans une école.",
+    "options": { "A": "Pour récupérer rapidement les travaux en cas de panne ou d'erreur et éviter la perte de données", "B": "Pour ralentir les ordinateurs", "C": "Pour effacer les fichiers", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0036",
+    "difficulty": "hard",
+    "question": "Comment expliquer la notion de 'latence' d'un réseau à un élève ?",
+    "options": { "A": "C'est le temps que met une information pour aller d'un appareil à un autre ; moins il y a de latence, plus la connexion semble réactive", "B": "C'est la vitesse du processeur", "C": "C'est la taille du disque", "D": "C'est la couleur du câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0037",
+    "difficulty": "hard",
+    "question": "Pourquoi est‑il important d'enseigner la maintenance préventive des appareils en classe ?",
+    "options": { "A": "Pour prolonger la durée de vie des appareils et éviter les pannes imprévues", "B": "Pour les rendre plus lourds", "C": "Pour augmenter la pollution", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0171",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à mesurer la température d'un liquide ?",
+    "options": { "A": "Un thermomètre", "B": "Un chronomètre", "C": "Un tournevis", "D": "Un écran" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0172",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à écouter une histoire en classe ?",
+    "options": { "A": "Un lecteur audio ou une tablette", "B": "Un marteau", "C": "Un tournevis", "D": "Un livre vide" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0173",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à prendre des notes rapidement ?",
+    "options": { "A": "Un ordinateur ou une tablette", "B": "Un marteau", "C": "Un tournevis", "D": "Une règle" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0174",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à regarder une vidéo éducative en grand ?",
+    "options": { "A": "Un projecteur", "B": "Un tournevis", "C": "Un marteau", "D": "Une règle" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0175",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à mesurer la longueur d'une table ?",
+    "options": { "A": "Une règle ou un mètre", "B": "Un chronomètre", "C": "Un écran", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0176",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à enregistrer une chanson ?",
+    "options": { "A": "Un micro et un enregistreur", "B": "Un tournevis", "C": "Un marteau", "D": "Un écran" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0177",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à calculer une multiplication rapidement ?",
+    "options": { "A": "Une calculatrice", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0178",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à lire un texte en grand pour toute la classe ?",
+    "options": { "A": "Un projecteur ou un écran connecté", "B": "Un marteau", "C": "Un tournevis", "D": "Une règle" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0179",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à mesurer le temps d'une course ?",
+    "options": { "A": "Un chronomètre", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0180",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à écouter de la musique sans déranger les autres ?",
+    "options": { "A": "Des écouteurs", "B": "Un marteau", "C": "Un tournevis", "D": "Un écran" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0146",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile de connaître la capacité d'une clé USB avant de l'utiliser ?",
+    "options": { "A": "Pour savoir si elle peut contenir tous les fichiers que tu veux y mettre", "B": "Pour changer sa couleur", "C": "Pour la rendre plus lourde", "D": "Pour la faire fonctionner sans ordinateur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0147",
+    "difficulty": "medium",
+    "question": "Que signifie 'synchronisation automatique' d'un appareil ?",
+    "options": { "A": "Les fichiers se mettent à jour automatiquement entre plusieurs appareils", "B": "Les fichiers s'effacent automatiquement", "C": "L'appareil s'éteint", "D": "L'appareil imprime" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0148",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il important de protéger un mot de passe avec des lettres, chiffres et symboles ?",
+    "options": { "A": "Pour le rendre plus difficile à deviner et mieux protéger le compte", "B": "Pour le rendre plus joli", "C": "Pour le rendre plus court", "D": "Pour le partager facilement" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0149",
+    "difficulty": "medium",
+    "question": "Que signifie 'partage de fichiers' et quel risque faut‑il éviter ?",
+    "options": { "A": "Envoyer des fichiers à d'autres ; éviter de partager des informations personnelles", "B": "Effacer des fichiers", "C": "Imprimer des fichiers", "D": "Changer la couleur des fichiers" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0150",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'avoir une procédure pour éteindre et ranger les appareils en classe ?",
+    "options": { "A": "Pour protéger le matériel et prolonger sa durée de vie", "B": "Pour les rendre plus lourds", "C": "Pour augmenter la consommation d'énergie", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0151",
+    "difficulty": "medium",
+    "question": "Que signifie 'authentification' et pourquoi est‑elle importante ?",
+    "options": { "A": "Vérifier l'identité d'un utilisateur pour protéger l'accès aux comptes", "B": "Effacer un compte", "C": "Imprimer un document", "D": "Changer la couleur d'un profil" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0152",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'enseigner la notion de consentement avant de partager des photos d'amis en ligne ?",
+    "options": { "A": "Pour respecter la vie privée et les choix des autres", "B": "Pour rendre les photos plus belles", "C": "Pour augmenter la vitesse d'internet", "D": "Pour effacer les photos" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0153",
+    "difficulty": "medium",
+    "question": "Que signifie 'backup' et quelle fréquence est raisonnable pour une classe ?",
+    "options": { "A": "Sauvegarde des données ; au moins une fois par semaine ou après un travail important", "B": "Effacer les données ; une fois par an", "C": "Imprimer les données ; tous les jours", "D": "Partager les données ; jamais" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0154",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'enseigner la gestion des droits d'accès aux fichiers en classe ?",
+    "options": { "A": "Pour que seuls les bons utilisateurs puissent modifier ou voir certains fichiers", "B": "Pour rendre les fichiers publics", "C": "Pour effacer les fichiers", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0155",
+    "difficulty": "medium",
+    "question": "Que signifie 'format PDF' et pourquoi est‑il souvent utilisé pour partager des documents ?",
+    "options": { "A": "C'est un format qui conserve la mise en page et peut être ouvert sur beaucoup d'appareils", "B": "C'est un type de virus", "C": "C'est un câble", "D": "C'est un périphérique" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0156",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'avoir des règles pour l'utilisation des tablettes en classe ?",
+    "options": { "A": "Pour garantir la sécurité, le respect et un usage pédagogique adapté", "B": "Pour les rendre inutilisables", "C": "Pour augmenter la pollution", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0157",
+    "difficulty": "medium",
+    "question": "Que signifie 'partage contrôlé' d'un dossier en ligne ?",
+    "options": { "A": "Donner l'accès seulement à des personnes choisies et définir leurs droits", "B": "Rendre le dossier public", "C": "Effacer le dossier", "D": "Imprimer le dossier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0158",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'enseigner la notion d'empreinte numérique aux élèves ?",
+    "options": { "A": "Pour qu'ils comprennent que leurs actions en ligne laissent des traces et apprennent à les gérer", "B": "Pour les empêcher d'utiliser internet", "C": "Pour effacer les traces automatiquement", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0159",
+    "difficulty": "medium",
+    "question": "Que signifie 'authentification à deux facteurs' (2FA) et pourquoi l'utiliser ?",
+    "options": { "A": "Ajouter une seconde vérification (ex : code) pour mieux protéger un compte", "B": "Changer le mot de passe automatiquement", "C": "Effacer le compte", "D": "Imprimer le mot de passe" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0038",
+    "difficulty": "hard",
+    "question": "Explique pourquoi la redondance des sauvegardes (plusieurs copies) est une bonne pratique pour une école.",
+    "options": { "A": "Parce qu'elle réduit le risque de perte de données si un support tombe en panne ou est endommagé", "B": "Parce qu'elle rend les fichiers plus lourds", "C": "Parce qu'elle efface les données", "D": "Parce qu'elle change la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0039",
+    "difficulty": "hard",
+    "question": "Comment expliquer la différence entre chiffrement et simple mot de passe à un élève ?",
+    "options": { "A": "Le mot de passe protège l'accès ; le chiffrement transforme les données pour qu'elles soient illisibles sans la clé", "B": "Les deux sont identiques", "C": "Le chiffrement est un câble", "D": "Le mot de passe chiffre automatiquement tout" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0040",
+    "difficulty": "hard",
+    "question": "Pourquoi est‑il important d'avoir une politique de mise à jour et de sécurité pour les appareils scolaires ?",
+    "options": { "A": "Pour corriger les failles, protéger les données et assurer un fonctionnement fiable", "B": "Pour rendre les appareils plus lents", "C": "Pour effacer les fichiers", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0041",
+    "difficulty": "hard",
+    "question": "Explique pourquoi la documentation technique (notice, schéma) est utile lors de la réparation d'un objet technique.",
+    "options": { "A": "Elle guide les étapes, indique les pièces et réduit le risque d'erreur pendant la réparation", "B": "Elle rend la réparation plus lente", "C": "Elle efface les pièces", "D": "Elle change la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0042",
+    "difficulty": "hard",
+    "question": "Comment expliquer la notion de 'sécurité par conception' pour un appareil destiné aux enfants ?",
+    "options": { "A": "Concevoir l'appareil pour minimiser les risques (bords arrondis, protections électriques, contrôle parental)", "B": "Rendre l'appareil plus lourd", "C": "Augmenter la vitesse", "D": "Changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0043",
+    "difficulty": "hard",
+    "question": "Pourquoi la traçabilité des réparations est‑elle utile pour prolonger la durée de vie d'un parc informatique scolaire ?",
+    "options": { "A": "Parce qu'elle permet de savoir ce qui a été fait, d'anticiper les pannes et d'améliorer les interventions futures", "B": "Parce qu'elle rend les appareils plus lourds", "C": "Parce qu'elle efface les données", "D": "Parce qu'elle change la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0044",
+    "difficulty": "hard",
+    "question": "Explique pourquoi il est important d'enseigner l'esprit critique face aux informations trouvées sur internet.",
+    "options": { "A": "Pour que les élèves apprennent à vérifier les sources, comparer les informations et éviter les fausses nouvelles", "B": "Pour les empêcher d'utiliser internet", "C": "Pour copier sans comprendre", "D": "Pour effacer les informations" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0045",
+    "difficulty": "hard",
+    "question": "Comment expliquer la notion d'efficacité énergétique d'un appareil et pourquoi cela compte pour une école ?",
+    "options": { "A": "Un appareil efficace utilise moins d'énergie pour la même tâche, ce qui réduit les coûts et l'impact environnemental", "B": "Un appareil efficace est plus lourd", "C": "Un appareil efficace change la couleur", "D": "Un appareil efficace imprime plus" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0181",
+    "difficulty": "easy",
+    "question": "Quel périphérique utilises-tu pour sélectionner du texte en faisant un clic-glissé ?",
+    "options": { "A": "La souris", "B": "Le clavier", "C": "L'écran", "D": "L'imprimante" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0182",
+    "difficulty": "easy",
+    "question": "Quel composant montre les images et les vidéos d'un ordinateur ?",
+    "options": { "A": "Le processeur", "B": "L'écran", "C": "La souris", "D": "La clé USB" },
+    "answer": "B"
+  },
+  {
+    "id": "tech-fr-easy-0183",
+    "difficulty": "easy",
+    "question": "Quel périphérique sert à écrire des lettres et des chiffres sur l'ordinateur ?",
+    "options": { "A": "La souris", "B": "Le clavier", "C": "La webcam", "D": "Le scanner" },
+    "answer": "B"
+  },
+  {
+    "id": "tech-fr-easy-0184",
+    "difficulty": "easy",
+    "question": "Quel objet contient souvent le disque dur et le processeur dans un ordinateur de bureau ?",
+    "options": { "A": "La tour", "B": "La souris", "C": "L'écran", "D": "Le clavier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0185",
+    "difficulty": "easy",
+    "question": "Quel petit appareil portable peut contenir des photos et des chansons et se branche en USB ?",
+    "options": { "A": "La clé USB", "B": "La souris", "C": "Le ventilateur", "D": "La prise" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0186",
+    "difficulty": "easy",
+    "question": "Quel périphérique permet d'entendre le son d'un ordinateur sans déranger la classe ?",
+    "options": { "A": "Les haut-parleurs", "B": "Le clavier", "C": "La souris", "D": "La clé USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0187",
+    "difficulty": "easy",
+    "question": "Quel appareil prend une photo ou filme pour un appel vidéo ?",
+    "options": { "A": "La webcam", "B": "Le scanner", "C": "Le micro", "D": "La souris" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0188",
+    "difficulty": "easy",
+    "question": "Quel périphérique transforme une feuille en image numérique ?",
+    "options": { "A": "Le scanner", "B": "L'imprimante", "C": "La souris", "D": "Le clavier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0189",
+    "difficulty": "easy",
+    "question": "Quel objet portable a souvent un écran tactile et sert à lire ou jouer ?",
+    "options": { "A": "La tablette", "B": "La souris", "C": "La tour", "D": "Le câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0190",
+    "difficulty": "easy",
+    "question": "Quel périphérique imprime des feuilles depuis l'ordinateur ?",
+    "options": { "A": "Le scanner", "B": "L'imprimante", "C": "La webcam", "D": "Le clavier" },
+    "answer": "B"
+  },
+  {
+    "id": "tech-fr-easy-0191",
+    "difficulty": "easy",
+    "question": "Quel câble sert souvent à brancher un écran moderne à l'ordinateur ?",
+    "options": { "A": "HDMI", "B": "USB", "C": "Ethernet", "D": "Jack audio" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0192",
+    "difficulty": "easy",
+    "question": "Quel périphérique enregistre ta voix pour un enregistrement ?",
+    "options": { "A": "Le micro", "B": "La webcam", "C": "La souris", "D": "Le clavier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0193",
+    "difficulty": "easy",
+    "question": "Quel accessoire protège l'écran d'un portable quand on le transporte ?",
+    "options": { "A": "La housse", "B": "La souris", "C": "Le ventilateur", "D": "La clé USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0194",
+    "difficulty": "easy",
+    "question": "Quel périphérique permet de brancher plusieurs clés USB en même temps ?",
+    "options": { "A": "Un hub USB", "B": "Un écran", "C": "Un clavier", "D": "Une imprimante" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0195",
+    "difficulty": "easy",
+    "question": "Quel composant est souvent appelé 'cerveau' de l'ordinateur ?",
+    "options": { "A": "Le processeur (CPU)", "B": "La souris", "C": "L'écran", "D": "La clé USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0196",
+    "difficulty": "easy",
+    "question": "Quel périphérique te permet de regarder une vidéo en grand devant la classe ?",
+    "options": { "A": "Le projecteur", "B": "La souris", "C": "Le clavier", "D": "La clé USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0197",
+    "difficulty": "easy",
+    "question": "Quel petit appareil portable sert à écouter de la musique sans déranger les autres ?",
+    "options": { "A": "Les écouteurs", "B": "La souris", "C": "Le clavier", "D": "La clé USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0198",
+    "difficulty": "easy",
+    "question": "Quel périphérique permet de sauvegarder des fichiers et de les transporter facilement ?",
+    "options": { "A": "La clé USB", "B": "La souris", "C": "Le clavier", "D": "L'écran" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0199",
+    "difficulty": "easy",
+    "question": "Quel périphérique affiche l'heure et les notifications sur une montre connectée ?",
+    "options": { "A": "L'écran de la montre", "B": "La souris", "C": "Le clavier", "D": "La clé USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0200",
+    "difficulty": "easy",
+    "question": "Quel objet permet d'entendre et de parler lors d'un appel vidéo ?",
+    "options": { "A": "La webcam et le micro", "B": "Le scanner", "C": "Le disque dur", "D": "Le ventilateur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0201",
+    "difficulty": "easy",
+    "question": "Si tu veux que ton robot avance puis tourne, quelle suite écris-tu ?",
+    "options": { "A": "Avancer, tourner", "B": "Tourner, avancer", "C": "Sauter, arrêter", "D": "Allumer, éteindre" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0202",
+    "difficulty": "easy",
+    "question": "Quel mot décrit une suite d'actions à suivre pour résoudre un problème ?",
+    "options": { "A": "Algorithme", "B": "Clavier", "C": "Écran", "D": "Câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0203",
+    "difficulty": "easy",
+    "question": "Que signifie 'répéter' dans une suite d'instructions ?",
+    "options": { "A": "Faire la même action plusieurs fois", "B": "Arrêter tout", "C": "Changer l'écran", "D": "Éteindre l'ordinateur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0204",
+    "difficulty": "easy",
+    "question": "Si une instruction dit 'si le drapeau est rouge alors s'arrêter', que fais-tu si le drapeau est rouge ?",
+    "options": { "A": "S'arrêter", "B": "Continuer", "C": "Tourner", "D": "Répéter" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0205",
+    "difficulty": "easy",
+    "question": "Quel mot simple peut garder un nombre comme le score d'un jeu ?",
+    "options": { "A": "Variable", "B": "Boucle", "C": "Condition", "D": "Fichier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0206",
+    "difficulty": "easy",
+    "question": "Quelle est la première étape avant d'exécuter un algorithme ?",
+    "options": { "A": "Lire et comprendre les étapes", "B": "Allumer la lumière", "C": "Crier", "D": "Effacer tout" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0207",
+    "difficulty": "easy",
+    "question": "Quel mot utilise-t-on pour dire 'si ceci alors cela' dans un programme ?",
+    "options": { "A": "Condition", "B": "Boucle", "C": "Variable", "D": "Fichier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0208",
+    "difficulty": "easy",
+    "question": "Si tu veux répéter une action 4 fois, quelle instruction utilises-tu ?",
+    "options": { "A": "Répéter 4 fois", "B": "Arrêter", "C": "Aller à gauche", "D": "Sauter" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0209",
+    "difficulty": "easy",
+    "question": "Quel est le résultat si tu exécutes 'avancer' trois fois ?",
+    "options": { "A": "Le personnage avance de trois pas", "B": "Le personnage tourne", "C": "Le personnage saute", "D": "Rien ne se passe" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0210",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut te donner l'heure et te permettre de jouer ?",
+    "options": { "A": "Une montre connectée", "B": "Un tournevis", "C": "Un livre", "D": "Une lampe" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0211",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à mesurer la durée d'une activité ?",
+    "options": { "A": "Un chronomètre", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0212",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à écouter un conte audio ?",
+    "options": { "A": "Une tablette ou un lecteur audio", "B": "Un marteau", "C": "Un tournevis", "D": "Un livre" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0213",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à prendre des photos de la classe ?",
+    "options": { "A": "Un appareil photo ou une tablette", "B": "Un tournevis", "C": "Un marteau", "D": "Une règle" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0214",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à calculer rapidement des additions ?",
+    "options": { "A": "Une calculatrice", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0215",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à écouter de la musique sans déranger les autres ?",
+    "options": { "A": "Des écouteurs", "B": "Un marteau", "C": "Un tournevis", "D": "Un écran" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0216",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à lire un texte en grand pour toute la classe ?",
+    "options": { "A": "Un projecteur", "B": "Un marteau", "C": "Un tournevis", "D": "Une règle" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0217",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à mesurer la température d'une pièce ?",
+    "options": { "A": "Un thermomètre", "B": "Un chronomètre", "C": "Un tournevis", "D": "Un écran" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0218",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à trouver ton chemin en voiture ?",
+    "options": { "A": "Un GPS", "B": "Un marteau", "C": "Un écran d'ordinateur", "D": "Un câble USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0219",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut être radiocommandé pour jouer ?",
+    "options": { "A": "Un jouet radiocommandé", "B": "Un livre", "C": "Une chaise", "D": "Un tableau" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0220",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à mesurer la longueur d'une table ?",
+    "options": { "A": "Un mètre ou une règle", "B": "Un chronomètre", "C": "Un écran", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0221",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à enregistrer une chanson ?",
+    "options": { "A": "Un micro et un enregistreur", "B": "Un tournevis", "C": "Un marteau", "D": "Un écran" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0222",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à traduire un mot dans une autre langue ?",
+    "options": { "A": "Une application de traduction sur une tablette", "B": "Un marteau", "C": "Un tournevis", "D": "Un livre vide" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0223",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à mesurer la pression d'air dans un ballon ?",
+    "options": { "A": "Un manomètre", "B": "Un chronomètre", "C": "Un écran", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0224",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à allumer et éteindre une lumière ?",
+    "options": { "A": "Un interrupteur", "B": "Un livre", "C": "Un écran", "D": "Un câble USB" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0225",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à mesurer la vitesse d'une course ?",
+    "options": { "A": "Un chronomètre", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0226",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à écouter une histoire en classe sans déranger ?",
+    "options": { "A": "Un lecteur audio ou une tablette", "B": "Un marteau", "C": "Un tournevis", "D": "Un livre" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0227",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à mesurer la distance parcourue lors d'une promenade ?",
+    "options": { "A": "Un podomètre", "B": "Un marteau", "C": "Un écran", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0228",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à lire un livre en grand format sur un écran ?",
+    "options": { "A": "Une tablette ou un ordinateur", "B": "Un marteau", "C": "Un tournevis", "D": "Une règle" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0229",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à appeler tes parents ?",
+    "options": { "A": "Un téléphone portable", "B": "Un tournevis", "C": "Un écran", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-easy-0230",
+    "difficulty": "easy",
+    "question": "Quel objet technique peut t'aider à écouter une leçon en ligne ?",
+    "options": { "A": "Une tablette ou un ordinateur avec casque", "B": "Un marteau", "C": "Un tournevis", "D": "Une règle" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0160",
+    "difficulty": "medium",
+    "question": "Quelle est la différence principale entre la RAM et le stockage permanent (disque/SSD) ?",
+    "options": { "A": "La RAM est temporaire et rapide ; le stockage garde les données quand l'ordinateur est éteint", "B": "La RAM garde les données en permanence", "C": "Le stockage est plus rapide que la RAM", "D": "Il n'y a aucune différence" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0161",
+    "difficulty": "medium",
+    "question": "Pourquoi utiliser une boucle 'pour' plutôt que répéter manuellement la même instruction ?",
+    "options": { "A": "Pour rendre le code plus court et plus facile à modifier", "B": "Pour compliquer le code", "C": "Pour effacer les données", "D": "Pour ralentir l'ordinateur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0162",
+    "difficulty": "medium",
+    "question": "Que signifie 'variable' dans un programme simple ?",
+    "options": { "A": "Un emplacement qui peut contenir une valeur qui change", "B": "Une boucle infinie", "C": "Un écran", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0163",
+    "difficulty": "medium",
+    "question": "Quel est l'intérêt d'écrire un pseudo-code avant de programmer ?",
+    "options": { "A": "Planifier la logique sans se soucier de la syntaxe", "B": "Rendre le code plus long", "C": "Empêcher le programme de fonctionner", "D": "Décorer l'écran" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0164",
+    "difficulty": "medium",
+    "question": "Que fait une instruction 'si ... alors ... sinon ...' ?",
+    "options": { "A": "Choisit entre deux actions selon une condition", "B": "Répète une action sans condition", "C": "Stocke un nombre", "D": "Affiche une image" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0165",
+    "difficulty": "medium",
+    "question": "Pourquoi est-il utile de tester un algorithme avec des cas limites ?",
+    "options": { "A": "Pour vérifier qu'il fonctionne aussi dans des situations particulières", "B": "Pour le rendre plus lent", "C": "Pour effacer les erreurs", "D": "Pour cacher la logique" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0166",
+    "difficulty": "medium",
+    "question": "Que signifie 'déboguer' un programme et quelle méthode simple utiliser ?",
+    "options": { "A": "Trouver et corriger les erreurs ; tester étape par étape", "B": "Ajouter des erreurs", "C": "Ignorer les erreurs", "D": "Effacer le programme" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0167",
+    "difficulty": "medium",
+    "question": "Pourquoi donner des noms clairs aux variables aide-t-il dans un projet de groupe ?",
+    "options": { "A": "Parce que cela rend le code plus compréhensible pour tous", "B": "Parce que cela le rend plus long", "C": "Parce que cela le rend plus lent", "D": "Parce que cela cache la logique" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0168",
+    "difficulty": "medium",
+    "question": "Que fait une instruction 'break' dans une boucle ?",
+    "options": { "A": "Elle arrête immédiatement la boucle", "B": "Elle répète la boucle", "C": "Elle efface la variable", "D": "Elle redémarre l'ordinateur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0169",
+    "difficulty": "medium",
+    "question": "Quelle est la différence entre stockage interne et stockage externe ?",
+    "options": { "A": "Interne est dans l'appareil ; externe est un support amovible comme une clé ou un disque", "B": "Interne est toujours plus lent", "C": "Externe ne peut pas stocker de fichiers", "D": "Il n'y a aucune différence" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0170",
+    "difficulty": "medium",
+    "question": "Pourquoi sauvegarder ses fichiers sur deux supports différents est‑il recommandé ?",
+    "options": { "A": "Pour avoir une copie de secours en cas de panne ou de perte", "B": "Pour ralentir l'ordinateur", "C": "Pour effacer les fichiers", "D": "Pour décorer le bureau" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0171",
+    "difficulty": "medium",
+    "question": "Que signifie 'URL' et quelle partie indique le protocole (ex : https) ?",
+    "options": { "A": "Adresse d'une page ; le début indique le protocole (https://)", "B": "Un type de virus", "C": "Un périphérique", "D": "Un câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0172",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'utiliser des mots-clés précis dans une recherche sur internet ?",
+    "options": { "A": "Pour obtenir des résultats plus pertinents et rapides", "B": "Pour ralentir la recherche", "C": "Pour afficher des images seulement", "D": "Pour supprimer les résultats" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0173",
+    "difficulty": "medium",
+    "question": "Que fait un pare-feu (firewall) dans un réseau scolaire ?",
+    "options": { "A": "Filtrer les connexions pour protéger le réseau contre les intrusions", "B": "Augmenter la vitesse d'internet", "C": "Imprimer les pages web", "D": "Changer les mots de passe" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0174",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il important de vérifier la source d'une information trouvée sur internet ?",
+    "options": { "A": "Pour s'assurer que l'information est fiable et correcte", "B": "Pour rendre l'exposé plus long", "C": "Pour cacher l'information", "D": "Pour augmenter la vitesse d'internet" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0175",
+    "difficulty": "medium",
+    "question": "Que mesure un voltmètre dans un circuit électrique ?",
+    "options": { "A": "La tension entre deux points", "B": "La température", "C": "La vitesse", "D": "La couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0176",
+    "difficulty": "medium",
+    "question": "Pourquoi utilise-t-on des isolants autour des fils électriques ?",
+    "options": { "A": "Pour empêcher les contacts dangereux et éviter les courts-circuits", "B": "Pour rendre les fils plus jolis", "C": "Pour augmenter la conductivité", "D": "Pour refroidir les fils" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0177",
+    "difficulty": "medium",
+    "question": "Que signifie 'mise à jour' d'un logiciel et pourquoi la faire ?",
+    "options": { "A": "Installer des améliorations ou corrections pour que le logiciel fonctionne mieux et soit plus sûr", "B": "Effacer le logiciel", "C": "Changer la couleur du logiciel", "D": "Imprimer le logiciel" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0178",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'enseigner la notion d'empreinte numérique aux élèves ?",
+    "options": { "A": "Pour qu'ils comprennent que leurs actions en ligne laissent des traces et apprennent à les gérer", "B": "Pour les empêcher d'utiliser internet", "C": "Pour effacer les traces automatiquement", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0179",
+    "difficulty": "medium",
+    "question": "Que signifie 'authentification à deux facteurs' (2FA) ?",
+    "options": { "A": "Ajouter une seconde vérification (ex : code) pour mieux protéger un compte", "B": "Changer le mot de passe automatiquement", "C": "Effacer le compte", "D": "Imprimer le mot de passe" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0180",
+    "difficulty": "medium",
+    "question": "Pourquoi documenter le cycle de vie d'un objet technique aide-t-il à mieux recycler ?",
+    "options": { "A": "Pour savoir quels matériaux séparer et comment les traiter", "B": "Pour rendre l'objet plus lourd", "C": "Pour cacher les matériaux", "D": "Pour augmenter la pollution" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0181",
+    "difficulty": "medium",
+    "question": "Que signifie 'backup' et quelle fréquence est raisonnable pour une classe ?",
+    "options": { "A": "Sauvegarde des données ; au moins une fois par semaine ou après un travail important", "B": "Effacer les données ; une fois par an", "C": "Imprimer les données ; tous les jours", "D": "Partager les données ; jamais" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0182",
+    "difficulty": "medium",
+    "question": "Pourquoi la modularité facilite-t-elle la réparation d'un appareil ?",
+    "options": { "A": "Parce qu'on peut remplacer une pièce sans changer tout l'appareil", "B": "Parce qu'elle rend l'appareil plus fragile", "C": "Parce qu'elle empêche la réparation", "D": "Parce qu'elle augmente la consommation d'énergie" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0183",
+    "difficulty": "medium",
+    "question": "Quel matériau est souvent utilisé pour les fils électriques à cause de sa conductivité ?",
+    "options": { "A": "Le cuivre", "B": "Le bois", "C": "Le verre", "D": "Le plastique" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0184",
+    "difficulty": "medium",
+    "question": "Que fait un onduleur (UPS) pour un ordinateur en cas de coupure de courant ?",
+    "options": { "A": "Il fournit de l'énergie temporaire pour éteindre proprement l'ordinateur", "B": "Il imprime des documents", "C": "Il augmente la vitesse du processeur", "D": "Il change la couleur de l'écran" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0185",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'enseigner la sécurité numérique aux élèves dès le Cycle 3 ?",
+    "options": { "A": "Pour qu'ils sachent protéger leurs données et repérer les dangers en ligne", "B": "Pour les empêcher d'utiliser internet", "C": "Pour rendre l'école plus lente", "D": "Pour effacer les fichiers" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0186",
+    "difficulty": "medium",
+    "question": "Que signifie 'formatage' d'un disque ?",
+    "options": { "A": "Préparer le disque pour stocker des fichiers en effaçant son contenu", "B": "Augmenter la vitesse du disque", "C": "Changer la couleur du disque", "D": "Imprimer le disque" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0187",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'avoir des ports standard comme USB dans une école ?",
+    "options": { "A": "Pour brancher facilement des périphériques sans adaptateurs spéciaux", "B": "Pour rendre les appareils plus lourds", "C": "Pour empêcher la connexion", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0188",
+    "difficulty": "medium",
+    "question": "Que signifie 'synchroniser' des fichiers entre deux appareils ?",
+    "options": { "A": "Faire en sorte que les mêmes fichiers soient disponibles sur les deux appareils", "B": "Effacer les fichiers", "C": "Imprimer les fichiers", "D": "Changer la couleur des fichiers" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0189",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'installer des mises à jour de sécurité sur les ordinateurs scolaires ?",
+    "options": { "A": "Pour corriger des failles et protéger les données contre les attaques", "B": "Pour rendre l'ordinateur plus lent", "C": "Pour effacer les fichiers", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0190",
+    "difficulty": "medium",
+    "question": "Que signifie 'partage contrôlé' d'un dossier en ligne ?",
+    "options": { "A": "Donner l'accès seulement à des personnes choisies et définir leurs droits", "B": "Rendre le dossier public", "C": "Effacer le dossier", "D": "Imprimer le dossier" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0191",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'enseigner la gestion des droits d'accès aux fichiers en classe ?",
+    "options": { "A": "Pour que seuls les bons utilisateurs puissent modifier ou voir certains fichiers", "B": "Pour rendre les fichiers publics", "C": "Pour effacer les fichiers", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0192",
+    "difficulty": "medium",
+    "question": "Que signifie 'PDF' et pourquoi est‑il souvent utilisé pour partager des documents ?",
+    "options": { "A": "Format qui conserve la mise en page et s'ouvre sur beaucoup d'appareils", "B": "Un type de virus", "C": "Un câble", "D": "Un périphérique" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0193",
+    "difficulty": "medium",
+    "question": "Pourquoi est‑il utile d'avoir une procédure pour éteindre et ranger les appareils en classe ?",
+    "options": { "A": "Pour protéger le matériel et prolonger sa durée de vie", "B": "Pour les rendre plus lourds", "C": "Pour augmenter la consommation d'énergie", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-medium-0194",
+    "difficulty": "medium",
+    "question": "Que signifie 'authentification' dans un système informatique ?",
+    "options": { "A": "Vérifier l'identité d'un utilisateur pour protéger l'accès aux comptes", "B": "Effacer un compte", "C": "Imprimer un document", "D": "Changer la couleur d'un profil" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0046",
+    "difficulty": "hard",
+    "question": "Explique pourquoi la séparation entre mémoire vive (RAM) et stockage permanent améliore la performance d'un ordinateur.",
+    "options": { "A": "La RAM permet un accès très rapide aux données en cours d'utilisation, tandis que le stockage permanent garde les fichiers à long terme", "B": "La RAM stocke tout en permanence", "C": "Le stockage permanent est plus rapide que la RAM", "D": "Les deux sont identiques" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0047",
+    "difficulty": "hard",
+    "question": "Pourquoi la modularité et la réparabilité d'un appareil réduisent-elles son impact environnemental ?",
+    "options": { "A": "Parce qu'on peut remplacer des pièces et prolonger la durée de vie, réduisant la production de nouveaux appareils", "B": "Parce que cela rend l'appareil plus cher sans bénéfice", "C": "Parce que cela augmente la pollution", "D": "Parce que cela empêche le recyclage" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0048",
+    "difficulty": "hard",
+    "question": "Comment expliquer la notion de 'latence' d'un réseau à un élève de CM2 ?",
+    "options": { "A": "C'est le temps que met une information pour aller d'un appareil à un autre ; moins il y a de latence, plus la connexion est réactive", "B": "C'est la vitesse du processeur", "C": "C'est la taille du disque", "D": "C'est la couleur du câble" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0049",
+    "difficulty": "hard",
+    "question": "Pourquoi la redondance des sauvegardes (plusieurs copies) est-elle une bonne pratique pour une école ?",
+    "options": { "A": "Parce qu'elle réduit le risque de perte de données si un support tombe en panne ou est endommagé", "B": "Parce qu'elle rend les fichiers plus lourds", "C": "Parce qu'elle efface les données", "D": "Parce qu'elle change la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0050",
+    "difficulty": "hard",
+    "question": "Comment expliquer simplement la différence entre chiffrement et mot de passe ?",
+    "options": { "A": "Le mot de passe protège l'accès ; le chiffrement transforme les données pour qu'elles soient illisibles sans la clé", "B": "Les deux sont identiques", "C": "Le chiffrement est un câble", "D": "Le mot de passe chiffre automatiquement tout" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0051",
+    "difficulty": "hard",
+    "question": "Pourquoi la documentation technique est-elle utile lors de la réparation d'un objet technique ?",
+    "options": { "A": "Elle guide les étapes, indique les pièces et réduit le risque d'erreur pendant la réparation", "B": "Elle rend la réparation plus lente", "C": "Elle efface les pièces", "D": "Elle change la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0052",
+    "difficulty": "hard",
+    "question": "Explique pourquoi il est important d'enseigner l'esprit critique face aux informations trouvées sur internet.",
+    "options": { "A": "Pour que les élèves apprennent à vérifier les sources, comparer les informations et éviter les fausses nouvelles", "B": "Pour les empêcher d'utiliser internet", "C": "Pour copier sans comprendre", "D": "Pour effacer les informations" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0053",
+    "difficulty": "hard",
+    "question": "Comment expliquer la différence entre USB-C et HDMI à un élève ?",
+    "options": { "A": "USB-C peut transférer données, vidéo et énergie ; HDMI sert surtout à transmettre l'image et le son vers un écran", "B": "Les deux sont identiques", "C": "HDMI charge les appareils", "D": "USB-C affiche toujours des images" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0054",
+    "difficulty": "hard",
+    "question": "Pourquoi la maintenance préventive des appareils scolaires est-elle importante ?",
+    "options": { "A": "Pour prolonger la durée de vie des appareils et éviter les pannes imprévues", "B": "Pour les rendre plus lourds", "C": "Pour augmenter la pollution", "D": "Pour changer la couleur" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0055",
+    "difficulty": "hard",
+    "question": "Explique pourquoi la sécurité électrique à l'école doit inclure des règles simples comme 'ne pas toucher les prises avec les mains mouillées'.",
+    "options": { "A": "Parce que l'eau conduit l'électricité et augmente le risque d'électrocution ; des règles simples réduisent les accidents", "B": "Parce que cela rend les prises plus propres", "C": "Parce que cela augmente la tension", "D": "Parce que cela rend l'école plus bruyante" },
+    "answer": "A"
+  },
+  {
+    "id": "tech-fr-hard-0056",
+    "difficulty": "hard",
+    "question": "Comment expliquer la relation tension/intensité/résistance avec une analogie simple ?",
+    "options": { "A": "La tension est la force qui pousse l'eau, l'intensité est le débit, la résistance est un rétrécissement du tuyau qui réduit le débit", "B": "La tension est la couleur, l'intensité est la longueur, la résistance est la largeur", "C": "Les trois sont identiques", "D": "La résistance est la vitesse" },
+    "answer": "A"
+  }
+]
+}

@@ -2,7 +2,6 @@
   "category": "dinosaures",
   "lang": "fr",
   "questions": [
-[
   {
     "id": "dino-fr-0001",
     "question": "Quel dinosaure avait une grande crête osseuse sur la tête et mangeait des plantes ?",
@@ -6004,3 +6003,4 @@
     "difficulty": "hard"
   }
 ]
+}

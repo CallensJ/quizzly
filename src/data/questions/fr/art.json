@@ -2,8 +2,6 @@
   "category": "art",
   "lang": "fr",
   "questions": [
-
-[
   {
     "id": "art-fr-easy-001",
     "question": "Quelles sont les trois couleurs primaires en peinture ?",
@@ -9605,3 +9603,4 @@
     "difficulty": "easy"
   }
 ]
+}
