@@ -8,6 +8,7 @@
  * Gère son propre état de confirmation de suppression (deleteChildId).
  */
 
+import Image from 'next/image';
 import { useState } from 'react';
 import { Users, UserPlus, Check, Trash2 } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
@@ -53,13 +54,13 @@ export default function ChildProfilesSection() {
       <div className="admin__profiles-list">
         {profiles.map((p) => (
           <div key={p.id} className="admin__profile-item">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               className="admin__profile-avatar"
               src={buildAvatarUrl(p.avatarId, (p.avatarStyle as AvatarStyle) ?? 'adventurer')}
               alt=""
               width={40}
               height={40}
+              unoptimized
             />
             <span className="admin__profile-pseudo">{p.pseudo}</span>
             {p.id === activeProfileId && (

@@ -18,6 +18,11 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "Erudia",
   description: "Application de quiz éducatif pour les 6–11 ans",
+  // L'app enfant ne doit PAS être indexée — contenu derrière auth, hors scope SEO
+  robots: {
+    index: false,
+    follow: false,
+  },
   // ── PWA metadata ──────────────────────────────────────────────────────────
   // manifest.webmanifest auto-généré par src/app/manifest.ts
   manifest: '/manifest.webmanifest',

@@ -14,6 +14,7 @@
  * Pas de validation email/nom réel (conformité COPPA).
  */
 
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
@@ -128,13 +129,12 @@ export default function OnboardingScreen() {
                 aria-label={seed}
                 aria-pressed={avatarId === seed}
               >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src={buildAvatarUrl(seed)}
-                  alt=""          // décoratif — l'aria-label du bouton suffit
+                  alt=""
                   width={72}
                   height={72}
-                  loading="lazy"
+                  unoptimized
                 />
               </button>
             ))}

@@ -13,6 +13,7 @@
  *   - Confirmation avant suppression d'un profil enfant
  */
 
+import Image from 'next/image';
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
@@ -102,13 +103,13 @@ export default function ProfileSelector() {
                 onClick={() => handleSelect(p.id)}
                 aria-label={t('selectAriaLabel', { pseudo: p.pseudo })}
               >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   className="profiles__avatar"
                   src={buildAvatarUrl(p.avatarId, (p.avatarStyle ?? 'adventurer') as never)}
                   alt=""
                   width={80}
                   height={80}
+                  unoptimized
                 />
                 <span className="profiles__pseudo">{p.pseudo}</span>
                 {p.id === activeProfileId && (
@@ -192,7 +193,7 @@ export default function ProfileSelector() {
                     aria-pressed={newAvatarId === seed}
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={buildAvatarUrl(seed)} alt="" width={56} height={56} loading="lazy" />
+                    <Image src={buildAvatarUrl(seed)} alt="" width={56} height={56} unoptimized />
                   </button>
                 ))}
               </div>

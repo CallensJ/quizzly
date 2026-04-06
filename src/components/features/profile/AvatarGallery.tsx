@@ -9,6 +9,7 @@
  *                     redirige vers /subscribe au clic.
  */
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Crown, Lock } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
@@ -48,7 +49,7 @@ export default function AvatarGallery({ profile, isPremium, onSelectAvatar }: Pr
               aria-pressed={isActive}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={buildAvatarUrl(seed)} alt="" width={60} height={60} loading="lazy" />
+              <Image src={buildAvatarUrl(seed)} alt="" width={60} height={60} unoptimized />
             </button>
           );
         })}
@@ -95,7 +96,7 @@ export default function AvatarGallery({ profile, isPremium, onSelectAvatar }: Pr
                   }}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={buildAvatarUrl(seed, style)} alt="" width={60} height={60} loading="lazy" />
+                  <Image src={buildAvatarUrl(seed, style)} alt="" width={60} height={60} unoptimized />
                   {!isPremium && (
                     <span className="profile__avatar-lock-icon" aria-hidden="true">
                       <Lock size={16} />

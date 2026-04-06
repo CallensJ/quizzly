@@ -13,6 +13,7 @@
  * Navigation : bouton retour → /home.
  */
 
+import Image from 'next/image';
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { ArrowLeft, Pencil, Lock, BarChart2 } from 'lucide-react';
@@ -128,13 +129,13 @@ export default function ProfileScreen() {
         <div className="profile__identity">
           {/* Avatar + bouton crayon pour ouvrir la galerie */}
           <div className="profile__avatar-wrap">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={buildAvatarUrl(profile.avatarId, (profile.avatarStyle as AvatarStyle) || 'adventurer')}
               alt={`Avatar de ${profile.pseudo}`}
               className="profile__avatar"
               width={100}
               height={100}
+              unoptimized
             />
             <button
               type="button"

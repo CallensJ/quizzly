@@ -7,6 +7,7 @@
  * Montre les scores et avatars des deux joueurs + verdict (victoire/défaite/égalité).
  */
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
@@ -54,12 +55,13 @@ export default function DuelResultPanel({ duelResult, duelLoading, myPseudo }: P
             <div className={`results__duel-player${duelResult.winner === 'a' ? ' results__duel-player--winner' : ''}`}>
               {duelResult.avatar_a && (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img
+                <Image
                   src={buildAvatarUrl(duelResult.avatar_a, 'adventurer' as AvatarStyle)}
                   alt={duelResult.created_by}
                   className="results__duel-avatar"
                   width={56}
                   height={56}
+                  unoptimized
                 />
               )}
               <span className="results__duel-pseudo">{duelResult.created_by}</span>
@@ -80,12 +82,13 @@ export default function DuelResultPanel({ duelResult, duelLoading, myPseudo }: P
             <div className={`results__duel-player${duelResult.winner === 'b' ? ' results__duel-player--winner' : ''}`}>
               {duelResult.avatar_b && (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img
+                <Image
                   src={buildAvatarUrl(duelResult.avatar_b, 'adventurer' as AvatarStyle)}
                   alt={duelResult.challenged_by ?? ''}
                   className="results__duel-avatar"
                   width={56}
                   height={56}
+                  unoptimized
                 />
               )}
               <span className="results__duel-pseudo">{duelResult.challenged_by}</span>

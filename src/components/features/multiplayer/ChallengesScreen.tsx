@@ -13,6 +13,7 @@
  * L'onglet "Mes défis" affiche l'historique des défis créés et reçus avec polling 30s.
  */
 
+import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
@@ -267,12 +268,13 @@ export default function ChallengesScreen() {
               <div className="challenges__preview-challenger">
                 {preview.avatar_a && (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img
+                  <Image
                     src={buildAvatarUrl(preview.avatar_a, 'adventurer' as AvatarStyle)}
                     alt={preview.created_by}
                     className="challenges__preview-avatar"
                     width={64}
                     height={64}
+                    unoptimized
                   />
                 )}
                 <div>
@@ -347,13 +349,13 @@ export default function ChallengesScreen() {
                   <li key={ch.id} className={`challenges__item challenges__item--${ch.status}`}>
                     <div className="challenges__item-left">
                       {opponentAvatar ? (
-                        // eslint-disable-next-line @next/next/no-img-element
-                        <img
+                        <Image
                           src={buildAvatarUrl(opponentAvatar, 'adventurer' as AvatarStyle)}
                           alt={opponent ?? '?'}
                           className="challenges__item-avatar"
                           width={40}
                           height={40}
+                          unoptimized
                         />
                       ) : (
                         <div className="challenges__item-avatar-placeholder" aria-hidden="true">?</div>

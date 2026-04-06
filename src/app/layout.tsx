@@ -7,7 +7,18 @@
  * Le layout principal de l'app (fonts, providers, meta) est dans [locale]/layout.tsx.
  * Ce fichier est un simple passthrough pour satisfaire la contrainte Next.js
  * "chaque page doit avoir un root layout".
+ *
+ * Le metadata robots: noindex ici garantit qu'aucune route de l'app
+ * ne soit indexée par les moteurs de recherche, même si [locale] n'est pas atteint.
  */
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return children;

@@ -162,6 +162,18 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 });
 
 const nextConfig: NextConfig = {
+  images: {
+    // Autorise next/image à charger les avatars DiceBear (SVGs externes).
+    // unoptimized={true} doit être passé sur chaque <Image> DiceBear car Next.js
+    // ne peut pas optimiser (convertir en WebP) un SVG servi dynamiquement.
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'api.dicebear.com',
+        pathname: '/**',
+      },
+    ],
+  },
   async headers() {
     return [
       // Headers de sécurité sur toutes les routes

@@ -13,6 +13,7 @@
  * Elle reprend le gradient primary de l'identité visuelle.
  */
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
@@ -75,13 +76,13 @@ export default function AppLayout({ children }: AppLayoutProps) {
           onClick={() => router.push('/profile')}
           aria-label={t('goToProfile')}
         >
-          {/* eslint-disable-next-line @next/next/no-img-element -- SVG DiceBear externe, next/image ne supporte pas les URLs externes sans domaine configuré */}
-          <img
+          <Image
             className="app-layout__avatar"
             src={avatarUrl}
             alt={profile.pseudo}
             width={88}
             height={88}
+            unoptimized
           />
           <strong className="app-layout__pseudo">{profile.pseudo}</strong>
           {dailyXp > 0 && (
