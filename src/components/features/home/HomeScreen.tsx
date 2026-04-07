@@ -281,8 +281,8 @@ export default function HomeScreen() {
 
       <main className="home__body">
 
-        {/* ── Banners Défi Quotidien + Mode Défi ───────────────────────────── */}
-        <DailyBanner />
+        {/* ── Banners Défi Quotidien + Mode Défi — masqué UI (code conservé) */}
+        {/* <DailyBanner /> */}
 
         {/* ── Catégories gratuites ──────────────────────────────────────────── */}
         <section className="home__section">

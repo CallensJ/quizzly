@@ -175,8 +175,8 @@ export default function AdminScreen() {
           )}
         </section>
 
-        {/* ── Objectif journalier ─────────────────────────────────────────── */}
-        <section
+        {/* ── Objectif journalier — masqué UI (code conservé pour réactivation future) */}
+        {/* <section
           className="admin__section admin__section--goal"
           aria-labelledby="admin-goal-title"
         >
@@ -213,7 +213,7 @@ export default function AdminScreen() {
           >
             {goalFeedback ? t("goalSaved") : t("goalSave")}
           </button>
-        </section>
+        </section> */}
 
         {/* ── Objectifs par catégorie ─────────────────────────────────────── */}
         <GoalsSection />
@@ -224,8 +224,8 @@ export default function AdminScreen() {
         {/* ── Rapport de progression PDF ───────────────────────────────────── */}
         <ReportSection />
 
-        {/* ── Mode Défi (multijoueur) ──────────────────────────────────────── */}
-        <section
+        {/* ── Mode Défi (multijoueur) — masqué UI (code conservé pour réactivation future) */}
+        {/* <section
           className="admin__section admin__section--multiplayer"
           aria-labelledby="admin-multiplayer-title"
         >
@@ -253,7 +253,7 @@ export default function AdminScreen() {
               <span className="admin__toggle-thumb" />
             </button>
           </div>
-        </section>
+        </section> */}
 
         {/* ── Gestion des profils enfants ──────────────────────────────────── */}
         <ChildProfilesSection />

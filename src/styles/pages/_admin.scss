@@ -662,7 +662,7 @@
     to   { opacity: 1; transform: translateY(0); }
   }
 
-  // ── Goals par catégorie ─────────────────────────────────────────────────────
+  // ── Goals par catégorie (anciens styles — conservés pour rétro-compat) ─────
 
   &__cat-goals-list {
     @include m.flex-column;
@@ -709,6 +709,32 @@
     }
 
     @include m.focus-ring;
+  }
+
+  // ── Abonnement ──────────────────────────────────────────────────────────────
+
+  &__dashboard-btn {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    padding: v.$spacing-sm v.$spacing-md;
+    background: linear-gradient(135deg, rgba(v.$primary, 0.08), rgba(v.$primary-dark, 0.08));
+    border: 1.5px solid rgba(v.$primary, 0.25);
+    border-radius: v.$radius-md;
+    color: v.$primary;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    cursor: pointer;
+    margin-bottom: v.$spacing-md;
+    width: 100%;
+    justify-content: center;
+    transition: background v.$transition-fast, border-color v.$transition-fast;
+
+    &:hover {
+      background: linear-gradient(135deg, rgba(v.$primary, 0.14), rgba(v.$primary-dark, 0.14));
+      border-color: rgba(v.$primary, 0.5);
+    }
   }
 
   // ── Desktop — Bento Grid (≥ 1024px) ─────────────────────────────────────────
@@ -1141,5 +1167,191 @@
     40%       { transform: translateX(8px); }
     60%       { transform: translateX(-6px); }
     80%       { transform: translateX(6px); }
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// GOALS SECTION — Objectifs par catégorie (stepper widget)
+// Widget scrollable groupé (Gratuites / Premium), une ligne par catégorie.
+// ═══════════════════════════════════════════════════════════════════════════════
+
+.goals-section {
+
+  // ── Zone scrollable ──────────────────────────────────────────────────────────
+  &__scroll-area {
+    @include m.flex-column;
+    gap: 0;
+    max-height: 380px;
+    overflow-y: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: v.$radius-md;
+
+    // Scrollbar discrète
+    scrollbar-width: thin;
+    scrollbar-color: rgba(v.$primary, 0.25) transparent;
+
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: rgba(v.$primary, 0.25);
+      border-radius: 2px;
+    }
+  }
+
+  // ── Groupe (Gratuites / Premium) ─────────────────────────────────────────────
+  &__group {
+    @include m.flex-column;
+    gap: 0;
+
+    // Séparateur entre groupes
+    & + & {
+      border-top: 2px solid #f3f4f6;
+    }
+  }
+
+  &__group-label {
+    display: block;
+    padding: v.$spacing-xs v.$spacing-md;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: v.$text-muted;
+    background: #f8f7ff;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    &--premium {
+      color: v.$primary-dark;
+      background: rgba(v.$primary, 0.04);
+    }
+  }
+
+  // ── Liste de lignes ───────────────────────────────────────────────────────────
+  &__list {
+    @include m.flex-column;
+    gap: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  // ── Ligne catégorie ───────────────────────────────────────────────────────────
+  &__row {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    padding: 10px v.$spacing-md;
+    transition: background v.$transition-fast;
+
+    // Séparateur léger entre lignes
+    & + & {
+      border-top: 1px solid #f3f4f6;
+    }
+
+    &:hover {
+      background: rgba(v.$primary, 0.025);
+    }
+  }
+
+  // ── Pastille couleur ──────────────────────────────────────────────────────────
+  &__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  // ── Nom de la catégorie ───────────────────────────────────────────────────────
+  &__cat-name {
+    flex: 1;
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$foreground;
+    // Tronquer les noms trop longs sur très petit écran
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+
+  // ── Stepper ───────────────────────────────────────────────────────────────────
+  &__stepper {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex-shrink: 0;
+  }
+
+  &__step-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: 1.5px solid #e5e7eb;
+    border-radius: v.$radius-sm;
+    background: v.$bg;
+    color: v.$text-muted;
+    cursor: pointer;
+    transition:
+      border-color v.$transition-fast,
+      color v.$transition-fast,
+      background v.$transition-fast;
+
+    &:hover:not(:disabled) {
+      border-color: v.$primary;
+      color: v.$primary;
+      background: rgba(v.$primary, 0.06);
+    }
+
+    &:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    @include m.focus-ring;
+  }
+
+  // Valeur centrale du stepper
+  &__step-value {
+    min-width: 46px;
+    text-align: center;
+    font-size: v.$font-size-sm;
+    font-weight: 800;
+    color: v.$primary;
+    background: rgba(v.$primary, 0.09);
+    border-radius: v.$radius-sm;
+    padding: 3px 6px;
+    transition: background v.$transition-fast, color v.$transition-fast;
+
+    // État désactivé : gris discret
+    &--off {
+      color: v.$text-muted;
+      background: #f3f4f6;
+      font-weight: 600;
+    }
+  }
+
+  // ── Badge compteur d'objectifs actifs ─────────────────────────────────────────
+  &__active-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 6px;
+    background: v.$primary;
+    color: v.$white;
+    border-radius: v.$radius-full;
+    font-size: 0.7rem;
+    font-weight: 800;
+    margin-left: auto;
   }
 }

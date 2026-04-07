@@ -104,8 +104,8 @@ export default function AppLayout({ children }: AppLayoutProps) {
           </div>
         </div>
 
-        {/* Défi Quotidien — toujours visible (pas de verrou parental) */}
-        <button
+        {/* Défi Quotidien — masqué UI (code conservé pour réactivation future) */}
+        {/* <button
           className={`app-layout__daily-btn${alreadyPlayedToday ? ' app-layout__daily-btn--done' : ''}`}
           onClick={() => router.push('/daily')}
           aria-label="Défi du jour"
@@ -118,10 +118,10 @@ export default function AppLayout({ children }: AppLayoutProps) {
               {dailyStreak}
             </span>
           )}
-        </button>
+        </button> */}
 
-        {/* Lien Mode Défi — visible uniquement si multiplayerUnlocked */}
-        {multiplayerUnlocked && (
+        {/* Lien Mode Défi — masqué UI (code conservé pour réactivation future) */}
+        {/* {multiplayerUnlocked && (
           <button
             className="app-layout__challenges-btn"
             onClick={() => router.push('/challenges')}
@@ -130,7 +130,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
             <Swords size={16} aria-hidden="true" />
             <span>Défis</span>
           </button>
-        )}
+        )} */}
 
         {/* Changer d'enfant — visible uniquement si plusieurs profils */}
         {profiles.length > 1 && (
