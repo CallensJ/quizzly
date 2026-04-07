@@ -310,7 +310,9 @@ export default function HomeScreen() {
         {/* Pas de titre : le cadenas + fond gris des cartes locked suffit à signifier Premium */}
         <section className="home__section home__section--premium">
 
-          {/* ── Mythologie : carte parente expandable ── */}
+          {/* ── Mythologie : masquée en UI — reportée à MVP 5 post-lancement ── */}
+          {/* Remplacer false par true pour réactiver la carte mythologie */}
+          {false && (
           <div className="home__myth-wrapper">
             <button
               type="button"
@@ -350,7 +352,6 @@ export default function HomeScreen() {
               )}
             </button>
 
-            {/* Tiroir sous-catégories — visible uniquement si premium + ouvert */}
             {isPremium && mythOpen && (
               <div id="myth-panel" className="home__myth-panel">
                 <MythologyPanel
@@ -364,6 +365,7 @@ export default function HomeScreen() {
               </div>
             )}
           </div>
+          )}
 
           <div className="home__categories">
             {PREMIUM_CATEGORIES.map(({ i18nKey, icon, colorVar, id }) => {
