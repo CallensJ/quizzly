@@ -11,6 +11,15 @@
 @use '../abstracts/variables' as v;
 @use '../abstracts/mixins' as m;
 
+// ── Couleurs espace parent ──────────────────────────────────────────────────────
+// Palette distincte du violet enfant (#667eea → #764ba2).
+// Le parent reconnaît instinctivement "son" espace : teal-navy adulte vs violet enfant.
+$p-primary:  #0369a1;   // sky-700 — bleu teal adulte
+$p-dark:     #0c4a6e;   // sky-900 — navy profond
+$p-gradient: linear-gradient(135deg, #{$p-dark} 0%, #{$p-primary} 100%);
+$p-tint:     rgba(3, 105, 161, 0.07);
+$p-medium:   rgba(3, 105, 161, 0.18);
+
 // ═══════════════════════════════════════════════════════════════════════════════
 // ADMIN SCREEN
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -23,7 +32,7 @@
   // ── Header ─────────────────────────────────────────────────────────────────
 
   &__header {
-    @include m.gradient-primary;
+    background: $p-gradient;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -114,7 +123,7 @@
     display: flex;
     align-items: center;
     gap: v.$spacing-sm;
-    color: v.$primary;
+    color: $p-primary;
   }
 
   &__section-title {
@@ -152,7 +161,7 @@
     @include m.flex-column;
     align-items: center;
     gap: 4px;
-    background: rgba(v.$primary, 0.06);
+    background: $p-tint;
     border-radius: v.$radius-md;
     padding: v.$spacing-md v.$spacing-sm;
     text-align: center;
@@ -161,7 +170,7 @@
   &__stat-value {
     font-size: v.$font-size-xl;
     font-weight: 800;
-    color: v.$primary;
+    color: $p-primary;
   }
 
   &__stat-label {
@@ -198,14 +207,14 @@
       color v.$transition-fast;
 
     &:hover {
-      border-color: v.$primary;
-      color: v.$primary;
+      border-color: $p-primary;
+      color: $p-primary;
     }
 
     // Option sélectionnée
     &--active {
-      border-color: v.$primary;
-      background: v.$primary;
+      border-color: $p-primary;
+      background: $p-primary;
       color: v.$white;
     }
 
@@ -215,7 +224,7 @@
   &__save-btn {
     align-self: flex-start;
     padding: v.$spacing-sm v.$spacing-lg;
-    @include m.gradient-primary;
+    background: $p-gradient;
     color: v.$white;
     border-radius: v.$radius-md;
     font-family: v.$font-primary;
@@ -258,8 +267,8 @@
     &::placeholder { color: #9ca3af; }
 
     &:focus {
-      border-color: v.$primary;
-      box-shadow: 0 0 0 3px rgba(v.$primary, 0.15);
+      border-color: $p-primary;
+      box-shadow: 0 0 0 3px rgba(3, 105, 161, 0.15);
     }
 
     // Erreur de validation
@@ -296,8 +305,8 @@
     gap: v.$spacing-xs;
     align-self: flex-start;
     padding: v.$spacing-sm v.$spacing-lg;
-    border: 2px solid v.$primary;
-    color: v.$primary;
+    border: 2px solid $p-primary;
+    color: $p-primary;
     border-radius: v.$radius-md;
     background: transparent;
     font-family: v.$font-primary;
@@ -310,7 +319,7 @@
       color v.$transition-fast;
 
     &:hover {
-      background: v.$primary;
+      background: $p-primary;
       color: v.$white;
     }
 
@@ -410,23 +419,23 @@
       cursor: not-allowed;
     }
 
-    // Télécharger — gradient primary
+    // Télécharger — gradient parent
     &--primary {
-      @include m.gradient-primary;
+      background: $p-gradient;
       color: v.$white;
       border: none;
 
       &:not(:disabled):hover { opacity: 0.9; }
     }
 
-    // Envoyer par email — contour primary
+    // Envoyer par email — contour parent
     &--secondary {
       background: transparent;
-      color: v.$primary;
-      border: 2px solid v.$primary;
+      color: $p-primary;
+      border: 2px solid $p-primary;
 
       &:not(:disabled):hover {
-        background: v.$primary;
+        background: $p-primary;
         color: v.$white;
       }
     }
@@ -483,12 +492,12 @@
 
   &__schedule-btn {
     padding: v.$spacing-xs v.$spacing-md;
-    border: 2px solid v.$primary;
+    border: 2px solid $p-primary;
     border-radius: v.$radius-full;
     font-family: v.$font-primary;
     font-size: v.$font-size-sm;
     font-weight: 700;
-    color: v.$primary;
+    color: $p-primary;
     background: transparent;
     cursor: pointer;
     min-height: 40px;
@@ -499,12 +508,12 @@
     @include m.focus-ring;
 
     &--active {
-      background: v.$primary;
+      background: $p-primary;
       color: v.$white;
     }
 
     &:not(&--active):hover {
-      background: rgba(v.$primary, 0.08);
+      background: $p-tint;
     }
   }
 
@@ -536,7 +545,7 @@
 
     @include m.focus-ring;
 
-    &--on { background: v.$primary; }
+    &--on { background: $p-primary; }
   }
 
   &__toggle-thumb {
@@ -718,10 +727,10 @@
     align-items: center;
     gap: v.$spacing-sm;
     padding: v.$spacing-sm v.$spacing-md;
-    background: linear-gradient(135deg, rgba(v.$primary, 0.08), rgba(v.$primary-dark, 0.08));
-    border: 1.5px solid rgba(v.$primary, 0.25);
+    background: $p-tint;
+    border: 1.5px solid $p-medium;
     border-radius: v.$radius-md;
-    color: v.$primary;
+    color: $p-primary;
     font-size: v.$font-size-sm;
     font-weight: 700;
     font-family: v.$font-primary;
@@ -732,22 +741,18 @@
     transition: background v.$transition-fast, border-color v.$transition-fast;
 
     &:hover {
-      background: linear-gradient(135deg, rgba(v.$primary, 0.14), rgba(v.$primary-dark, 0.14));
-      border-color: rgba(v.$primary, 0.5);
+      background: rgba(3, 105, 161, 0.12);
+      border-color: rgba(3, 105, 161, 0.35);
     }
   }
 
   // ── Desktop — Bento Grid (≥ 1024px) ─────────────────────────────────────────
   //
-  // L'admin n'a pas de sidebar (AppLayout absent). Sur desktop, on adopte
-  // un layout grille type dashboard pour regrouper les sections logiquement.
-  //
-  // Layout :
-  //   Col 1 (1fr) | Col 2 (1fr)
-  //   [stats — full width                    ]
-  //   [objectif (col 1)] | [code PIN (col 2) ]
-  //   [email (col 1)   ] | [compte (col 2)   ]
-  //   [danger — full width                   ]
+  // Layout dashboard parent (ordre JSX = ordre affiché mobile) :
+  //   Row 1 : [stats — pleine largeur                        ]
+  //   Row 2 : [profils (col 1)]  | [objectifs (col 2)        ]
+  //   Row 3 : [rapport (col 1)]  | [abonnement (col 2)       ]
+  //   Row 4 : [zone de danger — pleine largeur               ]
 
   @media (min-width: v.$bp-lg) {
 
@@ -761,25 +766,23 @@
     }
 
     &__section {
-      // Stats enfant — pleine largeur, en tête de dashboard
-      &--stats  { grid-column: 1 / -1; }
+      // Stats — pleine largeur, en tête de dashboard
+      &--stats         { grid-column: 1 / -1; }
 
-      // Objectif journalier — col gauche
-      &--goal   { grid-column: 1; }
+      // Profils enfants — col gauche
+      &--profiles      { grid-column: 1; }
 
-      // Code PIN — col droite (face à l'objectif)
-      &--pin    { grid-column: 2; }
+      // Objectifs par catégorie — col droite
+      &--cat-goals     { grid-column: 2; }
 
-      // Email de contact — col gauche
-      &--email  { grid-column: 1; }
+      // Rapport PDF — col gauche
+      &--report        { grid-column: 1; }
 
-      // Compte adulte — col droite (face à l'email)
-      // Si authLoading = true (section absente), email reste en col 1.
-      // Cas marginal : authLoading se résout avant que l'utilisateur voie le dashboard.
-      &--auth   { grid-column: 2; }
+      // Abonnement — col droite
+      &--subscription  { grid-column: 2; }
 
-      // Zone de danger — pleine largeur, en bas du dashboard
-      &--danger { grid-column: 1 / -1; }
+      // Zone de danger — pleine largeur, en bas
+      &--danger        { grid-column: 1 / -1; }
     }
   }
 }
@@ -822,7 +825,7 @@
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    @include m.gradient-primary;
+    background: $p-gradient;
     color: v.$white;
     margin-bottom: v.$spacing-xs;
   }
@@ -870,14 +873,14 @@
     caret-color: transparent;
 
     &:focus {
-      border-color: v.$primary;
-      box-shadow: 0 0 0 3px rgba(v.$primary, 0.2);
+      border-color: $p-primary;
+      box-shadow: 0 0 0 3px rgba(3, 105, 161, 0.2);
     }
 
-    // Case remplie — fond violet très doux
+    // Case remplie — fond teal très doux
     &:not(:placeholder-shown) {
-      background: rgba(v.$primary, 0.06);
-      border-color: v.$primary;
+      background: $p-tint;
+      border-color: $p-primary;
     }
 
     // Case en erreur — rouge
@@ -932,9 +935,9 @@
       &:hover { background: #e5e7eb; }
     }
 
-    // Bouton confirmer — gradient primary
+    // Bouton confirmer — gradient parent
     &--confirm {
-      @include m.gradient-primary;
+      background: $p-gradient;
       color: v.$white;
       border: none;
 
@@ -954,10 +957,10 @@
     align-items: center;
     gap: v.$spacing-sm;
     padding: v.$spacing-sm v.$spacing-md;
-    background: linear-gradient(135deg, rgba(v.$primary, 0.08), rgba(v.$primary-dark, 0.08));
-    border: 1.5px solid rgba(v.$primary, 0.25);
+    background: $p-tint;
+    border: 1.5px solid $p-medium;
     border-radius: v.$radius-md;
-    color: v.$primary;
+    color: $p-primary;
     font-size: v.$font-size-sm;
     font-weight: 700;
     font-family: v.$font-primary;
@@ -968,8 +971,8 @@
     transition: background v.$transition-fast, border-color v.$transition-fast;
 
     &:hover {
-      background: linear-gradient(135deg, rgba(v.$primary, 0.14), rgba(v.$primary-dark, 0.14));
-      border-color: rgba(v.$primary, 0.5);
+      background: rgba(3, 105, 161, 0.12);
+      border-color: rgba(3, 105, 161, 0.35);
     }
   }
 
@@ -1027,7 +1030,7 @@
 
   &__profile-switch {
     padding: 4px 12px;
-    background: v.$primary;
+    background: $p-primary;
     color: v.$white;
     border: none;
     border-radius: v.$radius-full;
@@ -1074,8 +1077,8 @@
     transition: border-color v.$transition-fast, color v.$transition-fast;
 
     &:hover {
-      border-color: v.$primary;
-      color: v.$primary;
+      border-color: $p-primary;
+      color: $p-primary;
     }
   }
 
@@ -1106,9 +1109,9 @@
     gap: 0.4rem;
     padding: 0.6rem 1rem;
     background: none;
-    border: 1.5px solid v.$primary;
+    border: 1.5px solid $p-primary;
     border-radius: v.$radius-md;
-    color: v.$primary;
+    color: $p-primary;
     font-size: 0.875rem;
     font-weight: 700;
     cursor: pointer;
@@ -1116,7 +1119,7 @@
     align-self: flex-start;
 
     &:hover:not(:disabled) {
-      background: v.$primary;
+      background: $p-primary;
       color: #fff;
     }
 
@@ -1128,7 +1131,7 @@
     align-items: center;
     gap: 0.4rem;
     padding: 0.65rem 1.25rem;
-    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    background: $p-gradient;
     border: none;
     border-radius: v.$radius-md;
     color: #fff;
@@ -1188,7 +1191,7 @@
 
     // Scrollbar discrète
     scrollbar-width: thin;
-    scrollbar-color: rgba(v.$primary, 0.25) transparent;
+    scrollbar-color: rgba(3, 105, 161, 0.25) transparent;
 
     &::-webkit-scrollbar {
       width: 4px;
@@ -1197,7 +1200,7 @@
       background: transparent;
     }
     &::-webkit-scrollbar-thumb {
-      background: rgba(v.$primary, 0.25);
+      background: rgba(3, 105, 161, 0.25);
       border-radius: 2px;
     }
   }
@@ -1228,8 +1231,8 @@
     z-index: 1;
 
     &--premium {
-      color: v.$primary-dark;
-      background: rgba(v.$primary, 0.04);
+      color: $p-dark;
+      background: rgba(3, 105, 161, 0.04);
     }
   }
 
@@ -1256,7 +1259,7 @@
     }
 
     &:hover {
-      background: rgba(v.$primary, 0.025);
+      background: rgba(3, 105, 161, 0.025);
     }
   }
 
@@ -1306,9 +1309,9 @@
       background v.$transition-fast;
 
     &:hover:not(:disabled) {
-      border-color: v.$primary;
-      color: v.$primary;
-      background: rgba(v.$primary, 0.06);
+      border-color: $p-primary;
+      color: $p-primary;
+      background: $p-tint;
     }
 
     &:disabled {
@@ -1325,8 +1328,8 @@
     text-align: center;
     font-size: v.$font-size-sm;
     font-weight: 800;
-    color: v.$primary;
-    background: rgba(v.$primary, 0.09);
+    color: $p-primary;
+    background: rgba(3, 105, 161, 0.09);
     border-radius: v.$radius-sm;
     padding: 3px 6px;
     transition: background v.$transition-fast, color v.$transition-fast;
@@ -1347,7 +1350,7 @@
     min-width: 20px;
     height: 20px;
     padding: 0 6px;
-    background: v.$primary;
+    background: $p-primary;
     color: v.$white;
     border-radius: v.$radius-full;
     font-size: 0.7rem;

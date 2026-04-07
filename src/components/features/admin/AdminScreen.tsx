@@ -125,10 +125,7 @@ export default function AdminScreen() {
       </header>
 
       <main className="admin__body">
-        {/* ── Abonnement Premium ──────────────────────────────────────────── */}
-        <SubscriptionSection />
-
-        {/* ── Stats enfant (lecture seule) ────────────────────────────────── */}
+        {/* ── Stats enfant (lecture seule) — vue d'ensemble en premier ───── */}
         <section
           className="admin__section admin__section--stats"
           aria-labelledby="admin-stats-title"
@@ -215,14 +212,20 @@ export default function AdminScreen() {
           </button>
         </section> */}
 
+        {/* ── Gestion des profils enfants ──────────────────────────────────── */}
+        <ChildProfilesSection />
+
         {/* ── Objectifs par catégorie ─────────────────────────────────────── */}
         <GoalsSection />
 
-        {/* ── Email de contact ────────────────────────────────────────────── */}
-        <AdminEmailSection />
+        {/* ── Email de contact — masqué UI (code conservé pour réactivation future) */}
+        {/* <AdminEmailSection /> */}
 
         {/* ── Rapport de progression PDF ───────────────────────────────────── */}
         <ReportSection />
+
+        {/* ── Abonnement Premium ──────────────────────────────────────────── */}
+        <SubscriptionSection />
 
         {/* ── Mode Défi (multijoueur) — masqué UI (code conservé pour réactivation future) */}
         {/* <section
@@ -254,9 +257,6 @@ export default function AdminScreen() {
             </button>
           </div>
         </section> */}
-
-        {/* ── Gestion des profils enfants ──────────────────────────────────── */}
-        <ChildProfilesSection />
 
         {/* ── Zone de danger ───────────────────────────────────────────────── */}
         <DangerZone
