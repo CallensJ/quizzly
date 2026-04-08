@@ -54,8 +54,10 @@ export default async function middleware(req: NextRequest) {
       // Extraire la locale pour construire le redirect avec la bonne langue
       const locale = pathname.match(/^\/(fr|en)/)?.[1] ?? routing.defaultLocale;
       const loginUrl = new URL(`/${locale}/auth/login`, req.url);
-      // Mémoriser l'URL demandée pour rediriger après connexion (optionnel — UX)
-      loginUrl.searchParams.set('next', pathname);
+      // Stocker le chemin SANS le préfixe de locale dans ?next=
+      // → router.push(nextUrl) de next-intl ajoutera la locale, évite /fr/fr/subscribe
+      const pathnameWithoutLocale = pathname.replace(/^\/(fr|en)/, '') || '/';
+      loginUrl.searchParams.set('next', pathnameWithoutLocale);
       return NextResponse.redirect(loginUrl);
     }
   }

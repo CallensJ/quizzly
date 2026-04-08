@@ -41,8 +41,8 @@ export async function signUp(email: string, password: string) {
  * Connexion avec email + mot de passe.
  */
 export async function signIn(email: string, password: string) {
-  const { error } = await supabase.auth.signInWithPassword({ email, password });
-  return { error };
+  const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+  return { data, error };
 }
 
 // ─── Google OAuth ─────────────────────────────────────────────────────────────

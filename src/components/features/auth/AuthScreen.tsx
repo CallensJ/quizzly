@@ -25,6 +25,7 @@ import { useRouter } from '@/i18n/navigation';
 import { signIn, signUp, signInWithGoogle, resetPassword } from '@/lib/auth';
 import { SignInSchema, SignUpSchema } from '@/lib/schemas/auth';
 import { getSafeRedirect } from '@/lib/safeRedirect';
+import { useAuthStore } from '@/stores/authStore';
 
 type AuthMode = 'login' | 'register';
 
@@ -68,25 +69,24 @@ export default function AuthScreen() {
 
     setLoading(true);
 
-    const { error: authError } = mode === 'login'
-      ? await signIn(normalizedEmail, password)
-      : await signUp(normalizedEmail, password);
-
-    setLoading(false);
-
-    if (authError) {
-      setError(mapError(authError.message));
-      return;
-    }
-
-    if (mode === 'register') {
+    if (mode === 'login') {
+      const { data, error: authError } = await signIn(normalizedEmail, password);
+      setLoading(false);
+      if (authError) { setError(mapError(authError.message)); return; }
+      // Mettre à jour le store AVANT de naviguer pour éviter la race condition :
+      // SubscribeScreen (et autres routes protégées) vérifient user au montage.
+      // Sans ça, onAuthStateChange n'a pas encore mis à jour le store → redirect login.
+      if (data?.session) {
+        useAuthStore.getState().setSession(data.session);
+      }
+      router.push(nextUrl);
+    } else {
+      const { error: authError } = await signUp(normalizedEmail, password);
+      setLoading(false);
+      if (authError) { setError(mapError(authError.message)); return; }
       // Inscription réussie → email de confirmation envoyé par Supabase
-      // L'utilisateur doit confirmer son email avant de pouvoir se connecter
       setMode('login');
       setRegisterSuccess(true);
-    } else {
-      // Login réussi → redirection vers ?next= validé, ou /admin par défaut
-      router.push(nextUrl);
     }
   }
 

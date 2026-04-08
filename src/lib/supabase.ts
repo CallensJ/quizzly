@@ -6,9 +6,12 @@
  * Instancié une seule fois — importé par src/lib/sync.ts.
  */
 
-import { createClient } from '@supabase/supabase-js';
+import { createBrowserClient } from '@supabase/ssr';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+// createBrowserClient (@supabase/ssr) stocke la session dans les cookies
+// (en plus du localStorage), ce qui permet au middleware proxy.ts de lire
+// la session côté serveur via req.cookies pour protéger les routes.
+export const supabase = createBrowserClient(supabaseUrl, supabaseAnonKey);
