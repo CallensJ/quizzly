@@ -22,7 +22,7 @@ export default function SubscribeScreen() {
   const router   = useRouter();
   const { user, loading: authLoading } = useAuthStore();
 
-  const [interval, setInterval] = useState<CheckoutInterval>('yearly');
+  const [interval, setInterval] = useState<CheckoutInterval>('semiannual');
   const { startCheckout, loading, error } = useCheckout();
 
   // Redirige vers login si non connecté (après chargement auth)
@@ -58,7 +58,7 @@ export default function SubscribeScreen() {
         <p className="subscribe__subtitle">{t('subtitle')}</p>
       </div>
 
-      {/* Toggle mensuel / annuel */}
+      {/* Toggle mensuel / semestriel */}
       <div className="subscribe__toggle">
         <button
           className={`subscribe__toggle-btn${interval === 'monthly' ? ' subscribe__toggle-btn--active' : ''}`}
@@ -67,11 +67,11 @@ export default function SubscribeScreen() {
           {t('monthly')}
         </button>
         <button
-          className={`subscribe__toggle-btn${interval === 'yearly' ? ' subscribe__toggle-btn--active' : ''}`}
-          onClick={() => setInterval('yearly')}
+          className={`subscribe__toggle-btn${interval === 'semiannual' ? ' subscribe__toggle-btn--active' : ''}`}
+          onClick={() => setInterval('semiannual')}
         >
-          {t('yearly')}
-          <span className="subscribe__toggle-savings">{t('yearlySavings')}</span>
+          {t('semiannual')}
+          <span className="subscribe__toggle-savings">{t('semiannualSavings')}</span>
         </button>
       </div>
 
@@ -79,15 +79,15 @@ export default function SubscribeScreen() {
       <div className="subscribe__card">
         <div className="subscribe__price">
           <span className="subscribe__price-amount">
-            {interval === 'yearly' ? '39,99\u00a0€' : '4,99\u00a0€'}
+            {interval === 'semiannual' ? '9,99\u00a0€' : '1,99\u00a0€'}
           </span>
           <span className="subscribe__price-period">
-            {interval === 'yearly' ? t('perYear') : t('perMonth')}
+            {interval === 'semiannual' ? t('per6months') : t('perMonth')}
           </span>
         </div>
 
-        {interval === 'yearly' && (
-          <p className="subscribe__price-equiv">{t('yearlyEquiv')}</p>
+        {interval === 'semiannual' && (
+          <p className="subscribe__price-equiv">{t('semiannualEquiv')}</p>
         )}
 
         {/* Liste des avantages */}

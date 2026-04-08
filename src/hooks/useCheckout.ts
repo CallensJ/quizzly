@@ -11,7 +11,7 @@
 import { useState } from 'react';
 import { useAuthStore } from '@/stores/authStore';
 
-export type CheckoutInterval = 'monthly' | 'yearly';
+export type CheckoutInterval = 'monthly' | 'semiannual';
 
 export function useCheckout() {
   const session = useAuthStore((s) => s.session);

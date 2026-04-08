@@ -19,9 +19,9 @@ import { env } from '@/lib/env';
 import { logger } from '@/lib/logger';
 import { rateLimit, getIp } from '@/lib/rateLimit';
 
-// Schéma Zod — seuls 'monthly' et 'yearly' sont acceptés
+// Schéma Zod — seuls 'monthly' et 'semiannual' sont acceptés
 const CheckoutBodySchema = z.object({
-  interval: z.enum(['monthly', 'yearly']),
+  interval: z.enum(['monthly', 'semiannual']),
 });
 
 export async function POST(req: NextRequest) {
@@ -68,11 +68,11 @@ export async function POST(req: NextRequest) {
     const rawBody = await req.json();
     const result = CheckoutBodySchema.safeParse(rawBody);
     if (!result.success) {
-      return NextResponse.json({ error: 'Paramètre interval invalide (monthly | yearly)' }, { status: 400 });
+      return NextResponse.json({ error: 'Paramètre interval invalide (monthly | semiannual)' }, { status: 400 });
     }
 
-    const priceId = result.data.interval === 'yearly'
-      ? env.stripePriceYearly
+    const priceId = result.data.interval === 'semiannual'
+      ? env.stripePriceSemiannual
       : env.stripePriceMonthly;
 
     // 4. Réutilise le stripe_customer_id existant si l'utilisateur a déjà souscrit

@@ -24,7 +24,7 @@ export const env = {
   get supabaseServiceRoleKey() { return requireEnv('SUPABASE_SERVICE_ROLE_KEY') },
   get stripeSecretKey()      { return requireEnv('STRIPE_SECRET_KEY') },
   get stripeWebhookSecret()  { return requireEnv('STRIPE_WEBHOOK_SECRET') },
-  get stripePriceMonthly()   { return requireEnv('STRIPE_PRICE_MONTHLY') },
-  get stripePriceYearly()    { return requireEnv('STRIPE_PRICE_YEARLY') },
+  get stripePriceMonthly()      { return requireEnv('STRIPE_PRICE_MONTHLY') },
+  get stripePriceSemiannual()   { return requireEnv('STRIPE_PRICE_SEMIANNUAL') },
   get appUrl()               { return requireEnv('NEXT_PUBLIC_APP_URL') },
 };
