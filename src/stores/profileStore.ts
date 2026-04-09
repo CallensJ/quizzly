@@ -77,6 +77,8 @@ interface ProfileState {
   // ── Mode Admin — accès parent/enseignant ─────────────────────────────────
   adminPin: string | null;
   adminEmail: string | null;
+  /** Consentement RGPD Art. 6.1.a — email parent pour rapports/notifications */
+  emailConsent: boolean;
   dailyGoal: number | null;
   multiplayerUnlocked: boolean;
   // TODO: gate premium (Stripe) — categoryGoals toujours accessible en dev
@@ -120,6 +122,7 @@ interface ProfileState {
   setSoundEnabled: (enabled: boolean) => void;
   setAdminPin: (pin: string) => void;
   setAdminEmail: (email: string | null) => void;
+  setEmailConsent: (consent: boolean) => void;
   setDailyGoal: (goal: number | null) => void;
   addSession: (session: Omit<QuizSession, 'playedAt'>) => void;
   awardBadges: (ids: string[]) => void;
@@ -172,6 +175,7 @@ export const useProfileStore = create<ProfileState>()(
       reportSchedule: 'none',
       adminPin: null,
       adminEmail: null,
+      emailConsent: false,
       dailyGoal: null,
       earnedBadgeIds: [],
       newBadgesThisSession: [],
@@ -410,6 +414,7 @@ export const useProfileStore = create<ProfileState>()(
       setSoundEnabled: (enabled) => set({ soundEnabled: enabled }),
       setAdminPin: (pin) => set({ adminPin: pin }),
       setAdminEmail: (email) => set({ adminEmail: email }),
+      setEmailConsent: (consent) => set({ emailConsent: consent }),
       setDailyGoal: (goal) => set({ dailyGoal: goal }),
 
       addSession: (session) =>

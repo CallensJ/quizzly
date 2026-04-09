@@ -32,7 +32,7 @@ const STATE_IMAGES: Record<NovaStateType, string> = {
   wrong:         '/mascotte/mascotte-wrong.svg',
   encouragement: '/mascotte/mascotte-encouragement.svg',
   badge:         '/mascotte/mascotte-badge.svg',
-  finish:        '/mascotte/mascotte-badge.svg',      // TODO: mascotte-finish.svg
+  finish:        '/mascotte/mascotte-finish.svg',
   curious:       '/mascotte/mascotte-curious.svg',
   sleeping:      '/mascotte/mascotte-sleeping.svg',
   excited:       '/mascotte/mascotte-excited.svg',

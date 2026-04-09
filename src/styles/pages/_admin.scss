@@ -297,6 +297,51 @@ $p-medium:   rgba(3, 105, 161, 0.18);
     @include m.focus-ring;
   }
 
+  // ── Consentement email RGPD ─────────────────────────────────────────────────
+
+  &__email-consent {
+    margin-top: v.$spacing-sm;
+  }
+
+  &__consent-label {
+    display: flex;
+    align-items: flex-start;
+    gap: v.$spacing-sm;
+    cursor: pointer;
+  }
+
+  &__consent-checkbox {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin-top: 2px; // alignement visuel avec la première ligne de texte
+    accent-color: v.$primary;
+    cursor: pointer;
+  }
+
+  &__consent-text {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+    line-height: 1.5;
+  }
+
+  &__consent-link {
+    color: v.$primary;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: opacity v.$transition-fast;
+
+    &:hover { opacity: 0.75; }
+  }
+
+  // Bouton Enregistrer désactivé sans consentement
+  &__save-btn {
+    &:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+  }
+
   // ── Bouton secondaire (changer PIN, se déconnecter) ────────────────────────
 
   &__secondary-btn {

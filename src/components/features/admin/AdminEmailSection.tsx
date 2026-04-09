@@ -6,6 +6,9 @@
  * Section de configuration de l'email adulte — espace parent.
  * Permet de renseigner l'email de contact pour les rapports PDF.
  *
+ * RGPD Art. 6.1.a : collecte conditionnée à un consentement explicite via checkbox.
+ * Sans consentement coché, l'email ne peut pas être sauvegardé.
+ *
  * Validation : Zod (AdminEmailSchema) + normalisation lowercase/trim.
  * Persistence : profileStore (Zustand) + sync Supabase via syncAdminSettings.
  */
@@ -20,15 +23,25 @@ import { AdminEmailSchema } from '@/lib/schemas/auth';
 export default function AdminEmailSection() {
   const t = useTranslations('admin');
 
-  const adminEmail   = useProfileStore((s) => s.adminEmail);
-  const dailyGoal    = useProfileStore((s) => s.dailyGoal);
-  const deviceId     = useProfileStore((s) => s.deviceId);
-  const setAdminEmail = useProfileStore((s) => s.setAdminEmail);
+  const adminEmail        = useProfileStore((s) => s.adminEmail);
+  const emailConsent      = useProfileStore((s) => s.emailConsent);
+  const dailyGoal         = useProfileStore((s) => s.dailyGoal);
+  const deviceId          = useProfileStore((s) => s.deviceId);
+  const setAdminEmail     = useProfileStore((s) => s.setAdminEmail);
+  const setEmailConsent   = useProfileStore((s) => s.setEmailConsent);
 
-  const [emailInput, setEmailInput]     = useState<string>(adminEmail ?? '');
-  const [emailFeedback, setEmailFeedback] = useState<'saved' | 'error' | null>(null);
+  const [emailInput, setEmailInput]           = useState<string>(adminEmail ?? '');
+  const [consentChecked, setConsentChecked]   = useState<boolean>(emailConsent);
+  const [emailFeedback, setEmailFeedback]     = useState<'saved' | 'error' | null>(null);
 
   function handleSave() {
+    // Consentement RGPD obligatoire avant toute sauvegarde
+    if (!consentChecked) {
+      setEmailFeedback('error');
+      setTimeout(() => setEmailFeedback(null), 3000);
+      return;
+    }
+
     // Normalisation : lowercase + trim avant validation et stockage
     const normalized = emailInput.toLowerCase().trim();
     if (normalized !== '') {
@@ -41,7 +54,8 @@ export default function AdminEmailSection() {
     }
     const value = normalized === '' ? null : normalized;
     setAdminEmail(value);
-    if (deviceId) syncAdminSettings(deviceId, dailyGoal, value);
+    setEmailConsent(true);
+    if (deviceId) syncAdminSettings(deviceId, dailyGoal, value, undefined, true);
     setEmailFeedback('saved');
     setTimeout(() => setEmailFeedback(null), 2500);
   }
@@ -49,7 +63,10 @@ export default function AdminEmailSection() {
   function handleRemove() {
     setEmailInput('');
     setAdminEmail(null);
-    if (deviceId) syncAdminSettings(deviceId, dailyGoal, null);
+    setConsentChecked(false);
+    setEmailConsent(false);
+    // Retrait du consentement → email effacé en DB (consent_email = false)
+    if (deviceId) syncAdminSettings(deviceId, dailyGoal, null, undefined, false);
   }
 
   return (
@@ -79,14 +96,39 @@ export default function AdminEmailSection() {
           type="button"
           className="admin__save-btn"
           onClick={handleSave}
+          disabled={!consentChecked}
+          aria-disabled={!consentChecked}
         >
           {emailFeedback === 'saved' ? t('emailSaved') : t('emailSave')}
         </button>
       </div>
 
+      {/* Consentement email parent — RGPD Art. 7 */}
+      <div className="admin__email-consent">
+        <label className="admin__consent-label">
+          <input
+            type="checkbox"
+            className="admin__consent-checkbox"
+            checked={consentChecked}
+            onChange={(e) => setConsentChecked(e.target.checked)}
+          />
+          <span className="admin__consent-text">
+            {t('emailConsentLabel')}{' '}
+            <a
+              href="https://erudia.app/mentions.html#donnees"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="admin__consent-link"
+            >
+              {t('emailConsentLink')}
+            </a>
+          </span>
+        </label>
+      </div>
+
       {emailFeedback === 'error' && (
-        <p className="admin__feedback admin__feedback--error">
-          {t('emailInvalid')}
+        <p className="admin__feedback admin__feedback--error" role="alert">
+          {!consentChecked ? t('emailConsentRequired') : t('emailInvalid')}
         </p>
       )}
 

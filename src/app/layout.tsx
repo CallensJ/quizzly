@@ -14,6 +14,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Nunito } from 'next/font/google';
 import { getLocale } from 'next-intl/server';
+import Script from 'next/script';
 import './globals.scss';
 
 const nunito = Nunito({

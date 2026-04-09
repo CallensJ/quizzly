@@ -86,13 +86,19 @@ async function _syncProfileCore(
 // ─── Admin settings ───────────────────────────────────────────────────────────
 
 /**
- * Upsert la config admin (objectif journalier + email adulte) sans re-syncer le profil entier.
+ * Upsert la config admin (objectif journalier + email adulte + consentement RGPD)
+ * sans re-syncer le profil entier.
+ *
+ * consent_email : true = consentement donné explicitement (RGPD Art. 6.1.a)
+ * Si false, admin_email est effacé côté DB (null) — l'email ne peut pas être
+ * stocké sans consentement.
  */
 export async function syncAdminSettings(
   deviceId: string,
   dailyGoal: number | null,
   adminEmail: string | null,
-  reportSchedule?: ReportSchedule
+  reportSchedule?: ReportSchedule,
+  emailConsent?: boolean
 ): Promise<void> {
   try {
     const { data: profileRow } = await supabase
@@ -103,15 +109,21 @@ export async function syncAdminSettings(
 
     if (!profileRow) return;
 
+    // Si le consentement est explicitement retiré, on efface l'email en DB
+    const consentGiven = emailConsent ?? false;
+    const emailToStore = consentGiven ? adminEmail : null;
+
     await supabase
       .from('admin_settings')
       .upsert(
         {
-          profile_id:   profileRow.id,
-          daily_goal:   dailyGoal,
-          admin_email:  adminEmail,
+          profile_id:          profileRow.id,
+          daily_goal:          dailyGoal,
+          admin_email:         emailToStore,
+          consent_email:       consentGiven,
+          consent_email_date:  consentGiven ? new Date().toISOString() : null,
           ...(reportSchedule !== undefined ? { report_schedule: reportSchedule } : {}),
-          updated_at:   new Date().toISOString(),
+          updated_at:          new Date().toISOString(),
         },
         { onConflict: 'profile_id' }
       );
