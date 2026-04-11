@@ -24,10 +24,11 @@ interface SubscriptionState {
 
 export function useSubscription(): SubscriptionState {
   const user        = useAuthStore((s) => s.user);
+  const authLoading = useAuthStore((s) => s.loading);
   const cached      = useAuthStore((s) => s.isPremium);
   const setIsPremium = useAuthStore((s) => s.setIsPremium);
 
-  // Initialise depuis le cache Zustand — évite le flash "verrouillé" lors des navigations SPA
+  // Initialise depuis le cache Zustand — évite le flash lors des navigations SPA
   const [state, setState] = useState<SubscriptionState>({
     isPremium: cached,
     status: cached ? 'active' : null,
@@ -35,12 +36,15 @@ export function useSubscription(): SubscriptionState {
   });
 
   useEffect(() => {
+    // Auth pas encore résolue (page reload) — attendre avant de conclure quoi que ce soit
+    if (authLoading) return;
+
     if (!user) {
       setState({ isPremium: false, status: null, loading: false });
       return;
     }
 
-    // Déjà connu comme premium dans ce session → pas de requête inutile
+    // Déjà connu comme premium dans cette session → pas de requête inutile
     if (cached) {
       setState({ isPremium: true, status: 'active', loading: false });
       return;
@@ -57,7 +61,7 @@ export function useSubscription(): SubscriptionState {
         if (isPremium) setIsPremium(true); // met en cache pour les navigations suivantes
         setState({ isPremium, status, loading: false });
       });
-  }, [user, cached, setIsPremium]);
+  }, [user, authLoading, cached, setIsPremium]);
 
   return state;
 }

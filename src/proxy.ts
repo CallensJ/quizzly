@@ -36,30 +36,40 @@ export default async function middleware(req: NextRequest) {
   const isProtected = PROTECTED_PATHS.some((p) => pathWithoutLocale.startsWith(p));
 
   if (isProtected) {
-    // Vérifie la session Supabase depuis les cookies
+    // Prépare la réponse en avance pour pouvoir écrire les cookies rafraîchis
+    const res = NextResponse.next();
+
     const supabase = createServerClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL!,
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
       {
         cookies: {
-          // Lecture seule dans le middleware — pas d'écriture de cookie nécessaire
           getAll: () => req.cookies.getAll(),
+          // setAll permet au middleware de réécrire un access token expiré mais renouvelable
+          setAll: (cookiesToSet) => {
+            cookiesToSet.forEach(({ name, value, options }) =>
+              res.cookies.set(name, value, options)
+            );
+          },
         },
       }
     );
 
+    // getUser() valide le JWT côté serveur ET rafraîchit le token si nécessaire
     const { data: { user } } = await supabase.auth.getUser();
 
     if (!user) {
-      // Extraire la locale pour construire le redirect avec la bonne langue
       const locale = pathname.match(/^\/(fr|en)/)?.[1] ?? routing.defaultLocale;
       const loginUrl = new URL(`/${locale}/auth/login`, req.url);
-      // Stocker le chemin SANS le préfixe de locale dans ?next=
-      // → router.push(nextUrl) de next-intl ajoutera la locale, évite /fr/fr/subscribe
       const pathnameWithoutLocale = pathname.replace(/^\/(fr|en)/, '') || '/';
       loginUrl.searchParams.set('next', pathnameWithoutLocale);
       return NextResponse.redirect(loginUrl);
     }
+
+    // Passe à next-intl en transmettant les cookies potentiellement mis à jour
+    const intlRes = intlMiddleware(req);
+    res.cookies.getAll().forEach(({ name, value }) => intlRes.cookies.set(name, value));
+    return intlRes;
   }
 
   // Passe à next-intl pour la gestion des locales

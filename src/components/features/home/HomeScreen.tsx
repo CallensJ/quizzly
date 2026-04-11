@@ -108,7 +108,10 @@ export default function HomeScreen() {
 
   const profile    = useProfileStore((s) => s.profile);
   const sessions   = useProfileStore((s) => s.sessions);
-  const { isPremium } = useSubscription();
+  const { isPremium, loading: subLoading } = useSubscription();
+  // Pendant le chargement initial de l'abonnement (ex: rechargement page),
+  // on considère l'accès premium comme potentiellement actif pour éviter le flash cadenas.
+  const premiumKnown = !subLoading;
   const { showNova, hideNova } = useNovaPresence();
 
   const { category, difficulty, subcategory, setCategory, setDifficulty, setSubcategory, startQuiz } = useQuizStore();
@@ -389,8 +392,9 @@ export default function HomeScreen() {
                 );
               }
 
-              // Premium mais contenu pas encore disponible → badge "Bientôt", pas de cadenas
-              if (isPremium) {
+              // Premium (ou statut inconnu pendant le chargement) → badge "Bientôt", pas de cadenas
+              // premiumKnown=false pendant le chargement initial : évite le flash cadenas
+              if (isPremium || !premiumKnown) {
                 return (
                   <div
                     key={i18nKey}
@@ -406,7 +410,7 @@ export default function HomeScreen() {
               }
 
               return (
-                // Non-premium → cadenas cliquable, Nova encouragement
+                // Non-premium confirmé → cadenas cliquable, Nova encouragement
                 <button
                   key={i18nKey}
                   type="button"
@@ -472,8 +476,8 @@ export default function HomeScreen() {
             <p className="home__fetch-error" role="alert">{t('fetchError')}</p>
           )}
 
-          {/* CTA Premium — visible uniquement si non-abonné, discret en bas du panneau */}
-          {!isPremium && (
+          {/* CTA Premium — visible uniquement si non-abonné confirmé (pas pendant le chargement) */}
+          {!isPremium && premiumKnown && (
             <button
               className="home__premium-cta"
               onClick={() => router.push('/subscribe')}
