@@ -60,10 +60,10 @@ export default function AuthProvider({ children }: { children: React.ReactNode }
           const isPremium = sub?.status === 'active' || sub?.status === 'trialing';
           if (!isPremium) return;
 
-          // Restauration cross-device : cherche par auth_user_id (tous appareils du parent)
+          // Restauration cross-device complète : pseudo, avatar, locale, sessions, badges
           const pulled = await pullFromSupabase(deviceId, session.user.id);
           if (pulled) {
-            mergeFromRemote(pulled.sessions, pulled.earnedBadgeIds);
+            mergeFromRemote(pulled.sessions, pulled.earnedBadgeIds, pulled.profile);
           }
         }
       } else {

@@ -17,7 +17,7 @@
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { useRouter, usePathname } from '@/i18n/navigation';
+import { useRouter, usePathname, Link } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { syncProfile } from '@/lib/sync';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
@@ -151,6 +151,15 @@ export default function OnboardingScreen() {
         >
           {t('ctaConfirm')}
         </button>
+
+        {/* ── Restauration compte premium — redirige vers l'auth parent ──── */}
+        {/* Le pull cloud (pseudo/avatar/sessions) se déclenche au SIGNED_IN   */}
+        <p className="onboarding__restore">
+          {t('restoreAccount')}{' '}
+          <Link href="/auth/login" className="onboarding__restore-link">
+            {t('restoreAccountLink')}
+          </Link>
+        </p>
 
       </main>
     </div>

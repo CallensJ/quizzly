@@ -55,13 +55,14 @@ async function _syncProfileCore(
     .from('profiles')
     .upsert(
       {
-        device_id:   deviceId,
-        pseudo:      profile.pseudo,
-        avatar_id:   profile.avatarId,
-        locale:      profile.locale,
-        age_group:   '6-11', // supprimé de l'app MVP 4, hardcodé pour rétro-compat Supabase
-        created_at:  profile.createdAt,
-        updated_at:  new Date().toISOString(),
+        device_id:    deviceId,
+        pseudo:       profile.pseudo,
+        avatar_id:    profile.avatarId,
+        avatar_style: profile.avatarStyle ?? 'adventurer',
+        locale:       profile.locale,
+        age_group:    '6-11', // supprimé de l'app MVP 4, hardcodé pour rétro-compat Supabase
+        created_at:   profile.createdAt,
+        updated_at:   new Date().toISOString(),
       },
       { onConflict: 'device_id' }
     )
@@ -270,7 +271,16 @@ export async function linkProfileToAuthUser(
 
 // ─── Sync bidirectionnelle ────────────────────────────────────────────────────
 
+// Identité profil enfant tirée du cloud
+export interface RemoteProfile {
+  pseudo: string;
+  avatarId: string;
+  avatarStyle: string;
+  locale: string;
+}
+
 export interface PulledData {
+  profile: RemoteProfile | null;
   sessions: QuizSession[];
   earnedBadgeIds: string[];
 }
@@ -282,6 +292,8 @@ export interface PulledData {
  * (sync cross-device). Sinon, fallback sur device_id (même appareil).
  *
  * Retourne null si aucun profil trouvé.
+ *
+ * Sync complète : pseudo, avatar, locale, sessions, badges.
  */
 export async function pullFromSupabase(
   deviceId: string,
@@ -290,11 +302,20 @@ export async function pullFromSupabase(
   try {
     // Cherche le(s) profil(s) — par auth_user_id si dispo, sinon device_id
     const query = authUserId
-      ? supabase.from('profiles').select('id').eq('auth_user_id', authUserId)
-      : supabase.from('profiles').select('id').eq('device_id', deviceId).limit(1);
+      ? supabase.from('profiles').select('id, pseudo, avatar_id, avatar_style, locale').eq('auth_user_id', authUserId)
+      : supabase.from('profiles').select('id, pseudo, avatar_id, avatar_style, locale').eq('device_id', deviceId).limit(1);
 
     const { data: profileRows } = await query;
     if (!profileRows || profileRows.length === 0) return null;
+
+    // Profil de référence : le premier trouvé (compte parent → un profil enfant principal)
+    const mainProfileRow = profileRows[0];
+    const remoteProfile: RemoteProfile = {
+      pseudo:      mainProfileRow.pseudo,
+      avatarId:    mainProfileRow.avatar_id,
+      avatarStyle: mainProfileRow.avatar_style ?? 'adventurer',
+      locale:      mainProfileRow.locale,
+    };
 
     const profileIds = profileRows.map((r) => r.id);
 
@@ -323,7 +344,7 @@ export async function pullFromSupabase(
       ...new Set((badgeRows ?? []).flatMap((r) => r.earned_badge_ids ?? [])),
     ];
 
-    return { sessions, earnedBadgeIds };
+    return { profile: remoteProfile, sessions, earnedBadgeIds };
   } catch {
     return null;
   }

@@ -8,7 +8,9 @@
     "pseudoLabel": "Choose your nickname",
     "pseudoPlaceholder": "SuperStar123",
     "avatarLabel": "Pick your avatar",
-    "ctaConfirm": "Let's go!"
+    "ctaConfirm": "Let's go!",
+    "restoreAccount": "Already have an account?",
+    "restoreAccountLink": "Restore my profile"
   },
   "home": {
     "title": "Choose a category",

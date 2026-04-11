@@ -16,6 +16,8 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { Profile, QuizSession, Locale, GoalCategory } from '@/types';
+// import type only — évite d'embarquer les side-effects Supabase de sync.ts dans le store
+import type { RemoteProfile } from '@/lib/sync';
 import {
   calculateDailyXp,
   getDailyDateString,
@@ -112,7 +114,7 @@ interface ProfileState {
   setCategoryGoal: (category: GoalCategory, target: number | null) => void;
   setReportSchedule: (schedule: ReportSchedule) => void;
   setLastGoalNotifDate: (date: string) => void;
-  mergeFromRemote: (remoteSessions: QuizSession[], remoteEarnedBadgeIds: string[]) => void;
+  mergeFromRemote: (remoteSessions: QuizSession[], remoteEarnedBadgeIds: string[], remoteProfile?: RemoteProfile | null) => void;
   completeDailyChallenge: (score: number, total: number) => DailyResult;
   /** @deprecated Utiliser addChildProfile — conservé pour rétro-compat OnboardingScreen */
   createProfile: (data: Omit<Profile, 'createdAt' | 'id'>) => void;
@@ -326,14 +328,29 @@ export const useProfileStore = create<ProfileState>()(
       setReportSchedule: (schedule) => set({ reportSchedule: schedule }),
       setLastGoalNotifDate: (date) => set({ lastGoalNotifDate: date }),
 
-      mergeFromRemote: (remoteSessions, remoteEarnedBadgeIds) =>
+      mergeFromRemote: (remoteSessions, remoteEarnedBadgeIds, remoteProfile) =>
         set((state) => {
           const existingDates = new Set(state.sessions.map((s) => s.playedAt));
           const newSessions = remoteSessions.filter((s) => !existingDates.has(s.playedAt));
           const mergedBadgeIds = [...new Set([...state.earnedBadgeIds, ...remoteEarnedBadgeIds])];
-          const updatedProfile = state.profile && mergedBadgeIds.length > 0
-            ? { ...state.profile, badgeEarned: true }
-            : state.profile;
+
+          // Restauration de l'identité enfant depuis le cloud (sync cross-device premium).
+          // On écrase toujours pseudo/avatar/locale avec les données cloud — c'est le profil
+          // de référence. Les sessions et badges sont mergés (union dédupliquée).
+          let updatedProfile = state.profile;
+          if (remoteProfile && state.profile) {
+            updatedProfile = {
+              ...state.profile,
+              pseudo:       remoteProfile.pseudo,
+              avatarId:     remoteProfile.avatarId,
+              avatarStyle:  remoteProfile.avatarStyle,
+              locale:       remoteProfile.locale as Locale,
+              badgeEarned:  mergedBadgeIds.length > 0,
+            };
+          } else if (state.profile && mergedBadgeIds.length > 0) {
+            updatedProfile = { ...state.profile, badgeEarned: true };
+          }
+
           return {
             sessions: [...state.sessions, ...newSessions],
             earnedBadgeIds: mergedBadgeIds,

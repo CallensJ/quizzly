@@ -238,4 +238,25 @@
 
     @include m.focus-ring;
   }
+
+  // Lien de restauration de compte premium (nouvel appareil)
+  &__restore {
+    margin-top: v.$spacing-md;
+    text-align: center;
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+  }
+
+  &__restore-link {
+    color: v.$primary;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+    &:hover {
+      color: v.$primary-dark;
+    }
+
+    @include m.focus-ring;
+  }
 }

@@ -8,7 +8,9 @@
     "pseudoLabel": "Choisis ton pseudo",
     "pseudoPlaceholder": "SuperStar123",
     "avatarLabel": "Choisis ton avatar",
-    "ctaConfirm": "C'est parti !"
+    "ctaConfirm": "C'est parti !",
+    "restoreAccount": "Déjà un compte ?",
+    "restoreAccountLink": "Restaurer mon profil"
   },
   "home": {
     "title": "Choisis une catégorie",
