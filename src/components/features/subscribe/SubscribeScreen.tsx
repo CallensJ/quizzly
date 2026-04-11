@@ -33,7 +33,9 @@ export default function SubscribeScreen() {
     }
   }, [user, authLoading, router]);
 
-  if (authLoading) {
+  // Même pattern que admin/page.tsx :
+  // bloquer uniquement si loading ET user inconnu — pas si user est déjà résolu par onAuthStateChange
+  if (authLoading && !user) {
     return (
       <div className="subscribe subscribe--loading">
         <div className="subscribe__spinner" aria-label="Chargement…" role="status" />
