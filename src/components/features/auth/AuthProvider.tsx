@@ -45,10 +45,13 @@ export default function AuthProvider({ children }: { children: React.ReactNode }
         // SIGNED_IN : lien profil → compte parent + sync premium cross-device
         if (event === 'SIGNED_IN' && session.user) {
           const { deviceId, mergeFromRemote } = useProfileStore.getState();
-          if (!deviceId) return;
 
-          // Toujours lier le profil au compte parent (prépare un futur upgrade)
-          await linkProfileToAuthUser(deviceId, session.user.id);
+          // Lier le profil au compte parent uniquement si un profil local existe déjà.
+          // Sur un nouvel appareil (deviceId null), on saute cette étape — le lien
+          // sera créé lors du prochain syncProfile (après restauration du profil).
+          if (deviceId) {
+            await linkProfileToAuthUser(deviceId, session.user.id);
+          }
 
           // Pull uniquement pour les abonnés premium
           const { data: sub } = await supabase
@@ -60,8 +63,10 @@ export default function AuthProvider({ children }: { children: React.ReactNode }
           const isPremium = sub?.status === 'active' || sub?.status === 'trialing';
           if (!isPremium) return;
 
-          // Restauration cross-device complète : pseudo, avatar, locale, sessions, badges
-          const pulled = await pullFromSupabase(deviceId, session.user.id);
+          // Restauration cross-device complète : pseudo, avatar, locale, sessions, badges.
+          // pullFromSupabase utilise authUserId en priorité — deviceId peut être null ici
+          // (nouvel appareil sans profil local).
+          const pulled = await pullFromSupabase(deviceId ?? '', session.user.id);
           if (pulled) {
             mergeFromRemote(pulled.sessions, pulled.earnedBadgeIds, pulled.profile);
           }
