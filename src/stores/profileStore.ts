@@ -334,18 +334,42 @@ export const useProfileStore = create<ProfileState>()(
           const newSessions = remoteSessions.filter((s) => !existingDates.has(s.playedAt));
           const mergedBadgeIds = [...new Set([...state.earnedBadgeIds, ...remoteEarnedBadgeIds])];
 
-          // Restauration de l'identité enfant depuis le cloud (sync cross-device premium).
-          // On écrase toujours pseudo/avatar/locale avec les données cloud — c'est le profil
-          // de référence. Les sessions et badges sont mergés (union dédupliquée).
+          // Cas 1 : nouvel appareil (aucun profil local) + données cloud disponibles.
+          // On crée le profil depuis zéro avec l'identité cloud — le store sera hydraté,
+          // RootPage détectera profiles.length > 0 et redirigera vers /home.
+          if (remoteProfile && !state.profile) {
+            const id = generateUUID();
+            const restoredProfile: Profile = {
+              id,
+              pseudo:      remoteProfile.pseudo,
+              avatarId:    remoteProfile.avatarId,
+              avatarStyle: remoteProfile.avatarStyle,
+              locale:      remoteProfile.locale as Locale,
+              badgeEarned: mergedBadgeIds.length > 0,
+              createdAt:   new Date().toISOString(),
+            };
+            return {
+              deviceId:        state.deviceId ?? generateUUID(),
+              profiles:        [restoredProfile],
+              activeProfileId: id,
+              inactiveData:    {},
+              profile:         restoredProfile,
+              sessions:        newSessions,
+              earnedBadgeIds:  mergedBadgeIds,
+              newBadgesThisSession: [],
+            };
+          }
+
+          // Cas 2 : profil local existant — restaure identité + merge sessions/badges.
           let updatedProfile = state.profile;
           if (remoteProfile && state.profile) {
             updatedProfile = {
               ...state.profile,
-              pseudo:       remoteProfile.pseudo,
-              avatarId:     remoteProfile.avatarId,
-              avatarStyle:  remoteProfile.avatarStyle,
-              locale:       remoteProfile.locale as Locale,
-              badgeEarned:  mergedBadgeIds.length > 0,
+              pseudo:      remoteProfile.pseudo,
+              avatarId:    remoteProfile.avatarId,
+              avatarStyle: remoteProfile.avatarStyle,
+              locale:      remoteProfile.locale as Locale,
+              badgeEarned: mergedBadgeIds.length > 0,
             };
           } else if (state.profile && mergedBadgeIds.length > 0) {
             updatedProfile = { ...state.profile, badgeEarned: true };
