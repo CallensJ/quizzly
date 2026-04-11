@@ -28,7 +28,9 @@ export default function AdminPage() {
   const hydrated    = useHydrated();
 
   useEffect(() => {
-    if (!hydrated || authLoading) return;
+    if (!hydrated) return;
+    // Attendre la résolution auth seulement si on ne connaît pas encore l'état
+    if (authLoading && !authUser) return;
     // Pas de profil enfant → onboarding
     if (!profile) {
       router.replace('/');
@@ -40,8 +42,8 @@ export default function AdminPage() {
     }
   }, [hydrated, authLoading, profile, authUser, router]);
 
-  console.log('[admin] hydrated:', hydrated, '| authLoading:', authLoading, '| profile:', !!profile, '| authUser:', !!authUser);
-  if (!hydrated || authLoading || !profile || !authUser) return null;
+  // Bloquer le rendu uniquement si l'état auth est encore inconnu
+  if (!hydrated || (authLoading && !authUser) || !profile || !authUser) return null;
 
   return <AdminScreen />;
 }
