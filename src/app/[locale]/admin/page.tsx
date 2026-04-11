@@ -40,6 +40,7 @@ export default function AdminPage() {
     }
   }, [hydrated, authLoading, profile, authUser, router]);
 
+  console.log('[admin] hydrated:', hydrated, '| authLoading:', authLoading, '| profile:', !!profile, '| authUser:', !!authUser);
   if (!hydrated || authLoading || !profile || !authUser) return null;
 
   return <AdminScreen />;
