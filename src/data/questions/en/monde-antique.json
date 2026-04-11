@@ -4,6 +4,9 @@
   "questions": [
     {
       "id": "ancient-world-en-easy-001",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "The Latin word 'aqua' means water. Which French word also comes from 'aqua'?",
       "options": {
@@ -16,6 +19,9 @@
     },
     {
       "id": "ancient-world-en-easy-002",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What was the name of the famous Roman arena where gladiators fought?",
       "options": {
@@ -28,6 +34,9 @@
     },
     {
       "id": "ancient-world-en-easy-003",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman building was used for public meetings and markets?",
       "options": {
@@ -40,6 +49,9 @@
     },
     {
       "id": "ancient-world-en-easy-004",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "The Latin word 'terra' means land or earth. Which English word shares this root?",
       "options": {
@@ -52,6 +64,9 @@
     },
     {
       "id": "ancient-world-en-easy-005",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which item did Romans use to carry wine and oil, a tall clay jar?",
       "options": {
@@ -64,6 +79,9 @@
     },
     {
       "id": "ancient-world-en-easy-006",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Roman soldiers often wore a short sword called a 'gladius'. What is a gladius?",
       "options": {
@@ -76,6 +94,9 @@
     },
     {
       "id": "ancient-world-en-easy-007",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "The Latin word 'sol' means sun. Which English word comes from this root?",
       "options": {
@@ -88,6 +109,9 @@
     },
     {
       "id": "ancient-world-en-easy-008",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "How do you write the number 5 in Roman numerals?",
       "options": {
@@ -100,6 +124,9 @@
     },
     {
       "id": "ancient-world-en-easy-009",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which famous Roman leader crossed the Rubicon and changed Roman history?",
       "options": {
@@ -112,6 +139,9 @@
     },
     {
       "id": "ancient-world-en-easy-010",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "The Latin word 'bonus' means good. Which English word shares this root?",
       "options": {
@@ -124,6 +154,9 @@
     },
     {
       "id": "ancient-world-en-easy-011",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans build to bring water into cities from far away?",
       "options": {
@@ -136,6 +169,9 @@
     },
     {
       "id": "ancient-world-en-easy-012",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman garment was a long cloth wrapped around the body?",
       "options": {
@@ -148,6 +184,9 @@
     },
     {
       "id": "ancient-world-en-easy-013",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "The Latin word 'pater' means father. Which French word comes from the same root?",
       "options": {
@@ -160,6 +199,9 @@
     },
     {
       "id": "ancient-world-en-easy-014",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman building had a big dome and was a temple to many gods?",
       "options": {
@@ -172,6 +214,9 @@
     },
     {
       "id": "ancient-world-en-easy-015",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "How do you write the number 10 in Roman numerals?",
       "options": {
@@ -184,6 +229,9 @@
     },
     {
       "id": "ancient-world-en-easy-016",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin word means 'king' and gives English 'regal' and French 'royal'?",
       "options": {
@@ -196,6 +244,9 @@
     },
     {
       "id": "ancient-world-en-easy-017",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call a public bath house where people washed and played?",
       "options": {
@@ -208,6 +259,9 @@
     },
     {
       "id": "ancient-world-en-easy-018",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "The Latin word 'novus' means new. Which English word shares this root?",
       "options": {
@@ -220,6 +274,9 @@
     },
     {
       "id": "ancient-world-en-easy-019",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman leader became the first emperor and was called Augustus?",
       "options": {
@@ -232,6 +289,9 @@
     },
     {
       "id": "ancient-world-en-easy-020",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'animal' and French 'animal'?",
       "options": {
@@ -244,6 +304,9 @@
     },
     {
       "id": "ancient-world-en-easy-021",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the Roman numeral for 1?",
       "options": {
@@ -256,6 +319,9 @@
     },
     {
       "id": "ancient-world-en-easy-022",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'book' comes from Latin 'liber'?",
       "options": {
@@ -268,6 +334,9 @@
     },
     {
       "id": "ancient-world-en-easy-023",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans use to write on before paper was common, often made of wood or wax?",
       "options": {
@@ -280,6 +349,9 @@
     },
     {
       "id": "ancient-world-en-easy-024",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin word means 'star' and gives English 'stellar' and French 'stellaire'?",
       "options": {
@@ -292,6 +364,9 @@
     },
     {
       "id": "ancient-world-en-easy-025",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman road idea is famous for saying 'all roads lead to' which city?",
       "options": {
@@ -304,6 +379,9 @@
     },
     {
       "id": "ancient-world-en-easy-026",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "The Latin word 'centum' means one hundred. Which English word uses this root?",
       "options": {
@@ -316,6 +394,9 @@
     },
     {
       "id": "ancient-world-en-easy-027",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which simple Roman tool was used to write with ink on papyrus?",
       "options": {
@@ -328,6 +409,9 @@
     },
     {
       "id": "ancient-world-en-easy-028",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French month name comes from the Roman god Mars?",
       "options": {
@@ -340,6 +424,9 @@
     },
     {
       "id": "ancient-world-en-easy-029",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What was a Roman 'villa' usually used for?",
       "options": {
@@ -352,6 +439,9 @@
     },
     {
       "id": "ancient-world-en-easy-030",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'audible' and French 'audible' meaning 'to hear'?",
       "options": {
@@ -364,6 +454,9 @@
     },
     {
       "id": "ancient-world-en-easy-031",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "How do you write the number 2 in Roman numerals?",
       "options": {
@@ -376,6 +469,9 @@
     },
     {
       "id": "ancient-world-en-easy-032",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman leader was famous for being a great general and later a dictator before being killed?",
       "options": {
@@ -388,6 +484,9 @@
     },
     {
       "id": "ancient-world-en-easy-033",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "The Latin word 'mater' means mother. Which French word is from the same root?",
       "options": {
@@ -400,6 +499,9 @@
     },
     {
       "id": "ancient-world-en-easy-034",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the large public square used for speeches and shops?",
       "options": {
@@ -412,6 +514,9 @@
     },
     {
       "id": "ancient-world-en-easy-035",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which simple Latin word means 'friend' and gives English 'friend' and French 'ami' from the root?",
       "options": {
@@ -424,6 +529,9 @@
     },
     {
       "id": "ancient-world-en-easy-036",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'III'?",
       "options": {
@@ -436,6 +544,9 @@
     },
     {
       "id": "ancient-world-en-easy-037",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'city' comes from Latin 'civitas'?",
       "options": {
@@ -448,6 +559,9 @@
     },
     {
       "id": "ancient-world-en-easy-038",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Roman children often play with that is like a small ball or toy?",
       "options": {
@@ -460,6 +574,9 @@
     },
     {
       "id": "ancient-world-en-easy-039",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'manual' and French 'manuel' meaning 'hand'?",
       "options": {
@@ -472,6 +589,9 @@
     },
     {
       "id": "ancient-world-en-easy-040",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'IV'?",
       "options": {
@@ -484,6 +604,9 @@
     },
     {
       "id": "ancient-world-en-easy-041",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which simple French word for 'sea' comes from Latin 'mare'?",
       "options": {
@@ -496,6 +619,9 @@
     },
     {
       "id": "ancient-world-en-easy-042",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the small shops and stalls near the Forum?",
       "options": {
@@ -508,6 +634,9 @@
     },
     {
       "id": "ancient-world-en-easy-043",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'auditor' and French 'auditeur' related to hearing?",
       "options": {
@@ -520,6 +649,9 @@
     },
     {
       "id": "ancient-world-en-easy-044",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'V'?",
       "options": {
@@ -532,6 +664,9 @@
     },
     {
       "id": "ancient-world-en-easy-045",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'road' comes from Latin 'via'?",
       "options": {
@@ -544,6 +679,9 @@
     },
     {
       "id": "ancient-world-en-easy-046",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans use to carry water inside cities, a small pipe or channel?",
       "options": {
@@ -556,6 +694,9 @@
     },
     {
       "id": "ancient-world-en-easy-047",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'VI'?",
       "options": {
@@ -568,6 +709,9 @@
     },
     {
       "id": "ancient-world-en-easy-048",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'scribble' and French 'écrire' meaning to write?",
       "options": {
@@ -580,6 +724,9 @@
     },
     {
       "id": "ancient-world-en-easy-049",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman leader was part of the First Triumvirate with Pompey and Crassus?",
       "options": {
@@ -592,6 +739,9 @@
     },
     {
       "id": "ancient-world-en-easy-050",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'VII'?",
       "options": {
@@ -604,6 +754,9 @@
     },
     {
       "id": "ancient-world-en-easy-051",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'school' comes from Latin 'schola'?",
       "options": {
@@ -616,6 +769,9 @@
     },
     {
       "id": "ancient-world-en-easy-052",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Roman children learn in a 'ludus'?",
       "options": {
@@ -628,6 +784,9 @@
     },
     {
       "id": "ancient-world-en-easy-053",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'VIII'?",
       "options": {
@@ -640,6 +799,9 @@
     },
     {
       "id": "ancient-world-en-easy-054",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'port' and French 'porter' meaning to carry?",
       "options": {
@@ -652,6 +814,9 @@
     },
     {
       "id": "ancient-world-en-easy-055",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'IX'?",
       "options": {
@@ -664,6 +829,9 @@
     },
     {
       "id": "ancient-world-en-easy-056",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which simple French word for 'king' comes from Latin 'rex'?",
       "options": {
@@ -676,6 +844,9 @@
     },
     {
       "id": "ancient-world-en-easy-057",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call a small statue or picture used in homes for memory or worship?",
       "options": {
@@ -688,6 +859,9 @@
     },
     {
       "id": "ancient-world-en-easy-058",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'X'?",
       "options": {
@@ -700,6 +874,9 @@
     },
     {
       "id": "ancient-world-en-easy-059",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'video' and French 'vidéo' meaning to see?",
       "options": {
@@ -712,6 +889,9 @@
     },
     {
       "id": "ancient-world-en-easy-060",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman leader was famous for the phrase 'Veni, vidi, vici'?",
       "options": {
@@ -724,6 +904,9 @@
     },
     {
       "id": "ancient-world-en-easy-061",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'market' comes from Latin 'mercatus'?",
       "options": {
@@ -736,6 +919,9 @@
     },
     {
       "id": "ancient-world-en-easy-062",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the wooden or stone seats in the amphitheatre?",
       "options": {
@@ -748,6 +934,9 @@
     },
     {
       "id": "ancient-world-en-easy-063",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'cent' and French 'cent' meaning one hundred?",
       "options": {
@@ -760,6 +949,9 @@
     },
     {
       "id": "ancient-world-en-easy-064",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'II'?",
       "options": {
@@ -772,6 +964,9 @@
     },
     {
       "id": "ancient-world-en-easy-065",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'friend' is from Latin 'amicus'?",
       "options": {
@@ -784,6 +979,9 @@
     },
     {
       "id": "ancient-world-en-easy-066",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the long straight roads they built across the empire?",
       "options": {
@@ -796,6 +994,9 @@
     },
     {
       "id": "ancient-world-en-easy-067",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'audio' and French 'audio' meaning sound?",
       "options": {
@@ -808,6 +1009,9 @@
     },
     {
       "id": "ancient-world-en-easy-068",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'III'?",
       "options": {
@@ -820,6 +1024,9 @@
     },
     {
       "id": "ancient-world-en-easy-069",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which simple French word for 'house' comes from Latin 'domus'?",
       "options": {
@@ -832,6 +1039,9 @@
     },
     {
       "id": "ancient-world-en-easy-070",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the wooden sandals or shoes many people wore?",
       "options": {
@@ -844,6 +1054,9 @@
     },
     {
       "id": "ancient-world-en-easy-071",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'library' and French 'librairie' from 'liber' meaning book?",
       "options": {
@@ -856,6 +1069,9 @@
     },
     {
       "id": "ancient-world-en-easy-072",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'IV'?",
       "options": {
@@ -868,6 +1084,9 @@
     },
     {
       "id": "ancient-world-en-easy-073",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'sea' is 'mer'. What Latin word is it from?",
       "options": {
@@ -880,6 +1099,9 @@
     },
     {
       "id": "ancient-world-en-easy-074",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the small shops that sold food and goods?",
       "options": {
@@ -892,6 +1114,9 @@
     },
     {
       "id": "ancient-world-en-easy-075",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'V'?",
       "options": {
@@ -904,6 +1129,9 @@
     },
     {
       "id": "ancient-world-en-easy-076",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'marine' and French 'marin' meaning sea?",
       "options": {
@@ -916,6 +1144,9 @@
     },
     {
       "id": "ancient-world-en-easy-077",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'VI'?",
       "options": {
@@ -928,6 +1159,9 @@
     },
     {
       "id": "ancient-world-en-easy-078",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'mother' is from Latin 'mater'?",
       "options": {
@@ -940,6 +1174,9 @@
     },
     {
       "id": "ancient-world-en-easy-079",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans use to carry letters and messages across the empire?",
       "options": {
@@ -952,6 +1189,9 @@
     },
     {
       "id": "ancient-world-en-easy-080",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'victory' and French 'victoire'?",
       "options": {
@@ -964,6 +1204,9 @@
     },
     {
       "id": "ancient-world-en-easy-081",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'VII'?",
       "options": {
@@ -976,6 +1219,9 @@
     },
     {
       "id": "ancient-world-en-easy-082",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'city' is 'ville'. Which Latin word is related?",
       "options": {
@@ -988,6 +1234,9 @@
     },
     {
       "id": "ancient-world-en-easy-083",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the wooden writing tool used on wax tablets?",
       "options": {
@@ -1000,6 +1249,9 @@
     },
     {
       "id": "ancient-world-en-easy-084",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'VIII'?",
       "options": {
@@ -1012,6 +1264,9 @@
     },
     {
       "id": "ancient-world-en-easy-085",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'audience' and French 'audience'?",
       "options": {
@@ -1024,6 +1279,9 @@
     },
     {
       "id": "ancient-world-en-easy-086",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'IX'?",
       "options": {
@@ -1036,6 +1294,9 @@
     },
     {
       "id": "ancient-world-en-easy-087",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'road' is 'route'. Which Latin root is related?",
       "options": {
@@ -1048,6 +1309,9 @@
     },
     {
       "id": "ancient-world-en-easy-088",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the official who led the city and army in early Rome, often two at a time?",
       "options": {
@@ -1060,6 +1324,9 @@
     },
     {
       "id": "ancient-world-en-easy-089",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'manual' and French 'manuel'?",
       "options": {
@@ -1072,6 +1339,9 @@
     },
     {
       "id": "ancient-world-en-easy-090",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'X'?",
       "options": {
@@ -1084,6 +1354,9 @@
     },
     {
       "id": "ancient-world-en-easy-091",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'month' is 'mois'. Which Latin word gave month names like 'Martius'?",
       "options": {
@@ -1096,6 +1369,9 @@
     },
     {
       "id": "ancient-world-en-easy-092",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the large public building used for law and speeches, often with columns?",
       "options": {
@@ -1108,6 +1384,9 @@
     },
     {
       "id": "ancient-world-en-easy-093",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'audible' and French 'audible'?",
       "options": {
@@ -1120,6 +1399,9 @@
     },
     {
       "id": "ancient-world-en-easy-094",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'I'?",
       "options": {
@@ -1132,6 +1414,9 @@
     },
     {
       "id": "ancient-world-en-easy-095",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'king' is 'roi'. Which Latin word is related to royal words?",
       "options": {
@@ -1144,6 +1429,9 @@
     },
     {
       "id": "ancient-world-en-easy-096",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the small clay tiles used to make pictures on floors?",
       "options": {
@@ -1156,6 +1444,9 @@
     },
     {
       "id": "ancient-world-en-easy-097",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'lunar' and French 'lunaire'?",
       "options": {
@@ -1168,6 +1459,9 @@
     },
     {
       "id": "ancient-world-en-easy-098",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'II'?",
       "options": {
@@ -1180,6 +1474,9 @@
     },
     {
       "id": "ancient-world-en-easy-099",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'water' is 'eau'. Which Latin word is its ancestor?",
       "options": {
@@ -1192,6 +1489,9 @@
     },
     {
       "id": "ancient-world-en-easy-100",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman leader is said to have helped found Rome with his twin brother Romulus and Remus?",
       "options": {
@@ -1204,6 +1504,9 @@
     },
     {
       "id": "ancient-world-en-easy-101",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'door' comes from Latin 'porta'?",
       "options": {
@@ -1216,6 +1519,9 @@
     },
     {
       "id": "ancient-world-en-easy-102",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call a soldier's large shield?",
       "options": {
@@ -1228,6 +1534,9 @@
     },
     {
       "id": "ancient-world-en-easy-103",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'animal' and French 'animal'?",
       "options": {
@@ -1240,6 +1549,9 @@
     },
     {
       "id": "ancient-world-en-easy-104",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman building was used for worship and had many columns?",
       "options": {
@@ -1252,6 +1564,9 @@
     },
     {
       "id": "ancient-world-en-easy-105",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'river' is 'rivière'. Which Latin word is related?",
       "options": {
@@ -1264,6 +1579,9 @@
     },
     {
       "id": "ancient-world-en-easy-106",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call a public show with chariot races?",
       "options": {
@@ -1276,6 +1594,9 @@
     },
     {
       "id": "ancient-world-en-easy-107",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'audio' and French 'audio'?",
       "options": {
@@ -1288,6 +1609,9 @@
     },
     {
       "id": "ancient-world-en-easy-108",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'III'?",
       "options": {
@@ -1300,6 +1624,9 @@
     },
     {
       "id": "ancient-world-en-easy-109",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'bread' is 'pain'. Which Latin word is related?",
       "options": {
@@ -1312,6 +1639,9 @@
     },
     {
       "id": "ancient-world-en-easy-110",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call a large stone bridge or arch for water?",
       "options": {
@@ -1324,6 +1654,9 @@
     },
     {
       "id": "ancient-world-en-easy-111",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'scribe' and French 'scribe' related to writing?",
       "options": {
@@ -1336,6 +1669,9 @@
     },
     {
       "id": "ancient-world-en-easy-112",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'V'?",
       "options": {
@@ -1348,6 +1684,9 @@
     },
     {
       "id": "ancient-world-en-easy-113",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'horse' is 'cheval'. Which Latin word is related?",
       "options": {
@@ -1360,6 +1699,9 @@
     },
     {
       "id": "ancient-world-en-easy-114",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call a small garden in a house?",
       "options": {
@@ -1372,6 +1714,9 @@
     },
     {
       "id": "ancient-world-en-easy-115",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'video' and French 'vidéo'?",
       "options": {
@@ -1384,6 +1729,9 @@
     },
     {
       "id": "ancient-world-en-easy-116",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'II'?",
       "options": {
@@ -1396,6 +1744,9 @@
     },
     {
       "id": "ancient-world-en-easy-117",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'friend' is 'ami'. Which Latin word is related?",
       "options": {
@@ -1408,6 +1759,9 @@
     },
     {
       "id": "ancient-world-en-easy-118",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the large public baths with hot and cold rooms?",
       "options": {
@@ -1420,6 +1774,9 @@
     },
     {
       "id": "ancient-world-en-easy-119",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'lunar' and French 'lunaire'?",
       "options": {
@@ -1432,6 +1789,9 @@
     },
     {
       "id": "ancient-world-en-easy-120",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'IX'?",
       "options": {
@@ -1444,6 +1804,9 @@
     },
     {
       "id": "ancient-world-en-easy-121",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'school' is 'école'. Which Latin word is related?",
       "options": {
@@ -1456,6 +1819,9 @@
     },
     {
       "id": "ancient-world-en-easy-122",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call a small apartment building where many people lived?",
       "options": {
@@ -1468,6 +1834,9 @@
     },
     {
       "id": "ancient-world-en-easy-123",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'century' and French 'siècle' (from centum)?",
       "options": {
@@ -1480,6 +1849,9 @@
     },
     {
       "id": "ancient-world-en-easy-124",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'VII'?",
       "options": {
@@ -1492,6 +1864,9 @@
     },
     {
       "id": "ancient-world-en-easy-125",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'market' is 'marché'. Which Latin word is related?",
       "options": {
@@ -1504,6 +1879,9 @@
     },
     {
       "id": "ancient-world-en-easy-126",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the leader of the army and state in early Rome, often two at once?",
       "options": {
@@ -1516,6 +1894,9 @@
     },
     {
       "id": "ancient-world-en-easy-127",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'manual' and French 'manuel'?",
       "options": {
@@ -1528,6 +1909,9 @@
     },
     {
       "id": "ancient-world-en-easy-128",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'VIII'?",
       "options": {
@@ -1540,6 +1924,9 @@
     },
     {
       "id": "ancient-world-en-easy-129",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'water' is 'eau'. Which Latin word is its origin?",
       "options": {
@@ -1552,6 +1939,9 @@
     },
     {
       "id": "ancient-world-en-easy-130",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the official meeting place for the Senate?",
       "options": {
@@ -1564,6 +1954,9 @@
     },
     {
       "id": "ancient-world-en-easy-131",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'victory' and French 'victoire'?",
       "options": {
@@ -1576,6 +1969,9 @@
     },
     {
       "id": "ancient-world-en-easy-132",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'IV'?",
       "options": {
@@ -1588,6 +1984,9 @@
     },
     {
       "id": "ancient-world-en-easy-133",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'city' is 'ville'. Which Latin word is related?",
       "options": {
@@ -1600,6 +1999,9 @@
     },
     {
       "id": "ancient-world-en-easy-134",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the large stone seats in theatres and amphitheatres?",
       "options": {
@@ -1612,6 +2014,9 @@
     },
     {
       "id": "ancient-world-en-easy-135",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'audio' and French 'audible'?",
       "options": {
@@ -1624,6 +2029,9 @@
     },
     {
       "id": "ancient-world-en-easy-136",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'VI'?",
       "options": {
@@ -1636,6 +2044,9 @@
     },
     {
       "id": "ancient-world-en-easy-137",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'mother' is 'mère'. Which Latin word is related?",
       "options": {
@@ -1648,6 +2059,9 @@
     },
     {
       "id": "ancient-world-en-easy-138",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the small shops near the Forum?",
       "options": {
@@ -1660,6 +2074,9 @@
     },
     {
       "id": "ancient-world-en-easy-139",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'marine' and French 'marin'?",
       "options": {
@@ -1672,6 +2089,9 @@
     },
     {
       "id": "ancient-world-en-easy-140",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'X'?",
       "options": {
@@ -1684,6 +2104,9 @@
     },
     {
       "id": "ancient-world-en-easy-141",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'book' is 'livre'. Which Latin word is related?",
       "options": {
@@ -1696,6 +2119,9 @@
     },
     {
       "id": "ancient-world-en-easy-142",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the large public hall used for law and trade?",
       "options": {
@@ -1708,6 +2134,9 @@
     },
     {
       "id": "ancient-world-en-easy-143",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'solar' and French 'solaire'?",
       "options": {
@@ -1720,6 +2149,9 @@
     },
     {
       "id": "ancient-world-en-easy-144",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'I'?",
       "options": {
@@ -1732,6 +2164,9 @@
     },
     {
       "id": "ancient-world-en-easy-145",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'road' is 'voie'. Which Latin word is related?",
       "options": {
@@ -1744,6 +2179,9 @@
     },
     {
       "id": "ancient-world-en-easy-146",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the twin brothers who, in legend, helped found Rome?",
       "options": {
@@ -1756,6 +2194,9 @@
     },
     {
       "id": "ancient-world-en-easy-147",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'audience' and French 'audience'?",
       "options": {
@@ -1768,6 +2209,9 @@
     },
     {
       "id": "ancient-world-en-easy-148",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'II'?",
       "options": {
@@ -1780,6 +2224,9 @@
     },
     {
       "id": "ancient-world-en-easy-149",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'sea' is 'mer'. Which Latin word is related?",
       "options": {
@@ -1792,6 +2239,9 @@
     },
     {
       "id": "ancient-world-en-easy-150",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the clay pots used for cooking and storage?",
       "options": {
@@ -1804,6 +2254,9 @@
     },
     {
       "id": "ancient-world-en-easy-151",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'cent' and French 'cent'?",
       "options": {
@@ -1816,6 +2269,9 @@
     },
     {
       "id": "ancient-world-en-easy-152",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'V'?",
       "options": {
@@ -1828,6 +2284,9 @@
     },
     {
       "id": "ancient-world-en-easy-153",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'king' is 'roi'. Which Latin word is related?",
       "options": {
@@ -1840,6 +2299,9 @@
     },
     {
       "id": "ancient-world-en-easy-154",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the wooden tool used to write on wax tablets?",
       "options": {
@@ -1852,6 +2314,9 @@
     },
     {
       "id": "ancient-world-en-easy-155",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'lunar' and French 'lunaire'?",
       "options": {
@@ -1864,6 +2329,9 @@
     },
     {
       "id": "ancient-world-en-easy-156",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'IX'?",
       "options": {
@@ -1876,6 +2344,9 @@
     },
     {
       "id": "ancient-world-en-easy-157",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'house' is 'maison'. Which Latin word is related?",
       "options": {
@@ -1888,6 +2359,9 @@
     },
     {
       "id": "ancient-world-en-easy-158",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the official messenger who ran with news?",
       "options": {
@@ -1900,6 +2374,9 @@
     },
     {
       "id": "ancient-world-en-easy-159",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'audible' and French 'audible'?",
       "options": {
@@ -1912,6 +2389,9 @@
     },
     {
       "id": "ancient-world-en-easy-160",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'III'?",
       "options": {
@@ -1924,6 +2404,9 @@
     },
     {
       "id": "ancient-world-en-easy-161",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'month' is 'mois'. Which Latin word is related?",
       "options": {
@@ -1936,6 +2419,9 @@
     },
     {
       "id": "ancient-world-en-easy-162",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the large stone monuments that celebrated victories?",
       "options": {
@@ -1948,6 +2434,9 @@
     },
     {
       "id": "ancient-world-en-easy-163",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'port' and French 'porter'?",
       "options": {
@@ -1960,6 +2449,9 @@
     },
     {
       "id": "ancient-world-en-easy-164",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'VII'?",
       "options": {
@@ -1972,6 +2464,9 @@
     },
     {
       "id": "ancient-world-en-easy-165",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'sea' is 'mer'. Which Latin word is its ancestor?",
       "options": {
@@ -1984,6 +2479,9 @@
     },
     {
       "id": "ancient-world-en-easy-166",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the wooden bench or seat in a house?",
       "options": {
@@ -1996,6 +2494,9 @@
     },
     {
       "id": "ancient-world-en-easy-167",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'video' and French 'vidéo'?",
       "options": {
@@ -2008,6 +2509,9 @@
     },
     {
       "id": "ancient-world-en-easy-168",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'X'?",
       "options": {
@@ -2020,6 +2524,9 @@
     },
     {
       "id": "ancient-world-en-easy-169",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'bread' is 'pain'. Which Latin word is related?",
       "options": {
@@ -2032,6 +2539,9 @@
     },
     {
       "id": "ancient-world-en-easy-170",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the official who collected taxes or money?",
       "options": {
@@ -2044,6 +2554,9 @@
     },
     {
       "id": "ancient-world-en-easy-171",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'manual' and French 'manuel'?",
       "options": {
@@ -2056,6 +2569,9 @@
     },
     {
       "id": "ancient-world-en-easy-172",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'VI'?",
       "options": {
@@ -2068,6 +2584,9 @@
     },
     {
       "id": "ancient-world-en-easy-173",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'mother' is 'mère'. Which Latin word is related?",
       "options": {
@@ -2080,6 +2599,9 @@
     },
     {
       "id": "ancient-world-en-easy-174",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the small clay tiles used for floors and pictures?",
       "options": {
@@ -2092,6 +2614,9 @@
     },
     {
       "id": "ancient-world-en-easy-175",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'lunar' and French 'lunaire'?",
       "options": {
@@ -2104,6 +2629,9 @@
     },
     {
       "id": "ancient-world-en-easy-176",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'III'?",
       "options": {
@@ -2116,6 +2644,9 @@
     },
     {
       "id": "ancient-world-en-easy-177",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'city' is 'ville'. Which Latin word is related?",
       "options": {
@@ -2128,6 +2659,9 @@
     },
     {
       "id": "ancient-world-en-easy-178",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the long straight roads they built across the empire?",
       "options": {
@@ -2140,6 +2674,9 @@
     },
     {
       "id": "ancient-world-en-easy-179",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'audio' and French 'audible'?",
       "options": {
@@ -2152,6 +2689,9 @@
     },
     {
       "id": "ancient-world-en-easy-180",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'IV'?",
       "options": {
@@ -2164,6 +2704,9 @@
     },
     {
       "id": "ancient-world-en-easy-181",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'friend' is 'ami'. Which Latin word is related?",
       "options": {
@@ -2176,6 +2719,9 @@
     },
     {
       "id": "ancient-world-en-easy-182",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the large open market and meeting place in the city?",
       "options": {
@@ -2188,6 +2734,9 @@
     },
     {
       "id": "ancient-world-en-easy-183",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'marine' and French 'marin'?",
       "options": {
@@ -2200,6 +2749,9 @@
     },
     {
       "id": "ancient-world-en-easy-184",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'V'?",
       "options": {
@@ -2212,6 +2764,9 @@
     },
     {
       "id": "ancient-world-en-easy-185",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'door' is 'porte'. Which Latin word is related?",
       "options": {
@@ -2224,6 +2779,9 @@
     },
     {
       "id": "ancient-world-en-easy-186",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the large stone theatre for plays and shows?",
       "options": {
@@ -2236,6 +2794,9 @@
     },
     {
       "id": "ancient-world-en-easy-187",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'video' and French 'vidéo'?",
       "options": {
@@ -2248,6 +2809,9 @@
     },
     {
       "id": "ancient-world-en-easy-188",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'IX'?",
       "options": {
@@ -2260,6 +2824,9 @@
     },
     {
       "id": "ancient-world-en-easy-189",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'sea' is 'mer'. Which Latin word is related?",
       "options": {
@@ -2272,6 +2839,9 @@
     },
     {
       "id": "ancient-world-en-easy-190",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the small wooden or metal box used to keep money?",
       "options": {
@@ -2284,6 +2854,9 @@
     },
     {
       "id": "ancient-world-en-easy-191",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'century' and French 'cent'?",
       "options": {
@@ -2296,6 +2869,9 @@
     },
     {
       "id": "ancient-world-en-easy-192",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'III'?",
       "options": {
@@ -2308,6 +2884,9 @@
     },
     {
       "id": "ancient-world-en-easy-193",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'book' is 'livre'. Which Latin word is related?",
       "options": {
@@ -2320,6 +2899,9 @@
     },
     {
       "id": "ancient-world-en-easy-194",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the wooden sandals worn by soldiers?",
       "options": {
@@ -2332,6 +2914,9 @@
     },
     {
       "id": "ancient-world-en-easy-195",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'audible' and French 'audible'?",
       "options": {
@@ -2344,6 +2929,9 @@
     },
     {
       "id": "ancient-world-en-easy-196",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman number is 'X'?",
       "options": {
@@ -2356,6 +2944,9 @@
     },
     {
       "id": "ancient-world-en-easy-197",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word for 'friend' is 'ami'. Which Latin word is related?",
       "options": {
@@ -2368,6 +2959,9 @@
     },
     {
       "id": "ancient-world-en-easy-198",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What did Romans call the small wooden box used to store letters or tablets?",
       "options": {
@@ -2380,6 +2974,9 @@
     },
     {
       "id": "ancient-world-en-easy-199",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Latin root gives English 'marine' and French 'marin'?",
       "options": {
@@ -2392,6 +2989,9 @@
     },
     {
       "id": "ancient-world-en-easy-200",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Roman hero is said to have been raised by a she-wolf with his twin brother?",
       "options": {
@@ -2404,6 +3004,9 @@
     },
     {
       "id": "ancient-world-en-medium-001",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "The Latin word 'sol' means sun. Which pair shows this root in English and French?",
       "options": {
@@ -2416,6 +3019,9 @@
     },
     {
       "id": "ancient-world-en-medium-002",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Julius Caesar said 'Veni, vidi, vici'. What is the English meaning?",
       "options": {
@@ -2428,6 +3034,9 @@
     },
     {
       "id": "ancient-world-en-medium-003",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "The Latin root 'aqua' gives English 'aquarium'. What is the French word for water from the same root?",
       "options": {
@@ -2440,6 +3049,9 @@
     },
     {
       "id": "ancient-world-en-medium-004",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman structure carried water over long distances?",
       "options": {
@@ -2452,6 +3064,9 @@
     },
     {
       "id": "ancient-world-en-medium-005",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "The Latin 'via' means road. Which English word shares this root?",
       "options": {
@@ -2464,6 +3079,9 @@
     },
     {
       "id": "ancient-world-en-medium-006",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'emperor' in French, a title used in Rome?",
       "options": {
@@ -2476,6 +3094,9 @@
     },
     {
       "id": "ancient-world-en-medium-007",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin expression means 'seize the day' and is used in English and French?",
       "options": {
@@ -2488,6 +3109,9 @@
     },
     {
       "id": "ancient-world-en-medium-008",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "The month March is named for the god Mars. What is March in French?",
       "options": {
@@ -2500,6 +3124,9 @@
     },
     {
       "id": "ancient-world-en-medium-009",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'audible' and French 'audible'?",
       "options": {
@@ -2512,6 +3139,9 @@
     },
     {
       "id": "ancient-world-en-medium-010",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What was the Roman Republic's main meeting place for leaders called?",
       "options": {
@@ -2524,6 +3154,9 @@
     },
     {
       "id": "ancient-world-en-medium-011",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word comes from Latin 'portare' and means 'to carry'?",
       "options": {
@@ -2536,6 +3169,9 @@
     },
     {
       "id": "ancient-world-en-medium-012",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman invention helped soldiers move quickly across the empire?",
       "options": {
@@ -2548,6 +3184,9 @@
     },
     {
       "id": "ancient-world-en-medium-013",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "The Latin root 'scrib' means write. Which French verb means 'to write'?",
       "options": {
@@ -2560,6 +3199,9 @@
     },
     {
       "id": "ancient-world-en-medium-014",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'and the rest' and is used in English and French?",
       "options": {
@@ -2572,6 +3214,9 @@
     },
     {
       "id": "ancient-world-en-medium-015",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'forum' or 'marketplace' is the same as in English?",
       "options": {
@@ -2584,6 +3229,9 @@
     },
     {
       "id": "ancient-world-en-medium-016",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'manual' and French 'manuel'?",
       "options": {
@@ -2596,6 +3244,9 @@
     },
     {
       "id": "ancient-world-en-medium-017",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'road' in French, from Latin 'via'?",
       "options": {
@@ -2608,6 +3259,9 @@
     },
     {
       "id": "ancient-world-en-medium-018",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman leader became the first emperor and started the Pax Romana?",
       "options": {
@@ -2620,6 +3274,9 @@
     },
     {
       "id": "ancient-world-en-medium-019",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "The Latin root 'cent' means one hundred. Which English word uses it?",
       "options": {
@@ -2632,6 +3289,9 @@
     },
     {
       "id": "ancient-world-en-medium-020",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'water' is related to Latin 'aqua'?",
       "options": {
@@ -2644,6 +3304,9 @@
     },
     {
       "id": "ancient-world-en-medium-021",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin expression means 'in the place' and is used in English and French?",
       "options": {
@@ -2656,6 +3319,9 @@
     },
     {
       "id": "ancient-world-en-medium-022",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French month name comes from Latin 'Ianuarius'?",
       "options": {
@@ -2668,6 +3334,9 @@
     },
     {
       "id": "ancient-world-en-medium-023",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'video' and French 'vidéo'?",
       "options": {
@@ -2680,6 +3349,9 @@
     },
     {
       "id": "ancient-world-en-medium-024",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is the French word for 'emperor' used in Roman history lessons?",
       "options": {
@@ -2692,6 +3364,9 @@
     },
     {
       "id": "ancient-world-en-medium-025",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'lunar' and French 'lunaire'?",
       "options": {
@@ -2704,6 +3379,9 @@
     },
     {
       "id": "ancient-world-en-medium-026",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman building was a temple with a large dome and an oculus?",
       "options": {
@@ -2716,6 +3394,9 @@
     },
     {
       "id": "ancient-world-en-medium-027",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "The Latin root 'duc' means lead. Which English word shows this root?",
       "options": {
@@ -2728,6 +3409,9 @@
     },
     {
       "id": "ancient-world-en-medium-028",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'market' comes from Latin 'mercatus'?",
       "options": {
@@ -2740,6 +3424,9 @@
     },
     {
       "id": "ancient-world-en-medium-029",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'the thing speaks for itself' and is used in law?",
       "options": {
@@ -2752,6 +3439,9 @@
     },
     {
       "id": "ancient-world-en-medium-030",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'bookshop' looks like English 'library' but means something else?",
       "options": {
@@ -2764,6 +3454,9 @@
     },
     {
       "id": "ancient-world-en-medium-031",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman general famously crossed the Alps with elephants against Rome's enemies?",
       "options": {
@@ -2776,6 +3469,9 @@
     },
     {
       "id": "ancient-world-en-medium-032",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "The Latin root 'dict' means say. Which French word comes from it and means 'to say'?",
       "options": {
@@ -2788,6 +3484,9 @@
     },
     {
       "id": "ancient-world-en-medium-033",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman building hosted chariot races and large crowds?",
       "options": {
@@ -2800,6 +3499,9 @@
     },
     {
       "id": "ancient-world-en-medium-034",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'auditor' and French 'auditeur'?",
       "options": {
@@ -2812,6 +3514,9 @@
     },
     {
       "id": "ancient-world-en-medium-035",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'to conquer' and is related to Latin 'vincere'?",
       "options": {
@@ -2824,6 +3529,9 @@
     },
     {
       "id": "ancient-world-en-medium-036",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin expression means 'in good faith' and appears in legal language?",
       "options": {
@@ -2836,6 +3544,9 @@
     },
     {
       "id": "ancient-world-en-medium-037",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'city' comes from Latin 'civitas'?",
       "options": {
@@ -2848,6 +3559,9 @@
     },
     {
       "id": "ancient-world-en-medium-038",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman leader was assassinated on the Ides of March?",
       "options": {
@@ -2860,6 +3574,9 @@
     },
     {
       "id": "ancient-world-en-medium-039",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "The Latin root 'scrib' gives English 'describe'. Which French verb means 'to describe'?",
       "options": {
@@ -2872,6 +3589,9 @@
     },
     {
       "id": "ancient-world-en-medium-040",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman building was used for law courts and business, often with a long hall?",
       "options": {
@@ -2884,6 +3604,9 @@
     },
     {
       "id": "ancient-world-en-medium-041",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'marine' and French 'marin'?",
       "options": {
@@ -2896,6 +3619,9 @@
     },
     {
       "id": "ancient-world-en-medium-042",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'to rule' and is related to Latin 'regere'?",
       "options": {
@@ -2908,6 +3634,9 @@
     },
     {
       "id": "ancient-world-en-medium-043",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'the state of things' and is used in English and French?",
       "options": {
@@ -2920,6 +3649,9 @@
     },
     {
       "id": "ancient-world-en-medium-044",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'month' is 'mois'. Which Latin word is the origin?",
       "options": {
@@ -2932,6 +3664,9 @@
     },
     {
       "id": "ancient-world-en-medium-045",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman general defeated Hannibal at Zama and later became a hero in Rome?",
       "options": {
@@ -2944,6 +3679,9 @@
     },
     {
       "id": "ancient-world-en-medium-046",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'audience' and French 'audience'?",
       "options": {
@@ -2956,6 +3694,9 @@
     },
     {
       "id": "ancient-world-en-medium-047",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'to build' and is related to Latin 'aedificare'?",
       "options": {
@@ -2968,6 +3709,9 @@
     },
     {
       "id": "ancient-world-en-medium-048",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin expression means 'for the sake of' and appears in English and French?",
       "options": {
@@ -2980,6 +3724,9 @@
     },
     {
       "id": "ancient-world-en-medium-049",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'law' comes from Latin 'lex'?",
       "options": {
@@ -2992,6 +3739,9 @@
     },
     {
       "id": "ancient-world-en-medium-050",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'victory' and French 'victoire'?",
       "options": {
@@ -3004,6 +3754,9 @@
     },
     {
       "id": "ancient-world-en-medium-051",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'to read' and comes from Latin 'legere'?",
       "options": {
@@ -3016,6 +3769,9 @@
     },
     {
       "id": "ancient-world-en-medium-052",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman office represented the people and could veto laws?",
       "options": {
@@ -3028,6 +3784,9 @@
     },
     {
       "id": "ancient-world-en-medium-053",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'marine' and French 'marin'?",
       "options": {
@@ -3040,6 +3799,9 @@
     },
     {
       "id": "ancient-world-en-medium-054",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'temple' is the same as English and comes from Latin?",
       "options": {
@@ -3052,6 +3814,9 @@
     },
     {
       "id": "ancient-world-en-medium-055",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'the thing itself' and is used in law?",
       "options": {
@@ -3064,6 +3829,9 @@
     },
     {
       "id": "ancient-world-en-medium-056",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'city' is 'ville'. Which Latin word is related?",
       "options": {
@@ -3076,6 +3844,9 @@
     },
     {
       "id": "ancient-world-en-medium-057",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman road phrase means 'all roads lead to' which city?",
       "options": {
@@ -3088,6 +3859,9 @@
     },
     {
       "id": "ancient-world-en-medium-058",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'audible' and French 'audible'?",
       "options": {
@@ -3100,6 +3874,9 @@
     },
     {
       "id": "ancient-world-en-medium-059",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'book' is 'livre'. Which Latin word is related?",
       "options": {
@@ -3112,6 +3889,9 @@
     },
     {
       "id": "ancient-world-en-medium-060",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin expression means 'without which not' and means an essential condition?",
       "options": {
@@ -3124,6 +3904,9 @@
     },
     {
       "id": "ancient-world-en-medium-061",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'market' is 'marché'. Which Latin root is related?",
       "options": {
@@ -3136,6 +3919,9 @@
     },
     {
       "id": "ancient-world-en-medium-062",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman leader formed the First Triumvirate with Pompey and Crassus?",
       "options": {
@@ -3148,6 +3934,9 @@
     },
     {
       "id": "ancient-world-en-medium-063",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'scribe' and French 'scribe'?",
       "options": {
@@ -3160,6 +3949,9 @@
     },
     {
       "id": "ancient-world-en-medium-064",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'to read' and comes from Latin 'legere'?",
       "options": {
@@ -3172,6 +3964,9 @@
     },
     {
       "id": "ancient-world-en-medium-065",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman structure was used for gladiator games and spectacles?",
       "options": {
@@ -3184,6 +3979,9 @@
     },
     {
       "id": "ancient-world-en-medium-066",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'manual' and French 'manuel'?",
       "options": {
@@ -3196,6 +3994,9 @@
     },
     {
       "id": "ancient-world-en-medium-067",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'sea' is 'mer'. Which Latin word is related?",
       "options": {
@@ -3208,6 +4009,9 @@
     },
     {
       "id": "ancient-world-en-medium-068",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'in the original place' and is used in archaeology?",
       "options": {
@@ -3220,6 +4024,9 @@
     },
     {
       "id": "ancient-world-en-medium-069",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'king' is 'roi'. Which Latin word is related to royal words?",
       "options": {
@@ -3232,6 +4039,9 @@
     },
     {
       "id": "ancient-world-en-medium-070",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman general defeated Pompey and became the first emperor's heir?",
       "options": {
@@ -3244,6 +4054,9 @@
     },
     {
       "id": "ancient-world-en-medium-071",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'audible' and French 'audible'?",
       "options": {
@@ -3256,6 +4069,9 @@
     },
     {
       "id": "ancient-world-en-medium-072",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'to carry' and comes from Latin 'portare'?",
       "options": {
@@ -3268,6 +4084,9 @@
     },
     {
       "id": "ancient-world-en-medium-073",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin expression means 'the thing speaks for itself'?",
       "options": {
@@ -3280,6 +4099,9 @@
     },
     {
       "id": "ancient-world-en-medium-074",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French month name comes from Latin 'Martius'?",
       "options": {
@@ -3292,6 +4114,9 @@
     },
     {
       "id": "ancient-world-en-medium-075",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman office was mainly responsible for leading armies in the Republic?",
       "options": {
@@ -3304,6 +4129,9 @@
     },
     {
       "id": "ancient-world-en-medium-076",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'video' and French 'vidéo'?",
       "options": {
@@ -3316,6 +4144,9 @@
     },
     {
       "id": "ancient-world-en-medium-077",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'book' is 'livre'. Which Latin word is related?",
       "options": {
@@ -3328,6 +4159,9 @@
     },
     {
       "id": "ancient-world-en-medium-078",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'in the same place' and is used in science?",
       "options": {
@@ -3340,6 +4174,9 @@
     },
     {
       "id": "ancient-world-en-medium-079",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'market' is 'marché'. Which Latin root is related?",
       "options": {
@@ -3352,6 +4189,9 @@
     },
     {
       "id": "ancient-world-en-medium-080",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman leader famously said 'Alea iacta est' when crossing the Rubicon?",
       "options": {
@@ -3364,6 +4204,9 @@
     },
     {
       "id": "ancient-world-en-medium-081",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'century' and French 'cent'?",
       "options": {
@@ -3376,6 +4219,9 @@
     },
     {
       "id": "ancient-world-en-medium-082",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'to write' and comes from Latin 'scribere'?",
       "options": {
@@ -3388,6 +4234,9 @@
     },
     {
       "id": "ancient-world-en-medium-083",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman structure was used for public baths and social life?",
       "options": {
@@ -3400,6 +4249,9 @@
     },
     {
       "id": "ancient-world-en-medium-084",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'in good faith' and is used in contracts?",
       "options": {
@@ -3412,6 +4264,9 @@
     },
     {
       "id": "ancient-world-en-medium-085",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'sea' is 'mer'. Which Latin word is its ancestor?",
       "options": {
@@ -3424,6 +4279,9 @@
     },
     {
       "id": "ancient-world-en-medium-086",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'auditor' and French 'auditeur'?",
       "options": {
@@ -3436,6 +4294,9 @@
     },
     {
       "id": "ancient-world-en-medium-087",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'emperor' is 'empereur'. Which Latin word is related?",
       "options": {
@@ -3448,6 +4309,9 @@
     },
     {
       "id": "ancient-world-en-medium-088",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman general defeated the Gauls and became famous in Roman history?",
       "options": {
@@ -3460,6 +4324,9 @@
     },
     {
       "id": "ancient-world-en-medium-089",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'video' and French 'vidéo'?",
       "options": {
@@ -3472,6 +4339,9 @@
     },
     {
       "id": "ancient-world-en-medium-090",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'bookshop' is 'librairie'. What does 'librairie' mean in English?",
       "options": {
@@ -3484,6 +4354,9 @@
     },
     {
       "id": "ancient-world-en-medium-091",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'the state of things' and is used in politics?",
       "options": {
@@ -3496,6 +4369,9 @@
     },
     {
       "id": "ancient-world-en-medium-092",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French month name comes from Latin 'Iunius'?",
       "options": {
@@ -3508,6 +4384,9 @@
     },
     {
       "id": "ancient-world-en-medium-093",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'manual' and French 'manuel'?",
       "options": {
@@ -3520,6 +4399,9 @@
     },
     {
       "id": "ancient-world-en-medium-094",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman building celebrated military victories with arches and statues?",
       "options": {
@@ -3532,6 +4414,9 @@
     },
     {
       "id": "ancient-world-en-medium-095",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'city' is 'cité'. Which Latin word is related?",
       "options": {
@@ -3544,6 +4429,9 @@
     },
     {
       "id": "ancient-world-en-medium-096",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'in the original place' and is used in archaeology?",
       "options": {
@@ -3556,6 +4444,9 @@
     },
     {
       "id": "ancient-world-en-medium-097",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'market' is 'marché'. Which Latin root is related?",
       "options": {
@@ -3568,6 +4459,9 @@
     },
     {
       "id": "ancient-world-en-medium-098",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman leader said 'Alea iacta est' when he crossed the Rubicon?",
       "options": {
@@ -3580,6 +4474,9 @@
     },
     {
       "id": "ancient-world-en-medium-099",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'victory' and French 'victoire'?",
       "options": {
@@ -3592,6 +4489,9 @@
     },
     {
       "id": "ancient-world-en-medium-100",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'emperor' is 'empereur'. Which Latin title is related?",
       "options": {
@@ -3604,6 +4504,9 @@
     },
     {
       "id": "ancient-world-en-hard-001",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "The English words 'luminous' and 'lucid' share a Latin root. Which French words come from the same root?",
       "options": {
@@ -3616,6 +4519,9 @@
     },
     {
       "id": "ancient-world-en-hard-002",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In English, 'library' and in French 'librairie' look similar but mean different things. Both come from Latin 'liber'. What does 'liber' mean?",
       "options": {
@@ -3628,6 +4534,9 @@
     },
     {
       "id": "ancient-world-en-hard-003",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "The Latin phrase 'sine qua non' is used in English and French. What does it mean?",
       "options": {
@@ -3640,6 +4549,9 @@
     },
     {
       "id": "ancient-world-en-hard-004",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from the same Latin root as English 'audible' and 'audience'?",
       "options": {
@@ -3652,6 +4564,9 @@
     },
     {
       "id": "ancient-world-en-hard-005",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root links English 'inspect' and French 'inspecter' and means 'to look at'?",
       "options": {
@@ -3664,6 +4579,9 @@
     },
     {
       "id": "ancient-world-en-hard-006",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'victory' (victoria)?",
       "options": {
@@ -3676,6 +4594,9 @@
     },
     {
       "id": "ancient-world-en-hard-007",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "The English word 'status' and French 'statut' come from Latin 'status'. What does 'status quo' mean?",
       "options": {
@@ -3688,6 +4609,9 @@
     },
     {
       "id": "ancient-world-en-hard-008",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from the same Latin root as English 'manual'?",
       "options": {
@@ -3700,6 +4624,9 @@
     },
     {
       "id": "ancient-world-en-hard-009",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin expression used in English and French means 'in the place' and is common in archaeology?",
       "options": {
@@ -3712,6 +4639,9 @@
     },
     {
       "id": "ancient-world-en-hard-010",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'imperial' and comes from 'imperator'?",
       "options": {
@@ -3724,6 +4654,9 @@
     },
     {
       "id": "ancient-world-en-hard-011",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which English and French words share the Latin root 'scribere'?",
       "options": {
@@ -3736,6 +4669,9 @@
     },
     {
       "id": "ancient-world-en-hard-012",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "The Latin 'regere' means to rule. Which French word comes from this root and means 'to reign'?",
       "options": {
@@ -3748,6 +4684,9 @@
     },
     {
       "id": "ancient-world-en-hard-013",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root links English 'auditor' and French 'auditeur'?",
       "options": {
@@ -3760,6 +4699,9 @@
     },
     {
       "id": "ancient-world-en-hard-014",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from the Latin root 'ducere' and means 'to lead'?",
       "options": {
@@ -3772,6 +4714,9 @@
     },
     {
       "id": "ancient-world-en-hard-015",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'the thing speaks for itself' and is used in law?",
       "options": {
@@ -3784,6 +4729,9 @@
     },
     {
       "id": "ancient-world-en-hard-016",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'century'?",
       "options": {
@@ -3796,6 +4744,9 @@
     },
     {
       "id": "ancient-world-en-hard-017",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which English word and French word both come from Latin 'mare'?",
       "options": {
@@ -3808,6 +4759,9 @@
     },
     {
       "id": "ancient-world-en-hard-018",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root connects English 'video' and French 'vidéo'?",
       "options": {
@@ -3820,6 +4774,9 @@
     },
     {
       "id": "ancient-world-en-hard-019",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from the Latin 'victoria' and means the same as English 'victory'?",
       "options": {
@@ -3832,6 +4789,9 @@
     },
     {
       "id": "ancient-world-en-hard-020",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin expression means 'in good faith' and is used in English and French?",
       "options": {
@@ -3844,6 +4804,9 @@
     },
     {
       "id": "ancient-world-en-hard-021",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'library' but is a false friend?",
       "options": {
@@ -3856,6 +4819,9 @@
     },
     {
       "id": "ancient-world-en-hard-022",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root gives English 'audible' and French 'audible'?",
       "options": {
@@ -3868,6 +4834,9 @@
     },
     {
       "id": "ancient-world-en-hard-023",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'imperator' and is used for a Roman commander?",
       "options": {
@@ -3880,6 +4849,9 @@
     },
     {
       "id": "ancient-world-en-hard-024",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root links English 'scribe' and French 'scribe'?",
       "options": {
@@ -3892,6 +4864,9 @@
     },
     {
       "id": "ancient-world-en-hard-025",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'the die is cast' and was said by Caesar?",
       "options": {
@@ -3904,6 +4879,9 @@
     },
     {
       "id": "ancient-world-en-hard-026",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'manual' and also means 'handbook'?",
       "options": {
@@ -3916,6 +4894,9 @@
     },
     {
       "id": "ancient-world-en-hard-027",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root connects English 'legible' and French 'lisible'?",
       "options": {
@@ -3928,6 +4909,9 @@
     },
     {
       "id": "ancient-world-en-hard-028",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'centum' and means one hundred?",
       "options": {
@@ -3940,6 +4924,9 @@
     },
     {
       "id": "ancient-world-en-hard-029",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin expression means 'for the public good' and appears in legal contexts?",
       "options": {
@@ -3952,6 +4939,9 @@
     },
     {
       "id": "ancient-world-en-hard-030",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'auditor' and means someone who listens?",
       "options": {
@@ -3964,6 +4954,9 @@
     },
     {
       "id": "ancient-world-en-hard-031",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root links English 'dictate' and French 'dicter'?",
       "options": {
@@ -3976,6 +4969,9 @@
     },
     {
       "id": "ancient-world-en-hard-032",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'victoria' and is used in both languages?",
       "options": {
@@ -3988,6 +4984,9 @@
     },
     {
       "id": "ancient-world-en-hard-033",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'the thing itself' and is used in legal writing?",
       "options": {
@@ -4000,6 +4999,9 @@
     },
     {
       "id": "ancient-world-en-hard-034",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'marine' and means 'sailor'?",
       "options": {
@@ -4012,6 +5014,9 @@
     },
     {
       "id": "ancient-world-en-hard-035",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root gives English 'audible' and French 'audible' and means 'to hear'?",
       "options": {
@@ -4024,6 +5029,9 @@
     },
     {
       "id": "ancient-world-en-hard-036",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'imperator' and is used for the Roman title?",
       "options": {
@@ -4036,6 +5044,9 @@
     },
     {
       "id": "ancient-world-en-hard-037",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'the state of things' and is used in English and French?",
       "options": {
@@ -4048,6 +5059,9 @@
     },
     {
       "id": "ancient-world-en-hard-038",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'video' and means the same?",
       "options": {
@@ -4060,6 +5074,9 @@
     },
     {
       "id": "ancient-world-en-hard-039",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root links English 'legible' and French 'lisible'?",
       "options": {
@@ -4072,6 +5089,9 @@
     },
     {
       "id": "ancient-world-en-hard-040",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'centum' and is used in both languages?",
       "options": {
@@ -4084,6 +5104,9 @@
     },
     {
       "id": "ancient-world-en-hard-041",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin expression means 'without which nothing' and is used to describe an essential condition?",
       "options": {
@@ -4096,6 +5119,9 @@
     },
     {
       "id": "ancient-world-en-hard-042",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'manual' and means 'hand' in related forms?",
       "options": {
@@ -4108,6 +5134,9 @@
     },
     {
       "id": "ancient-world-en-hard-043",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root connects English 'auditor' and French 'auditeur'?",
       "options": {
@@ -4120,6 +5149,9 @@
     },
     {
       "id": "ancient-world-en-hard-044",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'ducere' and means 'to conduct'?",
       "options": {
@@ -4132,6 +5164,9 @@
     },
     {
       "id": "ancient-world-en-hard-045",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase did Caesar use that means 'I came, I saw, I conquered'?",
       "options": {
@@ -4144,6 +5179,9 @@
     },
     {
       "id": "ancient-world-en-hard-046",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'victory' and means the same?",
       "options": {
@@ -4156,6 +5194,9 @@
     },
     {
       "id": "ancient-world-en-hard-047",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root links English 'scribe' and French 'écrire' through meaning 'to write'?",
       "options": {
@@ -4168,6 +5209,9 @@
     },
     {
       "id": "ancient-world-en-hard-048",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'mare' and means 'sea'?",
       "options": {
@@ -4180,6 +5224,9 @@
     },
     {
       "id": "ancient-world-en-hard-049",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'seize the day' and is used in both English and French?",
       "options": {
@@ -4192,6 +5239,9 @@
     },
     {
       "id": "ancient-world-en-hard-050",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'video' and means 'to see' in related forms?",
       "options": {
@@ -4204,6 +5254,9 @@
     },
     {
       "id": "ancient-world-en-hard-051",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root gives English 'legible' and French 'lisible'?",
       "options": {
@@ -4216,6 +5269,9 @@
     },
     {
       "id": "ancient-world-en-hard-052",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'centum' and is used in money and counting?",
       "options": {
@@ -4228,6 +5284,9 @@
     },
     {
       "id": "ancient-world-en-hard-053",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'in the original place' and is used in archaeology and science?",
       "options": {
@@ -4240,6 +5299,9 @@
     },
     {
       "id": "ancient-world-en-hard-054",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'audible' and means 'audible' too?",
       "options": {
@@ -4252,6 +5314,9 @@
     },
     {
       "id": "ancient-world-en-hard-055",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root links English 'victory' and French 'victoire'?",
       "options": {
@@ -4264,6 +5329,9 @@
     },
     {
       "id": "ancient-world-en-hard-056",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'imperator' and is used for rulers?",
       "options": {
@@ -4276,6 +5344,9 @@
     },
     {
       "id": "ancient-world-en-hard-057",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'the thing speaks for itself' and is used in legal contexts?",
       "options": {
@@ -4288,6 +5359,9 @@
     },
     {
       "id": "ancient-world-en-hard-058",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'manual' and means 'handbook'?",
       "options": {
@@ -4300,6 +5374,9 @@
     },
     {
       "id": "ancient-world-en-hard-059",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root connects English 'dictate' and French 'dicter'?",
       "options": {
@@ -4312,6 +5389,9 @@
     },
     {
       "id": "ancient-world-en-hard-060",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'mare' and means 'marine' or 'naval'?",
       "options": {
@@ -4324,6 +5404,9 @@
     },
     {
       "id": "ancient-world-en-hard-061",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin expression means 'for the public good' and is used in law and charity?",
       "options": {
@@ -4336,6 +5419,9 @@
     },
     {
       "id": "ancient-world-en-hard-062",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'video' and 'vision'?",
       "options": {
@@ -4348,6 +5434,9 @@
     },
     {
       "id": "ancient-world-en-hard-063",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root gives English 'legible' and French 'lisible' meaning 'able to be read'?",
       "options": {
@@ -4360,6 +5449,9 @@
     },
     {
       "id": "ancient-world-en-hard-064",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'centum' and is used in both languages for 100?",
       "options": {
@@ -4372,6 +5464,9 @@
     },
     {
       "id": "ancient-world-en-hard-065",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'without which nothing' and describes something essential?",
       "options": {
@@ -4384,6 +5479,9 @@
     },
     {
       "id": "ancient-world-en-hard-066",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'audible' and means 'audible' as well?",
       "options": {
@@ -4396,6 +5494,9 @@
     },
     {
       "id": "ancient-world-en-hard-067",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root links English 'victory' and French 'victoire'?",
       "options": {
@@ -4408,6 +5509,9 @@
     },
     {
       "id": "ancient-world-en-hard-068",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'imperator' and is used for emperors?",
       "options": {
@@ -4420,6 +5524,9 @@
     },
     {
       "id": "ancient-world-en-hard-069",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'the thing itself' and is used in legal contexts?",
       "options": {
@@ -4432,6 +5539,9 @@
     },
     {
       "id": "ancient-world-en-hard-070",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'manual' and means 'manual' or 'handbook'?",
       "options": {
@@ -4444,6 +5554,9 @@
     },
     {
       "id": "ancient-world-en-hard-071",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root connects English 'dictate' and French 'dicter' meaning 'to say'?",
       "options": {
@@ -4456,6 +5569,9 @@
     },
     {
       "id": "ancient-world-en-hard-072",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'mare' and is used for sea-related words?",
       "options": {
@@ -4468,6 +5584,9 @@
     },
     {
       "id": "ancient-world-en-hard-073",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin expression means 'for the public good' and appears in legal and charity contexts?",
       "options": {
@@ -4480,6 +5599,9 @@
     },
     {
       "id": "ancient-world-en-hard-074",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'video' and means 'vision'?",
       "options": {
@@ -4492,6 +5614,9 @@
     },
     {
       "id": "ancient-world-en-hard-075",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root gives English 'legible' and French 'lisible'?",
       "options": {
@@ -4504,6 +5629,9 @@
     },
     {
       "id": "ancient-world-en-hard-076",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'centum' and is used for 100 in both languages?",
       "options": {
@@ -4516,6 +5644,9 @@
     },
     {
       "id": "ancient-world-en-hard-077",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'without which nothing' and is used to describe an essential element?",
       "options": {
@@ -4528,6 +5659,9 @@
     },
     {
       "id": "ancient-world-en-hard-078",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'audible' and means 'audible' too?",
       "options": {
@@ -4540,6 +5674,9 @@
     },
     {
       "id": "ancient-world-en-hard-079",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root links English 'victory' and French 'victoire'?",
       "options": {
@@ -4552,6 +5689,9 @@
     },
     {
       "id": "ancient-world-en-hard-080",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'imperator' and is used for emperors in history?",
       "options": {
@@ -4564,6 +5704,9 @@
     },
     {
       "id": "ancient-world-en-hard-081",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'the thing itself' and is used in legal language?",
       "options": {
@@ -4576,6 +5719,9 @@
     },
     {
       "id": "ancient-world-en-hard-082",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'manual' and means 'manual' or 'handbook'?",
       "options": {
@@ -4588,6 +5734,9 @@
     },
     {
       "id": "ancient-world-en-hard-083",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root connects English 'dictate' and French 'dicter'?",
       "options": {
@@ -4600,6 +5749,9 @@
     },
     {
       "id": "ancient-world-en-hard-084",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'mare' and is used in words like 'maritime'?",
       "options": {
@@ -4612,6 +5764,9 @@
     },
     {
       "id": "ancient-world-en-hard-085",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin expression means 'for the public good' and appears in legal and charity contexts?",
       "options": {
@@ -4624,6 +5779,9 @@
     },
     {
       "id": "ancient-world-en-hard-086",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'video' and means 'vision' or 'sight'?",
       "options": {
@@ -4636,6 +5794,9 @@
     },
     {
       "id": "ancient-world-en-hard-087",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root gives English 'legible' and French 'lisible'?",
       "options": {
@@ -4648,6 +5809,9 @@
     },
     {
       "id": "ancient-world-en-hard-088",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'centum' and is used for 100?",
       "options": {
@@ -4660,6 +5824,9 @@
     },
     {
       "id": "ancient-world-en-hard-089",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'without which nothing' and describes an indispensable condition?",
       "options": {
@@ -4672,6 +5839,9 @@
     },
     {
       "id": "ancient-world-en-hard-090",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'audible' and means 'audible' too?",
       "options": {
@@ -4684,6 +5854,9 @@
     },
     {
       "id": "ancient-world-en-hard-091",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root links English 'victory' and French 'victoire'?",
       "options": {
@@ -4696,6 +5869,9 @@
     },
     {
       "id": "ancient-world-en-hard-092",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'imperator' and is used for emperors?",
       "options": {
@@ -4708,6 +5884,9 @@
     },
     {
       "id": "ancient-world-en-hard-093",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin phrase means 'the thing itself' and is used in legal writing?",
       "options": {
@@ -4720,6 +5899,9 @@
     },
     {
       "id": "ancient-world-en-hard-094",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'manual' and means 'manual' or 'handbook'?",
       "options": {
@@ -4732,6 +5914,9 @@
     },
     {
       "id": "ancient-world-en-hard-095",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root connects English 'dictate' and French 'dicter' meaning 'to say'?",
       "options": {
@@ -4744,6 +5929,9 @@
     },
     {
       "id": "ancient-world-en-hard-096",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'mare' and appears in words like 'maritime'?",
       "options": {
@@ -4756,6 +5944,9 @@
     },
     {
       "id": "ancient-world-en-hard-097",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin expression means 'for the public good' and appears in legal and charity contexts?",
       "options": {
@@ -4768,6 +5959,9 @@
     },
     {
       "id": "ancient-world-en-hard-098",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word shares the Latin root with English 'video' and means 'vision'?",
       "options": {
@@ -4780,6 +5974,9 @@
     },
     {
       "id": "ancient-world-en-hard-099",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Latin root gives English 'legible' and French 'lisible'?",
       "options": {
@@ -4792,6 +5989,9 @@
     },
     {
       "id": "ancient-world-en-hard-100",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French word comes from Latin 'centum' and is used for 100 in both languages?",
       "options": {
@@ -4804,6 +6004,9 @@
     },
     {
       "id": "ancient-world-en-medium-101",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'auditorium' and French 'auditorium' meaning a place to listen?",
       "options": {
@@ -4816,6 +6019,9 @@
     },
     {
       "id": "ancient-world-en-medium-102",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "The Latin word 'urbs' means city. Which French word is related to this root?",
       "options": {
@@ -4828,6 +6034,9 @@
     },
     {
       "id": "ancient-world-en-medium-103",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman leader was the adoptive son of Julius Caesar and became emperor as Augustus?",
       "options": {
@@ -4840,6 +6049,9 @@
     },
     {
       "id": "ancient-world-en-medium-104",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'portable' and French 'portable' meaning easy to carry?",
       "options": {
@@ -4852,6 +6064,9 @@
     },
     {
       "id": "ancient-world-en-medium-105",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'law' is 'loi'. Which Latin word is its ancestor?",
       "options": {
@@ -4864,6 +6079,9 @@
     },
     {
       "id": "ancient-world-en-medium-106",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman building is famous for its large oval arena and hosted gladiator fights?",
       "options": {
@@ -4876,6 +6094,9 @@
     },
     {
       "id": "ancient-world-en-medium-107",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'spectator' and French 'spectateur'?",
       "options": {
@@ -4888,6 +6109,9 @@
     },
     {
       "id": "ancient-world-en-medium-108",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'to read' and comes from Latin 'legere'?",
       "options": {
@@ -4900,6 +6124,9 @@
     },
     {
       "id": "ancient-world-en-medium-109",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman general famously defeated Hannibal and ended the Second Punic War?",
       "options": {
@@ -4912,6 +6139,9 @@
     },
     {
       "id": "ancient-world-en-medium-110",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'audible' and French 'audible' meaning 'able to be heard'?",
       "options": {
@@ -4924,6 +6154,9 @@
     },
     {
       "id": "ancient-world-en-medium-111",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'bridge' comes from Latin 'pons'?",
       "options": {
@@ -4936,6 +6169,9 @@
     },
     {
       "id": "ancient-world-en-medium-112",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'in the middle of things' and is used in storytelling?",
       "options": {
@@ -4948,6 +6184,9 @@
     },
     {
       "id": "ancient-world-en-medium-113",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'temple' is the same as English and comes from Latin?",
       "options": {
@@ -4960,6 +6199,9 @@
     },
     {
       "id": "ancient-world-en-medium-114",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'auditor' and French 'auditeur'?",
       "options": {
@@ -4972,6 +6214,9 @@
     },
     {
       "id": "ancient-world-en-medium-115",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman office was mainly in charge of the treasury and finances?",
       "options": {
@@ -4984,6 +6229,9 @@
     },
     {
       "id": "ancient-world-en-medium-116",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'market' is 'marché'. Which Latin root is related?",
       "options": {
@@ -4996,6 +6244,9 @@
     },
     {
       "id": "ancient-world-en-medium-117",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'scribe' and French 'scribe'?",
       "options": {
@@ -5008,6 +6259,9 @@
     },
     {
       "id": "ancient-world-en-medium-118",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'to build' and comes from Latin 'aedificare'?",
       "options": {
@@ -5020,6 +6274,9 @@
     },
     {
       "id": "ancient-world-en-medium-119",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'the thing speaks for itself' and is used in law?",
       "options": {
@@ -5032,6 +6289,9 @@
     },
     {
       "id": "ancient-world-en-medium-120",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'road' is 'route'. Which Latin word is related?",
       "options": {
@@ -5044,6 +6304,9 @@
     },
     {
       "id": "ancient-world-en-medium-121",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman structure was used for public speeches, law and business?",
       "options": {
@@ -5056,6 +6319,9 @@
     },
     {
       "id": "ancient-world-en-medium-122",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'audible' and French 'audible'?",
       "options": {
@@ -5068,6 +6334,9 @@
     },
     {
       "id": "ancient-world-en-medium-123",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'book' is 'livre'. Which Latin word is related?",
       "options": {
@@ -5080,6 +6349,9 @@
     },
     {
       "id": "ancient-world-en-medium-124",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'in good faith' and is used in contracts?",
       "options": {
@@ -5092,6 +6364,9 @@
     },
     {
       "id": "ancient-world-en-medium-125",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'sea' is 'mer'. Which Latin word is its ancestor?",
       "options": {
@@ -5104,6 +6379,9 @@
     },
     {
       "id": "ancient-world-en-medium-126",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman leader was famous for crossing the Rubicon and starting a civil war?",
       "options": {
@@ -5116,6 +6394,9 @@
     },
     {
       "id": "ancient-world-en-medium-127",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'marine' and French 'marin'?",
       "options": {
@@ -5128,6 +6409,9 @@
     },
     {
       "id": "ancient-world-en-medium-128",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'to carry' and comes from Latin 'portare'?",
       "options": {
@@ -5140,6 +6424,9 @@
     },
     {
       "id": "ancient-world-en-medium-129",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'the state of things' and is used in politics?",
       "options": {
@@ -5152,6 +6439,9 @@
     },
     {
       "id": "ancient-world-en-medium-130",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French month name comes from Latin 'Iulius'?",
       "options": {
@@ -5164,6 +6454,9 @@
     },
     {
       "id": "ancient-world-en-medium-131",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'vision' and French 'vision'?",
       "options": {
@@ -5176,6 +6469,9 @@
     },
     {
       "id": "ancient-world-en-medium-132",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman general invaded Britain and began Roman rule there?",
       "options": {
@@ -5188,6 +6484,9 @@
     },
     {
       "id": "ancient-world-en-medium-133",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'city' is 'cité'. Which Latin word is related?",
       "options": {
@@ -5200,6 +6499,9 @@
     },
     {
       "id": "ancient-world-en-medium-134",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'the die is cast' and is linked to a famous Roman crossing?",
       "options": {
@@ -5212,6 +6514,9 @@
     },
     {
       "id": "ancient-world-en-medium-135",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'bookshop' is 'librairie'. Which English word is a false friend?",
       "options": {
@@ -5224,6 +6529,9 @@
     },
     {
       "id": "ancient-world-en-medium-136",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'legible' and French 'lisible'?",
       "options": {
@@ -5236,6 +6544,9 @@
     },
     {
       "id": "ancient-world-en-medium-137",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman building had a round dome and an opening at the top called an oculus?",
       "options": {
@@ -5248,6 +6559,9 @@
     },
     {
       "id": "ancient-world-en-medium-138",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'emperor' is 'empereur'. Which Latin title is related?",
       "options": {
@@ -5260,6 +6574,9 @@
     },
     {
       "id": "ancient-world-en-medium-139",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'seize the day' and is used to encourage action?",
       "options": {
@@ -5272,6 +6589,9 @@
     },
     {
       "id": "ancient-world-en-medium-140",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'sea' is 'mer'. Which English word shares the Latin root?",
       "options": {
@@ -5284,6 +6604,9 @@
     },
     {
       "id": "ancient-world-en-medium-141",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'audience' and French 'audience'?",
       "options": {
@@ -5296,6 +6619,9 @@
     },
     {
       "id": "ancient-world-en-medium-142",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman leader defeated Pompey and became sole ruler after civil war?",
       "options": {
@@ -5308,6 +6634,9 @@
     },
     {
       "id": "ancient-world-en-medium-143",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'road' is 'voie'. Which Latin word is related?",
       "options": {
@@ -5320,6 +6649,9 @@
     },
     {
       "id": "ancient-world-en-medium-144",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'in the place' and is used in archaeology?",
       "options": {
@@ -5332,6 +6664,9 @@
     },
     {
       "id": "ancient-world-en-medium-145",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'market' is 'marché'. Which English word shares the Latin root?",
       "options": {
@@ -5344,6 +6679,9 @@
     },
     {
       "id": "ancient-world-en-medium-146",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'video' and French 'vidéo'?",
       "options": {
@@ -5356,6 +6694,9 @@
     },
     {
       "id": "ancient-world-en-medium-147",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman general led the conquest of Gaul and wrote commentaries about it?",
       "options": {
@@ -5368,6 +6709,9 @@
     },
     {
       "id": "ancient-world-en-medium-148",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'book' is 'livre'. Which English word shares the Latin root?",
       "options": {
@@ -5380,6 +6724,9 @@
     },
     {
       "id": "ancient-world-en-medium-149",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'without which nothing' and describes an essential condition?",
       "options": {
@@ -5392,6 +6739,9 @@
     },
     {
       "id": "ancient-world-en-medium-150",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French month name comes from Latin 'Septem' meaning seven?",
       "options": {
@@ -5404,6 +6754,9 @@
     },
     {
       "id": "ancient-world-en-medium-151",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'dictate' and French 'dicter'?",
       "options": {
@@ -5416,6 +6769,9 @@
     },
     {
       "id": "ancient-world-en-medium-152",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman building was used for chariot races and could hold huge crowds?",
       "options": {
@@ -5428,6 +6784,9 @@
     },
     {
       "id": "ancient-world-en-medium-153",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'sea' is 'mer'. Which English word shares the Latin root?",
       "options": {
@@ -5440,6 +6799,9 @@
     },
     {
       "id": "ancient-world-en-medium-154",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'the thing itself' and is used in legal writing?",
       "options": {
@@ -5452,6 +6814,9 @@
     },
     {
       "id": "ancient-world-en-medium-155",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'emperor' is 'empereur'. Which Latin title is related?",
       "options": {
@@ -5464,6 +6829,9 @@
     },
     {
       "id": "ancient-world-en-medium-156",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'legible' and French 'lisible'?",
       "options": {
@@ -5476,6 +6844,9 @@
     },
     {
       "id": "ancient-world-en-medium-157",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman leader began the long period of peace called the Pax Romana?",
       "options": {
@@ -5488,6 +6859,9 @@
     },
     {
       "id": "ancient-world-en-medium-158",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'road' is 'rue'. Which Latin word is related?",
       "options": {
@@ -5500,6 +6874,9 @@
     },
     {
       "id": "ancient-world-en-medium-159",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'and the rest' and is used to shorten lists?",
       "options": {
@@ -5512,6 +6889,9 @@
     },
     {
       "id": "ancient-world-en-medium-160",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'market' is 'marché'. Which English word shares the Latin root?",
       "options": {
@@ -5524,6 +6904,9 @@
     },
     {
       "id": "ancient-world-en-medium-161",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'video' and French 'vidéo'?",
       "options": {
@@ -5536,6 +6919,9 @@
     },
     {
       "id": "ancient-world-en-medium-162",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman general led the invasion of Italy from Spain and used war elephants?",
       "options": {
@@ -5548,6 +6934,9 @@
     },
     {
       "id": "ancient-world-en-medium-163",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'book' is 'livre'. Which Latin word is related?",
       "options": {
@@ -5560,6 +6949,9 @@
     },
     {
       "id": "ancient-world-en-medium-164",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'in the original place' and is used in science?",
       "options": {
@@ -5572,6 +6964,9 @@
     },
     {
       "id": "ancient-world-en-medium-165",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French month name comes from Latin 'Aprilis'?",
       "options": {
@@ -5584,6 +6979,9 @@
     },
     {
       "id": "ancient-world-en-medium-166",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'manual' and French 'manuel'?",
       "options": {
@@ -5596,6 +6994,9 @@
     },
     {
       "id": "ancient-world-en-medium-167",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman building carried water and often had arches?",
       "options": {
@@ -5608,6 +7009,9 @@
     },
     {
       "id": "ancient-world-en-medium-168",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'sea' is 'mer'. Which Latin root is related?",
       "options": {
@@ -5620,6 +7024,9 @@
     },
     {
       "id": "ancient-world-en-medium-169",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'the state of things' and is used in English and French?",
       "options": {
@@ -5632,6 +7039,9 @@
     },
     {
       "id": "ancient-world-en-medium-170",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'emperor' is 'empereur'. Which Latin title is related?",
       "options": {
@@ -5644,6 +7054,9 @@
     },
     {
       "id": "ancient-world-en-medium-171",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'legible' and French 'lisible'?",
       "options": {
@@ -5656,6 +7069,9 @@
     },
     {
       "id": "ancient-world-en-medium-172",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman leader was the first to be called 'Augustus'?",
       "options": {
@@ -5668,6 +7084,9 @@
     },
     {
       "id": "ancient-world-en-medium-173",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'road' is 'voie'. Which Latin word is related?",
       "options": {
@@ -5680,6 +7099,9 @@
     },
     {
       "id": "ancient-world-en-medium-174",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'and the rest' and is used to shorten lists?",
       "options": {
@@ -5692,6 +7114,9 @@
     },
     {
       "id": "ancient-world-en-medium-175",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'market' is 'marché'. Which Latin root is related?",
       "options": {
@@ -5704,6 +7129,9 @@
     },
     {
       "id": "ancient-world-en-medium-176",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'video' and French 'vidéo'?",
       "options": {
@@ -5716,6 +7144,9 @@
     },
     {
       "id": "ancient-world-en-medium-177",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman general famously crossed the Alps with war elephants?",
       "options": {
@@ -5728,6 +7159,9 @@
     },
     {
       "id": "ancient-world-en-medium-178",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'book' is 'livre'. Which Latin word is related?",
       "options": {
@@ -5740,6 +7174,9 @@
     },
     {
       "id": "ancient-world-en-medium-179",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'in the original place' and is used in archaeology?",
       "options": {
@@ -5752,6 +7189,9 @@
     },
     {
       "id": "ancient-world-en-medium-180",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French month name comes from Latin 'Maius'?",
       "options": {
@@ -5764,6 +7204,9 @@
     },
     {
       "id": "ancient-world-en-medium-181",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'manual' and French 'manuel'?",
       "options": {
@@ -5776,6 +7219,9 @@
     },
     {
       "id": "ancient-world-en-medium-182",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman building was used for public baths and social life?",
       "options": {
@@ -5788,6 +7234,9 @@
     },
     {
       "id": "ancient-world-en-medium-183",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'sea' is 'mer'. Which Latin word is its ancestor?",
       "options": {
@@ -5800,6 +7249,9 @@
     },
     {
       "id": "ancient-world-en-medium-184",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'the state of things' and is used in politics?",
       "options": {
@@ -5812,6 +7264,9 @@
     },
     {
       "id": "ancient-world-en-medium-185",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'emperor' is 'empereur'. Which Latin title is related?",
       "options": {
@@ -5824,6 +7279,9 @@
     },
     {
       "id": "ancient-world-en-medium-186",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'legible' and French 'lisible'?",
       "options": {
@@ -5836,6 +7294,9 @@
     },
     {
       "id": "ancient-world-en-medium-187",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman leader started the Empire after defeating Mark Antony and Cleopatra?",
       "options": {
@@ -5848,6 +7309,9 @@
     },
     {
       "id": "ancient-world-en-medium-188",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'road' is 'voie'. Which Latin word is related?",
       "options": {
@@ -5860,6 +7324,9 @@
     },
     {
       "id": "ancient-world-en-medium-189",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'and the rest' and is used to shorten lists?",
       "options": {
@@ -5872,6 +7339,9 @@
     },
     {
       "id": "ancient-world-en-medium-190",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'market' is 'marché'. Which Latin root is related?",
       "options": {
@@ -5884,6 +7354,9 @@
     },
     {
       "id": "ancient-world-en-medium-191",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'video' and French 'vidéo'?",
       "options": {
@@ -5896,6 +7369,9 @@
     },
     {
       "id": "ancient-world-en-medium-192",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman general led the final defeat of Hannibal at Zama?",
       "options": {
@@ -5908,6 +7384,9 @@
     },
     {
       "id": "ancient-world-en-medium-193",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'book' is 'livre'. Which Latin word is related?",
       "options": {
@@ -5920,6 +7399,9 @@
     },
     {
       "id": "ancient-world-en-medium-194",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'in the original place' and is used in archaeology?",
       "options": {
@@ -5932,6 +7414,9 @@
     },
     {
       "id": "ancient-world-en-medium-195",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French month name comes from Latin 'Februarius'?",
       "options": {
@@ -5944,6 +7429,9 @@
     },
     {
       "id": "ancient-world-en-medium-196",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin root gives English 'manual' and French 'manuel'?",
       "options": {
@@ -5956,6 +7444,9 @@
     },
     {
       "id": "ancient-world-en-medium-197",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman building was used for public meetings and markets?",
       "options": {
@@ -5968,6 +7459,9 @@
     },
     {
       "id": "ancient-world-en-medium-198",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'sea' is 'mer'. Which Latin word is its ancestor?",
       "options": {
@@ -5980,6 +7474,9 @@
     },
     {
       "id": "ancient-world-en-medium-199",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Latin phrase means 'the state of things' and is used in politics?",
       "options": {
@@ -5992,6 +7489,9 @@
     },
     {
       "id": "ancient-world-en-medium-200",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word for 'emperor' is 'empereur'. Which Latin title is related?",
       "options": {

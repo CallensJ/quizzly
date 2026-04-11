@@ -4,6 +4,9 @@
   "questions": [
     {
       "id": "fra-en-0001",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'hello' used during the day?",
       "options": {
@@ -16,6 +19,9 @@
     },
     {
       "id": "fra-en-0002",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the French number for 1?",
       "options": {
@@ -28,6 +34,9 @@
     },
     {
       "id": "fra-en-0003",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'good night'?",
       "options": {
@@ -40,6 +49,9 @@
     },
     {
       "id": "fra-en-0004",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What color is 'rouge' in English?",
       "options": {
@@ -52,6 +64,9 @@
     },
     {
       "id": "fra-en-0005",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'please'?",
       "options": {
@@ -64,6 +79,9 @@
     },
     {
       "id": "fra-en-0006",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'deux' in English?",
       "options": {
@@ -76,6 +94,9 @@
     },
     {
       "id": "fra-en-0007",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'goodbye'?",
       "options": {
@@ -88,6 +109,9 @@
     },
     {
       "id": "fra-en-0008",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the French word for 'blue'?",
       "options": {
@@ -100,6 +124,9 @@
     },
     {
       "id": "fra-en-0009",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which day is 'lundi' in English?",
       "options": {
@@ -112,6 +139,9 @@
     },
     {
       "id": "fra-en-0010",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'trois' in English?",
       "options": {
@@ -124,6 +154,9 @@
     },
     {
       "id": "fra-en-0011",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'thank you'?",
       "options": {
@@ -136,6 +169,9 @@
     },
     {
       "id": "fra-en-0012",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the French word for 'green'?",
       "options": {
@@ -148,6 +184,9 @@
     },
     {
       "id": "fra-en-0013",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which month is 'janvier' in English?",
       "options": {
@@ -160,6 +199,9 @@
     },
     {
       "id": "fra-en-0014",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'quatre' in English?",
       "options": {
@@ -172,6 +214,9 @@
     },
     {
       "id": "fra-en-0015",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'hello' in an informal way?",
       "options": {
@@ -184,6 +229,9 @@
     },
     {
       "id": "fra-en-0016",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What color is 'jaune' in English?",
       "options": {
@@ -196,6 +244,9 @@
     },
     {
       "id": "fra-en-0017",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which day is 'dimanche' in English?",
       "options": {
@@ -208,6 +259,9 @@
     },
     {
       "id": "fra-en-0018",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the French number for 10?",
       "options": {
@@ -220,6 +274,9 @@
     },
     {
       "id": "fra-en-0019",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'black'?",
       "options": {
@@ -232,6 +289,9 @@
     },
     {
       "id": "fra-en-0020",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'sept' in English?",
       "options": {
@@ -244,6 +304,9 @@
     },
     {
       "id": "fra-en-0021",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which season is 'été' in English?",
       "options": {
@@ -256,6 +319,9 @@
     },
     {
       "id": "fra-en-0022",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the French word for 'white'?",
       "options": {
@@ -268,6 +334,9 @@
     },
     {
       "id": "fra-en-0023",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which month is 'décembre' in English?",
       "options": {
@@ -280,6 +349,9 @@
     },
     {
       "id": "fra-en-0024",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'neuf' in English?",
       "options": {
@@ -292,6 +364,9 @@
     },
     {
       "id": "fra-en-0025",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'orange' (the color)?",
       "options": {
@@ -304,6 +379,9 @@
     },
     {
       "id": "fra-en-0026",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'huit' in English?",
       "options": {
@@ -316,6 +394,9 @@
     },
     {
       "id": "fra-en-0027",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which day is 'mercredi' in English?",
       "options": {
@@ -328,6 +409,9 @@
     },
     {
       "id": "fra-en-0028",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the French word for 'pink'?",
       "options": {
@@ -340,6 +424,9 @@
     },
     {
       "id": "fra-en-0029",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which month is 'mars' in English?",
       "options": {
@@ -352,6 +439,9 @@
     },
     {
       "id": "fra-en-0030",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'onze' in English?",
       "options": {
@@ -364,6 +454,9 @@
     },
     {
       "id": "fra-en-0031",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'gray'?",
       "options": {
@@ -376,6 +469,9 @@
     },
     {
       "id": "fra-en-0032",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'douze' in English?",
       "options": {
@@ -388,6 +484,9 @@
     },
     {
       "id": "fra-en-0033",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which day is 'samedi' in English?",
       "options": {
@@ -400,6 +499,9 @@
     },
     {
       "id": "fra-en-0034",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the French word for 'purple'?",
       "options": {
@@ -412,6 +514,9 @@
     },
     {
       "id": "fra-en-0035",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which month is 'juillet' in English?",
       "options": {
@@ -424,6 +529,9 @@
     },
     {
       "id": "fra-en-0036",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'treize' in English?",
       "options": {
@@ -436,6 +544,9 @@
     },
     {
       "id": "fra-en-0037",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'brown' (commonly used for color)?",
       "options": {
@@ -448,6 +559,9 @@
     },
     {
       "id": "fra-en-0038",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'quatorze' in English?",
       "options": {
@@ -460,6 +574,9 @@
     },
     {
       "id": "fra-en-0039",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which month is 'avril' in English?",
       "options": {
@@ -472,6 +589,9 @@
     },
     {
       "id": "fra-en-0040",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'quinze' in English?",
       "options": {
@@ -484,6 +604,9 @@
     },
     {
       "id": "fra-en-0041",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'spring' (the season)?",
       "options": {
@@ -496,6 +619,9 @@
     },
     {
       "id": "fra-en-0042",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'seize' in English?",
       "options": {
@@ -508,6 +634,9 @@
     },
     {
       "id": "fra-en-0043",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which month is 'septembre' in English?",
       "options": {
@@ -520,6 +649,9 @@
     },
     {
       "id": "fra-en-0044",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'dix-sept' in English?",
       "options": {
@@ -532,6 +664,9 @@
     },
     {
       "id": "fra-en-0045",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'Saturday'?",
       "options": {
@@ -544,6 +679,9 @@
     },
     {
       "id": "fra-en-0046",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'dix-huit' in English?",
       "options": {
@@ -556,6 +694,9 @@
     },
     {
       "id": "fra-en-0047",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which month is 'octobre' in English?",
       "options": {
@@ -568,6 +709,9 @@
     },
     {
       "id": "fra-en-0048",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'dix-neuf' in English?",
       "options": {
@@ -580,6 +724,9 @@
     },
     {
       "id": "fra-en-0049",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'Sunday'?",
       "options": {
@@ -592,6 +739,9 @@
     },
     {
       "id": "fra-en-0050",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'vingt' in English?",
       "options": {
@@ -604,6 +754,9 @@
     },
     {
       "id": "fra-en-0051",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'trente' in English?",
       "options": {
@@ -616,6 +769,9 @@
     },
     {
       "id": "fra-en-0052",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word is the ordinal for 'first'?",
       "options": {
@@ -628,6 +784,9 @@
     },
     {
       "id": "fra-en-0053",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'It is three o'clock' in French?",
       "options": {
@@ -640,6 +799,9 @@
     },
     {
       "id": "fra-en-0054",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'quarante' in English?",
       "options": {
@@ -652,6 +814,9 @@
     },
     {
       "id": "fra-en-0055",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'next week'?",
       "options": {
@@ -664,6 +829,9 @@
     },
     {
       "id": "fra-en-0056",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How would you ask 'What time is it?' in French?",
       "options": {
@@ -676,6 +844,9 @@
     },
     {
       "id": "fra-en-0057",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which is the correct French sentence for 'It is noon'?",
       "options": {
@@ -688,6 +859,9 @@
     },
     {
       "id": "fra-en-0058",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'cinquante' in English?",
       "options": {
@@ -700,6 +874,9 @@
     },
     {
       "id": "fra-en-0059",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Choose the correct French phrase meaning 'yesterday'.",
       "options": {
@@ -712,6 +889,9 @@
     },
     {
       "id": "fra-en-0060",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word is the ordinal for 'second'?",
       "options": {
@@ -724,6 +904,9 @@
     },
     {
       "id": "fra-en-0061",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'soixante' in English?",
       "options": {
@@ -736,6 +919,9 @@
     },
     {
       "id": "fra-en-0062",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In the sentence 'une robe rouge', where is the color adjective placed?",
       "options": {
@@ -748,6 +934,9 @@
     },
     {
       "id": "fra-en-0063",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'tomorrow' in French?",
       "options": {
@@ -760,6 +949,9 @@
     },
     {
       "id": "fra-en-0064",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'quatre-vingt' commonly used to mean in French numbers?",
       "options": {
@@ -772,6 +964,9 @@
     },
     {
       "id": "fra-en-0065",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase answers 'Quelle heure est-il ?' if it is 1:00 PM?",
       "options": {
@@ -784,6 +979,9 @@
     },
     {
       "id": "fra-en-0066",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'soixante-dix' in English?",
       "options": {
@@ -796,6 +994,9 @@
     },
     {
       "id": "fra-en-0067",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'last' as in 'the last day'?",
       "options": {
@@ -808,6 +1009,9 @@
     },
     {
       "id": "fra-en-0068",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'It is half past four' in French?",
       "options": {
@@ -820,6 +1024,9 @@
     },
     {
       "id": "fra-en-0069",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'quatre-vingt-dix' in English?",
       "options": {
@@ -832,6 +1039,9 @@
     },
     {
       "id": "fra-en-0070",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase means 'today' in French?",
       "options": {
@@ -844,6 +1054,9 @@
     },
     {
       "id": "fra-en-0071",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In 'un chat noir', what does 'noir' describe?",
       "options": {
@@ -856,6 +1069,9 @@
     },
     {
       "id": "fra-en-0072",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'cent' in English when counting?",
       "options": {
@@ -868,6 +1084,9 @@
     },
     {
       "id": "fra-en-0073",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French phrase means 'the week after next' (not next week)?",
       "options": {
@@ -880,6 +1099,9 @@
     },
     {
       "id": "fra-en-0074",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'It is a quarter to five' in French?",
       "options": {
@@ -892,6 +1114,9 @@
     },
     {
       "id": "fra-en-0075",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'trente et un' in English?",
       "options": {
@@ -904,6 +1129,9 @@
     },
     {
       "id": "fra-en-0076",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which ordinal is 'troisième' in English?",
       "options": {
@@ -916,6 +1144,9 @@
     },
     {
       "id": "fra-en-0077",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How would you answer 'Quelle heure est-il ?' if it is 12:00 midnight?",
       "options": {
@@ -928,6 +1159,9 @@
     },
     {
       "id": "fra-en-0078",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'quarante-cinq' in English?",
       "options": {
@@ -940,6 +1174,9 @@
     },
     {
       "id": "fra-en-0079",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase means 'next Monday' in French?",
       "options": {
@@ -952,6 +1189,9 @@
     },
     {
       "id": "fra-en-0080",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In 'une voiture rouge', what does 'rouge' modify?",
       "options": {
@@ -964,6 +1204,9 @@
     },
     {
       "id": "fra-en-0081",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'soixante-quinze' in English?",
       "options": {
@@ -976,6 +1219,9 @@
     },
     {
       "id": "fra-en-0082",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'the day after tomorrow'?",
       "options": {
@@ -988,6 +1234,9 @@
     },
     {
       "id": "fra-en-0083",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'It is ten past two' in French?",
       "options": {
@@ -1000,6 +1249,9 @@
     },
     {
       "id": "fra-en-0084",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is 'quatre-vingts' when used as a number?",
       "options": {
@@ -1012,6 +1264,9 @@
     },
     {
       "id": "fra-en-0085",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French phrase means 'last month'?",
       "options": {
@@ -1024,6 +1279,9 @@
     },
     {
       "id": "fra-en-0086",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What is 'deux cents' in English when counting exactly 200?",
       "options": {
@@ -1036,6 +1294,9 @@
     },
     {
       "id": "fra-en-0087",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly gives the date 'July 14' in French context?",
       "options": {
@@ -1048,6 +1309,9 @@
     },
     {
       "id": "fra-en-0088",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which color adjective changes to agree with a feminine noun: 'blanc' or 'orange'?",
       "options": {
@@ -1060,6 +1324,9 @@
     },
     {
       "id": "fra-en-0089",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What does 'mille' mean in English?",
       "options": {
@@ -1072,6 +1339,9 @@
     },
     {
       "id": "fra-en-0090",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read this short schedule in French: 'Lundi 9h: maths; 10h30: récréation; 11h: français.' What time is the break?",
       "options": {
@@ -1084,6 +1354,9 @@
     },
     {
       "id": "fra-en-0091",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "How do you say 'It is half past four' using French compound time?",
       "options": {
@@ -1096,6 +1369,9 @@
     },
     {
       "id": "fra-en-0092",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which color is invariable and does not change for gender: 'marron' or 'blanc'?",
       "options": {
@@ -1108,6 +1384,9 @@
     },
     {
       "id": "fra-en-0093",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "If a French sentence says 'Il est quatre heures moins le quart', what time is it in English?",
       "options": {
@@ -1120,6 +1399,9 @@
     },
     {
       "id": "fra-en-0094",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which number is 'cent' in English?",
       "options": {
@@ -1132,6 +1414,9 @@
     },
     {
       "id": "fra-en-0095",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read this French calendar note: 'Mercredi 14h: visite au musée; 16h: goûter.' What happens at 16:00?",
       "options": {
@@ -1144,6 +1429,9 @@
     },
     {
       "id": "fra-en-0096",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which form is correct for a feminine color: 'gris' or 'grise' when describing a feminine noun?",
       "options": {
@@ -1156,6 +1444,9 @@
     },
     {
       "id": "fra-en-0097",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What is the English meaning of 'Le 1er mai' in French?",
       "options": {
@@ -1168,6 +1459,9 @@
     },
     {
       "id": "fra-en-0098",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence shows correct agreement for a feminine white dress?",
       "options": {
@@ -1180,6 +1474,9 @@
     },
     {
       "id": "fra-en-0099",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "If a schedule says 'Vendredi 8h30: réunion; 12h: déjeuner', what time is lunch?",
       "options": {
@@ -1192,6 +1489,9 @@
     },
     {
       "id": "fra-en-0100",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "How do you say 'two thousand' in French?",
       "options": {
@@ -1204,6 +1504,9 @@
     },
     {
       "id": "fra-en-0101",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'mother'?",
       "options": {
@@ -1216,6 +1519,9 @@
     },
     {
       "id": "fra-en-0102",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le père' in English?",
       "options": {
@@ -1228,6 +1534,9 @@
     },
     {
       "id": "fra-en-0103",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'brother'?",
       "options": {
@@ -1240,6 +1549,9 @@
     },
     {
       "id": "fra-en-0104",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'la sœur' mean in English?",
       "options": {
@@ -1252,6 +1564,9 @@
     },
     {
       "id": "fra-en-0105",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'grandparents'?",
       "options": {
@@ -1264,6 +1579,9 @@
     },
     {
       "id": "fra-en-0106",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'l'oncle' in English?",
       "options": {
@@ -1276,6 +1594,9 @@
     },
     {
       "id": "fra-en-0107",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'aunt'?",
       "options": {
@@ -1288,6 +1609,9 @@
     },
     {
       "id": "fra-en-0108",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'la tête' in English?",
       "options": {
@@ -1300,6 +1624,9 @@
     },
     {
       "id": "fra-en-0109",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'eyes'?",
       "options": {
@@ -1312,6 +1639,9 @@
     },
     {
       "id": "fra-en-0110",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'le nez' mean in English?",
       "options": {
@@ -1324,6 +1654,9 @@
     },
     {
       "id": "fra-en-0111",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'mouth'?",
       "options": {
@@ -1336,6 +1669,9 @@
     },
     {
       "id": "fra-en-0112",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'les oreilles' in English?",
       "options": {
@@ -1348,6 +1684,9 @@
     },
     {
       "id": "fra-en-0113",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'hands'?",
       "options": {
@@ -1360,6 +1699,9 @@
     },
     {
       "id": "fra-en-0114",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'les pieds' mean in English?",
       "options": {
@@ -1372,6 +1714,9 @@
     },
     {
       "id": "fra-en-0115",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'notebook' used at school?",
       "options": {
@@ -1384,6 +1729,9 @@
     },
     {
       "id": "fra-en-0116",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le crayon' in English?",
       "options": {
@@ -1396,6 +1744,9 @@
     },
     {
       "id": "fra-en-0117",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'ruler' (school tool)?",
       "options": {
@@ -1408,6 +1759,9 @@
     },
     {
       "id": "fra-en-0118",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'l'école' mean in English?",
       "options": {
@@ -1420,6 +1774,9 @@
     },
     {
       "id": "fra-en-0119",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'blackboard'?",
       "options": {
@@ -1432,6 +1789,9 @@
     },
     {
       "id": "fra-en-0120",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le professeur' in English?",
       "options": {
@@ -1444,6 +1804,9 @@
     },
     {
       "id": "fra-en-0121",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'student'?",
       "options": {
@@ -1456,6 +1819,9 @@
     },
     {
       "id": "fra-en-0122",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'le livre' mean in English?",
       "options": {
@@ -1468,6 +1834,9 @@
     },
     {
       "id": "fra-en-0123",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'pen'?",
       "options": {
@@ -1480,6 +1849,9 @@
     },
     {
       "id": "fra-en-0124",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'la gomme' in English?",
       "options": {
@@ -1492,6 +1864,9 @@
     },
     {
       "id": "fra-en-0125",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'bag' (school bag)?",
       "options": {
@@ -1504,6 +1879,9 @@
     },
     {
       "id": "fra-en-0126",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'la chaise' mean in English?",
       "options": {
@@ -1516,6 +1894,9 @@
     },
     {
       "id": "fra-en-0127",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'table'?",
       "options": {
@@ -1528,6 +1909,9 @@
     },
     {
       "id": "fra-en-0128",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'la cuisine' in English?",
       "options": {
@@ -1540,6 +1924,9 @@
     },
     {
       "id": "fra-en-0129",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'bedroom'?",
       "options": {
@@ -1552,6 +1939,9 @@
     },
     {
       "id": "fra-en-0130",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'le salon' mean in English?",
       "options": {
@@ -1564,6 +1954,9 @@
     },
     {
       "id": "fra-en-0131",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French phrase means 'bathroom'?",
       "options": {
@@ -1576,6 +1969,9 @@
     },
     {
       "id": "fra-en-0132",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'les toilettes' in English?",
       "options": {
@@ -1588,6 +1984,9 @@
     },
     {
       "id": "fra-en-0133",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'bed'?",
       "options": {
@@ -1600,6 +1999,9 @@
     },
     {
       "id": "fra-en-0134",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'le canapé' mean in English?",
       "options": {
@@ -1612,6 +2014,9 @@
     },
     {
       "id": "fra-en-0135",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'wardrobe' or 'closet'?",
       "options": {
@@ -1624,6 +2029,9 @@
     },
     {
       "id": "fra-en-0136",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'la porte' in English?",
       "options": {
@@ -1636,6 +2044,9 @@
     },
     {
       "id": "fra-en-0137",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'window'?",
       "options": {
@@ -1648,6 +2059,9 @@
     },
     {
       "id": "fra-en-0138",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'le tapis' mean in English?",
       "options": {
@@ -1660,6 +2074,9 @@
     },
     {
       "id": "fra-en-0139",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'lamp'?",
       "options": {
@@ -1672,6 +2089,9 @@
     },
     {
       "id": "fra-en-0140",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'la cuisine' used for in a house?",
       "options": {
@@ -1684,6 +2104,9 @@
     },
     {
       "id": "fra-en-0141",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'family' in general?",
       "options": {
@@ -1696,6 +2119,9 @@
     },
     {
       "id": "fra-en-0142",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'le jardin' mean in English?",
       "options": {
@@ -1708,6 +2134,9 @@
     },
     {
       "id": "fra-en-0143",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'kitchen table' or 'table'?",
       "options": {
@@ -1720,6 +2149,9 @@
     },
     {
       "id": "fra-en-0144",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'la salle à manger' in English?",
       "options": {
@@ -1732,6 +2164,9 @@
     },
     {
       "id": "fra-en-0145",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'stairs'?",
       "options": {
@@ -1744,6 +2179,9 @@
     },
     {
       "id": "fra-en-0146",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'le toit' mean in English?",
       "options": {
@@ -1756,6 +2194,9 @@
     },
     {
       "id": "fra-en-0147",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'garage'?",
       "options": {
@@ -1768,6 +2209,9 @@
     },
     {
       "id": "fra-en-0148",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le balcon' in English?",
       "options": {
@@ -1780,6 +2224,9 @@
     },
     {
       "id": "fra-en-0149",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'mirror'?",
       "options": {
@@ -1792,6 +2239,9 @@
     },
     {
       "id": "fra-en-0150",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'la salle de jeux' mean in English?",
       "options": {
@@ -1804,6 +2254,9 @@
     },
     {
       "id": "fra-en-0151",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'This is my brother' in French?",
       "options": {
@@ -1816,6 +2269,9 @@
     },
     {
       "id": "fra-en-0152",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'This is his mother' in French?",
       "options": {
@@ -1828,6 +2284,9 @@
     },
     {
       "id": "fra-en-0153",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French sentence means 'I have one brother and two sisters'?",
       "options": {
@@ -1840,6 +2299,9 @@
     },
     {
       "id": "fra-en-0154",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What does 'J'ai les yeux bleus et les cheveux bruns' tell about a person?",
       "options": {
@@ -1852,6 +2314,9 @@
     },
     {
       "id": "fra-en-0155",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French sentence means 'I read a book'?",
       "options": {
@@ -1864,6 +2329,9 @@
     },
     {
       "id": "fra-en-0156",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'I write in my notebook' in French?",
       "options": {
@@ -1876,6 +2344,9 @@
     },
     {
       "id": "fra-en-0157",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I raise my hand' in French?",
       "options": {
@@ -1888,6 +2359,9 @@
     },
     {
       "id": "fra-en-0158",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which preposition means 'in' as in 'in the room'?",
       "options": {
@@ -1900,6 +2374,9 @@
     },
     {
       "id": "fra-en-0159",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What does 'sur' mean in a sentence like 'le livre est sur la table'?",
       "options": {
@@ -1912,6 +2389,9 @@
     },
     {
       "id": "fra-en-0160",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which preposition means 'under' in French?",
       "options": {
@@ -1924,6 +2404,9 @@
     },
     {
       "id": "fra-en-0161",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What does 'devant' mean in 'la chaise est devant la table'?",
       "options": {
@@ -1936,6 +2419,9 @@
     },
     {
       "id": "fra-en-0162",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase means 'next to' in French?",
       "options": {
@@ -1948,6 +2434,9 @@
     },
     {
       "id": "fra-en-0163",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What does 'derrière' mean in 'le lit est derrière la porte'?",
       "options": {
@@ -1960,6 +2449,9 @@
     },
     {
       "id": "fra-en-0164",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence describes a room with a bed and a wardrobe?",
       "options": {
@@ -1972,6 +2464,9 @@
     },
     {
       "id": "fra-en-0165",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which possessive is correct for 'my mother' in French?",
       "options": {
@@ -1984,6 +2479,9 @@
     },
     {
       "id": "fra-en-0166",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which possessive is correct for 'my father' in French?",
       "options": {
@@ -1996,6 +2494,9 @@
     },
     {
       "id": "fra-en-0167",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'I have two sisters' in French?",
       "options": {
@@ -2008,6 +2509,9 @@
     },
     {
       "id": "fra-en-0168",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My eyes are blue' in French?",
       "options": {
@@ -2020,6 +2524,9 @@
     },
     {
       "id": "fra-en-0169",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French sentence means 'I go to school in the morning at eight'?",
       "options": {
@@ -2032,6 +2539,9 @@
     },
     {
       "id": "fra-en-0170",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My sister is in the kitchen'?",
       "options": {
@@ -2044,6 +2554,9 @@
     },
     {
       "id": "fra-en-0171",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French phrase means 'the pencil is on the desk'?",
       "options": {
@@ -2056,6 +2569,9 @@
     },
     {
       "id": "fra-en-0172",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My parents' in French?",
       "options": {
@@ -2068,6 +2584,9 @@
     },
     {
       "id": "fra-en-0173",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which is correct for 'her brother' in French?",
       "options": {
@@ -2080,6 +2599,9 @@
     },
     {
       "id": "fra-en-0174",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'There is a chair next to the table'?",
       "options": {
@@ -2092,6 +2614,9 @@
     },
     {
       "id": "fra-en-0175",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French sentence means 'My hands are clean'?",
       "options": {
@@ -2104,6 +2629,9 @@
     },
     {
       "id": "fra-en-0176",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase means 'the book is under the chair'?",
       "options": {
@@ -2116,6 +2644,9 @@
     },
     {
       "id": "fra-en-0177",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My cousin (female) is tall' in French?",
       "options": {
@@ -2128,6 +2659,9 @@
     },
     {
       "id": "fra-en-0178",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French sentence means 'I have a small backpack'?",
       "options": {
@@ -2140,6 +2674,9 @@
     },
     {
       "id": "fra-en-0179",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My father is in front of the house'?",
       "options": {
@@ -2152,6 +2689,9 @@
     },
     {
       "id": "fra-en-0180",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase means 'I put the book in the bag' in French?",
       "options": {
@@ -2164,6 +2704,9 @@
     },
     {
       "id": "fra-en-0181",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My mother has three children'?",
       "options": {
@@ -2176,6 +2719,9 @@
     },
     {
       "id": "fra-en-0182",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French phrase means 'the pencil is under the notebook'?",
       "options": {
@@ -2188,6 +2734,9 @@
     },
     {
       "id": "fra-en-0183",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My brother is eleven years old' in French?",
       "options": {
@@ -2200,6 +2749,9 @@
     },
     {
       "id": "fra-en-0184",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase correctly uses 'mes' for plural possession: 'my books'?",
       "options": {
@@ -2212,6 +2764,9 @@
     },
     {
       "id": "fra-en-0185",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'In my room there is a table and a chair'?",
       "options": {
@@ -2224,6 +2779,9 @@
     },
     {
       "id": "fra-en-0186",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Hier, j'ai vu ma grand-mère et nous avons mangé ensemble.' What happened yesterday?",
       "options": {
@@ -2236,6 +2794,9 @@
     },
     {
       "id": "fra-en-0187",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses the past tense 'a eu' to say 'had'?",
       "options": {
@@ -2248,6 +2809,9 @@
     },
     {
       "id": "fra-en-0188",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Ma sœur est allée à l'école à huit heures.' What does this tell you?",
       "options": {
@@ -2260,6 +2824,9 @@
     },
     {
       "id": "fra-en-0189",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which is the correct feminine form for 'my cousin' if the cousin is female?",
       "options": {
@@ -2272,6 +2839,9 @@
     },
     {
       "id": "fra-en-0190",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Le matin, je fais mes devoirs puis je vais à l'école.' What is the routine?",
       "options": {
@@ -2284,6 +2854,9 @@
     },
     {
       "id": "fra-en-0191",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which possessive is correct before a feminine noun 'ma sœur' or 'mon sœur'?",
       "options": {
@@ -2296,6 +2869,9 @@
     },
     {
       "id": "fra-en-0192",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Dans la chambre, il y avait un lit, une armoire et une lampe.' Which item was in the room?",
       "options": {
@@ -2308,6 +2884,9 @@
     },
     {
       "id": "fra-en-0193",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence shows correct agreement for 'my neighbor' if the neighbor is female?",
       "options": {
@@ -2320,6 +2899,9 @@
     },
     {
       "id": "fra-en-0194",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Nous avons joué dans le jardin après l'école.' What did they do after school?",
       "options": {
@@ -2332,6 +2914,9 @@
     },
     {
       "id": "fra-en-0195",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which is correct: 'mon ami' or 'ma amie' when the friend is female and the word starts with a vowel?",
       "options": {
@@ -2344,6 +2929,9 @@
     },
     {
       "id": "fra-en-0196",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Il y a trois chaises dans la cuisine.' How many chairs are in the kitchen?",
       "options": {
@@ -2356,6 +2944,9 @@
     },
     {
       "id": "fra-en-0197",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'être' in past tense to say 'was' for a feminine subject?",
       "options": {
@@ -2368,6 +2959,9 @@
     },
     {
       "id": "fra-en-0198",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Mon frère a cassé son jouet hier.' What happened to the toy?",
       "options": {
@@ -2380,6 +2974,9 @@
     },
     {
       "id": "fra-en-0199",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly distinguishes 'mon' vs 'ma' for 'my arm' (la main)?",
       "options": {
@@ -2392,6 +2989,9 @@
     },
     {
       "id": "fra-en-0200",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Le soir, elle a rangé sa chambre et a lu un livre.' What did she do in the evening?",
       "options": {
@@ -2404,6 +3004,9 @@
     },
     {
       "id": "fra-en-0201",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'dog'?",
       "options": {
@@ -2416,6 +3019,9 @@
     },
     {
       "id": "fra-en-0202",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le chat' in English?",
       "options": {
@@ -2428,6 +3034,9 @@
     },
     {
       "id": "fra-en-0203",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'horse'?",
       "options": {
@@ -2440,6 +3049,9 @@
     },
     {
       "id": "fra-en-0204",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'le lapin' mean in English?",
       "options": {
@@ -2452,6 +3064,9 @@
     },
     {
       "id": "fra-en-0205",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'bird'?",
       "options": {
@@ -2464,6 +3079,9 @@
     },
     {
       "id": "fra-en-0206",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le poisson' in English?",
       "options": {
@@ -2476,6 +3094,9 @@
     },
     {
       "id": "fra-en-0207",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'cow'?",
       "options": {
@@ -2488,6 +3109,9 @@
     },
     {
       "id": "fra-en-0208",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'le cochon' mean in English?",
       "options": {
@@ -2500,6 +3124,9 @@
     },
     {
       "id": "fra-en-0209",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'lion'?",
       "options": {
@@ -2512,6 +3139,9 @@
     },
     {
       "id": "fra-en-0210",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'l'éléphant' in English?",
       "options": {
@@ -2524,6 +3154,9 @@
     },
     {
       "id": "fra-en-0211",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'monkey'?",
       "options": {
@@ -2536,6 +3169,9 @@
     },
     {
       "id": "fra-en-0212",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'la girafe' mean in English?",
       "options": {
@@ -2548,6 +3184,9 @@
     },
     {
       "id": "fra-en-0213",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'tiger'?",
       "options": {
@@ -2560,6 +3199,9 @@
     },
     {
       "id": "fra-en-0214",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le loup' in English?",
       "options": {
@@ -2572,6 +3214,9 @@
     },
     {
       "id": "fra-en-0215",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'bear'?",
       "options": {
@@ -2584,6 +3229,9 @@
     },
     {
       "id": "fra-en-0216",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'la pomme' mean in English?",
       "options": {
@@ -2596,6 +3244,9 @@
     },
     {
       "id": "fra-en-0217",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'banana'?",
       "options": {
@@ -2608,6 +3259,9 @@
     },
     {
       "id": "fra-en-0218",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le raisin' in English?",
       "options": {
@@ -2620,6 +3274,9 @@
     },
     {
       "id": "fra-en-0219",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'orange' (fruit)?",
       "options": {
@@ -2632,6 +3289,9 @@
     },
     {
       "id": "fra-en-0220",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'la fraise' mean in English?",
       "options": {
@@ -2644,6 +3304,9 @@
     },
     {
       "id": "fra-en-0221",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'pear'?",
       "options": {
@@ -2656,6 +3319,9 @@
     },
     {
       "id": "fra-en-0222",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'la cerise' in English?",
       "options": {
@@ -2668,6 +3334,9 @@
     },
     {
       "id": "fra-en-0223",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'carrot'?",
       "options": {
@@ -2680,6 +3349,9 @@
     },
     {
       "id": "fra-en-0224",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'la tomate' mean in English?",
       "options": {
@@ -2692,6 +3364,9 @@
     },
     {
       "id": "fra-en-0225",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'lettuce' or 'salad'?",
       "options": {
@@ -2704,6 +3379,9 @@
     },
     {
       "id": "fra-en-0226",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le haricot' in English?",
       "options": {
@@ -2716,6 +3394,9 @@
     },
     {
       "id": "fra-en-0227",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French phrase means 'potato'?",
       "options": {
@@ -2728,6 +3409,9 @@
     },
     {
       "id": "fra-en-0228",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'le concombre' mean in English?",
       "options": {
@@ -2740,6 +3424,9 @@
     },
     {
       "id": "fra-en-0229",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'breakfast'?",
       "options": {
@@ -2752,6 +3439,9 @@
     },
     {
       "id": "fra-en-0230",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le déjeuner' in English in many French-speaking countries?",
       "options": {
@@ -2764,6 +3454,9 @@
     },
     {
       "id": "fra-en-0231",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'dinner'?",
       "options": {
@@ -2776,6 +3469,9 @@
     },
     {
       "id": "fra-en-0232",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'le goûter' usually mean for children in France?",
       "options": {
@@ -2788,6 +3484,9 @@
     },
     {
       "id": "fra-en-0233",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'bread'?",
       "options": {
@@ -2800,6 +3499,9 @@
     },
     {
       "id": "fra-en-0234",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le fromage' in English?",
       "options": {
@@ -2812,6 +3514,9 @@
     },
     {
       "id": "fra-en-0235",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'milk'?",
       "options": {
@@ -2824,6 +3529,9 @@
     },
     {
       "id": "fra-en-0236",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'l'eau' mean in English?",
       "options": {
@@ -2836,6 +3544,9 @@
     },
     {
       "id": "fra-en-0237",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'juice'?",
       "options": {
@@ -2848,6 +3559,9 @@
     },
     {
       "id": "fra-en-0238",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le gâteau' in English?",
       "options": {
@@ -2860,6 +3574,9 @@
     },
     {
       "id": "fra-en-0239",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French animal is 'la vache'?",
       "options": {
@@ -2872,6 +3589,9 @@
     },
     {
       "id": "fra-en-0240",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'l'oiseau' usually do in nature?",
       "options": {
@@ -2884,6 +3604,9 @@
     },
     {
       "id": "fra-en-0241",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'farm' related to animals like cows and pigs?",
       "options": {
@@ -2896,6 +3619,9 @@
     },
     {
       "id": "fra-en-0242",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'la forêt' in English?",
       "options": {
@@ -2908,6 +3634,9 @@
     },
     {
       "id": "fra-en-0243",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'mountain'?",
       "options": {
@@ -2920,6 +3649,9 @@
     },
     {
       "id": "fra-en-0244",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'la mer' mean in English?",
       "options": {
@@ -2932,6 +3664,9 @@
     },
     {
       "id": "fra-en-0245",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'river'?",
       "options": {
@@ -2944,6 +3679,9 @@
     },
     {
       "id": "fra-en-0246",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le désert' in English?",
       "options": {
@@ -2956,6 +3694,9 @@
     },
     {
       "id": "fra-en-0247",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'beach'?",
       "options": {
@@ -2968,6 +3709,9 @@
     },
     {
       "id": "fra-en-0248",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'Il fait beau' mean in English?",
       "options": {
@@ -2980,6 +3724,9 @@
     },
     {
       "id": "fra-en-0249",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French phrase means 'It is raining'?",
       "options": {
@@ -2992,6 +3739,9 @@
     },
     {
       "id": "fra-en-0250",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'Il neige' mean in English?",
       "options": {
@@ -3004,6 +3754,9 @@
     },
     {
       "id": "fra-en-0251",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'The fish lives in the water'?",
       "options": {
@@ -3016,6 +3769,9 @@
     },
     {
       "id": "fra-en-0252",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'The bird lives in the trees' in French?",
       "options": {
@@ -3028,6 +3784,9 @@
     },
     {
       "id": "fra-en-0253",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French sentence means 'I like strawberries'?",
       "options": {
@@ -3040,6 +3799,9 @@
     },
     {
       "id": "fra-en-0254",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I do not like spinach' in French?",
       "options": {
@@ -3052,6 +3814,9 @@
     },
     {
       "id": "fra-en-0255",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How would you order in a café: 'I would like a croissant and orange juice, please'?",
       "options": {
@@ -3064,6 +3829,9 @@
     },
     {
       "id": "fra-en-0256",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'forest'?",
       "options": {
@@ -3076,6 +3844,9 @@
     },
     {
       "id": "fra-en-0257",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What does 'la montagne' mean in English?",
       "options": {
@@ -3088,6 +3859,9 @@
     },
     {
       "id": "fra-en-0258",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'sea' or 'ocean'?",
       "options": {
@@ -3100,6 +3874,9 @@
     },
     {
       "id": "fra-en-0259",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What does 'le fleuve' refer to in English?",
       "options": {
@@ -3112,6 +3889,9 @@
     },
     {
       "id": "fra-en-0260",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French phrase means 'It is hot'?",
       "options": {
@@ -3124,6 +3904,9 @@
     },
     {
       "id": "fra-en-0261",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'It is cold' in French?",
       "options": {
@@ -3136,6 +3919,9 @@
     },
     {
       "id": "fra-en-0262",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which season is 'en automne' and what happens to leaves?",
       "options": {
@@ -3148,6 +3934,9 @@
     },
     {
       "id": "fra-en-0263",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'The cat is small and black' in French?",
       "options": {
@@ -3160,6 +3949,9 @@
     },
     {
       "id": "fra-en-0264",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'In summer it is hot' in French?",
       "options": {
@@ -3172,6 +3964,9 @@
     },
     {
       "id": "fra-en-0265",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase correctly uses a partitive article for 'some cheese'?",
       "options": {
@@ -3184,6 +3979,9 @@
     },
     {
       "id": "fra-en-0266",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I like apples' in French?",
       "options": {
@@ -3196,6 +3994,9 @@
     },
     {
       "id": "fra-en-0267",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How would you say 'I would like water, please' in French?",
       "options": {
@@ -3208,6 +4009,9 @@
     },
     {
       "id": "fra-en-0268",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'The bird lives in the tree' using singular?",
       "options": {
@@ -3220,6 +4024,9 @@
     },
     {
       "id": "fra-en-0269",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'beach' and is a place to swim?",
       "options": {
@@ -3232,6 +4039,9 @@
     },
     {
       "id": "fra-en-0270",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'It is cloudy' in French?",
       "options": {
@@ -3244,6 +4054,9 @@
     },
     {
       "id": "fra-en-0271",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I do not like tomatoes' in French?",
       "options": {
@@ -3256,6 +4069,9 @@
     },
     {
       "id": "fra-en-0272",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase uses the correct partitive for 'some water'?",
       "options": {
@@ -3268,6 +4084,9 @@
     },
     {
       "id": "fra-en-0273",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'I like strawberries but I do not like spinach' in French?",
       "options": {
@@ -3280,6 +4099,9 @@
     },
     {
       "id": "fra-en-0274",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'forest path' or 'trail' (simple vocabulary)?",
       "options": {
@@ -3292,6 +4114,9 @@
     },
     {
       "id": "fra-en-0275",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I eat breakfast at seven' in French?",
       "options": {
@@ -3304,6 +4129,9 @@
     },
     {
       "id": "fra-en-0276",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase correctly says 'some bread' in French?",
       "options": {
@@ -3316,6 +4144,9 @@
     },
     {
       "id": "fra-en-0277",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'The cow is in the field' in French?",
       "options": {
@@ -3328,6 +4159,9 @@
     },
     {
       "id": "fra-en-0278",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'It is windy today' in French?",
       "options": {
@@ -3340,6 +4174,9 @@
     },
     {
       "id": "fra-en-0279",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French phrase means 'I would like some cheese' politely?",
       "options": {
@@ -3352,6 +4189,9 @@
     },
     {
       "id": "fra-en-0280",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'The rabbit eats carrots' in French?",
       "options": {
@@ -3364,6 +4204,9 @@
     },
     {
       "id": "fra-en-0281",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I do not want any spinach' using partitive negative?",
       "options": {
@@ -3376,6 +4219,9 @@
     },
     {
       "id": "fra-en-0282",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word means 'field' where animals graze?",
       "options": {
@@ -3388,6 +4234,9 @@
     },
     {
       "id": "fra-en-0283",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'I would like a croissant' in French politely?",
       "options": {
@@ -3400,6 +4249,9 @@
     },
     {
       "id": "fra-en-0284",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'The sea is calm' in French?",
       "options": {
@@ -3412,6 +4264,9 @@
     },
     {
       "id": "fra-en-0285",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French phrase means 'I like fish'?",
       "options": {
@@ -3424,6 +4279,9 @@
     },
     {
       "id": "fra-en-0286",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read this short menu: 'Entrée: salade; Plat: soupe de légumes; Dessert: tarte aux pommes.' What is the dessert?",
       "options": {
@@ -3436,6 +4294,9 @@
     },
     {
       "id": "fra-en-0287",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly describes a small black cat in French?",
       "options": {
@@ -3448,6 +4309,9 @@
     },
     {
       "id": "fra-en-0288",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "How do you say 'In the evening I eat soup' in French?",
       "options": {
@@ -3460,6 +4324,9 @@
     },
     {
       "id": "fra-en-0289",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence uses the correct partitive for 'some apples'?",
       "options": {
@@ -3472,6 +4339,9 @@
     },
     {
       "id": "fra-en-0290",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'En automne, les feuilles tombent des arbres.' What happens in autumn?",
       "options": {
@@ -3484,6 +4354,9 @@
     },
     {
       "id": "fra-en-0291",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly agrees the adjective for a feminine noun: 'a small white cow'?",
       "options": {
@@ -3496,6 +4369,9 @@
     },
     {
       "id": "fra-en-0292",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read this weather forecast: 'Demain: il fera froid et il pleuvra.' What will the weather be tomorrow?",
       "options": {
@@ -3508,6 +4384,9 @@
     },
     {
       "id": "fra-en-0293",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'du' for a masculine partitive: 'I want some cheese'?",
       "options": {
@@ -3520,6 +4399,9 @@
     },
     {
       "id": "fra-en-0294",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Le chat est petit, noir et très rapide.' Which two adjectives describe the cat?",
       "options": {
@@ -3532,6 +4414,9 @@
     },
     {
       "id": "fra-en-0295",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'de la' for a feminine partitive: 'I would like some soup'?",
       "options": {
@@ -3544,6 +4429,9 @@
     },
     {
       "id": "fra-en-0296",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Le matin, je prends du pain et du fromage.' What does the person eat in the morning?",
       "options": {
@@ -3556,6 +4444,9 @@
     },
     {
       "id": "fra-en-0297",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'des' for plural partitive: 'I eat some apples'?",
       "options": {
@@ -3568,6 +4459,9 @@
     },
     {
       "id": "fra-en-0298",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Le poisson est dans l'eau et le chien est sur la rive.' Where is the dog?",
       "options": {
@@ -3580,6 +4474,9 @@
     },
     {
       "id": "fra-en-0299",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly describes 'I ate a cake' in French past tense (simple past for spoken French)?",
       "options": {
@@ -3592,6 +4489,9 @@
     },
     {
       "id": "fra-en-0300",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Aujourd'hui il fait beau; nous allons à la plage.' What will they do today?",
       "options": {
@@ -3604,6 +4504,9 @@
     },
     {
       "id": "fra-en-0301",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which definite article goes with a masculine noun like 'le livre'?",
       "options": {
@@ -3616,6 +4519,9 @@
     },
     {
       "id": "fra-en-0302",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which definite article is used for a feminine noun like 'la fleur'?",
       "options": {
@@ -3628,6 +4534,9 @@
     },
     {
       "id": "fra-en-0303",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which article is used before a vowel sound, as in 'l'école'?",
       "options": {
@@ -3640,6 +4549,9 @@
     },
     {
       "id": "fra-en-0304",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which plural definite article is correct for 'les enfants'?",
       "options": {
@@ -3652,6 +4564,9 @@
     },
     {
       "id": "fra-en-0305",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which indefinite article means 'a' for a masculine noun: 'un' or 'une'?",
       "options": {
@@ -3664,6 +4579,9 @@
     },
     {
       "id": "fra-en-0306",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which indefinite article means 'a' for a feminine noun?",
       "options": {
@@ -3676,6 +4594,9 @@
     },
     {
       "id": "fra-en-0307",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which article is used for plural 'some' as in 'des livres'?",
       "options": {
@@ -3688,6 +4609,9 @@
     },
     {
       "id": "fra-en-0308",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun means 'I' in French?",
       "options": {
@@ -3700,6 +4624,9 @@
     },
     {
       "id": "fra-en-0309",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun means 'you' (informal singular)?",
       "options": {
@@ -3712,6 +4639,9 @@
     },
     {
       "id": "fra-en-0310",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun means 'we' in French?",
       "options": {
@@ -3724,6 +4654,9 @@
     },
     {
       "id": "fra-en-0311",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun means 'they' for a group of females?",
       "options": {
@@ -3736,6 +4669,9 @@
     },
     {
       "id": "fra-en-0312",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the correct present tense form of 'être' for 'je'?",
       "options": {
@@ -3748,6 +4684,9 @@
     },
     {
       "id": "fra-en-0313",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the correct present tense form of 'être' for 'il'?",
       "options": {
@@ -3760,6 +4699,9 @@
     },
     {
       "id": "fra-en-0314",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the correct present tense form of 'avoir' for 'j'' (I have)?",
       "options": {
@@ -3772,6 +4714,9 @@
     },
     {
       "id": "fra-en-0315",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the correct present tense form of 'avoir' for 'tu'?",
       "options": {
@@ -3784,6 +4729,9 @@
     },
     {
       "id": "fra-en-0316",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which definite article fits 'le soleil' (the sun)?",
       "options": {
@@ -3796,6 +4744,9 @@
     },
     {
       "id": "fra-en-0317",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which definite article fits 'la lune' (the moon)?",
       "options": {
@@ -3808,6 +4759,9 @@
     },
     {
       "id": "fra-en-0318",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which article is correct for 'l'arbre' (the tree) starting with a vowel sound?",
       "options": {
@@ -3820,6 +4774,9 @@
     },
     {
       "id": "fra-en-0319",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun would you use for 'she'?",
       "options": {
@@ -3832,6 +4789,9 @@
     },
     {
       "id": "fra-en-0320",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun would you use for 'they' (mixed or all male)?",
       "options": {
@@ -3844,6 +4804,9 @@
     },
     {
       "id": "fra-en-0321",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which present tense form of 'être' matches 'nous'?",
       "options": {
@@ -3856,6 +4819,9 @@
     },
     {
       "id": "fra-en-0322",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which present tense form of 'avoir' matches 'ils'?",
       "options": {
@@ -3868,6 +4834,9 @@
     },
     {
       "id": "fra-en-0323",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which indefinite article would you use for 'a flower' (une fleur)?",
       "options": {
@@ -3880,6 +4849,9 @@
     },
     {
       "id": "fra-en-0324",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which indefinite article would you use for 'a book' (un livre)?",
       "options": {
@@ -3892,6 +4864,9 @@
     },
     {
       "id": "fra-en-0325",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which article is correct for 'les étoiles' (the stars)?",
       "options": {
@@ -3904,6 +4879,9 @@
     },
     {
       "id": "fra-en-0326",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun is formal or plural 'you' in French?",
       "options": {
@@ -3916,6 +4894,9 @@
     },
     {
       "id": "fra-en-0327",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which present tense form of 'être' matches 'vous'?",
       "options": {
@@ -3928,6 +4909,9 @@
     },
     {
       "id": "fra-en-0328",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which present tense form of 'avoir' matches 'nous'?",
       "options": {
@@ -3940,6 +4924,9 @@
     },
     {
       "id": "fra-en-0329",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which article is correct for 'l'hôtel' (the hotel) starting with a vowel sound?",
       "options": {
@@ -3952,6 +4939,9 @@
     },
     {
       "id": "fra-en-0330",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun would you use for 'he and I' (we)?",
       "options": {
@@ -3964,6 +4954,9 @@
     },
     {
       "id": "fra-en-0331",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which article fits 'la table' (the table)?",
       "options": {
@@ -3976,6 +4969,9 @@
     },
     {
       "id": "fra-en-0332",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which indefinite article would you use for 'some chairs' (plural)?",
       "options": {
@@ -3988,6 +4984,9 @@
     },
     {
       "id": "fra-en-0333",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun is used for 'you and your friend' (plural informal or formal)?",
       "options": {
@@ -4000,6 +4999,9 @@
     },
     {
       "id": "fra-en-0334",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which present tense form of 'être' matches 'ils'?",
       "options": {
@@ -4012,6 +5014,9 @@
     },
     {
       "id": "fra-en-0335",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which present tense form of 'avoir' matches 'elle'?",
       "options": {
@@ -4024,6 +5029,9 @@
     },
     {
       "id": "fra-en-0336",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which article is correct for 'le chien' (the dog)?",
       "options": {
@@ -4036,6 +5044,9 @@
     },
     {
       "id": "fra-en-0337",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which article is correct for 'la maison' (the house)?",
       "options": {
@@ -4048,6 +5059,9 @@
     },
     {
       "id": "fra-en-0338",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun would you use for 'they' when speaking about a group of boys?",
       "options": {
@@ -4060,6 +5074,9 @@
     },
     {
       "id": "fra-en-0339",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which indefinite article would you use for 'a pencil' (un crayon)?",
       "options": {
@@ -4072,6 +5089,9 @@
     },
     {
       "id": "fra-en-0340",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which present tense form of 'être' matches 'tu'?",
       "options": {
@@ -4084,6 +5104,9 @@
     },
     {
       "id": "fra-en-0341",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which present tense form of 'avoir' matches 'vous'?",
       "options": {
@@ -4096,6 +5119,9 @@
     },
     {
       "id": "fra-en-0342",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which article is correct for 'l'ami' (the friend) starting with a vowel sound?",
       "options": {
@@ -4108,6 +5134,9 @@
     },
     {
       "id": "fra-en-0343",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun would you use for 'you' when speaking to one adult formally?",
       "options": {
@@ -4120,6 +5149,9 @@
     },
     {
       "id": "fra-en-0344",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which indefinite article is correct for 'a chair' (une chaise)?",
       "options": {
@@ -4132,6 +5164,9 @@
     },
     {
       "id": "fra-en-0345",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which definite article is used with 'les livres' (the books)?",
       "options": {
@@ -4144,6 +5179,9 @@
     },
     {
       "id": "fra-en-0346",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun would you use for 'you and I' (we)?",
       "options": {
@@ -4156,6 +5194,9 @@
     },
     {
       "id": "fra-en-0347",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which present tense form of 'avoir' matches 'tu'?",
       "options": {
@@ -4168,6 +5209,9 @@
     },
     {
       "id": "fra-en-0348",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which article is correct for 'l'école' (the school) starting with a vowel sound?",
       "options": {
@@ -4180,6 +5224,9 @@
     },
     {
       "id": "fra-en-0349",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which subject pronoun would you use for 'they' when speaking about a group of girls?",
       "options": {
@@ -4192,6 +5239,9 @@
     },
     {
       "id": "fra-en-0350",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which indefinite article is correct for 'some apples' (des pommes)?",
       "options": {
@@ -4204,6 +5254,9 @@
     },
     {
       "id": "fra-en-0351",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which ending is correct for the present tense of a regular -ER verb with 'je' (parler)?",
       "options": {
@@ -4216,6 +5269,9 @@
     },
     {
       "id": "fra-en-0352",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'aller' matches 'nous'?",
       "options": {
@@ -4228,6 +5284,9 @@
     },
     {
       "id": "fra-en-0353",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'faire' matches 'il'?",
       "options": {
@@ -4240,6 +5299,9 @@
     },
     {
       "id": "fra-en-0354",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you form simple negation for 'I speak' (je parle)?",
       "options": {
@@ -4252,6 +5314,9 @@
     },
     {
       "id": "fra-en-0355",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which question form asks 'Do you speak French?' politely?",
       "options": {
@@ -4264,6 +5329,9 @@
     },
     {
       "id": "fra-en-0356",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which answer correctly says 'Yes, I speak French'?",
       "options": {
@@ -4276,6 +5344,9 @@
     },
     {
       "id": "fra-en-0357",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'manger' matches 'tu'?",
       "options": {
@@ -4288,6 +5359,9 @@
     },
     {
       "id": "fra-en-0358",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'jouer' matches 'ils'?",
       "options": {
@@ -4300,6 +5374,9 @@
     },
     {
       "id": "fra-en-0359",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence is correct negative for 'He likes apples' (Il aime les pommes)?",
       "options": {
@@ -4312,6 +5389,9 @@
     },
     {
       "id": "fra-en-0360",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'habiter' matches 'nous'?",
       "options": {
@@ -4324,6 +5404,9 @@
     },
     {
       "id": "fra-en-0361",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which form is correct for 'you go' (informal) using 'aller'?",
       "options": {
@@ -4336,6 +5419,9 @@
     },
     {
       "id": "fra-en-0362",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'faire' matches 'nous'?",
       "options": {
@@ -4348,6 +5434,9 @@
     },
     {
       "id": "fra-en-0363",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence is a correct question: 'Do you play?' informal?",
       "options": {
@@ -4360,6 +5449,9 @@
     },
     {
       "id": "fra-en-0364",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which answer correctly says 'No, I do not speak French'?",
       "options": {
@@ -4372,6 +5464,9 @@
     },
     {
       "id": "fra-en-0365",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense ending is for 'vous' with regular -ER verbs (parler)?",
       "options": {
@@ -4384,6 +5479,9 @@
     },
     {
       "id": "fra-en-0366",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence correctly negates 'Je mange une pomme'?",
       "options": {
@@ -4396,6 +5494,9 @@
     },
     {
       "id": "fra-en-0367",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which is the correct present tense for 'ils' with 'aller'?",
       "options": {
@@ -4408,6 +5509,9 @@
     },
     {
       "id": "fra-en-0368",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence asks 'Do you live here?' politely?",
       "options": {
@@ -4420,6 +5524,9 @@
     },
     {
       "id": "fra-en-0369",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'parler' matches 'ils'?",
       "options": {
@@ -4432,6 +5539,9 @@
     },
     {
       "id": "fra-en-0370",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence correctly negates 'Il aime le chocolat'?",
       "options": {
@@ -4444,6 +5554,9 @@
     },
     {
       "id": "fra-en-0371",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'manger' matches 'nous'?",
       "options": {
@@ -4456,6 +5569,9 @@
     },
     {
       "id": "fra-en-0372",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence is a polite question: 'Do you speak French?' formal?",
       "options": {
@@ -4468,6 +5584,9 @@
     },
     {
       "id": "fra-en-0373",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'faire' matches 'tu'?",
       "options": {
@@ -4480,6 +5599,9 @@
     },
     {
       "id": "fra-en-0374",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence correctly answers 'Est-ce que tu joues?' with 'Yes, I play'?",
       "options": {
@@ -4492,6 +5614,9 @@
     },
     {
       "id": "fra-en-0375",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'aller' matches 'il'?",
       "options": {
@@ -4504,6 +5629,9 @@
     },
     {
       "id": "fra-en-0376",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence correctly negates 'Nous parlons anglais'?",
       "options": {
@@ -4516,6 +5644,9 @@
     },
     {
       "id": "fra-en-0377",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'parler' matches 'vous'?",
       "options": {
@@ -4528,6 +5659,9 @@
     },
     {
       "id": "fra-en-0378",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence is correct: 'He does' using 'faire' for 'il'?",
       "options": {
@@ -4540,6 +5674,9 @@
     },
     {
       "id": "fra-en-0379",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'manger' matches 'vous'?",
       "options": {
@@ -4552,6 +5689,9 @@
     },
     {
       "id": "fra-en-0380",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence correctly asks 'Do you like apples?' informal?",
       "options": {
@@ -4564,6 +5704,9 @@
     },
     {
       "id": "fra-en-0381",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'habiter' matches 'tu'?",
       "options": {
@@ -4576,6 +5719,9 @@
     },
     {
       "id": "fra-en-0382",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence correctly negates 'Il va à l'école'?",
       "options": {
@@ -4588,6 +5734,9 @@
     },
     {
       "id": "fra-en-0383",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'aller' matches 'vous'?",
       "options": {
@@ -4600,6 +5749,9 @@
     },
     {
       "id": "fra-en-0384",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence correctly answers 'Est-ce que vous parlez anglais?' with 'No, we do not'?",
       "options": {
@@ -4612,6 +5764,9 @@
     },
     {
       "id": "fra-en-0385",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which present tense form of 'faire' matches 'ils'?",
       "options": {
@@ -4624,6 +5779,9 @@
     },
     {
       "id": "fra-en-0386",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which present tense form of 'vouloir' matches 'je'?",
       "options": {
@@ -4636,6 +5794,9 @@
     },
     {
       "id": "fra-en-0387",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which present tense form of 'pouvoir' matches 'je'?",
       "options": {
@@ -4648,6 +5809,9 @@
     },
     {
       "id": "fra-en-0388",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which present tense form of 'venir' matches 'nous'?",
       "options": {
@@ -4660,6 +5824,9 @@
     },
     {
       "id": "fra-en-0389",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Choose the correct sentence after negation: 'I do not have a dog' in French uses which article?",
       "options": {
@@ -4672,6 +5839,9 @@
     },
     {
       "id": "fra-en-0390",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which example shows correct elision before a vowel: 'the tree'?",
       "options": {
@@ -4684,6 +5854,9 @@
     },
     {
       "id": "fra-en-0391",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which pronoun is informal singular 'you' and which is formal/plural 'you'?",
       "options": {
@@ -4696,6 +5869,9 @@
     },
     {
       "id": "fra-en-0392",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read this short dialogue: 'A: Est-ce que tu viens? B: Oui, je viens.' Which verb and subject does B use?",
       "options": {
@@ -4708,6 +5884,9 @@
     },
     {
       "id": "fra-en-0393",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'mon' before a feminine noun starting with a vowel: 'my friend (female)'?",
       "options": {
@@ -4720,6 +5899,9 @@
     },
     {
       "id": "fra-en-0394",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly distinguishes 'tu' vs 'vous' in a question to a teacher?",
       "options": {
@@ -4732,6 +5914,9 @@
     },
     {
       "id": "fra-en-0395",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses elision with 'je' before a vowel: 'I have'?",
       "options": {
@@ -4744,6 +5929,9 @@
     },
     {
       "id": "fra-en-0396",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'de' after negation: 'We do not have any apples'?",
       "options": {
@@ -4756,6 +5944,9 @@
     },
     {
       "id": "fra-en-0397",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Est-ce que vous pouvez m'aider ?' Which verb and meaning are used?",
       "options": {
@@ -4768,6 +5959,9 @@
     },
     {
       "id": "fra-en-0398",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'je veux' to say 'I want'?",
       "options": {
@@ -4780,6 +5974,9 @@
     },
     {
       "id": "fra-en-0399",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read this short exchange: 'Tu as un stylo? — Non, je n'ai pas de stylo.' What grammar point is shown?",
       "options": {
@@ -4792,6 +5989,9 @@
     },
     {
       "id": "fra-en-0400",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'venir' for 'they come' (mixed group)?",
       "options": {
@@ -4804,6 +6004,9 @@
     },
     {
       "id": "fra-en-0401",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "How do you say 'My name is Anna' in French?",
       "options": {
@@ -4816,6 +6019,9 @@
     },
     {
       "id": "fra-en-0402",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which question asks 'What is your name?' in French (informal)?",
       "options": {
@@ -4828,6 +6034,9 @@
     },
     {
       "id": "fra-en-0403",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "How do you say 'I am eight years old' in French?",
       "options": {
@@ -4840,6 +6049,9 @@
     },
     {
       "id": "fra-en-0404",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I live in Paris'?",
       "options": {
@@ -4852,6 +6064,9 @@
     },
     {
       "id": "fra-en-0405",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French sentence means 'I am tall' for a girl?",
       "options": {
@@ -4864,6 +6079,9 @@
     },
     {
       "id": "fra-en-0406",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I am happy' (female speaker)?",
       "options": {
@@ -4876,6 +6094,9 @@
     },
     {
       "id": "fra-en-0407",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word names the French flag color set (blue, white, red)?",
       "options": {
@@ -4888,6 +6109,9 @@
     },
     {
       "id": "fra-en-0408",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of France?",
       "options": {
@@ -4900,6 +6124,9 @@
     },
     {
       "id": "fra-en-0409",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which currency is used in France?",
       "options": {
@@ -4912,6 +6139,9 @@
     },
     {
       "id": "fra-en-0410",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which famous Paris landmark is 'la tour Eiffel'?",
       "options": {
@@ -4924,6 +6154,9 @@
     },
     {
       "id": "fra-en-0411",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "How do you ask 'How old are you?' in French (informal)?",
       "options": {
@@ -4936,6 +6169,9 @@
     },
     {
       "id": "fra-en-0412",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I live in a house'?",
       "options": {
@@ -4948,6 +6184,9 @@
     },
     {
       "id": "fra-en-0413",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'My name is Tom'?",
       "options": {
@@ -4960,6 +6199,9 @@
     },
     {
       "id": "fra-en-0414",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French phrase means 'I am nine years old'?",
       "options": {
@@ -4972,6 +6214,9 @@
     },
     {
       "id": "fra-en-0415",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which question asks 'Where do you live?' in French (informal)?",
       "options": {
@@ -4984,6 +6229,9 @@
     },
     {
       "id": "fra-en-0416",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I am sad' (male speaker)?",
       "options": {
@@ -4996,6 +6244,9 @@
     },
     {
       "id": "fra-en-0417",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I live in the Philippines' in French?",
       "options": {
@@ -5008,6 +6259,9 @@
     },
     {
       "id": "fra-en-0418",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I am a student' in French?",
       "options": {
@@ -5020,6 +6274,9 @@
     },
     {
       "id": "fra-en-0419",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'My name is Pierre' using 'Je m'appelle'?",
       "options": {
@@ -5032,6 +6289,9 @@
     },
     {
       "id": "fra-en-0420",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'capital' as in 'la capitale'?",
       "options": {
@@ -5044,6 +6304,9 @@
     },
     {
       "id": "fra-en-0421",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I live in a city'?",
       "options": {
@@ -5056,6 +6319,9 @@
     },
     {
       "id": "fra-en-0422",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I am eleven years old' in French?",
       "options": {
@@ -5068,6 +6334,9 @@
     },
     {
       "id": "fra-en-0423",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which question asks 'How are you?' in French (informal)?",
       "options": {
@@ -5080,6 +6349,9 @@
     },
     {
       "id": "fra-en-0424",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I live in a small town'?",
       "options": {
@@ -5092,6 +6364,9 @@
     },
     {
       "id": "fra-en-0425",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I am happy' (male speaker)?",
       "options": {
@@ -5104,6 +6379,9 @@
     },
     {
       "id": "fra-en-0426",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French phrase asks 'What is your name?' formally?",
       "options": {
@@ -5116,6 +6394,9 @@
     },
     {
       "id": "fra-en-0427",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I live near the sea'?",
       "options": {
@@ -5128,6 +6409,9 @@
     },
     {
       "id": "fra-en-0428",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I am twelve years old' in French?",
       "options": {
@@ -5140,6 +6424,9 @@
     },
     {
       "id": "fra-en-0429",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'My house is big'?",
       "options": {
@@ -5152,6 +6439,9 @@
     },
     {
       "id": "fra-en-0430",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I live in a flat/apartment'?",
       "options": {
@@ -5164,6 +6454,9 @@
     },
     {
       "id": "fra-en-0431",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'My name is Sophie'?",
       "options": {
@@ -5176,6 +6469,9 @@
     },
     {
       "id": "fra-en-0432",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I am small' for a girl?",
       "options": {
@@ -5188,6 +6484,9 @@
     },
     {
       "id": "fra-en-0433",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'flag'?",
       "options": {
@@ -5200,6 +6499,9 @@
     },
     {
       "id": "fra-en-0434",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I live in the countryside'?",
       "options": {
@@ -5212,6 +6514,9 @@
     },
     {
       "id": "fra-en-0435",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I am thirteen years old' in French?",
       "options": {
@@ -5224,6 +6529,9 @@
     },
     {
       "id": "fra-en-0436",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I live with my family'?",
       "options": {
@@ -5236,6 +6544,9 @@
     },
     {
       "id": "fra-en-0437",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'My favorite place is Paris'?",
       "options": {
@@ -5248,6 +6559,9 @@
     },
     {
       "id": "fra-en-0438",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I live on an island'?",
       "options": {
@@ -5260,6 +6574,9 @@
     },
     {
       "id": "fra-en-0439",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I am fourteen years old' in French?",
       "options": {
@@ -5272,6 +6589,9 @@
     },
     {
       "id": "fra-en-0440",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I live near my school'?",
       "options": {
@@ -5284,6 +6604,9 @@
     },
     {
       "id": "fra-en-0441",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'My name is Lucas'?",
       "options": {
@@ -5296,6 +6619,9 @@
     },
     {
       "id": "fra-en-0442",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I am five years old' in French?",
       "options": {
@@ -5308,6 +6634,9 @@
     },
     {
       "id": "fra-en-0443",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which question asks 'Where do you live?' formally?",
       "options": {
@@ -5320,6 +6649,9 @@
     },
     {
       "id": "fra-en-0444",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I am a child' in French?",
       "options": {
@@ -5332,6 +6664,9 @@
     },
     {
       "id": "fra-en-0445",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I live in the capital'?",
       "options": {
@@ -5344,6 +6679,9 @@
     },
     {
       "id": "fra-en-0446",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'My house is small'?",
       "options": {
@@ -5356,6 +6694,9 @@
     },
     {
       "id": "fra-en-0447",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I live with my parents'?",
       "options": {
@@ -5368,6 +6709,9 @@
     },
     {
       "id": "fra-en-0448",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I am sixteen years old' in French?",
       "options": {
@@ -5380,6 +6724,9 @@
     },
     {
       "id": "fra-en-0449",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'My favorite monument is the Eiffel Tower'?",
       "options": {
@@ -5392,6 +6739,9 @@
     },
     {
       "id": "fra-en-0450",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sentence means 'I live in a village' in French?",
       "options": {
@@ -5404,6 +6754,9 @@
     },
     {
       "id": "fra-en-0451",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I like to play football' in French?",
       "options": {
@@ -5416,6 +6769,9 @@
     },
     {
       "id": "fra-en-0452",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'I swim' in French as a hobby?",
       "options": {
@@ -5428,6 +6784,9 @@
     },
     {
       "id": "fra-en-0453",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My favorite subject is math'?",
       "options": {
@@ -5440,6 +6799,9 @@
     },
     {
       "id": "fra-en-0454",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which preposition is correct: 'I live in France'?",
       "options": {
@@ -5452,6 +6814,9 @@
     },
     {
       "id": "fra-en-0455",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I live in Paris' correctly?",
       "options": {
@@ -5464,6 +6829,9 @@
     },
     {
       "id": "fra-en-0456",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Read: 'Je m'appelle Claire. Mon ami s'appelle Marc. Il a dix ans.' How old is Marc?",
       "options": {
@@ -5476,6 +6844,9 @@
     },
     {
       "id": "fra-en-0457",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence describes a friend: 'My friend is called Sophie. She is twelve'?",
       "options": {
@@ -5488,6 +6859,9 @@
     },
     {
       "id": "fra-en-0458",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French sentence means 'I like music'?",
       "options": {
@@ -5500,6 +6874,9 @@
     },
     {
       "id": "fra-en-0459",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence correctly uses 'en' for a country: 'I live in Spain'?",
       "options": {
@@ -5512,6 +6889,9 @@
     },
     {
       "id": "fra-en-0460",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My favorite class is science'?",
       "options": {
@@ -5524,6 +6904,9 @@
     },
     {
       "id": "fra-en-0461",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Read: 'Je joue au basket et je lis des livres.' Which two hobbies does the child have?",
       "options": {
@@ -5536,6 +6919,9 @@
     },
     {
       "id": "fra-en-0462",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I do not like vegetables' in French?",
       "options": {
@@ -5548,6 +6934,9 @@
     },
     {
       "id": "fra-en-0463",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French word names a major river in France?",
       "options": {
@@ -5560,6 +6949,9 @@
     },
     {
       "id": "fra-en-0464",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My friend lives in Lyon'?",
       "options": {
@@ -5572,6 +6964,9 @@
     },
     {
       "id": "fra-en-0465",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I like history' in French?",
       "options": {
@@ -5584,6 +6979,9 @@
     },
     {
       "id": "fra-en-0466",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence correctly says 'I do gymnastics' in French?",
       "options": {
@@ -5596,6 +6994,9 @@
     },
     {
       "id": "fra-en-0467",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Read: 'Bonjour, je m'appelle Marc. J'habite en Belgique.' Which country does Marc live in?",
       "options": {
@@ -5608,6 +7009,9 @@
     },
     {
       "id": "fra-en-0468",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My favorite sport is swimming'?",
       "options": {
@@ -5620,6 +7024,9 @@
     },
     {
       "id": "fra-en-0469",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I live in Canada' using correct preposition?",
       "options": {
@@ -5632,6 +7039,9 @@
     },
     {
       "id": "fra-en-0470",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence describes a friend: 'My friend is called Léa. She is my classmate'?",
       "options": {
@@ -5644,6 +7054,9 @@
     },
     {
       "id": "fra-en-0471",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I study French and English'?",
       "options": {
@@ -5656,6 +7069,9 @@
     },
     {
       "id": "fra-en-0472",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My favorite teacher is kind'?",
       "options": {
@@ -5668,6 +7084,9 @@
     },
     {
       "id": "fra-en-0473",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence correctly says 'I like to draw' in French?",
       "options": {
@@ -5680,6 +7099,9 @@
     },
     {
       "id": "fra-en-0474",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I live in Germany' with correct preposition?",
       "options": {
@@ -5692,6 +7114,9 @@
     },
     {
       "id": "fra-en-0475",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Read: 'Bonjour, je suis Élise. J'aime la danse.' What is Élise's hobby?",
       "options": {
@@ -5704,6 +7129,9 @@
     },
     {
       "id": "fra-en-0476",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My favorite class is art'?",
       "options": {
@@ -5716,6 +7144,9 @@
     },
     {
       "id": "fra-en-0477",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I do not like football' in French?",
       "options": {
@@ -5728,6 +7159,9 @@
     },
     {
       "id": "fra-en-0478",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence correctly says 'My friend lives in Marseille'?",
       "options": {
@@ -5740,6 +7174,9 @@
     },
     {
       "id": "fra-en-0479",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I like science and math'?",
       "options": {
@@ -5752,6 +7189,9 @@
     },
     {
       "id": "fra-en-0480",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My friend is from Spain'?",
       "options": {
@@ -5764,6 +7204,9 @@
     },
     {
       "id": "fra-en-0481",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I study at school' in French?",
       "options": {
@@ -5776,6 +7219,9 @@
     },
     {
       "id": "fra-en-0482",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My favorite city is Lyon'?",
       "options": {
@@ -5788,6 +7234,9 @@
     },
     {
       "id": "fra-en-0483",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I like to play the piano'?",
       "options": {
@@ -5800,6 +7249,9 @@
     },
     {
       "id": "fra-en-0484",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Read: 'Mon ami est italien. Il habite en Italie.' Where is the friend from?",
       "options": {
@@ -5812,6 +7264,9 @@
     },
     {
       "id": "fra-en-0485",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'My favorite teacher is Mrs. Dupont'?",
       "options": {
@@ -5824,6 +7279,9 @@
     },
     {
       "id": "fra-en-0486",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses passé composé with 'avoir' to say 'I ate'?",
       "options": {
@@ -5836,6 +7294,9 @@
     },
     {
       "id": "fra-en-0487",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence uses passé composé with 'être' to say 'I went' (female speaker)?",
       "options": {
@@ -5848,6 +7309,9 @@
     },
     {
       "id": "fra-en-0488",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Hier, j'ai joué au parc et j'ai mangé une pomme.' What did the child do yesterday?",
       "options": {
@@ -5860,6 +7324,9 @@
     },
     {
       "id": "fra-en-0489",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence shows correct adverb placement: 'He often eats pizza'?",
       "options": {
@@ -5872,6 +7339,9 @@
     },
     {
       "id": "fra-en-0490",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence shows correct adjective agreement: 'She is tall and intelligent'?",
       "options": {
@@ -5884,6 +7354,9 @@
     },
     {
       "id": "fra-en-0491",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses passé composé for 'He played' with 'avoir'?",
       "options": {
@@ -5896,6 +7369,9 @@
     },
     {
       "id": "fra-en-0492",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Ce matin, j'ai pris mon petit-déjeuner à sept heures.' What did the child do this morning?",
       "options": {
@@ -5908,6 +7384,9 @@
     },
     {
       "id": "fra-en-0493",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'être' in passé composé for 'She came'?",
       "options": {
@@ -5920,6 +7399,9 @@
     },
     {
       "id": "fra-en-0494",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly places the adverb 'toujours' (always) in present tense: 'He always studies'?",
       "options": {
@@ -5932,6 +7414,9 @@
     },
     {
       "id": "fra-en-0495",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Après l'école, elle a fait ses devoirs puis elle est allée au parc.' Which two actions did she do?",
       "options": {
@@ -5944,6 +7429,9 @@
     },
     {
       "id": "fra-en-0496",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence shows correct adjective agreement for a feminine plural noun: 'the small red apples'?",
       "options": {
@@ -5956,6 +7444,9 @@
     },
     {
       "id": "fra-en-0497",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses passé composé to say 'We ate'?",
       "options": {
@@ -5968,6 +7459,9 @@
     },
     {
       "id": "fra-en-0498",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Hier soir, il a regardé un livre et il a lu une histoire.' What did he do last night?",
       "options": {
@@ -5980,6 +7474,9 @@
     },
     {
       "id": "fra-en-0499",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses passé composé with 'avoir' for 'They (m) finished'?",
       "options": {
@@ -5992,6 +7489,9 @@
     },
     {
       "id": "fra-en-0500",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly describes a child's day in past tense: 'This morning I went to school and I ate lunch at noon'?",
       "options": {
@@ -6004,6 +7504,9 @@
     },
     {
       "id": "fra-en-0501",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'happy' (male speaker)?",
       "options": {
@@ -6016,6 +7519,9 @@
     },
     {
       "id": "fra-en-0502",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "How do you say 'I am tired' in French (female speaker)?",
       "options": {
@@ -6028,6 +7534,9 @@
     },
     {
       "id": "fra-en-0503",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'angry'?",
       "options": {
@@ -6040,6 +7549,9 @@
     },
     {
       "id": "fra-en-0504",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'Je suis content(e)' mean in English?",
       "options": {
@@ -6052,6 +7564,9 @@
     },
     {
       "id": "fra-en-0505",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'surprised'?",
       "options": {
@@ -6064,6 +7579,9 @@
     },
     {
       "id": "fra-en-0506",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which transport is 'le bus' in English?",
       "options": {
@@ -6076,6 +7594,9 @@
     },
     {
       "id": "fra-en-0507",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le train' in English?",
       "options": {
@@ -6088,6 +7609,9 @@
     },
     {
       "id": "fra-en-0508",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'bicycle'?",
       "options": {
@@ -6100,6 +7624,9 @@
     },
     {
       "id": "fra-en-0509",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'la voiture' mean in English?",
       "options": {
@@ -6112,6 +7639,9 @@
     },
     {
       "id": "fra-en-0510",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'plane'?",
       "options": {
@@ -6124,6 +7654,9 @@
     },
     {
       "id": "fra-en-0511",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'le bateau' in English?",
       "options": {
@@ -6136,6 +7669,9 @@
     },
     {
       "id": "fra-en-0512",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which direction is 'à gauche'?",
       "options": {
@@ -6148,6 +7684,9 @@
     },
     {
       "id": "fra-en-0513",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'à droite' mean?",
       "options": {
@@ -6160,6 +7699,9 @@
     },
     {
       "id": "fra-en-0514",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'straight ahead' in French?",
       "options": {
@@ -6172,6 +7714,9 @@
     },
     {
       "id": "fra-en-0515",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'devant' mean?",
       "options": {
@@ -6184,6 +7729,9 @@
     },
     {
       "id": "fra-en-0516",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which word means 'behind' in French?",
       "options": {
@@ -6196,6 +7744,9 @@
     },
     {
       "id": "fra-en-0517",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'près de' mean in English?",
       "options": {
@@ -6208,6 +7759,9 @@
     },
     {
       "id": "fra-en-0518",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'far from'?",
       "options": {
@@ -6220,6 +7774,9 @@
     },
     {
       "id": "fra-en-0519",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'shop' or 'store'?",
       "options": {
@@ -6232,6 +7789,9 @@
     },
     {
       "id": "fra-en-0520",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What do you buy at 'la boulangerie'?",
       "options": {
@@ -6244,6 +7804,9 @@
     },
     {
       "id": "fra-en-0521",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which place is 'la pharmacie'?",
       "options": {
@@ -6256,6 +7819,9 @@
     },
     {
       "id": "fra-en-0522",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is 'la bibliothèque' in English?",
       "options": {
@@ -6268,6 +7834,9 @@
     },
     {
       "id": "fra-en-0523",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase asks 'How much is it?' in French?",
       "options": {
@@ -6280,6 +7849,9 @@
     },
     {
       "id": "fra-en-0524",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'Ça coûte cinq euros' mean?",
       "options": {
@@ -6292,6 +7864,9 @@
     },
     {
       "id": "fra-en-0525",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which word is the French currency unit?",
       "options": {
@@ -6304,6 +7879,9 @@
     },
     {
       "id": "fra-en-0526",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which word means 'cents' in French?",
       "options": {
@@ -6316,6 +7894,9 @@
     },
     {
       "id": "fra-en-0527",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I am sad' in French (male speaker)?",
       "options": {
@@ -6328,6 +7909,9 @@
     },
     {
       "id": "fra-en-0528",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'Je suis surpris(e)' mean?",
       "options": {
@@ -6340,6 +7924,9 @@
     },
     {
       "id": "fra-en-0529",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which transport is 'le métro'?",
       "options": {
@@ -6352,6 +7939,9 @@
     },
     {
       "id": "fra-en-0530",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'turn left' in French?",
       "options": {
@@ -6364,6 +7954,9 @@
     },
     {
       "id": "fra-en-0531",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'go straight on'?",
       "options": {
@@ -6376,6 +7969,9 @@
     },
     {
       "id": "fra-en-0532",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'à côté de' mean?",
       "options": {
@@ -6388,6 +7984,9 @@
     },
     {
       "id": "fra-en-0533",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which place sells medicine and health products?",
       "options": {
@@ -6400,6 +7999,9 @@
     },
     {
       "id": "fra-en-0534",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What do you buy at 'la librairie'?",
       "options": {
@@ -6412,6 +8014,9 @@
     },
     {
       "id": "fra-en-0535",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I am scared' in French (female speaker)?",
       "options": {
@@ -6424,6 +8029,9 @@
     },
     {
       "id": "fra-en-0536",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French word means 'market'?",
       "options": {
@@ -6436,6 +8044,9 @@
     },
     {
       "id": "fra-en-0537",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'C'est trop cher' mean when shopping?",
       "options": {
@@ -6448,6 +8059,9 @@
     },
     {
       "id": "fra-en-0538",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which question asks 'Do you have…?' in French when shopping?",
       "options": {
@@ -6460,6 +8074,9 @@
     },
     {
       "id": "fra-en-0539",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I would like to buy…' in French?",
       "options": {
@@ -6472,6 +8089,9 @@
     },
     {
       "id": "fra-en-0540",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'Je peux avoir…?' mean in a shop?",
       "options": {
@@ -6484,6 +8104,9 @@
     },
     {
       "id": "fra-en-0541",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'Excuse me, where is the station?' in French?",
       "options": {
@@ -6496,6 +8119,9 @@
     },
     {
       "id": "fra-en-0542",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which transport would you take for a long trip by sea?",
       "options": {
@@ -6508,6 +8134,9 @@
     },
     {
       "id": "fra-en-0543",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'Tournez à droite' mean?",
       "options": {
@@ -6520,6 +8149,9 @@
     },
     {
       "id": "fra-en-0544",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'the bakery' in French?",
       "options": {
@@ -6532,6 +8164,9 @@
     },
     {
       "id": "fra-en-0545",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which question would you ask to know the price?",
       "options": {
@@ -6544,6 +8179,9 @@
     },
     {
       "id": "fra-en-0546",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'I am angry' (female speaker)?",
       "options": {
@@ -6556,6 +8194,9 @@
     },
     {
       "id": "fra-en-0547",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which transport is used underground in many cities?",
       "options": {
@@ -6568,6 +8209,9 @@
     },
     {
       "id": "fra-en-0548",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What does 'Je suis surpris(e) parce que…' begin to explain?",
       "options": {
@@ -6580,6 +8224,9 @@
     },
     {
       "id": "fra-en-0549",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which phrase means 'next to the school'?",
       "options": {
@@ -6592,6 +8239,9 @@
     },
     {
       "id": "fra-en-0550",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French phrase means 'I am happy because…'?",
       "options": {
@@ -6604,6 +8254,9 @@
     },
     {
       "id": "fra-en-0551",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which question asks 'Excuse me, where is the train station?' in French?",
       "options": {
@@ -6616,6 +8269,9 @@
     },
     {
       "id": "fra-en-0552",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you tell someone to 'turn left' politely in French (formal)?",
       "options": {
@@ -6628,6 +8284,9 @@
     },
     {
       "id": "fra-en-0553",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase means 'Continue straight ahead' when giving directions?",
       "options": {
@@ -6640,6 +8299,9 @@
     },
     {
       "id": "fra-en-0554",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which shopping sentence means 'I would like to buy a loaf of bread'?",
       "options": {
@@ -6652,6 +8314,9 @@
     },
     {
       "id": "fra-en-0555",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which question would you ask to check availability: 'Do you have apples?'",
       "options": {
@@ -6664,6 +8329,9 @@
     },
     {
       "id": "fra-en-0556",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence expresses 'I am sad because I lost my toy'?",
       "options": {
@@ -6676,6 +8344,9 @@
     },
     {
       "id": "fra-en-0557",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I go to school by bus'?",
       "options": {
@@ -6688,6 +8359,9 @@
     },
     {
       "id": "fra-en-0558",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'She travels by train'?",
       "options": {
@@ -6700,6 +8374,9 @@
     },
     {
       "id": "fra-en-0559",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which shop sells 'le pain' (bread)?",
       "options": {
@@ -6712,6 +8389,9 @@
     },
     {
       "id": "fra-en-0560",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which shop would you visit for books?",
       "options": {
@@ -6724,6 +8404,9 @@
     },
     {
       "id": "fra-en-0561",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "How do you say 'I would like a croissant, please' in French?",
       "options": {
@@ -6736,6 +8419,9 @@
     },
     {
       "id": "fra-en-0562",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'Excuse me, is the market near here?'",
       "options": {
@@ -6748,6 +8434,9 @@
     },
     {
       "id": "fra-en-0563",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which phrase means 'Turn right and then go straight'?",
       "options": {
@@ -6760,6 +8449,9 @@
     },
     {
       "id": "fra-en-0564",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence expresses 'I am happy because I passed the test'?",
       "options": {
@@ -6772,6 +8464,9 @@
     },
     {
       "id": "fra-en-0565",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'She goes to the pharmacy'?",
       "options": {
@@ -6784,6 +8479,9 @@
     },
     {
       "id": "fra-en-0566",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I want to buy apples' politely?",
       "options": {
@@ -6796,6 +8494,9 @@
     },
     {
       "id": "fra-en-0567",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'The bakery is next to the market'?",
       "options": {
@@ -6808,6 +8509,9 @@
     },
     {
       "id": "fra-en-0568",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I can have a glass of water?' using 'pouvoir' politely?",
       "options": {
@@ -6820,6 +8524,9 @@
     },
     {
       "id": "fra-en-0569",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'She traveled by boat'?",
       "options": {
@@ -6832,6 +8539,9 @@
     },
     {
       "id": "fra-en-0570",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'The pharmacy is on the right'?",
       "options": {
@@ -6844,6 +8554,9 @@
     },
     {
       "id": "fra-en-0571",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I am surprised because it is a gift'?",
       "options": {
@@ -6856,6 +8569,9 @@
     },
     {
       "id": "fra-en-0572",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'We go to the market by car'?",
       "options": {
@@ -6868,6 +8584,9 @@
     },
     {
       "id": "fra-en-0573",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'Do you have milk?' in a shop?",
       "options": {
@@ -6880,6 +8599,9 @@
     },
     {
       "id": "fra-en-0574",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'Turn left at the corner'?",
       "options": {
@@ -6892,6 +8614,9 @@
     },
     {
       "id": "fra-en-0575",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'The bookstore is near the library'?",
       "options": {
@@ -6904,6 +8629,9 @@
     },
     {
       "id": "fra-en-0576",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I would like some cheese' using 'vouloir' politely?",
       "options": {
@@ -6916,6 +8644,9 @@
     },
     {
       "id": "fra-en-0577",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'She is happy because she found her book'?",
       "options": {
@@ -6928,6 +8659,9 @@
     },
     {
       "id": "fra-en-0578",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I go to school by bike'?",
       "options": {
@@ -6940,6 +8674,9 @@
     },
     {
       "id": "fra-en-0579",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'The market opens at nine o'clock'?",
       "options": {
@@ -6952,6 +8689,9 @@
     },
     {
       "id": "fra-en-0580",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'Can I have a kilo of apples?' politely?",
       "options": {
@@ -6964,6 +8704,9 @@
     },
     {
       "id": "fra-en-0581",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'The bus stop is in front of the school'?",
       "options": {
@@ -6976,6 +8719,9 @@
     },
     {
       "id": "fra-en-0582",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I don't have money' using correct negation?",
       "options": {
@@ -6988,6 +8734,9 @@
     },
     {
       "id": "fra-en-0583",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'She travels to Paris by plane'?",
       "options": {
@@ -7000,6 +8749,9 @@
     },
     {
       "id": "fra-en-0584",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'The bakery is across from the pharmacy'?",
       "options": {
@@ -7012,6 +8764,9 @@
     },
     {
       "id": "fra-en-0585",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sentence means 'I am angry because the bus is late'?",
       "options": {
@@ -7024,6 +8779,9 @@
     },
     {
       "id": "fra-en-0586",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read this short market dialogue: 'Client: Je voudrais deux baguettes. Vendeur: Voilà. Ça fait trois euros.' What is the total price?",
       "options": {
@@ -7036,6 +8794,9 @@
     },
     {
       "id": "fra-en-0587",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence uses 'pouvoir' to ask permission politely in a shop?",
       "options": {
@@ -7048,6 +8809,9 @@
     },
     {
       "id": "fra-en-0588",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly distinguishes 'au' vs 'à la': 'I go to the market'?",
       "options": {
@@ -7060,6 +8824,9 @@
     },
     {
       "id": "fra-en-0589",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Excusez-moi, où est la gare? Tournez à droite, puis continuez tout droit.' Where should you turn first?",
       "options": {
@@ -7072,6 +8839,9 @@
     },
     {
       "id": "fra-en-0590",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence uses 'vouloir' to order politely at a shop?",
       "options": {
@@ -7084,6 +8854,9 @@
     },
     {
       "id": "fra-en-0591",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'à l'' before a vowel: 'She is at the pharmacy'?",
       "options": {
@@ -7096,6 +8869,9 @@
     },
     {
       "id": "fra-en-0592",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Je suis triste parce que je n'ai pas d'argent.' Why is the speaker sad?",
       "options": {
@@ -7108,6 +8884,9 @@
     },
     {
       "id": "fra-en-0593",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'aux' for plural places: 'I go to the markets'?",
       "options": {
@@ -7120,6 +8899,9 @@
     },
     {
       "id": "fra-en-0594",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read this short postcard: 'Nous sommes allés en bateau. Il faisait beau et nous étions contents.' What two facts are true?",
       "options": {
@@ -7132,6 +8914,9 @@
     },
     {
       "id": "fra-en-0595",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence uses 'pouvoir' correctly to ask 'Can you help me?' formally?",
       "options": {
@@ -7144,6 +8929,9 @@
     },
     {
       "id": "fra-en-0596",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'parce que' to explain emotion: 'I am happy because I found my friend'?",
       "options": {
@@ -7156,6 +8944,9 @@
     },
     {
       "id": "fra-en-0597",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Client: Je voudrais du fromage. Vendeur: Voilà, vous pouvez payer à la caisse.' What does the vendor ask the client to do?",
       "options": {
@@ -7168,6 +8959,9 @@
     },
     {
       "id": "fra-en-0598",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'au' for masculine place: 'I go to the market'?",
       "options": {
@@ -7180,6 +8974,9 @@
     },
     {
       "id": "fra-en-0599",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Read: 'Tournez à gauche, puis allez tout droit jusqu'à la pharmacie.' Which two steps are given?",
       "options": {
@@ -7192,6 +8989,9 @@
     },
     {
       "id": "fra-en-0600",
+      "category": "francais",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sentence correctly uses 'vouloir' and 'pouvoir' in a shopping question: 'Can I have that, please?'",
       "options": {

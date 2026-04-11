@@ -1,9 +1,12 @@
 {
-  "category": "history",
+  "category": "histoire",
   "lang": "en",
   "questions": [
     {
       "id": "hist-en-0001",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which prehistoric animal resembled an elephant with long hair and large tusks?",
       "options": {
@@ -16,6 +19,9 @@
     },
     {
       "id": "hist-en-0002",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What major discovery allowed prehistoric humans to have light and cook food?",
       "options": {
@@ -28,6 +34,9 @@
     },
     {
       "id": "hist-en-0003",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In which famous cave in France can many prehistoric animal paintings be found?",
       "options": {
@@ -40,6 +49,9 @@
     },
     {
       "id": "hist-en-0004",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What do you call people who move constantly to follow game?",
       "options": {
@@ -52,6 +64,9 @@
     },
     {
       "id": "hist-en-0005",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which knapped stone tool was widely used by prehistoric humans for hunting?",
       "options": {
@@ -64,6 +79,9 @@
     },
     {
       "id": "hist-en-0006",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What were the inhabitants of France called during the Roman era?",
       "options": {
@@ -76,6 +94,9 @@
     },
     {
       "id": "hist-en-0007",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which great Gallic leader lost the Battle of Alesia against Julius Caesar?",
       "options": {
@@ -88,6 +109,9 @@
     },
     {
       "id": "hist-en-0008",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "In which country can the Great Pyramids and the Sphinx be found?",
       "options": {
@@ -100,6 +124,9 @@
     },
     {
       "id": "hist-en-0009",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What was the name of the writing used by ancient Egyptians?",
       "options": {
@@ -112,6 +139,9 @@
     },
     {
       "id": "hist-en-0010",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which ancient civilization invented the Olympic Games?",
       "options": {
@@ -124,6 +154,9 @@
     },
     {
       "id": "hist-en-0011",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which city was the center of the largest ancient empire in Europe?",
       "options": {
@@ -136,6 +169,9 @@
     },
     {
       "id": "hist-en-0012",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the river that flows through Egypt?",
       "options": {
@@ -148,6 +184,9 @@
     },
     {
       "id": "hist-en-0013",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the god of lightning and the king of gods for the Greeks?",
       "options": {
@@ -160,6 +199,9 @@
     },
     {
       "id": "hist-en-0014",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Roman monument was used for gladiator battles?",
       "options": {
@@ -172,6 +214,9 @@
     },
     {
       "id": "hist-en-0015",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What typical garment did Roman citizens wear?",
       "options": {
@@ -184,6 +229,9 @@
     },
     {
       "id": "hist-en-0016",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which King of the Franks is considered the first Christian King of France?",
       "options": {
@@ -196,6 +244,9 @@
     },
     {
       "id": "hist-en-0017",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In what year was Charlemagne crowned Emperor?",
       "options": {
@@ -208,6 +259,9 @@
     },
     {
       "id": "hist-en-0018",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the fortified dwelling where the lord lived in the Middle Ages?",
       "options": {
@@ -220,6 +274,9 @@
     },
     {
       "id": "hist-en-0019",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What ceremony allowed a man to become a knight?",
       "options": {
@@ -232,6 +289,9 @@
     },
     {
       "id": "hist-en-0020",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What is the period of history between Antiquity and Modern Times?",
       "options": {
@@ -244,6 +304,9 @@
     },
     {
       "id": "hist-en-0021",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What metallic protection did knights wear to go into battle?",
       "options": {
@@ -256,6 +319,9 @@
     },
     {
       "id": "hist-en-0022",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was Joan of Arc?",
       "options": {
@@ -268,6 +334,9 @@
     },
     {
       "id": "hist-en-0023",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What is the name of the system where peasants work for a lord in exchange for protection?",
       "options": {
@@ -280,6 +349,9 @@
     },
     {
       "id": "hist-en-0024",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which warrior people from the North traveled on drakkars?",
       "options": {
@@ -292,6 +364,9 @@
     },
     {
       "id": "hist-en-0025",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which large church is located in the center of Paris and suffered a fire in 2019?",
       "options": {
@@ -304,6 +379,9 @@
     },
     {
       "id": "hist-en-0026",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which explorer is famous for discovering America in 1492?",
       "options": {
@@ -316,6 +394,9 @@
     },
     {
       "id": "hist-en-0027",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who invented the printing press around 1450?",
       "options": {
@@ -328,6 +409,9 @@
     },
     {
       "id": "hist-en-0028",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which artist painted the famous 'Mona Lisa'?",
       "options": {
@@ -340,6 +424,9 @@
     },
     {
       "id": "hist-en-0029",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "In which country did the Renaissance begin?",
       "options": {
@@ -352,6 +439,9 @@
     },
     {
       "id": "hist-en-0030",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French king built the magnificent Palace of Versailles?",
       "options": {
@@ -364,6 +454,9 @@
     },
     {
       "id": "hist-en-0031",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the nickname of King Louis XIV?",
       "options": {
@@ -376,6 +469,9 @@
     },
     {
       "id": "hist-en-0032",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which king brought Leonardo da Vinci to France and built the Loire Valley castles?",
       "options": {
@@ -388,6 +484,9 @@
     },
     {
       "id": "hist-en-0033",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which instrument allowed sailors to better navigate at sea?",
       "options": {
@@ -400,6 +499,9 @@
     },
     {
       "id": "hist-en-0034",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the first man to circumnavigate the globe (even though he died on the way)?",
       "options": {
@@ -412,6 +514,9 @@
     },
     {
       "id": "hist-en-0035",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which King of France signed the Edict of Nantes to stop the wars of religion?",
       "options": {
@@ -424,6 +529,9 @@
     },
     {
       "id": "hist-en-0036",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is the exact date of the storming of the Bastille in France?",
       "options": {
@@ -436,6 +544,9 @@
     },
     {
       "id": "hist-en-0037",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What object was used during the French Revolution to behead those condemned to death?",
       "options": {
@@ -448,6 +559,9 @@
     },
     {
       "id": "hist-en-0038",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who crowned himself Emperor of the French in 1804?",
       "options": {
@@ -460,6 +574,9 @@
     },
     {
       "id": "hist-en-0039",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What famous document was written in 1789 stating that all men are free and equal?",
       "options": {
@@ -472,6 +589,9 @@
     },
     {
       "id": "hist-en-0040",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What are the three colors of the French flag?",
       "options": {
@@ -484,6 +604,9 @@
     },
     {
       "id": "hist-en-0041",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is the name of the French national anthem?",
       "options": {
@@ -496,6 +619,9 @@
     },
     {
       "id": "hist-en-0042",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the King of France at the beginning of the Revolution in 1789?",
       "options": {
@@ -508,6 +634,9 @@
     },
     {
       "id": "hist-en-0043",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which invention allowed the first trains to run?",
       "options": {
@@ -520,6 +649,9 @@
     },
     {
       "id": "hist-en-0044",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French scientist invented the rabies vaccine?",
       "options": {
@@ -532,6 +664,9 @@
     },
     {
       "id": "hist-en-0045",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What do we call the 19th-century period when many factories were built?",
       "options": {
@@ -544,6 +679,9 @@
     },
     {
       "id": "hist-en-0046",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "During which war were the 'Taxis of the Marne' used?",
       "options": {
@@ -556,6 +694,9 @@
     },
     {
       "id": "hist-en-0047",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What were French soldiers called during the First World War?",
       "options": {
@@ -568,6 +709,9 @@
     },
     {
       "id": "hist-en-0048",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who made the Appeal of June 18, 1940, on the radio?",
       "options": {
@@ -580,6 +724,9 @@
     },
     {
       "id": "hist-en-0049",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What event took place on June 6, 1944, in Normandy?",
       "options": {
@@ -592,6 +739,9 @@
     },
     {
       "id": "hist-en-0050",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "In which city is the headquarters of the European Union located?",
       "options": {
@@ -604,6 +754,9 @@
     },
     {
       "id": "hist-en-0051",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Venetian merchant traveled to China in the Middle Ages and wrote 'The Travels of Marco Polo'?",
       "options": {
@@ -616,6 +769,9 @@
     },
     {
       "id": "hist-en-0052",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which great wall was built to protect an empire from invasions by northern nomads?",
       "options": {
@@ -628,6 +784,9 @@
     },
     {
       "id": "hist-en-0053",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "On which continent did the Mayans and Aztecs live?",
       "options": {
@@ -640,6 +799,9 @@
     },
     {
       "id": "hist-en-0054",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What was the name of the elite warriors in ancient Japan?",
       "options": {
@@ -652,6 +814,9 @@
     },
     {
       "id": "hist-en-0055",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which civilization built the lost city of Machu Picchu in the mountains of Peru?",
       "options": {
@@ -664,6 +829,9 @@
     },
     {
       "id": "hist-en-0056",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Chinese invention is used to make fireworks explode?",
       "options": {
@@ -676,6 +844,9 @@
     },
     {
       "id": "hist-en-0057",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which scientist discovered the law of gravity after seeing (according to legend) an apple fall?",
       "options": {
@@ -688,6 +859,9 @@
     },
     {
       "id": "hist-en-0058",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which female scientist received two Nobel Prizes for her work on radioactivity?",
       "options": {
@@ -700,6 +874,9 @@
     },
     {
       "id": "hist-en-0059",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the first man to walk on the Moon in 1969?",
       "options": {
@@ -712,6 +889,9 @@
     },
     {
       "id": "hist-en-0060",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who invented the first telephone?",
       "options": {
@@ -724,6 +904,9 @@
     },
     {
       "id": "hist-en-0061",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which astronomer was condemned for asserting that the Earth revolved around the Sun?",
       "options": {
@@ -736,6 +919,9 @@
     },
     {
       "id": "hist-en-0062",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which means of transport replaced horses for long journeys in the 19th century?",
       "options": {
@@ -748,6 +934,9 @@
     },
     {
       "id": "hist-en-0063",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Queen of England reigned for 63 years in the 19th century (during the time of the British Empire)?",
       "options": {
@@ -760,6 +949,9 @@
     },
     {
       "id": "hist-en-0064",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What is the name of the famous 1215 text that limited the king's power in England?",
       "options": {
@@ -772,6 +964,9 @@
     },
     {
       "id": "hist-en-0065",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Who was the President of the United States during the Civil War and abolished slavery?",
       "options": {
@@ -784,6 +979,9 @@
     },
     {
       "id": "hist-en-0066",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Black American woman became a symbol of the fight against racism by refusing to give up her seat on a bus?",
       "options": {
@@ -796,6 +994,9 @@
     },
     {
       "id": "hist-en-0067",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which great Indian chief led the Sioux at the Battle of the Little Bighorn?",
       "options": {
@@ -808,6 +1009,9 @@
     },
     {
       "id": "hist-en-0068",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which metallic structure was built in Paris for the 1889 World's Fair?",
       "options": {
@@ -820,6 +1024,9 @@
     },
     {
       "id": "hist-en-0069",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which country gave the Statue of Liberty to the United States?",
       "options": {
@@ -832,6 +1039,9 @@
     },
     {
       "id": "hist-en-0070",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Greek philosopher was the teacher of Alexander the Great?",
       "options": {
@@ -844,6 +1054,9 @@
     },
     {
       "id": "hist-en-0071",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the period when humans began to farm the land and raise animals?",
       "options": {
@@ -856,6 +1069,9 @@
     },
     {
       "id": "hist-en-0072",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which ancient writing used signs in the shape of nails or wedges?",
       "options": {
@@ -868,6 +1084,9 @@
     },
     {
       "id": "hist-en-0073",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In which modern-day city was ancient Mesopotamia located?",
       "options": {
@@ -880,6 +1099,9 @@
     },
     {
       "id": "hist-en-0074",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which legendary King of the Round Table searched for the Holy Grail with his knights?",
       "options": {
@@ -892,6 +1114,9 @@
     },
     {
       "id": "hist-en-0075",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is the name of King Arthur's magical sword?",
       "options": {
@@ -904,6 +1129,9 @@
     },
     {
       "id": "hist-en-0076",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which monk translated the Bible into German and launched the Protestant Reformation?",
       "options": {
@@ -916,6 +1144,9 @@
     },
     {
       "id": "hist-en-0077",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which terrible disease killed a third of the European population in the Middle Ages?",
       "options": {
@@ -928,6 +1159,9 @@
     },
     {
       "id": "hist-en-0078",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the leader of the Mongol Empire, the largest contiguous land empire in history?",
       "options": {
@@ -940,6 +1174,9 @@
     },
     {
       "id": "hist-en-0079",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Italian city was famous for its merchants and canals during the Middle Ages?",
       "options": {
@@ -952,6 +1189,9 @@
     },
     {
       "id": "hist-en-0080",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which explorer gave his name to the American continent?",
       "options": {
@@ -964,6 +1204,9 @@
     },
     {
       "id": "hist-en-0081",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Scandinavian people discovered Greenland and perhaps North America before Columbus?",
       "options": {
@@ -976,6 +1219,9 @@
     },
     {
       "id": "hist-en-0082",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Egyptian pharaoh became famous because his tomb was found intact in 1922?",
       "options": {
@@ -988,6 +1234,9 @@
     },
     {
       "id": "hist-en-0083",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which Queen of Egypt was famous for her beauty and her alliance with Julius Caesar?",
       "options": {
@@ -1000,6 +1249,9 @@
     },
     {
       "id": "hist-en-0084",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is the process called for preserving the bodies of the dead in ancient Egypt?",
       "options": {
@@ -1012,6 +1264,9 @@
     },
     {
       "id": "hist-en-0085",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which King of Macedon conquered a vast empire stretching from Greece to India?",
       "options": {
@@ -1024,6 +1279,9 @@
     },
     {
       "id": "hist-en-0086",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which mythological animal has the body of a lion and the head of a man in Egypt?",
       "options": {
@@ -1036,6 +1294,9 @@
     },
     {
       "id": "hist-en-0087",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who painted the ceiling of the Sistine Chapel in the Vatican?",
       "options": {
@@ -1048,6 +1309,9 @@
     },
     {
       "id": "hist-en-0088",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which invention by James Watt launched the Industrial Revolution?",
       "options": {
@@ -1060,6 +1324,9 @@
     },
     {
       "id": "hist-en-0089",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country saw the birth of the Industrial Revolution?",
       "options": {
@@ -1072,6 +1339,9 @@
     },
     {
       "id": "hist-en-0090",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is the name of the ship that sank in 1912 after hitting an iceberg?",
       "options": {
@@ -1084,6 +1354,9 @@
     },
     {
       "id": "hist-en-0091",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In what year was slavery definitively abolished in France?",
       "options": {
@@ -1096,6 +1369,9 @@
     },
     {
       "id": "hist-en-0092",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Who was known as 'The Children's Friend' and made school free, secular, and mandatory in France?",
       "options": {
@@ -1108,6 +1384,9 @@
     },
     {
       "id": "hist-en-0093",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which famous French writer wrote 'Les Misérables'?",
       "options": {
@@ -1120,6 +1399,9 @@
     },
     {
       "id": "hist-en-0094",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which battle marked the definitive end of Napoleon I's reign in 1815?",
       "options": {
@@ -1132,6 +1414,9 @@
     },
     {
       "id": "hist-en-0095",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French national holiday celebrates the storming of the Bastille?",
       "options": {
@@ -1144,6 +1429,9 @@
     },
     {
       "id": "hist-en-0096",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is the 18th-century movement of thought led by Voltaire and Rousseau called?",
       "options": {
@@ -1156,6 +1444,9 @@
     },
     {
       "id": "hist-en-0097",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the first president of the French Republic in 1848?",
       "options": {
@@ -1168,6 +1459,9 @@
     },
     {
       "id": "hist-en-0098",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which wall divided the city of Berlin in two during the Cold War?",
       "options": {
@@ -1180,6 +1474,9 @@
     },
     {
       "id": "hist-en-0099",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In what year did the Berlin Wall fall?",
       "options": {
@@ -1192,6 +1489,9 @@
     },
     {
       "id": "hist-en-0100",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the leader of the Indian independence movement using non-violence?",
       "options": {
@@ -1204,6 +1504,9 @@
     },
     {
       "id": "hist-en-0101",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Queen of Egypt reigned as a pharaoh and sometimes wore a ceremonial false beard?",
       "options": {
@@ -1216,6 +1519,9 @@
     },
     {
       "id": "hist-en-0102",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In Greek mythology, who opened a box releasing all the evils of humanity?",
       "options": {
@@ -1228,6 +1534,9 @@
     },
     {
       "id": "hist-en-0103",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What was the profession of scribes in ancient Egypt?",
       "options": {
@@ -1240,6 +1549,9 @@
     },
     {
       "id": "hist-en-0104",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman emperor gave his name to the month of August?",
       "options": {
@@ -1252,6 +1564,9 @@
     },
     {
       "id": "hist-en-0105",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Greek city was famous for the very strict and military education of its young boys?",
       "options": {
@@ -1264,6 +1579,9 @@
     },
     {
       "id": "hist-en-0106",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name for the bridge used to transport water by the Romans?",
       "options": {
@@ -1276,6 +1594,9 @@
     },
     {
       "id": "hist-en-0107",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which ancient scholar shouted 'Eureka!' in his bath after making a discovery?",
       "options": {
@@ -1288,6 +1609,9 @@
     },
     {
       "id": "hist-en-0108",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the trade route connecting China to Europe in antiquity?",
       "options": {
@@ -1300,6 +1624,9 @@
     },
     {
       "id": "hist-en-0109",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which mythical animal is the symbol of the emperor in China?",
       "options": {
@@ -1312,6 +1639,9 @@
     },
     {
       "id": "hist-en-0110",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French explorer discovered the St. Lawrence River and explored Canada?",
       "options": {
@@ -1324,6 +1654,9 @@
     },
     {
       "id": "hist-en-0111",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which sun king held a very strict court at the Palace of Versailles?",
       "options": {
@@ -1336,6 +1669,9 @@
     },
     {
       "id": "hist-en-0112",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the famous French museum that was once a royal palace?",
       "options": {
@@ -1348,6 +1684,9 @@
     },
     {
       "id": "hist-en-0113",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the Queen of France married to Louis XVI and guillotined during the Revolution?",
       "options": {
@@ -1360,6 +1699,9 @@
     },
     {
       "id": "hist-en-0114",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What is the name of the 1804 document that organized French laws?",
       "options": {
@@ -1372,6 +1714,9 @@
     },
     {
       "id": "hist-en-0115",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "In which city is the famous Arc de Triomphe located?",
       "options": {
@@ -1384,18 +1729,24 @@
     },
     {
       "id": "hist-en-0116",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which famous French general and president led the Resistance during World War II?",
-      "answer": "B",
       "options": {
         "A": "Napoleon",
         "B": "Charles de Gaulle",
         "C": "Marshal Pétain",
         "D": "Jean Jaurès"
-      }
+      },
+      "answer": "B"
     },
     {
       "id": "hist-en-0117",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which war opposed the Triple Entente and the Triple Alliance from 1914 to 1918?",
       "options": {
@@ -1408,6 +1759,9 @@
     },
     {
       "id": "hist-en-0118",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the symbol of France representing a woman wearing a Phrygian cap?",
       "options": {
@@ -1420,6 +1774,9 @@
     },
     {
       "id": "hist-en-0119",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In what year did the French Revolution begin?",
       "options": {
@@ -1432,6 +1789,9 @@
     },
     {
       "id": "hist-en-0120",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the minister of Louis XIV who managed the kingdom's finances and developed industry?",
       "options": {
@@ -1444,6 +1804,9 @@
     },
     {
       "id": "hist-en-0121",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of the United States?",
       "options": {
@@ -1456,6 +1819,9 @@
     },
     {
       "id": "hist-en-0122",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the first president of the United States?",
       "options": {
@@ -1468,6 +1834,9 @@
     },
     {
       "id": "hist-en-0123",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What is the name of the ship that brought the first English pilgrims to America in 1620?",
       "options": {
@@ -1480,6 +1849,9 @@
     },
     {
       "id": "hist-en-0124",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is shaped like a hexagon?",
       "options": {
@@ -1492,6 +1864,9 @@
     },
     {
       "id": "hist-en-0125",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French hero of the American War of Independence is nicknamed the 'Hero of Two Worlds'?",
       "options": {
@@ -1504,6 +1879,9 @@
     },
     {
       "id": "hist-en-0126",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French navigator and explorer gave his name to a famous square in Quebec and a street in Montreal?",
       "options": {
@@ -1516,6 +1894,9 @@
     },
     {
       "id": "hist-en-0127",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which King of France was nicknamed 'The Saint' and died during a crusade?",
       "options": {
@@ -1528,6 +1909,9 @@
     },
     {
       "id": "hist-en-0128",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the period before the invention of writing?",
       "options": {
@@ -1540,6 +1924,9 @@
     },
     {
       "id": "hist-en-0129",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which animal was the most important for the survival of Plains Indians in North America?",
       "options": {
@@ -1552,6 +1939,9 @@
     },
     {
       "id": "hist-en-0130",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which great wall was built by the Romans in Northern England to protect against tribes from the north?",
       "options": {
@@ -1564,6 +1954,9 @@
     },
     {
       "id": "hist-en-0131",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the circular Roman monument used for chariot races?",
       "options": {
@@ -1576,6 +1969,9 @@
     },
     {
       "id": "hist-en-0132",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Greek hero is famous for his 'twelve labors'?",
       "options": {
@@ -1588,6 +1984,9 @@
     },
     {
       "id": "hist-en-0133",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which battle in 1066 saw the victory of William the Conqueror in England?",
       "options": {
@@ -1600,6 +1999,9 @@
     },
     {
       "id": "hist-en-0134",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "In what type of building did monks live during the Middle Ages?",
       "options": {
@@ -1612,6 +2014,9 @@
     },
     {
       "id": "hist-en-0135",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which famous French bridge was built by the Romans and is located in the Gard department?",
       "options": {
@@ -1624,6 +2029,9 @@
     },
     {
       "id": "hist-en-0136",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which empereur of the East founded the city of Constantinople?",
       "options": {
@@ -1636,6 +2044,9 @@
     },
     {
       "id": "hist-en-0137",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the Egyptian writing material made from a plant?",
       "options": {
@@ -1648,6 +2059,9 @@
     },
     {
       "id": "hist-en-0138",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which famous scientist discovered the laws of planetary motion?",
       "options": {
@@ -1660,6 +2074,9 @@
     },
     {
       "id": "hist-en-0139",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the first permanent English colony in America, founded in 1607?",
       "options": {
@@ -1672,6 +2089,9 @@
     },
     {
       "id": "hist-en-0140",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which monument in New York was a gift from France?",
       "options": {
@@ -1684,6 +2104,9 @@
     },
     {
       "id": "hist-en-0141",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which South African leader spent 27 years in prison before becoming president?",
       "options": {
@@ -1696,6 +2119,9 @@
     },
     {
       "id": "hist-en-0142",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which invention by the Lumière brothers in 1895 allowed the viewing of moving images?",
       "options": {
@@ -1708,6 +2134,9 @@
     },
     {
       "id": "hist-en-0143",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the person who rules a kingdom?",
       "options": {
@@ -1720,6 +2149,9 @@
     },
     {
       "id": "hist-en-0144",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which civilization built the pyramids of Chichén Itzá in Mexico?",
       "options": {
@@ -1732,6 +2164,9 @@
     },
     {
       "id": "hist-en-0145",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which war, from 1939 to 1945, involved almost every country in the world?",
       "options": {
@@ -1744,6 +2179,9 @@
     },
     {
       "id": "hist-en-0146",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the French national anthem?",
       "options": {
@@ -1756,6 +2194,9 @@
     },
     {
       "id": "hist-en-0147",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which inventor is famous for creating the first practical incandescent light bulb?",
       "options": {
@@ -1768,6 +2209,9 @@
     },
     {
       "id": "hist-en-0148",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which document starts with 'We the People'?",
       "options": {
@@ -1780,6 +2224,9 @@
     },
     {
       "id": "hist-en-0149",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which city is known as the 'Eternal City'?",
       "options": {
@@ -1792,6 +2239,9 @@
     },
     {
       "id": "hist-en-0150",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which famous scientist is known for the formula E=mc²?",
       "options": {
@@ -1804,6 +2254,9 @@
     },
     {
       "id": "hist-en-0151",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the large Roman amphitheater where gladiators used to fight?",
       "options": {
@@ -1816,6 +2269,9 @@
     },
     {
       "id": "hist-en-0152",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which explorer was the first to reach the North Pole in 1909?",
       "options": {
@@ -1828,6 +2284,9 @@
     },
     {
       "id": "hist-en-0153",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the god of the forge and fire in Greek mythology?",
       "options": {
@@ -1840,6 +2299,9 @@
     },
     {
       "id": "hist-en-0154",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which all-white Indian monument was built by an emperor for his wife?",
       "options": {
@@ -1852,6 +2314,9 @@
     },
     {
       "id": "hist-en-0155",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In which country can you see the giant statues of Easter Island?",
       "options": {
@@ -1864,6 +2329,9 @@
     },
     {
       "id": "hist-en-0156",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which King of England had six wives and created the Anglican Church?",
       "options": {
@@ -1876,6 +2344,9 @@
     },
     {
       "id": "hist-en-0157",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which city is nicknamed 'The Big Apple'?",
       "options": {
@@ -1888,6 +2359,9 @@
     },
     {
       "id": "hist-en-0158",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which scientist discovered penicillin, the first antibiotic?",
       "options": {
@@ -1900,6 +2374,9 @@
     },
     {
       "id": "hist-en-0159",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the system of racial segregation in South Africa called until 1994?",
       "options": {
@@ -1912,6 +2389,9 @@
     },
     {
       "id": "hist-en-0160",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which superhero carries a magic hammer called Mjöllnir?",
       "options": {
@@ -1924,6 +2404,9 @@
     },
     {
       "id": "hist-en-0161",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who painted the fresco 'The Last Supper' representing the final meal of Jesus?",
       "options": {
@@ -1936,6 +2419,9 @@
     },
     {
       "id": "hist-en-0162",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which woman was the first to fly solo across the Atlantic Ocean?",
       "options": {
@@ -1948,6 +2434,9 @@
     },
     {
       "id": "hist-en-0163",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which mountain is the highest in the world?",
       "options": {
@@ -1960,6 +2449,9 @@
     },
     {
       "id": "hist-en-0164",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which English playwright wrote 'Romeo and Juliet'?",
       "options": {
@@ -1972,6 +2464,9 @@
     },
     {
       "id": "hist-en-0165",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the first artificial satellite launched into space by the USSR in 1957?",
       "options": {
@@ -1984,6 +2479,9 @@
     },
     {
       "id": "hist-en-0166",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which animal is considered the 'King of the Jungle'?",
       "options": {
@@ -1996,6 +2494,9 @@
     },
     {
       "id": "hist-en-0167",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which document signed in 1919 ended World War I?",
       "options": {
@@ -2008,6 +2509,9 @@
     },
     {
       "id": "hist-en-0168",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the first woman to win a Nobel Prize?",
       "options": {
@@ -2020,6 +2524,9 @@
     },
     {
       "id": "hist-en-0169",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is the home of the Pyramids?",
       "options": {
@@ -2032,6 +2539,9 @@
     },
     {
       "id": "hist-en-0170",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which famous wall was built to protect China from invasions?",
       "options": {
@@ -2044,6 +2554,9 @@
     },
     {
       "id": "hist-en-0171",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Russian monk was a close advisor to Tsar Nicholas II's family?",
       "options": {
@@ -2056,6 +2569,9 @@
     },
     {
       "id": "hist-en-0172",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of Japan?",
       "options": {
@@ -2068,6 +2584,9 @@
     },
     {
       "id": "hist-en-0173",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which disaster occurred at a nuclear power plant in Ukraine in 1986?",
       "options": {
@@ -2080,6 +2599,9 @@
     },
     {
       "id": "hist-en-0174",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which civilization lived in the city of Tenochtitlan (modern-day Mexico City)?",
       "options": {
@@ -2092,6 +2614,9 @@
     },
     {
       "id": "hist-en-0175",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which ocean is located between Europe and America?",
       "options": {
@@ -2104,6 +2629,9 @@
     },
     {
       "id": "hist-en-0176",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which civilization invented the first writing system, called cuneiform?",
       "options": {
@@ -2116,6 +2644,9 @@
     },
     {
       "id": "hist-en-0177",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which queen of France was the wife of Louis XVI and was executed during the Revolution?",
       "options": {
@@ -2128,6 +2659,9 @@
     },
     {
       "id": "hist-en-0178",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the ship used by the Vikings?",
       "options": {
@@ -2140,6 +2674,9 @@
     },
     {
       "id": "hist-en-0179",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which famous scientist discovered the double helix structure of DNA?",
       "options": {
@@ -2152,6 +2689,9 @@
     },
     {
       "id": "hist-en-0180",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the first Roman emperor?",
       "options": {
@@ -2164,6 +2704,9 @@
     },
     {
       "id": "hist-en-0181",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "In which city can you see the Eiffel Tower?",
       "options": {
@@ -2176,6 +2719,9 @@
     },
     {
       "id": "hist-en-0182",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which composer wrote the 'Ode to Joy' (the 9th Symphony)?",
       "options": {
@@ -2188,6 +2734,9 @@
     },
     {
       "id": "hist-en-0183",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which conflict from 1955 to 1975 involved the United States in Southeast Asia?",
       "options": {
@@ -2200,6 +2749,9 @@
     },
     {
       "id": "hist-en-0184",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the place where people vote for their representatives?",
       "options": {
@@ -2212,6 +2764,9 @@
     },
     {
       "id": "hist-en-0185",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Italian artist painted 'The Birth of Venus'?",
       "options": {
@@ -2224,6 +2779,9 @@
     },
     {
       "id": "hist-en-0186",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the legendary founder of the city of Rome according to the myth (along with his brother Remus)?",
       "options": {
@@ -2236,6 +2794,9 @@
     },
     {
       "id": "hist-en-0187",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which organ in the body is responsible for pumping blood?",
       "options": {
@@ -2248,6 +2809,9 @@
     },
     {
       "id": "hist-en-0188",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which general led the Allied forces during the D-Day landings in 1944?",
       "options": {
@@ -2260,6 +2824,9 @@
     },
     {
       "id": "hist-en-0189",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which African empire was ruled by Mansa Musa, considered the richest man in history?",
       "options": {
@@ -2272,6 +2839,9 @@
     },
     {
       "id": "hist-en-0190",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of the United Kingdom?",
       "options": {
@@ -2284,6 +2854,9 @@
     },
     {
       "id": "hist-en-0191",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French writer is known for 'The Three Musketeers'?",
       "options": {
@@ -2296,6 +2869,9 @@
     },
     {
       "id": "hist-en-0192",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which physicist is known for his work on black holes and 'A Brief History of Time'?",
       "options": {
@@ -2308,6 +2884,9 @@
     },
     {
       "id": "hist-en-0193",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the force that keeps us on the ground?",
       "options": {
@@ -2320,6 +2899,9 @@
     },
     {
       "id": "hist-en-0194",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which civilization lived in the Andes mountains and built the city of Cusco?",
       "options": {
@@ -2332,6 +2914,9 @@
     },
     {
       "id": "hist-en-0195",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which major event in 1929 caused a global economic crisis?",
       "options": {
@@ -2344,6 +2929,9 @@
     },
     {
       "id": "hist-en-0196",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which animal is the largest mammal in the world?",
       "options": {
@@ -2356,6 +2944,9 @@
     },
     {
       "id": "hist-en-0197",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which scientist developed the theory of evolution by natural selection?",
       "options": {
@@ -2368,6 +2959,9 @@
     },
     {
       "id": "hist-en-0198",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the first high-speed train launched in France in 1981?",
       "options": {
@@ -2380,6 +2974,9 @@
     },
     {
       "id": "hist-en-0199",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of France?",
       "options": {
@@ -2392,6 +2989,9 @@
     },
     {
       "id": "hist-en-0200",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which explorer discovered the source of the St. Lawrence River and named Canada?",
       "options": {
@@ -2404,6 +3004,9 @@
     },
     {
       "id": "hist-en-0201",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Egyptian queen ruled as a pharaoh and sometimes wore a ceremonial false beard?",
       "options": {
@@ -2416,6 +3019,9 @@
     },
     {
       "id": "hist-en-0202",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In Greek mythology, who opened a box releasing all the evils of humanity?",
       "options": {
@@ -2428,6 +3034,9 @@
     },
     {
       "id": "hist-en-0203",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What was the job of scribes in ancient Egypt?",
       "options": {
@@ -2440,6 +3049,9 @@
     },
     {
       "id": "hist-en-0204",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman emperor gave his name to the month of August?",
       "options": {
@@ -2452,6 +3064,9 @@
     },
     {
       "id": "hist-en-0205",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Greek city was famous for the very strict and military education of its young boys?",
       "options": {
@@ -2464,6 +3079,9 @@
     },
     {
       "id": "hist-en-0206",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the bridge used to transport water by the Romans?",
       "options": {
@@ -2476,6 +3094,9 @@
     },
     {
       "id": "hist-en-0207",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which ancient scientist shouted 'Eureka!' in his bath after making a discovery?",
       "options": {
@@ -2488,6 +3109,9 @@
     },
     {
       "id": "hist-en-0208",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the trade route connecting China to Europe in antiquity?",
       "options": {
@@ -2500,6 +3124,9 @@
     },
     {
       "id": "hist-en-0209",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which mythical animal is the symbol of the emperor in China?",
       "options": {
@@ -2512,6 +3139,9 @@
     },
     {
       "id": "hist-en-0210",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is the name of the light towers built on coasts to guide ships?",
       "options": {
@@ -2524,6 +3154,9 @@
     },
     {
       "id": "hist-en-0211",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which queen of England reigned during the Renaissance and the time of Shakespeare?",
       "options": {
@@ -2536,6 +3169,9 @@
     },
     {
       "id": "hist-en-0212",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which material was used to write in ancient Egypt, made from a plant of the same name?",
       "options": {
@@ -2548,6 +3184,9 @@
     },
     {
       "id": "hist-en-0213",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the first man to go into space in 1961?",
       "options": {
@@ -2560,6 +3199,9 @@
     },
     {
       "id": "hist-en-0214",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French military leader and emperor was defeated at the Battle of Waterloo?",
       "options": {
@@ -2572,6 +3214,9 @@
     },
     {
       "id": "hist-en-0215",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the French national anthem?",
       "options": {
@@ -2584,6 +3229,9 @@
     },
     {
       "id": "hist-en-0216",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In which city is the headquarters of the United Nations (UN) located?",
       "options": {
@@ -2596,6 +3244,9 @@
     },
     {
       "id": "hist-en-0217",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French scientist and his wife Marie discovered polonium and radium?",
       "options": {
@@ -2608,6 +3259,9 @@
     },
     {
       "id": "hist-en-0218",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the white house where the President of the United States lives?",
       "options": {
@@ -2620,6 +3274,9 @@
     },
     {
       "id": "hist-en-0219",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French writer wrote 'The Hunchback of Notre-Dame'?",
       "options": {
@@ -2632,6 +3289,9 @@
     },
     {
       "id": "hist-en-0220",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the movement for civil rights for Black people led by Martin Luther King?",
       "options": {
@@ -2644,6 +3304,9 @@
     },
     {
       "id": "hist-en-0221",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of Italy?",
       "options": {
@@ -2656,6 +3319,9 @@
     },
     {
       "id": "hist-en-0222",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Dutch painter is famous for his sunflowers and having cut off part of his ear?",
       "options": {
@@ -2668,6 +3334,9 @@
     },
     {
       "id": "hist-en-0223",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What major conflict pitted the North against the South in the United States from 1861 to 1865?",
       "options": {
@@ -2680,6 +3349,9 @@
     },
     {
       "id": "hist-en-0224",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which animal is the symbol of the United States?",
       "options": {
@@ -2692,6 +3364,9 @@
     },
     {
       "id": "hist-en-0225",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Spanish artist is the co-founder of Cubism and painted 'Guernica'?",
       "options": {
@@ -2704,6 +3379,9 @@
     },
     {
       "id": "hist-en-0226",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which large prehistoric animal looked like an elephant with long hair and large tusks?",
       "options": {
@@ -2716,6 +3394,9 @@
     },
     {
       "id": "hist-en-0227",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French explorer founded the city of Quebec in 1608?",
       "options": {
@@ -2728,6 +3409,9 @@
     },
     {
       "id": "hist-en-0228",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the first president of the United States?",
       "options": {
@@ -2740,6 +3424,9 @@
     },
     {
       "id": "hist-en-0229",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the tower in Italy that is famous for being leaning?",
       "options": {
@@ -2752,6 +3439,9 @@
     },
     {
       "id": "hist-en-0230",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In which city did the French Revolution begin in 1789?",
       "options": {
@@ -2764,6 +3454,9 @@
     },
     {
       "id": "hist-en-0231",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the ship that brought the Pilgrims to America in 1620?",
       "options": {
@@ -2776,6 +3469,9 @@
     },
     {
       "id": "hist-en-0232",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the highest mountain in the world?",
       "options": {
@@ -2788,6 +3484,9 @@
     },
     {
       "id": "hist-en-0233",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French writer wrote 'The Little Prince'?",
       "options": {
@@ -2800,6 +3499,9 @@
     },
     {
       "id": "hist-en-0234",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Russian leader was the first to use the title of 'Tsar'?",
       "options": {
@@ -2812,6 +3514,9 @@
     },
     {
       "id": "hist-en-0235",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which sport is played with a racket and a yellow ball?",
       "options": {
@@ -2824,6 +3529,9 @@
     },
     {
       "id": "hist-en-0236",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Roman emperor was the first to convert to Christianity?",
       "options": {
@@ -2836,6 +3544,9 @@
     },
     {
       "id": "hist-en-0237",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the current capital of Italy?",
       "options": {
@@ -2848,6 +3559,9 @@
     },
     {
       "id": "hist-en-0238",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the Egyptian god of the sun?",
       "options": {
@@ -2860,6 +3574,9 @@
     },
     {
       "id": "hist-en-0239",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which invention allowed clothes to be made much faster in the 18th century?",
       "options": {
@@ -2872,6 +3589,9 @@
     },
     {
       "id": "hist-en-0240",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country has the kangaroo as its symbol?",
       "options": {
@@ -2884,6 +3604,9 @@
     },
     {
       "id": "hist-en-0241",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which explorer gave his name to the city of Montreal?",
       "options": {
@@ -2896,6 +3619,9 @@
     },
     {
       "id": "hist-en-0242",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the wife of Emperor Napoleon III and the last sovereign of France?",
       "options": {
@@ -2908,6 +3634,9 @@
     },
     {
       "id": "hist-en-0243",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the volcano that destroyed Pompeii?",
       "options": {
@@ -2920,6 +3649,9 @@
     },
     {
       "id": "hist-en-0244",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which artist cut off his ear and painted sunflowers?",
       "options": {
@@ -2932,6 +3664,9 @@
     },
     {
       "id": "hist-en-0245",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which naval battle in 1805 saw Admiral Nelson's victory over the French?",
       "options": {
@@ -2944,6 +3679,9 @@
     },
     {
       "id": "hist-en-0246",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country invented karate and judo?",
       "options": {
@@ -2956,6 +3694,9 @@
     },
     {
       "id": "hist-en-0247",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the first man to orbit the Earth in space in 1961?",
       "options": {
@@ -2968,6 +3709,9 @@
     },
     {
       "id": "hist-en-0248",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the capital of the Byzantine Empire (now Istanbul)?",
       "options": {
@@ -2980,6 +3724,9 @@
     },
     {
       "id": "hist-en-0249",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the sacred text of Muslims?",
       "options": {
@@ -2992,6 +3739,9 @@
     },
     {
       "id": "hist-en-0250",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who wrote 'The Diary of Anne Frank'?",
       "options": {
@@ -3004,6 +3754,9 @@
     },
     {
       "id": "hist-en-0251",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which English explorer was the first to complete a circumnavigation of the globe as a captain?",
       "options": {
@@ -3016,6 +3769,9 @@
     },
     {
       "id": "hist-en-0252",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the intellectual and cultural movement in the 18th century that emphasized reason?",
       "options": {
@@ -3028,6 +3784,9 @@
     },
     {
       "id": "hist-en-0253",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is famous for its pyramids and the Nile River?",
       "options": {
@@ -3040,6 +3799,9 @@
     },
     {
       "id": "hist-en-0254",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the leader of the Soviet Union during World War II?",
       "options": {
@@ -3052,6 +3814,9 @@
     },
     {
       "id": "hist-en-0255",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In which city was the Archduke Franz Ferdinand assassinated, triggering World War I?",
       "options": {
@@ -3064,6 +3829,9 @@
     },
     {
       "id": "hist-en-0256",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Who led the Norman Conquest of England in 1066?",
       "options": {
@@ -3076,6 +3844,9 @@
     },
     {
       "id": "hist-en-0257",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which city is nicknamed 'The Big Apple'?",
       "options": {
@@ -3088,6 +3859,9 @@
     },
     {
       "id": "hist-en-0258",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which scientist discovered penicillin, the first antibiotic?",
       "options": {
@@ -3100,6 +3874,9 @@
     },
     {
       "id": "hist-en-0259",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the system of racial segregation in South Africa called until 1994?",
       "options": {
@@ -3112,6 +3889,9 @@
     },
     {
       "id": "hist-en-0260",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which superhero carries a magic hammer called Mjöllnir?",
       "options": {
@@ -3124,6 +3904,9 @@
     },
     {
       "id": "hist-en-0261",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who painted the fresco 'The Last Supper'?",
       "options": {
@@ -3136,6 +3919,9 @@
     },
     {
       "id": "hist-en-0262",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French philosopher said 'I think, therefore I am'?",
       "options": {
@@ -3148,6 +3934,9 @@
     },
     {
       "id": "hist-en-0263",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which European country is shaped like a boot?",
       "options": {
@@ -3160,6 +3949,9 @@
     },
     {
       "id": "hist-en-0264",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is the name of the largest temple in Athens, located on the Acropolis?",
       "options": {
@@ -3172,6 +3964,9 @@
     },
     {
       "id": "hist-en-0265",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which event in 1453 traditionally marks the end of the Middle Ages?",
       "options": {
@@ -3184,6 +3979,9 @@
     },
     {
       "id": "hist-en-0266",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which language was officially spoken in the Roman Empire?",
       "options": {
@@ -3196,6 +3994,9 @@
     },
     {
       "id": "hist-en-0267",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the President of the United States during the Cuban Missile Crisis?",
       "options": {
@@ -3208,6 +4009,9 @@
     },
     {
       "id": "hist-en-0268",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What is the name of the art movement founded by Claude Monet?",
       "options": {
@@ -3220,6 +4024,9 @@
     },
     {
       "id": "hist-en-0269",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country has London as its capital?",
       "options": {
@@ -3232,6 +4039,9 @@
     },
     {
       "id": "hist-en-0270",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which animal is the symbol of the French Republic?",
       "options": {
@@ -3244,6 +4054,9 @@
     },
     {
       "id": "hist-en-0271",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which 1957 treaty is the founding act of the European Economic Community?",
       "options": {
@@ -3256,6 +4069,9 @@
     },
     {
       "id": "hist-en-0272",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What was the name of the place where gladiators trained?",
       "options": {
@@ -3268,6 +4084,9 @@
     },
     {
       "id": "hist-en-0273",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the commander of the French armies during the victory at the Marne in 1914?",
       "options": {
@@ -3280,6 +4099,9 @@
     },
     {
       "id": "hist-en-0274",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which composer wrote the opera 'The Magic Flute'?",
       "options": {
@@ -3292,6 +4114,9 @@
     },
     {
       "id": "hist-en-0275",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is famous for its windmills and tulips?",
       "options": {
@@ -3304,6 +4129,9 @@
     },
     {
       "id": "hist-en-0276",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which English scientist formulated the laws of universal gravitation and motion?",
       "options": {
@@ -3316,6 +4144,9 @@
     },
     {
       "id": "hist-en-0277",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the movement for Italian unification in the 19th century?",
       "options": {
@@ -3328,6 +4159,9 @@
     },
     {
       "id": "hist-en-0278",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which city is famous for its canals and gondolas?",
       "options": {
@@ -3340,6 +4174,9 @@
     },
     {
       "id": "hist-en-0279",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the leader of the 'Free France' during World War II?",
       "options": {
@@ -3352,6 +4189,9 @@
     },
     {
       "id": "hist-en-0280",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In which city did the 1917 Russian Revolution begin?",
       "options": {
@@ -3364,6 +4204,9 @@
     },
     {
       "id": "hist-en-0281",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the largest ocean in the world?",
       "options": {
@@ -3376,6 +4219,9 @@
     },
     {
       "id": "hist-en-0282",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which famous conqueror died at the age of 32 after building a vast empire from Greece to India?",
       "options": {
@@ -3388,6 +4234,9 @@
     },
     {
       "id": "hist-en-0283",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
       "options": {
@@ -3400,6 +4249,9 @@
     },
     {
       "id": "hist-en-0284",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which animal is known as the 'king of the jungle'?",
       "options": {
@@ -3412,6 +4264,9 @@
     },
     {
       "id": "hist-en-0285",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which queen of France, of Austrian origin, was executed during the French Revolution?",
       "options": {
@@ -3424,6 +4279,9 @@
     },
     {
       "id": "hist-en-0286",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the first artificial satellite launched into space by the USSR in 1957?",
       "options": {
@@ -3436,6 +4294,9 @@
     },
     {
       "id": "hist-en-0287",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is home to the Taj Mahal?",
       "options": {
@@ -3448,6 +4309,9 @@
     },
     {
       "id": "hist-en-0288",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the king of the gods in Roman mythology?",
       "options": {
@@ -3460,6 +4324,9 @@
     },
     {
       "id": "hist-en-0289",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which battle in 1815 marked the final defeat of Napoleon I?",
       "options": {
@@ -3472,6 +4339,9 @@
     },
     {
       "id": "hist-en-0290",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of Spain?",
       "options": {
@@ -3484,6 +4354,9 @@
     },
     {
       "id": "hist-en-0291",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which explorer discovered the route to India by sailing around the southern tip of Africa in 1498?",
       "options": {
@@ -3496,6 +4369,9 @@
     },
     {
       "id": "hist-en-0292",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which 1215 document is considered a foundation of English constitutional law?",
       "options": {
@@ -3508,6 +4384,9 @@
     },
     {
       "id": "hist-en-0293",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What color are the stars on the flag of the United States?",
       "options": {
@@ -3520,6 +4399,9 @@
     },
     {
       "id": "hist-en-0294",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the president of the United States during the American Civil War?",
       "options": {
@@ -3532,6 +4414,9 @@
     },
     {
       "id": "hist-en-0295",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which empire was ruled by the Habsburg dynasty for centuries?",
       "options": {
@@ -3544,6 +4429,9 @@
     },
     {
       "id": "hist-en-0296",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which fruit is famous for allegedly falling on Newton's head?",
       "options": {
@@ -3556,6 +4444,9 @@
     },
     {
       "id": "hist-en-0297",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the first human to travel into space in 1961?",
       "options": {
@@ -3568,6 +4459,9 @@
     },
     {
       "id": "hist-en-0298",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which ancient civilization developed the first known democracy in Athens?",
       "options": {
@@ -3580,6 +4474,9 @@
     },
     {
       "id": "hist-en-0299",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the large desert in northern Africa?",
       "options": {
@@ -3592,6 +4489,9 @@
     },
     {
       "id": "hist-en-0300",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who wrote the play 'Romeo and Juliet'?",
       "options": {
@@ -3604,6 +4504,9 @@
     },
     {
       "id": "hist-en-0301",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which large wall was built to protect China from northern invasions?",
       "options": {
@@ -3616,6 +4519,9 @@
     },
     {
       "id": "hist-en-0302",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Italian scientist was forced to recant his support for the heliocentric theory?",
       "options": {
@@ -3628,6 +4534,9 @@
     },
     {
       "id": "hist-en-0303",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the primary author of the United States Declaration of Independence?",
       "options": {
@@ -3640,6 +4549,9 @@
     },
     {
       "id": "hist-en-0304",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which continent is known as the 'Dark Continent'?",
       "options": {
@@ -3652,6 +4564,9 @@
     },
     {
       "id": "hist-en-0305",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In which country did the Industrial Revolution begin?",
       "options": {
@@ -3664,6 +4579,9 @@
     },
     {
       "id": "hist-en-0306",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the ship that brought the Pilgrims to America in 1620?",
       "options": {
@@ -3676,6 +4594,9 @@
     },
     {
       "id": "hist-en-0307",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French landmark was built for the 1889 World's Fair?",
       "options": {
@@ -3688,6 +4609,9 @@
     },
     {
       "id": "hist-en-0308",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the first President of the United States?",
       "options": {
@@ -3700,6 +4624,9 @@
     },
     {
       "id": "hist-en-0309",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the peace treaty that ended World War I?",
       "options": {
@@ -3712,6 +4639,9 @@
     },
     {
       "id": "hist-en-0310",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is famous for its fjords and Vikings?",
       "options": {
@@ -3724,6 +4654,9 @@
     },
     {
       "id": "hist-en-0311",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the leader of the Civil Rights Movement in the US and gave the 'I Have a Dream' speech?",
       "options": {
@@ -3736,6 +4669,9 @@
     },
     {
       "id": "hist-en-0312",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Japanese city was the first to be targeted by an atomic bomb in 1945?",
       "options": {
@@ -3748,6 +4684,9 @@
     },
     {
       "id": "hist-en-0313",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which planet is known as the 'Red Planet'?",
       "options": {
@@ -3760,6 +4699,9 @@
     },
     {
       "id": "hist-en-0314",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the Prime Minister of the United Kingdom during most of World War II?",
       "options": {
@@ -3772,6 +4714,9 @@
     },
     {
       "id": "hist-en-0315",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the series of programs launched by FDR to help the US recover from the Great Depression?",
       "options": {
@@ -3784,6 +4729,9 @@
     },
     {
       "id": "hist-en-0316",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is home to the Great Barrier Reef?",
       "options": {
@@ -3796,6 +4744,9 @@
     },
     {
       "id": "hist-en-0317",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Russian monk was a controversial advisor to the Romanov family?",
       "options": {
@@ -3808,6 +4759,9 @@
     },
     {
       "id": "hist-en-0318",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In which year did the French Revolution begin?",
       "options": {
@@ -3820,6 +4774,9 @@
     },
     {
       "id": "hist-en-0319",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of France?",
       "options": {
@@ -3832,6 +4789,9 @@
     },
     {
       "id": "hist-en-0320",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the famous nurse known as 'The Lady with the Lamp' during the Crimean War?",
       "options": {
@@ -3844,6 +4804,9 @@
     },
     {
       "id": "hist-en-0321",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the first successful English colony in North America, founded in 1607?",
       "options": {
@@ -3856,6 +4819,9 @@
     },
     {
       "id": "hist-en-0322",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which animal is the largest mammal in the world?",
       "options": {
@@ -3868,6 +4834,9 @@
     },
     {
       "id": "hist-en-0323",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the Spanish conquistador who led the expedition that caused the fall of the Aztec Empire?",
       "options": {
@@ -3880,6 +4849,9 @@
     },
     {
       "id": "hist-en-0324",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which global conflict lasted from 1947 to 1991?",
       "options": {
@@ -3892,6 +4864,9 @@
     },
     {
       "id": "hist-en-0325",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the tower in Italy known for its tilt?",
       "options": {
@@ -3904,6 +4879,9 @@
     },
     {
       "id": "hist-en-0326",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which country hosted the FIFA World Cup in 1998 (and won it with its national team)?",
       "options": {
@@ -3916,6 +4894,9 @@
     },
     {
       "id": "hist-en-0327",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which famous Spanish painter is the master of Cubism?",
       "options": {
@@ -3928,6 +4909,9 @@
     },
     {
       "id": "hist-en-0328",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name for a female lion?",
       "options": {
@@ -3940,6 +4924,9 @@
     },
     {
       "id": "hist-en-0329",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which planet is nicknamed 'The Red Planet'?",
       "options": {
@@ -3952,6 +4939,9 @@
     },
     {
       "id": "hist-en-0330",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Greek philosopher was the teacher of Alexander the Great?",
       "options": {
@@ -3964,6 +4954,9 @@
     },
     {
       "id": "hist-en-0331",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of Germany?",
       "options": {
@@ -3976,6 +4969,9 @@
     },
     {
       "id": "hist-en-0332",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which gas do plants absorb in order to release oxygen?",
       "options": {
@@ -3988,6 +4984,9 @@
     },
     {
       "id": "hist-en-0333",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which dynasty ruled Russia before the 1917 Revolution?",
       "options": {
@@ -4000,6 +4999,9 @@
     },
     {
       "id": "hist-en-0334",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the sport that involves swimming underwater with fins and a mask?",
       "options": {
@@ -4012,6 +5014,9 @@
     },
     {
       "id": "hist-en-0335",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which 1450 invention allowed for the production of books in large quantities?",
       "options": {
@@ -4024,6 +5029,9 @@
     },
     {
       "id": "hist-en-0336",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the leader of the civil rights movement in the USA, famous for the 'I Have a Dream' speech?",
       "options": {
@@ -4036,6 +5044,9 @@
     },
     {
       "id": "hist-en-0337",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the largest country in the world by surface area?",
       "options": {
@@ -4048,6 +5059,9 @@
     },
     {
       "id": "hist-en-0338",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Italian city was destroyed by the eruption of Mount Vesuvius in 79 AD?",
       "options": {
@@ -4060,6 +5074,9 @@
     },
     {
       "id": "hist-en-0339",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of Jacques Cousteau's research vessel?",
       "options": {
@@ -4072,6 +5089,9 @@
     },
     {
       "id": "hist-en-0340",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the primary color of an emerald?",
       "options": {
@@ -4084,6 +5104,9 @@
     },
     {
       "id": "hist-en-0341",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which bird is capable of flying backwards?",
       "options": {
@@ -4096,6 +5119,9 @@
     },
     {
       "id": "hist-en-0342",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which famous Queen of Scots was executed by order of her cousin Elizabeth I?",
       "options": {
@@ -4108,6 +5134,9 @@
     },
     {
       "id": "hist-en-0343",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "How many days are in a non-leap year?",
       "options": {
@@ -4120,6 +5149,9 @@
     },
     {
       "id": "hist-en-0344",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which country has a maple leaf as the symbol on its flag?",
       "options": {
@@ -4132,6 +5164,9 @@
     },
     {
       "id": "hist-en-0345",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which event triggered the start of World War I in 1914?",
       "options": {
@@ -4144,6 +5179,9 @@
     },
     {
       "id": "hist-en-0346",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of Japan?",
       "options": {
@@ -4156,6 +5194,9 @@
     },
     {
       "id": "hist-en-0347",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the first woman to win a Nobel Prize?",
       "options": {
@@ -4168,6 +5209,9 @@
     },
     {
       "id": "hist-en-0348",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which ancient civilization built the city of Tikal in present-day Guatemala?",
       "options": {
@@ -4180,6 +5224,9 @@
     },
     {
       "id": "hist-en-0349",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the hardest natural substance on Earth?",
       "options": {
@@ -4192,6 +5239,9 @@
     },
     {
       "id": "hist-en-0350",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which American inventor developed the first practical incandescent light bulb?",
       "options": {
@@ -4204,6 +5254,9 @@
     },
     {
       "id": "hist-en-0351",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which large wall was built to protect China from northern invasions?",
       "options": {
@@ -4216,6 +5269,9 @@
     },
     {
       "id": "hist-en-0352",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Italian scientist was forced to recant his support for the heliocentric theory?",
       "options": {
@@ -4228,6 +5284,9 @@
     },
     {
       "id": "hist-en-0353",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the primary author of the United States Declaration of Independence?",
       "options": {
@@ -4240,6 +5299,9 @@
     },
     {
       "id": "hist-en-0354",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which continent is known as the 'Dark Continent'?",
       "options": {
@@ -4252,6 +5314,9 @@
     },
     {
       "id": "hist-en-0355",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In which country did the Industrial Revolution begin?",
       "options": {
@@ -4264,6 +5329,9 @@
     },
     {
       "id": "hist-en-0356",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the ship that brought the Pilgrims to America in 1620?",
       "options": {
@@ -4276,6 +5344,9 @@
     },
     {
       "id": "hist-en-0357",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which French landmark was built for the 1889 World's Fair?",
       "options": {
@@ -4288,6 +5359,9 @@
     },
     {
       "id": "hist-en-0358",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the first President of the United States?",
       "options": {
@@ -4300,6 +5374,9 @@
     },
     {
       "id": "hist-en-0359",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the peace treaty that ended World War I?",
       "options": {
@@ -4312,6 +5389,9 @@
     },
     {
       "id": "hist-en-0360",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is famous for its fjords and Vikings?",
       "options": {
@@ -4324,6 +5404,9 @@
     },
     {
       "id": "hist-en-0361",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the leader of the Civil Rights Movement in the US and gave the 'I Have a Dream' speech?",
       "options": {
@@ -4336,6 +5419,9 @@
     },
     {
       "id": "hist-en-0362",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Japanese city was the first to be targeted by an atomic bomb in 1945?",
       "options": {
@@ -4348,6 +5434,9 @@
     },
     {
       "id": "hist-en-0363",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which planet is known as the 'Red Planet'?",
       "options": {
@@ -4360,6 +5449,9 @@
     },
     {
       "id": "hist-en-0364",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the Prime Minister of the United Kingdom during most of World War II?",
       "options": {
@@ -4372,6 +5464,9 @@
     },
     {
       "id": "hist-en-0365",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the series of programs launched by FDR to help the US recover from the Great Depression?",
       "options": {
@@ -4384,6 +5479,9 @@
     },
     {
       "id": "hist-en-0366",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is home to the Great Barrier Reef?",
       "options": {
@@ -4396,6 +5494,9 @@
     },
     {
       "id": "hist-en-0367",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Russian monk was a controversial advisor to the Romanov family?",
       "options": {
@@ -4408,6 +5509,9 @@
     },
     {
       "id": "hist-en-0368",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In which year did the French Revolution begin?",
       "options": {
@@ -4420,6 +5524,9 @@
     },
     {
       "id": "hist-en-0369",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of France?",
       "options": {
@@ -4432,6 +5539,9 @@
     },
     {
       "id": "hist-en-0370",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the famous nurse known as 'The Lady with the Lamp' during the Crimean War?",
       "options": {
@@ -4444,6 +5554,9 @@
     },
     {
       "id": "hist-en-0371",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the first successful English colony in North America, founded in 1607?",
       "options": {
@@ -4456,6 +5569,9 @@
     },
     {
       "id": "hist-en-0372",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which animal is the largest mammal in the world?",
       "options": {
@@ -4468,6 +5584,9 @@
     },
     {
       "id": "hist-en-0373",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the Spanish conquistador who led the expedition that caused the fall of the Aztec Empire?",
       "options": {
@@ -4480,6 +5599,9 @@
     },
     {
       "id": "hist-en-0374",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which global conflict lasted from 1947 to 1991?",
       "options": {
@@ -4492,6 +5614,9 @@
     },
     {
       "id": "hist-en-0375",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the tower in Italy known for its tilt?",
       "options": {
@@ -4504,6 +5629,9 @@
     },
     {
       "id": "hist-en-0376",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French writer wrote 'Les Misérables'?",
       "options": {
@@ -4516,6 +5644,9 @@
     },
     {
       "id": "hist-en-0377",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the capital of the Aztec Empire, located where Mexico City is today?",
       "options": {
@@ -4528,6 +5659,9 @@
     },
     {
       "id": "hist-en-0378",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What color do you get by mixing red and blue?",
       "options": {
@@ -4540,6 +5674,9 @@
     },
     {
       "id": "hist-en-0379",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which explorer was the first European to see the Pacific Ocean from the Americas?",
       "options": {
@@ -4552,6 +5689,9 @@
     },
     {
       "id": "hist-en-0380",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In what year was slavery definitively abolished in France?",
       "options": {
@@ -4564,6 +5704,9 @@
     },
     {
       "id": "hist-en-0381",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the galaxy in which we live?",
       "options": {
@@ -4576,6 +5719,9 @@
     },
     {
       "id": "hist-en-0382",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which king was the last to reign over France before the 1789 Revolution?",
       "options": {
@@ -4588,6 +5734,9 @@
     },
     {
       "id": "hist-en-0383",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which treaty ended the American Revolutionary War in 1783?",
       "options": {
@@ -4600,6 +5749,9 @@
     },
     {
       "id": "hist-en-0384",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which insect is known for producing honey?",
       "options": {
@@ -4612,6 +5764,9 @@
     },
     {
       "id": "hist-en-0385",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the leader of the Soviet Union during World War II?",
       "options": {
@@ -4624,6 +5779,9 @@
     },
     {
       "id": "hist-en-0386",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Polish-born scientist discovered radium and polonium?",
       "options": {
@@ -4636,6 +5794,9 @@
     },
     {
       "id": "hist-en-0387",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of the United States?",
       "options": {
@@ -4648,6 +5809,9 @@
     },
     {
       "id": "hist-en-0388",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which explorer's crew completed the first circumnavigation of the globe?",
       "options": {
@@ -4660,6 +5824,9 @@
     },
     {
       "id": "hist-en-0389",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In which city was the first modern Olympic Games held in 1896?",
       "options": {
@@ -4672,6 +5839,9 @@
     },
     {
       "id": "hist-en-0390",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the largest ocean on Earth?",
       "options": {
@@ -4684,6 +5854,9 @@
     },
     {
       "id": "hist-en-0391",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which American president signed the Emancipation Proclamation?",
       "options": {
@@ -4696,6 +5869,9 @@
     },
     {
       "id": "hist-en-0392",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French general and statesman led the Free French Forces during WWII?",
       "options": {
@@ -4708,6 +5884,9 @@
     },
     {
       "id": "hist-en-0393",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the long-necked animal that lives in the African savanna?",
       "options": {
@@ -4720,6 +5899,9 @@
     },
     {
       "id": "hist-en-0394",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which artist is famous for his 'Blue Period' and 'Rose Period'?",
       "options": {
@@ -4732,6 +5914,9 @@
     },
     {
       "id": "hist-en-0395",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which ancient structure was built as a tomb for the Pharoah Khufu (Cheops)?",
       "options": {
@@ -4744,6 +5929,9 @@
     },
     {
       "id": "hist-en-0396",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is the home of the Great Pyramids?",
       "options": {
@@ -4756,6 +5944,9 @@
     },
     {
       "id": "hist-en-0397",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the legendary nurse known for her work during the Crimean War?",
       "options": {
@@ -4768,6 +5959,9 @@
     },
     {
       "id": "hist-en-0398",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the lunar module that landed Neil Armstrong and Buzz Aldrin on the Moon?",
       "options": {
@@ -4780,6 +5974,9 @@
     },
     {
       "id": "hist-en-0399",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which planet is closest to the Sun?",
       "options": {
@@ -4792,6 +5989,9 @@
     },
     {
       "id": "hist-en-0400",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which South African leader spent 27 years in prison before becoming president?",
       "options": {
@@ -4804,6 +6004,9 @@
     },
     {
       "id": "hist-en-0401",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which organ allows us to breathe?",
       "options": {
@@ -4816,6 +6019,9 @@
     },
     {
       "id": "hist-en-0402",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which inventor patented the telephone in 1876?",
       "options": {
@@ -4828,6 +6034,9 @@
     },
     {
       "id": "hist-en-0403",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Roman emperor legalized Christianity with the Edict of Milan?",
       "options": {
@@ -4840,6 +6049,9 @@
     },
     {
       "id": "hist-en-0404",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the ship that sank after hitting an iceberg in 1912?",
       "options": {
@@ -4852,6 +6064,9 @@
     },
     {
       "id": "hist-en-0405",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "In which city is the famous Empire State Building skyscraper located?",
       "options": {
@@ -4864,6 +6079,9 @@
     },
     {
       "id": "hist-en-0406",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the falcon-headed Egyptian god, protector of the pharaohs?",
       "options": {
@@ -4876,6 +6094,9 @@
     },
     {
       "id": "hist-en-0407",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What color is a ruby?",
       "options": {
@@ -4888,6 +6109,9 @@
     },
     {
       "id": "hist-en-0408",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which American state is famous for its Grand Canyon?",
       "options": {
@@ -4900,6 +6124,9 @@
     },
     {
       "id": "hist-en-0409",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In which year did the Berlin Wall fall?",
       "options": {
@@ -4912,6 +6139,9 @@
     },
     {
       "id": "hist-en-0410",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the largest country in the world by land area?",
       "options": {
@@ -4924,6 +6154,9 @@
     },
     {
       "id": "hist-en-0411",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which famous scientist developed the Theory of Relativity?",
       "options": {
@@ -4936,6 +6169,9 @@
     },
     {
       "id": "hist-en-0412",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the legislative assembly in France before the 1789 Revolution?",
       "options": {
@@ -4948,6 +6184,9 @@
     },
     {
       "id": "hist-en-0413",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which instrument is used to measure temperature?",
       "options": {
@@ -4960,6 +6199,9 @@
     },
     {
       "id": "hist-en-0414",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the famous Queen of France executed during the Revolution?",
       "options": {
@@ -4972,6 +6214,9 @@
     },
     {
       "id": "hist-en-0415",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which war was fought between the North and the South in the United States (1861-1865)?",
       "options": {
@@ -4984,6 +6229,9 @@
     },
     {
       "id": "hist-en-0416",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What do we call the water that falls from clouds?",
       "options": {
@@ -4996,6 +6244,9 @@
     },
     {
       "id": "hist-en-0417",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the leader of the Indian independence movement against British rule?",
       "options": {
@@ -5008,6 +6259,9 @@
     },
     {
       "id": "hist-en-0418",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the document signed in 1215 that limited the power of the English king?",
       "options": {
@@ -5020,6 +6274,9 @@
     },
     {
       "id": "hist-en-0419",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is home to the city of Tokyo?",
       "options": {
@@ -5032,6 +6289,9 @@
     },
     {
       "id": "hist-en-0420",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which artist painted the 'Mona Lisa'?",
       "options": {
@@ -5044,6 +6304,9 @@
     },
     {
       "id": "hist-en-0421",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which empire was ruled by Suleiman the Magnificent?",
       "options": {
@@ -5056,6 +6319,9 @@
     },
     {
       "id": "hist-en-0422",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "How many days are there in a normal year?",
       "options": {
@@ -5068,6 +6334,9 @@
     },
     {
       "id": "hist-en-0423",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which sea separates Europe from Africa?",
       "options": {
@@ -5080,6 +6349,9 @@
     },
     {
       "id": "hist-en-0424",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the last pharaoh of Ancient Egypt?",
       "options": {
@@ -5092,6 +6364,9 @@
     },
     {
       "id": "hist-en-0425",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which animal is known as the 'King of the Jungle'?",
       "options": {
@@ -5104,6 +6379,9 @@
     },
     {
       "id": "hist-en-0426",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which large wall was built by the Romans in northern England to protect against invasions?",
       "options": {
@@ -5116,6 +6394,9 @@
     },
     {
       "id": "hist-en-0427",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which French navigator founded the city of Quebec in 1608?",
       "options": {
@@ -5128,6 +6409,9 @@
     },
     {
       "id": "hist-en-0428",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which planet is known as the 'Red Planet'?",
       "options": {
@@ -5140,6 +6424,9 @@
     },
     {
       "id": "hist-en-0429",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which African-American activist delivered the famous 'I Have a Dream' speech?",
       "options": {
@@ -5152,6 +6439,9 @@
     },
     {
       "id": "hist-en-0430",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In which city did the industrial revolution begin in the 18th century?",
       "options": {
@@ -5164,6 +6454,9 @@
     },
     {
       "id": "hist-en-0431",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of France?",
       "options": {
@@ -5176,6 +6469,9 @@
     },
     {
       "id": "hist-en-0432",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which great wall was built to protect China from northern invasions?",
       "options": {
@@ -5188,6 +6484,9 @@
     },
     {
       "id": "hist-en-0433",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Portuguese explorer was the first to reach India by sea in 1498?",
       "options": {
@@ -5200,6 +6499,9 @@
     },
     {
       "id": "hist-en-0434",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which white bird is a universal symbol of peace?",
       "options": {
@@ -5212,6 +6514,9 @@
     },
     {
       "id": "hist-en-0435",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the legendary king of the Franks, crowned Emperor of the West in 800?",
       "options": {
@@ -5224,6 +6529,9 @@
     },
     {
       "id": "hist-en-0436",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which major event began with the storming of the Bastille on July 14, 1789?",
       "options": {
@@ -5236,6 +6544,9 @@
     },
     {
       "id": "hist-en-0437",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What do we call the remains of animals or plants from the past preserved in rock?",
       "options": {
@@ -5248,6 +6559,9 @@
     },
     {
       "id": "hist-en-0438",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which scientist discovered the law of universal gravitation?",
       "options": {
@@ -5260,6 +6574,9 @@
     },
     {
       "id": "hist-en-0439",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the 'Sun King' who reigned over France for 72 years?",
       "options": {
@@ -5272,6 +6589,9 @@
     },
     {
       "id": "hist-en-0440",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which instrument is used to measure temperature?",
       "options": {
@@ -5284,6 +6604,9 @@
     },
     {
       "id": "hist-en-0441",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which artist is famous for his Pop Art works depicting Campbell's soup cans?",
       "options": {
@@ -5296,6 +6619,9 @@
     },
     {
       "id": "hist-en-0442",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In what year did the fall of the Eastern Roman Empire (capture of Constantinople) occur?",
       "options": {
@@ -5308,6 +6634,9 @@
     },
     {
       "id": "hist-en-0443",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the largest desert in the world?",
       "options": {
@@ -5320,6 +6649,9 @@
     },
     {
       "id": "hist-en-0444",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which ruler established the Civil Code in France in 1804?",
       "options": {
@@ -5332,6 +6664,9 @@
     },
     {
       "id": "hist-en-0445",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which country was the first to launch a living being into space (the dog Laika)?",
       "options": {
@@ -5344,6 +6679,9 @@
     },
     {
       "id": "hist-en-0446",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What color is the flag of peace?",
       "options": {
@@ -5356,6 +6694,9 @@
     },
     {
       "id": "hist-en-0447",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who discovered radioactivity with her husband Pierre?",
       "options": {
@@ -5368,6 +6709,9 @@
     },
     {
       "id": "hist-en-0448",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which naval battle in 1571 saw a Christian coalition victory over the Ottoman fleet?",
       "options": {
@@ -5380,6 +6724,9 @@
     },
     {
       "id": "hist-en-0449",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the highest mountain in Africa?",
       "options": {
@@ -5392,6 +6739,9 @@
     },
     {
       "id": "hist-en-0450",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which writer created the character 'Tarzan'?",
       "options": {
@@ -5404,6 +6754,9 @@
     },
     {
       "id": "hist-en-0451",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which Spanish explorer led the expedition that caused the fall of the Aztec Empire?",
       "options": {
@@ -5416,6 +6769,9 @@
     },
     {
       "id": "hist-en-0452",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the star that provides us with light and heat?",
       "options": {
@@ -5428,6 +6784,9 @@
     },
     {
       "id": "hist-en-0453",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which canal, opened in 1869, connects the Mediterranean Sea to the Red Sea?",
       "options": {
@@ -5440,6 +6799,9 @@
     },
     {
       "id": "hist-en-0454",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the first President of the United States?",
       "options": {
@@ -5452,6 +6814,9 @@
     },
     {
       "id": "hist-en-0455",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which country is shaped like a boot?",
       "options": {
@@ -5464,6 +6829,9 @@
     },
     {
       "id": "hist-en-0456",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which mountain range separates Europe from Asia?",
       "options": {
@@ -5476,6 +6844,9 @@
     },
     {
       "id": "hist-en-0457",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the Greek philosopher who was the teacher of Plato?",
       "options": {
@@ -5488,6 +6859,9 @@
     },
     {
       "id": "hist-en-0458",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What do we call a person who travels into space?",
       "options": {
@@ -5500,6 +6874,9 @@
     },
     {
       "id": "hist-en-0459",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which city was the capital of the Byzantine Empire?",
       "options": {
@@ -5512,6 +6889,9 @@
     },
     {
       "id": "hist-en-0460",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which scientist is known for her research on radium and polonium?",
       "options": {
@@ -5524,6 +6904,9 @@
     },
     {
       "id": "hist-en-0461",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which continent is known as the 'Island Continent'?",
       "options": {
@@ -5536,6 +6919,9 @@
     },
     {
       "id": "hist-en-0462",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the main author of the American Declaration of Independence?",
       "options": {
@@ -5548,6 +6934,9 @@
     },
     {
       "id": "hist-en-0463",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In which century did the Hundred Years' War take place?",
       "options": {
@@ -5560,6 +6949,9 @@
     },
     {
       "id": "hist-en-0464",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the largest animal on Earth?",
       "options": {
@@ -5572,6 +6964,9 @@
     },
     {
       "id": "hist-en-0465",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Russian leader was known as 'The Great' and modernized Russia?",
       "options": {
@@ -5584,6 +6979,9 @@
     },
     {
       "id": "hist-en-0466",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the first dynasty of French kings?",
       "options": {
@@ -5596,6 +6994,9 @@
     },
     {
       "id": "hist-en-0467",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which color is associated with the planet Mars?",
       "options": {
@@ -5608,6 +7009,9 @@
     },
     {
       "id": "hist-en-0468",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which city is known as the 'Cradle of the Renaissance'?",
       "options": {
@@ -5620,6 +7024,9 @@
     },
     {
       "id": "hist-en-0469",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the primary leader of the Soviet Union during World War II?",
       "options": {
@@ -5632,6 +7039,9 @@
     },
     {
       "id": "hist-en-0470",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the long sleep some animals take during winter?",
       "options": {
@@ -5644,6 +7054,9 @@
     },
     {
       "id": "hist-en-0471",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French author wrote 'The Three Musketeers'?",
       "options": {
@@ -5656,6 +7069,9 @@
     },
     {
       "id": "hist-en-0472",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In which battle was the French fleet defeated by Admiral Nelson in 1805?",
       "options": {
@@ -5668,6 +7084,9 @@
     },
     {
       "id": "hist-en-0473",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which ocean is located between Europe and America?",
       "options": {
@@ -5680,6 +7099,9 @@
     },
     {
       "id": "hist-en-0474",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the King of England during the American Revolution?",
       "options": {
@@ -5692,6 +7114,9 @@
     },
     {
       "id": "hist-en-0475",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which civilization developed the earliest known writing system, called cuneiform?",
       "options": {
@@ -5704,6 +7129,9 @@
     },
     {
       "id": "hist-en-0476",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which large feline is known as the 'King of the Jungle'?",
       "options": {
@@ -5716,6 +7144,9 @@
     },
     {
       "id": "hist-en-0477",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which French navigator was the first to sail around the world between 1766 and 1769?",
       "options": {
@@ -5728,6 +7159,9 @@
     },
     {
       "id": "hist-en-0478",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In which city were the first modern Olympic Games held in 1896?",
       "options": {
@@ -5740,6 +7174,9 @@
     },
     {
       "id": "hist-en-0479",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the satellite that revolves around the Earth?",
       "options": {
@@ -5752,6 +7189,9 @@
     },
     {
       "id": "hist-en-0480",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which artist is famous for his paintings of water lilies?",
       "options": {
@@ -5764,6 +7204,9 @@
     },
     {
       "id": "hist-en-0481",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Who was the last Empress of France, wife of Napoleon III?",
       "options": {
@@ -5776,6 +7219,9 @@
     },
     {
       "id": "hist-en-0482",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the process by which plants make their food using light?",
       "options": {
@@ -5788,6 +7234,9 @@
     },
     {
       "id": "hist-en-0483",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which city is known as 'The Eternal City'?",
       "options": {
@@ -5800,6 +7249,9 @@
     },
     {
       "id": "hist-en-0484",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In what year did the French Revolution end with the coup d'état of 18 Brumaire?",
       "options": {
@@ -5812,6 +7264,9 @@
     },
     {
       "id": "hist-en-0485",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which ocean is the largest on Earth?",
       "options": {
@@ -5824,6 +7279,9 @@
     },
     {
       "id": "hist-en-0486",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which scientist developed the theory of evolution by natural selection?",
       "options": {
@@ -5836,6 +7294,9 @@
     },
     {
       "id": "hist-en-0487",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which English king was the father of Queen Elizabeth I?",
       "options": {
@@ -5848,6 +7309,9 @@
     },
     {
       "id": "hist-en-0488",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the capital of Japan?",
       "options": {
@@ -5860,6 +7324,9 @@
     },
     {
       "id": "hist-en-0489",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which Austrian composer was a child prodigy and wrote 'The Magic Flute'?",
       "options": {
@@ -5872,6 +7339,9 @@
     },
     {
       "id": "hist-en-0490",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "What was the name of the first woman to be elected Prime Minister of the United Kingdom?",
       "options": {
@@ -5884,6 +7354,9 @@
     },
     {
       "id": "hist-en-0491",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which color is the mix of blue and yellow?",
       "options": {
@@ -5896,6 +7369,9 @@
     },
     {
       "id": "hist-en-0492",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Who was the primary leader of the Indian independence movement using non-violence?",
       "options": {
@@ -5908,6 +7384,9 @@
     },
     {
       "id": "hist-en-0493",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which peace treaty ended World War I in 1919?",
       "options": {
@@ -5920,6 +7399,9 @@
     },
     {
       "id": "hist-en-0494",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the imaginary line that divides the Earth into two hemispheres?",
       "options": {
@@ -5932,6 +7414,9 @@
     },
     {
       "id": "hist-en-0495",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "Which American writer is the author of 'The Adventures of Tom Sawyer'?",
       "options": {
@@ -5944,6 +7429,9 @@
     },
     {
       "id": "hist-en-0496",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "In what year was the United Nations (UN) founded?",
       "options": {
@@ -5956,6 +7444,9 @@
     },
     {
       "id": "hist-en-0497",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "Which organ pumps blood throughout the body?",
       "options": {
@@ -5968,6 +7459,9 @@
     },
     {
       "id": "hist-en-0498",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "hard",
       "question": "Which explorer reached the South Pole first in 1911?",
       "options": {
@@ -5980,6 +7474,9 @@
     },
     {
       "id": "hist-en-0499",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "easy",
       "question": "What is the name of the celestial body that gives us light at night?",
       "options": {
@@ -5992,6 +7489,9 @@
     },
     {
       "id": "hist-en-0500",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "en",
       "difficulty": "medium",
       "question": "What is the name of the famous wall that divided Berlin in two?",
       "options": {

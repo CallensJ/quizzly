@@ -4,6 +4,9 @@
   "questions": [
     {
       "id": "hero-fr-easy-001",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un chevalier porte-t-il pour se protéger ?",
       "options": {
@@ -16,6 +19,9 @@
     },
     {
       "id": "hero-fr-easy-002",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que cherche souvent un pirate sur une île ?",
       "options": {
@@ -28,6 +34,9 @@
     },
     {
       "id": "hero-fr-easy-003",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal imaginaire crache parfois du feu ?",
       "options": {
@@ -40,6 +49,9 @@
     },
     {
       "id": "hero-fr-easy-004",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Où un explorateur met-il une carte pour la lire ?",
       "options": {
@@ -52,6 +64,9 @@
     },
     {
       "id": "hero-fr-easy-005",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit quelqu'un qui n'a pas peur ?",
       "options": {
@@ -64,6 +79,9 @@
     },
     {
       "id": "hero-fr-easy-006",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que garde souvent un château ?",
       "options": {
@@ -76,6 +94,9 @@
     },
     {
       "id": "hero-fr-easy-007",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel ami aide un héros dans une aventure ?",
       "options": {
@@ -88,6 +109,9 @@
     },
     {
       "id": "hero-fr-easy-008",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que suit-on pour trouver un trésor sur une carte ?",
       "options": {
@@ -100,6 +124,9 @@
     },
     {
       "id": "hero-fr-easy-009",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel outil un aventurier utilise-t-il pour couper une corde ?",
       "options": {
@@ -112,6 +139,9 @@
     },
     {
       "id": "hero-fr-easy-010",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros quand un ami est triste ?",
       "options": {
@@ -124,6 +154,9 @@
     },
     {
       "id": "hero-fr-easy-011",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bruit fait souvent un dragon dans les histoires ?",
       "options": {
@@ -136,6 +169,9 @@
     },
     {
       "id": "hero-fr-easy-012",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Où un pirate cache-t-il parfois un trésor ?",
       "options": {
@@ -148,6 +184,9 @@
     },
     {
       "id": "hero-fr-easy-013",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel vêtement protège la tête d'un chevalier ?",
       "options": {
@@ -160,6 +199,9 @@
     },
     {
       "id": "hero-fr-easy-014",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que prend un explorateur pour boire en voyage ?",
       "options": {
@@ -172,6 +214,9 @@
     },
     {
       "id": "hero-fr-easy-015",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une amitié solide ?",
       "options": {
@@ -184,6 +229,9 @@
     },
     {
       "id": "hero-fr-easy-016",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que suit-on pour ne pas se perdre dans une forêt ?",
       "options": {
@@ -196,6 +244,9 @@
     },
     {
       "id": "hero-fr-easy-017",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à voir loin pour repérer une île ?",
       "options": {
@@ -208,6 +259,9 @@
     },
     {
       "id": "hero-fr-easy-018",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un chevalier pour protéger les autres ?",
       "options": {
@@ -220,6 +274,9 @@
     },
     {
       "id": "hero-fr-easy-019",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet indique l'emplacement d'un trésor sur une carte ?",
       "options": {
@@ -232,6 +289,9 @@
     },
     {
       "id": "hero-fr-easy-020",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel compagnon un aventurier peut-il avoir ?",
       "options": {
@@ -244,6 +304,9 @@
     },
     {
       "id": "hero-fr-easy-021",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait-on pour traverser une rivière sans se mouiller ?",
       "options": {
@@ -256,6 +319,9 @@
     },
     {
       "id": "hero-fr-easy-022",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un pirate utilise-t-il pour naviguer ?",
       "options": {
@@ -268,6 +334,9 @@
     },
     {
       "id": "hero-fr-easy-023",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit un lieu plein de mystères et d'arbres ?",
       "options": {
@@ -280,6 +349,9 @@
     },
     {
       "id": "hero-fr-easy-024",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros quand il trouve un indice ?",
       "options": {
@@ -292,6 +364,9 @@
     },
     {
       "id": "hero-fr-easy-025",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à allumer un feu pour se réchauffer ?",
       "options": {
@@ -304,6 +379,9 @@
     },
     {
       "id": "hero-fr-easy-026",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel geste montre la loyauté entre amis ?",
       "options": {
@@ -316,6 +394,9 @@
     },
     {
       "id": "hero-fr-easy-027",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bruit fait un bateau pirate sur la mer ?",
       "options": {
@@ -328,6 +409,9 @@
     },
     {
       "id": "hero-fr-easy-028",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que met-on sur une carte pour marquer un chemin ?",
       "options": {
@@ -340,6 +424,9 @@
     },
     {
       "id": "hero-fr-easy-029",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel rôle a un gardien dans un château ?",
       "options": {
@@ -352,6 +439,9 @@
     },
     {
       "id": "hero-fr-easy-030",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel sentiment aide un héros à continuer une quête difficile ?",
       "options": {
@@ -364,6 +454,9 @@
     },
     {
       "id": "hero-fr-easy-031",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un aventurier met-il sur sa tête pour se protéger du soleil ?",
       "options": {
@@ -376,6 +469,9 @@
     },
     {
       "id": "hero-fr-easy-032",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que peut contenir un coffre au trésor ?",
       "options": {
@@ -388,6 +484,9 @@
     },
     {
       "id": "hero-fr-easy-033",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit un lieu élevé avec des tours et des murs ?",
       "options": {
@@ -400,6 +499,9 @@
     },
     {
       "id": "hero-fr-easy-034",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un explorateur pour noter un endroit important ?",
       "options": {
@@ -412,6 +514,9 @@
     },
     {
       "id": "hero-fr-easy-035",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à trouver des indices dans l'obscurité ?",
       "options": {
@@ -424,6 +529,9 @@
     },
     {
       "id": "hero-fr-easy-036",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une créature qui protège un trésor ?",
       "options": {
@@ -436,6 +544,9 @@
     },
     {
       "id": "hero-fr-easy-037",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros quand il doit résoudre une énigme ?",
       "options": {
@@ -448,6 +559,9 @@
     },
     {
       "id": "hero-fr-easy-038",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un pirate met-il sur l'œil parfois ?",
       "options": {
@@ -460,6 +574,9 @@
     },
     {
       "id": "hero-fr-easy-039",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une quête pour aider quelqu'un ?",
       "options": {
@@ -472,6 +589,9 @@
     },
     {
       "id": "hero-fr-easy-040",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel geste montre de l'amitié pendant une aventure ?",
       "options": {
@@ -484,6 +604,9 @@
     },
     {
       "id": "hero-fr-easy-041",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel outil aide à creuser pour trouver un trésor ?",
       "options": {
@@ -496,6 +619,9 @@
     },
     {
       "id": "hero-fr-easy-042",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un chevalier avant un combat pour être prêt ?",
       "options": {
@@ -508,6 +634,9 @@
     },
     {
       "id": "hero-fr-easy-043",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel endroit est souvent plein de passages secrets dans les histoires ?",
       "options": {
@@ -520,6 +649,9 @@
     },
     {
       "id": "hero-fr-easy-044",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une personne qui explore des lieux inconnus ?",
       "options": {
@@ -532,6 +664,9 @@
     },
     {
       "id": "hero-fr-easy-045",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que peut trouver un aventurier dans une grotte ?",
       "options": {
@@ -544,6 +679,9 @@
     },
     {
       "id": "hero-fr-easy-046",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit quelqu'un qui tient toujours ses promesses ?",
       "options": {
@@ -556,6 +694,9 @@
     },
     {
       "id": "hero-fr-easy-047",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros pour gagner la confiance d'un ami ?",
       "options": {
@@ -568,6 +709,9 @@
     },
     {
       "id": "hero-fr-easy-048",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un pirate utilise-t-il pour ouvrir un coffre verrouillé ?",
       "options": {
@@ -580,6 +724,9 @@
     },
     {
       "id": "hero-fr-easy-049",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une aventure pleine de surprises ?",
       "options": {
@@ -592,6 +739,9 @@
     },
     {
       "id": "hero-fr-easy-050",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un aventurier pour ne pas se perdre la nuit ?",
       "options": {
@@ -604,6 +754,9 @@
     },
     {
       "id": "hero-fr-easy-051",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un chevalier tient-il souvent à la main ?",
       "options": {
@@ -616,6 +769,9 @@
     },
     {
       "id": "hero-fr-easy-052",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une créature amie des héros ?",
       "options": {
@@ -628,6 +784,9 @@
     },
     {
       "id": "hero-fr-easy-053",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros pour résoudre un mystère ?",
       "options": {
@@ -640,6 +799,9 @@
     },
     {
       "id": "hero-fr-easy-054",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel endroit inspire souvent des quêtes et des légendes ?",
       "options": {
@@ -652,6 +814,9 @@
     },
     {
       "id": "hero-fr-medium-055",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve deux portes : l'une mène au trésor, l'autre à une salle vide. Il voit une empreinte de pas menant à la porte de gauche. Que doit-il faire pour décider ?",
       "options": {
@@ -664,6 +829,9 @@
     },
     {
       "id": "hero-fr-medium-056",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une carte montre une rivière et un pont cassé. Quel est le meilleur plan pour traverser ?",
       "options": {
@@ -676,6 +844,9 @@
     },
     {
       "id": "hero-fr-medium-057",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate a trois clés et un coffre à trois serrures. Chaque clé ouvre une serrure. Quelle stratégie est la plus logique ?",
       "options": {
@@ -688,6 +859,9 @@
     },
     {
       "id": "hero-fr-medium-058",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un dragon dort devant une grotte. L'aventurier veut entrer sans réveiller le dragon. Que peut-il faire ?",
       "options": {
@@ -700,6 +874,9 @@
     },
     {
       "id": "hero-fr-medium-059",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Lors d'une quête, deux amis se disputent pour savoir qui porte la carte. Que ferait un héros loyal ?",
       "options": {
@@ -712,6 +889,9 @@
     },
     {
       "id": "hero-fr-medium-060",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un explorateur voit des traces fraîches et des traces anciennes. Que cela peut-il indiquer ?",
       "options": {
@@ -724,6 +904,9 @@
     },
     {
       "id": "hero-fr-medium-061",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit choisir entre sauver un ami ou récupérer une relique. Que ferait un héros courageux et loyal ?",
       "options": {
@@ -736,6 +919,9 @@
     },
     {
       "id": "hero-fr-medium-062",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Sur une île, trois chemins mènent à des indices. Lequel choisir pour gagner du temps ?",
       "options": {
@@ -748,6 +934,9 @@
     },
     {
       "id": "hero-fr-medium-063",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier trouve une énigme : \"Je suis petit le matin, grand le soir.\" Que peut-être ?",
       "options": {
@@ -760,6 +949,9 @@
     },
     {
       "id": "hero-fr-medium-064",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate veut partager un butin équitablement entre quatre amis. Il a 20 pièces. Combien chacun reçoit-il ?",
       "options": {
@@ -772,6 +964,9 @@
     },
     {
       "id": "hero-fr-medium-065",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit traverser un pont qui ne supporte qu'un poids. Il est avec un ami plus lourd. Que faire ?",
       "options": {
@@ -784,6 +979,9 @@
     },
     {
       "id": "hero-fr-medium-066",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une carte montre un X près d'un rocher en forme d'arc. Que devrait vérifier l'équipe d'explorateurs ?",
       "options": {
@@ -796,6 +994,9 @@
     },
     {
       "id": "hero-fr-medium-067",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un dragon propose un défi : résoudre une suite logique pour passer. Quelle approche est la meilleure ?",
       "options": {
@@ -808,6 +1009,9 @@
     },
     {
       "id": "hero-fr-medium-068",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier a une lampe qui s'éteint après 3 heures. Il doit traverser une grotte de 5 heures. Que faire ?",
       "options": {
@@ -820,6 +1024,9 @@
     },
     {
       "id": "hero-fr-medium-069",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe doit décider qui monte la garde la nuit. Quelle règle est juste ?",
       "options": {
@@ -832,6 +1039,9 @@
     },
     {
       "id": "hero-fr-medium-070",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate trouve une carte avec un symbole étrange. Quelle action logique ?",
       "options": {
@@ -844,6 +1054,9 @@
     },
     {
       "id": "hero-fr-medium-071",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit choisir entre deux chemins : l'un court mais sombre, l'autre long mais sûr. Que choisir pour protéger son équipe ?",
       "options": {
@@ -856,6 +1069,9 @@
     },
     {
       "id": "hero-fr-medium-072",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme dit : \"Je garde le trésor mais je ne suis pas vivant.\" Que peut-être ?",
       "options": {
@@ -868,6 +1084,9 @@
     },
     {
       "id": "hero-fr-medium-073",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un explorateur doit traverser un marais. Quelle précaution est la plus utile ?",
       "options": {
@@ -880,6 +1099,9 @@
     },
     {
       "id": "hero-fr-medium-074",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe trouve deux indices contradictoires. Quelle est la meilleure méthode pour avancer ?",
       "options": {
@@ -892,6 +1114,9 @@
     },
     {
       "id": "hero-fr-medium-075",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier veut traverser une rivière en évitant les pierres glissantes. Quelle technique ?",
       "options": {
@@ -904,6 +1129,9 @@
     },
     {
       "id": "hero-fr-medium-076",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate a une boussole qui pointe vers le nord. Il veut aller vers le trésor à l'est. Que faire ?",
       "options": {
@@ -916,6 +1144,9 @@
     },
     {
       "id": "hero-fr-medium-077",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une carte montre trois collines alignées. Le trésor est au milieu. Où creuser ?",
       "options": {
@@ -928,6 +1159,9 @@
     },
     {
       "id": "hero-fr-medium-078",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier entend un bruit derrière une porte fermée. Quelle action prudente ?",
       "options": {
@@ -940,6 +1174,9 @@
     },
     {
       "id": "hero-fr-medium-079",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un dragon propose d'échanger un indice contre une énigme résolue. Quelle stratégie ?",
       "options": {
@@ -952,6 +1189,9 @@
     },
     {
       "id": "hero-fr-medium-080",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe doit traverser une tempête en mer. Quelle règle d'équipe est la plus utile ?",
       "options": {
@@ -964,6 +1204,9 @@
     },
     {
       "id": "hero-fr-medium-081",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve trois potions : rouge, bleue, verte. Une soigne, une endort, une rend invisible. Quelle précaution ?",
       "options": {
@@ -976,6 +1219,9 @@
     },
     {
       "id": "hero-fr-medium-082",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un explorateur a une carte partielle. Quelle méthode aide à compléter la carte ?",
       "options": {
@@ -988,6 +1234,9 @@
     },
     {
       "id": "hero-fr-medium-083",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate doit choisir entre suivre une rumeur ou vérifier lui-même. Que ferait un bon capitaine ?",
       "options": {
@@ -1000,6 +1249,9 @@
     },
     {
       "id": "hero-fr-medium-084",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme demande : \"Je tourne sans bouger, j'indique le chemin.\" Qu'est-ce ?",
       "options": {
@@ -1012,6 +1264,9 @@
     },
     {
       "id": "hero-fr-medium-085",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier trouve une porte avec trois symboles. Il sait que le bon symbole est celui qui n'apparaît qu'une fois sur la carte. Que faire ?",
       "options": {
@@ -1024,6 +1279,9 @@
     },
     {
       "id": "hero-fr-medium-086",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit convaincre un garde de le laisser passer sans violence. Quelle approche est la plus efficace ?",
       "options": {
@@ -1036,6 +1294,9 @@
     },
     {
       "id": "hero-fr-medium-087",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate a une carte humide où l'encre a bavé. Quelle action aide à lire la carte ?",
       "options": {
@@ -1048,6 +1309,9 @@
     },
     {
       "id": "hero-fr-medium-088",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier doit traverser une zone de brouillard épais. Quelle précaution ?",
       "options": {
@@ -1060,6 +1324,9 @@
     },
     {
       "id": "hero-fr-medium-089",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme dit : \"Sans moi, la nuit est noire; avec moi, on voit le chemin.\" Qu'est-ce ?",
       "options": {
@@ -1072,6 +1339,9 @@
     },
     {
       "id": "hero-fr-medium-090",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe trouve un pont fragile et un bateau lent. Ils doivent traverser vite. Quelle option est la plus sûre ?",
       "options": {
@@ -1084,6 +1354,9 @@
     },
     {
       "id": "hero-fr-medium-091",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier a trois indices : un mot, une image, un son. Quelle combinaison est la plus fiable pour résoudre une énigme ?",
       "options": {
@@ -1096,6 +1369,9 @@
     },
     {
       "id": "hero-fr-medium-092",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate veut éviter une embuscade. Quelle tactique est la plus prudente ?",
       "options": {
@@ -1108,6 +1384,9 @@
     },
     {
       "id": "hero-fr-medium-093",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier doit choisir entre deux indices : l'un ancien mais clair, l'autre récent mais flou. Que choisir pour progresser ?",
       "options": {
@@ -1120,6 +1399,9 @@
     },
     {
       "id": "hero-fr-medium-094",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme mathématique simple : si un équipage a 12 biscuits et 4 marins, combien chacun reçoit-il si on partage équitablement ?",
       "options": {
@@ -1132,6 +1414,9 @@
     },
     {
       "id": "hero-fr-medium-095",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve une porte avec un code : 2, 4, 6, ?. Quelle est la prochaine valeur logique ?",
       "options": {
@@ -1144,6 +1429,9 @@
     },
     {
       "id": "hero-fr-medium-096",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un explorateur a une carte et un compas. Le compas indique le nord. Comment trouver l'est ?",
       "options": {
@@ -1156,6 +1444,9 @@
     },
     {
       "id": "hero-fr-medium-097",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate doit décider qui garde le trésor pendant la nuit. Quelle règle est la plus juste ?",
       "options": {
@@ -1168,6 +1459,9 @@
     },
     {
       "id": "hero-fr-medium-098",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme dit : \"Je suis pris avant d'être donné.\" Qu'est-ce ?",
       "options": {
@@ -1180,6 +1474,9 @@
     },
     {
       "id": "hero-fr-medium-099",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier voit des empreintes qui s'éloignent vers l'est puis reviennent vers l'ouest. Que cela suggère-t-il ?",
       "options": {
@@ -1192,6 +1489,9 @@
     },
     {
       "id": "hero-fr-medium-100",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit traverser une zone où le vent souffle fort. Quelle précaution ?",
       "options": {
@@ -1204,6 +1504,9 @@
     },
     {
       "id": "hero-fr-medium-101",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate a une carte avec un symbole de lune et un symbole de soleil. Que cela peut indiquer ?",
       "options": {
@@ -1216,6 +1519,9 @@
     },
     {
       "id": "hero-fr-medium-102",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier doit choisir entre deux outils : une corde et une lampe. Il doit descendre dans une grotte sombre et haute. Que prendre ?",
       "options": {
@@ -1228,6 +1534,9 @@
     },
     {
       "id": "hero-fr-medium-103",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme demande : \"Je monte quand la pluie arrive, je descends quand le soleil revient.\" Qu'est-ce ?",
       "options": {
@@ -1240,6 +1549,9 @@
     },
     {
       "id": "hero-fr-medium-104",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve trois chemins marqués A, B, C. A mène à un pont, B à une grotte, C à une colline. Il cherche un indice sur la colline. Que choisir ?",
       "options": {
@@ -1252,6 +1564,9 @@
     },
     {
       "id": "hero-fr-medium-105",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate doit réparer une voile déchirée avant la nuit. Quelle action prioritaire ?",
       "options": {
@@ -1264,6 +1579,9 @@
     },
     {
       "id": "hero-fr-medium-106",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier a trois indices qui forment un mot. Il manque une lettre. Quelle méthode pour la trouver ?",
       "options": {
@@ -1276,6 +1594,9 @@
     },
     {
       "id": "hero-fr-medium-107",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un dragon dort sur un tas d'objets brillants. L'équipe veut récupérer un objet sans réveiller le dragon. Quelle stratégie ?",
       "options": {
@@ -1288,6 +1609,9 @@
     },
     {
       "id": "hero-fr-medium-108",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une carte ancienne montre un symbole répété trois fois. Que peut signifier la répétition ?",
       "options": {
@@ -1300,6 +1624,9 @@
     },
     {
       "id": "hero-fr-hard-109",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier doit traverser un labyrinthe où chaque croisement a une flèche. Certaines flèches mentent, d'autres disent la vérité. Il rencontre deux gardiens : l'un ment toujours, l'autre dit toujours la vérité. Quelle question poser pour trouver la sortie ?",
       "options": {
@@ -1312,6 +1639,9 @@
     },
     {
       "id": "hero-fr-hard-110",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un pirate a une carte codée avec des symboles. Il remarque que chaque symbole correspond à une lettre selon un motif : A→B, B→C, C→D, etc. Le mot 'QRS' devient ?",
       "options": {
@@ -1324,6 +1654,9 @@
     },
     {
       "id": "hero-fr-hard-111",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un dragon garde trois coffres : l'un contient de l'or, l'un est vide, l'un contient un indice. Les coffres sont étiquetés mais une seule étiquette est correcte. Étiquettes : 'Or', 'Vide', 'Indice'. Quelle étiquette est sur le coffre contenant l'indice ?",
       "options": {
@@ -1336,6 +1669,9 @@
     },
     {
       "id": "hero-fr-hard-112",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un explorateur a 3 jours pour atteindre un village à 90 km. Il peut marcher 30 km par jour. Quel plan garantit l'arrivée à temps ?",
       "options": {
@@ -1348,6 +1684,9 @@
     },
     {
       "id": "hero-fr-hard-113",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Une énigme demande de trouver le mot caché : 'CHEVALIER' sans les lettres de 'LIRE'. Quelles lettres restent ?",
       "options": {
@@ -1360,6 +1699,9 @@
     },
     {
       "id": "hero-fr-hard-114",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un groupe doit partager 25 gemmes entre 5 aventuriers de façon égale. Combien reste-t-il si on ne peut pas couper une gemme ?",
       "options": {
@@ -1372,6 +1714,9 @@
     },
     {
       "id": "hero-fr-hard-115",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier a trois potions : l'une double la force, l'une réduit la taille de moitié, l'une rend invisible. Il doit franchir une porte étroite puis soulever une pierre lourde. Quelle combinaison logique ?",
       "options": {
@@ -1384,6 +1729,9 @@
     },
     {
       "id": "hero-fr-hard-116",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un pirate a une boussole défectueuse qui indique toujours 90° à l'est de la vraie direction. Pour aller vers le nord, quelle direction doit-il suivre selon sa boussole ?",
       "options": {
@@ -1396,6 +1744,9 @@
     },
     {
       "id": "hero-fr-hard-117",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Une carte montre un triangle équilatéral dont chaque sommet a une lettre. En suivant les sommets dans l'ordre, on lit 'ARC'. Si on commence au sommet suivant, quel mot obtient-on ?",
       "options": {
@@ -1408,6 +1759,9 @@
     },
     {
       "id": "hero-fr-hard-118",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un aventurier doit traverser trois ponts en 30 minutes. Les ponts prennent respectivement 8, 12 et 10 minutes. Peut-il réussir s'il traverse les trois ?",
       "options": {
@@ -1420,6 +1774,9 @@
     },
     {
       "id": "hero-fr-hard-119",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Une énigme logique : 'Si A protège B et B protège C, qui protège C ?' Quelle réponse ?",
       "options": {
@@ -1432,6 +1789,9 @@
     },
     {
       "id": "hero-fr-hard-120",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier a 4 clés et 4 portes. Chaque clé ouvre exactement une porte. Il essaie une clé sur une porte et elle ne marche pas. Quelle stratégie réduit le nombre d'essais restants ?",
       "options": {
@@ -1444,6 +1804,9 @@
     },
     {
       "id": "hero-fr-hard-121",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un pirate a 3 cartes qui se complètent : A montre le nord, B montre la distance, C montre l'obstacle. Pour planifier, quel ordre utiliser ?",
       "options": {
@@ -1456,6 +1819,9 @@
     },
     {
       "id": "hero-fr-hard-122",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Une énigme mathématique : si chaque chevalier porte 2 boucliers et il y a 7 chevaliers, combien de boucliers au total ?",
       "options": {
@@ -1468,6 +1834,9 @@
     },
     {
       "id": "hero-fr-hard-123",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un aventurier doit choisir entre trois chemins qui prennent respectivement 2, 3 et 5 heures. Il a 8 heures. Quelle combinaison lui permet de visiter deux chemins et revenir au camp en 8 heures si le retour prend le même temps que l'aller ?",
       "options": {
@@ -1480,6 +1849,9 @@
     },
     {
       "id": "hero-fr-hard-124",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un dragon propose un échange : trois indices pour une clé. Les indices forment une suite 2, 4, 8, ?. Quelle est la prochaine valeur ?",
       "options": {
@@ -1492,6 +1864,9 @@
     },
     {
       "id": "hero-fr-hard-125",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier doit répartir 15 rations entre 5 jours pour lui et son ami. Quelle répartition quotidienne équitable ?",
       "options": {
@@ -1504,6 +1879,9 @@
     },
     {
       "id": "hero-fr-hard-126",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Une carte indique que le trésor est à 2 km au nord puis 3 km à l'est. Quelle est la distance en ligne droite depuis le point de départ (approximation) ?",
       "options": {
@@ -1516,6 +1894,9 @@
     },
     {
       "id": "hero-fr-hard-127",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un groupe a 4 torches qui durent 60 minutes chacune. Ils doivent traverser un tunnel en 90 minutes en restant ensemble. Est-ce possible sans autre source de lumière ?",
       "options": {
@@ -1528,6 +1909,9 @@
     },
     {
       "id": "hero-fr-hard-128",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un pirate doit partager 17 pièces entre 3 amis équitablement. Combien de pièces restera-t-il après partage entier ?",
       "options": {
@@ -1540,6 +1924,9 @@
     },
     {
       "id": "hero-fr-hard-129",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Une énigme logique : trois aventuriers A, B, C disent respectivement 'Je n'ai pas pris la clé', 'C l'a prise', 'B ment'. Si une seule personne dit la vérité, qui a la clé ?",
       "options": {
@@ -1552,6 +1939,9 @@
     },
     {
       "id": "hero-fr-hard-130",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier doit choisir entre sauver un village ou récupérer une relique qui sauvera le monde plus tard. Quelle décision montre le plus de courage moral ?",
       "options": {
@@ -1564,6 +1954,9 @@
     },
     {
       "id": "hero-fr-hard-131",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un explorateur a une montre arrêtée et une boussole. Il veut estimer l'heure du coucher du soleil. Quelle méthode raisonnable ?",
       "options": {
@@ -1576,6 +1969,9 @@
     },
     {
       "id": "hero-fr-hard-132",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un pirate doit traverser une zone où les vagues forment un motif : haute, basse, haute, basse. Si la séquence continue, quelle sera la 7e vague ?",
       "options": {
@@ -1588,6 +1984,9 @@
     },
     {
       "id": "hero-fr-hard-133",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Une énigme demande de trouver le mot formé par les premières lettres de 'Forêt, Amis, Quête, Courage'. Quel est le mot ?",
       "options": {
@@ -1600,6 +1999,9 @@
     },
     {
       "id": "hero-fr-hard-134",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un groupe a 3 jours de provisions pour 6 personnes. Deux nouveaux membres rejoignent le groupe. Combien de jours dureront les provisions maintenant si la consommation par personne reste la même ?",
       "options": {
@@ -1612,6 +2014,9 @@
     },
     {
       "id": "hero-fr-easy-135",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que met un pirate sur sa tête pour se protéger du soleil ?",
       "options": {
@@ -1624,6 +2029,9 @@
     },
     {
       "id": "hero-fr-easy-136",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide un explorateur à lire une carte de près ?",
       "options": {
@@ -1636,6 +2044,9 @@
     },
     {
       "id": "hero-fr-easy-137",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit un ami qui reste fidèle dans l'aventure ?",
       "options": {
@@ -1648,6 +2059,9 @@
     },
     {
       "id": "hero-fr-easy-138",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que met un chevalier sur son bras pour se défendre ?",
       "options": {
@@ -1660,6 +2074,9 @@
     },
     {
       "id": "hero-fr-easy-139",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Où un pirate trace-t-il son itinéraire en mer ?",
       "options": {
@@ -1672,6 +2089,9 @@
     },
     {
       "id": "hero-fr-easy-140",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal imaginaire peut être ami d'un aventurier ?",
       "options": {
@@ -1684,6 +2104,9 @@
     },
     {
       "id": "hero-fr-easy-141",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait-on pour garder un trésor en sécurité ?",
       "options": {
@@ -1696,6 +2119,9 @@
     },
     {
       "id": "hero-fr-easy-142",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel lieu a souvent des tours et des remparts ?",
       "options": {
@@ -1708,6 +2134,9 @@
     },
     {
       "id": "hero-fr-easy-143",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit quelqu'un qui n'abandonne pas ?",
       "options": {
@@ -1720,6 +2149,9 @@
     },
     {
       "id": "hero-fr-easy-144",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que suit-on pour ne pas se perdre dans une forêt ?",
       "options": {
@@ -1732,6 +2164,9 @@
     },
     {
       "id": "hero-fr-easy-145",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel outil un pirate utilise-t-il pour couper une corde ?",
       "options": {
@@ -1744,6 +2179,9 @@
     },
     {
       "id": "hero-fr-easy-146",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bruit fait souvent un dragon dans les histoires ?",
       "options": {
@@ -1756,6 +2194,9 @@
     },
     {
       "id": "hero-fr-easy-147",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que prend un explorateur pour écrire des notes ?",
       "options": {
@@ -1768,6 +2209,9 @@
     },
     {
       "id": "hero-fr-easy-148",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel geste montre de l'amitié pendant une quête ?",
       "options": {
@@ -1780,6 +2224,9 @@
     },
     {
       "id": "hero-fr-easy-149",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à voir dans l'obscurité d'une grotte ?",
       "options": {
@@ -1792,6 +2239,9 @@
     },
     {
       "id": "hero-fr-easy-150",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que met un chevalier pour protéger sa tête ?",
       "options": {
@@ -1804,6 +2254,9 @@
     },
     {
       "id": "hero-fr-easy-151",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une aventure pleine d'émotions ?",
       "options": {
@@ -1816,6 +2269,9 @@
     },
     {
       "id": "hero-fr-easy-152",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que garde souvent un gardien dans un château ?",
       "options": {
@@ -1828,6 +2284,9 @@
     },
     {
       "id": "hero-fr-easy-153",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet marque l'emplacement d'un trésor sur une carte ?",
       "options": {
@@ -1840,6 +2299,9 @@
     },
     {
       "id": "hero-fr-easy-154",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros quand il trouve un indice important ?",
       "options": {
@@ -1852,6 +2314,9 @@
     },
     {
       "id": "hero-fr-easy-155",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel compagnon peut aider un aventurier ?",
       "options": {
@@ -1864,6 +2329,9 @@
     },
     {
       "id": "hero-fr-easy-156",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que met-on dans un coffre au trésor ?",
       "options": {
@@ -1876,6 +2344,9 @@
     },
     {
       "id": "hero-fr-easy-157",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel outil aide à creuser pour trouver un trésor ?",
       "options": {
@@ -1888,6 +2359,9 @@
     },
     {
       "id": "hero-fr-easy-158",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une personne qui protège les autres ?",
       "options": {
@@ -1900,6 +2374,9 @@
     },
     {
       "id": "hero-fr-easy-159",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un pirate quand il trouve une île inconnue ?",
       "options": {
@@ -1912,6 +2389,9 @@
     },
     {
       "id": "hero-fr-easy-160",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à indiquer la direction en mer ?",
       "options": {
@@ -1924,6 +2404,9 @@
     },
     {
       "id": "hero-fr-easy-161",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que montre une carte au trésor souvent ?",
       "options": {
@@ -1936,6 +2419,9 @@
     },
     {
       "id": "hero-fr-easy-162",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une équipe qui s'entraide ?",
       "options": {
@@ -1948,6 +2434,9 @@
     },
     {
       "id": "hero-fr-easy-163",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que porte souvent un aventurier pour transporter ses affaires ?",
       "options": {
@@ -1960,6 +2449,9 @@
     },
     {
       "id": "hero-fr-easy-164",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel geste montre du courage ?",
       "options": {
@@ -1972,6 +2464,9 @@
     },
     {
       "id": "hero-fr-easy-165",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un chevalier pour s'entraîner ?",
       "options": {
@@ -1984,6 +2479,9 @@
     },
     {
       "id": "hero-fr-easy-166",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à repérer une île au loin ?",
       "options": {
@@ -1996,6 +2494,9 @@
     },
     {
       "id": "hero-fr-easy-167",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un aventurier pour se protéger du froid la nuit ?",
       "options": {
@@ -2008,6 +2509,9 @@
     },
     {
       "id": "hero-fr-easy-168",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une quête pour aider quelqu'un ?",
       "options": {
@@ -2020,6 +2524,9 @@
     },
     {
       "id": "hero-fr-easy-169",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros quand il résout une énigme ?",
       "options": {
@@ -2032,6 +2539,9 @@
     },
     {
       "id": "hero-fr-easy-170",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un pirate peut-il utiliser pour ouvrir une porte verrouillée ?",
       "options": {
@@ -2044,6 +2554,9 @@
     },
     {
       "id": "hero-fr-easy-171",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel endroit est souvent mystérieux et plein d'arbres ?",
       "options": {
@@ -2056,6 +2569,9 @@
     },
     {
       "id": "hero-fr-easy-172",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que montre une boussole ?",
       "options": {
@@ -2068,6 +2584,9 @@
     },
     {
       "id": "hero-fr-easy-173",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une créature qui aide les héros ?",
       "options": {
@@ -2080,6 +2599,9 @@
     },
     {
       "id": "hero-fr-easy-174",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un aventurier pour garder une trace de son chemin ?",
       "options": {
@@ -2092,6 +2614,9 @@
     },
     {
       "id": "hero-fr-easy-175",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un chevalier peut-il utiliser pour frapper ?",
       "options": {
@@ -2104,6 +2629,9 @@
     },
     {
       "id": "hero-fr-easy-176",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que montre souvent une carte au trésor en plus du X ?",
       "options": {
@@ -2116,6 +2644,9 @@
     },
     {
       "id": "hero-fr-easy-177",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel geste montre la loyauté entre compagnons ?",
       "options": {
@@ -2128,6 +2659,9 @@
     },
     {
       "id": "hero-fr-easy-178",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que peut-on trouver dans une grotte selon les histoires ?",
       "options": {
@@ -2140,6 +2674,9 @@
     },
     {
       "id": "hero-fr-easy-179",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à mesurer le temps pendant une quête ?",
       "options": {
@@ -2152,6 +2689,9 @@
     },
     {
       "id": "hero-fr-easy-180",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros quand un ami a peur ?",
       "options": {
@@ -2164,6 +2704,9 @@
     },
     {
       "id": "hero-fr-easy-181",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un pirate peut-il utiliser pour repérer la côte ?",
       "options": {
@@ -2176,6 +2719,9 @@
     },
     {
       "id": "hero-fr-easy-182",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une quête où l'on aide les autres ?",
       "options": {
@@ -2188,6 +2734,9 @@
     },
     {
       "id": "hero-fr-easy-183",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que met un aventurier pour garder ses mains propres ?",
       "options": {
@@ -2200,6 +2749,9 @@
     },
     {
       "id": "hero-fr-easy-184",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel endroit peut cacher un passage secret dans un château ?",
       "options": {
@@ -2212,6 +2764,9 @@
     },
     {
       "id": "hero-fr-easy-185",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une créature qui garde un trésor ?",
       "options": {
@@ -2224,6 +2779,9 @@
     },
     {
       "id": "hero-fr-easy-186",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un aventurier pour se repérer la nuit ?",
       "options": {
@@ -2236,6 +2794,9 @@
     },
     {
       "id": "hero-fr-easy-187",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un chevalier peut-il utiliser pour grimper ?",
       "options": {
@@ -2248,6 +2809,9 @@
     },
     {
       "id": "hero-fr-medium-188",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate trouve une carte avec deux chemins : l'un traverse une forêt dense, l'autre longe la côte mais est plus long. Quel choix est le plus prudent pour éviter les embûches ?",
       "options": {
@@ -2260,6 +2824,9 @@
     },
     {
       "id": "hero-fr-medium-189",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit franchir une porte verrouillée et trouve trois clés. Deux clés sont rouillées. Quelle stratégie est la plus logique ?",
       "options": {
@@ -2272,6 +2839,9 @@
     },
     {
       "id": "hero-fr-medium-190",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une carte montre un lac au milieu d'un cercle de pierres. Le trésor est marqué au bord du lac. Où chercher en priorité ?",
       "options": {
@@ -2284,6 +2854,9 @@
     },
     {
       "id": "hero-fr-medium-191",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier entend un bruit étrange la nuit près du camp. Quelle action est la plus prudente ?",
       "options": {
@@ -2296,6 +2869,9 @@
     },
     {
       "id": "hero-fr-medium-192",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe doit traverser un pont fragile. Ils ont une corde et une planche. Quelle méthode réduit le risque ?",
       "options": {
@@ -2308,6 +2884,9 @@
     },
     {
       "id": "hero-fr-medium-193",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate a une boussole mais le ciel est couvert. Comment peut-il vérifier sa direction ?",
       "options": {
@@ -2320,6 +2899,9 @@
     },
     {
       "id": "hero-fr-medium-194",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve une énigme : 'Je suis léger comme une plume mais personne ne peut me tenir longtemps.' Qu'est-ce ?",
       "options": {
@@ -2332,6 +2914,9 @@
     },
     {
       "id": "hero-fr-medium-195",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un explorateur a une lampe qui faiblit. Il doit choisir entre avancer ou attendre. Quelle décision raisonnable ?",
       "options": {
@@ -2344,6 +2929,9 @@
     },
     {
       "id": "hero-fr-medium-196",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate doit partager 15 biscuits entre 5 marins. Combien chacun reçoit-il ?",
       "options": {
@@ -2356,6 +2944,9 @@
     },
     {
       "id": "hero-fr-medium-197",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier voit deux sentiers : l'un a des traces fraîches, l'autre est calme. Que peut indiquer le sentier avec des traces ?",
       "options": {
@@ -2368,6 +2959,9 @@
     },
     {
       "id": "hero-fr-medium-198",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier trouve une porte avec trois symboles. Il sait que le bon symbole n'apparaît qu'une fois sur la carte. Quelle action ?",
       "options": {
@@ -2380,6 +2974,9 @@
     },
     {
       "id": "hero-fr-medium-199",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe doit traverser une zone de brouillard. Quelle précaution aide à ne pas se perdre ?",
       "options": {
@@ -2392,6 +2989,9 @@
     },
     {
       "id": "hero-fr-medium-200",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate a une carte humide où l'encre a bavé. Quelle action aide à la lire ?",
       "options": {
@@ -2404,6 +3004,9 @@
     },
     {
       "id": "hero-fr-medium-201",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit convaincre un garde sans se battre. Quelle approche est la plus efficace ?",
       "options": {
@@ -2416,6 +3019,9 @@
     },
     {
       "id": "hero-fr-medium-202",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme dit : 'Je tourne sans bouger, j'indique le chemin.' Qu'est-ce ?",
       "options": {
@@ -2428,6 +3034,9 @@
     },
     {
       "id": "hero-fr-medium-203",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier a une carte partielle. Quelle méthode aide à la compléter ?",
       "options": {
@@ -2440,6 +3049,9 @@
     },
     {
       "id": "hero-fr-medium-204",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate entend une rumeur sur un trésor. Que ferait un bon capitaine avant d'agir ?",
       "options": {
@@ -2452,6 +3064,9 @@
     },
     {
       "id": "hero-fr-medium-205",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit traverser un pont qui grince. Quelle précaution prendre ?",
       "options": {
@@ -2464,6 +3079,9 @@
     },
     {
       "id": "hero-fr-medium-206",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier a une corde et une lampe. Il doit descendre dans une grotte sombre et haute. Que prendre ?",
       "options": {
@@ -2476,6 +3094,9 @@
     },
     {
       "id": "hero-fr-medium-207",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme dit : 'Je monte quand la pluie arrive, je descends quand le soleil revient.' Qu'est-ce ?",
       "options": {
@@ -2488,6 +3109,9 @@
     },
     {
       "id": "hero-fr-medium-208",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate doit choisir qui monte la garde. Quelle règle est la plus juste ?",
       "options": {
@@ -2500,6 +3124,9 @@
     },
     {
       "id": "hero-fr-medium-209",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve trois potions inconnues. Quelle précaution est la plus sage ?",
       "options": {
@@ -2512,6 +3139,9 @@
     },
     {
       "id": "hero-fr-medium-210",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier voit des empreintes qui reviennent sur leurs pas. Que cela suggère-t-il ?",
       "options": {
@@ -2524,6 +3154,9 @@
     },
     {
       "id": "hero-fr-medium-211",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate doit réparer une voile avant la nuit. Quelle action prioritaire ?",
       "options": {
@@ -2536,6 +3169,9 @@
     },
     {
       "id": "hero-fr-medium-212",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve une porte avec un code 2, 4, 6, ?. Quelle est la prochaine valeur logique ?",
       "options": {
@@ -2548,6 +3184,9 @@
     },
     {
       "id": "hero-fr-medium-213",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe doit traverser une tempête en mer. Quelle règle d'équipe est la plus utile ?",
       "options": {
@@ -2560,6 +3199,9 @@
     },
     {
       "id": "hero-fr-medium-214",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier trouve une énigme : 'Je suis pris avant d'être donné.' Qu'est-ce ?",
       "options": {
@@ -2572,6 +3214,9 @@
     },
     {
       "id": "hero-fr-medium-215",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit traverser une zone venteuse. Quelle précaution est la plus utile ?",
       "options": {
@@ -2584,6 +3229,9 @@
     },
     {
       "id": "hero-fr-medium-216",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate voit sur la carte un symbole de lune et un symbole de soleil. Que cela peut indiquer ?",
       "options": {
@@ -2596,6 +3244,9 @@
     },
     {
       "id": "hero-fr-medium-217",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier doit traverser un marais. Quelle précaution est la plus utile ?",
       "options": {
@@ -2608,6 +3259,9 @@
     },
     {
       "id": "hero-fr-medium-218",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier a trois indices : mot, image, son. Quelle combinaison est la plus fiable ?",
       "options": {
@@ -2620,6 +3274,9 @@
     },
     {
       "id": "hero-fr-medium-219",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate veut éviter une embuscade. Quelle tactique est la plus prudente ?",
       "options": {
@@ -2632,6 +3289,9 @@
     },
     {
       "id": "hero-fr-medium-220",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier a trois indices qui forment un mot mais il manque une lettre. Que faire ?",
       "options": {
@@ -2644,6 +3304,9 @@
     },
     {
       "id": "hero-fr-medium-221",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit traverser un pont qui ne supporte qu'un poids. Il est avec un ami plus lourd. Que faire ?",
       "options": {
@@ -2656,6 +3319,9 @@
     },
     {
       "id": "hero-fr-medium-222",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate a une carte avec trois collines alignées et le trésor est au milieu. Où creuser ?",
       "options": {
@@ -2668,6 +3334,9 @@
     },
     {
       "id": "hero-fr-medium-223",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier entend un bruit derrière une porte fermée. Quelle action prudente ?",
       "options": {
@@ -2680,6 +3349,9 @@
     },
     {
       "id": "hero-fr-medium-224",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un dragon propose d'échanger un indice contre une énigme résolue. Quelle stratégie ?",
       "options": {
@@ -2692,6 +3364,9 @@
     },
     {
       "id": "hero-fr-medium-225",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe doit traverser une rivière mais le pont est cassé. Ils ont une corde et des planches. Quelle solution est la plus sûre ?",
       "options": {
@@ -2704,6 +3379,9 @@
     },
     {
       "id": "hero-fr-medium-226",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve une porte avec trois symboles et sait que l'un est vrai. Quelle méthode aide à choisir ?",
       "options": {
@@ -2716,6 +3394,9 @@
     },
     {
       "id": "hero-fr-medium-227",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate a une boussole qui indique le nord. Il veut aller à l'est. Que faire ?",
       "options": {
@@ -2728,6 +3409,9 @@
     },
     {
       "id": "hero-fr-medium-228",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier doit traverser une zone où le sol est glissant. Quelle technique réduit le risque de chute ?",
       "options": {
@@ -2740,6 +3424,9 @@
     },
     {
       "id": "hero-fr-medium-229",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve trois indices différents. Quelle stratégie aide à résoudre l'énigme ?",
       "options": {
@@ -2752,6 +3439,9 @@
     },
     {
       "id": "hero-fr-medium-230",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate voit des traces menant vers une grotte et vers la plage. Quelle action logique pour trouver le trésor ?",
       "options": {
@@ -2764,6 +3454,9 @@
     },
     {
       "id": "hero-fr-medium-231",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier a une lampe qui dure 3 heures et un tunnel qui prend 5 heures. Quelle précaution prendre ?",
       "options": {
@@ -2776,6 +3469,9 @@
     },
     {
       "id": "hero-fr-medium-232",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit traverser un champ de pierres. Quelle méthode est la plus sûre ?",
       "options": {
@@ -2788,6 +3484,9 @@
     },
     {
       "id": "hero-fr-medium-233",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate a trois cartes A, B, C qui donnent des informations différentes. Quelle première étape pour planifier ?",
       "options": {
@@ -2800,6 +3499,9 @@
     },
     {
       "id": "hero-fr-medium-234",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme dit : 'Sans moi, la nuit est noire; avec moi, on voit le chemin.' Qu'est-ce ?",
       "options": {
@@ -2812,6 +3514,9 @@
     },
     {
       "id": "hero-fr-medium-235",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier trouve une porte fermée par un mécanisme à trois leviers. Deux leviers doivent être levés ensemble. Quelle stratégie ?",
       "options": {
@@ -2824,6 +3529,9 @@
     },
     {
       "id": "hero-fr-medium-236",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit traverser une vallée où la météo change vite. Quelle précaution prendre ?",
       "options": {
@@ -2836,6 +3544,9 @@
     },
     {
       "id": "hero-fr-medium-237",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate trouve un message codé où chaque lettre avance d'une place (A→B). Le mot 'CAT' devient ?",
       "options": {
@@ -2848,6 +3559,9 @@
     },
     {
       "id": "hero-fr-medium-238",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier doit décider qui porte une lourde charge. Quelle règle est la plus juste ?",
       "options": {
@@ -2860,6 +3574,9 @@
     },
     {
       "id": "hero-fr-medium-239",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve une énigme : 'Je suis plus grand la nuit et plus petit le jour.' Qu'est-ce ?",
       "options": {
@@ -2872,6 +3589,9 @@
     },
     {
       "id": "hero-fr-medium-240",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe a une carte avec un symbole répété trois fois. Que peut signifier la répétition ?",
       "options": {
@@ -2884,6 +3604,9 @@
     },
     {
       "id": "hero-fr-hard-241",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier rencontre deux gardiens : l'un ment toujours, l'autre dit toujours la vérité. Quelle question poser pour savoir quel chemin mène à la sortie ?",
       "options": {
@@ -2896,6 +3619,9 @@
     },
     {
       "id": "hero-fr-hard-242",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un pirate a une suite de nombres 3, 6, 12, ?. Quelle est la prochaine valeur logique ?",
       "options": {
@@ -2908,6 +3634,9 @@
     },
     {
       "id": "hero-fr-hard-243",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un dragon garde trois coffres étiquetés 'Or', 'Vide', 'Indice'. Une seule étiquette est correcte. Sur quel coffre se trouve l'indice ?",
       "options": {
@@ -2920,6 +3649,9 @@
     },
     {
       "id": "hero-fr-hard-244",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un explorateur doit parcourir 90 km en 3 jours. Il peut marcher 30 km par jour. Peut-il arriver à temps ?",
       "options": {
@@ -2932,6 +3664,9 @@
     },
     {
       "id": "hero-fr-hard-245",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Une énigme demande : retirer les lettres de 'LIRE' dans 'CHEVALIER'. Quelles lettres restent ?",
       "options": {
@@ -2944,6 +3679,9 @@
     },
     {
       "id": "hero-fr-hard-246",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un groupe doit partager 25 gemmes entre 5 aventuriers. Combien reste-t-il après un partage égal ?",
       "options": {
@@ -2956,6 +3694,9 @@
     },
     {
       "id": "hero-fr-hard-247",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier a trois potions : réduire la taille, doubler la force, rendre invisible. Il doit passer par une porte étroite puis soulever une pierre lourde. Quelle combinaison logique ?",
       "options": {
@@ -2968,6 +3709,9 @@
     },
     {
       "id": "hero-fr-hard-248",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Une boussole indique toujours 90° à l'est de la vraie direction. Pour aller vers le nord, quelle direction doit-on suivre selon la boussole ?",
       "options": {
@@ -2980,6 +3724,9 @@
     },
     {
       "id": "hero-fr-hard-249",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un triangle a les lettres A, R, C sur ses sommets. En suivant l'ordre on lit 'ARC'. En commençant au sommet suivant, quel mot obtient-on ?",
       "options": {
@@ -2992,6 +3739,9 @@
     },
     {
       "id": "hero-fr-hard-250",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un aventurier doit traverser trois ponts en 30 minutes qui prennent 8, 12 et 10 minutes. Peut-il réussir si les temps sont fixes ?",
       "options": {
@@ -3004,6 +3754,9 @@
     },
     {
       "id": "hero-fr-hard-251",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Logique : si A protège B et B protège C, qui protège C ?",
       "options": {
@@ -3016,6 +3769,9 @@
     },
     {
       "id": "hero-fr-hard-252",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier a 4 clés et 4 portes. Une clé ne marche pas sur une porte testée. Quelle stratégie réduit les essais restants ?",
       "options": {
@@ -3028,6 +3784,9 @@
     },
     {
       "id": "hero-fr-hard-253",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un pirate a trois cartes : A montre le nord, B la distance, C l'obstacle. Quel ordre pour planifier un trajet ?",
       "options": {
@@ -3040,6 +3799,9 @@
     },
     {
       "id": "hero-fr-hard-254",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Combien de boucliers y a-t-il si 7 chevaliers portent chacun 2 boucliers ?",
       "options": {
@@ -3052,6 +3814,9 @@
     },
     {
       "id": "hero-fr-hard-255",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un aventurier veut visiter deux chemins (durées 2, 3, 5 heures) et revenir au camp en 8 heures. Est-ce possible ?",
       "options": {
@@ -3064,6 +3829,9 @@
     },
     {
       "id": "hero-fr-hard-256",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Suite logique : 2, 4, 8, ?. Quelle est la prochaine valeur ?",
       "options": {
@@ -3076,6 +3844,9 @@
     },
     {
       "id": "hero-fr-hard-257",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier doit répartir 15 rations entre lui et un ami pour 5 jours. Quelle répartition quotidienne équitable ?",
       "options": {
@@ -3088,6 +3859,9 @@
     },
     {
       "id": "hero-fr-hard-258",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "La carte indique 2 km au nord puis 3 km à l'est. Quelle est la distance en ligne droite depuis le départ (approx.) ?",
       "options": {
@@ -3100,6 +3874,9 @@
     },
     {
       "id": "hero-fr-hard-259",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quatre torches durent 60 minutes chacune. Un tunnel prend 90 minutes. Peut-on traverser en restant ensemble sans autre lumière ?",
       "options": {
@@ -3112,6 +3889,9 @@
     },
     {
       "id": "hero-fr-hard-260",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un pirate partage 17 pièces entre 3 amis équitablement. Combien de pièces restent après partage entier ?",
       "options": {
@@ -3124,6 +3904,9 @@
     },
     {
       "id": "hero-fr-hard-261",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Trois aventuriers A, B, C disent : A 'Je n'ai pas pris la clé', B 'C l'a prise', C 'B ment'. Si une seule personne dit la vérité, qui a la clé ?",
       "options": {
@@ -3136,6 +3919,9 @@
     },
     {
       "id": "hero-fr-hard-262",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier doit choisir entre sauver un village maintenant ou récupérer une relique qui aidera plus tard. Quelle décision montre du courage moral immédiat ?",
       "options": {
@@ -3148,6 +3934,9 @@
     },
     {
       "id": "hero-fr-hard-263",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un explorateur a une montre arrêtée et une boussole. Comment estimer l'heure du coucher du soleil raisonnablement ?",
       "options": {
@@ -3160,6 +3949,9 @@
     },
     {
       "id": "hero-fr-hard-264",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Les vagues suivent le motif haute, basse, haute, basse. Quelle sera la 7e vague ?",
       "options": {
@@ -3172,6 +3964,9 @@
     },
     {
       "id": "hero-fr-hard-265",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Les premières lettres de 'Forêt, Amis, Quête, Courage' forment quel groupe de lettres ?",
       "options": {
@@ -3184,6 +3979,9 @@
     },
     {
       "id": "hero-fr-hard-266",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un groupe a 3 jours de provisions pour 6 personnes. Deux nouveaux membres arrivent. Combien de jours dureront les provisions maintenant ?",
       "options": {
@@ -3196,6 +3994,9 @@
     },
     {
       "id": "hero-fr-hard-267",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier doit résoudre : si chaque ami donne 2 pièces et il y a 7 amis, combien de pièces au total ?",
       "options": {
@@ -3208,6 +4009,9 @@
     },
     {
       "id": "hero-fr-easy-268",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un pirate utilise-t-il pour mesurer la direction ?",
       "options": {
@@ -3220,6 +4024,9 @@
     },
     {
       "id": "hero-fr-easy-269",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que porte un chevalier pour protéger son torse ?",
       "options": {
@@ -3232,6 +4039,9 @@
     },
     {
       "id": "hero-fr-easy-270",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel lieu est souvent le point de départ d'une quête ?",
       "options": {
@@ -3244,6 +4054,9 @@
     },
     {
       "id": "hero-fr-easy-271",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel compagnon un aventurier peut-il emmener pour la route ?",
       "options": {
@@ -3256,6 +4069,9 @@
     },
     {
       "id": "hero-fr-easy-272",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que met-on sur une carte pour indiquer un chemin ?",
       "options": {
@@ -3268,6 +4084,9 @@
     },
     {
       "id": "hero-fr-easy-273",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bruit peut faire un bateau en mer ?",
       "options": {
@@ -3280,6 +4099,9 @@
     },
     {
       "id": "hero-fr-easy-274",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à allumer un feu en aventure ?",
       "options": {
@@ -3292,6 +4114,9 @@
     },
     {
       "id": "hero-fr-easy-275",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que montre souvent une carte au trésor en plus du X ?",
       "options": {
@@ -3304,6 +4129,9 @@
     },
     {
       "id": "hero-fr-easy-276",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit quelqu'un qui aide ses amis ?",
       "options": {
@@ -3316,6 +4144,9 @@
     },
     {
       "id": "hero-fr-easy-277",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un chevalier tient-il souvent à la main ?",
       "options": {
@@ -3328,6 +4159,9 @@
     },
     {
       "id": "hero-fr-easy-278",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros quand un ami a besoin d'aide ?",
       "options": {
@@ -3340,6 +4174,9 @@
     },
     {
       "id": "hero-fr-easy-279",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un explorateur utilise-t-il pour écrire ?",
       "options": {
@@ -3352,6 +4189,9 @@
     },
     {
       "id": "hero-fr-easy-280",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une aventure excitante ?",
       "options": {
@@ -3364,6 +4204,9 @@
     },
     {
       "id": "hero-fr-easy-281",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que peut contenir un coffre au trésor ?",
       "options": {
@@ -3376,6 +4219,9 @@
     },
     {
       "id": "hero-fr-easy-282",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel geste montre la loyauté entre compagnons ?",
       "options": {
@@ -3388,6 +4234,9 @@
     },
     {
       "id": "hero-fr-easy-283",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à voir loin en mer ?",
       "options": {
@@ -3400,6 +4249,9 @@
     },
     {
       "id": "hero-fr-easy-284",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un aventurier pour ne pas se perdre ?",
       "options": {
@@ -3412,6 +4264,9 @@
     },
     {
       "id": "hero-fr-easy-285",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel endroit est souvent plein de mystères et d'arbres ?",
       "options": {
@@ -3424,6 +4279,9 @@
     },
     {
       "id": "hero-fr-easy-286",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit quelqu'un qui n'a pas peur ?",
       "options": {
@@ -3436,6 +4294,9 @@
     },
     {
       "id": "hero-fr-easy-287",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que met un pirate dans sa poche pour garder un petit trésor ?",
       "options": {
@@ -3448,6 +4309,9 @@
     },
     {
       "id": "hero-fr-easy-288",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à couper une corde ?",
       "options": {
@@ -3460,6 +4324,9 @@
     },
     {
       "id": "hero-fr-easy-289",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros quand il trouve un indice ?",
       "options": {
@@ -3472,6 +4339,9 @@
     },
     {
       "id": "hero-fr-easy-290",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet protège la tête d'un chevalier ?",
       "options": {
@@ -3484,6 +4354,9 @@
     },
     {
       "id": "hero-fr-easy-291",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que suit-on pour trouver un trésor sur une carte ?",
       "options": {
@@ -3496,6 +4369,9 @@
     },
     {
       "id": "hero-fr-easy-292",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une amitié solide ?",
       "options": {
@@ -3508,6 +4384,9 @@
     },
     {
       "id": "hero-fr-easy-293",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel outil aide à creuser pour trouver un trésor ?",
       "options": {
@@ -3520,6 +4399,9 @@
     },
     {
       "id": "hero-fr-easy-294",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un aventurier pour se réchauffer la nuit ?",
       "options": {
@@ -3532,6 +4414,9 @@
     },
     {
       "id": "hero-fr-easy-295",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un pirate utilise-t-il pour repérer la côte ?",
       "options": {
@@ -3544,6 +4429,9 @@
     },
     {
       "id": "hero-fr-easy-296",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une quête pour aider quelqu'un ?",
       "options": {
@@ -3556,6 +4444,9 @@
     },
     {
       "id": "hero-fr-easy-297",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que met un aventurier pour transporter ses affaires ?",
       "options": {
@@ -3568,6 +4459,9 @@
     },
     {
       "id": "hero-fr-easy-298",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel geste montre du courage ?",
       "options": {
@@ -3580,6 +4474,9 @@
     },
     {
       "id": "hero-fr-easy-299",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel endroit dans un château peut cacher un passage secret ?",
       "options": {
@@ -3592,6 +4489,9 @@
     },
     {
       "id": "hero-fr-easy-300",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une créature amie des héros ?",
       "options": {
@@ -3604,6 +4504,9 @@
     },
     {
       "id": "hero-fr-easy-301",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros quand il résout une énigme ?",
       "options": {
@@ -3616,6 +4519,9 @@
     },
     {
       "id": "hero-fr-easy-302",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un chevalier utilise-t-il pour se défendre ?",
       "options": {
@@ -3628,6 +4534,9 @@
     },
     {
       "id": "hero-fr-easy-303",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que met-on sur une carte pour marquer l'emplacement du trésor ?",
       "options": {
@@ -3640,6 +4549,9 @@
     },
     {
       "id": "hero-fr-easy-304",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel compagnon peut aider à porter des objets lourds ?",
       "options": {
@@ -3652,6 +4564,9 @@
     },
     {
       "id": "hero-fr-easy-305",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel outil aide à repérer des indices petits ?",
       "options": {
@@ -3664,6 +4579,9 @@
     },
     {
       "id": "hero-fr-easy-306",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un pirate quand il trouve une île inconnue ?",
       "options": {
@@ -3676,6 +4594,9 @@
     },
     {
       "id": "hero-fr-easy-307",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une aventure pleine de surprises ?",
       "options": {
@@ -3688,6 +4609,9 @@
     },
     {
       "id": "hero-fr-easy-308",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que met un chevalier pour protéger ses mains ?",
       "options": {
@@ -3700,6 +4624,9 @@
     },
     {
       "id": "hero-fr-easy-309",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à indiquer l'heure pendant une quête ?",
       "options": {
@@ -3712,6 +4639,9 @@
     },
     {
       "id": "hero-fr-easy-310",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros pour gagner la confiance d'un ami ?",
       "options": {
@@ -3724,6 +4654,9 @@
     },
     {
       "id": "hero-fr-easy-311",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un pirate peut-il utiliser pour ouvrir un coffre verrouillé ?",
       "options": {
@@ -3736,6 +4669,9 @@
     },
     {
       "id": "hero-fr-easy-312",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une personne qui protège les autres ?",
       "options": {
@@ -3748,6 +4684,9 @@
     },
     {
       "id": "hero-fr-easy-313",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un aventurier pour noter un endroit important ?",
       "options": {
@@ -3760,6 +4699,9 @@
     },
     {
       "id": "hero-fr-easy-314",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à traverser une rivière sans se mouiller ?",
       "options": {
@@ -3772,6 +4714,9 @@
     },
     {
       "id": "hero-fr-easy-315",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot décrit une créature qui garde un trésor ?",
       "options": {
@@ -3784,6 +4729,9 @@
     },
     {
       "id": "hero-fr-easy-316",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que fait un héros quand il doit résoudre une énigme ?",
       "options": {
@@ -3796,6 +4744,9 @@
     },
     {
       "id": "hero-fr-easy-317",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet un aventurier met-il sur sa tête pour se protéger du soleil ?",
       "options": {
@@ -3808,6 +4759,9 @@
     },
     {
       "id": "hero-fr-easy-318",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que peut-on trouver dans une grotte selon les histoires ?",
       "options": {
@@ -3820,6 +4774,9 @@
     },
     {
       "id": "hero-fr-easy-319",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel geste montre l'amitié pendant une aventure ?",
       "options": {
@@ -3832,6 +4789,9 @@
     },
     {
       "id": "hero-fr-easy-320",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet aide à repérer des indices dans l'obscurité ?",
       "options": {
@@ -3844,6 +4804,9 @@
     },
     {
       "id": "hero-fr-medium-321",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve deux chemins : l'un court mais étroit, l'autre long mais sûr. Quel choix protège le groupe ?",
       "options": {
@@ -3856,6 +4819,9 @@
     },
     {
       "id": "hero-fr-medium-322",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une carte montre un rocher en forme d'arc près d'un X. Que vérifier en premier ?",
       "options": {
@@ -3868,6 +4834,9 @@
     },
     {
       "id": "hero-fr-medium-323",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate a trois clés pour un coffre à trois serrures. Quelle stratégie est la plus logique ?",
       "options": {
@@ -3880,6 +4849,9 @@
     },
     {
       "id": "hero-fr-medium-324",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier voit des traces fraîches et anciennes. Que cela peut-il indiquer ?",
       "options": {
@@ -3892,6 +4864,9 @@
     },
     {
       "id": "hero-fr-medium-325",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un dragon dort devant une grotte. L'équipe veut entrer sans bruit. Quelle action est la plus prudente ?",
       "options": {
@@ -3904,6 +4879,9 @@
     },
     {
       "id": "hero-fr-medium-326",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit choisir entre sauver un ami ou récupérer un objet précieux. Que ferait un héros loyal ?",
       "options": {
@@ -3916,6 +4894,9 @@
     },
     {
       "id": "hero-fr-medium-327",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Sur une île, trois chemins mènent à des indices. Lequel choisir pour gagner du temps ?",
       "options": {
@@ -3928,6 +4909,9 @@
     },
     {
       "id": "hero-fr-medium-328",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme dit : 'Je suis petit le matin, grand le soir.' Que peut-être ?",
       "options": {
@@ -3940,6 +4924,9 @@
     },
     {
       "id": "hero-fr-medium-329",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate veut partager 20 pièces entre quatre amis. Combien chacun reçoit-il ?",
       "options": {
@@ -3952,6 +4939,9 @@
     },
     {
       "id": "hero-fr-medium-330",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit traverser un pont fragile avec un ami plus lourd. Quelle précaution prendre ?",
       "options": {
@@ -3964,6 +4954,9 @@
     },
     {
       "id": "hero-fr-medium-331",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une carte montre trois collines alignées et le trésor est au milieu. Où creuser ?",
       "options": {
@@ -3976,6 +4969,9 @@
     },
     {
       "id": "hero-fr-medium-332",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier entend un bruit derrière une porte. Quelle action prudente ?",
       "options": {
@@ -3988,6 +4984,9 @@
     },
     {
       "id": "hero-fr-medium-333",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un dragon propose un défi logique. Quelle approche est la meilleure pour résoudre une suite ?",
       "options": {
@@ -4000,6 +4999,9 @@
     },
     {
       "id": "hero-fr-medium-334",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une lampe s'éteint après 3 heures et la grotte prend 5 heures. Que faire ?",
       "options": {
@@ -4012,6 +5014,9 @@
     },
     {
       "id": "hero-fr-medium-335",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe doit décider qui monte la garde la nuit. Quelle règle est juste ?",
       "options": {
@@ -4024,6 +5029,9 @@
     },
     {
       "id": "hero-fr-medium-336",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate trouve un symbole étrange sur la carte. Quelle action logique ?",
       "options": {
@@ -4036,6 +5044,9 @@
     },
     {
       "id": "hero-fr-medium-337",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit convaincre un garde sans violence. Quelle approche est la plus efficace ?",
       "options": {
@@ -4048,6 +5059,9 @@
     },
     {
       "id": "hero-fr-medium-338",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une carte est humide et l'encre a bavé. Que faire pour la lire ?",
       "options": {
@@ -4060,6 +5074,9 @@
     },
     {
       "id": "hero-fr-medium-339",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier doit traverser un brouillard épais. Quelle précaution ?",
       "options": {
@@ -4072,6 +5089,9 @@
     },
     {
       "id": "hero-fr-medium-340",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme dit : 'Sans moi, la nuit est noire; avec moi, on voit le chemin.' Qu'est-ce ?",
       "options": {
@@ -4084,6 +5104,9 @@
     },
     {
       "id": "hero-fr-medium-341",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe a un pont fragile et un bateau lent. Ils doivent traverser vite. Quelle option est la plus sûre ?",
       "options": {
@@ -4096,6 +5119,9 @@
     },
     {
       "id": "hero-fr-medium-342",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier a trois indices : mot, image, son. Quelle combinaison est la plus fiable ?",
       "options": {
@@ -4108,6 +5134,9 @@
     },
     {
       "id": "hero-fr-medium-343",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate veut éviter une embuscade. Quelle tactique est la plus prudente ?",
       "options": {
@@ -4120,6 +5149,9 @@
     },
     {
       "id": "hero-fr-medium-344",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier a trois indices qui forment un mot mais il manque une lettre. Que faire ?",
       "options": {
@@ -4132,6 +5164,9 @@
     },
     {
       "id": "hero-fr-medium-345",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit traverser un champ de pierres. Quelle méthode est la plus sûre ?",
       "options": {
@@ -4144,6 +5179,9 @@
     },
     {
       "id": "hero-fr-medium-346",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate a trois cartes différentes. Quelle première étape pour planifier ?",
       "options": {
@@ -4156,6 +5194,9 @@
     },
     {
       "id": "hero-fr-medium-347",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Une énigme dit : 'Je monte quand la pluie arrive, je descends quand le soleil revient.' Qu'est-ce ?",
       "options": {
@@ -4168,6 +5209,9 @@
     },
     {
       "id": "hero-fr-medium-348",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate doit choisir qui monte la garde. Quelle règle est la plus juste ?",
       "options": {
@@ -4180,6 +5224,9 @@
     },
     {
       "id": "hero-fr-medium-349",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve trois potions inconnues. Quelle précaution est la plus sage ?",
       "options": {
@@ -4192,6 +5239,9 @@
     },
     {
       "id": "hero-fr-medium-350",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier voit des empreintes qui reviennent sur leurs pas. Que cela suggère-t-il ?",
       "options": {
@@ -4204,6 +5254,9 @@
     },
     {
       "id": "hero-fr-medium-351",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate doit réparer une voile avant la nuit. Quelle action prioritaire ?",
       "options": {
@@ -4216,6 +5269,9 @@
     },
     {
       "id": "hero-fr-medium-352",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve une porte avec un code 2, 4, 6, ?. Quelle est la prochaine valeur logique ?",
       "options": {
@@ -4228,6 +5284,9 @@
     },
     {
       "id": "hero-fr-medium-353",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe doit traverser une tempête en mer. Quelle règle d'équipe est la plus utile ?",
       "options": {
@@ -4240,6 +5299,9 @@
     },
     {
       "id": "hero-fr-medium-354",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier trouve une énigme : 'Je suis pris avant d'être donné.' Qu'est-ce ?",
       "options": {
@@ -4252,6 +5314,9 @@
     },
     {
       "id": "hero-fr-medium-355",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit traverser une zone venteuse. Quelle précaution est la plus utile ?",
       "options": {
@@ -4264,6 +5329,9 @@
     },
     {
       "id": "hero-fr-medium-356",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate voit sur la carte un symbole de lune et un symbole de soleil. Que cela peut indiquer ?",
       "options": {
@@ -4276,6 +5344,9 @@
     },
     {
       "id": "hero-fr-medium-357",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier doit traverser un marais. Quelle précaution est la plus utile ?",
       "options": {
@@ -4288,6 +5359,9 @@
     },
     {
       "id": "hero-fr-medium-358",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve trois indices différents. Quelle stratégie aide à résoudre l'énigme ?",
       "options": {
@@ -4300,6 +5374,9 @@
     },
     {
       "id": "hero-fr-medium-359",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate voit des traces menant vers une grotte et vers la plage. Quelle action logique ?",
       "options": {
@@ -4312,6 +5389,9 @@
     },
     {
       "id": "hero-fr-medium-360",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier a une lampe qui dure 3 heures et un tunnel de 5 heures. Quelle précaution ?",
       "options": {
@@ -4324,6 +5404,9 @@
     },
     {
       "id": "hero-fr-medium-361",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier doit traverser une vallée où la météo change vite. Quelle précaution prendre ?",
       "options": {
@@ -4336,6 +5419,9 @@
     },
     {
       "id": "hero-fr-medium-362",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un pirate trouve un message codé où chaque lettre avance d'une place. Le mot 'CAT' devient ?",
       "options": {
@@ -4348,6 +5434,9 @@
     },
     {
       "id": "hero-fr-medium-363",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un aventurier doit décider qui porte une lourde charge. Quelle règle est la plus juste ?",
       "options": {
@@ -4360,6 +5449,9 @@
     },
     {
       "id": "hero-fr-medium-364",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un chevalier trouve une énigme : 'Je suis plus grand la nuit et plus petit le jour.' Qu'est-ce ?",
       "options": {
@@ -4372,6 +5464,9 @@
     },
     {
       "id": "hero-fr-medium-365",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Un groupe a une carte avec un symbole répété trois fois. Que peut signifier la répétition ?",
       "options": {
@@ -4384,6 +5479,9 @@
     },
     {
       "id": "hero-fr-hard-366",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Deux gardiens : l'un ment toujours, l'autre dit toujours la vérité. Quelle question permet de connaître la bonne porte ?",
       "options": {
@@ -4396,6 +5494,9 @@
     },
     {
       "id": "hero-fr-hard-367",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Suite logique : 3, 6, 12, ?. Quelle est la prochaine valeur ?",
       "options": {
@@ -4408,6 +5509,9 @@
     },
     {
       "id": "hero-fr-hard-368",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un dragon garde trois coffres étiquetés. Une seule étiquette est correcte. Si les étiquettes sont trompeuses, comment trouver l'indice ?",
       "options": {
@@ -4420,6 +5524,9 @@
     },
     {
       "id": "hero-fr-hard-369",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un explorateur doit parcourir 90 km en 3 jours. Il peut marcher 30 km par jour. Peut-il arriver à temps ?",
       "options": {
@@ -4432,6 +5539,9 @@
     },
     {
       "id": "hero-fr-hard-370",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Énigme lettres : retirer 'LIRE' de 'CHEVALIER'. Quelles lettres restent ?",
       "options": {
@@ -4444,6 +5554,9 @@
     },
     {
       "id": "hero-fr-hard-371",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Partager 25 gemmes entre 5 aventuriers équitablement. Combien reste-t-il ?",
       "options": {
@@ -4456,6 +5569,9 @@
     },
     {
       "id": "hero-fr-hard-372",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Trois potions : réduire la taille, doubler la force, rendre invisible. Porte étroite puis pierre lourde. Quelle combinaison ?",
       "options": {
@@ -4468,6 +5584,9 @@
     },
     {
       "id": "hero-fr-hard-373",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Une boussole indique toujours 90° à l'est de la vraie direction. Pour aller vers le nord, quelle direction suivre selon la boussole ?",
       "options": {
@@ -4480,6 +5599,9 @@
     },
     {
       "id": "hero-fr-hard-374",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un triangle a les lettres A, R, C. En commençant au sommet suivant, quel mot obtient-on ?",
       "options": {
@@ -4492,6 +5614,9 @@
     },
     {
       "id": "hero-fr-hard-375",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Trois ponts prennent 8, 12 et 10 minutes. Le temps total est-il inférieur à 30 minutes ?",
       "options": {
@@ -4504,6 +5629,9 @@
     },
     {
       "id": "hero-fr-hard-376",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Logique : si A protège B et B protège C, qui protège C ?",
       "options": {
@@ -4516,6 +5644,9 @@
     },
     {
       "id": "hero-fr-hard-377",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quatre clés et quatre portes : une clé ne marche pas sur une porte testée. Quelle stratégie réduit les essais ?",
       "options": {
@@ -4528,6 +5659,9 @@
     },
     {
       "id": "hero-fr-hard-378",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Trois cartes : A nord, B distance, C obstacle. Quel ordre pour planifier un trajet ?",
       "options": {
@@ -4540,6 +5674,9 @@
     },
     {
       "id": "hero-fr-hard-379",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Si 7 chevaliers portent chacun 2 boucliers, combien y a-t-il de boucliers ?",
       "options": {
@@ -4552,6 +5689,9 @@
     },
     {
       "id": "hero-fr-hard-380",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Visiter deux chemins (2, 3, 5 heures) et revenir en 8 heures est-il possible ?",
       "options": {
@@ -4564,6 +5704,9 @@
     },
     {
       "id": "hero-fr-hard-381",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Suite : 2, 4, 8, ?. Quelle est la prochaine valeur ?",
       "options": {
@@ -4576,6 +5719,9 @@
     },
     {
       "id": "hero-fr-hard-382",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Répartir 15 rations entre deux personnes pour 5 jours : quelle répartition quotidienne équitable ?",
       "options": {
@@ -4588,6 +5734,9 @@
     },
     {
       "id": "hero-fr-hard-383",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Carte : 2 km nord puis 3 km est. Distance en ligne droite (approx.) ?",
       "options": {
@@ -4600,6 +5749,9 @@
     },
     {
       "id": "hero-fr-hard-384",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quatre torches durent 60 minutes chacune. Tunnel 90 minutes. Peut-on traverser ensemble sans autre lumière ?",
       "options": {
@@ -4612,6 +5764,9 @@
     },
     {
       "id": "hero-fr-hard-385",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Partager 17 pièces entre 3 amis équitablement : combien reste-t-il ?",
       "options": {
@@ -4624,6 +5779,9 @@
     },
     {
       "id": "hero-fr-hard-386",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Trois aventuriers A, B, C : A 'Je n'ai pas pris la clé', B 'C l'a prise', C 'B ment'. Si une seule dit la vérité, qui a la clé ?",
       "options": {
@@ -4636,6 +5794,9 @@
     },
     {
       "id": "hero-fr-hard-387",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier doit choisir entre sauver un village maintenant ou récupérer une relique utile plus tard. Quelle décision montre un courage immédiat ?",
       "options": {
@@ -4648,6 +5809,9 @@
     },
     {
       "id": "hero-fr-hard-388",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Une montre est arrêtée et on a une boussole. Comment estimer l'heure du coucher du soleil ?",
       "options": {
@@ -4660,6 +5824,9 @@
     },
     {
       "id": "hero-fr-hard-389",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Les vagues suivent le motif haute, basse, haute, basse. Quelle sera la 7e vague ?",
       "options": {
@@ -4672,6 +5839,9 @@
     },
     {
       "id": "hero-fr-hard-390",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Les premières lettres de 'Forêt, Amis, Quête, Courage' forment quel groupe ?",
       "options": {
@@ -4684,6 +5854,9 @@
     },
     {
       "id": "hero-fr-hard-391",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "3 jours de provisions pour 6 personnes. Deux nouveaux arrivent. Combien de jours dureront les provisions ?",
       "options": {
@@ -4696,6 +5869,9 @@
     },
     {
       "id": "hero-fr-hard-392",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Si chaque ami donne 2 pièces et il y a 7 amis, combien de pièces au total ?",
       "options": {
@@ -4708,6 +5884,9 @@
     },
     {
       "id": "hero-fr-hard-393",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier doit résoudre une suite pour ouvrir une porte : 1, 2, 4, 8, ?. Quelle est la prochaine valeur ?",
       "options": {
@@ -4720,6 +5899,9 @@
     },
     {
       "id": "hero-fr-hard-394",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un groupe a 4 torches de 45 minutes chacune et doit traverser 90 minutes. Est-ce possible sans autre lumière ?",
       "options": {
@@ -4732,6 +5914,9 @@
     },
     {
       "id": "hero-fr-hard-395",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un pirate partage 22 pièces entre 4 amis. Combien chacun reçoit-il si on partage équitablement ?",
       "options": {
@@ -4744,6 +5929,9 @@
     },
     {
       "id": "hero-fr-hard-396",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Énigme logique : si A protège B, B protège C et C protège D, qui protège D ?",
       "options": {
@@ -4756,6 +5944,9 @@
     },
     {
       "id": "hero-fr-hard-397",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un chevalier a 5 clés et 5 portes. Après avoir testé une clé sur une porte sans succès, quelle stratégie ?",
       "options": {
@@ -4768,6 +5959,9 @@
     },
     {
       "id": "hero-fr-hard-398",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Trois cartes donnent nord, distance et obstacle. Pour planifier, quel ordre logique ?",
       "options": {
@@ -4780,6 +5974,9 @@
     },
     {
       "id": "hero-fr-hard-399",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Si 8 chevaliers portent chacun 3 boucliers, combien y a-t-il de boucliers ?",
       "options": {
@@ -4792,6 +5989,9 @@
     },
     {
       "id": "hero-fr-hard-400",
+      "category": "heroes",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Un groupe a 2 jours de provisions pour 4 personnes. Deux personnes partent. Combien de jours dureront les provisions pour les deux restants ?",
       "options": {

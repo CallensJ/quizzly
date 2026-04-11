@@ -4,6 +4,9 @@
   "questions": [
     {
       "id": "ancient-world-fr-easy-001",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Comment s'appelle la grande arène romaine où combattaient les gladiateurs ?",
       "options": {
@@ -16,6 +19,9 @@
     },
     {
       "id": "ancient-world-fr-easy-002",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que signifie le mot latin « aqua » que l'on retrouve dans « aquarium » ?",
       "options": {
@@ -28,6 +34,9 @@
     },
     {
       "id": "ancient-world-fr-easy-003",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à transporter de l'huile ou du vin et avait souvent une forme de vase ?",
       "options": {
@@ -40,6 +49,9 @@
     },
     {
       "id": "ancient-world-fr-easy-004",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « villa » et désigne une maison de campagne ?",
       "options": {
@@ -52,6 +64,9 @@
     },
     {
       "id": "ancient-world-fr-easy-005",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal était souvent monté par les Romains pour voyager rapidement ?",
       "options": {
@@ -64,6 +79,9 @@
     },
     {
       "id": "ancient-world-fr-easy-006",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Que signifie le mot latin « maximum » que l'on retrouve en français ?",
       "options": {
@@ -76,6 +94,9 @@
     },
     {
       "id": "ancient-world-fr-easy-007",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel vêtement long et drapé portaient souvent les citoyens romains ?",
       "options": {
@@ -88,6 +109,9 @@
     },
     {
       "id": "ancient-world-fr-easy-008",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel instrument de métal utilisaient les soldats romains pour se défendre ?",
       "options": {
@@ -100,6 +124,9 @@
     },
     {
       "id": "ancient-world-fr-easy-009",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et concerne l'eau ?",
       "options": {
@@ -112,6 +139,9 @@
     },
     {
       "id": "ancient-world-fr-easy-010",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Comment s'appellent les grandes constructions qui apportaient de l'eau aux villes romaines ?",
       "options": {
@@ -124,6 +154,9 @@
     },
     {
       "id": "ancient-world-fr-easy-011",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 5 ?",
       "options": {
@@ -136,6 +169,9 @@
     },
     {
       "id": "ancient-world-fr-easy-012",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « campus » et désigne un grand terrain ?",
       "options": {
@@ -148,6 +184,9 @@
     },
     {
       "id": "ancient-world-fr-easy-013",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain a traversé le Rubicon et a dit « veni vidi vici » ?",
       "options": {
@@ -160,6 +199,9 @@
     },
     {
       "id": "ancient-world-fr-easy-014",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « forum » et désigne la place centrale d'une ville ?",
       "options": {
@@ -172,6 +214,9 @@
     },
     {
       "id": "ancient-world-fr-easy-015",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel moyen de transport romain était tiré par des chevaux et utilisé pour voyager ?",
       "options": {
@@ -184,6 +229,9 @@
     },
     {
       "id": "ancient-world-fr-easy-016",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot latin signifie 'maison' et a donné un mot français similaire ?",
       "options": {
@@ -196,6 +244,9 @@
     },
     {
       "id": "ancient-world-fr-easy-017",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 10 ?",
       "options": {
@@ -208,6 +259,9 @@
     },
     {
       "id": "ancient-world-fr-easy-018",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain servait de marché et de lieu de réunion pour les citoyens ?",
       "options": {
@@ -220,6 +274,9 @@
     },
     {
       "id": "ancient-world-fr-easy-019",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « manus » et concerne la main ?",
       "options": {
@@ -232,6 +289,9 @@
     },
     {
       "id": "ancient-world-fr-easy-020",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à écrire et ressemblait à une tablette ?",
       "options": {
@@ -244,6 +304,9 @@
     },
     {
       "id": "ancient-world-fr-easy-021",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « terra » et parle de la terre ?",
       "options": {
@@ -256,6 +319,9 @@
     },
     {
       "id": "ancient-world-fr-easy-022",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal marin les Romains utilisaient-ils pour pêcher et manger ?",
       "options": {
@@ -268,6 +334,9 @@
     },
     {
       "id": "ancient-world-fr-easy-023",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « sol » et concerne le soleil ?",
       "options": {
@@ -280,6 +349,9 @@
     },
     {
       "id": "ancient-world-fr-easy-024",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand bâtiment romain servait à des spectacles et avait des gradins ?",
       "options": {
@@ -292,6 +364,9 @@
     },
     {
       "id": "ancient-world-fr-easy-025",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot latin signifie 'route' et a inspiré le mot français 'route' ?",
       "options": {
@@ -304,6 +379,9 @@
     },
     {
       "id": "ancient-world-fr-easy-026",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel instrument de musique simple pouvait être joué dans la Rome antique ?",
       "options": {
@@ -316,6 +394,9 @@
     },
     {
       "id": "ancient-world-fr-easy-027",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « cena » et parle du repas du soir ?",
       "options": {
@@ -328,6 +409,9 @@
     },
     {
       "id": "ancient-world-fr-easy-028",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 1 ?",
       "options": {
@@ -340,6 +424,9 @@
     },
     {
       "id": "ancient-world-fr-easy-029",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « manus » et désigne un petit livre ou guide ?",
       "options": {
@@ -352,6 +439,9 @@
     },
     {
       "id": "ancient-world-fr-easy-030",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à garder l'eau et était souvent en terre cuite ?",
       "options": {
@@ -364,6 +454,9 @@
     },
     {
       "id": "ancient-world-fr-easy-031",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « campus » et désigne souvent l'espace d'une école ?",
       "options": {
@@ -376,6 +469,9 @@
     },
     {
       "id": "ancient-world-fr-easy-032",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain fut assassiné aux Ides de mars en 44 av. J.-C. ?",
       "options": {
@@ -388,6 +484,9 @@
     },
     {
       "id": "ancient-world-fr-easy-033",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « animal » et parle d'êtres vivants comme les chiens et les chats ?",
       "options": {
@@ -400,6 +499,9 @@
     },
     {
       "id": "ancient-world-fr-easy-034",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet portaient les soldats romains sur la tête pour se protéger ?",
       "options": {
@@ -412,6 +514,9 @@
     },
     {
       "id": "ancient-world-fr-easy-035",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « rex » et parle d'un chef ou roi ?",
       "options": {
@@ -424,6 +529,9 @@
     },
     {
       "id": "ancient-world-fr-easy-036",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel moyen de transport les Romains utilisaient-ils pour traverser l'eau ?",
       "options": {
@@ -436,6 +544,9 @@
     },
     {
       "id": "ancient-world-fr-easy-037",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « luna » et parle de la lune ?",
       "options": {
@@ -448,6 +559,9 @@
     },
     {
       "id": "ancient-world-fr-easy-038",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain servait à des bains publics et à se rencontrer entre amis ?",
       "options": {
@@ -460,6 +574,9 @@
     },
     {
       "id": "ancient-world-fr-easy-039",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « hora » et parle du temps ou de l'heure ?",
       "options": {
@@ -472,6 +589,9 @@
     },
     {
       "id": "ancient-world-fr-easy-040",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal était souvent utilisé pour tirer des chariots à Rome ?",
       "options": {
@@ -484,6 +604,9 @@
     },
     {
       "id": "ancient-world-fr-easy-041",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « manus » et désigne un travail fait à la main ?",
       "options": {
@@ -496,6 +619,9 @@
     },
     {
       "id": "ancient-world-fr-easy-042",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 2 ?",
       "options": {
@@ -508,6 +634,9 @@
     },
     {
       "id": "ancient-world-fr-easy-043",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « portus » et désigne un lieu où les bateaux accostent ?",
       "options": {
@@ -520,6 +649,9 @@
     },
     {
       "id": "ancient-world-fr-easy-044",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain fut le premier empereur et s'appelait Octave avant son nom d'empereur ?",
       "options": {
@@ -532,6 +664,9 @@
     },
     {
       "id": "ancient-world-fr-easy-045",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « animalis » et parle des êtres vivants ?",
       "options": {
@@ -544,6 +679,9 @@
     },
     {
       "id": "ancient-world-fr-easy-046",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à écrire sur du papyrus ou du parchemin ?",
       "options": {
@@ -556,6 +694,9 @@
     },
     {
       "id": "ancient-world-fr-easy-047",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et désigne un lieu pour nager ?",
       "options": {
@@ -568,6 +709,9 @@
     },
     {
       "id": "ancient-world-fr-easy-048",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 3 ?",
       "options": {
@@ -580,6 +724,9 @@
     },
     {
       "id": "ancient-world-fr-easy-049",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « campus » et peut désigner un terrain de sport ?",
       "options": {
@@ -592,6 +739,9 @@
     },
     {
       "id": "ancient-world-fr-easy-050",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à garder l'huile et le vin et avait deux anses ?",
       "options": {
@@ -604,6 +754,9 @@
     },
     {
       "id": "ancient-world-fr-easy-051",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « liber » et désigne un objet pour lire ?",
       "options": {
@@ -616,6 +769,9 @@
     },
     {
       "id": "ancient-world-fr-easy-052",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 4 ?",
       "options": {
@@ -628,6 +784,9 @@
     },
     {
       "id": "ancient-world-fr-easy-053",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « via » et désigne un chemin ou une route ?",
       "options": {
@@ -640,6 +799,9 @@
     },
     {
       "id": "ancient-world-fr-easy-054",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand monument romain est célèbre pour ses arcs et ses victoires ?",
       "options": {
@@ -652,6 +814,9 @@
     },
     {
       "id": "ancient-world-fr-easy-055",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « cena » et désigne parfois un grand repas ?",
       "options": {
@@ -664,6 +829,9 @@
     },
     {
       "id": "ancient-world-fr-easy-056",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal les Romains élevaient souvent pour la viande et le lait ?",
       "options": {
@@ -676,6 +844,9 @@
     },
     {
       "id": "ancient-world-fr-easy-057",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et désigne un endroit où l'on garde des poissons ?",
       "options": {
@@ -688,6 +859,9 @@
     },
     {
       "id": "ancient-world-fr-easy-058",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 6 ?",
       "options": {
@@ -700,6 +874,9 @@
     },
     {
       "id": "ancient-world-fr-easy-059",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet portaient les Romains pour écrire sur des tablettes ?",
       "options": {
@@ -712,6 +889,9 @@
     },
     {
       "id": "ancient-world-fr-easy-060",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « sol » et désigne parfois une surface au sol ?",
       "options": {
@@ -724,6 +904,9 @@
     },
     {
       "id": "ancient-world-fr-easy-061",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain a donné son nom à la ville de Césarée ?",
       "options": {
@@ -736,6 +919,9 @@
     },
     {
       "id": "ancient-world-fr-easy-062",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « manus » et désigne un guide ou mode d'emploi ?",
       "options": {
@@ -748,6 +934,9 @@
     },
     {
       "id": "ancient-world-fr-easy-063",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 7 ?",
       "options": {
@@ -760,6 +949,9 @@
     },
     {
       "id": "ancient-world-fr-easy-064",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « portus » et désigne un endroit pour les bateaux ?",
       "options": {
@@ -772,6 +964,9 @@
     },
     {
       "id": "ancient-world-fr-easy-065",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain servait souvent de lieu pour des réunions publiques et des discours ?",
       "options": {
@@ -784,6 +979,9 @@
     },
     {
       "id": "ancient-world-fr-easy-066",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « luna » et désigne parfois un adjectif lié à la lune ?",
       "options": {
@@ -796,6 +994,9 @@
     },
     {
       "id": "ancient-world-fr-easy-067",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal les Romains utilisaient-ils pour le transport lourd sur les routes ?",
       "options": {
@@ -808,6 +1009,9 @@
     },
     {
       "id": "ancient-world-fr-easy-068",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « cena » et peut évoquer un repas important ?",
       "options": {
@@ -820,6 +1024,9 @@
     },
     {
       "id": "ancient-world-fr-easy-069",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 8 ?",
       "options": {
@@ -832,6 +1039,9 @@
     },
     {
       "id": "ancient-world-fr-easy-070",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et désigne un adjectif lié à l'eau ?",
       "options": {
@@ -844,6 +1054,9 @@
     },
     {
       "id": "ancient-world-fr-easy-071",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à mesurer le temps avec des ombres ?",
       "options": {
@@ -856,6 +1069,9 @@
     },
     {
       "id": "ancient-world-fr-easy-072",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « liber » et désigne une personne qui lit beaucoup ?",
       "options": {
@@ -868,6 +1084,9 @@
     },
     {
       "id": "ancient-world-fr-easy-073",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 9 ?",
       "options": {
@@ -880,6 +1099,9 @@
     },
     {
       "id": "ancient-world-fr-easy-074",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « via » et signifie 'par le chemin de' ?",
       "options": {
@@ -892,6 +1114,9 @@
     },
     {
       "id": "ancient-world-fr-easy-075",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain est connu pour avoir été un général et un homme politique célèbre ?",
       "options": {
@@ -904,6 +1129,9 @@
     },
     {
       "id": "ancient-world-fr-easy-076",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à conserver des aliments et était souvent en terre cuite ?",
       "options": {
@@ -916,6 +1144,9 @@
     },
     {
       "id": "ancient-world-fr-easy-077",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « manus » et désigne une action faite à la main ?",
       "options": {
@@ -928,6 +1159,9 @@
     },
     {
       "id": "ancient-world-fr-easy-078",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 10 ?",
       "options": {
@@ -940,6 +1174,9 @@
     },
     {
       "id": "ancient-world-fr-easy-079",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « sol » et désigne parfois le plancher d'une maison ?",
       "options": {
@@ -952,6 +1189,9 @@
     },
     {
       "id": "ancient-world-fr-easy-080",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain servait à des courses et spectacles en plein air ?",
       "options": {
@@ -964,6 +1204,9 @@
     },
     {
       "id": "ancient-world-fr-easy-081",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et désigne un adjectif lié à l'eau ?",
       "options": {
@@ -976,6 +1219,9 @@
     },
     {
       "id": "ancient-world-fr-easy-082",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet portaient les Romains pour écrire sur du papyrus ?",
       "options": {
@@ -988,6 +1234,9 @@
     },
     {
       "id": "ancient-world-fr-easy-083",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal était souvent gardé comme animal de compagnie à Rome ?",
       "options": {
@@ -1000,6 +1249,9 @@
     },
     {
       "id": "ancient-world-fr-easy-084",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « liber » et désigne un objet qu'on lit ?",
       "options": {
@@ -1012,6 +1264,9 @@
     },
     {
       "id": "ancient-world-fr-easy-085",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 50 ?",
       "options": {
@@ -1024,6 +1279,9 @@
     },
     {
       "id": "ancient-world-fr-easy-086",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « via » et signifie 'par le chemin' ?",
       "options": {
@@ -1036,6 +1294,9 @@
     },
     {
       "id": "ancient-world-fr-easy-087",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain a été célèbre pour ses conquêtes et son rôle politique ?",
       "options": {
@@ -1048,6 +1309,9 @@
     },
     {
       "id": "ancient-world-fr-easy-088",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à transporter des marchandises sur des routes ?",
       "options": {
@@ -1060,6 +1324,9 @@
     },
     {
       "id": "ancient-world-fr-easy-089",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « manus » et désigne un guide pratique ?",
       "options": {
@@ -1072,6 +1339,9 @@
     },
     {
       "id": "ancient-world-fr-easy-090",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 100 ?",
       "options": {
@@ -1084,6 +1354,9 @@
     },
     {
       "id": "ancient-world-fr-easy-091",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « sol » et désigne parfois le plancher d'une pièce ?",
       "options": {
@@ -1096,6 +1369,9 @@
     },
     {
       "id": "ancient-world-fr-easy-092",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain servait à des réunions et à la justice publique ?",
       "options": {
@@ -1108,6 +1384,9 @@
     },
     {
       "id": "ancient-world-fr-easy-093",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et désigne un adjectif lié à l'eau ?",
       "options": {
@@ -1120,6 +1399,9 @@
     },
     {
       "id": "ancient-world-fr-easy-094",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal les Romains utilisaient-ils pour labourer les champs ?",
       "options": {
@@ -1132,6 +1414,9 @@
     },
     {
       "id": "ancient-world-fr-easy-095",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « campus » et désigne parfois un lieu d'études ?",
       "options": {
@@ -1144,6 +1429,9 @@
     },
     {
       "id": "ancient-world-fr-easy-096",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à conserver l'eau et était souvent posé près des maisons ?",
       "options": {
@@ -1156,6 +1444,9 @@
     },
     {
       "id": "ancient-world-fr-easy-097",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 500 ?",
       "options": {
@@ -1168,6 +1459,9 @@
     },
     {
       "id": "ancient-world-fr-easy-098",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « liber » et désigne un lieu où l'on garde des livres ?",
       "options": {
@@ -1180,6 +1474,9 @@
     },
     {
       "id": "ancient-world-fr-easy-099",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain a été célèbre pour ses victoires militaires et son rôle politique ?",
       "options": {
@@ -1192,6 +1489,9 @@
     },
     {
       "id": "ancient-world-fr-easy-100",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « via » et signifie 'par la route' ?",
       "options": {
@@ -1204,6 +1504,9 @@
     },
     {
       "id": "ancient-world-fr-easy-101",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et désigne une boisson pour les poissons ?",
       "options": {
@@ -1216,6 +1519,9 @@
     },
     {
       "id": "ancient-world-fr-easy-102",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à garder de l'huile et du vin ?",
       "options": {
@@ -1228,6 +1534,9 @@
     },
     {
       "id": "ancient-world-fr-easy-103",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « via » et signifie 'chemin' ?",
       "options": {
@@ -1240,6 +1549,9 @@
     },
     {
       "id": "ancient-world-fr-easy-104",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain est utilisé pour écrire le nombre 1 ?",
       "options": {
@@ -1252,6 +1564,9 @@
     },
     {
       "id": "ancient-world-fr-easy-105",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain était un grand lieu de spectacles et de jeux ?",
       "options": {
@@ -1264,6 +1579,9 @@
     },
     {
       "id": "ancient-world-fr-easy-106",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « liber » et désigne un objet qu'on lit ?",
       "options": {
@@ -1276,6 +1594,9 @@
     },
     {
       "id": "ancient-world-fr-easy-107",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal tirait souvent les chariots à Rome ?",
       "options": {
@@ -1288,6 +1609,9 @@
     },
     {
       "id": "ancient-world-fr-easy-108",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « manus » et parle de la main ?",
       "options": {
@@ -1300,6 +1624,9 @@
     },
     {
       "id": "ancient-world-fr-easy-109",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à écrire sur du papyrus ?",
       "options": {
@@ -1312,6 +1639,9 @@
     },
     {
       "id": "ancient-world-fr-easy-110",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « sol » et parle du sol ou du plancher ?",
       "options": {
@@ -1324,6 +1654,9 @@
     },
     {
       "id": "ancient-world-fr-easy-111",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 5 ?",
       "options": {
@@ -1336,6 +1669,9 @@
     },
     {
       "id": "ancient-world-fr-easy-112",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel vêtement long portaient les Romains pour les cérémonies ?",
       "options": {
@@ -1348,6 +1684,9 @@
     },
     {
       "id": "ancient-world-fr-easy-113",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et signifie 'lié à l'eau' ?",
       "options": {
@@ -1360,6 +1699,9 @@
     },
     {
       "id": "ancient-world-fr-easy-114",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain avait deux anses et servait à transporter du liquide ?",
       "options": {
@@ -1372,6 +1714,9 @@
     },
     {
       "id": "ancient-world-fr-easy-115",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain fut assassiné en 44 av. J.-C. ?",
       "options": {
@@ -1384,6 +1729,9 @@
     },
     {
       "id": "ancient-world-fr-easy-116",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « campus » et peut désigner un terrain d'école ?",
       "options": {
@@ -1396,6 +1744,9 @@
     },
     {
       "id": "ancient-world-fr-easy-117",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain amenait l'eau en ville grâce à de grands canaux ?",
       "options": {
@@ -1408,6 +1759,9 @@
     },
     {
       "id": "ancient-world-fr-easy-118",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « rex » et parle d'un chef ?",
       "options": {
@@ -1420,6 +1774,9 @@
     },
     {
       "id": "ancient-world-fr-easy-119",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal les Romains gardaient souvent comme compagnon ?",
       "options": {
@@ -1432,6 +1789,9 @@
     },
     {
       "id": "ancient-world-fr-easy-120",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « hora » et parle du temps ?",
       "options": {
@@ -1444,6 +1804,9 @@
     },
     {
       "id": "ancient-world-fr-easy-121",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à protéger la tête des soldats ?",
       "options": {
@@ -1456,6 +1819,9 @@
     },
     {
       "id": "ancient-world-fr-easy-122",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 10 ?",
       "options": {
@@ -1468,6 +1834,9 @@
     },
     {
       "id": "ancient-world-fr-easy-123",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « animal » et parle des êtres vivants ?",
       "options": {
@@ -1480,6 +1849,9 @@
     },
     {
       "id": "ancient-world-fr-easy-124",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain était un grand marché et lieu de rencontre ?",
       "options": {
@@ -1492,6 +1864,9 @@
     },
     {
       "id": "ancient-world-fr-easy-125",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « luna » et parle de la lune ?",
       "options": {
@@ -1504,6 +1879,9 @@
     },
     {
       "id": "ancient-world-fr-easy-126",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à mesurer l'heure avec l'ombre du soleil ?",
       "options": {
@@ -1516,6 +1894,9 @@
     },
     {
       "id": "ancient-world-fr-easy-127",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « cena » et évoque un repas ?",
       "options": {
@@ -1528,6 +1909,9 @@
     },
     {
       "id": "ancient-world-fr-easy-128",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal aidait souvent les Romains dans les champs ?",
       "options": {
@@ -1540,6 +1924,9 @@
     },
     {
       "id": "ancient-world-fr-easy-129",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « portus » et désigne un lieu pour les bateaux ?",
       "options": {
@@ -1552,6 +1939,9 @@
     },
     {
       "id": "ancient-world-fr-easy-130",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain fut le premier empereur ?",
       "options": {
@@ -1564,6 +1954,9 @@
     },
     {
       "id": "ancient-world-fr-easy-131",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à garder des grains ou des aliments ?",
       "options": {
@@ -1576,6 +1969,9 @@
     },
     {
       "id": "ancient-world-fr-easy-132",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « liber » et désigne une personne qui lit ?",
       "options": {
@@ -1588,6 +1984,9 @@
     },
     {
       "id": "ancient-world-fr-easy-133",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 50 ?",
       "options": {
@@ -1600,6 +1999,9 @@
     },
     {
       "id": "ancient-world-fr-easy-134",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel vêtement protégeait parfois les soldats romains ?",
       "options": {
@@ -1612,6 +2014,9 @@
     },
     {
       "id": "ancient-world-fr-easy-135",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « campus » et peut désigner un terrain de sport ?",
       "options": {
@@ -1624,6 +2029,9 @@
     },
     {
       "id": "ancient-world-fr-easy-136",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain servait à des bains et à se rencontrer ?",
       "options": {
@@ -1636,6 +2044,9 @@
     },
     {
       "id": "ancient-world-fr-easy-137",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « via » et signifie 'par le chemin' ?",
       "options": {
@@ -1648,6 +2059,9 @@
     },
     {
       "id": "ancient-world-fr-easy-138",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal les Romains montaient souvent pour aller vite ?",
       "options": {
@@ -1660,6 +2074,9 @@
     },
     {
       "id": "ancient-world-fr-easy-139",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « manus » et désigne un guide ?",
       "options": {
@@ -1672,6 +2089,9 @@
     },
     {
       "id": "ancient-world-fr-easy-140",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 100 ?",
       "options": {
@@ -1684,6 +2104,9 @@
     },
     {
       "id": "ancient-world-fr-easy-141",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à transporter des personnes ou des marchandises ?",
       "options": {
@@ -1696,6 +2119,9 @@
     },
     {
       "id": "ancient-world-fr-easy-142",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « sol » et parle du soleil ?",
       "options": {
@@ -1708,6 +2134,9 @@
     },
     {
       "id": "ancient-world-fr-easy-143",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain avait des gradins pour regarder des spectacles ?",
       "options": {
@@ -1720,6 +2149,9 @@
     },
     {
       "id": "ancient-world-fr-easy-144",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et désigne un lieu pour nager ?",
       "options": {
@@ -1732,6 +2164,9 @@
     },
     {
       "id": "ancient-world-fr-easy-145",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal les Romains élevaient pour le lait et la viande ?",
       "options": {
@@ -1744,6 +2179,9 @@
     },
     {
       "id": "ancient-world-fr-easy-146",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « liber » et désigne un lieu où l'on garde des livres ?",
       "options": {
@@ -1756,6 +2194,9 @@
     },
     {
       "id": "ancient-world-fr-easy-147",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 2 ?",
       "options": {
@@ -1768,6 +2209,9 @@
     },
     {
       "id": "ancient-world-fr-easy-148",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel vêtement romain était porté par les soldats et les citoyens importants ?",
       "options": {
@@ -1780,6 +2224,9 @@
     },
     {
       "id": "ancient-world-fr-easy-149",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « cena » et parle d'un repas du soir ?",
       "options": {
@@ -1792,6 +2239,9 @@
     },
     {
       "id": "ancient-world-fr-easy-150",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à garder l'eau et le vin près des maisons ?",
       "options": {
@@ -1804,6 +2254,9 @@
     },
     {
       "id": "ancient-world-fr-easy-151",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « manus » et désigne un travail fait à la main ?",
       "options": {
@@ -1816,6 +2269,9 @@
     },
     {
       "id": "ancient-world-fr-easy-152",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 3 ?",
       "options": {
@@ -1828,6 +2284,9 @@
     },
     {
       "id": "ancient-world-fr-easy-153",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain servait de lieu pour les échanges et les réunions ?",
       "options": {
@@ -1840,6 +2299,9 @@
     },
     {
       "id": "ancient-world-fr-easy-154",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « luna » et parle de la lune ?",
       "options": {
@@ -1852,6 +2314,9 @@
     },
     {
       "id": "ancient-world-fr-easy-155",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à écrire et ressemblait à une feuille ?",
       "options": {
@@ -1864,6 +2329,9 @@
     },
     {
       "id": "ancient-world-fr-easy-156",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et désigne l'eau en général ?",
       "options": {
@@ -1876,6 +2344,9 @@
     },
     {
       "id": "ancient-world-fr-easy-157",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal les Romains utilisaient-ils pour la guerre parfois ?",
       "options": {
@@ -1888,6 +2359,9 @@
     },
     {
       "id": "ancient-world-fr-easy-158",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « sol » et parle du soleil ?",
       "options": {
@@ -1900,6 +2374,9 @@
     },
     {
       "id": "ancient-world-fr-easy-159",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 4 ?",
       "options": {
@@ -1912,6 +2389,9 @@
     },
     {
       "id": "ancient-world-fr-easy-160",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain a dit 'Veni, vidi, vici' ?",
       "options": {
@@ -1924,6 +2404,9 @@
     },
     {
       "id": "ancient-world-fr-easy-161",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à protéger le corps des soldats ?",
       "options": {
@@ -1936,6 +2419,9 @@
     },
     {
       "id": "ancient-world-fr-easy-162",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « portus » et désigne un lieu pour les bateaux ?",
       "options": {
@@ -1948,6 +2434,9 @@
     },
     {
       "id": "ancient-world-fr-easy-163",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal les Romains élevaient pour la laine ?",
       "options": {
@@ -1960,6 +2449,9 @@
     },
     {
       "id": "ancient-world-fr-easy-164",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « campus » et désigne parfois un lieu d'études ?",
       "options": {
@@ -1972,6 +2464,9 @@
     },
     {
       "id": "ancient-world-fr-easy-165",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain servait à des courses et spectacles en plein air ?",
       "options": {
@@ -1984,6 +2479,9 @@
     },
     {
       "id": "ancient-world-fr-easy-166",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « liber » et désigne un livre ?",
       "options": {
@@ -1996,6 +2494,9 @@
     },
     {
       "id": "ancient-world-fr-easy-167",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 6 ?",
       "options": {
@@ -2008,6 +2509,9 @@
     },
     {
       "id": "ancient-world-fr-easy-168",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à transporter des marchandises sur les routes ?",
       "options": {
@@ -2020,6 +2524,9 @@
     },
     {
       "id": "ancient-world-fr-easy-169",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et désigne un lieu où l'on garde des poissons ?",
       "options": {
@@ -2032,6 +2539,9 @@
     },
     {
       "id": "ancient-world-fr-easy-170",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal les Romains montaient parfois pour voyager ?",
       "options": {
@@ -2044,6 +2554,9 @@
     },
     {
       "id": "ancient-world-fr-easy-171",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « sol » et désigne le plancher d'une maison ?",
       "options": {
@@ -2056,6 +2569,9 @@
     },
     {
       "id": "ancient-world-fr-easy-172",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain servait à des bains publics et à se rencontrer ?",
       "options": {
@@ -2068,6 +2584,9 @@
     },
     {
       "id": "ancient-world-fr-easy-173",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « manus » et désigne un guide pratique ?",
       "options": {
@@ -2080,6 +2599,9 @@
     },
     {
       "id": "ancient-world-fr-easy-174",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 7 ?",
       "options": {
@@ -2092,6 +2614,9 @@
     },
     {
       "id": "ancient-world-fr-easy-175",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain fut un célèbre général et homme politique ?",
       "options": {
@@ -2104,6 +2629,9 @@
     },
     {
       "id": "ancient-world-fr-easy-176",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à conserver l'huile et le vin ?",
       "options": {
@@ -2116,6 +2644,9 @@
     },
     {
       "id": "ancient-world-fr-easy-177",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « via » et signifie 'par le chemin' ?",
       "options": {
@@ -2128,6 +2659,9 @@
     },
     {
       "id": "ancient-world-fr-easy-178",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal aidait souvent les Romains pour le transport lourd ?",
       "options": {
@@ -2140,6 +2674,9 @@
     },
     {
       "id": "ancient-world-fr-easy-179",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « liber » et désigne un objet pour lire ?",
       "options": {
@@ -2152,6 +2689,9 @@
     },
     {
       "id": "ancient-world-fr-easy-180",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 8 ?",
       "options": {
@@ -2164,6 +2704,9 @@
     },
     {
       "id": "ancient-world-fr-easy-181",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain servait à des réunions publiques et à la justice ?",
       "options": {
@@ -2176,6 +2719,9 @@
     },
     {
       "id": "ancient-world-fr-easy-182",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et désigne un adjectif lié à l'eau ?",
       "options": {
@@ -2188,6 +2734,9 @@
     },
     {
       "id": "ancient-world-fr-easy-183",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal les Romains élevaient pour la viande ?",
       "options": {
@@ -2200,6 +2749,9 @@
     },
     {
       "id": "ancient-world-fr-easy-184",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « campus » et désigne un terrain ?",
       "options": {
@@ -2212,6 +2764,9 @@
     },
     {
       "id": "ancient-world-fr-easy-185",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à garder l'eau et le vin ?",
       "options": {
@@ -2224,6 +2779,9 @@
     },
     {
       "id": "ancient-world-fr-easy-186",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « manus » et désigne un guide ?",
       "options": {
@@ -2236,6 +2794,9 @@
     },
     {
       "id": "ancient-world-fr-easy-187",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 9 ?",
       "options": {
@@ -2248,6 +2809,9 @@
     },
     {
       "id": "ancient-world-fr-easy-188",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain fut un célèbre général ?",
       "options": {
@@ -2260,6 +2824,9 @@
     },
     {
       "id": "ancient-world-fr-easy-189",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « via » et signifie 'par la route' ?",
       "options": {
@@ -2272,6 +2839,9 @@
     },
     {
       "id": "ancient-world-fr-easy-190",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel bâtiment romain avait des arcs et célébrait des victoires ?",
       "options": {
@@ -2284,6 +2854,9 @@
     },
     {
       "id": "ancient-world-fr-easy-191",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à écrire et était fait de papyrus ?",
       "options": {
@@ -2296,6 +2869,9 @@
     },
     {
       "id": "ancient-world-fr-easy-192",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « sol » et parle du plancher ?",
       "options": {
@@ -2308,6 +2884,9 @@
     },
     {
       "id": "ancient-world-fr-easy-193",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel animal les Romains utilisaient-ils pour pêcher ?",
       "options": {
@@ -2320,6 +2899,9 @@
     },
     {
       "id": "ancient-world-fr-easy-194",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « liber » et désigne un lieu pour lire des livres ?",
       "options": {
@@ -2332,6 +2914,9 @@
     },
     {
       "id": "ancient-world-fr-easy-195",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel chiffre romain représente le nombre 1000 ?",
       "options": {
@@ -2344,6 +2929,9 @@
     },
     {
       "id": "ancient-world-fr-easy-196",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel vêtement long et drapé portaient les Romains ?",
       "options": {
@@ -2356,6 +2944,9 @@
     },
     {
       "id": "ancient-world-fr-easy-197",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « aqua » et désigne l'eau ?",
       "options": {
@@ -2368,6 +2959,9 @@
     },
     {
       "id": "ancient-world-fr-easy-198",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel objet romain servait à garder l'huile et le vin ?",
       "options": {
@@ -2380,6 +2974,9 @@
     },
     {
       "id": "ancient-world-fr-easy-199",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel grand personnage romain traversa le Rubicon pour entrer à Rome ?",
       "options": {
@@ -2392,6 +2989,9 @@
     },
     {
       "id": "ancient-world-fr-easy-200",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "easy",
       "question": "Quel mot français vient du latin « via » et signifie 'par le chemin' ?",
       "options": {
@@ -2404,6 +3004,9 @@
     },
     {
       "id": "ancient-world-fr-medium-001",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie « profite du jour » ou « cueille le jour » ?",
       "options": {
@@ -2416,6 +3019,9 @@
     },
     {
       "id": "ancient-world-fr-medium-002",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Comment s'appelait la grande place publique de Rome où l'on faisait du commerce et des discours ?",
       "options": {
@@ -2428,6 +3034,9 @@
     },
     {
       "id": "ancient-world-fr-medium-003",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « aqua » et signifie 'qui vit dans l'eau' ?",
       "options": {
@@ -2440,6 +3049,9 @@
     },
     {
       "id": "ancient-world-fr-medium-004",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Comment s'appelaient les bains publics romains où l'on se lavait et se retrouvait ?",
       "options": {
@@ -2452,6 +3064,9 @@
     },
     {
       "id": "ancient-world-fr-medium-005",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie « et les autres » et s'abrège souvent en etc. ?",
       "options": {
@@ -2464,6 +3079,9 @@
     },
     {
       "id": "ancient-world-fr-medium-006",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Qui a été assassiné aux Ides de mars en 44 av. J.-C. ?",
       "options": {
@@ -2476,6 +3094,9 @@
     },
     {
       "id": "ancient-world-fr-medium-007",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et signifie 'qui vient du soleil' ?",
       "options": {
@@ -2488,6 +3109,9 @@
     },
     {
       "id": "ancient-world-fr-medium-008",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Comment s'appelait la route principale qui reliait les villes romaines ?",
       "options": {
@@ -2500,6 +3124,9 @@
     },
     {
       "id": "ancient-world-fr-medium-009",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie « je suis venu, j'ai vu, j'ai vaincu » ?",
       "options": {
@@ -2512,6 +3139,9 @@
     },
     {
       "id": "ancient-world-fr-medium-010",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « campus » et désigne souvent un lieu d'études ?",
       "options": {
@@ -2524,6 +3154,9 @@
     },
     {
       "id": "ancient-world-fr-medium-011",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel grand ingénieur romain construisait des canaux pour amener l'eau en ville ?",
       "options": {
@@ -2536,6 +3169,9 @@
     },
     {
       "id": "ancient-world-fr-medium-012",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne une personne qui lit ?",
       "options": {
@@ -2548,6 +3184,9 @@
     },
     {
       "id": "ancient-world-fr-medium-013",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Comment s'appelait la petite école où les enfants romains apprenaient à lire et compter ?",
       "options": {
@@ -2560,6 +3199,9 @@
     },
     {
       "id": "ancient-world-fr-medium-014",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un guide ou mode d'emploi ?",
       "options": {
@@ -2572,6 +3214,9 @@
     },
     {
       "id": "ancient-world-fr-medium-015",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel grand général gaulois s'est opposé à Jules César avant d'être vaincu ?",
       "options": {
@@ -2584,6 +3229,9 @@
     },
     {
       "id": "ancient-world-fr-medium-016",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « portus » et désigne un lieu pour les bateaux ?",
       "options": {
@@ -2596,6 +3244,9 @@
     },
     {
       "id": "ancient-world-fr-medium-017",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le rôle principal du forum à Rome ?",
       "options": {
@@ -2608,6 +3259,9 @@
     },
     {
       "id": "ancient-world-fr-medium-018",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle invention romaine permettait de transporter l'eau sur de longues distances ?",
       "options": {
@@ -2620,6 +3274,9 @@
     },
     {
       "id": "ancient-world-fr-medium-019",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « cena » et évoque un repas ?",
       "options": {
@@ -2632,6 +3289,9 @@
     },
     {
       "id": "ancient-world-fr-medium-020",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel titre portaient les deux magistrats élus chaque année pour diriger la République romaine ?",
       "options": {
@@ -2644,6 +3304,9 @@
     },
     {
       "id": "ancient-world-fr-medium-021",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et signifie 'par le chemin de' ?",
       "options": {
@@ -2656,6 +3319,9 @@
     },
     {
       "id": "ancient-world-fr-medium-022",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel grand chef carthaginois a traversé les Alpes avec des éléphants pour attaquer Rome ?",
       "options": {
@@ -2668,6 +3334,9 @@
     },
     {
       "id": "ancient-world-fr-medium-023",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne un livre ?",
       "options": {
@@ -2680,6 +3349,9 @@
     },
     {
       "id": "ancient-world-fr-medium-024",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel bâtiment romain servait à des courses de chars et à des jeux publics ?",
       "options": {
@@ -2692,6 +3364,9 @@
     },
     {
       "id": "ancient-world-fr-medium-025",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'sans quoi il ne peut être' et désigne une condition indispensable ?",
       "options": {
@@ -2704,6 +3379,9 @@
     },
     {
       "id": "ancient-world-fr-medium-026",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et signifie 'fait à la main' ?",
       "options": {
@@ -2716,6 +3394,9 @@
     },
     {
       "id": "ancient-world-fr-medium-027",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la rivière près de laquelle Rome fut fondée selon la légende ?",
       "options": {
@@ -2728,6 +3409,9 @@
     },
     {
       "id": "ancient-world-fr-medium-028",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « rex » et désigne un souverain ?",
       "options": {
@@ -2740,6 +3424,9 @@
     },
     {
       "id": "ancient-world-fr-medium-029",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Comment s'appelaient les routes construites par les Romains pour relier l'Empire ?",
       "options": {
@@ -2752,6 +3439,9 @@
     },
     {
       "id": "ancient-world-fr-medium-030",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « aqua » et désigne un lieu où l'on garde des poissons ?",
       "options": {
@@ -2764,6 +3454,9 @@
     },
     {
       "id": "ancient-world-fr-medium-031",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel titre portait l'homme qui devint le premier empereur romain sous le nom d'Auguste ?",
       "options": {
@@ -2776,6 +3469,9 @@
     },
     {
       "id": "ancient-world-fr-medium-032",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et signifie 'relatif au soleil' ?",
       "options": {
@@ -2788,6 +3484,9 @@
     },
     {
       "id": "ancient-world-fr-medium-033",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le rôle du Sénat à Rome pendant la République ?",
       "options": {
@@ -2800,6 +3499,9 @@
     },
     {
       "id": "ancient-world-fr-medium-034",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne un lieu où l'on garde des livres ?",
       "options": {
@@ -2812,6 +3514,9 @@
     },
     {
       "id": "ancient-world-fr-medium-035",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel instrument de mesure du temps utilisaient les Romains avec l'ombre du soleil ?",
       "options": {
@@ -2824,6 +3529,9 @@
     },
     {
       "id": "ancient-world-fr-medium-036",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « cena » et désigne parfois un grand repas religieux célèbre ?",
       "options": {
@@ -2836,6 +3544,9 @@
     },
     {
       "id": "ancient-world-fr-medium-037",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel général romain a finalement vaincu Hannibal en Afrique du Nord ?",
       "options": {
@@ -2848,6 +3559,9 @@
     },
     {
       "id": "ancient-world-fr-medium-038",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un travail manuel ?",
       "options": {
@@ -2860,6 +3574,9 @@
     },
     {
       "id": "ancient-world-fr-medium-039",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la colline où, selon la légende, Romulus a fondé Rome ?",
       "options": {
@@ -2872,6 +3589,9 @@
     },
     {
       "id": "ancient-world-fr-medium-040",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et désigne une voie de communication ?",
       "options": {
@@ -2884,6 +3604,9 @@
     },
     {
       "id": "ancient-world-fr-medium-041",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel bâtiment romain servait souvent de tribunal et de lieu de commerce couvert ?",
       "options": {
@@ -2896,6 +3619,9 @@
     },
     {
       "id": "ancient-world-fr-medium-042",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'dans le lieu' et est utilisée en archéologie ?",
       "options": {
@@ -2908,6 +3634,9 @@
     },
     {
       "id": "ancient-world-fr-medium-043",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne l'astre du jour ?",
       "options": {
@@ -2920,6 +3649,9 @@
     },
     {
       "id": "ancient-world-fr-medium-044",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la grande route qui menait à Rome et servait de modèle aux routes romaines ?",
       "options": {
@@ -2932,6 +3664,9 @@
     },
     {
       "id": "ancient-world-fr-medium-045",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne l'action de lire ?",
       "options": {
@@ -2944,6 +3679,9 @@
     },
     {
       "id": "ancient-world-fr-medium-046",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel personnage romain a traversé le Rubicon, provoquant la guerre civile ?",
       "options": {
@@ -2956,6 +3694,9 @@
     },
     {
       "id": "ancient-world-fr-medium-047",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « cena » et désigne un repas du soir dans la tradition chrétienne ?",
       "options": {
@@ -2968,6 +3709,9 @@
     },
     {
       "id": "ancient-world-fr-medium-048",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel type de construction romaine servait à célébrer les victoires militaires avec des arcs ?",
       "options": {
@@ -2980,6 +3724,9 @@
     },
     {
       "id": "ancient-world-fr-medium-049",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne une partie d'un livre écrite à la main ?",
       "options": {
@@ -2992,6 +3739,9 @@
     },
     {
       "id": "ancient-world-fr-medium-050",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la période où Rome était dirigée par des empereurs ?",
       "options": {
@@ -3004,6 +3754,9 @@
     },
     {
       "id": "ancient-world-fr-medium-051",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « aqua » et désigne une science liée à l'eau (ex: aqueduc) ?",
       "options": {
@@ -3016,6 +3769,9 @@
     },
     {
       "id": "ancient-world-fr-medium-052",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel grand chef gaulois fut capturé après la défaite d'Alésia ?",
       "options": {
@@ -3028,6 +3784,9 @@
     },
     {
       "id": "ancient-world-fr-medium-053",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne un petit livre d'étude ?",
       "options": {
@@ -3040,6 +3799,9 @@
     },
     {
       "id": "ancient-world-fr-medium-054",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le rôle des thermes dans la vie quotidienne romaine ?",
       "options": {
@@ -3052,6 +3814,9 @@
     },
     {
       "id": "ancient-world-fr-medium-055",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'ma faute' et sert à reconnaître une erreur ?",
       "options": {
@@ -3064,6 +3829,9 @@
     },
     {
       "id": "ancient-world-fr-medium-056",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne l'énergie produite par le soleil ?",
       "options": {
@@ -3076,6 +3844,9 @@
     },
     {
       "id": "ancient-world-fr-medium-057",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la monnaie utilisée à Rome ?",
       "options": {
@@ -3088,6 +3859,9 @@
     },
     {
       "id": "ancient-world-fr-medium-058",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et désigne une route célèbre construite par les Romains ?",
       "options": {
@@ -3100,6 +3874,9 @@
     },
     {
       "id": "ancient-world-fr-medium-059",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel personnage féminin célèbre a été liée à Rome et à l'Égypte antique ?",
       "options": {
@@ -3112,6 +3889,9 @@
     },
     {
       "id": "ancient-world-fr-medium-060",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne une partie d'un livre écrite à la main ?",
       "options": {
@@ -3124,6 +3904,9 @@
     },
     {
       "id": "ancient-world-fr-medium-061",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le rôle des consuls dans la République romaine ?",
       "options": {
@@ -3136,6 +3919,9 @@
     },
     {
       "id": "ancient-world-fr-medium-062",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « cena » et désigne un repas pris le soir ?",
       "options": {
@@ -3148,6 +3934,9 @@
     },
     {
       "id": "ancient-world-fr-medium-063",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle construction romaine permettait de franchir des vallées pour l'aqueduc ?",
       "options": {
@@ -3160,6 +3949,9 @@
     },
     {
       "id": "ancient-world-fr-medium-064",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne l'action de publier un livre ?",
       "options": {
@@ -3172,6 +3964,9 @@
     },
     {
       "id": "ancient-world-fr-medium-065",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel général romain fut célèbre pour ses conquêtes en Gaule avant de devenir dictateur ?",
       "options": {
@@ -3184,6 +3979,9 @@
     },
     {
       "id": "ancient-world-fr-medium-066",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « aqua » et désigne un adjectif lié à l'eau ?",
       "options": {
@@ -3196,6 +3994,9 @@
     },
     {
       "id": "ancient-world-fr-medium-067",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom du chef gaulois qui a uni les tribus contre Rome ?",
       "options": {
@@ -3208,6 +4009,9 @@
     },
     {
       "id": "ancient-world-fr-medium-068",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un petit livre d'instructions ?",
       "options": {
@@ -3220,6 +4024,9 @@
     },
     {
       "id": "ancient-world-fr-medium-069",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel bâtiment romain était utilisé pour des spectacles d'acteurs et de poésie ?",
       "options": {
@@ -3232,6 +4039,9 @@
     },
     {
       "id": "ancient-world-fr-medium-070",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'à première vue' ou 'au premier abord' ?",
       "options": {
@@ -3244,6 +4054,9 @@
     },
     {
       "id": "ancient-world-fr-medium-071",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne la surface sur laquelle on marche ?",
       "options": {
@@ -3256,6 +4069,9 @@
     },
     {
       "id": "ancient-world-fr-medium-072",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la fête romaine où l'on célébrait les dieux et la cité (événement public) ?",
       "options": {
@@ -3268,6 +4084,9 @@
     },
     {
       "id": "ancient-world-fr-medium-073",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et désigne une voie célèbre construite par les Romains ?",
       "options": {
@@ -3280,6 +4099,9 @@
     },
     {
       "id": "ancient-world-fr-medium-074",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel personnage romain est connu pour avoir fondé la paix après des guerres civiles et pris le titre d'Auguste ?",
       "options": {
@@ -3292,6 +4114,9 @@
     },
     {
       "id": "ancient-world-fr-medium-075",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne l'ensemble des livres d'une bibliothèque ?",
       "options": {
@@ -3304,6 +4129,9 @@
     },
     {
       "id": "ancient-world-fr-medium-076",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le rôle des aqueducs dans les villes romaines ?",
       "options": {
@@ -3316,6 +4144,9 @@
     },
     {
       "id": "ancient-world-fr-medium-077",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'sur place' et s'utilise pour décrire un objet trouvé à son emplacement d'origine ?",
       "options": {
@@ -3328,6 +4159,9 @@
     },
     {
       "id": "ancient-world-fr-medium-078",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne une action faite par la main ?",
       "options": {
@@ -3340,6 +4174,9 @@
     },
     {
       "id": "ancient-world-fr-medium-079",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel grand général romain fut célèbre pour ses écrits et son rôle politique, orateur de renom ?",
       "options": {
@@ -3352,6 +4189,9 @@
     },
     {
       "id": "ancient-world-fr-medium-080",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « cena » et désigne un repas pris en commun ?",
       "options": {
@@ -3364,6 +4204,9 @@
     },
     {
       "id": "ancient-world-fr-medium-081",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la flotte ennemie que Rome affronta pendant les guerres puniques ?",
       "options": {
@@ -3376,6 +4219,9 @@
     },
     {
       "id": "ancient-world-fr-medium-082",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne l'énergie solaire utilisée aujourd'hui ?",
       "options": {
@@ -3388,6 +4234,9 @@
     },
     {
       "id": "ancient-world-fr-medium-083",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel bâtiment romain servait à des débats publics et à la justice ?",
       "options": {
@@ -3400,6 +4249,9 @@
     },
     {
       "id": "ancient-world-fr-medium-084",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'et les autres choses' et s'abrège souvent en 'etc.' ?",
       "options": {
@@ -3412,6 +4264,9 @@
     },
     {
       "id": "ancient-world-fr-medium-085",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et désigne une voie importante construite par les Romains ?",
       "options": {
@@ -3424,6 +4279,9 @@
     },
     {
       "id": "ancient-world-fr-medium-086",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel personnage romain a été adopté par Jules César et est devenu empereur célèbre ?",
       "options": {
@@ -3436,6 +4294,9 @@
     },
     {
       "id": "ancient-world-fr-medium-087",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un petit livre d'instructions pour l'école ?",
       "options": {
@@ -3448,6 +4309,9 @@
     },
     {
       "id": "ancient-world-fr-medium-088",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom du grand amphithéâtre de Rome où avaient lieu les combats de gladiateurs ?",
       "options": {
@@ -3460,6 +4324,9 @@
     },
     {
       "id": "ancient-world-fr-medium-089",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'par exemple' et s'abrège parfois 'e.g.' en anglais ?",
       "options": {
@@ -3472,6 +4339,9 @@
     },
     {
       "id": "ancient-world-fr-medium-090",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne l'action de lire à voix haute ?",
       "options": {
@@ -3484,6 +4354,9 @@
     },
     {
       "id": "ancient-world-fr-medium-091",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel général romain a conquis la Gaule avant d'entrer en guerre civile ?",
       "options": {
@@ -3496,6 +4369,9 @@
     },
     {
       "id": "ancient-world-fr-medium-092",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « cena » et désigne un repas du soir important ?",
       "options": {
@@ -3508,6 +4384,9 @@
     },
     {
       "id": "ancient-world-fr-medium-093",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la célèbre route romaine qui partait de Rome vers le sud-est ?",
       "options": {
@@ -3520,6 +4399,9 @@
     },
     {
       "id": "ancient-world-fr-medium-094",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un document écrit à la main ?",
       "options": {
@@ -3532,6 +4414,9 @@
     },
     {
       "id": "ancient-world-fr-medium-095",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel personnage romain a été célèbre pour ses discours et son rôle politique, défenseur de la République ?",
       "options": {
@@ -3544,6 +4429,9 @@
     },
     {
       "id": "ancient-world-fr-medium-096",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne l'astre qui éclaire la Terre ?",
       "options": {
@@ -3556,6 +4444,9 @@
     },
     {
       "id": "ancient-world-fr-medium-097",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la rivière qui traverse Rome et est liée à sa fondation ?",
       "options": {
@@ -3568,6 +4459,9 @@
     },
     {
       "id": "ancient-world-fr-medium-098",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'sans quoi' et indique une condition indispensable ?",
       "options": {
@@ -3580,6 +4474,9 @@
     },
     {
       "id": "ancient-world-fr-medium-099",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et désigne un chemin ou une route ?",
       "options": {
@@ -3592,6 +4489,9 @@
     },
     {
       "id": "ancient-world-fr-medium-100",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel grand chef carthaginois mena une campagne contre Rome pendant les guerres puniques ?",
       "options": {
@@ -3604,6 +4504,9 @@
     },
     {
       "id": "ancient-world-fr-medium-101",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot latin a donné le mot français « école » (schola en latin) ?",
       "options": {
@@ -3616,6 +4519,9 @@
     },
     {
       "id": "ancient-world-fr-medium-102",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom du chef gaulois qui s'est rendu à Jules César après la bataille d'Alésia ?",
       "options": {
@@ -3628,6 +4534,9 @@
     },
     {
       "id": "ancient-world-fr-medium-103",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « navis » et parle d'un grand bateau ?",
       "options": {
@@ -3640,6 +4549,9 @@
     },
     {
       "id": "ancient-world-fr-medium-104",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Comment s'appelait la maison d'un riche Romain, souvent avec un jardin intérieur ?",
       "options": {
@@ -3652,6 +4564,9 @@
     },
     {
       "id": "ancient-world-fr-medium-105",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « agricola » et concerne le travail de la terre ?",
       "options": {
@@ -3664,6 +4579,9 @@
     },
     {
       "id": "ancient-world-fr-medium-106",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel titre portait le chef militaire et politique élu chaque année à Rome pendant la République ?",
       "options": {
@@ -3676,6 +4594,9 @@
     },
     {
       "id": "ancient-world-fr-medium-107",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « pontem » et désigne une construction pour traverser une rivière ?",
       "options": {
@@ -3688,6 +4609,9 @@
     },
     {
       "id": "ancient-world-fr-medium-108",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la grande fête religieuse et civique à Rome où l'on fermait parfois les tribunaux ?",
       "options": {
@@ -3700,6 +4624,9 @@
     },
     {
       "id": "ancient-world-fr-medium-109",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « cena » et a donné le mot pour un grand repas ?",
       "options": {
@@ -3712,6 +4639,9 @@
     },
     {
       "id": "ancient-world-fr-medium-110",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la maison collective où vivaient souvent les familles modestes à Rome ?",
       "options": {
@@ -3724,6 +4654,9 @@
     },
     {
       "id": "ancient-world-fr-medium-111",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et désigne une route construite par les Romains ?",
       "options": {
@@ -3736,6 +4669,9 @@
     },
     {
       "id": "ancient-world-fr-medium-112",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la monnaie romaine courante pendant la République et l'Empire ?",
       "options": {
@@ -3748,6 +4684,9 @@
     },
     {
       "id": "ancient-world-fr-medium-113",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un livre écrit à la main ?",
       "options": {
@@ -3760,6 +4699,9 @@
     },
     {
       "id": "ancient-world-fr-medium-114",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la grande route qui reliait Rome à Brindisi et était très célèbre ?",
       "options": {
@@ -3772,6 +4714,9 @@
     },
     {
       "id": "ancient-world-fr-medium-115",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne l'énergie produite par le soleil ?",
       "options": {
@@ -3784,6 +4729,9 @@
     },
     {
       "id": "ancient-world-fr-medium-116",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom du bâtiment romain dédié aux dieux et souvent rond avec un grand dôme ?",
       "options": {
@@ -3796,6 +4744,9 @@
     },
     {
       "id": "ancient-world-fr-medium-117",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « navis » et a donné 'navire' ?",
       "options": {
@@ -3808,6 +4759,9 @@
     },
     {
       "id": "ancient-world-fr-medium-118",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel général romain a vaincu Vercingétorix à Alésia ?",
       "options": {
@@ -3820,6 +4774,9 @@
     },
     {
       "id": "ancient-world-fr-medium-119",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « aqua » et signifie 'relatif à l'eau' ?",
       "options": {
@@ -3832,6 +4789,9 @@
     },
     {
       "id": "ancient-world-fr-medium-120",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le rôle principal du Sénat à Rome ?",
       "options": {
@@ -3844,6 +4804,9 @@
     },
     {
       "id": "ancient-world-fr-medium-121",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne un livre ?",
       "options": {
@@ -3856,6 +4819,9 @@
     },
     {
       "id": "ancient-world-fr-medium-122",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom du chef carthaginois qui traversa les Alpes avec des éléphants ?",
       "options": {
@@ -3868,6 +4834,9 @@
     },
     {
       "id": "ancient-world-fr-medium-123",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et signifie 'fait à la main' ?",
       "options": {
@@ -3880,6 +4849,9 @@
     },
     {
       "id": "ancient-world-fr-medium-124",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel bâtiment romain servait à des courses de chars et à des jeux publics ?",
       "options": {
@@ -3892,6 +4864,9 @@
     },
     {
       "id": "ancient-world-fr-medium-125",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'à première vue' ?",
       "options": {
@@ -3904,6 +4879,9 @@
     },
     {
       "id": "ancient-world-fr-medium-126",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « rex » et désigne un souverain ?",
       "options": {
@@ -3916,6 +4894,9 @@
     },
     {
       "id": "ancient-world-fr-medium-127",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la colline où Romulus aurait fondé Rome selon la légende ?",
       "options": {
@@ -3928,6 +4909,9 @@
     },
     {
       "id": "ancient-world-fr-medium-128",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « portus » et désigne un lieu pour les bateaux ?",
       "options": {
@@ -3940,6 +4924,9 @@
     },
     {
       "id": "ancient-world-fr-medium-129",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel empereur romain a inauguré la période connue comme la Pax Romana ?",
       "options": {
@@ -3952,6 +4939,9 @@
     },
     {
       "id": "ancient-world-fr-medium-130",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et désigne une voie de communication ?",
       "options": {
@@ -3964,6 +4954,9 @@
     },
     {
       "id": "ancient-world-fr-medium-131",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la grande place commerciale et politique de Rome ?",
       "options": {
@@ -3976,6 +4969,9 @@
     },
     {
       "id": "ancient-world-fr-medium-132",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne la surface sur laquelle on marche ?",
       "options": {
@@ -3988,6 +4984,9 @@
     },
     {
       "id": "ancient-world-fr-medium-133",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel général romain a conquis la Gaule avant de traverser le Rubicon ?",
       "options": {
@@ -4000,6 +4999,9 @@
     },
     {
       "id": "ancient-world-fr-medium-134",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne l'action de lire ?",
       "options": {
@@ -4012,6 +5014,9 @@
     },
     {
       "id": "ancient-world-fr-medium-135",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la grande route sacrée qui traversait Rome et menait au Forum ?",
       "options": {
@@ -4024,6 +5029,9 @@
     },
     {
       "id": "ancient-world-fr-medium-136",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un guide scolaire ?",
       "options": {
@@ -4036,6 +5044,9 @@
     },
     {
       "id": "ancient-world-fr-medium-137",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel personnage romain est célèbre pour la phrase 'Veni, vidi, vici' ?",
       "options": {
@@ -4048,6 +5059,9 @@
     },
     {
       "id": "ancient-world-fr-medium-138",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « aqua » et désigne un lieu où l'on garde des poissons ?",
       "options": {
@@ -4060,6 +5074,9 @@
     },
     {
       "id": "ancient-world-fr-medium-139",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la rivière qui traverse Rome ?",
       "options": {
@@ -4072,6 +5089,9 @@
     },
     {
       "id": "ancient-world-fr-medium-140",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « campus » et désigne un espace d'études ?",
       "options": {
@@ -4084,6 +5104,9 @@
     },
     {
       "id": "ancient-world-fr-medium-141",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel empereur romain a succédé à Jules César et a instauré l'Empire ?",
       "options": {
@@ -4096,6 +5119,9 @@
     },
     {
       "id": "ancient-world-fr-medium-142",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne un lieu où l'on garde des livres ?",
       "options": {
@@ -4108,6 +5134,9 @@
     },
     {
       "id": "ancient-world-fr-medium-143",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la grande arène où se déroulaient les combats de gladiateurs ?",
       "options": {
@@ -4120,6 +5149,9 @@
     },
     {
       "id": "ancient-world-fr-medium-144",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un document écrit à la main ?",
       "options": {
@@ -4132,6 +5164,9 @@
     },
     {
       "id": "ancient-world-fr-medium-145",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel général romain a vaincu Hannibal lors de la deuxième guerre punique ?",
       "options": {
@@ -4144,6 +5179,9 @@
     },
     {
       "id": "ancient-world-fr-medium-146",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne l'astre du jour ?",
       "options": {
@@ -4156,6 +5194,9 @@
     },
     {
       "id": "ancient-world-fr-medium-147",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le rôle des thermes dans la société romaine ?",
       "options": {
@@ -4168,6 +5209,9 @@
     },
     {
       "id": "ancient-world-fr-medium-148",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et désigne une route célèbre construite par les Romains ?",
       "options": {
@@ -4180,6 +5224,9 @@
     },
     {
       "id": "ancient-world-fr-medium-149",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel personnage historique romain est connu pour ses discours et son rôle politique, orateur célèbre ?",
       "options": {
@@ -4192,6 +5239,9 @@
     },
     {
       "id": "ancient-world-fr-medium-150",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'sans quoi il ne peut être' ?",
       "options": {
@@ -4204,6 +5254,9 @@
     },
     {
       "id": "ancient-world-fr-medium-151",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « portus » et désigne un lieu où accostent les bateaux ?",
       "options": {
@@ -4216,6 +5269,9 @@
     },
     {
       "id": "ancient-world-fr-medium-152",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la résidence d'été des riches Romains à la campagne ?",
       "options": {
@@ -4228,6 +5284,9 @@
     },
     {
       "id": "ancient-world-fr-medium-153",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne une personne qui aime lire ?",
       "options": {
@@ -4240,6 +5299,9 @@
     },
     {
       "id": "ancient-world-fr-medium-154",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel empereur romain a donné son nom à la ville d'Augusta (exemple : Augusta Treverorum) ?",
       "options": {
@@ -4252,6 +5314,9 @@
     },
     {
       "id": "ancient-world-fr-medium-155",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un guide scolaire ?",
       "options": {
@@ -4264,6 +5329,9 @@
     },
     {
       "id": "ancient-world-fr-medium-156",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la fête romaine célèbre pour les échanges de cadeaux et les réjouissances en décembre ?",
       "options": {
@@ -4276,6 +5344,9 @@
     },
     {
       "id": "ancient-world-fr-medium-157",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « aqua » et désigne l'étude de l'eau ou des milieux aquatiques ?",
       "options": {
@@ -4288,6 +5359,9 @@
     },
     {
       "id": "ancient-world-fr-medium-158",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel général romain a été assassiné aux Ides de mars ?",
       "options": {
@@ -4300,6 +5374,9 @@
     },
     {
       "id": "ancient-world-fr-medium-159",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et désigne une voie importante construite par les Romains ?",
       "options": {
@@ -4312,6 +5389,9 @@
     },
     {
       "id": "ancient-world-fr-medium-160",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la résidence officielle de l'empereur à Rome pendant l'Empire tardif ?",
       "options": {
@@ -4324,6 +5404,9 @@
     },
     {
       "id": "ancient-world-fr-medium-161",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne l'ensemble des livres d'une bibliothèque ?",
       "options": {
@@ -4336,6 +5419,9 @@
     },
     {
       "id": "ancient-world-fr-medium-162",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel personnage historique romain a été adopté par Jules César et est devenu le premier empereur ?",
       "options": {
@@ -4348,6 +5434,9 @@
     },
     {
       "id": "ancient-world-fr-medium-163",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne une partie d'un livre écrite à la main ?",
       "options": {
@@ -4360,6 +5449,9 @@
     },
     {
       "id": "ancient-world-fr-medium-164",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la grande route qui reliait Rome à la côte sud-est de l'Italie ?",
       "options": {
@@ -4372,6 +5464,9 @@
     },
     {
       "id": "ancient-world-fr-medium-165",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne l'énergie du soleil utilisée pour chauffer ?",
       "options": {
@@ -4384,6 +5479,9 @@
     },
     {
       "id": "ancient-world-fr-medium-166",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel bâtiment romain était utilisé pour des réunions publiques et des procès ?",
       "options": {
@@ -4396,6 +5494,9 @@
     },
     {
       "id": "ancient-world-fr-medium-167",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « aqua » et désigne un adjectif lié à l'eau ?",
       "options": {
@@ -4408,6 +5509,9 @@
     },
     {
       "id": "ancient-world-fr-medium-168",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la colline où se trouvait le temple de Jupiter et le centre religieux de Rome ?",
       "options": {
@@ -4420,6 +5524,9 @@
     },
     {
       "id": "ancient-world-fr-medium-169",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne l'action de publier un livre ?",
       "options": {
@@ -4432,6 +5539,9 @@
     },
     {
       "id": "ancient-world-fr-medium-170",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel général romain a conquis la Gaule et est devenu dictateur avant d'être assassiné ?",
       "options": {
@@ -4444,6 +5554,9 @@
     },
     {
       "id": "ancient-world-fr-medium-171",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un petit livre d'instructions ?",
       "options": {
@@ -4456,6 +5569,9 @@
     },
     {
       "id": "ancient-world-fr-medium-172",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la grande arène où se déroulaient les jeux et combats à Rome ?",
       "options": {
@@ -4468,6 +5584,9 @@
     },
     {
       "id": "ancient-world-fr-medium-173",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et désigne une voie romaine célèbre ?",
       "options": {
@@ -4480,6 +5599,9 @@
     },
     {
       "id": "ancient-world-fr-medium-174",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel personnage romain est connu pour ses discours et son rôle politique pendant la fin de la République ?",
       "options": {
@@ -4492,6 +5614,9 @@
     },
     {
       "id": "ancient-world-fr-medium-175",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'par exemple' ?",
       "options": {
@@ -4504,6 +5629,9 @@
     },
     {
       "id": "ancient-world-fr-medium-176",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne la surface sur laquelle on marche ?",
       "options": {
@@ -4516,6 +5644,9 @@
     },
     {
       "id": "ancient-world-fr-medium-177",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la résidence d'été et ferme d'un riche Romain ?",
       "options": {
@@ -4528,6 +5659,9 @@
     },
     {
       "id": "ancient-world-fr-medium-178",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un document écrit à la main ?",
       "options": {
@@ -4540,6 +5674,9 @@
     },
     {
       "id": "ancient-world-fr-medium-179",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel empereur romain est associé à la paix et à la stabilité après les guerres civiles ?",
       "options": {
@@ -4552,6 +5689,9 @@
     },
     {
       "id": "ancient-world-fr-medium-180",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « aqua » et désigne un lieu pour nager ou garder des poissons ?",
       "options": {
@@ -4564,6 +5704,9 @@
     },
     {
       "id": "ancient-world-fr-medium-181",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la colline où se trouvait la résidence des rois de Rome selon la légende ?",
       "options": {
@@ -4576,6 +5719,9 @@
     },
     {
       "id": "ancient-world-fr-medium-182",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne l'action de lire à voix haute ?",
       "options": {
@@ -4588,6 +5734,9 @@
     },
     {
       "id": "ancient-world-fr-medium-183",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel général romain a mené la conquête de la Gaule au Ier siècle av. J.-C. ?",
       "options": {
@@ -4600,6 +5749,9 @@
     },
     {
       "id": "ancient-world-fr-medium-184",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un guide scolaire ?",
       "options": {
@@ -4612,6 +5764,9 @@
     },
     {
       "id": "ancient-world-fr-medium-185",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom du grand amphithéâtre où se déroulaient les jeux à Rome ?",
       "options": {
@@ -4624,6 +5779,9 @@
     },
     {
       "id": "ancient-world-fr-medium-186",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quelle expression latine signifie 'ma faute' ?",
       "options": {
@@ -4636,6 +5794,9 @@
     },
     {
       "id": "ancient-world-fr-medium-187",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne l'énergie produite par le soleil ?",
       "options": {
@@ -4648,6 +5809,9 @@
     },
     {
       "id": "ancient-world-fr-medium-188",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la grande route qui reliait Rome à la mer Adriatique ?",
       "options": {
@@ -4660,6 +5824,9 @@
     },
     {
       "id": "ancient-world-fr-medium-189",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne un lieu où l'on garde des livres ?",
       "options": {
@@ -4672,6 +5839,9 @@
     },
     {
       "id": "ancient-world-fr-medium-190",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel général romain a vaincu Hannibal à Zama ?",
       "options": {
@@ -4684,6 +5854,9 @@
     },
     {
       "id": "ancient-world-fr-medium-191",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un document écrit à la main ?",
       "options": {
@@ -4696,6 +5869,9 @@
     },
     {
       "id": "ancient-world-fr-medium-192",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la colline où se trouvait le temple de Jupiter et le centre religieux de Rome ?",
       "options": {
@@ -4708,6 +5884,9 @@
     },
     {
       "id": "ancient-world-fr-medium-193",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « via » et désigne une voie romaine célèbre ?",
       "options": {
@@ -4720,6 +5899,9 @@
     },
     {
       "id": "ancient-world-fr-medium-194",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel personnage romain est célèbre pour ses conquêtes en Gaule ?",
       "options": {
@@ -4732,6 +5914,9 @@
     },
     {
       "id": "ancient-world-fr-medium-195",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « sol » et désigne la surface sur laquelle on marche ?",
       "options": {
@@ -4744,6 +5929,9 @@
     },
     {
       "id": "ancient-world-fr-medium-196",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel était le nom de la grande place publique où se tenaient les marchés à Rome ?",
       "options": {
@@ -4756,6 +5944,9 @@
     },
     {
       "id": "ancient-world-fr-medium-197",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « liber » et désigne l'action de lire ?",
       "options": {
@@ -4768,6 +5959,9 @@
     },
     {
       "id": "ancient-world-fr-medium-198",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel empereur romain a instauré la paix après les guerres civiles et prit le titre d'Auguste ?",
       "options": {
@@ -4780,6 +5974,9 @@
     },
     {
       "id": "ancient-world-fr-medium-199",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel mot français vient du latin « manus » et désigne un guide pratique ?",
       "options": {
@@ -4792,6 +5989,9 @@
     },
     {
       "id": "ancient-world-fr-medium-200",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "medium",
       "question": "Quel grand chef carthaginois mena une campagne contre Rome pendant les guerres puniques ?",
       "options": {
@@ -4804,6 +6004,9 @@
     },
     {
       "id": "ancient-world-fr-hard-001",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot latin est la racine commune de « lumineux », « illuminer » et « lucide » ?",
       "options": {
@@ -4816,6 +6019,9 @@
     },
     {
       "id": "ancient-world-fr-hard-002",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "En quelle année Auguste devint-il officiellement le premier empereur de Rome ?",
       "options": {
@@ -4828,6 +6034,9 @@
     },
     {
       "id": "ancient-world-fr-hard-003",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie les mots français « maritime », « marin » et « marina » ?",
       "options": {
@@ -4840,6 +6049,9 @@
     },
     {
       "id": "ancient-world-fr-hard-004",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel organe politique romain était composé d'anciens magistrats et conseillait les dirigeants ?",
       "options": {
@@ -4852,6 +6064,9 @@
     },
     {
       "id": "ancient-world-fr-hard-005",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle expression latine signifie « sans quoi il ne peut être » et désigne une condition indispensable ?",
       "options": {
@@ -4864,6 +6079,9 @@
     },
     {
       "id": "ancient-world-fr-hard-006",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel est le nom latin du mois de mars, lié au dieu de la guerre ?",
       "options": {
@@ -4876,6 +6094,9 @@
     },
     {
       "id": "ancient-world-fr-hard-007",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 900 ?",
       "options": {
@@ -4888,6 +6109,9 @@
     },
     {
       "id": "ancient-world-fr-hard-008",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine unit les mots français « écrire », « écriture » et « script » ?",
       "options": {
@@ -4900,6 +6124,9 @@
     },
     {
       "id": "ancient-world-fr-hard-009",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel titre romain désignait un magistrat suprême élu chaque année pendant la République ?",
       "options": {
@@ -4912,6 +6139,9 @@
     },
     {
       "id": "ancient-world-fr-hard-010",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle expression latine signifie « je suis venu, j'ai vu, j'ai vaincu » ?",
       "options": {
@@ -4924,6 +6154,9 @@
     },
     {
       "id": "ancient-world-fr-hard-011",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français partage la racine latine « aqua » ?",
       "options": {
@@ -4936,6 +6169,9 @@
     },
     {
       "id": "ancient-world-fr-hard-012",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel événement marque traditionnellement la fin de la République romaine et le début de l'Empire ?",
       "options": {
@@ -4948,6 +6184,9 @@
     },
     {
       "id": "ancient-world-fr-hard-013",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine est commune à « paternel », « patriarche » et « patrie » ?",
       "options": {
@@ -4960,6 +6199,9 @@
     },
     {
       "id": "ancient-world-fr-hard-014",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot latin désigne la loi ou le droit et a donné le mot français « juridique » ?",
       "options": {
@@ -4972,6 +6214,9 @@
     },
     {
       "id": "ancient-world-fr-hard-015",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain est associé à la paix longue appelée Pax Romana ?",
       "options": {
@@ -4984,6 +6229,9 @@
     },
     {
       "id": "ancient-world-fr-hard-016",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « manus » et signifie 'fait à la main' ?",
       "options": {
@@ -4996,6 +6244,9 @@
     },
     {
       "id": "ancient-world-fr-hard-017",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 1999 (MCMXCIX) ?",
       "options": {
@@ -5008,6 +6259,9 @@
     },
     {
       "id": "ancient-world-fr-hard-018",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « fraternel », « fraternité » et « frère » ?",
       "options": {
@@ -5020,6 +6274,9 @@
     },
     {
       "id": "ancient-world-fr-hard-019",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel organe consultatif romain avait une grande influence sur la politique républicaine ?",
       "options": {
@@ -5032,6 +6289,9 @@
     },
     {
       "id": "ancient-world-fr-hard-020",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle expression latine signifie 'à première vue' ou 'au premier abord' ?",
       "options": {
@@ -5044,6 +6304,9 @@
     },
     {
       "id": "ancient-world-fr-hard-021",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « liber » et désigne l'action de lire ?",
       "options": {
@@ -5056,6 +6319,9 @@
     },
     {
       "id": "ancient-world-fr-hard-022",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel général romain a conquis la Gaule au Ier siècle avant J.-C. ?",
       "options": {
@@ -5068,6 +6334,9 @@
     },
     {
       "id": "ancient-world-fr-hard-023",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine est commune à « nocturne », « noctambule » et « noctilucent » ?",
       "options": {
@@ -5080,6 +6349,9 @@
     },
     {
       "id": "ancient-world-fr-hard-024",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot latin a donné le français « pont » ?",
       "options": {
@@ -5092,6 +6364,9 @@
     },
     {
       "id": "ancient-world-fr-hard-025",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel était le rôle principal des consuls dans la République romaine ?",
       "options": {
@@ -5104,6 +6379,9 @@
     },
     {
       "id": "ancient-world-fr-hard-026",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle expression latine signifie 'dans le lieu' et s'utilise en archéologie ?",
       "options": {
@@ -5116,6 +6394,9 @@
     },
     {
       "id": "ancient-world-fr-hard-027",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « terra » et désigne la terre ou le sol ?",
       "options": {
@@ -5128,6 +6409,9 @@
     },
     {
       "id": "ancient-world-fr-hard-028",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain a succédé à Jules César et a instauré l'Empire ?",
       "options": {
@@ -5140,6 +6424,9 @@
     },
     {
       "id": "ancient-world-fr-hard-029",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 400 ?",
       "options": {
@@ -5152,6 +6439,9 @@
     },
     {
       "id": "ancient-world-fr-hard-030",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « paternel », « patriotique » et « patrie » ?",
       "options": {
@@ -5164,6 +6454,9 @@
     },
     {
       "id": "ancient-world-fr-hard-031",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot latin a donné le français « école » ?",
       "options": {
@@ -5176,6 +6469,9 @@
     },
     {
       "id": "ancient-world-fr-hard-032",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel personnage romain prononça la phrase attribuée 'Et tu, Brute' dans la tradition ?",
       "options": {
@@ -5188,6 +6484,9 @@
     },
     {
       "id": "ancient-world-fr-hard-033",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine est commune à « maritime », « marin » et « marina » ?",
       "options": {
@@ -5200,6 +6499,9 @@
     },
     {
       "id": "ancient-world-fr-hard-034",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « manus » et désigne un document écrit à la main ?",
       "options": {
@@ -5212,6 +6514,9 @@
     },
     {
       "id": "ancient-world-fr-hard-035",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain est célèbre pour avoir fondé la paix et stabilisé l'Empire après les guerres civiles ?",
       "options": {
@@ -5224,6 +6529,9 @@
     },
     {
       "id": "ancient-world-fr-hard-036",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 1000 ?",
       "options": {
@@ -5236,6 +6544,9 @@
     },
     {
       "id": "ancient-world-fr-hard-037",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « nocturne », « noctambule » et « noctilucent » ?",
       "options": {
@@ -5248,6 +6559,9 @@
     },
     {
       "id": "ancient-world-fr-hard-038",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot latin a donné le français « port » ?",
       "options": {
@@ -5260,6 +6574,9 @@
     },
     {
       "id": "ancient-world-fr-hard-039",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel était le rôle du Sénat à Rome pendant la République ?",
       "options": {
@@ -5272,6 +6589,9 @@
     },
     {
       "id": "ancient-world-fr-hard-040",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle expression latine signifie 'ma faute' ?",
       "options": {
@@ -5284,6 +6604,9 @@
     },
     {
       "id": "ancient-world-fr-hard-041",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « liber » et désigne un lieu où l'on garde des livres ?",
       "options": {
@@ -5296,6 +6619,9 @@
     },
     {
       "id": "ancient-world-fr-hard-042",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel général romain a vaincu Hannibal lors de la bataille de Zama ?",
       "options": {
@@ -5308,6 +6634,9 @@
     },
     {
       "id": "ancient-world-fr-hard-043",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « écrire », « scribe » et « manuscrit » ?",
       "options": {
@@ -5320,6 +6649,9 @@
     },
     {
       "id": "ancient-world-fr-hard-044",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot latin a donné le français « route » ou « routier » via 'via' ?",
       "options": {
@@ -5332,6 +6664,9 @@
     },
     {
       "id": "ancient-world-fr-hard-045",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain a été assassiné en 44 av. J.-C. ?",
       "options": {
@@ -5344,6 +6679,9 @@
     },
     {
       "id": "ancient-world-fr-hard-046",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 90 ?",
       "options": {
@@ -5356,6 +6694,9 @@
     },
     {
       "id": "ancient-world-fr-hard-047",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « pater », « paternel » et « patriotique » ?",
       "options": {
@@ -5368,6 +6709,9 @@
     },
     {
       "id": "ancient-world-fr-hard-048",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « sol » et désigne l'énergie du soleil ?",
       "options": {
@@ -5380,6 +6724,9 @@
     },
     {
       "id": "ancient-world-fr-hard-049",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel organe romain votait les lois et conseillait les magistrats ?",
       "options": {
@@ -5392,6 +6739,9 @@
     },
     {
       "id": "ancient-world-fr-hard-050",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle expression latine signifie 'par exemple' ?",
       "options": {
@@ -5404,6 +6754,9 @@
     },
     {
       "id": "ancient-world-fr-hard-051",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « manus » et désigne un guide scolaire ?",
       "options": {
@@ -5416,6 +6769,9 @@
     },
     {
       "id": "ancient-world-fr-hard-052",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain est associé à la fondation de la Pax Romana ?",
       "options": {
@@ -5428,6 +6784,9 @@
     },
     {
       "id": "ancient-world-fr-hard-053",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 500 ?",
       "options": {
@@ -5440,6 +6799,9 @@
     },
     {
       "id": "ancient-world-fr-hard-054",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « aqua », « aquatique » et « aquarium » ?",
       "options": {
@@ -5452,6 +6814,9 @@
     },
     {
       "id": "ancient-world-fr-hard-055",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel titre portaient les deux magistrats élus chaque année à Rome pendant la République ?",
       "options": {
@@ -5464,6 +6829,9 @@
     },
     {
       "id": "ancient-world-fr-hard-056",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle expression latine signifie 'sur place' en archéologie ?",
       "options": {
@@ -5476,6 +6844,9 @@
     },
     {
       "id": "ancient-world-fr-hard-057",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « liber » et désigne l'action de publier un livre ?",
       "options": {
@@ -5488,6 +6859,9 @@
     },
     {
       "id": "ancient-world-fr-hard-058",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel général romain a traversé le Rubicon, déclenchant la guerre civile ?",
       "options": {
@@ -5500,6 +6874,9 @@
     },
     {
       "id": "ancient-world-fr-hard-059",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 40 ?",
       "options": {
@@ -5512,6 +6889,9 @@
     },
     {
       "id": "ancient-world-fr-hard-060",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « pater », « patron » et « patronyme » ?",
       "options": {
@@ -5524,6 +6904,9 @@
     },
     {
       "id": "ancient-world-fr-hard-061",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot latin a donné le français « pont » ?",
       "options": {
@@ -5536,6 +6919,9 @@
     },
     {
       "id": "ancient-world-fr-hard-062",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain fut le premier à porter le titre d'Auguste ?",
       "options": {
@@ -5548,6 +6934,9 @@
     },
     {
       "id": "ancient-world-fr-hard-063",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 250 ?",
       "options": {
@@ -5560,6 +6949,9 @@
     },
     {
       "id": "ancient-world-fr-hard-064",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « manus », « manufacture » et « manuel » ?",
       "options": {
@@ -5572,6 +6964,9 @@
     },
     {
       "id": "ancient-world-fr-hard-065",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel organe romain conseillait les magistrats et contrôlait les finances ?",
       "options": {
@@ -5584,6 +6979,9 @@
     },
     {
       "id": "ancient-world-fr-hard-066",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle expression latine signifie 'à la lettre' ou 'mot à mot' ?",
       "options": {
@@ -5596,6 +6994,9 @@
     },
     {
       "id": "ancient-world-fr-hard-067",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « terra » et désigne la terre cultivée ?",
       "options": {
@@ -5608,6 +7009,9 @@
     },
     {
       "id": "ancient-world-fr-hard-068",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain a régné après la mort de Jules César et a stabilisé l'Empire ?",
       "options": {
@@ -5620,6 +7024,9 @@
     },
     {
       "id": "ancient-world-fr-hard-069",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 70 ?",
       "options": {
@@ -5632,6 +7039,9 @@
     },
     {
       "id": "ancient-world-fr-hard-070",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « navire », « navigation » et « naval » ?",
       "options": {
@@ -5644,6 +7054,9 @@
     },
     {
       "id": "ancient-world-fr-hard-071",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot latin a donné le français « école » et aussi l'idée d'un lieu d'apprentissage ?",
       "options": {
@@ -5656,6 +7069,9 @@
     },
     {
       "id": "ancient-world-fr-hard-072",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain est connu pour avoir mis fin aux guerres civiles et instauré un long règne stable ?",
       "options": {
@@ -5668,6 +7084,9 @@
     },
     {
       "id": "ancient-world-fr-hard-073",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 300 ?",
       "options": {
@@ -5680,6 +7099,9 @@
     },
     {
       "id": "ancient-world-fr-hard-074",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « pater », « patron » et « patronyme » ?",
       "options": {
@@ -5692,6 +7114,9 @@
     },
     {
       "id": "ancient-world-fr-hard-075",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « manus » et désigne un travail fait à la main ?",
       "options": {
@@ -5704,6 +7129,9 @@
     },
     {
       "id": "ancient-world-fr-hard-076",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle expression latine signifie 'en l'état' ou 'tel quel' ?",
       "options": {
@@ -5716,6 +7144,9 @@
     },
     {
       "id": "ancient-world-fr-hard-077",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain donna son nom à la période de paix et de prospérité appelée Pax Romana ?",
       "options": {
@@ -5728,6 +7159,9 @@
     },
     {
       "id": "ancient-world-fr-hard-078",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 800 ?",
       "options": {
@@ -5740,6 +7174,9 @@
     },
     {
       "id": "ancient-world-fr-hard-079",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « aqua », « aquarium » et « aquatique » ?",
       "options": {
@@ -5752,6 +7189,9 @@
     },
     {
       "id": "ancient-world-fr-hard-080",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot latin a donné le français « port » et signifie un lieu pour les bateaux ?",
       "options": {
@@ -5764,6 +7204,9 @@
     },
     {
       "id": "ancient-world-fr-hard-081",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel organe romain avait pour fonction de conseiller et d'orienter la politique extérieure ?",
       "options": {
@@ -5776,6 +7219,9 @@
     },
     {
       "id": "ancient-world-fr-hard-082",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle expression latine signifie 'à la lettre' ou 'mot pour mot' ?",
       "options": {
@@ -5788,6 +7234,9 @@
     },
     {
       "id": "ancient-world-fr-hard-083",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « liber » et désigne l'action de lire ?",
       "options": {
@@ -5800,6 +7249,9 @@
     },
     {
       "id": "ancient-world-fr-hard-084",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel général romain a conquis la Gaule et fut assassiné en 44 av. J.-C. ?",
       "options": {
@@ -5812,6 +7264,9 @@
     },
     {
       "id": "ancient-world-fr-hard-085",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 600 ?",
       "options": {
@@ -5824,6 +7279,9 @@
     },
     {
       "id": "ancient-world-fr-hard-086",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « pater », « patron » et « patriotique » ?",
       "options": {
@@ -5836,6 +7294,9 @@
     },
     {
       "id": "ancient-world-fr-hard-087",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot latin a donné le français « pont » et désigne une construction pour traverser l'eau ?",
       "options": {
@@ -5848,6 +7309,9 @@
     },
     {
       "id": "ancient-world-fr-hard-088",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain est connu pour avoir stabilisé l'Empire après les guerres civiles et pris le titre d'Auguste ?",
       "options": {
@@ -5860,6 +7324,9 @@
     },
     {
       "id": "ancient-world-fr-hard-089",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 30 ?",
       "options": {
@@ -5872,6 +7339,9 @@
     },
     {
       "id": "ancient-world-fr-hard-090",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « manus », « manufacture » et « manuel » ?",
       "options": {
@@ -5884,6 +7354,9 @@
     },
     {
       "id": "ancient-world-fr-hard-091",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel organe romain votait les lois et conseillait les magistrats pendant la République ?",
       "options": {
@@ -5896,6 +7369,9 @@
     },
     {
       "id": "ancient-world-fr-hard-092",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle expression latine signifie 'par exemple' et s'abrège souvent 'e.g.' en anglais ?",
       "options": {
@@ -5908,6 +7384,9 @@
     },
     {
       "id": "ancient-world-fr-hard-093",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot français vient du latin « terra » et désigne la terre ou le sol ?",
       "options": {
@@ -5920,6 +7399,9 @@
     },
     {
       "id": "ancient-world-fr-hard-094",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain a inauguré une longue période de paix appelée Pax Romana ?",
       "options": {
@@ -5932,6 +7414,9 @@
     },
     {
       "id": "ancient-world-fr-hard-095",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 20 ?",
       "options": {
@@ -5944,6 +7429,9 @@
     },
     {
       "id": "ancient-world-fr-hard-096",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « navire », « navigation » et « naval » ?",
       "options": {
@@ -5956,6 +7444,9 @@
     },
     {
       "id": "ancient-world-fr-hard-097",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel mot latin a donné le français « école » et signifie un lieu d'apprentissage ?",
       "options": {
@@ -5968,6 +7459,9 @@
     },
     {
       "id": "ancient-world-fr-hard-098",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel empereur romain est célèbre pour avoir stabilisé l'Empire et instauré l'ordre après les guerres civiles ?",
       "options": {
@@ -5980,6 +7474,9 @@
     },
     {
       "id": "ancient-world-fr-hard-099",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quel nombre romain correspond à 250 (deux cent cinquante) ?",
       "options": {
@@ -5992,6 +7489,9 @@
     },
     {
       "id": "ancient-world-fr-hard-100",
+      "category": "monde-antique",
+      "subcategory": null,
+      "locale": "fr",
       "difficulty": "hard",
       "question": "Quelle racine latine relie « pater », « patron » et « patriotique » ?",
       "options": {
