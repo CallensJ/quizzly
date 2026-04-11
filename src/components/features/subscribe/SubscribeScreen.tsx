@@ -26,13 +26,20 @@ export default function SubscribeScreen() {
   const { startCheckout, loading, error } = useCheckout();
 
   // Redirige vers login si non connecté (après chargement auth)
+  // Passe ?next=/subscribe pour revenir ici après connexion
   useEffect(() => {
     if (!authLoading && !user) {
-      router.push('/auth/login');
+      router.push('/auth/login?next=/subscribe');
     }
   }, [user, authLoading, router]);
 
-  if (authLoading) return null;
+  if (authLoading) {
+    return (
+      <div className="subscribe subscribe--loading">
+        <div className="subscribe__spinner" aria-label="Chargement…" role="status" />
+      </div>
+    );
+  }
 
   const features = [
     t('feature1'),

@@ -95,7 +95,8 @@ export default function AuthScreen() {
   async function handleGoogle() {
     setError(null);
     setLoading(true);
-    const { error: authError } = await signInWithGoogle(locale);
+    // Transmet le ?next= à l'URL de callback pour revenir sur la bonne page après OAuth
+    const { error: authError } = await signInWithGoogle(locale, nextUrl !== '/admin' ? nextUrl : undefined);
     if (authError) {
       setError(mapError(authError.message));
       setLoading(false);

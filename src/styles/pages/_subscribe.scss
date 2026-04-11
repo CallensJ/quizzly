@@ -209,6 +209,25 @@
     text-align: center;
     line-height: 1.5;
   }
+
+  // ── État chargement (auth en cours) ───────────────────────────────────────
+  &--loading {
+    min-height: 100dvh;
+    justify-content: center;
+  }
+
+  &__spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(255 255 255 / 0.3);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: subscribe-spin 0.7s linear infinite;
+  }
+
+  @keyframes subscribe-spin {
+    to { transform: rotate(360deg); }
+  }
 }
 
 // ── Pages résultat (success / cancel) ─────────────────────────────────────────

@@ -21,6 +21,7 @@ export async function GET(request: NextRequest) {
   const code   = searchParams.get('code');
   const locale = searchParams.get('locale') || 'fr';
   const type   = searchParams.get('type');
+  const next   = searchParams.get('next');
 
   if (!code) {
     return NextResponse.redirect(`${origin}/${locale}/auth/login?error=no_code`);
@@ -50,6 +51,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.redirect(`${origin}/${locale}/auth/login?error=callback_failed`);
   }
 
-  // Succès — type=recovery → reset mot de passe (pas encore d'UI dédiée)
-  return NextResponse.redirect(`${origin}/${locale}/admin`);
+  // Succès — rediriger vers `next` si fourni (ex: /subscribe), sinon /admin
+  const destination = next && next.startsWith('/') ? next : '/admin';
+  return NextResponse.redirect(`${origin}/${locale}${destination}`);
 }

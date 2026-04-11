@@ -61,11 +61,12 @@ export async function signIn(email: string, password: string) {
  * La locale est passée en query param pour que le route handler puisse
  * rediriger vers /{locale}/admin après l'échange du code.
  */
-export async function signInWithGoogle(locale: string = 'en') {
+export async function signInWithGoogle(locale: string = 'en', next?: string) {
+  const nextParam = next ? `&next=${encodeURIComponent(next)}` : '';
   const { error } = await supabase.auth.signInWithOAuth({
     provider: 'google',
     options: {
-      redirectTo: `${SITE_URL}/api/auth/callback?locale=${locale}`,
+      redirectTo: `${SITE_URL}/api/auth/callback?locale=${locale}${nextParam}`,
       queryParams: {
         // Demande le compte à chaque connexion (évite la connexion auto au compte par défaut)
         access_type: 'offline',
