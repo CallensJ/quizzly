@@ -38,18 +38,13 @@ export default function AuthCallbackPage() {
       }
 
       // Échange le code contre une session Supabase
-      console.log('[callback] exchangeCodeForSession start');
       const { error } = await supabase.auth.exchangeCodeForSession(code);
-      console.log('[callback] exchangeCodeForSession done', { error });
 
       if (error) {
-        console.error('[callback] error:', error);
-        // En cas d'erreur, redirige vers le login avec un paramètre d'erreur
         router.replace(`/${locale}/auth/login?error=callback_failed`);
         return;
       }
 
-      console.log('[callback] redirecting to admin');
       if (type === 'recovery') {
         router.replace(`/${locale}/admin`);
       } else {

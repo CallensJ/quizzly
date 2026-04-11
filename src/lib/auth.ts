@@ -31,7 +31,7 @@ export async function signUp(email: string, password: string) {
     password,
     options: {
       // Redirect après confirmation email → callback handler
-      emailRedirectTo: `${SITE_URL}/auth/callback`,
+      emailRedirectTo: `${SITE_URL}/api/auth/callback`,
     },
   });
   return { error };
@@ -54,15 +54,18 @@ export async function signIn(email: string, password: string) {
  *
  * Important : configurer l'URL de redirect dans le dashboard Supabase
  * Authentication → URL Configuration → Redirect URLs :
- *   - http://localhost:3000/auth/callback (dev)
- *   - https://app.erudia.app/auth/callback (prod)
- *   - https://*.vercel.app/auth/callback (preview)
+ *   - http://localhost:3000/api/auth/callback (dev)
+ *   - https://app.erudia.app/api/auth/callback (prod)
+ *   - https://*.vercel.app/api/auth/callback (preview)
+ *
+ * La locale est passée en query param pour que le route handler puisse
+ * rediriger vers /{locale}/admin après l'échange du code.
  */
 export async function signInWithGoogle(locale: string = 'en') {
   const { error } = await supabase.auth.signInWithOAuth({
     provider: 'google',
     options: {
-      redirectTo: `${SITE_URL}/${locale}/auth/callback`,
+      redirectTo: `${SITE_URL}/api/auth/callback?locale=${locale}`,
       queryParams: {
         // Demande le compte à chaque connexion (évite la connexion auto au compte par défaut)
         access_type: 'offline',
@@ -90,7 +93,7 @@ export async function signOut() {
  */
 export async function resetPassword(email: string) {
   const { error } = await supabase.auth.resetPasswordForEmail(email, {
-    redirectTo: `${SITE_URL}/auth/callback?type=recovery`,
+    redirectTo: `${SITE_URL}/api/auth/callback?type=recovery`,
   });
   return { error };
 }
