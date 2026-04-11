@@ -41,7 +41,9 @@ export function useSubscription(): SubscriptionState {
       .select('status')
       .eq('user_id', user.id)
       .maybeSingle()
-      .then(({ data }) => {
+      .then(({ data, error }) => {
+        if (error) console.error('[useSubscription] erreur RLS/query:', error);
+        console.log('[useSubscription] user.id:', user.id, '| data:', data);
         const status = data?.status ?? null;
         const isPremium = status === 'active' || status === 'trialing';
         setState({ isPremium, status, loading: false });
