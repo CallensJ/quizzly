@@ -48,8 +48,9 @@ const securityHeaders = [
       "font-src 'self' https://fonts.gstatic.com",
       // iframes : Stripe Checkout + hooks Stripe
       "frame-src https://js.stripe.com https://hooks.stripe.com",
-      // Connexions réseau : API Stripe + Supabase (REST + WebSocket temps réel)
-      "connect-src 'self' https://api.stripe.com https://*.supabase.co wss://*.supabase.co",
+      // Connexions réseau : API Stripe + Supabase (REST + WebSocket) + DiceBear (fetch() SW)
+      // DiceBear requis ici car le Service Worker fait des fetch() soumis à connect-src
+      "connect-src 'self' https://api.stripe.com https://*.supabase.co wss://*.supabase.co https://api.dicebear.com",
       // Images : self + DiceBear avatars + data URIs + blobs (canvas-confetti)
       "img-src 'self' data: blob: https://api.dicebear.com",
       // Service Worker (PWA)
