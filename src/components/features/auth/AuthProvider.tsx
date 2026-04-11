@@ -21,9 +21,10 @@ import { useOnlineSync } from '@/hooks/useOnlineSync';
 import { useGoalNotification } from '@/hooks/useGoalNotification';
 
 export default function AuthProvider({ children }: { children: React.ReactNode }) {
-  const setSession = useAuthStore((s) => s.setSession);
-  const setLoading = useAuthStore((s) => s.setLoading);
-  const clearAuth  = useAuthStore((s) => s.clearAuth);
+  const setSession   = useAuthStore((s) => s.setSession);
+  const setLoading   = useAuthStore((s) => s.setLoading);
+  const clearAuth    = useAuthStore((s) => s.clearAuth);
+  const setIsPremium = useAuthStore((s) => s.setIsPremium);
 
   // Rejoue la queue offline dès le retour de connexion
   useOnlineSync();
@@ -61,6 +62,7 @@ export default function AuthProvider({ children }: { children: React.ReactNode }
             .maybeSingle();
 
           const isPremium = sub?.status === 'active' || sub?.status === 'trialing';
+          setIsPremium(isPremium); // cache immédiat — évite le flash au retour sur /home
           if (!isPremium) return;
 
           // Restauration cross-device complète : pseudo, avatar, locale, sessions, badges.

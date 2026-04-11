@@ -23,11 +23,15 @@ interface SubscriptionState {
 }
 
 export function useSubscription(): SubscriptionState {
-  const user = useAuthStore((s) => s.user);
+  const user        = useAuthStore((s) => s.user);
+  const cached      = useAuthStore((s) => s.isPremium);
+  const setIsPremium = useAuthStore((s) => s.setIsPremium);
+
+  // Initialise depuis le cache Zustand — évite le flash "verrouillé" lors des navigations SPA
   const [state, setState] = useState<SubscriptionState>({
-    isPremium: false,
-    status: null,
-    loading: true,
+    isPremium: cached,
+    status: cached ? 'active' : null,
+    loading: !cached,
   });
 
   useEffect(() => {
@@ -36,19 +40,24 @@ export function useSubscription(): SubscriptionState {
       return;
     }
 
+    // Déjà connu comme premium dans ce session → pas de requête inutile
+    if (cached) {
+      setState({ isPremium: true, status: 'active', loading: false });
+      return;
+    }
+
     supabase
       .from('subscriptions')
       .select('status')
       .eq('user_id', user.id)
       .maybeSingle()
-      .then(({ data, error }) => {
-        if (error) console.error('[useSubscription] erreur RLS/query:', error);
-        console.log('[useSubscription] user.id:', user.id, '| data:', data);
+      .then(({ data }) => {
         const status = data?.status ?? null;
         const isPremium = status === 'active' || status === 'trialing';
+        if (isPremium) setIsPremium(true); // met en cache pour les navigations suivantes
         setState({ isPremium, status, loading: false });
       });
-  }, [user]);
+  }, [user, cached, setIsPremium]);
 
   return state;
 }
