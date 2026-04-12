@@ -65,6 +65,7 @@ const FILES = [
   { path: 'src/data/questions/en/math.json',              category: 'math',             locale: 'en' },
   { path: 'src/data/questions/en/francais.json',          category: 'francais',         locale: 'en' },
   { path: 'src/data/questions/en/sport.json',             category: 'sport',            locale: 'en' },
+  { path: 'src/data/questions/en/corps-humain.json',      category: 'corps-humain',     locale: 'en' },
 ] as const;
 
 // ─── Types source ─────────────────────────────────────────────────────────────

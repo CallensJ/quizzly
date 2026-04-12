@@ -9311,7 +9311,7 @@
       "question": "Quel paramètre est utilisé pour estimer la fonction respiratoire et se mesure par spirométrie ?",
       "options": {
         "A": "La pression artérielle",
-        "B": "La capacité vitale et le volume expiratoire forcé (VEF1)",
+        "B": "La capacité vitale et le volume expiratoire forcé",
         "C": "La saturation en oxygène uniquement",
         "D": "La fréquence cardiaque"
       },
@@ -11755,7 +11755,7 @@
       "difficulty": "hard",
       "question": "Quel est le geste recommandé pour prévenir la propagation d'une gastro-entérite à la maison ?",
       "options": {
-        "A": "Se laver les mains fréquemment, nettoyer les surfaces et isoler la personne malade",
+        "A": "Se laver les mains fréquemment",
         "B": "Partager les serviettes",
         "C": "Ne pas nettoyer les surfaces",
         "D": "Manger ensemble sans précaution"
@@ -11785,7 +11785,7 @@
       "difficulty": "hard",
       "question": "Quel est le principal conseil pour réduire le risque de blessures liées aux écrans chez les adolescents ?",
       "options": {
-        "A": "Faire des pauses régulières, ajuster la luminosité et limiter le temps d'écran le soir",
+        "A": "Faire des pauses régulières",
         "B": "Augmenter la luminosité au maximum",
         "C": "Regarder les écrans sans pause",
         "D": "Utiliser toujours le téléphone au lit"
@@ -11815,7 +11815,7 @@
       "difficulty": "hard",
       "question": "Quel est le meilleur conseil pour accompagner un adolescent qui traverse la puberté ?",
       "options": {
-        "A": "Écouter, informer de façon factuelle et respecter son rythme",
+        "A": "Écouter et respecter son rythme",
         "B": "Ignorer ses questions",
         "C": "Forcer des changements rapides",
         "D": "Éviter toute discussion sur le corps"
@@ -11860,7 +11860,7 @@
       "difficulty": "hard",
       "question": "Quel est un fait surprenant : quel est le plus petit os du corps humain ?",
       "options": {
-        "A": "L'étrier (dans l'oreille)",
+        "A": "L'étrier",
         "B": "La rotule",
         "C": "Le fémur",
         "D": "La clavicule"
@@ -11875,7 +11875,7 @@
       "difficulty": "hard",
       "question": "Quel est le principal conseil pour prévenir les blessures liées aux sports scolaires ?",
       "options": {
-        "A": "S'échauffer, porter l'équipement adapté et respecter les règles",
+        "A": "S'échauffer",
         "B": "Commencer sans échauffement",
         "C": "Ignorer la fatigue",
         "D": "Porter des objets dangereux"
@@ -11905,7 +11905,7 @@
       "difficulty": "hard",
       "question": "Quel est le meilleur conseil pour maintenir une bonne santé globale à l'adolescence ?",
       "options": {
-        "A": "Avoir une alimentation variée, dormir suffisamment, bouger régulièrement et demander de l'aide si besoin",
+        "A": "Avoir une alimentation variée",
         "B": "Ne jamais consulter un médecin",
         "C": "Manger uniquement des sucreries",
         "D": "Éviter toute activité physique"
