@@ -329,6 +329,7 @@
     "authConnectedDesc": "Les données sont synchronisées dans le cloud.",
     "authSignOut": "Se déconnecter",
     "subTitle": "Abonnement Premium",
+    "subLoading": "Vérification de l'abonnement…",
     "subActive": "✓ Abonnement actif",
     "subTrialing": "Période d'essai en cours",
     "subRenews": "Renouvellement automatique actif",

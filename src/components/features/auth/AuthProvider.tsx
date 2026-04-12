@@ -33,8 +33,21 @@ export default function AuthProvider({ children }: { children: React.ReactNode }
 
   useEffect(() => {
     // Récupère la session active (persistée dans localStorage par supabase-js)
-    supabase.auth.getSession().then(({ data: { session } }) => {
+    // et vérifie immédiatement le statut premium pour éviter le flash "non premium"
+    supabase.auth.getSession().then(async ({ data: { session } }) => {
       setSession(session);
+
+      if (session?.user) {
+        const { data: sub } = await supabase
+          .from('subscriptions')
+          .select('status')
+          .eq('user_id', session.user.id)
+          .maybeSingle();
+
+        const premium = sub?.status === 'active' || sub?.status === 'trialing';
+        if (premium) setIsPremium(true);
+      }
+
       setLoading(false);
     });
 
