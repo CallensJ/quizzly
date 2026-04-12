@@ -55,12 +55,14 @@ export default function AuthProvider({
         if (event === "INITIAL_SESSION" && session.user) {
           let retries = 0;
           const maxRetries = 5;
+          // Capture userId avant les retries async — session peut être null plus tard
+          const userId = session.user.id;
 
           async function checkPremium() {
             const { data: sub } = await supabase
               .from("subscriptions")
               .select("status")
-              .eq("user_id", session.user.id)
+              .eq("user_id", userId)
               .maybeSingle();
 
             const premium =
