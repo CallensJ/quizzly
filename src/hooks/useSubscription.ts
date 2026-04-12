@@ -32,12 +32,13 @@ export function useSubscription(): SubscriptionState {
   const cached       = useAuthStore((s) => s.isPremium);
   const setIsPremium = useAuthStore((s) => s.setIsPremium);
 
-  // Affichage optimiste depuis le cache — évite le flash lors des navigations SPA.
-  // Mais on requêtera toujours Supabase pour confirmer.
+  // loading: true par défaut — on ne connaît pas encore le statut premium.
+  // Évite le flash "non premium / verrouillé" pendant l'initialisation de l'auth.
+  // isPremium optimiste depuis le cache pour les navigations SPA (session déjà résolue).
   const [state, setState] = useState<SubscriptionState>({
     isPremium: cached,
     status: cached ? 'active' : null,
-    loading: false,
+    loading: true,
   });
 
   useEffect(() => {

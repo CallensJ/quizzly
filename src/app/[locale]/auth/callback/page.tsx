@@ -45,10 +45,15 @@ export default function AuthCallbackPage() {
         return;
       }
 
+      // Respecter le paramètre ?next= pour revenir sur la bonne page après OAuth
+      // (ex: /subscribe si l'utilisateur voulait s'abonner)
+      const next = searchParams.get('next');
+      const destination = next && next.startsWith('/') ? next : '/admin';
+
       if (type === 'recovery') {
         router.replace(`/${locale}/admin`);
       } else {
-        router.replace(`/${locale}/admin`);
+        router.replace(`/${locale}${destination}`);
       }
     }
 
