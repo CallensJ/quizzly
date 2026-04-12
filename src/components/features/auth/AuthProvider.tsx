@@ -12,6 +12,9 @@
  *
  * setLoading(false) est posé APRÈS confirmation du statut premium
  * pour éviter le flash "catégories verrouillées" au F5.
+ *
+ * pullFromSupabase est appelé sur INITIAL_SESSION ET SIGNED_IN
+ * pour garantir le sync cross-device même si la session est déjà persistée.
  */
 
 import { useEffect } from "react";
@@ -44,15 +47,34 @@ export default function AuthProvider({
     } = supabase.auth.onAuthStateChange(async (event, session) => {
       // Pas de session → reset complet
       if (!session) {
-        clearAuth(); // setLoading(false) + isPremium: false inclus
+        clearAuth();
         return;
       }
 
       setSession(session);
       const userId = session.user.id;
 
-      // INITIAL_SESSION : premier chargement (F5, navigation directe)
+      // ── Helper partagé : pull cross-device si premium ──────────────────
+      async function syncIfPremium(isPremium: boolean) {
+        if (!isPremium) return;
+        const { deviceId, mergeFromRemote } = useProfileStore.getState();
+        if (deviceId) {
+          await linkProfileToAuthUser(deviceId, userId);
+        }
+        const pulled = await pullFromSupabase(deviceId ?? "", userId);
+        if (pulled) {
+          mergeFromRemote(
+            pulled.sessions,
+            pulled.earnedBadgeIds,
+            pulled.profile,
+          );
+        }
+      }
+
+      // ── INITIAL_SESSION : F5 / navigation directe ──────────────────────
       // setLoading(false) posé APRÈS checkPremium — jamais avant
+      // Pull cross-device inclus : session déjà persistée → SIGNED_IN
+      // ne se réémettra pas sur mobile
       if (event === "INITIAL_SESSION") {
         let retries = 0;
 
@@ -69,6 +91,7 @@ export default function AuthProvider({
           if (isPremium) {
             setIsPremium(true);
             setLoading(false);
+            await syncIfPremium(true);
             return;
           }
 
@@ -95,14 +118,8 @@ export default function AuthProvider({
         return;
       }
 
-      // SIGNED_IN : connexion active — lien profil + sync cross-device
+      // ── SIGNED_IN : connexion active (login explicite) ─────────────────
       if (event === "SIGNED_IN") {
-        const { deviceId, mergeFromRemote } = useProfileStore.getState();
-
-        if (deviceId) {
-          await linkProfileToAuthUser(deviceId, userId);
-        }
-
         const { data: sub } = await supabase
           .from("subscriptions")
           .select("status")
@@ -114,23 +131,12 @@ export default function AuthProvider({
 
         setIsPremium(isPremium);
         setLoading(false);
-
-        if (!isPremium) return;
-
-        const pulled = await pullFromSupabase(deviceId ?? "", userId);
-        if (pulled) {
-          mergeFromRemote(
-            pulled.sessions,
-            pulled.earnedBadgeIds,
-            pulled.profile,
-          );
-        }
-
+        await syncIfPremium(isPremium);
         return;
       }
 
-      // TOKEN_REFRESHED et autres events — session valide
-      // setLoading(false) au cas où loading serait encore true
+      // ── TOKEN_REFRESHED et autres events ──────────────────────────────
+      // Session valide — setLoading(false) au cas où loading serait encore true
       setLoading(false);
     });
 
