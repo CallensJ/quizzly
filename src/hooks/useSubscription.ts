@@ -8,15 +8,15 @@
  * Le cache authStore.isPremium sert uniquement à l'affichage optimiste initial
  * (évite le flash cadenas lors des navigations SPA), jamais comme décision définitive.
  *
- * Retourne `isPremium = false` si :
- *   - l'utilisateur n'est pas connecté
- *   - aucun abonnement trouvé
- *   - statut différent de 'active' ou 'trialing'
+ * Robustesse :
+ *   - Retry automatique jusqu'à MAX_RETRIES en cas d'erreur Supabase
+ *   - Sur erreur : conserve l'état actuel (ne force pas isPremium = false)
+ *   - loading: true pendant toute la durée du check — évite l'affichage "non premium" à tort
  */
 
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useAuthStore } from '@/stores/authStore';
 import { supabase } from '@/lib/supabase';
 
@@ -25,6 +25,9 @@ interface SubscriptionState {
   status: string | null;
   loading: boolean;
 }
+
+const MAX_RETRIES    = 4;
+const RETRY_DELAY_MS = 1500;
 
 export function useSubscription(): SubscriptionState {
   const user         = useAuthStore((s) => s.user);
@@ -37,9 +40,12 @@ export function useSubscription(): SubscriptionState {
   // isPremium optimiste depuis le cache pour les navigations SPA (session déjà résolue).
   const [state, setState] = useState<SubscriptionState>({
     isPremium: cached,
-    status: cached ? 'active' : null,
-    loading: true,
+    status:    cached ? 'active' : null,
+    loading:   true,
   });
+
+  // Ref pour annuler les retries si le composant démonte ou l'user change
+  const cancelRef = useRef(false);
 
   useEffect(() => {
     // Attendre la résolution de l'auth (page reload)
@@ -51,20 +57,51 @@ export function useSubscription(): SubscriptionState {
       return;
     }
 
-    // Requête Supabase systématique — le cache n'est jamais la décision finale
+    // Réinitialiser le flag d'annulation pour cette exécution
+    cancelRef.current = false;
     setState((prev) => ({ ...prev, loading: true }));
 
-    supabase
-      .from('subscriptions')
-      .select('status')
-      .eq('user_id', user.id)
-      .maybeSingle()
-      .then(({ data }) => {
-        const status    = data?.status ?? null;
-        const isPremium = status === 'active' || status === 'trialing';
-        setIsPremium(isPremium); // met à jour le cache (optimisme navigations suivantes)
-        setState({ isPremium, status, loading: false });
-      });
+    let attempts = 0;
+
+    async function check() {
+      if (cancelRef.current) return;
+
+      const { data, error } = await supabase
+        .from('subscriptions')
+        .select('status')
+        .eq('user_id', user!.id)
+        .maybeSingle();
+
+      if (cancelRef.current) return;
+
+      if (error) {
+        // Erreur Supabase (JWT expiré, réseau, RLS…) — retry sans toucher à l'état
+        console.error('[useSubscription] erreur DB:', error.message, '— tentative', attempts + 1);
+        if (attempts < MAX_RETRIES) {
+          attempts++;
+          setTimeout(check, RETRY_DELAY_MS);
+        } else {
+          // Après tous les retries : on garde l'état optimiste (cached) plutôt que de
+          // forcer false — l'utilisateur ne doit pas perdre son accès à cause d'une
+          // erreur réseau temporaire
+          setState((prev) => ({ ...prev, loading: false }));
+        }
+        return;
+      }
+
+      // Requête réussie (data peut être null si aucune ligne — utilisateur non premium)
+      const status    = data?.status ?? null;
+      const isPremium = status === 'active' || status === 'trialing';
+      setIsPremium(isPremium);
+      setState({ isPremium, status, loading: false });
+    }
+
+    check();
+
+    // Nettoyage : annule les retries en cours si user/authLoading change
+    return () => {
+      cancelRef.current = true;
+    };
   // 'cached' retiré des dépendances — on ne court-circuite plus sur le cache
   }, [user, authLoading, setIsPremium]);
 

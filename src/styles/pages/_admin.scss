@@ -1129,6 +1129,24 @@ $p-medium:   rgba(3, 105, 161, 0.18);
 
   // ── Section abonnement ────────────────────────────────────────────────────
 
+  &__sub-checking {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: v.$text-muted;
+  }
+
+  &__sub-checking-icon {
+    animation: admin-spin 1s linear infinite;
+    flex-shrink: 0;
+  }
+
+  @keyframes admin-spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
   &__sub-active,
   &__sub-inactive {
     display: flex;
