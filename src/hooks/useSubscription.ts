@@ -14,11 +14,11 @@
  *   - Ne force jamais isPremium = false sur erreur (conserve l'état optimiste)
  */
 
-'use client';
+"use client";
 
-import { useEffect, useRef, useState } from 'react';
-import { useAuthStore } from '@/stores/authStore';
-import { supabase } from '@/lib/supabase';
+import { useEffect, useRef, useState } from "react";
+import { useAuthStore } from "@/stores/authStore";
+import { supabase } from "@/lib/supabase";
 
 interface SubscriptionState {
   isPremium: boolean;
@@ -26,77 +26,84 @@ interface SubscriptionState {
   loading: boolean;
 }
 
-const MAX_RETRIES    = 4;
+const MAX_RETRIES = 4;
 const RETRY_DELAY_MS = 1500;
 
 export function useSubscription(): SubscriptionState {
-  const cached       = useAuthStore((s) => s.isPremium);
+  const cached = useAuthStore((s) => s.isPremium);
   const setIsPremium = useAuthStore((s) => s.setIsPremium);
 
-  // Affichage optimiste depuis le cache — évite le flash lors des navigations SPA.
-  // loading: true jusqu'à confirmation DB — évite d'afficher "go premium" à tort.
   const [state, setState] = useState<SubscriptionState>({
     isPremium: cached,
-    status:    cached ? 'active' : null,
-    loading:   true,
+    status: cached ? "active" : null,
+    loading: true,
   });
 
   const cancelledRef = useRef(false);
 
   useEffect(() => {
     cancelledRef.current = false;
-    let attempts = 0;
 
-    async function check() {
+    async function checkForUser(userId: string) {
+      let attempts = 0;
+
+      async function query() {
+        if (cancelledRef.current) return;
+
+        const { data, error } = await supabase
+          .from("subscriptions")
+          .select("status")
+          .eq("user_id", userId)
+          .maybeSingle();
+
+        if (cancelledRef.current) return;
+
+        if (error) {
+          console.error(
+            "[useSubscription] erreur DB (tentative",
+            attempts + 1,
+            "):",
+            error.message,
+          );
+          if (attempts < MAX_RETRIES) {
+            attempts++;
+            setTimeout(query, RETRY_DELAY_MS);
+          } else {
+            setState((prev) => ({ ...prev, loading: false }));
+          }
+          return;
+        }
+
+        const status = data?.status ?? null;
+        const isPremium = status === "active" || status === "trialing";
+        setIsPremium(isPremium);
+        setState({ isPremium, status, loading: false });
+      }
+
+      await query();
+    }
+
+    // onAuthStateChange émet INITIAL_SESSION dès que Supabase
+    // a hydraté le token depuis localStorage — plus fiable que getUser() au montage
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange(async (event, session) => {
       if (cancelledRef.current) return;
 
-      // getUser() vérifie la session Supabase directement (auto-refresh inclus)
-      // sans dépendre de authLoading du store React
-      const { data: { user }, error: userError } = await supabase.auth.getUser();
-
-      if (cancelledRef.current) return;
-
-      if (userError || !user) {
-        // Pas de session valide — utilisateur non connecté
+      if (!session?.user) {
         setState({ isPremium: false, status: null, loading: false });
         setIsPremium(false);
         return;
       }
 
-      const { data, error } = await supabase
-        .from('subscriptions')
-        .select('status')
-        .eq('user_id', user.id)
-        .maybeSingle();
-
-      if (cancelledRef.current) return;
-
-      if (error) {
-        // Erreur DB : retry sans forcer isPremium = false
-        console.error('[useSubscription] erreur DB (tentative', attempts + 1, '):', error.message);
-        if (attempts < MAX_RETRIES) {
-          attempts++;
-          setTimeout(check, RETRY_DELAY_MS);
-        } else {
-          // Après tous les retries : loading terminé, on garde l'état optimiste du cache
-          setState((prev) => ({ ...prev, loading: false }));
-        }
-        return;
-      }
-
-      // Résultat définitif — data = null si l'utilisateur n'est pas premium
-      const status    = data?.status ?? null;
-      const isPremium = status === 'active' || status === 'trialing';
-      setIsPremium(isPremium);
-      setState({ isPremium, status, loading: false });
-    }
-
-    check();
+      // SIGNED_IN ou INITIAL_SESSION → on vérifie Supabase
+      await checkForUser(session.user.id);
+    });
 
     return () => {
       cancelledRef.current = true;
+      subscription.unsubscribe();
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return state;
