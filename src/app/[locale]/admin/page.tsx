@@ -1,49 +1,40 @@
-'use client';
+"use client";
 
 /**
  * src/app/[locale]/admin/page.tsx
  *
- * Route /admin — espace parent/enseignant.
+ * Route /admin — espace parent.
  * Gardes :
  *   - Pas de profil enfant → redirect /
- *   - Non authentifié Supabase → redirect /auth/login
- *   - Authentifié → affiche AdminScreen
- *
- * Le PIN 4 chiffres (MVP 2) a été remplacé par Supabase Auth (MVP 3).
+ *   - Authentifié ou non → AdminScreen accessible (auth optionnelle)
+ *     L'auth Supabase débloque les stats cross-device et l'abonnement premium.
+ *     Sans auth : stats locales uniquement, bouton "Créer un compte" visible.
  */
 
-import { useEffect } from 'react';
-import { useProfileStore } from '@/stores/profileStore';
-import { useAuthStore } from '@/stores/authStore';
-import { useRouter } from '@/i18n/navigation';
-import { useHydrated } from '@/hooks/useHydrated';
-import AdminScreen from '@/components/features/admin/AdminScreen';
+import { useEffect } from "react";
+import { useProfileStore } from "@/stores/profileStore";
+import { useAuthStore } from "@/stores/authStore";
+import { useRouter } from "@/i18n/navigation";
+import { useHydrated } from "@/hooks/useHydrated";
+import AdminScreen from "@/components/features/admin/AdminScreen";
 
 export default function AdminPage() {
-  const profile     = useProfileStore((s) => s.profile);
-  const authUser    = useAuthStore((s) => s.user);
+  const profile = useProfileStore((s) => s.profile);
   const authLoading = useAuthStore((s) => s.loading);
-  const router      = useRouter();
-  // useSyncExternalStore — détecte l'hydratation sans setState dans un effet
-  const hydrated    = useHydrated();
+  const router = useRouter();
+  const hydrated = useHydrated();
 
   useEffect(() => {
     if (!hydrated) return;
-    // Attendre la résolution auth seulement si on ne connaît pas encore l'état
-    if (authLoading && !authUser) return;
     // Pas de profil enfant → onboarding
     if (!profile) {
-      router.replace('/');
-      return;
+      router.replace("/");
     }
-    // Non authentifié → page de connexion
-    if (!authUser) {
-      router.replace('/auth/login');
-    }
-  }, [hydrated, authLoading, profile, authUser, router]);
+    // Pas de redirect auth — l'espace parent est accessible sans compte
+  }, [hydrated, profile, router]);
 
-  // Bloquer le rendu uniquement si l'état auth est encore inconnu
-  if (!hydrated || (authLoading && !authUser) || !profile || !authUser) return null;
+  // Bloquer le rendu uniquement le temps de l'hydratation et du check auth initial
+  if (!hydrated || authLoading || !profile) return null;
 
   return <AdminScreen />;
 }

@@ -3,33 +3,21 @@
 /**
  * src/components/features/admin/AdminScreen.tsx
  *
- * Espace parent — accès protégé par Supabase Auth (MVP 3+).
+ * Espace parent — auth optionnelle (Supabase Auth).
  *
  * Flux d'accès :
- *   - Non connecté → redirect vers /auth/login (géré dans admin/page.tsx)
- *   - Connecté → tableau de bord parent affiché directement
- *
- * Sections (composants extraits) :
- *   - SubscriptionSection  — statut abonnement Stripe
- *   - Stats enfant         — lecture seule (inline, simple)
- *   - Objectif journalier  — inline
- *   - GoalsSection         — objectifs par catégorie
- *   - AdminEmailSection    — email de contact (Zod + sync Supabase)
- *   - ReportSection        — rapport PDF
- *   - Mode Défi            — toggle multijoueur
- *   - ChildProfilesSection — gestion des profils enfants
- *   - DangerZone           — reset / suppression
+ *   - Non connecté → tableau de bord local + bouton "Créer un compte / Se connecter"
+ *   - Connecté     → tableau de bord complet + abonnement premium
  */
 
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import {
   ArrowLeft,
-  Target,
   BarChart3,
   LogOut,
-  Swords,
   TrendingUp,
+  UserPlus,
 } from "lucide-react";
 import { useRouter } from "@/i18n/navigation";
 import { useProfileStore } from "@/stores/profileStore";
@@ -40,11 +28,7 @@ import ReportSection from "./ReportSection";
 import GoalsSection from "./GoalsSection";
 import SubscriptionSection from "./SubscriptionSection";
 import ChildProfilesSection from "./ChildProfilesSection";
-import AdminEmailSection from "./AdminEmailSection";
 import DangerZone from "./DangerZone";
-
-// Valeurs possibles pour l'objectif journalier (0 = désactivé)
-const GOAL_OPTIONS = [0, 5, 10, 15, 20, 30];
 
 export default function AdminScreen() {
   const t = useTranslations("admin");
@@ -55,10 +39,8 @@ export default function AdminScreen() {
   const profile = useProfileStore((s) => s.profile);
   const sessions = useProfileStore((s) => s.sessions);
   const dailyGoal = useProfileStore((s) => s.dailyGoal);
-
   const authUser = useAuthStore((s) => s.user);
 
-  const multiplayerUnlocked = useProfileStore((s) => s.multiplayerUnlocked);
   const setMultiplayerUnlocked = useProfileStore(
     (s) => s.setMultiplayerUnlocked,
   );
@@ -66,18 +48,14 @@ export default function AdminScreen() {
   const resetProgress = useProfileStore((s) => s.resetProgress);
   const deleteProfile = useProfileStore((s) => s.deleteProfile);
 
-  // Nova : welcome à l'entrée de l'espace parent (3s)
   useEffect(() => {
-    showNova('welcome', tNova('adminWelcome'), 3000);
+    showNova("welcome", tNova("adminWelcome"), 3000);
     return () => hideNova();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // ── État UI ─────────────────────────────────────────────────────────────────
   const [goalFeedback, setGoalFeedback] = useState(false);
   const [selectedGoal, setSelectedGoal] = useState<number>(dailyGoal ?? 0);
-
-  // ── Handlers ────────────────────────────────────────────────────────────────
 
   function handleSaveGoal() {
     setDailyGoal(selectedGoal === 0 ? null : selectedGoal);
@@ -90,7 +68,6 @@ export default function AdminScreen() {
     router.replace("/profile");
   }
 
-  // ── Stats calculées ─────────────────────────────────────────────────────────
   const totalGames = sessions.length;
   const totalPoints = sessions.reduce((sum, s) => sum + s.score, 0);
   const bestPct = sessions.length
@@ -99,7 +76,6 @@ export default function AdminScreen() {
       )
     : null;
 
-  // ── Render ───────────────────────────────────────────────────────────────────
   return (
     <div className="admin">
       {/* ── Header ──────────────────────────────────────────────────────────── */}
@@ -113,19 +89,48 @@ export default function AdminScreen() {
           <ArrowLeft size={22} strokeWidth={2.5} />
         </button>
         <h1 className="admin__title">{t("title")}</h1>
-        <button
-          type="button"
-          className="admin__signout-btn"
-          onClick={handleSignOut}
-          aria-label={t("authSignOut")}
-          title={authUser?.email ?? ""}
-        >
-          <LogOut size={18} strokeWidth={2} />
-        </button>
+
+        {/* Connecté → bouton déconnexion | Non connecté → bouton créer compte */}
+        {authUser ? (
+          <button
+            type="button"
+            className="admin__signout-btn"
+            onClick={handleSignOut}
+            aria-label={t("authSignOut")}
+            title={authUser.email ?? ""}
+          >
+            <LogOut size={18} strokeWidth={2} />
+          </button>
+        ) : (
+          <button
+            type="button"
+            className="admin__signout-btn"
+            onClick={() => router.push("/auth/login")}
+            aria-label={t("authSignIn")}
+            title={t("authSignIn")}
+          >
+            <UserPlus size={18} strokeWidth={2} />
+          </button>
+        )}
       </header>
 
       <main className="admin__body">
-        {/* ── Stats enfant (lecture seule) — vue d'ensemble en premier ───── */}
+        {/* ── Bandeau "Créer un compte" si non connecté ───────────────────── */}
+        {!authUser && (
+          <div className="admin__auth-banner">
+            <p className="admin__auth-banner-text">{t("authBannerDesc")}</p>
+            <button
+              type="button"
+              className="admin__auth-banner-btn"
+              onClick={() => router.push("/auth/login")}
+            >
+              <UserPlus size={16} />
+              {t("authBannerCta")}
+            </button>
+          </div>
+        )}
+
+        {/* ── Stats enfant ─────────────────────────────────────────────────── */}
         <section
           className="admin__section admin__section--stats"
           aria-labelledby="admin-stats-title"
@@ -137,14 +142,16 @@ export default function AdminScreen() {
             </h2>
           </div>
 
-          <button
-            type="button"
-            className="admin__dashboard-btn"
-            onClick={() => router.push("/dashboard")}
-          >
-            <TrendingUp size={16} strokeWidth={2} />
-            Voir la progression dans le temps
-          </button>
+          {authUser && (
+            <button
+              type="button"
+              className="admin__dashboard-btn"
+              onClick={() => router.push("/dashboard")}
+            >
+              <TrendingUp size={16} strokeWidth={2} />
+              Voir la progression dans le temps
+            </button>
+          )}
 
           {totalGames === 0 ? (
             <p className="admin__empty">{t("statsNoSession")}</p>
@@ -172,91 +179,17 @@ export default function AdminScreen() {
           )}
         </section>
 
-        {/* ── Objectif journalier — masqué UI (code conservé pour réactivation future) */}
-        {/* <section
-          className="admin__section admin__section--goal"
-          aria-labelledby="admin-goal-title"
-        >
-          <div className="admin__section-header">
-            <Target size={18} strokeWidth={2} aria-hidden="true" />
-            <h2 id="admin-goal-title" className="admin__section-title">
-              {t("goalTitle")}
-            </h2>
-          </div>
-          <p className="admin__section-desc">{t("goalDesc")}</p>
-
-          <div
-            className="admin__goal-options"
-            role="group"
-            aria-label={t("goalTitle")}
-          >
-            {GOAL_OPTIONS.map((val) => (
-              <button
-                key={val}
-                type="button"
-                className={`admin__goal-btn${selectedGoal === val ? " admin__goal-btn--active" : ""}`}
-                onClick={() => setSelectedGoal(val)}
-                aria-pressed={selectedGoal === val}
-              >
-                {val === 0 ? t("goalDisabled") : val}
-              </button>
-            ))}
-          </div>
-
-          <button
-            type="button"
-            className="admin__save-btn"
-            onClick={handleSaveGoal}
-          >
-            {goalFeedback ? t("goalSaved") : t("goalSave")}
-          </button>
-        </section> */}
-
         {/* ── Gestion des profils enfants ──────────────────────────────────── */}
         <ChildProfilesSection />
 
         {/* ── Objectifs par catégorie ─────────────────────────────────────── */}
         <GoalsSection />
 
-        {/* ── Email de contact — masqué UI (code conservé pour réactivation future) */}
-        {/* <AdminEmailSection /> */}
-
         {/* ── Rapport de progression PDF ───────────────────────────────────── */}
         <ReportSection />
 
-        {/* ── Abonnement Premium ──────────────────────────────────────────── */}
-        <SubscriptionSection />
-
-        {/* ── Mode Défi (multijoueur) — masqué UI (code conservé pour réactivation future) */}
-        {/* <section
-          className="admin__section admin__section--multiplayer"
-          aria-labelledby="admin-multiplayer-title"
-        >
-          <div className="admin__section-header">
-            <Swords size={18} strokeWidth={2} aria-hidden="true" />
-            <h2 id="admin-multiplayer-title" className="admin__section-title">
-              {t("multiplayerTitle")}
-            </h2>
-          </div>
-          <p className="admin__section-desc">{t("multiplayerDesc")}</p>
-
-          <div className="admin__toggle-row">
-            <span className="admin__toggle-label">
-              {multiplayerUnlocked
-                ? t("multiplayerEnabled")
-                : t("multiplayerDisabled")}
-            </span>
-            <button
-              type="button"
-              role="switch"
-              aria-checked={multiplayerUnlocked}
-              className={`admin__toggle${multiplayerUnlocked ? " admin__toggle--on" : ""}`}
-              onClick={() => setMultiplayerUnlocked(!multiplayerUnlocked)}
-            >
-              <span className="admin__toggle-thumb" />
-            </button>
-          </div>
-        </section> */}
+        {/* ── Abonnement Premium — affiché uniquement si connecté ─────────── */}
+        {authUser && <SubscriptionSection />}
 
         {/* ── Zone de danger ───────────────────────────────────────────────── */}
         <DangerZone
