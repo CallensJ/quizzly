@@ -6,10 +6,15 @@
  * Composant wrapper qui initialise l'état auth Supabase au montage
  * et écoute les changements de session (onAuthStateChange).
  *
- * Responsabilités MVP 2+ :
- *   1. Initialise authStore depuis la session Supabase persistée (localStorage sb-*)
+ * Responsabilités :
+ *   1. Source unique de vérité pour isPremium — vérifie Supabase avant setLoading(false)
  *   2. Lance useOnlineSync : rejoue la queue offline au retour de connexion
  *   3. Sur SIGNED_IN : sync bidirectionnelle Supabase → local (sessions + badges)
+ *
+ * Pourquoi getSession() est supprimé :
+ *   onAuthStateChange émet toujours INITIAL_SESSION au premier montage avec
+ *   la session persistée — getSession() en parallèle créait une race condition
+ *   où setLoading(false) était appelé avant la vérification premium.
  */
 
 import { useEffect } from "react";
@@ -19,6 +24,9 @@ import { useProfileStore } from "@/stores/profileStore";
 import { pullFromSupabase, linkProfileToAuthUser } from "@/lib/sync";
 import { useOnlineSync } from "@/hooks/useOnlineSync";
 import { useGoalNotification } from "@/hooks/useGoalNotification";
+
+const MAX_RETRIES = 5;
+const RETRY_DELAY_MS = 1000;
 
 export default function AuthProvider({
   children,
@@ -30,106 +38,109 @@ export default function AuthProvider({
   const clearAuth = useAuthStore((s) => s.clearAuth);
   const setIsPremium = useAuthStore((s) => s.setIsPremium);
 
-  // Rejoue la queue offline dès le retour de connexion
   useOnlineSync();
-  // Vérifie au démarrage si l'objectif journalier d'hier a été atteint
   useGoalNotification();
 
   useEffect(() => {
-    // Récupère la session active (persistée dans localStorage par supabase-js)
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setSession(session);
-      setLoading(false);
-    });
-
-    // Écoute les événements auth (SIGNED_IN, SIGNED_OUT, TOKEN_REFRESHED…)
-    // INITIAL_SESSION : premier chargement (reload) — vérifie le statut premium
-    // SIGNED_IN : connexion active — lien profil + sync premium cross-device
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange(async (event, session) => {
-      if (session) {
-        setSession(session);
+      // ── Pas de session → reset complet ──────────────────────────────────
+      if (!session) {
+        clearAuth(); // inclut setLoading(false) et isPremium: false
+        return;
+      }
 
-        // INITIAL_SESSION (reload) : vérifier le statut premium immédiatement
-        if (event === "INITIAL_SESSION" && session.user) {
-          let retries = 0;
-          const maxRetries = 5;
-          // Capture userId avant les retries async — session peut être null plus tard
-          const userId = session.user.id;
+      // ── Session présente ─────────────────────────────────────────────────
+      setSession(session);
+      const userId = session.user.id;
 
-          async function checkPremium() {
-            const { data: sub } = await supabase
-              .from("subscriptions")
-              .select("status")
-              .eq("user_id", userId)
-              .maybeSingle();
+      // INITIAL_SESSION : premier chargement (F5 / navigation directe)
+      // setLoading(false) est posé APRÈS confirmation premium — évite le flash
+      if (event === "INITIAL_SESSION") {
+        let retries = 0;
 
-            const premium =
-              sub?.status === "active" || sub?.status === "trialing";
-
-            if (premium) {
-              setIsPremium(true);
-              return;
-            }
-
-            if (retries < maxRetries) {
-              retries++;
-              setTimeout(checkPremium, 1000);
-            }
-            // Ne pas forcer false ici — useSubscription requête indépendamment
-            // et posera le statut définitif. Forcer false ici risque d'écraser
-            // un état correct si le webhook Stripe arrive après les retries.
-          }
-
-          checkPremium();
-        }
-
-        // SIGNED_IN : lien profil → compte parent + sync premium cross-device
-        if (event === "SIGNED_IN" && session.user) {
-          const { deviceId, mergeFromRemote } = useProfileStore.getState();
-
-          // Lier le profil au compte parent uniquement si un profil local existe déjà.
-          // Sur un nouvel appareil (deviceId null), on saute cette étape — le lien
-          // sera créé lors du prochain syncProfile (après restauration du profil).
-          if (deviceId) {
-            await linkProfileToAuthUser(deviceId, session.user.id);
-          }
-
-          // Pull uniquement pour les abonnés premium
-          const { data: sub } = await supabase
+        async function checkPremium() {
+          const { data: sub, error } = await supabase
             .from("subscriptions")
             .select("status")
-            .eq("user_id", session.user.id)
+            .eq("user_id", userId)
             .maybeSingle();
 
           const isPremium =
             sub?.status === "active" || sub?.status === "trialing";
-          setIsPremium(isPremium); // cache immédiat — évite le flash au retour sur /home
-          if (!isPremium) return;
 
-          // Restauration cross-device complète : pseudo, avatar, locale, sessions, badges.
-          // pullFromSupabase utilise authUserId en priorité — deviceId peut être null ici
-          // (nouvel appareil sans profil local).
-          const pulled = await pullFromSupabase(
-            deviceId ?? "",
-            session.user.id,
-          );
-          if (pulled) {
-            mergeFromRemote(
-              pulled.sessions,
-              pulled.earnedBadgeIds,
-              pulled.profile,
-            );
+          if (isPremium) {
+            setIsPremium(true);
+            setLoading(false); // ← confirmé premium, on débloque l'UI
+            return;
           }
+
+          // Pas premium mais pas d'erreur DB → résultat définitif
+          if (!error) {
+            setIsPremium(false);
+            setLoading(false);
+            return;
+          }
+
+          // Erreur DB → retry (réseau, JWT expiré…)
+          if (retries < MAX_RETRIES) {
+            retries++;
+            setTimeout(checkPremium, RETRY_DELAY_MS);
+            return;
+          }
+
+          // Tous les retries épuisés → on débloque quand même l'UI
+          setIsPremium(false);
+          setLoading(false);
         }
-      } else {
-        clearAuth();
+
+        await checkPremium();
+        return;
       }
+
+      // SIGNED_IN : connexion active — lien profil + sync cross-device
+      if (event === "SIGNED_IN") {
+        const { deviceId, mergeFromRemote } = useProfileStore.getState();
+
+        if (deviceId) {
+          await linkProfileToAuthUser(deviceId, userId);
+        }
+
+        const { data: sub } = await supabase
+          .from("subscriptions")
+          .select("status")
+          .eq("user_id", userId)
+          .maybeSingle();
+
+        const isPremium =
+          sub?.status === "active" || sub?.status === "trialing";
+
+        setIsPremium(isPremium);
+        setLoading(false);
+
+        if (!isPremium) return;
+
+        const pulled = await pullFromSupabase(deviceId ?? "", userId);
+        if (pulled) {
+          mergeFromRemote(
+            pulled.sessions,
+            pulled.earnedBadgeIds,
+            pulled.profile,
+          );
+        }
+
+        return;
+      }
+
+      // TOKEN_REFRESHED et autres événements — session valide, pas de re-vérification premium
+      // setLoading(false) au cas où loading serait encore true (navigation SPA)
+      setLoading(false);
     });
 
     return () => subscription.unsubscribe();
-  }, [setSession, setLoading, clearAuth]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return <>{children}</>;
 }
