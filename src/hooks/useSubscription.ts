@@ -1,12 +1,10 @@
 /**
  * src/hooks/useSubscription.ts
  *
- * Lit le statut premium depuis le store Zustand (authStore).
+ * Lit le statut premium depuis authStore uniquement.
  * La vérification Supabase est centralisée dans AuthProvider —
- * ce hook est un simple lecteur de store pour éviter les race conditions.
- *
- * Loading = authStore.loading (contrôlé par AuthProvider, posé à false
- * uniquement après confirmation du statut premium depuis Supabase).
+ * ce hook ne fait qu'exposer l'état du store pour éviter
+ * toute race condition entre plusieurs sources de vérité.
  */
 
 "use client";

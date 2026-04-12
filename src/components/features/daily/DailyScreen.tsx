@@ -24,6 +24,7 @@ import { Atom, Landmark, Swords, Sun, Shield, Flame, ChevronRight } from 'lucide
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
 import { fetchQuestions } from '@/lib/questions';
+import { useSubscription } from '@/hooks/useSubscription';
 import {
   getDailyCategory,
   getDailyDifficulty,
@@ -55,6 +56,7 @@ export default function DailyScreen() {
   const dailyTodayScore = useProfileStore((s) => s.dailyTodayScore);
 
   const { startDailyQuiz } = useQuizStore();
+  const { isPremium } = useSubscription();
 
   const [loading, setLoading] = useState(false);
   const [fetchError, setFetchError] = useState(false);
@@ -76,7 +78,7 @@ export default function DailyScreen() {
     setLoading(true);
     setFetchError(false);
     try {
-      const pool = await fetchQuestions(category, locale, difficulty);
+      const pool = await fetchQuestions(category, locale, difficulty, isPremium);
       const questions = getDailyQuestions(pool);
       startDailyQuiz(questions, category, difficulty);
       router.push('/quiz');

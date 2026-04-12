@@ -24,7 +24,7 @@ import { buildAvatarUrl, type AvatarStyle } from '@/lib/avatars';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
-import { fetchQuestions, prewarmQuestionsCache } from '@/lib/questions';
+import { fetchQuestions, prewarmQuestionsCache, FREE_QUESTIONS_LIMIT } from '@/lib/questions';
 import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
 import { useSubscription } from '@/hooks/useSubscription';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
@@ -214,6 +214,7 @@ export default function HomeScreen() {
         category!,
         locale as Locale,
         difficulty!,
+        isPremium,               // 4ème argument obligatoire (gate freemium Supabase RLS)
         subcategory ?? undefined,
       );
       if (!pool.length) throw new Error('Pool vide — aucune question disponible pour cette difficulté');
@@ -296,6 +297,9 @@ export default function HomeScreen() {
                 <span className="home__cat-icon">{icon}</span>
                 <span className="home__cat-name">{t(id)}</span>
                 <span className="home__cat-desc">{t(`${id}Desc`)}</span>
+                {!isPremium && (
+                  <span className="home__category-limit-badge">{FREE_QUESTIONS_LIMIT} q.</span>
+                )}
               </button>
             ))}
           </div>

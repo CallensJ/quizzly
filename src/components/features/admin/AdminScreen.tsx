@@ -3,11 +3,11 @@
 /**
  * src/components/features/admin/AdminScreen.tsx
  *
- * Espace parent — auth optionnelle (Supabase Auth).
+ * Espace parent — auth obligatoire (Supabase Auth).
  *
  * Flux d'accès :
- *   - Non connecté → tableau de bord local + bouton "Créer un compte / Se connecter"
- *   - Connecté     → tableau de bord complet + abonnement premium
+ *   - Connecté → tableau de bord complet + abonnement premium
+ *   - Redit vers /auth/login si non connecté (gardé en page.tsx)
  */
 
 import { useState, useEffect } from "react";
@@ -17,7 +17,6 @@ import {
   BarChart3,
   LogOut,
   TrendingUp,
-  UserPlus,
 } from "lucide-react";
 import { useRouter } from "@/i18n/navigation";
 import { useProfileStore } from "@/stores/profileStore";
@@ -46,7 +45,6 @@ export default function AdminScreen() {
   );
   const setDailyGoal = useProfileStore((s) => s.setDailyGoal);
   const resetProgress = useProfileStore((s) => s.resetProgress);
-  const deleteProfile = useProfileStore((s) => s.deleteProfile);
 
   useEffect(() => {
     showNova("welcome", tNova("adminWelcome"), 3000);
@@ -90,46 +88,18 @@ export default function AdminScreen() {
         </button>
         <h1 className="admin__title">{t("title")}</h1>
 
-        {/* Connecté → bouton déconnexion | Non connecté → bouton créer compte */}
-        {authUser ? (
-          <button
-            type="button"
-            className="admin__signout-btn"
-            onClick={handleSignOut}
-            aria-label={t("authSignOut")}
-            title={authUser.email ?? ""}
-          >
-            <LogOut size={18} strokeWidth={2} />
-          </button>
-        ) : (
-          <button
-            type="button"
-            className="admin__signout-btn"
-            onClick={() => router.push("/auth/login")}
-            aria-label={t("authSignIn")}
-            title={t("authSignIn")}
-          >
-            <UserPlus size={18} strokeWidth={2} />
-          </button>
-        )}
+        <button
+          type="button"
+          className="admin__signout-btn"
+          onClick={handleSignOut}
+          aria-label={t("authSignOut")}
+          title={authUser?.email ?? ""}
+        >
+          <LogOut size={18} strokeWidth={2} />
+        </button>
       </header>
 
       <main className="admin__body">
-        {/* ── Bandeau "Créer un compte" si non connecté ───────────────────── */}
-        {!authUser && (
-          <div className="admin__auth-banner">
-            <p className="admin__auth-banner-text">{t("authBannerDesc")}</p>
-            <button
-              type="button"
-              className="admin__auth-banner-btn"
-              onClick={() => router.push("/auth/login")}
-            >
-              <UserPlus size={16} />
-              {t("authBannerCta")}
-            </button>
-          </div>
-        )}
-
         {/* ── Stats enfant ─────────────────────────────────────────────────── */}
         <section
           className="admin__section admin__section--stats"
@@ -142,16 +112,14 @@ export default function AdminScreen() {
             </h2>
           </div>
 
-          {authUser && (
-            <button
-              type="button"
-              className="admin__dashboard-btn"
-              onClick={() => router.push("/dashboard")}
-            >
-              <TrendingUp size={16} strokeWidth={2} />
-              Voir la progression dans le temps
-            </button>
-          )}
+          <button
+            type="button"
+            className="admin__dashboard-btn"
+            onClick={() => router.push("/dashboard")}
+          >
+            <TrendingUp size={16} strokeWidth={2} />
+            Voir la progression dans le temps
+          </button>
 
           {totalGames === 0 ? (
             <p className="admin__empty">{t("statsNoSession")}</p>
@@ -188,16 +156,12 @@ export default function AdminScreen() {
         {/* ── Rapport de progression PDF ───────────────────────────────────── */}
         <ReportSection />
 
-        {/* ── Abonnement Premium — affiché uniquement si connecté ─────────── */}
-        {authUser && <SubscriptionSection />}
+        {/* ── Abonnement Premium ─────────────────────────────────────────── */}
+        <SubscriptionSection />
 
         {/* ── Zone de danger ───────────────────────────────────────────────── */}
         <DangerZone
           onReset={() => resetProgress()}
-          onDelete={() => {
-            deleteProfile();
-            router.replace("/");
-          }}
         />
       </main>
     </div>

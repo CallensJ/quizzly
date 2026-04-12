@@ -5,10 +5,10 @@
  *
  * Route /admin — espace parent.
  * Gardes :
+ *   - authLoading → attendre (évite un flash d'accès non authentifié)
  *   - Pas de profil enfant → redirect /
- *   - Authentifié ou non → AdminScreen accessible (auth optionnelle)
- *     L'auth Supabase débloque les stats cross-device et l'abonnement premium.
- *     Sans auth : stats locales uniquement, bouton "Créer un compte" visible.
+ *   - Non connecté → redirect /auth/login
+ *   - Connecté + profil → AdminScreen
  */
 
 import { useEffect } from "react";
@@ -19,22 +19,19 @@ import { useHydrated } from "@/hooks/useHydrated";
 import AdminScreen from "@/components/features/admin/AdminScreen";
 
 export default function AdminPage() {
-  const profile = useProfileStore((s) => s.profile);
+  const profile     = useProfileStore((s) => s.profile);
+  const authUser    = useAuthStore((s) => s.user);
   const authLoading = useAuthStore((s) => s.loading);
-  const router = useRouter();
-  const hydrated = useHydrated();
+  const router      = useRouter();
+  const hydrated    = useHydrated();
 
   useEffect(() => {
-    if (!hydrated) return;
-    // Pas de profil enfant → onboarding
-    if (!profile) {
-      router.replace("/");
-    }
-    // Pas de redirect auth — l'espace parent est accessible sans compte
-  }, [hydrated, profile, router]);
+    if (!hydrated || authLoading) return;
+    if (!profile) { router.replace("/"); return; }
+    if (!authUser) { router.replace("/auth/login"); return; }
+  }, [hydrated, authLoading, profile, authUser, router]);
 
-  // Bloquer le rendu uniquement le temps de l'hydratation et du check auth initial
-  if (!hydrated || authLoading || !profile) return null;
+  if (!hydrated || authLoading || !profile || !authUser) return null;
 
   return <AdminScreen />;
 }

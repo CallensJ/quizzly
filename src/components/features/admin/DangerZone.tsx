@@ -6,21 +6,57 @@
  * Section "Zone de danger" de l'AdminScreen.
  * Réinitialisation de la progression et suppression du compte, avec double confirmation.
  * Gère son propre état de confirmation (confirmReset, confirmDelete).
+ *
+ * Suppression du compte : appel API DELETE /api/account/delete (efface Supabase Auth +
+ * table subscriptions), puis signOut, puis suppression du localStorage/Zustand.
  */
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Trash2, RotateCcw } from 'lucide-react';
+import { useRouter } from '@/i18n/navigation';
+import { useProfileStore } from '@/stores/profileStore';
+import { supabase } from '@/lib/supabase';
 
 interface Props {
   onReset: () => void;
-  onDelete: () => void;
 }
 
-export default function DangerZone({ onReset, onDelete }: Props) {
+export default function DangerZone({ onReset }: Props) {
   const t = useTranslations('admin');
+  const router = useRouter();
+  const deleteProfile = useProfileStore((s) => s.deleteProfile);
   const [confirmReset,  setConfirmReset]  = useState(false);
   const [confirmDelete, setConfirmDelete] = useState(false);
+  const [deleteLoading, setDeleteLoading] = useState(false);
+  const [deleteError, setDeleteError] = useState(false);
+
+  async function handleDelete() {
+    setDeleteLoading(true);
+    setDeleteError(false);
+    try {
+      // Récupère la session en cours pour obtenir le JWT
+      const { data: { session } } = await supabase.auth.getSession();
+      if (!session?.access_token) {
+        setDeleteError(true);
+        setDeleteLoading(false);
+        return;
+      }
+      // Supprime le compte côté Supabase (Auth + subscriptions)
+      await fetch('/api/account/delete', {
+        method: 'DELETE',
+        headers: { Authorization: `Bearer ${session.access_token}` },
+      });
+      // Déconnexion Supabase
+      await supabase.auth.signOut();
+      // Nettoyage localStorage + Zustand
+      deleteProfile();
+      router.replace('/');
+    } finally {
+      setDeleteLoading(false);
+      setConfirmDelete(false);
+    }
+  }
 
   return (
     <section className="admin__section admin__section--danger" aria-labelledby="admin-danger-title">
@@ -87,6 +123,11 @@ export default function DangerZone({ onReset, onDelete }: Props) {
         ) : (
           <div className="admin__danger-confirm">
             <p className="admin__danger-confirm-msg">Êtes-vous sûr ? Cette action est irréversible.</p>
+            {deleteError && (
+              <p className="admin__danger-confirm-error">
+                Session expirée. Reconnecte-toi pour supprimer ton compte.
+              </p>
+            )}
             <div className="admin__danger-confirm-actions">
               <button
                 type="button"
@@ -98,9 +139,10 @@ export default function DangerZone({ onReset, onDelete }: Props) {
               <button
                 type="button"
                 className="admin__danger-btn admin__danger-btn--destructive"
-                onClick={() => { onDelete(); setConfirmDelete(false); }}
+                onClick={handleDelete}
+                disabled={deleteLoading}
               >
-                {t('dangerDeleteConfirm')}
+                {deleteLoading ? '...' : t('dangerDeleteConfirm')}
               </button>
             </div>
           </div>

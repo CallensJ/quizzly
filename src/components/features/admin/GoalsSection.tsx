@@ -12,8 +12,9 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Check, ChevronDown, ChevronUp, Target } from 'lucide-react';
+import { Check, ChevronDown, ChevronUp, Lock, Target } from 'lucide-react';
 import { useProfileStore } from '@/stores/profileStore';
+import { useSubscription } from '@/hooks/useSubscription';
 import type { GoalCategory } from '@/types';
 
 // ── Données ──────────────────────────────────────────────────────────────────
@@ -132,6 +133,7 @@ function StepperRow({ cat, value, onChange }: StepperRowProps) {
 
 export default function GoalsSection() {
   const t = useTranslations('admin');
+  const { isPremium } = useSubscription();
 
   const categoryGoals   = useProfileStore((s) => s.categoryGoals);
   const setCategoryGoal = useProfileStore((s) => s.setCategoryGoal);
@@ -218,16 +220,23 @@ export default function GoalsSection() {
           <span className="goals-section__group-label goals-section__group-label--premium">
             Premium
           </span>
-          <ul className="goals-section__list" role="list">
-            {PREMIUM_CATEGORIES.map((cat) => (
-              <StepperRow
-                key={cat.id}
-                cat={cat}
-                value={localGoals[cat.id] ?? null}
-                onChange={(val) => handleChange(cat.id, val)}
-              />
-            ))}
-          </ul>
+          {isPremium ? (
+            <ul className="goals-section__list" role="list">
+              {PREMIUM_CATEGORIES.map((cat) => (
+                <StepperRow
+                  key={cat.id}
+                  cat={cat}
+                  value={localGoals[cat.id] ?? null}
+                  onChange={(val) => handleChange(cat.id, val)}
+                />
+              ))}
+            </ul>
+          ) : (
+            <div className="goals-section__locked">
+              <Lock size={14} strokeWidth={2} aria-hidden="true" />
+              <span>Catégories réservées aux abonnés Premium</span>
+            </div>
+          )}
         </div>
       </div>
 

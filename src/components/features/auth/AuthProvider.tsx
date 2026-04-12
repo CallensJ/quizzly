@@ -3,18 +3,15 @@
 /**
  * src/components/features/auth/AuthProvider.tsx
  *
- * Composant wrapper qui initialise l'état auth Supabase au montage
- * et écoute les changements de session (onAuthStateChange).
- *
- * Responsabilités :
- *   1. Source unique de vérité pour isPremium — vérifie Supabase avant setLoading(false)
- *   2. Lance useOnlineSync : rejoue la queue offline au retour de connexion
- *   3. Sur SIGNED_IN : sync bidirectionnelle Supabase → local (sessions + badges)
+ * Source unique de vérité pour isPremium et authStore.loading.
  *
  * Pourquoi getSession() est supprimé :
- *   onAuthStateChange émet toujours INITIAL_SESSION au premier montage avec
- *   la session persistée — getSession() en parallèle créait une race condition
- *   où setLoading(false) était appelé avant la vérification premium.
+ *   onAuthStateChange émet INITIAL_SESSION au premier montage avec
+ *   la session persistée — getSession() en parallèle créait une race
+ *   condition où setLoading(false) était appelé avant checkPremium().
+ *
+ * setLoading(false) est posé APRÈS confirmation du statut premium
+ * pour éviter le flash "catégories verrouillées" au F5.
  */
 
 import { useEffect } from "react";
@@ -45,18 +42,17 @@ export default function AuthProvider({
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange(async (event, session) => {
-      // ── Pas de session → reset complet ──────────────────────────────────
+      // Pas de session → reset complet
       if (!session) {
-        clearAuth(); // inclut setLoading(false) et isPremium: false
+        clearAuth(); // setLoading(false) + isPremium: false inclus
         return;
       }
 
-      // ── Session présente ─────────────────────────────────────────────────
       setSession(session);
       const userId = session.user.id;
 
-      // INITIAL_SESSION : premier chargement (F5 / navigation directe)
-      // setLoading(false) est posé APRÈS confirmation premium — évite le flash
+      // INITIAL_SESSION : premier chargement (F5, navigation directe)
+      // setLoading(false) posé APRÈS checkPremium — jamais avant
       if (event === "INITIAL_SESSION") {
         let retries = 0;
 
@@ -72,25 +68,25 @@ export default function AuthProvider({
 
           if (isPremium) {
             setIsPremium(true);
-            setLoading(false); // ← confirmé premium, on débloque l'UI
+            setLoading(false);
             return;
           }
 
-          // Pas premium mais pas d'erreur DB → résultat définitif
+          // Pas premium, pas d'erreur DB → résultat définitif
           if (!error) {
             setIsPremium(false);
             setLoading(false);
             return;
           }
 
-          // Erreur DB → retry (réseau, JWT expiré…)
+          // Erreur DB → retry
           if (retries < MAX_RETRIES) {
             retries++;
             setTimeout(checkPremium, RETRY_DELAY_MS);
             return;
           }
 
-          // Tous les retries épuisés → on débloque quand même l'UI
+          // Tous les retries épuisés → débloquer l'UI quand même
           setIsPremium(false);
           setLoading(false);
         }
@@ -133,8 +129,8 @@ export default function AuthProvider({
         return;
       }
 
-      // TOKEN_REFRESHED et autres événements — session valide, pas de re-vérification premium
-      // setLoading(false) au cas où loading serait encore true (navigation SPA)
+      // TOKEN_REFRESHED et autres events — session valide
+      // setLoading(false) au cas où loading serait encore true
       setLoading(false);
     });
 

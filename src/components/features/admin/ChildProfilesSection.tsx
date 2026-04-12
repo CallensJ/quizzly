@@ -13,6 +13,7 @@ import { useState } from 'react';
 import { Users, UserPlus, Check, Trash2 } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
+import { useSubscription } from '@/hooks/useSubscription';
 import { buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
 
@@ -24,7 +25,11 @@ export default function ChildProfilesSection() {
   const switchProfile      = useProfileStore((s) => s.switchProfile);
   const removeChildProfile = useProfileStore((s) => s.removeChildProfile);
 
+  const { isPremium } = useSubscription();
+
   const [deleteChildId, setDeleteChildId] = useState<string | null>(null);
+
+  const canAddProfile = isPremium ? profiles.length < 4 : profiles.length < 1;
 
   function handleSwitchProfile(id: string) {
     switchProfile(id);
@@ -94,14 +99,36 @@ export default function ChildProfilesSection() {
         ))}
       </div>
 
-      <button
-        type="button"
-        className="admin__profiles-add-btn"
-        onClick={() => router.push('/profiles')}
-      >
-        <UserPlus size={16} strokeWidth={2} />
-        Ajouter un enfant
-      </button>
+      {canAddProfile ? (
+        <button
+          type="button"
+          className="admin__profiles-add-btn"
+          onClick={() => router.push('/profiles')}
+        >
+          <UserPlus size={16} strokeWidth={2} />
+          Ajouter un enfant
+        </button>
+      ) : (
+        <div className="admin__profiles-limit">
+          {!isPremium ? (
+            <p className="admin__profiles-limit-text">
+              Version gratuite : 1 profil maximum.{' '}
+              <button
+                type="button"
+                className="admin__profiles-limit-cta"
+                onClick={() => router.push('/subscribe')}
+              >
+                Passer Premium
+              </button>{' '}
+              pour jusqu&apos;à 4 profils.
+            </p>
+          ) : (
+            <p className="admin__profiles-limit-text">
+              Maximum de 4 profils atteint.
+            </p>
+          )}
+        </div>
+      )}
 
       {deleteChildId && (
         <div className="admin__danger-confirm" style={{ marginTop: '1rem' }}>

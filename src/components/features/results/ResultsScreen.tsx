@@ -26,6 +26,7 @@ import { useProfileStore } from '@/stores/profileStore';
 import { playSound } from '@/lib/sound';
 import { syncSession, syncBadge } from '@/lib/sync';
 import { fetchQuestions } from '@/lib/questions';
+import { useSubscription } from '@/hooks/useSubscription';
 import { createChallenge, completeChallenge } from '@/lib/challenges';
 import { getTitleForXp } from '@/lib/daily';
 import Nova from '@/components/ui/Nova';
@@ -46,6 +47,7 @@ export default function ResultsScreen() {
   const router    = useRouter();
 
   const { status, score, category, difficulty, questions, challengeId, isDailyChallenge, totalTimeMs, startQuiz, resetAll } = useQuizStore();
+  const { isPremium } = useSubscription();
   const soundEnabled           = useProfileStore((s) => s.soundEnabled);
   const deviceId               = useProfileStore((s) => s.deviceId);
   const profile                = useProfileStore((s) => s.profile);
@@ -196,7 +198,7 @@ export default function ResultsScreen() {
     setLoading(true);
     try {
       // Récupère les questions depuis Supabase (cache 24h + fallback offline)
-      const pool = await fetchQuestions(category, locale as Locale, difficulty);
+      const pool = await fetchQuestions(category, locale as Locale, difficulty, isPremium);
       startQuiz(pool);
       router.push('/quiz');
     } finally {
