@@ -55,7 +55,9 @@ export function useSubscription(): SubscriptionState {
       .select('status')
       .eq('user_id', user.id)
       .maybeSingle()
-      .then(({ data }) => {
+      .then(({ data, error }) => {
+        // DEBUG temporaire — à retirer après diagnostic
+        console.log('[useSubscription] user.id:', user.id, '| data:', data, '| error:', error);
         const status = data?.status ?? null;
         const isPremium = status === 'active' || status === 'trialing';
         if (isPremium) setIsPremium(true); // met en cache pour les navigations suivantes
