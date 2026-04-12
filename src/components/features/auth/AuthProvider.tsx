@@ -93,7 +93,7 @@ export default function AuthProvider({ children }: { children: React.ReactNode }
     });
 
     return () => subscription.unsubscribe();
-  }, [setSession, setLoading, clearAuth]);
+  }, [setSession, setLoading, clearAuth, setIsPremium]);
 
   return <>{children}</>;
 }

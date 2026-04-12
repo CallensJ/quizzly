@@ -4,6 +4,10 @@
  * Vérifie si l'utilisateur connecté a un abonnement premium actif
  * en lisant la table `subscriptions` dans Supabase.
  *
+ * Principe : on requête toujours Supabase après authentification.
+ * Le cache authStore.isPremium sert uniquement à l'affichage optimiste initial
+ * (évite le flash cadenas lors des navigations SPA), jamais comme décision définitive.
+ *
  * Retourne `isPremium = false` si :
  *   - l'utilisateur n'est pas connecté
  *   - aucun abonnement trouvé
@@ -23,13 +27,13 @@ interface SubscriptionState {
 }
 
 export function useSubscription(): SubscriptionState {
-  const user        = useAuthStore((s) => s.user);
-  const authLoading = useAuthStore((s) => s.loading);
-  const cached      = useAuthStore((s) => s.isPremium);
+  const user         = useAuthStore((s) => s.user);
+  const authLoading  = useAuthStore((s) => s.loading);
+  const cached       = useAuthStore((s) => s.isPremium);
   const setIsPremium = useAuthStore((s) => s.setIsPremium);
 
-  // loading: false par défaut — ne passe à true que si une requête Supabase est nécessaire
-  // (user connecté, statut inconnu). Évite le flash "Vérification…" pour les non-connectés.
+  // Affichage optimiste depuis le cache — évite le flash lors des navigations SPA.
+  // Mais on requêtera toujours Supabase pour confirmer.
   const [state, setState] = useState<SubscriptionState>({
     isPremium: cached,
     status: cached ? 'active' : null,
@@ -37,21 +41,16 @@ export function useSubscription(): SubscriptionState {
   });
 
   useEffect(() => {
-    // Auth pas encore résolue (page reload) — attendre
+    // Attendre la résolution de l'auth (page reload)
     if (authLoading) return;
 
     if (!user) {
       setState({ isPremium: false, status: null, loading: false });
+      setIsPremium(false);
       return;
     }
 
-    // Déjà connu comme premium dans cette session → pas de requête inutile
-    if (cached) {
-      setState({ isPremium: true, status: 'active', loading: false });
-      return;
-    }
-
-    // User connecté mais statut inconnu → requête Supabase
+    // Requête Supabase systématique — le cache n'est jamais la décision finale
     setState((prev) => ({ ...prev, loading: true }));
 
     supabase
@@ -60,12 +59,13 @@ export function useSubscription(): SubscriptionState {
       .eq('user_id', user.id)
       .maybeSingle()
       .then(({ data }) => {
-        const status = data?.status ?? null;
+        const status    = data?.status ?? null;
         const isPremium = status === 'active' || status === 'trialing';
-        if (isPremium) setIsPremium(true); // met en cache pour les navigations suivantes
+        setIsPremium(isPremium); // met à jour le cache (optimisme navigations suivantes)
         setState({ isPremium, status, loading: false });
       });
-  }, [user, authLoading, cached, setIsPremium]);
+  // 'cached' retiré des dépendances — on ne court-circuite plus sur le cache
+  }, [user, authLoading, setIsPremium]);
 
   return state;
 }

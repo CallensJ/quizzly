@@ -18,7 +18,7 @@ import { usePortal } from '@/hooks/usePortal';
 export default function SubscriptionSection() {
   const t      = useTranslations('admin');
   const router = useRouter();
-  const { isPremium, status: subStatus, loading: subLoading } = useSubscription();
+  const { isPremium, status: subStatus } = useSubscription();
   const { openPortal, loading: portalLoading, error: portalError } = usePortal();
 
   return (
@@ -28,11 +28,7 @@ export default function SubscriptionSection() {
         <h2 id="admin-sub-title" className="admin__section-title">{t('subTitle')}</h2>
       </div>
 
-      {subLoading ? (
-        <div className="admin__sub-loading">
-          <p className="admin__section-desc">{t('subLoading')}</p>
-        </div>
-      ) : isPremium ? (
+      {isPremium ? (
         <div className="admin__sub-active">
           <p className="admin__sub-status admin__sub-status--active">{t('subActive')}</p>
           <p className="admin__sub-plan">

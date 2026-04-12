@@ -75,14 +75,18 @@ export async function POST(req: NextRequest) {
       ? env.stripePriceSemiannual
       : env.stripePriceMonthly;
 
-    // 4. Réutilise le stripe_customer_id existant si l'utilisateur a déjà souscrit
-    //    → évite la création de clients en double dans Stripe
+    // 4. Vérifie si l'utilisateur a déjà un abonnement actif — bloque le checkout si oui
     const { data: existing } = await supabaseAdmin
       .from('subscriptions')
-      .select('stripe_customer_id')
+      .select('stripe_customer_id, status')
       .eq('user_id', user.id)
       .maybeSingle();
 
+    if (existing?.status === 'active' || existing?.status === 'trialing') {
+      return NextResponse.json({ error: 'Déjà abonné' }, { status: 400 });
+    }
+
+    // Réutilise le stripe_customer_id existant si disponible — évite les doublons Stripe
     const customerParam = existing?.stripe_customer_id
       ? { customer: existing.stripe_customer_id }
       : { customer_email: user.email };

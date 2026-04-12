@@ -4,8 +4,8 @@
  * src/components/features/subscribe/SubscribeSuccessScreen.tsx
  *
  * Confirmation d'abonnement activé.
- * Le webhook Stripe a déjà mis à jour la table subscriptions en base.
- * On redirige vers /home après 4s ou sur clic du bouton.
+ * Polle la table subscriptions jusqu'à confirmer le statut 'active'
+ * (le webhook Stripe peut prendre 1-3s) avant de rediriger vers /home.
  */
 
 import { useEffect } from 'react';
@@ -14,14 +14,20 @@ import { useRouter } from '@/i18n/navigation';
 import { CheckCircle } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
+import { supabase } from '@/lib/supabase';
+import { useAuthStore } from '@/stores/authStore';
+
+const POLL_INTERVAL_MS = 1500;
+const MAX_ATTEMPTS     = 8; // 12s max avant redirection forcée
 
 export default function SubscribeSuccessScreen() {
   const t      = useTranslations('subscribe');
   const tNova  = useTranslations('nova');
   const router = useRouter();
   const { showNova, hideNova } = useNovaPresence();
+  const user         = useAuthStore((s) => s.user);
+  const setIsPremium = useAuthStore((s) => s.setIsPremium);
 
-  // Nova grateful + confetti au montage — moment prioritaire
   useEffect(() => {
     showNova('grateful', tNova('subscription'), 0);
 
@@ -32,14 +38,45 @@ export default function SubscribeSuccessScreen() {
       colors: ['#667eea', '#764ba2', '#FFD700', '#10B981'],
     });
 
-    // Redirection automatique vers Home après 4s
-    const timer = setTimeout(() => {
-      hideNova();
-      router.push('/home');
-    }, 4000);
+    let attempts = 0;
+    let timerId: ReturnType<typeof setTimeout>;
+
+    async function pollSubscription() {
+      attempts++;
+
+      if (user) {
+        const { data } = await supabase
+          .from('subscriptions')
+          .select('status')
+          .eq('user_id', user.id)
+          .maybeSingle();
+
+        const isActive = data?.status === 'active' || data?.status === 'trialing';
+
+        if (isActive) {
+          // Confirme le statut dans le store avant la redirection
+          setIsPremium(true);
+          hideNova();
+          router.push('/home');
+          return;
+        }
+      }
+
+      // Pas encore actif ou pas de user — réessayer jusqu'à MAX_ATTEMPTS
+      if (attempts < MAX_ATTEMPTS) {
+        timerId = setTimeout(pollSubscription, POLL_INTERVAL_MS);
+      } else {
+        // Redirection forcée après timeout — l'user verra le bon état sur /home
+        hideNova();
+        router.push('/home');
+      }
+    }
+
+    // Premier check après 1.5s — laisser le temps au webhook de traiter
+    timerId = setTimeout(pollSubscription, POLL_INTERVAL_MS);
 
     return () => {
-      clearTimeout(timer);
+      clearTimeout(timerId);
       hideNova();
     };
   // eslint-disable-next-line react-hooks/exhaustive-deps
