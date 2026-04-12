@@ -33,28 +33,29 @@ export default function AuthProvider({ children }: { children: React.ReactNode }
 
   useEffect(() => {
     // Récupère la session active (persistée dans localStorage par supabase-js)
-    // et vérifie immédiatement le statut premium pour éviter le flash "non premium"
-    supabase.auth.getSession().then(async ({ data: { session } }) => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session);
-
-      if (session?.user) {
-        const { data: sub } = await supabase
-          .from('subscriptions')
-          .select('status')
-          .eq('user_id', session.user.id)
-          .maybeSingle();
-
-        const premium = sub?.status === 'active' || sub?.status === 'trialing';
-        if (premium) setIsPremium(true);
-      }
-
       setLoading(false);
     });
 
     // Écoute les événements auth (SIGNED_IN, SIGNED_OUT, TOKEN_REFRESHED…)
+    // INITIAL_SESSION : premier chargement (reload) — vérifie le statut premium
+    // SIGNED_IN : connexion active — lien profil + sync premium cross-device
     const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
       if (session) {
         setSession(session);
+
+        // INITIAL_SESSION (reload) : vérifier le statut premium immédiatement
+        if (event === 'INITIAL_SESSION' && session.user) {
+          const { data: sub } = await supabase
+            .from('subscriptions')
+            .select('status')
+            .eq('user_id', session.user.id)
+            .maybeSingle();
+
+          const premium = sub?.status === 'active' || sub?.status === 'trialing';
+          setIsPremium(premium);
+        }
 
         // SIGNED_IN : lien profil → compte parent + sync premium cross-device
         if (event === 'SIGNED_IN' && session.user) {
