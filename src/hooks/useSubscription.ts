@@ -28,15 +28,16 @@ export function useSubscription(): SubscriptionState {
   const cached      = useAuthStore((s) => s.isPremium);
   const setIsPremium = useAuthStore((s) => s.setIsPremium);
 
-  // Initialise depuis le cache Zustand — évite le flash lors des navigations SPA
+  // loading: false par défaut — ne passe à true que si une requête Supabase est nécessaire
+  // (user connecté, statut inconnu). Évite le flash "Vérification…" pour les non-connectés.
   const [state, setState] = useState<SubscriptionState>({
     isPremium: cached,
     status: cached ? 'active' : null,
-    loading: !cached,
+    loading: false,
   });
 
   useEffect(() => {
-    // Auth pas encore résolue (page reload) — attendre avant de conclure quoi que ce soit
+    // Auth pas encore résolue (page reload) — attendre
     if (authLoading) return;
 
     if (!user) {
@@ -50,14 +51,15 @@ export function useSubscription(): SubscriptionState {
       return;
     }
 
+    // User connecté mais statut inconnu → requête Supabase
+    setState((prev) => ({ ...prev, loading: true }));
+
     supabase
       .from('subscriptions')
       .select('status')
       .eq('user_id', user.id)
       .maybeSingle()
-      .then(({ data, error }) => {
-        // DEBUG temporaire — à retirer après diagnostic
-        console.log('[useSubscription] user.id:', user.id, '| data:', data, '| error:', error);
+      .then(({ data }) => {
         const status = data?.status ?? null;
         const isPremium = status === 'active' || status === 'trialing';
         if (isPremium) setIsPremium(true); // met en cache pour les navigations suivantes

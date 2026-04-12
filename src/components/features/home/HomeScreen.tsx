@@ -61,9 +61,10 @@ const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = 
   },
 ];
 
-// Catégories premium — id = valeur `category` dans Supabase (scripts/migrate-questions.ts)
-// Sans id → questions pas encore migrées → affiché "Bientôt" pour les abonnés
-const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string; id?: Category }[] = [
+// Catégories premium — toutes ont un id (questions disponibles).
+// Logique binaire : cadenas pour l'user gratuit, jouable pour le premium.
+// Les catégories sans questions sont masquées jusqu'à ce que leur contenu soit prêt.
+const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string; id: Category }[] = [
   { i18nKey: 'sport',          icon: <Trophy    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-sport)',      id: 'sport' },
   { i18nKey: 'geographie',     icon: <Globe     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-geography)',  id: 'geographie' },
   { i18nKey: 'mathematiques',  icon: <Calculator size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-maths)',    id: 'math' },
@@ -77,19 +78,13 @@ const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: st
   { i18nKey: 'dinosaures',     icon: <Bone      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-dino)',       id: 'dinosaures' },
   // mythologie est géré séparément (carte expandable avec sous-catégories)
   { i18nKey: 'espace',         icon: <Rocket    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-espace)',     id: 'espace-astronomie' },
-  // Pas encore migrés → sans id → "Bientôt" pour les abonnés
-  { i18nKey: 'culturePop',     icon: <Film      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-culture)' },
-  { i18nKey: 'technologie',    icon: <Cpu       size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-techno)' },
-  { i18nKey: 'musique',        icon: <Music2    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-musique)' },
+  { i18nKey: 'culturePop',     icon: <Film      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-culture)',    id: 'pop-culture' },
+  { i18nKey: 'technologie',    icon: <Cpu       size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-techno)',     id: 'technologie' },
+  { i18nKey: 'musique',        icon: <Music2    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-musique)',    id: 'musique' },
 ];
 
 // Catégorie mythologie — gérée séparément pour les sous-catégories
 const MYTH_COLOR_VAR = 'var(--color-cat-mythologie)';
-
-// Plus de section "Bientôt" autonome — les catégories sans contenu sont gérées
-// directement dans PREMIUM_CATEGORIES (sans id → affichage "Bientôt" pour abonnés,
-// cadenas pour non-abonnés).
-const COMING_SOON_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string }[] = [];
 
 const DIFFICULTIES: Difficulty[] = ['easy', 'medium', 'hard'];
 
@@ -108,10 +103,7 @@ export default function HomeScreen() {
 
   const profile    = useProfileStore((s) => s.profile);
   const sessions   = useProfileStore((s) => s.sessions);
-  const { isPremium, loading: subLoading } = useSubscription();
-  // Pendant le chargement initial de l'abonnement (ex: rechargement page),
-  // on considère l'accès premium comme potentiellement actif pour éviter le flash cadenas.
-  const premiumKnown = !subLoading;
+  const { isPremium } = useSubscription();
   const { showNova, hideNova } = useNovaPresence();
 
   const { category, difficulty, subcategory, setCategory, setDifficulty, setSubcategory, startQuiz } = useQuizStore();
@@ -372,10 +364,8 @@ export default function HomeScreen() {
 
           <div className="home__categories">
             {PREMIUM_CATEGORIES.map(({ i18nKey, icon, colorVar, id }) => {
-              // Premium + questions disponibles → jouable comme une catégorie normale
-              const isPlayable = isPremium && !!id;
-
-              if (isPlayable && id) {
+              // Premium → jouable
+              if (isPremium) {
                 return (
                   <button
                     key={i18nKey}
@@ -392,25 +382,8 @@ export default function HomeScreen() {
                 );
               }
 
-              // Premium (ou statut inconnu pendant le chargement) → badge "Bientôt", pas de cadenas
-              // premiumKnown=false pendant le chargement initial : évite le flash cadenas
-              if (isPremium || !premiumKnown) {
-                return (
-                  <div
-                    key={i18nKey}
-                    className="home__cat-card home__cat-card--coming-soon"
-                    style={{ '--cat-color': colorVar } as React.CSSProperties}
-                    aria-label={`${t(i18nKey)} — ${t('comingSoonTag')}`}
-                  >
-                    <span className="home__cat-icon">{icon}</span>
-                    <span className="home__cat-name">{t(i18nKey)}</span>
-                    <span className="home__cat-lock" aria-hidden="true">🚀</span>
-                  </div>
-                );
-              }
-
+              // Non-premium → cadenas cliquable, Nova encouragement
               return (
-                // Non-premium confirmé → cadenas cliquable, Nova encouragement
                 <button
                   key={i18nKey}
                   type="button"
@@ -476,8 +449,7 @@ export default function HomeScreen() {
             <p className="home__fetch-error" role="alert">{t('fetchError')}</p>
           )}
 
-          {/* CTA Premium — visible uniquement si non-abonné confirmé (pas pendant le chargement) */}
-          {!isPremium && premiumKnown && (
+          {!isPremium && (
             <button
               className="home__premium-cta"
               onClick={() => router.push('/subscribe')}
