@@ -62,6 +62,7 @@ const CAT_COLORS: Record<Category, string> = {
   musique:             '#F06292',
   'pop-culture':       '#FF4081',
   technologie:         '#009688',
+  'monde-antique':     '#8B4513',
   mythology:           '#7B1FA2',
 };
 
