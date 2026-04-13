@@ -120,7 +120,8 @@
     "langLabel": "Language",
     "langDesc": "Change the app language",
     "adminLink": "Parent space",
-    "statsLink": "My statistics"
+    "statsLink": "My statistics",
+    "switchPlayer": "Switch player"
   },
   "stats": {
     "title": "My Statistics",
@@ -757,5 +758,10 @@
     "goToApp": "Go to the app",
     "retryLabel": "Try again",
     "backHome": "Back to home"
+  },
+  "playerSwitcher": {
+    "title": "Switch player",
+    "close": "Close",
+    "newPlayer": "New player"
   }
 }

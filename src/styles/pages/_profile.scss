@@ -723,3 +723,208 @@
     }
   }
 }
+
+// ─── Modale changement de joueur ────────────────────────────────────────────
+
+@keyframes ps-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes ps-slide-up {
+  from { transform: translateY(100%); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+@keyframes ps-scale-in {
+  from { transform: scale(0.92); opacity: 0; }
+  to   { transform: scale(1);    opacity: 1; }
+}
+
+.player-switcher {
+  &__overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 300;
+    background: rgb(0 0 0 / 50%);
+    display: flex;
+    align-items: flex-end; // bottom-sheet mobile
+    animation: ps-fade-in 0.18s ease;
+
+    @include m.desktop {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__panel {
+    background: #fff;
+    width: 100%;
+    max-height: 80vh;
+    border-radius: 20px 20px 0 0;
+    padding: 0 0 env(safe-area-inset-bottom, 16px);
+    overflow-y: auto;
+    animation: ps-slide-up 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    display: flex;
+    flex-direction: column;
+
+    @include m.desktop {
+      width: 400px;
+      max-height: 70vh;
+      border-radius: 20px;
+      animation: ps-scale-in 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 12px;
+    border-bottom: 1px solid #f0f0f0;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 1;
+  }
+
+  &__title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin: 0;
+  }
+
+  &__close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: #f5f5f5;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #6b7280;
+    transition: background 0.15s;
+
+    &:hover { background: #ebebeb; }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid transparent;
+    border-radius: 14px;
+    background: transparent;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.15s, border-color 0.15s;
+
+    &:hover {
+      background: #f8f7ff;
+    }
+
+    &--active {
+      border-color: v.$primary;
+      background: #f0eeff;
+    }
+  }
+
+  &__avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: #f5f5f5;
+  }
+
+  &__pseudo {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1a1a2e;
+  }
+
+  &__active-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: v.$primary;
+    color: #fff;
+    flex-shrink: 0;
+  }
+
+  &__divider {
+    height: 1px;
+    background: #f0f0f0;
+    margin: 4px 12px;
+  }
+
+  &__new-player {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 14px 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: v.$primary;
+    transition: background 0.15s;
+
+    &:hover { background: #f8f7ff; }
+  }
+
+  &__new-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f0eeff;
+    flex-shrink: 0;
+  }
+}
+
+// Bouton "Changer de joueur" dans ProfileScreen
+.profile__switch-player-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 16px;
+  margin-top: 4px;
+  border: 1.5px solid #e8e4ff;
+  border-radius: 12px;
+  background: #f8f7ff;
+  color: v.$primary;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+
+  &:hover {
+    background: #f0eeff;
+    border-color: v.$primary;
+  }
+}

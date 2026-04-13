@@ -16,7 +16,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { ArrowLeft, Pencil, Lock, BarChart2 } from 'lucide-react';
+import { ArrowLeft, Pencil, Lock, BarChart2, Users } from 'lucide-react';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useAuthStore } from '@/stores/authStore';
@@ -28,6 +28,7 @@ import { useSubscription } from '@/hooks/useSubscription';
 import AvatarGallery from './AvatarGallery';
 import BadgesPreview from './BadgesPreview';
 import BadgesModal from './BadgesModal';
+import PlayerSwitcherModal from './PlayerSwitcherModal';
 
 /**
  * Calcule le meilleur score (en %) parmi toutes les sessions.
@@ -90,6 +91,7 @@ export default function ProfileScreen() {
   // Mode édition avatar — affiche la galerie inline sous la carte identité
   const [editingAvatar, setEditingAvatar] = useState(false);
   const [badgesModalOpen, setBadgesModalOpen] = useState(false);
+  const [switcherOpen, setSwitcherOpen] = useState(false);
 
   if (!profile) return null;
 
@@ -167,6 +169,16 @@ export default function ProfileScreen() {
             onSelectAvatar={handleSelectAvatar}
           />
         )}
+
+        {/* ── Changer de joueur ─────────────────────────────────────────── */}
+        <button
+          type="button"
+          className="profile__switch-player-btn"
+          onClick={() => setSwitcherOpen(true)}
+        >
+          <Users size={16} strokeWidth={2} aria-hidden="true" />
+          {t('switchPlayer')}
+        </button>
 
         {/* ── Statistiques ──────────────────────────────────────────────── */}
         <section className="profile__stats" aria-label={tSidebar('statsLabel')}>
@@ -313,6 +325,12 @@ export default function ProfileScreen() {
         isOpen={badgesModalOpen}
         onClose={() => setBadgesModalOpen(false)}
         earnedBadgeIds={earnedBadgeIds}
+      />
+
+      {/* ── Modale changement de joueur ───────────────────────────────── */}
+      <PlayerSwitcherModal
+        isOpen={switcherOpen}
+        onClose={() => setSwitcherOpen(false)}
       />
     </div>
   );
