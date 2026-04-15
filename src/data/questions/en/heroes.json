@@ -12,7 +12,7 @@
       "C": "Timon",
       "D": "Scar"
     },
-    "answer": "Simba"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-002",
@@ -27,7 +27,7 @@
       "C": "Rex",
       "D": "Mr. Potato Head"
     },
-    "answer": "Woody"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-003",
@@ -42,7 +42,7 @@
       "C": "Beowulf",
       "D": "Sinbad"
     },
-    "answer": "Robin Hood"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-004",
@@ -57,7 +57,7 @@
       "C": "Satsuki",
       "D": "Mei"
     },
-    "answer": "Chihiro"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-005",
@@ -72,7 +72,7 @@
       "C": "Strength",
       "D": "Speed"
     },
-    "answer": "Strength"
+    "answer": "C"
   },
   {
     "id": "heroes-en-easy-006",
@@ -87,7 +87,7 @@
       "C": "Don Quixote",
       "D": "Pancho Villa"
     },
-    "answer": "Zorro"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-007",
@@ -102,7 +102,7 @@
       "C": "Peter Pan",
       "D": "Mowgli"
     },
-    "answer": "Pinocchio"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-008",
@@ -117,7 +117,7 @@
       "C": "Nemo",
       "D": "Coral"
     },
-    "answer": "Dory"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-009",
@@ -132,7 +132,7 @@
       "C": "Puss in Boots",
       "D": "Tom Thumb"
     },
-    "answer": "Jack"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-010",
@@ -147,7 +147,7 @@
       "C": "Snow White",
       "D": "Belle"
     },
-    "answer": "Aurora"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-011",
@@ -162,7 +162,7 @@
       "C": "Calcifer",
       "D": "Kodama"
     },
-    "answer": "Totoro"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-012",
@@ -177,7 +177,7 @@
       "C": "Ariel",
       "D": "Tiana"
     },
-    "answer": "Mulan"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-013",
@@ -192,7 +192,7 @@
       "C": "RoboCop",
       "D": "Baymax"
     },
-    "answer": "WALL-E"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-014",
@@ -207,7 +207,7 @@
       "C": "Aladdin",
       "D": "Prince Charming"
     },
-    "answer": "Peter Pan"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-015",
@@ -222,7 +222,7 @@
       "C": "Getafix",
       "D": "Vitalstatistix"
     },
-    "answer": "Obelix"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-016",
@@ -237,7 +237,7 @@
       "C": "Donald Duck",
       "D": "Goofy"
     },
-    "answer": "Mickey Mouse"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-017",
@@ -252,7 +252,7 @@
       "C": "Carlos Santana",
       "D": "Miguel Hidalgo"
     },
-    "answer": "Diego de la Vega"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-018",
@@ -267,7 +267,7 @@
       "C": "Jiminy Cricket",
       "D": "Stromboli"
     },
-    "answer": "Pinocchio"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-019",
@@ -282,7 +282,7 @@
       "C": "Linguini",
       "D": "Skinner"
     },
-    "answer": "Remy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-020",
@@ -297,7 +297,7 @@
       "C": "A brave knight",
       "D": "Aladdin"
     },
-    "answer": "A brave knight"
+    "answer": "C"
   },
   {
     "id": "heroes-en-easy-021",
@@ -312,7 +312,7 @@
       "C": "Rapunzel",
       "D": "Anna"
     },
-    "answer": "Ariel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-022",
@@ -327,7 +327,7 @@
       "C": "Chihiro",
       "D": "Nausicaä"
     },
-    "answer": "Kiki"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-023",
@@ -342,7 +342,7 @@
       "C": "Will Scarlet",
       "D": "Maid Marian"
     },
-    "answer": "Will Scarlet"
+    "answer": "C"
   },
   {
     "id": "heroes-en-easy-024",
@@ -357,7 +357,7 @@
       "C": "Cricket Joe",
       "D": "Grillo"
     },
-    "answer": "Jiminy Cricket"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-025",
@@ -372,7 +372,7 @@
       "C": "The Fantastic Four",
       "D": "The Supers"
     },
-    "answer": "The Incredibles"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-026",
@@ -387,7 +387,7 @@
       "C": "Sleeping Beauty",
       "D": "Rapunzel"
     },
-    "answer": "Cinderella"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-027",
@@ -402,7 +402,7 @@
       "C": "Obelix",
       "D": "Vitalstatistix"
     },
-    "answer": "Getafix"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-028",
@@ -417,7 +417,7 @@
       "C": "Captain Hook",
       "D": "John"
     },
-    "answer": "Peter Pan"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-029",
@@ -432,7 +432,7 @@
       "C": "Princess Mononoke",
       "D": "My Neighbor Totoro"
     },
-    "answer": "Howl's Moving Castle"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-030",
@@ -447,7 +447,7 @@
       "C": "Camel",
       "D": "Elephant"
     },
-    "answer": "Horse"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-031",
@@ -462,7 +462,7 @@
       "C": "Gepetto",
       "D": "Giuseppe"
     },
-    "answer": "Geppetto"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-032",
@@ -477,7 +477,7 @@
       "C": "Captain B. McCrea",
       "D": "Noah"
     },
-    "answer": "WALL-E"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-033",
@@ -492,7 +492,7 @@
       "C": "Hansel",
       "D": "Bluebeard"
     },
-    "answer": "Puss in Boots"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-034",
@@ -507,7 +507,7 @@
       "C": "Egypt",
       "D": "Britain"
     },
-    "answer": "Gaul"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-035",
@@ -522,7 +522,7 @@
       "C": "Stromboli",
       "D": "Honest John"
     },
-    "answer": "Pinocchio"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-036",
@@ -537,7 +537,7 @@
       "C": "Kiki",
       "D": "Chihiro"
     },
-    "answer": "Nausicaä"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-037",
@@ -552,7 +552,7 @@
       "C": "Rosalind",
       "D": "Eowyn"
     },
-    "answer": "Maid Marian"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-038",
@@ -567,7 +567,7 @@
       "C": "Cinderella",
       "D": "Hercules"
     },
-    "answer": "Pinocchio"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-039",
@@ -582,7 +582,7 @@
       "C": "Russell",
       "D": "Noah"
     },
-    "answer": "Noah"
+    "answer": "D"
   },
   {
     "id": "heroes-en-easy-040",
@@ -597,7 +597,7 @@
       "C": "Snow White",
       "D": "Aurora"
     },
-    "answer": "Cinderella"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-001",
@@ -612,7 +612,7 @@
       "C": "Prince Eric",
       "D": "Flynn Rider"
     },
-    "answer": "Aladdin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-002",
@@ -627,7 +627,7 @@
       "C": "Buster",
       "D": "Al"
     },
-    "answer": "Andy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-003",
@@ -642,7 +642,7 @@
       "C": "My Neighbor Totoro",
       "D": "Kiki's Delivery Service"
     },
-    "answer": "Spirited Away"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-004",
@@ -657,7 +657,7 @@
       "C": "Egyptian Empire",
       "D": "Mongol Empire"
     },
-    "answer": "Roman Empire"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-005",
@@ -672,7 +672,7 @@
       "C": "Will Scarlet",
       "D": "Alan-a-Dale"
     },
-    "answer": "Alan-a-Dale"
+    "answer": "D"
   },
   {
     "id": "heroes-en-medium-006",
@@ -687,7 +687,7 @@
       "C": "Jafar",
       "D": "Abu"
     },
-    "answer": "Aladdin"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-007",
@@ -702,7 +702,7 @@
       "C": "Auto",
       "D": "Shelby"
     },
-    "answer": "WALL-E"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-008",
@@ -717,7 +717,7 @@
       "C": "Mei",
       "D": "Kiki"
     },
-    "answer": "Sophie"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-009",
@@ -732,7 +732,7 @@
       "C": "The Miller's son",
       "D": "The Baker"
     },
-    "answer": "Cinderella's prince"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-010",
@@ -747,7 +747,7 @@
       "C": "Lucky Luke",
       "D": "Blueberry"
     },
-    "answer": "Astérix"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-011",
@@ -762,7 +762,7 @@
       "C": "Flower",
       "D": "Faline"
     },
-    "answer": "Bambi"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-012",
@@ -777,7 +777,7 @@
       "C": "Ernesto",
       "D": "Chicharrón"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-013",
@@ -792,7 +792,7 @@
       "C": "Spirited Away",
       "D": "Howl's Moving Castle"
     },
-    "answer": "Princess Mononoke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-014",
@@ -807,7 +807,7 @@
       "C": "Prince John",
       "D": "King Richard"
     },
-    "answer": "Sheriff of Nottingham"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-015",
@@ -822,7 +822,7 @@
       "C": "Prince Eric",
       "D": "Aladdin"
     },
-    "answer": "Flynn Rider"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-016",
@@ -837,7 +837,7 @@
       "C": "merci",
       "D": "au revoir"
     },
-    "answer": "ami"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-017",
@@ -852,7 +852,7 @@
       "C": "Al",
       "D": "Ken"
     },
-    "answer": "Andy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-018",
@@ -867,7 +867,7 @@
       "C": "Sophie",
       "D": "Kiki"
     },
-    "answer": "San"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-019",
@@ -882,7 +882,7 @@
       "C": "Geppetto",
       "D": "Lampwick"
     },
-    "answer": "Pinocchio"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-020",
@@ -897,7 +897,7 @@
       "C": "King Arthur",
       "D": "Duke of Nottingham"
     },
-    "answer": "King Richard"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-021",
@@ -912,7 +912,7 @@
       "C": "maison",
       "D": "école"
     },
-    "answer": "roi"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-022",
@@ -927,7 +927,7 @@
       "C": "Jasmine",
       "D": "Esmeralda"
     },
-    "answer": "Belle"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-023",
@@ -942,7 +942,7 @@
       "C": "Ernesto",
       "D": "Chicharrón"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-024",
@@ -957,7 +957,7 @@
       "C": "Kiki",
       "D": "Satsuki"
     },
-    "answer": "San"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-025",
@@ -972,7 +972,7 @@
       "C": "Will Scarlet",
       "D": "Much the Miller's Son"
     },
-    "answer": "Little John"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-026",
@@ -987,7 +987,7 @@
       "C": "Aurora",
       "D": "Belle"
     },
-    "answer": "Mulan"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-027",
@@ -1002,7 +1002,7 @@
       "C": "Getafix",
       "D": "Cacofonix"
     },
-    "answer": "Astérix"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-028",
@@ -1017,7 +1017,7 @@
       "C": "Sulley",
       "D": "Boo's brother"
     },
-    "answer": "Boo"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-029",
@@ -1032,7 +1032,7 @@
       "C": "pomme",
       "D": "chat"
     },
-    "answer": "épée"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-030",
@@ -1047,7 +1047,7 @@
       "C": "Prince Charming",
       "D": "Prince Naveen"
     },
-    "answer": "Prince Eric"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-031",
@@ -1062,7 +1062,7 @@
       "C": "Lady Guinevere",
       "D": "Eleanor"
     },
-    "answer": "Maid Marian"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-032",
@@ -1077,7 +1077,7 @@
       "C": "Les Misérables",
       "D": "Le Fantôme"
     },
-    "answer": "Astérix le Gaulois"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-033",
@@ -1092,7 +1092,7 @@
       "C": "Sigurd",
       "D": "Perseus"
     },
-    "answer": "Jack"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-034",
@@ -1107,7 +1107,7 @@
       "C": "Russell",
       "D": "Buster"
     },
-    "answer": "Andy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-035",
@@ -1122,7 +1122,7 @@
       "C": "Kiki's Delivery Service",
       "D": "Ponyo"
     },
-    "answer": "My Neighbor Totoro"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-036",
@@ -1137,7 +1137,7 @@
       "C": "Will Scarlet",
       "D": "Alan-a-Dale"
     },
-    "answer": "Friar Tuck"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-037",
@@ -1152,7 +1152,7 @@
       "C": "Jasmine",
       "D": "Esmeralda"
     },
-    "answer": "Belle"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-038",
@@ -1167,7 +1167,7 @@
       "C": "s'il vous plaît",
       "D": "adieu"
     },
-    "answer": "merci"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-039",
@@ -1182,7 +1182,7 @@
       "C": "Fergus",
       "D": "Angus"
     },
-    "answer": "Merida"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-040",
@@ -1197,7 +1197,7 @@
       "C": "Mei",
       "D": "Kiki"
     },
-    "answer": "Ponyo"
+    "answer": "B"
   },
   {
     "id": "heroes-en-hard-001",
@@ -1212,7 +1212,7 @@
       "C": "Hercules",
       "D": "Tarzan"
     },
-    "answer": "The Lion King"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-002",
@@ -1227,7 +1227,7 @@
       "C": "Nausicaä",
       "D": "Howl's Moving Castle"
     },
-    "answer": "Spirited Away"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-003",
@@ -1242,7 +1242,7 @@
       "C": "Chief",
       "D": "Bard"
     },
-    "answer": "Druid"
+    "answer": "B"
   },
   {
     "id": "heroes-en-hard-004",
@@ -1257,7 +1257,7 @@
       "C": "Sir Guy of Gisbourne",
       "D": "Friar Tuck"
     },
-    "answer": "Sir Guy of Gisbourne"
+    "answer": "C"
   },
   {
     "id": "heroes-en-hard-005",
@@ -1272,7 +1272,7 @@
       "C": "Jafar",
       "D": "Abu"
     },
-    "answer": "Aladdin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-006",
@@ -1287,7 +1287,7 @@
       "C": "Ernesto",
       "D": "Chicharrón"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-007",
@@ -1302,7 +1302,7 @@
       "C": "Nausicaä",
       "D": "Chihiro"
     },
-    "answer": "Nausicaä"
+    "answer": "C"
   },
   {
     "id": "heroes-en-hard-008",
@@ -1317,7 +1317,7 @@
       "C": "Tintin and Snowy",
       "D": "Lucky Luke and Jolly Jumper"
     },
-    "answer": "Astérix and Obelix"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-009",
@@ -1332,7 +1332,7 @@
       "C": "Earl of Huntingdon",
       "D": "King John"
     },
-    "answer": "Earl of Huntingdon"
+    "answer": "C"
   },
   {
     "id": "heroes-en-hard-010",
@@ -1347,7 +1347,7 @@
       "C": "Prince Charming",
       "D": "Prince Ali"
     },
-    "answer": "Prince Ali"
+    "answer": "D"
   },
   {
     "id": "heroes-en-hard-011",
@@ -1362,7 +1362,7 @@
       "C": "Fergus",
       "D": "Angus"
     },
-    "answer": "Merida"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-012",
@@ -1377,7 +1377,7 @@
       "C": "Ponyo",
       "D": "My Neighbor Totoro"
     },
-    "answer": "Howl's Moving Castle"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-013",
@@ -1392,7 +1392,7 @@
       "C": "bonjour",
       "D": "maison"
     },
-    "answer": "chevalier"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-014",
@@ -1407,7 +1407,7 @@
       "C": "Medieval",
       "D": "Romantic"
     },
-    "answer": "Medieval"
+    "answer": "C"
   },
   {
     "id": "heroes-en-hard-015",
@@ -1422,7 +1422,7 @@
       "C": "Nick Wilde",
       "D": "Tod"
     },
-    "answer": "Robin Hood"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-016",
@@ -1437,7 +1437,7 @@
       "C": "Finding Nemo",
       "D": "Up"
     },
-    "answer": "The Incredibles"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-017",
@@ -1452,7 +1452,7 @@
       "C": "Mei",
       "D": "Chihiro"
     },
-    "answer": "Kiki"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-018",
@@ -1467,7 +1467,7 @@
       "C": "Astérix et Obélix",
       "D": "Les Aventures d'Astérix"
     },
-    "answer": "Astérix le Gaulois"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-019",
@@ -1482,7 +1482,7 @@
       "C": "Courtly lover",
       "D": "Reluctant king"
     },
-    "answer": "Noble outlaw"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-020",
@@ -1497,7 +1497,7 @@
       "C": "Simba",
       "D": "Tarzan"
     },
-    "answer": "Hercules"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-041",
@@ -1512,7 +1512,7 @@
       "C": "Anna",
       "D": "Rapunzel"
     },
-    "answer": "Moana"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-042",
@@ -1527,7 +1527,7 @@
       "C": "Fiona",
       "D": "Puss in Boots"
     },
-    "answer": "Shrek"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-043",
@@ -1542,7 +1542,7 @@
       "C": "Mulan",
       "D": "Merida"
     },
-    "answer": "Rapunzel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-044",
@@ -1557,7 +1557,7 @@
       "C": "Snotlout",
       "D": "Ruffnut"
     },
-    "answer": "Hiccup"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-045",
@@ -1572,7 +1572,7 @@
       "C": "The Pilot",
       "D": "The Rose"
     },
-    "answer": "The Little Prince"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-046",
@@ -1587,7 +1587,7 @@
       "C": "Manny",
       "D": "Elmer"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-047",
@@ -1602,7 +1602,7 @@
       "C": "Tigress",
       "D": "Monkey"
     },
-    "answer": "Po"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-048",
@@ -1617,7 +1617,7 @@
       "C": "Asterix",
       "D": "Babar"
     },
-    "answer": "Tintin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-049",
@@ -1632,7 +1632,7 @@
       "C": "Blueberry",
       "D": "Lucky Dan"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-050",
@@ -1647,7 +1647,7 @@
       "C": "Olaf",
       "D": "Hans"
     },
-    "answer": "Elsa"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-051",
@@ -1662,7 +1662,7 @@
       "C": "Fiona",
       "D": "Gingy"
     },
-    "answer": "Donkey"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-052",
@@ -1677,7 +1677,7 @@
       "C": "Tiana",
       "D": "Rapunzel"
     },
-    "answer": "Merida"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-053",
@@ -1692,7 +1692,7 @@
       "C": "Donkey",
       "D": "Fiona"
     },
-    "answer": "Puss in Boots"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-054",
@@ -1707,7 +1707,7 @@
       "C": "The Businessman",
       "D": "The Lamplighter"
     },
-    "answer": "The Pilot"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-055",
@@ -1722,7 +1722,7 @@
       "C": "Flora",
       "D": "Bella"
     },
-    "answer": "Celeste"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-056",
@@ -1737,7 +1737,7 @@
       "C": "Rapunzel",
       "D": "Moana"
     },
-    "answer": "Anna"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-057",
@@ -1752,7 +1752,7 @@
       "C": "Baby Ogre",
       "D": "None of these"
     },
-    "answer": "None of these"
+    "answer": "D"
   },
   {
     "id": "heroes-en-easy-058",
@@ -1767,7 +1767,7 @@
       "C": "Milou",
       "D": "Rex"
     },
-    "answer": "Snowy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-059",
@@ -1782,7 +1782,7 @@
       "C": "Babar",
       "D": "Astérix"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-060",
@@ -1797,7 +1797,7 @@
       "C": "Merida",
       "D": "Anna"
     },
-    "answer": "Moana"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-061",
@@ -1812,7 +1812,7 @@
       "C": "Stoick",
       "D": "Snotlout"
     },
-    "answer": "Hiccup"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-062",
@@ -1827,7 +1827,7 @@
       "C": "The Rose",
       "D": "The Sheep"
     },
-    "answer": "The Fox"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-063",
@@ -1842,7 +1842,7 @@
       "C": "Cornelius",
       "D": "Pompadour"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-064",
@@ -1857,7 +1857,7 @@
       "C": "Gretel",
       "D": "None of these"
     },
-    "answer": "Astrid"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-065",
@@ -1872,7 +1872,7 @@
       "C": "Hot air balloon",
       "D": "All of these"
     },
-    "answer": "All of these"
+    "answer": "D"
   },
   {
     "id": "heroes-en-easy-066",
@@ -1887,7 +1887,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-067",
@@ -1902,7 +1902,7 @@
       "C": "Anna",
       "D": "Rapunzel"
     },
-    "answer": "Merida"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-068",
@@ -1917,7 +1917,7 @@
       "C": "Shrek",
       "D": "Puss in Boots"
     },
-    "answer": "Gingy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-069",
@@ -1932,7 +1932,7 @@
       "C": "The Sheep",
       "D": "The Well"
     },
-    "answer": "The Rose"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-070",
@@ -1947,7 +1947,7 @@
       "C": "Arthur",
       "D": "Celeste"
     },
-    "answer": "Cornelius"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-071",
@@ -1962,7 +1962,7 @@
       "C": "Moana",
       "D": "Merida"
     },
-    "answer": "Elsa"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-072",
@@ -1977,7 +1977,7 @@
       "C": "Donkey",
       "D": "Shrek"
     },
-    "answer": "Gingy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-073",
@@ -1992,7 +1992,7 @@
       "C": "Babar",
       "D": "Astérix"
     },
-    "answer": "Tintin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-074",
@@ -2007,7 +2007,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-075",
@@ -2022,7 +2022,7 @@
       "C": "The King",
       "D": "The Businessman"
     },
-    "answer": "The Little Prince"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-076",
@@ -2037,7 +2037,7 @@
       "C": "Cornelius",
       "D": "Pompadour"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-077",
@@ -2052,7 +2052,7 @@
       "C": "Ruffnut",
       "D": "Tuffnut"
     },
-    "answer": "Astrid"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-078",
@@ -2067,7 +2067,7 @@
       "C": "Ariel",
       "D": "Tiana"
     },
-    "answer": "Rapunzel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-079",
@@ -2082,7 +2082,7 @@
       "C": "Babar",
       "D": "Astérix"
     },
-    "answer": "Tintin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-080",
@@ -2097,7 +2097,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-041",
@@ -2112,7 +2112,7 @@
       "C": "Merida",
       "D": "Rapunzel"
     },
-    "answer": "Moana"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-042",
@@ -2127,7 +2127,7 @@
       "C": "Prince Charming",
       "D": "Rumpelstiltskin"
     },
-    "answer": "Shrek"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-043",
@@ -2142,7 +2142,7 @@
       "C": "ville",
       "D": "forêt"
     },
-    "answer": "planète"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-044",
@@ -2157,7 +2157,7 @@
       "C": "Cornelius",
       "D": "Pompadour"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-045",
@@ -2172,7 +2172,7 @@
       "C": "Monkey",
       "D": "Mantis"
     },
-    "answer": "Po"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-046",
@@ -2187,7 +2187,7 @@
       "C": "Rapunzel",
       "D": "Moana"
     },
-    "answer": "Elsa"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-047",
@@ -2202,7 +2202,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Tintin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-048",
@@ -2217,7 +2217,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-049",
@@ -2232,7 +2232,7 @@
       "C": "roi",
       "D": "maison"
     },
-    "answer": "ami"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-050",
@@ -2247,7 +2247,7 @@
       "C": "Lucky Luke",
       "D": "Astérix"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-051",
@@ -2262,7 +2262,7 @@
       "C": "Donkey",
       "D": "Gingy"
     },
-    "answer": "Puss in Boots"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-052",
@@ -2277,7 +2277,7 @@
       "C": "Rapunzel",
       "D": "Belle"
     },
-    "answer": "Tiana"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-053",
@@ -2292,7 +2292,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Tintin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-054",
@@ -2307,7 +2307,7 @@
       "C": "Babar",
       "D": "Astérix"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-055",
@@ -2322,7 +2322,7 @@
       "C": "La Petite Planète",
       "D": "Le Voyageur"
     },
-    "answer": "Le Petit Prince"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-056",
@@ -2337,7 +2337,7 @@
       "C": "Lucky Luke",
       "D": "Astérix"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-057",
@@ -2352,7 +2352,7 @@
       "C": "Snotlout",
       "D": "Fishlegs"
     },
-    "answer": "Hiccup"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-058",
@@ -2367,7 +2367,7 @@
       "C": "Tiana",
       "D": "Rapunzel"
     },
-    "answer": "Merida"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-059",
@@ -2382,7 +2382,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Tintin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-060",
@@ -2397,7 +2397,7 @@
       "C": "Babar's steed",
       "D": "Astérix's horse"
     },
-    "answer": "Lucky Luke's Jolly Jumper"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-061",
@@ -2412,7 +2412,7 @@
       "C": "arbre",
       "D": "étoile"
     },
-    "answer": "fleur"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-062",
@@ -2427,7 +2427,7 @@
       "C": "Lucky Luke",
       "D": "Astérix"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-063",
@@ -2442,7 +2442,7 @@
       "C": "Prince Charming",
       "D": "Rumpelstiltskin"
     },
-    "answer": "Shrek"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-064",
@@ -2457,7 +2457,7 @@
       "C": "Anna",
       "D": "Tiana"
     },
-    "answer": "Moana"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-065",
@@ -2472,7 +2472,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Tintin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-066",
@@ -2487,7 +2487,7 @@
       "C": "Babar",
       "D": "Astérix"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-067",
@@ -2502,7 +2502,7 @@
       "C": "lune",
       "D": "ciel"
     },
-    "answer": "étoile"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-068",
@@ -2517,7 +2517,7 @@
       "C": "Lucky Luke",
       "D": "Astérix"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-069",
@@ -2532,7 +2532,7 @@
       "C": "Donkey",
       "D": "Gingy"
     },
-    "answer": "Puss in Boots"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-070",
@@ -2547,7 +2547,7 @@
       "C": "Anna",
       "D": "Merida"
     },
-    "answer": "Moana"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-071",
@@ -2562,7 +2562,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Tintin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-072",
@@ -2577,7 +2577,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-073",
@@ -2592,7 +2592,7 @@
       "C": "Le Petit Voyage",
       "D": "L'Astéroïde"
     },
-    "answer": "Le Petit Prince"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-074",
@@ -2607,7 +2607,7 @@
       "C": "Lucky Luke",
       "D": "Astérix"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-075",
@@ -2622,7 +2622,7 @@
       "C": "Hiccup",
       "D": "Puss in Boots"
     },
-    "answer": "Po"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-076",
@@ -2637,7 +2637,7 @@
       "C": "Frozen",
       "D": "Brave"
     },
-    "answer": "Moana"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-077",
@@ -2652,7 +2652,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Tintin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-078",
@@ -2667,7 +2667,7 @@
       "C": "Babar",
       "D": "Astérix"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-079",
@@ -2682,7 +2682,7 @@
       "C": "aviateur",
       "D": "marin"
     },
-    "answer": "aviateur"
+    "answer": "C"
   },
   {
     "id": "heroes-en-medium-080",
@@ -2697,7 +2697,7 @@
       "C": "Lucky Luke",
       "D": "Astérix"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-021",
@@ -2712,7 +2712,7 @@
       "C": "Raya and the Last Dragon",
       "D": "None of these"
     },
-    "answer": "None of these"
+    "answer": "D"
   },
   {
     "id": "heroes-en-hard-022",
@@ -2727,7 +2727,7 @@
       "C": "Fiona",
       "D": "Puss in Boots"
     },
-    "answer": "Shrek"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-023",
@@ -2742,7 +2742,7 @@
       "C": "La Petite Étoile",
       "D": "L'Astéroïde B612"
     },
-    "answer": "Le Petit Prince"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-024",
@@ -2757,7 +2757,7 @@
       "C": "Lucky Luke",
       "D": "Astérix"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-025",
@@ -2772,7 +2772,7 @@
       "C": "Snotlout",
       "D": "Eret"
     },
-    "answer": "Hiccup"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-026",
@@ -2787,7 +2787,7 @@
       "C": "Tangled",
       "D": "Raya and the Last Dragon"
     },
-    "answer": "Moana"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-027",
@@ -2802,7 +2802,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Tintin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-028",
@@ -2817,7 +2817,7 @@
       "C": "Babar",
       "D": "Astérix"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-029",
@@ -2832,7 +2832,7 @@
       "C": "étoile",
       "D": "roche"
     },
-    "answer": "astéroïde"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-030",
@@ -2847,7 +2847,7 @@
       "C": "Lucky Luke",
       "D": "Astérix"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-031",
@@ -2862,7 +2862,7 @@
       "C": "Tai Lung",
       "D": "Oogway"
     },
-    "answer": "Po"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-032",
@@ -2877,7 +2877,7 @@
       "C": "Moana",
       "D": "Merida"
     },
-    "answer": "Elsa"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-033",
@@ -2892,7 +2892,7 @@
       "C": "Babar",
       "D": "Blueberry"
     },
-    "answer": "Tintin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-034",
@@ -2907,7 +2907,7 @@
       "C": "Babar",
       "D": "Astérix"
     },
-    "answer": "Lucky Luke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-035",
@@ -2922,7 +2922,7 @@
       "C": "La Rose et l'Étoile",
       "D": "L'Aviateur et l'Enfant"
     },
-    "answer": "Le Petit Prince"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-036",
@@ -2937,7 +2937,7 @@
       "C": "Lucky Luke",
       "D": "Astérix"
     },
-    "answer": "Babar"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-037",
@@ -2952,7 +2952,7 @@
       "C": "Snotlout",
       "D": "Eret"
     },
-    "answer": "Hiccup"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-038",
@@ -2967,7 +2967,7 @@
       "C": "Tangled",
       "D": "Raya and the Last Dragon"
     },
-    "answer": "Moana"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-039",
@@ -2982,7 +2982,7 @@
       "C": "bouton",
       "D": "pétale"
     },
-    "answer": "fleur"
+    "answer": "B"
   },
   {
     "id": "heroes-en-hard-040",
@@ -2997,7 +2997,7 @@
       "C": "Rogue",
       "D": "Merchant"
     },
-    "answer": "Knight-errant"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-081",
@@ -3012,7 +3012,7 @@
       "C": "The Tiny Titans",
       "D": "The Mini Heroes"
     },
-    "answer": "The Powerpuff Girls"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-082",
@@ -3027,7 +3027,7 @@
       "C": "Squidward Tentacles",
       "D": "Mr. Krabs"
     },
-    "answer": "SpongeBob SquarePants"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-083",
@@ -3042,7 +3042,7 @@
       "C": "Optimus Prime",
       "D": "Gundam"
     },
-    "answer": "Voltron"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-084",
@@ -3057,7 +3057,7 @@
       "C": "Max",
       "D": "Shadow"
     },
-    "answer": "Balto"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-085",
@@ -3072,7 +3072,7 @@
       "C": "Scooter",
       "D": "Snoopy"
     },
-    "answer": "Scooby-Doo"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-086",
@@ -3087,7 +3087,7 @@
       "C": "Buttercup",
       "D": "Bella"
     },
-    "answer": "Blossom"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-087",
@@ -3102,7 +3102,7 @@
       "C": "Mr. Krabs",
       "D": "Plankton"
     },
-    "answer": "Patrick Star"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-088",
@@ -3117,7 +3117,7 @@
       "C": "Buck Rogers",
       "D": "Space Ranger Sam"
     },
-    "answer": "Flash Gordon"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-089",
@@ -3132,7 +3132,7 @@
       "C": "Jerry",
       "D": "Remy"
     },
-    "answer": "Stuart Little"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-090",
@@ -3147,7 +3147,7 @@
       "C": "Sylvester and Tweety",
       "D": "Itchy and Scratchy"
     },
-    "answer": "Tom and Jerry"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-091",
@@ -3162,7 +3162,7 @@
       "C": "Buttercup",
       "D": "Bella"
     },
-    "answer": "Bubbles"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-092",
@@ -3177,7 +3177,7 @@
       "C": "Karen Plankton",
       "D": "Mrs. Puff"
     },
-    "answer": "Sandy Cheeks"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-093",
@@ -3192,7 +3192,7 @@
       "C": "Commander Nova",
       "D": "Lieutenant Rocket"
     },
-    "answer": "Buzz Lightyear"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-094",
@@ -3207,7 +3207,7 @@
       "C": "Mickey Mouse",
       "D": "Remy"
     },
-    "answer": "Despereaux"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-095",
@@ -3222,7 +3222,7 @@
       "C": "Donatello",
       "D": "Raphael"
     },
-    "answer": "Leonardo"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-096",
@@ -3237,7 +3237,7 @@
       "C": "Bubbles",
       "D": "Buffy"
     },
-    "answer": "Buttercup"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-097",
@@ -3252,7 +3252,7 @@
       "C": "Marlin",
       "D": "Dory"
     },
-    "answer": "Ponyo"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-098",
@@ -3267,7 +3267,7 @@
       "C": "Jimmy Neutron",
       "D": "Astro Boy"
     },
-    "answer": "Buck Rogers"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-099",
@@ -3282,7 +3282,7 @@
       "C": "Fox and Hound",
       "D": "Foxy and Houndy"
     },
-    "answer": "Tod and Copper"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-100",
@@ -3297,7 +3297,7 @@
       "C": "Donatello",
       "D": "Raphael"
     },
-    "answer": "Michelangelo"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-101",
@@ -3312,7 +3312,7 @@
       "C": "Mini-Man",
       "D": "Captain Tiny"
     },
-    "answer": "The Tick"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-102",
@@ -3327,7 +3327,7 @@
       "C": "Marlin",
       "D": "Gill"
     },
-    "answer": "Nemo"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-103",
@@ -3342,7 +3342,7 @@
       "C": "Optimus Prime",
       "D": "Mega Man"
     },
-    "answer": "The Iron Giant"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-104",
@@ -3357,7 +3357,7 @@
       "C": "Bambi",
       "D": "Peter Rabbit"
     },
-    "answer": "Judy Hopps"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-105",
@@ -3372,7 +3372,7 @@
       "C": "Aslan",
       "D": "Simba"
     },
-    "answer": "Lion-O"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-106",
@@ -3387,7 +3387,7 @@
       "C": "Kim Possible",
       "D": "Static Shock"
     },
-    "answer": "Ben 10"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-107",
@@ -3402,7 +3402,7 @@
       "C": "Marina",
       "D": "Coral"
     },
-    "answer": "Ariel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-108",
@@ -3417,7 +3417,7 @@
       "C": "Phineas",
       "D": "Gordon"
     },
-    "answer": "Jimmy Neutron"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-109",
@@ -3432,7 +3432,7 @@
       "C": "Bolt",
       "D": "Snoopy"
     },
-    "answer": "Astro"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-110",
@@ -3447,7 +3447,7 @@
       "C": "Mulan",
       "D": "Prince of Persia"
     },
-    "answer": "Samurai Jack"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-111",
@@ -3462,7 +3462,7 @@
       "C": "Sailor Moon",
       "D": "Korra"
     },
-    "answer": "Kim Possible"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-112",
@@ -3477,7 +3477,7 @@
       "C": "Marlin",
       "D": "Dory"
     },
-    "answer": "Ponyo"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-113",
@@ -3492,7 +3492,7 @@
       "C": "Flash Gordon",
       "D": "Buck Rogers"
     },
-    "answer": "Jonny Quest"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-114",
@@ -3507,7 +3507,7 @@
       "C": "Bolt",
       "D": "Snoopy"
     },
-    "answer": "Balto"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-115",
@@ -3522,7 +3522,7 @@
       "C": "Daffy Duck",
       "D": "Howard the Duck"
     },
-    "answer": "Darkwing Duck"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-116",
@@ -3537,7 +3537,7 @@
       "C": "Jimmy Neutron",
       "D": "Dexter"
     },
-    "answer": "Danny Phantom"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-117",
@@ -3552,7 +3552,7 @@
       "C": "Marlin",
       "D": "Gill"
     },
-    "answer": "Dory"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-118",
@@ -3567,7 +3567,7 @@
       "C": "WALL-E",
       "D": "Robo"
     },
-    "answer": "Astro Boy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-119",
@@ -3582,7 +3582,7 @@
       "C": "Mickey Mouse",
       "D": "Jerry"
     },
-    "answer": "Remy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-120",
@@ -3597,7 +3597,7 @@
       "C": "Lance",
       "D": "Pidge"
     },
-    "answer": "Keith"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-081",
@@ -3612,7 +3612,7 @@
       "C": "Kim Possible",
       "D": "The Tick"
     },
-    "answer": "Danny Phantom"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-082",
@@ -3627,7 +3627,7 @@
       "C": "Bubbles",
       "D": "Flounder"
     },
-    "answer": "Dory"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-083",
@@ -3642,7 +3642,7 @@
       "C": "Jonny Quest",
       "D": "Buck Rogers"
     },
-    "answer": "Flash Gordon"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-084",
@@ -3657,7 +3657,7 @@
       "C": "Remy",
       "D": "Mickey"
     },
-    "answer": "Despereaux"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-085",
@@ -3672,7 +3672,7 @@
       "C": "Michelangelo",
       "D": "Raphael"
     },
-    "answer": "Donatello"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-086",
@@ -3687,7 +3687,7 @@
       "C": "Captain Amazing",
       "D": "Mighty Mouse"
     },
-    "answer": "The Tick"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-087",
@@ -3702,7 +3702,7 @@
       "C": "Sandy Cheeks",
       "D": "Pearl"
     },
-    "answer": "Mr. Krabs"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-088",
@@ -3717,7 +3717,7 @@
       "C": "Phineas Flynn",
       "D": "Astro Boy"
     },
-    "answer": "Jimmy Neutron"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-089",
@@ -3732,7 +3732,7 @@
       "C": "Pluto",
       "D": "Snoopy"
     },
-    "answer": "Bolt"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-090",
@@ -3747,7 +3747,7 @@
       "C": "Nancy Drew",
       "D": "The Three Investigators"
     },
-    "answer": "Scooby-Doo and the gang"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-091",
@@ -3762,7 +3762,7 @@
       "C": "Sailor Moon",
       "D": "Korra"
     },
-    "answer": "Kim Possible"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-092",
@@ -3777,7 +3777,7 @@
       "C": "Chef Louis",
       "D": "Captain"
     },
-    "answer": "Mr. Krabs"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-093",
@@ -3792,7 +3792,7 @@
       "C": "Optimus Prime",
       "D": "Gundam"
     },
-    "answer": "Voltron"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-094",
@@ -3807,7 +3807,7 @@
       "C": "Nick Wilde",
       "D": "Foxy"
     },
-    "answer": "Tod"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-095",
@@ -3822,7 +3822,7 @@
       "C": "Phineas Flynn",
       "D": "Jimmy Olsen"
     },
-    "answer": "Jimmy Neutron"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-096",
@@ -3837,7 +3837,7 @@
       "C": "The Tick",
       "D": "Static Shock"
     },
-    "answer": "Ben 10"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-097",
@@ -3852,7 +3852,7 @@
       "C": "Captain Ahab",
       "D": "Captain Barnacles"
     },
-    "answer": "Captain Nemo"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-098",
@@ -3867,7 +3867,7 @@
       "C": "R2-D2",
       "D": "BB-8"
     },
-    "answer": "WALL-E"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-099",
@@ -3882,7 +3882,7 @@
       "C": "Despereaux",
       "D": "Mickey"
     },
-    "answer": "Stuart Little"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-100",
@@ -3897,7 +3897,7 @@
       "C": "Mighty Mouse",
       "D": "Captain Amazing"
     },
-    "answer": "The Tick"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-101",
@@ -3912,7 +3912,7 @@
       "C": "Kim Possible",
       "D": "Korra"
     },
-    "answer": "Sailor Moon"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-102",
@@ -3927,7 +3927,7 @@
       "C": "Marina",
       "D": "Ondine"
     },
-    "answer": "Ariel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-103",
@@ -3942,7 +3942,7 @@
       "C": "Jonny Quest",
       "D": "Buck Rogers"
     },
-    "answer": "Amuro Ray"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-104",
@@ -3957,7 +3957,7 @@
       "C": "Thumper",
       "D": "Benjamin Bunny"
     },
-    "answer": "Peter Rabbit"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-105",
@@ -3972,7 +3972,7 @@
       "C": "Lance",
       "D": "Pidge"
     },
-    "answer": "Keith (Voltron leader)"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-106",
@@ -3987,7 +3987,7 @@
       "C": "Kim Possible",
       "D": "Korra"
     },
-    "answer": "Sailor Moon"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-107",
@@ -4002,7 +4002,7 @@
       "C": "Marlin",
       "D": "Gill"
     },
-    "answer": "Nemo"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-108",
@@ -4017,7 +4017,7 @@
       "C": "Flash Gordon",
       "D": "Buck Rogers"
     },
-    "answer": "Jonny Quest"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-109",
@@ -4032,7 +4032,7 @@
       "C": "Robin Hood",
       "D": "Foxy"
     },
-    "answer": "Nick Wilde"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-110",
@@ -4047,7 +4047,7 @@
       "C": "Phineas Flynn",
       "D": "Jimmy Olsen"
     },
-    "answer": "Jimmy Neutron"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-111",
@@ -4058,7 +4058,7 @@
       "C": "Perseus",
       "D": "Achilles"
     },
-    "answer": "Jason",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -4073,7 +4073,7 @@
       "C": "Gawain",
       "D": "Percival"
     },
-    "answer": "King Arthur",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -4088,7 +4088,7 @@
       "C": "Beowulf",
       "D": "Loki"
     },
-    "answer": "Sigurd",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -4103,7 +4103,7 @@
       "C": "Hammurabi",
       "D": "Nebuchadnezzar"
     },
-    "answer": "Gilgamesh",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -4118,7 +4118,7 @@
       "C": "A magical pearl",
       "D": "An enchanted sail"
     },
-    "answer": "Te Fiti's heart",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -4133,7 +4133,7 @@
       "C": "Urashima Taro",
       "D": "Issun-boshi"
     },
-    "answer": "Momotaro",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -4148,7 +4148,7 @@
       "C": "Jill",
       "D": "Polly"
     },
-    "answer": "Lucy",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -4163,7 +4163,7 @@
       "C": "Mansa Musa",
       "D": "Cetshwayo"
     },
-    "answer": "Shaka",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -4178,7 +4178,7 @@
       "C": "She finds a magic rose",
       "D": "She reads an enchanted book"
     },
-    "answer": "She learns to love beyond appearances",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -4193,7 +4193,7 @@
       "C": "Coyote",
       "D": "Raven"
     },
-    "answer": "Anansi",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -4212,7 +4212,7 @@
       "C": "The Super Friends",
       "D": "The Little Heroes"
     },
-    "answer": "The Powerpuff Girls"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-042",
@@ -4227,7 +4227,7 @@
       "C": "Marlin",
       "D": "Gill"
     },
-    "answer": "Dory"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-043",
@@ -4242,7 +4242,7 @@
       "C": "Pidge",
       "D": "Hunk"
     },
-    "answer": "Keith"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-044",
@@ -4257,7 +4257,7 @@
       "C": "Snoopy",
       "D": "Pluto"
     },
-    "answer": "Balto"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-045",
@@ -4272,7 +4272,7 @@
       "C": "Daffy Duck",
       "D": "Howard the Duck"
     },
-    "answer": "Darkwing Duck"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-046",
@@ -4287,7 +4287,7 @@
       "C": "Jimmy Neutron",
       "D": "The Tick"
     },
-    "answer": "Ben 10"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-047",
@@ -4302,7 +4302,7 @@
       "C": "Finding Nemo",
       "D": "Ponyo"
     },
-    "answer": "SpongeBob SquarePants"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-048",
@@ -4317,7 +4317,7 @@
       "C": "Jonny Quest",
       "D": "Astro Boy"
     },
-    "answer": "Jimmy Neutron"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-049",
@@ -4332,7 +4332,7 @@
       "C": "Thumper",
       "D": "Benjamin Bunny"
     },
-    "answer": "Judy Hopps"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-050",
@@ -4347,7 +4347,7 @@
       "C": "Prince of Persia",
       "D": "Mulan"
     },
-    "answer": "Samurai Jack"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-051",
@@ -4362,7 +4362,7 @@
       "C": "Mighty Mouse",
       "D": "Captain Amazing"
     },
-    "answer": "The Tick"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-052",
@@ -4377,7 +4377,7 @@
       "C": "Ponyo",
       "D": "The SpongeBob Movie"
     },
-    "answer": "Finding Nemo"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-053",
@@ -4392,7 +4392,7 @@
       "C": "WALL-E",
       "D": "RoboCop"
     },
-    "answer": "Astro Boy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-054",
@@ -4407,7 +4407,7 @@
       "C": "Despereaux",
       "D": "Mickey"
     },
-    "answer": "Remy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-055",
@@ -4422,7 +4422,7 @@
       "C": "ThunderCats",
       "D": "G.I. Joe"
     },
-    "answer": "Teenage Mutant Ninja Turtles"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-056",
@@ -4437,7 +4437,7 @@
       "C": "She-Ra",
       "D": "Korra"
     },
-    "answer": "Kim Possible"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-057",
@@ -4452,7 +4452,7 @@
       "C": "The Little Mermaid",
       "D": "Ponyo"
     },
-    "answer": "SpongeBob SquarePants"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-058",
@@ -4467,7 +4467,7 @@
       "C": "WALL-E",
       "D": "Optimus Prime"
     },
-    "answer": "The Iron Giant"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-059",
@@ -4482,7 +4482,7 @@
       "C": "Robin Hood",
       "D": "Foxy"
     },
-    "answer": "Nick Wilde"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-060",
@@ -4497,7 +4497,7 @@
       "C": "Daffy Duck",
       "D": "Howard the Duck"
     },
-    "answer": "Darkwing Duck"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-121",
@@ -4512,7 +4512,7 @@
       "C": "Theseus",
       "D": "Odysseus"
     },
-    "answer": "Hercules"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-122",
@@ -4527,7 +4527,7 @@
       "C": "Odin",
       "D": "Freyr"
     },
-    "answer": "Thor"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-123",
@@ -4542,7 +4542,7 @@
       "C": "Ponyo",
       "D": "Kiki's Delivery Service"
     },
-    "answer": "My Neighbor Totoro"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-124",
@@ -4557,7 +4557,7 @@
       "C": "Pablo",
       "D": "Carlos"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-125",
@@ -4572,7 +4572,7 @@
       "C": "Ben Gunn",
       "D": "Dr. Livesey"
     },
-    "answer": "Jim Hawkins"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-126",
@@ -4587,7 +4587,7 @@
       "C": "Perseus",
       "D": "Jason"
     },
-    "answer": "Theseus"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-127",
@@ -4602,7 +4602,7 @@
       "C": "Heimdall",
       "D": "Tyr"
     },
-    "answer": "Odin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-128",
@@ -4617,7 +4617,7 @@
       "C": "Chihiro",
       "D": "Nausicaä"
     },
-    "answer": "Kiki"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-129",
@@ -4632,7 +4632,7 @@
       "C": "Diego",
       "D": "Santiago"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-130",
@@ -4647,7 +4647,7 @@
       "C": "Gulliver",
       "D": "Jim Hawkins"
     },
-    "answer": "Robinson Crusoe"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-131",
@@ -4662,7 +4662,7 @@
       "C": "Theseus",
       "D": "Jason"
     },
-    "answer": "Perseus"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-132",
@@ -4677,7 +4677,7 @@
       "C": "Odin",
       "D": "Baldur"
     },
-    "answer": "Loki"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-133",
@@ -4692,7 +4692,7 @@
       "C": "Ponyo",
       "D": "Howl's Moving Castle"
     },
-    "answer": "Spirited Away"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-134",
@@ -4707,7 +4707,7 @@
       "C": "Ernesto",
       "D": "Chicharrón"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-135",
@@ -4722,7 +4722,7 @@
       "C": "Jim Hawkins",
       "D": "Long John Silver"
     },
-    "answer": "Lemuel Gulliver"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-136",
@@ -4737,7 +4737,7 @@
       "C": "Theseus",
       "D": "Hercules"
     },
-    "answer": "Jason"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-137",
@@ -4752,7 +4752,7 @@
       "C": "Odin",
       "D": "Thor"
     },
-    "answer": "Heimdall"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-138",
@@ -4767,7 +4767,7 @@
       "C": "Ponyo",
       "D": "My Neighbor Totoro"
     },
-    "answer": "Howl's Moving Castle"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-139",
@@ -4782,7 +4782,7 @@
       "C": "Diego",
       "D": "Santiago"
     },
-    "answer": "Miguel"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-140",
@@ -4797,7 +4797,7 @@
       "C": "Dr. Livesey",
       "D": "Captain Smollett"
     },
-    "answer": "Jim Hawkins"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-141",
@@ -4812,7 +4812,7 @@
       "C": "Jason",
       "D": "Theseus"
     },
-    "answer": "Hercules"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-142",
@@ -4827,7 +4827,7 @@
       "C": "Loki",
       "D": "Odin"
     },
-    "answer": "Baldur"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-143",
@@ -4842,7 +4842,7 @@
       "C": "Kiki",
       "D": "Sophie"
     },
-    "answer": "Satsuki"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-144",
@@ -4857,7 +4857,7 @@
       "C": "Pablo",
       "D": "Carlos"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-145",
@@ -4872,7 +4872,7 @@
       "C": "Jim Hawkins",
       "D": "Long John Silver"
     },
-    "answer": "Robinson Crusoe"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-146",
@@ -4887,7 +4887,7 @@
       "C": "Theseus",
       "D": "Odysseus"
     },
-    "answer": "Hercules"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-147",
@@ -4902,7 +4902,7 @@
       "C": "Odin",
       "D": "Loki"
     },
-    "answer": "Tyr"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-148",
@@ -4917,7 +4917,7 @@
       "C": "Ponyo",
       "D": "My Neighbor Totoro"
     },
-    "answer": "Howl's Moving Castle"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-149",
@@ -4932,7 +4932,7 @@
       "C": "Pablo",
       "D": "Santiago"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-150",
@@ -4947,7 +4947,7 @@
       "C": "Jim Hawkins",
       "D": "Long John Silver"
     },
-    "answer": "Gulliver"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-151",
@@ -4962,7 +4962,7 @@
       "C": "Hercules",
       "D": "Theseus"
     },
-    "answer": "Perseus"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-152",
@@ -4977,7 +4977,7 @@
       "C": "Loki",
       "D": "Heimdall"
     },
-    "answer": "Odin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-153",
@@ -4992,7 +4992,7 @@
       "C": "My Neighbor Totoro",
       "D": "Kiki's Delivery Service"
     },
-    "answer": "Ponyo"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-154",
@@ -5007,7 +5007,7 @@
       "C": "Pablo",
       "D": "Santiago"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-155",
@@ -5022,7 +5022,7 @@
       "C": "Gulliver's Travels",
       "D": "The Swiss Family Robinson"
     },
-    "answer": "Treasure Island"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-156",
@@ -5037,7 +5037,7 @@
       "C": "Perseus",
       "D": "Jason"
     },
-    "answer": "Odysseus"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-157",
@@ -5052,7 +5052,7 @@
       "C": "Thor",
       "D": "Tyr"
     },
-    "answer": "Loki"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-158",
@@ -5067,7 +5067,7 @@
       "C": "Kiki",
       "D": "Nausicaä"
     },
-    "answer": "Sophie"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-159",
@@ -5082,7 +5082,7 @@
       "C": "Pablo",
       "D": "Santiago"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-160",
@@ -5097,7 +5097,7 @@
       "C": "Dr. Livesey",
       "D": "Long John Silver"
     },
-    "answer": "Jim Hawkins"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-121",
@@ -5112,7 +5112,7 @@
       "C": "Theseus",
       "D": "Jason"
     },
-    "answer": "Hercules"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-122",
@@ -5127,7 +5127,7 @@
       "C": "Odin",
       "D": "Loki"
     },
-    "answer": "Hermod"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-123",
@@ -5142,7 +5142,7 @@
       "C": "Ponyo",
       "D": "My Neighbor Totoro"
     },
-    "answer": "Kiki's Delivery Service"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-124",
@@ -5157,7 +5157,7 @@
       "C": "Pablo",
       "D": "Santiago"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-125",
@@ -5172,7 +5172,7 @@
       "C": "Dr. Livesey",
       "D": "Captain Smollett"
     },
-    "answer": "Jim Hawkins"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-126",
@@ -5187,7 +5187,7 @@
       "C": "Theseus",
       "D": "Hercules"
     },
-    "answer": "Jason"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-127",
@@ -5202,7 +5202,7 @@
       "C": "Loki",
       "D": "Freyr"
     },
-    "answer": "Odin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-128",
@@ -5217,7 +5217,7 @@
       "C": "Spirited Away",
       "D": "Ponyo"
     },
-    "answer": "Princess Mononoke"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-129",
@@ -5232,7 +5232,7 @@
       "C": "Pablo",
       "D": "Santiago"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-130",
@@ -5247,7 +5247,7 @@
       "C": "Jim Hawkins",
       "D": "Ben Gunn"
     },
-    "answer": "Robinson Crusoe"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-131",
@@ -5262,7 +5262,7 @@
       "C": "Perseus",
       "D": "Jason"
     },
-    "answer": "Odysseus"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-132",
@@ -5277,7 +5277,7 @@
       "C": "Loki",
       "D": "Tyr"
     },
-    "answer": "Thor"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-133",
@@ -5292,7 +5292,7 @@
       "C": "Ponyo",
       "D": "Kiki's Delivery Service"
     },
-    "answer": "Spirited Away"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-134",
@@ -5307,7 +5307,7 @@
       "C": "Ernesto",
       "D": "Chicharrón"
     },
-    "answer": "Hector"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-135",
@@ -5322,7 +5322,7 @@
       "C": "Jim Hawkins",
       "D": "Long John Silver"
     },
-    "answer": "Gulliver"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-136",
@@ -5337,7 +5337,7 @@
       "C": "Theseus",
       "D": "Jason"
     },
-    "answer": "Heracles"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-137",
@@ -5352,7 +5352,7 @@
       "C": "Loki",
       "D": "Freyr"
     },
-    "answer": "Thor"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-138",
@@ -5367,7 +5367,7 @@
       "C": "Chihiro",
       "D": "Kiki"
     },
-    "answer": "Nausicaä"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-139",
@@ -5382,7 +5382,7 @@
       "C": "merci",
       "D": "ami"
     },
-    "answer": "musique"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-140",
@@ -5397,7 +5397,7 @@
       "C": "Captain Smollett",
       "D": "Ben Gunn"
     },
-    "answer": "Jim Hawkins"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-141",
@@ -5412,7 +5412,7 @@
       "C": "Perseus",
       "D": "Jason"
     },
-    "answer": "Paris of Troy"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-142",
@@ -5427,7 +5427,7 @@
       "C": "Odin",
       "D": "Loki"
     },
-    "answer": "Njord"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-143",
@@ -5442,7 +5442,7 @@
       "C": "Ponyo",
       "D": "Kiki's Delivery Service"
     },
-    "answer": "My Neighbor Totoro"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-144",
@@ -5457,7 +5457,7 @@
       "C": "Pablo",
       "D": "Santiago"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-145",
@@ -5472,7 +5472,7 @@
       "C": "Jim Hawkins",
       "D": "Ben Gunn"
     },
-    "answer": "Robinson Crusoe"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-146",
@@ -5487,7 +5487,7 @@
       "C": "Jason",
       "D": "Perseus"
     },
-    "answer": "Odysseus"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-147",
@@ -5502,7 +5502,7 @@
       "C": "Loki",
       "D": "Heimdall"
     },
-    "answer": "Odin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-148",
@@ -5517,7 +5517,7 @@
       "C": "Ponyo",
       "D": "My Neighbor Totoro"
     },
-    "answer": "Howl's Moving Castle"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-149",
@@ -5532,7 +5532,7 @@
       "C": "merci",
       "D": "ami"
     },
-    "answer": "famille"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-150",
@@ -5547,7 +5547,7 @@
       "C": "Dr. Livesey",
       "D": "Captain Smollett"
     },
-    "answer": "Long John Silver"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-151",
@@ -5562,7 +5562,7 @@
       "C": "Jason",
       "D": "Theseus"
     },
-    "answer": "Heracles"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-152",
@@ -5577,7 +5577,7 @@
       "C": "Odin",
       "D": "Loki"
     },
-    "answer": "Freyr"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-153",
@@ -5592,7 +5592,7 @@
       "C": "Chihiro",
       "D": "Kiki"
     },
-    "answer": "Nausicaä"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-154",
@@ -5607,7 +5607,7 @@
       "C": "Pablo",
       "D": "Santiago"
     },
-    "answer": "Miguel"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-155",
@@ -5622,7 +5622,7 @@
       "C": "Jim Hawkins",
       "D": "Long John Silver"
     },
-    "answer": "Gulliver"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-156",
@@ -5637,7 +5637,7 @@
       "C": "Perseus",
       "D": "Jason"
     },
-    "answer": "Achilles"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-157",
@@ -5652,7 +5652,7 @@
       "C": "Thor",
       "D": "Loki"
     },
-    "answer": "Njord"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-158",
@@ -5667,7 +5667,7 @@
       "C": "Ponyo",
       "D": "Kiki's Delivery Service"
     },
-    "answer": "Spirited Away"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-159",
@@ -5682,7 +5682,7 @@
       "C": "merci",
       "D": "ami"
     },
-    "answer": "chanson"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-160",
@@ -5697,7 +5697,7 @@
       "C": "Jim Hawkins",
       "D": "Ben Gunn"
     },
-    "answer": "Robinson Crusoe"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-061",
@@ -5712,7 +5712,7 @@
       "C": "Achilles",
       "D": "Jason"
     },
-    "answer": "Odysseus"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-062",
@@ -5727,7 +5727,7 @@
       "C": "Odin",
       "D": "Loki"
     },
-    "answer": "Baldur"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-063",
@@ -5742,7 +5742,7 @@
       "C": "Princess Mononoke",
       "D": "My Neighbor Totoro"
     },
-    "answer": "Howl's Moving Castle"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-064",
@@ -5757,7 +5757,7 @@
       "C": "Ferdinand",
       "D": "Anina"
     },
-    "answer": "Coco"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-065",
@@ -5772,7 +5772,7 @@
       "C": "Dr. Livesey",
       "D": "Captain Smollett"
     },
-    "answer": "Long John Silver"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-066",
@@ -5787,7 +5787,7 @@
       "C": "Jason",
       "D": "Theseus"
     },
-    "answer": "Heracles"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-067",
@@ -5802,7 +5802,7 @@
       "C": "Loki",
       "D": "Heimdall"
     },
-    "answer": "Odin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-068",
@@ -5817,7 +5817,7 @@
       "C": "Spirited Away",
       "D": "Ponyo"
     },
-    "answer": "Nausicaä of the Valley of the Wind"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-069",
@@ -5832,7 +5832,7 @@
       "C": "Anina",
       "D": "Ferdinand"
     },
-    "answer": "Coco"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-070",
@@ -5847,7 +5847,7 @@
       "C": "Jim Hawkins",
       "D": "Long John Silver"
     },
-    "answer": "Gulliver"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-071",
@@ -5862,7 +5862,7 @@
       "C": "Jason",
       "D": "Theseus"
     },
-    "answer": "Heracles"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-072",
@@ -5877,7 +5877,7 @@
       "C": "Thor",
       "D": "Heimdall"
     },
-    "answer": "Loki"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-073",
@@ -5892,7 +5892,7 @@
       "C": "Ponyo",
       "D": "Howl's Moving Castle"
     },
-    "answer": "Spirited Away"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-074",
@@ -5907,7 +5907,7 @@
       "C": "Anina",
       "D": "Ferdinand"
     },
-    "answer": "Coco"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-075",
@@ -5922,7 +5922,7 @@
       "C": "Dr. Livesey",
       "D": "Captain Smollett"
     },
-    "answer": "Jim Hawkins"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-076",
@@ -5937,7 +5937,7 @@
       "C": "Perseus",
       "D": "Theseus"
     },
-    "answer": "Jason"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-077",
@@ -5952,7 +5952,7 @@
       "C": "Thor",
       "D": "Loki"
     },
-    "answer": "Heimdall"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-078",
@@ -5967,7 +5967,7 @@
       "C": "Chihiro",
       "D": "Kiki"
     },
-    "answer": "Nausicaä"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-079",
@@ -5982,7 +5982,7 @@
       "C": "Anina",
       "D": "Ferdinand"
     },
-    "answer": "Coco"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-080",
@@ -5997,7 +5997,7 @@
       "C": "Jim Hawkins",
       "D": "Long John Silver"
     },
-    "answer": "Robinson Crusoe"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-161",
@@ -6012,7 +6012,7 @@
       "C": "Sinbad",
       "D": "Scheherazade"
     },
-    "answer": "Ali Baba"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-162",
@@ -6027,7 +6027,7 @@
       "C": "Puss in Boots",
       "D": "Robin Hood"
     },
-    "answer": "Anansi the Spider"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-163",
@@ -6042,7 +6042,7 @@
       "C": "Hua Mulan",
       "D": "Sun Wukong"
     },
-    "answer": "Nasreddin Hodja"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-164",
@@ -6057,7 +6057,7 @@
       "C": "A city mayor",
       "D": "A pirate captain"
     },
-    "answer": "A forest spirit"
+    "answer": "B"
   },
   {
     "id": "heroes-en-easy-165",
@@ -6072,7 +6072,7 @@
       "C": "A space pirate",
       "D": "A robot teacher"
     },
-    "answer": "A curious kid with a watch"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-166",
@@ -6087,7 +6087,7 @@
       "C": "The flying prince",
       "D": "The sea captain"
     },
-    "answer": "The tree listener"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-167",
@@ -6102,7 +6102,7 @@
       "C": "The royal guard",
       "D": "The dragon rider"
     },
-    "answer": "The clever tailor"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-168",
@@ -6117,7 +6117,7 @@
       "C": "Sinbad",
       "D": "Scheherazade"
     },
-    "answer": "Ali Baba"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-169",
@@ -6132,7 +6132,7 @@
       "C": "A merchant",
       "D": "A sailor"
     },
-    "answer": "A young rainmaker"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-170",
@@ -6147,7 +6147,7 @@
       "C": "Hua Mulan",
       "D": "Kintaro"
     },
-    "answer": "Momotaro"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-171",
@@ -6162,7 +6162,7 @@
       "C": "A young activist",
       "D": "A pirate"
     },
-    "answer": "A young activist"
+    "answer": "C"
   },
   {
     "id": "heroes-en-easy-172",
@@ -6177,7 +6177,7 @@
       "C": "A talking cat",
       "D": "A robot"
     },
-    "answer": "A curious child on a bike"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-173",
@@ -6192,7 +6192,7 @@
       "C": "A sailor",
       "D": "A merchant"
     },
-    "answer": "A synesthetic artist"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-174",
@@ -6207,7 +6207,7 @@
       "C": "A prince",
       "D": "A dragon"
     },
-    "answer": "A small chef"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-175",
@@ -6222,7 +6222,7 @@
       "C": "Sinbad",
       "D": "Scheherazade"
     },
-    "answer": "Aladdin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-176",
@@ -6237,7 +6237,7 @@
       "C": "Puss in Boots",
       "D": "Robin Hood"
     },
-    "answer": "Brer Rabbit"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-177",
@@ -6252,7 +6252,7 @@
       "C": "Hua Mulan",
       "D": "Nasreddin Hodja"
     },
-    "answer": "Sun Wukong"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-178",
@@ -6267,7 +6267,7 @@
       "C": "A wizard",
       "D": "A pirate"
     },
-    "answer": "A brave otter"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-179",
@@ -6282,7 +6282,7 @@
       "C": "A knight",
       "D": "A dragon rider"
     },
-    "answer": "A young scientist"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-180",
@@ -6297,7 +6297,7 @@
       "C": "The wizard",
       "D": "The prince"
     },
-    "answer": "The inventive friend"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-181",
@@ -6312,7 +6312,7 @@
       "C": "A prince",
       "D": "A knight"
     },
-    "answer": "A clever child"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-182",
@@ -6327,7 +6327,7 @@
       "C": "Ali Baba",
       "D": "Scheherazade"
     },
-    "answer": "Sinbad"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-183",
@@ -6342,7 +6342,7 @@
       "C": "Puss in Boots",
       "D": "Robin Hood"
     },
-    "answer": "Anansi the Spider"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-184",
@@ -6357,7 +6357,7 @@
       "C": "Sun Wukong",
       "D": "Kintaro"
     },
-    "answer": "Hua Mulan"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-185",
@@ -6372,7 +6372,7 @@
       "C": "A merchant",
       "D": "A soldier"
     },
-    "answer": "A young planter"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-186",
@@ -6387,7 +6387,7 @@
       "C": "A knight",
       "D": "A robot"
     },
-    "answer": "A curious grandchild"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-187",
@@ -6402,7 +6402,7 @@
       "C": "A knight",
       "D": "A merchant"
     },
-    "answer": "A bird speaker"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-188",
@@ -6417,7 +6417,7 @@
       "C": "A dragon rider",
       "D": "A knight"
     },
-    "answer": "A resourceful child"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-189",
@@ -6432,7 +6432,7 @@
       "C": "Ali Baba",
       "D": "Sinbad"
     },
-    "answer": "Scheherazade"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-190",
@@ -6447,7 +6447,7 @@
       "C": "A sailor",
       "D": "A merchant"
     },
-    "answer": "A drum leader"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-191",
@@ -6462,7 +6462,7 @@
       "C": "Sun Wukong",
       "D": "Hua Mulan"
     },
-    "answer": "Kintaro"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-192",
@@ -6477,7 +6477,7 @@
       "C": "A wizard",
       "D": "A pirate"
     },
-    "answer": "A little fox"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-193",
@@ -6492,7 +6492,7 @@
       "C": "A talking dog",
       "D": "A robot"
     },
-    "answer": "Two curious friends"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-194",
@@ -6507,7 +6507,7 @@
       "C": "A sailor",
       "D": "A merchant"
     },
-    "answer": "A plant whisperer"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-195",
@@ -6522,7 +6522,7 @@
       "C": "A dragon rider",
       "D": "A knight"
     },
-    "answer": "A sharp-eyed child"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-196",
@@ -6537,7 +6537,7 @@
       "C": "Sinbad",
       "D": "Scheherazade"
     },
-    "answer": "Ali Baba"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-197",
@@ -6552,7 +6552,7 @@
       "C": "Brer Rabbit",
       "D": "Puss in Boots"
     },
-    "answer": "Tortoise"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-198",
@@ -6567,7 +6567,7 @@
       "C": "Hua Mulan",
       "D": "Kintaro"
     },
-    "answer": "Sun Wukong"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-199",
@@ -6582,7 +6582,7 @@
       "C": "A wizard",
       "D": "A pirate"
     },
-    "answer": "A rooftop gardener"
+    "answer": "A"
   },
   {
     "id": "heroes-en-easy-200",
@@ -6597,7 +6597,7 @@
       "C": "A knight",
       "D": "A dragon rider"
     },
-    "answer": "A young historian"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-161",
@@ -6612,7 +6612,7 @@
       "C": "Sinbad",
       "D": "Scheherazade"
     },
-    "answer": "Ali Baba"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-162",
@@ -6627,7 +6627,7 @@
       "C": "Tortoise",
       "D": "Hare"
     },
-    "answer": "Anansi the Spider"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-163",
@@ -6642,7 +6642,7 @@
       "C": "Kintaro",
       "D": "Hua Mulan"
     },
-    "answer": "Sun Wukong"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-164",
@@ -6657,7 +6657,7 @@
       "C": "A knight",
       "D": "A merchant"
     },
-    "answer": "A marine biologist child"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-165",
@@ -6672,7 +6672,7 @@
       "C": "A wizard",
       "D": "A robot"
     },
-    "answer": "A careful traveler"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-166",
@@ -6687,7 +6687,7 @@
       "C": "A sailor",
       "D": "A merchant"
     },
-    "answer": "A cave mapper"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-167",
@@ -6702,7 +6702,7 @@
       "C": "A dragon rider",
       "D": "A knight"
     },
-    "answer": "A clever student"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-168",
@@ -6717,7 +6717,7 @@
       "C": "Sinbad",
       "D": "Scheherazade"
     },
-    "answer": "Aladdin"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-169",
@@ -6732,7 +6732,7 @@
       "C": "A sailor",
       "D": "A merchant"
     },
-    "answer": "A drum messenger"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-170",
@@ -6747,7 +6747,7 @@
       "C": "Hua Mulan",
       "D": "Kintaro"
     },
-    "answer": "Momotaro"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-171",
@@ -6762,7 +6762,7 @@
       "C": "A wizard",
       "D": "A pirate"
     },
-    "answer": "A community organizer child"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-172",
@@ -6777,7 +6777,7 @@
       "C": "A knight",
       "D": "A robot"
     },
-    "answer": "A thoughtful traveler"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-173",
@@ -6792,7 +6792,7 @@
       "C": "A knight",
       "D": "A merchant"
     },
-    "answer": "A bird-weather reader"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-174",
@@ -6807,7 +6807,7 @@
       "C": "A dragon rider",
       "D": "A knight"
     },
-    "answer": "A creative child"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-175",
@@ -6822,7 +6822,7 @@
       "C": "Ali Baba",
       "D": "Scheherazade"
     },
-    "answer": "Sinbad"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-176",
@@ -6837,7 +6837,7 @@
       "C": "Tortoise",
       "D": "Hare"
     },
-    "answer": "Brer Rabbit"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-177",
@@ -6852,7 +6852,7 @@
       "C": "Momotaro",
       "D": "Kintaro"
     },
-    "answer": "Hua Mulan"
+    "answer": "B"
   },
   {
     "id": "heroes-en-medium-178",
@@ -6867,7 +6867,7 @@
       "C": "A pirate",
       "D": "A merchant"
     },
-    "answer": "A wildlife scientist"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-179",
@@ -6882,7 +6882,7 @@
       "C": "A knight",
       "D": "A robot"
     },
-    "answer": "A museum kid traveler"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-180",
@@ -6897,7 +6897,7 @@
       "C": "A sailor",
       "D": "A merchant"
     },
-    "answer": "A sign-language leader"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-181",
@@ -6912,7 +6912,7 @@
       "C": "A dragon rider",
       "D": "A knight"
     },
-    "answer": "A stargazing child"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-182",
@@ -6927,7 +6927,7 @@
       "C": "Ali Baba",
       "D": "Sinbad"
     },
-    "answer": "Scheherazade"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-183",
@@ -6942,7 +6942,7 @@
       "C": "Tortoise",
       "D": "Hare"
     },
-    "answer": "Anansi the Spider"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-184",
@@ -6957,7 +6957,7 @@
       "C": "Sun Wukong",
       "D": "Kintaro"
     },
-    "answer": "Hua Mulan"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-185",
@@ -6972,7 +6972,7 @@
       "C": "A wizard",
       "D": "A pirate"
     },
-    "answer": "A science club leader"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-186",
@@ -6987,7 +6987,7 @@
       "C": "A knight",
       "D": "A robot"
     },
-    "answer": "A history-smart traveler"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-187",
@@ -7002,7 +7002,7 @@
       "C": "A sailor",
       "D": "A merchant"
     },
-    "answer": "A skilled tracker"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-188",
@@ -7017,7 +7017,7 @@
       "C": "A dragon rider",
       "D": "A knight"
     },
-    "answer": "An inventive student"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-189",
@@ -7032,7 +7032,7 @@
       "C": "Ali Baba",
       "D": "Sinbad"
     },
-    "answer": "Scheherazade"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-190",
@@ -7047,7 +7047,7 @@
       "C": "Brer Rabbit",
       "D": "Tortoise"
     },
-    "answer": "A disguised trickster"
+    "answer": "A"
   },
   {
     "id": "heroes-en-medium-191",
@@ -7058,7 +7058,7 @@
       "C": "Perseus",
       "D": "Achilles"
     },
-    "answer": "Jason",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -7073,7 +7073,7 @@
       "C": "Little John",
       "D": "Will Scarlet"
     },
-    "answer": "Robin Hood",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -7088,7 +7088,7 @@
       "C": "Beowulf",
       "D": "Odin"
     },
-    "answer": "Sigurd",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -7103,7 +7103,7 @@
       "C": "Neville Longbottom",
       "D": "Draco Malfoy"
     },
-    "answer": "Harry Potter",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -7118,7 +7118,7 @@
       "C": "Cinderella",
       "D": "Ariel"
     },
-    "answer": "Belle",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -7133,7 +7133,7 @@
       "C": "Mansa Musa",
       "D": "Cetshwayo"
     },
-    "answer": "Shaka",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -7148,7 +7148,7 @@
       "C": "Jill",
       "D": "Polly"
     },
-    "answer": "Lucy",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -7163,7 +7163,7 @@
       "C": "Sargon",
       "D": "Hammurabi"
     },
-    "answer": "Gilgamesh",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -7178,7 +7178,7 @@
       "C": "The Hook of Maui",
       "D": "A sacred fish hook"
     },
-    "answer": "Te Fiti's heart",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -7193,7 +7193,7 @@
       "C": "Urashima Taro",
       "D": "Issun-boshi"
     },
-    "answer": "Momotaro",
+    "answer": "A",
     "category": "Heroes & Adventures",
     "subcategory": null,
     "locale": "en",
@@ -7212,7 +7212,7 @@
       "C": "The Decameron",
       "D": "The Odyssey"
     },
-    "answer": "The Thousand and One Nights"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-082",
@@ -7227,7 +7227,7 @@
       "C": "Tortoise",
       "D": "Hare"
     },
-    "answer": "Anansi the Spider"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-083",
@@ -7242,7 +7242,7 @@
       "C": "Momotaro",
       "D": "Kintaro"
     },
-    "answer": "Sun Wukong"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-084",
@@ -7257,7 +7257,7 @@
       "C": "A pirate adventure",
       "D": "A detective mystery"
     },
-    "answer": "A forest-protection story"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-085",
@@ -7272,7 +7272,7 @@
       "C": "A wandering knight",
       "D": "A talking robot"
     },
-    "answer": "A careful historian kid"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-086",
@@ -7287,7 +7287,7 @@
       "C": "A sailor",
       "D": "A merchant"
     },
-    "answer": "A hearing-aid composer"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-087",
@@ -7302,7 +7302,7 @@
       "C": "The royal prince",
       "D": "The dragon slayer"
     },
-    "answer": "The trickster clever one"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-088",
@@ -7317,7 +7317,7 @@
       "C": "The Red Turtle",
       "D": "The Boy and the World"
     },
-    "answer": "Kirikou and the Sorceress"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-089",
@@ -7332,7 +7332,7 @@
       "C": "Tortoise",
       "D": "Hare"
     },
-    "answer": "Anansi the Spider"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-090",
@@ -7347,7 +7347,7 @@
       "C": "Hua Mulan",
       "D": "Kintaro"
     },
-    "answer": "Momotaro"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-091",
@@ -7362,7 +7362,7 @@
       "C": "A pirate tale",
       "D": "A detective mystery"
     },
-    "answer": "A whale-friendship story"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-092",
@@ -7377,7 +7377,7 @@
       "C": "A wandering knight",
       "D": "A talking robot"
     },
-    "answer": "A reflective traveler"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-093",
@@ -7392,7 +7392,7 @@
       "C": "A sailor",
       "D": "A merchant"
     },
-    "answer": "A tightrope savior"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-094",
@@ -7407,7 +7407,7 @@
       "C": "The royal prince",
       "D": "The dragon slayer"
     },
-    "answer": "The clever bargain-maker"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-095",
@@ -7422,7 +7422,7 @@
       "C": "Kirikou and the Sorceress",
       "D": "The Little Prince"
     },
-    "answer": "The Boy and the World"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-096",
@@ -7437,7 +7437,7 @@
       "C": "Brer Rabbit",
       "D": "Hare"
     },
-    "answer": "Tortoise"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-097",
@@ -7452,7 +7452,7 @@
       "C": "Sun Wukong",
       "D": "Kintaro"
     },
-    "answer": "Hua Mulan"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-098",
@@ -7467,7 +7467,7 @@
       "C": "A pirate tale",
       "D": "A detective mystery"
     },
-    "answer": "A tree-spirit tale"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-099",
@@ -7482,7 +7482,7 @@
       "C": "Kirikou and the Sorceress",
       "D": "The Little Prince"
     },
-    "answer": "The Red Turtle"
+    "answer": "A"
   },
   {
     "id": "heroes-en-hard-100",
@@ -7497,6 +7497,6 @@
       "C": "The royal prince",
       "D": "The dragon slayer"
     },
-    "answer": "The small trickster"
+    "answer": "A"
   }
 ]
