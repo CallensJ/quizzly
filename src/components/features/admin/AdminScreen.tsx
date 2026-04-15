@@ -143,7 +143,7 @@ export default function AdminScreen() {
         </section>
 
         {/* ── Gestion des profils enfants ──────────────────────────────────── */}
-        {/*<ChildProfilesSection />*/}
+        <ChildProfilesSection />
 
         {/* ── Objectifs par catégorie ─────────────────────────────────────── */}
         <GoalsSection />
