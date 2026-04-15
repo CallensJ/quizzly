@@ -534,7 +534,15 @@
     "categoryGoalsSaved": "Goals saved!",
     "sciences": "Science",
     "histoire": "History",
-    "heroes": "Heroes"
+    "heroes": "Heroes",
+    "aboutLink": "About",
+    "aboutTitle": "About Erudia",
+    "aboutClose": "Close",
+    "aboutUpdate": "Update content",
+    "aboutUpdating": "Updating…",
+    "aboutUpdated": "Content updated!",
+    "aboutChangelog": "See what's new",
+    "aboutLegal": "Legal notice / Terms"
   },
   "auth": {
     "title": "Parent Space",

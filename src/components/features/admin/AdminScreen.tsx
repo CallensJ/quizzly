@@ -12,7 +12,7 @@
 
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { ArrowLeft, BarChart3, LogOut, TrendingUp } from "lucide-react";
+import { ArrowLeft, BarChart3, LogOut, TrendingUp, Info } from "lucide-react";
 import { useRouter } from "@/i18n/navigation";
 import { useProfileStore } from "@/stores/profileStore";
 import { useAuthStore } from "@/stores/authStore";
@@ -23,6 +23,7 @@ import GoalsSection from "./GoalsSection";
 import SubscriptionSection from "./SubscriptionSection";
 import ChildProfilesSection from "./ChildProfilesSection";
 import DangerZone from "./DangerZone";
+import AboutModal from "./AboutModal";
 import { AdminErrorBoundary } from "./AdminErrorBoundary";
 
 export default function AdminScreen() {
@@ -50,6 +51,7 @@ export default function AdminScreen() {
 
   const [goalFeedback, setGoalFeedback] = useState(false);
   const [selectedGoal, setSelectedGoal] = useState<number>(dailyGoal ?? 0);
+  const [aboutOpen, setAboutOpen] = useState(false);
 
   function handleSaveGoal() {
     setDailyGoal(selectedGoal === 0 ? null : selectedGoal);
@@ -165,7 +167,20 @@ export default function AdminScreen() {
         <AdminErrorBoundary label="DangerZone">
           <DangerZone onReset={() => resetProgress()} />
         </AdminErrorBoundary>
+
+        {/* ── Lien À propos ────────────────────────────────────────────────── */}
+        <button
+          type="button"
+          className="admin__about-link"
+          onClick={() => setAboutOpen(true)}
+        >
+          <Info size={13} strokeWidth={2} aria-hidden="true" />
+          {t("aboutLink")}
+        </button>
       </main>
+
+      {/* ── Modale À propos ─────────────────────────────────────────────── */}
+      <AboutModal isOpen={aboutOpen} onClose={() => setAboutOpen(false)} />
     </div>
   );
 }

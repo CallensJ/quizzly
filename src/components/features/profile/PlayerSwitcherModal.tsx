@@ -68,7 +68,9 @@ export default function PlayerSwitcherModal({ isOpen, onClose }: PlayerSwitcherM
   }
 
   function handleNewPlayer() {
-    router.push('/');
+    // Redirige vers la route dédiée /onboarding — la route / redirige vers /home
+    // si des profils existent déjà, ce qui empêcherait la création d'un nouveau joueur.
+    router.push('/onboarding');
     onClose();
   }
 

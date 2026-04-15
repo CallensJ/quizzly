@@ -62,7 +62,7 @@ export default function OnboardingScreen() {
     if (deviceId && profile) {
       syncProfile(deviceId, profile, dailyGoal);
     }
-    // TODO MVP1 : rediriger vers /home une fois l'écran Home implémenté
+    router.replace('/home');
   }
 
   function toggleLocale() {

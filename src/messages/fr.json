@@ -534,7 +534,15 @@
     "categoryGoalsSaved": "Objectifs enregistrés !",
     "sciences": "Sciences",
     "histoire": "Histoire",
-    "heroes": "Héros"
+    "heroes": "Héros",
+    "aboutLink": "À propos",
+    "aboutTitle": "À propos d'Erudia",
+    "aboutClose": "Fermer",
+    "aboutUpdate": "Mettre à jour le contenu",
+    "aboutUpdating": "Mise à jour…",
+    "aboutUpdated": "Contenu mis à jour !",
+    "aboutChangelog": "Voir les nouveautés",
+    "aboutLegal": "Mentions légales / CGU"
   },
   "auth": {
     "title": "Espace Parent",
