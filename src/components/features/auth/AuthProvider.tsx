@@ -18,7 +18,7 @@
  */
 
 import { useEffect } from "react";
-import { supabase } from "@/lib/supabase";
+import { supabase } from "@/lib/supabaseBrowser";
 import { useAuthStore } from "@/stores/authStore";
 import { useProfileStore } from "@/stores/profileStore";
 import { pullFromSupabase, linkProfileToAuthUser } from "@/lib/sync";

@@ -16,7 +16,7 @@ import { useTranslations } from 'next-intl';
 import { Trash2, RotateCcw } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
-import { supabase } from '@/lib/supabase';
+import { supabase } from '@/lib/supabaseBrowser';
 
 interface Props {
   onReset: () => void;

@@ -14,7 +14,7 @@ import { useRouter } from '@/i18n/navigation';
 import { CheckCircle } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
-import { supabase } from '@/lib/supabase';
+import { supabase } from '@/lib/supabaseBrowser';
 import { useAuthStore } from '@/stores/authStore';
 
 const POLL_INTERVAL_MS = 1500;

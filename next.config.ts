@@ -11,7 +11,11 @@
  *   - Google Fonts    → StaleWhileRevalidate (police Nunito, TTL 1 an)
  *   - Pages Next.js   → NetworkFirst avec fallback offline (TTL 24h, timeout 3s)
  *   - JS/CSS bundles  → StaleWhileRevalidate (assets Next.js buildés)
- *   - Supabase API    → NetworkFirst (questions, timeout 3s, fallback cache)
+ *   - Supabase REST   → NetworkFirst (questions uniquement, timeout 3s, fallback cache)
+ *
+ * ⚠️  Supabase Auth (/auth/v1/*) est EXCLU du SW pour éviter le conflit
+ *     de Web Lock "sb-*-auth-token" entre le tab et le service worker.
+ *     Seul /rest/v1/* (questions, profils) est mis en cache.
  *
  * Le SW est désactivé en développement pour éviter les conflits HMR.
  */
@@ -31,9 +35,15 @@ const securityHeaders = [
   // Contrôle les infos de referrer envoyées aux sites tiers
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
   // Désactive les features non utilisées par l'app
-  { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
+  {
+    key: "Permissions-Policy",
+    value: "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+  },
   // Force HTTPS pendant 1 an (Vercel gère HTTPS, ce header renforce côté client)
-  { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains; preload" },
+  {
+    key: "Strict-Transport-Security",
+    value: "max-age=31536000; includeSubDomains; preload",
+  },
   // Content Security Policy — whitelist explicite des sources autorisées
   {
     key: "Content-Security-Policy",
@@ -125,13 +135,17 @@ const withPWA = require("@ducanh2912/next-pwa").default({
       },
     },
     {
-      // Requêtes Supabase (questions, profils) — NetworkFirst avec timeout court.
-      // En offline, le SW sert la réponse cachée immédiatement après 3s.
+      // Requêtes Supabase REST uniquement (questions, profils, subscriptions).
+      // ⚠️  Le pattern cible UNIQUEMENT /rest/v1/ — exclut délibérément :
+      //     - /auth/v1/* : sessions OAuth, refresh tokens → conflit Web Lock si mis en cache
+      //     - /storage/v1/* : non utilisé
+      //     - /realtime/v1/* : WebSocket, non cacheable
+      // En offline, le SW sert la réponse cachée après le timeout de 3s.
       // Complète le fallback IndexedDB dans questions.ts.
       urlPattern: /^https:\/\/.*\.supabase\.co\/rest\/v1\/.*/,
       handler: "NetworkFirst",
       options: {
-        cacheName: "supabase-api",
+        cacheName: "supabase-rest",
         networkTimeoutSeconds: 3,
         expiration: {
           maxEntries: 50,
@@ -169,9 +183,9 @@ const nextConfig: NextConfig = {
     // ne peut pas optimiser (convertir en WebP) un SVG servi dynamiquement.
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'api.dicebear.com',
-        pathname: '/**',
+        protocol: "https",
+        hostname: "api.dicebear.com",
+        pathname: "/**",
       },
     ],
   },
@@ -186,9 +200,7 @@ const nextConfig: NextConfig = {
       // On surcharge uniquement X-Content-Type-Options pour cette route
       {
         source: "/api/stripe/webhook",
-        headers: [
-          { key: "X-Content-Type-Options", value: "nosniff" },
-        ],
+        headers: [{ key: "X-Content-Type-Options", value: "nosniff" }],
       },
     ];
   },

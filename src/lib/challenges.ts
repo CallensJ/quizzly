@@ -14,7 +14,7 @@
  *   pour détecter quand Joueur B a joué un défi en attente.
  */
 
-import { supabase } from '@/lib/supabase';
+import { supabase } from '@/lib/supabaseBrowser';
 import type { Challenge, Category, Difficulty, Locale, Question } from '@/types';
 
 // ─── Génération du code ────────────────────────────────────────────────────────

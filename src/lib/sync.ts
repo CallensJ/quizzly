@@ -14,7 +14,7 @@
  *   - pullFromSupabase(deviceId, authUserId?)               — sync bidirectionnelle → local (premium only)
  */
 
-import { supabase } from './supabase';
+import { supabase } from './supabaseBrowser';
 import { getDB } from './db';
 import type { Profile, QuizSession, Category, Difficulty } from '@/types';
 import type { ReportSchedule } from './report';

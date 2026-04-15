@@ -12,7 +12,7 @@
  * le composant gérer l'affichage des erreurs.
  */
 
-import { supabase } from './supabase';
+import { supabase } from './supabaseBrowser';
 
 // URL de base pour les redirects OAuth — utilise la variable d'env si dispo (Vercel)
 const SITE_URL =

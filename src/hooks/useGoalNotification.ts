@@ -16,7 +16,7 @@
  */
 
 import { useEffect } from 'react';
-import { supabase } from '@/lib/supabase';
+import { supabase } from '@/lib/supabaseBrowser';
 import { useProfileStore } from '@/stores/profileStore';
 
 function getYesterdayString(): string {

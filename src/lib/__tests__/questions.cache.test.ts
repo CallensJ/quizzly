@@ -37,7 +37,7 @@ jest.mock('../db', () => ({
 
 const mockSupabaseSelect = jest.fn();
 
-jest.mock('../supabase', () => ({
+jest.mock('../supabaseBrowser', () => ({
   supabase: {
     from: () => ({
       select: () => ({

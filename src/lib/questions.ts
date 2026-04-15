@@ -18,7 +18,7 @@
  * une meilleure capacité de stockage et une gestion TTL plus robuste.
  */
 
-import { supabase } from './supabase';
+import { supabase } from './supabaseBrowser';
 import { getDB, CACHE_TTL_MS } from './db';
 import type { Category, Difficulty, Locale, MythSubcategory, Question } from '@/types';
 

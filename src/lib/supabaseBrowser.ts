@@ -22,16 +22,37 @@
  *   à string, ce qui élargit le type de supabase.auth.onAuthStateChange et
  *   rend ses paramètres implicitement any. Le wrapper non-générique capture
  *   le type exact de l'appel concret (SupabaseClient<any, "public", any>).
+ *
+ * Pourquoi lock: <R>(_name, _acquireTimeout, fn) => fn() :
+ *   Le Service Worker Workbox s'exécute dans un contexte parallèle au tab.
+ *   Quand il intercepte des requêtes Supabase, le client @supabase/ssr tente
+ *   d'acquérir le Web Lock "sb-*-auth-token" → conflit avec le lock détenu
+ *   par le tab principal → "lock was released because another request stole it".
+ *   Le générique <R> est requis par LockFunc dans @supabase/ssr@0.10 pour que
+ *   Promise<R> soit assignable — fn() retourne Promise<R> directement.
+ *   Safe pour Erudia : un seul utilisateur actif par session, pas de concurrent
+ *   writes critiques sur le token auth.
  */
 
-import { createBrowserClient } from '@supabase/ssr';
+import { createBrowserClient } from "@supabase/ssr";
 
-const supabaseUrl  = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseKey  = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
 // Wrapper non-générique — ReturnType<typeof _makeClient> capture le type concret
 function _makeClient() {
-  return createBrowserClient(supabaseUrl, supabaseKey);
+  return createBrowserClient(supabaseUrl, supabaseKey, {
+    auth: {
+      // Bypass du Web Lock natif du navigateur.
+      // Le générique <R> satisfait LockFunc dans @supabase/ssr@0.10 :
+      // Promise<R> est retourné directement sans passer par le lock natif.
+      lock: <R>(
+        _name: string,
+        _acquireTimeout: number,
+        fn: () => Promise<R>,
+      ): Promise<R> => fn(),
+    },
+  });
 }
 
 const _global = globalThis as typeof globalThis & {
