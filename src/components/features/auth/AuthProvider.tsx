@@ -42,6 +42,10 @@ export default function AuthProvider({
   useGoalNotification();
 
   useEffect(() => {
+    // Timeout de sécurité : débloque l'UI si onAuthStateChange n'émet pas
+    // dans les 5s (ex. Supabase inaccessible, réseau lent au démarrage)
+    const safetyTimer = setTimeout(() => setLoading(false), 5000);
+
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange(async (event, session) => {
@@ -140,7 +144,10 @@ export default function AuthProvider({
       setLoading(false);
     });
 
-    return () => subscription.unsubscribe();
+    return () => {
+      clearTimeout(safetyTimer);
+      subscription.unsubscribe();
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
