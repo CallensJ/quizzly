@@ -12,12 +12,7 @@
 
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import {
-  ArrowLeft,
-  BarChart3,
-  LogOut,
-  TrendingUp,
-} from "lucide-react";
+import { ArrowLeft, BarChart3, LogOut, TrendingUp } from "lucide-react";
 import { useRouter } from "@/i18n/navigation";
 import { useProfileStore } from "@/stores/profileStore";
 import { useAuthStore } from "@/stores/authStore";
@@ -148,7 +143,7 @@ export default function AdminScreen() {
         </section>
 
         {/* ── Gestion des profils enfants ──────────────────────────────────── */}
-        <ChildProfilesSection />
+        {/*<ChildProfilesSection />*/}
 
         {/* ── Objectifs par catégorie ─────────────────────────────────────── */}
         <GoalsSection />
@@ -160,9 +155,7 @@ export default function AdminScreen() {
         <SubscriptionSection />
 
         {/* ── Zone de danger ───────────────────────────────────────────────── */}
-        <DangerZone
-          onReset={() => resetProgress()}
-        />
+        <DangerZone onReset={() => resetProgress()} />
       </main>
     </div>
   );
