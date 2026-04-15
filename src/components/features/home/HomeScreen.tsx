@@ -54,17 +54,13 @@ const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = 
     icon: <Swords size={40} strokeWidth={1.5} />,
     colorVar: 'var(--color-cat-heroes)',
   },
-  {
-    id: 'animaux-nature',
-    icon: <PawPrint size={40} strokeWidth={1.5} />,
-    colorVar: 'var(--color-cat-animaux)',
-  },
 ];
 
 // Catégories premium — toutes ont un id (questions disponibles).
 // Logique binaire : cadenas pour l'user gratuit, jouable pour le premium.
 // Les catégories sans questions sont masquées jusqu'à ce que leur contenu soit prêt.
 const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string; id: Category }[] = [
+  { i18nKey: 'animaux',        icon: <PawPrint  size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-animaux)',    id: 'animaux-nature' },
   { i18nKey: 'sport',          icon: <Trophy    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-sport)',      id: 'sport' },
   { i18nKey: 'geographie',     icon: <Globe     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-geography)',  id: 'geographie' },
   { i18nKey: 'mathematiques',  icon: <Calculator size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-maths)',    id: 'math' },
