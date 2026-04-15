@@ -149,7 +149,7 @@ export default function AdminScreen() {
         <GoalsSection />
 
         {/* ── Rapport de progression PDF ───────────────────────────────────── */}
-        <ReportSection />
+        {/*<ReportSection />*/}
 
         {/* ── Abonnement Premium ─────────────────────────────────────────── */}
         <SubscriptionSection />
