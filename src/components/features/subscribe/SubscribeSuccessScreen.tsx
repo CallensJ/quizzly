@@ -54,8 +54,11 @@ export default function SubscribeSuccessScreen() {
         const isActive = data?.status === 'active' || data?.status === 'trialing';
 
         if (isActive) {
-          // Confirme le statut dans le store avant la redirection
+          // Confirme le statut dans le store avant la redirection.
+          // refreshSession() force un event TOKEN_REFRESHED dans AuthProvider.onAuthStateChange
+          // → re-check premium depuis une instance Supabase stable, sans conflit de lock.
           setIsPremium(true);
+          await supabase.auth.refreshSession();
           hideNova();
           router.push('/home');
           return;

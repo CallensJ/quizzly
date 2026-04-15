@@ -92,9 +92,11 @@ export async function POST(req: NextRequest) {
       : { customer_email: user.email };
 
     // 5. Crée la session Checkout Stripe
+    // automatic_payment_methods laisse Stripe afficher Google Pay / Apple Pay
+    // selon le device et le navigateur — ne pas hardcoder payment_method_types.
     const session = await stripe.checkout.sessions.create({
       mode: 'subscription',
-      payment_method_types: ['card'],
+      automatic_payment_methods: { enabled: true },
       ...customerParam,
       line_items: [{ price: priceId, quantity: 1 }],
       success_url: `${env.appUrl}/subscribe/success?session_id={CHECKOUT_SESSION_ID}`,

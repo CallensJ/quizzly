@@ -23,6 +23,7 @@ import GoalsSection from "./GoalsSection";
 import SubscriptionSection from "./SubscriptionSection";
 import ChildProfilesSection from "./ChildProfilesSection";
 import DangerZone from "./DangerZone";
+import { AdminErrorBoundary } from "./AdminErrorBoundary";
 
 export default function AdminScreen() {
   const t = useTranslations("admin");
@@ -143,19 +144,27 @@ export default function AdminScreen() {
         </section>
 
         {/* ── Gestion des profils enfants ──────────────────────────────────── */}
-        <ChildProfilesSection />
+        <AdminErrorBoundary label="ChildProfiles">
+          <ChildProfilesSection />
+        </AdminErrorBoundary>
 
         {/* ── Objectifs par catégorie ─────────────────────────────────────── */}
-        <GoalsSection />
+        <AdminErrorBoundary label="Goals">
+          <GoalsSection />
+        </AdminErrorBoundary>
 
         {/* ── Rapport de progression PDF ───────────────────────────────────── */}
-        {/*<ReportSection />*/}
+        {/*<AdminErrorBoundary label="Report"><ReportSection /></AdminErrorBoundary>*/}
 
         {/* ── Abonnement Premium ─────────────────────────────────────────── */}
-        <SubscriptionSection />
+        <AdminErrorBoundary label="Subscription">
+          <SubscriptionSection />
+        </AdminErrorBoundary>
 
         {/* ── Zone de danger ───────────────────────────────────────────────── */}
-        <DangerZone onReset={() => resetProgress()} />
+        <AdminErrorBoundary label="DangerZone">
+          <DangerZone onReset={() => resetProgress()} />
+        </AdminErrorBoundary>
       </main>
     </div>
   );
