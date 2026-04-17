@@ -146,20 +146,6 @@
       "question": "Which French word means 'tooth'?",
       "options": {
         "A": "langue",
-        "...": "..."
-      },
-      "answer": "B"
-    },
-
-    {
-      "id": "body-en-0010",
-      "category": "corps-humain",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "Which French word means 'tooth'?",
-      "options": {
-        "A": "langue",
         "B": "dent",
         "C": "bouche",
         "D": "lèvre"

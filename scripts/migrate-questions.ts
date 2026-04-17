@@ -55,7 +55,7 @@ const FILES = [
   { path: 'src/data/questions/fr/anglais.json',           category: 'anglais',          locale: 'fr' },
   { path: 'src/data/questions/fr/art.json',               category: 'art',              locale: 'fr' },
   { path: 'src/data/questions/fr/corps-humain.json',      category: 'corps-humain',     locale: 'fr' },
-  { path: 'src/data/questions/fr/cuisine-alimentation.json', category: 'cuisine',       locale: 'fr' },
+  { path: 'src/data/questions/fr/cuisine.json',              category: 'cuisine',       locale: 'fr' },
   { path: 'src/data/questions/fr/dinosaures.json',        category: 'dinosaures',       locale: 'fr' },
   { path: 'src/data/questions/fr/education-civique.json', category: 'education-civique',locale: 'fr' },
   { path: 'src/data/questions/fr/environnement.json',     category: 'environnement',    locale: 'fr' },

@@ -2565,7 +2565,7 @@
       "question": "Quel est le nom de la souris de dessin animé qui porte des culottes rouges et des gants blancs ?",
       "options": {
         "A": "Jerry",
-        "|B": "Ratatouille",
+        "B": "Ratatouille",
         "C": "Stuart Little",
         "D": "Mickey Mouse"
       },
