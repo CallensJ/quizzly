@@ -1474,7 +1474,7 @@
         "A": "I finished",
         "B": "I am finished",
         "C": "I done",
-        "&D": "I am done"
+        "D": "I am done"
       },
       "answer": "D"
     },
