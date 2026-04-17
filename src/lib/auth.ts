@@ -14,8 +14,9 @@
 
 import { supabase } from './supabaseBrowser';
 
-// URL de base pour les redirects OAuth — utilise la variable d'env si dispo (Vercel)
+// URL de base pour les redirects OAuth — priorité à NEXT_PUBLIC_APP_URL (domaine custom Vercel)
 const SITE_URL =
+  process.env.NEXT_PUBLIC_APP_URL ||
   process.env.NEXT_PUBLIC_SITE_URL ||
   (typeof window !== 'undefined' ? window.location.origin : 'http://localhost:3000');
 
