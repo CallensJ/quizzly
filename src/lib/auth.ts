@@ -1,7 +1,7 @@
 /**
  * src/lib/auth.ts
  *
- * Fonctions d'authentification Supabase Auth pour Quizzly.
+ * Fonctions d'authentification Supabase Auth pour Erudia.
  * Utilisé exclusivement par les adultes (parents / enseignants).
  *
  * Providers supportés :
@@ -12,13 +12,8 @@
  * le composant gérer l'affichage des erreurs.
  */
 
-import { supabase } from './supabaseBrowser';
-
-// URL de base pour les redirects OAuth — priorité à NEXT_PUBLIC_APP_URL (domaine custom Vercel)
-const SITE_URL =
-  process.env.NEXT_PUBLIC_APP_URL ||
-  process.env.NEXT_PUBLIC_SITE_URL ||
-  (typeof window !== 'undefined' ? window.location.origin : 'http://localhost:3000');
+import { supabase } from "./supabaseBrowser";
+import { SITE_URL } from "./config";
 
 // ─── Email / Password ─────────────────────────────────────────────────────────
 
@@ -31,7 +26,6 @@ export async function signUp(email: string, password: string) {
     email,
     password,
     options: {
-      // Redirect après confirmation email → callback handler
       emailRedirectTo: `${SITE_URL}/api/auth/callback`,
     },
   });
@@ -42,7 +36,10 @@ export async function signUp(email: string, password: string) {
  * Connexion avec email + mot de passe.
  */
 export async function signIn(email: string, password: string) {
-  const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+  const { data, error } = await supabase.auth.signInWithPassword({
+    email,
+    password,
+  });
   return { data, error };
 }
 
@@ -50,28 +47,23 @@ export async function signIn(email: string, password: string) {
 
 /**
  * Connexion via Google OAuth.
- * Redirige vers Google, puis revient sur /auth/callback avec un code.
- * Le callback échange le code contre une session Supabase.
+ * Redirige vers Google, puis revient sur /api/auth/callback avec un code.
+ * Le callback échange le code contre une session Supabase (PKCE).
  *
- * Important : configurer l'URL de redirect dans le dashboard Supabase
- * Authentication → URL Configuration → Redirect URLs :
- *   - http://localhost:3000/api/auth/callback (dev)
- *   - https://app.erudia.app/api/auth/callback (prod)
- *   - https://*.vercel.app/api/auth/callback (preview)
- *
- * La locale est passée en query param pour que le route handler puisse
- * rediriger vers /{locale}/admin après l'échange du code.
+ * URLs à whitelister dans Supabase → Authentication → URL Configuration → Redirect URLs :
+ *   - http://localhost:3000/api/auth/callback
+ *   - https://app.erudia.app/api/auth/callback
+ *   - https://*.vercel.app/api/auth/callback
  */
-export async function signInWithGoogle(locale: string = 'en', next?: string) {
-  const nextParam = next ? `&next=${encodeURIComponent(next)}` : '';
+export async function signInWithGoogle(locale: string = "fr", next?: string) {
+  const nextParam = next ? `&next=${encodeURIComponent(next)}` : "";
   const { error } = await supabase.auth.signInWithOAuth({
-    provider: 'google',
+    provider: "google",
     options: {
       redirectTo: `${SITE_URL}/api/auth/callback?locale=${locale}${nextParam}`,
       queryParams: {
-        // Demande le compte à chaque connexion (évite la connexion auto au compte par défaut)
-        access_type: 'offline',
-        prompt: 'consent',
+        access_type: "offline",
+        prompt: "consent",
       },
     },
   });
@@ -81,7 +73,7 @@ export async function signInWithGoogle(locale: string = 'en', next?: string) {
 // ─── Déconnexion ──────────────────────────────────────────────────────────────
 
 /**
- * Déconnexion — efface la session Supabase (localStorage sb-*).
+ * Déconnexion — efface la session Supabase côté client.
  */
 export async function signOut() {
   const { error } = await supabase.auth.signOut();
