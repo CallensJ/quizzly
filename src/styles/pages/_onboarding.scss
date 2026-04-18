@@ -259,4 +259,20 @@
 
     @include m.focus-ring;
   }
+
+  &__privacy {
+    margin-top: v.$spacing-lg;
+    text-align: center;
+  }
+
+  &__privacy-link {
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.55);
+    }
+  }
 }

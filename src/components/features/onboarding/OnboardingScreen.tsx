@@ -161,6 +161,18 @@ export default function OnboardingScreen() {
           </Link>
         </p>
 
+        {/* ── Lien confidentialité (requis RGPD / stores) ──────────────────── */}
+        <p className="onboarding__privacy">
+          <a
+            href="https://erudia.app/legal/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="onboarding__privacy-link"
+          >
+            Politique de confidentialité
+          </a>
+        </p>
+
       </main>
     </div>
   );
