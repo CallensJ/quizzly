@@ -7874,7 +7874,7 @@
       "question": "Quel dinosaure est souvent surnommé 'le roi des dinosaures' ?",
       "options": {
         "A": "Le Brontosaure",
-        "B": "Le Tyrannosaure (T-Rex)",
+        "B": "Le Tyrannosaure",
         "C": "L'Ankylosaure",
         "D": "Le Triceratops"
       },
@@ -8998,7 +8998,7 @@
       "difficulty": "hard",
       "question": "Quelle est la limite marquant la fin des dinosaures ?",
       "options": {
-        "A": "La limite K-T (ou K-Pg)",
+        "A": "La limite K-T",
         "B": "La limite Trias-Jura",
         "C": "La limite Néogène",
         "D": "La limite Permienne"
