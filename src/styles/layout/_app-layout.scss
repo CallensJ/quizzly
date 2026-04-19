@@ -288,25 +288,6 @@
     flex-direction: column;
   }
 
-  // ── Footer légal ─────────────────────────────────────────────────────────
-
-  &__footer {
-    margin-top: auto;
-    padding: v.$spacing-md v.$spacing-lg;
-    text-align: center;
-  }
-
-  &__privacy-link {
-    font-size: 0.7rem;
-    color: rgba(0, 0, 0, 0.3);
-    text-decoration: underline;
-    text-underline-offset: 2px;
-
-    &:hover {
-      color: rgba(0, 0, 0, 0.55);
-    }
-  }
-
   // ── Animations ───────────────────────────────────────────────────────────
 
   @keyframes badge-pulse {

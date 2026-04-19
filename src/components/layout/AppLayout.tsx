@@ -164,19 +164,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
       {/* ── Zone de contenu principale ─────────────────────────────────────── */}
       <div className="app-layout__main">
         {children}
-        <footer className="app-layout__footer">
-          <a
-            href="https://erudia.app/legal/privacy"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="app-layout__privacy-link"
-          >
-            Politique de confidentialité
-          </a>
-        </footer>
       </div>
-
-
     </div>
   );
 }

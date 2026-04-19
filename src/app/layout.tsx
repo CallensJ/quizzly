@@ -76,12 +76,6 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang={locale} className={nunito.variable}>
       <body>
         {children}
-        {/* Lien confidentialité dans le HTML statique — requis par les stores (Apple, Google) et RGPD */}
-        <footer style={{ textAlign: 'center', padding: '8px', fontSize: '11px', opacity: 0.4 }}>
-          <a href="https://erudia.app/legal/privacy" rel="noopener noreferrer">
-            Politique de confidentialité
-          </a>
-        </footer>
       </body>
     </html>
   );
