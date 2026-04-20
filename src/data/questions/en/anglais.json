@@ -2758,7 +2758,7 @@
       "options": {
         "A": "on",
         "B": "at",
-        "=C": "inside",
+        "C": "inside",
         "D": "between"
       },
       "answer": "C"
@@ -5159,7 +5159,7 @@
       "options": {
         "A": "on",
         "B": "at",
-        "=C": "inside",
+        "C": "inside",
         "D": "between"
       },
       "answer": "C"

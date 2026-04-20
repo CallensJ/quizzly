@@ -60,12 +60,22 @@ const FILES = [
   { path: 'src/data/questions/fr/education-civique.json', category: 'education-civique',locale: 'fr' },
   { path: 'src/data/questions/fr/environnement.json',     category: 'environnement',    locale: 'fr' },
   { path: 'src/data/questions/fr/espace-astronomie.json', category: 'espace-astronomie',locale: 'fr' },
+  { path: 'src/data/questions/fr/monde-antique.json',     category: 'monde-antique',    locale: 'fr' },
+  { path: 'src/data/questions/fr/musique.json',           category: 'musique',          locale: 'fr' },
+  { path: 'src/data/questions/fr/technologie.json',       category: 'technologie',      locale: 'fr' },
 
   // ── Premium EN ─────────────────────────────────────────────────────────────
   { path: 'src/data/questions/en/math.json',              category: 'math',             locale: 'en' },
   { path: 'src/data/questions/en/francais.json',          category: 'francais',         locale: 'en' },
   { path: 'src/data/questions/en/sport.json',             category: 'sport',            locale: 'en' },
   { path: 'src/data/questions/en/corps-humain.json',      category: 'corps-humain',     locale: 'en' },
+  { path: 'src/data/questions/en/education-civique.json', category: 'education-civique',locale: 'en' },
+  { path: 'src/data/questions/en/animaux-nature.json',    category: 'animaux-nature',   locale: 'en' },
+  { path: 'src/data/questions/en/anglais.json',           category: 'anglais',          locale: 'en' },
+  { path: 'src/data/questions/en/art.json',               category: 'art',              locale: 'en' },
+  { path: 'src/data/questions/en/cuisine.json',           category: 'cuisine',          locale: 'en' },
+  { path: 'src/data/questions/en/dinosaures.json',        category: 'dinosaures',       locale: 'en' },
+  { path: 'src/data/questions/en/monde-antique.json',     category: 'monde-antique',    locale: 'en' },
 ] as const;
 
 // ─── Types source ─────────────────────────────────────────────────────────────
