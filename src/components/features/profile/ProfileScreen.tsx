@@ -141,7 +141,7 @@ export default function ProfileScreen() {
             />
             <button
               type="button"
-              className="profile__avatar-edit-btn"
+              className="profile__avatar-edit-btn btn--icon"
               onClick={() => setEditingAvatar((v) => !v)}
               aria-label={t('changeAvatar')}
               aria-expanded={editingAvatar}

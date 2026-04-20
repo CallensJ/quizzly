@@ -60,7 +60,7 @@ export default function BadgesModal({ isOpen, onClose, earnedBadgeIds }: BadgesM
           <h2 className="badges-modal__title">{t('modalTitle')}</h2>
           <button
             type="button"
-            className="badges-modal__close"
+            className="badges-modal__close btn--icon"
             onClick={onClose}
             aria-label="Fermer"
           >
