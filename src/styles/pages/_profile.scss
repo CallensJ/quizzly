@@ -111,11 +111,15 @@
     right: 0;
     width: 26px;
     height: 26px;
+    min-width: 26px;
+    padding: 0;
     @include m.flex-center;
     background: v.$primary;
     color: v.$white;
     border-radius: 50%;
     border: 2px solid v.$white;
+    overflow: hidden;
+    flex-shrink: 0;
     transition: background v.$transition-fast;
 
     &:hover { background: v.$primary-dark; }

@@ -187,6 +187,33 @@
     color: v.$text-muted;
   }
 
+  // Liens de navigation après l'unlock d'un badge
+  &__badges-nav {
+    display: flex;
+    gap: v.$spacing-sm;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: v.$spacing-xs;
+  }
+
+  &__badges-link {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$primary;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color v.$transition-fast;
+
+    &:hover { color: v.$primary-dark; }
+    @include m.focus-ring;
+
+    &--secondary {
+      color: v.$text-muted;
+
+      &:hover { color: v.$foreground; }
+    }
+  }
+
   // ── Badge "Défi" dans le header ────────────────────────────────────────
 
   &__challenge-badge {

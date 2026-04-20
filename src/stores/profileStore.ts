@@ -464,6 +464,8 @@ export const useProfileStore = create<ProfileState>()(
             ...state.sessions,
             { ...session, playedAt: new Date().toISOString() },
           ],
+          // Reset pour que la prochaine session Results parte d'une ardoise vierge
+          newBadgesThisSession: [],
         })),
 
       awardBadges: (ids) =>

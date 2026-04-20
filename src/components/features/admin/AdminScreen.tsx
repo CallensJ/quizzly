@@ -156,7 +156,7 @@ export default function AdminScreen() {
         </AdminErrorBoundary>
 
         {/* ── Rapport de progression PDF ───────────────────────────────────── */}
-        {/*<AdminErrorBoundary label="Report"><ReportSection /></AdminErrorBoundary>*/}
+        <AdminErrorBoundary label="Report"><ReportSection /></AdminErrorBoundary>
 
         {/* ── Abonnement Premium ─────────────────────────────────────────── */}
         <AdminErrorBoundary label="Subscription">

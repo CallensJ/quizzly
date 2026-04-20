@@ -321,6 +321,22 @@ export default function ResultsScreen() {
                 );
               })}
             </div>
+            <div className="results__badges-nav">
+              <button
+                type="button"
+                className="results__badges-link"
+                onClick={() => router.push('/profile')}
+              >
+                {tBadges('seeBadges')}
+              </button>
+              <button
+                type="button"
+                className="results__badges-link results__badges-link--secondary"
+                onClick={() => { resetAll(); router.push('/home'); }}
+              >
+                {t('backHome')}
+              </button>
+            </div>
           </div>
         )}
 
