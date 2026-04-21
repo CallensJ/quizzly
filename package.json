@@ -20,6 +20,7 @@
     "@stripe/stripe-js": "^9.0.0",
     "@supabase/ssr": "^0.10.0",
     "@supabase/supabase-js": "^2.99.1",
+    "@vercel/analytics": "^2.0.1",
     "canvas-confetti": "^1.9.4",
     "dexie": "^4.3.0",
     "framer-motion": "^12.36.0",

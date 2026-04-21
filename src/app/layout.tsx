@@ -15,6 +15,7 @@ import type { Metadata, Viewport } from 'next';
 import { Nunito } from 'next/font/google';
 import { getLocale } from 'next-intl/server';
 import Script from 'next/script';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.scss';
 
 const nunito = Nunito({
@@ -76,6 +77,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang={locale} className={nunito.variable}>
       <body>
         {children}
+        <Analytics />
       </body>
     </html>
   );
