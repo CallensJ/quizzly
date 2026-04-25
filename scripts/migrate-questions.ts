@@ -76,6 +76,7 @@ const FILES = [
   { path: 'src/data/questions/en/cuisine.json',           category: 'cuisine',          locale: 'en' },
   { path: 'src/data/questions/en/dinosaures.json',        category: 'dinosaures',       locale: 'en' },
   { path: 'src/data/questions/en/monde-antique.json',     category: 'monde-antique',    locale: 'en' },
+  { path: 'src/data/questions/en/geographie.json',        category: 'geographie',        locale: 'en' },
 ] as const;
 
 // ─── Types source ─────────────────────────────────────────────────────────────
