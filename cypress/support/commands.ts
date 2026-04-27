@@ -92,7 +92,7 @@ Cypress.Commands.add('setupQuestionsCache', () => {
  * cy.answerAllQuestions()
  *
  * Répond à toutes les questions du quiz en cours en cliquant sur la réponse A,
- * puis en cliquant sur "Suivant" / "Terminer".
+ * puis attend l'auto-advance.
  *
  * Utilise 25 itérations (marge de sécurité) avec $body.find() pour détecter
  * la présence de answer-A SANS timeout bloquant.
@@ -105,7 +105,13 @@ Cypress.Commands.add('setupQuestionsCache', () => {
  * answer-A pendant 10s et échouait. Avec $body.find(), le check est instantané :
  * si answer-A n'est pas dans le DOM → skip immédiat.
  *
- * Note : on répond toujours A — l'objectif est de tester le flux, pas les questions.
+ * Pourquoi cy.wait(2200) ?
+ * shuffleOptions() mélange les options — la bonne réponse n'est à 'A' qu'à 25%.
+ * QuizScreen auto-avance après 1200ms (bonne réponse) ou 2000ms (mauvaise réponse).
+ * Un wait de 1400ms ne couvre pas le cas faux (2000ms) : l'itération suivante voit
+ * answer-A encore visible, clique sur un bouton désactivé, gaspille une itération.
+ * Avec 2200ms, une seule itération suffit pour toute réponse, et 20 questions tiennent
+ * dans les 25 itérations disponibles.
  */
 Cypress.Commands.add('answerAllQuestions', () => {
   // 25 itérations — marge de sécurité au-delà des 20 questions
@@ -115,16 +121,9 @@ Cypress.Commands.add('answerAllQuestions', () => {
       // ou en transition), on skipe cette itération sans bloquer.
       if ($body.find('[data-testid="answer-A"]').is(':visible')) {
         cy.get('[data-testid="answer-A"]').click();
-        // Bonne réponse → auto-avance après 1200ms (pas de next-btn)
-        // Mauvaise réponse → next-btn apparaît, on clique
-        cy.get('body').then(($b) => {
-          if ($b.find('[data-testid="next-btn"]').length) {
-            cy.get('[data-testid="next-btn"]').should('be.visible').click();
-          } else {
-            // Auto-advance — attendre que la question suivante charge
-            cy.wait(1400);
-          }
-        });
+        // Auto-advance uniquement — pas de bouton Suivant dans ce quiz.
+        // 2200ms couvre bonne réponse (1200ms) ET mauvaise réponse (2000ms).
+        cy.wait(2200);
       }
     });
   });
