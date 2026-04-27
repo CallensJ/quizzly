@@ -29,6 +29,7 @@ import AvatarGallery from './AvatarGallery';
 import BadgesPreview from './BadgesPreview';
 import BadgesModal from './BadgesModal';
 import PlayerSwitcherModal from './PlayerSwitcherModal';
+import PremiumModal from '@/components/ui/PremiumModal';
 
 /**
  * Calcule le meilleur score (en %) parmi toutes les sessions.
@@ -92,6 +93,7 @@ export default function ProfileScreen() {
   const [editingAvatar, setEditingAvatar] = useState(false);
   const [badgesModalOpen, setBadgesModalOpen] = useState(false);
   const [switcherOpen, setSwitcherOpen] = useState(false);
+  const [showPremiumModal, setShowPremiumModal] = useState(false);
 
   if (!profile) return null;
 
@@ -109,6 +111,11 @@ export default function ProfileScreen() {
 
   return (
     <div className="profile">
+
+      <PremiumModal
+        visible={showPremiumModal}
+        onClose={() => setShowPremiumModal(false)}
+      />
 
       {/* ── Header : bouton retour + titre ───────────────────────────────── */}
       <header className="profile__header">
@@ -174,7 +181,7 @@ export default function ProfileScreen() {
         <button
           type="button"
           className="profile__switch-player-btn"
-          onClick={() => setSwitcherOpen(true)}
+          onClick={() => isPremium ? setSwitcherOpen(true) : setShowPremiumModal(true)}
         >
           <Users size={16} strokeWidth={2} aria-hidden="true" />
           {t('switchPlayer')}

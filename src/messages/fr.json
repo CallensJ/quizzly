@@ -88,7 +88,12 @@
     "ctaFinish": "Voir mes résultats !",
     "feedbackCorrect": "✅ Bonne réponse !",
     "feedbackWrong": "❌ Dommage…",
-    "feedbackTimeout": "⏰ Temps écoulé !"
+    "feedbackTimeout": "⏰ Temps écoulé !",
+    "quitAriaLabel": "Quitter le quiz",
+    "quitConfirmTitle": "Quitter le quiz",
+    "quitConfirmMsg": "Tu vas perdre ta progression actuelle. Tu veux vraiment quitter ?",
+    "quitCancel": "Continuer",
+    "quitConfirm": "Quitter"
   },
   "results": {
     "title": "Partie terminée !",
@@ -601,6 +606,20 @@
     "avatarUnlocked": "Superbe choix, cet avatar est à toi ! 🎨",
     "newChild": "Bienvenue dans la famille, nouveau joueur ! 👋",
     "cancelSoft": "C'est dommage... Je t'attends si tu changes d'avis ! 💙"
+  },
+  "premiumModal": {
+    "badge": "Premium",
+    "title": "Passe à Erudia+ !",
+    "subtitle": "Débloque toutes les catégories et profite pleinement de l'aventure.",
+    "perksLabel": "Avantages premium",
+    "perk1": "21 catégories de quiz disponibles",
+    "perk2": "Défis quotidiens & badges exclusifs",
+    "perk3": "Jusqu'à 4 profils enfants",
+    "price": "1,99 € / mois",
+    "priceAlt": "ou 9,99 € pour 6 mois",
+    "cancel": "Plus tard",
+    "cta": "Voir les offres →",
+    "closeAriaLabel": "Fermer"
   },
   "challenges": {
     "title": "Défis",

@@ -32,6 +32,7 @@ import { useNovaStore } from '@/stores/novaStore';
 import { getUnlockedMythSubcategories } from '@/lib/mythology';
 import DailyBanner from './DailyBanner';
 import MythologyPanel from './MythologyPanel';
+import PremiumModal from '@/components/ui/PremiumModal';
 import type { Category, Difficulty, Locale, MythSubcategory } from '@/types';
 
 const SLEEP_DELAY_MS = 30_000;
@@ -105,6 +106,9 @@ export default function HomeScreen() {
   const { category, difficulty, subcategory, setCategory, setDifficulty, setSubcategory, startQuiz } = useQuizStore();
   const headerColor     = getCategoryColor(category);
   const headerColorDark = getCategoryColorDark(category);
+
+  // ── Modale premium ────────────────────────────────────────────────────────
+  const [showPremiumModal, setShowPremiumModal] = useState(false);
 
   // ── Mythologie : état du tiroir de sous-catégories ────────────────────────
   const [mythOpen, setMythOpen] = useState(false);
@@ -234,6 +238,11 @@ export default function HomeScreen() {
   return (
     <div className="home">
 
+      <PremiumModal
+        visible={showPremiumModal}
+        onClose={() => setShowPremiumModal(false)}
+      />
+
       {/* ── Barre de navigation ────────────────────────────────────────────── */}
       <header
         className="home__header"
@@ -322,7 +331,7 @@ export default function HomeScreen() {
               aria-controls="myth-panel"
               onClick={() => {
                 if (!isPremium) {
-                  showNova('encouragement', tNova('premiumHint'), 3000);
+                  setShowPremiumModal(true);
                   return;
                 }
                 setMythOpen((prev) => !prev);
@@ -390,7 +399,7 @@ export default function HomeScreen() {
                   className="home__cat-card home__cat-card--locked-cta"
                   style={{ '--cat-color': colorVar } as React.CSSProperties}
                   aria-label={`${t(i18nKey)} — ${t('premiumLocked')}`}
-                  onClick={() => showNova('encouragement', tNova('premiumHint'), 3000)}
+                  onClick={() => setShowPremiumModal(true)}
                 >
                   <span className="home__cat-icon">{icon}</span>
                   <span className="home__cat-name">{t(i18nKey)}</span>

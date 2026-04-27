@@ -60,8 +60,9 @@ export default function AdminScreen() {
   }
 
   async function handleSignOut() {
-    await signOut();
+    // Navigate first so the admin guard doesn't race with the auth state change
     router.replace("/profile");
+    await signOut();
   }
 
   const totalGames = sessions.length;

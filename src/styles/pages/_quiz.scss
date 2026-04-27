@@ -14,6 +14,7 @@
 
 @use '../abstracts/variables' as v;
 @use '../abstracts/mixins' as m;
+@use 'sass:color';
 
 .quiz {
   min-height: 100dvh;
@@ -278,6 +279,97 @@
     }
 
     @include m.focus-ring;
+  }
+
+  // ── Bouton quitter (header-top) ───────────────────────────────────────────
+
+  &__quit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    color: v.$white;
+    cursor: pointer;
+    transition: background v.$transition-fast;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.28);
+    }
+  }
+
+  // ── Modale confirmation quitter ───────────────────────────────────────────
+
+  &__quit-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(v.$foreground, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    padding: v.$spacing-md;
+  }
+
+  &__quit-dialog {
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    padding: v.$spacing-xl;
+    width: 100%;
+    max-width: 340px;
+    text-align: center;
+  }
+
+  &__quit-msg {
+    font-size: v.$font-size-base;
+    font-weight: 600;
+    color: v.$foreground;
+    line-height: 1.5;
+    margin-bottom: v.$spacing-lg;
+  }
+
+  &__quit-actions {
+    display: flex;
+    gap: v.$spacing-sm;
+  }
+
+  &__quit-cancel {
+    flex: 1;
+    padding: 0.75rem;
+    background: v.$bg;
+    border: none;
+    border-radius: v.$radius-md;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    color: v.$text-muted;
+    cursor: pointer;
+
+    &:hover {
+      background: color.adjust(v.$bg, $lightness: -4%);
+    }
+  }
+
+  &__quit-confirm {
+    flex: 1;
+    padding: 0.75rem;
+    background: v.$error;
+    border: none;
+    border-radius: v.$radius-md;
+    font-size: v.$font-size-base;
+    font-weight: 800;
+    font-family: v.$font-primary;
+    color: v.$white;
+    cursor: pointer;
+    transition: opacity v.$transition-fast;
+
+    &:hover {
+      opacity: 0.88;
+    }
   }
 
   // ── Timer circulaire ──────────────────────────────────────────────────────

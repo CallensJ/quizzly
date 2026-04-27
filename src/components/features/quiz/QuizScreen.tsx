@@ -24,6 +24,7 @@ import Nova, { type NovaState } from '@/components/ui/Nova';
 import { playSound } from '@/lib/sound';
 import { getNewlyEarnedBadges } from '@/lib/badges';
 import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
+import { X } from 'lucide-react';
 import type { AnswerKey } from '@/types';
 
 // Ordre fixe d'affichage des boutons réponse
@@ -98,6 +99,15 @@ export default function QuizScreen() {
     if (wrongKey) selectAnswer(wrongKey);
   }, [timeLeft]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // ── Confirmation quitter le quiz ──────────────────────────────────────────
+  const [showQuitConfirm, setShowQuitConfirm] = useState(false);
+  const { resetQuiz } = useQuizStore();
+
+  function handleQuitConfirmed() {
+    resetQuiz();
+    router.replace('/home');
+  }
+
   // ── Nova : feedback visuel après chaque réponse ───────────────────────────
   // Les compteurs de série persistent entre les questions de la même partie.
   const consecutiveCorrectRef = useRef(0);
@@ -152,15 +162,14 @@ export default function QuizScreen() {
     return () => cancelAnimationFrame(rafId);
   }, [selectedAnswer]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // ── Auto-avance sur bonne réponse ─────────────────────────────────────────
-  // Passe automatiquement à la question suivante 1200ms après une bonne réponse.
-  // Sur mauvaise réponse : l'utilisateur doit cliquer "Suivant" manuellement
-  // (lui laisse le temps de voir la bonne réponse).
+  // ── Auto-avance sur toute réponse ─────────────────────────────────────────
+  // Bonne réponse → 1200ms. Mauvaise réponse → 2000ms (temps de voir la bonne réponse).
   const autoAdvanceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   useEffect(() => {
     if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
-    if (!isAnswered || !question || selectedAnswer !== question.answer) return;
-    autoAdvanceRef.current = setTimeout(nextQuestion, 1200);
+    if (!isAnswered || !question) return;
+    const delay = selectedAnswer === question.answer ? 1200 : 2000;
+    autoAdvanceRef.current = setTimeout(nextQuestion, delay);
     return () => {
       if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
     };
@@ -224,6 +233,31 @@ export default function QuizScreen() {
         duration={2500}
       />
 
+      {/* ── Modale de confirmation — quitter le quiz ─────────────────────────── */}
+      {showQuitConfirm && (
+        <div className="quiz__quit-overlay" role="dialog" aria-modal="true" aria-label={t('quitConfirmTitle')}>
+          <div className="quiz__quit-dialog">
+            <p className="quiz__quit-msg">{t('quitConfirmMsg')}</p>
+            <div className="quiz__quit-actions">
+              <button
+                type="button"
+                className="quiz__quit-cancel"
+                onClick={() => setShowQuitConfirm(false)}
+              >
+                {t('quitCancel')}
+              </button>
+              <button
+                type="button"
+                className="quiz__quit-confirm"
+                onClick={handleQuitConfirmed}
+              >
+                {t('quitConfirm')}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* ── Header : progression + métadonnées ───────────────────────────── */}
       <header
         className="quiz__header"
@@ -233,9 +267,14 @@ export default function QuizScreen() {
           <span className="quiz__cat-label">
             {category === 'sciences' ? '🔬' : '📜'} {tHome(category!)}
           </span>
-          <span className="quiz__score">
-            ⭐ {score} pt{score !== 1 ? 's' : ''}
-          </span>
+          <button
+            type="button"
+            className="quiz__quit-btn"
+            onClick={() => setShowQuitConfirm(true)}
+            aria-label={t('quitAriaLabel')}
+          >
+            <X size={18} strokeWidth={2.5} />
+          </button>
         </div>
 
         <div className="quiz__meta">
@@ -247,6 +286,9 @@ export default function QuizScreen() {
               {tHome(difficulty)}
             </span>
           )}
+          <span className="quiz__score">
+            ⭐ {score} pt{score !== 1 ? 's' : ''}
+          </span>
         </div>
 
         {/* Barre de progression — avance au chargement de chaque nouvelle question */}
@@ -335,18 +377,7 @@ export default function QuizScreen() {
           ))}
         </div>
 
-        {/* Bouton Suivant — uniquement sur mauvaise réponse.
-            Bonne réponse → auto-avance après 1200ms (voir autoAdvanceRef ci-dessus). */}
-        {isAnswered && selectedAnswer !== question.answer && (
-          <button
-            type="button"
-            data-testid="next-btn"
-            className="quiz__next-btn"
-            onClick={nextQuestion}
-          >
-            {currentIndex < total - 1 ? t('ctaNext') : t('ctaFinish')}
-          </button>
-        )}
+        {/* Auto-avance sur toute réponse (bonne 1.2s, mauvaise 2s) — pas de bouton Suivant */}
 
       </main>
     </div>

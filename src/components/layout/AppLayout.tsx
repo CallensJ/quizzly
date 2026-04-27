@@ -18,7 +18,7 @@ import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
-import { Star, Trophy, Gamepad2, Swords, Sun, Flame, Users } from 'lucide-react';
+import { Star, Trophy, Gamepad2, BarChart2, Home } from 'lucide-react';
 import { buildAvatarUrl } from '@/lib/avatars';
 import { getDailyDateString, getTitleForXp } from '@/lib/daily';
 import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
@@ -33,8 +33,6 @@ export default function AppLayout({ children }: AppLayoutProps) {
   const router = useRouter();
   const profile              = useProfileStore((s) => s.profile);
   const sessions             = useProfileStore((s) => s.sessions);
-  const profiles             = useProfileStore((s) => s.profiles);
-  const multiplayerUnlocked  = useProfileStore((s) => s.multiplayerUnlocked);
   const dailyStreak          = useProfileStore((s) => s.dailyStreak);
   const dailyXp              = useProfileStore((s) => s.dailyXp);
   const dailyLastDate        = useProfileStore((s) => s.dailyLastDate);
@@ -132,17 +130,25 @@ export default function AppLayout({ children }: AppLayoutProps) {
           </button>
         )} */}
 
-        {/* Changer d'enfant — visible uniquement si plusieurs profils */}
-        {profiles.length > 1 && (
+        {/* Navigation rapide */}
+        <nav className="app-layout__nav" aria-label="Navigation">
           <button
-            className="app-layout__switch-btn"
-            onClick={() => router.push('/profiles')}
-            aria-label="Changer d'enfant"
+            className="app-layout__nav-btn"
+            onClick={() => router.push('/home')}
+            aria-label="Retour à l'accueil"
           >
-            <Users size={16} aria-hidden="true" />
-            <span>Changer d&apos;enfant</span>
+            <Home size={16} aria-hidden="true" />
+            <span>Accueil</span>
           </button>
-        )}
+          <button
+            className="app-layout__nav-btn"
+            onClick={() => router.push('/stats')}
+            aria-label="Voir les statistiques"
+          >
+            <BarChart2 size={16} aria-hidden="true" />
+            <span>Statistiques</span>
+          </button>
+        </nav>
 
         {/* Section badges */}
         <div className="app-layout__badges-section">

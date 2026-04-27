@@ -18,9 +18,10 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
-import { Plus, Trash2, X, Check } from 'lucide-react';
+import { Plus, X, Check } from 'lucide-react';
 import { buildAvatarUrl, FREE_SEEDS, FREE_STYLE } from '@/lib/avatars';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
+import { useSubscription } from '@/hooks/useSubscription';
 
 export default function ProfileSelector() {
   const t = useTranslations('profiles');
@@ -28,17 +29,19 @@ export default function ProfileSelector() {
   const router = useRouter();
   const { showNova } = useNovaPresence();
 
-  const profiles           = useProfileStore((s) => s.profiles);
-  const activeProfileId    = useProfileStore((s) => s.activeProfileId);
-  const switchProfile      = useProfileStore((s) => s.switchProfile);
-  const addChildProfile    = useProfileStore((s) => s.addChildProfile);
-  const removeChildProfile = useProfileStore((s) => s.removeChildProfile);
+  const profiles        = useProfileStore((s) => s.profiles);
+  const activeProfileId = useProfileStore((s) => s.activeProfileId);
+  const switchProfile   = useProfileStore((s) => s.switchProfile);
+  const addChildProfile = useProfileStore((s) => s.addChildProfile);
+
+  const { isPremium } = useSubscription();
+  // Gratuit : max 1 profil — Premium : max 4 profils
+  const canAddProfile = isPremium ? profiles.length < 4 : profiles.length < 1;
 
   // ── État UI ────────────────────────────────────────────────────────────
   const [showAddForm, setShowAddForm] = useState(false);
   const [newPseudo, setNewPseudo]     = useState('');
   const [newAvatarId, setNewAvatarId] = useState<string | null>(null);
-  const [deleteId, setDeleteId]       = useState<string | null>(null); // ID en attente de suppression
 
   const canAdd = newPseudo.trim().length >= 2 && newAvatarId !== null;
 
@@ -70,17 +73,6 @@ export default function ProfileSelector() {
     setShowAddForm(false);
     setNewPseudo('');
     setNewAvatarId(null);
-  }
-
-  function handleDeleteConfirm() {
-    if (!deleteId) return;
-    removeChildProfile(deleteId);
-    setDeleteId(null);
-    // Si plus de profils → retour à l'accueil (OnboardingScreen)
-    const remaining = useProfileStore.getState().profiles;
-    if (remaining.length === 0) {
-      router.replace('/');
-    }
   }
 
   return (
@@ -119,23 +111,11 @@ export default function ProfileSelector() {
                   </span>
                 )}
               </button>
-
-              {/* Bouton supprimer — uniquement si plus d'un profil */}
-              {profiles.length > 1 && (
-                <button
-                  type="button"
-                  className="profiles__delete-btn"
-                  onClick={() => setDeleteId(p.id)}
-                  aria-label={t('deleteAriaLabel', { pseudo: p.pseudo })}
-                >
-                  <Trash2 size={14} />
-                </button>
-              )}
             </div>
           ))}
 
-          {/* ── Carte "Ajouter un enfant" ─────────────────────────────── */}
-          {!showAddForm && (
+          {/* ── Carte "Ajouter un enfant" — visible uniquement si limite non atteinte ── */}
+          {!showAddForm && canAddProfile && (
             <button
               type="button"
               className="profiles__add-card"
@@ -214,35 +194,6 @@ export default function ProfileSelector() {
                   onClick={handleAddProfile}
                 >
                   {t('addConfirmLabel')}
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* ── Modale confirmation suppression ──────────────────────────── */}
-        {deleteId && (
-          <div className="profiles__confirm-overlay" role="dialog" aria-modal="true">
-            <div className="profiles__confirm">
-              <p className="profiles__confirm-msg">
-                {t('deleteConfirmMsg', {
-                  pseudo: profiles.find((p) => p.id === deleteId)?.pseudo ?? '',
-                })}
-              </p>
-              <div className="profiles__confirm-actions">
-                <button
-                  type="button"
-                  className="profiles__confirm-cancel"
-                  onClick={() => setDeleteId(null)}
-                >
-                  {t('cancelLabel')}
-                </button>
-                <button
-                  type="button"
-                  className="profiles__confirm-delete"
-                  onClick={handleDeleteConfirm}
-                >
-                  {t('deleteConfirmLabel')}
                 </button>
               </div>
             </div>

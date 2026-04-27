@@ -67,19 +67,28 @@
     align-items: center;
     gap: v.$spacing-sm;
     cursor: pointer;
-    transition: transform v.$transition-base, background v.$transition-base, border-color v.$transition-base;
+    transition:
+      transform v.$transition-base,
+      background v.$transition-base,
+      border-color v.$transition-base,
+      box-shadow v.$transition-base;
     color: v.$white;
     font-family: v.$font-primary;
     min-height: v.$touch-target-lg * 2;
+    // Signal visuel de cliquabilité
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 
     &:hover {
-      background: rgba(v.$white, 0.25);
-      transform: translateY(-3px);
+      background: rgba(v.$white, 0.28);
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+      border-color: rgba(v.$white, 0.6);
     }
 
     &--active {
       border-color: v.$accent;
       background: rgba(v.$white, 0.25);
+      box-shadow: 0 4px 16px rgba(v.$accent, 0.3);
     }
   }
 
@@ -107,28 +116,6 @@
     color: v.$foreground;
     padding: 2px 8px;
     border-radius: v.$radius-full;
-  }
-
-  // ── Bouton supprimer ───────────────────────────────────────────────────
-  &__delete-btn {
-    position: absolute;
-    top: 6px;
-    right: 6px;
-    width: 28px;
-    height: 28px;
-    background: rgba(v.$hard, 0.85);
-    border: none;
-    border-radius: 50%;
-    color: v.$white;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background v.$transition-fast;
-
-    &:hover {
-      background: v.$hard;
-    }
   }
 
   // ── Carte "Ajouter un enfant" ──────────────────────────────────────────
