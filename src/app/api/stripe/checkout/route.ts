@@ -92,12 +92,10 @@ export async function POST(req: NextRequest) {
       : { customer_email: user.email };
 
     // 5. Crée la session Checkout Stripe
-    // automatic_payment_methods délègue le choix des méthodes de paiement à Stripe :
-    // Apple Pay, Google Pay, cartes bancaires (CB), Amazon Pay, Link — activés selon
-    // la devise, le pays et les préférences du compte Stripe (configurable dans le dashboard).
+    // Les méthodes de paiement (CB, Apple Pay, Google Pay, Link…) sont gérées
+    // automatiquement par Stripe selon la configuration du dashboard.
     const session = await stripe.checkout.sessions.create({
       mode: 'subscription',
-      automatic_payment_methods: { enabled: true },
       ...customerParam,
       line_items: [{ price: priceId, quantity: 1 }],
       success_url: `${env.appUrl}/subscribe/success?session_id={CHECKOUT_SESSION_ID}`,
