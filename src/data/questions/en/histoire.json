@@ -1038,21 +1038,6 @@
       "answer": "B"
     },
     {
-      "id": "hist-en-0070",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "Which French king was known as 'Saint Louis'?",
-      "options": {
-        "A": "Louis IX",
-        "B": "Louis XIV",
-        "C": "Louis XVI",
-        "D": "Louis XI"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0071",
       "category": "histoire",
       "subcategory": null,
@@ -1336,21 +1321,6 @@
         "D": "Actor"
       },
       "answer": "A"
-    },
-    {
-      "id": "hist-en-0090",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "Which French city was the capital of the Roman 'Gaul'?",
-      "options": {
-        "A": "Paris",
-        "B": "Bordeaux",
-        "C": "Lyon",
-        "D": "Nice"
-      },
-      "answer": "C"
     },
     {
       "id": "hist-en-0091",
@@ -1756,21 +1726,6 @@
         "D": "Aerial combat"
       },
       "answer": "B"
-    },
-    {
-      "id": "hist-en-0118",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "hard",
-      "question": "Which French explorer founded the city of Quebec in 1608?",
-      "options": {
-        "A": "Samuel de Champlain",
-        "B": "Jacques Cartier",
-        "C": "La Salle",
-        "D": "Bougainville"
-      },
-      "answer": "A"
     },
     {
       "id": "hist-en-0119",
@@ -2283,21 +2238,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0153",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'the past' is ___.",
-      "options": {
-        "A": "le futur",
-        "B": "le présent",
-        "C": "le passé",
-        "D": "le ciel"
-      },
-      "answer": "C"
-    },
-    {
       "id": "hist-en-0154",
       "category": "histoire",
       "subcategory": null,
@@ -2371,21 +2311,6 @@
         "D": "numérique"
       },
       "answer": "A"
-    },
-    {
-      "id": "hist-en-0159",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for a 'queen' is ___.",
-      "options": {
-        "A": "une dame",
-        "B": "une princesse",
-        "C": "une reine",
-        "D": "une fée"
-      },
-      "answer": "C"
     },
     {
       "id": "hist-en-0160",
@@ -2613,21 +2538,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0175",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'the people' is ___.",
-      "options": {
-        "A": "le peuple",
-        "B": "le roi",
-        "C": "le mur",
-        "D": "le fer"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0176",
       "category": "histoire",
       "subcategory": null,
@@ -2641,21 +2551,6 @@
         "D": "Nice"
       },
       "answer": "C"
-    },
-    {
-      "id": "hist-en-0177",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'a sword' is ___.",
-      "options": {
-        "A": "un stylo",
-        "B": "une épée",
-        "C": "une cuillère",
-        "D": "une clé"
-      },
-      "answer": "B"
     },
     {
       "id": "hist-en-0178",
@@ -2701,21 +2596,6 @@
         "D": "Santé"
       },
       "answer": "B"
-    },
-    {
-      "id": "hist-en-0181",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'a flag' is ___.",
-      "options": {
-        "A": "un drapeau",
-        "B": "un chapeau",
-        "C": "un bateau",
-        "D": "un gâteau"
-      },
-      "answer": "A"
     },
     {
       "id": "hist-en-0182",
@@ -2879,21 +2759,6 @@
         "B": "Samuel de Champlain",
         "C": "Marco Polo",
         "D": "Vasco de Gama"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0193",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "The 'Code Napoléon' is a famous set of French ___.",
-      "options": {
-        "A": "Laws",
-        "B": "Recipes",
-        "C": "Songs",
-        "D": "Poems"
       },
       "answer": "A"
     },
@@ -3198,21 +3063,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0214",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "In the past, the French word for 'the law' was ___.",
-      "options": {
-        "A": "la loi",
-        "B": "le roi",
-        "C": "la foi",
-        "D": "le bois"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0215",
       "category": "histoire",
       "subcategory": null,
@@ -3224,21 +3074,6 @@
         "B": "Paris",
         "C": "Marseille",
         "D": "Bordeaux"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0216",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "The French term 'ancien régime' refers to the time before the ___.",
-      "options": {
-        "A": "French Revolution",
-        "B": "World War I",
-        "C": "Middle Ages",
-        "D": "Renaissance"
       },
       "answer": "A"
     },
@@ -3299,21 +3134,6 @@
         "B": "School",
         "C": "Station",
         "D": "Market"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0221",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "Who was the queen of France at the start of the Revolution?",
-      "options": {
-        "A": "Marie-Antoinette",
-        "B": "Catherine de' Medici",
-        "C": "Anne of Austria",
-        "D": "Eugénie de Montijo"
       },
       "answer": "A"
     },
@@ -4893,21 +4713,6 @@
       "answer": "B"
     },
     {
-      "id": "hist-en-0327",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'the revolution' is ___.",
-      "options": {
-        "A": "la récréation",
-        "B": "la répétition",
-        "C": "la révolution",
-        "D": "la respiration"
-      },
-      "answer": "C"
-    },
-    {
       "id": "hist-en-0328",
       "category": "histoire",
       "subcategory": null,
@@ -5028,21 +4833,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0336",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'peace' is ___.",
-      "options": {
-        "A": "la faim",
-        "B": "la nuit",
-        "C": "la paix",
-        "D": "la peur"
-      },
-      "answer": "C"
-    },
-    {
       "id": "hist-en-0337",
       "category": "histoire",
       "subcategory": null,
@@ -5133,21 +4923,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0343",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "Who was the 'Sun King' who built the Palace of Versailles?",
-      "options": {
-        "A": "Louis XIV",
-        "B": "Louis XVI",
-        "C": "Charlemagne",
-        "D": "Clovis"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0344",
       "category": "histoire",
       "subcategory": null,
@@ -5223,21 +4998,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0349",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "Who was the Gaulish leader who fought against Julius Caesar?",
-      "options": {
-        "A": "Vercingétorix",
-        "B": "Charlemagne",
-        "C": "Napoleon",
-        "D": "Clovis"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0350",
       "category": "histoire",
       "subcategory": null,
@@ -5283,21 +5043,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0353",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "What is the French name for the stone monuments built by prehistoric people?",
-      "options": {
-        "A": "Des dolmens",
-        "B": "Des églises",
-        "C": "Des ponts",
-        "D": "Des gares"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0354",
       "category": "histoire",
       "subcategory": null,
@@ -5309,21 +5054,6 @@
         "B": "World War I",
         "C": "The Middle Ages",
         "D": "The Roman Empire"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0355",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "Which French king was known as 'Saint Louis'?",
-      "options": {
-        "A": "Louis IX",
-        "B": "Louis XIV",
-        "C": "Louis XVI",
-        "D": "Louis XIII"
       },
       "answer": "A"
     },
@@ -5444,21 +5174,6 @@
         "B": "Clovis",
         "C": "Louis XIV",
         "D": "Henry IV"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0364",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "The French word 'laïcité' means the separation of state and ___.",
-      "options": {
-        "A": "Religion",
-        "B": "Schools",
-        "C": "Army",
-        "D": "Sports"
       },
       "answer": "A"
     },
@@ -5598,21 +5313,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0374",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "The 'D-Day' landings in 1944 took place in which French region?",
-      "options": {
-        "A": "Normandy",
-        "B": "Brittany",
-        "C": "Provence",
-        "D": "Alsace"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0375",
       "category": "histoire",
       "subcategory": null,
@@ -5746,21 +5446,6 @@
         "D": "Lafayette"
       },
       "answer": "B"
-    },
-    {
-      "id": "hist-en-0384",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "The French term 'Siècle des Lumières' refers to the importance of ___.",
-      "options": {
-        "A": "Darkness",
-        "B": "Religion",
-        "C": "Wealth",
-        "D": "Reason"
-      },
-      "answer": "D"
     },
     {
       "id": "hist-en-0385",
@@ -6183,21 +5868,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0413",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "hard",
-      "question": "Which French explorer founded the city of Quebec in 1608?",
-      "options": {
-        "A": "Jacques Cartier",
-        "B": "Samuel de Champlain",
-        "C": "Marco Polo",
-        "D": "Vasco de Gama"
-      },
-      "answer": "B"
-    },
-    {
       "id": "hist-en-0414",
       "category": "histoire",
       "subcategory": null,
@@ -6239,21 +5909,6 @@
         "B": "Reims Cathedral",
         "C": "Strasbourg Cathedral",
         "D": "Amiens Cathedral"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0417",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "hard",
-      "question": "In the 19th century, Baron Haussmann completely changed the look of which city?",
-      "options": {
-        "A": "Paris",
-        "B": "London",
-        "C": "Rome",
-        "D": "Berlin"
       },
       "answer": "A"
     },
@@ -6798,21 +6453,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0454",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'the past' is ___.",
-      "options": {
-        "A": "le futur",
-        "B": "le présent",
-        "C": "le passé",
-        "D": "le ciel"
-      },
-      "answer": "C"
-    },
-    {
       "id": "hist-en-0455",
       "category": "histoire",
       "subcategory": null,
@@ -6826,21 +6466,6 @@
         "D": "Mona Lisa"
       },
       "answer": "A"
-    },
-    {
-      "id": "hist-en-0456",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'a flag' is ___.",
-      "options": {
-        "A": "un chapeau",
-        "B": "un drapeau",
-        "C": "un gâteau",
-        "D": "un bateau"
-      },
-      "answer": "B"
     },
     {
       "id": "hist-en-0457",
@@ -6858,21 +6483,6 @@
       "answer": "B"
     },
     {
-      "id": "hist-en-0458",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'a museum' is ___.",
-      "options": {
-        "A": "un marché",
-        "B": "un magasin",
-        "C": "un meuble",
-        "D": "un musée"
-      },
-      "answer": "D"
-    },
-    {
       "id": "hist-en-0459",
       "category": "histoire",
       "subcategory": null,
@@ -6886,21 +6496,6 @@
         "D": "un oiseau"
       },
       "answer": "C"
-    },
-    {
-      "id": "hist-en-0460",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'history' is ___.",
-      "options": {
-        "A": "l'histoire",
-        "B": "la musique",
-        "C": "le sport",
-        "D": "la cuisine"
-      },
-      "answer": "A"
     },
     {
       "id": "hist-en-0461",
@@ -6978,21 +6573,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0466",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'a sword' is ___.",
-      "options": {
-        "A": "une règle",
-        "B": "une gomme",
-        "C": "une chaussure",
-        "D": "une épée"
-      },
-      "answer": "D"
-    },
-    {
       "id": "hist-en-0467",
       "category": "histoire",
       "subcategory": null,
@@ -7006,21 +6586,6 @@
         "D": "Schools"
       },
       "answer": "A"
-    },
-    {
-      "id": "hist-en-0468",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'peace' is ___.",
-      "options": {
-        "A": "la faim",
-        "B": "la paix",
-        "C": "la peur",
-        "D": "la pluie"
-      },
-      "answer": "B"
     },
     {
       "id": "hist-en-0469",
@@ -7068,21 +6633,6 @@
       "answer": "B"
     },
     {
-      "id": "hist-en-0472",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'liberty' is ___.",
-      "options": {
-        "A": "la liberté",
-        "B": "la lecture",
-        "C": "la lettre",
-        "D": "la ligne"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0473",
       "category": "histoire",
       "subcategory": null,
@@ -7096,51 +6646,6 @@
         "D": "A chair"
       },
       "answer": "A"
-    },
-    {
-      "id": "hist-en-0474",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'the revolution' is ___.",
-      "options": {
-        "A": "la récréation",
-        "B": "la répétition",
-        "C": "la révolution",
-        "D": "la respiration"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "hist-en-0475",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "What is 'un blason' in French history?",
-      "options": {
-        "A": "A coat of arms",
-        "B": "A type of cake",
-        "C": "A fast car",
-        "D": "A new song"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0476",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'the future' is ___.",
-      "options": {
-        "A": "le passé",
-        "B": "le présent",
-        "C": "le futur",
-        "D": "le retard"
-      },
-      "answer": "C"
     },
     {
       "id": "hist-en-0477",
@@ -7171,36 +6676,6 @@
         "D": "la princesse"
       },
       "answer": "A"
-    },
-    {
-      "id": "hist-en-0479",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "What did French kings wear that was made of gold and jewels?",
-      "options": {
-        "A": "Une couronne",
-        "B": "Un pull",
-        "C": "Un sac",
-        "D": "Un jean"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0480",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'the world' is ___.",
-      "options": {
-        "A": "la ville",
-        "B": "le monde",
-        "C": "la rue",
-        "D": "le pont"
-      },
-      "answer": "B"
     },
     {
       "id": "hist-en-0481",
@@ -7246,21 +6721,6 @@
         "D": "The Lion"
       },
       "answer": "C"
-    },
-    {
-      "id": "hist-en-0484",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "easy",
-      "question": "The French word for 'prehistory' is ___.",
-      "options": {
-        "A": "la préhistoire",
-        "B": "le futur",
-        "C": "le repas",
-        "D": "la ville"
-      },
-      "answer": "A"
     },
     {
       "id": "hist-en-0485",
@@ -7443,21 +6903,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0497",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "Which French king was known as 'Saint Louis'?",
-      "options": {
-        "A": "Louis IX",
-        "B": "Louis XIV",
-        "C": "Louis XVI",
-        "D": "Louis XIII"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0498",
       "category": "histoire",
       "subcategory": null,
@@ -7503,21 +6948,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0501",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "In history, 'l'Ancien Régime' refers to the period before which event?",
-      "options": {
-        "A": "The French Revolution",
-        "B": "World War I",
-        "C": "The Renaissance",
-        "D": "The Middle Ages"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0502",
       "category": "histoire",
       "subcategory": null,
@@ -7533,36 +6963,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0503",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "Which French leader founded the First Empire?",
-      "options": {
-        "A": "Napoleon Bonaparte",
-        "B": "Charles de Gaulle",
-        "C": "Louis XIV",
-        "D": "Francis I"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0504",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "The French word 'laïcité' means the separation of state and ___.",
-      "options": {
-        "A": "Religion",
-        "B": "Schools",
-        "C": "The army",
-        "D": "Taxes"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0505",
       "category": "histoire",
       "subcategory": null,
@@ -7574,36 +6974,6 @@
         "B": "Catherine de' Medici",
         "C": "Anne of Austria",
         "D": "Eleanor of Aquitaine"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0506",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "The 'D-Day' landings in 1944 took place in which French region?",
-      "options": {
-        "A": "Normandy",
-        "B": "Brittany",
-        "C": "Provence",
-        "D": "Alsace"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0507",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "Who was the leader of the Free French during World War II?",
-      "options": {
-        "A": "Charles de Gaulle",
-        "B": "Napoleon",
-        "C": "Lafayette",
-        "D": "Francis I"
       },
       "answer": "A"
     },
@@ -7634,21 +7004,6 @@
         "B": "Louis Pasteur",
         "C": "Antoine Lavoisier",
         "D": "Blaise Pascal"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0510",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "The 'Code Napoléon' is a famous set of French ___.",
-      "options": {
-        "A": "Laws",
-        "B": "Recipes",
-        "C": "Songs",
-        "D": "Rules"
       },
       "answer": "A"
     },
@@ -7698,21 +7053,6 @@
       "answer": "A"
     },
     {
-      "id": "hist-en-0514",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "medium",
-      "question": "Who was the famous French writer of 'The Hunchback of Notre Dame'?",
-      "options": {
-        "A": "Victor Hugo",
-        "B": "Gustave Flaubert",
-        "C": "Émile Zola",
-        "D": "Marcel Proust"
-      },
-      "answer": "A"
-    },
-    {
       "id": "hist-en-0515",
       "category": "histoire",
       "subcategory": null,
@@ -7754,21 +7094,6 @@
         "B": "Napoleon I",
         "C": "Louis-Philippe",
         "D": "Charles X"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "hist-en-0518",
-      "category": "histoire",
-      "subcategory": null,
-      "locale": "en",
-      "difficulty": "hard",
-      "question": "The 'Loi Veil' (1975) is a major social law in France named after which woman?",
-      "options": {
-        "A": "Simone Veil",
-        "B": "Marie Curie",
-        "C": "George Sand",
-        "D": "Edith Piaf"
       },
       "answer": "A"
     },
@@ -8999,6 +8324,2261 @@
         "B": "Notre-Dame",
         "C": "The Louvre",
         "D": "Sacré-Cœur"
+      },
+      "answer": "A"
+    },
+
+    {
+      "id": "hist-fr-0001",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel objet utilisait-on pour s'éclairer la nuit avant l'invention de l'ampoule électrique ?",
+      "options": {
+        "A": "Le téléphone portable",
+        "B": "Le micro-ondes",
+        "C": "La bougie ou la lampe à huile",
+        "D": "Le radiateur"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0002",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-il le schéma qui représente tous les membres d'une famille, des grands-parents aux enfants ?",
+      "options": {
+        "A": "L'arbre généalogique",
+        "B": "La carte aux trésors",
+        "C": "Le menu du jour",
+        "D": "Le plan de la ville"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0003",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Pour se repérer dans le passé, on utilise souvent une ligne horizontale appelée...",
+      "options": {
+        "A": "Règle graduée",
+        "B": "Corde à sauter",
+        "C": "Barrière de sécurité",
+        "D": "Frise chronologique"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-0004",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Léa visite un vieux château avec sa classe. Elle remarque de grandes tours et des remparts. À quelle époque ont-ils été construits ?",
+      "options": {
+        "A": "Pendant les vacances dernières",
+        "B": "Au Moyen Âge",
+        "C": "Dans le futur",
+        "D": "La semaine prochaine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0005",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien y a-t-il d'années dans un siècle ?",
+      "options": {
+        "A": "10 ans",
+        "B": "100 ans",
+        "C": "1000 ans",
+        "D": "50 ans"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0006",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel célèbre chef gaulois a affronté Jules César lors du siège d'Alésia ?",
+      "options": {
+        "A": "Charlemagne",
+        "B": "Louis XIV",
+        "C": "Napoléon",
+        "D": "Vercingétorix"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-0007",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Pendant la Préhistoire, quelle découverte majeure a permis aux hommes de cuire leurs aliments et de se protéger du froid ?",
+      "options": {
+        "A": "Le feu",
+        "B": "L'électricité",
+        "C": "Le plastique",
+        "D": "Le fer"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0008",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "En France, quel événement historique célèbre-t-on chaque année le 14 juillet ?",
+      "options": {
+        "A": "L'invention du cinéma",
+        "B": "La naissance de Napoléon",
+        "C": "La prise de la Bastille",
+        "D": "Le premier voyage sur la Lune"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0009",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Qui a inventé la machine à vapeur, lançant ainsi la révolution industrielle ?",
+      "options": {
+        "A": "Christopher Colomb",
+        "B": "James Watt",
+        "C": "Léonard de Vinci",
+        "D": "Vasco de Gama"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0010",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment appelle-t-on le passage des humains du mode de vie nomade (déplacements) au mode sédentaire (villages) au Néolithique ?",
+      "options": {
+        "A": "La Révolution industrielle",
+        "B": "Le Grand Saut",
+        "C": "La Révolution néolithique",
+        "D": "L'exode rural"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0011",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel navigateur est célèbre pour avoir dirigé la première expédition qui a fait le tour du monde, même s'il est mort avant la fin du voyage ?",
+      "options": {
+        "A": "Fernand de Magellan",
+        "B": "Marco Polo",
+        "C": "Jacques Cartier",
+        "D": "Neil Armstrong"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0012",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Au Moyen Âge, comment appelait-on le système où les paysans travaillaient pour un seigneur en échange de sa protection ?",
+      "options": {
+        "A": "La démocratie",
+        "B": "L'industrie",
+        "C": "La République",
+        "D": "La féodalité"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-0013",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces objets nos arrière-grands-parents utilisaient-ils pour écrire à l'école ?",
+      "options": {
+        "A": "Une tablette numérique",
+        "B": "Un ordinateur portable",
+        "C": "Une plume et un encrier",
+        "D": "Un stylo laser"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0014",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans quel bâtiment vivaient les rois et les chevaliers autrefois ?",
+      "options": {
+        "A": "Un château fort",
+        "B": "Un gratte-ciel",
+        "C": "Un sous-marin",
+        "D": "Une tente de camping"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0015",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Pour connaître l'histoire de sa famille, on peut poser des questions à ses...",
+      "options": {
+        "A": "Grands-parents",
+        "B": "Jouets",
+        "C": "Personnages de dessins animés",
+        "D": "Animaux de compagnie"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0016",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Tom regarde une vieille photo en noir et blanc de sa ville. Il remarque qu'il n'y a pas de voitures mais des chevaux. C'est une preuve que...",
+      "options": {
+        "A": "Le monde ne change jamais",
+        "B": "Le temps passe et les choses évoluent",
+        "C": "La photo a été prise demain",
+        "D": "Les voitures ont été mangées par les chevaux"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0017",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel roi français est célèbre pour avoir fait construire le magnifique château de Versailles ?",
+      "options": {
+        "A": "Clovis",
+        "B": "Louis XIV",
+        "C": "Henri IV",
+        "D": "Charlemagne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0018",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "À Lascaux, on a trouvé des peintures très anciennes sur les parois des grottes. Qui les a réalisées ?",
+      "options": {
+        "A": "Les Romains",
+        "B": "Les hommes de la Préhistoire",
+        "C": "Les chevaliers",
+        "D": "Les inventeurs du XIXe siècle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0019",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "L'invention de l'imprimerie a permis de fabriquer des livres beaucoup plus vite. Qui en est l'inventeur ?",
+      "options": {
+        "A": "Gutenberg",
+        "B": "Napoléon",
+        "C": "Jules César",
+        "D": "Louis Pasteur"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0020",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "La Première Guerre mondiale est une période très marquante de l'histoire. En quelle année a-t-elle commencé ?",
+      "options": {
+        "A": "1789",
+        "B": "1945",
+        "C": "2000",
+        "D": "1914"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-0021",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle invention de la fin du XVIIIe siècle a permis de transporter des marchandises et des voyageurs beaucoup plus rapidement grâce à la vapeur ?",
+      "options": {
+        "A": "La locomotive (train)",
+        "B": "L'avion de ligne",
+        "C": "La trottinette électrique",
+        "D": "Le vélo de course"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0022",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'Égypte antique, comment appelait-on les rois qui étaient considérés comme des dieux ?",
+      "options": {
+        "A": "Les empereurs",
+        "B": "Les présidents",
+        "C": "Les pharaons",
+        "D": "Les maires"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0023",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle cité de la Grèce antique est célèbre pour avoir inventé la 'démocratie', où les citoyens votent pour prendre des décisions ?",
+      "options": {
+        "A": "Rome",
+        "B": "Sparte",
+        "C": "Athènes",
+        "D": "Troie"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0024",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "L'écriture est née en Mésopotamie il y a plus de 5000 ans. Quel nom donne-t-on à cette écriture en forme de coins ou de clous ?",
+      "options": {
+        "A": "L'alphabet latin",
+        "B": "Le cunéiforme",
+        "C": "Les hiéroglyphes",
+        "D": "Le braille"
+      },
+      "answer": "B"
+    },
+
+    {
+      "id": "hist-fr-0025",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Pendant la Préhistoire, où les premiers hommes s'abritaient-ils souvent pour se protéger ?",
+      "options": {
+        "A": "Dans des hôtels",
+        "B": "Dans des gratte-ciel",
+        "C": "Dans des grottes ou des abris sous roche",
+        "D": "Dans des caravanes"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0026",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces moyens de transport n'existait pas à l'époque des chevaliers ?",
+      "options": {
+        "A": "L'avion de ligne",
+        "B": "Le cheval",
+        "C": "La charrette",
+        "D": "Le bateau à rames"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0027",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le vêtement en métal que portaient les chevaliers pour se battre ?",
+      "options": {
+        "A": "Un pyjama",
+        "B": "Un jogging",
+        "C": "Un maillot de bain",
+        "D": "Une armure"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-0028",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Julie regarde un documentaire sur les pharaons. Elle apprend qu'ils construisaient de grands tombeaux pointus. Comment s'appellent-ils ?",
+      "options": {
+        "A": "Des immeubles",
+        "B": "Des pyramides",
+        "C": "Des tentes",
+        "D": "Des igloos"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0029",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Qui était Charlemagne, couronné en l'an 800 ?",
+      "options": {
+        "A": "Un empereur",
+        "B": "Un pirate",
+        "C": "Un astronaute",
+        "D": "Un chanteur"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0030",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle grande période de l'histoire commence avec l'invention de l'écriture ?",
+      "options": {
+        "A": "Le Moyen Âge",
+        "B": "La Préhistoire",
+        "C": "L'Antiquité",
+        "D": "L'époque contemporaine"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0031",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Lequel de ces personnages historiques est une femme célèbre pour avoir aidé le roi de France pendant la guerre de Cent Ans ?",
+      "options": {
+        "A": "Jeanne d'Arc",
+        "B": "Marie Curie",
+        "C": "Cléopâtre",
+        "D": "Élisabeth II"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0032",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Au XIXe siècle, quel savant français a découvert le vaccin contre la rage ?",
+      "options": {
+        "A": "Victor Hugo",
+        "B": "Molière",
+        "C": "Louis Pasteur",
+        "D": "Claude Monet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0033",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel nom donne-t-on à la période de l'histoire où les arts et les sciences ont connu un grand renouveau en Europe au XVIe siècle ?",
+      "options": {
+        "A": "La Renaissance",
+        "B": "L'Âge de fer",
+        "C": "Les Trente Glorieuses",
+        "D": "La Belle Époque"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0034",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "En quelle année a eu lieu la chute du mur de Berlin, marquant la fin d'une grande division en Europe ?",
+      "options": {
+        "A": "1914",
+        "B": "1945",
+        "C": "1989",
+        "D": "2001"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0035",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel explorateur a découvert l'Amérique en 1492 en pensant être arrivé en Inde ?",
+      "options": {
+        "A": "Marco Polo",
+        "B": "Vasco de Gama",
+        "C": "Christophe Colomb",
+        "D": "Jacques Cartier"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0036",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "L'édit de Nantes, signé par Henri IV en 1598, visait principalement à...",
+      "options": {
+        "A": "Déclarer la guerre à l'Espagne",
+        "B": "Établir la paix religieuse entre catholiques et protestants",
+        "C": "Interdire le port de la barbe",
+        "D": "Construire de nouvelles routes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0037",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces animaux n'existait plus à l'époque des Romains ?",
+      "options": {
+        "A": "Le lion",
+        "B": "Le cheval",
+        "C": "Le mammouth",
+        "D": "Le chien"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0038",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le chef suprême de la France aujourd'hui ?",
+      "options": {
+        "A": "Le roi",
+        "B": "Le pharaon",
+        "C": "Le président de la République",
+        "D": "L'empereur"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0039",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel événement de 1789 a marqué la fin de la monarchie absolue en France ?",
+      "options": {
+        "A": "La Révolution française",
+        "B": "La Guerre de Cent Ans",
+        "C": "L'invention de l'imprimerie",
+        "D": "La découverte de l'Amérique"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0040",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Sous quel nom est plus connu le général français qui est devenu Empereur des Français en 1804 ?",
+      "options": {
+        "A": "Louis XVI",
+        "B": "Napoléon Bonaparte",
+        "C": "Vercingétorix",
+        "D": "Charles de Gaulle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0041",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle est la langue parlée par les Romains et qui est à l'origine de beaucoup de mots français ?",
+      "options": {
+        "A": "Le grec",
+        "B": "L'anglais",
+        "C": "Le latin",
+        "D": "L'arabe"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0042",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Léo étudie la Seconde Guerre mondiale. Il apprend que le 6 juin 1944, les Alliés ont débarqué sur des plages françaises. Où cela s'est-il passé ?",
+      "options": {
+        "A": "En Normandie",
+        "B": "En Bretagne",
+        "C": "Sur la Côte d'Azur",
+        "D": "Au Pays Basque"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0043",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment appelle-t-on les guerres religieuses menées par les chrétiens pour reprendre Jérusalem au Moyen Âge ?",
+      "options": {
+        "A": "Les Croisades",
+        "B": "Les invasions barbares",
+        "C": "Les Lumières",
+        "D": "La Renaissance"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0044",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel roi de France, surnommé le 'roi chevalier', a ramené Léonard de Vinci en France ?",
+      "options": {
+        "A": "François Ier",
+        "B": "Louis XI",
+        "C": "Charles IX",
+        "D": "Henri III"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0045",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Que signifie le sigle O.N.U., une organisation créée après 1945 pour maintenir la paix dans le monde ?",
+      "options": {
+        "A": "Office National de l'Univers",
+        "B": "Organisation des Nations Unies",
+        "C": "Ordre Nouveau de l'Union",
+        "D": "Opération Nautique Unifiée"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0046",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'Antiquité, comment appelait-on l'arène circulaire géante à Rome où se déroulaient les combats de gladiateurs ?",
+      "options": {
+        "A": "Le Colisée",
+        "B": "Le Panthéon",
+        "C": "Le Forum",
+        "D": "Le Capitole"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0047",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel pays a offert la Statue de la Liberté aux États-Unis pour célébrer leur amitié ?",
+      "options": {
+        "A": "L'Angleterre",
+        "B": "L'Espagne",
+        "C": "La France",
+        "D": "L'Italie"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0048",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "À quelle période de l'histoire les premiers hommes ont-ils commencé à pratiquer l'agriculture et l'élevage ?",
+      "options": {
+        "A": "Au Paléolithique",
+        "B": "Au Néolithique",
+        "C": "À la Renaissance",
+        "D": "Au XIXe siècle"
+      },
+      "answer": "B"
+    },
+
+    {
+      "id": "hist-fr-0049",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel petit animal de compagnie très commun aujourd'hui était adoré comme un dieu par les Égyptiens ?",
+      "options": {
+        "A": "Le hamster",
+        "B": "Le chat",
+        "C": "Le poisson rouge",
+        "D": "Le canari"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0050",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Avant l'invention du réfrigérateur, comment les gens faisaient-ils pour conserver la viande ?",
+      "options": {
+        "A": "Ils la mettaient au micro-ondes",
+        "B": "Ils utilisaient du sel ou la faisaient fumer",
+        "C": "Ils la laissaient simplement sur la table",
+        "D": "Ils utilisaient un ventilateur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0051",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le grand bateau que les pirates utilisaient pour naviguer ?",
+      "options": {
+        "A": "Un paquebot",
+        "B": "Un jet-ski",
+        "C": "Un voilier (ou galion)",
+        "D": "Un canoë"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0052",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Léa regarde une photo de sa ville il y a 100 ans. Elle voit des enfants travailler dans des usines. Aujourd'hui, c'est interdit car...",
+      "options": {
+        "A": "Les usines sont fermées le week-end",
+        "B": "Les enfants doivent aller à l'école",
+        "C": "Il n'y a plus de machines",
+        "D": "Les vêtements de travail sont trop grands"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0053",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle était la fonction principale d'un pont-levis dans un château fort ?",
+      "options": {
+        "A": "Faire de l'exercice le matin",
+        "B": "Empêcher les ennemis d'entrer en cas d'attaque",
+        "C": "Pêcher des poissons dans les douves",
+        "D": "Décorer l'entrée du château"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0054",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel pays européen est célèbre pour avoir eu des Vikings comme navigateurs et guerriers ?",
+      "options": {
+        "A": "L'Italie",
+        "B": "La Grèce",
+        "C": "La Norvège",
+        "D": "L'Espagne"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0055",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "En 1969, quel événement incroyable a été suivi par des millions de personnes à la télévision ?",
+      "options": {
+        "A": "Le premier pas de l'homme sur la Lune",
+        "B": "L'invention d'Internet",
+        "C": "La construction de la Tour Eiffel",
+        "D": "La découverte du feu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0056",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel monument célèbre a été construit à Paris pour l'Exposition Universelle de 1889 ?",
+      "options": {
+        "A": "La cathédrale Notre-Dame",
+        "B": "L'Arc de Triomphe",
+        "C": "La Tour Eiffel",
+        "D": "Le Musée du Louvre"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0057",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle le texte écrit en 1789 qui garantit les libertés fondamentales de chaque citoyen français ?",
+      "options": {
+        "A": "Le Code de la route",
+        "B": "La Déclaration des droits de l'homme et du citoyen",
+        "C": "Le dictionnaire",
+        "D": "La Constitution européenne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0058",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle invention de Thomas Edison a radicalement changé la vie quotidienne à la fin du XIXe siècle ?",
+      "options": {
+        "A": "L'ampoule électrique",
+        "B": "La boussole",
+        "C": "Le télescope",
+        "D": "La poudre à canon"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0059",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Au Moyen Âge, quel était le rôle principal d'un 'copiste' dans un monastère ?",
+      "options": {
+        "A": "Cuisiner pour les moines",
+        "B": "Recopier les livres à la main",
+        "C": "Soigner les malades",
+        "D": "Fabriquer des épées"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0060",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel traité, signé en 1919, a mis officiellement fin à la Première Guerre mondiale ?",
+      "options": {
+        "A": "Le traité de Versailles",
+        "B": "Le traité de Rome",
+        "C": "L'accord de Paris",
+        "D": "Le pacte de Londres"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0061",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel grand mur a été construit en Chine il y a très longtemps pour protéger le pays ?",
+      "options": {
+        "A": "Le mur de Berlin",
+        "B": "La Grande Muraille",
+        "C": "Le mur du son",
+        "D": "La clôture électrique"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0062",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces objets permettait aux navigateurs de ne pas se perdre en mer autrefois ?",
+      "options": {
+        "A": "Une boussole",
+        "B": "Un GPS",
+        "C": "Une radio",
+        "D": "Un réveil"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0063",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "De quelle couleur sont souvent les vêtements portés par les rois de France sur les tableaux anciens ?",
+      "options": {
+        "A": "Vert fluo",
+        "B": "Bleu et or",
+        "C": "Noir et blanc",
+        "D": "Rose bonbon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0064",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Pendant la Préhistoire, les hommes peignaient des animaux sur les murs. Pourquoi n'utilisaient-ils pas de papier ?",
+      "options": {
+        "A": "Ils préféraient le dessin sur pierre",
+        "B": "Le papier n'avait pas encore été inventé",
+        "C": "Le papier coûtait trop cher",
+        "D": "Ils n'avaient pas de stylos"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0065",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Qui était le chef des troupes françaises lors de la bataille de Verdun en 1916 ?",
+      "options": {
+        "A": "Le Maréchal Pétain",
+        "B": "Napoléon",
+        "C": "Louis XIV",
+        "D": "Charles de Gaulle"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0066",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel système de transport souterrain a été inauguré à Paris en 1900 ?",
+      "options": {
+        "A": "Le métro",
+        "B": "Le tramway",
+        "C": "Le bus",
+        "D": "Le téléphérique"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0067",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Pendant la Seconde Guerre mondiale, comment appelait-on les Français qui se battaient en secret contre l'occupant ?",
+      "options": {
+        "A": "Les Voyageurs",
+        "B": "Les Résistants",
+        "C": "Les Soldats",
+        "D": "Les Alliés"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0068",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle invention d'Alexandre Graham Bell a permis de se parler sans être dans la même pièce au XIXe siècle ?",
+      "options": {
+        "A": "Le téléphone",
+        "B": "La radio",
+        "C": "Le télégraphe",
+        "D": "L'ordinateur"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0069",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel philosophe grec est célèbre pour avoir été le professeur d'Alexandre le Grand ?",
+      "options": {
+        "A": "Platon",
+        "B": "Sénèque",
+        "C": "Socrate",
+        "D": "Aristote"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "hist-fr-0070",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "En 1453, quel événement marque traditionnellement pour les historiens la fin du Moyen Âge ?",
+      "options": {
+        "A": "La chute de Constantinople",
+        "B": "La découverte de l'Amérique",
+        "C": "L'invention de l'imprimerie",
+        "D": "La fin de la peste noire"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0071",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle reine d'Égypte a eu une histoire d'amour célèbre avec les généraux romains Jules César et Marc Antoine ?",
+      "options": {
+        "A": "Néfertiti",
+        "B": "Cléopâtre",
+        "C": "Hatchepsout",
+        "D": "Artémise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0072",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel était le nom de la route commerciale qui reliait la Chine à l'Europe dès l'Antiquité ?",
+      "options": {
+        "A": "La route du Rhum",
+        "B": "La route de la Soie",
+        "C": "La route des Épices",
+        "D": "La route de l'Ambre"
+      },
+      "answer": "B"
+    },
+
+    {
+      "id": "hist-fr-0073",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel grand navire, réputé insubmersible, a coulé après avoir heurté un iceberg en 1912 ?",
+      "options": {
+        "A": "Le Titanic",
+        "B": "Le Santa Maria",
+        "C": "Le Nautilus",
+        "D": "Le Black Pearl"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0074",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lucas apprend que les Romains portaient une grande pièce de tissu drapée. Comment s'appelle ce vêtement ?",
+      "options": {
+        "A": "Un pantalon",
+        "B": "Une toge",
+        "C": "Une robe de chambre",
+        "D": "Une chemise de nuit"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0075",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Qui était le chef des chevaliers et le propriétaire du château fort au Moyen Âge ?",
+      "options": {
+        "A": "Le jardinier",
+        "B": "Le facteur",
+        "C": "Le seigneur",
+        "D": "Le marchand"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0076",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Pendant la Préhistoire, les hommes fabriquaient leurs outils principalement avec quelle matière ?",
+      "options": {
+        "A": "Du plastique",
+        "B": "De la pierre (le silex)",
+        "C": "De l'acier",
+        "D": "Du verre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0077",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel navigateur français a exploré le fleuve Saint-Laurent et a donné son nom au Canada ?",
+      "options": {
+        "A": "Jacques Cartier",
+        "B": "Napoléon",
+        "C": "Louis XIV",
+        "D": "Jules Verne"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0078",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelait la période de froid intense où une grande partie de la Terre était couverte de glace ?",
+      "options": {
+        "A": "L'âge de cristal",
+        "B": "L'époque glaciaire",
+        "C": "Le réchauffement climatique",
+        "D": "La saison des pluies"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0079",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel savant italien a utilisé une lunette astronomique pour prouver que la Terre tournait autour du Soleil ?",
+      "options": {
+        "A": "Galilée",
+        "B": "Marco Polo",
+        "C": "Léonard de Vinci",
+        "D": "Jules César"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0080",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Emma visite les châteaux de la Loire. Elle apprend qu'un roi a ramené l'art italien en France. Lequel ?",
+      "options": {
+        "A": "François Ier",
+        "B": "Charles de Gaulle",
+        "C": "Clovis",
+        "D": "Louis XVI"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0081",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel était le nom de la première dynastie de rois francs, dont Clovis était le plus célèbre représentant ?",
+      "options": {
+        "A": "Les Capétiens",
+        "B": "Les Mérovingiens",
+        "C": "Les Carolingiens",
+        "D": "Les Bourbons"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0082",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "En 1215, quel document célèbre a limité les pouvoirs du roi d'Angleterre pour la première fois ?",
+      "options": {
+        "A": "La Déclaration d'indépendance",
+        "B": "Le Traité de Rome",
+        "C": "La Magna Carta",
+        "D": "Le Code Civil"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0083",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel célèbre dirigeant sud-africain a passé 27 ans en prison avant de devenir président et de mettre fin à l'Apartheid ?",
+      "options": {
+        "A": "Barack Obama",
+        "B": "Martin Luther King",
+        "C": "Nelson Mandela",
+        "D": "Mahatma Gandhi"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0084",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la Rome antique, comment appelait-on les citoyens pauvres, par opposition aux riches patriciens ?",
+      "options": {
+        "A": "Les serfs",
+        "B": "Les plébéiens",
+        "C": "Les hoplites",
+        "D": "Les bourgeois"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0085",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel animal préhistorique géant avec de longues défenses et beaucoup de poils ressemble à un éléphant ?",
+      "options": {
+        "A": "Le mammouth",
+        "B": "Le dinosaure",
+        "C": "Le tigre à dents de sabre",
+        "D": "Le rhinocéros"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0086",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Pour voyager dans le désert, les marchands utilisaient autrefois de longues files de dromadaires. Comment appelle-t-on cela ?",
+      "options": {
+        "A": "Une croisière",
+        "B": "Une caravane",
+        "C": "Un train de marchandises",
+        "D": "Un embouteillage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0087",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces personnages est un célèbre pirate qui aurait existé en vrai ?",
+      "options": {
+        "A": "Barbe Noire",
+        "B": "Peter Pan",
+        "C": "Mickey Mouse",
+        "D": "Sherlock Holmes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0088",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Hugo voit un vieux moulin à vent. Autrefois, on l'utilisait principalement pour...",
+      "options": {
+        "A": "Produire de l'électricité pour les téléphones",
+        "B": "Écraser le grain pour faire de la farine",
+        "C": "Faire voler des cerfs-volants",
+        "D": "Refroidir les maisons en été"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0089",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel pays a été dirigé par les tsars jusqu'en 1917 ?",
+      "options": {
+        "A": "La Russie",
+        "B": "L'Allemagne",
+        "C": "Le Japon",
+        "D": "L'Égypte"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0090",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on la période de l'histoire qui a suivi le Moyen Âge et qui commence vers 1492 ?",
+      "options": {
+        "A": "La Préhistoire",
+        "B": "Les Temps Modernes",
+        "C": "L'Antiquité",
+        "D": "L'époque contemporaine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0091",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle invention de la fin du Moyen Âge a permis aux marins de s'orienter grâce aux étoiles et au soleil ?",
+      "options": {
+        "A": "L'astrolabe",
+        "B": "Le microscope",
+        "C": "La calculette",
+        "D": "Le thermomètre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0092",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Pendant la Révolution française, comment s'appelait la machine utilisée pour exécuter les condamnés ?",
+      "options": {
+        "A": "La guillotine",
+        "B": "La tronçonneuse",
+        "C": "Le canon",
+        "D": "La catapulte"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0093",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel général français a lancé le célèbre 'Appel du 18 juin' depuis Londres en 1940 ?",
+      "options": {
+        "A": "Charles de Gaulle",
+        "B": "Napoléon",
+        "C": "Le Maréchal Joffre",
+        "D": "Lafayette"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0094",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Au Moyen Âge, comment appelait-on les associations d'artisans qui fixaient les règles d'un métier ?",
+      "options": {
+        "A": "Les syndicats",
+        "B": "Les corporations (ou jurandes)",
+        "C": "Les clubs de sport",
+        "D": "Les partis politiques"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0095",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel empereur romain a légalisé la religion chrétienne dans l'Empire par l'édit de Milan en 313 ?",
+      "options": {
+        "A": "Constantin",
+        "B": "Néron",
+        "C": "Auguste",
+        "D": "Caligula"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0096",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle invention chinoise, ramenée en Europe au Moyen Âge, a permis de créer des feux d'artifice et des armes ?",
+      "options": {
+        "A": "La boussole",
+        "B": "La poudre à canon",
+        "C": "Le papier monnaie",
+        "D": "La soie"
+      },
+      "answer": "B"
+    },
+
+    {
+      "id": "hist-fr-0097",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel était le métier des hommes de la Préhistoire qui dessinaient sur les murs des grottes ?",
+      "options": {
+        "A": "Photographe",
+        "B": "Chasseur-cueilleur",
+        "C": "Informaticien",
+        "D": "Astronaute"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0098",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces héros de légende est connu pour avoir tiré une épée d'un rocher ?",
+      "options": {
+        "A": "Le Roi Arthur",
+        "B": "Robin des Bois",
+        "C": "Hercule",
+        "D": "Zorro"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0099",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "À quoi servaient les pyramides construites par les Égyptiens ?",
+      "options": {
+        "A": "De toboggans géants",
+        "B": "De phares pour les bateaux",
+        "C": "De tombeaux pour les pharaons",
+        "D": "De châteaux d'eau"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0100",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Manon voit une statue d'un homme avec une couronne de lauriers. C'est un symbole de victoire chez...",
+      "options": {
+        "A": "Les Romains",
+        "B": "Les hommes des cavernes",
+        "C": "Les pirates",
+        "D": "Les cosmonautes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0101",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel explorateur italien a voyagé jusqu'en Chine au XIIIe siècle et a raconté ses aventures dans un livre ?",
+      "options": {
+        "A": "Marco Polo",
+        "B": "Christophe Colomb",
+        "C": "Vasco de Gama",
+        "D": "Amérigo Vespucci"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0102",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Pendant le Moyen Âge, comment appelait-on le jeune garçon qui apprenait à devenir chevalier ?",
+      "options": {
+        "A": "Un page ou un écuyer",
+        "B": "Un apprenti sorcier",
+        "C": "Un mousse",
+        "D": "Un cadet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0103",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel était le surnom de Louis XIV, en référence à l'astre qui brille le plus ?",
+      "options": {
+        "A": "Le Roi Lune",
+        "B": "Le Roi Étoile",
+        "C": "Le Roi Soleil",
+        "D": "Le Roi Comète"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0104",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "En France, qui a été le premier président de la Ve République en 1958 ?",
+      "options": {
+        "A": "Charles de Gaulle",
+        "B": "Napoléon III",
+        "C": "François Mitterrand",
+        "D": "Jacques Chirac"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0105",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel moine allemand a lancé la Réforme protestante au XVIe siècle en critiquant l'Église catholique ?",
+      "options": {
+        "A": "Jean Calvin",
+        "B": "Martin Luther",
+        "C": "Ignace de Loyola",
+        "D": "Erasme"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0106",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la mythologie égyptienne, quelle cérémonie décidait si une personne méritait d'accéder à la vie éternelle ?",
+      "options": {
+        "A": "La pesée du cœur",
+        "B": "Le combat des dieux",
+        "C": "Le passage du Nil",
+        "D": "La lecture des étoiles"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0107",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Qui était le chef de l'URSS pendant la majeure partie de la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "Vladimir Poutine",
+        "B": "Joseph Staline",
+        "C": "Nikita Khrouchtchev",
+        "D": "Léon Trotski"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0108",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment appelait-on les guerriers japonais qui suivaient le code d'honneur du Bushido ?",
+      "options": {
+        "A": "Les Ninjas",
+        "B": "Les Samouraïs",
+        "C": "Les Kamikazes",
+        "D": "Les Shoguns"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0109",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces objets était utilisé pour naviguer sur les océans à l'époque des pirates ?",
+      "options": {
+        "A": "Un moteur diesel",
+        "B": "Des voiles et le vent",
+        "C": "Une batterie solaire",
+        "D": "Un réacteur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0110",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Avant l'invention des stylos, les écoliers écrivaient souvent sur une petite plaque noire appelée...",
+      "options": {
+        "A": "Une ardoise",
+        "B": "Une télévision",
+        "C": "Une vitre",
+        "D": "Une nappe"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0111",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans les châteaux forts, quel trou profond rempli d'eau entourait les murs pour empêcher les ennemis d'approcher ?",
+      "options": {
+        "A": "Une piscine",
+        "B": "Un puits",
+        "C": "Les douves",
+        "D": "Une mare aux canards"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0112",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Théo regarde un dessin d'un Gaulois. Il remarque qu'il porte un pantalon typique de l'époque. Quel est son nom ?",
+      "options": {
+        "A": "Des braies",
+        "B": "Un jean",
+        "C": "Un short",
+        "D": "Un kilt"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0113",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel nom donne-t-on au passage de la vie nomade à la vie sédentaire (vivre au même endroit) ?",
+      "options": {
+        "A": "La sédentarisation",
+        "B": "L'excursion",
+        "C": "La migration",
+        "D": "La téléportation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0114",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Qui était le roi de France au moment de la Révolution française en 1789 ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Louis XVI",
+        "C": "Louis-Philippe",
+        "D": "Charles X"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0115",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle invention de Clément Ader et des frères Wright a permis aux hommes de se déplacer dans les airs ?",
+      "options": {
+        "A": "Le train",
+        "B": "Le sous-marin",
+        "C": "L'avion",
+        "D": "Le tramway"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0116",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Zoé apprend que les Gaulois vivaient dans des villages fortifiés situés sur des hauteurs. Comment s'appelaient ces villages ?",
+      "options": {
+        "A": "Des cités",
+        "B": "Des oppidums",
+        "C": "Des villas",
+        "D": "Des igloos"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0117",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel explorateur portugais a été le premier à atteindre l'Inde en contournant l'Afrique en 1498 ?",
+      "options": {
+        "A": "Amérigo Vespucci",
+        "B": "Ferdinand de Magellan",
+        "C": "Vasco de Gama",
+        "D": "Bartolomeu Dias"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0118",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle guerre a opposé les rois de France et d'Angleterre pendant plus d'un siècle entre 1337 et 1453 ?",
+      "options": {
+        "A": "La Guerre de Sept Ans",
+        "B": "La Guerre de Cent Ans",
+        "C": "La Guerre de Trente Ans",
+        "D": "La Guerre des Roses"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0119",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel philosophe français des Lumières est connu pour avoir lutté contre l'injustice et défendu la tolérance ?",
+      "options": {
+        "A": "Voltaire",
+        "B": "Descartes",
+        "C": "Pascal",
+        "D": "Sartre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0120",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "En 1945, quelle conférence a réuni Churchill, Roosevelt et Staline pour préparer la fin de la guerre ?",
+      "options": {
+        "A": "La conférence de Berlin",
+        "B": "La conférence de Yalta",
+        "C": "La conférence de Versailles",
+        "D": "La conférence de Londres"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0121",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel monument de Paris possède quatre grandes arches et a été construit pour célébrer les victoires de Napoléon ?",
+      "options": {
+        "A": "Le Sacré-Cœur",
+        "B": "L'Arc de Triomphe",
+        "C": "L'Obélisque",
+        "D": "La Bastille"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0122",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces animaux n'a jamais été vu vivant par un être humain ?",
+      "options": {
+        "A": "Le dinosaure T-Rex",
+        "B": "Le mammouth",
+        "C": "Le dodo",
+        "D": "Le loup"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0123",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans quel pays peut-on voir les célèbres pyramides de Gizeh ?",
+      "options": {
+        "A": "En Italie",
+        "B": "Au Mexique",
+        "C": "En Égypte",
+        "D": "En Chine"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "hist-fr-0124",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Arthur lit une histoire sur les Vikings. Il apprend que leurs bateaux avaient des têtes de dragons sculptées. Comment s'appellent ces bateaux ?",
+      "options": {
+        "A": "Des drakkars",
+        "B": "Des canoës",
+        "C": "Des sous-marins",
+        "D": "Des yachts"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0125",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment appelait-on l'armée d'élite de l'Empire romain ?",
+      "options": {
+        "A": "La légion",
+        "B": "La garde nationale",
+        "C": "Les mousquetaires",
+        "D": "Les commandos"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0126",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Qui était le président des États-Unis pendant la Guerre de Sécession, celle qui a mis fin à l'esclavage ?",
+      "options": {
+        "A": "George Washington",
+        "B": "Abraham Lincoln",
+        "C": "John F. Kennedy",
+        "D": "Thomas Jefferson"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0127",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel pays a inventé les Jeux Olympiques dans l'Antiquité ?",
+      "options": {
+        "A": "La Grèce",
+        "B": "L'Italie",
+        "C": "La France",
+        "D": "Le Brésil"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0128",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Léna apprend qu'au XIXe siècle, les ouvriers se regroupaient pour défendre leurs droits. Comment s'appellent ces groupes ?",
+      "options": {
+        "A": "Des chorales",
+        "B": "Des syndicats",
+        "C": "Des clubs de lecture",
+        "D": "Des équipes de foot"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0129",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel empereur a régné sur un immense territoire comprenant la France et l'Allemagne actuelle au IXe siècle ?",
+      "options": {
+        "A": "Charlemagne",
+        "B": "Auguste",
+        "C": "Napoléon",
+        "D": "Clovis"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0130",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle invention de la fin du Moyen Âge a permis de rendre les châteaux forts inutiles car elle pouvait briser leurs murs ?",
+      "options": {
+        "A": "La boussole",
+        "B": "Le canon",
+        "C": "La grue",
+        "D": "Le télescope"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0131",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Qui était le chef de file du mouvement pour les droits civiques aux USA, célèbre pour son discours 'I have a dream' ?",
+      "options": {
+        "A": "Malcolm X",
+        "B": "Martin Luther King",
+        "C": "Nelson Mandela",
+        "D": "Rosa Parks"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0132",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "En 1204, quelle ville a été pillée par les croisés lors de la quatrième croisade ?",
+      "options": {
+        "A": "Jérusalem",
+        "B": "Constantinople",
+        "C": "Rome",
+        "D": "Alexandrie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0133",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans quel type de maison vivaient les paysans au Moyen Âge ?",
+      "options": {
+        "A": "Une chaumière",
+        "B": "Une villa",
+        "C": "Un appartement",
+        "D": "Un loft"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0134",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du célèbre mur qui séparait l'Allemagne en deux jusqu'en 1989 ?",
+      "options": {
+        "A": "Le Mur de Berlin",
+        "B": "La Muraille de Chine",
+        "C": "Le Mur du Son",
+        "D": "La Barrière de Corail"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0135",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces personnages historiques portait souvent un bicorne (chapeau à deux cornes) et une main dans son gilet ?",
+      "options": {
+        "A": "Louis XIV",
+        "B": "Napoléon",
+        "C": "Jules César",
+        "D": "Charles de Gaulle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0136",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Sacha regarde une carte des anciennes colonies françaises. Il voit que la France possédait des territoires en...",
+      "options": {
+        "A": "Afrique et en Asie",
+        "B": "Australie",
+        "C": "Antarctique",
+        "D": "Mars"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0137",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel était le rôle des 'Lumières' au XVIIIe siècle ?",
+      "options": {
+        "A": "Allumer les réverbères la nuit",
+        "B": "Diffuser des idées de liberté et de savoir",
+        "C": "Fabriquer des bougies",
+        "D": "Découvrir l'électricité"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0138",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on le vêtement de protection fait de milliers d'anneaux de fer que les chevaliers portaient ?",
+      "options": {
+        "A": "Une cotte de mailles",
+        "B": "Un pull en laine",
+        "C": "Une chemise de fer",
+        "D": "Une veste en jean"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0139",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel empereur français a été vaincu à la bataille de Waterloo en 1815 ?",
+      "options": {
+        "A": "Napoléon Ier",
+        "B": "Louis-Napoléon Bonaparte",
+        "C": "Charles X",
+        "D": "Louis XVI"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0140",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Ambre fait un exposé sur la Grèce antique. Elle explique que les cités grecques se battaient souvent entre elles. Lesquelles étaient les plus célèbres ?",
+      "options": {
+        "A": "Athènes et Sparte",
+        "B": "Paris et Lyon",
+        "C": "Rome et Carthage",
+        "D": "Londres et Berlin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0141",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle était la capitale de l'Empire byzantin, aujourd'hui nommée Istanbul ?",
+      "options": {
+        "A": "Constantinople",
+        "B": "Rome",
+        "C": "Alexandrie",
+        "D": "Athènes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0142",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel roi d'Angleterre a eu six femmes et a rompu avec l'Église catholique ?",
+      "options": {
+        "A": "Henri VIII",
+        "B": "Richard Cœur de Lion",
+        "C": "Édouard III",
+        "D": "Guillaume le Conquérant"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0143",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle l'ensemble des lois civiles créées par Napoléon en 1804 et qui inspirent encore le droit français ?",
+      "options": {
+        "A": "Le Code Civil (ou Code Napoléon)",
+        "B": "La Constitution",
+        "C": "Les 12 Tables",
+        "D": "Le Recueil des Lois"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0144",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel pays d'Amérique du Sud a été nommé d'après l'explorateur Amérigo Vespucci ?",
+      "options": {
+        "A": "La Colombie",
+        "B": "L'Amérique (en général)",
+        "C": "Le Brésil",
+        "D": "L'Argentine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "hist-fr-0145",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel peuple d'Amérique centrale était connu pour ses pyramides à degrés et ses connaissances en astronomie ?",
+      "options": {
+        "A": "Les Mayas",
+        "B": "Les Vikings",
+        "C": "Les Romains",
+        "D": "Les Gaulois"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0146",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment appelait-on la période de paix et de prospérité en Europe avant la Première Guerre mondiale ?",
+      "options": {
+        "A": "La Belle Époque",
+        "B": "Le Moyen Âge",
+        "C": "La Renaissance",
+        "D": "Les Temps Modernes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0147",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel pays a été le premier à envoyer un être humain dans l'espace en 1961 ?",
+      "options": {
+        "A": "L'URSS (Russie)",
+        "B": "Les États-Unis",
+        "C": "La France",
+        "D": "La Chine"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0148",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Hugo étudie la Renaissance. Il apprend qu'un artiste a peint le plafond de la chapelle Sixtine. Qui est-ce ?",
+      "options": {
+        "A": "Michel-Ange",
+        "B": "Léonard de Vinci",
+        "C": "Picasso",
+        "D": "Claude Monet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0149",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "En 1066, quel duc de Normandie a conquis l'Angleterre lors de la bataille de Hastings ?",
+      "options": {
+        "A": "Guillaume le Conquérant",
+        "B": "Richard Cœur de Lion",
+        "C": "Philippe Auguste",
+        "D": "Charlemagne"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "hist-fr-0150",
+      "category": "histoire",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel était le nom de l'alliance militaire dirigée par les USA pendant la Guerre Froide ?",
+      "options": {
+        "A": "L'OTAN",
+        "B": "L'ONU",
+        "C": "Le Pacte de Varsovie",
+        "D": "L'Union Européenne"
       },
       "answer": "A"
     }

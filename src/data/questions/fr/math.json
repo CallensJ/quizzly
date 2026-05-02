@@ -1518,21 +1518,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0102",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le chiffre des dizaines dans le nombre 384 ?",
-      "options": {
-        "A": "3",
-        "B": "4",
-        "C": "8",
-        "D": "38"
-      },
-      "answer": "C"
-    },
-    {
       "id": "math-fr-0103",
       "category": "math",
       "subcategory": null,
@@ -1548,21 +1533,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0104",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 58 + 27 ?",
-      "options": {
-        "A": "85",
-        "B": "84",
-        "C": "75",
-        "D": "95"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0105",
       "category": "math",
       "subcategory": null,
@@ -1574,21 +1544,6 @@
         "B": "31",
         "C": "51",
         "D": "40"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0106",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 100 - 47 ?",
-      "options": {
-        "A": "53",
-        "B": "63",
-        "C": "43",
-        "D": "57"
       },
       "answer": "A"
     },
@@ -1608,21 +1563,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0108",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le chiffre des centaines dans 726 ?",
-      "options": {
-        "A": "7",
-        "B": "2",
-        "C": "6",
-        "D": "72"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0109",
       "category": "math",
       "subcategory": null,
@@ -1638,21 +1578,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0110",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 47 + 38 ?",
-      "options": {
-        "A": "85",
-        "B": "75",
-        "C": "95",
-        "D": "84"
-      },
-      "answer": "D"
-    },
-    {
       "id": "math-fr-0111",
       "category": "math",
       "subcategory": null,
@@ -1664,21 +1589,6 @@
         "B": "17",
         "C": "16",
         "D": "19"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0112",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 71 - 29 ?",
-      "options": {
-        "A": "42",
-        "B": "52",
-        "C": "40",
-        "D": "41"
       },
       "answer": "A"
     },
@@ -1698,21 +1608,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0114",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le chiffre des unités dans 459 ?",
-      "options": {
-        "A": "4",
-        "B": "5",
-        "C": "9",
-        "D": "45"
-      },
-      "answer": "C"
-    },
-    {
       "id": "math-fr-0115",
       "category": "math",
       "subcategory": null,
@@ -1728,21 +1623,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0116",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 86 + 19 ?",
-      "options": {
-        "A": "105",
-        "B": "95",
-        "C": "115",
-        "D": "100"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0117",
       "category": "math",
       "subcategory": null,
@@ -1754,81 +1634,6 @@
         "B": "13",
         "C": "14",
         "D": "11"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0118",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 54 - 28 ?",
-      "options": {
-        "A": "26",
-        "B": "36",
-        "C": "16",
-        "D": "24"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0119",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Complète la suite : 10, 20, 30, __, 50",
-      "options": {
-        "A": "35",
-        "B": "40",
-        "C": "45",
-        "D": "60"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0120",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Complète la suite : 5, 10, 15, __, 25",
-      "options": {
-        "A": "18",
-        "B": "20",
-        "C": "22",
-        "D": "30"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0121",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien font 2 × 4 ?",
-      "options": {
-        "A": "6",
-        "B": "8",
-        "C": "10",
-        "D": "4"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0122",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 6 × 4 ?",
-      "options": {
-        "A": "20",
-        "B": "24",
-        "C": "26",
-        "D": "22"
       },
       "answer": "B"
     },
@@ -1848,21 +1653,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0124",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel nombre est écrit : huit cent cinquante ?",
-      "options": {
-        "A": "850",
-        "B": "805",
-        "C": "580",
-        "D": "800"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0125",
       "category": "math",
       "subcategory": null,
@@ -1874,51 +1664,6 @@
         "B": "3",
         "C": "4",
         "D": "5"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0126",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le complément à 100 de 73 ?",
-      "options": {
-        "A": "27",
-        "B": "17",
-        "C": "37",
-        "D": "23"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0127",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien font 3 × 5 ?",
-      "options": {
-        "A": "15",
-        "B": "10",
-        "C": "8",
-        "D": "12"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0128",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 9 × 5 ?",
-      "options": {
-        "A": "40",
-        "B": "45",
-        "C": "35",
-        "D": "50"
       },
       "answer": "B"
     },
@@ -1938,21 +1683,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0130",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 27 + 46 ?",
-      "options": {
-        "A": "63",
-        "B": "73",
-        "C": "83",
-        "D": "69"
-      },
-      "answer": "B"
-    },
-    {
       "id": "math-fr-0131",
       "category": "math",
       "subcategory": null,
@@ -1964,21 +1694,6 @@
         "B": "23",
         "C": "24",
         "D": "21"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0132",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 92 - 57 ?",
-      "options": {
-        "A": "35",
-        "B": "45",
-        "C": "25",
-        "D": "30"
       },
       "answer": "A"
     },
@@ -1998,21 +1713,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0134",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le chiffre des dizaines dans 1 203 ?",
-      "options": {
-        "A": "0",
-        "B": "2",
-        "C": "3",
-        "D": "20"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0135",
       "category": "math",
       "subcategory": null,
@@ -2024,21 +1724,6 @@
         "B": "12",
         "C": "22",
         "D": "18"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0136",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 8 × 10 ?",
-      "options": {
-        "A": "80",
-        "B": "18",
-        "C": "100",
-        "D": "60"
       },
       "answer": "A"
     },
@@ -2058,21 +1743,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0138",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le complément à 100 de 88 ?",
-      "options": {
-        "A": "12",
-        "B": "22",
-        "C": "18",
-        "D": "11"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0139",
       "category": "math",
       "subcategory": null,
@@ -2086,21 +1756,6 @@
         "D": "12"
       },
       "answer": "B"
-    },
-    {
-      "id": "math-fr-0140",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Complète la suite : 100, 90, 80, __, 60",
-      "options": {
-        "A": "70",
-        "B": "75",
-        "C": "65",
-        "D": "85"
-      },
-      "answer": "A"
     },
     {
       "id": "math-fr-0141",
@@ -2118,21 +1773,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0142",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Marie a 120 gâteaux, elle en donne 45. Combien lui reste-t-il ?",
-      "options": {
-        "A": "65",
-        "B": "75",
-        "C": "85",
-        "D": "55"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0143",
       "category": "math",
       "subcategory": null,
@@ -2144,21 +1784,6 @@
         "B": "100",
         "C": "1000",
         "D": "50"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0144",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien de litres y a-t-il dans 3 bidons de 5 L chacun ?",
-      "options": {
-        "A": "8 L",
-        "B": "15 L",
-        "C": "10 L",
-        "D": "12 L"
       },
       "answer": "B"
     },
@@ -2178,21 +1803,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0146",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 68 + 37 ?",
-      "options": {
-        "A": "95",
-        "B": "105",
-        "C": "85",
-        "D": "100"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0147",
       "category": "math",
       "subcategory": null,
@@ -2204,21 +1814,6 @@
         "B": "20",
         "C": "25",
         "D": "35"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0148",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 203 - 87 ?",
-      "options": {
-        "A": "116",
-        "B": "126",
-        "C": "106",
-        "D": "96"
       },
       "answer": "A"
     },
@@ -2238,21 +1833,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0150",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le chiffre des centaines dans 5 432 ?",
-      "options": {
-        "A": "5",
-        "B": "4",
-        "C": "3",
-        "D": "54"
-      },
-      "answer": "B"
-    },
-    {
       "id": "math-fr-0151",
       "category": "math",
       "subcategory": null,
@@ -2266,21 +1846,6 @@
         "D": "18"
       },
       "answer": "B"
-    },
-    {
-      "id": "math-fr-0152",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 12 × 4 ?",
-      "options": {
-        "A": "48",
-        "B": "44",
-        "C": "52",
-        "D": "40"
-      },
-      "answer": "A"
     },
     {
       "id": "math-fr-0153",
@@ -2298,21 +1863,6 @@
       "answer": "C"
     },
     {
-      "id": "math-fr-0154",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Écris en chiffres : neuf cent neuf",
-      "options": {
-        "A": "909",
-        "B": "990",
-        "C": "9009",
-        "D": "99"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0155",
       "category": "math",
       "subcategory": null,
@@ -2326,21 +1876,6 @@
         "D": "80"
       },
       "answer": "B"
-    },
-    {
-      "id": "math-fr-0156",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Complète : 3, 6, 12, 24, __",
-      "options": {
-        "A": "30",
-        "B": "36",
-        "C": "48",
-        "D": "60"
-      },
-      "answer": "C"
     },
     {
       "id": "math-fr-0157",
@@ -2358,21 +1893,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0158",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 39 + 58 ?",
-      "options": {
-        "A": "97",
-        "B": "87",
-        "C": "107",
-        "D": "95"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0159",
       "category": "math",
       "subcategory": null,
@@ -2386,21 +1906,6 @@
         "D": "1"
       },
       "answer": "B"
-    },
-    {
-      "id": "math-fr-0160",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le complément à 100 de 6 ?",
-      "options": {
-        "A": "94",
-        "B": "96",
-        "C": "90",
-        "D": "100"
-      },
-      "answer": "A"
     },
     {
       "id": "math-fr-0161",
@@ -2418,21 +1923,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0162",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 76 + 29 ?",
-      "options": {
-        "A": "105",
-        "B": "95",
-        "C": "115",
-        "D": "100"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0163",
       "category": "math",
       "subcategory": null,
@@ -2444,21 +1934,6 @@
         "B": "16",
         "C": "18",
         "D": "15"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0164",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 140 - 67 ?",
-      "options": {
-        "A": "73",
-        "B": "63",
-        "C": "83",
-        "D": "77"
       },
       "answer": "A"
     },
@@ -2478,21 +1953,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0166",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si un sac pèse 2 kg et un autre 3 kg, quel est le poids total ?",
-      "options": {
-        "A": "4 kg",
-        "B": "5 kg",
-        "C": "6 kg",
-        "D": "3 kg"
-      },
-      "answer": "B"
-    },
-    {
       "id": "math-fr-0167",
       "category": "math",
       "subcategory": null,
@@ -2504,21 +1964,6 @@
         "B": "16",
         "C": "18",
         "D": "12"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0168",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 7 × 5 ?",
-      "options": {
-        "A": "30",
-        "B": "35",
-        "C": "25",
-        "D": "40"
       },
       "answer": "B"
     },
@@ -2538,21 +1983,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0170",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 250 - 125 ?",
-      "options": {
-        "A": "115",
-        "B": "125",
-        "C": "135",
-        "D": "100"
-      },
-      "answer": "B"
-    },
-    {
       "id": "math-fr-0171",
       "category": "math",
       "subcategory": null,
@@ -2568,21 +1998,6 @@
       "answer": "C"
     },
     {
-      "id": "math-fr-0172",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Complète la suite : 2, 5, 10, 17, __",
-      "options": {
-        "A": "24",
-        "B": "26",
-        "C": "22",
-        "D": "20"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0173",
       "category": "math",
       "subcategory": null,
@@ -2594,21 +2009,6 @@
         "B": "31",
         "C": "29",
         "D": "28"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0174",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Sophie a 120 bonbons, elle en partage 3 paquets de 15. Combien reste-t-il ?",
-      "options": {
-        "A": "75",
-        "B": "120",
-        "C": "75",
-        "D": "120 - 45"
       },
       "answer": "A"
     },
@@ -2628,21 +2028,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0176",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le chiffre des unités dans 1 234 ?",
-      "options": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4"
-      },
-      "answer": "D"
-    },
-    {
       "id": "math-fr-0177",
       "category": "math",
       "subcategory": null,
@@ -2654,21 +2039,6 @@
         "B": "20",
         "C": "24",
         "D": "21"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0178",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 13 × 3 ?",
-      "options": {
-        "A": "39",
-        "B": "36",
-        "C": "33",
-        "D": "42"
       },
       "answer": "A"
     },
@@ -2688,21 +2058,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0180",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le complément à 100 de 0 ?",
-      "options": {
-        "A": "100",
-        "B": "0",
-        "C": "10",
-        "D": "90"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0181",
       "category": "math",
       "subcategory": null,
@@ -2718,21 +2073,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0182",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 147 + 258 ?",
-      "options": {
-        "A": "395",
-        "B": "405",
-        "C": "395",
-        "D": "415"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0183",
       "category": "math",
       "subcategory": null,
@@ -2744,21 +2084,6 @@
         "B": "18",
         "C": "17",
         "D": "20"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0184",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 301 - 159 ?",
-      "options": {
-        "A": "142",
-        "B": "152",
-        "C": "132",
-        "D": "162"
       },
       "answer": "A"
     },
@@ -2778,21 +2103,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0186",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Écris en chiffres : neuf cent quatre-vingt-dix",
-      "options": {
-        "A": "990",
-        "B": "909",
-        "C": "980",
-        "D": "900"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0187",
       "category": "math",
       "subcategory": null,
@@ -2804,21 +2114,6 @@
         "B": "25",
         "C": "35",
         "D": "28"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0188",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 64 + 37 ?",
-      "options": {
-        "A": "101",
-        "B": "111",
-        "C": "91",
-        "D": "100"
       },
       "answer": "A"
     },
@@ -2838,21 +2133,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0190",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le chiffre des dizaines dans 5 678 ?",
-      "options": {
-        "A": "5",
-        "B": "6",
-        "C": "7",
-        "D": "8"
-      },
-      "answer": "C"
-    },
-    {
       "id": "math-fr-0191",
       "category": "math",
       "subcategory": null,
@@ -2864,21 +2144,6 @@
         "B": "14",
         "C": "400",
         "D": "4"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0192",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 25 × 4 ?",
-      "options": {
-        "A": "100",
-        "B": "90",
-        "C": "80",
-        "D": "110"
       },
       "answer": "A"
     },
@@ -2898,21 +2163,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0194",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Complète la suite : 2, 4, 8, 16, __",
-      "options": {
-        "A": "20",
-        "B": "24",
-        "C": "32",
-        "D": "30"
-      },
-      "answer": "C"
-    },
-    {
       "id": "math-fr-0195",
       "category": "math",
       "subcategory": null,
@@ -2924,21 +2174,6 @@
         "B": "25",
         "C": "26",
         "D": "23"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0196",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Une bouteille contient 2 L d'eau. Combien de litres dans 7 bouteilles ?",
-      "options": {
-        "A": "12 L",
-        "B": "14 L",
-        "C": "16 L",
-        "D": "10 L"
       },
       "answer": "B"
     },
@@ -2958,21 +2193,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0198",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 199 + 201 ?",
-      "options": {
-        "A": "400",
-        "B": "390",
-        "C": "410",
-        "D": "399"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0199",
       "category": "math",
       "subcategory": null,
@@ -2983,6 +2203,3036 @@
         "A": "300",
         "B": "301",
         "C": "290",
+        "D": "399"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0401",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de côtés a un carré ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0402",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle forme est ronde sans côtés ?",
+      "options": {
+        "A": "Triangle",
+        "B": "Carré",
+        "C": "Cercle",
+        "D": "Rectangle"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0403",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de côtés a un triangle ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0404",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel nom porte une figure à quatre côtés égaux mais pas forcément des angles droits ?",
+      "options": {
+        "A": "Rectangle",
+        "B": "Losange",
+        "C": "Cercle",
+        "D": "Hexagone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0405",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de côtés a un hexagone régulier ?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0406",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle forme a deux paires de côtés parallèles et des angles droits ?",
+      "options": {
+        "A": "Triangle",
+        "B": "Cercle",
+        "C": "Rectangle",
+        "D": "Losange"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0407",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel solide a 6 faces carrées égales ?",
+      "options": {
+        "A": "Cylindre",
+        "B": "Sphère",
+        "C": "Cube",
+        "D": "Pyramide"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0408",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel solide roule facilement et n'a pas d'arêtes ?",
+      "options": {
+        "A": "Cube",
+        "B": "Sphère",
+        "C": "Pyramide",
+        "D": "Cône"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0409",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien d'arêtes a un cube ?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "12",
+        "D": "16"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0410",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle forme a exactement quatre angles droits et des côtés opposés égaux ?",
+      "options": {
+        "A": "Carré",
+        "B": "Triangle",
+        "C": "Rectangle",
+        "D": "Losange"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0411",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien d'angles a un pentagone ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0412",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle forme a trois sommets et trois côtés ?",
+      "options": {
+        "A": "Triangle",
+        "B": "Carré",
+        "C": "Cercle",
+        "D": "Hexagone"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0413",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel nom porte une figure à six côtés ?",
+      "options": {
+        "A": "Hexagone",
+        "B": "Heptagone",
+        "C": "Octogone",
+        "D": "Pentagone"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0414",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de côtés a un losange ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0415",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle forme a un seul côté courbe et aucun sommet ?",
+      "options": {
+        "A": "Cercle",
+        "B": "Carré",
+        "C": "Triangle",
+        "D": "Rectangle"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0416",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de faces a une sphère ?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "6",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0417",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel solide a une base circulaire et une face courbe ?",
+      "options": {
+        "A": "Cube",
+        "B": "Cylindre",
+        "C": "Pyramide",
+        "D": "Prisme"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0418",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel solide a une base carrée et des faces triangulaires qui se rejoignent en un sommet ?",
+      "options": {
+        "A": "Cylindre",
+        "B": "Pyramide",
+        "C": "Cube",
+        "D": "Sphère"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0419",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de côtés a un rectangle ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0420",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel nom porte une figure avec quatre côtés et deux paires de côtés parallèles ?",
+      "options": {
+        "A": "Triangle",
+        "B": "Quadrilatère",
+        "C": "Hexagone",
+        "D": "Cercle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0421",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel solide a deux bases circulaires parallèles ?",
+      "options": {
+        "A": "Cylindre",
+        "B": "Cône",
+        "C": "Cube",
+        "D": "Pyramide"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0422",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nombre d'angles d'un rectangle ?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0424",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de sommets a un triangle ?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0425",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel solide a une surface entièrement lisse et sans arêtes ?",
+      "options": {
+        "A": "Sphère",
+        "B": "Cube",
+        "C": "Cylindre",
+        "D": "Pyramide"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0426",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel nom porte une figure à cinq côtés ?",
+      "options": {
+        "A": "Pentagone",
+        "B": "Hexagone",
+        "C": "Heptagone",
+        "D": "Octogone"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0427",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle forme a exactement deux axes de symétrie perpendiculaires ?",
+      "options": {
+        "A": "Rectangle",
+        "B": "Triangle scalène",
+        "C": "Losange irrégulier",
+        "D": "Cercle"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0428",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel solide a une base circulaire et un sommet pointu ?",
+      "options": {
+        "A": "Cône",
+        "B": "Cube",
+        "C": "Cylindre",
+        "D": "Sphère"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0429",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de faces a un cube ?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0430",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le périmètre d'un carré de côté 4 cm ?",
+      "options": {
+        "A": "8 cm",
+        "B": "12 cm",
+        "C": "16 cm",
+        "D": "20 cm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0701",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de minutes y a-t-il dans 1 heure et demie ?",
+      "options": {
+        "A": "60",
+        "B": "90",
+        "C": "120",
+        "D": "75"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0702",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans un sac il y a 3 billes rouges et 2 billes bleues. Quelle couleur a le plus de chances de sortir ?",
+      "options": {
+        "A": "Bleue",
+        "B": "Rouge",
+        "C": "Elles ont la même chance",
+        "D": "Impossible à dire"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0703",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la moyenne de 4, 6 et 8 ?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0704",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de secondes y a-t-il dans 3 minutes ?",
+      "options": {
+        "A": "60",
+        "B": "120",
+        "C": "180",
+        "D": "240"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0705",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Si un diagramme en barres montre 5 pommes, 3 poires et 2 bananes, combien de fruits au total ?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "9",
+        "D": "11"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0706",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Sur un camembert, une part représente 50% du total. Quelle fraction du tout est-ce ?",
+      "options": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "1/3",
+        "D": "3/4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0707",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de jours y a-t-il entre le 1er et le 4 mars (inclus) ?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0708",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Si un graphique montre 10 élèves en CE2 et 15 en CM1, combien d'élèves au total ?",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "15",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0709",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la moyenne de 5, 5 et 5 ?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "3"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0710",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de minutes y a-t-il dans 2 heures et 15 minutes ?",
+      "options": {
+        "A": "135",
+        "B": "120",
+        "C": "150",
+        "D": "105"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0711",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans un tableau, la colonne 'Pommes' indique 7. Que signifie ce nombre ?",
+      "options": {
+        "A": "Le prix",
+        "B": "La quantité",
+        "C": "La couleur",
+        "D": "La date"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0712",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Si on lance une pièce, quelle est la probabilité d'obtenir face ou pile ?",
+      "options": {
+        "A": "Face plus probable",
+        "B": "Pile plus probable",
+        "C": "1 sur 2 pour chaque",
+        "D": "0 pour les deux"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0713",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Un élève a 30 € et achète un jouet à 12 €. Combien lui reste-t-il ?",
+      "options": {
+        "A": "18 €",
+        "B": "20 €",
+        "C": "16 €",
+        "D": "12 €"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0714",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de jours y a-t-il en février d'une année non bissextile ?",
+      "options": {
+        "A": "28",
+        "B": "29",
+        "C": "30",
+        "D": "31"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0715",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Sur un histogramme, la barre pour 'lundi' atteint 4. Que représente ce 4 ?",
+      "options": {
+        "A": "La hauteur du bâtiment",
+        "B": "Une quantité mesurée (ex : 4 élèves)",
+        "C": "La couleur",
+        "D": "La date"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0716",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Si on ajoute 2,5 et 1,5, quel est le résultat ?",
+      "options": {
+        "A": "3,0",
+        "B": "4,0",
+        "C": "4,5",
+        "D": "3,5"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0717",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Un tableau montre les ventes : 3, 4, 5. Quelle est la somme ?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "11",
+        "D": "9"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0718",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de minutes y a-t-il dans une demi-heure ?",
+      "options": {
+        "A": "15",
+        "B": "30",
+        "C": "45",
+        "D": "60"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0719",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans un sac il y a 4 billes rouges et 4 billes vertes. Quelle couleur a le plus de chances de sortir ?",
+      "options": {
+        "A": "Rouge",
+        "B": "Verte",
+        "C": "Elles ont la même chance",
+        "D": "Impossible"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0720",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "La moyenne de 2, 4 et 6 est :",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-001",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le double de 4 ?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-002",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le double de 7 ?",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-003",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le double de 5 ?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-004",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le triple de 3 ?",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "12",
+        "D": "3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-005",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le triple de 4 ?",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "16",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-006",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 20 + 10 ?",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "35",
+        "D": "20"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-007",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 15 + 5 ?",
+      "options": {
+        "A": "18",
+        "B": "20",
+        "C": "22",
+        "D": "25"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-008",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 11 + 4 ?",
+      "options": {
+        "A": "13",
+        "B": "15",
+        "C": "14",
+        "D": "16"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-009",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 13 + 3 ?",
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "17",
+        "D": "14"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-010",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 18 - 5 ?",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "14",
+        "D": "11"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-011",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 16 - 4 ?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-012",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 22 - 9 ?",
+      "options": {
+        "A": "11",
+        "B": "13",
+        "C": "15",
+        "D": "12"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-013",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 14 - 6 ?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-014",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 25 - 10 ?",
+      "options": {
+        "A": "13",
+        "B": "15",
+        "C": "17",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-015",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 2 x 5 ?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-016",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 3 x 4 ?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-017",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 4 x 4 ?",
+      "options": {
+        "A": "12",
+        "B": "16",
+        "C": "18",
+        "D": "14"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-018",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 5 x 5 ?",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "30",
+        "D": "15"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-019",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 2 x 8 ?",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "18",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-020",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 3 x 6 ?",
+      "options": {
+        "A": "15",
+        "B": "18",
+        "C": "21",
+        "D": "12"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-021",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 10 divise par 2 ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-022",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 6 divise par 2 ?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-023",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 8 divise par 4 ?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-024",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 12 divise par 3 ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-025",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 15 divise par 5 ?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-026",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de cotes a un triangle ?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-027",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de cotes a un rectangle ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-028",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de cotes a un pentagone ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-029",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle figure est ronde ?",
+      "options": {
+        "A": "Carre",
+        "B": "Cercle",
+        "C": "Triangle",
+        "D": "Rectangle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-030",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien d'angles a un carre ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-031",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la moitie de 10 ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-032",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la moitie de 8 ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-033",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la moitie de 20 ?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "5"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-034",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la moitie de 14 ?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-035",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel nombre vient apres 47 ?",
+      "options": {
+        "A": "46",
+        "B": "48",
+        "C": "49",
+        "D": "50"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-036",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel nombre vient avant 100 ?",
+      "options": {
+        "A": "101",
+        "B": "99",
+        "C": "98",
+        "D": "97"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-037",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le plus grand : 45 ou 54 ?",
+      "options": {
+        "A": "45",
+        "B": "54",
+        "C": "Les deux sont egaux",
+        "D": "On ne peut pas savoir"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-038",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le plus petit : 30 ou 29 ?",
+      "options": {
+        "A": "30",
+        "B": "29",
+        "C": "Les deux sont egaux",
+        "D": "On ne peut pas savoir"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-039",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Complete la suite : 2, 4, 6, __, 10",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "11"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-040",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Complete la suite : 1, 3, 5, __, 9",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-041",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Complete la suite : 5, 10, 15, __, 25",
+      "options": {
+        "A": "18",
+        "B": "20",
+        "C": "22",
+        "D": "24"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-042",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Complete la suite : 100, 90, 80, __, 60",
+      "options": {
+        "A": "65",
+        "B": "70",
+        "C": "75",
+        "D": "68"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-043",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien d'heures y a-t-il dans une journee ?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "48",
+        "D": "60"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-044",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de minutes y a-t-il dans une heure ?",
+      "options": {
+        "A": "30",
+        "B": "60",
+        "C": "100",
+        "D": "120"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-045",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de secondes y a-t-il dans une minute ?",
+      "options": {
+        "A": "30",
+        "B": "60",
+        "C": "100",
+        "D": "120"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-046",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de jours y a-t-il dans une semaine ?",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "8",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-047",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de mois y a-t-il dans une annee ?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "13",
+        "D": "52"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-048",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle unite sert a mesurer une longueur courte ?",
+      "options": {
+        "A": "Kilogramme",
+        "B": "Centimetre",
+        "C": "Litre",
+        "D": "Heure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-049",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle unite sert a mesurer une masse ?",
+      "options": {
+        "A": "Metre",
+        "B": "Kilogramme",
+        "C": "Litre",
+        "D": "Heure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-050",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle unite sert a mesurer un liquide ?",
+      "options": {
+        "A": "Metre",
+        "B": "Litre",
+        "C": "Gramme",
+        "D": "Heure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-051",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 30 + 20 ?",
+      "options": {
+        "A": "40",
+        "B": "50",
+        "C": "60",
+        "D": "45"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-052",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 50 - 20 ?",
+      "options": {
+        "A": "20",
+        "B": "30",
+        "C": "40",
+        "D": "25"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-053",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 40 + 30 ?",
+      "options": {
+        "A": "60",
+        "B": "70",
+        "C": "80",
+        "D": "65"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-054",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 80 - 30 ?",
+      "options": {
+        "A": "40",
+        "B": "50",
+        "C": "60",
+        "D": "45"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-055",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 12 + 13 ?",
+      "options": {
+        "A": "23",
+        "B": "25",
+        "C": "27",
+        "D": "22"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-056",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Un paquet de biscuits contient 10 biscuits. Combien y en a-t-il dans 3 paquets ?",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "35",
+        "D": "13"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-057",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lola a 8 bonbons. Elle en donne 3. Combien lui en reste-t-il ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-058",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Il y a 12 eleves dans une classe. 5 sont absents. Combien sont presents ?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "5"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-059",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Un fermier a 4 vaches et 6 moutons. Combien a-t-il d'animaux en tout ?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-060",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Si tu as 15 euros et que tu depenses 7 euros, combien te reste-t-il ?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-061",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la forme d'une roue de velo ?",
+      "options": {
+        "A": "Triangle",
+        "B": "Cercle",
+        "C": "Carre",
+        "D": "Rectangle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-062",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel solide a la forme d'une boite de conserve ?",
+      "options": {
+        "A": "Sphere",
+        "B": "Cylindre",
+        "C": "Cube",
+        "D": "Cone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-063",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel solide a la forme d'un de a jouer ?",
+      "options": {
+        "A": "Sphere",
+        "B": "Cube",
+        "C": "Cylindre",
+        "D": "Pyramide"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-064",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien de sommets a un cube ?",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "6",
+        "D": "12"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-065",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien vaut 0 + 7 ?",
+      "options": {
+        "A": "0",
+        "B": "7",
+        "C": "8",
+        "D": "1"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-066",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien vaut 9 x 0 ?",
+      "options": {
+        "A": "9",
+        "B": "0",
+        "C": "1",
+        "D": "90"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-067",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien vaut 6 x 1 ?",
+      "options": {
+        "A": "1",
+        "B": "6",
+        "C": "7",
+        "D": "0"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-068",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 4 x 2 ?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-069",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 5 x 2 ?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-070",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 6 x 2 ?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-071",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Complete la suite : 3, 6, 9, __, 15",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "14"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-072",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Complete la suite : 4, 8, 12, __, 20",
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "17",
+        "D": "18"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-073",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 35 + 15 ?",
+      "options": {
+        "A": "45",
+        "B": "50",
+        "C": "55",
+        "D": "40"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-074",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 45 - 15 ?",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "35",
+        "D": "20"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-075",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel nombre est pair parmi : 7, 9, 10, 13 ?",
+      "options": {
+        "A": "7",
+        "B": "10",
+        "C": "9",
+        "D": "13"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-076",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel nombre est impair parmi : 4, 6, 8, 11 ?",
+      "options": {
+        "A": "4",
+        "B": "11",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-077",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 11 + 11 ?",
+      "options": {
+        "A": "20",
+        "B": "22",
+        "C": "24",
+        "D": "18"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-078",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 12 + 12 ?",
+      "options": {
+        "A": "22",
+        "B": "24",
+        "C": "26",
+        "D": "20"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-079",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 14 + 11 ?",
+      "options": {
+        "A": "23",
+        "B": "25",
+        "C": "27",
+        "D": "22"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-080",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la moitie de 16 ?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-081",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 3 x 10 ?",
+      "options": {
+        "A": "20",
+        "B": "30",
+        "C": "40",
+        "D": "13"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-082",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 4 x 10 ?",
+      "options": {
+        "A": "30",
+        "B": "40",
+        "C": "50",
+        "D": "14"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-083",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 5 x 10 ?",
+      "options": {
+        "A": "40",
+        "B": "50",
+        "C": "60",
+        "D": "15"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-084",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 20 divise par 4 ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-085",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 18 divise par 3 ?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-086",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 16 divise par 2 ?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-087",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 24 divise par 4 ?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-088",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "On partage 20 bonbons en 5 parts egales. Combien y a-t-il de bonbons par part ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-089",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le chiffre des dizaines dans 37 ?",
+      "options": {
+        "A": "7",
+        "B": "3",
+        "C": "30",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-090",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le chiffre des unites dans 84 ?",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "80",
+        "D": "40"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-091",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans le nombre 256, quel est le chiffre des centaines ?",
+      "options": {
+        "A": "6",
+        "B": "2",
+        "C": "5",
+        "D": "25"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-092",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est l'arrondi de 47 a la dizaine pres ?",
+      "options": {
+        "A": "40",
+        "B": "50",
+        "C": "45",
+        "D": "48"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-093",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est l'arrondi de 23 a la dizaine pres ?",
+      "options": {
+        "A": "30",
+        "B": "20",
+        "C": "25",
+        "D": "22"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-094",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est l'arrondi de 65 a la dizaine pres ?",
+      "options": {
+        "A": "60",
+        "B": "70",
+        "C": "65",
+        "D": "75"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-095",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 9 x 2 ?",
+      "options": {
+        "A": "16",
+        "B": "18",
+        "C": "20",
+        "D": "11"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-096",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 7 x 3 ?",
+      "options": {
+        "A": "18",
+        "B": "21",
+        "C": "24",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-097",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 8 x 3 ?",
+      "options": {
+        "A": "21",
+        "B": "24",
+        "C": "27",
+        "D": "11"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-098",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 6 x 4 ?",
+      "options": {
+        "A": "20",
+        "B": "24",
+        "C": "28",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-099",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 7 x 4 ?",
+      "options": {
+        "A": "24",
+        "B": "28",
+        "C": "32",
+        "D": "11"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-100",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 9 x 3 ?",
+      "options": {
+        "A": "24",
+        "B": "27",
+        "C": "30",
+        "D": "12"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-101",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 100 + 50 ?",
+      "options": {
+        "A": "140",
+        "B": "150",
+        "C": "160",
+        "D": "105"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-102",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 200 - 50 ?",
+      "options": {
+        "A": "140",
+        "B": "150",
+        "C": "160",
+        "D": "100"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-103",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel nombre vient juste apres 199 ?",
+      "options": {
+        "A": "190",
+        "B": "200",
+        "C": "201",
+        "D": "198"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-easy-104",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Combien font 7 x 5 ?",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "40",
+        "D": "12"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0102",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le chiffre des dizaines dans le nombre 384 ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "8",
+        "D": "38"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0104",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 58 + 27 ?",
+      "options": {
+        "A": "85",
+        "B": "84",
+        "C": "75",
+        "D": "95"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0106",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 100 - 47 ?",
+      "options": {
+        "A": "53",
+        "B": "63",
+        "C": "43",
+        "D": "57"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0108",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le chiffre des centaines dans 726 ?",
+      "options": {
+        "A": "7",
+        "B": "2",
+        "C": "6",
+        "D": "72"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0110",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 47 + 38 ?",
+      "options": {
+        "A": "85",
+        "B": "75",
+        "C": "95",
+        "D": "84"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "math-fr-0112",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 71 - 29 ?",
+      "options": {
+        "A": "42",
+        "B": "52",
+        "C": "40",
+        "D": "41"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0114",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le chiffre des unités dans 459 ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "9",
+        "D": "45"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0116",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 86 + 19 ?",
+      "options": {
+        "A": "105",
+        "B": "95",
+        "C": "115",
+        "D": "100"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0118",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 54 - 28 ?",
+      "options": {
+        "A": "26",
+        "B": "36",
+        "C": "16",
+        "D": "24"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0120",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Complète la suite : 5, 10, 15, __, 25",
+      "options": {
+        "A": "18",
+        "B": "20",
+        "C": "22",
+        "D": "30"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0122",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 6 × 4 ?",
+      "options": {
+        "A": "20",
+        "B": "24",
+        "C": "26",
+        "D": "22"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0124",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel nombre est écrit : huit cent cinquante ?",
+      "options": {
+        "A": "850",
+        "B": "805",
+        "C": "580",
+        "D": "800"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0126",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le complément à 100 de 73 ?",
+      "options": {
+        "A": "27",
+        "B": "17",
+        "C": "37",
+        "D": "23"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0128",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 9 × 5 ?",
+      "options": {
+        "A": "40",
+        "B": "45",
+        "C": "35",
+        "D": "50"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0130",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 27 + 46 ?",
+      "options": {
+        "A": "63",
+        "B": "73",
+        "C": "83",
+        "D": "69"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0132",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 92 - 57 ?",
+      "options": {
+        "A": "35",
+        "B": "45",
+        "C": "25",
+        "D": "30"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0134",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le chiffre des dizaines dans 1 203 ?",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "3",
+        "D": "20"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0136",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 8 × 10 ?",
+      "options": {
+        "A": "80",
+        "B": "18",
+        "C": "100",
+        "D": "60"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0138",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le complément à 100 de 88 ?",
+      "options": {
+        "A": "12",
+        "B": "22",
+        "C": "18",
+        "D": "11"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0140",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Complète la suite : 100, 90, 80, __, 60",
+      "options": {
+        "A": "70",
+        "B": "75",
+        "C": "65",
+        "D": "85"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0142",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Marie a 120 gâteaux, elle en donne 45. Combien lui reste-t-il ?",
+      "options": {
+        "A": "65",
+        "B": "75",
+        "C": "85",
+        "D": "55"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0144",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien de litres y a-t-il dans 3 bidons de 5 L chacun ?",
+      "options": {
+        "A": "8 L",
+        "B": "15 L",
+        "C": "10 L",
+        "D": "12 L"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0146",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 68 + 37 ?",
+      "options": {
+        "A": "95",
+        "B": "105",
+        "C": "85",
+        "D": "100"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0148",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 203 - 87 ?",
+      "options": {
+        "A": "116",
+        "B": "126",
+        "C": "106",
+        "D": "96"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0150",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le chiffre des centaines dans 5 432 ?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "54"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0152",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 12 × 4 ?",
+      "options": {
+        "A": "48",
+        "B": "44",
+        "C": "52",
+        "D": "40"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0154",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Écris en chiffres : neuf cent neuf",
+      "options": {
+        "A": "909",
+        "B": "990",
+        "C": "9009",
+        "D": "99"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0156",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Complète : 3, 6, 12, 24, __",
+      "options": {
+        "A": "30",
+        "B": "36",
+        "C": "48",
+        "D": "60"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0158",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 39 + 58 ?",
+      "options": {
+        "A": "97",
+        "B": "87",
+        "C": "107",
+        "D": "95"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0160",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le complément à 100 de 6 ?",
+      "options": {
+        "A": "94",
+        "B": "96",
+        "C": "90",
+        "D": "100"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0162",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 76 + 29 ?",
+      "options": {
+        "A": "105",
+        "B": "95",
+        "C": "115",
+        "D": "100"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0164",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 140 - 67 ?",
+      "options": {
+        "A": "73",
+        "B": "63",
+        "C": "83",
+        "D": "77"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0166",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Si un sac pèse 2 kg et un autre 3 kg, quel est le poids total ?",
+      "options": {
+        "A": "4 kg",
+        "B": "5 kg",
+        "C": "6 kg",
+        "D": "3 kg"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0168",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 7 × 5 ?",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "25",
+        "D": "40"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0170",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 250 - 125 ?",
+      "options": {
+        "A": "115",
+        "B": "125",
+        "C": "135",
+        "D": "100"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0172",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Complète la suite : 2, 5, 10, 17, __",
+      "options": {
+        "A": "24",
+        "B": "26",
+        "C": "22",
+        "D": "20"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0174",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Sophie a 120 bonbons, elle en partage 3 paquets de 15. Combien reste-t-il ?",
+      "options": {
+        "A": "75",
+        "B": "120",
+        "C": "75",
+        "D": "120 - 45"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0176",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le chiffre des unités dans 1 234 ?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "math-fr-0178",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 13 × 3 ?",
+      "options": {
+        "A": "39",
+        "B": "36",
+        "C": "33",
+        "D": "42"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0180",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le complément à 100 de 0 ?",
+      "options": {
+        "A": "100",
+        "B": "0",
+        "C": "10",
+        "D": "90"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0182",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 147 + 258 ?",
+      "options": {
+        "A": "395",
+        "B": "405",
+        "C": "395",
+        "D": "415"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0184",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 301 - 159 ?",
+      "options": {
+        "A": "142",
+        "B": "152",
+        "C": "132",
+        "D": "162"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0186",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Écris en chiffres : neuf cent quatre-vingt-dix",
+      "options": {
+        "A": "990",
+        "B": "909",
+        "C": "980",
+        "D": "900"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0188",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 64 + 37 ?",
+      "options": {
+        "A": "101",
+        "B": "111",
+        "C": "91",
+        "D": "100"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0190",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le chiffre des dizaines dans 5 678 ?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0192",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 25 × 4 ?",
+      "options": {
+        "A": "100",
+        "B": "90",
+        "C": "80",
+        "D": "110"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-0194",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Complète la suite : 2, 4, 8, 16, __",
+      "options": {
+        "A": "20",
+        "B": "24",
+        "C": "32",
+        "D": "30"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "math-fr-0196",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Une bouteille contient 2 L d'eau. Combien de litres dans 7 bouteilles ?",
+      "options": {
+        "A": "12 L",
+        "B": "14 L",
+        "C": "16 L",
+        "D": "10 L"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-0198",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Combien font 199 + 201 ?",
+      "options": {
+        "A": "400",
+        "B": "390",
+        "C": "410",
         "D": "399"
       },
       "answer": "A"
@@ -3196,21 +5446,6 @@
         "D": "49"
       },
       "answer": "B"
-    },
-    {
-      "id": "math-fr-0214",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien font 12 × 4 ?",
-      "options": {
-        "A": "48",
-        "B": "44",
-        "C": "52",
-        "D": "40"
-      },
-      "answer": "A"
     },
     {
       "id": "math-fr-0215",
@@ -6003,456 +8238,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0401",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de côtés a un carré ?",
-      "options": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0402",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quelle forme est ronde sans côtés ?",
-      "options": {
-        "A": "Triangle",
-        "B": "Carré",
-        "C": "Cercle",
-        "D": "Rectangle"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0403",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de côtés a un triangle ?",
-      "options": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "2"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0404",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel nom porte une figure à quatre côtés égaux mais pas forcément des angles droits ?",
-      "options": {
-        "A": "Rectangle",
-        "B": "Losange",
-        "C": "Cercle",
-        "D": "Hexagone"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0405",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de côtés a un hexagone régulier ?",
-      "options": {
-        "A": "5",
-        "B": "6",
-        "C": "7",
-        "D": "8"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0406",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quelle forme a deux paires de côtés parallèles et des angles droits ?",
-      "options": {
-        "A": "Triangle",
-        "B": "Cercle",
-        "C": "Rectangle",
-        "D": "Losange"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0407",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel solide a 6 faces carrées égales ?",
-      "options": {
-        "A": "Cylindre",
-        "B": "Sphère",
-        "C": "Cube",
-        "D": "Pyramide"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0408",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel solide roule facilement et n'a pas d'arêtes ?",
-      "options": {
-        "A": "Cube",
-        "B": "Sphère",
-        "C": "Pyramide",
-        "D": "Cône"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0409",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien d'arêtes a un cube ?",
-      "options": {
-        "A": "6",
-        "B": "8",
-        "C": "12",
-        "D": "16"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0410",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quelle forme a exactement quatre angles droits et des côtés opposés égaux ?",
-      "options": {
-        "A": "Carré",
-        "B": "Triangle",
-        "C": "Rectangle",
-        "D": "Losange"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0411",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien d'angles a un pentagone ?",
-      "options": {
-        "A": "4",
-        "B": "5",
-        "C": "6",
-        "D": "3"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0412",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quelle forme a trois sommets et trois côtés ?",
-      "options": {
-        "A": "Triangle",
-        "B": "Carré",
-        "C": "Cercle",
-        "D": "Hexagone"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0413",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel nom porte une figure à six côtés ?",
-      "options": {
-        "A": "Hexagone",
-        "B": "Heptagone",
-        "C": "Octogone",
-        "D": "Pentagone"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0414",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de côtés a un losange ?",
-      "options": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0415",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quelle forme a un seul côté courbe et aucun sommet ?",
-      "options": {
-        "A": "Cercle",
-        "B": "Carré",
-        "C": "Triangle",
-        "D": "Rectangle"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0416",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de faces a une sphère ?",
-      "options": {
-        "A": "1",
-        "B": "0",
-        "C": "6",
-        "D": "4"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0417",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel solide a une base circulaire et une face courbe ?",
-      "options": {
-        "A": "Cube",
-        "B": "Cylindre",
-        "C": "Pyramide",
-        "D": "Prisme"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0418",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel solide a une base carrée et des faces triangulaires qui se rejoignent en un sommet ?",
-      "options": {
-        "A": "Cylindre",
-        "B": "Pyramide",
-        "C": "Cube",
-        "D": "Sphère"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0419",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de côtés a un rectangle ?",
-      "options": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0420",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel nom porte une figure avec quatre côtés et deux paires de côtés parallèles ?",
-      "options": {
-        "A": "Triangle",
-        "B": "Quadrilatère",
-        "C": "Hexagone",
-        "D": "Cercle"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0421",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel solide a deux bases circulaires parallèles ?",
-      "options": {
-        "A": "Cylindre",
-        "B": "Cône",
-        "C": "Cube",
-        "D": "Pyramide"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0422",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel est le nombre d'angles d'un rectangle ?",
-      "options": {
-        "A": "2",
-        "B": "3",
-        "C": "4",
-        "D": "5"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0423",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quelle forme a quatre côtés égaux et quatre angles droits ?",
-      "options": {
-        "A": "Carré",
-        "B": "Losange",
-        "C": "Rectangle",
-        "D": "Trapèze"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0424",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de sommets a un triangle ?",
-      "options": {
-        "A": "2",
-        "B": "3",
-        "C": "4",
-        "D": "5"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0425",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel solide a une surface entièrement lisse et sans arêtes ?",
-      "options": {
-        "A": "Sphère",
-        "B": "Cube",
-        "C": "Cylindre",
-        "D": "Pyramide"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0426",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel nom porte une figure à cinq côtés ?",
-      "options": {
-        "A": "Pentagone",
-        "B": "Hexagone",
-        "C": "Heptagone",
-        "D": "Octogone"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0427",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quelle forme a exactement deux axes de symétrie perpendiculaires ?",
-      "options": {
-        "A": "Rectangle",
-        "B": "Triangle scalène",
-        "C": "Losange irrégulier",
-        "D": "Cercle"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0428",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel solide a une base circulaire et un sommet pointu ?",
-      "options": {
-        "A": "Cône",
-        "B": "Cube",
-        "C": "Cylindre",
-        "D": "Sphère"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0429",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de faces a un cube ?",
-      "options": {
-        "A": "4",
-        "B": "6",
-        "C": "8",
-        "D": "12"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0430",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quel est le périmètre d'un carré de côté 4 cm ?",
-      "options": {
-        "A": "8 cm",
-        "B": "12 cm",
-        "C": "16 cm",
-        "D": "20 cm"
-      },
-      "answer": "C"
-    },
-    {
       "id": "math-fr-0431",
       "category": "math",
       "subcategory": null,
@@ -6526,21 +8311,6 @@
         "D": "Plat"
       },
       "answer": "C"
-    },
-    {
-      "id": "math-fr-0436",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien de côtés a un losange ?",
-      "options": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6"
-      },
-      "answer": "B"
     },
     {
       "id": "math-fr-0437",
@@ -6723,21 +8493,6 @@
       "answer": "B"
     },
     {
-      "id": "math-fr-0449",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien de côtés a un hexagone régulier ?",
-      "options": {
-        "A": "5",
-        "B": "6",
-        "C": "7",
-        "D": "8"
-      },
-      "answer": "B"
-    },
-    {
       "id": "math-fr-0450",
       "category": "math",
       "subcategory": null,
@@ -6811,21 +8566,6 @@
         "D": "Carré"
       },
       "answer": "B"
-    },
-    {
-      "id": "math-fr-0455",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien d'axes de symétrie a un cercle ?",
-      "options": {
-        "A": "0",
-        "B": "1",
-        "C": "2",
-        "D": "Infini"
-      },
-      "answer": "D"
     },
     {
       "id": "math-fr-0456",
@@ -7259,846 +8999,6 @@
         "B": "(0,5) existe",
         "C": "(0,0)",
         "D": "(5,0)"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0485",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le périmètre d'un rectangle de 0,5 m et 0,2 m ?",
-      "options": {
-        "A": "1,4 m",
-        "B": "0,7 m",
-        "C": "1,0 m",
-        "D": "0,4 m"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0486",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien d'angles a un hexagone ?",
-      "options": {
-        "A": "5",
-        "B": "6",
-        "C": "7",
-        "D": "8"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0487",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quelle figure a des diagonales de même longueur qui se coupent au milieu ?",
-      "options": {
-        "A": "Rectangle",
-        "B": "Losange",
-        "C": "Triangle",
-        "D": "Cercle"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0488",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel solide a une base triangulaire et trois faces rectangulaires ?",
-      "options": {
-        "A": "Prisme triangulaire",
-        "B": "Cylindre",
-        "C": "Cube",
-        "D": "Pyramide triangulaire"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0489",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le périmètre d'un carré de côté 0,25 m ?",
-      "options": {
-        "A": "0,5 m",
-        "B": "1,0 m",
-        "C": "0,75 m",
-        "D": "0,25 m"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0490",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien d'axes de symétrie a un rectangle isocèle (non carré) ?",
-      "options": {
-        "A": "0",
-        "B": "1",
-        "C": "2",
-        "D": "3"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0491",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le périmètre d'un rectangle de 3,2 m et 1,8 m ?",
-      "options": {
-        "A": "10,0 m",
-        "B": "9,0 m",
-        "C": "8,0 m",
-        "D": "11,0 m"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0492",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quelle figure a des côtés égaux et des diagonales perpendiculaires ?",
-      "options": {
-        "A": "Rectangle",
-        "B": "Losange",
-        "C": "Parallélogramme",
-        "D": "Trapèze"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0493",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel solide a une surface latérale courbe et deux bords circulaires ?",
-      "options": {
-        "A": "Cylindre",
-        "B": "Cône",
-        "C": "Cube",
-        "D": "Pyramide"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0494",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Sur un quadrillage, si un point est à (5,0), où se trouve-t-il ?",
-      "options": {
-        "A": "5 à droite, sur l'axe horizontal",
-        "B": "5 en haut, sur l'axe vertical",
-        "C": "5 à gauche, sur l'axe horizontal",
-        "D": "Impossible"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0495",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le périmètre d'un triangle isocèle de côtés 6 cm, 6 cm et 4 cm ?",
-      "options": {
-        "A": "16 cm",
-        "B": "18 cm",
-        "C": "20 cm",
-        "D": "14 cm"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0496",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quelle figure a des angles opposés égaux et des côtés parallèles deux à deux ?",
-      "options": {
-        "A": "Parallélogramme",
-        "B": "Triangle",
-        "C": "Cercle",
-        "D": "Trapèze"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0497",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel solide a 12 arêtes et 8 faces ?",
-      "options": {
-        "A": "Cube",
-        "B": "Octaèdre",
-        "C": "Prisme hexagonal",
-        "D": "Cuboctaèdre"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0498",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien d'axes de symétrie a un rectangle carré (carré) si on compte aussi les diagonales ?",
-      "options": {
-        "A": "2",
-        "B": "3",
-        "C": "4",
-        "D": "5"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0499",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est le périmètre d'un rectangle de 11 cm et 2 cm ?",
-      "options": {
-        "A": "26 cm",
-        "B": "22 cm",
-        "C": "24 cm",
-        "D": "20 cm"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0500",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quelle figure a des côtés égaux et des angles opposés égaux mais pas forcément des angles droits ?",
-      "options": {
-        "A": "Carré",
-        "B": "Losange",
-        "C": "Rectangle",
-        "D": "Triangle équilatéral"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0501",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si 4 cahiers coûtent 12 €, combien coûtent 1 cahier au même prix ?",
-      "options": {
-        "A": "2 €",
-        "B": "3 €",
-        "C": "4 €",
-        "D": "6 €"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0502",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Sur une carte à l'échelle 1/25 000, 4 cm représentent quelle distance réelle en km ?",
-      "options": {
-        "A": "1 km",
-        "B": "10 km",
-        "C": "100 km",
-        "D": "0,1 km"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0503",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est 10% de 80 ?",
-      "options": {
-        "A": "8",
-        "B": "10",
-        "C": "80",
-        "D": "0,8"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0504",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Convertis 3 km en mètres.",
-      "options": {
-        "A": "300 m",
-        "B": "3 000 m",
-        "C": "30 000 m",
-        "D": "300 000 m"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0505",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si une voiture roule à 60 km/h, quelle distance parcourt-elle en 2 heures ?",
-      "options": {
-        "A": "30 km",
-        "B": "60 km",
-        "C": "120 km",
-        "D": "180 km"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0506",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Calcule l'aire d'un rectangle de 8 m de long et 3 m de large.",
-      "options": {
-        "A": "11 m²",
-        "B": "24 m²",
-        "C": "22 m²",
-        "D": "32 m²"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0507",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "La moyenne de 4 nombres est 10. La somme des 3 premiers est 24. Quel est le quatrième nombre ?",
-      "options": {
-        "A": "6",
-        "B": "10",
-        "C": "16",
-        "D": "14"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0508",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si 5 kg de pommes coûtent 15 €, combien coûte 1 kg ?",
-      "options": {
-        "A": "2 €",
-        "B": "3 €",
-        "C": "4 €",
-        "D": "5 €"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0509",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Convertis 2500 g en kilogrammes.",
-      "options": {
-        "A": "0,25 kg",
-        "B": "2,5 kg",
-        "C": "25 kg",
-        "D": "250 kg"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0510",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est 50% de 60 ?",
-      "options": {
-        "A": "15",
-        "B": "30",
-        "C": "60",
-        "D": "45"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0511",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si 2 cm sur la carte représentent 1 km, combien de km représentent 7 cm ?",
-      "options": {
-        "A": "3,5 km",
-        "B": "14 km",
-        "C": "7 km",
-        "D": "0,7 km"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0512",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Un cycliste parcourt 15 km en 0,5 heure. Quelle est sa vitesse en km/h ?",
-      "options": {
-        "A": "7,5 km/h",
-        "B": "15 km/h",
-        "C": "30 km/h",
-        "D": "10 km/h"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0513",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est 25% de 120 ?",
-      "options": {
-        "A": "20",
-        "B": "30",
-        "C": "40",
-        "D": "25"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0514",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Convertis 4,5 L en centilitres.",
-      "options": {
-        "A": "45 cL",
-        "B": "450 cL",
-        "C": "4 500 cL",
-        "D": "0,45 cL"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0515",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si 7 stylos coûtent 21 €, combien coûtent 3 stylos ?",
-      "options": {
-        "A": "7 €",
-        "B": "9 €",
-        "C": "6 €",
-        "D": "10 €"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0516",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Une figure est composée d'un rectangle 6×4 cm et d'un triangle de base 4 cm et hauteur 3 cm. Quelle est l'aire totale ?",
-      "options": {
-        "A": "24 cm²",
-        "B": "30 cm²",
-        "C": "30,5 cm²",
-        "D": "36 cm²"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0517",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si on augmente 80 de 10%, quel est le nouveau nombre ?",
-      "options": {
-        "A": "88",
-        "B": "90",
-        "C": "92",
-        "D": "100"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0518",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Convertis 0,75 km en mètres.",
-      "options": {
-        "A": "75 m",
-        "B": "750 m",
-        "C": "7 500 m",
-        "D": "0,75 m"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0519",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Un train parcourt 240 km en 3 heures. Quelle est sa vitesse moyenne ?",
-      "options": {
-        "A": "60 km/h",
-        "B": "80 km/h",
-        "C": "70 km/h",
-        "D": "90 km/h"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0520",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si 4 litres d'eau pèsent 4 kg, combien pèsent 1,5 L ?",
-      "options": {
-        "A": "1,5 kg",
-        "B": "0,375 kg",
-        "C": "6 kg",
-        "D": "3 kg"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0521",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Tableau de proportionnalité : 2 kg de farine coûtent 3 €. Combien coûtent 5 kg ?",
-      "options": {
-        "A": "6 €",
-        "B": "7,5 €",
-        "C": "8 €",
-        "D": "9 €"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0522",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Sur une carte à l'échelle 1/100 000, 1 cm représente combien de km ?",
-      "options": {
-        "A": "1 km",
-        "B": "10 km",
-        "C": "100 km",
-        "D": "0,1 km"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0523",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est 10% de 450 ?",
-      "options": {
-        "A": "4,5",
-        "B": "45",
-        "C": "450",
-        "D": "0,45"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0524",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Convertis 3,2 km en mètres.",
-      "options": {
-        "A": "320 m",
-        "B": "3 200 m",
-        "C": "32 000 m",
-        "D": "0,32 m"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0525",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si une voiture roule à 90 km/h, combien de temps met-elle pour parcourir 45 km ?",
-      "options": {
-        "A": "0,25 h",
-        "B": "0,5 h",
-        "C": "1 h",
-        "D": "2 h"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0526",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Calcule l'aire d'un rectangle de 14 cm par 2 cm.",
-      "options": {
-        "A": "16 cm²",
-        "B": "28 cm²",
-        "C": "12 cm²",
-        "D": "7 cm²"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0527",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "La moyenne de 5 nombres est 12. La somme des 4 premiers est 46. Quel est le cinquième nombre ?",
-      "options": {
-        "A": "14",
-        "B": "10",
-        "C": "12",
-        "D": "8"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0528",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si 3 kg de riz donnent 6 portions, combien de portions pour 5 kg au même rendement ?",
-      "options": {
-        "A": "8",
-        "B": "10",
-        "C": "9",
-        "D": "12"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0529",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Convertis 250 cL en litres.",
-      "options": {
-        "A": "2,5 L",
-        "B": "25 L",
-        "C": "0,25 L",
-        "D": "250 L"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0530",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est 25% de 80 ?",
-      "options": {
-        "A": "10",
-        "B": "15",
-        "C": "20",
-        "D": "25"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0531",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Sur une carte, 3 cm représentent 9 km. Quelle est l'échelle en cm pour 1 km ?",
-      "options": {
-        "A": "1 cm = 3 km",
-        "B": "1 cm = 1 km",
-        "C": "1 cm = 0,33 km",
-        "D": "1 cm = 3 km (échelle 1/300 000)"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0532",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si on parcourt 150 km en 2,5 heures, quelle est la vitesse moyenne ?",
-      "options": {
-        "A": "50 km/h",
-        "B": "60 km/h",
-        "C": "75 km/h",
-        "D": "100 km/h"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0533",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Un rectangle mesure 9 m par 4 m. Quelle est son aire ?",
-      "options": {
-        "A": "13 m²",
-        "B": "36 m²",
-        "C": "18 m²",
-        "D": "45 m²"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0534",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si on retire 20% de 200, quel est le résultat ?",
-      "options": {
-        "A": "160",
-        "B": "180",
-        "C": "140",
-        "D": "120"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0535",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Convertis 7 500 g en kilogrammes.",
-      "options": {
-        "A": "0,75 kg",
-        "B": "7,5 kg",
-        "C": "75 kg",
-        "D": "750 kg"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0536",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Proportion : 8 crayons coûtent 6 €. Combien coûtent 20 crayons ?",
-      "options": {
-        "A": "12 €",
-        "B": "15 €",
-        "C": "10 €",
-        "D": "18 €"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0537",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Sur une carte à l'échelle 1/50 000, 2 cm représentent combien de km ?",
-      "options": {
-        "A": "1 km",
-        "B": "10 km",
-        "C": "0,5 km",
-        "D": "100 km"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0538",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quel est 10% de 1 200 ?",
-      "options": {
-        "A": "12",
-        "B": "120",
-        "C": "1 200",
-        "D": "1 320"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0539",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Si une personne marche à 5 km/h, quelle distance parcourt-elle en 3 heures ?",
-      "options": {
-        "A": "8 km",
-        "B": "10 km",
-        "C": "15 km",
-        "D": "20 km"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0540",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "La somme de trois nombres proportionnels 2:3:5 est 100. Quel est le plus grand nombre ?",
-      "options": {
-        "A": "50",
-        "B": "40",
-        "C": "30",
-        "D": "20"
       },
       "answer": "A"
     },
@@ -10503,1056 +11403,6 @@
       "answer": "A"
     },
     {
-      "id": "math-fr-0701",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de minutes y a-t-il dans 1 heure et demie ?",
-      "options": {
-        "A": "60",
-        "B": "90",
-        "C": "120",
-        "D": "75"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0702",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Dans un sac il y a 3 billes rouges et 2 billes bleues. Quelle couleur a le plus de chances de sortir ?",
-      "options": {
-        "A": "Bleue",
-        "B": "Rouge",
-        "C": "Elles ont la même chance",
-        "D": "Impossible à dire"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0703",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quelle est la moyenne de 4, 6 et 8 ?",
-      "options": {
-        "A": "6",
-        "B": "7",
-        "C": "8",
-        "D": "9"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0704",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de secondes y a-t-il dans 3 minutes ?",
-      "options": {
-        "A": "60",
-        "B": "120",
-        "C": "180",
-        "D": "240"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0705",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Si un diagramme en barres montre 5 pommes, 3 poires et 2 bananes, combien de fruits au total ?",
-      "options": {
-        "A": "8",
-        "B": "10",
-        "C": "9",
-        "D": "11"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0706",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Sur un camembert, une part représente 50% du total. Quelle fraction du tout est-ce ?",
-      "options": {
-        "A": "1/4",
-        "B": "1/2",
-        "C": "1/3",
-        "D": "3/4"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0707",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de jours y a-t-il entre le 1er et le 4 mars (inclus) ?",
-      "options": {
-        "A": "2",
-        "B": "3",
-        "C": "4",
-        "D": "5"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0708",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Si un graphique montre 10 élèves en CE2 et 15 en CM1, combien d'élèves au total ?",
-      "options": {
-        "A": "20",
-        "B": "25",
-        "C": "15",
-        "D": "10"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0709",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Quelle est la moyenne de 5, 5 et 5 ?",
-      "options": {
-        "A": "5",
-        "B": "10",
-        "C": "15",
-        "D": "3"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0710",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de minutes y a-t-il dans 2 heures et 15 minutes ?",
-      "options": {
-        "A": "135",
-        "B": "120",
-        "C": "150",
-        "D": "105"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0711",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Dans un tableau, la colonne 'Pommes' indique 7. Que signifie ce nombre ?",
-      "options": {
-        "A": "Le prix",
-        "B": "La quantité",
-        "C": "La couleur",
-        "D": "La date"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0712",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Si on lance une pièce, quelle est la probabilité d'obtenir face ou pile ?",
-      "options": {
-        "A": "Face plus probable",
-        "B": "Pile plus probable",
-        "C": "1 sur 2 pour chaque",
-        "D": "0 pour les deux"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0713",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Un élève a 30 € et achète un jouet à 12 €. Combien lui reste-t-il ?",
-      "options": {
-        "A": "18 €",
-        "B": "20 €",
-        "C": "16 €",
-        "D": "12 €"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0714",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de jours y a-t-il en février d'une année non bissextile ?",
-      "options": {
-        "A": "28",
-        "B": "29",
-        "C": "30",
-        "D": "31"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0715",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Sur un histogramme, la barre pour 'lundi' atteint 4. Que représente ce 4 ?",
-      "options": {
-        "A": "La hauteur du bâtiment",
-        "B": "Une quantité mesurée (ex : 4 élèves)",
-        "C": "La couleur",
-        "D": "La date"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0716",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Si on ajoute 2,5 et 1,5, quel est le résultat ?",
-      "options": {
-        "A": "3,0",
-        "B": "4,0",
-        "C": "4,5",
-        "D": "3,5"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0717",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Un tableau montre les ventes : 3, 4, 5. Quelle est la somme ?",
-      "options": {
-        "A": "10",
-        "B": "12",
-        "C": "11",
-        "D": "9"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0718",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Combien de minutes y a-t-il dans une demi-heure ?",
-      "options": {
-        "A": "15",
-        "B": "30",
-        "C": "45",
-        "D": "60"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0719",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "Dans un sac il y a 4 billes rouges et 4 billes vertes. Quelle couleur a le plus de chances de sortir ?",
-      "options": {
-        "A": "Rouge",
-        "B": "Verte",
-        "C": "Elles ont la même chance",
-        "D": "Impossible"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0720",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "easy",
-      "question": "La moyenne de 2, 4 et 6 est :",
-      "options": {
-        "A": "3",
-        "B": "4",
-        "C": "5",
-        "D": "6"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0721",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Un graphique montre les ventes hebdomadaires : lundi 5, mardi 7, mercredi 6. Quelle est la moyenne ?",
-      "options": {
-        "A": "6",
-        "B": "5,5",
-        "C": "6,5",
-        "D": "7"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0722",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Dans un tableau, la colonne 'Heures' indique 2, 3, 4. Quelle est la somme des heures ?",
-      "options": {
-        "A": "9",
-        "B": "8",
-        "C": "7",
-        "D": "6"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0723",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Dans un sac : 2 rouges, 3 bleues, 5 vertes. Quelle couleur a la plus grande probabilité ?",
-      "options": {
-        "A": "Rouge",
-        "B": "Bleue",
-        "C": "Verte",
-        "D": "Toutes égales"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0724",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien de minutes y a-t-il dans 4 heures ?",
-      "options": {
-        "A": "240",
-        "B": "200",
-        "C": "180",
-        "D": "120"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0725",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Un camembert montre 25% pour les pommes. Si le total est 40 fruits, combien de pommes ?",
-      "options": {
-        "A": "10",
-        "B": "8",
-        "C": "12",
-        "D": "15"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0726",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Lecture de graphique : si la barre 'A' vaut 12 et la barre 'B' vaut 8, quelle est la différence A-B ?",
-      "options": {
-        "A": "4",
-        "B": "20",
-        "C": "-4",
-        "D": "8"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0727",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Quelle est la moyenne de 3, 7 et 10 ?",
-      "options": {
-        "A": "6",
-        "B": "7",
-        "C": "8",
-        "D": "9"
-      },
-      "answer": "C"
-    },
-    {
-      "id": "math-fr-0728",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Dans un tableau, 1ère colonne = jours, 2ᵉ colonne = ventes. Que signifie une cellule vide ?",
-      "options": {
-        "A": "Zéro vente ou donnée manquante",
-        "B": "Toujours zéro",
-        "C": "Toujours 1",
-        "D": "Erreur du tableau"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0729",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Probabilité : on tire une carte d'un jeu de 4 cartes numérotées 1 à 4. Quelle probabilité d'obtenir un nombre pair ?",
-      "options": {
-        "A": "1/4",
-        "B": "1/2",
-        "C": "3/4",
-        "D": "2/3"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0730",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Convertis 2 heures 30 minutes en minutes.",
-      "options": {
-        "A": "120",
-        "B": "150",
-        "C": "180",
-        "D": "210"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0731",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Un graphique montre 20 élèves en sport et 15 en musique. Quel pourcentage des 35 élèves fait le sport ?",
-      "options": {
-        "A": "57 %",
-        "B": "60 %",
-        "C": "45 %",
-        "D": "50 %"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0732",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Calcul : 12,5 + 3,75 = ?",
-      "options": {
-        "A": "16,25",
-        "B": "15,75",
-        "C": "14,25",
-        "D": "16,5"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0733",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Dans un tableau, la colonne 'Prix' montre 2 €, 3 €, 5 €. Quel est le total ?",
-      "options": {
-        "A": "10 €",
-        "B": "9 €",
-        "C": "11 €",
-        "D": "8 €"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0734",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Probabilité : dans un sac 6 billes (4 blanches, 2 noires). Quelle probabilité de tirer une blanche ?",
-      "options": {
-        "A": "1/3",
-        "B": "2/3",
-        "C": "4/6",
-        "D": "Both B and C"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "math-fr-0735",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Combien de secondes y a-t-il dans 2 minutes 20 secondes ?",
-      "options": {
-        "A": "120",
-        "B": "140",
-        "C": "160",
-        "D": "180"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0736",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Lecture de graphique : si une barre double une autre, que peut-on dire ?",
-      "options": {
-        "A": "La quantité est deux fois plus grande",
-        "B": "La couleur est différente",
-        "C": "La date est plus récente",
-        "D": "Rien"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0737",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Moyenne : (6 + 8 + 10 + 6) ÷ 4 = ?",
-      "options": {
-        "A": "7",
-        "B": "7,5",
-        "C": "8",
-        "D": "6,5"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0738",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Interpréter un tableau : si la colonne 'Quantité' indique 0, que signifie-t-elle ?",
-      "options": {
-        "A": "Aucun article",
-        "B": "Donnée manquante",
-        "C": "Erreur",
-        "D": "Toujours négatif"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0739",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Probabilité : on lance un dé à 6 faces. Quelle probabilité d'obtenir un 3 ?",
-      "options": {
-        "A": "1/6",
-        "B": "1/3",
-        "C": "1/2",
-        "D": "1/4"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0740",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Conversion : 90 minutes = ? heures",
-      "options": {
-        "A": "1 h 30",
-        "B": "1 h 20",
-        "C": "2 h",
-        "D": "1 h 45"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0741",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Un graphique en secteurs montre 1/4 pour les chats. Si total 40 animaux, combien de chats ?",
-      "options": {
-        "A": "10",
-        "B": "8",
-        "C": "12",
-        "D": "15"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0742",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Calcul mixte : 5 × 3 + 12 ÷ 4 = ?",
-      "options": {
-        "A": "17",
-        "B": "18",
-        "C": "16",
-        "D": "15"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0743",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Moyenne : (2 + 4 + 6 + 8 + 10) ÷ 5 = ?",
-      "options": {
-        "A": "6",
-        "B": "5",
-        "C": "7",
-        "D": "8"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0744",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Lire un tableau : si la colonne 'Année' montre 2019, 2020, 2021, que représente-elle ?",
-      "options": {
-        "A": "Des quantités",
-        "B": "Des dates",
-        "C": "Des prix",
-        "D": "Des couleurs"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0745",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Probabilité : dans un sac 10 billes (5 rouges, 3 bleues, 2 vertes). Quelle probabilité de tirer une verte ?",
-      "options": {
-        "A": "1/5",
-        "B": "1/10",
-        "C": "2/10",
-        "D": "Both A and C"
-      },
-      "answer": "D"
-    },
-    {
-      "id": "math-fr-0746",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Conversion : 3,5 heures = ? minutes",
-      "options": {
-        "A": "210",
-        "B": "205",
-        "C": "180",
-        "D": "200"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0747",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Un histogramme montre la fréquence d'un événement. Que mesure la hauteur des barres ?",
-      "options": {
-        "A": "La fréquence ou le nombre",
-        "B": "La couleur",
-        "C": "La largeur",
-        "D": "La date"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0748",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Calcul : 14,2 - 3,7 = ?",
-      "options": {
-        "A": "10,5",
-        "B": "11,5",
-        "C": "9,5",
-        "D": "10,0"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0749",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Moyenne : (10 + 12 + 8) ÷ 3 = ?",
-      "options": {
-        "A": "10",
-        "B": "9",
-        "C": "11",
-        "D": "12"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0750",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Lire un tableau : si la colonne 'Température' montre 20°C, que signifie ce nombre ?",
-      "options": {
-        "A": "La vitesse",
-        "B": "La température mesurée",
-        "C": "La quantité",
-        "D": "La durée"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0751",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Probabilité : on tire au hasard une carte parmi 4 couleurs égales. Quelle probabilité d'obtenir une couleur donnée ?",
-      "options": {
-        "A": "1/2",
-        "B": "1/4",
-        "C": "1/3",
-        "D": "1/6"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0752",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Conversion : 2 jours = ? heures",
-      "options": {
-        "A": "24",
-        "B": "48",
-        "C": "72",
-        "D": "36"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0753",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Un graphique montre 30 élèves en total, 12 aiment le foot. Quel pourcentage aiment le foot ?",
-      "options": {
-        "A": "40 %",
-        "B": "30 %",
-        "C": "50 %",
-        "D": "60 %"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0754",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Calcul mixte : (8 + 2) × 3 = ?",
-      "options": {
-        "A": "30",
-        "B": "24",
-        "C": "20",
-        "D": "18"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0755",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Moyenne : (7 + 9 + 10 + 8) ÷ 4 = ?",
-      "options": {
-        "A": "8,5",
-        "B": "8",
-        "C": "9",
-        "D": "7,5"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0756",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Lire un tableau : si la colonne 'Distance (km)' indique 5, 10, 15, quelle est la moyenne ?",
-      "options": {
-        "A": "10 km",
-        "B": "9 km",
-        "C": "11 km",
-        "D": "12 km"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0757",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Probabilité : on lance deux pièces. Quelle probabilité d'obtenir deux faces ?",
-      "options": {
-        "A": "1/2",
-        "B": "1/4",
-        "C": "1/3",
-        "D": "1/6"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0758",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Conversion : 150 secondes = ? minutes et secondes",
-      "options": {
-        "A": "2 min 30 s",
-        "B": "1 min 50 s",
-        "C": "3 min 0 s",
-        "D": "2 min 20 s"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0759",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Un graphique en barres montre les ventes mensuelles : janvier 20, février 30. Quelle est la hausse en pourcentage approximative ?",
-      "options": {
-        "A": "50 %",
-        "B": "33 %",
-        "C": "20 %",
-        "D": "100 %"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0760",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Calcul : 3/4 + 1/4 = ?",
-      "options": {
-        "A": "1",
-        "B": "3/4",
-        "C": "1/2",
-        "D": "2/4"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0761",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Moyenne : (2 + 5 + 9) ÷ 3 = ?",
-      "options": {
-        "A": "5,33",
-        "B": "6",
-        "C": "5",
-        "D": "4,5"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0762",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Lire un tableau : si la colonne 'Prix' montre 1,50 €, 2,00 €, quel est le total ?",
-      "options": {
-        "A": "3,50 €",
-        "B": "3,00 €",
-        "C": "4,00 €",
-        "D": "2,50 €"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0763",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Probabilité : dans un sac 8 billes (2 rouges, 6 bleues). Quelle probabilité de tirer une rouge ?",
-      "options": {
-        "A": "1/4",
-        "B": "1/3",
-        "C": "1/2",
-        "D": "3/4"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0764",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Conversion : 0,75 heure = ? minutes",
-      "options": {
-        "A": "45",
-        "B": "30",
-        "C": "60",
-        "D": "75"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0765",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Un diagramme en secteurs montre 20% pour les chiens. Si total 50 animaux, combien de chiens ?",
-      "options": {
-        "A": "10",
-        "B": "5",
-        "C": "15",
-        "D": "20"
-      },
-      "answer": "B"
-    },
-    {
-      "id": "math-fr-0766",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Calcul mixte : 25 ÷ 5 + 6 × 2 = ?",
-      "options": {
-        "A": "17",
-        "B": "14",
-        "C": "16",
-        "D": "18"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0767",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Moyenne : (0 + 10 + 20) ÷ 3 = ?",
-      "options": {
-        "A": "10",
-        "B": "15",
-        "C": "5",
-        "D": "20"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0768",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Lire un tableau : si la colonne 'Temps' indique 10 min, 20 min, 30 min, quelle est la moyenne ?",
-      "options": {
-        "A": "20 min",
-        "B": "15 min",
-        "C": "25 min",
-        "D": "30 min"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0769",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Probabilité : on choisit au hasard une lettre parmi A, B, C. Quelle probabilité de choisir B ?",
-      "options": {
-        "A": "1/3",
-        "B": "1/2",
-        "C": "1/4",
-        "D": "2/3"
-      },
-      "answer": "A"
-    },
-    {
-      "id": "math-fr-0770",
-      "category": "math",
-      "subcategory": null,
-      "locale": "fr",
-      "difficulty": "medium",
-      "question": "Conversion : 3 jours et 4 heures = ? heures",
-      "options": {
-        "A": "76",
-        "B": "72",
-        "C": "80",
-        "D": "70"
-      },
-      "answer": "A"
-    },
-    {
       "id": "math-fr-0771",
       "category": "math",
       "subcategory": null,
@@ -12001,6 +11851,1656 @@
         "D": "61"
       },
       "answer": "A"
+    },
+    {
+      "id": "math-fr-hard-001",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 3/4 x 8 = ?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-002",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 2/3 + 1/6 = ?",
+      "options": {
+        "A": "3/9",
+        "B": "5/6",
+        "C": "1/2",
+        "D": "3/6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-003",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 5/8 - 1/4 = ?",
+      "options": {
+        "A": "4/4",
+        "B": "3/8",
+        "C": "1/2",
+        "D": "4/8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-004",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 3/5 x 10 = ?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-005",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est 15% de 200 ?",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "35",
+        "D": "20"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-006",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est 40% de 150 ?",
+      "options": {
+        "A": "50",
+        "B": "60",
+        "C": "70",
+        "D": "40"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-007",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est 35% de 400 ?",
+      "options": {
+        "A": "120",
+        "B": "140",
+        "C": "160",
+        "D": "100"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-008",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est 75% de 80 ?",
+      "options": {
+        "A": "55",
+        "B": "60",
+        "C": "65",
+        "D": "50"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-009",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Si 30% d'un nombre est 18, quel est ce nombre ?",
+      "options": {
+        "A": "54",
+        "B": "60",
+        "C": "66",
+        "D": "48"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-010",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Si 20% d'un nombre est 15, quel est ce nombre ?",
+      "options": {
+        "A": "65",
+        "B": "75",
+        "C": "85",
+        "D": "60"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-011",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule l'aire d'un triangle de base 10 cm et hauteur 6 cm.",
+      "options": {
+        "A": "25 cm2",
+        "B": "30 cm2",
+        "C": "35 cm2",
+        "D": "60 cm2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-012",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule l'aire d'un triangle de base 8 m et hauteur 5 m.",
+      "options": {
+        "A": "15 m2",
+        "B": "20 m2",
+        "C": "25 m2",
+        "D": "40 m2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-013",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule le perimetre d'un cercle de rayon 7 cm. (pi approxime a 3,14)",
+      "options": {
+        "A": "39,97 cm",
+        "B": "43,96 cm",
+        "C": "47,95 cm",
+        "D": "35,98 cm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-014",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule l'aire d'un cercle de rayon 5 cm. (pi approxime a 3,14)",
+      "options": {
+        "A": "62,8 cm2",
+        "B": "78,5 cm2",
+        "C": "94,2 cm2",
+        "D": "31,4 cm2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-015",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule le volume d'un cube de cote 4 cm.",
+      "options": {
+        "A": "48 cm3",
+        "B": "64 cm3",
+        "C": "80 cm3",
+        "D": "32 cm3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-016",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule le volume d'un cube de cote 3 cm.",
+      "options": {
+        "A": "18 cm3",
+        "B": "27 cm3",
+        "C": "36 cm3",
+        "D": "9 cm3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-017",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule le volume d'un pave droit de 5 x 3 x 4 cm.",
+      "options": {
+        "A": "48 cm3",
+        "B": "60 cm3",
+        "C": "72 cm3",
+        "D": "36 cm3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-018",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule le volume d'un pave droit de 6 x 4 x 2 cm.",
+      "options": {
+        "A": "40 cm3",
+        "B": "48 cm3",
+        "C": "56 cm3",
+        "D": "36 cm3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-019",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Resous : x + 8 = 15. Quelle est la valeur de x ?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-020",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Resous : 3x = 21. Quelle est la valeur de x ?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-021",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Resous : 2x + 4 = 14. Quelle est la valeur de x ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-022",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Resous : 4x - 3 = 13. Quelle est la valeur de x ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-023",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Resous : x divise par 3 = 9. Quelle est la valeur de x ?",
+      "options": {
+        "A": "18",
+        "B": "27",
+        "C": "36",
+        "D": "3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-024",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle est la moyenne de 12, 15, 18 et 11 ?",
+      "options": {
+        "A": "13",
+        "B": "14",
+        "C": "15",
+        "D": "16"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-025",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle est la moyenne de 8, 10, 12, 14 et 16 ?",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-026",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "La moyenne de 4 notes est 13. La somme des 3 premieres est 37. Quelle est la 4e note ?",
+      "options": {
+        "A": "13",
+        "B": "15",
+        "C": "17",
+        "D": "11"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-027",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans un triangle rectangle, les deux cotes de l'angle droit mesurent 3 cm et 4 cm. Quelle est l'hypotenuse ?",
+      "options": {
+        "A": "6 cm",
+        "B": "5 cm",
+        "C": "7 cm",
+        "D": "8 cm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-028",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans un triangle rectangle, les deux cotes de l'angle droit mesurent 6 cm et 8 cm. Quelle est l'hypotenuse ?",
+      "options": {
+        "A": "8 cm",
+        "B": "10 cm",
+        "C": "12 cm",
+        "D": "14 cm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-029",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans un triangle rectangle, les deux cotes de l'angle droit mesurent 5 cm et 12 cm. Quelle est l'hypotenuse ?",
+      "options": {
+        "A": "11 cm",
+        "B": "13 cm",
+        "C": "15 cm",
+        "D": "17 cm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-030",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Combien de degres y a-t-il dans un triangle ?",
+      "options": {
+        "A": "90",
+        "B": "180",
+        "C": "270",
+        "D": "360"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-031",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Combien de degres y a-t-il dans un quadrilatere ?",
+      "options": {
+        "A": "180",
+        "B": "360",
+        "C": "540",
+        "D": "270"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-032",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans un triangle, deux angles mesurent 50 degres et 70 degres. Quel est le troisieme angle ?",
+      "options": {
+        "A": "50 degres",
+        "B": "60 degres",
+        "C": "70 degres",
+        "D": "80 degres"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-033",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans un triangle, deux angles mesurent 45 degres et 90 degres. Quel est le troisieme angle ?",
+      "options": {
+        "A": "35 degres",
+        "B": "45 degres",
+        "C": "55 degres",
+        "D": "90 degres"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-034",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 2/3 divise par 4 = ?",
+      "options": {
+        "A": "8/3",
+        "B": "1/6",
+        "C": "2/12",
+        "D": "4/3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-035",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : (3/4) divise par (3/8) = ?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-036",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Simplifie la fraction 12/18.",
+      "options": {
+        "A": "3/4",
+        "B": "2/3",
+        "C": "4/6",
+        "D": "1/2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-037",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Simplifie la fraction 15/25.",
+      "options": {
+        "A": "1/2",
+        "B": "3/5",
+        "C": "4/5",
+        "D": "2/3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-038",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Simplifie la fraction 8/12.",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "3/4",
+        "D": "4/6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-039",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est 20% de 350 ?",
+      "options": {
+        "A": "60",
+        "B": "70",
+        "C": "80",
+        "D": "50"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-040",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Si on augmente 250 de 20%, quel est le resultat ?",
+      "options": {
+        "A": "270",
+        "B": "300",
+        "C": "320",
+        "D": "280"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-041",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Si on diminue 500 de 30%, quel est le resultat ?",
+      "options": {
+        "A": "300",
+        "B": "350",
+        "C": "400",
+        "D": "280"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-042",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Un article coute 80 euros avec une reduction de 25%. Quel est son prix reduit ?",
+      "options": {
+        "A": "55 euros",
+        "B": "60 euros",
+        "C": "65 euros",
+        "D": "70 euros"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-043",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Un article coute 120 euros avec une reduction de 15%. Quel est son prix reduit ?",
+      "options": {
+        "A": "98 euros",
+        "B": "102 euros",
+        "C": "108 euros",
+        "D": "95 euros"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-044",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule la surface d'un trapeze de bases 6 cm et 4 cm, hauteur 5 cm.",
+      "options": {
+        "A": "20 cm2",
+        "B": "25 cm2",
+        "C": "30 cm2",
+        "D": "15 cm2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-045",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule la surface d'un trapeze de bases 10 cm et 6 cm, hauteur 4 cm.",
+      "options": {
+        "A": "26 cm2",
+        "B": "32 cm2",
+        "C": "38 cm2",
+        "D": "40 cm2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-046",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle est l'aire d'un losange de diagonales 8 cm et 6 cm ?",
+      "options": {
+        "A": "20 cm2",
+        "B": "24 cm2",
+        "C": "28 cm2",
+        "D": "48 cm2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-047",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle est l'aire d'un losange de diagonales 10 cm et 4 cm ?",
+      "options": {
+        "A": "15 cm2",
+        "B": "20 cm2",
+        "C": "25 cm2",
+        "D": "40 cm2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-048",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "On lance un de a 6 faces. Quelle est la probabilite d'obtenir un nombre superieur a 4 ?",
+      "options": {
+        "A": "1/4",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "1/6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-049",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans un sac : 3 billes rouges, 2 bleues, 5 vertes. Quelle est la probabilite de tirer une rouge ?",
+      "options": {
+        "A": "1/5",
+        "B": "3/10",
+        "C": "1/3",
+        "D": "2/5"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-050",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans un sac : 4 rouges, 4 bleues, 2 vertes. Quelle est la probabilite de tirer une bleue ?",
+      "options": {
+        "A": "1/5",
+        "B": "2/5",
+        "C": "3/5",
+        "D": "1/2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-051",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Resous : 5x + 3 = 28. Quelle est la valeur de x ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-052",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Resous : 7 - 2x = 1. Quelle est la valeur de x ?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "1"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-053",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Resous : 3x - 6 = 12. Quelle est la valeur de x ?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-054",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : (12 + 8) x (15 - 7) = ?",
+      "options": {
+        "A": "140",
+        "B": "160",
+        "C": "180",
+        "D": "120"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-055",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 48 divise par (6 x 2) + 4 = ?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-056",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 3 au carre + 4 au carre = ?",
+      "options": {
+        "A": "21",
+        "B": "25",
+        "C": "29",
+        "D": "49"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-057",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 5 au carre - 3 au carre = ?",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "18",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-058",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 2 au cube x 3 = ?",
+      "options": {
+        "A": "18",
+        "B": "24",
+        "C": "30",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-059",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le PGCD de 12 et 18 ?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "12"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-060",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le PGCD de 24 et 36 ?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "18",
+        "D": "24"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-061",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le PPCM de 4 et 6 ?",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "16",
+        "D": "24"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-062",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le PPCM de 3 et 5 ?",
+      "options": {
+        "A": "8",
+        "B": "15",
+        "C": "10",
+        "D": "30"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-063",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle est la decomposition en facteurs premiers de 12 ?",
+      "options": {
+        "A": "2 x 6",
+        "B": "2 au carre x 3",
+        "C": "3 x 4",
+        "D": "2 x 2 x 4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-064",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "12 est-il divisible par 4 ?",
+      "options": {
+        "A": "Non",
+        "B": "Oui",
+        "C": "Parfois",
+        "D": "Impossible a dire"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-065",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "345 est-il divisible par 5 ?",
+      "options": {
+        "A": "Non",
+        "B": "Oui",
+        "C": "Parfois",
+        "D": "Impossible a dire"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-066",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Un nombre est divisible par 9 si la somme de ses chiffres est divisible par 9. Est-ce que 189 est divisible par 9 ?",
+      "options": {
+        "A": "Non",
+        "B": "Oui",
+        "C": "Parfois",
+        "D": "Impossible a dire"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-067",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 1/2 + 1/3 = ?",
+      "options": {
+        "A": "2/5",
+        "B": "5/6",
+        "C": "2/6",
+        "D": "1/6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-068",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 3/4 - 1/3 = ?",
+      "options": {
+        "A": "2/12",
+        "B": "5/12",
+        "C": "7/12",
+        "D": "2/7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-069",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 2/5 + 3/10 = ?",
+      "options": {
+        "A": "5/15",
+        "B": "7/10",
+        "C": "5/10",
+        "D": "1/2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-070",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 5/6 - 1/3 = ?",
+      "options": {
+        "A": "4/6",
+        "B": "1/2",
+        "C": "3/6",
+        "D": "4/3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-071",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 2/3 x 3/4 = ?",
+      "options": {
+        "A": "5/12",
+        "B": "1/2",
+        "C": "6/7",
+        "D": "2/7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-072",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Un train va a 120 km/h. Combien de temps lui faut-il pour parcourir 300 km ?",
+      "options": {
+        "A": "2 h",
+        "B": "2 h 30 min",
+        "C": "3 h",
+        "D": "1 h 30 min"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-073",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Un cycliste roule a 15 km/h pendant 2 h 30 min. Quelle distance parcourt-il ?",
+      "options": {
+        "A": "30 km",
+        "B": "37,5 km",
+        "C": "45 km",
+        "D": "25 km"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-074",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Sur une carte a l'echelle 1/200 000, 3 cm representent combien de km ?",
+      "options": {
+        "A": "5 km",
+        "B": "6 km",
+        "C": "9 km",
+        "D": "3 km"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-075",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Sur une carte a l'echelle 1/50 000, 8 cm representent combien de km ?",
+      "options": {
+        "A": "3 km",
+        "B": "4 km",
+        "C": "5 km",
+        "D": "8 km"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-076",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est l'angle interieur d'un hexagone regulier ?",
+      "options": {
+        "A": "100 degres",
+        "B": "120 degres",
+        "C": "135 degres",
+        "D": "150 degres"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-077",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est l'angle interieur d'un pentagone regulier ?",
+      "options": {
+        "A": "100 degres",
+        "B": "108 degres",
+        "C": "115 degres",
+        "D": "120 degres"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-078",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "La somme des angles interieurs d'un pentagone est ?",
+      "options": {
+        "A": "360 degres",
+        "B": "540 degres",
+        "C": "720 degres",
+        "D": "180 degres"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-079",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "La somme des angles interieurs d'un hexagone est ?",
+      "options": {
+        "A": "540 degres",
+        "B": "720 degres",
+        "C": "900 degres",
+        "D": "360 degres"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-080",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : racine carree de 49 = ?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-081",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : racine carree de 81 = ?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "11",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-082",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : racine carree de 144 = ?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "11"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-083",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : racine carree de 36 + racine carree de 64 = ?",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-084",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Exprime 0,35 en fraction simplifiee.",
+      "options": {
+        "A": "35/10",
+        "B": "7/20",
+        "C": "7/10",
+        "D": "35/100"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-085",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Exprime 0,75 en fraction simplifiee.",
+      "options": {
+        "A": "75/100",
+        "B": "3/4",
+        "C": "7/10",
+        "D": "15/20"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-086",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le resultat de 1,5 x 2,4 ?",
+      "options": {
+        "A": "2,8",
+        "B": "3,6",
+        "C": "4,2",
+        "D": "2,4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-087",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le resultat de 6,4 divise par 0,8 ?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-088",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Combien font 4,5 x 0,2 ?",
+      "options": {
+        "A": "0,8",
+        "B": "0,9",
+        "C": "1,0",
+        "D": "0,45"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-089",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Combien font 12,6 divise par 0,3 ?",
+      "options": {
+        "A": "36",
+        "B": "42",
+        "C": "48",
+        "D": "4,2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-090",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Si 5 ouvriers font un travail en 6 jours, combien faut-il d'ouvriers pour le faire en 3 jours ?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "15"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-091",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Si 4 tuyaux remplissent une piscine en 12 heures, combien de temps faut-il avec 6 tuyaux ?",
+      "options": {
+        "A": "6 h",
+        "B": "8 h",
+        "C": "10 h",
+        "D": "4 h"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-092",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle est la mediane de : 3, 7, 9, 11, 15 ?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "11",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-093",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle est la mediane de : 2, 5, 8, 10 ?",
+      "options": {
+        "A": "5",
+        "B": "6,5",
+        "C": "8",
+        "D": "7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-094",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule l'aire d'un parallelogramme de base 9 cm et hauteur 4 cm.",
+      "options": {
+        "A": "26 cm2",
+        "B": "36 cm2",
+        "C": "45 cm2",
+        "D": "13 cm2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-095",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule la surface laterale d'un cylindre de rayon 3 cm et hauteur 10 cm. (pi approxime a 3,14)",
+      "options": {
+        "A": "157 cm2",
+        "B": "188,4 cm2",
+        "C": "219,8 cm2",
+        "D": "94,2 cm2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-096",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le volume d'un cylindre de rayon 4 cm et hauteur 5 cm ? (pi approxime a 3,14)",
+      "options": {
+        "A": "200,96 cm3",
+        "B": "251,2 cm3",
+        "C": "301,44 cm3",
+        "D": "125,6 cm3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-097",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Resous le systeme : x + y = 10 et x - y = 4. Quelle est la valeur de x ?",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-098",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Resous le systeme : 2x + y = 11 et x + y = 7. Quelle est la valeur de x ?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-099",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 4/5 x 5/8 = ?",
+      "options": {
+        "A": "9/40",
+        "B": "1/2",
+        "C": "20/40",
+        "D": "9/13"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-100",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "La probabilite de tirer un as dans un jeu de 52 cartes est ?",
+      "options": {
+        "A": "4/52",
+        "B": "1/13",
+        "C": "1/52",
+        "D": "2/13"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "math-fr-hard-101",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 9 au carre - 5 au carre = ?",
+      "options": {
+        "A": "46",
+        "B": "56",
+        "C": "66",
+        "D": "16"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-102",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Resous : 6x = 54. Quelle est la valeur de x ?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "8",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-103",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Convertis 3,6 km en centimetres.",
+      "options": {
+        "A": "3 600 cm",
+        "B": "360 000 cm",
+        "C": "36 000 cm",
+        "D": "3 600 000 cm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-104",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Convertis 2 580 000 mm en km.",
+      "options": {
+        "A": "258 km",
+        "B": "2,58 km",
+        "C": "25,8 km",
+        "D": "0,258 km"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-105",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Un rectangle a un perimetre de 36 cm et une largeur de 7 cm. Quelle est sa longueur ?",
+      "options": {
+        "A": "9 cm",
+        "B": "11 cm",
+        "C": "13 cm",
+        "D": "29 cm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-106",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Un carre a une aire de 121 cm2. Quel est le perimetre de ce carre ?",
+      "options": {
+        "A": "40 cm",
+        "B": "44 cm",
+        "C": "48 cm",
+        "D": "36 cm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-107",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est 12,5% de 400 ?",
+      "options": {
+        "A": "40",
+        "B": "50",
+        "C": "60",
+        "D": "45"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-108",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est 60% de 90 ?",
+      "options": {
+        "A": "48",
+        "B": "54",
+        "C": "60",
+        "D": "36"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-109",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 7/8 + 1/4 = ?",
+      "options": {
+        "A": "8/12",
+        "B": "9/8",
+        "C": "10/8",
+        "D": "2/3"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "math-fr-hard-110",
+      "category": "math",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Calcule : 5/6 x 3/5 = ?",
+      "options": {
+        "A": "15/30",
+        "B": "1/2",
+        "C": "8/11",
+        "D": "3/6"
+      },
+      "answer": "B"
     }
   ]
 }
