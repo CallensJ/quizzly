@@ -1,12 +1,13 @@
 # Erudia — Application éducative
 
 > Plateforme de quiz éducatifs et ludiques pour les **enfants de 6 à 11 ans**.  
-> Bilingue FR / EN · Abonnement Stripe · Tests unitaires + E2E · CI/CD.
+> Bilingue FR / EN · **21 558 questions** · Abonnement Stripe · Tests unitaires + E2E · CI/CD.
 
 [![Live](https://img.shields.io/badge/Live-app.erudia.app-4FC08D?style=flat&logo=vercel&logoColor=white)](https://app.erudia.app)
 [![Landing](https://img.shields.io/badge/Landing-erudia.app-B9765C?style=flat&logo=vercel&logoColor=white)](https://erudia.app/fr)
 ![TypeScript](https://img.shields.io/badge/TypeScript-62.9%25-3178C6?style=flat&logo=typescript&logoColor=white)
 ![SCSS](https://img.shields.io/badge/SCSS-23.8%25-CC6699?style=flat&logo=sass&logoColor=white)
+![Questions](https://img.shields.io/badge/Questions-21%20558-F59E0B?style=flat)
 ![Commits](https://img.shields.io/github/commit-activity/t/CallensJ/quizzly?label=commits&color=88CE02)
 ![CI](https://img.shields.io/github/actions/workflow/status/CallensJ/quizzly/ci.yml?label=CI&logo=githubactions&logoColor=white)
 
@@ -44,7 +45,7 @@ quizzly/
 │   │   └── ui/             # Composants atomiques
 │   ├── stores/             # profileStore · quizStore · authStore (Zustand)
 │   ├── lib/                # questions, badges, daily, challenges, sync, report
-│   ├── data/questions/     # JSON fallback FR/EN par catégorie
+│   ├── data/questions/     # 21 558 questions JSON — FR/EN par catégorie
 │   ├── messages/           # Traductions fr.json + en.json
 │   ├── styles/             # SCSS 7-1
 │   └── types/              # Types TypeScript partagés
@@ -69,19 +70,30 @@ quizzly/
 
 ---
 
-## 📚 Contenu disponible
+## 📚 Contenu — 21 558 questions FR + EN
 
-| Catégorie | Tier | Questions |
-|-----------|------|-----------|
-| Sciences | Gratuit | 300 FR + 300 EN |
-| Histoire | Gratuit | 500 FR + 500 EN |
-| Héros & Aventures | Gratuit | 75 FR + 75 EN |
-| Géographie | Premium | À venir |
-| Espace & Astronomie | Premium | À venir |
-| Mythologie | Premium | À venir |
-| Mathématiques | Premium | À venir |
-| Éducation Civique | Premium | À venir |
-| Cuisine | Premium | À venir |
+| Catégorie | FR | EN |
+|-----------|-----|-----|
+| Sciences | 376 | 900 |
+| Histoire | 600 | 705 |
+| Héros & Aventures | 600 | 600 |
+| Animaux & Nature | 600 | 600 |
+| Mathématiques | 900 | 900 |
+| Français / Langue | 750 | 600 |
+| Sport | 800 | 800 |
+| Géographie | 900 | 600 |
+| Anglais | 600 | 600 |
+| Art | 584 | 554 |
+| Corps humain | 600 | 600 |
+| Cuisine | 600 | 600 |
+| Dinosaures | 666 | 561 |
+| Éducation civique | 600 | 600 |
+| Environnement | 600 | — |
+| Espace & Astronomie | 694 | — |
+| Monde antique | 500 | 500 |
+| Musique | 388 | — |
+| Technologie | 480 | — |
+| **Total** | **~10 838** | **~10 720** |
 
 ---
 
