@@ -1,80 +1,75 @@
-# Erudia — App
+# Erudia — Application éducative
 
-Application de quiz éducatif et ludique pour les **6–11 ans**.
+> Plateforme de quiz éducatifs et ludiques pour les **enfants de 6 à 11 ans**.  
+> Bilingue FR / EN · Abonnement Stripe · Tests unitaires + E2E · CI/CD.
 
-Développé par [Johanwebstudio](https://johanwebstudio.com).
+[![Live](https://img.shields.io/badge/Live-app.erudia.app-4FC08D?style=flat&logo=vercel&logoColor=white)](https://app.erudia.app)
+[![Landing](https://img.shields.io/badge/Landing-erudia.app-B9765C?style=flat&logo=vercel&logoColor=white)](https://erudia.app/fr)
+![TypeScript](https://img.shields.io/badge/TypeScript-62.9%25-3178C6?style=flat&logo=typescript&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-23.8%25-CC6699?style=flat&logo=sass&logoColor=white)
+![Commits](https://img.shields.io/github/commit-activity/t/CallensJ/quizzly?label=commits&color=88CE02)
+![CI](https://img.shields.io/github/actions/workflow/status/CallensJ/quizzly/ci.yml?label=CI&logo=githubactions&logoColor=white)
 
 ---
 
-## Stack
+## 🚀 Stack
 
-| | |
-|---|---|
-| Framework | Next.js 16 (App Router) |
+| Catégorie | Technologie |
+|-----------|------------|
+| Framework | Next.js 15 (App Router) |
 | Langage | TypeScript strict |
-| Styles | SCSS (architecture 7-1, Dart Sass) |
-| State | Zustand + persist (localStorage) |
+| Styling | SCSS (architecture 7-1, Dart Sass) |
+| State | Zustand + persist |
 | i18n | next-intl (FR / EN) |
 | Backend | Supabase (PostgreSQL + Auth + Edge Functions) |
+| Paiement | Stripe (abonnements récurrents) |
 | Animations | Framer Motion |
-| Sons | Howler.js |
+| Audio | Howler.js |
 | Avatars | DiceBear |
 | PDF | @react-pdf/renderer |
+| Scripts | Python (génération de contenu) |
 | Déploiement | Vercel |
 
 ---
 
-## Lancer en local
-
-```bash
-npm install
-npm run dev
-```
-
-Copier `.env.local.example` → `.env.local` et renseigner les variables Supabase.
-
----
-
-## Variables d'environnement
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
-```
-
----
-
-## Structure
+## 📁 Architecture
 
 ```
-src/
-├── app/[locale]/       # Pages (App Router + next-intl)
-├── components/
-│   ├── features/       # Composants métier par écran
-│   ├── layout/         # AppLayout (sidebar desktop)
-│   └── ui/             # Composants atomiques (Nova...)
-├── stores/             # profileStore, quizStore, authStore
-├── lib/                # questions, badges, daily, challenges, sync, report...
-├── data/questions/     # JSON fallback fr/en par catégorie
-├── messages/           # Traductions fr.json + en.json
-├── styles/             # SCSS 7-1
-└── types/              # Types TypeScript partagés
+quizzly/
+├── src/
+│   ├── app/[locale]/       # Pages (App Router + next-intl)
+│   ├── components/
+│   │   ├── features/       # Composants métier par écran
+│   │   ├── layout/         # AppLayout (sidebar desktop)
+│   │   └── ui/             # Composants atomiques
+│   ├── stores/             # profileStore · quizStore · authStore (Zustand)
+│   ├── lib/                # questions, badges, daily, challenges, sync, report
+│   ├── data/questions/     # JSON fallback FR/EN par catégorie
+│   ├── messages/           # Traductions fr.json + en.json
+│   ├── styles/             # SCSS 7-1
+│   └── types/              # Types TypeScript partagés
+├── supabase/               # Edge Functions + migrations
+├── scripts/                # Scripts Python — génération de questions
+├── cypress/                # Tests E2E
+└── .github/                # CI/CD GitHub Actions
 ```
 
 ---
 
-## Tests
+## ✨ Features
 
-```bash
-npm run test          # Jest (tests unitaires)
-npm run cypress:open  # Cypress (tests E2E)
-```
-
-CI automatique via GitHub Actions sur chaque push/PR.
+- **Quiz adaptatifs** par niveau, catégorie et langue
+- **Authentification complète** — Supabase Auth (inscription, connexion, gestion de compte)
+- **Abonnements Stripe** — plans mensuel et annuel, gestion des accès premium
+- **Espace enfant** — avatar DiceBear, progression, badges, défis quotidiens
+- **Rapports PDF** — export de progression via @react-pdf/renderer
+- **Effets sonores** — feedback audio Howler.js
+- **Bilingue FR / EN** — next-intl, switch de langue en temps réel
+- **CI/CD** — GitHub Actions sur chaque push/PR
 
 ---
 
-## Catégories
+## 📚 Contenu disponible
 
 | Catégorie | Tier | Questions |
 |-----------|------|-----------|
@@ -90,8 +85,51 @@ CI automatique via GitHub Actions sur chaque push/PR.
 
 ---
 
-## Liens
+## 🧪 Tests
 
-- App : [app.erudia.app](https://app.erudia.app)
-- Landing : [erudia.app](https://erudia.app)
-- Documentation : `documentations/`
+```bash
+npm run test           # Jest — tests unitaires
+npm run cypress:open   # Cypress — tests E2E
+```
+
+CI automatique via GitHub Actions sur chaque push/PR.
+
+---
+
+## ⚙️ Installation locale
+
+```bash
+git clone https://github.com/CallensJ/quizzly.git
+cd quizzly
+npm install
+cp .env.local.example .env.local
+npm run dev
+```
+
+Variables requises :
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+STRIPE_SECRET_KEY=
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+```
+
+---
+
+## 🔗 Projet lié
+
+| Repo | Description |
+|------|-------------|
+| [Erudia-landing](https://github.com/CallensJ/Erudia-landing) | Landing page Vue.js 3 · Resend · i18n FR/EN |
+
+---
+
+## 🌐 Live
+
+- Application : [app.erudia.app](https://app.erudia.app/fr/home)
+- Landing : [erudia.app](https://erudia.app/fr)
+
+---
+
+> Développé par [Johan Callens](https://github.com/CallensJ) · [JohanWebStudio](https://johanwebstudio.fr)
