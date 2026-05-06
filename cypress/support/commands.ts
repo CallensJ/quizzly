@@ -53,37 +53,70 @@ Cypress.Commands.add('setupProfile', () => {
 /**
  * cy.setupQuestionsCache()
  *
- * Pré-remplit le cache localStorage des questions (clé `erudia-q-{cat}-fr`)
+ * Pré-remplit le cache IndexedDB des questions (base `erudia-db`, table `questionCache`)
  * avec des données mock pour toutes les catégories et difficultés.
  *
  * Nécessaire depuis que fetchQuestions() interroge Supabase : en CI il n'y a
  * pas d'appel réseau réel, le cache évite l'erreur "fetchError" qui bloque
  * la navigation vers /quiz.
  *
+ * IMPORTANT : l'app utilise Dexie/IndexedDB (src/lib/db.ts) — l'ancienne approche
+ * localStorage était inopérante car fetchQuestions() ne lit pas localStorage.
+ *
  * Doit être appelé après cy.setupProfile() (même visit → même origin).
  */
 Cypress.Commands.add('setupQuestionsCache', () => {
   cy.window().then((win) => {
-    // Génère N questions mock pour une catégorie + difficulté
-    const makeQuestions = (category: string, difficulty: string, count: number) =>
-      Array.from({ length: count }, (_, i) => ({
-        id: `${category}-${difficulty}-${i + 1}`,
-        difficulty,
-        question: `Question test ${i + 1} (${category} — ${difficulty}) ?`,
-        options: { A: 'Réponse A', B: 'Réponse B', C: 'Réponse C', D: 'Réponse D' },
-        answer: 'A',
-      }));
+    return new Cypress.Promise<void>((resolve, reject) => {
+      // Génère N questions mock pour une catégorie + difficulté
+      const makeQuestions = (category: string, difficulty: string, count: number) =>
+        Array.from({ length: count }, (_, i) => ({
+          id: `${category}-${difficulty}-${i + 1}`,
+          difficulty,
+          question: `Question test ${i + 1} (${category} — ${difficulty}) ?`,
+          options: { A: 'Réponse A', B: 'Réponse B', C: 'Réponse C', D: 'Réponse D' },
+          answer: 'A',
+        }));
 
-    // 25 questions par difficulté → couvre un quiz de 20 questions avec marge
-    const categories = ['sciences', 'histoire', 'heroes'];
-    const difficulties = ['easy', 'medium', 'hard'];
+      const categories = ['sciences', 'histoire', 'heroes'];
+      const difficulties = ['easy', 'medium', 'hard'];
 
-    categories.forEach((category) => {
-      const questions = difficulties.flatMap((diff) => makeQuestions(category, diff, 25));
-      win.localStorage.setItem(
-        `erudia-q-${category}-fr`,
-        JSON.stringify({ questions, cachedAt: Date.now() })
-      );
+      // Ouvre (ou crée) la base Dexie — version 1, même schéma que src/lib/db.ts
+      const dbRequest = win.indexedDB.open('erudia-db', 1);
+
+      dbRequest.onupgradeneeded = (event) => {
+        const db = (event.target as IDBOpenDBRequest).result;
+        if (!db.objectStoreNames.contains('questionCache')) {
+          db.createObjectStore('questionCache', { keyPath: 'key' });
+        }
+        if (!db.objectStoreNames.contains('pendingSyncs')) {
+          db.createObjectStore('pendingSyncs', { autoIncrement: true });
+        }
+      };
+
+      dbRequest.onerror = () => reject(dbRequest.error);
+
+      dbRequest.onsuccess = (event) => {
+        const db = (event.target as IDBOpenDBRequest).result;
+        const tx = db.transaction('questionCache', 'readwrite');
+        const store = tx.objectStore('questionCache');
+
+        // 25 questions par difficulté → couvre un quiz de 20 questions avec marge
+        categories.forEach((category) => {
+          const questions = difficulties.flatMap((diff) => makeQuestions(category, diff, 25));
+          store.put({
+            key: `erudia-q-${category}-fr`,
+            questions,
+            cachedAt: Date.now(),
+          });
+        });
+
+        tx.oncomplete = () => {
+          db.close();
+          resolve();
+        };
+        tx.onerror = () => reject(tx.error);
+      };
     });
   });
 });
