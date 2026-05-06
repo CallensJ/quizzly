@@ -334,7 +334,7 @@ export default function ResultsScreen() {
                 className="results__badges-link results__badges-link--secondary"
                 onClick={() => { resetAll(); router.push('/home'); }}
               >
-                {t('backHome')}
+                {t('ctaHome')}
               </button>
             </div>
           </div>

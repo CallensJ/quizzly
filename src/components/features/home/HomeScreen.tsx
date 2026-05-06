@@ -222,10 +222,10 @@ export default function HomeScreen() {
       router.push('/quiz');
     } catch (err) {
       // RLS Supabase → 0 questions retournées pour une catégorie premium sans abonnement.
-      // Ne rediriger vers /subscribe que si l'utilisateur N'est PAS premium —
-      // un premium qui obtient 0 résultats a un problème de données (questions non migrées),
-      // pas d'abonnement manquant.
-      if ((err as Error & { code?: string }).code === 'PREMIUM_REQUIRED' && !isPremium) {
+      // Ne rediriger vers /subscribe que pour les catégories premium — les catégories
+      // gratuites (sciences, histoire, heroes) ne peuvent pas déclencher ce flux.
+      const isFreeCategory = CATEGORIES.some((c) => c.id === category);
+      if ((err as Error & { code?: string }).code === 'PREMIUM_REQUIRED' && !isPremium && !isFreeCategory) {
         router.push('/subscribe');
         return;
       }

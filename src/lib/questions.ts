@@ -50,9 +50,11 @@ async function loadLocalJSON(
   const loader = LOCAL_JSON_MAP[`${locale}/${category}`];
   if (!loader) return null;
   // Les modules JSON webpack exposent la valeur sous `.default`
-  const mod = await loader() as { default?: { questions?: Question[] }; questions?: Question[] };
-  const data = (mod.default ?? mod) as { questions?: Question[] };
-  return data.questions ?? null;
+  const mod = await loader() as { default?: unknown; questions?: Question[] } | Question[];
+  const data = ((mod as { default?: unknown }).default ?? mod) as { questions?: Question[] } | Question[];
+  // Deux formats possibles : tableau brut ou objet { questions: [...] }
+  if (Array.isArray(data)) return data as Question[];
+  return (data as { questions?: Question[] }).questions ?? null;
 }
 
 // ─── Clé de cache ─────────────────────────────────────────────────────────────
