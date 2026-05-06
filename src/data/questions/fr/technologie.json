@@ -5470,7 +5470,7 @@
       "difficulty": "medium",
       "question": "Pourquoi est‑il important de protéger un mot de passe avec des lettres, chiffres et symboles ?",
       "options": {
-        "A": "Pour le rendre plus difficile à deviner et mieux protéger le compte",
+        "A": "Pour le rendre plus difficile à deviner ",
         "B": "Pour le rendre plus joli",
         "C": "Pour le rendre plus court",
         "D": "Pour le partager facilement"
@@ -5485,7 +5485,7 @@
       "difficulty": "medium",
       "question": "Que signifie 'partage de fichiers' et quel risque faut‑il éviter ?",
       "options": {
-        "A": "Envoyer des fichiers à d'autres ; éviter de partager des informations personnelles",
+        "A": "Envoyer des fichiers à d'autres",
         "B": "Effacer des fichiers",
         "C": "Imprimer des fichiers",
         "D": "Changer la couleur des fichiers"
@@ -5515,7 +5515,7 @@
       "difficulty": "medium",
       "question": "Que signifie 'authentification' et pourquoi est‑elle importante ?",
       "options": {
-        "A": "Vérifier l'identité d'un utilisateur pour protéger l'accès aux comptes",
+        "A": "Vérifier l'identité d'un utilisateur",
         "B": "Effacer un compte",
         "C": "Imprimer un document",
         "D": "Changer la couleur d'un profil"
@@ -5590,7 +5590,7 @@
       "difficulty": "medium",
       "question": "Pourquoi est‑il utile d'avoir des règles pour l'utilisation des tablettes en classe ?",
       "options": {
-        "A": "Pour garantir la sécurité, le respect et un usage pédagogique adapté",
+        "A": "Pour garantir la sécurité",
         "B": "Pour les rendre inutilisables",
         "C": "Pour augmenter la pollution",
         "D": "Pour changer la couleur"
