@@ -1,1 +1,6012 @@
-[]
+{
+  "category": "music",
+  "lang": "en",
+  "questions": [
+    {
+      "id": "music-en-0001",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument do you play with your mouth to blow air into it?",
+      "options": {
+        "A": "The guitar",
+        "B": "The drum",
+        "C": "The flute",
+        "D": "The piano"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0002",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word for a 'violin' is very similar to English. It is a ___.",
+      "options": {
+        "A": "violon",
+        "B": "trompette",
+        "C": "piano",
+        "D": "tambour"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0003",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How many lines are there on a musical staff (portée) where notes are written?",
+      "options": {
+        "A": "Three",
+        "B": "Four",
+        "C": "Six",
+        "D": "Five"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0004",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments belongs to the percussion family?",
+      "options": {
+        "A": "The harp",
+        "B": "The drums",
+        "C": "The saxophone",
+        "D": "The cello"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0005",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Wolfgang Amadeus Mozart was a famous composer. In which country was he born?",
+      "options": {
+        "A": "France",
+        "B": "Austria",
+        "C": "Spain",
+        "D": "Italy"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0006",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name of the person who leads an orchestra with a baton?",
+      "options": {
+        "A": "The singer",
+        "B": "The dancer",
+        "C": "The conductor",
+        "D": "The teacher"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0007",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'un morceau de musique' refers to...",
+      "options": {
+        "A": "A piece of music",
+        "B": "A broken instrument",
+        "C": "A music teacher",
+        "D": "A loud noise"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0008",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which instrument is known for having exactly 88 keys?",
+      "options": {
+        "A": "The flute",
+        "B": "The guitar",
+        "C": "The violin",
+        "D": "The piano"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0009",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which famous composer continued to write music even after he became deaf?",
+      "options": {
+        "A": "Ludwig van Beethoven",
+        "B": "Johann Sebastian Bach",
+        "C": "Claude Debussy",
+        "D": "Antonio Vivaldi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0010",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In an opera, what is the highest singing voice for a woman called?",
+      "options": {
+        "A": "Tenor",
+        "B": "Soprano",
+        "C": "Baritone",
+        "D": "Bass"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0011",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Antonio Vivaldi is best known for a series of violin concertos called...",
+      "options": {
+        "A": "The Five Oceans",
+        "B": "The Nine Planets",
+        "C": "The Four Seasons",
+        "D": "The Seven Wonders"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0012",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the main difference between a harpsichord (clavecin) and a piano?",
+      "options": {
+        "A": "The harpsichord is electric",
+        "B": "The harpsichord has no strings",
+        "C": "The harpsichord is only used for rock music",
+        "D": "The harpsichord plucks the strings, the piano hits them"
+      },
+      "answer": "D"
+    },
+
+    {
+      "id": "music-en-0013",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a famous French lullaby (berceuse) often sung to children?",
+      "options": {
+        "A": "Rock-a-bye Baby",
+        "B": "Au clair de la lune",
+        "C": "Happy Birthday",
+        "D": "Jingle Bells"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0014",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for a 'song'?",
+      "options": {
+        "A": "Une chanson",
+        "B": "Un livre",
+        "C": "Une guitare",
+        "D": "Un cri"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0015",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument do you hit with sticks (baguettes)?",
+      "options": {
+        "A": "The flute",
+        "B": "The piano",
+        "C": "The drum",
+        "D": "The violin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0016",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How do you say 'high-pitched' in French music terms?",
+      "options": {
+        "A": "Grave",
+        "B": "Fort",
+        "C": "Doux",
+        "D": "Aigu"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0017",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The 'Ode to Joy' is the anthem of the European Union. Who composed it?",
+      "options": {
+        "A": "Johann Sebastian Bach",
+        "B": "Wolfgang Amadeus Mozart",
+        "C": "Ludwig van Beethoven",
+        "D": "Frédéric Chopin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0018",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which large string instrument is played while sitting down and held between the knees?",
+      "options": {
+        "A": "The violin",
+        "B": "The cello",
+        "C": "The trumpet",
+        "D": "The flute"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0019",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "In music, what does the Italian term 'forte' mean?",
+      "options": {
+        "A": "To play loudly",
+        "B": "To play slowly",
+        "C": "To play softly",
+        "D": "To stop playing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0020",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a traditional French instrument often associated with folk music and Paris?",
+      "options": {
+        "A": "The sitar",
+        "B": "The didgeridoo",
+        "C": "The banjo",
+        "D": "The accordion"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0021",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which musical period (between 1600 and 1750) is known for composers like Bach and Vivaldi?",
+      "options": {
+        "A": "Romantic",
+        "B": "Classical",
+        "C": "Baroque",
+        "D": "Modern"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0022",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the name of the woodwind instrument that is usually black and has a single reed?",
+      "options": {
+        "A": "The clarinet",
+        "B": "The flute",
+        "C": "The trumpet",
+        "D": "The violin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0023",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In an orchestra, which family of instruments has the largest number of players?",
+      "options": {
+        "A": "The brass",
+        "B": "The woodwinds",
+        "C": "The percussion",
+        "D": "The strings"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0024",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The French composer Claude Debussy is famous for a style of music called...",
+      "options": {
+        "A": "Jazz",
+        "B": "Impressionism",
+        "C": "Heavy Metal",
+        "D": "Country"
+      },
+      "answer": "B"
+    },
+
+    {
+      "id": "music-en-0025",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you use to play a melody by blowing into it and covering holes with your fingers?",
+      "options": {
+        "A": "The recorder",
+        "B": "The guitar",
+        "C": "The piano",
+        "D": "The drums"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0026",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "In the famous song 'Frère Jacques', what is Jacques doing at the beginning?",
+      "options": {
+        "A": "Eating",
+        "B": "Sleeping",
+        "C": "Dancing",
+        "D": "Running"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0027",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French name for the 'treble clef' used at the start of a musical staff?",
+      "options": {
+        "A": "La clé de fa",
+        "B": "La clé d'ut",
+        "C": "La clé de sol",
+        "D": "La clé de la"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0028",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How many notes are there in a standard musical scale (do, ré, mi...)?",
+      "options": {
+        "A": "Five",
+        "B": "Ten",
+        "C": "Three",
+        "D": "Seven"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0029",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous woodwind instrument often made of silver or gold?",
+      "options": {
+        "A": "The flute",
+        "B": "The trumpet",
+        "C": "The violin",
+        "D": "The harp"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0030",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the French word for a 'conductor' who leads the orchestra?",
+      "options": {
+        "A": "Un chanteur",
+        "B": "Un chef d'orchestre",
+        "C": "Un musicien",
+        "D": "Un professeur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0031",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The piano is a unique instrument. Why is it sometimes called a percussion instrument?",
+      "options": {
+        "A": "Because you blow into it",
+        "B": "Because you pluck the strings",
+        "C": "Because small hammers strike the strings",
+        "D": "Because it has no strings"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0032",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which musical genre was born in New Orleans and uses a lot of improvisation?",
+      "options": {
+        "A": "Classical",
+        "B": "Opera",
+        "C": "Rock",
+        "D": "Jazz"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0033",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which French composer wrote the famous piece 'Boléro'?",
+      "options": {
+        "A": "Maurice Ravel",
+        "B": "Claude Debussy",
+        "C": "Erik Satie",
+        "D": "Camille Saint-Saëns"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0034",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In music theory, what is a 'noire' called in English?",
+      "options": {
+        "A": "A half note",
+        "B": "A quarter note",
+        "C": "A whole note",
+        "D": "An eighth note"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0035",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the name of the electronic instrument that you play without touching it?",
+      "options": {
+        "A": "The synthesizer",
+        "B": "The electric guitar",
+        "C": "The theremin",
+        "D": "The drum machine"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0036",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The 'Baroque' period in music history is situated between which years?",
+      "options": {
+        "A": "1400 - 1500",
+        "B": "1900 - 2000",
+        "C": "1750 - 1850",
+        "D": "1600 - 1750"
+      },
+      "answer": "D"
+    },
+
+    {
+      "id": "music-en-0037",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a very small, silver woodwind instrument with a very high pitch?",
+      "options": {
+        "A": "The piccolo",
+        "B": "The tuba",
+        "C": "The double bass",
+        "D": "The guitar"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0038",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "In France, what is the name of the popular song often used to teach the alphabet rhythm?",
+      "options": {
+        "A": "Frère Jacques",
+        "B": "Ah ! vous dirai-je, maman",
+        "C": "Sur le pont d'Avignon",
+        "D": "Alouette"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0039",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word for a 'keyboard' (like on a piano) is ___.",
+      "options": {
+        "A": "un clavier",
+        "B": "un bouton",
+        "C": "une corde",
+        "D": "un sifflet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0040",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What does a musician use to keep the rhythm steady, often ticking back and forth?",
+      "options": {
+        "A": "A hammer",
+        "B": "A ruler",
+        "C": "A thermometer",
+        "D": "A metronome"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0041",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these famous composers was a child prodigy who started writing music at age 5?",
+      "options": {
+        "A": "Wolfgang Amadeus Mozart",
+        "B": "Ludwig van Beethoven",
+        "C": "Richard Wagner",
+        "D": "Johannes Brahms"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0042",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'un orchestre symphonique' usually has about how many musicians?",
+      "options": {
+        "A": "Between 2 and 5",
+        "B": "Exactly 12",
+        "C": "Between 50 and 100",
+        "D": "Exactly 500"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0043",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which instrument is known as the 'King of Instruments' because of its massive size and pipes?",
+      "options": {
+        "A": "The trumpet",
+        "B": "The violin",
+        "C": "The organ",
+        "D": "The harmonica"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0044",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "In a choir, what is the French term for 'singing together' in a group?",
+      "options": {
+        "A": "Le sport",
+        "B": "La chorale",
+        "C": "Le dessin",
+        "D": "La lecture"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0045",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which musical term describes a very slow tempo, from the Italian word for 'broad'?",
+      "options": {
+        "A": "Largo",
+        "B": "Allegro",
+        "C": "Presto",
+        "D": "Vivace"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0046",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Who composed the famous 'The Four Seasons' (Les Quatre Saisons)?",
+      "options": {
+        "A": "Johann Sebastian Bach",
+        "B": "Antonio Vivaldi",
+        "C": "Joseph Haydn",
+        "D": "Franz Schubert"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0047",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the name of the thin piece of wood used by some woodwind players to produce sound?",
+      "options": {
+        "A": "A stick",
+        "B": "A string",
+        "C": "A reed",
+        "D": "A pick"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0048",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In music history, which period comes directly after the Baroque period?",
+      "options": {
+        "A": "The Renaissance",
+        "B": "The Middle Ages",
+        "C": "The Romantic period",
+        "D": "The Classical period"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0049",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments has black and white keys?",
+      "options": {
+        "A": "The piano",
+        "B": "The guitar",
+        "C": "The drum",
+        "D": "The trumpet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0050",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What do you call a person who writes music?",
+      "options": {
+        "A": "A pilot",
+        "B": "A composer",
+        "C": "A chef",
+        "D": "A doctor"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0051",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word for 'the guitar' is ___.",
+      "options": {
+        "A": "le piano",
+        "B": "le violon",
+        "C": "la guitare",
+        "D": "la flûte"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0052",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a very loud percussion instrument that you hit together?",
+      "options": {
+        "A": "A triangle",
+        "B": "A recorder",
+        "C": "A harp",
+        "D": "Cymbals"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0053",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is the largest in the string family?",
+      "options": {
+        "A": "The double bass",
+        "B": "The violin",
+        "C": "The viola",
+        "D": "The cello"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0054",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The famous piece 'The Swan' (Le Cygne) is part of which musical suite by Saint-Saëns?",
+      "options": {
+        "A": "Star Wars",
+        "B": "The Carnival of the Animals",
+        "C": "The Magic Flute",
+        "D": "The Four Seasons"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0055",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What does the French term 'un soliste' mean in an orchestra?",
+      "options": {
+        "A": "Someone who cleans the floor",
+        "B": "Someone who sells tickets",
+        "C": "A musician who plays alone with the orchestra",
+        "D": "A person who turns the pages"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0056",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these brass instruments uses a slide to change the notes?",
+      "options": {
+        "A": "The trumpet",
+        "B": "The tuba",
+        "C": "The French horn",
+        "D": "The trombone"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0057",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Johann Sebastian Bach is often associated with which keyboard instrument used in churches?",
+      "options": {
+        "A": "The organ",
+        "B": "The synthesizer",
+        "C": "The accordion",
+        "D": "The celesta"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0058",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the French name for a 'whole note' (which lasts 4 beats)?",
+      "options": {
+        "A": "Une noire",
+        "B": "Une ronde",
+        "C": "Une blanche",
+        "D": "Une croche"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0059",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In jazz music, which of these techniques involves creating music on the spot?",
+      "options": {
+        "A": "Notation",
+        "B": "Recording",
+        "C": "Improvisation",
+        "D": "Translation"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0060",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The 'Ode to Joy' (L'Hymne à la Joie) is found in which Beethoven symphony?",
+      "options": {
+        "A": "The 1st Symphony",
+        "B": "The 3rd Symphony",
+        "C": "The 5th Symphony",
+        "D": "The 9th Symphony"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0061",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is used to listen to music through your ears without disturbing others?",
+      "options": {
+        "A": "Headphones",
+        "B": "A microphone",
+        "C": "A guitar",
+        "D": "A piano"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0062",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "In the French song 'Alouette', which part of the bird is mentioned first?",
+      "options": {
+        "A": "The tail",
+        "B": "The head (la tête)",
+        "C": "The wings",
+        "D": "The legs"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0063",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word for 'the drums' is plural. It is ___.",
+      "options": {
+        "A": "le piano",
+        "B": "la flûte",
+        "C": "la batterie",
+        "D": "le violon"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0064",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument looks like a large triangle with many strings that you pluck?",
+      "options": {
+        "A": "A drum",
+        "B": "A flute",
+        "C": "A trumpet",
+        "D": "A harp"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0065",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous opera by Mozart about a magical instrument?",
+      "options": {
+        "A": "The Magic Flute",
+        "B": "The Magic Guitar",
+        "C": "The Magic Piano",
+        "D": "The Magic Drum"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0066",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the French name for the 'bass clef' used for lower notes?",
+      "options": {
+        "A": "La clé de sol",
+        "B": "La clé de fa",
+        "C": "La clé de la",
+        "D": "La clé de mi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0067",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which family of instruments does the saxophone belong to?",
+      "options": {
+        "A": "Strings",
+        "B": "Percussion",
+        "C": "Woodwinds",
+        "D": "Brass"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0068",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'une partition' refers to...",
+      "options": {
+        "A": "A music stand",
+        "B": "A musical instrument",
+        "C": "A music teacher",
+        "D": "Sheet music"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0069",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these composers is famous for his piano music and was born in Poland?",
+      "options": {
+        "A": "Frédéric Chopin",
+        "B": "Claude Debussy",
+        "C": "Franz Liszt",
+        "D": "Jean-Philippe Rameau"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0070",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the name of the Italian singing style that means 'beautiful singing'?",
+      "options": {
+        "A": "Aria",
+        "B": "Bel Canto",
+        "C": "Libretto",
+        "D": "Forte"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0071",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In music theory, what does a 'flat' (bémol) do to a note?",
+      "options": {
+        "A": "It makes it louder",
+        "B": "It makes it faster",
+        "C": "It lowers the pitch by a half-step",
+        "D": "It makes it stop"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0072",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these instruments was invented by Bartolomeo Cristofori around 1700?",
+      "options": {
+        "A": "The guitar",
+        "B": "The flute",
+        "C": "The violin",
+        "D": "The piano"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0073",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument is very small and you play it by blowing through it while moving it sideways?",
+      "options": {
+        "A": "The harmonica",
+        "B": "The tuba",
+        "C": "The drum",
+        "D": "The piano"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0074",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the voice'?",
+      "options": {
+        "A": "Le chant",
+        "B": "La voix",
+        "C": "Le cri",
+        "D": "Le son"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0075",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a typical sound an electric guitar can make?",
+      "options": {
+        "A": "A whisper",
+        "B": "A whistle",
+        "C": "A distortion",
+        "D": "A silence"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0076",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How many strings does a standard violin have?",
+      "options": {
+        "A": "One",
+        "B": "Ten",
+        "C": "Eight",
+        "D": "Four"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0077",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous French composer known for his piece 'Clair de Lune'?",
+      "options": {
+        "A": "Claude Debussy",
+        "B": "Johann Sebastian Bach",
+        "C": "Ludwig van Beethoven",
+        "D": "Wolfgang Amadeus Mozart"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0078",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the French term for a 'musical break' or a rest in the music?",
+      "options": {
+        "A": "Un cri",
+        "B": "Un silence",
+        "C": "Un saut",
+        "D": "Un chant"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0079",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these percussion instruments is a simple metal bar bent into a shape?",
+      "options": {
+        "A": "The triangle",
+        "B": "The square",
+        "C": "The circle",
+        "D": "The star"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0080",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these genres usually features a singer, a bass, a guitar, and a drum kit?",
+      "options": {
+        "A": "Opera",
+        "B": "Classical",
+        "C": "Baroque",
+        "D": "Rock"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0081",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is the name for the text or lyrics used in an opera?",
+      "options": {
+        "A": "Libretto",
+        "B": "Score",
+        "C": "Staff",
+        "D": "Key"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0082",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The French composer Erik Satie is famous for a series of calm piano pieces called...",
+      "options": {
+        "A": "Symphonies",
+        "B": "Gymnopédies",
+        "C": "Operas",
+        "D": "Concertos"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0083",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In an orchestra, which instrument often gives the 'A' note for everyone to tune their instruments?",
+      "options": {
+        "A": "The tuba",
+        "B": "The drum",
+        "C": "The oboe",
+        "D": "The triangle"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0084",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the English name for the French musical term 'une demi-pause'?",
+      "options": {
+        "A": "Whole rest",
+        "B": "Quarter rest",
+        "C": "Eighth rest",
+        "D": "Half rest"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0085",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a common way to listen to music today?",
+      "options": {
+        "A": "Streaming",
+        "B": "Writing",
+        "C": "Eating",
+        "D": "Sleeping"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0086",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word for 'to sing' is ___.",
+      "options": {
+        "A": "marcher",
+        "B": "chanter",
+        "C": "courir",
+        "D": "sauter"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0087",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument do you hold under your chin to play?",
+      "options": {
+        "A": "The piano",
+        "B": "The drum",
+        "C": "The violin",
+        "D": "The harp"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0088",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How do you say 'fast' in music terms?",
+      "options": {
+        "A": "Lento",
+        "B": "Adagio",
+        "C": "Piano",
+        "D": "Allegro"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0089",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is a member of the brass family and has the lowest sound?",
+      "options": {
+        "A": "The tuba",
+        "B": "The trumpet",
+        "C": "The flute",
+        "D": "The violin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0090",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the French name for a 'half note' (which lasts 2 beats)?",
+      "options": {
+        "A": "Une noire",
+        "B": "Une blanche",
+        "C": "Une ronde",
+        "D": "Une croche"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0091",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these famous movies has a score composed by John Williams?",
+      "options": {
+        "A": "The Lion King",
+        "B": "Frozen",
+        "C": "Star Wars",
+        "D": "Toy Story"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0092",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "In music, what does the Italian term 'piano' mean?",
+      "options": {
+        "A": "To play loudly",
+        "B": "To play fast",
+        "C": "To play slowly",
+        "D": "To play softly"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0093",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is the name of the French national anthem composed during the Revolution?",
+      "options": {
+        "A": "La Marseillaise",
+        "B": "La Seine",
+        "C": "La Tour Eiffel",
+        "D": "La Liberté"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0094",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the name for a group of four musicians playing together?",
+      "options": {
+        "A": "A duo",
+        "B": "A quartet",
+        "C": "A trio",
+        "D": "A solo"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0095",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a typical woodwind instrument found in a jazz band?",
+      "options": {
+        "A": "The cello",
+        "B": "The harp",
+        "C": "The saxophone",
+        "D": "The tuba"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0096",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The Italian term 'Staccato' means that the notes should be played...",
+      "options": {
+        "A": "Long and smooth",
+        "B": "Very loud",
+        "C": "Very fast",
+        "D": "Short and detached"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0097",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you sit at and play with your hands on a keyboard?",
+      "options": {
+        "A": "The piano",
+        "B": "The guitar",
+        "C": "The drum",
+        "D": "The trumpet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0098",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "In music, what is the name for the speed of a piece?",
+      "options": {
+        "A": "The volume",
+        "B": "The tempo",
+        "C": "The color",
+        "D": "The weight"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0099",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a common instrument in a rock band?",
+      "options": {
+        "A": "The flute",
+        "B": "The harp",
+        "C": "The electric guitar",
+        "D": "The organ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0100",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What do you call the symbols on a staff that tell you which sound to play?",
+      "options": {
+        "A": "Numbers",
+        "B": "Letters",
+        "C": "Colors",
+        "D": "Notes"
+      },
+      "answer": "D"
+    },
+
+    {
+      "id": "music-en-0101",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you use to play a rhythmic beat by hitting it with your hands or sticks?",
+      "options": {
+        "A": "The tambourine",
+        "B": "The flute",
+        "C": "The piano",
+        "D": "The violin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0102",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for the 'sound' produced by an instrument or a voice?",
+      "options": {
+        "A": "Le livre",
+        "B": "Le son",
+        "C": "Le chat",
+        "D": "Le pain"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0103",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "In a music class, if the teacher asks you to be 'silencieux', what should you do?",
+      "options": {
+        "A": "Sing loudly",
+        "B": "Dance",
+        "C": "Be silent",
+        "D": "Play the drums"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0104",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a string instrument that is smaller than a guitar and often used in Hawaiian music?",
+      "options": {
+        "A": "The tuba",
+        "B": "The recorder",
+        "C": "The triangle",
+        "D": "The ukulele"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0105",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which family of instruments does the French horn belong to?",
+      "options": {
+        "A": "Brass",
+        "B": "Strings",
+        "C": "Percussion",
+        "D": "Woodwinds"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0106",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'un compositeur' refers to a person who...",
+      "options": {
+        "A": "Sells instruments",
+        "B": "Writes music",
+        "C": "Fixes pianos",
+        "D": "Cleans the stage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0107",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is played by blowing across a hole, rather than into a reed?",
+      "options": {
+        "A": "The oboe",
+        "B": "The clarinet",
+        "C": "The flute",
+        "D": "The saxophone"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0108",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name of the stick that a conductor uses to lead an orchestra?",
+      "options": {
+        "A": "A ruler",
+        "B": "A pencil",
+        "C": "A spoon",
+        "D": "A baton"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0109",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which Italian musical term tells the player to gradually get louder?",
+      "options": {
+        "A": "Crescendo",
+        "B": "Diminuendo",
+        "C": "Staccato",
+        "D": "Legato"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0110",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In an opera, what do you call a long, accompanied song for a solo voice?",
+      "options": {
+        "A": "A chorus",
+        "B": "An aria",
+        "C": "A duet",
+        "D": "An overture"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0111",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these was a famous Baroque composer known for his 'Brandenburg Concertos'?",
+      "options": {
+        "A": "Ludwig van Beethoven",
+        "B": "Wolfgang Amadeus Mozart",
+        "C": "Johann Sebastian Bach",
+        "D": "Claude Debussy"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0112",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What does a 'sharp' symbol (#) do to a musical note?",
+      "options": {
+        "A": "It makes it louder",
+        "B": "It makes it shorter",
+        "C": "It lowers the pitch",
+        "D": "It raises the pitch by a half-step"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0113",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument has four strings and is played with a bow under the chin?",
+      "options": {
+        "A": "The violin",
+        "B": "The piano",
+        "C": "The drum",
+        "D": "The flute"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0114",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the music'?",
+      "options": {
+        "A": "La radio",
+        "B": "La musique",
+        "C": "La guitare",
+        "D": "La chanson"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0115",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a very common wind instrument often taught to children in school?",
+      "options": {
+        "A": "The cello",
+        "B": "The harp",
+        "C": "The recorder",
+        "D": "The drums"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0116",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "When a song is 'triste' in French, how does the music usually feel?",
+      "options": {
+        "A": "Happy",
+        "B": "Loud",
+        "C": "Angry",
+        "D": "Sad"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0117",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these composers wrote 'The Moonlight Sonata'?",
+      "options": {
+        "A": "Ludwig van Beethoven",
+        "B": "Wolfgang Amadeus Mozart",
+        "C": "Johann Sebastian Bach",
+        "D": "Antonio Vivaldi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0118",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'une gamme' refers to which musical concept?",
+      "options": {
+        "A": "A musical instrument",
+        "B": "A scale",
+        "C": "A music teacher",
+        "D": "A concert hall"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0119",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a brass instrument that is coiled in a circle?",
+      "options": {
+        "A": "The French horn",
+        "B": "The trombone",
+        "C": "The trumpet",
+        "D": "The tuba"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0120",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for a group of singers who perform together?",
+      "options": {
+        "A": "A team",
+        "B": "A club",
+        "C": "A gang",
+        "D": "A choir"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0121",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is the name of a famous ballet composed by Tchaikovsky about a wooden toy?",
+      "options": {
+        "A": "The Nutcracker",
+        "B": "Swan Lake",
+        "C": "The Sleeping Beauty",
+        "D": "The Firebird"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0122",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the French name for an 'eighth note' (which lasts half a beat)?",
+      "options": {
+        "A": "Une noire",
+        "B": "Une croche",
+        "C": "Une blanche",
+        "D": "Une ronde"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0123",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these instruments uses a double reed to produce its unique sound?",
+      "options": {
+        "A": "The flute",
+        "B": "The clarinet",
+        "C": "The oboe",
+        "D": "The saxophone"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0124",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'A cappella' means singing...",
+      "options": {
+        "A": "With a very loud orchestra",
+        "B": "While dancing",
+        "C": "In a very small room",
+        "D": "Without any instrumental accompaniment"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0125",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is used to play the strings of a violin?",
+      "options": {
+        "A": "A bow",
+        "B": "A stick",
+        "C": "A hammer",
+        "D": "A pick"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0126",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word for 'the piano' is ___.",
+      "options": {
+        "A": "le violon",
+        "B": "le piano",
+        "C": "la guitare",
+        "D": "le tambour"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0127",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments is a small metal tube that makes a 'ting' sound when hit?",
+      "options": {
+        "A": "The drum",
+        "B": "The flute",
+        "C": "The triangle",
+        "D": "The tuba"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0128",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How do you say 'to play' an instrument in French?",
+      "options": {
+        "A": "Chanter",
+        "B": "Danser",
+        "C": "Écouter",
+        "D": "Jouer"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0129",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous French song often used to teach kids about a bridge in a city?",
+      "options": {
+        "A": "Sur le pont d'Avignon",
+        "B": "Frère Jacques",
+        "C": "Alouette",
+        "D": "Au clair de la lune"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0130",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "In the woodwind family, which instrument is known for being very long and having a very low sound?",
+      "options": {
+        "A": "The flute",
+        "B": "The bassoon",
+        "C": "The clarinet",
+        "D": "The piccolo"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0131",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French word 'un morceau' in music usually means...",
+      "options": {
+        "A": "A music stand",
+        "B": "A broken string",
+        "C": "A piece of music",
+        "D": "A loud clap"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0132",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these percussion instruments has wooden bars that you hit with mallets?",
+      "options": {
+        "A": "The piano",
+        "B": "The drum",
+        "C": "The triangle",
+        "D": "The xylophone"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0133",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which composer is famous for his piano 'Nocturnes' and was born in Poland?",
+      "options": {
+        "A": "Frédéric Chopin",
+        "B": "Claude Debussy",
+        "C": "Franz Liszt",
+        "D": "Johannes Brahms"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0134",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the name for the lowest male singing voice in an opera?",
+      "options": {
+        "A": "Tenor",
+        "B": "Bass",
+        "C": "Soprano",
+        "D": "Alto"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0135",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a string instrument often used in Bluegrass music, played with fingers or picks?",
+      "options": {
+        "A": "The cello",
+        "B": "The violin",
+        "C": "The banjo",
+        "D": "The harp"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0136",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'Mezzo-forte' (mf) in a musical score means to play...",
+      "options": {
+        "A": "Very softly",
+        "B": "Very loudly",
+        "C": "At a medium speed",
+        "D": "Moderately loud"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0137",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a large keyboard instrument found in many churches?",
+      "options": {
+        "A": "The organ",
+        "B": "The guitar",
+        "C": "The flute",
+        "D": "The drum"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0138",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for the 'rhythm' of a song?",
+      "options": {
+        "A": "La mélodie",
+        "B": "Le rythme",
+        "C": "La voix",
+        "D": "Le chant"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0139",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you wear on your neck and blow into to make music?",
+      "options": {
+        "A": "The piano",
+        "B": "The drum",
+        "C": "The saxophone",
+        "D": "The violin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0140",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How many notes are in a basic 'do-ré-mi' scale?",
+      "options": {
+        "A": "Three",
+        "B": "Five",
+        "C": "Ten",
+        "D": "Seven"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0141",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these composers is famous for his 'Water Music'?",
+      "options": {
+        "A": "George Frideric Handel",
+        "B": "Johann Sebastian Bach",
+        "C": "Wolfgang Amadeus Mozart",
+        "D": "Ludwig van Beethoven"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0142",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'un pupitre' in an orchestra refers to what?",
+      "options": {
+        "A": "A musical instrument",
+        "B": "A music stand",
+        "C": "A musician",
+        "D": "A concert ticket"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0143",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is a smaller, higher-pitched version of the flute?",
+      "options": {
+        "A": "The tuba",
+        "B": "The bassoon",
+        "C": "The piccolo",
+        "D": "The oboe"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0144",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for the speed of a piece of music?",
+      "options": {
+        "A": "The volume",
+        "B": "The height",
+        "C": "The weight",
+        "D": "The tempo"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0145",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which French composer is known for the orchestral work 'L'Apprenti Sorcier' (The Sorcerer's Apprentice)?",
+      "options": {
+        "A": "Paul Dukas",
+        "B": "Claude Debussy",
+        "C": "Maurice Ravel",
+        "D": "Gabriel Fauré"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0146",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the Italian word for 'softly' in music?",
+      "options": {
+        "A": "Forte",
+        "B": "Piano",
+        "C": "Allegro",
+        "D": "Presto"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0147",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In which century did the 'Classical' period of music (with Haydn and Mozart) mostly take place?",
+      "options": {
+        "A": "The 15th century",
+        "B": "The 20th century",
+        "C": "The 18th century",
+        "D": "The 12th century"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0148",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a typical instrument in a traditional Jazz band, used for the bass line?",
+      "options": {
+        "A": "The flute",
+        "B": "The violin",
+        "C": "The harp",
+        "D": "The double bass"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0149",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument do you play by plucking strings on a long neck, often seen in rock music?",
+      "options": {
+        "A": "The bass guitar",
+        "B": "The drum",
+        "C": "The flute",
+        "D": "The piano"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0150",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the lyrics' of a song?",
+      "options": {
+        "A": "La musique",
+        "B": "Les paroles",
+        "C": "Le rythme",
+        "D": "Le son"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0151",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you use two sticks to play?",
+      "options": {
+        "A": "The violin",
+        "B": "The flute",
+        "C": "The drums",
+        "D": "The trumpet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0152",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How do you say 'very loud' in music terms?",
+      "options": {
+        "A": "Piano",
+        "B": "Lento",
+        "C": "Adagio",
+        "D": "Fortissimo"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0153",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous musical about a lion who becomes king?",
+      "options": {
+        "A": "The Lion King",
+        "B": "Cats",
+        "C": "Hamilton",
+        "D": "Wicked"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0154",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'une répétition' in music means what?",
+      "options": {
+        "A": "A concert",
+        "B": "A rehearsal",
+        "C": "A music shop",
+        "D": "A broken drum"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0155",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these woodwind instruments is typically made of brass but is NOT in the brass family?",
+      "options": {
+        "A": "The trumpet",
+        "B": "The tuba",
+        "C": "The saxophone",
+        "D": "The trombone"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0156",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for the highness or lowness of a sound?",
+      "options": {
+        "A": "The weight",
+        "B": "The length",
+        "C": "The color",
+        "D": "The pitch"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0157",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a famous French composer known for his 'Gymnopédies'?",
+      "options": {
+        "A": "Erik Satie",
+        "B": "Claude Debussy",
+        "C": "Maurice Ravel",
+        "D": "Georges Bizet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0158",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the French word for 'a stage' where musicians perform?",
+      "options": {
+        "A": "Un rideau",
+        "B": "Une scène",
+        "C": "Un siège",
+        "D": "Un couloir"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0159",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In a standard orchestra, which instrument is considered the 'leader' of the string section?",
+      "options": {
+        "A": "The cello",
+        "B": "The viola",
+        "C": "The first violin",
+        "D": "The double bass"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0160",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'Legato' in music means that the notes should be played...",
+      "options": {
+        "A": "Short and detached",
+        "B": "Very loudly",
+        "C": "Very fast",
+        "D": "Smoothly and connected"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0161",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument do you use a pedal to sustain the notes?",
+      "options": {
+        "A": "The piano",
+        "B": "The flute",
+        "C": "The trumpet",
+        "D": "The violin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0162",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the melody'?",
+      "options": {
+        "A": "Le rythme",
+        "B": "La mélodie",
+        "C": "Le son",
+        "D": "La voix"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0163",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you wear on your chest and play by squeezing and using a keyboard?",
+      "options": {
+        "A": "The piano",
+        "B": "The drum",
+        "C": "The accordion",
+        "D": "The flute"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0164",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How many strings does a standard acoustic guitar usually have?",
+      "options": {
+        "A": "Four",
+        "B": "Three",
+        "C": "Ten",
+        "D": "Six"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0165",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous French opera by Georges Bizet about a Spanish girl?",
+      "options": {
+        "A": "Carmen",
+        "B": "The Magic Flute",
+        "C": "Aida",
+        "D": "Tosca"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0166",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'un orchestre de chambre' refers to which type of orchestra?",
+      "options": {
+        "A": "A rock band",
+        "B": "A small orchestra for a small room",
+        "C": "A massive orchestra for a stadium",
+        "D": "A group of singers only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0167",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous instrument from India with many strings, made popular by Ravi Shankar?",
+      "options": {
+        "A": "The banjo",
+        "B": "The ukulele",
+        "C": "The sitar",
+        "D": "The harp"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0168",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for the distance between two musical notes?",
+      "options": {
+        "A": "The weight",
+        "B": "The speed",
+        "C": "The color",
+        "D": "The interval"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0169",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these composers is famous for his 9 symphonies and lived in Vienna?",
+      "options": {
+        "A": "Ludwig van Beethoven",
+        "B": "Claude Debussy",
+        "C": "Johann Sebastian Bach",
+        "D": "Antonio Vivaldi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0170",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the French name for a 'natural' symbol in music (which cancels a sharp or flat)?",
+      "options": {
+        "A": "Un dièse",
+        "B": "Un bécarre",
+        "C": "Un bémol",
+        "D": "Un soupir"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0171",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In a choir, what is the highest female voice called?",
+      "options": {
+        "A": "Alto",
+        "B": "Mezzo",
+        "C": "Soprano",
+        "D": "Tenor"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0172",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these periods of music history emphasizes emotion and nature (1820-1900)?",
+      "options": {
+        "A": "The Baroque period",
+        "B": "The Classical period",
+        "C": "The Renaissance",
+        "D": "The Romantic period"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0173",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument do you use to play 'chords' by pressing strings and strumming?",
+      "options": {
+        "A": "The guitar",
+        "B": "The flute",
+        "C": "The drum",
+        "D": "The trumpet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0174",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the applause' at the end of a concert?",
+      "options": {
+        "A": "Le chant",
+        "B": "Les applaudissements",
+        "C": "Le bruit",
+        "D": "Le silence"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0175",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a common way for a musician to practice a song over and over?",
+      "options": {
+        "A": "Sleeping",
+        "B": "Eating",
+        "C": "Rehearsing",
+        "D": "Running"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0176",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What do you call a person who plays the piano?",
+      "options": {
+        "A": "A drummer",
+        "B": "A flutist",
+        "C": "A guitarist",
+        "D": "A pianist"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0177",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous piece by Rossini about a Swiss hero?",
+      "options": {
+        "A": "William Tell Overture",
+        "B": "The Magic Flute",
+        "C": "Boléro",
+        "D": "Swan Lake"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0178",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'une clé' in music refers to what?",
+      "options": {
+        "A": "A door key",
+        "B": "A clef",
+        "C": "A musical note",
+        "D": "A music stand"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0179",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is an Australian aboriginal instrument that makes a deep drone sound?",
+      "options": {
+        "A": "The didgeridoo",
+        "B": "The sitar",
+        "C": "The banjo",
+        "D": "The ukulele"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0180",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for the group of five horizontal lines used to write musical notes?",
+      "options": {
+        "A": "The board",
+        "B": "The page",
+        "C": "The book",
+        "D": "The staff"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0181",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these French composers wrote 'The Carnival of the Animals'?",
+      "options": {
+        "A": "Camille Saint-Saëns",
+        "B": "Claude Debussy",
+        "C": "Maurice Ravel",
+        "D": "Georges Bizet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0182",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the French name for a 'quarter rest' (which lasts 1 beat of silence)?",
+      "options": {
+        "A": "Une pause",
+        "B": "Un soupir",
+        "C": "Une demi-pause",
+        "D": "Un demi-soupir"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0183",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In which city did the composer Johann Sebastian Bach spend most of his life as a cantor?",
+      "options": {
+        "A": "Paris",
+        "B": "London",
+        "C": "Leipzig",
+        "D": "Vienna"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0184",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'Vibrato' in music means a slight and rapid...",
+      "options": {
+        "A": "Increase in volume",
+        "B": "Change in speed",
+        "C": "Stop in sound",
+        "D": "Variation in pitch"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0185",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you use to play music by pressing keys while sitting at a bench?",
+      "options": {
+        "A": "The piano",
+        "B": "The guitar",
+        "C": "The flute",
+        "D": "The violin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0186",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the musician'?",
+      "options": {
+        "A": "La musicienne",
+        "B": "Le musicien",
+        "C": "Le chant",
+        "D": "La chanson"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0187",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these do you use to sing into to make your voice louder for a large crowd?",
+      "options": {
+        "A": "A guitar",
+        "B": "A drum",
+        "C": "A microphone",
+        "D": "A piano"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0188",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How many strings does a ukulele usually have?",
+      "options": {
+        "A": "One",
+        "B": "Ten",
+        "C": "Eight",
+        "D": "Four"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0189",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous instrument from Africa, a type of drum played with the hands?",
+      "options": {
+        "A": "The djembe",
+        "B": "The sitar",
+        "C": "The banjo",
+        "D": "The ukulele"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0190",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'une chorale' refers to what?",
+      "options": {
+        "A": "A music stand",
+        "B": "A choir",
+        "C": "A musical note",
+        "D": "A concert hall"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0191",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is a brass instrument known for being used by the military to wake up soldiers?",
+      "options": {
+        "A": "The flute",
+        "B": "The violin",
+        "C": "The bugle",
+        "D": "The harp"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0192",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for a group of three musicians playing together?",
+      "options": {
+        "A": "A solo",
+        "B": "A duo",
+        "C": "A quartet",
+        "D": "A trio"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0193",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these composers wrote 'The Surprise Symphony'?",
+      "options": {
+        "A": "Joseph Haydn",
+        "B": "Claude Debussy",
+        "C": "Johann Sebastian Bach",
+        "D": "Antonio Vivaldi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0194",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the French name for a 'slur' in music (a curved line over notes)?",
+      "options": {
+        "A": "Une barre",
+        "B": "Une liaison",
+        "C": "Un point",
+        "D": "Un saut"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0195",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In an orchestra, which instrument often plays the melody and has the second highest pitch after the piccolo?",
+      "options": {
+        "A": "The tuba",
+        "B": "The drum",
+        "C": "The flute",
+        "D": "The triangle"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0196",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The Italian term 'Arpeggio' means that the notes of a chord are played...",
+      "options": {
+        "A": "All at the same time",
+        "B": "Very softly",
+        "C": "Very loudly",
+        "D": "One after another"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0197",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you use to play music by plucking strings on a small wooden body?",
+      "options": {
+        "A": "The ukulele",
+        "B": "The flute",
+        "C": "The drum",
+        "D": "The trumpet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0198",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the band' or 'the group'?",
+      "options": {
+        "A": "La musique",
+        "B": "Le groupe",
+        "C": "Le chant",
+        "D": "La chanson"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0199",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you hit together to make a loud crashing sound?",
+      "options": {
+        "A": "The piano",
+        "B": "The flute",
+        "C": "Cymbals",
+        "D": "The violin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0200",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What do you call the line that separates measures on a musical staff?",
+      "options": {
+        "A": "A box",
+        "B": "A dot",
+        "C": "A circle",
+        "D": "A bar line"
+      },
+      "answer": "D"
+    },
+
+    {
+      "id": "music-en-0201",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument is known for its long neck and round body, often used in folk music?",
+      "options": {
+        "A": "The banjo",
+        "B": "The flute",
+        "C": "The piano",
+        "D": "The drum"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0202",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for the 'stage' where musicians perform for an audience?",
+      "options": {
+        "A": "Le jardin",
+        "B": "La scène",
+        "C": "La cuisine",
+        "D": "Le garage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0203",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "In a music book, if you see the word 'lent', how should you play the music?",
+      "options": {
+        "A": "Loudly",
+        "B": "Fast",
+        "C": "Slowly",
+        "D": "Angrily"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0204",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you blow into and press three valves to change the sound?",
+      "options": {
+        "A": "The violin",
+        "B": "The harp",
+        "C": "The drum",
+        "D": "The trumpet"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0205",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which family of instruments does the clarinet belong to?",
+      "options": {
+        "A": "Woodwinds",
+        "B": "Strings",
+        "C": "Brass",
+        "D": "Percussion"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0206",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'un duo' refers to a musical performance by how many people?",
+      "options": {
+        "A": "One person",
+        "B": "Two people",
+        "C": "Five people",
+        "D": "Ten people"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0207",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these famous composers is known for his 'Symphony No. 5' with the famous 'da-da-da-dum' opening?",
+      "options": {
+        "A": "Johann Sebastian Bach",
+        "B": "Wolfgang Amadeus Mozart",
+        "C": "Ludwig van Beethoven",
+        "D": "Antonio Vivaldi"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0208",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name of the tool used to help musicians tune their instruments by producing a perfect 'A' sound?",
+      "options": {
+        "A": "A hammer",
+        "B": "A whistle",
+        "C": "A bell",
+        "D": "A tuning fork"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0209",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which Italian musical term means to play in a walking pace, not too slow and not too fast?",
+      "options": {
+        "A": "Andante",
+        "B": "Presto",
+        "C": "Lento",
+        "D": "Fortissimo"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0210",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In an opera, what is the French term for the 'intermission' or break between acts?",
+      "options": {
+        "A": "Le début",
+        "B": "L'entracte",
+        "C": "La fin",
+        "D": "Le chant"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0211",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a famous keyboard instrument from the Baroque period where the strings are plucked?",
+      "options": {
+        "A": "The piano",
+        "B": "The synthesizer",
+        "C": "The harpsichord",
+        "D": "The organ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0212",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the name for the distance of eight notes between two musical notes of the same name?",
+      "options": {
+        "A": "A scale",
+        "B": "A chord",
+        "C": "A measure",
+        "D": "An octave"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0213",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument is very large and you play it by sitting on a stool and using your feet on pedals and hands on keys?",
+      "options": {
+        "A": "The organ",
+        "B": "The flute",
+        "C": "The guitar",
+        "D": "The drum"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0214",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for a 'music teacher'?",
+      "options": {
+        "A": "Un cuisinier",
+        "B": "Un professeur de musique",
+        "C": "Un pilote",
+        "D": "Un jardinier"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0215",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you use to play music by shaking it, often filled with small beads?",
+      "options": {
+        "A": "A violin",
+        "B": "A piano",
+        "C": "Maracas",
+        "D": "A trumpet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0216",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "In France, what is the name of the famous children's song about a bird that gets plucked?",
+      "options": {
+        "A": "Frère Jacques",
+        "B": "Sur le pont d'Avignon",
+        "C": "Au clair de la lune",
+        "D": "Alouette"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0217",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous ballet by Tchaikovsky about a princess turned into a bird?",
+      "options": {
+        "A": "Swan Lake",
+        "B": "The Nutcracker",
+        "C": "The Sleeping Beauty",
+        "D": "The Firebird"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0218",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'un orchestre' refers to what?",
+      "options": {
+        "A": "A single singer",
+        "B": "A large group of musicians",
+        "C": "A music shop",
+        "D": "A musical note"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0219",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these woodwind instruments is the smallest and has the highest pitch in an orchestra?",
+      "options": {
+        "A": "The oboe",
+        "B": "The bassoon",
+        "C": "The piccolo",
+        "D": "The flute"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0220",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for the part of a song that is repeated several times?",
+      "options": {
+        "A": "The verse",
+        "B": "The intro",
+        "C": "The solo",
+        "D": "The chorus"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0221",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which French composer is famous for his piano piece 'Gymnopédie No. 1'?",
+      "options": {
+        "A": "Erik Satie",
+        "B": "Claude Debussy",
+        "C": "Maurice Ravel",
+        "D": "Gabriel Fauré"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0222",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the French name for a 'half rest' (which lasts 2 beats of silence)?",
+      "options": {
+        "A": "Un soupir",
+        "B": "Une demi-pause",
+        "C": "Une pause",
+        "D": "Un demi-soupir"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0223",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these brass instruments is the largest and produces the lowest sounds?",
+      "options": {
+        "A": "The trumpet",
+        "B": "The trombone",
+        "C": "The tuba",
+        "D": "The French horn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0224",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'Staccato' means that the notes should be played...",
+      "options": {
+        "A": "Smoothly and connected",
+        "B": "Very loudly",
+        "C": "Very slowly",
+        "D": "Short and detached"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0225",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is used by a musician to read the music they are playing?",
+      "options": {
+        "A": "Sheet music",
+        "B": "A television",
+        "C": "A mirror",
+        "D": "A map"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0226",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for a 'singer'?",
+      "options": {
+        "A": "Un danseur",
+        "B": "Un chanteur",
+        "C": "Un musicien",
+        "D": "Un acteur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0227",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you play by plucking four strings, and it is shaped like a small guitar?",
+      "options": {
+        "A": "The piano",
+        "B": "The drum",
+        "C": "The ukulele",
+        "D": "The flute"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0228",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How do you say 'to listen' to music in French?",
+      "options": {
+        "A": "Jouer",
+        "B": "Chanter",
+        "C": "Danser",
+        "D": "Écouter"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0229",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous French song often used to teach kids about a bridge?",
+      "options": {
+        "A": "Sur le pont d'Avignon",
+        "B": "Frère Jacques",
+        "C": "Alouette",
+        "D": "Au clair de la lune"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0230",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "In the string family, which instrument is held between the legs and played while sitting?",
+      "options": {
+        "A": "The violin",
+        "B": "The cello",
+        "C": "The viola",
+        "D": "The guitar"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0231",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'une partition' means what in English?",
+      "options": {
+        "A": "A music stand",
+        "B": "A musical note",
+        "C": "Sheet music",
+        "D": "A music teacher"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0232",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is a brass instrument with a slide to change notes?",
+      "options": {
+        "A": "The trumpet",
+        "B": "The French horn",
+        "C": "The tuba",
+        "D": "The trombone"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0233",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these composers is famous for his piano music and was born in Poland?",
+      "options": {
+        "A": "Frédéric Chopin",
+        "B": "Claude Debussy",
+        "C": "Maurice Ravel",
+        "D": "Johann Sebastian Bach"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0234",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the name for the highest female singing voice in a choir?",
+      "options": {
+        "A": "Tenor",
+        "B": "Soprano",
+        "C": "Bass",
+        "D": "Alto"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0235",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a string instrument that is played with fingers or a pick, often in jazz music?",
+      "options": {
+        "A": "The violin",
+        "B": "The cello",
+        "C": "The double bass",
+        "D": "The harp"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0236",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'Mezzo-forte' means to play...",
+      "options": {
+        "A": "Very softly",
+        "B": "Very loudly",
+        "C": "Moderately loud",
+        "D": "Moderately soft"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0237",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you use to play music by blowing into it and using your fingers to cover holes?",
+      "options": {
+        "A": "The recorder",
+        "B": "The piano",
+        "C": "The drum",
+        "D": "The guitar"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0238",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for a 'musical instrument'?",
+      "options": {
+        "A": "Un outil",
+        "B": "Un instrument de musique",
+        "C": "Un jouet",
+        "D": "Un livre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0239",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these do you use to make your voice louder when singing on a stage?",
+      "options": {
+        "A": "A piano",
+        "B": "A guitar",
+        "C": "A microphone",
+        "D": "A flute"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0240",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How many strings are on a standard acoustic guitar?",
+      "options": {
+        "A": "Four",
+        "B": "Five",
+        "C": "Seven",
+        "D": "Six"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0241",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these composers wrote 'The Four Seasons'?",
+      "options": {
+        "A": "Antonio Vivaldi",
+        "B": "Johann Sebastian Bach",
+        "C": "Wolfgang Amadeus Mozart",
+        "D": "Ludwig van Beethoven"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0242",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'un orchestre philharmonique' is another name for what?",
+      "options": {
+        "A": "A rock band",
+        "B": "A large symphony orchestra",
+        "C": "A music school",
+        "D": "A choir"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0243",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is a member of the brass family and has the highest pitch?",
+      "options": {
+        "A": "The tuba",
+        "B": "The trombone",
+        "C": "The trumpet",
+        "D": "The French horn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0244",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for the speed at which a piece of music is played?",
+      "options": {
+        "A": "The volume",
+        "B": "The key",
+        "C": "The pitch",
+        "D": "The tempo"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0245",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which French composer is known for his orchestral piece 'Boléro'?",
+      "options": {
+        "A": "Maurice Ravel",
+        "B": "Claude Debussy",
+        "C": "Erik Satie",
+        "D": "Camille Saint-Saëns"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0246",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the Italian word for playing music very loudly?",
+      "options": {
+        "A": "Piano",
+        "B": "Fortissimo",
+        "C": "Lento",
+        "D": "Andante"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0247",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In which period of music history did Johann Sebastian Bach live?",
+      "options": {
+        "A": "Romantic",
+        "B": "Classical",
+        "C": "Baroque",
+        "D": "Renaissance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0248",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a percussion instrument that is a set of tuned metal bars played with mallets?",
+      "options": {
+        "A": "The drum",
+        "B": "The triangle",
+        "C": "The piano",
+        "D": "The glockenspiel"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0249",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument do you play by pressing keys, and it is usually black or white?",
+      "options": {
+        "A": "The piano",
+        "B": "The guitar",
+        "C": "The drum",
+        "D": "The flute"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0250",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the melody'?",
+      "options": {
+        "A": "Le rythme",
+        "B": "La mélodie",
+        "C": "Le son",
+        "D": "La chanson"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0251",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you hit with sticks and is part of a set?",
+      "options": {
+        "A": "The violin",
+        "B": "The flute",
+        "C": "The drums",
+        "D": "The trumpet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0252",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How do you say 'to sing' in French?",
+      "options": {
+        "A": "Danser",
+        "B": "Jouer",
+        "C": "Écouter",
+        "D": "Chanter"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0253",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous French song often sung at night to help children sleep?",
+      "options": {
+        "A": "Au clair de la lune",
+        "B": "Frère Jacques",
+        "C": "Alouette",
+        "D": "Sur le pont d'Avignon"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0254",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'un chef d'orchestre' refers to which person?",
+      "options": {
+        "A": "The lead singer",
+        "B": "The conductor",
+        "C": "The music writer",
+        "D": "The piano player"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0255",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is a string instrument that is played by plucking strings on a large triangular frame?",
+      "options": {
+        "A": "The guitar",
+        "B": "The violin",
+        "C": "The harp",
+        "D": "The cello"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0256",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for the group of five horizontal lines that musical notes are written on?",
+      "options": {
+        "A": "The page",
+        "B": "The frame",
+        "C": "The board",
+        "D": "The staff"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0257",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these composers was a child prodigy and born in Austria?",
+      "options": {
+        "A": "Wolfgang Amadeus Mozart",
+        "B": "Ludwig van Beethoven",
+        "C": "Johann Sebastian Bach",
+        "D": "Claude Debussy"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0258",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the French word for the 'clef' used at the beginning of a staff to show the pitch of the notes?",
+      "options": {
+        "A": "Le signe",
+        "B": "La clé",
+        "C": "Le code",
+        "D": "La note"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0259",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In which period of music history did the Romantic style (with Chopin and Liszt) take place?",
+      "options": {
+        "A": "Baroque",
+        "B": "Classical",
+        "C": "19th century",
+        "D": "Renaissance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0260",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'Legato' means that the notes should be played...",
+      "options": {
+        "A": "Very softly",
+        "B": "Very loudly",
+        "C": "Short and detached",
+        "D": "Smooth and connected"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0261",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you blow air through a mouthpiece into a long brass tube?",
+      "options": {
+        "A": "The trumpet",
+        "B": "The violin",
+        "C": "The drum",
+        "D": "The piano"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0262",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for a 'note' in music?",
+      "options": {
+        "A": "Une lettre",
+        "B": "Une note",
+        "C": "Un chiffre",
+        "D": "Un mot"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0263",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these do you use to hear music privately in your ears?",
+      "options": {
+        "A": "A piano",
+        "B": "A guitar",
+        "C": "Headphones",
+        "D": "A drum"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0264",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How many notes are in a standard musical scale?",
+      "options": {
+        "A": "Three",
+        "B": "Five",
+        "C": "Ten",
+        "D": "Seven"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0265",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous French composer known for his piano piece 'Clair de Lune'?",
+      "options": {
+        "A": "Claude Debussy",
+        "B": "Johann Sebastian Bach",
+        "C": "Wolfgang Amadeus Mozart",
+        "D": "Ludwig van Beethoven"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0266",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'un orchestre de chambre' is which type of orchestra?",
+      "options": {
+        "A": "A rock band",
+        "B": "A small orchestra for a room",
+        "C": "A massive symphony orchestra",
+        "D": "A choir"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0267",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is a member of the string family and is the largest one?",
+      "options": {
+        "A": "The violin",
+        "B": "The cello",
+        "C": "The double bass",
+        "D": "The viola"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0268",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for the highness or lowness of a musical sound?",
+      "options": {
+        "A": "The volume",
+        "B": "The speed",
+        "C": "The duration",
+        "D": "The pitch"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0269",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a famous opera by Georges Bizet about a Spanish girl?",
+      "options": {
+        "A": "Carmen",
+        "B": "The Magic Flute",
+        "C": "Aida",
+        "D": "Swan Lake"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0270",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the French name for a 'whole note' (which lasts four beats)?",
+      "options": {
+        "A": "Une noire",
+        "B": "Une ronde",
+        "C": "Une blanche",
+        "D": "Une croche"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0271",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these instruments uses a reed to produce sound and belongs to the woodwind family?",
+      "options": {
+        "A": "The trumpet",
+        "B": "The violin",
+        "C": "The clarinet",
+        "D": "The piano"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0272",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'Arpeggio' means that the notes of a chord are played...",
+      "options": {
+        "A": "All at once",
+        "B": "Very softly",
+        "C": "Very loudly",
+        "D": "One after another"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0273",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument do you hold under your chin and play with a bow?",
+      "options": {
+        "A": "The violin",
+        "B": "The piano",
+        "C": "The drum",
+        "D": "The flute"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0274",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the lyrics' of a song?",
+      "options": {
+        "A": "La musique",
+        "B": "Les paroles",
+        "C": "Le rythme",
+        "D": "La voix"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0275",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a common way to listen to music today, like on a phone?",
+      "options": {
+        "A": "Singing",
+        "B": "Dancing",
+        "C": "Streaming",
+        "D": "Running"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0276",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How many strings are on a standard violin?",
+      "options": {
+        "A": "Six",
+        "B": "Five",
+        "C": "Three",
+        "D": "Four"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0277",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous instrument from India with many strings?",
+      "options": {
+        "A": "The sitar",
+        "B": "The banjo",
+        "C": "The ukulele",
+        "D": "The guitar"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0278",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'une répétition' means what in music?",
+      "options": {
+        "A": "A concert",
+        "B": "A rehearsal",
+        "C": "A music shop",
+        "D": "A musical note"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0279",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is a brass instrument with a large bell and produces very low sounds?",
+      "options": {
+        "A": "The trumpet",
+        "B": "The trombone",
+        "C": "The tuba",
+        "D": "The French horn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0280",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for the group of five lines that tell you which notes to play?",
+      "options": {
+        "A": "The board",
+        "B": "The page",
+        "C": "The frame",
+        "D": "The staff"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0281",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these composers wrote 'The Messiah'?",
+      "options": {
+        "A": "George Frideric Handel",
+        "B": "Johann Sebastian Bach",
+        "C": "Wolfgang Amadeus Mozart",
+        "D": "Ludwig van Beethoven"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0282",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the French name for a 'quarter note' (which lasts one beat)?",
+      "options": {
+        "A": "Une blanche",
+        "B": "Une noire",
+        "C": "Une ronde",
+        "D": "Une croche"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0283",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a string instrument that is played with fingers, often in jazz or blues, and has the lowest sound?",
+      "options": {
+        "A": "The violin",
+        "B": "The cello",
+        "C": "The double bass",
+        "D": "The viola"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0284",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'Diminuendo' means that the music should gradually get...",
+      "options": {
+        "A": "Louder",
+        "B": "Faster",
+        "C": "Higher",
+        "D": "Softer"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0285",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument do you sit at and press keys with your fingers, often found in a concert hall?",
+      "options": {
+        "A": "The piano",
+        "B": "The guitar",
+        "C": "The drum",
+        "D": "The flute"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0286",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the choir'?",
+      "options": {
+        "A": "La musique",
+        "B": "La chorale",
+        "C": "Le chant",
+        "D": "La chanson"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0287",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you wear on your chest and play by squeezing it and pressing keys?",
+      "options": {
+        "A": "The piano",
+        "B": "The drum",
+        "C": "The accordion",
+        "D": "The violin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0288",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How many strings are on a standard ukulele?",
+      "options": {
+        "A": "Six",
+        "B": "Five",
+        "C": "Three",
+        "D": "Four"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0289",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is a famous French composer known for his piece 'The Sorcerer's Apprentice'?",
+      "options": {
+        "A": "Paul Dukas",
+        "B": "Claude Debussy",
+        "C": "Maurice Ravel",
+        "D": "Camille Saint-Saëns"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0290",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'une note' refers to what in music?",
+      "options": {
+        "A": "A music stand",
+        "B": "A musical note",
+        "C": "A music teacher",
+        "D": "A concert hall"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0291",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these instruments is a member of the brass family and has the lowest sound?",
+      "options": {
+        "A": "The trumpet",
+        "B": "The trombone",
+        "C": "The tuba",
+        "D": "The French horn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0292",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the name for the highness or lowness of a musical sound?",
+      "options": {
+        "A": "The volume",
+        "B": "The speed",
+        "C": "The duration",
+        "D": "The pitch"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0293",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these composers wrote 'The Surprise Symphony'?",
+      "options": {
+        "A": "Joseph Haydn",
+        "B": "Claude Debussy",
+        "C": "Johann Sebastian Bach",
+        "D": "Antonio Vivaldi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0294",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the French name for a 'half note' (which lasts two beats)?",
+      "options": {
+        "A": "Une noire",
+        "B": "Une blanche",
+        "C": "Une ronde",
+        "D": "Une croche"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0295",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a famous musical about an orphan girl who goes to live with a rich man?",
+      "options": {
+        "A": "The Lion King",
+        "B": "Hamilton",
+        "C": "Annie",
+        "D": "Wicked"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0296",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'Vivace' in music means to play in which way?",
+      "options": {
+        "A": "Very slowly",
+        "B": "Very softly",
+        "C": "Moderately slow",
+        "D": "Lively and fast"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-en-0297",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which instrument do you hold to your mouth and blow into while moving it side to side?",
+      "options": {
+        "A": "The harmonica",
+        "B": "The piano",
+        "C": "The drum",
+        "D": "The violin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-en-0298",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the sound'?",
+      "options": {
+        "A": "La musique",
+        "B": "Le son",
+        "C": "La voix",
+        "D": "Le chant"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-en-0299",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these instruments do you wear around your neck and blow into while pressing buttons?",
+      "options": {
+        "A": "The piano",
+        "B": "The drum",
+        "C": "The saxophone",
+        "D": "The violin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-en-0300",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "How many strings are on a standard acoustic guitar?",
+      "options": {
+        "A": "Four",
+        "B": "Five",
+        "C": "Seven",
+        "D": "Six"
+      },
+      "answer": "D"
+    },
+
+    {
+      "id": "music-fr-0001",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on la famille d'instruments à laquelle appartient la guitare ?",
+      "options": {
+        "A": "Les instruments à vent",
+        "B": "Les percussions",
+        "C": "Les instruments à cordes",
+        "D": "Les cuivres"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0002",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Léa écoute une flûte. Elle remarque que le son monte très haut. Comment qualifie-t-on ce son ?",
+      "options": {
+        "A": "Un son aigu",
+        "B": "Un son grave",
+        "C": "Un son doux",
+        "D": "Un son lent"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0003",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Lequel de ces compositeurs célèbres est connu pour avoir continué à créer de la musique alors qu'il devenait sourd ?",
+      "options": {
+        "A": "Wolfgang Amadeus Mozart",
+        "B": "Antonio Vivaldi",
+        "C": "Johann Sebastian Bach",
+        "D": "Ludwig van Beethoven"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-fr-0004",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans un orchestre symphonique, qui se tient sur un podium et utilise une baguette pour diriger les musiciens ?",
+      "options": {
+        "A": "Le premier violon",
+        "B": "Le chef d'orchestre",
+        "C": "Le soliste",
+        "D": "Le compositeur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0005",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle est la principale différence technique entre un clavecin et un piano ?",
+      "options": {
+        "A": "Le clavecin a plus de touches que le piano",
+        "B": "Le clavecin est un instrument à vent, le piano est à cordes",
+        "C": "Le clavecin pince les cordes alors que le piano les frappe avec des marteaux",
+        "D": "Le piano a été inventé bien avant le clavecin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0006",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "À l'opéra, comment appelle-t-on la voix d'homme capable de chanter les notes les plus aiguës ?",
+      "options": {
+        "A": "Le ténor",
+        "B": "Le baryton",
+        "C": "La basse",
+        "D": "Le soprano"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0007",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces objets est un instrument à percussion que l'on secoue pour faire du bruit ?",
+      "options": {
+        "A": "Le triangle",
+        "B": "Le xylophone",
+        "C": "Le tambour",
+        "D": "Les maracas"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-fr-0008",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "En musique, comment appelle-t-on la partie d'une chanson qui revient plusieurs fois et que tout le monde retient ?",
+      "options": {
+        "A": "Le refrain",
+        "B": "Le couplet",
+        "C": "L'introduction",
+        "D": "Le solo"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0009",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Le jazz est un genre musical célèbre. Quel instrument y joue souvent un rôle central pour l'improvisation ?",
+      "options": {
+        "A": "La flûte à bec",
+        "B": "Le saxophone",
+        "C": "Le clavecin",
+        "D": "La harpe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0010",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Sur une partition, combien de lignes horizontales composent une portée pour écrire les notes ?",
+      "options": {
+        "A": "Trois lignes",
+        "B": "Quatre lignes",
+        "C": "Cinq lignes",
+        "D": "Six lignes"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0011",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Antonio Vivaldi a composé une œuvre très célèbre divisée en quatre parties. Quel est son titre ?",
+      "options": {
+        "A": "La Flûte enchantée",
+        "B": "La Neuvième Symphonie",
+        "C": "La Toccata et Fugue",
+        "D": "Les Quatre Saisons"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-fr-0012",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Pendant quelle période musicale a vécu Jean-Sébastien Bach, maître de la fugue ?",
+      "options": {
+        "A": "La période Baroque",
+        "B": "La période Classique",
+        "C": "La période Romantique",
+        "D": "La période Moderne"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0013",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Parmi ces instruments, lequel possède un clavier avec des touches blanches et noires ?",
+      "options": {
+        "A": "Le violon",
+        "B": "Le piano",
+        "C": "La trompette",
+        "D": "La batterie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0014",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel nom donne-t-on à un groupe d'enfants qui chantent ensemble ?",
+      "options": {
+        "A": "Un orchestre",
+        "B": "Une fanfare",
+        "C": "Une chorale",
+        "D": "Un groupe de rock"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0015",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans la famille des bois, quel instrument est souvent fabriqué en métal mais appartient tout de même à cette famille ?",
+      "options": {
+        "A": "La flûte traversière",
+        "B": "Le trombone",
+        "C": "Le cor",
+        "D": "La trompette"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0016",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle figure de note dure exactement quatre temps dans une mesure classique ?",
+      "options": {
+        "A": "La noire",
+        "B": "La blanche",
+        "C": "La croche",
+        "D": "La ronde"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-fr-0017",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel compositeur polonais est surnommé le 'poète du piano' pour ses nocturnes et ses valses ?",
+      "options": {
+        "A": "Richard Wagner",
+        "B": "Frédéric Chopin",
+        "C": "Claude Debussy",
+        "D": "Franz Liszt"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0018",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Le 'Boléro' est une œuvre symphonique célèbre pour son rythme répétitif. Qui en est le compositeur ?",
+      "options": {
+        "A": "Maurice Ravel",
+        "B": "Igor Stravinski",
+        "C": "Giuseppe Verdi",
+        "D": "Giacomo Puccini"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0019",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces instruments est le plus petit et produit les sons les plus aigus ?",
+      "options": {
+        "A": "Le violoncelle",
+        "B": "La contrebasse",
+        "C": "Le violon",
+        "D": "La harpe"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0020",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Pour chanter 'Au clair de la lune', on utilise des sons qui se suivent. Comment appelle-t-on cela ?",
+      "options": {
+        "A": "Une mélodie",
+        "B": "Un silence",
+        "C": "Un bruit",
+        "D": "Une percussion"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0021",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel instrument du monde, originaire d'Australie, est creusé par les termites dans du bois d'eucalyptus ?",
+      "options": {
+        "A": "Le djembé",
+        "B": "Le sitar",
+        "C": "La kora",
+        "D": "Le didgeridoo"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "music-fr-0022",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle clé place-t-on au début d'une portée pour lire les notes d'une mélodie aiguë ?",
+      "options": {
+        "A": "La clé de fa",
+        "B": "La clé d'ut",
+        "C": "La clé de sol",
+        "D": "La clé de la"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0023",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans un opéra, comment appelle-t-on le moment où un chanteur soliste interprète une pièce musicale importante ?",
+      "options": {
+        "A": "Un récitatif",
+        "B": "Une aria",
+        "C": "Un livret",
+        "D": "Une ouverture"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0024",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "L'invention de quel appareil en 1877 par Thomas Edison a permis pour la première fois d'enregistrer et d'écouter du son ?",
+      "options": {
+        "A": "La radio",
+        "B": "Le gramophone",
+        "C": "Le phonographe",
+        "D": "Le magnétophone"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0025",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces instruments fait partie de la famille des cuivres ?",
+      "options": {
+        "A": "La flûte",
+        "B": "Le saxophone",
+        "C": "La trompette",
+        "D": "La clarinette"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0026",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Marc tape régulièrement dans ses mains pour suivre la musique. Comment appelle-t-on ce battement régulier ?",
+      "options": {
+        "A": "Le tempo",
+        "B": "Le silence",
+        "C": "Le refrain",
+        "D": "Le piano"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0027",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Mozart était un enfant prodige. À quel âge environ a-t-il commencé à composer ses premières œuvres ?",
+      "options": {
+        "A": "5 ans",
+        "B": "12 ans",
+        "C": "18 ans",
+        "D": "25 ans"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0028",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel genre musical est né aux États-Unis, influencé par les chants des esclaves afro-américains et basé sur le rythme et l'improvisation ?",
+      "options": {
+        "A": "Le Rock'n'roll",
+        "B": "La Musique classique",
+        "C": "Le Jazz",
+        "D": "Le Flamenco"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0029",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "John Williams est un compositeur célèbre pour avoir créé les musiques de quels films ?",
+      "options": {
+        "A": "Le Roi Lion et Inception",
+        "B": "Star Wars et Harry Potter",
+        "C": "Le Bon, la Brute et le Truand",
+        "D": "Pirates des Caraïbes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0030",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment appelle-t-on la voix de femme la plus grave à l'opéra ?",
+      "options": {
+        "A": "Soprano",
+        "B": "Mezzo-soprano",
+        "C": "Contralto",
+        "D": "Baryton"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0031",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel instrument ressemble à un petit tambour et possède des petites cymbales sur le côté ?",
+      "options": {
+        "A": "Le tambourin",
+        "B": "Le xylophone",
+        "C": "Le triangle",
+        "D": "Le piano"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0032",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "En musique, que signifie l'indication 'piano' écrite sur une partition ?",
+      "options": {
+        "A": "Jouer très vite",
+        "B": "Jouer doucement",
+        "C": "Jouer très fort",
+        "D": "S'arrêter de jouer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0033",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Lequel de ces instruments est souvent le soliste dans un concerto écrit par Mozart ou Beethoven ?",
+      "options": {
+        "A": "Le tuba",
+        "B": "Le triangle",
+        "C": "Le piano",
+        "D": "Le trombone"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0034",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle est la note de musique qui se trouve juste après 'fa' dans la gamme ?",
+      "options": {
+        "A": "Mi",
+        "B": "La",
+        "C": "Sol",
+        "D": "Ré"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0035",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel compositeur est l'auteur de l''Ode à la Joie', devenue l'hymne officiel de l'Union européenne ?",
+      "options": {
+        "A": "Ludwig van Beethoven",
+        "B": "Wolfgang Amadeus Mozart",
+        "C": "Richard Strauss",
+        "D": "Johannes Brahms"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0036",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "La période 'Romantique' en musique se situe environ entre quelles années ?",
+      "options": {
+        "A": "1600 et 1750",
+        "B": "1750 et 1820",
+        "C": "1820 et 1900",
+        "D": "1945 et aujourd'hui"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0037",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on l'instrument à vent que l'on tient de côté pour en jouer ?",
+      "options": {
+        "A": "La flûte à bec",
+        "B": "La flûte traversière",
+        "C": "La clarinette",
+        "D": "Le hautbois"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0038",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces instruments n'appartient PAS à la famille des cordes ?",
+      "options": {
+        "A": "La harpe",
+        "B": "Le violoncelle",
+        "C": "La trompette",
+        "D": "La guitare"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0039",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel instrument de musique est traditionnellement utilisé pour jouer de la Samba au Brésil ?",
+      "options": {
+        "A": "Le piano",
+        "B": "Les percussions",
+        "C": "Le violon",
+        "D": "L'orgue"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0040",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on une personne qui crée et écrit des morceaux de musique ?",
+      "options": {
+        "A": "Un interprète",
+        "B": "Un compositeur",
+        "C": "Un chanteur",
+        "D": "Un fan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0041",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Le clavecin a été progressivement remplacé par le piano. Pourquoi ?",
+      "options": {
+        "A": "Parce qu'il était trop petit",
+        "B": "Parce qu'il ne permettait pas de varier l'intensité du son (nuances)",
+        "C": "Parce qu'il était trop difficile à accorder",
+        "D": "Parce que ses cordes étaient en plastique"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0042",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel célèbre festival de rock a eu lieu en 1969 et est devenu un symbole de la culture hippie ?",
+      "options": {
+        "A": "Le Festival de Cannes",
+        "B": "Le Festival de Woodstock",
+        "C": "Les Francofolies",
+        "D": "Le Printemps de Bourges"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0043",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel instrument à cordes est souvent utilisé par les pirates dans les histoires ou pour accompagner des chants de marins ?",
+      "options": {
+        "A": "L'accordéon",
+        "B": "Le piano",
+        "C": "Le saxophone",
+        "D": "Le cor"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0044",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le silence total entre deux notes de musique ?",
+      "options": {
+        "A": "Un soupir",
+        "B": "Un bruit",
+        "C": "Une chanson",
+        "D": "Un refrain"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0045",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans l'orchestre symphonique, quelle famille d'instruments est généralement la plus nombreuse ?",
+      "options": {
+        "A": "Les bois",
+        "B": "Les cordes",
+        "C": "Les cuivres",
+        "D": "Les percussions"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0046",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Laquelle de ces notes est la plus grave parmi les propositions ?",
+      "options": {
+        "A": "Do",
+        "B": "Mi",
+        "C": "Sol",
+        "D": "Si"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0047",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel instrument traditionnel russe possède une caisse de résonance de forme triangulaire et trois cordes ?",
+      "options": {
+        "A": "La balalaïka",
+        "B": "Le luth",
+        "C": "Le ukulélé",
+        "D": "La mandoline"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0048",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Qui a composé l'opéra 'La Flûte enchantée', une œuvre mêlant merveilleux et musique classique ?",
+      "options": {
+        "A": "Johann Sebastian Bach",
+        "B": "Frédéric Chopin",
+        "C": "Wolfgang Amadeus Mozart",
+        "D": "Antonio Vivaldi"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0049",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on la famille des instruments comme le tambour, la batterie et les cymbales ?",
+      "options": {
+        "A": "Les cuivres",
+        "B": "Les vents",
+        "C": "Les percussions",
+        "D": "Les claviers"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0050",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle chanson enfantine commence par les mots 'Frère Jacques, dormez-vous ?' ?",
+      "options": {
+        "A": "Une berceuse",
+        "B": "Un opéra",
+        "C": "Une comptine",
+        "D": "Un hymne"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0051",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on la personne chargée d'écrire les paroles d'un opéra ?",
+      "options": {
+        "A": "Un librettiste",
+        "B": "Un romancier",
+        "C": "Un scénariste",
+        "D": "Un poète"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0052",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Lequel de ces instruments est un clavier qui fonctionne avec de l'air et de grands tuyaux ?",
+      "options": {
+        "A": "Le piano",
+        "B": "L'orgue",
+        "C": "Le clavecin",
+        "D": "Le synthétiseur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0053",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "À quel instrument associe-t-on généralement le virtuose Niccolò Paganini ?",
+      "options": {
+        "A": "Le piano",
+        "B": "Le violoncelle",
+        "C": "Le violon",
+        "D": "La clarinette"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0054",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "La 'musique concrète', apparue après 1945, utilise principalement quel type de sons ?",
+      "options": {
+        "A": "Uniquement des voix humaines",
+        "B": "Des bruits enregistrés de la vie quotidienne",
+        "C": "Des instruments à cordes anciens",
+        "D": "Des orgues d'église uniquement"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0055",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces instruments produit un son en soufflant dans un bec avec une anche ?",
+      "options": {
+        "A": "La trompette",
+        "B": "La clarinette",
+        "C": "Le triangle",
+        "D": "La harpe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0056",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Si un musicien joue de façon 'forte', comment est le volume du son ?",
+      "options": {
+        "A": "Très doux",
+        "B": "Très puissant",
+        "C": "Très aigu",
+        "D": "Très grave"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0057",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel instrument à cordes frottées est plus grand que le violon mais plus petit que la contrebasse ?",
+      "options": {
+        "A": "Le violoncelle",
+        "B": "L'alto",
+        "C": "La guitare",
+        "D": "Le ukulélé"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0058",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on le signe qui ressemble à un grand S stylisé au début de la portée ?",
+      "options": {
+        "A": "La clé de fa",
+        "B": "La clé de sol",
+        "C": "Un bémol",
+        "D": "Un dièse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0059",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel compositeur de l'époque baroque est célèbre pour ses compositions au clavecin et ses œuvres religieuses comme la 'Passion selon saint Matthieu' ?",
+      "options": {
+        "A": "Wolfgang Amadeus Mozart",
+        "B": "Ludwig van Beethoven",
+        "C": "Johann Sebastian Bach",
+        "D": "Frédéric Chopin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0060",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le jazz, comment appelle-t-on la technique où le musicien invente la mélodie en même temps qu'il joue ?",
+      "options": {
+        "A": "La répétition",
+        "B": "L'improvisation",
+        "C": "La synchronisation",
+        "D": "La partition"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0061",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel instrument possède de grandes pédales et de nombreuses cordes tendues dans un cadre triangulaire ?",
+      "options": {
+        "A": "La contrebasse",
+        "B": "Le piano",
+        "C": "La harpe",
+        "D": "La batterie"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0062",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces mots désigne une vitesse lente en musique ?",
+      "options": {
+        "A": "Allegro",
+        "B": "Presto",
+        "C": "Adagio",
+        "D": "Forte"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0063",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel instrument à percussion est composé de lames de bois que l'on frappe avec des mailloches ?",
+      "options": {
+        "A": "Le tambourin",
+        "B": "Le xylophone",
+        "C": "La timbale",
+        "D": "Le triangle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0064",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "La 'Lettre à Élise' est une pièce de piano très connue. Qui l'a composée ?",
+      "options": {
+        "A": "Mozart",
+        "B": "Vivaldi",
+        "C": "Beethoven",
+        "D": "Bach"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0065",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment appelle-t-on une voix d'homme située entre le ténor (aigu) et la basse (grave) ?",
+      "options": {
+        "A": "Soprano",
+        "B": "Baryton",
+        "C": "Alto",
+        "D": "Contralto"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0066",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans quel pays est né le genre musical appelé 'Flamenco', utilisant guitare et percussions corporelles ?",
+      "options": {
+        "A": "L'Italie",
+        "B": "L'Espagne",
+        "C": "Le Mexique",
+        "D": "L'Argentine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0067",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le petit bâton utilisé par le chef d'orchestre ?",
+      "options": {
+        "A": "Une baguette",
+        "B": "Un archet",
+        "C": "Un médiator",
+        "D": "Un mailloche"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0068",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Lequel de ces instruments produit du son en faisant vibrer ses lèvres dans une embouchure ?",
+      "options": {
+        "A": "La flûte",
+        "B": "La trompette",
+        "C": "Le violon",
+        "D": "Le piano"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0069",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel compositeur italien est célèbre pour ses opéras comme 'Rigoletto' ou 'La Traviata' ?",
+      "options": {
+        "A": "Giacomo Puccini",
+        "B": "Giuseppe Verdi",
+        "C": "Antonio Vivaldi",
+        "D": "Gioachino Rossini"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0070",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on une note de musique qui dure la moitié du temps d'une noire ?",
+      "options": {
+        "A": "La blanche",
+        "B": "La croche",
+        "C": "La ronde",
+        "D": "La double-croche"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0071",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Le 'Theremin' est un instrument électronique très particulier. Quelle est sa caractéristique ?",
+      "options": {
+        "A": "On en joue sans jamais le toucher avec les mains",
+        "B": "Il possède plus de 200 touches",
+        "C": "Il ne fonctionne que sous l'eau",
+        "D": "Il est fabriqué entièrement en cristal"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0072",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel courant musical du début du 20ème siècle, représenté par Claude Debussy, cherche à suggérer des impressions plutôt qu'à décrire ?",
+      "options": {
+        "A": "Le Baroque",
+        "B": "L'Impressionnisme",
+        "C": "Le Classicisme",
+        "D": "Le Romantisme"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0073",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel instrument utilise un archet pour faire vibrer ses cordes ?",
+      "options": {
+        "A": "La guitare",
+        "B": "Le violon",
+        "C": "La harpe",
+        "D": "Le piano"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0074",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans une gamme de do majeur, quelle note vient juste avant le 'do' du haut ?",
+      "options": {
+        "A": "La",
+        "B": "Sol",
+        "C": "Si",
+        "D": "Fa"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0075",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel instrument à vent, cousin de la flûte, est souvent utilisé pour apprendre la musique à l'école ?",
+      "options": {
+        "A": "La clarinette",
+        "B": "Le saxophone",
+        "C": "La flûte à bec",
+        "D": "Le hautbois"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0076",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Lequel de ces genres musicaux utilise principalement la guitare électrique et la batterie ?",
+      "options": {
+        "A": "La musique classique",
+        "B": "Le rock",
+        "C": "Le jazz",
+        "D": "L'opéra"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0077",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans quelle ville se déroule traditionnellement le célèbre concert du Nouvel An, mettant à l'honneur les valses de Strauss ?",
+      "options": {
+        "A": "Paris",
+        "B": "Londres",
+        "C": "Vienne",
+        "D": "Berlin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0078",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment appelle-t-on un ensemble de trois musiciens jouant ensemble ?",
+      "options": {
+        "A": "Un duo",
+        "B": "Un trio",
+        "C": "Un quatuor",
+        "D": "Un quintette"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0079",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel instrument possède 88 touches sur son clavier ?",
+      "options": {
+        "A": "L'accordéon",
+        "B": "Le piano",
+        "C": "Le clavecin",
+        "D": "L'orgue"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0080",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on les sons très 'bas' que produit une contrebasse ?",
+      "options": {
+        "A": "Des sons aigus",
+        "B": "Des sons graves",
+        "C": "Des sons doux",
+        "D": "Des sons rapides"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0081",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel instrument de la famille des cuivres possède une longue coulisse que l'on fait glisser ?",
+      "options": {
+        "A": "Le cor",
+        "B": "La trompette",
+        "C": "Le trombone",
+        "D": "Le tuba"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0082",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans quel pays est né le Reggae, genre musical rendu célèbre par Bob Marley ?",
+      "options": {
+        "A": "Le Brésil",
+        "B": "Les États-Unis",
+        "C": "La Jamaïque",
+        "D": "Cuba"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "music-fr-0083",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel compositeur français est célèbre pour son œuvre 'Le Carnaval des animaux' ?",
+      "options": {
+        "A": "Camille Saint-Saëns",
+        "B": "Gabriel Fauré",
+        "C": "Erik Satie",
+        "D": "Georges Bizet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0084",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Le support CD, utilisé pour écouter de la musique, a été commercialisé pour la première fois en quelle année ?",
+      "options": {
+        "A": "1972",
+        "B": "1982",
+        "C": "1992",
+        "D": "2002"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0085",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel instrument produit un son 'cristallin' quand on frappe sa barre de métal avec une tige ?",
+      "options": {
+        "A": "Le triangle",
+        "B": "Les cymbales",
+        "C": "Le tambour",
+        "D": "Le piano"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0086",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Que signifie le mot 'duo' en musique ?",
+      "options": {
+        "A": "Un morceau pour une seule personne",
+        "B": "Un morceau pour deux personnes",
+        "C": "Un morceau pour dix personnes",
+        "D": "Un morceau sans aucun instrument"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0087",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel grand compositeur est l'auteur de l'opéra 'Carmen', l'un des plus joués au monde ?",
+      "options": {
+        "A": "Claude Debussy",
+        "B": "Georges Bizet",
+        "C": "Maurice Ravel",
+        "D": "Jean-Philippe Rameau"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0088",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment appelle-t-on le registre vocal d'un enfant ou d'une femme à la voix très aiguë ?",
+      "options": {
+        "A": "Alto",
+        "B": "Soprano",
+        "C": "Ténor",
+        "D": "Basse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0089",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle était la particularité de l'orchestre symphonique à l'époque de Mozart par rapport à aujourd'hui ?",
+      "options": {
+        "A": "Il n'y avait pas de chef d'orchestre",
+        "B": "Il comptait beaucoup moins de musiciens",
+        "C": "Les instruments étaient tous en plastique",
+        "D": "Il n'y avait que des percussions"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0090",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel instrument de musique est souvent associé au dieu grec Apollon ?",
+      "options": {
+        "A": "La flûte de Pan",
+        "B": "La lyre",
+        "C": "Le tambourin",
+        "D": "Le cor"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0091",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel instrument à vent est connu pour être le symbole de l'Écosse ?",
+      "options": {
+        "A": "La flûte",
+        "B": "La cornemuse",
+        "C": "L'harmonica",
+        "D": "La trompette"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0092",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Sur une partition, à quoi servent les lignes de la portée ?",
+      "options": {
+        "A": "À dessiner des images",
+        "B": "À placer les notes à différentes hauteurs",
+        "C": "À séparer les paroles de la musique",
+        "D": "À compter le nombre de musiciens"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0093",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Lequel de ces instruments fait partie de la famille des bois, malgré son nom ?",
+      "options": {
+        "A": "Le cor",
+        "B": "Le cor anglais",
+        "C": "La trompette",
+        "D": "Le trombone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0094",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle est la durée totale d'une 'blanche' en termes de temps ?",
+      "options": {
+        "A": "1 temps",
+        "B": "2 temps",
+        "C": "3 temps",
+        "D": "4 temps"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0095",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Le groupe 'The Beatles' venait de quelle ville d'Angleterre ?",
+      "options": {
+        "A": "Londres",
+        "B": "Liverpool",
+        "C": "Manchester",
+        "D": "Birmingham"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0096",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "En quelle année le premier service de streaming musical célèbre (Spotify) a-t-il été lancé ?",
+      "options": {
+        "A": "1998",
+        "B": "2008",
+        "C": "2018",
+        "D": "1988"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0097",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel instrument possède un petit trou dans lequel on souffle et des trous que l'on bouche avec les doigts ?",
+      "options": {
+        "A": "La flûte à bec",
+        "B": "Le piano",
+        "C": "Le violon",
+        "D": "La batterie"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0098",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le volume sonore qui change au cours d'un morceau ?",
+      "options": {
+        "A": "Les nuances",
+        "B": "Le tempo",
+        "C": "La mélodie",
+        "D": "Le rythme"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "music-fr-0099",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Lequel de ces instruments est un instrument à cordes pincées ?",
+      "options": {
+        "A": "Le violon",
+        "B": "La guitare",
+        "C": "La flûte",
+        "D": "Le hautbois"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "music-fr-0100",
+      "category": "musique",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans un orchestre symphonique, à quoi servent les timbales ?",
+      "options": {
+        "A": "À jouer des mélodies très aiguës",
+        "B": "À marquer le rythme et donner de la puissance (percussions)",
+        "C": "À remplacer le piano",
+        "D": "À accorder les violons"
+      },
+      "answer": "B"
+    }
+  ]
+}

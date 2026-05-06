@@ -1,1 +1,3007 @@
-[]
+{
+  "category": "technology",
+  "lang": "en",
+  "questions": [
+    {
+      "id": "tech-en-0001",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Emma is using a computer. She uses a small device to click on icons. What is the French word for 'mouse'?",
+      "options": {
+        "A": "Le clavier",
+        "B": "L'écran",
+        "C": "La souris",
+        "D": "L'imprimante"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0002",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word for 'keyboard' is ___.",
+      "options": {
+        "A": "L'écran",
+        "B": "Le clavier",
+        "C": "Le haut-parleur",
+        "D": "Le casque"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0003",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Lucas wants to look at a video. Which part of the computer shows the image?",
+      "options": {
+        "A": "Le processeur",
+        "B": "La souris",
+        "C": "Le clavier",
+        "D": "L'écran"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "tech-en-0004",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "In a French classroom, children learn to use a 'tablette'. What is this device in English?",
+      "options": {
+        "A": "A table",
+        "B": "A tablet",
+        "C": "A laptop",
+        "D": "A smartphone"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0005",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To get a paper version of his drawing, Thomas uses an 'imprimante'. What does this machine do?",
+      "options": {
+        "A": "It prints",
+        "B": "It records",
+        "C": "It charges",
+        "D": "It plays music"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0006",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French term for 'battery' is 'la pile'. Which of these needs 'une pile' to work?",
+      "options": {
+        "A": "A book",
+        "B": "A bicycle",
+        "C": "A small toy car",
+        "D": "A pencil"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0007",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is the French word for 'the internet'?",
+      "options": {
+        "A": "Le réseau",
+        "B": "Le web",
+        "C": "L'internet",
+        "D": "Le câble"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0008",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To hear music from his computer, Leo uses 'des haut-parleurs'. What are they?",
+      "options": {
+        "A": "Cameras",
+        "B": "Microphones",
+        "C": "Keyboards",
+        "D": "Speakers"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "tech-en-0009",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word 'ordinateur' means ___.",
+      "options": {
+        "A": "Television",
+        "B": "Computer",
+        "C": "Radio",
+        "D": "Telephone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0010",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Identify the French word for 'a link' on a website.",
+      "options": {
+        "A": "Un bouton",
+        "B": "Un lien",
+        "C": "Une image",
+        "D": "Un texte"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0011",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To take a photo, you use 'un appareil photo'. Which of these is a digital one?",
+      "options": {
+        "A": "Un appareil numérique",
+        "B": "Un appareil mécanique",
+        "C": "Un appareil solaire",
+        "D": "Un appareil à vapeur"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0012",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The word 'mot de passe' is very important for security. What does it mean?",
+      "options": {
+        "A": "Username",
+        "B": "Email address",
+        "C": "Password",
+        "D": "Website name"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0013",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "In France, students use a software called 'Scratch' to learn 'le codage'. What is 'le codage'?",
+      "options": {
+        "A": "Painting",
+        "B": "Coding",
+        "C": "Writing stories",
+        "D": "Calculating math"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0014",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "To browse the web, you need 'un navigateur'. Which of these is a French word for a browser?",
+      "options": {
+        "A": "Un explorateur",
+        "B": "Un moteur",
+        "C": "Un navigateur",
+        "D": "Un conducteur"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0015",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'logiciel' is something you install on your computer. What is the English equivalent?",
+      "options": {
+        "A": "Hardware",
+        "B": "Software",
+        "C": "Screen",
+        "D": "Cable"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0016",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Marie is learning about 'l'électricité'. She knows that metal is 'conducteur'. What does this mean?",
+      "options": {
+        "A": "It blocks electricity",
+        "B": "It creates electricity",
+        "C": "It lets electricity pass through",
+        "D": "It stores electricity"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0017",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The 'unité centrale' is the brain of a desktop computer. What is it in English?",
+      "options": {
+        "A": "The monitor",
+        "B": "The central unit (tower)",
+        "C": "The mouse pad",
+        "D": "The printer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0018",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "When you want to save a document in French, you click on ___.",
+      "options": {
+        "A": "Supprimer",
+        "B": "Ouvrir",
+        "C": "Enregistrer",
+        "D": "Quitter"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0019",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "An 'e-mail' in official French is often called 'un courriel'. What are the two words combined to make 'courriel'?",
+      "options": {
+        "A": "Courrier + Électronique",
+        "B": "Cours + Ciel",
+        "C": "Court + Réel",
+        "D": "Courir + Lien"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0020",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Julie uses 'une clé USB' to move her files. What is 'une clé' in this context?",
+      "options": {
+        "A": "A door",
+        "B": "A lock",
+        "C": "A key (drive)",
+        "D": "A code"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0021",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the French term for 'the screen resolution'?",
+      "options": {
+        "A": "La taille de l'écran",
+        "B": "La couleur de l'écran",
+        "C": "La résolution de l'écran",
+        "D": "La vitre de l'écran"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0022",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "When a circuit is 'fermé' (closed) in electricity, what happens to the light bulb?",
+      "options": {
+        "A": "It stays off",
+        "B": "It turns on",
+        "C": "It explodes",
+        "D": "It changes color"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0023",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French word 'télécharger' is used when you get a file from the internet. What is it in English?",
+      "options": {
+        "A": "To upload",
+        "B": "To delete",
+        "C": "To download",
+        "D": "To send"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0024",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What does 'un moteur de recherche' do?",
+      "options": {
+        "A": "It fixes cars",
+        "B": "It helps you find information online",
+        "C": "It cleans the computer",
+        "D": "It makes the computer go faster"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0025",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In computing, the French use the word 'octet'. In English, we call this a ___.",
+      "options": {
+        "A": "Bit",
+        "B": "Byte",
+        "C": "Mega",
+        "D": "Pixel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0026",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the meaning of the French abbreviation 'S.A.V.' often found in tech shops?",
+      "options": {
+        "A": "Système d'Audio Visuel",
+        "B": "Service Après-Vente",
+        "C": "Sécurité et Appareils Vigiles",
+        "D": "Sortie d'Articles de Vente"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0027",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "A 'périphérique' is a device connected to the computer. Which of these is a 'périphérique de sortie' (output)?",
+      "options": {
+        "A": "Le clavier",
+        "B": "La souris",
+        "C": "L'imprimante",
+        "D": "Le microphone"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0028",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'Intelligence Artificielle' is often shortened in French. What is the abbreviation?",
+      "options": {
+        "A": "AI",
+        "B": "IA",
+        "C": "INTA",
+        "D": "ARTI"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0029",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In French technology classes, students learn about 'le cahier des charges'. What is this document?",
+      "options": {
+        "A": "A list of prices",
+        "B": "A user manual",
+        "C": "A set of specifications/requirements",
+        "D": "A drawing book"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0030",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What does 'la mémoire vive' (RAM) do in a computer?",
+      "options": {
+        "A": "It stores photos forever",
+        "B": "It stores data temporarily for current tasks",
+        "C": "It protects the computer from viruses",
+        "D": "It provides power to the screen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0031",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The word 'arobase' refers to which symbol used in email addresses?",
+      "options": {
+        "A": "#",
+        "B": "&",
+        "C": "@",
+        "D": "*"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0032",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'la domotique'?",
+      "options": {
+        "A": "Study of wild animals",
+        "B": "Home automation (smart homes)",
+        "C": "A type of fast car",
+        "D": "Deep sea exploration"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0033",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In a 'boucle' (loop) in programming, what happens to the action?",
+      "options": {
+        "A": "It stops immediately",
+        "B": "It repeats several times",
+        "C": "It happens only once",
+        "D": "It deletes the code"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0034",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What does 'le cloud' mean in French computing?",
+      "options": {
+        "A": "Storing data in the sky",
+        "B": "Storing data on remote servers via the internet",
+        "C": "A computer that works with rain",
+        "D": "A screen that is blurry"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0035",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The French term 'système d'exploitation' refers to which essential software?",
+      "options": {
+        "A": "Video games",
+        "B": "Operating System (like Windows or macOS)",
+        "C": "Antivirus",
+        "D": "Web browser"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0036",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'un algorithme' in simple terms?",
+      "options": {
+        "A": "A complex mathematical secret",
+        "B": "A series of instructions to solve a problem",
+        "C": "The name of the first computer",
+        "D": "A social network for scientists"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0037",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which French word means 'to click'?",
+      "options": {
+        "A": "Clavier",
+        "B": "Cliquer",
+        "C": "Chercher",
+        "D": "Couper"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0038",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "When the battery of your phone is low, you need 'un chargeur'. What is it?",
+      "options": {
+        "A": "A charger",
+        "B": "A case",
+        "C": "A screen protector",
+        "D": "A button"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0039",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word for 'headphones' is 'un casque'. What else can 'un casque' be?",
+      "options": {
+        "A": "A hat",
+        "B": "A helmet",
+        "C": "A scarf",
+        "D": "A glove"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0040",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To 'allumer' a computer means to ___.",
+      "options": {
+        "A": "Turn it off",
+        "B": "Turn it on",
+        "C": "Clean it",
+        "D": "Buy it"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0041",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is 'une application' (or 'appli')?",
+      "options": {
+        "A": "A type of paper",
+        "B": "A computer program for a specific task",
+        "C": "A teacher",
+        "D": "A school bag"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0042",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word 'fenêtre' means 'window'. What does it represent on a screen?",
+      "options": {
+        "A": "A physical hole in the monitor",
+        "B": "A rectangular area showing a program",
+        "C": "The glass of the tablet",
+        "D": "The light coming from the screen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0043",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Identify the French word for 'a robot'.",
+      "options": {
+        "A": "Un humain",
+        "B": "Un animal",
+        "C": "Un robot",
+        "D": "Un jouet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0044",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To write a capital letter in French, you press the 'Majuscule' key. What is this key in English?",
+      "options": {
+        "A": "Space",
+        "B": "Enter",
+        "C": "Shift/Caps Lock",
+        "D": "Escape"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0045",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What do you call 'the web' in French?",
+      "options": {
+        "A": "La toile",
+        "B": "Le fil",
+        "C": "Le filet",
+        "D": "La corde"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0046",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word 'fichier' means ___.",
+      "options": {
+        "A": "Folder",
+        "B": "File",
+        "C": "Desktop",
+        "D": "Trash"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0047",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is 'un écran tactile'?",
+      "options": {
+        "A": "A screen you can touch to control",
+        "B": "A screen that is very large",
+        "C": "A screen with no colors",
+        "D": "A screen for cinema"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0048",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To connect to the internet without a cable, the French use 'le Wi-Fi'. How is it pronounced?",
+      "options": {
+        "A": "Wee-Fee",
+        "B": "Why-Phy",
+        "C": "Wiff-Eye",
+        "D": "Wah-Fee"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0049",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "In France, 'un smartphone' is often called 'un téléphone intelligent'. What makes it 'intelligent'?",
+      "options": {
+        "A": "It can go to school",
+        "B": "It has advanced computing abilities and apps",
+        "C": "It speaks by itself",
+        "D": "It never breaks"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0050",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is the French word for 'the desktop' (the background of the computer screen)?",
+      "options": {
+        "A": "La table",
+        "B": "Le bureau",
+        "C": "La chaise",
+        "D": "Le salon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0051",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'dossier' on a computer is used to organize files. What is it in English?",
+      "options": {
+        "A": "A file",
+        "B": "A folder",
+        "C": "A page",
+        "D": "A link"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0052",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "If you 'supprimer' a file in French, you ___.",
+      "options": {
+        "A": "Copy it",
+        "B": "Delete it",
+        "C": "Rename it",
+        "D": "Print it"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0053",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'la corbeille' on a computer desktop?",
+      "options": {
+        "A": "The trash/recycle bin",
+        "B": "A shopping basket",
+        "C": "The place for emails",
+        "D": "The settings menu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0054",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French word 'données' refers to information processed by a computer. What is the English word?",
+      "options": {
+        "A": "Gifts",
+        "B": "Data",
+        "C": "Done",
+        "D": "Money"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0055",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "When you use a 'moteur de recherche', you type 'des mots-clés'. What are they?",
+      "options": {
+        "A": "Physical keys",
+        "B": "Keywords",
+        "C": "Code words",
+        "D": "Passwords"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0056",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "In electronics, 'une ampoule' is used in a circuit. What is 'une ampoule'?",
+      "options": {
+        "A": "A battery",
+        "B": "A wire",
+        "C": "A light bulb",
+        "D": "A switch"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0057",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What does it mean to 'actualiser' a web page?",
+      "options": {
+        "A": "To close it",
+        "B": "To refresh it",
+        "C": "To write on it",
+        "D": "To share it"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0058",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French word 'réseau' is used for a group of connected computers. What is it in English?",
+      "options": {
+        "A": "Reason",
+        "B": "Network",
+        "C": "Screen",
+        "D": "System"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0059",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these is 'un objet connecté'?",
+      "options": {
+        "A": "A wooden chair",
+        "B": "A smart watch",
+        "C": "A paper book",
+        "D": "A classic pen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0060",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'le curseur' on a screen?",
+      "options": {
+        "A": "A virus",
+        "B": "The moving arrow/pointer",
+        "C": "The power button",
+        "D": "A computer error"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0061",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In French, a 'bug' is often called 'un bogue'. What does it represent?",
+      "options": {
+        "A": "A small insect in the computer",
+        "B": "A software error or glitch",
+        "C": "A type of computer mouse",
+        "D": "A very fast internet speed"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0062",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'le disque dur' (HDD)?",
+      "options": {
+        "A": "A hard music record",
+        "B": "The main storage device of a computer",
+        "C": "A screen that is difficult to break",
+        "D": "A very fast processor"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0063",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'haut débit' refers to which type of internet connection?",
+      "options": {
+        "A": "Slow speed",
+        "B": "High speed (Broadband)",
+        "C": "Expensive",
+        "D": "Wireless only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0064",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'le codage binaire'?",
+      "options": {
+        "A": "A language with 10 digits",
+        "B": "A language using only 0 and 1",
+        "C": "A code for spies",
+        "D": "The secret name of internet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0065",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In a French tech project, what is 'un prototype'?",
+      "options": {
+        "A": "The final product sold in shops",
+        "B": "An early model built to test a concept",
+        "C": "A type of robot",
+        "D": "A drawing of an idea"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0066",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The French word 'cryptage' (or 'chiffrement') means ___.",
+      "options": {
+        "A": "Encryption",
+        "B": "Deleting",
+        "C": "Copying",
+        "D": "Printing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0067",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What does the abbreviation 'URL' represent in French, just like in English?",
+      "options": {
+        "A": "Un Réseau Local",
+        "B": "Une adresse de site web",
+        "C": "Un Robot Lumineux",
+        "D": "Une Unité de Recherche"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0068",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'la réalité virtuelle' (RV)?",
+      "options": {
+        "A": "A video that looks real",
+        "B": "A computer-generated environment you can interact with",
+        "C": "A dream about computers",
+        "D": "A new type of television"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0069",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In programming, what is 'une variable'?",
+      "options": {
+        "A": "A value that never changes",
+        "B": "A storage location that can hold different values",
+        "C": "A type of computer screen",
+        "D": "A button on the keyboard"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0070",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'la cybersécurité'?",
+      "options": {
+        "A": "Buying things online",
+        "B": "Protecting systems and data from digital attacks",
+        "C": "Building robots for police",
+        "D": "A game about hackers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0071",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The term 'open source' (or 'logiciel libre' in French) means ___.",
+      "options": {
+        "A": "The software is free to buy",
+        "B": "The source code is available for anyone to see and modify",
+        "C": "The computer is always open",
+        "D": "The software has no secret codes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0072",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'la bande passante' (bandwidth)?",
+      "options": {
+        "A": "The size of the computer tower",
+        "B": "The maximum rate of data transfer across a network",
+        "C": "The length of a Wi-Fi cable",
+        "D": "The number of colors on a screen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0073",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which French word means 'to scan' a document?",
+      "options": {
+        "A": "Imprimer",
+        "B": "Numériser (or Scanner)",
+        "C": "Effacer",
+        "D": "Écrire"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0074",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A 'baladeur MP3' was a famous device. What did it play?",
+      "options": {
+        "A": "Movies",
+        "B": "Music",
+        "C": "Games",
+        "D": "Photos"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0075",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word 'portable' usually refers to 'un ordinateur portable'. What is it?",
+      "options": {
+        "A": "A desktop computer",
+        "B": "A laptop",
+        "C": "A printer",
+        "D": "A mouse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0076",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Identify the French word for 'the battery percentage'.",
+      "options": {
+        "A": "Le niveau de batterie",
+        "B": "Le poids de la batterie",
+        "C": "La couleur de la batterie",
+        "D": "La forme de la batterie"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0077",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To go back on a website, you use 'la flèche retour'. What is 'une flèche'?",
+      "options": {
+        "A": "A circle",
+        "B": "An arrow",
+        "C": "A square",
+        "D": "A dot"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0078",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is 'un jeu vidéo' in English?",
+      "options": {
+        "A": "A video game",
+        "B": "A movie",
+        "C": "A music video",
+        "D": "A camera"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0079",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The French word 'touche' refers to a button on a keyboard. What is 'la touche Entrée'?",
+      "options": {
+        "A": "Shift",
+        "B": "Enter",
+        "C": "Space",
+        "D": "Backspace"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0080",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "If your computer is 'bloqué', it means it is ___.",
+      "options": {
+        "A": "Fast",
+        "B": "Frozen/Stuck",
+        "C": "New",
+        "D": "Blue"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0081",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'le matériel' in computing (distinct from software)?",
+      "options": {
+        "A": "The instructions",
+        "B": "The physical parts (hardware)",
+        "C": "The internet connection",
+        "D": "The electricity"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0082",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "In France, 'un courriel indésirable' is also called 'un spam'. What is it?",
+      "options": {
+        "A": "An important email",
+        "B": "Junk/Unwanted email",
+        "C": "An email from a friend",
+        "D": "A photo sent by email"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0083",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'une adresse IP'?",
+      "options": {
+        "A": "A physical home address",
+        "B": "A unique address that identifies a device on a network",
+        "C": "A password for the internet",
+        "D": "A website name"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0084",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French term 'mise à jour' means ___.",
+      "options": {
+        "A": "To turn off",
+        "B": "Update",
+        "C": "Delete",
+        "D": "New computer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0085",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'le mode avion' on a phone?",
+      "options": {
+        "A": "A game where you fly",
+        "B": "A setting that disables wireless signals",
+        "C": "A way to make the phone faster",
+        "D": "A louder ringtone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0086",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The word 'onglet' in a web browser means ___.",
+      "options": {
+        "A": "Button",
+        "B": "Tab",
+        "C": "Link",
+        "D": "History"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0087",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What does it mean to 'sauvegarder' your work?",
+      "options": {
+        "A": "To save it for later",
+        "B": "To show it to a friend",
+        "C": "To protect it from a virus",
+        "D": "To work on it again"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0088",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'un circuit intégré' (or 'une puce') in electronics?",
+      "options": {
+        "A": "A small animal",
+        "B": "A microchip",
+        "C": "A large cable",
+        "D": "A screen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0089",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The French call 'le disque compact' a 'CD'. What replaces it today?",
+      "options": {
+        "A": "Cassettes",
+        "B": "Streaming and USB drives",
+        "C": "Vinyl records",
+        "D": "Paper books"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0090",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'un mot-dièse' (or 'un hashtag')?",
+      "options": {
+        "A": "A secret password",
+        "B": "A keyword preceded by the # symbol",
+        "C": "A type of computer virus",
+        "D": "A new social network"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0091",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Identify the French word for 'the battery life' (how long it lasts).",
+      "options": {
+        "A": "L'autonomie",
+        "B": "La force",
+        "C": "La longueur",
+        "D": "La rapidité"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0092",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'le copier-coller'?",
+      "options": {
+        "A": "Printing and cutting",
+        "B": "Copying and pasting",
+        "C": "Drawing and coloring",
+        "D": "Deleting and rewriting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0093",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In France, 'la fibre optique' is used for ___.",
+      "options": {
+        "A": "Making clothes",
+        "B": "Very high-speed internet",
+        "C": "Building robots",
+        "D": "Protecting computer screens"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0094",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'un pare-feu' in computing?",
+      "options": {
+        "A": "A protection against physical fire",
+        "B": "A firewall (security system for networks)",
+        "C": "A program that makes the computer hot",
+        "D": "A screen saver with fire images"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0095",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What does 'la réalité augmentée' (RA) do?",
+      "options": {
+        "A": "It creates a completely virtual world",
+        "B": "It adds digital elements to the real world (like Pokémon Go)",
+        "C": "It makes the screen bigger",
+        "D": "It improves the sound of the computer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0096",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In French tech vocabulary, what is 'le biomimétisme'?",
+      "options": {
+        "A": "Studying biology with computers",
+        "B": "Inventions inspired by nature/living things",
+        "C": "A type of human-like robot",
+        "D": "The study of computer viruses"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0097",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'le débit' of an internet connection?",
+      "options": {
+        "A": "The price of the subscription",
+        "B": "The speed of data transfer",
+        "C": "The number of devices connected",
+        "D": "The length of the contract"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0098",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The French term 'données personnelles' is very important. What does it mean?",
+      "options": {
+        "A": "Secret computer codes",
+        "B": "Personal data/information about a person",
+        "C": "Photos of cats",
+        "D": "The computer's name"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0099",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'le serveur' in a computer network?",
+      "options": {
+        "A": "A person who fixes computers",
+        "B": "A computer that provides data to other computers",
+        "C": "The main screen in a classroom",
+        "D": "The printer shared by everyone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0100",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In French, what is 'un langage de programmation'?",
+      "options": {
+        "A": "A way to talk to robots",
+        "B": "A set of rules to write instructions for a computer",
+        "C": "The way screens display colors",
+        "D": "A secret language for hackers"
+      },
+      "answer": "B"
+    },
+
+    {
+      "id": "tech-en-0101",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To save a file, you look for the 'Enregistrer' button. What does this mean?",
+      "options": {
+        "A": "To open",
+        "B": "To delete",
+        "C": "To save",
+        "D": "To print"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0102",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The 'écran' is the part of the computer where you see images. In English, it is the ___.",
+      "options": {
+        "A": "Keyboard",
+        "B": "Mouse",
+        "C": "Screen",
+        "D": "Speaker"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0103",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "If you want to type text, you need a 'clavier'. What is it?",
+      "options": {
+        "A": "A printer",
+        "B": "A keyboard",
+        "C": "A mouse",
+        "D": "A microphone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0104",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A 'souris' is used to move the cursor. What animal does this word also mean?",
+      "options": {
+        "A": "Cat",
+        "B": "Dog",
+        "C": "Mouse",
+        "D": "Bird"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0105",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To join an online meeting, you turn on your 'webcam'. What is the word for this in formal French?",
+      "options": {
+        "A": "Microphone",
+        "B": "Haut-parleur",
+        "C": "Caméra web",
+        "D": "Écran"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0106",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The 'bureau' is the first thing you see when the computer starts. What is it in English?",
+      "options": {
+        "A": "Office",
+        "B": "Desktop",
+        "C": "Folder",
+        "D": "Trash"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0107",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A 'fenêtre' on your screen can be opened or closed. What does it mean literally?",
+      "options": {
+        "A": "Door",
+        "B": "Wall",
+        "C": "Window",
+        "D": "Floor"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0108",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "When you 'allumes' your tablet, you are ___.",
+      "options": {
+        "A": "Turning it off",
+        "B": "Charging it",
+        "C": "Turning it on",
+        "D": "Breaking it"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0109",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "An 'imprimante' allows you to put digital work on paper. What is the English name?",
+      "options": {
+        "A": "Scanner",
+        "B": "Printer",
+        "C": "Copier",
+        "D": "Fax"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0110",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "You use 'des écouteurs' to listen to music privately. What are they?",
+      "options": {
+        "A": "Speakers",
+        "B": "Headphones / Earbuds",
+        "C": "Microphones",
+        "D": "Screens"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0111",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "To browse websites, you use a 'navigateur'. Which one is a famous example?",
+      "options": {
+        "A": "Windows",
+        "B": "Photoshop",
+        "C": "Google Chrome",
+        "D": "Spotify"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0112",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What happens when you 'télécharges' a video?",
+      "options": {
+        "A": "You send it to a friend",
+        "B": "You record it with a camera",
+        "C": "You get it from the internet",
+        "D": "You delete it from your phone"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0113",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'logiciel' is a program you use on a machine. What is the English term?",
+      "options": {
+        "A": "Hardware",
+        "B": "Software",
+        "C": "Screen",
+        "D": "Processor"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0114",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "If you need to find info on the web, you use a 'moteur de recherche'. Which is one?",
+      "options": {
+        "A": "Gmail",
+        "B": "Google",
+        "C": "YouTube",
+        "D": "Instagram"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0115",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The 'corbeille' is where you put files you don't want. What is it in English?",
+      "options": {
+        "A": "Folder",
+        "B": "Cloud",
+        "C": "Recycle Bin / Trash",
+        "D": "Settings"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0116",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "To connect to 'le Wi-Fi', you usually need a 'mot de passe'. What is it?",
+      "options": {
+        "A": "A username",
+        "B": "A password",
+        "C": "An email address",
+        "D": "A phone number"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0117",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the purpose of a 'serveur' in a network?",
+      "options": {
+        "A": "To help people in a restaurant",
+        "B": "To provide data and services to other computers",
+        "C": "To print very large documents",
+        "D": "To scan objects in 3D"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0118",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "A 'donnée' is a single piece of information. What is the plural in English?",
+      "options": {
+        "A": "Facts",
+        "B": "Data",
+        "C": "Numbers",
+        "D": "Files"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0119",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In coding, a 'boucle' allows you to ___ an action.",
+      "options": {
+        "A": "Delete",
+        "B": "Repeat",
+        "C": "Rename",
+        "D": "Color"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0120",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the role of 'le processeur' (CPU)?",
+      "options": {
+        "A": "Storing all the files",
+        "B": "Executing instructions and calculations",
+        "C": "Displaying the colors on screen",
+        "D": "Connecting to the Wi-Fi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0121",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What does 'stockage' mean for a computer?",
+      "options": {
+        "A": "The speed of the internet",
+        "B": "The capacity to keep data on a disk",
+        "C": "The way the mouse moves",
+        "D": "The brightness of the screen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0122",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'la réalité virtuelle'?",
+      "options": {
+        "A": "A video of a forest",
+        "B": "A simulation created by a computer",
+        "C": "A robot that looks like a human",
+        "D": "An old type of television"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0123",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "A 'périphérique' is anything you plug into a computer. Which one is for 'entrée' (input)?",
+      "options": {
+        "A": "Screen",
+        "B": "Printer",
+        "C": "Keyboard",
+        "D": "Speakers"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0124",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'l'intelligence artificielle'?",
+      "options": {
+        "A": "A very smart human teacher",
+        "B": "Machines that can perform tasks like humans",
+        "C": "A new type of solar battery",
+        "D": "A fast way to print books"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0125",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A 'lien' on a website takes you to a new page. What is it in English?",
+      "options": {
+        "A": "Link",
+        "B": "Picture",
+        "C": "Video",
+        "D": "Music"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0126",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "When you use your finger on a screen, it is called an 'écran ___'.",
+      "options": {
+        "A": "Magique",
+        "B": "Tactile",
+        "C": "Vivant",
+        "D": "Rapide"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0127",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is a 'tablette'?",
+      "options": {
+        "A": "A big computer tower",
+        "B": "A portable touch-screen device",
+        "C": "A type of chocolate bar",
+        "D": "A small table"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0128",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To use a computer, you usually 'cliques' with a ___.",
+      "options": {
+        "A": "Pencil",
+        "B": "Souris",
+        "C": "Key",
+        "D": "Finger"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0129",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'site web' is a collection of web pages. How do you say 'to visit a site'?",
+      "options": {
+        "A": "Manger un site",
+        "B": "Courir un site",
+        "C": "Consulter un site",
+        "D": "Dormir un site"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0130",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which word means 'to copy' a file?",
+      "options": {
+        "A": "Coller",
+        "B": "Copier",
+        "C": "Couper",
+        "D": "Casser"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0131",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'courriel' is a formal word for 'un e-mail'. What does it stand for?",
+      "options": {
+        "A": "Courrier lent",
+        "B": "Courrier électronique",
+        "C": "Courrier réel",
+        "D": "Courrier bleu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0132",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The 'clé USB' is used to carry files. What is 'une clé' literally?",
+      "options": {
+        "A": "A door",
+        "B": "A box",
+        "C": "A key",
+        "D": "A bag"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0133",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'le codage'?",
+      "options": {
+        "A": "Writing a book",
+        "B": "Creating instructions for a computer",
+        "C": "Fixing a broken screen",
+        "D": "Painting a digital picture"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0134",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'un algorithme'?",
+      "options": {
+        "A": "A type of rhythm in music",
+        "B": "A step-by-step procedure to solve a problem",
+        "C": "The name of the first computer",
+        "D": "A secret code for the police"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0135",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'la domotique'?",
+      "options": {
+        "A": "Training animals with computers",
+        "B": "Smart home technology",
+        "C": "Designing new types of cars",
+        "D": "Studying stars with a telescope"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0136",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a 'langage de programmation'?",
+      "options": {
+        "A": "French",
+        "B": "English",
+        "C": "Python",
+        "D": "History"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0137",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "An 'icône' is a small picture on your screen. What happens when you click it?",
+      "options": {
+        "A": "It opens a program",
+        "B": "It turns off the screen",
+        "C": "It cleans the computer",
+        "D": "It makes a photo"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0138",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The '@' symbol is used in emails. In French, it is called an ___.",
+      "options": {
+        "A": "A-mail",
+        "B": "Escargot",
+        "C": "Arobase",
+        "D": "Rond"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0139",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To get more power for your phone, you plug in a 'chargeur'. What is it?",
+      "options": {
+        "A": "Battery",
+        "B": "Charger",
+        "C": "Case",
+        "D": "Earphone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0140",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which word means 'to search' on the internet?",
+      "options": {
+        "A": "Jouer",
+        "B": "Dormir",
+        "C": "Rechercher",
+        "D": "Manger"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0141",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'smartphone' can also be called a 'téléphone ___'.",
+      "options": {
+        "A": "Rapide",
+        "B": "Intelligent",
+        "C": "Grand",
+        "D": "Vieux"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0142",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "If your internet is too slow, you might need a better 'connexion'. What is it?",
+      "options": {
+        "A": "Computer",
+        "B": "Connection",
+        "C": "Battery",
+        "D": "Screen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0143",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "To use an app, you must often 'télécharger' it first. What is the English term?",
+      "options": {
+        "A": "Upload",
+        "B": "Download",
+        "C": "Buy",
+        "D": "Close"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0144",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'le haut-parleur'?",
+      "options": {
+        "A": "The screen",
+        "B": "The speaker",
+        "C": "The microphone",
+        "D": "The printer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0145",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'le cloud' (l'informatique en nuage)?",
+      "options": {
+        "A": "A computer that works outside",
+        "B": "Online storage on remote servers",
+        "C": "A screen with a cloudy background",
+        "D": "A new way to predict the weather"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0146",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "A 'bug' in a program is often called a 'bogue' in French. What is it?",
+      "options": {
+        "A": "A hardware part",
+        "B": "A software error",
+        "C": "A type of mouse",
+        "D": "A fast internet speed"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0147",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What does 'la cybersécurité' protect?",
+      "options": {
+        "A": "The physical computer tower",
+        "B": "Data and systems from digital attacks",
+        "C": "The health of the user's eyes",
+        "D": "The battery life of the phone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0148",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'la mémoire vive' (RAM)?",
+      "options": {
+        "A": "Permanent storage for photos",
+        "B": "Temporary memory for running apps",
+        "C": "A backup of all the emails",
+        "D": "The name of the computer's battery"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0149",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A 'mot de passe' should be secret. What is 'secret' in English?",
+      "options": {
+        "A": "Public",
+        "B": "Secret",
+        "C": "Easy",
+        "D": "Funny"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0150",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "You look at the 'heure' on your smart watch. What is 'l'heure'?",
+      "options": {
+        "A": "The news",
+        "B": "The time",
+        "C": "The weather",
+        "D": "The music"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0151",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "An 'e-mail' can be sent to a friend. What is the verb 'to send'?",
+      "options": {
+        "A": "Écrire",
+        "B": "Envoyer",
+        "C": "Lire",
+        "D": "Ouvrir"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0152",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To use a 'casque', you put it on your ___.",
+      "options": {
+        "A": "Hands",
+        "B": "Feet",
+        "C": "Head",
+        "D": "Eyes"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "tech-en-0153",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'clavier sans fil' doesn't have a ___.",
+      "options": {
+        "A": "Key",
+        "B": "Wire / Cable",
+        "C": "Battery",
+        "D": "Letter"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0154",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "If you 'actualises' a page, you are ___ it.",
+      "options": {
+        "A": "Deleting",
+        "B": "Refreshing",
+        "C": "Copying",
+        "D": "Closing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0155",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'le mode silencieux' on a phone?",
+      "options": {
+        "A": "Loud mode",
+        "B": "Silent mode",
+        "C": "Fast mode",
+        "D": "Sleep mode"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0156",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'batterie externe' helps when you have no ___.",
+      "options": {
+        "A": "Friends",
+        "B": "Electricity",
+        "C": "Internet",
+        "D": "Money"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0157",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'le chiffrement'?",
+      "options": {
+        "A": "Counting numbers",
+        "B": "Encryption (hiding data)",
+        "C": "Printing a document",
+        "D": "Charging a phone"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0158",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In France, 'la fibre optique' is used for very fast ___.",
+      "options": {
+        "A": "Cars",
+        "B": "Internet",
+        "C": "Cooking",
+        "D": "Printing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0159",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'l'informatique'?",
+      "options": {
+        "A": "Information about stars",
+        "B": "Computer science",
+        "C": "Reading the newspaper",
+        "D": "Building houses"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0160",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'la bande passante'?",
+      "options": {
+        "A": "The size of a laptop",
+        "B": "Bandwidth (data speed)",
+        "C": "A group of hackers",
+        "D": "A brand of computers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0161",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which word means 'the web'?",
+      "options": {
+        "A": "Le fil",
+        "B": "La toile",
+        "C": "Le mur",
+        "D": "Le ciel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0162",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "If you want to take a photo, you use an 'appareil ___'.",
+      "options": {
+        "A": "Musique",
+        "B": "Photo",
+        "C": "Vitesse",
+        "D": "Lumière"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0163",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A 'jeu vidéo' is a game you play on a ___.",
+      "options": {
+        "A": "Console",
+        "B": "Book",
+        "C": "Tree",
+        "D": "Bed"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0164",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "When your phone rings, it is an 'appel ___'.",
+      "options": {
+        "A": "Écrit",
+        "B": "Vocal",
+        "C": "Lent",
+        "D": "Triste"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0165",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'périphérique de sortie' shows results. Which is one?",
+      "options": {
+        "A": "Le clavier",
+        "B": "L'écran",
+        "C": "La souris",
+        "D": "Le micro"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0166",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "To use a laptop in the park, you need a good 'batterie'. What is it?",
+      "options": {
+        "A": "Battery",
+        "B": "Screen",
+        "C": "Keyboard",
+        "D": "Cable"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0167",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'le bureau' on a Windows computer?",
+      "options": {
+        "A": "The physical desk",
+        "B": "The software background / desktop",
+        "C": "The main menu",
+        "D": "The recycle bin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0168",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which device is 'une liseuse'?",
+      "options": {
+        "A": "A music player",
+        "B": "An e-reader for books",
+        "C": "A digital camera",
+        "D": "A GPS for the car"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0169",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'le code source'?",
+      "options": {
+        "A": "The place where electricity starts",
+        "B": "The human-readable instructions of a program",
+        "C": "A secret password for the cloud",
+        "D": "The manual for a printer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0170",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'le débit descendant'?",
+      "options": {
+        "A": "The upload speed",
+        "B": "The download speed",
+        "C": "The price of the computer",
+        "D": "The size of the screen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0171",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which part is 'la carte mère'?",
+      "options": {
+        "A": "The screen",
+        "B": "The motherboard",
+        "C": "The power cable",
+        "D": "The mouse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0172",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What does 'sauvegarder ses données' mean?",
+      "options": {
+        "A": "To spend all your data",
+        "B": "To back up your information",
+        "C": "To buy a new computer",
+        "D": "To delete all your files"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0173",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A 'robot' can perform tasks. How do you spell it in French?",
+      "options": {
+        "A": "Robo",
+        "B": "Robot",
+        "C": "Robotte",
+        "D": "Robo"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0174",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To hear the sound of a movie, you need 'le ___'.",
+      "options": {
+        "A": "Lumière",
+        "B": "Son",
+        "C": "Feu",
+        "D": "Eau"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0175",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A 'mot de passe' is used to 'déverrouiller' a phone. What is it?",
+      "options": {
+        "A": "To lock",
+        "B": "To unlock",
+        "C": "To call",
+        "D": "To break"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0176",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is 'une tablette'?",
+      "options": {
+        "A": "iPad",
+        "B": "iPhone",
+        "C": "PlayStation",
+        "D": "TV"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0177",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'un onglet' in your browser?",
+      "options": {
+        "A": "A new window",
+        "B": "A tab",
+        "C": "A bookmark",
+        "D": "A button"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0178",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "To use 'le GPS', you need a 'signal ___'.",
+      "options": {
+        "A": "Radio",
+        "B": "Satellite",
+        "C": "Feu",
+        "D": "Lumière"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0179",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'logiciel malveillant' is bad. What is it in English?",
+      "options": {
+        "A": "Good software",
+        "B": "Malware",
+        "C": "A game",
+        "D": "The cloud"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0180",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'la corbeille' literally in English?",
+      "options": {
+        "A": "Basket",
+        "B": "Box",
+        "C": "Bag",
+        "D": "Table"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0181",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'un octet'?",
+      "options": {
+        "A": "A piece of information (Byte)",
+        "B": "A type of screen",
+        "C": "A computer cable",
+        "D": "A brand of tablets"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0182",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In coding, 'Si... Alors...' is a ___.",
+      "options": {
+        "A": "Variable",
+        "B": "Condition",
+        "C": "Loop",
+        "D": "Bug"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0183",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'le matériel informatique'?",
+      "options": {
+        "A": "Software",
+        "B": "Hardware",
+        "C": "The internet",
+        "D": "Electrical bills"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0184",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'la domotique'?",
+      "options": {
+        "A": "Training robots",
+        "B": "Smart home tech",
+        "C": "Using computers in cars",
+        "D": "Studying biology with machines"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0185",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To use a computer, you look at 'l'___'.",
+      "options": {
+        "A": "Clavier",
+        "B": "Écran",
+        "C": "Souris",
+        "D": "Micro"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0186",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A 'clé USB' can hold 'des ___'.",
+      "options": {
+        "A": "Fichiers",
+        "B": "Tables",
+        "C": "Chaises",
+        "D": "Fruits"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0187",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is 'un smartphone'?",
+      "options": {
+        "A": "A smart phone",
+        "B": "A smart book",
+        "C": "A smart television",
+        "D": "A smart oven"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0188",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To charge your tablet, you need 'un ___'.",
+      "options": {
+        "A": "Câble",
+        "B": "Livre",
+        "C": "Verre",
+        "D": "Chat"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0189",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'un moteur de recherche' literally in English?",
+      "options": {
+        "A": "Research engine",
+        "B": "Search engine",
+        "C": "Internet motor",
+        "D": "Web machine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0190",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'navigateur web' is used to ___ the internet.",
+      "options": {
+        "A": "Eat",
+        "B": "Surf / Browse",
+        "C": "Sleep",
+        "D": "Draw"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0191",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "What is 'un e-mail' in official French?",
+      "options": {
+        "A": "Une lettre",
+        "B": "Un courriel",
+        "C": "Un message",
+        "D": "Un texte"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0192",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "To listen to sound from a laptop, you use 'le ___'.",
+      "options": {
+        "A": "Micro",
+        "B": "Haut-parleur",
+        "C": "Clavier",
+        "D": "Souris"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0193",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'la mémoire RAM'?",
+      "options": {
+        "A": "Permanent memory",
+        "B": "Random Access Memory",
+        "C": "The computer's name",
+        "D": "A type of screen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0194",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is 'un bug' in French?",
+      "options": {
+        "A": "Un insecte",
+        "B": "Un bogue",
+        "C": "Un trou",
+        "D": "Un cri"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0195",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What does 'sauvegarder' protect against?",
+      "options": {
+        "A": "Bad weather",
+        "B": "Losing data",
+        "C": "Eye pain",
+        "D": "High prices"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0196",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In France, 'la fibre' means very fast ___.",
+      "options": {
+        "A": "Cars",
+        "B": "Broadband Internet",
+        "C": "Robots",
+        "D": "Printers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0197",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What is 'une application'?",
+      "options": {
+        "A": "An app",
+        "B": "A book",
+        "C": "A table",
+        "D": "A pen"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0198",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To use a mouse, you must '___'.",
+      "options": {
+        "A": "Manger",
+        "B": "Cliquer",
+        "C": "Dormir",
+        "D": "Sauter"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "tech-en-0199",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these has an 'écran tactile'?",
+      "options": {
+        "A": "iPad",
+        "B": "A radio",
+        "C": "A lamp",
+        "D": "A chair"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "tech-en-0200",
+      "category": "technologie",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "If you are online, you are on 'l'___'.",
+      "options": {
+        "A": "Internet",
+        "B": "Ciel",
+        "C": "Soleil",
+        "D": "Lune"
+      },
+      "answer": "A"
+    }
+  ]
+}
