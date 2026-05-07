@@ -40,12 +40,12 @@
       "difficulty": "easy",
       "question": "A scientist uses a special tool to look at tiny cells. In French, this is called 'un microscope'. What does it do?",
       "options": {
-        "A": "It measures how heavy things are",
-        "B": "It makes things look much bigger",
-        "C": "It makes things look much smaller",
-        "D": "It changes the color of objects"
+        "A": "It makes things look much bigger",
+        "B": "It makes things look much smaller",
+        "C": "It changes the color of objects",
+        "D": "It measures how heavy things are"
       },
-      "answer": "B"
+      "answer": "A"
     },
     {
       "id": "sci-en-0004",
@@ -85,12 +85,12 @@
       "difficulty": "easy",
       "question": "Which body part do you use to breathe? In French, we say 'respirer'.",
       "options": {
-        "A": "The elbows",
-        "B": "The lungs",
-        "C": "The stomach",
-        "D": "The knees"
+        "A": "The lungs",
+        "B": "The stomach",
+        "C": "The knees",
+        "D": "The elbows"
       },
-      "answer": "B"
+      "answer": "A"
     },
     {
       "id": "sci-en-0007",
@@ -310,12 +310,12 @@
       "difficulty": "easy",
       "question": "In French, 'la graine' is the part of the plant that you bury in the dirt. In English, it is...",
       "options": {
-        "A": "The leaf",
-        "B": "The fruit",
-        "C": "The branch",
-        "D": "The seed"
+        "A": "The seed",
+        "B": "The leaf",
+        "C": "The fruit",
+        "D": "The branch"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0022",
@@ -625,12 +625,12 @@
       "difficulty": "medium",
       "question": "Which of these gases do we need to breathe to survive? In French, it is 'le dioxygène'.",
       "options": {
-        "A": "Carbon dioxide",
-        "B": "Nitrogen",
-        "C": "Hydrogen",
-        "D": "Oxygen"
+        "A": "Oxygen",
+        "B": "Carbon dioxide",
+        "C": "Nitrogen",
+        "D": "Hydrogen"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0043",
@@ -760,12 +760,12 @@
       "difficulty": "medium",
       "question": "A 'chaîne alimentaire' shows who eats whom. What is usually at the very start of the chain?",
       "options": {
-        "A": "A human",
-        "B": "A predator",
-        "C": "A plant (producer)",
-        "D": "An insect"
+        "A": "A predator",
+        "B": "A plant (producer)",
+        "C": "An insect",
+        "D": "A human"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "sci-en-0052",
@@ -820,12 +820,12 @@
       "difficulty": "medium",
       "question": "What is the process called when a liquid turns into a solid? In French, it is 'la solidification'.",
       "options": {
-        "A": "Melting",
-        "B": "Boiling",
-        "C": "Evaporating",
-        "D": "Freezing"
+        "A": "Freezing",
+        "B": "Melting",
+        "C": "Boiling",
+        "D": "Evaporating"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0056",
@@ -850,12 +850,12 @@
       "difficulty": "medium",
       "question": "In French, 'l'ouïe' is the sense of hearing. Which part of the ear vibrates first when sound enters?",
       "options": {
-        "A": "The cochlea",
-        "B": "The outer ear",
-        "C": "The auditory nerve",
-        "D": "The eardrum"
+        "A": "The eardrum",
+        "B": "The cochlea",
+        "C": "The outer ear",
+        "D": "The auditory nerve"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0058",
@@ -1090,12 +1090,12 @@
       "difficulty": "hard",
       "question": "In biology, 'la respiration cellulaire' occurs in which part of the cell?",
       "options": {
-        "A": "Ribosomes",
-        "B": "Vacuoles",
-        "C": "Cell wall",
-        "D": "Mitochondria"
+        "A": "Mitochondria",
+        "B": "Ribosomes",
+        "C": "Vacuoles",
+        "D": "Cell wall"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0074",
@@ -1270,12 +1270,12 @@
       "difficulty": "hard",
       "question": "In physics, 'la lumière' travels in a straight line. What is its speed in a vacuum (approximately)?",
       "options": {
-        "A": "1,000 km/h",
-        "B": "340 m/s",
-        "C": "5,000 km/s",
-        "D": "300,000 km/s"
+        "A": "300,000 km/s",
+        "B": "1,000 km/h",
+        "C": "340 m/s",
+        "D": "5,000 km/s"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0086",
@@ -1502,6 +1502,67 @@
       },
       "answer": "C"
     },
+
+    {
+      "id": "sci-en-0101",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A 'vétérinaire' is a doctor for animals. Which animal is a mammal ('un mammifère')?",
+      "options": {
+        "A": "A snake",
+        "B": "A shark",
+        "C": "A dog",
+        "D": "A spider"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-en-0102",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "To grow, a plant needs 'l'eau' and 'la lumière'. What else does it need from the ground?",
+      "options": {
+        "A": "Soil",
+        "B": "Chocolate",
+        "C": "Plastic",
+        "D": "Sugar"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0103",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The planet we live on is called 'la Terre'. What shape is it?",
+      "options": {
+        "A": "A flat square",
+        "B": "A giant star",
+        "C": "A long triangle",
+        "D": "A round sphere"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "sci-en-0104",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "In a simple circuit, 'une ampoule' is the part that produces light. What do you call it in English?",
+      "options": {
+        "A": "A battery",
+        "B": "A light bulb",
+        "C": "A wire",
+        "D": "A switch"
+      },
+      "answer": "B"
+    },
     {
       "id": "sci-en-0105",
       "category": "sciences",
@@ -1525,12 +1586,162 @@
       "difficulty": "easy",
       "question": "Which of these is a seasonal change? The French call them 'les saisons'.",
       "options": {
-        "A": "The sun rising every morning",
-        "B": "Brushing your teeth",
-        "C": "Eating breakfast",
-        "D": "Leaves falling in autumn"
+        "A": "Leaves falling in autumn",
+        "B": "The sun rising every morning",
+        "C": "Brushing your teeth",
+        "D": "Eating breakfast"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0107",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A magnet can pull some metals. This force is 'le magnétisme'. Which object will it attract?",
+      "options": {
+        "A": "A wooden spoon",
+        "B": "A plastic toy",
+        "C": "A piece of paper",
+        "D": "An iron nail"
       },
       "answer": "D"
+    },
+    {
+      "id": "sci-en-0108",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The 'air' is all around us. We can feel it move. What do we call this movement?",
+      "options": {
+        "A": "The rain",
+        "B": "The wind",
+        "C": "The snow",
+        "D": "The sun"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0109",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Your heart pumps 'le sang' through your body. What is the English name for this red liquid?",
+      "options": {
+        "A": "Water",
+        "B": "Juice",
+        "C": "Blood",
+        "D": "Milk"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-en-0110",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which sense do you use to hear music? The French call it 'l'ouïe'.",
+      "options": {
+        "A": "Hearing",
+        "B": "Sight",
+        "C": "Touch",
+        "D": "Smell"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0111",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A butterfly starts as 'une chenille'. What is the English word for this crawler?",
+      "options": {
+        "A": "A spider",
+        "B": "A bee",
+        "C": "A frog",
+        "D": "A caterpillar"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "sci-en-0112",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "When you boil water, it turns into a gas. This gas is called...",
+      "options": {
+        "A": "La glace",
+        "B": "La vapeur",
+        "C": "Le jus",
+        "D": "La soupe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0113",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Thomas uses a 'thermomètre' to see if he has a fever. What does this tool measure?",
+      "options": {
+        "A": "Weight",
+        "B": "Length",
+        "C": "Temperature",
+        "D": "Time"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-en-0114",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The part of the plant you bury in the dirt is 'la graine'. In English, it is...",
+      "options": {
+        "A": "The seed",
+        "B": "The leaf",
+        "C": "The fruit",
+        "D": "The branch"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0115",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The moon moves around the Earth. The French name for this natural satellite is...",
+      "options": {
+        "A": "Mars",
+        "B": "Le Soleil",
+        "C": "Vénus",
+        "D": "La Lune"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "sci-en-0116",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which of these is a liquid? The French term is 'un liquide'.",
+      "options": {
+        "A": "A rock",
+        "B": "Orange juice",
+        "C": "A pencil",
+        "D": "A table"
+      },
+      "answer": "B"
     },
     {
       "id": "sci-en-0117",
@@ -1546,6 +1757,21 @@
         "D": "Une patte"
       },
       "answer": "C"
+    },
+    {
+      "id": "sci-en-0118",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What bone protects the brain? The French call it 'le crâne'.",
+      "options": {
+        "A": "The skull",
+        "B": "The ribcage",
+        "C": "The spine",
+        "D": "The hip"
+      },
+      "answer": "A"
     },
     {
       "id": "sci-en-0119",
@@ -1668,6 +1894,21 @@
       "answer": "C"
     },
     {
+      "id": "sci-en-0127",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Leo is studying 'le système solaire'. Which planet is known as the Red Planet?",
+      "options": {
+        "A": "Mars",
+        "B": "Jupiter",
+        "C": "Saturne",
+        "D": "Mercure"
+      },
+      "answer": "A"
+    },
+    {
       "id": "sci-en-0128",
       "category": "sciences",
       "subcategory": null,
@@ -1713,6 +1954,21 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0131",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "When you mix salt into water, it disappears. This process is called...",
+      "options": {
+        "A": "La fusion",
+        "B": "La solidification",
+        "C": "La dissolution",
+        "D": "L'évaporation"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0132",
       "category": "sciences",
       "subcategory": null,
@@ -1735,12 +1991,12 @@
       "difficulty": "medium",
       "question": "The smallest unit of life is 'une cellule'. What is the English translation?",
       "options": {
-        "A": "A muscle",
-        "B": "A bone",
-        "C": "A cell",
-        "D": "A germ"
+        "A": "A bone",
+        "B": "A cell",
+        "C": "A germ",
+        "D": "A muscle"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "sci-en-0134",
@@ -1773,6 +2029,36 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0136",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Rain and snow falling from clouds are types of...",
+      "options": {
+        "A": "L'évaporation",
+        "B": "Les précipitations",
+        "C": "La condensation",
+        "D": "La filtration"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0137",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Where does 'la digestion' mostly happen after food leaves the mouth?",
+      "options": {
+        "A": "The heart",
+        "B": "The brain",
+        "C": "The stomach",
+        "D": "The lungs"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0138",
       "category": "sciences",
       "subcategory": null,
@@ -1780,12 +2066,12 @@
       "difficulty": "medium",
       "question": "An animal that eats only plants is called...",
       "options": {
-        "A": "Un insectivore",
-        "B": "Un carnivore",
-        "C": "Un herbivore",
-        "D": "Un omnivore"
+        "A": "Un carnivore",
+        "B": "Un herbivore",
+        "C": "Un omnivore",
+        "D": "Un insectivore"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "sci-en-0139",
@@ -1816,6 +2102,36 @@
         "D": "12 hours"
       },
       "answer": "B"
+    },
+    {
+      "id": "sci-en-0141",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "In a 'circuit en série', if one bulb breaks, what happens to the others?",
+      "options": {
+        "A": "They all go out",
+        "B": "They stay on",
+        "C": "They get brighter",
+        "D": "They change color"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0142",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which gas do we need to breathe to live? The French call it 'le dioxygène'.",
+      "options": {
+        "A": "Oxygen",
+        "B": "Carbon dioxide",
+        "C": "Nitrogen",
+        "D": "Hydrogen"
+      },
+      "answer": "A"
     },
     {
       "id": "sci-en-0143",
@@ -1885,12 +2201,12 @@
       "difficulty": "medium",
       "question": "When light hits a mirror and bounces back, this is called...",
       "options": {
-        "A": "La filtration",
-        "B": "La réfraction",
-        "C": "La réflexion",
-        "D": "La combustion"
+        "A": "La réfraction",
+        "B": "La réflexion",
+        "C": "La combustion",
+        "D": "La filtration"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "sci-en-0148",
@@ -1900,12 +2216,12 @@
       "difficulty": "medium",
       "question": "Melted rock that flows out of a volcano is 'la lave'. In English, it is...",
       "options": {
-        "A": "Magma",
-        "B": "Ash",
-        "C": "Smoke",
-        "D": "Lava"
+        "A": "Lava",
+        "B": "Magma",
+        "C": "Ash",
+        "D": "Smoke"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0149",
@@ -1968,6 +2284,21 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0153",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which part of the plant absorbs water from the soil? In French, these are 'les racines'.",
+      "options": {
+        "A": "The stems",
+        "B": "The leaves",
+        "C": "The roots",
+        "D": "The flowers"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0154",
       "category": "sciences",
       "subcategory": null,
@@ -1981,6 +2312,21 @@
         "D": "La diffusion"
       },
       "answer": "B"
+    },
+    {
+      "id": "sci-en-0155",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Liquid water turning into a solid is called 'la solidification'. What is the English term?",
+      "options": {
+        "A": "Melting",
+        "B": "Boiling",
+        "C": "Evaporating",
+        "D": "Freezing"
+      },
+      "answer": "D"
     },
     {
       "id": "sci-en-0156",
@@ -2005,12 +2351,12 @@
       "difficulty": "medium",
       "question": "Which part of the ear vibrates first when sound arrives? In French, it is 'le tympan'.",
       "options": {
-        "A": "The cochlea",
-        "B": "The pinna",
-        "C": "The anvil",
-        "D": "The eardrum"
+        "A": "The eardrum",
+        "B": "The cochlea",
+        "C": "The pinna",
+        "D": "The anvil"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0158",
@@ -2095,12 +2441,12 @@
       "difficulty": "hard",
       "question": "Molecules are made of tiny particles. In French, these are called...",
       "options": {
-        "A": "Des cellules",
-        "B": "Des bactéries",
-        "C": "Des noyaux",
-        "D": "Des atomes"
+        "A": "Des atomes",
+        "B": "Des cellules",
+        "C": "Des bactéries",
+        "D": "Des noyaux"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0164",
@@ -2110,12 +2456,12 @@
       "difficulty": "hard",
       "question": "Making new things from old waste is 'le recyclage'. What is the English word?",
       "options": {
-        "A": "Burning",
-        "B": "Pollution",
-        "C": "Recycling",
-        "D": "Production"
+        "A": "Pollution",
+        "B": "Recycling",
+        "C": "Production",
+        "D": "Burning"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "sci-en-0165",
@@ -2283,6 +2629,21 @@
       "answer": "C"
     },
     {
+      "id": "sci-en-0176",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The atmospheric layer closest to Earth where weather happens is...",
+      "options": {
+        "A": "La stratosphère",
+        "B": "La mésosphère",
+        "C": "La troposphère",
+        "D": "L'exosphère"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0177",
       "category": "sciences",
       "subcategory": null,
@@ -2320,12 +2681,12 @@
       "difficulty": "hard",
       "question": "Climate change is linked to 'l'effet de serre'. What is this in English?",
       "options": {
-        "A": "Forest fire",
-        "B": "Ocean current",
-        "C": "Wind power",
-        "D": "Greenhouse effect"
+        "A": "Greenhouse effect",
+        "B": "Forest fire",
+        "C": "Ocean current",
+        "D": "Wind power"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0180",
@@ -2335,12 +2696,12 @@
       "difficulty": "hard",
       "question": "A microscope that uses lenses and light is called 'optique'. What is the English word?",
       "options": {
-        "A": "Electric",
-        "B": "Digital",
-        "C": "Heavy",
-        "D": "Optical"
+        "A": "Optical",
+        "B": "Electric",
+        "C": "Digital",
+        "D": "Heavy"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0181",
@@ -2395,12 +2756,12 @@
       "difficulty": "hard",
       "question": "The exchange of gases in the body is 'la respiration'. Which gas leaves the body?",
       "options": {
-        "A": "L'hélium",
-        "B": "Le dioxygène",
-        "C": "Le dioxyde de carbone",
-        "D": "L'azote"
+        "A": "Le dioxygène",
+        "B": "Le dioxyde de carbone",
+        "C": "L'azote",
+        "D": "L'hélium"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "sci-en-0185",
@@ -2455,12 +2816,12 @@
       "difficulty": "hard",
       "question": "A series of steps to solve a problem in computing is...",
       "options": {
-        "A": "Un écran",
-        "B": "Un clavier",
-        "C": "Une souris",
-        "D": "Un algorithme"
+        "A": "Un algorithme",
+        "B": "Un écran",
+        "C": "Un clavier",
+        "D": "Une souris"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0189",
@@ -2508,6 +2869,21 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0192",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "How many chromosomes do human body cells usually have?",
+      "options": {
+        "A": "23",
+        "B": "46",
+        "C": "12",
+        "D": "100"
+      },
+      "answer": "B"
+    },
+    {
       "id": "sci-en-0193",
       "category": "sciences",
       "subcategory": null,
@@ -2515,12 +2891,12 @@
       "difficulty": "hard",
       "question": "In electricity, 'résistance' is measured in...",
       "options": {
-        "A": "Amperes",
-        "B": "Watts",
-        "C": "Ohms",
-        "D": "Volts"
+        "A": "Watts",
+        "B": "Ohms",
+        "C": "Volts",
+        "D": "Amperes"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "sci-en-0194",
@@ -2627,6 +3003,7 @@
       },
       "answer": "C"
     },
+
     {
       "id": "sci-en-0301",
       "category": "sciences",
@@ -2656,6 +3033,21 @@
         "D": "Le dos"
       },
       "answer": "B"
+    },
+    {
+      "id": "sci-en-0303",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "When water freezes, it turns into a solid state. What do we call this?",
+      "options": {
+        "A": "La vapeur",
+        "B": "La pluie",
+        "C": "La glace",
+        "D": "La mer"
+      },
+      "answer": "C"
     },
     {
       "id": "sci-en-0304",
@@ -2725,12 +3117,27 @@
       "difficulty": "easy",
       "question": "Inside a fruit, you often find something that can grow into a new plant.",
       "options": {
-        "A": "Une branche",
-        "B": "Une fleur",
-        "C": "Une graine",
-        "D": "Une feuille"
+        "A": "Une fleur",
+        "B": "Une graine",
+        "C": "Une feuille",
+        "D": "Une branche"
       },
-      "answer": "C"
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0309",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which body part do you use to 'respirer' (breathe)?",
+      "options": {
+        "A": "The lungs",
+        "B": "The heart",
+        "C": "The stomach",
+        "D": "The brain"
+      },
+      "answer": "A"
     },
     {
       "id": "sci-en-0310",
@@ -2838,6 +3245,21 @@
       "answer": "B"
     },
     {
+      "id": "sci-en-0317",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which organ pumps 'le sang' (blood) through your entire body?",
+      "options": {
+        "A": "The stomach",
+        "B": "The lungs",
+        "C": "The heart",
+        "D": "The brain"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0318",
       "category": "sciences",
       "subcategory": null,
@@ -2851,6 +3273,21 @@
         "D": "Une mouche"
       },
       "answer": "B"
+    },
+    {
+      "id": "sci-en-0319",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "What state is water in when it is in the form of clouds?",
+      "options": {
+        "A": "Solid",
+        "B": "Liquid",
+        "C": "Ice",
+        "D": "Gas"
+      },
+      "answer": "D"
     },
     {
       "id": "sci-en-0320",
@@ -2898,6 +3335,21 @@
       "answer": "D"
     },
     {
+      "id": "sci-en-0323",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "We use our ears for 'l'ouïe'. What is this sense?",
+      "options": {
+        "A": "Sight",
+        "B": "Hearing",
+        "C": "Touch",
+        "D": "Smell"
+      },
+      "answer": "B"
+    },
+    {
       "id": "sci-en-0324",
       "category": "sciences",
       "subcategory": null,
@@ -2905,12 +3357,12 @@
       "difficulty": "easy",
       "question": "A fish uses its 'branchies' to breathe underwater. What are they?",
       "options": {
-        "A": "Lungs",
-        "B": "Wings",
-        "C": "Fins",
-        "D": "Gills"
+        "A": "Gills",
+        "B": "Lungs",
+        "C": "Wings",
+        "D": "Fins"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0325",
@@ -2973,6 +3425,51 @@
       "answer": "C"
     },
     {
+      "id": "sci-en-0329",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Scientists start with 'une hypothèse'. What is the English word for it?",
+      "options": {
+        "A": "A hypothesis",
+        "B": "A conclusion",
+        "C": "A result",
+        "D": "A rule"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0330",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Energy from the wind or the sun is called 'renouvelable'. What does it mean?",
+      "options": {
+        "A": "Dangerous",
+        "B": "Renewable",
+        "C": "Expensive",
+        "D": "Old"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0331",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "When salt disappears in water, we say it has undergone...",
+      "options": {
+        "A": "La fusion",
+        "B": "La solidification",
+        "C": "La dissolution",
+        "D": "L'évaporation"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0332",
       "category": "sciences",
       "subcategory": null,
@@ -3003,6 +3500,21 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0334",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Water exists in three states. Which one is 'la vapeur d'eau'?",
+      "options": {
+        "A": "Solid",
+        "B": "Gas",
+        "C": "Liquid",
+        "D": "Crystal"
+      },
+      "answer": "B"
+    },
+    {
       "id": "sci-en-0335",
       "category": "sciences",
       "subcategory": null,
@@ -3018,6 +3530,21 @@
       "answer": "C"
     },
     {
+      "id": "sci-en-0336",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Rain and snow falling from the sky are types of...",
+      "options": {
+        "A": "L'évaporation",
+        "B": "La condensation",
+        "C": "La filtration",
+        "D": "Les précipitations"
+      },
+      "answer": "D"
+    },
+    {
       "id": "sci-en-0337",
       "category": "sciences",
       "subcategory": null,
@@ -3031,6 +3558,21 @@
         "D": "In the lungs"
       },
       "answer": "A"
+    },
+    {
+      "id": "sci-en-0338",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "An animal that eats only plants is called...",
+      "options": {
+        "A": "Un carnivore",
+        "B": "Un herbivore",
+        "C": "Un omnivore",
+        "D": "Un parasite"
+      },
+      "answer": "B"
     },
     {
       "id": "sci-en-0339",
@@ -3078,6 +3620,51 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0342",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which gas do we need for 'la respiration'? The French call it 'le dioxygène'.",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Oxygen",
+        "C": "Carbon dioxide",
+        "D": "Helium"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0343",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Ancient remains found in rocks are called...",
+      "options": {
+        "A": "Des bijoux",
+        "B": "Des cristaux",
+        "C": "Des fossiles",
+        "D": "Des racines"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-en-0344",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The variety of living things on Earth is known as...",
+      "options": {
+        "A": "L'astronomie",
+        "B": "La géologie",
+        "C": "La chimie",
+        "D": "La biodiversité"
+      },
+      "answer": "D"
+    },
+    {
       "id": "sci-en-0345",
       "category": "sciences",
       "subcategory": null,
@@ -3085,10 +3672,55 @@
       "difficulty": "medium",
       "question": "To measure 'la masse' (mass) of an object, you use a...",
       "options": {
-        "A": "Ruler",
-        "B": "Clock",
-        "C": "Compass",
-        "D": "Balance"
+        "A": "Balance",
+        "B": "Ruler",
+        "C": "Clock",
+        "D": "Compass"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0346",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A sudden shaking of the ground is 'un séisme'. In English, it is...",
+      "options": {
+        "A": "A flood",
+        "B": "An earthquake",
+        "C": "A storm",
+        "D": "A fire"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0347",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "When light hits a mirror and bounces back, it is...",
+      "options": {
+        "A": "La réfraction",
+        "B": "La filtration",
+        "C": "La réflexion",
+        "D": "La combustion"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-en-0348",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Melted rock that flows out of a volcano is called...",
+      "options": {
+        "A": "Magma",
+        "B": "Ash",
+        "C": "Smoke",
+        "D": "Lava"
       },
       "answer": "D"
     },
@@ -3138,6 +3770,21 @@
       "answer": "C"
     },
     {
+      "id": "sci-en-0352",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The air around the Earth is 'l'atmosphère'. Which gas is most common in it?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Carbon dioxide",
+        "C": "Helium",
+        "D": "Nitrogen"
+      },
+      "answer": "D"
+    },
+    {
       "id": "sci-en-0353",
       "category": "sciences",
       "subcategory": null,
@@ -3153,6 +3800,21 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0354",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "When light passes through a glass of water, it seems to bend. This is...",
+      "options": {
+        "A": "La réflexion",
+        "B": "La réfraction",
+        "C": "La diffraction",
+        "D": "La diffusion"
+      },
+      "answer": "B"
+    },
+    {
       "id": "sci-en-0355",
       "category": "sciences",
       "subcategory": null,
@@ -3166,6 +3828,21 @@
         "D": "Burning"
       },
       "answer": "C"
+    },
+    {
+      "id": "sci-en-0356",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Machines sent into space to orbit the Earth are called...",
+      "options": {
+        "A": "Stars",
+        "B": "Meteors",
+        "C": "Comets",
+        "D": "Satellites"
+      },
+      "answer": "D"
     },
     {
       "id": "sci-en-0357",
@@ -3213,6 +3890,21 @@
       "answer": "C"
     },
     {
+      "id": "sci-en-0360",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "An anemometer is a tool used to measure the speed of the...",
+      "options": {
+        "A": "Rain",
+        "B": "Light",
+        "C": "Sound",
+        "D": "Wind"
+      },
+      "answer": "D"
+    },
+    {
       "id": "sci-en-0361",
       "category": "sciences",
       "subcategory": null,
@@ -3226,6 +3918,21 @@
         "D": "The lungs"
       },
       "answer": "A"
+    },
+    {
+      "id": "sci-en-0362",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which type of animal eats both plants and other animals?",
+      "options": {
+        "A": "Un herbivore",
+        "B": "Un omnivore",
+        "C": "Un carnivore",
+        "D": "Un producteur"
+      },
+      "answer": "B"
     },
     {
       "id": "sci-en-0363",
@@ -3505,12 +4212,12 @@
       "difficulty": "hard",
       "question": "A 'mutation génétique' is a change in an organism's...",
       "options": {
-        "A": "Body weight",
-        "B": "Daily habit",
-        "C": "Outer skin",
-        "D": "DNA sequence"
+        "A": "DNA sequence",
+        "B": "Body weight",
+        "C": "Daily habit",
+        "D": "Outer skin"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0382",
@@ -3573,6 +4280,21 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0386",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "How many chromosomes are found in most human body cells?",
+      "options": {
+        "A": "23",
+        "B": "46",
+        "C": "12",
+        "D": "100"
+      },
+      "answer": "B"
+    },
+    {
       "id": "sci-en-0387",
       "category": "sciences",
       "subcategory": null,
@@ -3610,12 +4332,12 @@
       "difficulty": "hard",
       "question": "An 'algorithme' in computer science is a set of instructions used to...",
       "options": {
-        "A": "Draw a picture",
-        "B": "Listen to music",
-        "C": "Play a movie",
-        "D": "Solve a problem"
+        "A": "Solve a problem",
+        "B": "Draw a picture",
+        "C": "Listen to music",
+        "D": "Play a movie"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0390",
@@ -3646,6 +4368,21 @@
         "D": "The brain"
       },
       "answer": "C"
+    },
+    {
+      "id": "sci-en-0392",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In electricity, 'la résistance' of a material is measured in...",
+      "options": {
+        "A": "Watts",
+        "B": "Volts",
+        "C": "Amperes",
+        "D": "Ohms"
+      },
+      "answer": "D"
     },
     {
       "id": "sci-en-0393",
@@ -3738,6 +4475,21 @@
       "answer": "B"
     },
     {
+      "id": "sci-en-0399",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these planets is a 'géante gazeuse' (gas giant)?",
+      "options": {
+        "A": "Mars",
+        "B": "Venus",
+        "C": "Jupiter",
+        "D": "Mercury"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0400",
       "category": "sciences",
       "subcategory": null,
@@ -3752,6 +4504,7 @@
       },
       "answer": "D"
     },
+
     {
       "id": "sci-en-0451",
       "category": "sciences",
@@ -3766,6 +4519,21 @@
         "D": "The arm"
       },
       "answer": "D"
+    },
+    {
+      "id": "sci-en-0452",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Plants need 'la lumière' to grow. Which celestial body provides this light during the day?",
+      "options": {
+        "A": "La Lune",
+        "B": "Le Soleil",
+        "C": "Mars",
+        "D": "Vénus"
+      },
+      "answer": "B"
     },
     {
       "id": "sci-en-0453",
@@ -3865,12 +4633,27 @@
       "difficulty": "easy",
       "question": "The sense used to recognize the smell of a flower is...",
       "options": {
-        "A": "Le goût",
-        "B": "La vue",
-        "C": "L'ouïe",
-        "D": "L'odorat"
+        "A": "L'odorat",
+        "B": "Le goût",
+        "C": "La vue",
+        "D": "L'ouïe"
       },
-      "answer": "D"
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0460",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Magnets can pull objects made of iron. This invisible force is...",
+      "options": {
+        "A": "La gravité",
+        "B": "L'électricité",
+        "C": "Le magnétisme",
+        "D": "La chaleur"
+      },
+      "answer": "C"
     },
     {
       "id": "sci-en-0461",
@@ -3903,6 +4686,21 @@
       "answer": "B"
     },
     {
+      "id": "sci-en-0463",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which organ is protected by 'le crâne'?",
+      "options": {
+        "A": "The heart",
+        "B": "The lungs",
+        "C": "The stomach",
+        "D": "The brain"
+      },
+      "answer": "D"
+    },
+    {
       "id": "sci-en-0464",
       "category": "sciences",
       "subcategory": null,
@@ -3931,6 +4729,21 @@
         "D": "Protect leaves"
       },
       "answer": "A"
+    },
+    {
+      "id": "sci-en-0466",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The heart pumps 'le sang' through the body. What is the English name for this liquid?",
+      "options": {
+        "A": "Water",
+        "B": "Juice",
+        "C": "Blood",
+        "D": "Milk"
+      },
+      "answer": "C"
     },
     {
       "id": "sci-en-0467",
@@ -4158,6 +4971,21 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0482",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "The moon moves around the Earth. In French, the moon is called...",
+      "options": {
+        "A": "Le Soleil",
+        "B": "Mars",
+        "C": "La Lune",
+        "D": "Vénus"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0483",
       "category": "sciences",
       "subcategory": null,
@@ -4368,6 +5196,21 @@
       "answer": "B"
     },
     {
+      "id": "sci-en-0497",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "When light passes through a glass of water and seems to bend, this is...",
+      "options": {
+        "A": "La réflexion",
+        "B": "La diffusion",
+        "C": "La réfraction",
+        "D": "L'absorption"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0498",
       "category": "sciences",
       "subcategory": null,
@@ -4383,6 +5226,21 @@
       "answer": "D"
     },
     {
+      "id": "sci-en-0499",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which of these gases is most common in the air we breathe?",
+      "options": {
+        "A": "L'azote",
+        "B": "Le dioxygène",
+        "C": "Le dioxyde de carbone",
+        "D": "L'hélium"
+      },
+      "answer": "A"
+    },
+    {
       "id": "sci-en-0500",
       "category": "sciences",
       "subcategory": null,
@@ -4390,12 +5248,12 @@
       "difficulty": "medium",
       "question": "What is the English name for 'un fossile'?",
       "options": {
-        "A": "A shell",
-        "B": "A rock",
-        "C": "A fossil",
-        "D": "A bone"
+        "A": "A rock",
+        "B": "A fossil",
+        "C": "A bone",
+        "D": "A shell"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "sci-en-0501",
@@ -4471,6 +5329,21 @@
         "D": "The kidneys"
       },
       "answer": "B"
+    },
+    {
+      "id": "sci-en-0506",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A sudden shaking of the Earth's surface is 'un séisme'. In English, this is...",
+      "options": {
+        "A": "An earthquake",
+        "B": "A volcano",
+        "C": "A flood",
+        "D": "A storm"
+      },
+      "answer": "A"
     },
     {
       "id": "sci-en-0507",
@@ -4645,12 +5518,12 @@
       "difficulty": "medium",
       "question": "A 'producteur' in a food chain is usually...",
       "options": {
-        "A": "A human",
-        "B": "An animal",
-        "C": "A plant",
-        "D": "A mushroom"
+        "A": "An animal",
+        "B": "A plant",
+        "C": "A mushroom",
+        "D": "A human"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "sci-en-0519",
@@ -4743,6 +5616,21 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0525",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "A substance with a pH of 2 is considered...",
+      "options": {
+        "A": "Neutre",
+        "B": "Acide",
+        "C": "Basique",
+        "D": "Salée"
+      },
+      "answer": "B"
+    },
+    {
       "id": "sci-en-0526",
       "category": "sciences",
       "subcategory": null,
@@ -4833,6 +5721,21 @@
       "answer": "D"
     },
     {
+      "id": "sci-en-0532",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which planet has a day that is longer than its year?",
+      "options": {
+        "A": "Vénus",
+        "B": "Mars",
+        "C": "Mercure",
+        "D": "Jupiter"
+      },
+      "answer": "A"
+    },
+    {
       "id": "sci-en-0533",
       "category": "sciences",
       "subcategory": null,
@@ -4921,6 +5824,21 @@
         "D": "Un solvant"
       },
       "answer": "C"
+    },
+    {
+      "id": "sci-en-0539",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is the primary cause of the greenhouse effect (effet de serre)?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Nitrogen",
+        "C": "Helium",
+        "D": "Carbon dioxide"
+      },
+      "answer": "D"
     },
     {
       "id": "sci-en-0540",
@@ -5087,6 +6005,7 @@
       },
       "answer": "C"
     },
+
     {
       "id": "sci-en-0601",
       "category": "sciences",
@@ -5155,12 +6074,27 @@
       "difficulty": "easy",
       "question": "When water becomes very cold, it turns into 'la glace'. This state is...",
       "options": {
-        "A": "Liquid",
-        "B": "Gas",
-        "C": "Vapor",
-        "D": "Solid"
+        "A": "Solid",
+        "B": "Liquid",
+        "C": "Gas",
+        "D": "Vapor"
       },
-      "answer": "D"
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0606",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which organ do humans use to 'respirer' (breathe)?",
+      "options": {
+        "A": "The heart",
+        "B": "The stomach",
+        "C": "The lungs",
+        "D": "The liver"
+      },
+      "answer": "C"
     },
     {
       "id": "sci-en-0607",
@@ -5251,6 +6185,21 @@
         "D": "It pumps blood"
       },
       "answer": "B"
+    },
+    {
+      "id": "sci-en-0613",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "Which sense do you use for 'l'odorat' when you walk past a bakery?",
+      "options": {
+        "A": "Smell",
+        "B": "Sight",
+        "C": "Touch",
+        "D": "Hearing"
+      },
+      "answer": "A"
     },
     {
       "id": "sci-en-0614",
@@ -5358,6 +6307,21 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0621",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "easy",
+      "question": "A bird uses its 'ailes' to fly. What are they?",
+      "options": {
+        "A": "Feathers",
+        "B": "Wings",
+        "C": "Beaks",
+        "D": "Claws"
+      },
+      "answer": "B"
+    },
+    {
       "id": "sci-en-0622",
       "category": "sciences",
       "subcategory": null,
@@ -5416,6 +6380,21 @@
         "D": "Chemistry"
       },
       "answer": "B"
+    },
+    {
+      "id": "sci-en-0626",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Plants use 'la lumière' to make food. This biological process is...",
+      "options": {
+        "A": "La respiration",
+        "B": "La digestion",
+        "C": "La photosynthèse",
+        "D": "La germination"
+      },
+      "answer": "C"
     },
     {
       "id": "sci-en-0627",
@@ -5500,12 +6479,27 @@
       "difficulty": "medium",
       "question": "The Earth's crust is made of pieces that move. These are 'les plaques tectoniques'.",
       "options": {
-        "A": "Ocean waves",
-        "B": "Cloud layers",
-        "C": "Forest zones",
-        "D": "Tectonic plates"
+        "A": "Tectonic plates",
+        "B": "Ocean waves",
+        "C": "Cloud layers",
+        "D": "Forest zones"
       },
-      "answer": "D"
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0633",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "All living things are made of 'cellules'. What is the English word?",
+      "options": {
+        "A": "Bones",
+        "B": "Cells",
+        "C": "Organs",
+        "D": "Tissues"
+      },
+      "answer": "B"
     },
     {
       "id": "sci-en-0634",
@@ -5523,6 +6517,21 @@
       "answer": "C"
     },
     {
+      "id": "sci-en-0635",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A 'levier' is a simple machine used to lift heavy weights. What is it?",
+      "options": {
+        "A": "A screw",
+        "B": "A pulley",
+        "C": "A wheel",
+        "D": "A lever"
+      },
+      "answer": "D"
+    },
+    {
       "id": "sci-en-0636",
       "category": "sciences",
       "subcategory": null,
@@ -5536,6 +6545,21 @@
         "D": "The ground"
       },
       "answer": "A"
+    },
+    {
+      "id": "sci-en-0637",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Where does 'la digestion' mostly take place to break down food?",
+      "options": {
+        "A": "The lungs",
+        "B": "The stomach",
+        "C": "The heart",
+        "D": "The brain"
+      },
+      "answer": "B"
     },
     {
       "id": "sci-en-0638",
@@ -5598,6 +6622,21 @@
       "answer": "B"
     },
     {
+      "id": "sci-en-0642",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Humans need 'le dioxygène' to survive. What is this gas called in English?",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Carbon dioxide",
+        "C": "Oxygen",
+        "D": "Helium"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0643",
       "category": "sciences",
       "subcategory": null,
@@ -5626,6 +6665,36 @@
         "D": "It creates more gold"
       },
       "answer": "A"
+    },
+    {
+      "id": "sci-en-0645",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which tool is used to measure 'la masse' (mass) of an object?",
+      "options": {
+        "A": "A thermometer",
+        "B": "A balance",
+        "C": "A ruler",
+        "D": "A clock"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0646",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "A sudden shaking of the ground is 'un séisme'. What is the English word?",
+      "options": {
+        "A": "A flood",
+        "B": "A storm",
+        "C": "An earthquake",
+        "D": "A volcano"
+      },
+      "answer": "C"
     },
     {
       "id": "sci-en-0647",
@@ -5665,12 +6734,12 @@
       "difficulty": "medium",
       "question": "The 'système nerveux' includes the brain. What does it control?",
       "options": {
-        "A": "Only walking",
-        "B": "Only breathing",
-        "C": "The whole body",
-        "D": "Only digestion"
+        "A": "Only breathing",
+        "B": "The whole body",
+        "C": "Only digestion",
+        "D": "Only walking"
       },
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "sci-en-0650",
@@ -5703,6 +6772,21 @@
       "answer": "D"
     },
     {
+      "id": "sci-en-0652",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The atmosphere is made of gases. Which gas is the most common?",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Oxygen",
+        "C": "Carbon dioxide",
+        "D": "Hydrogen"
+      },
+      "answer": "A"
+    },
+    {
       "id": "sci-en-0653",
       "category": "sciences",
       "subcategory": null,
@@ -5718,6 +6802,36 @@
       "answer": "B"
     },
     {
+      "id": "sci-en-0654",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "When light passes through water and seems to bend, this is...",
+      "options": {
+        "A": "Reflection",
+        "B": "Absorption",
+        "C": "Refraction",
+        "D": "Diffusion"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-en-0655",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The transition from liquid water to solid ice is 'la solidification'.",
+      "options": {
+        "A": "Boiling",
+        "B": "Melting",
+        "C": "Evaporating",
+        "D": "Freezing"
+      },
+      "answer": "D"
+    },
+    {
       "id": "sci-en-0656",
       "category": "sciences",
       "subcategory": null,
@@ -5731,6 +6845,21 @@
         "D": "Stars"
       },
       "answer": "A"
+    },
+    {
+      "id": "sci-en-0657",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The part of the ear that vibrates when sound enters is 'le tympan'.",
+      "options": {
+        "A": "The cochlea",
+        "B": "The eardrum",
+        "C": "The auditory nerve",
+        "D": "The outer ear"
+      },
+      "answer": "B"
     },
     {
       "id": "sci-en-0658",
@@ -5778,6 +6907,36 @@
       "answer": "A"
     },
     {
+      "id": "sci-en-0661",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "The 'système circulatoire' moves blood. Which organ is the pump?",
+      "options": {
+        "A": "The liver",
+        "B": "The heart",
+        "C": "The lungs",
+        "D": "The stomach"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0662",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "medium",
+      "question": "Which animal eats both plants and other animals?",
+      "options": {
+        "A": "Un herbivore",
+        "B": "Un carnivore",
+        "C": "Un omnivore",
+        "D": "Un producteur"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0663",
       "category": "sciences",
       "subcategory": null,
@@ -5793,6 +6952,21 @@
       "answer": "D"
     },
     {
+      "id": "sci-en-0664",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In chemistry, 'un atome' is made of smaller parts. Which has a negative charge?",
+      "options": {
+        "A": "Electron",
+        "B": "Proton",
+        "C": "Neutron",
+        "D": "Nucleus"
+      },
+      "answer": "A"
+    },
+    {
       "id": "sci-en-0665",
       "category": "sciences",
       "subcategory": null,
@@ -5806,6 +6980,21 @@
         "D": "Discarding"
       },
       "answer": "B"
+    },
+    {
+      "id": "sci-en-0666",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Electrical voltage is called 'la tension'. What is the unit to measure it?",
+      "options": {
+        "A": "Amperes",
+        "B": "Watts",
+        "C": "Volts",
+        "D": "Ohms"
+      },
+      "answer": "C"
     },
     {
       "id": "sci-en-0667",
@@ -5853,6 +7042,21 @@
       "answer": "B"
     },
     {
+      "id": "sci-en-0670",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In a parallel circuit, total 'intensité' is the sum of each...",
+      "options": {
+        "A": "Battery",
+        "B": "Switch",
+        "C": "Branch",
+        "D": "Wire"
+      },
+      "answer": "C"
+    },
+    {
       "id": "sci-en-0671",
       "category": "sciences",
       "subcategory": null,
@@ -5866,6 +7070,21 @@
         "D": "A solar eclipse"
       },
       "answer": "D"
+    },
+    {
+      "id": "sci-en-0672",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Energy from coal or oil is non-renewable. The French call these...",
+      "options": {
+        "A": "Energies fossiles",
+        "B": "Energies vertes",
+        "C": "Energies solaires",
+        "D": "Energies bleues"
+      },
+      "answer": "A"
     },
     {
       "id": "sci-en-0673",
@@ -5883,6 +7102,36 @@
       "answer": "B"
     },
     {
+      "id": "sci-en-0674",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The ancient supercontinent that broke apart long ago is called...",
+      "options": {
+        "A": "Atlantis",
+        "B": "Gondwana",
+        "C": "Pangaea",
+        "D": "Eurasia"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-en-0675",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Electrical current intensity is measured in Amperes. Which letter is its symbol?",
+      "options": {
+        "A": "V",
+        "B": "R",
+        "C": "W",
+        "D": "I"
+      },
+      "answer": "D"
+    },
+    {
       "id": "sci-en-0676",
       "category": "sciences",
       "subcategory": null,
@@ -5890,12 +7139,12 @@
       "difficulty": "hard",
       "question": "The layer of the atmosphere where weather occurs is 'la troposphère'.",
       "options": {
-        "A": "Stratosphere",
-        "B": "Mesosphere",
-        "C": "Exosphere",
-        "D": "Troposphere"
+        "A": "Troposphere",
+        "B": "Stratosphere",
+        "C": "Mesosphere",
+        "D": "Exosphere"
       },
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "sci-en-0677",
@@ -5905,10 +7154,25 @@
       "difficulty": "hard",
       "question": "A liquid with a pH of 1 is considered to be very...",
       "options": {
-        "A": "Salty",
-        "B": "Basic",
-        "C": "Acidic",
-        "D": "Neutral"
+        "A": "Basic",
+        "B": "Acidic",
+        "C": "Neutral",
+        "D": "Salty"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0678",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The period when a child grows into an adult is called...",
+      "options": {
+        "A": "Birth",
+        "B": "Infancy",
+        "C": "Puberty",
+        "D": "Old age"
       },
       "answer": "C"
     },
@@ -5958,6 +7222,51 @@
       "answer": "B"
     },
     {
+      "id": "sci-en-0682",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a gas giant, or 'une géante gazeuse'?",
+      "options": {
+        "A": "Mars",
+        "B": "Venus",
+        "C": "Jupiter",
+        "D": "Mercury"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "sci-en-0683",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "In chemistry, 'le fer' turns orange when it reacts with oxygen. This is...",
+      "options": {
+        "A": "Burning",
+        "B": "Freezing",
+        "C": "Melting",
+        "D": "Rusting"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "sci-en-0684",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The exchange of oxygen and CO2 is 'la respiration'. Which gas leaves?",
+      "options": {
+        "A": "Carbon dioxide",
+        "B": "Oxygen",
+        "C": "Nitrogen",
+        "D": "Hydrogen"
+      },
+      "answer": "A"
+    },
+    {
       "id": "sci-en-0685",
       "category": "sciences",
       "subcategory": null,
@@ -5969,6 +7278,21 @@
         "B": "DNA",
         "C": "Blood cell",
         "D": "Brain wave"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0686",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "How many chromosomes are in most human body cells?",
+      "options": {
+        "A": "23",
+        "B": "46",
+        "C": "12",
+        "D": "100"
       },
       "answer": "B"
     },
@@ -6048,6 +7372,36 @@
       "answer": "D"
     },
     {
+      "id": "sci-en-0692",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "A substance with a pH of 7 is considered to be...",
+      "options": {
+        "A": "Neutral",
+        "B": "Acidic",
+        "C": "Basic",
+        "D": "Salty"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0693",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "What is the English term for 'la tectonique des plaques'?",
+      "options": {
+        "A": "Earth shifts",
+        "B": "Plate tectonics",
+        "C": "Rock cycles",
+        "D": "Ocean flows"
+      },
+      "answer": "B"
+    },
+    {
       "id": "sci-en-0694",
       "category": "sciences",
       "subcategory": null,
@@ -6076,6 +7430,51 @@
         "D": "The mass is conserved"
       },
       "answer": "D"
+    },
+    {
+      "id": "sci-en-0696",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "Which of these is the largest organ of the human body?",
+      "options": {
+        "A": "The skin",
+        "B": "The liver",
+        "C": "The lungs",
+        "D": "The brain"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "sci-en-0697",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The supercontinent that existed 250 million years ago was...",
+      "options": {
+        "A": "Atlantis",
+        "B": "Pangaea",
+        "C": "Gondwana",
+        "D": "Eurasia"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "sci-en-0698",
+      "category": "sciences",
+      "subcategory": null,
+      "locale": "en",
+      "difficulty": "hard",
+      "question": "The unit to measure electrical power is the Watt. What is the symbol?",
+      "options": {
+        "A": "V",
+        "B": "A",
+        "C": "W",
+        "D": "Ω"
+      },
+      "answer": "C"
     },
     {
       "id": "sci-en-0699",
