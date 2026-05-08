@@ -448,4 +448,46 @@
     from { opacity: 0; }
     to   { opacity: 1; }
   }
+
+  // ── Bouton Suivant ──────────────────────────────────────────────────────────
+
+  &__next-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: v.$spacing-md v.$spacing-lg;
+    background: var(--color-primary);
+    color: v.$white;
+    border: none;
+    border-radius: v.$radius-md;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-lg;
+    font-weight: 800;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.25s ease, transform 0.25s ease, filter v.$transition-fast;
+    min-height: v.$touch-target-min;
+    pointer-events: none;
+
+    &--visible {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    &--visible:hover {
+      filter: brightness(0.84);
+      transform: translateY(-2px);
+    }
+
+    &--visible:active {
+      filter: brightness(0.74);
+      transform: scale(0.97);
+      transition-duration: 80ms;
+    }
+
+    @include m.focus-ring;
+  }
 }

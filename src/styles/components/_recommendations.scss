@@ -133,20 +133,29 @@
     align-items: center;
     justify-content: center;
     align-self: flex-start;
-    padding: 6px 16px;
-    border-radius: v.$radius-full;
+    padding: 8px 18px;
+    border-radius: v.$radius-md;
     font-size: v.$font-size-sm;
     font-weight: 800;
     font-family: v.$font-primary;
     border: none;
     cursor: pointer;
-    transition: opacity v.$transition-fast;
+    transition: filter v.$transition-fast, transform v.$transition-fast;
 
     .rec__card--level-up  & { background: var(--color-primary);       color: v.$white; }
     .rec__card--practice  & { background: var(--color-accent-orange); color: v.$white; }
     .rec__card--try-new   & { background: v.$secondary;     color: v.$white; }
     .rec__card--diversify & { background: color.adjust(v.$accent, $lightness: -15%); color: v.$white; }
 
-    &:hover { opacity: 0.85; }
+    &:not(:disabled):hover {
+      filter: brightness(0.84);
+      transform: translateY(-1px);
+    }
+
+    &:not(:disabled):active {
+      filter: brightness(0.74);
+      transform: scale(0.97);
+      transition-duration: 80ms;
+    }
   }
 }

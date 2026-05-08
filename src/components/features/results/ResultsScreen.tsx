@@ -29,6 +29,7 @@ import { fetchQuestions } from '@/lib/questions';
 import { useSubscription } from '@/hooks/useSubscription';
 import { createChallenge, completeChallenge } from '@/lib/challenges';
 import { getTitleForXp } from '@/lib/daily';
+import { CATEGORY_EMOJI } from '@/lib/categories';
 import Nova from '@/components/ui/Nova';
 import DuelResultPanel from './DuelResultPanel';
 import { BADGE_DEFINITIONS } from '@/lib/badges';
@@ -171,12 +172,13 @@ export default function ResultsScreen() {
   // ── Helpers ──────────────────────────────────────────────────────────────
 
   /**
-   * Renvoie le message contextuel selon le score obtenu.
-   * 3 paliers : faible / moyen / excellent.
+   * Renvoie le message contextuel selon le score obtenu (en %).
+   * Seuils relatifs pour fonctionner quelle que soit la longueur du quiz.
    */
   function getScoreMessage(): string {
-    if (score < 4)  return t('msgLow');
-    if (score < 14) return t('msgMid');
+    const pct = score / total;
+    if (pct < 0.4) return t('msgLow');
+    if (pct < 0.7) return t('msgMid');
     return t('msgHigh');
   }
 
@@ -185,9 +187,10 @@ export default function ResultsScreen() {
    * Nova reste affichée en permanence sur l'écran résultats (duration=0).
    */
   function getNovaMessage(): string {
+    const pct = score / total;
     if (badgeEarnedThisSession) return tNova('badge');
-    if (score < 4)  return tNova('finishLow');
-    if (score < 14) return tNova('finishMid');
+    if (pct < 0.4) return tNova('finishLow');
+    if (pct < 0.7) return tNova('finishMid');
     return tNova('finishHigh');
   }
 
@@ -261,7 +264,7 @@ export default function ResultsScreen() {
         <div className="results__meta">
           {category && (
             <span className="results__cat-label">
-              {category === 'sciences' ? '🔬' : '📜'} {tHome(category)}
+              {CATEGORY_EMOJI[category] ?? '🎮'} {tHome(category)}
             </span>
           )}
           {difficulty && (

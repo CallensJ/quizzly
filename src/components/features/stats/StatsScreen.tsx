@@ -72,7 +72,8 @@ function pct(score: number, total: number): number {
 // ─── Composant principal ─────────────────────────────────────────────────────
 
 export default function StatsScreen() {
-  const t = useTranslations('stats');
+  const t      = useTranslations('stats');
+  const tHome  = useTranslations('home');
   const router = useRouter();
   const sessions      = useProfileStore((s) => s.sessions);
   const categoryGoals = useProfileStore((s) => s.categoryGoals);
@@ -229,7 +230,7 @@ export default function StatsScreen() {
                         style={{ background: getCategoryColor(cat) }}
                         aria-hidden="true"
                       />
-                      <span className="stats__cat-name">{t(cat as 'sciences' | 'histoire' | 'heroes')}</span>
+                      <span className="stats__cat-name">{tHome(cat as Parameters<typeof tHome>[0])}</span>
                       <span className="stats__cat-meta">
                         {games > 0
                           ? `${t('avgScore')} ${avg}% · ${t('bestScore')} ${best}%`
@@ -269,7 +270,7 @@ export default function StatsScreen() {
                             aria-hidden="true"
                           />
                           <span className="stats__goals-name">
-                            {t(cat as 'sciences' | 'histoire' | 'heroes')}
+                            {tHome(cat as Parameters<typeof tHome>[0])}
                           </span>
                           <span className={`stats__goals-status${met ? ' stats__goals-status--met' : ''}`}>
                             {weekRounded === null

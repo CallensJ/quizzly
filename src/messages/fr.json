@@ -11,7 +11,8 @@
     "themeLabel": "Choisis tes couleurs",
     "ctaConfirm": "C'est parti !",
     "restoreAccount": "Déjà un compte ?",
-    "restoreAccountLink": "Restaurer mon profil"
+    "restoreAccountLink": "Restaurer mon profil",
+    "pseudoMinLength": "Le pseudo doit faire au moins 2 caractères."
   },
   "home": {
     "title": "Choisis une catégorie",
@@ -27,6 +28,12 @@
     "heroes": "Héros & Aventures",
     "heroesDesc": "Personnages animés, super-héros, magie…",
     "fetchError": "Impossible de charger les questions. Vérifie ta connexion.",
+    "retry": "Réessayer",
+    "hintCategory": "Sélectionne une catégorie pour jouer.",
+    "hintDifficulty": "Choisis une difficulté pour continuer.",
+    "ctaLoading": "Chargement…",
+    "seeMore": "Voir plus ({count})",
+    "seeLess": "Voir moins",
     "dailyAriaLabel": "Jouer le défi du jour",
     "dailyTitle": "Défi du jour ☀️",
     "dailyDone": "Complété aujourd'hui ✓",

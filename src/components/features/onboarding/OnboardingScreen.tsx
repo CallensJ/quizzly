@@ -104,7 +104,7 @@ export default function OnboardingScreen() {
             id="pseudo"
             data-testid="pseudo-input"
             type="text"
-            className="onboarding__input"
+            className={`onboarding__input${pseudo.length > 0 && pseudo.trim().length < 2 ? ' onboarding__input--error' : ''}`}
             placeholder={t('pseudoPlaceholder')}
             value={pseudo}
             onChange={(e) => setPseudo(e.target.value)}
@@ -112,6 +112,10 @@ export default function OnboardingScreen() {
             autoComplete="off"
             spellCheck={false}
           />
+          {pseudo.length > 0 && pseudo.trim().length < 2 && (
+            <p className="onboarding__hint" role="alert">{t('pseudoMinLength')}</p>
+          )}
+          <p className="onboarding__char-count" aria-live="polite">{pseudo.length}/20</p>
         </section>
 
         {/* ── Galerie d'avatars ────────────────────────────────────────────── */}

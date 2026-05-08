@@ -39,9 +39,7 @@ export default function ChildProfilesSection() {
   function handleDeleteChild(id: string) {
     removeChildProfile(id);
     setDeleteChildId(null);
-    // Si plus aucun profil → retour à l'onboarding
-    const remaining = useProfileStore.getState().profiles;
-    if (remaining.length === 0) router.replace('/');
+    // Le parent reste sur la page admin pour pouvoir créer un nouveau profil immédiatement
   }
 
   return (
@@ -84,16 +82,14 @@ export default function ChildProfilesSection() {
                   Jouer
                 </button>
               )}
-              {profiles.length > 1 && (
-                <button
-                  type="button"
-                  className="admin__profile-delete"
-                  onClick={() => setDeleteChildId(p.id)}
-                  aria-label={`Supprimer ${p.pseudo}`}
-                >
-                  <Trash2 size={14} />
-                </button>
-              )}
+              <button
+                type="button"
+                className="admin__profile-delete"
+                onClick={() => setDeleteChildId(p.id)}
+                aria-label={`Supprimer ${p.pseudo}`}
+              >
+                <Trash2 size={14} />
+              </button>
             </div>
           </div>
         ))}

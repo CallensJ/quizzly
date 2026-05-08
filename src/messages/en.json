@@ -11,7 +11,8 @@
     "themeLabel": "Pick your colours",
     "ctaConfirm": "Let's go!",
     "restoreAccount": "Already have an account?",
-    "restoreAccountLink": "Restore my profile"
+    "restoreAccountLink": "Restore my profile",
+    "pseudoMinLength": "Nickname must be at least 2 characters."
   },
   "home": {
     "title": "Choose a category",
@@ -27,6 +28,12 @@
     "heroes": "Heroes & Adventures",
     "heroesDesc": "Animated characters, superheroes, magic…",
     "fetchError": "Unable to load questions. Check your connection.",
+    "retry": "Try again",
+    "hintCategory": "Select a category to play.",
+    "hintDifficulty": "Choose a difficulty to continue.",
+    "ctaLoading": "Loading…",
+    "seeMore": "See more ({count})",
+    "seeLess": "See less",
     "dailyAriaLabel": "Play today's challenge",
     "dailyTitle": "Daily Challenge ☀️",
     "dailyDone": "Completed today ✓",

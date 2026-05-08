@@ -32,6 +32,38 @@
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
 }
 
+// ─── Hover / press prononcés pour boutons CTA ────────────────────
+// Remplace opacity: 0.88 (transparent) par brightness (assombrissement).
+// :active simule le press tactile mobile (scale + darken).
+@mixin btn-interactive {
+  transition:
+    filter       v.$transition-fast,
+    transform    v.$transition-fast,
+    box-shadow   v.$transition-fast;
+
+  &:not(:disabled):hover {
+    filter:    brightness(0.84);
+    transform: translateY(-2px);
+  }
+
+  &:not(:disabled):active {
+    filter:    brightness(0.74);
+    transform: scale(0.97);
+    transition-duration: 80ms;
+  }
+}
+
+// ─── Bouton "Passer Premium" — couleurs surchargées par thème ────
+@mixin btn-premium {
+  background: linear-gradient(
+    135deg,
+    var(--color-btn-premium-start),
+    var(--color-btn-premium-end)
+  );
+  color: var(--color-btn-premium-text);
+  @include btn-interactive;
+}
+
 // ─── Focus visible accessible ─────────────────────────────────────
 @mixin focus-ring {
   &:focus-visible {

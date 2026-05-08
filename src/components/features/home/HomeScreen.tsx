@@ -18,7 +18,7 @@ import {
   Atom, Landmark, Swords, Lock,
   Trophy, Globe, Palette, Film, Scale,
   Calculator, ChefHat, Cpu, Sparkles, Rocket, BookA,
-  PawPrint, Heart, Music2, Leaf, Bone, ChevronDown,
+  PawPrint, Heart, Music2, Leaf, Bone, ChevronDown, Loader2, WifiOff,
 } from 'lucide-react';
 import { buildAvatarUrl, type AvatarStyle } from '@/lib/avatars';
 import { useRouter, usePathname } from '@/i18n/navigation';
@@ -121,6 +121,9 @@ export default function HomeScreen() {
 
   const [loading, setLoading] = useState(false);
   const [fetchError, setFetchError] = useState(false);
+  const [premiumExpanded, setPremiumExpanded] = useState(false);
+
+  const PREMIUM_VISIBLE_DEFAULT = 5;
 
   // Pré-chauffe le cache questions en arrière-plan dès que HomeScreen monte.
   // Garantit le mode offline lors des visites suivantes, même sans avoir joué.
@@ -375,45 +378,69 @@ export default function HomeScreen() {
           </div>
           )}
 
-          <div className="home__categories">
-            {PREMIUM_CATEGORIES.map(({ i18nKey, icon, colorVar, id }) => {
-              // Premium → jouable
-              if (isPremium) {
-                return (
-                  <button
-                    key={i18nKey}
-                    type="button"
-                    className={`home__cat-card${category === id ? ' home__cat-card--selected' : ''}`}
-                    style={{ '--cat-color': colorVar } as React.CSSProperties}
-                    onClick={() => { setMythOpen(false); setSubcategory(null); setCategory(id); }}
-                    aria-pressed={category === id}
-                    aria-label={t(i18nKey)}
-                  >
-                    <span className="home__cat-icon">{icon}</span>
-                    <span className="home__cat-name">{t(i18nKey)}</span>
-                  </button>
-                );
-              }
+          {(() => {
+            const visibleCats = premiumExpanded
+              ? PREMIUM_CATEGORIES
+              : PREMIUM_CATEGORIES.slice(0, PREMIUM_VISIBLE_DEFAULT);
+            return (
+              <>
+                <div className="home__categories">
+                  {visibleCats.map(({ i18nKey, icon, colorVar, id }) => {
+                    if (isPremium) {
+                      return (
+                        <button
+                          key={i18nKey}
+                          type="button"
+                          className={`home__cat-card${category === id ? ' home__cat-card--selected' : ''}`}
+                          style={{ '--cat-color': colorVar } as React.CSSProperties}
+                          onClick={() => { setMythOpen(false); setSubcategory(null); setCategory(id); }}
+                          aria-pressed={category === id}
+                          aria-label={t(i18nKey)}
+                        >
+                          <span className="home__cat-icon">{icon}</span>
+                          <span className="home__cat-name">{t(i18nKey)}</span>
+                        </button>
+                      );
+                    }
+                    return (
+                      <button
+                        key={i18nKey}
+                        type="button"
+                        className="home__cat-card home__cat-card--locked-cta"
+                        style={{ '--cat-color': colorVar } as React.CSSProperties}
+                        aria-label={`${t(i18nKey)} — ${t('premiumLocked')}`}
+                        onClick={() => setShowPremiumModal(true)}
+                      >
+                        <span className="home__cat-icon">{icon}</span>
+                        <span className="home__cat-name">{t(i18nKey)}</span>
+                        <span className="home__cat-lock" aria-hidden="true">
+                          <Lock size={18} strokeWidth={2.5} />
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
 
-              // Non-premium → cadenas cliquable, Nova encouragement
-              return (
-                <button
-                  key={i18nKey}
-                  type="button"
-                  className="home__cat-card home__cat-card--locked-cta"
-                  style={{ '--cat-color': colorVar } as React.CSSProperties}
-                  aria-label={`${t(i18nKey)} — ${t('premiumLocked')}`}
-                  onClick={() => setShowPremiumModal(true)}
-                >
-                  <span className="home__cat-icon">{icon}</span>
-                  <span className="home__cat-name">{t(i18nKey)}</span>
-                  <span className="home__cat-lock" aria-hidden="true">
-                    <Lock size={18} strokeWidth={2.5} />
-                  </span>
-                </button>
-              );
-            })}
-          </div>
+                {PREMIUM_CATEGORIES.length > PREMIUM_VISIBLE_DEFAULT && (
+                  <button
+                    type="button"
+                    className="home__premium-expand-btn"
+                    onClick={() => setPremiumExpanded((v) => !v)}
+                    aria-expanded={premiumExpanded}
+                  >
+                    <ChevronDown
+                      size={16}
+                      className={`home__premium-expand-chevron${premiumExpanded ? ' home__premium-expand-chevron--open' : ''}`}
+                      aria-hidden="true"
+                    />
+                    {premiumExpanded
+                      ? t('seeLess')
+                      : t('seeMore', { count: PREMIUM_CATEGORIES.length - PREMIUM_VISIBLE_DEFAULT })}
+                  </button>
+                )}
+              </>
+            );
+          })()}
         </section>
 
         {/* Section "Bientôt" supprimée — les catégories sans contenu sont désormais
@@ -445,6 +472,14 @@ export default function HomeScreen() {
             </div>
           </section>
 
+          {/* Aide contextuelle sous le CTA désactivé */}
+          {!category && (
+            <p className="home__hint" aria-live="polite">{t('hintCategory')}</p>
+          )}
+          {category && !difficulty && (
+            <p className="home__hint" aria-live="polite">{t('hintDifficulty')}</p>
+          )}
+
           {/* CTA Play */}
           <button
             ref={ctaRef}
@@ -454,12 +489,20 @@ export default function HomeScreen() {
             disabled={!canPlay || loading}
             onClick={handlePlay}
           >
-            {loading ? '…' : t('ctaPlay')}
+            {loading
+              ? <><Loader2 size={18} className="home__cta-spinner" aria-hidden="true" /> {t('ctaLoading')}</>
+              : t('ctaPlay')}
           </button>
 
           {/* Erreur chargement questions (pas de réseau + pas de cache) */}
           {fetchError && (
-            <p className="home__fetch-error" role="alert">{t('fetchError')}</p>
+            <div className="home__fetch-error" role="alert">
+              <WifiOff size={16} aria-hidden="true" />
+              <span>{t('fetchError')}</span>
+              <button type="button" className="home__retry-btn" onClick={handlePlay}>
+                {t('retry')}
+              </button>
+            </div>
           )}
 
           {!isPremium && (

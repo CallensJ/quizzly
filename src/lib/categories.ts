@@ -30,6 +30,30 @@ const CATEGORY_COLORS: Record<string, string> = {
   dino:        '#6D4C41',
 };
 
+/** Emoji par catégorie — source unique de vérité pour QuizScreen, ResultsScreen, etc. */
+export const CATEGORY_EMOJI: Record<string, string> = {
+  sciences:           '🔬',
+  histoire:           '📜',
+  heroes:             '⚔️',
+  geographie:         '🌍',
+  sport:              '🏆',
+  math:               '🔢',
+  francais:           '📖',
+  anglais:            '🇬🇧',
+  'animaux-nature':   '🐾',
+  art:                '🎨',
+  cuisine:            '🍳',
+  'corps-humain':     '❤️',
+  environnement:      '🌿',
+  dinosaures:         '🦕',
+  'espace-astronomie':'🚀',
+  'pop-culture':      '🎬',
+  technologie:        '💻',
+  musique:            '🎵',
+  'education-civique':'⚖️',
+  mythology:          '✨',
+};
+
 /** Retourne la couleur hex d'une catégorie, ou le primary (#667eea) par défaut. */
 export function getCategoryColor(category: string | null | undefined): string {
   if (!category) return '#667eea';

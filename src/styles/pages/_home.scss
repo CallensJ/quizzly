@@ -151,26 +151,19 @@
     }
   }
 
-  // Bouton CTA "Passer à Premium" — affiché à la place du badge si non-abonné
+  // Bouton CTA "Passer à Premium" — couleurs pilotées par les tokens --color-btn-premium-*
   &__premium-cta {
     display: inline-flex;
     align-items: center;
     gap: 0.3rem;
     padding: 4px 12px;
-    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
-    color: v.$white;
+    @include m.btn-premium;
     font-size: 0.75rem;
     font-weight: 800;
     border: none;
     border-radius: v.$radius-full;
     cursor: pointer;
-    transition: opacity 0.2s, transform 0.15s;
     flex-shrink: 0;
-
-    &:hover {
-      opacity: 0.88;
-      transform: translateY(-1px);
-    }
   }
 
   // ── Cartes de catégories ─────────────────────────────────────────────────
@@ -517,8 +510,15 @@
     }
 
     &:not(:disabled):hover {
+      filter:    brightness(0.84);
       transform: translateY(-2px);
       box-shadow: v.$shadow-lg;
+    }
+
+    &:not(:disabled):active {
+      filter:    brightness(0.74);
+      transform: scale(0.97);
+      transition-duration: 80ms;
     }
 
     @include m.focus-ring;
@@ -632,10 +632,14 @@
 
   // Message d'erreur chargement questions (réseau indisponible + pas de cache)
   &__fetch-error {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-sm;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: v.$font-size-sm;
     font-weight: 700;
     color: v.$error;
-    text-align: center;
     padding: v.$spacing-xs v.$spacing-md;
     background: rgba(v.$error, 0.08);
     border-radius: v.$radius-sm;
@@ -754,6 +758,71 @@
     &--open {
       transform: rotate(180deg);
     }
+  }
+
+  // Message d'aide contextuelle sous le CTA désactivé
+  &__hint {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$text-muted;
+    text-align: center;
+    padding: v.$spacing-xs 0;
+  }
+
+  &__retry-btn {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    color: v.$error;
+    background: none;
+    border: 1.5px solid v.$error;
+    border-radius: v.$radius-md;
+    padding: 3px 10px;
+    cursor: pointer;
+    transition: background v.$transition-fast;
+
+    &:hover { background: rgba(v.$error, 0.08); }
+  }
+
+  // Spinner dans le bouton CTA loading
+  &__cta-spinner {
+    animation: cta-spin 0.8s linear infinite;
+    flex-shrink: 0;
+  }
+
+  @keyframes cta-spin {
+    to { transform: rotate(360deg); }
+  }
+
+  // Accordéon "Voir plus" — catégories premium
+  &__premium-expand-btn {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-xs;
+    justify-content: center;
+    width: 100%;
+    padding: v.$spacing-sm v.$spacing-md;
+    margin-top: v.$spacing-sm;
+    background: none;
+    border: 1.5px dashed rgba(255, 255, 255, 0.3);
+    border-radius: v.$radius-md;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    cursor: pointer;
+    transition: border-color v.$transition-fast, color v.$transition-fast;
+
+    &:hover {
+      border-color: rgba(255, 255, 255, 0.55);
+      color: v.$white;
+    }
+  }
+
+  &__premium-expand-chevron {
+    transition: transform v.$transition-fast;
+
+    &--open { transform: rotate(180deg); }
   }
 
   // Variante spéciale pour la carte Mythology (pleine largeur)

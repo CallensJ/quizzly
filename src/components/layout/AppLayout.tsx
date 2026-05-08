@@ -15,7 +15,7 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { useRouter } from '@/i18n/navigation';
+import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
 import { Star, Trophy, Gamepad2, BarChart2, Home } from 'lucide-react';
@@ -29,8 +29,10 @@ interface AppLayoutProps {
 }
 
 export default function AppLayout({ children }: AppLayoutProps) {
-  const t = useTranslations('sidebar');
-  const router = useRouter();
+  const t      = useTranslations('sidebar');
+  const tDaily = useTranslations('daily');
+  const router   = useRouter();
+  const pathname = usePathname();
   const profile              = useProfileStore((s) => s.profile);
   const sessions             = useProfileStore((s) => s.sessions);
   const dailyStreak          = useProfileStore((s) => s.dailyStreak);
@@ -89,7 +91,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
           <strong className="app-layout__pseudo">{profile.pseudo}</strong>
           {dailyXp > 0 && (
             <span className="app-layout__player-title">
-              {playerTitle.emoji} {playerTitle.id}
+              {playerTitle.emoji} {tDaily(`title_${playerTitle.id}` as Parameters<typeof tDaily>[0])}
             </span>
           )}
         </button>
@@ -137,17 +139,19 @@ export default function AppLayout({ children }: AppLayoutProps) {
         {/* Navigation rapide */}
         <nav className="app-layout__nav" aria-label="Navigation">
           <button
-            className="app-layout__nav-btn"
+            className={`app-layout__nav-btn${pathname === '/home' ? ' app-layout__nav-btn--active' : ''}`}
             onClick={() => router.push('/home')}
             aria-label="Retour à l'accueil"
+            aria-current={pathname === '/home' ? 'page' : undefined}
           >
             <Home size={16} aria-hidden="true" />
             <span>Accueil</span>
           </button>
           <button
-            className="app-layout__nav-btn"
+            className={`app-layout__nav-btn${pathname === '/stats' ? ' app-layout__nav-btn--active' : ''}`}
             onClick={() => router.push('/stats')}
             aria-label="Voir les statistiques"
+            aria-current={pathname === '/stats' ? 'page' : undefined}
           >
             <BarChart2 size={16} aria-hidden="true" />
             <span>Statistiques</span>

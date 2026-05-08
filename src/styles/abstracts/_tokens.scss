@@ -46,6 +46,15 @@
   // Texte sur fond primary (blanc par défaut — sombre pour thème pink)
   --color-on-primary:    #ffffff;
 
+  // Hover / press du primary (assombrissement — pas de transparence)
+  --color-primary-hover:  #5568d4;
+  --color-primary-active: #4255c8;
+
+  // Bouton "Passer Premium" — surchargeable par thème
+  --color-btn-premium-start: #{v.$primary};
+  --color-btn-premium-end:   #{v.$primary-dark};
+  --color-btn-premium-text:  #ffffff;
+
   // Typographie
   --font-size-base:      #{v.$font-size-base};
 
@@ -69,7 +78,7 @@
   --shadow-lg:    #{v.$shadow-lg};
 }
 
-// ─── Thème Bleu ───────────────────────────────────────────────────
+// ─── Thème Bleu (Garçon) ─────────────────────────────────────────
 // #001BB7 primary-dark · #0046FF primary · #FF8040 accent · #E9E9E9 surface
 [data-theme="blue"] {
   --color-primary:       #0046FF;
@@ -78,9 +87,17 @@
   --color-bg:            #dde3f5;
   --color-surface:       #E9E9E9;
   --color-on-primary:    #ffffff;
+
+  --color-primary-hover:  #0039D6;
+  --color-primary-active: #002DB3;
+
+  // Premium = orange vif avec typo bleue
+  --color-btn-premium-start: #FF8040;
+  --color-btn-premium-end:   #e0601a;
+  --color-btn-premium-text:  #0046FF;
 }
 
-// ─── Thème Rose ───────────────────────────────────────────────────
+// ─── Thème Rose (Fille) ───────────────────────────────────────────
 // #FCF8F8 bg · #FBEFEF surface · #F9DFDF surface-alt · #F5AFAF primary
 // Palette très claire — texte sombre obligatoire sur fond primary
 [data-theme="pink"] {
@@ -89,4 +106,11 @@
   --color-bg:            #FCF8F8;
   --color-surface:       #FBEFEF;
   --color-on-primary:    #5c1a1a;
+
+  --color-primary-hover:  #e89090;
+  --color-primary-active: #d97070;
+
+  --color-btn-premium-start: #F5AFAF;
+  --color-btn-premium-end:   #e89090;
+  --color-btn-premium-text:  #5c1a1a;
 }

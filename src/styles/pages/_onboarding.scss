@@ -107,7 +107,24 @@
       color: v.$text-muted;
     }
 
+    &--error {
+      border-color: v.$error;
+    }
+
     @include m.focus-ring;
+  }
+
+  &__hint {
+    font-size: v.$font-size-sm;
+    color: v.$error;
+    margin-top: -(v.$spacing-xs);
+  }
+
+  &__char-count {
+    font-size: v.$font-size-sm;
+    color: v.$text-muted;
+    text-align: right;
+    margin-top: -(v.$spacing-xs);
   }
 
   // ── Sélection tranche d'âge ─────────────────────────────────────────────

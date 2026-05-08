@@ -23,7 +23,7 @@ import { useProfileStore } from '@/stores/profileStore';
 import Nova, { type NovaState } from '@/components/ui/Nova';
 import { playSound } from '@/lib/sound';
 import { getNewlyEarnedBadges } from '@/lib/badges';
-import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
+import { getCategoryColor, getCategoryColorDark, CATEGORY_EMOJI } from '@/lib/categories';
 import { X } from 'lucide-react';
 import type { AnswerKey } from '@/types';
 
@@ -162,18 +162,32 @@ export default function QuizScreen() {
     return () => cancelAnimationFrame(rafId);
   }, [selectedAnswer]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // ── Auto-avance sur toute réponse ─────────────────────────────────────────
-  // Bonne réponse → 1200ms. Mauvaise réponse → 2000ms (temps de voir la bonne réponse).
+  // ── Bouton Suivant — disponible après 800ms min, auto-avance fallback à 4s ──
+  const [showNext, setShowNext] = useState(false);
   const autoAdvanceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const showNextRef    = useRef<ReturnType<typeof setTimeout> | null>(null);
+
   useEffect(() => {
     if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
+    if (showNextRef.current)    clearTimeout(showNextRef.current);
+    setShowNext(false);
     if (!isAnswered || !question) return;
-    const delay = selectedAnswer === question.answer ? 1200 : 2000;
-    autoAdvanceRef.current = setTimeout(nextQuestion, delay);
+
+    // Rend le bouton Suivant cliquable après 800ms (laisse le temps de voir le feedback)
+    showNextRef.current = setTimeout(() => setShowNext(true), 800);
+    // Auto-avance fallback si l'enfant ne clique pas
+    autoAdvanceRef.current = setTimeout(nextQuestion, 4000);
     return () => {
       if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
+      if (showNextRef.current)    clearTimeout(showNextRef.current);
     };
   }, [selectedAnswer]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  function handleNext() {
+    if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
+    if (showNextRef.current)    clearTimeout(showNextRef.current);
+    nextQuestion();
+  }
 
   // ── Garde : quiz non démarré → retour Home ──────────────────────────────
   useEffect(() => {
@@ -265,7 +279,7 @@ export default function QuizScreen() {
       >
         <div className="quiz__header-top">
           <span className="quiz__cat-label">
-            {category === 'sciences' ? '🔬' : '📜'} {tHome(category!)}
+            {CATEGORY_EMOJI[category!] ?? '🎮'} {tHome(category!)}
           </span>
           <button
             type="button"
@@ -377,7 +391,18 @@ export default function QuizScreen() {
           ))}
         </div>
 
-        {/* Auto-avance sur toute réponse (bonne 1.2s, mauvaise 2s) — pas de bouton Suivant */}
+        {/* Bouton Suivant — apparaît après 800ms, annule l'auto-avance à 4s */}
+        {isAnswered && (
+          <button
+            type="button"
+            className={`quiz__next-btn${showNext ? ' quiz__next-btn--visible' : ''}`}
+            onClick={handleNext}
+            disabled={!showNext}
+            aria-label="Question suivante"
+          >
+            Suivant →
+          </button>
+        )}
 
       </main>
     </div>
