@@ -395,6 +395,7 @@ export default function QuizScreen() {
         {isAnswered && (
           <button
             type="button"
+            data-testid="next-btn"
             className={`quiz__next-btn${showNext ? ' quiz__next-btn--visible' : ''}`}
             onClick={handleNext}
             disabled={!showNext}

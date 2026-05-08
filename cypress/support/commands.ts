@@ -124,39 +124,29 @@ Cypress.Commands.add('setupQuestionsCache', () => {
 /**
  * cy.answerAllQuestions()
  *
- * Répond à toutes les questions du quiz en cours en cliquant sur la réponse A,
- * puis attend l'auto-advance.
+ * Répond à toutes les questions du quiz en cours :
+ *   1. Clique sur la réponse A
+ *   2. Attend que le bouton "Suivant" devienne cliquable (après 800ms min)
+ *   3. Clique sur "Suivant"
+ *   4. Répète jusqu'à la fin du quiz (max 25 itérations)
  *
- * Utilise 25 itérations (marge de sécurité) avec $body.find() pour détecter
- * la présence de answer-A SANS timeout bloquant.
+ * Le bouton Suivant (data-testid="next-btn") est présent dans le DOM dès qu'une
+ * réponse est donnée, mais disabled et opacity:0 pendant 800ms. On attend qu'il
+ * soit enabled avant de cliquer — cy.get(:not([disabled])) y suffit.
  *
- * Pourquoi $body.find() plutôt que cy.url() + cy.get({timeout}) ?
- * Après la dernière question (question 20), nextQuestion() met status='finished'.
- * QuizScreen rend null (plus de answer-A dans le DOM). Mais l'URL est encore '/quiz'
- * pendant quelques ms avant que l'effet router.push('/results') ne fire.
- * Avec cy.url() + cy.get({timeout:10000}), l'itération 21 voyait '/quiz', cherchait
- * answer-A pendant 10s et échouait. Avec $body.find(), le check est instantané :
- * si answer-A n'est pas dans le DOM → skip immédiat.
- *
- * Pourquoi cy.wait(2200) ?
- * shuffleOptions() mélange les options — la bonne réponse n'est à 'A' qu'à 25%.
- * QuizScreen auto-avance après 1200ms (bonne réponse) ou 2000ms (mauvaise réponse).
- * Un wait de 1400ms ne couvre pas le cas faux (2000ms) : l'itération suivante voit
- * answer-A encore visible, clique sur un bouton désactivé, gaspille une itération.
- * Avec 2200ms, une seule itération suffit pour toute réponse, et 20 questions tiennent
- * dans les 25 itérations disponibles.
+ * Après la dernière question, QuizScreen rend null (plus d'answer-A dans le DOM)
+ * et navigue vers /results. On utilise $body.find() (check synchrone sans timeout)
+ * pour détecter proprement la fin sans bloquer.
  */
 Cypress.Commands.add('answerAllQuestions', () => {
   // 25 itérations — marge de sécurité au-delà des 20 questions
   Cypress._.times(25, () => {
     cy.get('body').then(($body) => {
-      // Check synchrone sans timeout : si answer-A n'est pas visible (quiz fini
-      // ou en transition), on skipe cette itération sans bloquer.
+      // Check synchrone sans timeout : si answer-A n'est pas visible → quiz terminé, skip.
       if ($body.find('[data-testid="answer-A"]').is(':visible')) {
         cy.get('[data-testid="answer-A"]').click();
-        // Auto-advance uniquement — pas de bouton Suivant dans ce quiz.
-        // 2200ms couvre bonne réponse (1200ms) ET mauvaise réponse (2000ms).
-        cy.wait(2200);
+        // Attendre que le bouton Suivant soit activé (800ms min selon QuizScreen)
+        cy.get('[data-testid="next-btn"]:not([disabled])', { timeout: 3000 }).click();
       }
     });
   });
@@ -174,7 +164,7 @@ declare global {
       setupProfile(): Chainable<void>;
       /** Pré-remplit le cache localStorage des questions (mock) pour éviter les appels Supabase en test */
       setupQuestionsCache(): Chainable<void>;
-      /** Répond à toutes les questions du quiz en cliquant sur A + Suivant */
+      /** Répond à toutes les questions du quiz : clique A puis le bouton Suivant */
       answerAllQuestions(): Chainable<void>;
     }
   }
