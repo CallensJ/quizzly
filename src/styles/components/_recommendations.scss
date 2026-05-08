@@ -39,7 +39,7 @@
 
   // ── Carte individuelle ──────────────────────────────────────────────────
   &__card {
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-md;
     border-left: 4px solid transparent;
@@ -55,8 +55,8 @@
     }
 
     // Couleurs par type
-    &--level-up  { border-left-color: v.$primary; }
-    &--practice  { border-left-color: v.$accent-orange; }
+    &--level-up  { border-left-color: var(--color-primary); }
+    &--practice  { border-left-color: var(--color-accent-orange); }
     &--try-new   { border-left-color: v.$secondary; }
     &--diversify { border-left-color: v.$accent; }
   }
@@ -77,8 +77,8 @@
     border-radius: 50%;
     flex-shrink: 0;
 
-    .rec__card--level-up  & { background: rgba(v.$primary, 0.1);       color: v.$primary;       }
-    .rec__card--practice  & { background: rgba(v.$accent-orange, 0.1); color: v.$accent-orange; }
+    .rec__card--level-up  & { background: color-mix(in srgb, var(--color-primary) 10%, transparent);       color: var(--color-primary);       }
+    .rec__card--practice  & { background: color-mix(in srgb, var(--color-accent-orange) 10%, transparent); color: var(--color-accent-orange); }
     .rec__card--try-new   & { background: rgba(v.$secondary, 0.1);     color: v.$secondary;     }
     .rec__card--diversify & { background: rgba(v.$accent, 0.15);       color: color.adjust(v.$accent, $lightness: -20%); }
   }
@@ -89,8 +89,8 @@
     text-transform: uppercase;
     letter-spacing: 0.06em;
 
-    .rec__card--level-up  & { color: v.$primary;       }
-    .rec__card--practice  & { color: v.$accent-orange; }
+    .rec__card--level-up  & { color: var(--color-primary);       }
+    .rec__card--practice  & { color: var(--color-accent-orange); }
     .rec__card--try-new   & { color: v.$secondary;     }
     .rec__card--diversify & { color: color.adjust(v.$accent, $lightness: -20%); }
   }
@@ -142,8 +142,8 @@
     cursor: pointer;
     transition: opacity v.$transition-fast;
 
-    .rec__card--level-up  & { background: v.$primary;       color: v.$white; }
-    .rec__card--practice  & { background: v.$accent-orange; color: v.$white; }
+    .rec__card--level-up  & { background: var(--color-primary);       color: v.$white; }
+    .rec__card--practice  & { background: var(--color-accent-orange); color: v.$white; }
     .rec__card--try-new   & { background: v.$secondary;     color: v.$white; }
     .rec__card--diversify & { background: color.adjust(v.$accent, $lightness: -15%); color: v.$white; }
 

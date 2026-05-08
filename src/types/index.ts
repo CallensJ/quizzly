@@ -59,6 +59,8 @@ export interface GoalStatus {
 
 export type Locale = 'en' | 'fr';
 
+export type AppTheme = 'default' | 'blue' | 'pink';
+
 // ─── Profil utilisateur ────────────────────────────────────────────────────────
 
 export interface Profile {
@@ -66,6 +68,7 @@ export interface Profile {
   pseudo: string;
   avatarId: string;
   avatarStyle?: string; // Style DiceBear — défaut 'adventurer' si absent (rétro-compat profils existants)
+  theme?: AppTheme;     // Thème de couleur — défaut 'default' si absent (rétro-compat)
   badgeEarned: boolean;
   locale: Locale;
   createdAt: string;

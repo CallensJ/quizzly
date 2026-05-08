@@ -12,7 +12,7 @@
 .home {
   min-height: 100dvh;
   @include m.flex-column;
-  background: v.$bg;
+  background: var(--color-bg);
 
   // ── Barre de navigation ──────────────────────────────────────────────────
 
@@ -136,7 +136,7 @@
     display: inline-flex;
     align-items: center;
     padding: 2px 10px;
-    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
     color: v.$white;
     font-size: 0.7rem;
     font-weight: 800;
@@ -157,7 +157,7 @@
     align-items: center;
     gap: 0.3rem;
     padding: 4px 12px;
-    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
     color: v.$white;
     font-size: 0.75rem;
     font-weight: 800;
@@ -201,7 +201,7 @@
     align-items: center;
     gap: v.$spacing-sm;
     padding: v.$spacing-lg v.$spacing-md;
-    background: v.$white;
+    background: var(--color-surface);
     border: 3px solid transparent;
     border-radius: v.$radius-lg;
     box-shadow: v.$shadow-sm;
@@ -379,7 +379,7 @@
     align-items: center;
     gap: v.$spacing-xs;
     padding: v.$spacing-md v.$spacing-sm;
-    background: v.$white;
+    background: var(--color-surface);
     // Bordure pointillée teintée de la couleur catégorie — signal visuel "en cours"
     border: 2px dashed color-mix(in srgb, var(--cat-color) 45%, transparent);
     border-radius: v.$radius-lg;
@@ -451,7 +451,7 @@
     border-radius: v.$radius-full; // pill
     font-size: v.$font-size-sm;
     font-weight: 800;
-    background: v.$bg;
+    background: var(--color-bg);
     transition:
       background v.$transition-fast,
       color v.$transition-fast,
@@ -460,7 +460,7 @@
 
     // Couleurs par niveau de difficulté — cohérence avec le design system
     &--easy   { color: v.$secondary; }
-    &--medium { color: v.$accent-orange; }
+    &--medium { color: var(--color-accent-orange); }
     &--hard   { color: v.$hard; }
 
     &:hover {
@@ -478,9 +478,9 @@
         box-shadow: 0 3px 12px rgba(v.$secondary, 0.4);
       }
       &.home__diff-btn--medium {
-        background: v.$accent-orange;
-        border-color: v.$accent-orange;
-        box-shadow: 0 3px 12px rgba(v.$accent-orange, 0.4);
+        background: var(--color-accent-orange);
+        border-color: var(--color-accent-orange);
+        box-shadow: 0 3px 12px color-mix(in srgb, var(--color-accent-orange) 40%, transparent);
       }
       &.home__diff-btn--hard {
         background: v.$hard;
@@ -709,7 +709,7 @@
       gap: v.$spacing-lg;
       grid-column: 2;
       grid-row: 2 / -1;
-      background: v.$white;
+      background: var(--color-surface);
       border-radius: v.$radius-lg;
       padding: v.$spacing-xl v.$spacing-lg;
       box-shadow: v.$shadow-md;

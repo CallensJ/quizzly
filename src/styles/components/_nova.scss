@@ -134,7 +134,7 @@
 // ── Bulle de texte ────────────────────────────────────────────────────────
 
 .nova__bubble {
-    background: v.$white;
+    background: var(--color-surface);
     padding: v.$spacing-sm v.$spacing-md;
     border-radius: v.$radius-md v.$radius-md 0 v.$radius-md;
     box-shadow: v.$shadow-md;
@@ -162,7 +162,7 @@
     border-radius: 50%;
 
     &:focus-visible {
-        outline: 2px solid v.$primary;
+        outline: 2px solid var(--color-primary);
         outline-offset: 4px;
     }
 }

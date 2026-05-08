@@ -16,7 +16,7 @@
 .auth {
   min-height: 100dvh;
   @include m.flex-column;
-  background: v.$bg;
+  background: var(--color-bg);
   animation: auth-fade-in 300ms ease both;
 
   // ── Header ─────────────────────────────────────────────────────────────────
@@ -93,7 +93,7 @@
     min-height: 40px;
 
     &--active {
-      background: v.$white;
+      background: var(--color-surface);
       color: v.$foreground;
       box-shadow: v.$shadow-sm;
     }
@@ -166,7 +166,7 @@
     padding: v.$spacing-sm v.$spacing-md v.$spacing-sm calc(#{v.$spacing-md} + 16px + #{v.$spacing-sm});
     border: 2px solid #e5e7eb;
     border-radius: v.$radius-md;
-    background: v.$white;
+    background: var(--color-surface);
     font-family: v.$font-primary;
     font-size: v.$font-size-base;
     font-weight: 600;
@@ -179,8 +179,8 @@
     &::placeholder { color: #9ca3af; font-weight: 400; }
 
     &:focus {
-      border-color: v.$primary;
-      box-shadow: 0 0 0 3px rgba(v.$primary, 0.15);
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 15%, transparent);
     }
 
     // Padding supplémentaire à droite pour le bouton show/hide (champ password)
@@ -214,7 +214,7 @@
     font-family: v.$font-primary;
     font-size: v.$font-size-sm;
     font-weight: 700;
-    color: v.$primary;
+    color: var(--color-primary);
     cursor: pointer;
     transition: opacity v.$transition-fast;
 
@@ -239,8 +239,8 @@
     align-self: flex-start;
     padding: v.$spacing-xs v.$spacing-md;
     border-radius: v.$radius-md;
-    background: rgba(v.$primary, 0.1);
-    color: v.$primary;
+    background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+    color: var(--color-primary);
     font-family: v.$font-primary;
     font-size: v.$font-size-sm;
     font-weight: 700;
@@ -248,7 +248,7 @@
     transition: background v.$transition-fast;
     min-height: 36px;
 
-    &:hover { background: rgba(v.$primary, 0.2); }
+    &:hover { background: color-mix(in srgb, var(--color-primary) 20%, transparent); }
     &:disabled { opacity: 0.5; cursor: not-allowed; }
     @include m.focus-ring;
   }
@@ -324,7 +324,7 @@
     gap: v.$spacing-sm;
     width: 100%;
     min-height: v.$touch-target-min;
-    background: v.$white;
+    background: var(--color-surface);
     border: 2px solid #e5e7eb;
     border-radius: v.$radius-md;
     font-family: v.$font-primary;
@@ -337,8 +337,8 @@
       border-color v.$transition-fast;
 
     &:hover {
-      background: v.$bg;
-      border-color: v.$primary;
+      background: var(--color-bg);
+      border-color: var(--color-primary);
     }
 
     &:disabled {
@@ -377,13 +377,13 @@
   align-items: center;
   justify-content: center;
   gap: v.$spacing-lg;
-  background: v.$bg;
+  background: var(--color-bg);
 
   &__spinner {
     width: 48px;
     height: 48px;
-    border: 4px solid rgba(v.$primary, 0.2);
-    border-top-color: v.$primary;
+    border: 4px solid color-mix(in srgb, var(--color-primary) 20%, transparent);
+    border-top-color: var(--color-primary);
     border-radius: 50%;
     animation: auth-spin 700ms linear infinite;
   }

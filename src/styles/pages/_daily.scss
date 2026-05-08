@@ -18,7 +18,7 @@
 .daily {
   min-height: 100dvh;
   @include m.flex-column;
-  background: v.$bg;
+  background: var(--color-bg);
 
   // ── Header ────────────────────────────────────────────────────────────────
 
@@ -69,7 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-md v.$spacing-lg;
     box-shadow: v.$shadow-sm;
@@ -110,15 +110,15 @@
 
     &--active {
       // Bouclier disponible — couleur primaire
-      color: v.$primary;
-      filter: drop-shadow(0 0 4px rgba(v.$primary, 0.4));
+      color: var(--color-primary);
+      filter: drop-shadow(0 0 4px color-mix(in srgb, var(--color-primary) 40%, transparent));
     }
   }
 
   // ── Carte XP + Titre ──────────────────────────────────────────────────────
 
   &__xp-card {
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-lg;
     box-shadow: v.$shadow-sm;
@@ -148,7 +148,7 @@
   &__xp-total {
     font-size: v.$font-size-base;
     font-weight: 700;
-    color: v.$primary;
+    color: var(--color-primary);
   }
 
   &__xp-progress-wrap {
@@ -166,7 +166,7 @@
   &__xp-bar {
     height: 100%;
     width: var(--bar-pct, 0%);
-    background: linear-gradient(90deg, v.$primary, v.$primary-dark);
+    background: linear-gradient(90deg, var(--color-primary), var(--color-primary-dark));
     border-radius: v.$radius-full;
     transition: width 600ms ease;
   }
@@ -183,11 +183,11 @@
   &__quiz-card {
     @include m.flex-column;
     gap: v.$spacing-md;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-lg;
     box-shadow: v.$shadow-sm;
-    border-left: 4px solid v.$primary;
+    border-left: 4px solid var(--color-primary);
   }
 
   &__quiz-title {
@@ -226,9 +226,9 @@
       border-color: rgba(v.$secondary, 0.3);
     }
     &--medium {
-      background: rgba(v.$accent-orange, 0.15);
+      background: color-mix(in srgb, var(--color-accent-orange) 15%, transparent);
       color: color.adjust(v.$accent-orange, $lightness: -15%);
-      border-color: rgba(v.$accent-orange, 0.3);
+      border-color: color-mix(in srgb, var(--color-accent-orange) 30%, transparent);
     }
   }
 
@@ -302,7 +302,7 @@
 
     &:disabled {
       // Déjà joué — état neutre, pas d'aspect cassé
-      background: linear-gradient(135deg, rgba(v.$primary, 0.5), rgba(v.$primary-dark, 0.5));
+      background: linear-gradient(135deg, color-mix(in srgb, var(--color-primary) 50%, transparent), color-mix(in srgb, var(--color-primary-dark) 50%, transparent));
       cursor: default;
       box-shadow: none;
     }

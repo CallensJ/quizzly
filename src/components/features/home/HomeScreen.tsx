@@ -246,7 +246,11 @@ export default function HomeScreen() {
       {/* ── Barre de navigation ────────────────────────────────────────────── */}
       <header
         className="home__header"
-        style={{ background: `linear-gradient(135deg, ${headerColor}, ${headerColorDark})` }}
+        style={{
+          background: category
+            ? `linear-gradient(135deg, ${headerColor}, ${headerColorDark})`
+            : 'linear-gradient(135deg, var(--color-primary), var(--color-primary-dark))',
+        }}
       >
         <h1 className="home__greeting">
           {/* Salutation personnalisée avec le pseudo */}

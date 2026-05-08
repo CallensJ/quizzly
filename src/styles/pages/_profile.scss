@@ -15,7 +15,7 @@
 .profile {
   min-height: 100dvh;
   @include m.flex-column;
-  background: v.$bg;
+  background: var(--color-bg);
 
   // ── Header ───────────────────────────────────────────────────────────────
 
@@ -78,7 +78,7 @@
     display: flex;
     align-items: center;
     gap: v.$spacing-lg;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-lg;
     box-shadow: v.$shadow-md;
@@ -93,14 +93,14 @@
     flex-shrink: 0;
     border-radius: 50%;
     padding: 3px;
-    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
   }
 
   &__avatar {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: v.$bg;
+    background: var(--color-bg);
     display: block;
   }
 
@@ -114,7 +114,7 @@
     min-width: 26px;
     padding: 0;
     @include m.flex-center;
-    background: v.$primary;
+    background: var(--color-primary);
     color: v.$white;
     border-radius: 50%;
     border: 2px solid v.$white;
@@ -122,7 +122,7 @@
     flex-shrink: 0;
     transition: background v.$transition-fast;
 
-    &:hover { background: v.$primary-dark; }
+    &:hover { background: var(--color-primary-dark); }
     @include m.focus-ring;
   }
 
@@ -135,14 +135,14 @@
   &__avatar-change-label {
     font-size: v.$font-size-sm;
     font-weight: 600;
-    color: v.$primary;
+    color: var(--color-primary);
     text-decoration: underline;
     text-underline-offset: 2px;
     text-align: left;
     margin-top: 2px;
     transition: color v.$transition-fast;
 
-    &:hover { color: v.$primary-dark; }
+    &:hover { color: var(--color-primary-dark); }
     @include m.focus-ring;
   }
 
@@ -152,7 +152,7 @@
     display: flex;
     flex-direction: column;
     gap: v.$spacing-sm;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-md;
     box-shadow: v.$shadow-md;
@@ -173,7 +173,7 @@
       display: flex;
       align-items: center;
       gap: 5px;
-      color: v.$primary;
+      color: var(--color-primary);
       margin-top: v.$spacing-md;
     }
   }
@@ -186,7 +186,7 @@
     gap: 0.5rem;
     width: 100%;
     padding: 0.65rem 1rem;
-    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
     color: v.$white;
     font-size: 0.875rem;
     font-weight: 800;
@@ -247,14 +247,14 @@
     }
 
     &:hover {
-      background: rgba(v.$primary, 0.08);
+      background: color-mix(in srgb, var(--color-primary) 8%, transparent);
       transform: scale(1.05);
     }
 
     // Avatar actuellement sélectionné — fond violet doux + bordure
     &--active {
-      background: rgba(v.$primary, 0.12);
-      outline: 2px solid v.$primary;
+      background: color-mix(in srgb, var(--color-primary) 12%, transparent);
+      outline: 2px solid var(--color-primary);
       outline-offset: 2px;
     }
 
@@ -310,7 +310,7 @@
     @include m.flex-column;
     align-items: center;
     gap: 4px;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-md;
     padding: v.$spacing-md v.$spacing-sm;
     box-shadow: v.$shadow-sm;
@@ -320,7 +320,7 @@
   &__stat-value {
     font-size: v.$font-size-xl;
     font-weight: 800;
-    color: v.$primary;
+    color: var(--color-primary);
   }
 
   &__stat-label {
@@ -344,7 +344,7 @@
     display: flex;
     align-items: center;
     gap: v.$spacing-md;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-md v.$spacing-lg;
     box-shadow: v.$shadow-sm;
@@ -383,7 +383,7 @@
   &__cat-best {
     font-size: v.$font-size-xl;
     font-weight: 800;
-    color: v.$primary;
+    color: var(--color-primary);
     flex-shrink: 0;
   }
 
@@ -402,10 +402,18 @@
     align-items: center;
     justify-content: space-between;
     gap: v.$spacing-lg;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-md v.$spacing-lg;
     box-shadow: v.$shadow-sm;
+
+    // Variante pleine largeur pour le theme picker (pas de toggle à droite)
+    &--theme {
+      border-radius: v.$radius-lg v.$radius-lg 0 0;
+      box-shadow: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      padding-bottom: v.$spacing-sm;
+    }
   }
 
   &__setting-info {
@@ -413,6 +421,37 @@
     gap: 2px;
     flex: 1;
     min-width: 0;
+  }
+
+  &__theme-picker-wrap {
+    background: var(--color-surface);
+    border-radius: 0 0 v.$radius-lg v.$radius-lg;
+    padding: v.$spacing-md;
+    box-shadow: v.$shadow-sm;
+
+    // Override couleurs du ThemePicker pour fond clair
+    .theme-picker__btn {
+      background: rgba(0, 0, 0, 0.04);
+      color: v.$foreground;
+      border-color: transparent;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.08);
+      }
+
+      &--active {
+        border-color: var(--color-primary);
+        background: rgba(0, 0, 0, 0.04);
+      }
+    }
+
+    .theme-picker__swatch {
+      border-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .theme-picker__label {
+      color: v.$foreground;
+    }
   }
 
   &__setting-name {
@@ -447,7 +486,7 @@
 
     // Focus visible sur la piste quand l'input est focalisé
     &:focus-visible + .profile__toggle-track {
-      outline: 3px solid v.$primary;
+      outline: 3px solid var(--color-primary);
       outline-offset: 2px;
     }
   }
@@ -462,7 +501,7 @@
 
     // Piste active (checked) → violet primary
     .profile__toggle-input:checked ~ & {
-      background: v.$primary;
+      background: var(--color-primary);
     }
   }
 
@@ -473,7 +512,7 @@
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: v.$white;
+    background: var(--color-surface);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     transition: transform v.$transition-fast;
 
@@ -489,10 +528,10 @@
   &__lang-btn {
     flex-shrink: 0;
     padding: v.$spacing-xs v.$spacing-sm;
-    background: v.$white;
-    border: 2px solid v.$primary;
+    background: var(--color-surface);
+    border: 2px solid var(--color-primary);
     border-radius: v.$radius-md;
-    color: v.$primary;
+    color: var(--color-primary);
     font-family: v.$font-primary;
     font-size: v.$font-size-sm;
     font-weight: 700;
@@ -502,12 +541,12 @@
       color v.$transition-fast;
 
     &:hover {
-      background: v.$primary;
+      background: var(--color-primary);
       color: v.$white;
     }
 
     &:focus-visible {
-      outline: 3px solid v.$primary;
+      outline: 3px solid var(--color-primary);
       outline-offset: 2px;
     }
   }
@@ -522,19 +561,19 @@
     align-items: center;
     justify-content: center;
     gap: v.$spacing-sm;
-    background: v.$white;
-    color: v.$primary;
+    background: var(--color-surface);
+    color: var(--color-primary);
     font-size: v.$font-size-lg;
     font-weight: 800;
     border-radius: v.$radius-full;
-    border: 2px solid v.$primary;
+    border: 2px solid var(--color-primary);
     box-shadow: v.$shadow-sm;
     transition:
       background v.$transition-fast,
       color v.$transition-fast;
 
     &:hover {
-      background: v.$primary;
+      background: var(--color-primary);
       color: v.$white;
     }
 
@@ -699,6 +738,19 @@
         justify-content: space-between;
         min-height: 110px;
         padding: v.$spacing-lg;
+
+        // Ligne thème : pleine largeur + coins bas aplatis pour coller au picker
+        &--theme {
+          grid-column: 1 / -1;
+          min-height: unset;
+          flex-direction: row;
+          align-items: center;
+        }
+      }
+
+      // Picker thème : pleine largeur, coins hauts aplatis pour coller à la ligne titre
+      .profile__theme-picker-wrap {
+        grid-column: 1 / -1;
       }
     }
 
@@ -842,7 +894,7 @@
     }
 
     &--active {
-      border-color: v.$primary;
+      border-color: var(--color-primary);
       background: #f0eeff;
     }
   }
@@ -869,7 +921,7 @@
     width: 26px;
     height: 26px;
     border-radius: 50%;
-    background: v.$primary;
+    background: var(--color-primary);
     color: #fff;
     flex-shrink: 0;
   }
@@ -891,7 +943,7 @@
     cursor: pointer;
     font-size: 0.95rem;
     font-weight: 600;
-    color: v.$primary;
+    color: var(--color-primary);
     transition: background 0.15s;
 
     &:hover { background: #f8f7ff; }
@@ -921,7 +973,7 @@
   border: 1.5px solid #e8e4ff;
   border-radius: 12px;
   background: #f8f7ff;
-  color: v.$primary;
+  color: var(--color-primary);
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
@@ -929,6 +981,6 @@
 
   &:hover {
     background: #f0eeff;
-    border-color: v.$primary;
+    border-color: var(--color-primary);
   }
 }

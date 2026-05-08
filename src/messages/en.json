@@ -8,6 +8,7 @@
     "pseudoLabel": "Choose your nickname",
     "pseudoPlaceholder": "SuperStar123",
     "avatarLabel": "Pick your avatar",
+    "themeLabel": "Pick your colours",
     "ctaConfirm": "Let's go!",
     "restoreAccount": "Already have an account?",
     "restoreAccountLink": "Restore my profile"
@@ -133,7 +134,15 @@
     "langDesc": "Change the app language",
     "adminLink": "Parent space",
     "statsLink": "My statistics",
-    "switchPlayer": "Switch player"
+    "switchPlayer": "Switch player",
+    "themeLabel": "Colour theme",
+    "themeDesc": "Customise the app colours"
+  },
+  "theme": {
+    "label": "Choose a colour theme",
+    "default": "Classic",
+    "blue": "Blue",
+    "pink": "Pink"
   },
   "stats": {
     "title": "My Statistics",

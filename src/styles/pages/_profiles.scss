@@ -9,7 +9,7 @@
 
 .profiles {
   min-height: 100dvh;
-  background: linear-gradient(135deg, v.$primary 0%, v.$primary-dark 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   display: flex;
   flex-direction: column;
   padding: v.$spacing-xl v.$spacing-md;
@@ -157,7 +157,7 @@
   }
 
   &__add-form-inner {
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-xl;
     width: 100%;
@@ -182,7 +182,7 @@
   &__add-form-close {
     width: 36px;
     height: 36px;
-    background: v.$bg;
+    background: var(--color-bg);
     border: none;
     border-radius: 50%;
     color: v.$text-muted;
@@ -221,7 +221,7 @@
     transition: border-color v.$transition-fast;
 
     &:focus {
-      border-color: v.$primary;
+      border-color: var(--color-primary);
     }
   }
 
@@ -234,7 +234,7 @@
 
   &__add-avatar {
     aspect-ratio: 1;
-    background: v.$bg;
+    background: var(--color-bg);
     border: 2px solid transparent;
     border-radius: v.$radius-md;
     padding: 4px;
@@ -248,12 +248,12 @@
     }
 
     &--active {
-      border-color: v.$primary;
-      background: rgba(v.$primary, 0.08);
+      border-color: var(--color-primary);
+      background: color-mix(in srgb, var(--color-primary) 8%, transparent);
     }
 
     &:hover:not(&--active) {
-      border-color: rgba(v.$primary, 0.4);
+      border-color: color-mix(in srgb, var(--color-primary) 40%, transparent);
     }
   }
 
@@ -266,7 +266,7 @@
   &__add-cancel {
     flex: 1;
     padding: 0.75rem;
-    background: v.$bg;
+    background: var(--color-bg);
     border: none;
     border-radius: v.$radius-md;
     font-size: v.$font-size-base;
@@ -283,7 +283,7 @@
   &__add-confirm {
     flex: 2;
     padding: 0.75rem;
-    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
     border: none;
     border-radius: v.$radius-md;
     font-size: v.$font-size-base;
@@ -313,7 +313,7 @@
   }
 
   &__confirm {
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-xl;
     width: 100%;
@@ -337,7 +337,7 @@
   &__confirm-cancel {
     flex: 1;
     padding: 0.75rem;
-    background: v.$bg;
+    background: var(--color-bg);
     border: none;
     border-radius: v.$radius-md;
     font-size: v.$font-size-base;

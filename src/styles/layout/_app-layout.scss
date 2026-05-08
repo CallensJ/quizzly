@@ -40,7 +40,7 @@
 
       // Gradient vertical — écrasé par le style inline de AppLayout.tsx avec la couleur
       // de la catégorie en cours. Cette règle sert de fallback si le composant ne se monte pas.
-      background: linear-gradient(180deg, v.$primary 0%, v.$primary-dark 100%);
+      background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
       color: v.$white;
       padding: v.$spacing-xl v.$spacing-lg;
       overflow-y: auto;
@@ -101,7 +101,7 @@
     width: 88px;
     height: 88px;
     border-radius: 50%;
-    background: v.$white;
+    background: var(--color-surface);
     // Anneau lumineux — donne de la profondeur à l'avatar
     box-shadow:
       0 0 0 3px rgba(255, 255, 255, 0.6),

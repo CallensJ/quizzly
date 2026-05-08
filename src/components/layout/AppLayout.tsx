@@ -59,7 +59,11 @@ export default function AppLayout({ children }: AppLayoutProps) {
       <aside
         className="app-layout__sidebar"
         aria-label={t('sidebarLabel')}
-        style={{ background: `linear-gradient(180deg, ${sidebarColor} 0%, ${sidebarColorDark} 100%)` }}
+        style={{
+          background: quizCategory
+            ? `linear-gradient(180deg, ${sidebarColor} 0%, ${sidebarColorDark} 100%)`
+            : 'linear-gradient(180deg, var(--color-primary) 0%, var(--color-primary-dark) 100%)',
+        }}
       >
 
         {/* Logo */}

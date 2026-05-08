@@ -15,6 +15,7 @@ import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import AuthProvider from '@/components/features/auth/AuthProvider';
 import NovaProvider from '@/components/mascotte/NovaProvider';
+import ThemeApplier from '@/components/ui/ThemeApplier';
 
 export default async function LocaleLayout({
   children,
@@ -35,6 +36,7 @@ export default async function LocaleLayout({
     <NextIntlClientProvider messages={messages}>
       {/* AuthProvider initialise la session Supabase Auth au montage */}
       <AuthProvider>
+        <ThemeApplier />
         {children}
         {/* NovaProvider rend NovaMascot globalement sur toutes les pages */}
         <NovaProvider />

@@ -15,7 +15,7 @@
 
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import type { Profile, QuizSession, Locale, GoalCategory } from '@/types';
+import type { Profile, QuizSession, Locale, GoalCategory, AppTheme } from '@/types';
 // import type only — évite d'embarquer les side-effects Supabase de sync.ts dans le store
 import type { RemoteProfile } from '@/lib/sync';
 import {
@@ -120,6 +120,7 @@ interface ProfileState {
   createProfile: (data: Omit<Profile, 'createdAt' | 'id'>) => void;
   setLocale: (locale: Locale) => void;
   updateAvatar: (avatarId: string, avatarStyle?: string) => void;
+  setTheme: (theme: AppTheme) => void;
   setTimerEnabled: (enabled: boolean) => void;
   setSoundEnabled: (enabled: boolean) => void;
   setAdminPin: (pin: string) => void;
@@ -450,6 +451,17 @@ export const useProfileStore = create<ProfileState>()(
 
         return { xpGained, newStreak, shieldUsed, shieldEarned, newBadgeIds };
       },
+
+      setTheme: (theme) =>
+        set((state) => {
+          const updatedProfile = state.profile ? { ...state.profile, theme } : null;
+          return {
+            profile: updatedProfile,
+            profiles: updatedProfile
+              ? state.profiles.map((p) => (p.id === state.activeProfileId ? updatedProfile : p))
+              : state.profiles,
+          };
+        }),
 
       setTimerEnabled: (enabled) => set({ timerEnabled: enabled }),
       setSoundEnabled: (enabled) => set({ soundEnabled: enabled }),

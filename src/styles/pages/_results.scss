@@ -14,7 +14,7 @@
 .results {
   min-height: 100dvh;
   @include m.flex-column;
-  background: v.$bg;
+  background: var(--color-bg);
 
   // ── Header ───────────────────────────────────────────────────────────────
 
@@ -55,9 +55,9 @@
       border-color: rgba(v.$secondary, 0.6);
     }
     &--medium {
-      background: rgba(v.$accent-orange, 0.25);
+      background: color-mix(in srgb, var(--color-accent-orange) 25%, transparent);
       color: v.$white;
-      border-color: rgba(v.$accent-orange, 0.6);
+      border-color: color-mix(in srgb, var(--color-accent-orange) 60%, transparent);
     }
     &--hard {
       background: rgba(v.$hard, 0.25);
@@ -139,7 +139,7 @@
     @include m.flex-column;
     align-items: center;
     gap: v.$spacing-md;
-    background: v.$white;
+    background: var(--color-surface);
     border: 2px solid rgba(v.$accent, 0.4);
     border-radius: v.$radius-lg;
     padding: v.$spacing-xl;
@@ -199,12 +199,12 @@
   &__badges-link {
     font-size: v.$font-size-sm;
     font-weight: 700;
-    color: v.$primary;
+    color: var(--color-primary);
     text-decoration: underline;
     text-underline-offset: 2px;
     transition: color v.$transition-fast;
 
-    &:hover { color: v.$primary-dark; }
+    &:hover { color: var(--color-primary-dark); }
     @include m.focus-ring;
 
     &--secondary {
@@ -234,7 +234,7 @@
     @include m.flex-column;
     align-items: center;
     gap: v.$spacing-lg;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-xl;
     box-shadow: v.$shadow-md;
@@ -280,7 +280,7 @@
     width: 56px;
     height: 56px;
     border-radius: v.$radius-full;
-    border: 3px solid rgba(v.$primary, 0.3);
+    border: 3px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
 
     .results__duel-player--winner & {
       border-color: v.$accent;
@@ -315,7 +315,7 @@
 
   // Badge "⚡ Plus rapide !" — uniquement en cas d'égalité de score, gagnant par le temps
   &__duel-faster {
-    color: v.$accent-orange;
+    color: var(--color-accent-orange);
     font-weight: 800;
     font-size: v.$font-size-sm;
   }
@@ -328,7 +328,7 @@
   &__duel-winner-msg {
     font-size: v.$font-size-lg;
     font-weight: 800;
-    color: v.$primary;
+    color: var(--color-primary);
     text-align: center;
   }
 
@@ -385,7 +385,7 @@
   }
 
   &__daily-shield-used   { color: v.$text-muted; }
-  &__daily-shield-earned { color: v.$primary; }
+  &__daily-shield-earned { color: var(--color-primary); }
 
   &__daily-player-title {
     font-size: v.$font-size-base;
@@ -400,8 +400,8 @@
     @include m.flex-column;
     align-items: center;
     gap: v.$spacing-md;
-    background: v.$white;
-    border: 2px solid rgba(v.$primary, 0.2);
+    background: var(--color-surface);
+    border: 2px solid color-mix(in srgb, var(--color-primary) 20%, transparent);
     border-radius: v.$radius-lg;
     padding: v.$spacing-xl;
     box-shadow: v.$shadow-md;
@@ -432,7 +432,7 @@
     font-size: clamp(2.5rem, 10vw, 3.5rem);
     font-weight: 800;
     letter-spacing: 0.2em;
-    color: v.$primary;
+    color: var(--color-primary);
     line-height: 1;
   }
 
@@ -440,8 +440,8 @@
     display: inline-flex;
     align-items: center;
     gap: v.$spacing-xs;
-    background: rgba(v.$primary, 0.1);
-    color: v.$primary;
+    background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+    color: var(--color-primary);
     font-size: v.$font-size-sm;
     font-weight: 700;
     padding: v.$spacing-sm v.$spacing-md;
@@ -450,7 +450,7 @@
 
     @include m.focus-ring;
 
-    &:hover { background: rgba(v.$primary, 0.18); }
+    &:hover { background: color-mix(in srgb, var(--color-primary) 18%, transparent); }
   }
 
   &__challenge-expiry {
@@ -534,8 +534,8 @@
       color v.$transition-fast;
 
     &:hover {
-      border-color: v.$primary;
-      color: v.$primary;
+      border-color: var(--color-primary);
+      color: var(--color-primary);
     }
 
     @include m.focus-ring;

@@ -27,14 +27,15 @@
 }
 
 // ─── Gradient principal ───────────────────────────────────────────
+// Utilise les CSS custom properties pour réagir aux changements de thème
 @mixin gradient-primary {
-  background: linear-gradient(135deg, v.$primary 0%, v.$primary-dark 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
 }
 
 // ─── Focus visible accessible ─────────────────────────────────────
 @mixin focus-ring {
   &:focus-visible {
-    outline: 3px solid v.$primary;
+    outline: 3px solid var(--color-primary);
     outline-offset: 3px;
   }
 }

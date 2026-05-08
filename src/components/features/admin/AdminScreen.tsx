@@ -99,6 +99,11 @@ export default function AdminScreen() {
       </header>
 
       <main className="admin__body">
+        {/* ── Gestion des profils enfants ──────────────────────────────────── */}
+        <AdminErrorBoundary label="ChildProfiles">
+          <ChildProfilesSection />
+        </AdminErrorBoundary>
+
         {/* ── Stats enfant ─────────────────────────────────────────────────── */}
         <section
           className="admin__section admin__section--stats"
@@ -110,15 +115,6 @@ export default function AdminScreen() {
               {t("statsTitle", { pseudo: profile?.pseudo ?? "" })}
             </h2>
           </div>
-
-          <button
-            type="button"
-            className="admin__dashboard-btn"
-            onClick={() => router.push("/dashboard")}
-          >
-            <TrendingUp size={16} strokeWidth={2} />
-            Voir la progression dans le temps
-          </button>
 
           {totalGames === 0 ? (
             <p className="admin__empty">{t("statsNoSession")}</p>
@@ -144,11 +140,20 @@ export default function AdminScreen() {
               </div>
             </div>
           )}
+
+          <button
+            type="button"
+            className="admin__dashboard-btn"
+            onClick={() => router.push("/dashboard")}
+          >
+            <TrendingUp size={16} strokeWidth={2} />
+            Voir la progression dans le temps
+          </button>
         </section>
 
-        {/* ── Gestion des profils enfants ──────────────────────────────────── */}
-        <AdminErrorBoundary label="ChildProfiles">
-          <ChildProfilesSection />
+        {/* ── Abonnement Premium ─────────────────────────────────────────── */}
+        <AdminErrorBoundary label="Subscription">
+          <SubscriptionSection />
         </AdminErrorBoundary>
 
         {/* ── Objectifs par catégorie ─────────────────────────────────────── */}
@@ -158,11 +163,6 @@ export default function AdminScreen() {
 
         {/* ── Rapport de progression PDF ───────────────────────────────────── */}
         <AdminErrorBoundary label="Report"><ReportSection /></AdminErrorBoundary>
-
-        {/* ── Abonnement Premium ─────────────────────────────────────────── */}
-        <AdminErrorBoundary label="Subscription">
-          <SubscriptionSection />
-        </AdminErrorBoundary>
 
         {/* ── Zone de danger ───────────────────────────────────────────────── */}
         <AdminErrorBoundary label="DangerZone">

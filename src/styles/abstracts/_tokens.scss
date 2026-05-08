@@ -38,10 +38,13 @@
   --color-cat-enviro:     #{v.$cat-enviro};
   --color-cat-dino:       #{v.$cat-dino};
 
-  // Fond & texte
+  // Fond & surfaces
   --color-bg:            #{v.$bg};
+  --color-surface:       #ffffff;
   --color-foreground:    #{v.$foreground};
   --color-muted:         #{v.$text-muted};
+  // Texte sur fond primary (blanc par défaut — sombre pour thème pink)
+  --color-on-primary:    #ffffff;
 
   // Typographie
   --font-size-base:      #{v.$font-size-base};
@@ -64,4 +67,26 @@
   --shadow-sm:    #{v.$shadow-sm};
   --shadow-md:    #{v.$shadow-md};
   --shadow-lg:    #{v.$shadow-lg};
+}
+
+// ─── Thème Bleu ───────────────────────────────────────────────────
+// #001BB7 primary-dark · #0046FF primary · #FF8040 accent · #E9E9E9 surface
+[data-theme="blue"] {
+  --color-primary:       #0046FF;
+  --color-primary-dark:  #001BB7;
+  --color-accent-orange: #FF8040;
+  --color-bg:            #dde3f5;
+  --color-surface:       #E9E9E9;
+  --color-on-primary:    #ffffff;
+}
+
+// ─── Thème Rose ───────────────────────────────────────────────────
+// #FCF8F8 bg · #FBEFEF surface · #F9DFDF surface-alt · #F5AFAF primary
+// Palette très claire — texte sombre obligatoire sur fond primary
+[data-theme="pink"] {
+  --color-primary:       #F5AFAF;
+  --color-primary-dark:  #e89090;
+  --color-bg:            #FCF8F8;
+  --color-surface:       #FBEFEF;
+  --color-on-primary:    #5c1a1a;
 }

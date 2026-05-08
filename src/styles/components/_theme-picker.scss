@@ -1,0 +1,81 @@
+// src/styles/components/_theme-picker.scss
+// Sélecteur de thème de couleur — 3 swatches cliquables.
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.theme-picker {
+  display: flex;
+  gap: v.$spacing-sm;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: v.$spacing-xs;
+    padding: v.$spacing-sm v.$spacing-md;
+    border: 2px solid transparent;
+    border-radius: v.$radius-md;
+    background: rgba(255, 255, 255, 0.15);
+    color: v.$white;
+    cursor: pointer;
+    transition: border-color v.$transition-fast, background v.$transition-fast, transform v.$transition-fast;
+    min-width: 80px;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    &--active {
+      border-color: v.$white;
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.05);
+    }
+
+    @include m.focus-ring;
+  }
+
+  &__swatch {
+    width: 36px;
+    height: 36px;
+    border-radius: v.$radius-full;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    box-shadow: v.$shadow-sm;
+    display: block;
+  }
+
+  &__label {
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  // Variante dans le profil (fond clair — texte sombre)
+  &--light {
+    .theme-picker__btn {
+      background: v.$white;
+      color: v.$foreground;
+      border-color: transparent;
+      box-shadow: v.$shadow-sm;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.06);
+      }
+
+      &--active {
+        border-color: var(--color-primary);
+        background: v.$white;
+      }
+    }
+
+    .theme-picker__swatch {
+      border-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .theme-picker__label {
+      color: v.$foreground;
+    }
+  }
+}

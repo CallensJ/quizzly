@@ -9,7 +9,7 @@
 .dashboard {
   min-height: 100dvh;
   @include m.flex-column;
-  background: v.$bg;
+  background: var(--color-bg);
 
   // ── Header gradient ───────────────────────────────────────────────────────
 
@@ -112,7 +112,7 @@
   }
 
   &__kpi {
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-md;
     padding: v.$spacing-md;
     display: flex;
@@ -123,7 +123,7 @@
     text-align: center;
 
     &--highlight {
-      background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+      background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
       color: v.$white;
 
       .dashboard__kpi-icon,
@@ -135,7 +135,7 @@
   }
 
   &__kpi-icon {
-    color: v.$primary;
+    color: var(--color-primary);
   }
 
   &__kpi-value {
@@ -158,7 +158,7 @@
   &__period-filter {
     display: flex;
     gap: v.$spacing-xs;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-full;
     padding: 4px;
     box-shadow: v.$shadow-sm;
@@ -178,7 +178,7 @@
     transition: background v.$transition-fast, color v.$transition-fast;
 
     &--active {
-      background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+      background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
       color: v.$white;
     }
   }
@@ -186,7 +186,7 @@
   // ── Sections graphiques ───────────────────────────────────────────────────
 
   &__section {
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-lg;
     box-shadow: v.$shadow-sm;
@@ -231,7 +231,7 @@
   }
 
   &__cat-evol-item {
-    background: v.$bg;
+    background: var(--color-bg);
     border-radius: v.$radius-md;
     padding: v.$spacing-md;
   }
@@ -306,7 +306,7 @@
   &__cat-evol-fill {
     height: 100%;
     border-radius: v.$radius-full;
-    background: v.$primary;
+    background: var(--color-primary);
     transition: width 0.6s ease;
 
     &--before {
@@ -332,7 +332,7 @@
   }
 
   &__goals-card {
-    background: v.$bg;
+    background: var(--color-bg);
     border-radius: v.$radius-md;
     padding: v.$spacing-md;
   }
@@ -417,8 +417,8 @@
     transition: border-color v.$transition-fast, color v.$transition-fast;
 
     &:hover {
-      border-color: v.$primary;
-      color: v.$primary;
+      border-color: var(--color-primary);
+      color: var(--color-primary);
     }
   }
 }

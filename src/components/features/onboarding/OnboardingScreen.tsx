@@ -23,6 +23,8 @@ import { syncProfile } from '@/lib/sync';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
 import type { Locale } from '@/types';
 import { FREE_SEEDS, FREE_STYLE, buildAvatarUrl } from '@/lib/avatars';
+import ThemePicker from '@/components/ui/ThemePicker';
+import type { AppTheme } from '@/types';
 
 export default function OnboardingScreen() {
   const t = useTranslations('onboarding');
@@ -36,6 +38,7 @@ export default function OnboardingScreen() {
 
   const [pseudo, setPseudo] = useState('');
   const [avatarId, setAvatarId] = useState<string | null>(null);
+  const [theme, setTheme] = useState<AppTheme>('default');
 
   // Nova : welcome à l'arrivée (3s), puis disparaît
   useEffect(() => {
@@ -53,6 +56,7 @@ export default function OnboardingScreen() {
       pseudo: pseudo.trim(),
       avatarId: avatarId!,
       avatarStyle: FREE_STYLE, // adventurer — style gratuit par défaut
+      theme,
       badgeEarned: false,
       locale,
     });
@@ -139,6 +143,12 @@ export default function OnboardingScreen() {
               </button>
             ))}
           </div>
+        </section>
+
+        {/* ── Thème de couleur (optionnel) ────────────────────────────────── */}
+        <section className="onboarding__section">
+          <p className="onboarding__label">{t('themeLabel')}</p>
+          <ThemePicker value={theme} onChange={setTheme} />
         </section>
 
         {/* ── CTA ─────────────────────────────────────────────────────────── */}

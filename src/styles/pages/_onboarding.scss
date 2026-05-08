@@ -65,7 +65,7 @@
   &__body {
     width: 100%;
     max-width: 480px;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-xl;
     box-shadow: v.$shadow-lg;
@@ -93,14 +93,14 @@
     border-radius: v.$radius-md;
     font-size: v.$font-size-lg;
     color: v.$foreground;
-    background: v.$bg;
+    background: var(--color-bg);
     // Grande hauteur pour faciliter le tap sur mobile
     min-height: v.$touch-target-lg;
     transition: border-color v.$transition-fast;
 
     &:focus {
       outline: none;
-      border-color: v.$primary;
+      border-color: var(--color-primary);
     }
 
     &::placeholder {
@@ -125,21 +125,21 @@
     font-size: v.$font-size-base;
     font-weight: 700;
     color: v.$text-muted;
-    background: v.$bg;
+    background: var(--color-bg);
     transition:
       border-color v.$transition-fast,
       color v.$transition-fast,
       background v.$transition-fast;
 
     &:hover {
-      border-color: v.$primary;
-      color: v.$primary;
+      border-color: var(--color-primary);
+      color: var(--color-primary);
     }
 
     // État sélectionné — fond dégradé identique au CTA pour cohérence
     &--active {
-      border-color: v.$primary;
-      background: v.$primary;
+      border-color: var(--color-primary);
+      background: var(--color-primary);
       color: v.$white;
     }
 
@@ -161,7 +161,7 @@
     border-radius: v.$radius-md;
     border: 3px solid transparent;
     padding: v.$spacing-xs;
-    background: v.$bg;
+    background: var(--color-bg);
     // Assure une cible tactile minimale même sur les petits écrans
     min-height: v.$touch-target-lg;
     transition:
@@ -175,13 +175,13 @@
     }
 
     &:hover {
-      border-color: v.$primary;
+      border-color: var(--color-primary);
       transform: scale(1.06);
     }
 
     // Coche verte affichée sur l'avatar sélectionné
     &--active {
-      border-color: v.$primary;
+      border-color: var(--color-primary);
       background: rgba(102, 126, 234, 0.08); // primary à 8% d'opacité
 
       &::after {
@@ -191,7 +191,7 @@
         right: -8px;
         width: 22px;
         height: 22px;
-        background: v.$primary;
+        background: var(--color-primary);
         color: v.$white;
         border-radius: v.$radius-full;
         font-size: 12px;
@@ -248,13 +248,13 @@
   }
 
   &__restore-link {
-    color: v.$primary;
+    color: var(--color-primary);
     font-weight: 600;
     text-decoration: underline;
     text-underline-offset: 2px;
 
     &:hover {
-      color: v.$primary-dark;
+      color: var(--color-primary-dark);
     }
 
     @include m.focus-ring;

@@ -19,13 +19,13 @@
 .quiz {
   min-height: 100dvh;
   @include m.flex-column;
-  background: v.$bg;
+  background: var(--color-bg);
 
   // ── Header ───────────────────────────────────────────────────────────────
 
   &__header {
     // Fallback — écrasé par le style inline de QuizScreen.tsx avec la couleur de catégorie.
-    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
     @include m.flex-column;
     gap: v.$spacing-md;
     padding: v.$spacing-lg;
@@ -81,9 +81,9 @@
       border-color: rgba(v.$secondary, 0.6);
     }
     &--medium {
-      background: rgba(v.$accent-orange, 0.25);
+      background: color-mix(in srgb, var(--color-accent-orange) 25%, transparent);
       color: v.$white;
-      border-color: rgba(v.$accent-orange, 0.6);
+      border-color: color-mix(in srgb, var(--color-accent-orange) 60%, transparent);
     }
     &--hard {
       background: rgba(v.$hard, 0.25);
@@ -101,7 +101,7 @@
 
   &__progress-fill {
     height: 100%;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-full;
     // Transition fluide à chaque nouvelle question
     transition: width v.$transition-slow;
@@ -122,7 +122,7 @@
   // ── Carte question ────────────────────────────────────────────────────────
 
   &__question-card {
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-xl;
     box-shadow: v.$shadow-md;
@@ -174,7 +174,7 @@
     width: 100%;
     min-height: v.$touch-target-lg;
     padding: v.$spacing-md v.$spacing-lg;
-    background: v.$white;
+    background: var(--color-surface);
     border: 2px solid #e5e7eb;
     border-radius: v.$radius-md;
     font-size: v.$font-size-base;
@@ -190,7 +190,7 @@
 
     // Hover uniquement sur les réponses non encore répondues
     &:not(.quiz__answer--correct):not(.quiz__answer--wrong):not(.quiz__answer--reveal):not(.quiz__answer--disabled):hover {
-      border-color: v.$primary;
+      border-color: var(--color-primary);
       transform: translateX(3px);
     }
 
@@ -229,8 +229,8 @@
     height: 32px;
     flex-shrink: 0;
     border-radius: 50%;
-    background: rgba(v.$primary, 0.1);
-    color: v.$primary;
+    background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+    color: var(--color-primary);
     @include m.flex-center;
     font-weight: 800;
     font-size: v.$font-size-sm;
@@ -316,7 +316,7 @@
   }
 
   &__quit-dialog {
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-xl;
     width: 100%;
@@ -340,7 +340,7 @@
   &__quit-cancel {
     flex: 1;
     padding: 0.75rem;
-    background: v.$bg;
+    background: var(--color-bg);
     border: none;
     border-radius: v.$radius-md;
     font-size: v.$font-size-base;
@@ -398,13 +398,13 @@
 
   &__timer-track {
     fill: none;
-    stroke: rgba(v.$primary, 0.12);
+    stroke: color-mix(in srgb, var(--color-primary) 12%, transparent);
     stroke-width: 4;
   }
 
   &__timer-arc {
     fill: none;
-    stroke: v.$primary;
+    stroke: var(--color-primary);
     stroke-width: 4;
     stroke-linecap: round;
     // Transition linéaire 1s pour correspondre au décompte seconde par seconde
@@ -423,7 +423,7 @@
     position: absolute;
     font-size: v.$font-size-lg;
     font-weight: 800;
-    color: v.$primary;
+    color: var(--color-primary);
     // Correction de rotation du parent SVG — le texte reste droit
     line-height: 1;
 

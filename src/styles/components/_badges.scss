@@ -17,7 +17,7 @@
 .badges-preview {
   @include m.flex-column;
   gap: v.$spacing-sm;
-  background: v.$white;
+  background: var(--color-surface);
   border-radius: v.$radius-lg;
   padding: v.$spacing-lg;
   box-shadow: v.$shadow-sm;
@@ -40,7 +40,7 @@
   &__count {
     font-size: v.$font-size-sm;
     font-weight: 800;
-    color: v.$primary;
+    color: var(--color-primary);
     flex-shrink: 0;
   }
 
@@ -54,7 +54,7 @@
 
   &__bar-fill {
     height: 100%;
-    background: linear-gradient(90deg, v.$primary, v.$primary-dark);
+    background: linear-gradient(90deg, var(--color-primary), var(--color-primary-dark));
     border-radius: v.$radius-full;
     transition: width v.$transition-slow;
   }
@@ -81,7 +81,7 @@
 
     // Badge "+N restants"
     &--more {
-      background: v.$bg;
+      background: var(--color-bg);
       border-color: #d1d5db;
       font-size: v.$font-size-sm;
       font-weight: 800;
@@ -105,7 +105,7 @@
     justify-content: center;
     width: 100%;
     padding: v.$spacing-sm v.$spacing-md;
-    background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
     color: v.$white;
     font-family: v.$font-primary;
     font-size: v.$font-size-sm;
@@ -147,7 +147,7 @@
   &__panel {
     position: relative;
     z-index: 1;
-    background: v.$white;
+    background: var(--color-surface);
     width: 100%;
     max-height: 92dvh;
     border-radius: v.$radius-lg v.$radius-lg 0 0;
@@ -222,7 +222,7 @@
 
   &__global-fill {
     height: 100%;
-    background: linear-gradient(90deg, v.$primary, v.$primary-dark);
+    background: linear-gradient(90deg, var(--color-primary), var(--color-primary-dark));
     border-radius: v.$radius-full;
     transition: width v.$transition-slow;
   }
@@ -230,7 +230,7 @@
   &__global-count {
     font-size: v.$font-size-sm;
     font-weight: 800;
-    color: v.$primary;
+    color: var(--color-primary);
     flex-shrink: 0;
     min-width: 52px;
     text-align: right;
@@ -249,20 +249,20 @@
     font-family: v.$font-primary;
     font-size: v.$font-size-sm;
     font-weight: 700;
-    background: v.$bg;
+    background: var(--color-bg);
     color: v.$text-muted;
     border: 2px solid transparent;
     transition: background v.$transition-fast, color v.$transition-fast, border-color v.$transition-fast;
 
     &:hover {
-      background: rgba(v.$primary, 0.08);
-      color: v.$primary;
+      background: color-mix(in srgb, var(--color-primary) 8%, transparent);
+      color: var(--color-primary);
     }
 
     &--active {
-      background: rgba(v.$primary, 0.1);
-      color: v.$primary;
-      border-color: rgba(v.$primary, 0.3);
+      background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+      color: var(--color-primary);
+      border-color: color-mix(in srgb, var(--color-primary) 30%, transparent);
     }
 
     @include m.focus-ring;
@@ -300,7 +300,7 @@
   transition: border-color v.$transition-fast;
 
   &:hover {
-    border-color: rgba(var(--group-color, #{v.$primary}), 0.4);
+    border-color: rgba(var(--group-color, #{var(--color-primary)}), 0.4);
   }
 
   // Header cliquable
@@ -310,7 +310,7 @@
     gap: v.$spacing-sm;
     width: 100%;
     padding: v.$spacing-sm v.$spacing-md;
-    background: v.$white;
+    background: var(--color-surface);
     text-align: left;
     transition: background v.$transition-fast;
 
@@ -355,7 +355,7 @@
 
   &__progress-fill {
     height: 100%;
-    background: var(--group-color, #{v.$primary});
+    background: var(--group-color, #{var(--color-primary)});
     border-radius: v.$radius-full;
     transition: width v.$transition-slow;
   }
@@ -363,7 +363,7 @@
   &__count {
     font-size: 0.7rem;
     font-weight: 800;
-    color: var(--group-color, #{v.$primary});
+    color: var(--group-color, #{var(--color-primary)});
     min-width: 28px;
     text-align: right;
   }
@@ -442,7 +442,7 @@
 
   // Badge verrouillé — discret
   &--locked {
-    background: v.$bg;
+    background: var(--color-bg);
     border-color: #e5e7eb;
     opacity: 0.45;
   }

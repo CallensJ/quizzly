@@ -15,7 +15,7 @@
 .stats {
   min-height: 100dvh;
   @include m.flex-column;
-  background: v.$bg;
+  background: var(--color-bg);
 
   // ── Header ───────────────────────────────────────────────────────────────
 
@@ -107,7 +107,7 @@
     @include m.flex-column;
     align-items: center;
     gap: 4px;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-md;
     padding: v.$spacing-md v.$spacing-sm;
     box-shadow: v.$shadow-sm;
@@ -115,7 +115,7 @@
 
     // Carte en surbrillance (meilleur score)
     &--highlight {
-      background: linear-gradient(135deg, v.$primary, v.$primary-dark);
+      background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
 
       .stats__summary-value,
       .stats__summary-label { color: v.$white; }
@@ -125,7 +125,7 @@
   &__summary-value {
     font-size: v.$font-size-xl;
     font-weight: 800;
-    color: v.$primary;
+    color: var(--color-primary);
   }
 
   &__summary-label {
@@ -144,7 +144,7 @@
   &__section {
     @include m.flex-column;
     gap: v.$spacing-md;
-    background: v.$white;
+    background: var(--color-surface);
     border-radius: v.$radius-lg;
     padding: v.$spacing-lg;
     box-shadow: v.$shadow-sm;
@@ -281,7 +281,7 @@
   &__goals-fill {
     height: 100%;
     border-radius: v.$radius-full;
-    background: v.$accent-orange;
+    background: var(--color-accent-orange);
     transition: width 600ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &--met { background: v.$secondary; }
@@ -345,7 +345,7 @@
   &__diff-count {
     font-size: v.$font-size-base;
     font-weight: 800;
-    color: v.$primary;
+    color: var(--color-primary);
   }
 
   // ── Bouton retour ─────────────────────────────────────────────────────────

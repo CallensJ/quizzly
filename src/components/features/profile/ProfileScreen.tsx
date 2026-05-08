@@ -17,6 +17,8 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { ArrowLeft, Pencil, Lock, BarChart2, Users } from 'lucide-react';
+import ThemePicker from '@/components/ui/ThemePicker';
+import type { AppTheme } from '@/types';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useAuthStore } from '@/stores/authStore';
@@ -88,6 +90,8 @@ export default function ProfileScreen() {
   const setTimerEnabled = useProfileStore((s) => s.setTimerEnabled);
   const soundEnabled = useProfileStore((s) => s.soundEnabled);
   const setSoundEnabled = useProfileStore((s) => s.setSoundEnabled);
+  const currentTheme = useProfileStore((s) => s.profile?.theme ?? 'default');
+  const setTheme = useProfileStore((s) => s.setTheme);
 
   // Mode édition avatar — affiche la galerie inline sous la carte identité
   const [editingAvatar, setEditingAvatar] = useState(false);
@@ -286,6 +290,20 @@ export default function ProfileScreen() {
             >
               {locale === 'fr' ? '🇬🇧 EN' : '🇫🇷 FR'}
             </button>
+          </div>
+
+          {/* Thème de couleur */}
+          <div className="profile__setting-row profile__setting-row--theme">
+            <div className="profile__setting-info">
+              <p className="profile__setting-name">{t('themeLabel')}</p>
+              <p className="profile__setting-desc">{t('themeDesc')}</p>
+            </div>
+          </div>
+          <div className="profile__theme-picker-wrap">
+            <ThemePicker
+              value={currentTheme}
+              onChange={(theme: AppTheme) => setTheme(theme)}
+            />
           </div>
         </section>
 
