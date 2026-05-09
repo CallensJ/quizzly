@@ -84,6 +84,42 @@ $p-medium:   rgba(3, 105, 161, 0.18);
     @include m.focus-ring;
   }
 
+  // ── Barre de bienvenue (email + date, juste sous le header) ────────────────
+
+  &__welcome-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: v.$spacing-sm;
+    padding: v.$spacing-sm v.$spacing-lg;
+    background: rgba(12, 74, 110, 0.04);
+    border-bottom: 1px solid rgba(12, 74, 110, 0.08);
+  }
+
+  &__welcome-user {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: $p-dark;
+    opacity: 0.75;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__welcome-date {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: v.$text-muted;
+    white-space: nowrap;
+    flex-shrink: 0;
+    opacity: 0.75;
+    text-transform: capitalize;
+  }
+
   // ── Corps ───────────────────────────────────────────────────────────────────
 
   &__body {
@@ -94,6 +130,61 @@ $p-medium:   rgba(3, 105, 161, 0.18);
     width: 100%;
     margin: 0 auto;
     flex: 1;
+  }
+
+  // ── KPI hero strip — métriques clés (pleine largeur au-dessus de la grille) ─
+
+  &__kpi-strip {
+    @include m.flex-column;
+    gap: v.$spacing-md;
+  }
+
+  &__kpi-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: v.$spacing-md;
+  }
+
+  &__kpi-card {
+    @include m.flex-column;
+    align-items: center;
+    gap: v.$spacing-xs;
+    padding: v.$spacing-lg v.$spacing-md;
+    background: v.$white;
+    border-radius: v.$radius-lg;
+    box-shadow: v.$shadow-sm;
+    text-align: center;
+    border-top: 3px solid $p-primary;
+    animation: admin-fade-in 350ms ease both;
+  }
+
+  &__kpi-icon {
+    color: $p-primary;
+    opacity: 0.65;
+    margin-bottom: 2px;
+  }
+
+  &__kpi-value {
+    font-size: v.$font-size-3xl;
+    font-weight: 800;
+    color: $p-dark;
+    line-height: 1;
+  }
+
+  &__kpi-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: v.$text-muted;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+  }
+
+  &__kpi-empty {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+    text-align: center;
+    padding: v.$spacing-md 0;
   }
 
   // ── Section générique ───────────────────────────────────────────────────────
@@ -112,11 +203,12 @@ $p-medium:   rgba(3, 105, 161, 0.18);
       border-left: 4px solid v.$error;
     }
 
-    &:nth-child(1) { animation-delay: 0ms; }
-    &:nth-child(2) { animation-delay: 80ms; }
-    &:nth-child(3) { animation-delay: 160ms; }
-    &:nth-child(4) { animation-delay: 240ms; }
-    &:nth-child(5) { animation-delay: 320ms; }
+    // Délais d'animation explicites par section (évite la fragilité du nth-child)
+    &--profiles     { animation-delay: 0ms; }
+    &--cat-goals    { animation-delay: 80ms; }
+    &--subscription { animation-delay: 160ms; }
+    &--report       { animation-delay: 240ms; }
+    &--danger       { animation-delay: 320ms; }
   }
 
   &__section-header {
@@ -767,6 +859,35 @@ $p-medium:   rgba(3, 105, 161, 0.18);
 
   // ── Abonnement ──────────────────────────────────────────────────────────────
 
+  // Badge "Premium actif" (vert) et "Version gratuite" (gris)
+  &__sub-premium-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    background: rgba(v.$success, 0.1);
+    color: v.$success;
+    border: 1.5px solid rgba(v.$success, 0.25);
+    border-radius: v.$radius-full;
+    font-size: 0.78rem;
+    font-weight: 800;
+    width: fit-content;
+  }
+
+  &__sub-free-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    background: rgba(v.$text-muted, 0.08);
+    color: v.$text-muted;
+    border: 1.5px solid rgba(v.$text-muted, 0.2);
+    border-radius: v.$radius-full;
+    font-size: 0.78rem;
+    font-weight: 800;
+    width: fit-content;
+  }
+
   &__dashboard-btn {
     display: flex;
     align-items: center;
@@ -791,43 +912,54 @@ $p-medium:   rgba(3, 105, 161, 0.18);
     }
   }
 
+  // ── Colonnes wrappers (mobile : flex-column, desktop : cellules de grille) ──
+
+  &__col-left,
+  &__col-right {
+    @include m.flex-column;
+    gap: v.$spacing-xl;
+  }
+
   // ── Desktop — Bento Grid (≥ 1024px) ─────────────────────────────────────────
   //
-  // Ordre JSX = ordre mobile. Desktop re-place via grid-column.
-  //   Row 1 : [profils (col 1)]  | [stats (col 2)            ]
-  //   Row 2 : [abonnement (col 1)]| [objectifs (col 2)       ]
-  //   Row 3 : [rapport — pleine largeur                       ]
-  //   Row 4 : [zone de danger — pleine largeur                ]
+  // Grille 5fr|7fr (asymétrique) — max-width 1200px.
+  //   Row 1 : KPI strip — pleine largeur
+  //   Row 2 : [col-left : Profils + Abo (5fr)] | [col-right : Objectifs + Rapport (7fr)]
+  //   Row 3 : zone de danger — pleine largeur
 
   @media (min-width: v.$bp-lg) {
 
     &__body {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      max-width: 960px;
-      gap: v.$spacing-lg;
-      padding: v.$spacing-xl;
+      grid-template-columns: 5fr 7fr;
+      max-width: 1200px;
+      gap: v.$spacing-xl;
+      padding: v.$spacing-xl v.$spacing-2xl;
       align-items: start;
     }
 
+    &__kpi-strip {
+      grid-column: 1 / -1;
+    }
+
+    &__kpi-cards {
+      gap: v.$spacing-lg;
+    }
+
+    &__kpi-card {
+      padding: v.$spacing-xl v.$spacing-lg;
+    }
+
+    &__col-left  { grid-column: 1; }
+    &__col-right { grid-column: 2; }
+
     &__section {
-      // Profils enfants — col gauche
-      &--profiles      { grid-column: 1; }
+      // Pleine largeur — toujours en bas
+      &--danger { grid-column: 1 / -1; }
+    }
 
-      // Stats — col droite
-      &--stats         { grid-column: 2; }
-
-      // Abonnement — col gauche
-      &--subscription  { grid-column: 1; }
-
-      // Objectifs par catégorie — col droite
-      &--cat-goals     { grid-column: 2; }
-
-      // Rapport PDF — pleine largeur
-      &--report        { grid-column: 1 / -1; }
-
-      // Zone de danger — pleine largeur, en bas
-      &--danger        { grid-column: 1 / -1; }
+    &__about-link {
+      grid-column: 1 / -1;
     }
   }
 

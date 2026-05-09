@@ -266,6 +266,20 @@ export default function DashboardScreen() {
             <p className="dashboard__subtitle">{profile.pseudo}</p>
           )}
         </div>
+        {/* Filtre période dans le header — visible uniquement sur desktop (lg) */}
+        <div className="dashboard__header-period" role="group" aria-label={t('periodLabel')}>
+          {PERIODS.map(({ id, label }) => (
+            <button
+              key={id}
+              type="button"
+              className={`dashboard__header-period-btn${period === id ? ' dashboard__header-period-btn--active' : ''}`}
+              onClick={() => setPeriod(id)}
+              aria-pressed={period === id}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
         <div className="dashboard__header-spacer" aria-hidden="true" />
       </header>
 
@@ -273,7 +287,7 @@ export default function DashboardScreen() {
 
         {totalGames === 0 ? (
           <div className="dashboard__empty">
-            <span className="dashboard__empty-icon" aria-hidden="true">🎮</span>
+            <Gamepad2 size={56} className="dashboard__empty-icon" aria-hidden="true" />
             <p className="dashboard__empty-text">{t('noData')}</p>
           </div>
         ) : (
@@ -302,7 +316,7 @@ export default function DashboardScreen() {
               </div>
             </section>
 
-            {/* ── Filtre période ────────────────────────────────────────────── */}
+            {/* ── Filtre période (mobile — sur desktop il est dans le header) ─ */}
             <div className="dashboard__period-filter" role="group" aria-label={t('periodLabel')}>
               {PERIODS.map(({ id, label }) => (
                 <button
@@ -317,124 +331,127 @@ export default function DashboardScreen() {
               ))}
             </div>
 
-            {/* ── Tendance score ────────────────────────────────────────────── */}
-            <section className="dashboard__section" aria-label={t('trendTitle')}>
-              <h2 className="dashboard__section-title">
-                <TrendingUp size={16} aria-hidden="true" />
-                {t('trendTitle')}
-              </h2>
+            {/* ── Graphiques : grille 2 colonnes desktop ───────────────────── */}
+            <div className="dashboard__charts-grid">
 
-              {trendData.length < 2 ? (
-                <p className="dashboard__section-empty">{t('notEnoughData')}</p>
-              ) : (
-                <div className="dashboard__chart-wrap">
-                  <ResponsiveContainer width="100%" height={220}>
-                    <LineChart data={trendData} margin={{ top: 8, right: 8, left: -20, bottom: 0 }}>
-                      <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-                      <XAxis
-                        dataKey="name"
-                        tick={{ fontSize: 11, fontFamily: 'Nunito, sans-serif', fill: '#6b7280' }}
-                        axisLine={false}
-                        tickLine={false}
-                        interval="preserveStartEnd"
-                      />
-                      <YAxis
-                        domain={[0, 100]}
-                        tickFormatter={(v) => `${v}%`}
-                        tick={{ fontSize: 11, fontFamily: 'Nunito, sans-serif', fill: '#6b7280' }}
-                        axisLine={false}
-                        tickLine={false}
-                      />
-                      <Tooltip
-                        formatter={(value, name) => [
-                          `${value ?? 0}%`,
-                          name === 'score' ? t('scoreLabel') : t('trendLabel'),
-                        ]}
-                        contentStyle={{
-                          fontFamily: 'Nunito, sans-serif',
-                          fontSize: '13px',
-                          borderRadius: '8px',
-                          border: 'none',
-                          boxShadow: '0 4px 12px rgba(0,0,0,0.12)',
-                        }}
-                      />
-                      <Legend
-                        formatter={(value) =>
-                          value === 'score' ? t('scoreLabel') : t('trendLabel')
-                        }
-                        wrapperStyle={{ fontSize: '12px', fontFamily: 'Nunito, sans-serif' }}
-                      />
-                      {/* Score réel — points, couleur primary */}
-                      <Line
-                        type="monotone"
-                        dataKey="score"
-                        stroke="#667eea"
-                        strokeWidth={2.5}
-                        dot={{ r: 3, fill: '#667eea' }}
-                        activeDot={{ r: 5 }}
-                      />
-                      {/* Ligne de tendance — pointillé orange */}
-                      <Line
-                        type="monotone"
-                        dataKey="trend"
-                        stroke="#FF9800"
-                        strokeWidth={2}
-                        strokeDasharray="5 4"
-                        dot={false}
-                        activeDot={false}
-                      />
-                    </LineChart>
-                  </ResponsiveContainer>
-                </div>
-              )}
-            </section>
+              {/* ── Tendance score ─────────────────────────────────────────── */}
+              <section className="dashboard__section" aria-label={t('trendTitle')}>
+                <h2 className="dashboard__section-title">
+                  <TrendingUp size={16} aria-hidden="true" />
+                  {t('trendTitle')}
+                </h2>
 
-            {/* ── Activité hebdomadaire ─────────────────────────────────────── */}
-            <section className="dashboard__section" aria-label={t('weeklyTitle')}>
-              <h2 className="dashboard__section-title">
-                <BarChart3 size={16} aria-hidden="true" />
-                {t('weeklyTitle')}
-              </h2>
+                {trendData.length < 2 ? (
+                  <p className="dashboard__section-empty">{t('notEnoughData')}</p>
+                ) : (
+                  <div className="dashboard__chart-wrap">
+                    <ResponsiveContainer width="100%" height={240}>
+                      <LineChart data={trendData} margin={{ top: 8, right: 8, left: -20, bottom: 0 }}>
+                        <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+                        <XAxis
+                          dataKey="name"
+                          tick={{ fontSize: 11, fontFamily: 'Nunito, sans-serif', fill: '#6b7280' }}
+                          axisLine={false}
+                          tickLine={false}
+                          interval="preserveStartEnd"
+                        />
+                        <YAxis
+                          domain={[0, 100]}
+                          tickFormatter={(v) => `${v}%`}
+                          tick={{ fontSize: 11, fontFamily: 'Nunito, sans-serif', fill: '#6b7280' }}
+                          axisLine={false}
+                          tickLine={false}
+                        />
+                        <Tooltip
+                          formatter={(value, name) => [
+                            `${value ?? 0}%`,
+                            name === 'score' ? t('scoreLabel') : t('trendLabel'),
+                          ]}
+                          contentStyle={{
+                            fontFamily: 'Nunito, sans-serif',
+                            fontSize: '13px',
+                            borderRadius: '8px',
+                            border: 'none',
+                            boxShadow: '0 4px 12px rgba(0,0,0,0.12)',
+                          }}
+                        />
+                        <Legend
+                          formatter={(value) =>
+                            value === 'score' ? t('scoreLabel') : t('trendLabel')
+                          }
+                          wrapperStyle={{ fontSize: '12px', fontFamily: 'Nunito, sans-serif' }}
+                        />
+                        <Line
+                          type="monotone"
+                          dataKey="score"
+                          stroke="#667eea"
+                          strokeWidth={2.5}
+                          dot={{ r: 3, fill: '#667eea' }}
+                          activeDot={{ r: 5 }}
+                        />
+                        <Line
+                          type="monotone"
+                          dataKey="trend"
+                          stroke="#FF9800"
+                          strokeWidth={2}
+                          strokeDasharray="5 4"
+                          dot={false}
+                          activeDot={false}
+                        />
+                      </LineChart>
+                    </ResponsiveContainer>
+                  </div>
+                )}
+              </section>
 
-              {weeklyData.length === 0 ? (
-                <p className="dashboard__section-empty">{t('notEnoughData')}</p>
-              ) : (
-                <div className="dashboard__chart-wrap">
-                  <ResponsiveContainer width="100%" height={180}>
-                    <BarChart data={weeklyData} margin={{ top: 8, right: 8, left: -20, bottom: 0 }}>
-                      <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" vertical={false} />
-                      <XAxis
-                        dataKey="name"
-                        tick={{ fontSize: 11, fontFamily: 'Nunito, sans-serif', fill: '#6b7280' }}
-                        axisLine={false}
-                        tickLine={false}
-                      />
-                      <YAxis
-                        allowDecimals={false}
-                        tick={{ fontSize: 11, fontFamily: 'Nunito, sans-serif', fill: '#6b7280' }}
-                        axisLine={false}
-                        tickLine={false}
-                      />
-                      <Tooltip
-                        formatter={(value) => [`${value} partie(s)`, t('weeklyLabel')]}
-                        contentStyle={{
-                          fontFamily: 'Nunito, sans-serif',
-                          fontSize: '13px',
-                          borderRadius: '8px',
-                          border: 'none',
-                          boxShadow: '0 4px 12px rgba(0,0,0,0.12)',
-                        }}
-                      />
-                      <Bar dataKey="count" fill="#667eea" radius={[4, 4, 0, 0]} maxBarSize={36} />
-                    </BarChart>
-                  </ResponsiveContainer>
-                </div>
-              )}
-            </section>
+              {/* ── Activité hebdomadaire ─────────────────────────────────── */}
+              <section className="dashboard__section" aria-label={t('weeklyTitle')}>
+                <h2 className="dashboard__section-title">
+                  <BarChart3 size={16} aria-hidden="true" />
+                  {t('weeklyTitle')}
+                </h2>
 
-            {/* ── Évolution par catégorie ───────────────────────────────────── */}
+                {weeklyData.length === 0 ? (
+                  <p className="dashboard__section-empty">{t('notEnoughData')}</p>
+                ) : (
+                  <div className="dashboard__chart-wrap">
+                    <ResponsiveContainer width="100%" height={240}>
+                      <BarChart data={weeklyData} margin={{ top: 8, right: 8, left: -20, bottom: 0 }}>
+                        <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" vertical={false} />
+                        <XAxis
+                          dataKey="name"
+                          tick={{ fontSize: 11, fontFamily: 'Nunito, sans-serif', fill: '#6b7280' }}
+                          axisLine={false}
+                          tickLine={false}
+                        />
+                        <YAxis
+                          allowDecimals={false}
+                          tick={{ fontSize: 11, fontFamily: 'Nunito, sans-serif', fill: '#6b7280' }}
+                          axisLine={false}
+                          tickLine={false}
+                        />
+                        <Tooltip
+                          formatter={(value) => [`${value} partie(s)`, t('weeklyLabel')]}
+                          contentStyle={{
+                            fontFamily: 'Nunito, sans-serif',
+                            fontSize: '13px',
+                            borderRadius: '8px',
+                            border: 'none',
+                            boxShadow: '0 4px 12px rgba(0,0,0,0.12)',
+                          }}
+                        />
+                        <Bar dataKey="count" fill="#667eea" radius={[4, 4, 0, 0]} maxBarSize={40} />
+                      </BarChart>
+                    </ResponsiveContainer>
+                  </div>
+                )}
+              </section>
+
+            </div>{/* /charts-grid */}
+
+            {/* ── Évolution par catégorie — pleine largeur ─────────────────── */}
             {catEvolution.length > 0 && (
-              <section className="dashboard__section" aria-label={t('catEvolutionTitle')}>
+              <section className="dashboard__section dashboard__section--full" aria-label={t('catEvolutionTitle')}>
                 <h2 className="dashboard__section-title">
                   <TrendingUp size={16} aria-hidden="true" />
                   {t('catEvolutionTitle')}

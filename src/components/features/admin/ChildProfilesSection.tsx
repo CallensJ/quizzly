@@ -76,7 +76,7 @@ export default function ChildProfilesSection() {
               {p.id !== activeProfileId && (
                 <button
                   type="button"
-                  className="admin__profile-switch"
+                  className="admin__profile-switch btn--icon"
                   onClick={() => handleSwitchProfile(p.id)}
                 >
                   Jouer
@@ -84,7 +84,7 @@ export default function ChildProfilesSection() {
               )}
               <button
                 type="button"
-                className="admin__profile-delete"
+                className="admin__profile-delete btn--icon"
                 onClick={() => setDeleteChildId(p.id)}
                 aria-label={`Supprimer ${p.pseudo}`}
               >

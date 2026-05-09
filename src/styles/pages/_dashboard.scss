@@ -1,7 +1,7 @@
 // src/styles/pages/_dashboard.scss
 //
 // Dashboard avancé parent — graphiques de progression dans le temps (MVP 4 Premium).
-// Design adulte sobre, structuré, cohérent avec _admin.scss et _stats.scss.
+// Refonte MVP 4+ : layout 2 colonnes desktop, graphiques agrandis, max-width 1200px.
 
 @use '../abstracts/variables' as v;
 @use '../abstracts/mixins' as m;
@@ -21,11 +21,17 @@
     padding: v.$spacing-lg;
     padding-top: calc(v.$spacing-lg + env(safe-area-inset-top, 0px));
     gap: v.$spacing-md;
+
+    // Sur desktop : header plus aéré, filtre période inline
+    @include m.lg {
+      padding: v.$spacing-lg v.$spacing-xl;
+    }
   }
 
   &__back-btn {
     width: 40px;
     height: 40px;
+    min-height: unset; // annule le min-height: 48px du reset global
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +42,7 @@
     cursor: pointer;
     flex-shrink: 0;
     transition: background v.$transition-fast;
+    @include m.focus-ring;
 
     &:hover { background: rgba(v.$white, 0.3); }
   }
@@ -50,6 +57,10 @@
     font-size: v.$font-size-xl;
     font-weight: 800;
     margin: 0;
+
+    @include m.lg {
+      font-size: v.$font-size-2xl;
+    }
   }
 
   &__subtitle {
@@ -58,9 +69,52 @@
     margin: 2px 0 0;
   }
 
+  // Filtre période dans le header (desktop uniquement)
+  &__header-period {
+    display: none;
+
+    @include m.lg {
+      display: flex;
+      gap: 4px;
+      background: rgba(v.$white, 0.15);
+      border-radius: v.$radius-full;
+      padding: 4px;
+    }
+  }
+
+  &__header-period-btn {
+    padding: 6px 16px;
+    min-height: unset;
+    border: none;
+    border-radius: v.$radius-full;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    font-family: v.$font-primary;
+    color: rgba(v.$white, 0.8);
+    background: transparent;
+    cursor: pointer;
+    transition: background v.$transition-fast, color v.$transition-fast;
+    @include m.focus-ring;
+
+    &--active {
+      background: v.$white;
+      color: v.$primary;
+    }
+
+    &:not(&--active):hover {
+      background: rgba(v.$white, 0.2);
+      color: v.$white;
+    }
+  }
+
   &__header-spacer {
     width: 40px;
     flex-shrink: 0;
+
+    // Sur desktop : laisse la place au filtre de période
+    @include m.lg {
+      display: none;
+    }
   }
 
   // ── Body ──────────────────────────────────────────────────────────────────
@@ -71,9 +125,19 @@
     display: flex;
     flex-direction: column;
     gap: v.$spacing-lg;
-    max-width: 720px;
-    margin: 0 auto;
-    width: 100%;
+
+    // Desktop : plus large, padding augmenté
+    @include m.md {
+      padding: v.$spacing-xl;
+      max-width: 960px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    @include m.lg {
+      max-width: 1200px;
+      padding: v.$spacing-xl v.$spacing-2xl;
+    }
   }
 
   // ── État vide ─────────────────────────────────────────────────────────────
@@ -90,7 +154,8 @@
   }
 
   &__empty-icon {
-    font-size: 3rem;
+    color: var(--color-primary);
+    opacity: 0.4;
   }
 
   &__empty-text {
@@ -108,6 +173,7 @@
 
     @include m.sm {
       grid-template-columns: repeat(4, 1fr);
+      gap: v.$spacing-md;
     }
   }
 
@@ -121,6 +187,12 @@
     gap: v.$spacing-xs;
     box-shadow: v.$shadow-sm;
     text-align: center;
+    transition: box-shadow v.$transition-fast, transform v.$transition-fast;
+
+    @include m.lg {
+      padding: v.$spacing-lg v.$spacing-md;
+      border-radius: v.$radius-lg;
+    }
 
     &--highlight {
       background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
@@ -136,6 +208,11 @@
 
   &__kpi-icon {
     color: var(--color-primary);
+
+    @include m.lg {
+      width: 24px;
+      height: 24px;
+    }
   }
 
   &__kpi-value {
@@ -143,6 +220,10 @@
     font-weight: 800;
     color: v.$foreground;
     line-height: 1;
+
+    @include m.lg {
+      font-size: v.$font-size-3xl;
+    }
   }
 
   &__kpi-label {
@@ -153,7 +234,7 @@
     color: v.$text-muted;
   }
 
-  // ── Filtre période ────────────────────────────────────────────────────────
+  // ── Filtre période (mobile uniquement — sur desktop il est dans le header) ─
 
   &__period-filter {
     display: flex;
@@ -163,10 +244,16 @@
     padding: 4px;
     box-shadow: v.$shadow-sm;
     width: fit-content;
+
+    // Sur desktop : masqué (le filtre est dans le header)
+    @include m.lg {
+      display: none;
+    }
   }
 
   &__period-btn {
     padding: 6px 16px;
+    min-height: unset;
     border: none;
     border-radius: v.$radius-full;
     font-size: v.$font-size-sm;
@@ -176,10 +263,26 @@
     background: transparent;
     cursor: pointer;
     transition: background v.$transition-fast, color v.$transition-fast;
+    @include m.focus-ring;
 
     &--active {
       background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
       color: v.$white;
+    }
+  }
+
+  // ── Grille 2 colonnes desktop pour les graphiques ─────────────────────────
+
+  &__charts-grid {
+    display: flex;
+    flex-direction: column;
+    gap: v.$spacing-lg;
+
+    @include m.lg {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: v.$spacing-lg;
+      align-items: start;
     }
   }
 
@@ -190,6 +293,17 @@
     border-radius: v.$radius-lg;
     padding: v.$spacing-lg;
     box-shadow: v.$shadow-sm;
+
+    @include m.lg {
+      padding: v.$spacing-xl;
+    }
+  }
+
+  // Section pleine largeur (ne passe pas en grille)
+  &__section--full {
+    @include m.lg {
+      grid-column: 1 / -1;
+    }
   }
 
   &__section-title {
@@ -200,6 +314,11 @@
     font-weight: 800;
     color: v.$foreground;
     margin-bottom: v.$spacing-md;
+
+    @include m.lg {
+      font-size: v.$font-size-lg;
+      margin-bottom: v.$spacing-lg;
+    }
   }
 
   &__section-desc {
@@ -329,6 +448,12 @@
     display: flex;
     flex-direction: column;
     gap: v.$spacing-md;
+
+    @include m.lg {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: v.$spacing-lg;
+    }
   }
 
   &__goals-card {
@@ -405,6 +530,7 @@
 
   &__cta-back {
     padding: 0.875rem v.$spacing-xl;
+    min-height: unset;
     background: transparent;
     border: 2px solid #e5e7eb;
     border-radius: v.$radius-full;
@@ -415,6 +541,7 @@
     cursor: pointer;
     align-self: center;
     transition: border-color v.$transition-fast, color v.$transition-fast;
+    @include m.focus-ring;
 
     &:hover {
       border-color: var(--color-primary);

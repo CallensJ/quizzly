@@ -12,7 +12,7 @@
 
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { ArrowLeft, BarChart3, LogOut, TrendingUp, Info } from "lucide-react";
+import { ArrowLeft, LogOut, TrendingUp, Info, Gamepad2, Star, Trophy, User } from "lucide-react";
 import { useRouter } from "@/i18n/navigation";
 import { useProfileStore } from "@/stores/profileStore";
 import { useAuthStore } from "@/stores/authStore";
@@ -52,6 +52,15 @@ export default function AdminScreen() {
   const [goalFeedback, setGoalFeedback] = useState(false);
   const [selectedGoal, setSelectedGoal] = useState<number>(dailyGoal ?? 0);
   const [aboutOpen, setAboutOpen] = useState(false);
+  const [today, setToday] = useState('');
+
+  useEffect(() => {
+    setToday(
+      new Date().toLocaleDateString('fr-FR', {
+        weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
+      })
+    );
+  }, []);
 
   function handleSaveGoal() {
     setDailyGoal(selectedGoal === 0 ? null : selectedGoal);
@@ -98,49 +107,41 @@ export default function AdminScreen() {
         </button>
       </header>
 
+      {/* ── Barre de bienvenue ───────────────────────────────────────────────── */}
+      <div className="admin__welcome-bar">
+        <span className="admin__welcome-user">
+          <User size={13} aria-hidden="true" />
+          {authUser?.email}
+        </span>
+        {today && <time className="admin__welcome-date">{today}</time>}
+      </div>
+
       <main className="admin__body">
-        {/* ── Gestion des profils enfants ──────────────────────────────────── */}
-        <AdminErrorBoundary label="ChildProfiles">
-          <ChildProfilesSection />
-        </AdminErrorBoundary>
-
-        {/* ── Stats enfant ─────────────────────────────────────────────────── */}
-        <section
-          className="admin__section admin__section--stats"
-          aria-labelledby="admin-stats-title"
-        >
-          <div className="admin__section-header">
-            <BarChart3 size={18} strokeWidth={2} aria-hidden="true" />
-            <h2 id="admin-stats-title" className="admin__section-title">
-              {t("statsTitle", { pseudo: profile?.pseudo ?? "" })}
-            </h2>
-          </div>
-
+        {/* ── KPI hero strip — métriques clés pleine largeur ───────────────── */}
+        <div className="admin__kpi-strip">
           {totalGames === 0 ? (
-            <p className="admin__empty">{t("statsNoSession")}</p>
+            <p className="admin__kpi-empty">{t("statsNoSession")}</p>
           ) : (
-            <div className="admin__stats-grid">
-              <div className="admin__stat-card">
-                <span className="admin__stat-value">{totalGames}</span>
-                <span className="admin__stat-label">
-                  {t("statsTotalGames")}
-                </span>
+            <div className="admin__kpi-cards">
+              <div className="admin__kpi-card">
+                <Gamepad2 size={22} className="admin__kpi-icon" aria-hidden="true" />
+                <span className="admin__kpi-value">{totalGames}</span>
+                <span className="admin__kpi-label">{t("statsTotalGames")}</span>
               </div>
-              <div className="admin__stat-card">
-                <span className="admin__stat-value">{totalPoints}</span>
-                <span className="admin__stat-label">
-                  {t("statsTotalPoints")}
-                </span>
+              <div className="admin__kpi-card">
+                <Star size={22} className="admin__kpi-icon" aria-hidden="true" />
+                <span className="admin__kpi-value">{totalPoints}</span>
+                <span className="admin__kpi-label">{t("statsTotalPoints")}</span>
               </div>
-              <div className="admin__stat-card">
-                <span className="admin__stat-value">
+              <div className="admin__kpi-card">
+                <Trophy size={22} className="admin__kpi-icon" aria-hidden="true" />
+                <span className="admin__kpi-value">
                   {bestPct !== null ? `${bestPct}%` : "—"}
                 </span>
-                <span className="admin__stat-label">{t("statsBestScore")}</span>
+                <span className="admin__kpi-label">{t("statsBestScore")}</span>
               </div>
             </div>
           )}
-
           <button
             type="button"
             className="admin__dashboard-btn"
@@ -149,27 +150,34 @@ export default function AdminScreen() {
             <TrendingUp size={16} strokeWidth={2} />
             Voir la progression dans le temps
           </button>
-        </section>
+        </div>
 
-        {/* ── Abonnement Premium ─────────────────────────────────────────── */}
-        <AdminErrorBoundary label="Subscription">
-          <SubscriptionSection />
-        </AdminErrorBoundary>
+        {/* ── Col gauche : Profils + Abonnement (empilés sans gap de row) ─────── */}
+        <div className="admin__col-left">
+          <AdminErrorBoundary label="ChildProfiles">
+            <ChildProfilesSection />
+          </AdminErrorBoundary>
+          <AdminErrorBoundary label="Subscription">
+            <SubscriptionSection />
+          </AdminErrorBoundary>
+        </div>
 
-        {/* ── Objectifs par catégorie ─────────────────────────────────────── */}
-        <AdminErrorBoundary label="Goals">
-          <GoalsSection />
-        </AdminErrorBoundary>
+        {/* ── Col droite : Objectifs + Rapport (empilés sans gap de row) ────── */}
+        <div className="admin__col-right">
+          <AdminErrorBoundary label="Goals">
+            <GoalsSection />
+          </AdminErrorBoundary>
+          <AdminErrorBoundary label="Report">
+            <ReportSection />
+          </AdminErrorBoundary>
+        </div>
 
-        {/* ── Rapport de progression PDF ───────────────────────────────────── */}
-        <AdminErrorBoundary label="Report"><ReportSection /></AdminErrorBoundary>
-
-        {/* ── Zone de danger ───────────────────────────────────────────────── */}
+        {/* ── Zone de danger — pleine largeur ───────────────────────────────── */}
         <AdminErrorBoundary label="DangerZone">
           <DangerZone onReset={() => resetProgress()} />
         </AdminErrorBoundary>
 
-        {/* ── Lien À propos ────────────────────────────────────────────────── */}
+        {/* ── Lien À propos ─────────────────────────────────────────────────── */}
         <button
           type="button"
           className="admin__about-link"
@@ -180,7 +188,7 @@ export default function AdminScreen() {
         </button>
       </main>
 
-      {/* ── Modale À propos ─────────────────────────────────────────────── */}
+      {/* ── Modale À propos ─────────────────────────────────────────────────── */}
       <AboutModal isOpen={aboutOpen} onClose={() => setAboutOpen(false)} />
     </div>
   );
