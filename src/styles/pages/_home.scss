@@ -804,9 +804,9 @@
     padding: v.$spacing-sm v.$spacing-md;
     margin-top: v.$spacing-sm;
     background: none;
-    border: 1.5px dashed rgba(255, 255, 255, 0.3);
+    border: 1.5px dashed rgba(0, 0, 0, 0.3);
     border-radius: v.$radius-md;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(0, 0, 0, 0.75);
     font-size: v.$font-size-sm;
     font-weight: 700;
     font-family: v.$font-primary;
@@ -814,8 +814,8 @@
     transition: border-color v.$transition-fast, color v.$transition-fast;
 
     &:hover {
-      border-color: rgba(255, 255, 255, 0.55);
-      color: v.$white;
+      border-color: rgba(0, 0, 0, 0.55);
+      color: #000;
     }
   }
 
