@@ -10,7 +10,7 @@
  */
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { X, RefreshCw, ExternalLink } from 'lucide-react';
 import { getDB } from '@/lib/db';
 
@@ -24,6 +24,7 @@ interface AboutModalProps {
 
 export default function AboutModal({ isOpen, onClose }: AboutModalProps) {
   const t = useTranslations('admin');
+  const locale = useLocale();
   const [updating, setUpdating] = useState(false);
   const [updateDone, setUpdateDone] = useState(false);
 
@@ -109,7 +110,7 @@ export default function AboutModal({ isOpen, onClose }: AboutModalProps) {
           {/* Liens externes */}
           <div className="about-modal__links">
             <a
-              href="https://erudia.app/changelog"
+              href={`https://erudia.app/${locale}/changelog`}
               target="_blank"
               rel="noopener noreferrer"
               className="about-modal__link"

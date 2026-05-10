@@ -16,12 +16,14 @@ import { useProfileStore } from '@/stores/profileStore';
 import { useSubscription } from '@/hooks/useSubscription';
 import { buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
+import { unlinkAndCleanProfileFromSupabase } from '@/lib/sync';
 
 export default function ChildProfilesSection() {
   const router = useRouter();
 
   const profiles           = useProfileStore((s) => s.profiles);
   const activeProfileId    = useProfileStore((s) => s.activeProfileId);
+  const deviceId           = useProfileStore((s) => s.deviceId);
   const switchProfile      = useProfileStore((s) => s.switchProfile);
   const removeChildProfile = useProfileStore((s) => s.removeChildProfile);
 
@@ -39,7 +41,9 @@ export default function ChildProfilesSection() {
   function handleDeleteChild(id: string) {
     removeChildProfile(id);
     setDeleteChildId(null);
-    // Le parent reste sur la page admin pour pouvoir créer un nouveau profil immédiatement
+    // Le parent reste sur la page admin pour pouvoir créer un nouveau profil immédiatement.
+    // Nettoyage cloud en arrière-plan — empêche pullFromSupabase de restaurer le profil au F5
+    if (deviceId) unlinkAndCleanProfileFromSupabase(deviceId).catch(() => {});
   }
 
   return (

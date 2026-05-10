@@ -361,6 +361,13 @@ export const useProfileStore = create<ProfileState>()(
             };
           }
 
+          // Cas 2 : profil local existant avec pseudo différent du profil cloud → données
+          // d'un autre joueur (ex. second profil ajouté localement). On ignore totalement
+          // le merge pour ne pas écraser l'identité ni les sessions du profil actif.
+          if (remoteProfile && state.profile && remoteProfile.pseudo !== state.profile.pseudo) {
+            return {};
+          }
+
           // Cas 2 : profil local existant — restaure identité + merge sessions/badges.
           let updatedProfile = state.profile;
           if (remoteProfile && state.profile) {

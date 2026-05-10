@@ -248,6 +248,52 @@ export async function processOfflineQueue(): Promise<void> {
   }
 }
 
+// ─── Nettoyage profil ────────────────────────────────────────────────────────
+
+/**
+ * Supprime sessions + badges d'un profil dans Supabase.
+ * Appelé après resetProgress() local pour éviter que pullFromSupabase
+ * restaure la progression effacée au prochain F5.
+ */
+export async function resetProfileDataInSupabase(deviceId: string): Promise<void> {
+  try {
+    const { data: profileRow } = await supabase
+      .from('profiles')
+      .select('id')
+      .eq('device_id', deviceId)
+      .maybeSingle();
+    if (!profileRow) return;
+    await supabase.from('sessions').delete().eq('profile_id', profileRow.id);
+    await supabase.from('badges').delete().eq('profile_id', profileRow.id);
+  } catch {
+    // Silencieux — non critique
+  }
+}
+
+/**
+ * Délie le profil de son compte parent Supabase et efface ses sessions/badges.
+ * Appelé avant la suppression locale d'un profil pour empêcher pullFromSupabase
+ * de le restaurer au prochain F5 (Cas 1 : profile null → recréation cloud).
+ */
+export async function unlinkAndCleanProfileFromSupabase(deviceId: string): Promise<void> {
+  try {
+    const { data: profileRow } = await supabase
+      .from('profiles')
+      .select('id')
+      .eq('device_id', deviceId)
+      .maybeSingle();
+    if (!profileRow) return;
+    await supabase.from('sessions').delete().eq('profile_id', profileRow.id);
+    await supabase.from('badges').delete().eq('profile_id', profileRow.id);
+    await supabase
+      .from('profiles')
+      .update({ auth_user_id: null })
+      .eq('id', profileRow.id);
+  } catch {
+    // Silencieux — non critique
+  }
+}
+
 // ─── Lien profil → compte parent ──────────────────────────────────────────────
 
 /**

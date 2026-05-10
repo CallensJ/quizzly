@@ -796,6 +796,13 @@ $p-medium:   rgba(3, 105, 161, 0.18);
     gap: v.$spacing-sm;
   }
 
+  &__danger-reset-done {
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$success;
+    margin-top: v.$spacing-sm;
+  }
+
   // ── Animations ──────────────────────────────────────────────────────────────
 
   @keyframes admin-spin {

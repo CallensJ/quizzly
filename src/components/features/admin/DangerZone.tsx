@@ -17,6 +17,7 @@ import { Trash2, RotateCcw, ChevronDown } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { supabase } from '@/lib/supabaseBrowser';
+import { resetProfileDataInSupabase, unlinkAndCleanProfileFromSupabase } from '@/lib/sync';
 
 interface Props {
   onReset: () => void;
@@ -26,8 +27,10 @@ export default function DangerZone({ onReset }: Props) {
   const t = useTranslations('admin');
   const router = useRouter();
   const deleteProfile = useProfileStore((s) => s.deleteProfile);
+  const deviceId      = useProfileStore((s) => s.deviceId);
   const [open,          setOpen]          = useState(false);
   const [confirmReset,  setConfirmReset]  = useState(false);
+  const [resetDone,     setResetDone]     = useState(false);
   const [confirmDelete, setConfirmDelete] = useState(false);
   const [deleteLoading, setDeleteLoading] = useState(false);
   const [deleteError, setDeleteError] = useState(false);
@@ -43,6 +46,9 @@ export default function DangerZone({ onReset }: Props) {
         setDeleteLoading(false);
         return;
       }
+      // Délie le profil du compte parent et efface ses données cloud
+      // avant de supprimer le compte Auth — évite la restauration au prochain F5
+      if (deviceId) await unlinkAndCleanProfileFromSupabase(deviceId);
       // Supprime le compte côté Supabase (Auth + subscriptions)
       await fetch('/api/account/delete', {
         method: 'DELETE',
@@ -112,12 +118,22 @@ export default function DangerZone({ onReset }: Props) {
                   <button
                     type="button"
                     className="admin__danger-btn admin__danger-btn--destructive"
-                    onClick={() => { onReset(); setConfirmReset(false); }}
+                    onClick={() => {
+                      onReset();
+                      setConfirmReset(false);
+                      setResetDone(true);
+                      setTimeout(() => setResetDone(false), 3000);
+                      // Nettoyage cloud en arrière-plan — empêche la restauration au F5
+                      if (deviceId) resetProfileDataInSupabase(deviceId).catch(() => {});
+                    }}
                   >
                     {t('dangerResetConfirm')}
                   </button>
                 </div>
               </div>
+            )}
+            {resetDone && (
+              <p className="admin__danger-reset-done">Progression réinitialisée ✓</p>
             )}
           </div>
 
