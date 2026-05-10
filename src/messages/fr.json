@@ -470,7 +470,13 @@
     "filterEarned": "Obtenus",
     "filterLocked": "À débloquer",
     "seeAllCta": "Voir mes trophées",
-    "previewEmpty": "Joue ta première partie pour gagner des badges !"
+    "previewEmpty": "Joue ta première partie pour gagner des badges !",
+    "nextBadge": "Prochain",
+    "groupComplete": "Groupe complété !",
+    "progressParties": "parties jouées",
+    "progressPerfects": "score(s) parfait(s)",
+    "progressJours": "jours de suite",
+    "progressBadges": "badges obtenus"
   },
   "admin": {
     "title": "Espace Parent",

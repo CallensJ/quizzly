@@ -401,6 +401,90 @@
     }
   }
 
+  // Section "prochain badge" — affichée dans le body ouvert, sous la grille
+  &__next {
+    margin-top: v.$spacing-sm;
+    padding-top: v.$spacing-sm;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  &__next-complete {
+    text-align: center;
+    font-size: v.$font-size-sm;
+    font-weight: 700;
+    color: v.$success;
+    padding: v.$spacing-xs 0;
+  }
+
+  &__next-label {
+    display: flex;
+    align-items: center;
+    gap: v.$spacing-xs;
+    font-size: v.$font-size-sm;
+    font-weight: 600;
+    color: v.$text-muted;
+    margin-bottom: 6px;
+
+    strong {
+      color: v.$foreground;
+      font-weight: 800;
+    }
+  }
+
+  &__next-track {
+    height: 10px;
+    background: #e5e7eb;
+    border-radius: v.$radius-full;
+    overflow: hidden;
+    margin-bottom: 6px;
+  }
+
+  &__next-fill {
+    height: 100%;
+    background: var(--group-color, #{v.$primary});
+    border-radius: v.$radius-full;
+    transition: width v.$transition-slow;
+
+    // Effet shimmer pour rendre la barre vivante
+    background-image: linear-gradient(
+      90deg,
+      var(--group-color, #{v.$primary}) 0%,
+      color-mix(in srgb, var(--group-color, #{v.$primary}) 70%, white) 50%,
+      var(--group-color, #{v.$primary}) 100%
+    );
+    background-size: 200% 100%;
+    animation: badge-progress-shimmer 2.5s ease-in-out infinite;
+
+    @media (prefers-reduced-motion: reduce) {
+      background-image: none;
+      background: var(--group-color, #{v.$primary});
+      animation: none;
+    }
+  }
+
+  &__next-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: v.$text-muted;
+  }
+
+  &__next-count {
+    font-weight: 800;
+    color: var(--group-color, #{v.$primary});
+  }
+
+  &__next-unit {
+    font-style: italic;
+  }
+
+  @keyframes badge-progress-shimmer {
+    0%   { background-position: 100% 0; }
+    100% { background-position: -100% 0; }
+  }
+
   // Grille de tuiles — 5 colonnes fixes (1 groupe = max 6 badges)
   &__grid {
     display: grid;

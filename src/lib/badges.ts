@@ -37,6 +37,19 @@ export interface BadgeDefinition {
   condition: (sessions: QuizSession[], earnedCount: number) => boolean;
 }
 
+/** Progression vers le prochain badge d'un groupe (utilisée par la modale trophées). */
+export interface GroupProgress {
+  current: number;
+  target: number;
+  /** Clé i18n dans le namespace "badges" pour l'unité affichée */
+  unitKey: 'progressParties' | 'progressPerfects' | 'progressJours' | 'progressBadges';
+  nextBadgeId: string;
+  nextBadgeEmoji: string;
+  /** Pourcentage 0–100 */
+  pct: number;
+  complete: boolean;
+}
+
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
 /**
@@ -515,4 +528,121 @@ export function getNewlyEarnedBadges(
   }
 
   return newBadges;
+}
+
+// ─── Progression par groupe ───────────────────────────────────────────────────
+
+/** IDs des groupes catégorie (distincts des groupes globaux score/volume/etc.) */
+const CAT_GROUP_IDS = new Set<string>([
+  'sciences', 'histoire', 'heroes', 'animaux-nature',
+  'math', 'sport', 'geographie', 'art', 'pop-culture',
+  'education-civique', 'cuisine', 'technologie', 'espace-astronomie',
+  'francais', 'anglais', 'monde-antique', 'corps-humain', 'musique',
+  'environnement', 'dinosaures',
+]);
+
+const VOLUME_THRESHOLDS: Record<string, number> = {
+  games_5: 5, games_20: 20, games_50: 50, games_100: 100, games_200: 200, games_500: 500,
+};
+
+const STREAK_THRESHOLDS: Record<string, number> = {
+  streak_3: 3, streak_7: 7, streak_14: 14, streak_30: 30, streak_60: 60,
+};
+
+const COLLECTOR_THRESHOLDS: Record<string, number> = {
+  collector_15: 15, collector_30: 30, collector_50: 50,
+};
+
+function mk(
+  current: number,
+  target: number,
+  unitKey: GroupProgress['unitKey'],
+  nextBadgeId: string,
+  nextBadgeEmoji: string,
+): GroupProgress {
+  return {
+    current: Math.min(current, target),
+    target,
+    unitKey,
+    nextBadgeId,
+    nextBadgeEmoji,
+    pct: Math.min(100, Math.round((current / target) * 100)),
+    complete: false,
+  };
+}
+
+/**
+ * Calcule la progression vers le prochain badge d'un groupe.
+ * Retourne `null` pour les groupes sans progression linéaire mesurable
+ * (score global, difficulté, transversaux).
+ */
+export function getGroupProgress(
+  group: BadgeGroup,
+  sessions: QuizSession[],
+  earnedBadgeIds: string[],
+  dailyStreak: number,
+  totalEarnedBadges: number,
+): GroupProgress | null {
+  const nextBadgeId = group.badgeIds.find((id) => !earnedBadgeIds.includes(id));
+
+  // Groupe entièrement complété
+  if (!nextBadgeId) {
+    return {
+      current: group.badgeIds.length,
+      target: group.badgeIds.length,
+      unitKey: 'progressBadges',
+      nextBadgeId: '',
+      nextBadgeEmoji: '',
+      pct: 100,
+      complete: true,
+    };
+  }
+
+  const nextDef = BADGE_DEFINITIONS.find((b) => b.id === nextBadgeId);
+  if (!nextDef) return null;
+
+  // ── Groupes catégorie (5 badges : curious → legend) ─────────────────────
+  if (CAT_GROUP_IDS.has(group.id)) {
+    const cat = group.id as Category;
+    const count    = sessions.filter((s) => s.category === cat).length;
+    const perfects = sessions.filter((s) => s.category === cat && s.score === s.totalQuestions).length;
+
+    if (nextBadgeId.endsWith('_curious'))    return mk(count,    3,  'progressParties',  nextBadgeId, nextDef.emoji);
+    if (nextBadgeId.endsWith('_passionate')) return mk(count,   10,  'progressParties',  nextBadgeId, nextDef.emoji);
+    if (nextBadgeId.endsWith('_expert'))     return mk(count,   25,  'progressParties',  nextBadgeId, nextDef.emoji);
+    if (nextBadgeId.endsWith('_master'))     return mk(perfects,  1, 'progressPerfects', nextBadgeId, nextDef.emoji);
+    if (nextBadgeId.endsWith('_legend')) {
+      // Requiert count ≥ 50 ET perfects ≥ 3 — on affiche le critère le plus éloigné
+      const pctC = count / 50;
+      const pctP = perfects / 3;
+      return pctC <= pctP
+        ? mk(count,    50, 'progressParties',  nextBadgeId, nextDef.emoji)
+        : mk(perfects,  3, 'progressPerfects', nextBadgeId, nextDef.emoji);
+    }
+    return null;
+  }
+
+  // ── Groupe volume ────────────────────────────────────────────────────────
+  if (group.id === 'volume') {
+    const target = VOLUME_THRESHOLDS[nextBadgeId];
+    if (!target) return null;
+    return mk(sessions.length, target, 'progressParties', nextBadgeId, nextDef.emoji);
+  }
+
+  // ── Groupe streak ────────────────────────────────────────────────────────
+  if (group.id === 'streak') {
+    const target = STREAK_THRESHOLDS[nextBadgeId];
+    if (!target) return null;
+    return mk(dailyStreak, target, 'progressJours', nextBadgeId, nextDef.emoji);
+  }
+
+  // ── Groupe méta / collectionneurs ────────────────────────────────────────
+  if (group.id === 'meta') {
+    const target = COLLECTOR_THRESHOLDS[nextBadgeId];
+    if (!target) return null;
+    return mk(totalEarnedBadges, target, 'progressBadges', nextBadgeId, nextDef.emoji);
+  }
+
+  // score, difficulte, transversaux → pas de barre de progression pertinente
+  return null;
 }

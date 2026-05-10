@@ -11,7 +11,8 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { ChevronDown } from 'lucide-react';
-import { BADGE_DEFINITIONS, type BadgeGroup } from '@/lib/badges';
+import { BADGE_DEFINITIONS, getGroupProgress, type BadgeGroup } from '@/lib/badges';
+import { useProfileStore } from '@/stores/profileStore';
 import BadgeTile from './BadgeTile';
 
 interface BadgeGroupAccordionProps {
@@ -28,6 +29,10 @@ export default function BadgeGroupAccordion({
 }: BadgeGroupAccordionProps) {
   const t = useTranslations('badges');
   const [isOpen, setIsOpen] = useState(defaultOpen);
+
+  const sessions     = useProfileStore((s) => s.sessions);
+  const dailyStreak  = useProfileStore((s) => s.dailyStreak);
+  const progress     = getGroupProgress(group, sessions, earnedBadgeIds, dailyStreak, earnedBadgeIds.length);
 
   const badges = group.badgeIds
     .map((id) => BADGE_DEFINITIONS.find((b) => b.id === id))
@@ -89,6 +94,34 @@ export default function BadgeGroupAccordion({
               );
             })}
           </div>
+
+          {/* ── Progression vers le prochain badge ──────────────────────── */}
+          {progress && (
+            <div className="badge-group__next">
+              {progress.complete ? (
+                <p className="badge-group__next-complete">
+                  ✅ {t('groupComplete')}
+                </p>
+              ) : (
+                <>
+                  <p className="badge-group__next-label">
+                    <span aria-hidden="true">{progress.nextBadgeEmoji}</span>
+                    {t('nextBadge')} : <strong>{t(`${progress.nextBadgeId}_name` as Parameters<typeof t>[0])}</strong>
+                  </p>
+                  <div className="badge-group__next-track" role="progressbar" aria-valuenow={progress.current} aria-valuemin={0} aria-valuemax={progress.target}>
+                    <div
+                      className="badge-group__next-fill"
+                      style={{ width: `${progress.pct}%` }}
+                    />
+                  </div>
+                  <p className="badge-group__next-meta">
+                    <span className="badge-group__next-count">{progress.current} / {progress.target}</span>
+                    <span className="badge-group__next-unit">{t(progress.unitKey as Parameters<typeof t>[0])}</span>
+                  </p>
+                </>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </div>

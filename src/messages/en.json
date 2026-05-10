@@ -470,7 +470,13 @@
     "filterEarned": "Earned",
     "filterLocked": "Locked",
     "seeAllCta": "See my trophies",
-    "previewEmpty": "Play your first game to earn badges!"
+    "previewEmpty": "Play your first game to earn badges!",
+    "nextBadge": "Next",
+    "groupComplete": "Group completed!",
+    "progressParties": "games played",
+    "progressPerfects": "perfect score(s)",
+    "progressJours": "days in a row",
+    "progressBadges": "badges earned"
   },
   "admin": {
     "title": "Parent Space",
