@@ -15,7 +15,7 @@ import { X, RefreshCw, ExternalLink } from 'lucide-react';
 import { getDB } from '@/lib/db';
 
 // Version synchronisée avec package.json — à mettre à jour à chaque release
-const APP_VERSION = '1.3.0';
+const APP_VERSION = '1.3.1';
 
 interface AboutModalProps {
   isOpen: boolean;
