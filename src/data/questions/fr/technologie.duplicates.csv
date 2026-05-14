@@ -1,0 +1,122 @@
+type,id_1,question_1,id_2,question_2
+exact,tech-fr-medium-0025,Que signifie 'déboguer' un programme ?,tech-fr-medium-0074,Que signifie 'déboguer' un programme ?
+exact,tech-fr-easy-0048,Quel est l'outil qui affiche les pages web et permet de cliquer sur des liens ?,tech-fr-easy-0094,Quel est l'outil qui affiche les pages web et permet de cliquer sur des liens ?
+exact,tech-fr-easy-0096,Que dois-tu garder secret pour protéger ton compte en ligne ?,tech-fr-easy-0136,Que dois-tu garder secret pour protéger ton compte en ligne ?
+exact,tech-fr-easy-0048,Quel est l'outil qui affiche les pages web et permet de cliquer sur des liens ?,tech-fr-easy-0137,Quel est l'outil qui affiche les pages web et permet de cliquer sur des liens ?
+exact,tech-fr-easy-0095,Quel mot décrit un message qui essaie de te tromper pour obtenir tes informations ?,tech-fr-easy-0138,Quel mot décrit un message qui essaie de te tromper pour obtenir tes informations ?
+exact,tech-fr-medium-0091,Pourquoi vérifier la source d'une information trouvée sur internet est important pour un exposé ?,tech-fr-medium-0111,Pourquoi vérifier la source d'une information trouvée sur internet est important pour un exposé ?
+exact,tech-fr-medium-0094,Pourquoi est-il utile de supprimer les cookies de temps en temps ?,tech-fr-medium-0114,Pourquoi est-il utile de supprimer les cookies de temps en temps ?
+exact,tech-fr-medium-0095,Que signifie 'URL' et quelles parties importantes contient-elle ?,tech-fr-medium-0115,Que signifie 'URL' et quelles parties importantes contient-elle ?
+exact,tech-fr-easy-0055,"Si une lampe ne s'allume pas, que peux-tu vérifier en premier ?",tech-fr-easy-0145,"Si une lampe ne s'allume pas, que peux-tu vérifier en premier ?"
+exact,tech-fr-easy-0057,Quel mot décrit un matériau qui n'autorise pas le passage du courant ?,tech-fr-easy-0147,Quel mot décrit un matériau qui n'autorise pas le passage du courant ?
+exact,tech-fr-easy-0059,Quel côté d'une pile est souvent marqué d'un '+' ?,tech-fr-easy-0149,Quel côté d'une pile est souvent marqué d'un '+' ?
+exact,tech-fr-easy-0060,Quel geste est dangereux près d'une prise électrique : toucher avec les mains mouillées ou sèches ?,tech-fr-easy-0150,Quel geste est dangereux près d'une prise électrique : toucher avec les mains mouillées ou sèches ?
+exact,tech-fr-medium-0056,Que mesure un voltmètre dans un circuit ?,tech-fr-medium-0118,Que mesure un voltmètre dans un circuit ?
+exact,tech-fr-easy-0077,Quel mot décrit une action qui se répète plusieurs fois ?,tech-fr-easy-0164,Quel mot décrit une action qui se répète plusieurs fois ?
+exact,tech-fr-easy-0020,Quel périphérique permet de sauvegarder des fichiers et de les transporter facilement ?,tech-fr-easy-0198,Quel périphérique permet de sauvegarder des fichiers et de les transporter facilement ?
+exact,tech-fr-easy-0022,Quel mot décrit une suite d'actions à suivre pour résoudre un problème ?,tech-fr-easy-0202,Quel mot décrit une suite d'actions à suivre pour résoudre un problème ?
+exact,tech-fr-easy-0113,Que signifie 'répéter' dans une suite d'instructions ?,tech-fr-easy-0203,Que signifie 'répéter' dans une suite d'instructions ?
+exact,tech-fr-easy-0076,"Si une instruction dit 'si le drapeau est rouge alors s'arrêter', que fais-tu si le drapeau est roug",tech-fr-easy-0204,"Si une instruction dit 'si le drapeau est rouge alors s'arrêter', que fais-tu si le drapeau est roug"
+exact,tech-fr-easy-0166,Quel mot simple peut garder un nombre comme le score d'un jeu ?,tech-fr-easy-0205,Quel mot simple peut garder un nombre comme le score d'un jeu ?
+exact,tech-fr-easy-0167,Quelle est la première étape avant d'exécuter un algorithme ?,tech-fr-easy-0206,Quelle est la première étape avant d'exécuter un algorithme ?
+exact,tech-fr-easy-0117,Quel mot utilise-t-on pour dire 'si ceci alors cela' dans un programme ?,tech-fr-easy-0207,Quel mot utilise-t-on pour dire 'si ceci alors cela' dans un programme ?
+exact,tech-fr-easy-0120,Quel est le résultat si tu exécutes 'avancer' trois fois ?,tech-fr-easy-0209,Quel est le résultat si tu exécutes 'avancer' trois fois ?
+exact,tech-fr-easy-0130,Quel objet technique peut t'aider à mesurer la durée d'une activité ?,tech-fr-easy-0211,Quel objet technique peut t'aider à mesurer la durée d'une activité ?
+exact,tech-fr-easy-0127,Quel objet technique peut t'aider à écouter un conte audio ?,tech-fr-easy-0212,Quel objet technique peut t'aider à écouter un conte audio ?
+exact,tech-fr-easy-0126,Quel objet technique peut t'aider à calculer rapidement des additions ?,tech-fr-easy-0214,Quel objet technique peut t'aider à calculer rapidement des additions ?
+exact,tech-fr-easy-0180,Quel objet technique peut t'aider à écouter de la musique sans déranger les autres ?,tech-fr-easy-0215,Quel objet technique peut t'aider à écouter de la musique sans déranger les autres ?
+exact,tech-fr-easy-0178,Quel objet technique peut t'aider à lire un texte en grand pour toute la classe ?,tech-fr-easy-0216,Quel objet technique peut t'aider à lire un texte en grand pour toute la classe ?
+exact,tech-fr-easy-0036,Quel objet technique peut être radiocommandé pour jouer ?,tech-fr-easy-0219,Quel objet technique peut être radiocommandé pour jouer ?
+exact,tech-fr-easy-0175,Quel objet technique peut t'aider à mesurer la longueur d'une table ?,tech-fr-easy-0220,Quel objet technique peut t'aider à mesurer la longueur d'une table ?
+exact,tech-fr-easy-0176,Quel objet technique peut t'aider à enregistrer une chanson ?,tech-fr-easy-0221,Quel objet technique peut t'aider à enregistrer une chanson ?
+exact,tech-fr-easy-0129,Quel objet technique peut t'aider à traduire un mot dans une autre langue ?,tech-fr-easy-0222,Quel objet technique peut t'aider à traduire un mot dans une autre langue ?
+exact,tech-fr-easy-0123,Quel objet technique peut t'aider à lire un livre en grand format sur un écran ?,tech-fr-easy-0228,Quel objet technique peut t'aider à lire un livre en grand format sur un écran ?
+exact,tech-fr-medium-0079,Que fait une instruction 'break' dans une boucle ?,tech-fr-medium-0168,Que fait une instruction 'break' dans une boucle ?
+exact,tech-fr-medium-0158,Pourquoi est‑il utile d'enseigner la notion d'empreinte numérique aux élèves ?,tech-fr-medium-0178,Pourquoi est‑il utile d'enseigner la notion d'empreinte numérique aux élèves ?
+exact,tech-fr-medium-0153,Que signifie 'backup' et quelle fréquence est raisonnable pour une classe ?,tech-fr-medium-0181,Que signifie 'backup' et quelle fréquence est raisonnable pour une classe ?
+exact,tech-fr-medium-0119,Quel matériau est souvent utilisé pour les fils électriques à cause de sa conductivité ?,tech-fr-medium-0183,Quel matériau est souvent utilisé pour les fils électriques à cause de sa conductivité ?
+exact,tech-fr-medium-0138,Que fait un onduleur (UPS) pour un ordinateur en cas de coupure de courant ?,tech-fr-medium-0184,Que fait un onduleur (UPS) pour un ordinateur en cas de coupure de courant ?
+exact,tech-fr-medium-0145,Pourquoi est‑il utile d'enseigner la sécurité numérique aux élèves dès le Cycle 3 ?,tech-fr-medium-0185,Pourquoi est‑il utile d'enseigner la sécurité numérique aux élèves dès le Cycle 3 ?
+exact,tech-fr-medium-0130,Que signifie 'formatage' d'un disque ?,tech-fr-medium-0186,Que signifie 'formatage' d'un disque ?
+exact,tech-fr-medium-0137,Pourquoi est‑il utile d'avoir des ports standard comme USB dans une école ?,tech-fr-medium-0187,Pourquoi est‑il utile d'avoir des ports standard comme USB dans une école ?
+exact,tech-fr-medium-0142,Pourquoi est‑il utile d'installer des mises à jour de sécurité sur les ordinateurs scolaires ?,tech-fr-medium-0189,Pourquoi est‑il utile d'installer des mises à jour de sécurité sur les ordinateurs scolaires ?
+exact,tech-fr-medium-0157,Que signifie 'partage contrôlé' d'un dossier en ligne ?,tech-fr-medium-0190,Que signifie 'partage contrôlé' d'un dossier en ligne ?
+exact,tech-fr-medium-0154,Pourquoi est‑il utile d'enseigner la gestion des droits d'accès aux fichiers en classe ?,tech-fr-medium-0191,Pourquoi est‑il utile d'enseigner la gestion des droits d'accès aux fichiers en classe ?
+exact,tech-fr-medium-0150,Pourquoi est‑il utile d'avoir une procédure pour éteindre et ranger les appareils en classe ?,tech-fr-medium-0193,Pourquoi est‑il utile d'avoir une procédure pour éteindre et ranger les appareils en classe ?
+exact,tech-fr-hard-0044,Explique pourquoi il est important d'enseigner l'esprit critique face aux informations trouvées sur ,tech-fr-hard-0052,Explique pourquoi il est important d'enseigner l'esprit critique face aux informations trouvées sur 
+normalized,tech-fr-easy-0029,"Quel mot simple peut garder un nombre, comme le score d'un jeu ?",tech-fr-easy-0166,Quel mot simple peut garder un nombre comme le score d'un jeu ?
+normalized,tech-fr-easy-0029,"Quel mot simple peut garder un nombre, comme le score d'un jeu ?",tech-fr-easy-0205,Quel mot simple peut garder un nombre comme le score d'un jeu ?
+same_options,tech-fr-easy-0003,Avec quel périphérique écris-tu des lettres sur l'ordinateur ?,tech-fr-easy-0012,Quel périphérique enregistre ta voix sur l'ordinateur ?
+same_options,tech-fr-easy-0001,Quel périphérique utilises-tu pour déplacer le curseur à l'écran ?,tech-fr-easy-0061,Quel périphérique utilises-tu pour sélectionner du texte en faisant glisser le pointeur ?
+same_options,tech-fr-easy-0017,Quel composant est souvent appelé 'écran tactile' quand on peut toucher l'image ?,tech-fr-easy-0062,Quel composant montre l'heure et les notifications sur un ordinateur portable ?
+same_options,tech-fr-easy-0003,Avec quel périphérique écris-tu des lettres sur l'ordinateur ?,tech-fr-easy-0068,Quel périphérique capte les sons pour les enregistrer ?
+same_options,tech-fr-easy-0022,Quel mot décrit une suite d'actions à suivre pour résoudre un problème ?,tech-fr-easy-0072,Quel mot décrit une suite d'actions à suivre pour faire un dessin étape par étape ?
+same_options,tech-fr-easy-0027,Quel mot décrit une action qui se répète encore et encore ?,tech-fr-easy-0074,Quel mot simple peut garder le score d'un jeu ?
+same_options,tech-fr-easy-0029,"Quel mot simple peut garder un nombre, comme le score d'un jeu ?",tech-fr-easy-0077,Quel mot décrit une action qui se répète plusieurs fois ?
+same_options,tech-fr-easy-0027,Quel mot décrit une action qui se répète encore et encore ?,tech-fr-easy-0079,Quel mot utilise-t-on pour dire 'si ceci alors cela' ?
+same_options,tech-fr-easy-0001,Quel périphérique utilises-tu pour déplacer le curseur à l'écran ?,tech-fr-easy-0101,Quel périphérique utilises-tu pour faire défiler une page vers le bas ?
+same_options,tech-fr-easy-0019,Quel objet portable est souvent utilisé pour écouter de la musique sans déranger les autres ?,tech-fr-easy-0106,Quel périphérique utilises-tu pour écouter de la musique sans déranger la classe ?
+same_options,tech-fr-easy-0029,"Quel mot simple peut garder un nombre, comme le score d'un jeu ?",tech-fr-easy-0115,Quel mot décrit une boîte qui peut contenir un nombre qui change pendant un jeu ?
+same_options,tech-fr-easy-0027,Quel mot décrit une action qui se répète encore et encore ?,tech-fr-easy-0117,Quel mot utilise-t-on pour dire 'si ceci alors cela' dans un programme ?
+same_options,tech-fr-easy-0081,Quel objet technique peut mesurer la vitesse d'une voiture de jouet ?,tech-fr-easy-0128,Quel objet technique peut mesurer la vitesse d'un vélo de jouet ?
+same_options,tech-fr-easy-0081,Quel objet technique peut mesurer la vitesse d'une voiture de jouet ?,tech-fr-easy-0130,Quel objet technique peut t'aider à mesurer la durée d'une activité ?
+same_options,tech-fr-easy-0091,Quel programme utilises-tu pour chercher des images ou des informations sur internet ?,tech-fr-easy-0131,Quel programme utilises-tu pour chercher des images sur internet ?
+same_options,tech-fr-easy-0092,Quel mot décrit l'adresse d'une page web que tu tapes pour y aller ?,tech-fr-easy-0132,Quel mot décrit une adresse web que tu tapes pour aller sur un site ?
+same_options,tech-fr-easy-0099,Que dois-tu faire si une publicité te demande d'entrer ton âge et ton mot de passe ?,tech-fr-easy-0139,Que dois-tu faire si une publicité te demande ton mot de passe ?
+same_options,tech-fr-hard-0014,Explique pourquoi il est préférable d'utiliser des sources variées et fiables pour un travail de rec,tech-fr-hard-0025,Explique pourquoi il est important d'utiliser des sources variées et fiables pour un travail de rech
+same_options,tech-fr-easy-0052,Quel objet fournit l'énergie pour faire fonctionner une lampe portable ?,tech-fr-easy-0142,Quel objet fournit l'énergie pour une lampe de poche ?
+same_options,tech-fr-easy-0054,Quel composant permet d'ouvrir ou fermer le passage du courant dans une lampe ?,tech-fr-easy-0144,Quel composant permet d'ouvrir ou fermer le passage du courant ?
+same_options,tech-fr-easy-0058,Quel objet simple peut allumer une petite ampoule pour une expérience en classe ?,tech-fr-easy-0148,Quel objet simple peut allumer une petite ampoule pour une expérience ?
+same_options,tech-fr-medium-0058,Pourquoi faut-il débrancher un appareil avant de le réparer ?,tech-fr-medium-0122,Pourquoi est-il important de débrancher un appareil avant de le réparer ?
+same_options,tech-fr-medium-0054,Quel appareil mesure l'intensité du courant électrique dans un circuit scolaire simple ?,tech-fr-medium-0123,Quel instrument utilise-t-on pour mesurer l'intensité du courant dans une expérience scolaire ?
+same_options,tech-fr-easy-0066,Quel périphérique permet d'imprimer une feuille depuis l'ordinateur ?,tech-fr-easy-0153,Quel périphérique permet de scanner un dessin et de l'envoyer à l'ordinateur ?
+same_options,tech-fr-easy-0069,Quel composant est souvent appelé 'écran' sur une tablette ?,tech-fr-easy-0158,Quel composant est souvent appelé 'écran' sur un smartphone ?
+same_options,tech-fr-easy-0066,Quel périphérique permet d'imprimer une feuille depuis l'ordinateur ?,tech-fr-easy-0159,Quel périphérique te permet d'imprimer une photo depuis l'ordinateur ?
+same_options,tech-fr-easy-0105,Quel petit appareil se branche souvent sur le port USB pour stocker des photos ?,tech-fr-easy-0160,Quel petit appareil peut stocker des chansons et se brancher sur l'ordinateur ?
+same_options,tech-fr-easy-0112,Quel mot simple décrit une série d'instructions pour un jeu ?,tech-fr-easy-0162,Quel mot simple décrit une suite d'actions pour résoudre un problème ?
+same_options,tech-fr-easy-0029,"Quel mot simple peut garder un nombre, comme le score d'un jeu ?",tech-fr-easy-0164,Quel mot décrit une action qui se répète plusieurs fois ?
+same_options,tech-fr-easy-0027,Quel mot décrit une action qui se répète encore et encore ?,tech-fr-easy-0166,Quel mot simple peut garder un nombre comme le score d'un jeu ?
+same_options,tech-fr-easy-0040,Quel objet technique peut mesurer la température d'une pièce ?,tech-fr-easy-0171,Quel objet technique peut t'aider à mesurer la température d'un liquide ?
+same_options,tech-fr-easy-0126,Quel objet technique peut t'aider à calculer rapidement des additions ?,tech-fr-easy-0177,Quel objet technique peut t'aider à calculer une multiplication rapidement ?
+same_options,tech-fr-easy-0081,Quel objet technique peut mesurer la vitesse d'une voiture de jouet ?,tech-fr-easy-0179,Quel objet technique peut t'aider à mesurer le temps d'une course ?
+same_options,tech-fr-easy-0001,Quel périphérique utilises-tu pour déplacer le curseur à l'écran ?,tech-fr-easy-0181,Quel périphérique utilises-tu pour sélectionner du texte en faisant un clic-glissé ?
+same_options,tech-fr-easy-0017,Quel composant est souvent appelé 'écran tactile' quand on peut toucher l'image ?,tech-fr-easy-0184,Quel objet contient souvent le disque dur et le processeur dans un ordinateur de bureau ?
+same_options,tech-fr-easy-0007,Quel appareil prend une photo ou filme pour l'ordinateur ?,tech-fr-easy-0187,Quel appareil prend une photo ou filme pour un appel vidéo ?
+same_options,tech-fr-easy-0066,Quel périphérique permet d'imprimer une feuille depuis l'ordinateur ?,tech-fr-easy-0188,Quel périphérique transforme une feuille en image numérique ?
+same_options,tech-fr-easy-0010,Quel périphérique envoie des documents papier depuis l'ordinateur ?,tech-fr-easy-0190,Quel périphérique imprime des feuilles depuis l'ordinateur ?
+same_options,tech-fr-medium-0004,Quel port est souvent utilisé pour brancher un écran moderne ?,tech-fr-easy-0191,Quel câble sert souvent à brancher un écran moderne à l'ordinateur ?
+same_options,tech-fr-easy-0003,Avec quel périphérique écris-tu des lettres sur l'ordinateur ?,tech-fr-easy-0192,Quel périphérique enregistre ta voix pour un enregistrement ?
+same_options,tech-fr-easy-0103,Quel périphérique permet de brancher plusieurs appareils sur une seule prise USB ?,tech-fr-easy-0194,Quel périphérique permet de brancher plusieurs clés USB en même temps ?
+same_options,tech-fr-easy-0108,Quel périphérique permet de montrer l'écran d'un ordinateur sur un grand mur en classe ?,tech-fr-easy-0196,Quel périphérique te permet de regarder une vidéo en grand devant la classe ?
+same_options,tech-fr-easy-0019,Quel objet portable est souvent utilisé pour écouter de la musique sans déranger les autres ?,tech-fr-easy-0197,Quel petit appareil portable sert à écouter de la musique sans déranger les autres ?
+same_options,tech-fr-easy-0016,Quel périphérique permet d'entendre et de parler lors d'une visioconférence ?,tech-fr-easy-0200,Quel objet permet d'entendre et de parler lors d'un appel vidéo ?
+same_options,tech-fr-easy-0111,"Si tu veux que ton robot avance puis tourne, quelle suite d'instructions écris-tu ?",tech-fr-easy-0201,"Si tu veux que ton robot avance puis tourne, quelle suite écris-tu ?"
+same_options,tech-fr-easy-0112,Quel mot simple décrit une série d'instructions pour un jeu ?,tech-fr-easy-0202,Quel mot décrit une suite d'actions à suivre pour résoudre un problème ?
+same_options,tech-fr-easy-0027,Quel mot décrit une action qui se répète encore et encore ?,tech-fr-easy-0205,Quel mot simple peut garder un nombre comme le score d'un jeu ?
+same_options,tech-fr-easy-0027,Quel mot décrit une action qui se répète encore et encore ?,tech-fr-easy-0207,Quel mot utilise-t-on pour dire 'si ceci alors cela' dans un programme ?
+same_options,tech-fr-easy-0031,Quel objet technologique peut te donner l'heure et te permettre de jouer ?,tech-fr-easy-0210,Quel objet technique peut te donner l'heure et te permettre de jouer ?
+same_options,tech-fr-easy-0081,Quel objet technique peut mesurer la vitesse d'une voiture de jouet ?,tech-fr-easy-0211,Quel objet technique peut t'aider à mesurer la durée d'une activité ?
+same_options,tech-fr-easy-0174,Quel objet technique peut t'aider à regarder une vidéo éducative en grand ?,tech-fr-easy-0216,Quel objet technique peut t'aider à lire un texte en grand pour toute la classe ?
+same_options,tech-fr-easy-0040,Quel objet technique peut mesurer la température d'une pièce ?,tech-fr-easy-0217,Quel objet technique peut t'aider à mesurer la température d'une pièce ?
+same_options,tech-fr-easy-0083,Quel objet technique peut te guider pour trouver une adresse en voiture ?,tech-fr-easy-0218,Quel objet technique peut t'aider à trouver ton chemin en voiture ?
+same_options,tech-fr-easy-0087,Quel objet technique peut mesurer la pression d'air dans un ballon ?,tech-fr-easy-0223,Quel objet technique peut t'aider à mesurer la pression d'air dans un ballon ?
+same_options,tech-fr-easy-0039,Quel objet technique permet d'allumer et d'éteindre une lumière à distance ?,tech-fr-easy-0224,Quel objet technique peut t'aider à allumer et éteindre une lumière ?
+same_options,tech-fr-easy-0081,Quel objet technique peut mesurer la vitesse d'une voiture de jouet ?,tech-fr-easy-0225,Quel objet technique peut t'aider à mesurer la vitesse d'une course ?
+same_options,tech-fr-easy-0127,Quel objet technique peut t'aider à écouter un conte audio ?,tech-fr-easy-0226,Quel objet technique peut t'aider à écouter une histoire en classe sans déranger ?
+same_options,tech-fr-easy-0090,Quel objet technique permet de mesurer la distance parcourue lors d'une promenade ?,tech-fr-easy-0227,Quel objet technique peut t'aider à mesurer la distance parcourue lors d'une promenade ?
+same_options,tech-fr-easy-0124,Quel objet technique peut être rechargé et utilisé pour appeler tes parents ?,tech-fr-easy-0229,Quel objet technique peut t'aider à appeler tes parents ?
+same_options,tech-fr-medium-0078,Quel est l'avantage d'écrire un algorithme en pseudo-code avant de coder ?,tech-fr-medium-0163,Quel est l'intérêt d'écrire un pseudo-code avant de programmer ?
+same_options,tech-fr-medium-0105,Que signifie 'déboguer' et quelle est une méthode simple pour le faire ?,tech-fr-medium-0166,Que signifie 'déboguer' un programme et quelle méthode simple utiliser ?
+same_options,tech-fr-medium-0129,Pourquoi sauvegarder régulièrement ses fichiers sur un support externe ?,tech-fr-medium-0170,Pourquoi sauvegarder ses fichiers sur deux supports différents est‑il recommandé ?
+same_options,tech-fr-medium-0135,Quel est le rôle d'un pare‑feu (firewall) dans un réseau scolaire ?,tech-fr-medium-0173,Que fait un pare-feu (firewall) dans un réseau scolaire ?
+same_options,tech-fr-medium-0091,Pourquoi vérifier la source d'une information trouvée sur internet est important pour un exposé ?,tech-fr-medium-0174,Pourquoi est‑il important de vérifier la source d'une information trouvée sur internet ?
+same_options,tech-fr-medium-0118,Que mesure un voltmètre dans un circuit ?,tech-fr-medium-0175,Que mesure un voltmètre dans un circuit électrique ?
+same_options,tech-fr-medium-0124,Pourquoi les fils électriques sont-ils recouverts d'isolant ?,tech-fr-medium-0176,Pourquoi utilise-t-on des isolants autour des fils électriques ?
+same_options,tech-fr-medium-0159,Que signifie 'authentification à deux facteurs' (2FA) et pourquoi l'utiliser ?,tech-fr-medium-0179,Que signifie 'authentification à deux facteurs' (2FA) ?
+same_options,tech-fr-medium-0141,Que signifie 'synchroniser' des fichiers entre un ordinateur et une tablette ?,tech-fr-medium-0188,Que signifie 'synchroniser' des fichiers entre deux appareils ?
+same_options,tech-fr-hard-0031,Explique pourquoi la séparation entre mémoire vive (RAM) et stockage permanent aide à la performance,tech-fr-hard-0046,Explique pourquoi la séparation entre mémoire vive (RAM) et stockage permanent améliore la performan
+same_options,tech-fr-hard-0038,Explique pourquoi la redondance des sauvegardes (plusieurs copies) est une bonne pratique pour une é,tech-fr-hard-0049,Pourquoi la redondance des sauvegardes (plusieurs copies) est-elle une bonne pratique pour une école
+same_options,tech-fr-hard-0039,Comment expliquer la différence entre chiffrement et simple mot de passe à un élève ?,tech-fr-hard-0050,Comment expliquer simplement la différence entre chiffrement et mot de passe ?
+same_options,tech-fr-hard-0041,"Explique pourquoi la documentation technique (notice, schéma) est utile lors de la réparation d'un o",tech-fr-hard-0051,Pourquoi la documentation technique est-elle utile lors de la réparation d'un objet technique ?
+same_options,tech-fr-hard-0037,Pourquoi est‑il important d'enseigner la maintenance préventive des appareils en classe ?,tech-fr-hard-0054,Pourquoi la maintenance préventive des appareils scolaires est-elle importante ?
+same_options,tech-fr-hard-0030,Pourquoi la sécurité électrique à l'école doit-elle inclure des règles simples comme 'ne pas toucher,tech-fr-hard-0055,Explique pourquoi la sécurité électrique à l'école doit inclure des règles simples comme 'ne pas tou
