@@ -15,7 +15,7 @@ import { X, RefreshCw, ExternalLink } from 'lucide-react';
 import { getDB } from '@/lib/db';
 
 // Version synchronisée avec package.json — à mettre à jour à chaque release
-const APP_VERSION = '1.3.1';
+const APP_VERSION = '1.3.2';
 
 interface AboutModalProps {
   isOpen: boolean;
@@ -106,6 +106,32 @@ export default function AboutModal({ isOpen, onClose }: AboutModalProps) {
                 ? t('aboutUpdating')
                 : t('aboutUpdate')}
           </button>
+
+          {/* Dernières corrections v1.3.2 */}
+          <div className="about-modal__changelog">
+            <p className="about-modal__changelog-title">
+              {locale === 'fr' ? `Corrections v${APP_VERSION}` : `Fixes v${APP_VERSION}`}
+            </p>
+            <ul className="about-modal__changelog-list">
+              {locale === 'fr' ? (
+                <>
+                  <li>Catégories Technologie &amp; Mathématique : doublons supprimés, questions rééquilibrées</li>
+                  <li>Pop Culture FR : 27 doublons supprimés, distribution des réponses corrigée</li>
+                  <li>Sync multi-profils (premium) : tous les profils restaurés sur un nouvel appareil</li>
+                  <li>Suppression profil enfant : données associées supprimées automatiquement</li>
+                  <li>Sécurité : accès espace parent restreint aux comptes authentifiés</li>
+                </>
+              ) : (
+                <>
+                  <li>Technology &amp; Mathematics categories: duplicates removed, questions rebalanced</li>
+                  <li>Pop Culture FR: 27 duplicates removed, answer distribution fixed</li>
+                  <li>Multi-profile sync (premium): all profiles restored on a new device</li>
+                  <li>Child profile deletion: associated data automatically removed</li>
+                  <li>Security: parent dashboard access restricted to authenticated accounts</li>
+                </>
+              )}
+            </ul>
+          </div>
 
           {/* Liens externes */}
           <div className="about-modal__links">
