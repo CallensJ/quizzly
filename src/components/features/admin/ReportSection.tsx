@@ -25,6 +25,7 @@ import { useTranslations } from 'next-intl';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
 import { FileText, Send, Calendar, Loader } from 'lucide-react';
 import { useProfileStore } from '@/stores/profileStore';
+import { useAuthStore } from '@/stores/authStore';
 import { buildReportData, type ReportSchedule } from '@/lib/report';
 import { syncAdminSettings } from '@/lib/sync';
 
@@ -55,6 +56,7 @@ export default function ReportSection() {
   const deviceId         = useProfileStore((s) => s.deviceId);
   const reportSchedule   = useProfileStore((s) => s.reportSchedule);
   const setReportSchedule = useProfileStore((s) => s.setReportSchedule);
+  const session          = useAuthStore((s) => s.session);
 
   // État UI local
   const [downloadStatus, setDownloadStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
@@ -136,9 +138,15 @@ export default function ReportSection() {
       const buffer = await blob.arrayBuffer();
       const base64 = btoa(String.fromCharCode(...new Uint8Array(buffer)));
 
+      const token = session?.access_token;
+      if (!token) throw new Error('Not authenticated');
+
       const res = await fetch(SUPABASE_FUNCTION_URL, {
         method:  'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type':  'application/json',
+          'Authorization': `Bearer ${token}`,
+        },
         body: JSON.stringify({
           email:      adminEmail,
           pseudo:     data.pseudo,

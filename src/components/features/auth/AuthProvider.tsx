@@ -70,7 +70,7 @@ export default function AuthProvider({
           mergeFromRemote(
             pulled.sessions,
             pulled.earnedBadgeIds,
-            pulled.profile,
+            pulled.profiles,
           );
         }
       }

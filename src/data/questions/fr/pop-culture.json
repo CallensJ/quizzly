@@ -1,0 +1,5601 @@
+{
+  "category": "culture",
+  "lang": "fr",
+  "questions": [
+    {
+      "id": "pop-fr-0001",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans le jeu vidéo Super Mario, quel est le métier original de Mario ?",
+      "options": {
+        "A": "Plombier",
+        "B": "Boulanger",
+        "C": "Pompier",
+        "D": "Policier"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0002",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel petit être jaune et électrique est le meilleur ami de Sacha dans Pokémon ?",
+      "options": {
+        "A": "Carapuce",
+        "B": "Pikachu",
+        "C": "Salamèche",
+        "D": "Bulbizarre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0003",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Lucas lit une bande dessinée. Il apprend que le célèbre Spider-Man a reçu ses pouvoirs après avoir été mordu par...",
+      "options": {
+        "A": "Un serpent magique",
+        "B": "Un scorpion mutant",
+        "C": "Une araignée radioactive",
+        "D": "Une fourmi géante"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0004",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers de Star Wars, sur quelle planète désertique Luke Skywalker a-t-il grandi ?",
+      "options": {
+        "A": "Endor",
+        "B": "Naboo",
+        "C": "Hoth",
+        "D": "Tatooine"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0005",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Parmi ces personnages, lequel porte une cape rouge et possède une force surhumaine ?",
+      "options": {
+        "A": "Superman",
+        "B": "Iron Man",
+        "C": "Batman",
+        "D": "Hulk"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0006",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle l'éponge carrée et jaune qui vit dans un ananas sous la mer ?",
+      "options": {
+        "A": "Patrick",
+        "B": "Bob",
+        "C": "Carlo",
+        "D": "Sandy"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0007",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans le film d'animation Toy Story, quel jouet appartient au monde de l'espace ?",
+      "options": {
+        "A": "Rex",
+        "B": "Zig-Zag",
+        "C": "Buzz l'Éclair",
+        "D": "Woody"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0008",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom du célèbre studio d'animation japonais qui a créé 'Mon Voisin Totoro' ?",
+      "options": {
+        "A": "DreamWorks",
+        "B": "Illumination",
+        "C": "Pixar",
+        "D": "Studio Ghibli"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0009",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Léa regarde un film Disney. Elle voit une princesse qui perd sa chaussure de verre au bal. Qui est-ce ?",
+      "options": {
+        "A": "Cendrillon",
+        "B": "Raiponce",
+        "C": "Ariel",
+        "D": "Blanche-Neige"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0010",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans le jeu Minecraft, quel matériau est nécessaire pour fabriquer une pioche plus solide que la pierre ?",
+      "options": {
+        "A": "Le sable",
+        "B": "Le fer",
+        "C": "Le bois",
+        "D": "La laine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0011",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel objet magique permet à Harry Potter de devenir invisible ?",
+      "options": {
+        "A": "Une baguette de sureau",
+        "B": "Un balai volant",
+        "C": "Une cape d'invisibilité",
+        "D": "Une pierre philosophale"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0012",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers Marvel, quelle est la matière indestructible qui compose le bouclier de Captain America ?",
+      "options": {
+        "A": "L'acier trempé",
+        "B": "La kryptonite",
+        "C": "L'adamantium",
+        "D": "Le vibranium"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0013",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros se déguise en chauve-souris pour protéger la ville de Gotham ?",
+      "options": {
+        "A": "Batman",
+        "B": "Flash",
+        "C": "Aquaman",
+        "D": "Thor"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0014",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans la Reine des Neiges, comment s'appelle le bonhomme de neige qui aime les câlins ?",
+      "options": {
+        "A": "Kristoff",
+        "B": "Olaf",
+        "C": "Hans",
+        "D": "Sven"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0015",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du célèbre archéologue qui porte un chapeau et un fouet dans ses aventures ?",
+      "options": {
+        "A": "Nathan Drake",
+        "B": "Lara Croft",
+        "C": "Indiana Jones",
+        "D": "Sherlock Holmes"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0016",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel personnage de jeu vidéo a été créé pour être la mascotte de l'entreprise Sega ?",
+      "options": {
+        "A": "Link",
+        "B": "Donkey Kong",
+        "C": "Kirby",
+        "D": "Sonic"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0017",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le chien fidèle de Tintin dans ses bandes dessinées ?",
+      "options": {
+        "A": "Milou",
+        "B": "Pluto",
+        "C": "Snoopy",
+        "D": "Idéfix"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0018",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans Mickey Mouse, quel animal est le personnage de Dingo ?",
+      "options": {
+        "A": "Un canard",
+        "B": "Un chien",
+        "C": "Un chat",
+        "D": "Une souris"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0019",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom de l'école de magie où étudient Harry, Ron et Hermione ?",
+      "options": {
+        "A": "Rivendell",
+        "B": "Azlkaban",
+        "C": "Poudlard",
+        "D": "Narnia"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0020",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel réalisateur célèbre a créé la saga Star Wars ?",
+      "options": {
+        "A": "Christopher Nolan",
+        "B": "James Cameron",
+        "C": "Steven Spielberg",
+        "D": "George Lucas"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0021",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Thomas joue à un jeu. Il doit attraper des créatures dans des boules rouges et blanches. Quel est ce jeu ?",
+      "options": {
+        "A": "Pokémon",
+        "B": "Zelda",
+        "C": "Tetris",
+        "D": "Pac-Man"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0022",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans Astérix et Obélix, quelle est la particularité d'Obélix ?",
+      "options": {
+        "A": "Il sait voler",
+        "B": "Il est tombé dans la potion magique étant petit",
+        "C": "Il court très vite",
+        "D": "Il est très petit"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0023",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle est la couleur principale du costume de Flash, le super-héros le plus rapide ?",
+      "options": {
+        "A": "Vert",
+        "B": "Bleu",
+        "C": "Rouge",
+        "D": "Jaune"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0024",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle l'intelligence artificielle qui aide Tony Stark dans son armure d'Iron Man ?",
+      "options": {
+        "A": "HAL",
+        "B": "SIRI",
+        "C": "ALEXA",
+        "D": "JARVIS"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0025",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du chat bleu qui essaie toujours d'attraper la souris Jerry ?",
+      "options": {
+        "A": "Tom",
+        "B": "Garfield",
+        "C": "Grosminet",
+        "D": "Oggy"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0026",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans le film Shrek, de quelle couleur est la peau de l'ogre ?",
+      "options": {
+        "A": "Bleue",
+        "B": "Verte",
+        "C": "Marron",
+        "D": "Violette"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0027",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Parmi ces personnages de Avengers, lequel utilise un marteau magique pour se battre ?",
+      "options": {
+        "A": "Black Widow",
+        "B": "Hulk",
+        "C": "Thor",
+        "D": "Hawkeye"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0028",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la série Stranger Things, quel est le nom de la dimension sombre et parallèle ?",
+      "options": {
+        "A": "Le Royaume de l'Ombre",
+        "B": "La Zone Fantôme",
+        "C": "La Dimension X",
+        "D": "Le Monde à l'Envers"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0029",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le petit robot blanc et bleu dans Star Wars qui ressemble à une poubelle ?",
+      "options": {
+        "A": "R2-D2",
+        "B": "BB-8",
+        "C": "Wall-E",
+        "D": "C-3PO"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0030",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans quel sport brille Flash McQueen dans le film Cars ?",
+      "options": {
+        "A": "Le basket",
+        "B": "La course automobile",
+        "C": "Le football",
+        "D": "Le tennis"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0031",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle est l'arme emblématique des chevaliers Jedi dans Star Wars ?",
+      "options": {
+        "A": "Un arc électrique",
+        "B": "Une épée en acier",
+        "C": "Un sabre laser",
+        "D": "Un pistolet laser"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0032",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle le créateur du pays imaginaire de Neverland dans l'histoire de Peter Pan ?",
+      "options": {
+        "A": "Lewis Carroll",
+        "B": "Charles Perrault",
+        "C": "Roald Dahl",
+        "D": "J.M. Barrie"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0033",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Qui est le meilleur ami de Mickey Mouse et porte toujours des gants blancs ?",
+      "options": {
+        "A": "Donald Duck",
+        "B": "Bugs Bunny",
+        "C": "Félix le Chat",
+        "D": "Daffy Duck"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0034",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans les Minions, de quelle couleur sont ces petits personnages ?",
+      "options": {
+        "A": "Oranges",
+        "B": "Jaunes",
+        "C": "Bleus",
+        "D": "Verts"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0035",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le lion qui devient roi dans le célèbre film de Disney ?",
+      "options": {
+        "A": "Pumba",
+        "B": "Mufasa",
+        "C": "Simba",
+        "D": "Scar"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0036",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le jeu vidéo The Legend of Zelda, quel est le nom de la force sacrée composée de trois triangles ?",
+      "options": {
+        "A": "L'Excalibur",
+        "B": "L'Ocarina",
+        "C": "Le Grimoire",
+        "D": "La Triforce"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0037",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros peut grimper aux murs et lancer des toiles ?",
+      "options": {
+        "A": "Spider-Man",
+        "B": "Ant-Man",
+        "C": "Iron Man",
+        "D": "Black Panther"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0038",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la boisson préférée du pirate Jack Sparrow dans Pirates des Caraïbes ?",
+      "options": {
+        "A": "Le lait",
+        "B": "Le rhum",
+        "C": "Le jus d'orange",
+        "D": "L'eau"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0039",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel animal est le Maître Shifu dans le film Kung Fu Panda ?",
+      "options": {
+        "A": "Un singe",
+        "B": "Un raton laveur",
+        "C": "Un panda roux",
+        "D": "Un tigre"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0040",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quelle actrice incarne Hermione Granger dans la saga cinématographique Harry Potter ?",
+      "options": {
+        "A": "Millie Bobby Brown",
+        "B": "Zendaya",
+        "C": "Jennifer Lawrence",
+        "D": "Emma Watson"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0041",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans quel film rencontre-t-on un bonhomme de neige nommé Olaf ?",
+      "options": {
+        "A": "La Reine des Neiges",
+        "B": "L'Âge de Glace",
+        "C": "Les Cinq Légendes",
+        "D": "Le Pôle Express"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0042",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la couleur du costume de Mario ?",
+      "options": {
+        "A": "Bleu",
+        "B": "Rouge",
+        "C": "Vert",
+        "D": "Jaune"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0043",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle la ville sous-marine où vit Bob l'Éponge ?",
+      "options": {
+        "A": "Atlantis",
+        "B": "Océan City",
+        "C": "Bikini Bottom",
+        "D": "Laguna"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0044",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel super-vilain violet souhaite collecter les six Pierres d'Infinité dans Avengers ?",
+      "options": {
+        "A": "Ultron",
+        "B": "Kang",
+        "C": "Loki",
+        "D": "Thanos"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0045",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Qui est la petite souris qui porte une robe rouge à pois blancs chez Disney ?",
+      "options": {
+        "A": "Minnie",
+        "B": "Lilo",
+        "C": "Clarabelle",
+        "D": "Daisy"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0046",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans Toy Story, quel animal est Zig-Zag ?",
+      "options": {
+        "A": "Un chat",
+        "B": "Un chien",
+        "C": "Un cochon",
+        "D": "Un dinosaure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0047",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du vaisseau spatial de Han Solo dans Star Wars ?",
+      "options": {
+        "A": "L'Étoile de la Mort",
+        "B": "Le Razor Crest",
+        "C": "Le Faucon Millénium",
+        "D": "L'Enterprise"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0048",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle le compagnon de Mowgli qui est un ours dans Le Livre de la Jungle ?",
+      "options": {
+        "A": "Bagheera",
+        "B": "Kaa",
+        "C": "Shere Khan",
+        "D": "Baloo"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0049",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros devient tout vert et géant quand il est en colère ?",
+      "options": {
+        "A": "Hulk",
+        "B": "Shrek",
+        "C": "Yoda",
+        "D": "Groot"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0050",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans Pokémon, quel Pokémon évolue en Dracaufeu ?",
+      "options": {
+        "A": "Salamèche",
+        "B": "Reptincel",
+        "C": "Caninos",
+        "D": "Ponyta"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0051",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le vrai nom de la panthère noire dans le film Marvel 'Black Panther' ?",
+      "options": {
+        "A": "Shuri",
+        "B": "Okoye",
+        "C": "T'Challa",
+        "D": "Killmonger"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0052",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le jeu vidéo Fortnite, comment s'appelle la zone qui rétrécit et inflige des dégâts ?",
+      "options": {
+        "A": "L'Ouragan",
+        "B": "Le Blizzard",
+        "C": "Le Cyclone",
+        "D": "La Tempête"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0053",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le robot jaune qui se transforme en voiture dans Transformers ?",
+      "options": {
+        "A": "Bumblebee",
+        "B": "Optimus Prime",
+        "C": "Megatron",
+        "D": "Starscream"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0054",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans quel film suit-on les aventures d'un poisson clown nommé Nemo ?",
+      "options": {
+        "A": "Gang de Requins",
+        "B": "Le Monde de Nemo",
+        "C": "La Petite Sirène",
+        "D": "Luca"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0055",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel objet Peter Pan utilise-t-il pour voler ?",
+      "options": {
+        "A": "Des ailes",
+        "B": "Un tapis volant",
+        "C": "De la poussière de fée",
+        "D": "Un réacteur"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0056",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la mythologie de Batman, quel est le vrai nom du Joker avant sa transformation ?",
+      "options": {
+        "A": "Harvey Dent",
+        "B": "Arthur Fleck",
+        "C": "Bruce Wayne",
+        "D": "Jack Napier"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0057",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du chat roux qui adore les lasagnes ?",
+      "options": {
+        "A": "Garfield",
+        "B": "Azraël",
+        "C": "Tom",
+        "D": "Félix"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0058",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans Madagascar, quel animal est Alex ?",
+      "options": {
+        "A": "Une girafe",
+        "B": "Un lion",
+        "C": "Un hippopotame",
+        "D": "Un zèbre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0059",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Qui a écrit les livres de la saga Harry Potter ?",
+      "options": {
+        "A": "Enid Blyton",
+        "B": "Roald Dahl",
+        "C": "J.K. Rowling",
+        "D": "Stephen King"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0060",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la ville où se déroule l'action de la série 'Les Simpson' ?",
+      "options": {
+        "A": "South Park",
+        "B": "Quahog",
+        "C": "Riverdale",
+        "D": "Springfield"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0061",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le cri célèbre de Tarzan dans la jungle ?",
+      "options": {
+        "A": "Un hurlement",
+        "B": "Un sifflement",
+        "C": "Un chant",
+        "D": "Un cri de guerre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0062",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle l'oiseau bleu dans le film Rio ?",
+      "options": {
+        "A": "Iago",
+        "B": "Blu",
+        "C": "Zazu",
+        "D": "Donald"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0063",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans le jeu vidéo Sonic, quel objet le hérisson bleu doit-il collecter ?",
+      "options": {
+        "A": "Des pièces d'or",
+        "B": "Des rubis",
+        "C": "Des anneaux",
+        "D": "Des étoiles"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0064",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom du célèbre détective qui vit au 221B Baker Street ?",
+      "options": {
+        "A": "Hercule Poirot",
+        "B": "Arsène Lupin",
+        "C": "Jules Maigret",
+        "D": "Sherlock Holmes"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0065",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la couleur de la voiture de police dans Cars ?",
+      "options": {
+        "A": "Noire et blanche",
+        "B": "Rouge",
+        "C": "Bleue",
+        "D": "Verte"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0066",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans quel film un petit extraterrestre veut-il 'téléphoner maison' ?",
+      "options": {
+        "A": "Wall-E",
+        "B": "E.T.",
+        "C": "Men in Black",
+        "D": "Avatar"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0067",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du loup qui essaie toujours de manger les trois petits cochons ?",
+      "options": {
+        "A": "Lupin",
+        "B": "Akela",
+        "C": "Le Grand Méchant Loup",
+        "D": "Fenrir"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0068",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers de Marvel, comment s'appelle le pays caché en Afrique dirigé par Black Panther ?",
+      "options": {
+        "A": "Zamunda",
+        "B": "Genosha",
+        "C": "Sokovie",
+        "D": "Wakanda"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0069",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle l'ami d'Astérix qui livre des menhirs ?",
+      "options": {
+        "A": "Obélix",
+        "B": "Assurancetourix",
+        "C": "Abraracourcix",
+        "D": "Panoramix"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0070",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans quelle ville habite la famille Simpson ?",
+      "options": {
+        "A": "Ogdenville",
+        "B": "Springfield",
+        "C": "Capital City",
+        "D": "Shelbyville"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0071",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel personnage de jeu vidéo possède un frère nommé Luigi ?",
+      "options": {
+        "A": "Yoshi",
+        "B": "Wario",
+        "C": "Mario",
+        "D": "Link"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0072",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom du dragon compagnon de Harold dans le film 'Dragons' ?",
+      "options": {
+        "A": "Spyro",
+        "B": "Smaug",
+        "C": "Mushu",
+        "D": "Krokmou"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0073",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Qui est la fée qui accompagne Peter Pan dans ses aventures ?",
+      "options": {
+        "A": "Clochette",
+        "B": "Flora",
+        "C": "Pimprenelle",
+        "D": "Mala"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0074",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans quel film des jouets prennent-ils vie quand les humains ne sont pas là ?",
+      "options": {
+        "A": "Pinocchio",
+        "B": "Toy Story",
+        "C": "Small Soldiers",
+        "D": "Casse-Noisette"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0075",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "De quelle couleur est le sabre laser de Maître Yoda ?",
+      "options": {
+        "A": "Rouge",
+        "B": "Bleu",
+        "C": "Vert",
+        "D": "Violet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0076",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle l'école pour jeunes surdoués dirigée par le Professeur Charles Xavier ?",
+      "options": {
+        "A": "L'École de l'Air",
+        "B": "Le Lycée des Héros",
+        "C": "L'Académie Marvel",
+        "D": "L'Institut Xavier"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0077",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du bonhomme de neige dans La Reine des Neiges ?",
+      "options": {
+        "A": "Olaf",
+        "B": "Kristoff",
+        "C": "Sven",
+        "D": "Hans"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0078",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel animal est Bambi dans le film de Disney ?",
+      "options": {
+        "A": "Un ours",
+        "B": "Un faon",
+        "C": "Un lapin",
+        "D": "Un cerf"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0079",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le pouvoir principal de la super-héroïne Wonder Woman ?",
+      "options": {
+        "A": "Le contrôle de l'eau",
+        "B": "La téléportation",
+        "C": "Une force incroyable",
+        "D": "L'invisibilité"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0080",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le jeu vidéo Pac-Man, comment s'appelle le fantôme de couleur rouge ?",
+      "options": {
+        "A": "Pinky",
+        "B": "Inky",
+        "C": "Clyde",
+        "D": "Blinky"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0081",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle la petite fille rousse qui vit dans une maison avec son singe et son cheval ?",
+      "options": {
+        "A": "Fifi Brindacier",
+        "B": "Dora",
+        "C": "Heidi",
+        "D": "Sophie"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0082",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans Shrek, comment s'appelle l'âne qui parle beaucoup ?",
+      "options": {
+        "A": "Eeyore",
+        "B": "L'Âne",
+        "C": "Baudet",
+        "D": "Ânon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0083",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle est la particularité des oreilles de Dumbo, l'éléphant de Disney ?",
+      "options": {
+        "A": "Il n'en a pas",
+        "B": "Elles sont toutes petites",
+        "C": "Elles lui permettent de voler",
+        "D": "Elles sont de couleurs différentes"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0084",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Qui a créé le personnage de Mickey Mouse en 1928 ?",
+      "options": {
+        "A": "Hanna-Barbera",
+        "B": "Tex Avery",
+        "C": "Charles Perrault",
+        "D": "Walt Disney"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0085",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le super-héros qui a un marteau magique nommé Mjolnir ?",
+      "options": {
+        "A": "Thor",
+        "B": "Loki",
+        "C": "Hulk",
+        "D": "Iron Man"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0086",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans le film Madagascar, quel animal est Gloria ?",
+      "options": {
+        "A": "Un zèbre",
+        "B": "Un hippopotame",
+        "C": "Un lion",
+        "D": "Une girafe"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0087",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle l'oiseau qui accompagne Tintin sur l'île noire ?",
+      "options": {
+        "A": "Zazu",
+        "B": "Iago",
+        "C": "Il n'y a pas d'oiseau",
+        "D": "Milou"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0088",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers des Schtroumpfs, quel est le nom du sorcier maléfique qui veut les capturer ?",
+      "options": {
+        "A": "Voldemort",
+        "B": "Saroumane",
+        "C": "Azraël",
+        "D": "Gargamel"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0089",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom de la petite fille qui voyage au Pays des Merveilles ?",
+      "options": {
+        "A": "Alice",
+        "B": "Wendy",
+        "C": "Sophie",
+        "D": "Dorothy"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0090",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans Les Minions, quel fruit ces personnages adorent-ils particulièrement ?",
+      "options": {
+        "A": "La pomme",
+        "B": "La banane",
+        "C": "La fraise",
+        "D": "L'orange"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0091",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Qui est le méchant pirate avec un crochet à la place de la main dans Peter Pan ?",
+      "options": {
+        "A": "Jack Sparrow",
+        "B": "Long John Silver",
+        "C": "Capitaine Crochet",
+        "D": "Barbe Noire"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0092",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle le petit garçon qui possède le chien Snoopy dans la bande dessinée ?",
+      "options": {
+        "A": "Linus",
+        "B": "Schroeder",
+        "C": "Franklin",
+        "D": "Charlie Brown"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0093",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du chat noir qui accompagne la sorcière Kiki dans le film d'animation ?",
+      "options": {
+        "A": "Jiji",
+        "B": "Meowth",
+        "C": "Figaro",
+        "D": "Salem"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0094",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans Blanche-Neige, combien y a-t-il de nains ?",
+      "options": {
+        "A": "Cinq",
+        "B": "Sept",
+        "C": "Douze",
+        "D": "Dix"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0095",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du célèbre plombier vert, le frère de Mario ?",
+      "options": {
+        "A": "Waluigi",
+        "B": "Yoshi",
+        "C": "Luigi",
+        "D": "Wario"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0096",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le film 'Le Roi Lion', comment s'appelle le mandrill qui présente Simba aux animaux ?",
+      "options": {
+        "A": "Timon",
+        "B": "Pumbaa",
+        "C": "Zazu",
+        "D": "Rafiki"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0097",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom de la princesse qui vit sous la mer dans 'La Petite Sirène' ?",
+      "options": {
+        "A": "Ariel",
+        "B": "Jasmine",
+        "C": "Belle",
+        "D": "Aurore"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0098",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans Toy Story, comment s'appelle le cow-boy ?",
+      "options": {
+        "A": "Jessie",
+        "B": "Woody",
+        "C": "Buzz",
+        "D": "Pile-Poil"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0099",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel animal est le personnage de Kung Fu Panda ?",
+      "options": {
+        "A": "Un grizzli",
+        "B": "Un ours polaire",
+        "C": "Un panda géant",
+        "D": "Un koala"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0100",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers de Star Wars, quel est le vrai nom de Dark Vador ?",
+      "options": {
+        "A": "Han Solo",
+        "B": "Mace Windu",
+        "C": "Obi-Wan Kenobi",
+        "D": "Anakin Skywalker"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0101",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans le dessin animé 'Aladdin', quel objet magique permet au héros de voler dans les airs ?",
+      "options": {
+        "A": "Un tapis volant",
+        "B": "Une cape de lévitation",
+        "C": "Des chaussures ailées",
+        "D": "Un balai de sorcier"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0102",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du célèbre bonhomme de neige qui accompagne Anna et Elsa ?",
+      "options": {
+        "A": "Kristoff",
+        "B": "Olaf",
+        "C": "Hans",
+        "D": "Sven"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0103",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Lucas regarde un film de super-héros. Il voit un personnage capable de rétrécir à la taille d'un insecte. Qui est-ce ?",
+      "options": {
+        "A": "Black Panther",
+        "B": "Iron Man",
+        "C": "Ant-Man",
+        "D": "Spider-Man"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0104",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la saga 'Harry Potter', comment s'appelle l'elfe de maison qui appartient initialement à la famille Malefoy ?",
+      "options": {
+        "A": "Winky",
+        "B": "Griphook",
+        "C": "Kreattur",
+        "D": "Dobby"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0105",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle la célèbre souris créée par Walt Disney ?",
+      "options": {
+        "A": "Mickey Mouse",
+        "B": "Donald Duck",
+        "C": "Jerry",
+        "D": "Bugs Bunny"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0106",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Le Roi Lion', quel animal est Pumbaa ?",
+      "options": {
+        "A": "Un suricate",
+        "B": "Un phacochère",
+        "C": "Un singe",
+        "D": "Un lion"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0107",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans quel jeu vidéo un petit personnage jaune doit-il manger des pastilles dans un labyrinthe en évitant des fantômes ?",
+      "options": {
+        "A": "Mario",
+        "B": "Sonic",
+        "C": "Pac-Man",
+        "D": "Tetris"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0108",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom de l'IA qui gère le vaisseau de Tony Stark et qui finit par devenir Vision ?",
+      "options": {
+        "A": "KAREN",
+        "B": "EDITH",
+        "C": "FRIDAY",
+        "D": "JARVIS"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0109",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Sarah joue à un jeu de construction avec des briques en plastique de toutes les couleurs. Quel est ce jeu ?",
+      "options": {
+        "A": "Lego",
+        "B": "Kapla",
+        "C": "Playmobil",
+        "D": "Meccano"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0110",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle l'ogre vert qui vit dans un marais ?",
+      "options": {
+        "A": "Grinch",
+        "B": "Shrek",
+        "C": "Fiona",
+        "D": "Hulk"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0111",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans 'Toy Story', quel est le nom du propriétaire des jouets ?",
+      "options": {
+        "A": "Sid",
+        "B": "Buzz",
+        "C": "Andy",
+        "D": "Woody"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0112",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel réalisateur est derrière les films 'E.T.' et 'Jurassic Park' ?",
+      "options": {
+        "A": "George Lucas",
+        "B": "Tim Burton",
+        "C": "James Cameron",
+        "D": "Steven Spielberg"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0113",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros porte un bouclier avec une étoile bleue, blanche et rouge ?",
+      "options": {
+        "A": "Captain America",
+        "B": "Iron Man",
+        "C": "Batman",
+        "D": "Thor"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0114",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'La Reine des Neiges', quel est le pouvoir d'Elsa ?",
+      "options": {
+        "A": "Changer de forme",
+        "B": "Contrôler la glace et la neige",
+        "C": "Contrôler le feu",
+        "D": "Parler aux animaux"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0115",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le chien fidèle de Tintin ?",
+      "options": {
+        "A": "Rantanplan",
+        "B": "Idéfix",
+        "C": "Milou",
+        "D": "Snoopy"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0116",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans 'Star Wars', quel est le nom du vaisseau spatial piloté par Han Solo ?",
+      "options": {
+        "A": "Le Razor Crest",
+        "B": "L'Enterprise",
+        "C": "L'Étoile Noire",
+        "D": "Le Faucon Millenium"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0117",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel personnage porte un costume d'araignée ?",
+      "options": {
+        "A": "Spider-Man",
+        "B": "Batman",
+        "C": "Superman",
+        "D": "Black Widow"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0118",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Astérix', quel est l'ingrédient magique qui donne une force surhumaine aux Gaulois ?",
+      "options": {
+        "A": "Le miel sauvage",
+        "B": "La potion magique",
+        "C": "Le lait de chèvre",
+        "D": "Le jus d'orange"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0119",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel pokémon est le numéro 25 dans le Pokédex ?",
+      "options": {
+        "A": "Carapuce",
+        "B": "Bulbizarre",
+        "C": "Pikachu",
+        "D": "Salamèche"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0120",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans quel film d'animation Pixar rencontre-t-on les personnages de Joie, Tristesse et Colère ?",
+      "options": {
+        "A": "Cars",
+        "B": "Coco",
+        "C": "Soul",
+        "D": "Vice-Versa"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0121",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Manon regarde un dessin animé avec des petits êtres bleus qui vivent dans des champignons. Qui sont-ils ?",
+      "options": {
+        "A": "Les Schtroumpfs",
+        "B": "Les Ewoks",
+        "C": "Les Trolls",
+        "D": "Les Minions"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0122",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le chat qui essaie toujours d'attraper Jerry la souris ?",
+      "options": {
+        "A": "Grosminet",
+        "B": "Tom",
+        "C": "Félix",
+        "D": "Garfield"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0123",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans 'Le Monde de Nemo', de quelle espèce de poisson est Nemo ?",
+      "options": {
+        "A": "Raie",
+        "B": "Poisson-chirurgien",
+        "C": "Poisson-clown",
+        "D": "Requin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0124",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la planète d'origine de Superman ?",
+      "options": {
+        "A": "Asgard",
+        "B": "Tatooine",
+        "C": "Mars",
+        "D": "Krypton"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0125",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros devient tout vert et très musclé quand il est en colère ?",
+      "options": {
+        "A": "Hulk",
+        "B": "Thor",
+        "C": "Iron Man",
+        "D": "Flash"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0126",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Cendrillon', quel objet la princesse perd-elle sur les marches du château ?",
+      "options": {
+        "A": "Un gant",
+        "B": "Une pantoufle de verre",
+        "C": "Un diadème",
+        "D": "Une bague"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0127",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle l'école de sorcellerie fréquentée par Harry Potter ?",
+      "options": {
+        "A": "Durmstrang",
+        "B": "Azlkaban",
+        "C": "Poudlard",
+        "D": "Beauxbâtons"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0128",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans 'Minecraft', quel ennemi explose quand il s'approche trop près du joueur ?",
+      "options": {
+        "A": "Squelette",
+        "B": "Enderman",
+        "C": "Zombie",
+        "D": "Creeper"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0129",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel personnage porte un chapeau de cow-boy dans 'Toy Story' ?",
+      "options": {
+        "A": "Woody",
+        "B": "Buzz l'Éclair",
+        "C": "Bayonne",
+        "D": "Rex"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0130",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle princesse Disney a de très longs cheveux magiques ?",
+      "options": {
+        "A": "Mulan",
+        "B": "Raiponce",
+        "C": "Belle",
+        "D": "Blanche-Neige"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0131",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans 'Cars', de quelle couleur est le héros Flash McQueen ?",
+      "options": {
+        "A": "Jaune",
+        "B": "Vert",
+        "C": "Rouge",
+        "D": "Bleu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0132",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom de l'arme de Thor ?",
+      "options": {
+        "A": "Gungnir",
+        "B": "Excalibur",
+        "C": "Stormbreaker",
+        "D": "Mjolnir"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0133",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Léo lit une BD où un petit chien blanc s'appelle Idéfix. De quelle BD s'agit-il ?",
+      "options": {
+        "A": "Astérix",
+        "B": "Tintin",
+        "C": "Spirou",
+        "D": "Lucky Luke"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0134",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le petit robot jaune qui nettoie la Terre dans un film Pixar ?",
+      "options": {
+        "A": "R2-D2",
+        "B": "Wall-E",
+        "C": "Bumblebee",
+        "D": "Baymax"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0135",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans 'Les Minions', comment s'appelle le méchant que les Minions servent au début ?",
+      "options": {
+        "A": "Balthazar Bratt",
+        "B": "Vecteur",
+        "C": "Gru",
+        "D": "Scarlet Overkill"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0136",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom de l'île où se trouve le parc d'attractions dans 'Jurassic Park' ?",
+      "options": {
+        "A": "Isla Sorna",
+        "B": "Neverland",
+        "C": "Skull Island",
+        "D": "Isla Nublar"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0137",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros se déplace dans une voiture appelée la Batmobile ?",
+      "options": {
+        "A": "Batman",
+        "B": "Flash",
+        "C": "Superman",
+        "D": "Spider-Man"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0138",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Shrek', quel animal est l'ami bavard de l'ogre ?",
+      "options": {
+        "A": "Un chat",
+        "B": "Un âne",
+        "C": "Un cheval",
+        "D": "Un chien"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0139",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le petit extraterrestre qui veut 'téléphoner maison' ?",
+      "options": {
+        "A": "Stitch",
+        "B": "Yoda",
+        "C": "E.T.",
+        "D": "Wall-E"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0140",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans 'L'Âge de Glace', comment s'appelle l'écureuil qui court toujours après son gland ?",
+      "options": {
+        "A": "Sid",
+        "B": "Diego",
+        "C": "Manny",
+        "D": "Scrat"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0141",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Julie regarde un film Disney avec une princesse qui vit sous l'océan. Qui est-ce ?",
+      "options": {
+        "A": "Ariel",
+        "B": "Belle",
+        "C": "Jasmine",
+        "D": "Tiana"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0142",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du célèbre plombier moustachu vêtu de rouge ?",
+      "options": {
+        "A": "Wario",
+        "B": "Mario",
+        "C": "Luigi",
+        "D": "Bowser"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0143",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans 'Ratatouille', quel animal est Rémy, le petit chef cuisinier ?",
+      "options": {
+        "A": "Un hamster",
+        "B": "Un écureuil",
+        "C": "Un rat",
+        "D": "Une souris"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0144",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel super-héros possède une armure technologique créée par lui-même ?",
+      "options": {
+        "A": "Batman",
+        "B": "Black Panther",
+        "C": "Captain America",
+        "D": "Iron Man"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0145",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le petit bonhomme de pain d'épices dans 'Shrek' ?",
+      "options": {
+        "A": "Ptit Biscuit",
+        "B": "Ginger",
+        "C": "Cookie",
+        "D": "Muffin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0146",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Madagascar', quel animal est Marty ?",
+      "options": {
+        "A": "Une girafe",
+        "B": "Un zèbre",
+        "C": "Un lion",
+        "D": "Un hippopotame"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0147",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom de l'archer agile dans l'équipe des Avengers ?",
+      "options": {
+        "A": "Vision",
+        "B": "Falcon",
+        "C": "Hawkeye",
+        "D": "Winter Soldier"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0148",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans 'Harry Potter', quel est le nom du fantôme qui hante les toilettes des filles ?",
+      "options": {
+        "A": "Le Baron Sanglant",
+        "B": "Nick Quasi-Sans-Tête",
+        "C": "La Dame Grise",
+        "D": "Mimi Geignarde"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0149",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le cri de ralliement de Buzz l'Éclair ?",
+      "options": {
+        "A": "Vers l'infini et au-delà !",
+        "B": "Yee-haw !",
+        "C": "En avant toute !",
+        "D": "Hakuna Matata !"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0150",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Bambi', quel genre d'animal est Panpan ?",
+      "options": {
+        "A": "Un putois",
+        "B": "Un lapin",
+        "C": "Un cerf",
+        "D": "Un hibou"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0151",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la couleur de la robe de Belle quand elle danse avec la Bête ?",
+      "options": {
+        "A": "Rouge",
+        "B": "Blanche",
+        "C": "Jaune",
+        "D": "Bleue"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0152",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle l'ami de Mickey Mouse qui est un canard ?",
+      "options": {
+        "A": "Daisy",
+        "B": "Pluto",
+        "C": "Dingo",
+        "D": "Donald"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0153",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans 'Zootopie', quel animal est l'officier Judy Hopps ?",
+      "options": {
+        "A": "Un lapin",
+        "B": "Un renard",
+        "C": "Un paresseux",
+        "D": "Un lion"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0154",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans quel film d'animation suit-on les aventures de Miguel au Pays des Morts ?",
+      "options": {
+        "A": "Luca",
+        "B": "Coco",
+        "C": "Encanto",
+        "D": "Le Livre de la Vie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0155",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Hugo joue à un jeu vidéo où il doit construire un monde avec des blocs. Quel est ce jeu ?",
+      "options": {
+        "A": "Among Us",
+        "B": "Roblox",
+        "C": "Minecraft",
+        "D": "Fortnite"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0156",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Moi, Moche et Méchant', de quelle couleur sont les Minions ?",
+      "options": {
+        "A": "Bleus",
+        "B": "Oranges",
+        "C": "Violets",
+        "D": "Jaunes"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0157",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le petit dinosaure vert qui aide Mario ?",
+      "options": {
+        "A": "Yoshi",
+        "B": "Bowser",
+        "C": "Koopa",
+        "D": "Toad"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0158",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom du célèbre vaisseau pirate de Jack Sparrow ?",
+      "options": {
+        "A": "Le Hollandais Volant",
+        "B": "Le Black Pearl",
+        "C": "La Revanche de la Reine Anne",
+        "D": "L'Intercepteur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0159",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros a été mordu par une araignée radioactive ?",
+      "options": {
+        "A": "Thor",
+        "B": "Ant-Man",
+        "C": "Spider-Man",
+        "D": "Iron Man"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0160",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Blanche-Neige', quel objet la Reine utilise-t-elle pour savoir qui est la plus belle ?",
+      "options": {
+        "A": "Une boule de cristal",
+        "B": "Un tableau vivant",
+        "C": "Un grimoire",
+        "D": "Un miroir magique"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0161",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle l'ami d'Harry Potter qui a des cheveux roux ?",
+      "options": {
+        "A": "Ron",
+        "B": "Neville",
+        "C": "Drago",
+        "D": "Cedric"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0162",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans quel film rencontre-t-on le personnage de Baymax, un robot gonflable ?",
+      "options": {
+        "A": "Les Mondes de Ralph",
+        "B": "Les Nouveaux Héros",
+        "C": "Volt",
+        "D": "Ralph La Casse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0163",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Emma regarde une série avec une petite fille qui explore le monde avec son sac à dos. Qui est-ce ?",
+      "options": {
+        "A": "Masha",
+        "B": "Bluey",
+        "C": "Dora l'exploratrice",
+        "D": "Peppa Pig"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0164",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du cri de guerre des Tortues Ninja ?",
+      "options": {
+        "A": "Banzai !",
+        "B": "Eureka !",
+        "C": "Geronimo !",
+        "D": "Cowabunga !"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0165",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans 'Le Livre de la Jungle', quel animal est Bagheera ?",
+      "options": {
+        "A": "Une panthère noire",
+        "B": "Un serpent",
+        "C": "Un ours",
+        "D": "Un tigre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0166",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom du méchant qui veut voler la lune dans 'Moi, Moche et Méchant' ?",
+      "options": {
+        "A": "Gru",
+        "B": "Vecteur",
+        "C": "El Macho",
+        "D": "Balthazar"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0167",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du lion qui devient roi à la fin du film Disney ?",
+      "options": {
+        "A": "Scar",
+        "B": "Mufasa",
+        "C": "Simba",
+        "D": "Kovu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0168",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Alice au Pays des Merveilles', quel animal porte une montre et est toujours en retard ?",
+      "options": {
+        "A": "Le Chat du Cheshire",
+        "B": "Le Lièvre de Mars",
+        "C": "Le Loir",
+        "D": "Le Lapin Blanc"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0169",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "De quelle couleur est le sabre laser de Luke Skywalker dans le premier film ?",
+      "options": {
+        "A": "Bleu",
+        "B": "Vert",
+        "C": "Rouge",
+        "D": "Jaune"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0170",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle le pays imaginaire où vit Peter Pan ?",
+      "options": {
+        "A": "Wonderland",
+        "B": "Neverland",
+        "C": "Oz",
+        "D": "Narnia"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0171",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Thomas joue avec des petites voitures qui changent de couleur. Quelle est cette marque ?",
+      "options": {
+        "A": "Matchbox",
+        "B": "Burago",
+        "C": "Hot Wheels",
+        "D": "Majorette"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0172",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Peppa Pig', quel animal est George ?",
+      "options": {
+        "A": "Un mouton",
+        "B": "Un lapin",
+        "C": "Un chien",
+        "D": "Un cochon"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0173",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel super-héros possède un marteau magique appelé Mjolnir ?",
+      "options": {
+        "A": "Thor",
+        "B": "Hulk",
+        "C": "Iron Man",
+        "D": "Loki"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0174",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la série 'Stranger Things', quel est le nom du monde parallèle sombre ?",
+      "options": {
+        "A": "L'Abîme",
+        "B": "Le Monde à l'Envers",
+        "C": "La Zone Ombre",
+        "D": "Le Vide"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0175",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le petit dinosaure violet dans une célèbre émission pour enfants ?",
+      "options": {
+        "A": "Dino",
+        "B": "Rex",
+        "C": "Barney",
+        "D": "Petit-Pied"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0176",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'La Petite Sirène', quel animal est Sébastien ?",
+      "options": {
+        "A": "Un hippocampe",
+        "B": "Une pieuvre",
+        "C": "Un poisson",
+        "D": "Un crabe"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0177",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le chien qui aide Scooby-Doo à résoudre des mystères ?",
+      "options": {
+        "A": "Scooby-Doo",
+        "B": "Snoopy",
+        "C": "Idéfix",
+        "D": "Pluto"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0178",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom du super-vilain violet qui veut supprimer la moitié de la vie dans l'univers ?",
+      "options": {
+        "A": "Galactus",
+        "B": "Thanos",
+        "C": "Loki",
+        "D": "Ultron"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0179",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle est la couleur de la casquette de Mario ?",
+      "options": {
+        "A": "Jaune",
+        "B": "Bleue",
+        "C": "Rouge",
+        "D": "Verte"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0180",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Les Indestructibles', quel est le pouvoir de Dash ?",
+      "options": {
+        "A": "S'étirer",
+        "B": "L'invisibilité",
+        "C": "La super-force",
+        "D": "Courir très vite"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0181",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le petit ami de Barbie ?",
+      "options": {
+        "A": "Ken",
+        "B": "Kevin",
+        "C": "Steve",
+        "D": "Brad"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0182",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom du robot blanc dans 'Big Hero 6' qui soigne les gens ?",
+      "options": {
+        "A": "Eve",
+        "B": "Baymax",
+        "C": "R2-D2",
+        "D": "Wall-E"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0183",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Léa joue à un jeu où elle doit attraper des créatures avec des boules. Quel est ce jeu ?",
+      "options": {
+        "A": "Sonic",
+        "B": "Mario",
+        "C": "Pokémon",
+        "D": "Zelda"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0184",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Tarzan', par quels animaux le héros est-il élevé ?",
+      "options": {
+        "A": "Des lions",
+        "B": "Des loups",
+        "C": "Des ours",
+        "D": "Des gorilles"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0185",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du chat noir qui accompagne la sorcière dans 'Kiki la petite sorcière' ?",
+      "options": {
+        "A": "Jiji",
+        "B": "Luna",
+        "C": "Salem",
+        "D": "Felix"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0186",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans 'Vaiana', comment s'appelle le demi-dieu qui accompagne l'héroïne ?",
+      "options": {
+        "A": "Zeus",
+        "B": "Maui",
+        "C": "Poseidon",
+        "D": "Hercules"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0187",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel personnage porte un bonnet rouge et un pull à rayures et doit être retrouvé dans une foule ?",
+      "options": {
+        "A": "Waldo",
+        "B": "Wally",
+        "C": "Charlie",
+        "D": "Tom"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0188",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Hôtel Transylvanie', quel genre de créature est Dracula ?",
+      "options": {
+        "A": "Un fantôme",
+        "B": "Un loup-garou",
+        "C": "Un zombie",
+        "D": "Un vampire"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0189",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le personnage principal du jeu 'The Legend of Zelda' ?",
+      "options": {
+        "A": "Link",
+        "B": "Epona",
+        "C": "Zelda",
+        "D": "Ganondorf"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0190",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la ville protégée par Batman ?",
+      "options": {
+        "A": "Central City",
+        "B": "Gotham City",
+        "C": "Metropolis",
+        "D": "Star City"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0191",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Sofia regarde un film avec des créatures préhistoriques ramenées à la vie. De quel film s'agit-il ?",
+      "options": {
+        "A": "Dinosaure",
+        "B": "Le Petit Dinosaure",
+        "C": "Jurassic Park",
+        "D": "L'Âge de Glace"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0192",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Le Grinch', de quelle couleur est le personnage principal ?",
+      "options": {
+        "A": "Jaune",
+        "B": "Rouge",
+        "C": "Bleu",
+        "D": "Vert"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0193",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du super-héros qui peut courir à la vitesse de la lumière ?",
+      "options": {
+        "A": "Flash",
+        "B": "Sonic",
+        "C": "Superman",
+        "D": "Quicksilver"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0194",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans 'Ratatouille', comment s'appelle le restaurant où Rémy cuisine ?",
+      "options": {
+        "A": "La Bonne Bouffe",
+        "B": "Chez Gusteau",
+        "C": "Le Rat d'Or",
+        "D": "Chez Linguini"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0195",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel personnage Disney a un nez qui s'allonge quand il ment ?",
+      "options": {
+        "A": "Dumbo",
+        "B": "Peter Pan",
+        "C": "Pinocchio",
+        "D": "Bambi"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0196",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Les Minions', quel fruit est leur préféré ?",
+      "options": {
+        "A": "La pomme",
+        "B": "La fraise",
+        "C": "L'orange",
+        "D": "La banane"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0197",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle l'oiseau bleu dans le film 'Rio' ?",
+      "options": {
+        "A": "Blu",
+        "B": "Nigel",
+        "C": "Jewel",
+        "D": "Rafael"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0198",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom de l'agent secret 007 ?",
+      "options": {
+        "A": "Jason Bourne",
+        "B": "James Bond",
+        "C": "Austin Powers",
+        "D": "Ethan Hunt"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0199",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel personnage porte une cape rouge et vole pour sauver les gens ?",
+      "options": {
+        "A": "Thor",
+        "B": "Iron Man",
+        "C": "Superman",
+        "D": "Batman"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0200",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Toy Story', quel genre de jouet est Buzz l'Éclair ?",
+      "options": {
+        "A": "Un dinosaure",
+        "B": "Un soldat de plomb",
+        "C": "Un cow-boy",
+        "D": "Un ranger de l'espace"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0201",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans le film 'Le Monde de Nemo', quel petit poisson part à la recherche de son fils ?",
+      "options": {
+        "A": "Marlin",
+        "B": "Dory",
+        "C": "Bruce",
+        "D": "Crush"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0202",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle la sœur d'Elsa dans 'La Reine des Neiges' ?",
+      "options": {
+        "A": "Jasmine",
+        "B": "Anna",
+        "C": "Belle",
+        "D": "Ariel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0203",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du célèbre détective qui porte une casquette de chasseur et utilise une loupe ?",
+      "options": {
+        "A": "Inspecteur Gadget",
+        "B": "Hercule Poirot",
+        "C": "Sherlock Holmes",
+        "D": "Arsène Lupin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0204",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers Marvel, quelle pierre d'infinité est protégée par le Docteur Strange ?",
+      "options": {
+        "A": "La Pierre de la Réalité",
+        "B": "La Pierre de l'Espace",
+        "C": "La Pierre de l'Esprit",
+        "D": "La Pierre du Temps"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0205",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Léo joue à un jeu de cartes où il faut crier le nom du jeu quand il ne reste qu'une carte. Quel est ce jeu ?",
+      "options": {
+        "A": "Le Uno",
+        "B": "Le Tarot",
+        "C": "Le Poker",
+        "D": "La Belote"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0206",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros porte un costume noir et possède des gadgets en forme de chauve-souris ?",
+      "options": {
+        "A": "Wonder Woman",
+        "B": "Batman",
+        "C": "Spider-Man",
+        "D": "Superman"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0207",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Lucas regarde un film avec des sorciers. Il apprend que le sport pratiqué sur des balais volants s'appelle...",
+      "options": {
+        "A": "Le Griffon",
+        "B": "Le Nimbus",
+        "C": "Le Quidditch",
+        "D": "Le Vol-au-vent"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0208",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le jeu vidéo 'The Legend of Zelda', comment s'appelle le royaume que Link doit souvent sauver ?",
+      "options": {
+        "A": "Termina",
+        "B": "Koholint",
+        "C": "Lorule",
+        "D": "Hyrule"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0209",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Parmi ces personnages de Disney, laquelle a perdu sa chaussure de verre lors d'un bal ?",
+      "options": {
+        "A": "Cendrillon",
+        "B": "Ariel",
+        "C": "Raiponce",
+        "D": "Blanche-Neige"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0210",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Toy Story', quel est le métier du personnage de Woody ?",
+      "options": {
+        "A": "Policier",
+        "B": "Cow-boy",
+        "C": "Astronaute",
+        "D": "Pompier"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0211",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel animal accompagne toujours le pirate Jack Sparrow dans 'Pirates des Caraïbes' ?",
+      "options": {
+        "A": "Un chat",
+        "B": "Un chien",
+        "C": "Un singe",
+        "D": "Un perroquet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0212",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le vrai nom de Black Panther, le roi du Wakanda ?",
+      "options": {
+        "A": "M'Baku",
+        "B": "T'Chaka",
+        "C": "Killmonger",
+        "D": "T'Challa"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0213",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle l'ami de Bob l'éponge qui est une étoile de mer rose ?",
+      "options": {
+        "A": "Patrick",
+        "B": "Carlo",
+        "C": "Gary",
+        "D": "Sandy"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0214",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Les Schtroumpfs', de quelle couleur est la peau de ces petits personnages ?",
+      "options": {
+        "A": "Verte",
+        "B": "Bleue",
+        "C": "Rouge",
+        "D": "Jaune"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0215",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel super-héros possède une armure rouge et or remplie de gadgets technologiques ?",
+      "options": {
+        "A": "Captain America",
+        "B": "Thor",
+        "C": "Iron Man",
+        "D": "Hulk"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0216",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le film 'L'Âge de Glace', quel animal est Sid ?",
+      "options": {
+        "A": "Un tigre à dents de sabre",
+        "B": "Un écureuil",
+        "C": "Un mammouth",
+        "D": "Un paresseux"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0217",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Julie regarde un dessin animé avec un chien qui résout des mystères et qui a toujours peur. Qui est-ce ?",
+      "options": {
+        "A": "Scooby-Doo",
+        "B": "Dingo",
+        "C": "Snoopy",
+        "D": "Pluto"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0218",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Mickey Mouse', quel animal est le personnage de Donald ?",
+      "options": {
+        "A": "Un chien",
+        "B": "Un canard",
+        "C": "Une souris",
+        "D": "Un chat"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0219",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel personnage porte un chapeau vert et utilise des flèches pour aider les pauvres ?",
+      "options": {
+        "A": "Guillaume Tell",
+        "B": "Zorro",
+        "C": "Robin des Bois",
+        "D": "Peter Pan"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0220",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle l'oiseau de compagnie de Harry Potter ?",
+      "options": {
+        "A": "Coquecigrue",
+        "B": "Fumseck",
+        "C": "Errol",
+        "D": "Hedwige"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0221",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du célèbre chat orange qui déteste le lundi et adore les lasagnes ?",
+      "options": {
+        "A": "Garfield",
+        "B": "Tom",
+        "C": "Sylvestre",
+        "D": "Félix"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0222",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans le jeu vidéo 'Super Mario', quel objet permet à Mario de devenir géant ?",
+      "options": {
+        "A": "Une pièce",
+        "B": "Un champignon",
+        "C": "Une fleur de feu",
+        "D": "Une étoile"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0223",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Parmi ces personnages, lequel est le capitaine du vaisseau 'Entreprise' dans Star Trek ?",
+      "options": {
+        "A": "Luke Skywalker",
+        "B": "Spock",
+        "C": "James T. Kirk",
+        "D": "Han Solo"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0224",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans 'Zootopie', quel est le métier de l'héroïne Judy Hopps ?",
+      "options": {
+        "A": "Vétérinaire",
+        "B": "Maire de la ville",
+        "C": "Journaliste",
+        "D": "Policière"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0225",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le robot blanc et bleu qui accompagne les héros dans 'Star Wars' ?",
+      "options": {
+        "A": "R2-D2",
+        "B": "C-3PO",
+        "C": "BB-8",
+        "D": "Wall-E"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0226",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Cendrillon', en quoi la fée marraine transforme-t-elle une citrouille ?",
+      "options": {
+        "A": "En robe de bal",
+        "B": "En carrosse",
+        "C": "En soulier de verre",
+        "D": "En château"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0227",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Léa joue à un jeu de société où elle doit acheter des rues et construire des hôtels. Quel est ce jeu ?",
+      "options": {
+        "A": "Le Scrabble",
+        "B": "La Bonne Paye",
+        "C": "Le Monopoly",
+        "D": "Le Cluedo"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0228",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la planète d'origine du super-héros Thor ?",
+      "options": {
+        "A": "Sakaar",
+        "B": "Jotunheim",
+        "C": "Midgard",
+        "D": "Asgard"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0229",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du petit Pokémon jaune qui lance des éclairs ?",
+      "options": {
+        "A": "Pikachu",
+        "B": "Raichu",
+        "C": "Pichu",
+        "D": "Dracaufeu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0230",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Les Tortues Ninja', quel est le plat préféré des quatre frères ?",
+      "options": {
+        "A": "Les lasagnes",
+        "B": "La pizza",
+        "C": "Les hamburgers",
+        "D": "Les sushis"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0231",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le lion qui est le grand méchant et l'oncle de Simba dans 'Le Roi Lion' ?",
+      "options": {
+        "A": "Mufasa",
+        "B": "Pumbaa",
+        "C": "Scar",
+        "D": "Zazu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0232",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le jeu 'Minecraft', quel matériau est le plus résistant pour fabriquer une armure ?",
+      "options": {
+        "A": "Le fer",
+        "B": "L'or",
+        "C": "Le diamant",
+        "D": "La Netherite"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0233",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Qui est le meilleur ami de Mickey Mouse et possède un rire très reconnaissable ?",
+      "options": {
+        "A": "Dingo",
+        "B": "Donald",
+        "C": "Pluto",
+        "D": "Bugs Bunny"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0234",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Aladdin', comment s'appelle le perroquet bavard qui travaille pour Jafar ?",
+      "options": {
+        "A": "Zazu",
+        "B": "Iago",
+        "C": "Rajsh",
+        "D": "Abu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0236",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la saga 'Star Wars', quel est le nom du fils de Han Solo et de la Princesse Leia ?",
+      "options": {
+        "A": "Luke Skywalker",
+        "B": "Anakin Skywalker",
+        "C": "Kylo Ren",
+        "D": "Poe Dameron"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0237",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Emma regarde un film avec un ogre vert et un âne qui parle. Quel est ce film ?",
+      "options": {
+        "A": "Madagascar",
+        "B": "Hulk",
+        "C": "L'Âge de Glace",
+        "D": "Shrek"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0238",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quelle princesse Disney a de très longs cheveux magiques et vit dans une tour ?",
+      "options": {
+        "A": "Raiponce",
+        "B": "Aurore",
+        "C": "Mulan",
+        "D": "Belle"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0239",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans le film 'Ratatouille', quel animal est Rémy, le petit prodige de la cuisine ?",
+      "options": {
+        "A": "Une souris",
+        "B": "Un rat",
+        "C": "Un hamster",
+        "D": "Un écureuil"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0240",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle l'intelligence artificielle qui aide Tony Stark dans ses premières armures ?",
+      "options": {
+        "A": "Alexa",
+        "B": "Siri",
+        "C": "Jarvis",
+        "D": "Friday"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0241",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel personnage porte un bonnet rouge et un pull à rayures rouges et blanches ?",
+      "options": {
+        "A": "Waldo",
+        "B": "Tintin",
+        "C": "Mickey",
+        "D": "Charlie"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0242",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Le Roi Lion', comment s'appelle le petit suricate ami de Simba ?",
+      "options": {
+        "A": "Timon",
+        "B": "Zazu",
+        "C": "Pumbaa",
+        "D": "Rafiki"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0243",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du capitaine pirate qui est l'ennemi juré de Peter Pan ?",
+      "options": {
+        "A": "Barbe Noire",
+        "B": "Capitaine Crochet",
+        "C": "Long John Silver",
+        "D": "Jack Sparrow"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0244",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans 'Vaiana', quel est l'objet magique que l'héroïne doit rapporter au cœur de l'île ?",
+      "options": {
+        "A": "Une conque dorée",
+        "B": "L'hameçon de Maui",
+        "C": "Le cœur de Te Fiti",
+        "D": "Un collier de perles"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0246",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'La Petite Sirène', comment s'appelle le crabe qui chante 'Sous l'océan' ?",
+      "options": {
+        "A": "Polochon",
+        "B": "Flounder",
+        "C": "Scuttle",
+        "D": "Sébastien"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0247",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Thomas joue à un jeu vidéo où il doit capturer des créatures dans des boules. Comment s'appellent ces boules ?",
+      "options": {
+        "A": "Les Pokéballs",
+        "B": "Les Masterballs",
+        "C": "Les Ultraballs",
+        "D": "Les Superballs"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0248",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Qui est le réalisateur du film 'Jurassic Park', sorti en 1993 ?",
+      "options": {
+        "A": "Christopher Nolan",
+        "B": "Steven Spielberg",
+        "C": "George Lucas",
+        "D": "James Cameron"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0249",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Blanche-Neige', quel fruit empoisonné la méchante reine donne-t-elle à la princesse ?",
+      "options": {
+        "A": "Une poire",
+        "B": "Une fraise",
+        "C": "Une pomme",
+        "D": "Une cerise"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0250",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du petit robot jaune qui nettoie la Terre dans un film de Pixar ?",
+      "options": {
+        "A": "Baymax",
+        "B": "R2-D2",
+        "C": "Bumblebee",
+        "D": "Wall-E"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0251",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle l'école de magie où Harry Potter étudie ?",
+      "options": {
+        "A": "Poudlard",
+        "B": "Durmstrang",
+        "C": "Beauxbâtons",
+        "D": "Azkaban"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0252",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la mythologie de Batman, quel est le nom de la ville qu'il protège ?",
+      "options": {
+        "A": "Metropolis",
+        "B": "Gotham City",
+        "C": "Star City",
+        "D": "Central City"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0253",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Léa regarde une BD avec un gaulois très fort qui a un petit chien nommé Idéfix. Qui est-ce ?",
+      "options": {
+        "A": "Astérix",
+        "B": "Lucky Luke",
+        "C": "Obélix",
+        "D": "Tintin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0254",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel personnage porte une cape rouge et possède une force surhumaine car il vient de Krypton ?",
+      "options": {
+        "A": "Batman",
+        "B": "Flash",
+        "C": "Aquaman",
+        "D": "Superman"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0255",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans le film 'Madagascar', quel animal est Alex, le personnage principal ?",
+      "options": {
+        "A": "Un lion",
+        "B": "Une girafe",
+        "C": "Un hippopotame",
+        "D": "Un zèbre"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0256",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle le demi-dieu qui accompagne Vaiana dans ses aventures en mer ?",
+      "options": {
+        "A": "Hercules",
+        "B": "Maui",
+        "C": "Poseidon",
+        "D": "Zeus"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0257",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du petit garçon qui possède tous les jouets dans 'Toy Story' ?",
+      "options": {
+        "A": "Buzz",
+        "B": "Woody",
+        "C": "Andy",
+        "D": "Sid"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0258",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'La Belle et la Bête', quel objet enchanté compte les jours avant que la Bête ne reste ainsi pour toujours ?",
+      "options": {
+        "A": "Un chandelier",
+        "B": "Une horloge",
+        "C": "Un miroir",
+        "D": "Une rose"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0259",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel super-héros porte un bouclier indestructible avec une étoile au milieu ?",
+      "options": {
+        "A": "Captain America",
+        "B": "Iron Man",
+        "C": "Hulk",
+        "D": "Thor"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0260",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le film 'Vice-Versa', comment s'appelle l'émotion de couleur jaune qui dirige souvent les opérations ?",
+      "options": {
+        "A": "Colère",
+        "B": "Joie",
+        "C": "Tristesse",
+        "D": "Peur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0261",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Julie joue à un jeu où elle doit construire des maisons et des villes avec des briques en plastique. Quel est ce jeu ?",
+      "options": {
+        "A": "Playmobil",
+        "B": "Kapla",
+        "C": "Lego",
+        "D": "Meccano"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0262",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Les Indestructibles', quel est le pouvoir spécial de Dash ?",
+      "options": {
+        "A": "L'invisibilité",
+        "B": "S'étirer",
+        "C": "La super-force",
+        "D": "Courir très vite"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0263",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le méchant sorcier qui veut capturer les Schtroumpfs ?",
+      "options": {
+        "A": "Gargamel",
+        "B": "Saroumane",
+        "C": "Jafar",
+        "D": "Voldemort"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0264",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers de 'Star Wars', quel est le nom du maître Jedi vert et très vieux qui entraîne Luke ?",
+      "options": {
+        "A": "Mace Windu",
+        "B": "Yoda",
+        "C": "Obi-Wan Kenobi",
+        "D": "Qui-Gon Jinn"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0265",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom du chien de Tintin dans ses célèbres aventures ?",
+      "options": {
+        "A": "Snoopy",
+        "B": "Rantanplan",
+        "C": "Milou",
+        "D": "Idéfix"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0266",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Cars', de quelle couleur est la voiture de course Flash McQueen ?",
+      "options": {
+        "A": "Verte",
+        "B": "Jaune",
+        "C": "Bleue",
+        "D": "Rouge"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0267",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom de l'archer agile qui fait partie des Avengers ?",
+      "options": {
+        "A": "Hawkeye",
+        "B": "Falcon",
+        "C": "Winter Soldier",
+        "D": "Ant-Man"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0268",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans 'Le Monde de Narnia', quel animal est le grand et sage Aslan ?",
+      "options": {
+        "A": "Un loup",
+        "B": "Un lion",
+        "C": "Un aigle",
+        "D": "Un ours"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0269",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros se déguise en chat pour protéger Paris aux côtés de Ladybug ?",
+      "options": {
+        "A": "Félix",
+        "B": "Super-Miaou",
+        "C": "Chat Noir",
+        "D": "Bat-Cat"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0270",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Moi, Moche et Méchant', comment s'appellent les petits êtres jaunes qui servent Gru ?",
+      "options": {
+        "A": "Les Gremlins",
+        "B": "Les Ewoks",
+        "C": "Les Oompa Loompas",
+        "D": "Les Minions"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0271",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle l'ami de Mickey Mouse qui est un chien jaune et qui ne parle pas ?",
+      "options": {
+        "A": "Pluto",
+        "B": "Dingo",
+        "C": "Donald",
+        "D": "Daisy"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0272",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le film 'Dragons', de quelle espèce de dragon est Krokmou, le meilleur ami de Harold ?",
+      "options": {
+        "A": "Un Cauchemar Monstrueux",
+        "B": "Un Furie Nocturne",
+        "C": "Un Terreur Terrible",
+        "D": "Un Grondeur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0273",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom de la princesse Disney qui a une pomme comme symbole ?",
+      "options": {
+        "A": "Cendrillon",
+        "B": "Ariel",
+        "C": "Blanche-Neige",
+        "D": "Belle"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0274",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Bambi', quel genre d'animal est le personnage principal ?",
+      "options": {
+        "A": "Un ours",
+        "B": "Un écureuil",
+        "C": "Un lapin",
+        "D": "Un faon"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0275",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel super-héros utilise un lasso de vérité pour combattre le crime ?",
+      "options": {
+        "A": "Wonder Woman",
+        "B": "Catwoman",
+        "C": "Supergirl",
+        "D": "Black Widow"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0276",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers de 'Harry Potter', comment s'appelle le fantôme qui hante les toilettes des filles ?",
+      "options": {
+        "A": "La Dame Grise",
+        "B": "Mimi Geignarde",
+        "C": "Le Baron Sanglant",
+        "D": "Nick Quasi-Sans-Tête"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0277",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le petit robot blanc dans 'Big Hero 6' qui soigne les gens ?",
+      "options": {
+        "A": "Wall-E",
+        "B": "R2-D2",
+        "C": "Baymax",
+        "D": "Eve"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0278",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Peter Pan', quel animal suit le Capitaine Crochet pour essayer de le manger ?",
+      "options": {
+        "A": "Un lion",
+        "B": "Un requin",
+        "C": "Un ours",
+        "D": "Un crocodile"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0279",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du frère de Mario dans les célèbres jeux vidéo de Nintendo ?",
+      "options": {
+        "A": "Luigi",
+        "B": "Wario",
+        "C": "Yoshi",
+        "D": "Waluigi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0280",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le film 'Ratatouille', comment s'appelle le célèbre chef cuisinier dont Rémy suit les conseils ?",
+      "options": {
+        "A": "Anton Ego",
+        "B": "Auguste Gusteau",
+        "C": "Skinner",
+        "D": "Alfredo Linguini"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0281",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros porte un costume rouge et bleu et lance des toiles ?",
+      "options": {
+        "A": "Batman",
+        "B": "Superman",
+        "C": "Spider-Man",
+        "D": "Iron Man"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0282",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'La Reine des Neiges', quel personnage est un bonhomme de neige qui aime les câlins ?",
+      "options": {
+        "A": "Sven",
+        "B": "Hans",
+        "C": "Kristoff",
+        "D": "Olaf"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0284",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel est le nom de la ville où habitent les Simpson ?",
+      "options": {
+        "A": "Springfield",
+        "B": "Quahog",
+        "C": "Shelbyville",
+        "D": "South Park"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0285",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Aladdin', quel objet magique le héros frotte-t-il pour faire apparaître un génie ?",
+      "options": {
+        "A": "Une épée",
+        "B": "Une lampe",
+        "C": "Un tapis",
+        "D": "Une bague"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0287",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel super-héros possède un marteau magique nommé Mjolnir ?",
+      "options": {
+        "A": "Loki",
+        "B": "Iron Man",
+        "C": "Thor",
+        "D": "Hulk"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0288",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le film 'Le Roi Lion', comment s'appelle le mandrill qui présente Simba aux autres animaux ?",
+      "options": {
+        "A": "Timon",
+        "B": "Pumbaa",
+        "C": "Zazu",
+        "D": "Rafiki"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0289",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Léo joue à un jeu vidéo où il doit construire un monde avec des blocs. Quel est ce jeu ?",
+      "options": {
+        "A": "Minecraft",
+        "B": "Fortnite",
+        "C": "Roblox",
+        "D": "Among Us"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0290",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Pinocchio', que se passe-t-il quand le petit garçon en bois dit un mensonge ?",
+      "options": {
+        "A": "Il change de couleur",
+        "B": "Son nez s'allonge",
+        "C": "Ses oreilles s'allongent",
+        "D": "Il devient un vrai garçon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0291",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle le petit Pokémon rose qui peut se transformer en n'importe quel autre Pokémon ?",
+      "options": {
+        "A": "Mew",
+        "B": "Jigglypuff",
+        "C": "Metamorph",
+        "D": "Ditto"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0292",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers Marvel, quel super-vilain violet cherche à collecter les six Pierres d'Infinité ?",
+      "options": {
+        "A": "Loki",
+        "B": "Ultron",
+        "C": "Hela",
+        "D": "Thanos"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0294",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Cendrillon', quel animal tire le carrosse de la princesse ?",
+      "options": {
+        "A": "Des chevaux",
+        "B": "Des lapins",
+        "C": "Des chiens",
+        "D": "Des souris"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0295",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du personnage principal de la série 'Stranger Things' qui a des pouvoirs télékinésiques ?",
+      "options": {
+        "A": "Will",
+        "B": "Eleven",
+        "C": "Dustin",
+        "D": "Mike"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0296",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le film 'Toy Story 4', quel nouveau personnage est fabriqué à partir d'une fourchette en plastique ?",
+      "options": {
+        "A": "Sporky",
+        "B": "Fourchette",
+        "C": "Forky",
+        "D": "Cuillère"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0297",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le petit garçon qui explore le monde avec son singe Babouche ?",
+      "options": {
+        "A": "Dora",
+        "B": "Mowgli",
+        "C": "Tarzan",
+        "D": "Diego"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0298",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Le Livre de la Jungle', quel animal est Baloo, le meilleur ami de Mowgli ?",
+      "options": {
+        "A": "Un ours",
+        "B": "Un serpent",
+        "C": "Un tigre",
+        "D": "Une panthère"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0299",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel super-héros peut voler, possède une vision laser et porte un costume avec un 'S' sur la poitrine ?",
+      "options": {
+        "A": "Super-S",
+        "B": "Superman",
+        "C": "Super-Héros",
+        "D": "Super-Man"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0300",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la série 'Miraculous', quel est le nom du super-vilain qui veut voler les miraculous de Ladybug et Chat Noir ?",
+      "options": {
+        "A": "Le Paon",
+        "B": "Akuma",
+        "C": "Papillon",
+        "D": "Mayura"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0301",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans le film 'Ratatouille', quel est le rêve secret de Rémy le rat ?",
+      "options": {
+        "A": "Ouvrir une école pour les rats",
+        "B": "Devenir un célèbre goûteur de fromage",
+        "C": "Voyager tout autour du monde",
+        "D": "Devenir un grand chef cuisinier"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0302",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le petit bonhomme de neige qui adore les câlins dans 'La Reine des Neiges' ?",
+      "options": {
+        "A": "Olaf",
+        "B": "Hans",
+        "C": "Sven",
+        "D": "Kristoff"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0303",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel objet magique permet à Harry Potter de voir des personnes décédées ou de leur parler dans le dernier tome ?",
+      "options": {
+        "A": "La Baguette de Sureau",
+        "B": "La Pierre de Résurrection",
+        "C": "Le Miroir du Riséd",
+        "D": "La Cape d'Invisibilité"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0304",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers Star Wars, quelle est la couleur du sabre laser de Maître Mace Windu ?",
+      "options": {
+        "A": "Jaune",
+        "B": "Bleu",
+        "C": "Violet",
+        "D": "Vert"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0305",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros porte un costume inspiré d'une chauve-souris ?",
+      "options": {
+        "A": "Spider-Man",
+        "B": "Superman",
+        "C": "Iron Man",
+        "D": "Batman"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0306",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans quel jeu vidéo doit-on empiler des blocs de formes différentes pour faire des lignes ?",
+      "options": {
+        "A": "Tetris",
+        "B": "Pac-Man",
+        "C": "Mario Bros",
+        "D": "Minecraft"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0307",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Lucas regarde un film avec des dinosaures vivants sur une île. Quel est le titre de ce célèbre film ?",
+      "options": {
+        "A": "Le Petit Dinosaure",
+        "B": "Jurassic Park",
+        "C": "L'Âge de Glace",
+        "D": "King Kong"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0308",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle le studio d'animation qui a créé les films 'Toy Story' et 'Le Monde de Nemo' ?",
+      "options": {
+        "A": "Studio Ghibli",
+        "B": "DreamWorks",
+        "C": "Pixar",
+        "D": "Illumination"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0309",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Qui est la petite souris qui porte un nœud papillon et des gants blancs chez Disney ?",
+      "options": {
+        "A": "Daisy",
+        "B": "Minnie",
+        "C": "Jerry",
+        "D": "Mickey"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0310",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans le dessin animé 'Bob l'éponge', où vit le personnage principal ?",
+      "options": {
+        "A": "Dans un ananas",
+        "B": "Dans un dôme",
+        "C": "Dans un rocher",
+        "D": "Dans une statue"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0311",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du capitaine pirate avec un crochet à la place de la main dans 'Peter Pan' ?",
+      "options": {
+        "A": "Long John Silver",
+        "B": "Capitaine Crochet",
+        "C": "Jack Sparrow",
+        "D": "Barbe Noire"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0312",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la saga 'Harry Potter', comment s'appelle le fantôme qui hante les toilettes des filles ?",
+      "options": {
+        "A": "La Dame Grise",
+        "B": "Nick Quasi-Sans-Tête",
+        "C": "Mimi Geignarde",
+        "D": "Le Baron Sanglant"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0313",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Léa regarde un film où une princesse perd sa chaussure de verre. Qui est-ce ?",
+      "options": {
+        "A": "Belle",
+        "B": "Aurore",
+        "C": "Ariel",
+        "D": "Cendrillon"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0314",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel animal est Simba dans le film 'Le Roi Lion' ?",
+      "options": {
+        "A": "Un lion",
+        "B": "Un tigre",
+        "C": "Un guépard",
+        "D": "Un léopard"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0315",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans 'Toy Story', quel est le nom du cow-boy qui est le jouet préféré d'Andy ?",
+      "options": {
+        "A": "Zig-Zag",
+        "B": "Woody",
+        "C": "Buzz",
+        "D": "Rex"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0316",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Quel super-héros Marvel utilise un marteau magique appelé Mjolnir ?",
+      "options": {
+        "A": "Iron Man",
+        "B": "Captain America",
+        "C": "Thor",
+        "D": "Hulk"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0317",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Comment s'appelle le petit dinosaure vert qui aide souvent Mario ?",
+      "options": {
+        "A": "Toad",
+        "B": "Luigi",
+        "C": "Bowser",
+        "D": "Yoshi"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0318",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Aladdin', quel objet magique le héros frotte-t-il pour faire apparaître le Génie ?",
+      "options": {
+        "A": "Une lampe",
+        "B": "Une bague",
+        "C": "Une épée",
+        "D": "Un tapis"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0319",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quelle est la particularité des oreilles de l'éléphant Dumbo ?",
+      "options": {
+        "A": "Elles sont magiques",
+        "B": "Elles lui permettent de voler",
+        "C": "Elles sont toutes petites",
+        "D": "Elles sont bleues"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0320",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le jeu 'Minecraft', comment s'appelle le personnage principal par défaut ?",
+      "options": {
+        "A": "Notch",
+        "B": "Alex",
+        "C": "Steve",
+        "D": "Creeper"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0321",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Thomas joue à un jeu où il doit attraper des créatures avec des boules. Quel est ce jeu ?",
+      "options": {
+        "A": "Zelda",
+        "B": "Mario Kart",
+        "C": "Fortnite",
+        "D": "Pokémon"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0323",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du super-héros qui a été mordu par une araignée radioactive ?",
+      "options": {
+        "A": "Spider-Man",
+        "B": "The Flash",
+        "C": "Ant-Man",
+        "D": "Black Widow"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0325",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Emma regarde une série avec une coccinelle et un chat noir qui sauvent Paris. Qui est-ce ?",
+      "options": {
+        "A": "Les Indestructibles",
+        "B": "Ladybug et Chat Noir",
+        "C": "Spider-Man",
+        "D": "Les Minions"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0327",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Dans 'Shrek', quel animal est le meilleur ami bavard de l'ogre ?",
+      "options": {
+        "A": "Un chat",
+        "B": "Un chien",
+        "C": "Un âne",
+        "D": "Un cheval"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0328",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Comment s'appelle l'école de magie où étudie Harry Potter ?",
+      "options": {
+        "A": "Durmstrang",
+        "B": "Azkaban",
+        "C": "Beauxbâtons",
+        "D": "Poudlard"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0330",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'La Reine des Neiges', quel est le pouvoir spécial d'Elsa ?",
+      "options": {
+        "A": "Contrôler la glace",
+        "B": "Devenir invisible",
+        "C": "Voler",
+        "D": "Contrôler le feu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0331",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du vaisseau spatial de Han Solo dans 'Star Wars' ?",
+      "options": {
+        "A": "L'Étoile Noire",
+        "B": "Le Faucon Millenium",
+        "C": "L'Enterprise",
+        "D": "Le Razor Crest"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0332",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Qui est le créateur de l'univers Marvel et de nombreux super-héros ?",
+      "options": {
+        "A": "George Lucas",
+        "B": "Steven Spielberg",
+        "C": "Stan Lee",
+        "D": "Walt Disney"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0333",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Hugo joue avec des briques en plastique de toutes les couleurs pour construire des châteaux. Comment s'appellent-elles ?",
+      "options": {
+        "A": "Kapla",
+        "B": "Playmobil",
+        "C": "Meccano",
+        "D": "Lego"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0334",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Astérix', quel est le nom du petit chien d'Obélix ?",
+      "options": {
+        "A": "Idéfix",
+        "B": "Rantanplan",
+        "C": "Milou",
+        "D": "Snoopy"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0336",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans quel film d'animation Pixar rencontre-t-on les émotions Joie, Tristesse et Colère ?",
+      "options": {
+        "A": "Coco",
+        "B": "Vice-Versa",
+        "C": "En avant",
+        "D": "Soul"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0338",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Madagascar', quel animal est Alex le personnage principal ?",
+      "options": {
+        "A": "Un hippopotame",
+        "B": "Un zèbre",
+        "C": "Un lion",
+        "D": "Une girafe"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0341",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Léa regarde une BD avec un détective belge et son chien Milou. Qui est-ce ?",
+      "options": {
+        "A": "Spirou",
+        "B": "Lucky Luke",
+        "C": "Boule",
+        "D": "Tintin"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0342",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Le Roi Lion', comment s'appelle le père de Simba ?",
+      "options": {
+        "A": "Mufasa",
+        "B": "Zazu",
+        "C": "Rafiki",
+        "D": "Scar"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0343",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel super-héros possède un bouclier indestructible avec une étoile au milieu ?",
+      "options": {
+        "A": "Black Panther",
+        "B": "Captain America",
+        "C": "Thor",
+        "D": "Iron Man"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0345",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom de la princesse Disney qui vit sous la mer ?",
+      "options": {
+        "A": "Belle",
+        "B": "Mulan",
+        "C": "Ariel",
+        "D": "Jasmine"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0346",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Cars', quelle est la couleur de la voiture Flash McQueen ?",
+      "options": {
+        "A": "Vert",
+        "B": "Bleu",
+        "C": "Jaune",
+        "D": "Rouge"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0349",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Julie regarde un film avec un extraterrestre qui veut 'téléphoner maison'. Qui est-ce ?",
+      "options": {
+        "A": "E.T.",
+        "B": "Yoda",
+        "C": "Wall-E",
+        "D": "Stitch"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0350",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Bambi', quel animal est le meilleur ami du héros ?",
+      "options": {
+        "A": "Un renard",
+        "B": "Un lapin",
+        "C": "Un hibou",
+        "D": "Un écureuil"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0351",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Comment s'appelle l'école pour jeunes surdoués dirigée par le Professeur Xavier ?",
+      "options": {
+        "A": "L'Académie des Héros",
+        "B": "Poudlard",
+        "C": "L'Institut Xavier",
+        "D": "Sky High"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0353",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel personnage porte une cape rouge et possède un 'S' sur la poitrine ?",
+      "options": {
+        "A": "Iron Man",
+        "B": "Spider-Man",
+        "C": "Batman",
+        "D": "Superman"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0354",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Pinocchio', que se passe-t-il quand le petit garçon ment ?",
+      "options": {
+        "A": "Son nez s'allonge",
+        "B": "Ses oreilles poussent",
+        "C": "Il devient un âne",
+        "D": "Il change de couleur"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0355",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom de l'intelligence artificielle qui aide Tony Stark dans ses armures ?",
+      "options": {
+        "A": "Alfred",
+        "B": "Jarvis",
+        "C": "Hal",
+        "D": "Siri"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0356",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la série 'Stranger Things', quel est le nom de la dimension parallèle sombre ?",
+      "options": {
+        "A": "Le Vide",
+        "B": "La Zone Fantôme",
+        "C": "Le Monde à l'Envers",
+        "D": "L'Ombre"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0358",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Peter Pan', quelle est la poussière magique utilisée pour voler ?",
+      "options": {
+        "A": "Sable magique",
+        "B": "Poudre de perlimpinpin",
+        "C": "Poussière d'étoile",
+        "D": "Poussière de fée"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0360",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans quel pays se trouve le célèbre château qui a inspiré celui de la Belle au Bois Dormant chez Disney ?",
+      "options": {
+        "A": "Allemagne",
+        "B": "Autriche",
+        "C": "France",
+        "D": "Écosse"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0361",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Julie regarde un film avec un ours qui adore le miel. Comment s'appelle-t-il ?",
+      "options": {
+        "A": "Baloo",
+        "B": "Winnie l'Ourson",
+        "C": "Yogi",
+        "D": "Paddington"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0363",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du chat orange qui déteste les lundis et adore les lasagnes ?",
+      "options": {
+        "A": "Tom",
+        "B": "Félix",
+        "C": "Garfield",
+        "D": "Sylvestre"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0364",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la mythologie de Spider-Man, quel est le nom de l'oncle dont la mort inspire Peter Parker ?",
+      "options": {
+        "A": "Oncle Harry",
+        "B": "Oncle Sam",
+        "C": "Oncle John",
+        "D": "Oncle Ben"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0366",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Shrek', quelle est la couleur de la peau de la princesse Fiona quand elle devient une ogresse ?",
+      "options": {
+        "A": "Verte",
+        "B": "Marron",
+        "C": "Bleue",
+        "D": "Rose"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0368",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers de Marvel, quel métal indestructible compose les griffes de Wolverine ?",
+      "options": {
+        "A": "Le Vibranium",
+        "B": "L'Adamantium",
+        "C": "Le Krypton",
+        "D": "Le Titane"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0369",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Thomas joue à un jeu de plateau où il doit acheter des rues et construire des hôtels. Quel est ce jeu ?",
+      "options": {
+        "A": "Scrabble",
+        "B": "Cluedo",
+        "C": "Monopoly",
+        "D": "Trivial Pursuit"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0370",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Les Schtroumpfs', de quelle couleur est le bonnet du Grand Schtroumpf ?",
+      "options": {
+        "A": "Blanc",
+        "B": "Jaune",
+        "C": "Bleu",
+        "D": "Rouge"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0372",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le film 'Le Roi Lion', quel animal est Rafiki le sage ?",
+      "options": {
+        "A": "Un mandrill",
+        "B": "Un babouin",
+        "C": "Un chimpanzé",
+        "D": "Un gorille"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0373",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Julie regarde un film avec un poisson chirurgien bleu qui a des problèmes de mémoire. Qui est-ce ?",
+      "options": {
+        "A": "Sébastien",
+        "B": "Dory",
+        "C": "Nemo",
+        "D": "Polochon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0374",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Aladdin', quel est le nom du perroquet qui accompagne le méchant Jafar ?",
+      "options": {
+        "A": "Rajsh",
+        "B": "Abu",
+        "C": "Iago",
+        "D": "Zazu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0375",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel personnage porte un bonnet vert et utilise un arc pour voler les riches et donner aux pauvres ?",
+      "options": {
+        "A": "Oliver Queen",
+        "B": "Peter Pan",
+        "C": "Legolas",
+        "D": "Robin des Bois"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0376",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans la saga 'Star Wars', quel est le nom du vaisseau spatial piloté par Han Solo ?",
+      "options": {
+        "A": "Le Faucon Millenium",
+        "B": "Le Razor Crest",
+        "C": "L'Étoile Noire",
+        "D": "L'Enterprise"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0377",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros Marvel utilise un bouclier rond avec une étoile au milieu ?",
+      "options": {
+        "A": "Hulk",
+        "B": "Captain America",
+        "C": "Iron Man",
+        "D": "Thor"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0378",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Le Livre de la Jungle', quel animal est Baloo ?",
+      "options": {
+        "A": "Une panthère",
+        "B": "Un serpent",
+        "C": "Un ours",
+        "D": "Un tigre"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0379",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du célèbre détective privé qui vit au 221B Baker Street ?",
+      "options": {
+        "A": "Jules Maigret",
+        "B": "Arsène Lupin",
+        "C": "Hercule Poirot",
+        "D": "Sherlock Holmes"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0380",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans le film 'L'Âge de Glace', quel est le nom du mammouth qui est l'un des personnages principaux ?",
+      "options": {
+        "A": "Manny",
+        "B": "Scrat",
+        "C": "Diego",
+        "D": "Sid"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0381",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Hugo regarde un dessin animé avec des créatures bleues vivant dans des champignons. Qui sont-ils ?",
+      "options": {
+        "A": "Les Minions",
+        "B": "Les Schtroumpfs",
+        "C": "Les Gremlins",
+        "D": "Les Trolls"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0384",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans quel film d'animation Pixar rencontre-t-on les personnages de Miguel et Dante ?",
+      "options": {
+        "A": "Luca",
+        "B": "Soul",
+        "C": "Coco",
+        "D": "En avant"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0385",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel super-héros Marvel porte une armure rouge et or remplie de technologie ?",
+      "options": {
+        "A": "Thor",
+        "B": "Captain America",
+        "C": "Hulk",
+        "D": "Iron Man"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0386",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Les Indestructibles', quel est le pouvoir spécial de la maman, Hélène Parr ?",
+      "options": {
+        "A": "L'élasticité",
+        "B": "La super-force",
+        "C": "L'invisibilité",
+        "D": "La télékinésie"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0387",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du célèbre plombier vêtu de vert, frère de Mario ?",
+      "options": {
+        "A": "Yoshi",
+        "B": "Luigi",
+        "C": "Toad",
+        "D": "Wario"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0388",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans 'Zootopie', quel est le nom du renard malin qui aide Judy Hopps ?",
+      "options": {
+        "A": "Finnick",
+        "B": "Flash",
+        "C": "Nick Wilde",
+        "D": "Gideon Grey"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0389",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Julie joue à un jeu vidéo où elle doit construire un monde avec des blocs. Quel est ce jeu ?",
+      "options": {
+        "A": "Mario Party",
+        "B": "Roblox",
+        "C": "Fortnite",
+        "D": "Minecraft"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0390",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Peter Pan', quel est le nom de la petite fée qui accompagne le héros ?",
+      "options": {
+        "A": "Clochette",
+        "B": "Pimprenelle",
+        "C": "Flora",
+        "D": "Mala"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0391",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du super-vilain violet qui veut supprimer la moitié de la vie dans 'Avengers' ?",
+      "options": {
+        "A": "Loki",
+        "B": "Thanos",
+        "C": "Ultron",
+        "D": "Kang"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0392",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers de 'The Legend of Zelda', comment s'appelle la force sacrée composée de trois triangles ?",
+      "options": {
+        "A": "Le Grimoire",
+        "B": "L'Ocarina",
+        "C": "La Triforce",
+        "D": "L'Excalibur"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0393",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Quel est le nom de la princesse Disney qui a une pomme empoisonnée comme symbole ?",
+      "options": {
+        "A": "Mulan",
+        "B": "Raiponce",
+        "C": "Belle",
+        "D": "Blanche-Neige"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0394",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Dans 'Toy Story', comment s'appelle le cow-boy ?",
+      "options": {
+        "A": "Woody",
+        "B": "Zig-Zag",
+        "C": "Rex",
+        "D": "Buzz"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "pop-fr-0396",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans quel film d'animation rencontre-t-on les personnages de Gru et les Minions ?",
+      "options": {
+        "A": "Comme des Bêtes",
+        "B": "Moi, Moche et Méchant",
+        "C": "Les Indestructibles",
+        "D": "Tous en Scène"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "pop-fr-0397",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "easy",
+      "question": "Thomas regarde un film avec un pirate nommé Jack Sparrow. Comment s'appelle ce film ?",
+      "options": {
+        "A": "L'Île aux Trésors",
+        "B": "Moana",
+        "C": "Pirates des Caraïbes",
+        "D": "Peter Pan"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "pop-fr-0399",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "medium",
+      "question": "Quel est le nom du petit Pokémon bleu qui ressemble à une tortue ?",
+      "options": {
+        "A": "Bulbizarre",
+        "B": "Pikachu",
+        "C": "Salamèche",
+        "D": "Carapuce"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "pop-fr-0400",
+      "category": "pop-culture",
+      "subcategory": null,
+      "locale": "fr",
+      "difficulty": "hard",
+      "question": "Dans l'univers de Batman, quel est le vrai nom de l'homme sous le masque ?",
+      "options": {
+        "A": "Bruce Wayne",
+        "B": "Clark Kent",
+        "C": "Peter Parker",
+        "D": "Tony Stark"
+      },
+      "answer": "A"
+    }
+  ]
+}

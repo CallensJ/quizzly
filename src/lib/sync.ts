@@ -319,6 +319,7 @@ export async function linkProfileToAuthUser(
 
 // Identité profil enfant tirée du cloud
 export interface RemoteProfile {
+  deviceId: string;  // device_id source — sert à éviter les doublons au merge
   pseudo: string;
   avatarId: string;
   avatarStyle: string;
@@ -326,7 +327,7 @@ export interface RemoteProfile {
 }
 
 export interface PulledData {
-  profile: RemoteProfile | null;
+  profiles: RemoteProfile[];  // tous les profils liés au compte parent
   sessions: QuizSession[];
   earnedBadgeIds: string[];
 }
@@ -348,20 +349,20 @@ export async function pullFromSupabase(
   try {
     // Cherche le(s) profil(s) — par auth_user_id si dispo, sinon device_id
     const query = authUserId
-      ? supabase.from('profiles').select('id, pseudo, avatar_id, avatar_style, locale').eq('auth_user_id', authUserId)
-      : supabase.from('profiles').select('id, pseudo, avatar_id, avatar_style, locale').eq('device_id', deviceId).limit(1);
+      ? supabase.from('profiles').select('id, device_id, pseudo, avatar_id, avatar_style, locale').eq('auth_user_id', authUserId)
+      : supabase.from('profiles').select('id, device_id, pseudo, avatar_id, avatar_style, locale').eq('device_id', deviceId).limit(1);
 
     const { data: profileRows } = await query;
     if (!profileRows || profileRows.length === 0) return null;
 
-    // Profil de référence : le premier trouvé (compte parent → un profil enfant principal)
-    const mainProfileRow = profileRows[0];
-    const remoteProfile: RemoteProfile = {
-      pseudo:      mainProfileRow.pseudo,
-      avatarId:    mainProfileRow.avatar_id,
-      avatarStyle: mainProfileRow.avatar_style ?? 'adventurer',
-      locale:      mainProfileRow.locale,
-    };
+    // Tous les profils liés au compte parent (un par device connecté)
+    const remoteProfiles: RemoteProfile[] = profileRows.map((r) => ({
+      deviceId:    r.device_id,
+      pseudo:      r.pseudo,
+      avatarId:    r.avatar_id,
+      avatarStyle: r.avatar_style ?? 'adventurer',
+      locale:      r.locale,
+    }));
 
     const profileIds = profileRows.map((r) => r.id);
 
@@ -390,7 +391,7 @@ export async function pullFromSupabase(
       ...new Set((badgeRows ?? []).flatMap((r) => r.earned_badge_ids ?? [])),
     ];
 
-    return { profile: remoteProfile, sessions, earnedBadgeIds };
+    return { profiles: remoteProfiles, sessions, earnedBadgeIds };
   } catch {
     return null;
   }

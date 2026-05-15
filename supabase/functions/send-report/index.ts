@@ -19,7 +19,7 @@
  *
  * Variables d'environnement requises (Supabase Dashboard → Edge Functions → Secrets) :
  *   - RESEND_API_KEY       : clé API Resend (https://resend.com)
- *   - REPORT_FROM_EMAIL    : adresse expéditeur (ex: rapports@quizzly.com)
+ *   - REPORT_FROM_EMAIL    : adresse expéditeur (ex: rapports@erudia.app)
  *                            doit être un domaine vérifié dans Resend
  *
  * Exemple pg_cron pour envoi hebdomadaire (chaque lundi à 8h00 UTC) :
@@ -34,11 +34,12 @@
  */
 
 import { serve } from 'https://deno.land/std@0.168.0/http/server.ts';
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
 // ─── Constantes ───────────────────────────────────────────────────────────────
 
-const RESEND_API    = 'https://api.resend.com/emails';
-const ALLOWED_ORIGIN = '*'; // À restreindre en production selon ton domaine
+const RESEND_API     = 'https://api.resend.com/emails';
+const ALLOWED_ORIGIN = 'https://app.erudia.app';
 
 // ─── Handler principal ────────────────────────────────────────────────────────
 
@@ -57,6 +58,23 @@ serve(async (req: Request): Promise<Response> => {
 
   if (req.method !== 'POST') {
     return errorResponse(405, 'Method not allowed');
+  }
+
+  // Vérification JWT — rejette toute requête non authentifiée
+  const authHeader = req.headers.get('Authorization');
+  if (!authHeader?.startsWith('Bearer ')) {
+    return errorResponse(401, 'Unauthorized');
+  }
+
+  const supabase = createClient(
+    Deno.env.get('SUPABASE_URL')!,
+    Deno.env.get('SUPABASE_ANON_KEY')!,
+    { global: { headers: { Authorization: authHeader } } }
+  );
+
+  const { data: { user }, error: authError } = await supabase.auth.getUser();
+  if (authError || !user) {
+    return errorResponse(401, 'Unauthorized');
   }
 
   // Lecture et validation du payload
@@ -81,8 +99,8 @@ serve(async (req: Request): Promise<Response> => {
   }
 
   // Variables d'environnement
-  const resendKey   = Deno.env.get('RESEND_API_KEY');
-  const fromEmail   = Deno.env.get('REPORT_FROM_EMAIL') ?? 'rapports@quizzly.com';
+  const resendKey = Deno.env.get('RESEND_API_KEY');
+  const fromEmail = Deno.env.get('REPORT_FROM_EMAIL') ?? 'rapports@erudia.app';
 
   if (!resendKey) {
     console.error('[send-report] RESEND_API_KEY manquante');
@@ -90,8 +108,8 @@ serve(async (req: Request): Promise<Response> => {
   }
 
   // Construction du contenu email
-  const isFr      = locale !== 'en';
-  const dateLabel  = new Date(generatedAt).toLocaleDateString(
+  const isFr     = locale !== 'en';
+  const dateLabel = new Date(generatedAt).toLocaleDateString(
     isFr ? 'fr-FR' : 'en-GB',
     { day: '2-digit', month: 'long', year: 'numeric' }
   );
@@ -117,14 +135,14 @@ serve(async (req: Request): Promise<Response> => {
         'Content-Type':  'application/json',
       },
       body: JSON.stringify({
-        from:    `Quizzly <${fromEmail}>`,
+        from:    `Erudia <${fromEmail}>`,
         to:      [email],
         subject,
         html:    htmlBody,
         attachments: [
           {
             filename,
-            content: pdfBase64,      // Resend accepte le base64 directement
+            content: pdfBase64,
           },
         ],
       }),
@@ -171,14 +189,14 @@ function buildEmailHtmlFr(pseudo: string, dateLabel: string): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rapport de progression Quizzly</title>
+  <title>Rapport de progression Erudia</title>
 </head>
 <body style="margin:0;padding:0;font-family:Arial,sans-serif;background:#f8f7ff;">
   <div style="max-width:560px;margin:32px auto;background:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.10);">
 
     <!-- Header -->
     <div style="background:linear-gradient(135deg,#667eea,#764ba2);padding:28px 32px;">
-      <h1 style="margin:0;font-size:22px;color:#ffffff;font-weight:800;">Quizzly</h1>
+      <h1 style="margin:0;font-size:22px;color:#ffffff;font-weight:800;">Erudia</h1>
       <p style="margin:6px 0 0;font-size:14px;color:rgba(255,255,255,0.85);">
         Rapport de progression de <strong>${pseudo}</strong>
       </p>
@@ -207,8 +225,8 @@ function buildEmailHtmlFr(pseudo: string, dateLabel: string): string {
     <!-- Footer -->
     <div style="background:#f3f4f6;padding:16px 32px;text-align:center;border-top:1px solid #e5e7eb;">
       <p style="margin:0;font-size:11px;color:#9ca3af;">
-        Quizzly — Application éducative pour les 6-13 ans<br>
-        Rapport confidentiel — réservé aux parents et enseignants
+        Erudia — Application éducative pour les 6-11 ans<br>
+        Rapport confidentiel — réservé aux parents
       </p>
     </div>
 
@@ -226,14 +244,14 @@ function buildEmailHtmlEn(pseudo: string, dateLabel: string): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quizzly Progress Report</title>
+  <title>Erudia Progress Report</title>
 </head>
 <body style="margin:0;padding:0;font-family:Arial,sans-serif;background:#f8f7ff;">
   <div style="max-width:560px;margin:32px auto;background:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.10);">
 
     <!-- Header -->
     <div style="background:linear-gradient(135deg,#667eea,#764ba2);padding:28px 32px;">
-      <h1 style="margin:0;font-size:22px;color:#ffffff;font-weight:800;">Quizzly</h1>
+      <h1 style="margin:0;font-size:22px;color:#ffffff;font-weight:800;">Erudia</h1>
       <p style="margin:6px 0 0;font-size:14px;color:rgba(255,255,255,0.85);">
         Progress report for <strong>${pseudo}</strong>
       </p>
@@ -262,8 +280,8 @@ function buildEmailHtmlEn(pseudo: string, dateLabel: string): string {
     <!-- Footer -->
     <div style="background:#f3f4f6;padding:16px 32px;text-align:center;border-top:1px solid #e5e7eb;">
       <p style="margin:0;font-size:11px;color:#9ca3af;">
-        Quizzly — Educational app for ages 6-13<br>
-        Confidential report — for parents and teachers only
+        Erudia — Educational app for ages 6-11<br>
+        Confidential report — for parents only
       </p>
     </div>
 

@@ -114,7 +114,7 @@ interface ProfileState {
   setCategoryGoal: (category: GoalCategory, target: number | null) => void;
   setReportSchedule: (schedule: ReportSchedule) => void;
   setLastGoalNotifDate: (date: string) => void;
-  mergeFromRemote: (remoteSessions: QuizSession[], remoteEarnedBadgeIds: string[], remoteProfile?: RemoteProfile | null) => void;
+  mergeFromRemote: (remoteSessions: QuizSession[], remoteEarnedBadgeIds: string[], remoteProfiles?: RemoteProfile[]) => void;
   completeDailyChallenge: (score: number, total: number) => DailyResult;
   /** @deprecated Utiliser addChildProfile — conservé pour rétro-compat OnboardingScreen */
   createProfile: (data: Omit<Profile, 'createdAt' | 'id'>) => void;
@@ -329,67 +329,108 @@ export const useProfileStore = create<ProfileState>()(
       setReportSchedule: (schedule) => set({ reportSchedule: schedule }),
       setLastGoalNotifDate: (date) => set({ lastGoalNotifDate: date }),
 
-      mergeFromRemote: (remoteSessions, remoteEarnedBadgeIds, remoteProfile) =>
+      mergeFromRemote: (remoteSessions, remoteEarnedBadgeIds, remoteProfiles) =>
         set((state) => {
+          const profiles = remoteProfiles ?? [];
           const existingDates = new Set(state.sessions.map((s) => s.playedAt));
           const newSessions = remoteSessions.filter((s) => !existingDates.has(s.playedAt));
           const mergedBadgeIds = [...new Set([...state.earnedBadgeIds, ...remoteEarnedBadgeIds])];
 
-          // Cas 1 : nouvel appareil (aucun profil local) + données cloud disponibles.
-          // On crée le profil depuis zéro avec l'identité cloud — le store sera hydraté,
-          // RootPage détectera profiles.length > 0 et redirigera vers /home.
-          if (remoteProfile && !state.profile) {
-            const id = generateUUID();
-            const restoredProfile: Profile = {
-              id,
-              pseudo:      remoteProfile.pseudo,
-              avatarId:    remoteProfile.avatarId,
-              avatarStyle: remoteProfile.avatarStyle,
-              locale:      remoteProfile.locale as Locale,
+          // Cas 1 : nouvel appareil (aucun profil local) — restaure TOUS les profils cloud.
+          // Le premier devient actif avec les sessions/badges mergés.
+          // Les suivants sont créés vides dans inactiveData.
+          if (!state.profile && profiles.length > 0) {
+            const firstId = generateUUID();
+            const first = profiles[0];
+            const restoredFirst: Profile = {
+              id:          firstId,
+              pseudo:      first.pseudo,
+              avatarId:    first.avatarId,
+              avatarStyle: first.avatarStyle,
+              locale:      first.locale as Locale,
               badgeEarned: mergedBadgeIds.length > 0,
               createdAt:   new Date().toISOString(),
             };
+
+            const additionalProfiles: Profile[] = profiles.slice(1).map((rp) => ({
+              id:          generateUUID(),
+              pseudo:      rp.pseudo,
+              avatarId:    rp.avatarId,
+              avatarStyle: rp.avatarStyle,
+              locale:      rp.locale as Locale,
+              badgeEarned: false,
+              createdAt:   new Date().toISOString(),
+            }));
+
+            const inactiveData: Record<string, InactiveProfileData> = {};
+            for (const p of additionalProfiles) {
+              inactiveData[p.id] = { ...EMPTY_PROFILE_DATA };
+            }
+
             return {
               deviceId:        state.deviceId ?? generateUUID(),
-              profiles:        [restoredProfile],
-              activeProfileId: id,
-              inactiveData:    {},
-              profile:         restoredProfile,
+              profiles:        [restoredFirst, ...additionalProfiles],
+              activeProfileId: firstId,
+              inactiveData,
+              profile:         restoredFirst,
               sessions:        newSessions,
               earnedBadgeIds:  mergedBadgeIds,
               newBadgesThisSession: [],
             };
           }
 
-          // Cas 2 : profil local existant avec pseudo différent du profil cloud → données
-          // d'un autre joueur (ex. second profil ajouté localement). On ignore totalement
-          // le merge pour ne pas écraser l'identité ni les sessions du profil actif.
-          if (remoteProfile && state.profile && remoteProfile.pseudo !== state.profile.pseudo) {
-            return {};
+          // Cas 2 : profils locaux existants.
+          // - Merge sessions/badges dans le profil actif.
+          // - Ajoute les profils distants absents localement (comparaison par pseudo).
+          // - Met à jour l'avatar/locale du profil actif si son pseudo correspond.
+          const localPseudos = new Set(state.profiles.map((p) => p.pseudo.toLowerCase()));
+          const newRemoteProfiles: Profile[] = profiles
+            .filter((rp) => !localPseudos.has(rp.pseudo.toLowerCase()))
+            .map((rp) => ({
+              id:          generateUUID(),
+              pseudo:      rp.pseudo,
+              avatarId:    rp.avatarId,
+              avatarStyle: rp.avatarStyle,
+              locale:      rp.locale as Locale,
+              badgeEarned: false,
+              createdAt:   new Date().toISOString(),
+            }));
+
+          const inactiveData = { ...state.inactiveData };
+          for (const p of newRemoteProfiles) {
+            inactiveData[p.id] = { ...EMPTY_PROFILE_DATA };
           }
 
-          // Cas 2 : profil local existant — restaure identité + merge sessions/badges.
+          // Mise à jour identité du profil actif si le cloud a une version plus récente
+          const remoteActive = profiles.find(
+            (rp) => state.profile && rp.pseudo.toLowerCase() === state.profile!.pseudo.toLowerCase()
+          );
           let updatedProfile = state.profile;
-          if (remoteProfile && state.profile) {
+          if (remoteActive && state.profile) {
             updatedProfile = {
               ...state.profile,
-              pseudo:      remoteProfile.pseudo,
-              avatarId:    remoteProfile.avatarId,
-              avatarStyle: remoteProfile.avatarStyle,
-              locale:      remoteProfile.locale as Locale,
+              avatarId:    remoteActive.avatarId,
+              avatarStyle: remoteActive.avatarStyle,
+              locale:      remoteActive.locale as Locale,
               badgeEarned: mergedBadgeIds.length > 0,
             };
           } else if (state.profile && mergedBadgeIds.length > 0) {
             updatedProfile = { ...state.profile, badgeEarned: true };
           }
 
+          const allProfiles = [
+            ...state.profiles.map((p) =>
+              p.id === state.activeProfileId && updatedProfile ? updatedProfile : p
+            ),
+            ...newRemoteProfiles,
+          ];
+
           return {
-            sessions: [...state.sessions, ...newSessions],
+            sessions:      [...state.sessions, ...newSessions],
             earnedBadgeIds: mergedBadgeIds,
-            profile: updatedProfile,
-            profiles: updatedProfile
-              ? state.profiles.map((p) => (p.id === state.activeProfileId ? updatedProfile! : p))
-              : state.profiles,
+            profile:       updatedProfile,
+            profiles:      allProfiles,
+            inactiveData,
           };
         }),
 
