@@ -58,13 +58,13 @@ export default function AuthProvider({
       setSession(session);
       const userId = session.user.id;
 
-      // ── Helper partagé : sync cross-device si premium ─────────────────
-      // Chaque profil enfant obtient sa propre ligne dans Supabase (local_profile_id).
-      async function syncIfPremium(isPremium: boolean) {
-        if (!isPremium) return;
+      // ── Helper partagé : sync cross-device (tous comptes authentifiés) ──
+      // Un compte parent connecté = sync active, gratuit ou premium.
+      // Les features premium portent sur le contenu, pas sur la portabilité.
+      async function syncOnLogin() {
         const { deviceId, profiles, mergeFromRemote } = useProfileStore.getState();
 
-        // Lie ET upsert TOUS les profils enfants du device vers le compte parent
+        // Upsert et lie TOUS les profils enfants du device vers le compte parent
         for (const p of profiles) {
           await linkProfileToAuthUser(p.id, userId);
           await syncProfile(deviceId ?? '', p, null, null);
@@ -100,7 +100,7 @@ export default function AuthProvider({
           if (isPremium) {
             setIsPremium(true);
             setLoading(false);
-            await syncIfPremium(true);
+            await syncOnLogin();
             return;
           }
 
@@ -108,6 +108,7 @@ export default function AuthProvider({
           if (!error) {
             setIsPremium(false);
             setLoading(false);
+            await syncOnLogin();
             return;
           }
 
@@ -140,7 +141,7 @@ export default function AuthProvider({
 
         setIsPremium(isPremium);
         setLoading(false);
-        await syncIfPremium(isPremium);
+        await syncOnLogin();
         return;
       }
 
