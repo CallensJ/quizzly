@@ -21,7 +21,7 @@ import { useEffect } from "react";
 import { supabase } from "@/lib/supabaseBrowser";
 import { useAuthStore } from "@/stores/authStore";
 import { useProfileStore } from "@/stores/profileStore";
-import { pullFromSupabase, linkProfileToAuthUser } from "@/lib/sync";
+import { pullFromSupabase, linkProfileToAuthUser, syncProfile } from "@/lib/sync";
 import { useOnlineSync } from "@/hooks/useOnlineSync";
 import { useGoalNotification } from "@/hooks/useGoalNotification";
 
@@ -58,13 +58,18 @@ export default function AuthProvider({
       setSession(session);
       const userId = session.user.id;
 
-      // ── Helper partagé : pull cross-device si premium ──────────────────
+      // ── Helper partagé : sync cross-device si premium ─────────────────
+      // Chaque profil enfant obtient sa propre ligne dans Supabase (local_profile_id).
       async function syncIfPremium(isPremium: boolean) {
         if (!isPremium) return;
-        const { deviceId, mergeFromRemote } = useProfileStore.getState();
-        if (deviceId) {
-          await linkProfileToAuthUser(deviceId, userId);
+        const { deviceId, profiles, mergeFromRemote } = useProfileStore.getState();
+
+        // Lie ET upsert TOUS les profils enfants du device vers le compte parent
+        for (const p of profiles) {
+          await linkProfileToAuthUser(p.id, userId);
+          await syncProfile(deviceId ?? '', p, null, null);
         }
+
         const pulled = await pullFromSupabase(deviceId ?? "", userId);
         if (pulled) {
           mergeFromRemote(

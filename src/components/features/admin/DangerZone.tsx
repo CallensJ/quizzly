@@ -26,8 +26,9 @@ interface Props {
 export default function DangerZone({ onReset }: Props) {
   const t = useTranslations('admin');
   const router = useRouter();
-  const deleteProfile = useProfileStore((s) => s.deleteProfile);
-  const deviceId      = useProfileStore((s) => s.deviceId);
+  const deleteProfile   = useProfileStore((s) => s.deleteProfile);
+  const activeProfileId = useProfileStore((s) => s.activeProfileId);
+  const allProfiles     = useProfileStore((s) => s.profiles);
   const [open,          setOpen]          = useState(false);
   const [confirmReset,  setConfirmReset]  = useState(false);
   const [resetDone,     setResetDone]     = useState(false);
@@ -46,9 +47,10 @@ export default function DangerZone({ onReset }: Props) {
         setDeleteLoading(false);
         return;
       }
-      // Délie le profil du compte parent et efface ses données cloud
-      // avant de supprimer le compte Auth — évite la restauration au prochain F5
-      if (deviceId) await unlinkAndCleanProfileFromSupabase(deviceId);
+      // Délie TOUS les profils enfants avant de supprimer le compte Auth
+      await Promise.allSettled(
+        allProfiles.map((p) => unlinkAndCleanProfileFromSupabase(p.id))
+      );
       // Supprime le compte côté Supabase (Auth + subscriptions)
       await fetch('/api/account/delete', {
         method: 'DELETE',
@@ -124,7 +126,7 @@ export default function DangerZone({ onReset }: Props) {
                       setResetDone(true);
                       setTimeout(() => setResetDone(false), 3000);
                       // Nettoyage cloud en arrière-plan — empêche la restauration au F5
-                      if (deviceId) resetProfileDataInSupabase(deviceId).catch(() => {});
+                      if (activeProfileId) resetProfileDataInSupabase(activeProfileId).catch(() => {});
                     }}
                   >
                     {t('dangerResetConfirm')}

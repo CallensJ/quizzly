@@ -23,7 +23,6 @@ export default function ChildProfilesSection() {
 
   const profiles           = useProfileStore((s) => s.profiles);
   const activeProfileId    = useProfileStore((s) => s.activeProfileId);
-  const deviceId           = useProfileStore((s) => s.deviceId);
   const switchProfile      = useProfileStore((s) => s.switchProfile);
   const removeChildProfile = useProfileStore((s) => s.removeChildProfile);
 
@@ -39,11 +38,10 @@ export default function ChildProfilesSection() {
   }
 
   function handleDeleteChild(id: string) {
+    // Nettoyage cloud en arrière-plan AVANT removeChildProfile pour avoir le profil encore en store
+    unlinkAndCleanProfileFromSupabase(id).catch(() => {});
     removeChildProfile(id);
     setDeleteChildId(null);
-    // Le parent reste sur la page admin pour pouvoir créer un nouveau profil immédiatement.
-    // Nettoyage cloud en arrière-plan — empêche pullFromSupabase de restaurer le profil au F5
-    if (deviceId) unlinkAndCleanProfileFromSupabase(deviceId).catch(() => {});
   }
 
   return (

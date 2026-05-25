@@ -53,7 +53,7 @@ export default function ReportSection() {
   const dailyXp          = useProfileStore((s) => s.dailyXp);
   const adminEmail       = useProfileStore((s) => s.adminEmail);
   const dailyGoal        = useProfileStore((s) => s.dailyGoal);
-  const deviceId         = useProfileStore((s) => s.deviceId);
+  const activeProfileId  = useProfileStore((s) => s.activeProfileId);
   const reportSchedule   = useProfileStore((s) => s.reportSchedule);
   const setReportSchedule = useProfileStore((s) => s.setReportSchedule);
   const session          = useAuthStore((s) => s.session);
@@ -172,8 +172,8 @@ export default function ReportSection() {
   async function handleScheduleChange(schedule: ReportSchedule) {
     setReportSchedule(schedule);
     // Sync vers Supabase — report_schedule persiste en base pour le cron serveur
-    if (deviceId) {
-      await syncAdminSettings(deviceId, dailyGoal, adminEmail, schedule);
+    if (activeProfileId) {
+      await syncAdminSettings(activeProfileId, dailyGoal, adminEmail, schedule);
     }
     setScheduleSaved(true);
     setTimeout(() => setScheduleSaved(false), 2500);

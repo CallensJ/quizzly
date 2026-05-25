@@ -29,6 +29,7 @@ export interface PendingSync {
   id?: number;          // autoincrement (clé primaire)
   type: PendingSyncType;
   deviceId: string;
+  profileId?: string;   // UUID local du profil enfant (absent dans les anciens items)
   payload: unknown;
   createdAt: number;    // timestamp ms
 }

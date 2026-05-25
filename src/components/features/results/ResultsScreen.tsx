@@ -50,7 +50,7 @@ export default function ResultsScreen() {
   const { status, score, category, difficulty, questions, challengeId, isDailyChallenge, totalTimeMs, startQuiz, resetAll } = useQuizStore();
   const { isPremium } = useSubscription();
   const soundEnabled           = useProfileStore((s) => s.soundEnabled);
-  const deviceId               = useProfileStore((s) => s.deviceId);
+  const activeProfileId        = useProfileStore((s) => s.activeProfileId);
   const profile                = useProfileStore((s) => s.profile);
   const multiplayerUnlocked    = useProfileStore((s) => s.multiplayerUnlocked);
   const newBadgesThisSession   = useProfileStore((s) => s.newBadgesThisSession);
@@ -104,12 +104,11 @@ export default function ResultsScreen() {
 
     // Sync Supabase — fire-and-forget, les données Zustand sont déjà persistées
     // QuizScreen appelle addSession() + earnBadge() avant de naviguer ici
-    if (deviceId && category && difficulty) {
-      const { sessions } = useProfileStore.getState();
-      // La dernière session insérée correspond à la partie qui vient de se terminer
+    if (activeProfileId && category && difficulty) {
+      const { sessions, earnedBadgeIds } = useProfileStore.getState();
       const lastSession = sessions[sessions.length - 1];
-      if (lastSession) syncSession(deviceId, lastSession);
-      if (badgeEarnedThisSession) syncBadge(deviceId, true);
+      if (lastSession) syncSession(activeProfileId, lastSession);
+      if (badgeEarnedThisSession) syncBadge(activeProfileId, true, earnedBadgeIds);
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 

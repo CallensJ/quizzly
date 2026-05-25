@@ -22,6 +22,8 @@ import { Plus, X, Check } from 'lucide-react';
 import { buildAvatarUrl, FREE_SEEDS, FREE_STYLE } from '@/lib/avatars';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
 import { useSubscription } from '@/hooks/useSubscription';
+import { syncProfile, linkProfileToAuthUser } from '@/lib/sync';
+import { useAuthStore } from '@/stores/authStore';
 
 export default function ProfileSelector() {
   const t = useTranslations('profiles');
@@ -61,10 +63,19 @@ export default function ProfileSelector() {
       badgeEarned: false,
       locale: useProfileStore.getState().profile?.locale ?? 'fr',
     });
+
+    // Sync du nouveau profil vers Supabase en arrière-plan
+    const { deviceId, activeProfileId, profiles } = useProfileStore.getState();
+    const newProfile = profiles.find((p) => p.id === activeProfileId);
+    if (deviceId && newProfile) {
+      syncProfile(deviceId, newProfile, null, null).catch(() => {});
+      const authUser = useAuthStore.getState().user;
+      if (authUser) linkProfileToAuthUser(newProfile.id, authUser.id).catch(() => {});
+    }
+
     setShowAddForm(false);
     setNewPseudo('');
     setNewAvatarId(null);
-    // Nova welcome — nouveau profil enfant ajouté
     showNova('welcome', tNova('newChild'), 3000);
     router.replace('/home');
   }

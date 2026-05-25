@@ -4,14 +4,17 @@
  * Couche de synchronisation locale ↔ Supabase.
  * Stratégie : local-first — Zustand/localStorage est la source de vérité.
  *
+ * Identifiant de profil : local_profile_id (UUID Zustand du profil enfant).
+ * Chaque enfant a sa propre ligne dans la table `profiles` (migration 20260525).
+ *
  * Fonctions exportées :
- *   - syncProfile(deviceId, profile, dailyGoal, adminEmail) — upsert profil + config admin
- *   - syncAdminSettings(deviceId, dailyGoal, adminEmail)    — upsert config admin seule
- *   - syncSession(deviceId, session)                        — insert session (avec queue offline)
- *   - syncBadge(deviceId, badgeEarned, earnedBadgeIds)      — upsert badges
- *   - processOfflineQueue()                                 — rejoue les syncs en attente
- *   - linkProfileToAuthUser(deviceId, authUserId)           — lie le profil au compte parent
- *   - pullFromSupabase(deviceId, authUserId?)               — sync bidirectionnelle → local (premium only)
+ *   - syncProfile(deviceId, profile, dailyGoal, adminEmail)   — upsert profil + config admin
+ *   - syncAdminSettings(profileId, dailyGoal, adminEmail)     — upsert config admin seule
+ *   - syncSession(profileId, session)                         — insert session
+ *   - syncBadge(profileId, badgeEarned, earnedBadgeIds)       — upsert badges
+ *   - processOfflineQueue()                                   — rejoue les syncs en attente
+ *   - linkProfileToAuthUser(profileId, authUserId)            — lie le profil au compte parent
+ *   - pullFromSupabase(deviceId, authUserId?)                 — sync bidirectionnelle → local (premium only)
  */
 
 import { supabase } from './supabaseBrowser';
@@ -23,8 +26,8 @@ import type { ReportSchedule } from './report';
 
 /**
  * Upsert le profil dans Supabase.
- * Identifié par device_id (UUID local généré à l'onboarding).
- * Si la connexion échoue, l'app continue normalement (local-first).
+ * Identifié par local_profile_id (UUID local du profil enfant).
+ * Chaque enfant a sa propre ligne — N enfants par device sont supportés.
  */
 export async function syncProfile(
   deviceId: string,
@@ -39,7 +42,13 @@ export async function syncProfile(
     const db = getDB();
     if (db) {
       await db.pendingSyncs
-        .add({ type: 'profile', deviceId, payload: { profile, dailyGoal, adminEmail }, createdAt: Date.now() })
+        .add({
+          type: 'profile',
+          deviceId,
+          profileId: profile.id,
+          payload: { profile, dailyGoal, adminEmail },
+          createdAt: Date.now(),
+        })
         .catch(() => {});
     }
   }
@@ -55,16 +64,17 @@ async function _syncProfileCore(
     .from('profiles')
     .upsert(
       {
-        device_id:    deviceId,
-        pseudo:       profile.pseudo,
-        avatar_id:    profile.avatarId,
-        avatar_style: profile.avatarStyle ?? 'adventurer',
-        locale:       profile.locale,
-        age_group:    '6-11', // supprimé de l'app MVP 4, hardcodé pour rétro-compat Supabase
-        created_at:   profile.createdAt,
-        updated_at:   new Date().toISOString(),
+        local_profile_id: profile.id,                    // clé unique par enfant
+        device_id:        deviceId,
+        pseudo:           profile.pseudo,
+        avatar_id:        profile.avatarId,
+        avatar_style:     profile.avatarStyle ?? 'adventurer',
+        locale:           profile.locale,
+        age_group:        '6-11',
+        created_at:       profile.createdAt,
+        updated_at:       new Date().toISOString(),
       },
-      { onConflict: 'device_id' }
+      { onConflict: 'local_profile_id' }
     )
     .select('id')
     .single();
@@ -90,12 +100,14 @@ async function _syncProfileCore(
  * Upsert la config admin (objectif journalier + email adulte + consentement RGPD)
  * sans re-syncer le profil entier.
  *
+ * profileId : UUID local du profil enfant actif (local_profile_id en DB).
+ *
  * consent_email : true = consentement donné explicitement (RGPD Art. 6.1.a)
  * Si false, admin_email est effacé côté DB (null) — l'email ne peut pas être
  * stocké sans consentement.
  */
 export async function syncAdminSettings(
-  deviceId: string,
+  profileId: string,
   dailyGoal: number | null,
   adminEmail: string | null,
   reportSchedule?: ReportSchedule,
@@ -105,12 +117,11 @@ export async function syncAdminSettings(
     const { data: profileRow } = await supabase
       .from('profiles')
       .select('id')
-      .eq('device_id', deviceId)
+      .eq('local_profile_id', profileId)
       .maybeSingle();
 
     if (!profileRow) return;
 
-    // Si le consentement est explicitement retiré, on efface l'email en DB
     const consentGiven = emailConsent ?? false;
     const emailToStore = consentGiven ? adminEmail : null;
 
@@ -137,31 +148,30 @@ export async function syncAdminSettings(
 
 /**
  * Insère une session de quiz dans Supabase.
- * En cas d'échec réseau, la session est ajoutée à la queue offline (Dexie)
- * et sera rejouée au prochain retour de connexion.
+ * profileId : UUID local du profil enfant actif.
+ * En cas d'échec réseau, la session est ajoutée à la queue offline (Dexie).
  */
 export async function syncSession(
-  deviceId: string,
+  profileId: string,
   session: QuizSession
 ): Promise<void> {
   try {
-    await _syncSessionCore(deviceId, session);
+    await _syncSessionCore(profileId, session);
   } catch {
-    // Offline ou erreur réseau — mise en queue pour retry
     const db = getDB();
     if (db) {
       await db.pendingSyncs
-        .add({ type: 'session', deviceId, payload: session, createdAt: Date.now() })
+        .add({ type: 'session', deviceId: profileId, profileId, payload: session, createdAt: Date.now() })
         .catch(() => {});
     }
   }
 }
 
-async function _syncSessionCore(deviceId: string, session: QuizSession): Promise<void> {
+async function _syncSessionCore(profileId: string, session: QuizSession): Promise<void> {
   const { data: profileRow } = await supabase
     .from('profiles')
     .select('id')
-    .eq('device_id', deviceId)
+    .eq('local_profile_id', profileId)
     .maybeSingle();
 
   if (!profileRow) throw new Error('Profile not found');
@@ -182,10 +192,10 @@ async function _syncSessionCore(deviceId: string, session: QuizSession): Promise
 
 /**
  * Upsert le statut badge du joueur dans Supabase.
- * Stocke également les IDs individuels pour la sync bidirectionnelle.
+ * profileId : UUID local du profil enfant actif.
  */
 export async function syncBadge(
-  deviceId: string,
+  profileId: string,
   badgeEarned: boolean,
   earnedBadgeIds: string[] = []
 ): Promise<void> {
@@ -193,7 +203,7 @@ export async function syncBadge(
     const { data: profileRow } = await supabase
       .from('profiles')
       .select('id')
-      .eq('device_id', deviceId)
+      .eq('local_profile_id', profileId)
       .maybeSingle();
 
     if (!profileRow) return;
@@ -219,7 +229,6 @@ export async function syncBadge(
 /**
  * Rejoue toutes les syncs en attente dans la queue Dexie.
  * Appelé automatiquement au retour de connexion (hook useOnlineSync).
- * Les items traités avec succès sont supprimés de la queue.
  */
 export async function processOfflineQueue(): Promise<void> {
   const db = getDB();
@@ -231,7 +240,9 @@ export async function processOfflineQueue(): Promise<void> {
   for (const item of pending) {
     try {
       if (item.type === 'session') {
-        await _syncSessionCore(item.deviceId, item.payload as QuizSession);
+        // profileId prioritaire sur deviceId (compatibilité items anciens)
+        const pid = item.profileId ?? item.deviceId;
+        await _syncSessionCore(pid, item.payload as QuizSession);
       } else if (item.type === 'profile') {
         const { profile, dailyGoal, adminEmail } = item.payload as {
           profile: Profile;
@@ -240,10 +251,9 @@ export async function processOfflineQueue(): Promise<void> {
         };
         await _syncProfileCore(item.deviceId, profile, dailyGoal, adminEmail);
       }
-      // Succès — supprime l'item de la queue
       if (item.id !== undefined) await db.pendingSyncs.delete(item.id);
     } catch {
-      // Toujours en échec — laisse dans la queue pour la prochaine reconnexion
+      // Toujours en échec — laisse dans la queue
     }
   }
 }
@@ -252,15 +262,14 @@ export async function processOfflineQueue(): Promise<void> {
 
 /**
  * Supprime sessions + badges d'un profil dans Supabase.
- * Appelé après resetProgress() local pour éviter que pullFromSupabase
- * restaure la progression effacée au prochain F5.
+ * profileId : UUID local du profil enfant.
  */
-export async function resetProfileDataInSupabase(deviceId: string): Promise<void> {
+export async function resetProfileDataInSupabase(profileId: string): Promise<void> {
   try {
     const { data: profileRow } = await supabase
       .from('profiles')
       .select('id')
-      .eq('device_id', deviceId)
+      .eq('local_profile_id', profileId)
       .maybeSingle();
     if (!profileRow) return;
     await supabase.from('sessions').delete().eq('profile_id', profileRow.id);
@@ -271,16 +280,15 @@ export async function resetProfileDataInSupabase(deviceId: string): Promise<void
 }
 
 /**
- * Délie le profil de son compte parent Supabase et efface ses sessions/badges.
- * Appelé avant la suppression locale d'un profil pour empêcher pullFromSupabase
- * de le restaurer au prochain F5 (Cas 1 : profile null → recréation cloud).
+ * Délie un profil de son compte parent Supabase et efface ses sessions/badges.
+ * profileId : UUID local du profil enfant.
  */
-export async function unlinkAndCleanProfileFromSupabase(deviceId: string): Promise<void> {
+export async function unlinkAndCleanProfileFromSupabase(profileId: string): Promise<void> {
   try {
     const { data: profileRow } = await supabase
       .from('profiles')
       .select('id')
-      .eq('device_id', deviceId)
+      .eq('local_profile_id', profileId)
       .maybeSingle();
     if (!profileRow) return;
     await supabase.from('sessions').delete().eq('profile_id', profileRow.id);
@@ -297,19 +305,18 @@ export async function unlinkAndCleanProfileFromSupabase(deviceId: string): Promi
 // ─── Lien profil → compte parent ──────────────────────────────────────────────
 
 /**
- * Lie le profil du device au compte Supabase Auth du parent.
- * Appelé à chaque SIGNED_IN pour maintenir le lien à jour.
- * Permet la restauration cross-device en mode premium.
+ * Lie le profil enfant au compte Supabase Auth du parent.
+ * profileId : UUID local du profil enfant (local_profile_id en DB).
  */
 export async function linkProfileToAuthUser(
-  deviceId: string,
+  profileId: string,
   authUserId: string
 ): Promise<void> {
   try {
     await supabase
       .from('profiles')
       .update({ auth_user_id: authUserId })
-      .eq('device_id', deviceId);
+      .eq('local_profile_id', profileId);
   } catch {
     // Échec silencieux — non critique
   }
@@ -317,9 +324,8 @@ export async function linkProfileToAuthUser(
 
 // ─── Sync bidirectionnelle ────────────────────────────────────────────────────
 
-// Identité profil enfant tirée du cloud
 export interface RemoteProfile {
-  deviceId: string;  // device_id source — sert à éviter les doublons au merge
+  deviceId: string;
   pseudo: string;
   avatarId: string;
   avatarStyle: string;
@@ -327,7 +333,7 @@ export interface RemoteProfile {
 }
 
 export interface PulledData {
-  profiles: RemoteProfile[];  // tous les profils liés au compte parent
+  profiles: RemoteProfile[];
   sessions: QuizSession[];
   earnedBadgeIds: string[];
 }
@@ -337,17 +343,12 @@ export interface PulledData {
  *
  * Si authUserId est fourni, cherche tous les profils liés à ce compte parent
  * (sync cross-device). Sinon, fallback sur device_id (même appareil).
- *
- * Retourne null si aucun profil trouvé.
- *
- * Sync complète : pseudo, avatar, locale, sessions, badges.
  */
 export async function pullFromSupabase(
   deviceId: string,
   authUserId?: string
 ): Promise<PulledData | null> {
   try {
-    // Cherche le(s) profil(s) — par auth_user_id si dispo, sinon device_id
     const query = authUserId
       ? supabase.from('profiles').select('id, device_id, pseudo, avatar_id, avatar_style, locale').eq('auth_user_id', authUserId)
       : supabase.from('profiles').select('id, device_id, pseudo, avatar_id, avatar_style, locale').eq('device_id', deviceId).limit(1);
@@ -355,7 +356,6 @@ export async function pullFromSupabase(
     const { data: profileRows } = await query;
     if (!profileRows || profileRows.length === 0) return null;
 
-    // Tous les profils liés au compte parent (un par device connecté)
     const remoteProfiles: RemoteProfile[] = profileRows.map((r) => ({
       deviceId:    r.device_id,
       pseudo:      r.pseudo,
@@ -366,14 +366,12 @@ export async function pullFromSupabase(
 
     const profileIds = profileRows.map((r) => r.id);
 
-    // Sessions — historique complet pour tous les profils du parent
     const { data: sessionRows } = await supabase
       .from('sessions')
       .select('category, difficulty, score, total, played_at')
       .in('profile_id', profileIds)
       .order('played_at', { ascending: false });
 
-    // Badges — union de tous les profils
     const { data: badgeRows } = await supabase
       .from('badges')
       .select('earned_badge_ids')

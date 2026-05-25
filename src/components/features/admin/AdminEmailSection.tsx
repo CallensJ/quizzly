@@ -26,7 +26,7 @@ export default function AdminEmailSection() {
   const adminEmail        = useProfileStore((s) => s.adminEmail);
   const emailConsent      = useProfileStore((s) => s.emailConsent);
   const dailyGoal         = useProfileStore((s) => s.dailyGoal);
-  const deviceId          = useProfileStore((s) => s.deviceId);
+  const activeProfileId   = useProfileStore((s) => s.activeProfileId);
   const setAdminEmail     = useProfileStore((s) => s.setAdminEmail);
   const setEmailConsent   = useProfileStore((s) => s.setEmailConsent);
 
@@ -55,7 +55,7 @@ export default function AdminEmailSection() {
     const value = normalized === '' ? null : normalized;
     setAdminEmail(value);
     setEmailConsent(true);
-    if (deviceId) syncAdminSettings(deviceId, dailyGoal, value, undefined, true);
+    if (activeProfileId) syncAdminSettings(activeProfileId, dailyGoal, value, undefined, true);
     setEmailFeedback('saved');
     setTimeout(() => setEmailFeedback(null), 2500);
   }
@@ -66,7 +66,7 @@ export default function AdminEmailSection() {
     setConsentChecked(false);
     setEmailConsent(false);
     // Retrait du consentement → email effacé en DB (consent_email = false)
-    if (deviceId) syncAdminSettings(deviceId, dailyGoal, null, undefined, false);
+    if (activeProfileId) syncAdminSettings(activeProfileId, dailyGoal, null, undefined, false);
   }
 
   return (
