@@ -22,7 +22,7 @@ import { Plus, X, Check } from 'lucide-react';
 import { buildAvatarUrl, FREE_SEEDS, FREE_STYLE } from '@/lib/avatars';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
 import { useSubscription } from '@/hooks/useSubscription';
-import { syncProfile, linkProfileToAuthUser } from '@/lib/sync';
+import { syncProfile } from '@/lib/sync';
 import { useAuthStore } from '@/stores/authStore';
 
 export default function ProfileSelector() {
@@ -68,9 +68,8 @@ export default function ProfileSelector() {
     const { deviceId, activeProfileId, profiles } = useProfileStore.getState();
     const newProfile = profiles.find((p) => p.id === activeProfileId);
     if (deviceId && newProfile) {
-      syncProfile(deviceId, newProfile, null, null).catch(() => {});
       const authUser = useAuthStore.getState().user;
-      if (authUser) linkProfileToAuthUser(newProfile.id, authUser.id).catch(() => {});
+      syncProfile(deviceId, newProfile, null, null, authUser?.id).catch(() => {});
     }
 
     setShowAddForm(false);

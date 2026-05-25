@@ -33,10 +33,11 @@ export async function syncProfile(
   deviceId: string,
   profile: Profile,
   dailyGoal: number | null,
-  adminEmail: string | null = null
+  adminEmail: string | null = null,
+  authUserId?: string
 ): Promise<void> {
   try {
-    await _syncProfileCore(deviceId, profile, dailyGoal, adminEmail);
+    await _syncProfileCore(deviceId, profile, dailyGoal, adminEmail, authUserId);
   } catch {
     // Échec réseau — ajout à la queue offline pour retry
     const db = getDB();
@@ -46,7 +47,7 @@ export async function syncProfile(
           type: 'profile',
           deviceId,
           profileId: profile.id,
-          payload: { profile, dailyGoal, adminEmail },
+          payload: { profile, dailyGoal, adminEmail, authUserId },
           createdAt: Date.now(),
         })
         .catch(() => {});
@@ -58,13 +59,14 @@ async function _syncProfileCore(
   deviceId: string,
   profile: Profile,
   dailyGoal: number | null,
-  adminEmail: string | null
+  adminEmail: string | null,
+  authUserId?: string
 ): Promise<void> {
   const { data: profileRow, error: profileError } = await supabase
     .from('profiles')
     .upsert(
       {
-        local_profile_id: profile.id,                    // clé unique par enfant
+        local_profile_id: profile.id,
         device_id:        deviceId,
         pseudo:           profile.pseudo,
         avatar_id:        profile.avatarId,
@@ -73,6 +75,8 @@ async function _syncProfileCore(
         age_group:        '6-11',
         created_at:       profile.createdAt,
         updated_at:       new Date().toISOString(),
+        // auth_user_id inclus directement pour que le pull cross-device fonctionne immédiatement
+        ...(authUserId ? { auth_user_id: authUserId } : {}),
       },
       { onConflict: 'local_profile_id' }
     )

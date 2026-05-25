@@ -64,10 +64,9 @@ export default function AuthProvider({
       async function syncOnLogin() {
         const { deviceId, profiles, mergeFromRemote } = useProfileStore.getState();
 
-        // Upsert et lie TOUS les profils enfants du device vers le compte parent
+        // Upsert TOUS les profils avec auth_user_id inclus — une seule opération
         for (const p of profiles) {
-          await linkProfileToAuthUser(p.id, userId);
-          await syncProfile(deviceId ?? '', p, null, null);
+          await syncProfile(deviceId ?? '', p, null, null, userId);
         }
 
         const pulled = await pullFromSupabase(deviceId ?? "", userId);
