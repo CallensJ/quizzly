@@ -19,7 +19,6 @@ const CATEGORY_COLORS: Record<string, string> = {
   math:        '#FF5252',
   cuisine:     '#FF7043',
   technologie: '#00ACC1',
-  mythologie:  '#7B1FA2',
   espace:      '#3F51B5',
   francais:    '#1565C0',
   anglais:     '#0288D1',
@@ -51,7 +50,6 @@ export const CATEGORY_EMOJI: Record<string, string> = {
   technologie:        '💻',
   musique:            '🎵',
   'education-civique':'⚖️',
-  mythology:          '✨',
 };
 
 /** Retourne la couleur hex d'une catégorie, ou le primary (#667eea) par défaut. */

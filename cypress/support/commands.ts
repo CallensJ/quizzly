@@ -34,15 +34,9 @@ Cypress.Commands.add('setupProfile', () => {
           soundEnabled: false, // sons désactivés pour ne pas bloquer les tests
           adminPin: null,
           adminEmail: null,
-          dailyGoal: null,
-          multiplayerUnlocked: false,
-          reportSchedule: 'none',
           earnedBadgeIds: [],
           dailyStreak: 0,
           dailyLastDate: null,
-          dailyXp: 0,
-          dailyShields: 0,
-          dailyTodayScore: null,
         },
         version: 0,
       })

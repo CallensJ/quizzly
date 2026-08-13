@@ -1,12 +1,16 @@
-// jest.config.ts
+// jest.config.js
 //
 // Configuration principale de Jest pour Quizzly.
 // Utilise ts-jest pour transpiler TypeScript sans build Next.js.
 // L'environnement jsdom simule un navigateur (requis par Zustand pour localStorage).
+//
+// En .js plutôt qu'en .ts : Jest ne peut lire un jest.config.ts qu'en
+// installant `ts-node`, absent des devDependencies du projet. Le fichier
+// n'a aucun besoin de typage — le convertir évite une dépendance de plus
+// (cf. context/coding-standards.md : éviter les dépendances superflues).
 
-import type { Config } from 'jest';
-
-const config: Config = {
+/** @type {import('jest').Config} */
+const config = {
   // ts-jest : transpile les fichiers TypeScript à la volée
   preset: 'ts-jest',
 
@@ -33,4 +37,4 @@ const config: Config = {
   clearMocks: true,
 };
 
-export default config;
+module.exports = config;

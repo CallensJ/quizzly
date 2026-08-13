@@ -18,8 +18,6 @@ import { useProfileStore } from "@/stores/profileStore";
 import { useAuthStore } from "@/stores/authStore";
 import { signOut } from "@/lib/auth";
 import { useNovaPresence } from "@/hooks/useNovaPresence";
-import ReportSection from "./ReportSection";
-import GoalsSection from "./GoalsSection";
 import SubscriptionSection from "./SubscriptionSection";
 import ChildProfilesSection from "./ChildProfilesSection";
 import DangerZone from "./DangerZone";
@@ -34,13 +32,8 @@ export default function AdminScreen() {
 
   const profile = useProfileStore((s) => s.profile);
   const sessions = useProfileStore((s) => s.sessions);
-  const dailyGoal = useProfileStore((s) => s.dailyGoal);
   const authUser = useAuthStore((s) => s.user);
 
-  const setMultiplayerUnlocked = useProfileStore(
-    (s) => s.setMultiplayerUnlocked,
-  );
-  const setDailyGoal = useProfileStore((s) => s.setDailyGoal);
   const resetProgress = useProfileStore((s) => s.resetProgress);
 
   useEffect(() => {
@@ -49,8 +42,6 @@ export default function AdminScreen() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const [goalFeedback, setGoalFeedback] = useState(false);
-  const [selectedGoal, setSelectedGoal] = useState<number>(dailyGoal ?? 0);
   const [aboutOpen, setAboutOpen] = useState(false);
   const [today, setToday] = useState('');
 
@@ -62,11 +53,6 @@ export default function AdminScreen() {
     );
   }, []);
 
-  function handleSaveGoal() {
-    setDailyGoal(selectedGoal === 0 ? null : selectedGoal);
-    setGoalFeedback(true);
-    setTimeout(() => setGoalFeedback(false), 2500);
-  }
 
   async function handleSignOut() {
     // Navigate first so the admin guard doesn't race with the auth state change
@@ -162,15 +148,6 @@ export default function AdminScreen() {
           </AdminErrorBoundary>
         </div>
 
-        {/* ── Col droite : Objectifs + Rapport (empilés sans gap de row) ────── */}
-        <div className="admin__col-right">
-          <AdminErrorBoundary label="Goals">
-            <GoalsSection />
-          </AdminErrorBoundary>
-          <AdminErrorBoundary label="Report">
-            <ReportSection />
-          </AdminErrorBoundary>
-        </div>
 
         {/* ── Zone de danger — pleine largeur ───────────────────────────────── */}
         <AdminErrorBoundary label="DangerZone">

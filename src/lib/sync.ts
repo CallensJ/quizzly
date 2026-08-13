@@ -8,8 +8,8 @@
  * Chaque enfant a sa propre ligne dans la table `profiles` (migration 20260525).
  *
  * Fonctions exportées :
- *   - syncProfile(deviceId, profile, dailyGoal, adminEmail)   — upsert profil + config admin
- *   - syncAdminSettings(profileId, dailyGoal, adminEmail)     — upsert config admin seule
+ *   - syncProfile(deviceId, profile, adminEmail)              — upsert profil + config admin
+ *   - syncAdminSettings(profileId, adminEmail)                — upsert config admin seule
  *   - syncSession(profileId, session)                         — insert session
  *   - syncBadge(profileId, badgeEarned, earnedBadgeIds)       — upsert badges
  *   - processOfflineQueue()                                   — rejoue les syncs en attente
@@ -20,7 +20,6 @@
 import { supabase } from './supabaseBrowser';
 import { getDB } from './db';
 import type { Profile, QuizSession, Category, Difficulty } from '@/types';
-import type { ReportSchedule } from './report';
 
 // ─── Profil ───────────────────────────────────────────────────────────────────
 
@@ -32,12 +31,11 @@ import type { ReportSchedule } from './report';
 export async function syncProfile(
   deviceId: string,
   profile: Profile,
-  dailyGoal: number | null,
   adminEmail: string | null = null,
   authUserId?: string
 ): Promise<void> {
   try {
-    await _syncProfileCore(deviceId, profile, dailyGoal, adminEmail, authUserId);
+    await _syncProfileCore(deviceId, profile, adminEmail, authUserId);
   } catch {
     // Échec réseau — ajout à la queue offline pour retry
     const db = getDB();
@@ -47,7 +45,7 @@ export async function syncProfile(
           type: 'profile',
           deviceId,
           profileId: profile.id,
-          payload: { profile, dailyGoal, adminEmail, authUserId },
+          payload: { profile, adminEmail, authUserId },
           createdAt: Date.now(),
         })
         .catch(() => {});
@@ -58,7 +56,6 @@ export async function syncProfile(
 async function _syncProfileCore(
   deviceId: string,
   profile: Profile,
-  dailyGoal: number | null,
   adminEmail: string | null,
   authUserId?: string
 ): Promise<void> {
@@ -90,7 +87,6 @@ async function _syncProfileCore(
     .upsert(
       {
         profile_id:  profileRow.id,
-        daily_goal:  dailyGoal,
         admin_email: adminEmail,
         updated_at:  new Date().toISOString(),
       },
@@ -112,9 +108,7 @@ async function _syncProfileCore(
  */
 export async function syncAdminSettings(
   profileId: string,
-  dailyGoal: number | null,
   adminEmail: string | null,
-  reportSchedule?: ReportSchedule,
   emailConsent?: boolean
 ): Promise<void> {
   try {
@@ -134,11 +128,9 @@ export async function syncAdminSettings(
       .upsert(
         {
           profile_id:          profileRow.id,
-          daily_goal:          dailyGoal,
           admin_email:         emailToStore,
           consent_email:       consentGiven,
           consent_email_date:  consentGiven ? new Date().toISOString() : null,
-          ...(reportSchedule !== undefined ? { report_schedule: reportSchedule } : {}),
           updated_at:          new Date().toISOString(),
         },
         { onConflict: 'profile_id' }
@@ -248,12 +240,11 @@ export async function processOfflineQueue(): Promise<void> {
         const pid = item.profileId ?? item.deviceId;
         await _syncSessionCore(pid, item.payload as QuizSession);
       } else if (item.type === 'profile') {
-        const { profile, dailyGoal, adminEmail } = item.payload as {
+        const { profile, adminEmail } = item.payload as {
           profile: Profile;
-          dailyGoal: number | null;
           adminEmail: string | null;
         };
-        await _syncProfileCore(item.deviceId, profile, dailyGoal, adminEmail);
+        await _syncProfileCore(item.deviceId, profile, adminEmail);
       }
       if (item.id !== undefined) await db.pendingSyncs.delete(item.id);
     } catch {

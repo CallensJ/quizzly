@@ -4,7 +4,7 @@
  * src/components/features/admin/AdminEmailSection.tsx
  *
  * Section de configuration de l'email adulte — espace parent.
- * Permet de renseigner l'email de contact pour les rapports PDF.
+ * Permet de renseigner l'email de contact du parent.
  *
  * RGPD Art. 6.1.a : collecte conditionnée à un consentement explicite via checkbox.
  * Sans consentement coché, l'email ne peut pas être sauvegardé.
@@ -25,7 +25,6 @@ export default function AdminEmailSection() {
 
   const adminEmail        = useProfileStore((s) => s.adminEmail);
   const emailConsent      = useProfileStore((s) => s.emailConsent);
-  const dailyGoal         = useProfileStore((s) => s.dailyGoal);
   const activeProfileId   = useProfileStore((s) => s.activeProfileId);
   const setAdminEmail     = useProfileStore((s) => s.setAdminEmail);
   const setEmailConsent   = useProfileStore((s) => s.setEmailConsent);
@@ -55,7 +54,7 @@ export default function AdminEmailSection() {
     const value = normalized === '' ? null : normalized;
     setAdminEmail(value);
     setEmailConsent(true);
-    if (activeProfileId) syncAdminSettings(activeProfileId, dailyGoal, value, undefined, true);
+    if (activeProfileId) syncAdminSettings(activeProfileId, value, true);
     setEmailFeedback('saved');
     setTimeout(() => setEmailFeedback(null), 2500);
   }
@@ -66,7 +65,7 @@ export default function AdminEmailSection() {
     setConsentChecked(false);
     setEmailConsent(false);
     // Retrait du consentement → email effacé en DB (consent_email = false)
-    if (activeProfileId) syncAdminSettings(activeProfileId, dailyGoal, null, undefined, false);
+    if (activeProfileId) syncAdminSettings(activeProfileId, null, false);
   }
 
   return (

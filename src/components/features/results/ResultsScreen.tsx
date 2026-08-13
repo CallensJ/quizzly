@@ -11,11 +11,7 @@
  *   Rejouer → recharge le même pool de questions → startQuiz() → /quiz
  *   Retour  → resetAll() → /home
  *
- * Flux défi (challengeId !== null — Joueur B vient de finir) :
- *   Au montage → completeChallenge() → récupère le résultat (Joueur A vs Joueur B)
- *   Affiche le panneau de comparaison duel sous le score
- *
- * Confetti : déclenché au montage si score ≥ BADGE_THRESHOLD ou victoire en duel.
+ * Confetti : déclenché au montage si score ≥ BADGE_THRESHOLD.
  */
 
 import { useEffect, useRef, useState, useCallback } from 'react';
@@ -27,35 +23,27 @@ import { playSound } from '@/lib/sound';
 import { syncSession, syncBadge } from '@/lib/sync';
 import { fetchQuestions } from '@/lib/questions';
 import { useSubscription } from '@/hooks/useSubscription';
-import { createChallenge, completeChallenge } from '@/lib/challenges';
-import { getTitleForXp } from '@/lib/daily';
 import { CATEGORY_EMOJI } from '@/lib/categories';
 import Nova from '@/components/ui/Nova';
-import DuelResultPanel from './DuelResultPanel';
 import { BADGE_DEFINITIONS } from '@/lib/badges';
-import type { DailyResult } from '@/stores/profileStore';
-import type { Locale, Challenge } from '@/types';
-import { Swords, Copy, Check, Sun, Flame, Shield } from 'lucide-react';
+import type { StreakResult } from '@/stores/profileStore';
+import type { Locale } from '@/types';
+import { Flame } from 'lucide-react';
 
 export default function ResultsScreen() {
   const t         = useTranslations('results');
   const tHome   = useTranslations('home');
   const tNova   = useTranslations('nova');
   const tBadges = useTranslations('badges');
-  const tChal   = useTranslations('challenges');
-  const tDaily  = useTranslations('daily');
   const locale    = useLocale() as Locale;
   const router    = useRouter();
 
-  const { status, score, category, difficulty, questions, challengeId, isDailyChallenge, totalTimeMs, startQuiz, resetAll } = useQuizStore();
+  const { status, score, category, difficulty, questions, startQuiz, resetAll } = useQuizStore();
   const { isPremium } = useSubscription();
   const soundEnabled           = useProfileStore((s) => s.soundEnabled);
   const activeProfileId        = useProfileStore((s) => s.activeProfileId);
-  const profile                = useProfileStore((s) => s.profile);
-  const multiplayerUnlocked    = useProfileStore((s) => s.multiplayerUnlocked);
   const newBadgesThisSession   = useProfileStore((s) => s.newBadgesThisSession);
-  const completeDailyChallenge = useProfileStore((s) => s.completeDailyChallenge);
-  const dailyXp                = useProfileStore((s) => s.dailyXp);
+  const recordPlayStreak       = useProfileStore((s) => s.recordPlayStreak);
 
   const total = questions.length || 20;
   const badgeEarnedThisSession = newBadgesThisSession.length > 0;
@@ -66,17 +54,8 @@ export default function ResultsScreen() {
   // et router.replace('/home') écrase la navigation vers /quiz.
   const isReplayingRef = useRef(false);
 
-  // ── État mode défi (Joueur B) ───────────────────────────────────────────────
-  const [duelResult, setDuelResult]   = useState<Challenge | null>(null);
-  const [duelLoading, setDuelLoading] = useState(false);
-
-  // ── État mode défi quotidien ────────────────────────────────────────────────
-  const [dailyResult, setDailyResult] = useState<DailyResult | null>(null);
-
-  // ── État création défi (Joueur A — bouton "Défier un ami") ─────────────────
-  const [createLoading, setCreateLoading] = useState(false);
-  const [createdCode, setCreatedCode]     = useState<string | null>(null);
-  const [codeCopied, setCodeCopied]       = useState(false);
+  // ── Série quotidienne (mise à jour à la fin de toute partie) ────────────────
+  const [streakResult, setStreakResult] = useState<StreakResult | null>(null);
 
   // ── Garde : quiz non terminé → retour Home ───────────────────────────────
   useEffect(() => {
@@ -112,61 +91,25 @@ export default function ResultsScreen() {
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // ── Complétion du défi (Joueur B vient de finir son quiz) ─────────────────
-  // Déclenché uniquement si challengeId est présent (mode défi)
-
-  const completeChallengeFlow = useCallback(async () => {
-    if (!challengeId || !profile) return;
-    setDuelLoading(true);
-    const result = await completeChallenge(
-      challengeId,
-      profile.pseudo,
-      profile.avatarId,
-      score,
-      totalTimeMs > 0 ? totalTimeMs : undefined
-    );
-    if (result) {
-      setDuelResult(result);
-      // Confetti si victoire ou match nul
-      if (result.winner === 'b' || result.winner === 'draw') {
-        import('canvas-confetti').then((mod) => {
-          mod.default({
-            particleCount: 80,
-            spread: 60,
-            origin: { y: 0.6 },
-            colors: ['#667eea', '#764ba2', '#FFD700'],
-          });
-        });
-      }
-    }
-    setDuelLoading(false);
-  }, [challengeId, profile, score, totalTimeMs]);
-
+  // ── Série quotidienne ─────────────────────────────────────────────────────
+  // Déclenché à la fin de TOUTE partie (v1.4 : le défi quotidien a disparu, la série
+  // récompense simplement le fait d'avoir joué aujourd'hui). Idempotent dans la journée.
   useEffect(() => {
-    if (status === 'finished' && challengeId) {
-      completeChallengeFlow();
-    }
-  }, [status, challengeId, completeChallengeFlow]);
-
-  // ── Complétion du défi quotidien ──────────────────────────────────────────
-  // Déclenché uniquement si isDailyChallenge — met à jour le store et capture le résultat.
-  useEffect(() => {
-    if (status === 'finished' && isDailyChallenge) {
-      const result = completeDailyChallenge(score, total);
-      setDailyResult(result);
-      // Confetti si streak ≥ 3 ou score parfait
-      if (result.newStreak >= 3 || score === total) {
-        import('canvas-confetti').then((mod) => {
-          mod.default({
-            particleCount: 60,
-            spread: 50,
-            origin: { y: 0.6 },
-            colors: ['#f59e0b', '#d97706', '#667eea', '#FFD700'],
-          });
+    if (status !== 'finished') return;
+    const result = recordPlayStreak();
+    if (!result.isFirstPlayToday) return;
+    setStreakResult(result);
+    if (result.newStreak >= 3) {
+      import('canvas-confetti').then((mod) => {
+        mod.default({
+          particleCount: 60,
+          spread: 50,
+          origin: { y: 0.6 },
+          colors: ['#f59e0b', '#d97706', '#667eea', '#FFD700'],
         });
-      }
+      });
     }
-  }, [status, isDailyChallenge]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [status]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Helpers ──────────────────────────────────────────────────────────────
 
@@ -213,43 +156,6 @@ export default function ResultsScreen() {
     router.push('/home');
   }
 
-  // ── Créer un défi depuis cet écran de résultats (Joueur A) ───────────────
-
-  async function handleCreateChallenge() {
-    if (!profile || !category || !difficulty || createLoading || !questions.length) return;
-    setCreateLoading(true);
-    try {
-      const code = await createChallenge({
-        pseudo: profile.pseudo,
-        avatarId: profile.avatarId,
-        category,
-        difficulty,
-        locale,
-
-        // Snapshot des questions jouées — ordre identique pour Joueur B
-        questions,
-        scoreA: score,
-        timeA: totalTimeMs > 0 ? totalTimeMs : undefined,
-      });
-      setCreatedCode(code);
-    } catch {
-      // Silencieux — l'utilisateur peut réessayer
-    } finally {
-      setCreateLoading(false);
-    }
-  }
-
-  async function handleCopyCode() {
-    if (!createdCode) return;
-    try {
-      await navigator.clipboard.writeText(createdCode);
-      setCodeCopied(true);
-      setTimeout(() => setCodeCopied(false), 2500);
-    } catch {
-      // Fallback silencieux
-    }
-  }
-
   if (status !== 'finished') return null;
 
   // ── Render ───────────────────────────────────────────────────────────────
@@ -269,12 +175,6 @@ export default function ResultsScreen() {
           {difficulty && (
             <span className={`results__diff-chip results__diff-chip--${difficulty}`}>
               {tHome(difficulty)}
-            </span>
-          )}
-          {/* Badge "Défi" visible quand on joue en mode défi */}
-          {challengeId && (
-            <span className="results__challenge-badge">
-              <Swords size={14} aria-hidden="true" /> Défi
             </span>
           )}
         </div>
@@ -342,117 +242,40 @@ export default function ResultsScreen() {
           </div>
         )}
 
-        {/* ── Résultat du défi quotidien ────────────────────────────────────── */}
-        {isDailyChallenge && dailyResult && (
-          <div className="results__daily" role="status">
-            <div className="results__daily-header">
-              <Sun size={22} aria-hidden="true" />
-              <span className="results__daily-title">{tDaily('resultTitle')}</span>
-            </div>
-            <div className="results__daily-xp">
-              <span className="results__daily-xp-amount">+{dailyResult.xpGained} XP</span>
-            </div>
-            <div className="results__daily-streak">
-              <Flame size={18} aria-hidden="true" />
-              <span>{tDaily('resultStreak', { count: dailyResult.newStreak })}</span>
-            </div>
-            {dailyResult.shieldUsed && (
-              <p className="results__daily-shield-used">
-                <Shield size={14} aria-hidden="true" />
-                {tDaily('shieldUsed')}
-              </p>
-            )}
-            {dailyResult.shieldEarned && (
-              <p className="results__daily-shield-earned">
-                <Shield size={14} aria-hidden="true" />
-                {tDaily('shieldEarned')}
-              </p>
-            )}
-            <p className="results__daily-player-title">
-              {/* Titre recalculé depuis le XP mis à jour dans le store */}
-              {(() => { const t = getTitleForXp(dailyXp); return `${t.emoji} ${tDaily(`title_${t.id}` as Parameters<typeof tDaily>[0])}`; })()}
-            </p>
-          </div>
-        )}
-
-        {/* ── Résultat du duel (affiché quand Joueur B finit un défi) ─────── */}
-        {challengeId && (
-          <DuelResultPanel
-            duelResult={duelResult}
-            duelLoading={duelLoading}
-            myPseudo={profile?.pseudo ?? ''}
-          />
-        )}
-
-        {/* ── Modal partage de code (après création d'un défi par Joueur A) ─ */}
-        {createdCode && (
-          <div className="results__challenge-modal" role="dialog" aria-modal="true" aria-label={tChal('createTitle')}>
-            <p className="results__challenge-modal-title">{tChal('createTitle')}</p>
-            <p className="results__challenge-modal-desc">{tChal('createDesc')}</p>
-            <div className="results__challenge-code-wrap">
-              <span className="results__challenge-code">{createdCode}</span>
-              <button
-                type="button"
-                className="results__challenge-copy-btn"
-                onClick={handleCopyCode}
-                aria-label={tChal('createCopy')}
-              >
-                {codeCopied ? <Check size={18} /> : <Copy size={18} />}
-                {codeCopied ? tChal('createCopied') : tChal('createCopy')}
-              </button>
-            </div>
-            <p className="results__challenge-expiry">⏱ {tChal('createExpiry')}</p>
-            <button
-              type="button"
-              className="results__cta-secondary"
-              onClick={() => setCreatedCode(null)}
-            >
-              {tChal('createCtaDone')}
-            </button>
+        {/* ── Série quotidienne ────────────────────────────────────────────── */}
+        {streakResult && streakResult.newStreak > 1 && (
+          <div className="results__streak" role="status">
+            <Flame size={18} aria-hidden="true" />
+            <span>{t('streak', { count: streakResult.newStreak })}</span>
           </div>
         )}
 
         {/* ── Actions ──────────────────────────────────────────────────────── */}
-        {!createdCode && (
-          <div className="results__actions">
+        <div className="results__actions">
 
-            {/* Bouton "Défier un ami" — mode normal uniquement, multijoueur débloqué */}
-            {!challengeId && !isDailyChallenge && multiplayerUnlocked && category && difficulty && (
-              <button
-                type="button"
-                className="results__cta-challenge"
-                onClick={handleCreateChallenge}
-                disabled={createLoading}
-              >
-                <Swords size={18} aria-hidden="true" />
-                {createLoading ? '…' : tChal('defierBtn')}
-              </button>
-            )}
-
-            {/* Rejouer — uniquement en mode normal (pas après un défi ou quotidien) */}
-            {!challengeId && !isDailyChallenge && category && difficulty && (
-              <button
-                type="button"
-                data-testid="play-again-btn"
-                className="results__cta-primary"
-                onClick={handlePlayAgain}
-                disabled={loading}
-              >
-                {loading ? '…' : t('ctaPlayAgain')}
-              </button>
-            )}
-
-            {/* Retour Home */}
+          {/* Rejouer */}
+          {category && difficulty && (
             <button
               type="button"
-              data-testid="home-btn"
-              className="results__cta-secondary"
-              onClick={handleHome}
+              data-testid="play-again-btn"
+              className="results__cta-primary"
+              onClick={handlePlayAgain}
+              disabled={loading}
             >
-              {t('ctaHome')}
+              {loading ? '…' : t('ctaPlayAgain')}
             </button>
-          </div>
-        )}
+          )}
+
+          {/* Retour Home */}
+          <button
+            type="button"
+            data-testid="home-btn"
+            className="results__cta-secondary"
+            onClick={handleHome}
+          >
+            {t('ctaHome')}
+          </button>
+        </div>
 
       </main>
     </div>

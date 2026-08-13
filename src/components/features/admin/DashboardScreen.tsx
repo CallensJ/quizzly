@@ -13,18 +13,15 @@
  *   4. BarChart activité — nombre de parties par semaine (8 dernières semaines)
  *   5. Évolution par catégorie — comparaison avg "premières N parties" vs "dernières N parties"
  *
- * Données : profileStore.sessions[] (profil actif) + dailyStreak
+ * Données : profileStore.sessions[] (profil actif) + dailyStreak (série)
  * Librairie graphes : Recharts (déjà installée pour StatsScreen)
  */
 
 import { useMemo, useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import RecommendationsSection from '@/components/features/recommendations/RecommendationsSection';
-import GoalTrackerSection from './GoalTrackerSection';
 import { ArrowLeft, TrendingUp, Gamepad2, Star, Flame, BarChart3 } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
-import { getGoalStatus } from '@/lib/goals';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
 import type { Category } from '@/types';
 import {
@@ -63,7 +60,6 @@ const CAT_COLORS: Record<Category, string> = {
   'pop-culture':       '#FF4081',
   technologie:         '#009688',
   'monde-antique':     '#8B4513',
-  mythology:           '#7B1FA2',
 };
 
 // Périodes de filtre
@@ -143,8 +139,6 @@ export default function DashboardScreen() {
   const profile       = useProfileStore((s) => s.profile);
   const sessions      = useProfileStore((s) => s.sessions);
   const dailyStreak   = useProfileStore((s) => s.dailyStreak);
-  const dailyGoal     = useProfileStore((s) => s.dailyGoal);
-  const categoryGoals = useProfileStore((s) => s.categoryGoals);
   const { showNova, hideNova } = useNovaPresence();
 
   const [period, setPeriod] = useState<Period>('30j');
@@ -155,18 +149,6 @@ export default function DashboardScreen() {
     if (sessions.length === 0) {
       showNova('curious', tNova('dashboardCurious'), 4000);
       return () => hideNova();
-    }
-
-    // Objectif journalier atteint aujourd'hui ?
-    if (dailyGoal && dailyGoal > 0) {
-      const today = new Date().toDateString();
-      const todayCorrect = sessions
-        .filter((s) => new Date(s.playedAt).toDateString() === today)
-        .reduce((acc, s) => acc + s.score, 0);
-      if (todayCorrect >= dailyGoal) {
-        showNova('badge', tNova('dashboardBadge'), 5000);
-        return () => hideNova();
-      }
     }
 
     // Bonne semaine : ≥ 3 sessions dans les 7 derniers jours
@@ -216,11 +198,6 @@ export default function DashboardScreen() {
   // ── BarChart activité hebdomadaire ────────────────────────────────────────
   const weeklyData = useMemo(() => groupByWeek(sessions), [sessions]);
 
-  // ── Suivi des objectifs par catégorie ─────────────────────────────────────
-  const goalStatuses = useMemo(
-    () => getGoalStatus(sessions, categoryGoals),
-    [sessions, categoryGoals]
-  );
 
   // ── Évolution par catégorie ───────────────────────────────────────────────
   const catEvolution = useMemo(() => {
@@ -513,11 +490,6 @@ export default function DashboardScreen() {
           </>
         )}
 
-        {/* ── Suivi des objectifs par catégorie ────────────────────────── */}
-        <GoalTrackerSection goalStatuses={goalStatuses} />
-
-        {/* ── Recommandations pédagogiques (vue parent) ────────────────── */}
-        <RecommendationsSection parentView />
 
         <button
           type="button"

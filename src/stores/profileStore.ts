@@ -15,16 +15,14 @@
 
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import type { Profile, QuizSession, Locale, GoalCategory, AppTheme } from '@/types';
+import type { Profile, QuizSession, Locale, AppTheme } from '@/types';
 // import type only — évite d'embarquer les side-effects Supabase de sync.ts dans le store
 import type { RemoteProfile } from '@/lib/sync';
-import {
-  calculateDailyXp,
-  getDailyDateString,
-  SHIELD_EVERY_N_DAYS,
-  MAX_SHIELDS,
-} from '@/lib/daily';
-import type { ReportSchedule } from '@/lib/report';
+
+/** Date du jour au format YYYY-MM-DD (fuseau local) — clé de comparaison du streak. */
+function getDayString(d: Date = new Date()): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
 
 // Fallback pour les navigateurs mobiles qui n'implémentent pas crypto.randomUUID()
 // (certains Android WebView, iOS Safari < 15.4)
@@ -39,12 +37,12 @@ function generateUUID(): string {
   });
 }
 
-// Résultat retourné par completeDailyChallenge — utilisé par ResultsScreen pour l'affichage
-export interface DailyResult {
-  xpGained: number;
+// Résultat retourné par recordPlayStreak — utilisé par ResultsScreen pour l'affichage
+export interface StreakResult {
+  /** Valeur du streak après la partie */
   newStreak: number;
-  shieldUsed: boolean;
-  shieldEarned: boolean;
+  /** true si cette partie est la première de la journée (le streak vient de bouger) */
+  isFirstPlayToday: boolean;
   newBadgeIds: string[];
 }
 
@@ -54,9 +52,6 @@ interface InactiveProfileData {
   earnedBadgeIds: string[];
   dailyStreak: number;
   dailyLastDate: string | null;
-  dailyXp: number;
-  dailyShields: number;
-  dailyTodayScore: number | null;
 }
 
 interface ProfileState {
@@ -79,13 +74,8 @@ interface ProfileState {
   // ── Mode Admin — accès parent/enseignant ─────────────────────────────────
   adminPin: string | null;
   adminEmail: string | null;
-  /** Consentement RGPD Art. 6.1.a — email parent pour rapports/notifications */
+  /** Consentement RGPD Art. 6.1.a — email parent pour notifications */
   emailConsent: boolean;
-  dailyGoal: number | null;
-  multiplayerUnlocked: boolean;
-  // TODO: gate premium (Stripe) — categoryGoals toujours accessible en dev
-  categoryGoals: Partial<Record<GoalCategory, number>>;
-  reportSchedule: ReportSchedule;
 
   // ── Système de badges (profil actif) ────────────────────────────────────
   earnedBadgeIds: string[];
@@ -94,9 +84,6 @@ interface ProfileState {
   // ── Mode Défi Quotidien (profil actif) ──────────────────────────────────
   dailyStreak: number;
   dailyLastDate: string | null;
-  dailyXp: number;
-  dailyShields: number;
-  dailyTodayScore: number | null;
 
   // ── Sync bidirectionnelle ────────────────────────────────────────────────
   lastGoalNotifDate: string | null;
@@ -110,12 +97,10 @@ interface ProfileState {
   removeChildProfile: (id: string) => void;
 
   // ── Actions existantes (opèrent sur le profil actif) ────────────────────
-  setMultiplayerUnlocked: (enabled: boolean) => void;
-  setCategoryGoal: (category: GoalCategory, target: number | null) => void;
-  setReportSchedule: (schedule: ReportSchedule) => void;
   setLastGoalNotifDate: (date: string) => void;
   mergeFromRemote: (remoteSessions: QuizSession[], remoteEarnedBadgeIds: string[], remoteProfiles?: RemoteProfile[]) => void;
-  completeDailyChallenge: (score: number, total: number) => DailyResult;
+  /** Enregistre une partie jouée pour la série quotidienne. Idempotent dans la journée. */
+  recordPlayStreak: () => StreakResult;
   /** @deprecated Utiliser addChildProfile — conservé pour rétro-compat OnboardingScreen */
   createProfile: (data: Omit<Profile, 'createdAt' | 'id'>) => void;
   setLocale: (locale: Locale) => void;
@@ -126,7 +111,6 @@ interface ProfileState {
   setAdminPin: (pin: string) => void;
   setAdminEmail: (email: string | null) => void;
   setEmailConsent: (consent: boolean) => void;
-  setDailyGoal: (goal: number | null) => void;
   addSession: (session: Omit<QuizSession, 'playedAt'>) => void;
   awardBadges: (ids: string[]) => void;
   clearNewBadges: () => void;
@@ -144,9 +128,6 @@ function extractActiveData(state: ProfileState): InactiveProfileData {
     earnedBadgeIds: state.earnedBadgeIds,
     dailyStreak: state.dailyStreak,
     dailyLastDate: state.dailyLastDate,
-    dailyXp: state.dailyXp,
-    dailyShields: state.dailyShields,
-    dailyTodayScore: state.dailyTodayScore,
   };
 }
 
@@ -156,9 +137,6 @@ const EMPTY_PROFILE_DATA: InactiveProfileData = {
   earnedBadgeIds: [],
   dailyStreak: 0,
   dailyLastDate: null,
-  dailyXp: 0,
-  dailyShields: 0,
-  dailyTodayScore: null,
 };
 
 export const useProfileStore = create<ProfileState>()(
@@ -173,21 +151,14 @@ export const useProfileStore = create<ProfileState>()(
       deviceId: null,
       timerEnabled: true,
       soundEnabled: true,
-      multiplayerUnlocked: false,
-      categoryGoals: {},
-      reportSchedule: 'none',
       adminPin: null,
       adminEmail: null,
       emailConsent: false,
-      dailyGoal: null,
       earnedBadgeIds: [],
       newBadgesThisSession: [],
       lastGoalNotifDate: null,
       dailyStreak: 0,
       dailyLastDate: null,
-      dailyXp: 0,
-      dailyShields: 0,
-      dailyTodayScore: null,
 
       // ── Multi-profils ──────────────────────────────────────────────────
 
@@ -313,20 +284,6 @@ export const useProfileStore = create<ProfileState>()(
           };
         }),
 
-      setMultiplayerUnlocked: (enabled) => set({ multiplayerUnlocked: enabled }),
-      setCategoryGoal: (category, target) =>
-        set((state) => {
-          // Copie immutable du Partial<Record> avant modification
-          const updated = { ...state.categoryGoals };
-          if (target === null) {
-            // target=null → désactive l'objectif en supprimant la clé
-            delete updated[category];
-          } else {
-            updated[category] = target;
-          }
-          return { categoryGoals: updated };
-        }),
-      setReportSchedule: (schedule) => set({ reportSchedule: schedule }),
       setLastGoalNotifDate: (date) => set({ lastGoalNotifDate: date }),
 
       mergeFromRemote: (remoteSessions, remoteEarnedBadgeIds, remoteProfiles) =>
@@ -434,44 +391,22 @@ export const useProfileStore = create<ProfileState>()(
           };
         }),
 
-      completeDailyChallenge: (score, total) => {
+      recordPlayStreak: () => {
         const state = get();
-        const today = getDailyDateString();
+        const today = getDayString();
         const last  = state.dailyLastDate;
 
-        let daysSinceLast = Infinity;
-        if (last) {
-          const msPerDay = 86_400_000;
-          daysSinceLast = Math.round(
-            (new Date(today).getTime() - new Date(last).getTime()) / msPerDay
-          );
+        // Déjà joué aujourd'hui : le streak ne bouge pas.
+        if (last === today) {
+          return { newStreak: state.dailyStreak, isFirstPlayToday: false, newBadgeIds: [] };
         }
 
-        let newStreak = state.dailyStreak;
-        let shieldUsed = false;
-
-        if (daysSinceLast === 1) {
-          newStreak = state.dailyStreak + 1;
-        } else if (daysSinceLast === 2 && state.dailyShields > 0) {
-          newStreak = state.dailyStreak + 1;
-          shieldUsed = true;
-        } else if (daysSinceLast === Infinity || daysSinceLast > (state.dailyShields > 0 ? 2 : 1)) {
-          newStreak = 1;
-        }
-
-        const xpGained = calculateDailyXp(newStreak, score, total);
-        const newXp = state.dailyXp + xpGained;
-
-        const shieldEarned =
-          newStreak > 0 &&
-          newStreak % SHIELD_EVERY_N_DAYS === 0 &&
-          state.dailyShields < MAX_SHIELDS;
-
-        const newShields = Math.min(
-          (shieldUsed ? state.dailyShields - 1 : state.dailyShields) +
-          (shieldEarned ? 1 : 0),
-          MAX_SHIELDS
-        );
+        // Jour consécutif → +1 ; sinon la série repart à 1.
+        const msPerDay = 86_400_000;
+        const daysSinceLast = last
+          ? Math.round((new Date(today).getTime() - new Date(last).getTime()) / msPerDay)
+          : Infinity;
+        const newStreak = daysSinceLast === 1 ? state.dailyStreak + 1 : 1;
 
         const newBadgeIds: string[] = [];
         const streakBadges = [
@@ -490,14 +425,11 @@ export const useProfileStore = create<ProfileState>()(
         set({
           dailyStreak: newStreak,
           dailyLastDate: today,
-          dailyXp: newXp,
-          dailyShields: newShields,
-          dailyTodayScore: score,
           earnedBadgeIds: [...new Set([...state.earnedBadgeIds, ...newBadgeIds])],
           newBadgesThisSession: newBadgeIds.length > 0 ? newBadgeIds : state.newBadgesThisSession,
         });
 
-        return { xpGained, newStreak, shieldUsed, shieldEarned, newBadgeIds };
+        return { newStreak, isFirstPlayToday: true, newBadgeIds };
       },
 
       setTheme: (theme) =>
@@ -516,7 +448,6 @@ export const useProfileStore = create<ProfileState>()(
       setAdminPin: (pin) => set({ adminPin: pin }),
       setAdminEmail: (email) => set({ adminEmail: email }),
       setEmailConsent: (consent) => set({ emailConsent: consent }),
-      setDailyGoal: (goal) => set({ dailyGoal: goal }),
 
       addSession: (session) =>
         set((state) => ({
@@ -570,9 +501,6 @@ export const useProfileStore = create<ProfileState>()(
             newBadgesThisSession: [],
             dailyStreak: 0,
             dailyLastDate: null,
-            dailyXp: 0,
-            dailyShields: 0,
-            dailyTodayScore: null,
             profile: updatedProfile,
             profiles: updatedProfile
               ? state.profiles.map((p) => (p.id === state.activeProfileId ? updatedProfile! : p))

@@ -17,7 +17,7 @@ import Image from 'next/image';
 import {
   Atom, Landmark, Swords, Lock,
   Trophy, Globe, Palette, Film, Scale,
-  Calculator, ChefHat, Cpu, Sparkles, Rocket, BookA,
+  Calculator, ChefHat, Cpu, Rocket, BookA,
   PawPrint, Heart, Music2, Leaf, Bone, ChevronDown, Loader2, WifiOff,
 } from 'lucide-react';
 import { buildAvatarUrl, type AvatarStyle } from '@/lib/avatars';
@@ -29,11 +29,8 @@ import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
 import { useSubscription } from '@/hooks/useSubscription';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
 import { useNovaStore } from '@/stores/novaStore';
-import { getUnlockedMythSubcategories } from '@/lib/mythology';
-import DailyBanner from './DailyBanner';
-import MythologyPanel from './MythologyPanel';
 import PremiumModal from '@/components/ui/PremiumModal';
-import type { Category, Difficulty, Locale, MythSubcategory } from '@/types';
+import type { Category, Difficulty, Locale } from '@/types';
 
 const SLEEP_DELAY_MS = 30_000;
 
@@ -73,15 +70,11 @@ const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: st
   { i18nKey: 'corpsHumain',    icon: <Heart     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-corps)',      id: 'corps-humain' },
   { i18nKey: 'environnement',  icon: <Leaf      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-enviro)',     id: 'environnement' },
   { i18nKey: 'dinosaures',     icon: <Bone      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-dino)',       id: 'dinosaures' },
-  // mythologie est géré séparément (carte expandable avec sous-catégories)
   { i18nKey: 'espace',         icon: <Rocket    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-espace)',     id: 'espace-astronomie' },
   { i18nKey: 'culturePop',     icon: <Film      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-culture)',    id: 'pop-culture' },
   { i18nKey: 'technologie',    icon: <Cpu       size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-techno)',     id: 'technologie' },
   { i18nKey: 'musique',        icon: <Music2    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-musique)',    id: 'musique' },
 ];
-
-// Catégorie mythologie — gérée séparément pour les sous-catégories
-const MYTH_COLOR_VAR = 'var(--color-cat-mythologie)';
 
 const DIFFICULTIES: Difficulty[] = ['easy', 'medium', 'hard'];
 
@@ -103,7 +96,7 @@ export default function HomeScreen() {
   const { isPremium } = useSubscription();
   const { showNova, hideNova } = useNovaPresence();
 
-  const { category, difficulty, subcategory, setCategory, setDifficulty, setSubcategory, startQuiz } = useQuizStore();
+  const { category, difficulty, setCategory, setDifficulty, startQuiz } = useQuizStore();
   const headerColor     = getCategoryColor(category);
   const headerColorDark = getCategoryColorDark(category);
 
@@ -111,13 +104,7 @@ export default function HomeScreen() {
   const [showPremiumModal, setShowPremiumModal] = useState(false);
 
   // ── Mythologie : état du tiroir de sous-catégories ────────────────────────
-  const [mythOpen, setMythOpen] = useState(false);
-  const unlockedMythSubs = getUnlockedMythSubcategories(sessions, isPremium);
 
-  function handleMythSelect(sub: MythSubcategory) {
-    setCategory('mythology');
-    setSubcategory(sub);
-  }
 
   const [loading, setLoading] = useState(false);
   const [fetchError, setFetchError] = useState(false);
@@ -203,9 +190,7 @@ export default function HomeScreen() {
     }
   }, [category]);
 
-  // mythology : canPlay nécessite aussi une sous-catégorie sélectionnée
-  const canPlay = category !== null && difficulty !== null
-    && (category !== 'mythology' || subcategory !== null);
+  const canPlay = category !== null && difficulty !== null;
 
   async function handlePlay() {
     if (!canPlay || loading) return;
@@ -218,7 +203,6 @@ export default function HomeScreen() {
         locale as Locale,
         difficulty!,
         isPremium,               // 4ème argument obligatoire (gate freemium Supabase RLS)
-        subcategory ?? undefined,
       );
       if (!pool.length) throw new Error('Pool vide — aucune question disponible pour cette difficulté');
       startQuiz(pool);
@@ -290,7 +274,6 @@ export default function HomeScreen() {
       <main className="home__body">
 
         {/* ── Banners Défi Quotidien + Mode Défi — masqué UI (code conservé) */}
-        {/* <DailyBanner /> */}
 
         {/* ── Catégories gratuites ──────────────────────────────────────────── */}
         <section className="home__section">
@@ -303,7 +286,7 @@ export default function HomeScreen() {
                 data-testid={`cat-${id}`}
                 className={`home__cat-card${category === id ? ' home__cat-card--active' : ''}`}
                 style={{ '--cat-color': colorVar } as React.CSSProperties}
-                onClick={() => { setMythOpen(false); setSubcategory(null); setCategory(id); }}
+                onClick={() => setCategory(id)}
                 aria-pressed={category === id}
               >
                 <span className="home__cat-icon">{icon}</span>
@@ -321,62 +304,6 @@ export default function HomeScreen() {
         {/* Pas de titre : le cadenas + fond gris des cartes locked suffit à signifier Premium */}
         <section className="home__section home__section--premium">
 
-          {/* ── Mythologie : masquée en UI — reportée à MVP 5 post-lancement ── */}
-          {/* Remplacer false par true pour réactiver la carte mythologie */}
-          {false && (
-          <div className="home__myth-wrapper">
-            <button
-              type="button"
-              className={[
-                'home__cat-card',
-                'home__cat-card--myth',
-                category === 'mythology' ? 'home__cat-card--selected' : '',
-                !isPremium ? 'home__cat-card--locked-cta' : '',
-              ].filter(Boolean).join(' ')}
-              style={{ '--cat-color': MYTH_COLOR_VAR } as React.CSSProperties}
-              aria-expanded={mythOpen}
-              aria-controls="myth-panel"
-              onClick={() => {
-                if (!isPremium) {
-                  setShowPremiumModal(true);
-                  return;
-                }
-                setMythOpen((prev) => !prev);
-                if (mythOpen) setSubcategory(null);
-              }}
-            >
-              <span className="home__cat-icon">
-                <Sparkles size={36} strokeWidth={1.5} />
-              </span>
-              <span className="home__cat-name">{t('mythologie')}</span>
-              {!isPremium && (
-                <span className="home__cat-lock" aria-hidden="true">
-                  <Lock size={18} strokeWidth={2.5} />
-                </span>
-              )}
-              {isPremium && (
-                <ChevronDown
-                  size={16}
-                  className={`home__myth-chevron${mythOpen ? ' home__myth-chevron--open' : ''}`}
-                  aria-hidden="true"
-                />
-              )}
-            </button>
-
-            {isPremium && mythOpen && (
-              <div id="myth-panel" className="home__myth-panel">
-                <MythologyPanel
-                  sessions={sessions}
-                  isPremium={isPremium}
-                  unlockedSubcategories={unlockedMythSubs}
-                  selectedSubcategory={subcategory}
-                  onSelect={handleMythSelect}
-                  onSubscribe={() => router.push('/subscribe')}
-                />
-              </div>
-            )}
-          </div>
-          )}
 
           {(() => {
             const visibleCats = premiumExpanded
@@ -393,7 +320,7 @@ export default function HomeScreen() {
                           type="button"
                           className={`home__cat-card${category === id ? ' home__cat-card--selected' : ''}`}
                           style={{ '--cat-color': colorVar } as React.CSSProperties}
-                          onClick={() => { setMythOpen(false); setSubcategory(null); setCategory(id); }}
+                          onClick={() => setCategory(id)}
                           aria-pressed={category === id}
                           aria-label={t(i18nKey)}
                         >

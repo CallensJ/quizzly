@@ -62,9 +62,9 @@ export default function OnboardingScreen() {
     });
     // Sync Supabase en arrière-plan — fire-and-forget (local-first)
     // On lit l'état frais depuis le store car createProfile génère le deviceId synchroniquement
-    const { deviceId, profile, dailyGoal } = useProfileStore.getState();
+    const { deviceId, profile } = useProfileStore.getState();
     if (deviceId && profile) {
-      syncProfile(deviceId, profile, dailyGoal);
+      syncProfile(deviceId, profile);
     }
     router.replace('/home');
   }

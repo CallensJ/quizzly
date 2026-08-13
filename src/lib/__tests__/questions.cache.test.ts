@@ -156,7 +156,7 @@ describe('Cache IndexedDB — TTL et fallback', () => {
       expect(mockSupabaseSelect).toHaveBeenCalled();
     });
 
-    it('met en cache les questions locales JSON si Supabase échoue', async () => {
+    it("ne met rien en cache si Supabase échoue et qu'aucun JSON local n'est disponible (v1.4)", async () => {
       // Aucun cache
       mockGet.mockResolvedValue(undefined);
 
@@ -165,8 +165,11 @@ describe('Cache IndexedDB — TTL et fallback', () => {
 
       await prewarmQuestionsCache();
 
-      // Les JSON locaux ont été mis en cache (mockPut appelé pour fr/sciences au moins)
-      expect(mockPut).toHaveBeenCalled();
+      // LOCAL_JSON_MAP est vide depuis la purge du catalogue v1.0 (v1.4) : il n'y a
+      // pas encore de fallback JSON local à mettre en cache. Ce test redeviendra
+      // "met en cache les questions locales JSON" une fois LOCAL_JSON_MAP réalimenté
+      // avec les 5 catégories v1.4 (cf. src/lib/questions.ts).
+      expect(mockPut).not.toHaveBeenCalled();
     });
 
     it("ne jette pas d'erreur même si Supabase et JSON local sont indisponibles", async () => {

@@ -69,7 +69,7 @@ export default function ProfileSelector() {
     const newProfile = profiles.find((p) => p.id === activeProfileId);
     if (deviceId && newProfile) {
       const authUser = useAuthStore.getState().user;
-      syncProfile(deviceId, newProfile, null, null, authUser?.id).catch(() => {});
+      syncProfile(deviceId, newProfile, null, authUser?.id).catch(() => {});
     }
 
     setShowAddForm(false);

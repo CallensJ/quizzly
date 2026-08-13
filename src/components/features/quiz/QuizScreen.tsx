@@ -42,7 +42,7 @@ export default function QuizScreen() {
   const router = useRouter();
 
   const {
-    status, questions, currentIndex, score, selectedAnswer, category, difficulty, subcategory,
+    status, questions, currentIndex, score, selectedAnswer, category, difficulty,
     selectAnswer, nextQuestion, startQuestionTimer,
   } = useQuizStore();
 
@@ -64,7 +64,7 @@ export default function QuizScreen() {
   useEffect(() => {
     setTimeLeft(TIMER_DURATION);
     timedOutRef.current = false;
-    // Enregistre l'instant d'affichage pour le scoring temps (départage en duel)
+    // Enregistre l'instant d'affichage de la question courante
     startQuestionTimer();
   }, [currentIndex]); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -200,7 +200,7 @@ export default function QuizScreen() {
   useEffect(() => {
     if (status === 'finished') {
       if (category && difficulty) {
-        addSession({ category, difficulty, score, totalQuestions: total, ...(subcategory ? { subcategory } : {}) });
+        addSession({ category, difficulty, score, totalQuestions: total });
         // Lecture synchrone du store après addSession — Zustand set() est synchrone
         const { sessions, earnedBadgeIds } = useProfileStore.getState();
         const newBadges = getNewlyEarnedBadges(sessions, earnedBadgeIds);

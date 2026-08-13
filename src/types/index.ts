@@ -18,44 +18,16 @@ export type Difficulty = 'easy' | 'medium' | 'hard';
 // Catégories premium FR  : anglais, art, corps-humain, cuisine, dinosaures,
 //                          education-civique, environnement, espace-astronomie
 // Catégories à venir     : musique, pop-culture, technologie (pas encore migrées)
-// Catégorie parente      : mythology (jouée via MythSubcategory, MVP 5)
+//
+// NOTE v1.4 : ce type liste encore les 21 catégories v1.0 (hors mythology, supprimée).
+// La réduction aux 5 catégories officielles se fait en Sprint 2, en même temps que la
+// suppression du split gratuit/premium par catégorie (remplacé par le trial 7 jours).
 export type Category =
   | 'sciences' | 'histoire' | 'heroes' | 'animaux-nature'
   | 'math' | 'sport' | 'geographie' | 'francais'
   | 'anglais' | 'art' | 'corps-humain' | 'cuisine'
   | 'dinosaures' | 'education-civique' | 'environnement' | 'espace-astronomie'
-  | 'musique' | 'pop-culture' | 'technologie' | 'monde-antique'
-  | 'mythology';
-
-// Sous-catégories de Mythology — chaque civilisation est une sous-catégorie indépendante
-// La valeur correspond au champ `subcategory` en base Supabase
-export type MythSubcategory =
-  | 'greco-roman'   // Greco-Romaine — GRATUITE (aperçu freemium)
-  | 'egypt'         // Égyptienne
-  | 'nordic'        // Nordique
-  | 'celtic'        // Celtique & légendes arthuriennes
-  | 'amerindian'    // Amérindienne & Maya
-  | 'asian'         // Asiatique (Chine · Japon · Inde)
-  | 'african';      // Africaine
-
-// Catégories ayant des objectifs de score configurables (gratuites jouables)
-export type GoalCategory = Exclude<Category, 'math' | 'mythology'>;
-
-// ─── Objectifs par catégorie ───────────────────────────────────────────────────
-
-export interface WeeklyAvg {
-  week: string;   // format "2026-W13" (ISO 8601 week)
-  avg: number;    // score % moyen (0–100), 0 si count=0
-  count: number;  // nombre de parties dans la semaine
-}
-
-export interface GoalStatus {
-  category: GoalCategory;
-  target: number;              // % cible (50–90)
-  overallAvg: number | null;   // avg toutes sessions valides
-  weekAvg: number | null;      // avg semaine ISO courante (null si aucune partie)
-  trend: WeeklyAvg[];          // 8 semaines glissantes
-}
+  | 'musique' | 'pop-culture' | 'technologie' | 'monde-antique';
 
 export type Locale = 'en' | 'fr';
 
@@ -78,8 +50,6 @@ export interface Profile {
 
 export interface QuizSession {
   category: Category;
-  /** Sous-catégorie — uniquement pour category='mythology'. Rétro-compat : absent sur sessions existantes. */
-  subcategory?: MythSubcategory;
   difficulty: Difficulty;
   score: number;
   totalQuestions: number;
@@ -101,8 +71,6 @@ export interface Question {
     D: string;
   };
   answer: AnswerKey;    // lettre de la bonne réponse
-  /** Sous-catégorie — présent uniquement pour les questions de mythology */
-  subcategory?: MythSubcategory;
 }
 
 export interface QuestionFile {
@@ -115,36 +83,3 @@ export interface QuestionFile {
 
 export type QuizStatus = 'idle' | 'playing' | 'finished';
 
-// ─── Mode multijoueur — Duel asynchrone (MVP 4) ────────────────────────────────
-
-export type ChallengeStatus = 'pending' | 'completed' | 'expired';
-
-/**
- * Représente un défi entre deux joueurs.
- * Joueur A crée le challenge après son quiz, Joueur B le rejoint via un code court.
- * Les questions sont snapshotées au moment de la création pour garantir
- * la même partie aux deux joueurs.
- */
-export interface Challenge {
-  id: string;
-  code: string;               // Code 6 chars, ex: "ZBRE7K"
-  created_by: string;         // Pseudo Joueur A
-  avatar_a: string | null;    // Seed avatar Joueur A
-  category: Category;
-  difficulty: Difficulty;
-  locale: Locale;
-  age_group: string; // Valeur fixe '6-11' depuis MVP 4 — champ conservé pour rétro-compat Supabase
-  questions: Question[];      // Snapshot des questions (même ordre pour les 2 joueurs)
-  score_a: number;
-  time_a: number | null;      // Temps total de réponse Joueur A en ms (null = ancienne version)
-  total: number;              // Toujours 20
-  challenged_by: string | null; // Pseudo Joueur B (null si pas encore joué)
-  avatar_b: string | null;
-  score_b: number | null;
-  time_b: number | null;      // Temps total de réponse Joueur B en ms
-  winner: 'a' | 'b' | 'draw' | null;
-  status: ChallengeStatus;
-  created_at: string;
-  expires_at: string;
-  completed_at: string | null;
-}

@@ -53,7 +53,7 @@ export interface GroupProgress {
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
 /**
- * Les 20 catégories jouables (hors mythology qui est une catégorie parente MVP 5).
+ * Les 20 catégories jouables v1.0. La réduction aux 5 catégories v1.4 se fait en Sprint 2.
  * Utilisées par les badges transversaux (all_rounder, polymath, all_perfect_cats, knowledge_legend).
  * Ces badges sont aspirationnels — ils requièrent un abonnement premium pour être débloqués.
  */

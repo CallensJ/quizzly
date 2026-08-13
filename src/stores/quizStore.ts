@@ -7,7 +7,7 @@
 //        finished → (resetQuiz) → idle
 
 import { create } from 'zustand';
-import type { Category, Difficulty, MythSubcategory, Question, AnswerKey, QuizStatus } from '@/types';
+import type { Category, Difficulty, Question, AnswerKey, QuizStatus } from '@/types';
 
 // Nombre de questions par partie (fixe pour MVP 1)
 const QUESTIONS_PER_GAME = 20;
@@ -17,7 +17,6 @@ interface QuizState {
   category: Category | null;
   difficulty: Difficulty | null;
   /** Sous-catégorie active — uniquement pour category='mythology'. */
-  subcategory: MythSubcategory | null;
 
   // ── Déroulement de la partie ─────────────────────────────────────────────────
   status: QuizStatus;
@@ -26,47 +25,19 @@ interface QuizState {
   score: number;
   selectedAnswer: AnswerKey | null; // réponse du joueur pour la question courante
 
-  // ── Mode défi asynchrone (MVP 4) ─────────────────────────────────────────────
-  // Code du challenge en cours (non null = Joueur B joue un défi)
-  // Utilisé par ResultsScreen pour afficher la comparaison et mettre à jour Supabase
-  challengeId: string | null;
-
-  // ── Mode défi quotidien (MVP 4) ───────────────────────────────────────────────
-  // true = le quiz en cours est le défi du jour (questions seedées par la date)
-  isDailyChallenge: boolean;
-
-  // ── Scoring basé sur le temps (MVP 4 — départage en duel) ───────────────────
+  // ── Chrono de la question courante ──────────────────────────────────────────
   // Temps d'affichage de la question courante (ms depuis epoch) — null entre questions
   questionStartTime: number | null;
-  // Cumul des temps de réponse sur toutes les questions répondues (ms)
-  // Utilisé comme départage en duel : même score → le plus rapide gagne
-  totalTimeMs: number;
 
   // ── Actions ───────────────────────────────────────────────────────────────────
   setCategory: (category: Category) => void;
   setDifficulty: (difficulty: Difficulty) => void;
-  setSubcategory: (subcategory: MythSubcategory | null) => void;
 
   /**
    * Démarre une partie. Reçoit le pool complet filtré (catégorie + difficulté)
    * depuis le composant, tire 20 questions aléatoirement et lance le jeu.
    */
   startQuiz: (pool: Question[]) => void;
-
-  /**
-   * Démarre un quiz en mode défi (Joueur B).
-   * Les questions sont fournies telles quelles (snapshot du challenge — même ordre que Joueur A).
-   * Pas de shuffle ni de sample : les deux joueurs jouent exactement les mêmes questions.
-   */
-  startChallengeQuiz: (questions: Question[], challengeCode: string) => void;
-
-  /**
-   * Démarre le défi quotidien.
-   * Les questions sont fournies pré-seedées par daily.ts (ordre déterministe par date).
-   * Pas de shuffle supplémentaire — toujours le même quiz pour tout le monde aujourd'hui.
-   * category + difficulty requis pour que ResultsScreen puisse les afficher correctement.
-   */
-  startDailyQuiz: (questions: Question[], category: Category, difficulty: Difficulty) => void;
 
   /**
    * Démarre le chrono de la question courante.
@@ -140,22 +111,17 @@ function shuffleOptions(question: Question): Question {
 export const useQuizStore = create<QuizState>()((set, get) => ({
   category: null,
   difficulty: null,
-  subcategory: null,
   status: 'idle',
   questions: [],
   currentIndex: 0,
   score: 0,
   selectedAnswer: null,
-  challengeId: null,
-  isDailyChallenge: false,
   questionStartTime: null,
-  totalTimeMs: 0,
 
-  setCategory: (category) => set({ category, subcategory: null }),
+  setCategory: (category) => set({ category }),
 
   setDifficulty: (difficulty) => set({ difficulty }),
 
-  setSubcategory: (subcategory) => set({ subcategory }),
 
   startQuiz: (pool) => {
     const questions = sampleRandom(pool, Math.min(QUESTIONS_PER_GAME, pool.length))
@@ -166,46 +132,7 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       currentIndex: 0,
       score: 0,
       selectedAnswer: null,
-      challengeId: null,       // mode normal — pas de défi
-      isDailyChallenge: false,
       questionStartTime: null,
-      totalTimeMs: 0,
-    });
-  },
-
-  startChallengeQuiz: (questions, challengeCode) => {
-    // Mode défi : questions fournies telles quelles depuis le snapshot Supabase.
-    // Les options sont déjà dans leur ordre d'origine — on ne re-shuffle pas
-    // pour garantir la même expérience visuelle que Joueur A.
-    set({
-      status: 'playing',
-      questions,
-      currentIndex: 0,
-      score: 0,
-      selectedAnswer: null,
-      challengeId: challengeCode,
-      isDailyChallenge: false,
-      questionStartTime: null,
-      totalTimeMs: 0,
-    });
-  },
-
-  startDailyQuiz: (questions, category, difficulty) => {
-    // Défi quotidien : questions pré-seedées par getDailyQuestions() dans daily.ts.
-    // Pas de re-shuffle — l'ordre déterministe garantit le même quiz pour tous.
-    // category + difficulty transmis pour que ResultsScreen puisse les afficher.
-    set({
-      status: 'playing',
-      questions,
-      currentIndex: 0,
-      score: 0,
-      selectedAnswer: null,
-      challengeId: null,
-      isDailyChallenge: true,
-      category,
-      difficulty,
-      questionStartTime: null,
-      totalTimeMs: 0,
     });
   },
 
@@ -216,19 +143,15 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
   },
 
   selectAnswer: (answer) => {
-    const { questions, currentIndex, score, selectedAnswer, questionStartTime, totalTimeMs } = get();
+    const { questions, currentIndex, score, selectedAnswer } = get();
 
     // Empêche de changer de réponse après avoir sélectionné
     if (selectedAnswer !== null) return;
-
-    // Cumule le temps écoulé depuis le début de la question
-    const elapsed = questionStartTime ? Date.now() - questionStartTime : 0;
 
     const isCorrect = answer === questions[currentIndex]?.answer;
     set({
       selectedAnswer: answer,
       score: isCorrect ? score + 1 : score,
-      totalTimeMs: totalTimeMs + elapsed,
       questionStartTime: null, // réinitialise pour la prochaine question
     });
   },
@@ -251,10 +174,7 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       currentIndex: 0,
       score: 0,
       selectedAnswer: null,
-      challengeId: null,
-      isDailyChallenge: false,
       questionStartTime: null,
-      totalTimeMs: 0,
       // Conserve category + difficulty pour "Rejouer"
     }),
 
@@ -267,9 +187,6 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
       currentIndex: 0,
       score: 0,
       selectedAnswer: null,
-      challengeId: null,
-      isDailyChallenge: false,
       questionStartTime: null,
-      totalTimeMs: 0,
     }),
 }));

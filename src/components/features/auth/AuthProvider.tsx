@@ -23,7 +23,6 @@ import { useAuthStore } from "@/stores/authStore";
 import { useProfileStore } from "@/stores/profileStore";
 import { pullFromSupabase, linkProfileToAuthUser, syncProfile } from "@/lib/sync";
 import { useOnlineSync } from "@/hooks/useOnlineSync";
-import { useGoalNotification } from "@/hooks/useGoalNotification";
 
 const MAX_RETRIES = 5;
 const RETRY_DELAY_MS = 1000;
@@ -39,7 +38,6 @@ export default function AuthProvider({
   const setIsPremium = useAuthStore((s) => s.setIsPremium);
 
   useOnlineSync();
-  useGoalNotification();
 
   useEffect(() => {
     // Timeout de sécurité : débloque l'UI si onAuthStateChange n'émet pas
@@ -66,7 +64,7 @@ export default function AuthProvider({
 
         // Upsert TOUS les profils avec auth_user_id inclus — une seule opération
         for (const p of profiles) {
-          await syncProfile(deviceId ?? '', p, null, null, userId);
+          await syncProfile(deviceId ?? '', p, null, userId);
         }
 
         const pulled = await pullFromSupabase(deviceId ?? "", userId);

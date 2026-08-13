@@ -18,9 +18,8 @@ import { useTranslations } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
-import { Star, Trophy, Gamepad2, BarChart2, Home } from 'lucide-react';
+import { Star, Trophy, Gamepad2, Home } from 'lucide-react';
 import { buildAvatarUrl } from '@/lib/avatars';
-import { getDailyDateString, getTitleForXp } from '@/lib/daily';
 import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
 import type { AvatarStyle } from '@/lib/avatars';
 
@@ -30,15 +29,10 @@ interface AppLayoutProps {
 
 export default function AppLayout({ children }: AppLayoutProps) {
   const t      = useTranslations('sidebar');
-  const tDaily = useTranslations('daily');
   const router   = useRouter();
   const pathname = usePathname();
   const profile              = useProfileStore((s) => s.profile);
   const sessions             = useProfileStore((s) => s.sessions);
-  const dailyStreak          = useProfileStore((s) => s.dailyStreak);
-  const dailyXp              = useProfileStore((s) => s.dailyXp);
-  const dailyLastDate        = useProfileStore((s) => s.dailyLastDate);
-  const alreadyPlayedToday   = dailyLastDate === getDailyDateString();
 
   // Catégorie du quiz en cours — colore la sidebar avec la couleur de catégorie
   const quizCategory    = useQuizStore((s) => s.category);
@@ -51,7 +45,6 @@ export default function AppLayout({ children }: AppLayoutProps) {
   const totalScore  = sessions.reduce((acc, s) => acc + s.score, 0);
   const totalGames  = sessions.length;
   const avatarUrl   = buildAvatarUrl(profile.avatarId, (profile.avatarStyle as AvatarStyle) || 'adventurer');
-  const playerTitle = getTitleForXp(dailyXp);
 
   return (
     <div className="app-layout">
@@ -89,11 +82,6 @@ export default function AppLayout({ children }: AppLayoutProps) {
             unoptimized
           />
           <strong className="app-layout__pseudo">{profile.pseudo}</strong>
-          {dailyXp > 0 && (
-            <span className="app-layout__player-title">
-              {playerTitle.emoji} {tDaily(`title_${playerTitle.id}` as Parameters<typeof tDaily>[0])}
-            </span>
-          )}
         </button>
 
         {/* Statistiques de jeu */}
@@ -108,33 +96,6 @@ export default function AppLayout({ children }: AppLayoutProps) {
           </div>
         </div>
 
-        {/* Défi Quotidien — masqué UI (code conservé pour réactivation future) */}
-        {/* <button
-          className={`app-layout__daily-btn${alreadyPlayedToday ? ' app-layout__daily-btn--done' : ''}`}
-          onClick={() => router.push('/daily')}
-          aria-label="Défi du jour"
-        >
-          <Sun size={16} aria-hidden="true" />
-          <span>Défi du jour</span>
-          {dailyStreak > 0 && (
-            <span className="app-layout__daily-streak">
-              <Flame size={12} aria-hidden="true" />
-              {dailyStreak}
-            </span>
-          )}
-        </button> */}
-
-        {/* Lien Mode Défi — masqué UI (code conservé pour réactivation future) */}
-        {/* {multiplayerUnlocked && (
-          <button
-            className="app-layout__challenges-btn"
-            onClick={() => router.push('/challenges')}
-            aria-label="Mode Défi"
-          >
-            <Swords size={16} aria-hidden="true" />
-            <span>Défis</span>
-          </button>
-        )} */}
 
         {/* Navigation rapide */}
         <nav className="app-layout__nav" aria-label="Navigation">
@@ -146,15 +107,6 @@ export default function AppLayout({ children }: AppLayoutProps) {
           >
             <Home size={16} aria-hidden="true" />
             <span>Accueil</span>
-          </button>
-          <button
-            className={`app-layout__nav-btn${pathname === '/stats' ? ' app-layout__nav-btn--active' : ''}`}
-            onClick={() => router.push('/stats')}
-            aria-label="Voir les statistiques"
-            aria-current={pathname === '/stats' ? 'page' : undefined}
-          >
-            <BarChart2 size={16} aria-hidden="true" />
-            <span>Statistiques</span>
           </button>
         </nav>
 
