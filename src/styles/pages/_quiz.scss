@@ -386,6 +386,10 @@
     // Quand < 5s restantes : pulsation d'urgence
     &--urgent {
       animation: timer-pulse 0.6s ease infinite alternate;
+
+      @media (prefers-reduced-motion: reduce) {
+        animation: none;
+      }
     }
   }
 
