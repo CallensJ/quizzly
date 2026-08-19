@@ -26,6 +26,7 @@ import type { Locale } from '@/i18n/routing';
 import type { Category, QuizSession } from '@/types';
 import { buildAvatarUrl } from '@/lib/avatars';
 import type { AvatarStyle } from '@/lib/avatars';
+import { CATEGORY_EMOJI } from '@/lib/categories';
 import { useSubscription } from '@/hooks/useSubscription';
 import AvatarGallery from './AvatarGallery';
 import BadgesPreview from './BadgesPreview';
@@ -43,12 +44,12 @@ function bestScorePercent(sessions: QuizSession[]): number | null {
   return Math.round(best * 100);
 }
 
-// Catégories disponibles avec leur emoji
-const CATEGORIES: { key: Category; emoji: string }[] = [
-  { key: 'sciences', emoji: '🔬' },
-  { key: 'histoire', emoji: '📜' },
-  { key: 'heroes',   emoji: '⚔️' },
-];
+// Les 5 catégories officielles v1.4 — emoji sourcés depuis lib/categories.ts
+const CATEGORY_KEYS: Category[] = ['histoire-du-monde', 'culture-generale', 'sciences-nature', 'dinosaures', 'espace'];
+const CATEGORIES: { key: Category; emoji: string }[] = CATEGORY_KEYS.map((key) => ({
+  key,
+  emoji: CATEGORY_EMOJI[key],
+}));
 
 /**
  * Calcule les stats par catégorie depuis l'historique des sessions.

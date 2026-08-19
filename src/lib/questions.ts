@@ -134,49 +134,12 @@ function getDifficultyPool(difficulty: Difficulty): Difficulty[] {
   return [difficulty];
 }
 
-// ─── Limite gratuite ──────────────────────────────────────────────────────────
-//
-// Les utilisateurs gratuits voient un sous-ensemble déterministe de 100 questions
-// par catégorie+locale. Le seed garantit que ce sont toujours les mêmes 100 questions
-// (cohérence entre sessions), sans modification côté Supabase ni RLS.
-
-export const FREE_QUESTIONS_LIMIT = 100;
-
-/**
- * Applique la limite de questions gratuites.
- * Pour les premium : retourne le pool complet.
- * Pour les gratuits : retourne un sous-ensemble de 100 questions déterministe
- *   (seed basé sur category+locale → même 100 questions à chaque session).
- */
-export function applyFreeLimit(
-  questions: Question[],
-  isPremium: boolean,
-  category: Category,
-  locale: Locale
-): Question[] {
-  if (isPremium) return questions;
-  if (questions.length <= FREE_QUESTIONS_LIMIT) return questions;
-
-  // Seed numérique déterministe : somme des charCodes de "category-locale"
-  const seed = `${category}-${locale}`
-    .split('')
-    .reduce((acc, c) => acc + c.charCodeAt(0), 0);
-
-  // Hash sur l'ID complet pour une distribution uniforme même avec des IDs préfixés
-  // (ex. hist-fr-0001, hist-fr-0002 ont le même charCodeAt(0) = 'h')
-  const hashId = (id: string) => id.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0);
-
-  // Tri déterministe via hash Math.sin — même résultat à chaque appel
-  const shuffled = [...questions].sort((a, b) => {
-    const ha = Math.sin(seed + hashId(a.id)) * 10000;
-    const hb = Math.sin(seed + hashId(b.id)) * 10000;
-    return (ha - Math.floor(ha)) - (hb - Math.floor(hb));
-  });
-
-  return shuffled.slice(0, FREE_QUESTIONS_LIMIT);
-}
-
 // ─── Fetch principal ──────────────────────────────────────────────────────────
+//
+// v1.4 : plus de limite gratuite par catégorie. Accès uniforme aux 5 catégories,
+// conditionné au trial 7 jours ou à l'abonnement (RLS Supabase, cf. migration
+// 20260813_v14_reset_catalogue.sql). Une catégorie renvoyant 0 ligne signifie
+// que l'accès n'est pas actif — pas qu'elle est "premium".
 
 /**
  * Récupère les questions pour une catégorie + locale donnée.
@@ -187,7 +150,6 @@ export async function fetchQuestions(
   category: Category,
   locale: Locale,
   difficulty: Difficulty,
-  isPremium: boolean,            // détermine si la limite de 100 questions s'applique
 ): Promise<Question[]> {
   const diffPool = getDifficultyPool(difficulty);
 
@@ -195,20 +157,16 @@ export async function fetchQuestions(
     return qs.filter((q) => diffPool.includes(q.difficulty));
   }
 
-  function limitPool(qs: Question[]): Question[] {
-    return applyFreeLimit(qs, isPremium, category, locale);
-  }
-
   // 1. Cache IndexedDB valide → retour immédiat (offline ou online)
   const cached = await getCache(category, locale);
   if (cached) {
     const filtered = filterByPool(cached);
-    if (filtered.length > 0) return limitPool(filtered);
+    if (filtered.length > 0) return filtered;
   }
 
   // 2. Fetch Supabase — toutes les difficultés de ce (category, locale)
   //    Un seul appel réseau → tout mis en cache pour les requêtes suivantes
-  //    La RLS retourne 0 lignes (pas d'erreur explicite) si l'abonnement est inactif.
+  //    La RLS retourne 0 lignes (pas d'erreur explicite) si l'accès n'est pas actif.
   try {
     const { data, error } = await supabase
       .from('questions')
@@ -217,22 +175,22 @@ export async function fetchQuestions(
       .eq('locale', locale);
 
     if (error) throw new Error(error.message);
-    // 0 lignes = catégorie premium sans abonnement actif (RLS silencieuse)
+    // 0 lignes = trial expiré / pas d'abonnement actif (RLS silencieuse)
     // On lève une erreur typée pour que l'UI puisse afficher le bon message.
     if (!data || data.length === 0) {
       const err = new Error('No questions found') as Error & { code?: string };
-      err.code = 'PREMIUM_REQUIRED';
+      err.code = 'ACCESS_REQUIRED';
       throw err;
     }
 
     const questions = (data as unknown as QuestionRow[]).map(rowToQuestion);
     await setCache(category, locale, questions);
 
-    return limitPool(filterByPool(questions));
+    return filterByPool(questions);
   } catch (fetchError) {
     // 3. Fallback : cache périmé (offline ou erreur réseau)
     const stale = await getStaleCache(category, locale);
-    if (stale) return limitPool(filterByPool(stale));
+    if (stale) return filterByPool(stale);
 
     // 4. Fallback : fichiers JSON locaux (src/data/questions/{locale}/{category}.json)
     //    Garantit le fonctionnement offline même sans cache IndexedDB.
@@ -242,7 +200,7 @@ export async function fetchQuestions(
       const localQuestions = await loadLocalJSON(category, locale);
       if (localQuestions && localQuestions.length > 0) {
         await setCache(category, locale, localQuestions);
-        return limitPool(filterByPool(localQuestions));
+        return filterByPool(localQuestions);
       }
     } catch {
       // Fichier JSON local absent — erreur originale remontera
@@ -261,9 +219,10 @@ export async function fetchQuestions(
 export async function prewarmQuestionsCache(): Promise<void> {
   if (typeof window === 'undefined' || !navigator.onLine) return;
 
-  // Seules les catégories gratuites sont pré-chargées — les catégories premium
-  // sont chargées à la demande (fetchQuestions) uniquement si l'utilisateur est abonné.
-  const categories: Category[] = ['sciences', 'histoire', 'heroes'];
+  // v1.4 : les 5 catégories ont un accès uniforme (trial ou abonnement) — pré-chargement
+  // identique pour toutes. Si l'accès n'est pas actif, le fetch échoue silencieusement
+  // (Promise.allSettled) sans bloquer les autres catégories.
+  const categories: Category[] = ['histoire-du-monde', 'culture-generale', 'sciences-nature', 'dinosaures', 'espace'];
   const locales: Locale[] = ['fr', 'en'];
 
   await Promise.allSettled(

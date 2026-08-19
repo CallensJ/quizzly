@@ -1,61 +1,35 @@
 /**
  * src/lib/categories.ts
  *
- * Source unique de vérité pour les couleurs de catégorie.
+ * Source unique de vérité pour les couleurs et emoji des 5 catégories v1.4.
  * Synchronisé avec les variables SCSS de _variables.scss.
- * Utilisé par QuizScreen, AppLayout (sidebar) et StatsScreen.
+ * Utilisé par QuizScreen, AppLayout (sidebar), HomeScreen, ResultsScreen.
  */
 
+import type { Category } from '@/types';
+
 // Couleurs par catégorie — correspondent aux tokens CSS --color-cat-*
-const CATEGORY_COLORS: Record<string, string> = {
-  sciences:    '#2196F3',
-  histoire:    '#795548',
-  heroes:      '#E91E63',
-  sport:       '#4CAF50',
-  geographie:  '#00BCD4',
-  art:         '#FF5722',
-  culturePop:  '#FF4081',
-  civique:     '#607D8B',
-  math:        '#FF5252',
-  cuisine:     '#FF7043',
-  technologie: '#00ACC1',
-  espace:      '#3F51B5',
-  francais:    '#1565C0',
-  anglais:     '#0288D1',
-  animaux:     '#8BC34A',
-  corps:       '#26A69A',
-  musique:     '#AB47BC',
-  enviro:      '#2E7D32',
-  dino:        '#6D4C41',
+const CATEGORY_COLORS: Record<Category, string> = {
+  'histoire-du-monde': '#795548',
+  'culture-generale':  '#FF9800',
+  'sciences-nature':   '#4CAF50',
+  dinosaures:          '#8D6E63',
+  espace:              '#3F51B5',
 };
 
 /** Emoji par catégorie — source unique de vérité pour QuizScreen, ResultsScreen, etc. */
-export const CATEGORY_EMOJI: Record<string, string> = {
-  sciences:           '🔬',
-  histoire:           '📜',
-  heroes:             '⚔️',
-  geographie:         '🌍',
-  sport:              '🏆',
-  math:               '🔢',
-  francais:           '📖',
-  anglais:            '🇬🇧',
-  'animaux-nature':   '🐾',
-  art:                '🎨',
-  cuisine:            '🍳',
-  'corps-humain':     '❤️',
-  environnement:      '🌿',
-  dinosaures:         '🦕',
-  'espace-astronomie':'🚀',
-  'pop-culture':      '🎬',
-  technologie:        '💻',
-  musique:            '🎵',
-  'education-civique':'⚖️',
+export const CATEGORY_EMOJI: Record<Category, string> = {
+  'histoire-du-monde': '📜',
+  'culture-generale':  '💡',
+  'sciences-nature':   '🔬',
+  dinosaures:          '🦖',
+  espace:              '🚀',
 };
 
 /** Retourne la couleur hex d'une catégorie, ou le primary (#667eea) par défaut. */
 export function getCategoryColor(category: string | null | undefined): string {
   if (!category) return '#667eea';
-  return CATEGORY_COLORS[category] ?? '#667eea';
+  return CATEGORY_COLORS[category as Category] ?? '#667eea';
 }
 
 /**

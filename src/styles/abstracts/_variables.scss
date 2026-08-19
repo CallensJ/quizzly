@@ -11,31 +11,13 @@ $success:        #10B981;
 $error:          #EF4444;
 
 // ─── Couleurs par catégorie ───────────────────────────────────────
-// Catégories gratuites (MVP 1–3)
-$cat-science:    #2196F3;
-$cat-history:    #795548;
-$cat-sport:      #4CAF50;
-$cat-geography:  #00BCD4;
-$cat-culture:    #9C27B0;
-$cat-art:        #FF5722;
-$cat-heroes:     #E91E63;
-
-// Catégories premium verrouillées (MVP 4) — UI only, pas de questions
-$cat-civique:    #607D8B;
-$cat-maths:      #FF5252;
-$cat-cuisine:    #FF7043;
-$cat-techno:     #00ACC1;
-$cat-mythologie: #7B1FA2;
-$cat-espace:     #3F51B5;
-$cat-langue-fr:  #1565C0;
-$cat-langue-en:  #0288D1;
-
-// Catégories "Bientôt disponible" — à venir
-$cat-animaux:    #8BC34A;
-$cat-corps:      #26A69A;
-$cat-musique:    #AB47BC;
-$cat-enviro:     #2E7D32;
-$cat-dino:       #6D4C41;
+// Les 5 catégories officielles v1.4 (cahier-des-charges-claude-v1.4.md §2)
+// Valeurs synchronisées avec CATEGORY_COLORS dans src/lib/categories.ts
+$cat-histoire-du-monde: #795548;
+$cat-culture-generale:  #FF9800;
+$cat-sciences-nature:   #4CAF50;
+$cat-dinosaures:        #8D6E63;
+$cat-espace:            #3F51B5;
 
 // ─── Neutres ──────────────────────────────────────────────────────
 $white:          #ffffff;

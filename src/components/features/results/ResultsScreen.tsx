@@ -14,7 +14,7 @@
  * Confetti : déclenché au montage si score ≥ BADGE_THRESHOLD.
  */
 
-import { useEffect, useRef, useState, useCallback } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
 import { useQuizStore } from '@/stores/quizStore';
@@ -22,7 +22,6 @@ import { useProfileStore } from '@/stores/profileStore';
 import { playSound } from '@/lib/sound';
 import { syncSession, syncBadge } from '@/lib/sync';
 import { fetchQuestions } from '@/lib/questions';
-import { useSubscription } from '@/hooks/useSubscription';
 import { CATEGORY_EMOJI } from '@/lib/categories';
 import Nova from '@/components/ui/Nova';
 import { BADGE_DEFINITIONS } from '@/lib/badges';
@@ -39,7 +38,6 @@ export default function ResultsScreen() {
   const router    = useRouter();
 
   const { status, score, category, difficulty, questions, startQuiz, resetAll } = useQuizStore();
-  const { isPremium } = useSubscription();
   const soundEnabled           = useProfileStore((s) => s.soundEnabled);
   const activeProfileId        = useProfileStore((s) => s.activeProfileId);
   const newBadgesThisSession   = useProfileStore((s) => s.newBadgesThisSession);
@@ -143,7 +141,7 @@ export default function ResultsScreen() {
     setLoading(true);
     try {
       // Récupère les questions depuis Supabase (cache 24h + fallback offline)
-      const pool = await fetchQuestions(category, locale as Locale, difficulty, isPremium);
+      const pool = await fetchQuestions(category, locale as Locale, difficulty);
       startQuiz(pool);
       router.push('/quiz');
     } finally {

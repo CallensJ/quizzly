@@ -72,7 +72,7 @@ Cypress.Commands.add('setupQuestionsCache', () => {
           answer: 'A',
         }));
 
-      const categories = ['sciences', 'histoire', 'heroes'];
+      const categories = ['histoire-du-monde', 'culture-generale', 'sciences-nature', 'dinosaures', 'espace'];
       const difficulties = ['easy', 'medium', 'hard'];
 
       // Ouvre (ou crée) la base Dexie — version 1, même schéma que src/lib/db.ts

@@ -23,6 +23,7 @@ import { ArrowLeft, TrendingUp, Gamepad2, Star, Flame, BarChart3 } from 'lucide-
 import { useRouter } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
+import { getCategoryColor } from '@/lib/categories';
 import type { Category } from '@/types';
 import {
   LineChart,
@@ -38,29 +39,6 @@ import {
 } from 'recharts';
 
 // ─── Constantes ──────────────────────────────────────────────────────────────
-
-const CAT_COLORS: Record<Category, string> = {
-  sciences:            '#2196F3',
-  histoire:            '#795548',
-  heroes:              '#E91E63',
-  'animaux-nature':    '#8BC34A',
-  math:                '#FF9800',
-  sport:               '#4CAF50',
-  geographie:          '#00BCD4',
-  francais:            '#795548',
-  anglais:             '#C62828',
-  art:                 '#FF5722',
-  'corps-humain':      '#E91E63',
-  cuisine:             '#FF9800',
-  dinosaures:          '#6D4C41',
-  'education-civique': '#607D8B',
-  environnement:       '#2E7D32',
-  'espace-astronomie': '#1A237E',
-  musique:             '#F06292',
-  'pop-culture':       '#FF4081',
-  technologie:         '#009688',
-  'monde-antique':     '#8B4513',
-};
 
 // Périodes de filtre
 type Period = '7j' | '30j' | 'all';
@@ -201,7 +179,7 @@ export default function DashboardScreen() {
 
   // ── Évolution par catégorie ───────────────────────────────────────────────
   const catEvolution = useMemo(() => {
-    const cats: Category[] = ['sciences', 'histoire', 'heroes'];
+    const cats: Category[] = ['histoire-du-monde', 'culture-generale', 'sciences-nature', 'dinosaures', 'espace'];
     return cats.map((cat) => {
       const catSessions = [...sessions]
         .filter((s) => s.category === cat)
@@ -441,7 +419,7 @@ export default function DashboardScreen() {
                       <div className="dashboard__cat-evol-header">
                         <span
                           className="dashboard__cat-dot"
-                          style={{ background: CAT_COLORS[cat] }}
+                          style={{ background: getCategoryColor(cat) }}
                           aria-hidden="true"
                         />
                         <span className="dashboard__cat-name">{cat}</span>
@@ -474,7 +452,7 @@ export default function DashboardScreen() {
                                 className="dashboard__cat-evol-fill"
                                 style={{
                                   width: `${after}%`,
-                                  background: CAT_COLORS[cat],
+                                  background: getCategoryColor(cat),
                                 }}
                               />
                             </div>

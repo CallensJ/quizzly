@@ -12,22 +12,16 @@
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
-// Identifiants de catégorie — correspondent aux valeurs `category` stockées en base Supabase
-// Catégories gratuites   : sciences, histoire, heroes, animaux-nature
-// Catégories premium FR+EN : math, sport, geographie, francais, monde-antique
-// Catégories premium FR  : anglais, art, corps-humain, cuisine, dinosaures,
-//                          education-civique, environnement, espace-astronomie
-// Catégories à venir     : musique, pop-culture, technologie (pas encore migrées)
-//
-// NOTE v1.4 : ce type liste encore les 21 catégories v1.0 (hors mythology, supprimée).
-// La réduction aux 5 catégories officielles se fait en Sprint 2, en même temps que la
-// suppression du split gratuit/premium par catégorie (remplacé par le trial 7 jours).
+// Identifiants de catégorie — correspondent aux valeurs `category` stockées en base Supabase.
+// Les 5 catégories officielles v1.4 (cahier-des-charges-claude-v1.4.md §2). Accès uniforme aux
+// 5 catégories, conditionné au trial 7 jours ou à l'abonnement — plus de split gratuit/premium
+// par catégorie comme en v1.0.
 export type Category =
-  | 'sciences' | 'histoire' | 'heroes' | 'animaux-nature'
-  | 'math' | 'sport' | 'geographie' | 'francais'
-  | 'anglais' | 'art' | 'corps-humain' | 'cuisine'
-  | 'dinosaures' | 'education-civique' | 'environnement' | 'espace-astronomie'
-  | 'musique' | 'pop-culture' | 'technologie' | 'monde-antique';
+  | 'histoire-du-monde'
+  | 'culture-generale'
+  | 'sciences-nature'
+  | 'dinosaures'
+  | 'espace';
 
 export type Locale = 'en' | 'fr';
 

@@ -4,76 +4,61 @@
  * src/components/features/home/HomeScreen.tsx
  *
  * Écran d'accueil post-onboarding.
- * Permet de choisir une catégorie (sciences / histoire / heroes) et une difficulté,
+ * Permet de choisir une catégorie parmi les 5 officielles v1.4 et une difficulté,
  * puis de lancer une partie via le bouton "Jouer !".
  *
- * Flux : sélection catégorie + difficulté → chargement JSON → startQuiz() → /quiz
+ * Flux : sélection catégorie + difficulté → chargement Supabase → startQuiz() → /quiz
  * Le bouton "Jouer !" reste désactivé tant que les deux sélections ne sont pas faites.
+ *
+ * v1.4 : accès uniforme aux 5 catégories (trial 7 jours ou abonnement) — plus de
+ * split gratuit/premium par catégorie comme en v1.0. Le gate d'accès lui-même
+ * (redirection paywall) reste à implémenter (Sprint 2, lot bilinguisme/trial).
  */
 
 import { useState, useEffect, useRef } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
-import {
-  Atom, Landmark, Swords, Lock,
-  Trophy, Globe, Palette, Film, Scale,
-  Calculator, ChefHat, Cpu, Rocket, BookA,
-  PawPrint, Heart, Music2, Leaf, Bone, ChevronDown, Loader2, WifiOff,
-} from 'lucide-react';
+import { Atom, Landmark, Lightbulb, Rocket, Bone, Loader2, WifiOff } from 'lucide-react';
 import { buildAvatarUrl, type AvatarStyle } from '@/lib/avatars';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
-import { fetchQuestions, prewarmQuestionsCache, FREE_QUESTIONS_LIMIT } from '@/lib/questions';
+import { fetchQuestions, prewarmQuestionsCache } from '@/lib/questions';
 import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
 import { useSubscription } from '@/hooks/useSubscription';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
 import { useNovaStore } from '@/stores/novaStore';
-import PremiumModal from '@/components/ui/PremiumModal';
 import type { Category, Difficulty, Locale } from '@/types';
 
 const SLEEP_DELAY_MS = 30_000;
 
-
-// Catégories jouables — questions disponibles (gratuites)
+// Les 5 catégories officielles v1.4 (cahier-des-charges-claude-v1.4.md §2)
 const CATEGORIES: { id: Category; icon: React.ReactNode; colorVar: string }[] = [
   {
-    id: 'sciences',
-    icon: <Atom size={40} strokeWidth={1.5} />,
-    colorVar: 'var(--color-cat-science)',
-  },
-  {
-    id: 'histoire',
+    id: 'histoire-du-monde',
     icon: <Landmark size={40} strokeWidth={1.5} />,
-    colorVar: 'var(--color-cat-history)',
+    colorVar: 'var(--color-cat-histoire-du-monde)',
   },
   {
-    id: 'heroes',
-    icon: <Swords size={40} strokeWidth={1.5} />,
-    colorVar: 'var(--color-cat-heroes)',
+    id: 'culture-generale',
+    icon: <Lightbulb size={40} strokeWidth={1.5} />,
+    colorVar: 'var(--color-cat-culture-generale)',
   },
-];
-
-// Catégories premium — toutes ont un id (questions disponibles).
-// Logique binaire : cadenas pour l'user gratuit, jouable pour le premium.
-// Les catégories sans questions sont masquées jusqu'à ce que leur contenu soit prêt.
-const PREMIUM_CATEGORIES: { i18nKey: string; icon: React.ReactNode; colorVar: string; id: Category }[] = [
-  { i18nKey: 'animaux',        icon: <PawPrint  size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-animaux)',    id: 'animaux-nature' },
-  { i18nKey: 'sport',          icon: <Trophy    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-sport)',      id: 'sport' },
-  { i18nKey: 'geographie',     icon: <Globe     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-geography)',  id: 'geographie' },
-  { i18nKey: 'mathematiques',  icon: <Calculator size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-maths)',    id: 'math' },
-  { i18nKey: 'langueFr',       icon: <BookA     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-fr)', id: 'francais' },
-  { i18nKey: 'langueEn',       icon: <BookA     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-langue-en)', id: 'anglais' },
-  { i18nKey: 'art',            icon: <Palette   size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-art)',        id: 'art' },
-  { i18nKey: 'civique',        icon: <Scale     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-civique)',    id: 'education-civique' },
-  { i18nKey: 'cuisine',        icon: <ChefHat   size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-cuisine)',    id: 'cuisine' },
-  { i18nKey: 'corpsHumain',    icon: <Heart     size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-corps)',      id: 'corps-humain' },
-  { i18nKey: 'environnement',  icon: <Leaf      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-enviro)',     id: 'environnement' },
-  { i18nKey: 'dinosaures',     icon: <Bone      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-dino)',       id: 'dinosaures' },
-  { i18nKey: 'espace',         icon: <Rocket    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-espace)',     id: 'espace-astronomie' },
-  { i18nKey: 'culturePop',     icon: <Film      size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-culture)',    id: 'pop-culture' },
-  { i18nKey: 'technologie',    icon: <Cpu       size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-techno)',     id: 'technologie' },
-  { i18nKey: 'musique',        icon: <Music2    size={36} strokeWidth={1.5} />, colorVar: 'var(--color-cat-musique)',    id: 'musique' },
+  {
+    id: 'sciences-nature',
+    icon: <Atom size={40} strokeWidth={1.5} />,
+    colorVar: 'var(--color-cat-sciences-nature)',
+  },
+  {
+    id: 'dinosaures',
+    icon: <Bone size={40} strokeWidth={1.5} />,
+    colorVar: 'var(--color-cat-dinosaures)',
+  },
+  {
+    id: 'espace',
+    icon: <Rocket size={40} strokeWidth={1.5} />,
+    colorVar: 'var(--color-cat-espace)',
+  },
 ];
 
 const DIFFICULTIES: Difficulty[] = ['easy', 'medium', 'hard'];
@@ -100,17 +85,8 @@ export default function HomeScreen() {
   const headerColor     = getCategoryColor(category);
   const headerColorDark = getCategoryColorDark(category);
 
-  // ── Modale premium ────────────────────────────────────────────────────────
-  const [showPremiumModal, setShowPremiumModal] = useState(false);
-
-  // ── Mythologie : état du tiroir de sous-catégories ────────────────────────
-
-
   const [loading, setLoading] = useState(false);
   const [fetchError, setFetchError] = useState(false);
-  const [premiumExpanded, setPremiumExpanded] = useState(false);
-
-  const PREMIUM_VISIBLE_DEFAULT = 5;
 
   // Pré-chauffe le cache questions en arrière-plan dès que HomeScreen monte.
   // Garantit le mode offline lors des visites suivantes, même sans avoir joué.
@@ -198,21 +174,13 @@ export default function HomeScreen() {
     setLoading(true);
     setFetchError(false);
     try {
-      const pool = await fetchQuestions(
-        category!,
-        locale as Locale,
-        difficulty!,
-        isPremium,               // 4ème argument obligatoire (gate freemium Supabase RLS)
-      );
+      const pool = await fetchQuestions(category!, locale as Locale, difficulty!);
       if (!pool.length) throw new Error('Pool vide — aucune question disponible pour cette difficulté');
       startQuiz(pool);
       router.push('/quiz');
     } catch (err) {
-      // RLS Supabase → 0 questions retournées pour une catégorie premium sans abonnement.
-      // Ne rediriger vers /subscribe que pour les catégories premium — les catégories
-      // gratuites (sciences, histoire, heroes) ne peuvent pas déclencher ce flux.
-      const isFreeCategory = CATEGORIES.some((c) => c.id === category);
-      if ((err as Error & { code?: string }).code === 'PREMIUM_REQUIRED' && !isPremium && !isFreeCategory) {
+      // RLS Supabase → 0 questions retournées si le trial est expiré et pas d'abonnement actif.
+      if ((err as Error & { code?: string }).code === 'ACCESS_REQUIRED' && !isPremium) {
         router.push('/subscribe');
         return;
       }
@@ -224,11 +192,6 @@ export default function HomeScreen() {
 
   return (
     <div className="home">
-
-      <PremiumModal
-        visible={showPremiumModal}
-        onClose={() => setShowPremiumModal(false)}
-      />
 
       {/* ── Barre de navigation ────────────────────────────────────────────── */}
       <header
@@ -273,9 +236,7 @@ export default function HomeScreen() {
 
       <main className="home__body">
 
-        {/* ── Banners Défi Quotidien + Mode Défi — masqué UI (code conservé) */}
-
-        {/* ── Catégories gratuites ──────────────────────────────────────────── */}
+        {/* ── Les 5 catégories v1.4 ─────────────────────────────────────────── */}
         <section className="home__section">
           <h2 className="home__section-title">{t('title')}</h2>
           <div className="home__categories">
@@ -292,86 +253,10 @@ export default function HomeScreen() {
                 <span className="home__cat-icon">{icon}</span>
                 <span className="home__cat-name">{t(id)}</span>
                 <span className="home__cat-desc">{t(`${id}Desc`)}</span>
-                {!isPremium && (
-                  <span className="home__category-limit-badge">{FREE_QUESTIONS_LIMIT} q.</span>
-                )}
               </button>
             ))}
           </div>
         </section>
-
-        {/* ── Catégories premium ────────────────────────────────────────────── */}
-        {/* Pas de titre : le cadenas + fond gris des cartes locked suffit à signifier Premium */}
-        <section className="home__section home__section--premium">
-
-
-          {(() => {
-            const visibleCats = premiumExpanded
-              ? PREMIUM_CATEGORIES
-              : PREMIUM_CATEGORIES.slice(0, PREMIUM_VISIBLE_DEFAULT);
-            return (
-              <>
-                <div className="home__categories">
-                  {visibleCats.map(({ i18nKey, icon, colorVar, id }) => {
-                    if (isPremium) {
-                      return (
-                        <button
-                          key={i18nKey}
-                          type="button"
-                          className={`home__cat-card${category === id ? ' home__cat-card--selected' : ''}`}
-                          style={{ '--cat-color': colorVar } as React.CSSProperties}
-                          onClick={() => setCategory(id)}
-                          aria-pressed={category === id}
-                          aria-label={t(i18nKey)}
-                        >
-                          <span className="home__cat-icon">{icon}</span>
-                          <span className="home__cat-name">{t(i18nKey)}</span>
-                        </button>
-                      );
-                    }
-                    return (
-                      <button
-                        key={i18nKey}
-                        type="button"
-                        className="home__cat-card home__cat-card--locked-cta"
-                        style={{ '--cat-color': colorVar } as React.CSSProperties}
-                        aria-label={`${t(i18nKey)} — ${t('premiumLocked')}`}
-                        onClick={() => setShowPremiumModal(true)}
-                      >
-                        <span className="home__cat-icon">{icon}</span>
-                        <span className="home__cat-name">{t(i18nKey)}</span>
-                        <span className="home__cat-lock" aria-hidden="true">
-                          <Lock size={18} strokeWidth={2.5} />
-                        </span>
-                      </button>
-                    );
-                  })}
-                </div>
-
-                {PREMIUM_CATEGORIES.length > PREMIUM_VISIBLE_DEFAULT && (
-                  <button
-                    type="button"
-                    className="home__premium-expand-btn"
-                    onClick={() => setPremiumExpanded((v) => !v)}
-                    aria-expanded={premiumExpanded}
-                  >
-                    <ChevronDown
-                      size={16}
-                      className={`home__premium-expand-chevron${premiumExpanded ? ' home__premium-expand-chevron--open' : ''}`}
-                      aria-hidden="true"
-                    />
-                    {premiumExpanded
-                      ? t('seeLess')
-                      : t('seeMore', { count: PREMIUM_CATEGORIES.length - PREMIUM_VISIBLE_DEFAULT })}
-                  </button>
-                )}
-              </>
-            );
-          })()}
-        </section>
-
-        {/* Section "Bientôt" supprimée — les catégories sans contenu sont désormais
-            intégrées dans la section premium avec le badge 🚀 (PREMIUM_CATEGORIES sans id) */}
 
         {/* ── Panneau de contrôle : difficulté + play ──────────────────────── */}
         {/*

@@ -25,7 +25,7 @@ describe('Flux Home → Quiz → Results', () => {
     cy.get('[data-testid="play-btn"]').should('be.disabled');
 
     // Seulement catégorie
-    cy.get('[data-testid="cat-sciences"]').click();
+    cy.get('[data-testid="cat-sciences-nature"]').click();
     cy.get('[data-testid="play-btn"]').should('be.disabled');
 
     // Catégorie + difficulté → bouton actif
@@ -35,9 +35,9 @@ describe('Flux Home → Quiz → Results', () => {
 
   // ── Flux complet ──────────────────────────────────────────────────────────
 
-  it('lance un quiz Sciences Easy et affiche les résultats', () => {
+  it('lance un quiz Sciences & Nature Easy et affiche les résultats', () => {
     // Sélection catégorie + difficulté
-    cy.get('[data-testid="cat-sciences"]').click();
+    cy.get('[data-testid="cat-sciences-nature"]').click();
     cy.get('[data-testid="diff-easy"]').click();
 
     // Lancer le quiz
@@ -64,8 +64,8 @@ describe('Flux Home → Quiz → Results', () => {
       });
   });
 
-  it('lance un quiz Histoire Medium et affiche les résultats', () => {
-    cy.get('[data-testid="cat-histoire"]').click();
+  it('lance un quiz Histoire du Monde Medium et affiche les résultats', () => {
+    cy.get('[data-testid="cat-histoire-du-monde"]').click();
     cy.get('[data-testid="diff-medium"]').click();
     cy.get('[data-testid="play-btn"]').click();
 
@@ -80,7 +80,7 @@ describe('Flux Home → Quiz → Results', () => {
   // ── Écran Results ─────────────────────────────────────────────────────────
 
   it('bouton Retour accueil ramène sur Home et remet le quiz à zéro', () => {
-    cy.get('[data-testid="cat-sciences"]').click();
+    cy.get('[data-testid="cat-sciences-nature"]').click();
     cy.get('[data-testid="diff-easy"]').click();
     cy.get('[data-testid="play-btn"]').click();
 
@@ -98,7 +98,7 @@ describe('Flux Home → Quiz → Results', () => {
   });
 
   it('bouton Rejouer relance le quiz avec la même catégorie et difficulté', () => {
-    cy.get('[data-testid="cat-sciences"]').click();
+    cy.get('[data-testid="cat-sciences-nature"]').click();
     cy.get('[data-testid="diff-easy"]').click();
     cy.get('[data-testid="play-btn"]').click();
 

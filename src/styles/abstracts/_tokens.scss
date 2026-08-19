@@ -12,31 +12,12 @@
   --color-success:       #{v.$success};
   --color-error:         #{v.$error};
 
-  // Catégories gratuites
-  --color-cat-science:    #{v.$cat-science};
-  --color-cat-history:    #{v.$cat-history};
-  --color-cat-sport:      #{v.$cat-sport};
-  --color-cat-geography:  #{v.$cat-geography};
-  --color-cat-culture:    #{v.$cat-culture};
-  --color-cat-art:        #{v.$cat-art};
-  --color-cat-heroes:     #{v.$cat-heroes};
-
-  // Catégories premium (MVP 4) — affichage verrouillé uniquement
-  --color-cat-civique:    #{v.$cat-civique};
-  --color-cat-maths:      #{v.$cat-maths};
-  --color-cat-cuisine:    #{v.$cat-cuisine};
-  --color-cat-techno:     #{v.$cat-techno};
-  --color-cat-mythologie: #{v.$cat-mythologie};
-  --color-cat-espace:     #{v.$cat-espace};
-  --color-cat-langue-fr:  #{v.$cat-langue-fr};
-  --color-cat-langue-en:  #{v.$cat-langue-en};
-
-  // Catégories "Bientôt disponible"
-  --color-cat-animaux:    #{v.$cat-animaux};
-  --color-cat-corps:      #{v.$cat-corps};
-  --color-cat-musique:    #{v.$cat-musique};
-  --color-cat-enviro:     #{v.$cat-enviro};
-  --color-cat-dino:       #{v.$cat-dino};
+  // Les 5 catégories officielles v1.4
+  --color-cat-histoire-du-monde: #{v.$cat-histoire-du-monde};
+  --color-cat-culture-generale:  #{v.$cat-culture-generale};
+  --color-cat-sciences-nature:   #{v.$cat-sciences-nature};
+  --color-cat-dinosaures:        #{v.$cat-dinosaures};
+  --color-cat-espace:            #{v.$cat-espace};
 
   // Fond & surfaces
   --color-bg:            #{v.$bg};

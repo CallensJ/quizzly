@@ -351,8 +351,11 @@
     // Barre colorée à gauche — couleur = couleur de la catégorie
     border-left: 4px solid;
 
-    &--sciences { border-color: v.$cat-science; }
-    &--histoire  { border-color: v.$cat-history; }
+    &--histoire-du-monde { border-color: v.$cat-histoire-du-monde; }
+    &--culture-generale  { border-color: v.$cat-culture-generale; }
+    &--sciences-nature   { border-color: v.$cat-sciences-nature; }
+    &--dinosaures        { border-color: v.$cat-dinosaures; }
+    &--espace            { border-color: v.$cat-espace; }
   }
 
   &__cat-icon {
@@ -629,10 +632,6 @@
     &:hover { opacity: 1; }
     @include m.focus-ring;
   }
-
-  // ── Couleur catégorie manquante ───────────────────────────────────────────
-
-  &__cat-card--heroes { border-color: v.$cat-heroes; }
 
   // ── Animations ────────────────────────────────────────────────────────────
 

@@ -1,27 +1,29 @@
 /**
  * src/lib/badges.ts
  *
- * Configuration centralisée du système de badges (130 badges).
+ * Configuration centralisée du système de badges (55 badges).
  *
  * Chaque badge a un id, un emoji et une condition évaluée sur l'historique
  * des sessions. Les noms et descriptions sont dans les fichiers i18n
  * (clés : badges.{id}_name, badges.{id}_desc).
  *
  * Groupes :
- *   Catégories  : 20 catégories × 5 badges = 100 badges (sci_*, hist_*, hero_*, anim_*, sport_*,
- *                 geo_*, art_*, pop_*, civ_*, math_*, food_*, tech_*, space_*, fr_*, en_*,
- *                 anc_*, body_*, music_*, env_*, dino_*)
+ *   Catégories  : 5 catégories v1.4 × 5 badges = 25 badges (hist_*, cult_*, sci_*, dino_*, space_*)
  *   Score       : first_game, good_score, great_score, perfect, triple_perfect, perfect_ten (6)
  *   Volume      : games_5, games_20, games_50, games_100, games_200, games_500 (6)
  *   Difficulté  : easy_perfect, brave, hard_half, hard_ace, hard_perfect (5)
  *   Streak      : streak_3, streak_7, streak_14, streak_30, streak_60 (5)
  *   Transversaux: all_rounder, polymath, all_difficulties, all_perfect_cats, knowledge_legend (5)
- *                 → conditions élargies aux 20 catégories (gratuites + premium)
+ *                 → conditions élargies aux 5 catégories
  *   Méta        : collector_15, collector_30, collector_50 (3)
  *
- * Référence complète : documentations/app/badges.md
+ * NOTE v1.4 : ce système « curious/passionate/expert/master/legend » par catégorie est celui
+ * hérité de la v1.0, simplement réduit aux 5 catégories. Il ne correspond pas encore au détail
+ * des 5 badges nommés par le cahier des charges (Débutant/Sans Faute/Explorateur/Expert/
+ * Persévérance) — cette refonte du nommage/design est prévue en Sprint 3.
  */
 
+import { getCategoryColor } from '@/lib/categories';
 import type { Category, QuizSession } from '@/types';
 
 // ─── Types ──────────────────────────────────────────────────────────────────
@@ -53,16 +55,11 @@ export interface GroupProgress {
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
 /**
- * Les 20 catégories jouables v1.0. La réduction aux 5 catégories v1.4 se fait en Sprint 2.
+ * Les 5 catégories officielles v1.4.
  * Utilisées par les badges transversaux (all_rounder, polymath, all_perfect_cats, knowledge_legend).
- * Ces badges sont aspirationnels — ils requièrent un abonnement premium pour être débloqués.
  */
 const ALL_CATS: Category[] = [
-  'sciences', 'histoire', 'heroes', 'animaux-nature',
-  'math', 'sport', 'geographie', 'francais',
-  'anglais', 'art', 'corps-humain', 'cuisine',
-  'dinosaures', 'education-civique', 'environnement', 'espace-astronomie',
-  'musique', 'pop-culture', 'technologie', 'monde-antique',
+  'histoire-du-monde', 'culture-generale', 'sciences-nature', 'dinosaures', 'espace',
 ];
 
 /** Nombre de parties dans une catégorie donnée */
@@ -95,69 +92,22 @@ function categoryBadges(prefix: string, cat: Category, emojis: [string, string, 
 
 export const BADGE_DEFINITIONS: BadgeDefinition[] = [
 
-  // ── Catégories gratuites ────────────────────────────────────────────────
+  // ── Les 5 catégories officielles v1.4 ───────────────────────────────────
 
-  // ── 1. Sciences (5) ─────────────────────────────────────────────────────
-  ...categoryBadges('sci', 'sciences', ['🔬', '🧪', '🧬', '🔭', '⚛️']),
+  // ── 1. Histoire du Monde (5) ────────────────────────────────────────────
+  ...categoryBadges('hist', 'histoire-du-monde', ['📜', '🏛️', '📖', '🏺', '👑']),
 
-  // ── 2. Histoire (5) ─────────────────────────────────────────────────────
-  ...categoryBadges('hist', 'histoire', ['📜', '🏛️', '📖', '🏺', '👑']),
+  // ── 2. Culture Générale (5) ─────────────────────────────────────────────
+  ...categoryBadges('cult', 'culture-generale', ['💡', '🎯', '🧩', '🌟', '🏆']),
 
-  // ── 3. Héros & Aventures (5) ────────────────────────────────────────────
-  ...categoryBadges('hero', 'heroes', ['⚔️', '🛡️', '🗡️', '🦸', '🏰']),
+  // ── 3. Sciences & Nature (5) ────────────────────────────────────────────
+  ...categoryBadges('sci', 'sciences-nature', ['🔬', '🌿', '🧬', '🔭', '🦋']),
 
-  // ── 4. Animaux & Nature (5) ─────────────────────────────────────────────
-  ...categoryBadges('anim', 'animaux-nature', ['🐾', '🦁', '🦋', '🌿', '🦅']),
-
-  // ── Catégories premium ──────────────────────────────────────────────────
-
-  // ── 5. Mathématiques (5) ────────────────────────────────────────────────
-  ...categoryBadges('math', 'math', ['🔢', '📐', '📊', '🧮', '♾️']),
-
-  // ── 6. Sport (5) ────────────────────────────────────────────────────────
-  ...categoryBadges('sport', 'sport', ['🏃', '⚽', '🏋️', '🥇', '🏆']),
-
-  // ── 7. Géographie (5) ───────────────────────────────────────────────────
-  ...categoryBadges('geo', 'geographie', ['🗺️', '🌍', '🧭', '🏔️', '🌐']),
-
-  // ── 8. Art (5) ──────────────────────────────────────────────────────────
-  ...categoryBadges('art', 'art', ['🎨', '✏️', '🖌️', '🎭', '🖼️']),
-
-  // ── 9. Pop Culture (5) ──────────────────────────────────────────────────
-  ...categoryBadges('pop', 'pop-culture', ['🎬', '🎵', '🎮', '🌟', '🎤']),
-
-  // ── 10. Éducation Civique (5) ───────────────────────────────────────────
-  ...categoryBadges('civ', 'education-civique', ['🏛️', '📋', '⚖️', '🤝', '🗳️']),
-
-  // ── 11. Cuisine & Alimentation (5) ──────────────────────────────────────
-  ...categoryBadges('food', 'cuisine', ['🍎', '🍳', '🥘', '👨‍🍳', '🍽️']),
-
-  // ── 12. Technologie (5) ─────────────────────────────────────────────────
-  ...categoryBadges('tech', 'technologie', ['💻', '🔧', '🤖', '💡', '🚀']),
-
-  // ── 13. Espace & Astronomie (5) ─────────────────────────────────────────
-  ...categoryBadges('space', 'espace-astronomie', ['🌙', '⭐', '🚀', '🪐', '🌌']),
-
-  // ── 14. Français (5) ────────────────────────────────────────────────────
-  ...categoryBadges('fr', 'francais', ['📝', '✍️', '📚', '🖊️', '🏅']),
-
-  // ── 15. Anglais (5) ─────────────────────────────────────────────────────
-  ...categoryBadges('en', 'anglais', ['🇬🇧', '📖', '💬', '🌍', '🎓']),
-
-  // ── 16. Monde Antique (5) ───────────────────────────────────────────────
-  ...categoryBadges('anc', 'monde-antique', ['🏛️', '⚱️', '📜', '🗿', '🌟']),
-
-  // ── 17. Corps humain & Santé (5) ────────────────────────────────────────
-  ...categoryBadges('body', 'corps-humain', ['🫀', '🦷', '💪', '🧠', '🩺']),
-
-  // ── 18. Musique (5) ─────────────────────────────────────────────────────
-  ...categoryBadges('music', 'musique', ['🎵', '🎸', '🎹', '🎺', '🎼']),
-
-  // ── 19. Environnement & Écologie (5) ────────────────────────────────────
-  ...categoryBadges('env', 'environnement', ['🌱', '🌊', '♻️', '🌳', '🌍']),
-
-  // ── 20. Dinosaures (5) ──────────────────────────────────────────────────
+  // ── 4. Dinosaures & Préhistoire (5) ─────────────────────────────────────
   ...categoryBadges('dino', 'dinosaures', ['🦕', '🦖', '🥚', '🔍', '🏆']),
+
+  // ── 5. Espace & Astronomie (5) ──────────────────────────────────────────
+  ...categoryBadges('space', 'espace', ['🌙', '⭐', '🚀', '🪐', '🌌']),
 
   // ── 5. Score global (6) ─────────────────────────────────────────────────
   {
@@ -305,147 +255,41 @@ export interface BadgeGroup {
 }
 
 export const BADGE_GROUPS: BadgeGroup[] = [
-  // ── Catégories gratuites ────────────────────────────────────────────────
+  // ── Les 5 catégories officielles v1.4 ───────────────────────────────────
   {
-    id: 'sciences',
-    labelKey: 'groupSciences',
-    emoji: '🔬',
-    color: '#2196F3',
-    badgeIds: ['sci_curious', 'sci_passionate', 'sci_expert', 'sci_master', 'sci_legend'],
-  },
-  {
-    id: 'histoire',
+    id: 'histoire-du-monde',
     labelKey: 'groupHistoire',
     emoji: '📜',
-    color: '#795548',
+    color: getCategoryColor('histoire-du-monde'),
     badgeIds: ['hist_curious', 'hist_passionate', 'hist_expert', 'hist_master', 'hist_legend'],
   },
   {
-    id: 'heroes',
-    labelKey: 'groupHeroes',
-    emoji: '⚔️',
-    color: '#E91E63',
-    badgeIds: ['hero_curious', 'hero_passionate', 'hero_expert', 'hero_master', 'hero_legend'],
+    id: 'culture-generale',
+    labelKey: 'groupCultureGenerale',
+    emoji: '💡',
+    color: getCategoryColor('culture-generale'),
+    badgeIds: ['cult_curious', 'cult_passionate', 'cult_expert', 'cult_master', 'cult_legend'],
   },
   {
-    id: 'animaux-nature',
-    labelKey: 'groupAnimaux',
-    emoji: '🐾',
-    color: '#8BC34A',
-    badgeIds: ['anim_curious', 'anim_passionate', 'anim_expert', 'anim_master', 'anim_legend'],
-  },
-  // ── Catégories premium ──────────────────────────────────────────────────
-  {
-    id: 'math',
-    labelKey: 'groupMath',
-    emoji: '🔢',
-    color: '#FF5252',
-    badgeIds: ['math_curious', 'math_passionate', 'math_expert', 'math_master', 'math_legend'],
-  },
-  {
-    id: 'sport',
-    labelKey: 'groupSport',
-    emoji: '🏆',
-    color: '#4CAF50',
-    badgeIds: ['sport_curious', 'sport_passionate', 'sport_expert', 'sport_master', 'sport_legend'],
-  },
-  {
-    id: 'geographie',
-    labelKey: 'groupGeographie',
-    emoji: '🗺️',
-    color: '#00BCD4',
-    badgeIds: ['geo_curious', 'geo_passionate', 'geo_expert', 'geo_master', 'geo_legend'],
-  },
-  {
-    id: 'art',
-    labelKey: 'groupArt',
-    emoji: '🎨',
-    color: '#FF5722',
-    badgeIds: ['art_curious', 'art_passionate', 'art_expert', 'art_master', 'art_legend'],
-  },
-  {
-    id: 'pop-culture',
-    labelKey: 'groupPopCulture',
-    emoji: '🎬',
-    color: '#FF4081',
-    badgeIds: ['pop_curious', 'pop_passionate', 'pop_expert', 'pop_master', 'pop_legend'],
-  },
-  {
-    id: 'education-civique',
-    labelKey: 'groupCivique',
-    emoji: '🏛️',
-    color: '#607D8B',
-    badgeIds: ['civ_curious', 'civ_passionate', 'civ_expert', 'civ_master', 'civ_legend'],
-  },
-  {
-    id: 'cuisine',
-    labelKey: 'groupCuisine',
-    emoji: '🍽️',
-    color: '#FF9800',
-    badgeIds: ['food_curious', 'food_passionate', 'food_expert', 'food_master', 'food_legend'],
-  },
-  {
-    id: 'technologie',
-    labelKey: 'groupTechnologie',
-    emoji: '💻',
-    color: '#009688',
-    badgeIds: ['tech_curious', 'tech_passionate', 'tech_expert', 'tech_master', 'tech_legend'],
-  },
-  {
-    id: 'espace-astronomie',
-    labelKey: 'groupEspace',
-    emoji: '🌌',
-    color: '#1A237E',
-    badgeIds: ['space_curious', 'space_passionate', 'space_expert', 'space_master', 'space_legend'],
-  },
-  {
-    id: 'francais',
-    labelKey: 'groupFrancais',
-    emoji: '📝',
-    color: '#795548',
-    badgeIds: ['fr_curious', 'fr_passionate', 'fr_expert', 'fr_master', 'fr_legend'],
-  },
-  {
-    id: 'anglais',
-    labelKey: 'groupAnglais',
-    emoji: '🇬🇧',
-    color: '#C62828',
-    badgeIds: ['en_curious', 'en_passionate', 'en_expert', 'en_master', 'en_legend'],
-  },
-  {
-    id: 'monde-antique',
-    labelKey: 'groupMondeAntique',
-    emoji: '🏛️',
-    color: '#8B4513',
-    badgeIds: ['anc_curious', 'anc_passionate', 'anc_expert', 'anc_master', 'anc_legend'],
-  },
-  {
-    id: 'corps-humain',
-    labelKey: 'groupCorpsHumain',
-    emoji: '🧠',
-    color: '#E91E63',
-    badgeIds: ['body_curious', 'body_passionate', 'body_expert', 'body_master', 'body_legend'],
-  },
-  {
-    id: 'musique',
-    labelKey: 'groupMusique',
-    emoji: '🎵',
-    color: '#AB47BC',
-    badgeIds: ['music_curious', 'music_passionate', 'music_expert', 'music_master', 'music_legend'],
-  },
-  {
-    id: 'environnement',
-    labelKey: 'groupEnvironnement',
-    emoji: '🌱',
-    color: '#2E7D32',
-    badgeIds: ['env_curious', 'env_passionate', 'env_expert', 'env_master', 'env_legend'],
+    id: 'sciences-nature',
+    labelKey: 'groupSciences',
+    emoji: '🔬',
+    color: getCategoryColor('sciences-nature'),
+    badgeIds: ['sci_curious', 'sci_passionate', 'sci_expert', 'sci_master', 'sci_legend'],
   },
   {
     id: 'dinosaures',
     labelKey: 'groupDinosaurus',
     emoji: '🦕',
-    color: '#6D4C41',
+    color: getCategoryColor('dinosaures'),
     badgeIds: ['dino_curious', 'dino_passionate', 'dino_expert', 'dino_master', 'dino_legend'],
+  },
+  {
+    id: 'espace',
+    labelKey: 'groupEspace',
+    emoji: '🌌',
+    color: getCategoryColor('espace'),
+    badgeIds: ['space_curious', 'space_passionate', 'space_expert', 'space_master', 'space_legend'],
   },
   // ── Badges globaux ──────────────────────────────────────────────────────
   {
@@ -534,11 +378,7 @@ export function getNewlyEarnedBadges(
 
 /** IDs des groupes catégorie (distincts des groupes globaux score/volume/etc.) */
 const CAT_GROUP_IDS = new Set<string>([
-  'sciences', 'histoire', 'heroes', 'animaux-nature',
-  'math', 'sport', 'geographie', 'art', 'pop-culture',
-  'education-civique', 'cuisine', 'technologie', 'espace-astronomie',
-  'francais', 'anglais', 'monde-antique', 'corps-humain', 'musique',
-  'environnement', 'dinosaures',
+  'histoire-du-monde', 'culture-generale', 'sciences-nature', 'dinosaures', 'espace',
 ]);
 
 const VOLUME_THRESHOLDS: Record<string, number> = {
