@@ -3,24 +3,23 @@
 // État du quiz en cours — NON persisté (session mémoire uniquement).
 // Le profileStore gère la persistance des sessions terminées.
 //
-// Flux : idle → (startQuiz) → playing → (nextQuestion × 20) → finished
+// Flux : idle → (startQuiz) → playing → (nextQuestion × 10) → finished
 //        finished → (resetQuiz) → idle
 
 import { create } from 'zustand';
 import type { Category, Difficulty, Question, AnswerKey, QuizStatus } from '@/types';
 
-// Nombre de questions par partie (fixe pour MVP 1)
-const QUESTIONS_PER_GAME = 20;
+// Nombre de questions par partie — sessions courtes v1.4 (cahier-des-charges-claude-v1.4.md §4)
+const QUESTIONS_PER_GAME = 10;
 
 interface QuizState {
   // ── Sélections de l'écran Home ──────────────────────────────────────────────
   category: Category | null;
   difficulty: Difficulty | null;
-  /** Sous-catégorie active — uniquement pour category='mythology'. */
 
   // ── Déroulement de la partie ─────────────────────────────────────────────────
   status: QuizStatus;
-  questions: Question[];      // 20 questions tirées aléatoirement
+  questions: Question[];      // 10 questions tirées aléatoirement
   currentIndex: number;       // 0-based
   score: number;
   selectedAnswer: AnswerKey | null; // réponse du joueur pour la question courante
@@ -35,7 +34,7 @@ interface QuizState {
 
   /**
    * Démarre une partie. Reçoit le pool complet filtré (catégorie + difficulté)
-   * depuis le composant, tire 20 questions aléatoirement et lance le jeu.
+   * depuis le composant, tire 10 questions aléatoirement et lance le jeu.
    */
   startQuiz: (pool: Question[]) => void;
 

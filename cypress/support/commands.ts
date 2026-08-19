@@ -95,7 +95,7 @@ Cypress.Commands.add('setupQuestionsCache', () => {
         const tx = db.transaction('questionCache', 'readwrite');
         const store = tx.objectStore('questionCache');
 
-        // 25 questions par difficulté → couvre un quiz de 20 questions avec marge
+        // 25 questions par difficulté → couvre un quiz de 10 questions avec large marge
         categories.forEach((category) => {
           const questions = difficulties.flatMap((diff) => makeQuestions(category, diff, 25));
           store.put({
@@ -133,7 +133,7 @@ Cypress.Commands.add('setupQuestionsCache', () => {
  * pour détecter proprement la fin sans bloquer.
  */
 Cypress.Commands.add('answerAllQuestions', () => {
-  // 25 itérations — marge de sécurité au-delà des 20 questions
+  // 25 itérations — marge de sécurité au-delà des 10 questions
   Cypress._.times(25, () => {
     cy.get('body').then(($body) => {
       // Check synchrone sans timeout : si answer-A n'est pas visible → quiz terminé, skip.

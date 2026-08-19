@@ -195,13 +195,13 @@ export const BADGE_DEFINITIONS: BadgeDefinition[] = [
   {
     id: 'all_rounder',
     emoji: '🌍',
-    // Au moins 1 partie dans chacune des 20 catégories (gratuites + premium)
+    // Au moins 1 partie dans chacune des 5 catégories
     condition: (s) => ALL_CATS.every((cat) => s.some((q) => q.category === cat)),
   },
   {
     id: 'polymath',
     emoji: '🧠',
-    // Au moins 10 parties dans chacune des 20 catégories
+    // Au moins 10 parties dans chacune des 5 catégories
     condition: (s) => ALL_CATS.every((cat) => catCount(s, cat) >= 10),
   },
   {
@@ -214,13 +214,13 @@ export const BADGE_DEFINITIONS: BadgeDefinition[] = [
   {
     id: 'all_perfect_cats',
     emoji: '🏆',
-    // Au moins 1 score parfait dans chacune des 20 catégories
+    // Au moins 1 score parfait dans chacune des 5 catégories
     condition: (s) => ALL_CATS.every((cat) => catPerfects(s, cat) >= 1),
   },
   {
     id: 'knowledge_legend',
     emoji: '🌌',
-    // 50 parties dans chacune des 20 catégories + score moyen global ≥ 70%
+    // 50 parties dans chacune des 5 catégories + score moyen global ≥ 70%
     condition: (s) => {
       if (!ALL_CATS.every((cat) => catCount(s, cat) >= 50)) return false;
       if (s.length === 0) return false;

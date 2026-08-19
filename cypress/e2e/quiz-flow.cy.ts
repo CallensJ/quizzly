@@ -54,13 +54,13 @@ describe('Flux Home → Quiz → Results', () => {
     // On doit arriver sur /results
     cy.url().should('include', '/results');
 
-    // Le score doit être visible (un nombre entre 0 et 20)
+    // Le score doit être visible (un nombre entre 0 et 10)
     cy.get('[data-testid="score-num"]')
       .invoke('text')
       .then((text) => {
         const score = parseInt(text, 10);
         expect(score).to.be.at.least(0);
-        expect(score).to.be.at.most(20);
+        expect(score).to.be.at.most(10);
       });
   });
 

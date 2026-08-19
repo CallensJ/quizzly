@@ -32,10 +32,13 @@ function makeQuestion(id: string, answer: 'A' | 'B' | 'C' | 'D' = 'A'): Question
   };
 }
 
-/** Pool de 20 questions factices, toutes avec la bonne réponse 'A'. */
+/** Pool de 20 questions factices — pool "réaliste" plus grand qu'une session (10). */
 const pool20 = Array.from({ length: 20 }, (_, i) => makeQuestion(`q${i + 1}`));
 
-/** Pool de 5 questions factices (pour tester le cas < 20). */
+/** Pool de 10 questions factices — exactement la taille d'une session. */
+const pool10 = Array.from({ length: 10 }, (_, i) => makeQuestion(`ten-q${i + 1}`));
+
+/** Pool de 5 questions factices (pour tester le cas < 10). */
 const pool5 = Array.from({ length: 5 }, (_, i) => makeQuestion(`small-q${i + 1}`));
 
 // Helpers pour récupérer la réponse réelle après shuffle
@@ -71,15 +74,22 @@ describe('startQuiz', () => {
     expect(currentIndex).toBe(0);
   });
 
-  it('sélectionne exactement 20 questions depuis un pool de 20', () => {
+  it('sélectionne exactement 10 questions depuis un pool de 20', () => {
     useQuizStore.getState().startQuiz(pool20);
 
     const { questions } = useQuizStore.getState();
-    expect(questions).toHaveLength(20);
+    expect(questions).toHaveLength(10);
   });
 
-  it('prend toutes les questions si le pool en contient moins de 20', () => {
-    // Pool de seulement 5 questions — on ne peut pas en tirer 20
+  it('sélectionne exactement 10 questions depuis un pool de 10', () => {
+    useQuizStore.getState().startQuiz(pool10);
+
+    const { questions } = useQuizStore.getState();
+    expect(questions).toHaveLength(10);
+  });
+
+  it('prend toutes les questions si le pool en contient moins de 10', () => {
+    // Pool de seulement 5 questions — on ne peut pas en tirer 10
     useQuizStore.getState().startQuiz(pool5);
 
     const { questions } = useQuizStore.getState();
@@ -215,7 +225,7 @@ describe('resetQuiz', () => {
 
   it('remet le quiz à zéro mais conserve catégorie et difficulté', () => {
     // Arrange : configurer catégorie + difficulté puis jouer
-    useQuizStore.getState().setCategory('sciences');
+    useQuizStore.getState().setCategory('sciences-nature');
     useQuizStore.getState().setDifficulty('hard');
     useQuizStore.getState().startQuiz(pool20);
     useQuizStore.getState().selectAnswer(getCorrectAnswer());
@@ -230,7 +240,7 @@ describe('resetQuiz', () => {
     expect(currentIndex).toBe(0);
     expect(questions).toHaveLength(0);
     // Catégorie et difficulté conservées pour le bouton "Rejouer"
-    expect(category).toBe('sciences');
+    expect(category).toBe('sciences-nature');
     expect(difficulty).toBe('hard');
   });
 
@@ -242,7 +252,7 @@ describe('resetAll', () => {
 
   it('remet absolument tout à zéro y compris catégorie et difficulté', () => {
     // Arrange
-    useQuizStore.getState().setCategory('histoire');
+    useQuizStore.getState().setCategory('histoire-du-monde');
     useQuizStore.getState().setDifficulty('medium');
     useQuizStore.getState().startQuiz(pool20);
 

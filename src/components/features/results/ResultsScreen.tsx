@@ -43,7 +43,7 @@ export default function ResultsScreen() {
   const newBadgesThisSession   = useProfileStore((s) => s.newBadgesThisSession);
   const recordPlayStreak       = useProfileStore((s) => s.recordPlayStreak);
 
-  const total = questions.length || 20;
+  const total = questions.length || 10;
   const badgeEarnedThisSession = newBadgesThisSession.length > 0;
   const [loading, setLoading] = useState(false);
   // Ref pour éviter que le guard ne redirige vers /home pendant un replay.
