@@ -22,12 +22,17 @@ Pour chaque fonctionnalité, correction, contenu ou optimisation :
    Lire les composants, données, routes, tests et styles déjà concernés. Réutiliser les patterns existants.
 
 3. **Créer une branche**  
-   Utiliser une branche dédiée :
+   Utiliser une branche dédiée, créée à partir de `develop` (et non `main`) :
    - `feature/...`
    - `fix/...`
    - `content/...`
    - `seo/...`
    - `refactor/...`
+
+   Depuis le 19/08/2026 : `develop` est la branche d'intégration. Chaque sprint a sa propre
+   branche créée depuis `develop` (ex. `feature/sprint2-gameplay-core`) ; les merges de fin de
+   sprint se font sur `develop`, pas sur `main`. `main` ne reçoit que des merges validés
+   explicitement par Johan (release).
 
 4. **Implémenter**  
    Effectuer les changements minimaux nécessaires. Ne pas refactoriser les fichiers voisins par réflexe.
