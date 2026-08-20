@@ -1,5 +1,2406 @@
 {
   "category": "histoire-du-monde",
   "lang": "fr",
-  "questions": []
+  "questions": [
+    {
+      "id": "histoire-du-monde-fr-0001",
+      "difficulty": "easy",
+      "question": "Quel grand fleuve traversait l'Égypte antique et permettait l'agriculture ?",
+      "options": {
+        "A": "Le Nil",
+        "B": "L'Amazone",
+        "C": "Le Danube",
+        "D": "Le Mississipi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0002",
+      "difficulty": "easy",
+      "question": "Quel célèbre monument a été construit pour protéger le nord de la Chine ?",
+      "options": {
+        "A": "Le Colisée",
+        "B": "La Grande Muraille",
+        "C": "Le Parthénon",
+        "D": "La Tour de Pise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0003",
+      "difficulty": "easy",
+      "question": "Comment appelait-on les rois et reines de l'Égypte antique ?",
+      "options": {
+        "A": "Les empereurs",
+        "B": "Les sultans",
+        "C": "Les pharaons",
+        "D": "Les tsars"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0004",
+      "difficulty": "easy",
+      "question": "Quelle invention permettait aux marins de trouver le nord magnétique ?",
+      "options": {
+        "A": "La lunette",
+        "B": "Le sablier",
+        "C": "L'astrolabe",
+        "D": "La boussole"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0005",
+      "difficulty": "easy",
+      "question": "Qui a peint le célèbre tableau de la Joconde au XVIe siècle ?",
+      "options": {
+        "A": "Claude Monet",
+        "B": "Léonard de Vinci",
+        "C": "Pablo Picasso",
+        "D": "Vincent van Gogh"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0006",
+      "difficulty": "easy",
+      "question": "Quel célèbre navigateur a traversé l'Atlantique en 1492 ?",
+      "options": {
+        "A": "Marco Polo",
+        "B": "Vasco de Gama",
+        "C": "Christophe Colomb",
+        "D": "James Cook"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0007",
+      "difficulty": "easy",
+      "question": "Quel grand mammifère disparu les humains de la Préhistoire chassaient-ils ?",
+      "options": {
+        "A": "Le tricératops",
+        "B": "Le dodo",
+        "C": "Le diplodocus",
+        "D": "Le mammouth"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0008",
+      "difficulty": "easy",
+      "question": "Dans quel pays se trouvent les célèbres pyramides de Gizeh ?",
+      "options": {
+        "A": "En Égypte",
+        "B": "En Grèce",
+        "C": "En Italie",
+        "D": "En Turquie"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0009",
+      "difficulty": "easy",
+      "question": "Dans quelle ville antique est née la démocratie ?",
+      "options": {
+        "A": "Sparte",
+        "B": "Rome",
+        "C": "Athènes",
+        "D": "Carthage"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0010",
+      "difficulty": "easy",
+      "question": "Quel célèbre astronaute a été le premier à marcher sur la Lune en 1969 ?",
+      "options": {
+        "A": "Youri Gagarine",
+        "B": "Buzz Aldrin",
+        "C": "Thomas Pesquet",
+        "D": "Neil Armstrong"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0011",
+      "difficulty": "easy",
+      "question": "Quelle écriture antique utilisait de petits dessins gravés dans la pierre ?",
+      "options": {
+        "A": "Les hiéroglyphes",
+        "B": "L'alphabet latin",
+        "C": "Le braille",
+        "D": "Le morse"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0012",
+      "difficulty": "easy",
+      "question": "Dans quel monument de Rome les gladiateurs combattaient-ils ?",
+      "options": {
+        "A": "Le Parthénon",
+        "B": "Le Colisée",
+        "C": "Le Circus Maximus",
+        "D": "Le Forum"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0013",
+      "difficulty": "easy",
+      "question": "Quel moyen de transport antique était constitué de troncs d'arbres liés entre eux ?",
+      "options": {
+        "A": "La caravelle",
+        "B": "La galère",
+        "C": "Le drakkar",
+        "D": "Le radeau"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0014",
+      "difficulty": "easy",
+      "question": "Qui a inventé l'imprimerie moderne en Europe au XVe siècle ?",
+      "options": {
+        "A": "Johannes Gutenberg",
+        "B": "Galilée",
+        "C": "Isaac Newton",
+        "D": "Alexander Bell"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0015",
+      "difficulty": "easy",
+      "question": "Quel peuple marin du Nord voyageait à bord de drakkars au Moyen Âge ?",
+      "options": {
+        "A": "Les Romains",
+        "B": "Les Vikings",
+        "C": "Les Grecs",
+        "D": "Les Perses"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0016",
+      "difficulty": "easy",
+      "question": "Quel matériau végétal inventé en Chine a remplacé les parchemins en peau ?",
+      "options": {
+        "A": "Le papyrus",
+        "B": "La soie",
+        "C": "Le papier",
+        "D": "Le bambou"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0017",
+      "difficulty": "easy",
+      "question": "Quel est le plus haut sommet du monde, gravi pour la première fois en 1953 ?",
+      "options": {
+        "A": "Le Mont Everest",
+        "B": "Le Mont Blanc",
+        "C": "Le Kilimandjaro",
+        "D": "Le Mont Fuji"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0018",
+      "difficulty": "easy",
+      "question": "Quelle cité antique a été ensevelie par l'éruption du Vésuve en l'an 79 ?",
+      "options": {
+        "A": "Rome",
+        "B": "Pompéi",
+        "C": "Alexandrie",
+        "D": "Sparte"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0019",
+      "difficulty": "easy",
+      "question": "Quel célèbre voyageur italien a exploré la Chine le long de la Route de la Soie ?",
+      "options": {
+        "A": "Vasco de Gama",
+        "B": "James Cook",
+        "C": "Marco Polo",
+        "D": "Magellan"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0020",
+      "difficulty": "easy",
+      "question": "Quel animal était très respecté et souvent représenté dans l'Égypte antique ?",
+      "options": {
+        "A": "Le cheval",
+        "B": "Le dauphin",
+        "C": "L'éléphant",
+        "D": "Le chat"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0021",
+      "difficulty": "easy",
+      "question": "Quelle invention de la Préhistoire a permis de cuire la nourriture et de s'éclairer ?",
+      "options": {
+        "A": "La maîtrise du feu",
+        "B": "La roue en bois",
+        "C": "La poterie en argile",
+        "D": "Le moulin à vent"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0022",
+      "difficulty": "easy",
+      "question": "Quel grand sanctuaire au sommet d'une colline domine la ville d'Athènes ?",
+      "options": {
+        "A": "Le Forum",
+        "B": "L'Acropole",
+        "C": "Le Colisée",
+        "D": "Le Cirque"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0023",
+      "difficulty": "easy",
+      "question": "Quelle civilisation d'Amérique du Sud a construit la cité perchée du Machu Picchu ?",
+      "options": {
+        "A": "Les Aztèques",
+        "B": "Les Mayas",
+        "C": "Les Incas",
+        "D": "Les Romains"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0024",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on le corps préservé et enveloppé de bandelettes en Égypte ?",
+      "options": {
+        "A": "Un fossile",
+        "B": "Un squelette",
+        "C": "Une statue",
+        "D": "Une momie"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0025",
+      "difficulty": "easy",
+      "question": "Quel pays a envoyé le premier être humain dans l'espace en 1961 ?",
+      "options": {
+        "A": "L'URSS",
+        "B": "La France",
+        "C": "Le Japon",
+        "D": "Le Canada"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0026",
+      "difficulty": "easy",
+      "question": "Comment s'appelait le premier être humain à voyager dans l'espace ?",
+      "options": {
+        "A": "Neil Armstrong",
+        "B": "Youri Gagarine",
+        "C": "Buzz Aldrin",
+        "D": "Alan Shepard"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0027",
+      "difficulty": "easy",
+      "question": "Quel gigantesque navire a heurté un iceberg lors de son voyage en 1912 ?",
+      "options": {
+        "A": "Le Santa Maria",
+        "B": "Le Mayflower",
+        "C": "Le Titanic",
+        "D": "Le Victoria"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0028",
+      "difficulty": "easy",
+      "question": "Quel célèbre savant a compris la gravité en observant la chute d'une pomme ?",
+      "options": {
+        "A": "Albert Einstein",
+        "B": "Louis Pasteur",
+        "C": "Thomas Edison",
+        "D": "Isaac Newton"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0029",
+      "difficulty": "easy",
+      "question": "Où sont nés les premiers Jeux olympiques de l'Histoire ?",
+      "options": {
+        "A": "En Grèce",
+        "B": "En Égypte",
+        "C": "En Chine",
+        "D": "En Gaule"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0030",
+      "difficulty": "easy",
+      "question": "Quel vêtement traditionnel en tissu drapé portaient les citoyens romains ?",
+      "options": {
+        "A": "Le kimono",
+        "B": "La toge",
+        "C": "Le poncho",
+        "D": "Le kilt"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0031",
+      "difficulty": "easy",
+      "question": "Quelle invention a permis de construire des chariots et des charrettes ?",
+      "options": {
+        "A": "La voile",
+        "B": "Le fer",
+        "C": "La roue",
+        "D": "Le verre"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0032",
+      "difficulty": "easy",
+      "question": "Comment appelle-t-on les guerriers professionnels du Japon féodal ?",
+      "options": {
+        "A": "Les gladiateurs",
+        "B": "Les chevaliers",
+        "C": "Les vikings",
+        "D": "Les samouraïs"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0033",
+      "difficulty": "easy",
+      "question": "Dans quel monument blanc en Inde un empereur a-t-il honoré son épouse ?",
+      "options": {
+        "A": "Le Taj Mahal",
+        "B": "Le Colisée",
+        "C": "Le Parthénon",
+        "D": "L'Alhambra"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0034",
+      "difficulty": "easy",
+      "question": "Quelle grande reine a été la dernière souveraine de l'Égypte antique ?",
+      "options": {
+        "A": "Néfertiti",
+        "B": "Cléopâtre",
+        "C": "Hatchepsout",
+        "D": "Isis"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0035",
+      "difficulty": "easy",
+      "question": "Quel savant a découvert le vaccin contre la rage au XIXe siècle ?",
+      "options": {
+        "A": "Charles Darwin",
+        "B": "Marie Curie",
+        "C": "Louis Pasteur",
+        "D": "Alexander Fleming"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0036",
+      "difficulty": "easy",
+      "question": "Comment appelait-on les soldats d'élite de la Rome antique organisés en armée ?",
+      "options": {
+        "A": "Les hoplites",
+        "B": "Les cosaques",
+        "C": "Les templiers",
+        "D": "Les légionnaires"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0037",
+      "difficulty": "easy",
+      "question": "Quel tissu précieux fabriqué à partir de cocons de chenilles venait de Chine ?",
+      "options": {
+        "A": "La soie",
+        "B": "Le coton",
+        "C": "La laine",
+        "D": "Le lin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0038",
+      "difficulty": "easy",
+      "question": "Quel grand chef romain a conquis la Gaule avant de devenir dictateur ?",
+      "options": {
+        "A": "Auguste",
+        "B": "Jules César",
+        "C": "Néron",
+        "D": "Marc Antoine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0039",
+      "difficulty": "easy",
+      "question": "Quel moyen de transport sur rails a transformé le monde au XIXe siècle ?",
+      "options": {
+        "A": "L'automobile",
+        "B": "Le dirigeable",
+        "C": "Le train à vapeur",
+        "D": "La bicyclette"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0040",
+      "difficulty": "easy",
+      "question": "Comment appelait-on les grands chefs guerriers et dirigeants de l'Empire mongol ?",
+      "options": {
+        "A": "Les pharaons",
+        "B": "Les sultans",
+        "C": "Les empereurs",
+        "D": "Les khans"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0041",
+      "difficulty": "easy",
+      "question": "Quelle poudre noire explosive a été inventée en Chine au Moyen Âge ?",
+      "options": {
+        "A": "La poudre à canon",
+        "B": "La dynamite",
+        "C": "Le plâtre",
+        "D": "Le ciment"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0042",
+      "difficulty": "easy",
+      "question": "Quel célèbre scientifique a reçu deux prix Nobel pour ses travaux sur la radioactivité ?",
+      "options": {
+        "A": "Albert Einstein",
+        "B": "Marie Curie",
+        "C": "Isaac Newton",
+        "D": "Galilée"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0043",
+      "difficulty": "easy",
+      "question": "Quelle construction romaine permettait d'acheminer l'eau propre vers les villes ?",
+      "options": {
+        "A": "La pyramide",
+        "B": "Le dôme",
+        "C": "L'aqueduc",
+        "D": "La douve"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0044",
+      "difficulty": "easy",
+      "question": "Quel instrument d'optique Galilée a-t-il perfectionné pour observer les étoiles ?",
+      "options": {
+        "A": "Le microscope",
+        "B": "Le périscope",
+        "C": "L'appareil photo",
+        "D": "La lunette astronomique"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0045",
+      "difficulty": "easy",
+      "question": "Comment s'appelait le premier président des États-Unis d'Amérique ?",
+      "options": {
+        "A": "George Washington",
+        "B": "Abraham Lincoln",
+        "C": "Thomas Jefferson",
+        "D": "Benjamin Franklin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0046",
+      "difficulty": "easy",
+      "question": "Quel monument à tête d'humain et corps de lion monte la garde à Gizeh ?",
+      "options": {
+        "A": "Le Minotaure",
+        "B": "Le Sphinx",
+        "C": "La Chimère",
+        "D": "Le Centaure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0047",
+      "difficulty": "easy",
+      "question": "Quel explorateur a mené la première expédition à faire le tour du globe ?",
+      "options": {
+        "A": "Christophe Colomb",
+        "B": "Jacques Cartier",
+        "C": "Fernand de Magellan",
+        "D": "Marco Polo"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0048",
+      "difficulty": "easy",
+      "question": "Quel engin volant les frères Wright ont-ils réussi à faire voler en 1903 ?",
+      "options": {
+        "A": "Une fusée",
+        "B": "Une montgolfière",
+        "C": "Un hélicoptère",
+        "D": "Un avion à moteur"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0049",
+      "difficulty": "easy",
+      "question": "Quel était le rôle principal des pyramides d'Égypte ?",
+      "options": {
+        "A": "Servir de tombeaux royaux",
+        "B": "Stocker le grain",
+        "C": "Observer les étoiles",
+        "D": "Défendre la frontière"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0050",
+      "difficulty": "easy",
+      "question": "Dans quel pays se trouvent les ruines du Machu Picchu ?",
+      "options": {
+        "A": "Au Mexique",
+        "B": "Au Pérou",
+        "C": "Au Brésil",
+        "D": "En Colombie"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0051",
+      "difficulty": "medium",
+      "question": "Quelle région située entre le Tigre et l'Euphrate a vu naître les premières villes ?",
+      "options": {
+        "A": "L'Anatolie",
+        "B": "La Nubie",
+        "C": "La Mésopotamie",
+        "D": "La Phénicie"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0052",
+      "difficulty": "medium",
+      "question": "Quel nom porte la première écriture en forme de coins inventée à Sumer ?",
+      "options": {
+        "A": "Les hiéroglyphes",
+        "B": "L'alphabet grec",
+        "C": "Les runes",
+        "D": "L'écriture cunéiforme"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0053",
+      "difficulty": "medium",
+      "question": "Quelle cité antique commerçante d'Afrique du Nord a affronté Rome lors des guerres puniques ?",
+      "options": {
+        "A": "Carthage",
+        "B": "Alexandrie",
+        "C": "Thèbes",
+        "D": "Babylone"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0054",
+      "difficulty": "medium",
+      "question": "Quel célèbre général carthaginois a traversé les Alpes avec des éléphants de guerre ?",
+      "options": {
+        "A": "Scipion",
+        "B": "Hannibal",
+        "C": "Pyrrhus",
+        "D": "Hamilcar"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0055",
+      "difficulty": "medium",
+      "question": "Dans quelle cité-État grecque l'entraînement militaire des enfants était-il le plus strict ?",
+      "options": {
+        "A": "Athènes",
+        "B": "Corinthe",
+        "C": "Sparte",
+        "D": "Thèbes"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0056",
+      "difficulty": "medium",
+      "question": "Quel jeune roi macédonien a conquis un immense empire s'étendant jusqu'à l'Inde ?",
+      "options": {
+        "A": "Périclès",
+        "B": "Darius Ier",
+        "C": "Philippe II",
+        "D": "Alexandre le Grand"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0057",
+      "difficulty": "medium",
+      "question": "Quel souverain du Mali du XIVe siècle est célèbre pour son légendaire pèlerinage à La Mecque ?",
+      "options": {
+        "A": "Mansa Moussa",
+        "B": "Soundiata Keïta",
+        "C": "Askia Mohamed",
+        "D": "Sonni Ali Ber"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0058",
+      "difficulty": "medium",
+      "question": "Quelle civilisation précolombienne a fondé la grande ville insulaire de Tenochtitlan ?",
+      "options": {
+        "A": "Les Incas",
+        "B": "Les Aztèques",
+        "C": "Les Mayas",
+        "D": "Les Toltèques"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0059",
+      "difficulty": "medium",
+      "question": "Quelle plante à grains originaire d'Amérique était la base de l'alimentation maya et aztèque ?",
+      "options": {
+        "A": "Le blé",
+        "B": "Le riz",
+        "C": "Le maïs",
+        "D": "L'orge"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0060",
+      "difficulty": "medium",
+      "question": "Quel souverain unificateur a créé le gigantesque Empire mongol au début du XIIIe siècle ?",
+      "options": {
+        "A": "Kubilai Khan",
+        "B": "Tamerlan",
+        "C": "Attila",
+        "D": "Gengis Khan"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0061",
+      "difficulty": "medium",
+      "question": "Quel souverain franc a été couronné empereur d'Occident à Rome le jour de Noël en l'an 800 ?",
+      "options": {
+        "A": "Charlemagne",
+        "B": "Clovis",
+        "C": "Charles Martel",
+        "D": "Pépin le Bref"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0062",
+      "difficulty": "medium",
+      "question": "Quelle cité italienne était le cœur financier et artistique de la Renaissance au XVe siècle ?",
+      "options": {
+        "A": "Venise",
+        "B": "Florence",
+        "C": "Naples",
+        "D": "Gênes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0063",
+      "difficulty": "medium",
+      "question": "Quel roi d'Angleterre du XVIe siècle a fondé l'Église anglicane et a eu six épouses ?",
+      "options": {
+        "A": "Richard Cœur de Lion",
+        "B": "Guillaume le Conquérant",
+        "C": "Henri VIII",
+        "D": "Jacques Ier"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0064",
+      "difficulty": "medium",
+      "question": "Quelle souveraine a régné sur le Royaume-Uni pendant plus de 63 ans au XIXe siècle ?",
+      "options": {
+        "A": "Élisabeth Ire",
+        "B": "Marie Stuart",
+        "C": "Anne de Grande-Bretagne",
+        "D": "La reine Victoria"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0065",
+      "difficulty": "medium",
+      "question": "Quel explorateur norvégien a atteint le pôle Sud en premier en décembre 1911 ?",
+      "options": {
+        "A": "Roald Amundsen",
+        "B": "Robert Scott",
+        "C": "Fridtjof Nansen",
+        "D": "Ernest Shackleton"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0066",
+      "difficulty": "medium",
+      "question": "Quel savant britannique a formulé la théorie de l'évolution par la sélection naturelle ?",
+      "options": {
+        "A": "Isaac Newton",
+        "B": "Charles Darwin",
+        "C": "James Watt",
+        "D": "Michael Faraday"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0067",
+      "difficulty": "medium",
+      "question": "Quel médecin a découvert la pénicilline par hasard en observant une boîte de culture en 1928 ?",
+      "options": {
+        "A": "Louis Pasteur",
+        "B": "Robert Koch",
+        "C": "Alexander Fleming",
+        "D": "Edward Jenner"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0068",
+      "difficulty": "medium",
+      "question": "Quel était le nom du premier satellite artificiel lancé dans l'espace en 1957 ?",
+      "options": {
+        "A": "Apollo 1",
+        "B": "Explorer 1",
+        "C": "Vostok 1",
+        "D": "Spoutnik 1"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0069",
+      "difficulty": "medium",
+      "question": "Quel savant antique a crié 'Eurêka' en découvrant une loi de physique dans son bain ?",
+      "options": {
+        "A": "Archimède",
+        "B": "Pythagore",
+        "C": "Euclide",
+        "D": "Thalès"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0070",
+      "difficulty": "medium",
+      "question": "Quel navigateur portugais a été le premier Européen à atteindre l'Inde par la mer en 1498 ?",
+      "options": {
+        "A": "Bartolomeu Dias",
+        "B": "Vasco de Gama",
+        "C": "Pedro Alvares Cabral",
+        "D": "Henri le Navigateur"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0071",
+      "difficulty": "medium",
+      "question": "Quelle civilisation d'Amérique centrale a mis au point un calendrier très précis et le chiffre zéro ?",
+      "options": {
+        "A": "Les Incas",
+        "B": "Les Navajos",
+        "C": "Les Mayas",
+        "D": "Les Iroquois"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0072",
+      "difficulty": "medium",
+      "question": "Quel système de cordes à nœuds les Incas utilisaient-ils pour tenir leurs comptes ?",
+      "options": {
+        "A": "Le codex",
+        "B": "La stèle",
+        "C": "Le rouleau",
+        "D": "Le quipu"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0073",
+      "difficulty": "medium",
+      "question": "Quelle dynastie chinoise a bâti la Cité interdite à Pékin au début du XVe siècle ?",
+      "options": {
+        "A": "Les Ming",
+        "B": "Les Han",
+        "C": "Les Tang",
+        "D": "Les Song"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0074",
+      "difficulty": "medium",
+      "question": "Dans quel pays actuel se trouvent les ruines de l'ancienne cité de Babylone ?",
+      "options": {
+        "A": "En Égypte",
+        "B": "En Irak",
+        "C": "En Grèce",
+        "D": "En Iran"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0075",
+      "difficulty": "medium",
+      "question": "Quel roi de Babylone est célèbre pour avoir gravé un des plus anciens recueils de lois ?",
+      "options": {
+        "A": "Nabuchodonosor",
+        "B": "Gilgamesh",
+        "C": "Hammourabi",
+        "D": "Sargon"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0076",
+      "difficulty": "medium",
+      "question": "Quel temple grec situé sur l'Acropole d'Athènes était dédié à la déesse Athéna ?",
+      "options": {
+        "A": "Le Colisée",
+        "B": "Le Panthéon",
+        "C": "L'Érechthéion",
+        "D": "Le Parthénon"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0077",
+      "difficulty": "medium",
+      "question": "Quel général français s'est couronné empereur en 1804 et a régné sur une grande partie de l'Europe ?",
+      "options": {
+        "A": "Napoléon Bonaparte",
+        "B": "Louis XIV",
+        "C": "Charles de Gaulle",
+        "D": "Henri IV"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0078",
+      "difficulty": "medium",
+      "question": "Quelle invention de James Watt au XVIIIe siècle a lancé la révolution industrielle ?",
+      "options": {
+        "A": "Le métier à tisser",
+        "B": "La machine à vapeur",
+        "C": "Le moteur à explosion",
+        "D": "La dynamo électrique"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0079",
+      "difficulty": "medium",
+      "question": "Qui a déposé le premier brevet commercial du téléphone en 1876 ?",
+      "options": {
+        "A": "Thomas Edison",
+        "B": "Nikola Tesla",
+        "C": "Alexander Graham Bell",
+        "D": "Samuel Morse"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0080",
+      "difficulty": "medium",
+      "question": "Quel canal inauguré en 1869 relie la mer Méditerranée à la mer Rouge ?",
+      "options": {
+        "A": "Le canal de Panama",
+        "B": "Le canal de Corinthe",
+        "C": "Le canal de Kiel",
+        "D": "Le canal de Suez"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0081",
+      "difficulty": "medium",
+      "question": "Quelle écriture de l'Inde antique servait à rédiger les textes sacrés ?",
+      "options": {
+        "A": "Le sanskrit",
+        "B": "L'araméen",
+        "C": "L'hébreu",
+        "D": "Le copte"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0082",
+      "difficulty": "medium",
+      "question": "Quel explorateur français a exploré le fleuve Saint-Laurent au Canada au XVIe siècle ?",
+      "options": {
+        "A": "Samuel de Champlain",
+        "B": "Jacques Cartier",
+        "C": "Cavelier de La Salle",
+        "D": "Louis Jolliet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0083",
+      "difficulty": "medium",
+      "question": "Quel empereur a fondé la ville de Saint-Pétersbourg pour ouvrir la Russie sur l'Europe ?",
+      "options": {
+        "A": "Ivan le Terrible",
+        "B": "Nicolas II",
+        "C": "Pierre le Grand",
+        "D": "Alexandre Ier"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0084",
+      "difficulty": "medium",
+      "question": "Quel symbole de la guerre froide divisait une grande ville allemande entre 1961 et 1989 ?",
+      "options": {
+        "A": "Le rideau de fer",
+        "B": "Le mur d'Hadrien",
+        "C": "La ligne Siegfried",
+        "D": "Le mur de Berlin"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0085",
+      "difficulty": "medium",
+      "question": "Quel astronome polonais a affirmé au XVIe siècle que la Terre tourne autour du Soleil ?",
+      "options": {
+        "A": "Nicolas Copernic",
+        "B": "Johannes Kepler",
+        "C": "Tycho Brahe",
+        "D": "Galilée"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0086",
+      "difficulty": "medium",
+      "question": "Quel roi légendaire de Crète possédait un labyrinthe abritant le Minotaure ?",
+      "options": {
+        "A": "Agamemnon",
+        "B": "Minos",
+        "C": "Priam",
+        "D": "Ulysse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0087",
+      "difficulty": "medium",
+      "question": "Quel explorateur anglais a cartographié le Pacifique, la Nouvelle-Zélande et l'Australie au XVIIIe siècle ?",
+      "options": {
+        "A": "Francis Drake",
+        "B": "Walter Raleigh",
+        "C": "James Cook",
+        "D": "Henry Hudson"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0088",
+      "difficulty": "medium",
+      "question": "Quel phare monumental, l'une des Sept Merveilles du monde antique, guidait les navires en Égypte ?",
+      "options": {
+        "A": "Le phare de Rhodes",
+        "B": "Le phare d'Athènes",
+        "C": "Le phare de Tyr",
+        "D": "Le phare d'Alexandrie"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0089",
+      "difficulty": "medium",
+      "question": "Quel savant grec a calculé avec une étonnante précision la circonférence de la Terre durant l'Antiquité ?",
+      "options": {
+        "A": "Ératosthène",
+        "B": "Ptolémée",
+        "C": "Hipparque",
+        "D": "Aristarque"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0090",
+      "difficulty": "medium",
+      "question": "Quelle cité antique d'Asie Mineure a été assiégée grâce à la ruse d'un cheval de bois ?",
+      "options": {
+        "A": "Mycènes",
+        "B": "Troie",
+        "C": "Éphèse",
+        "D": "Milet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0091",
+      "difficulty": "medium",
+      "question": "Quel célèbre dirigeant indien a utilisé la désobéissance civile non-violente pour obtenir l'indépendance ?",
+      "options": {
+        "A": "Jawaharlal Nehru",
+        "B": "Rabindranath Tagore",
+        "C": "Mahatma Gandhi",
+        "D": "Subhas Chandra Bose"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0092",
+      "difficulty": "medium",
+      "question": "Quel fleuve d'Inde est considéré comme sacré depuis l'Antiquité ?",
+      "options": {
+        "A": "L'Indus",
+        "B": "Le Brahmapoutre",
+        "C": "Le Mékong",
+        "D": "Le Gange"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0093",
+      "difficulty": "medium",
+      "question": "Quel souverain romain a été le tout premier empereur de Rome en 27 avant J.-C. ?",
+      "options": {
+        "A": "Auguste",
+        "B": "Tibère",
+        "C": "Néron",
+        "D": "Caligula"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0094",
+      "difficulty": "medium",
+      "question": "Quelle voie commerciale terrestre reliait la Chine à la mer Méditerranée au Moyen Âge ?",
+      "options": {
+        "A": "La Route de l'Ambre",
+        "B": "La Route de la Soie",
+        "C": "La Route des Épices",
+        "D": "La Route du Sel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0095",
+      "difficulty": "medium",
+      "question": "Quel oiseau incapable de voler vivait sur l'île Maurice avant de disparaître au XVIIe siècle ?",
+      "options": {
+        "A": "Le moa",
+        "B": "Le grand pingouin",
+        "C": "Le dodo",
+        "D": "L'émeu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0096",
+      "difficulty": "medium",
+      "question": "Quel savant italien a défendu l'idée que la Terre tourne autour du Soleil face à l'Inquisition ?",
+      "options": {
+        "A": "Giordano Bruno",
+        "B": "Léonard de Vinci",
+        "C": "Torricelli",
+        "D": "Galilée"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0097",
+      "difficulty": "medium",
+      "question": "Quelle jeune fille a conduit l'armée française lors de la guerre de Cent Ans avant d'être brûlée à Rouen ?",
+      "options": {
+        "A": "Jeanne d'Arc",
+        "B": "Aliénor d'Aquitaine",
+        "C": "Blanche de Castille",
+        "D": "Catherine de Médicis"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0098",
+      "difficulty": "medium",
+      "question": "Quelle dynastie arabe médiévale a fait de Bagdad un immense centre culturel et scientifique ?",
+      "options": {
+        "A": "Les Omeyyades",
+        "B": "Les Abbassides",
+        "C": "Les Fatimides",
+        "D": "Les Mamelouks"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0099",
+      "difficulty": "medium",
+      "question": "Quelle construction médiévale fortifiée en Angleterre a été fondée par Guillaume le Conquérant ?",
+      "options": {
+        "A": "Le château de Windsor",
+        "B": "Le palais de Westminster",
+        "C": "La Tour de Londres",
+        "D": "Le château d'Édimbourg"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0100",
+      "difficulty": "medium",
+      "question": "Quel dirigeant américain a aboli l'esclavage pendant la guerre de Sécession ?",
+      "options": {
+        "A": "George Washington",
+        "B": "Thomas Jefferson",
+        "C": "Ulysses Grant",
+        "D": "Abraham Lincoln"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0101",
+      "difficulty": "medium",
+      "question": "Quel roi babylonien aurait fait construire les fameux Jardins suspendus de Babylone ?",
+      "options": {
+        "A": "Nabuchodonosor II",
+        "B": "Hammourabi",
+        "C": "Sargon II",
+        "D": "Assurbanipal"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0102",
+      "difficulty": "medium",
+      "question": "Quel marin portugais a franchi pour la première fois le cap de Bonne-Espérance en 1488 ?",
+      "options": {
+        "A": "Magellan",
+        "B": "Bartolomeu Dias",
+        "C": "Vasco de Gama",
+        "D": "Cabral"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0103",
+      "difficulty": "medium",
+      "question": "Quelle forteresse et palais arabe médiéval se trouve sur les hauteurs de Grenade en Espagne ?",
+      "options": {
+        "A": "La Mezquita",
+        "B": "L'Alcázar",
+        "C": "L'Alhambra",
+        "D": "La Giralda"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0104",
+      "difficulty": "medium",
+      "question": "Quel pays a été le premier à accorder le droit de vote aux femmes en 1893 ?",
+      "options": {
+        "A": "Le Royaume-Uni",
+        "B": "Les États-Unis",
+        "C": "La Finlande",
+        "D": "La Nouvelle-Zélande"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0105",
+      "difficulty": "medium",
+      "question": "Quel empereur romain a légalisé le christianisme dans tout l'Empire en 313 ?",
+      "options": {
+        "A": "Constantin Ier",
+        "B": "Néron",
+        "C": "Trajan",
+        "D": "Marc Aurèle"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0106",
+      "difficulty": "medium",
+      "question": "Quel nom portait l'ancienne capitale de l'Empire byzantin avant de devenir Istanbul ?",
+      "options": {
+        "A": "Antioche",
+        "B": "Constantinople",
+        "C": "Alexandrie",
+        "D": "Smyrne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0107",
+      "difficulty": "medium",
+      "question": "Quelle île méditerranéenne abritait le palais minoen de Cnossos ?",
+      "options": {
+        "A": "Chypre",
+        "B": "Rhodes",
+        "C": "La Crète",
+        "D": "La Sicile"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0108",
+      "difficulty": "medium",
+      "question": "Quel métal est issu de l'alliage du cuivre et de l'étain découvert dans l'Antiquité ?",
+      "options": {
+        "A": "L'acier",
+        "B": "La fonte",
+        "C": "Le laiton",
+        "D": "Le bronze"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0109",
+      "difficulty": "medium",
+      "question": "Quelle civilisation d'Afrique de l'Ouest était réputée pour ses magnifiques sculptures en bronze ?",
+      "options": {
+        "A": "Le royaume du Bénin",
+        "B": "L'empire du Ghana",
+        "C": "Le royaume Zoulou",
+        "D": "L'empire Songhaï"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0110",
+      "difficulty": "medium",
+      "question": "Quel savant perse a écrit le 'Canon de la médecine', manuel de référence pendant des siècles ?",
+      "options": {
+        "A": "Al-Khwarizmi",
+        "B": "Avicenne",
+        "C": "Averroès",
+        "D": "Al-Biruni"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0111",
+      "difficulty": "medium",
+      "question": "Quel roi perse a fait construire la magnifique capitale cérémonielle de Persépolis ?",
+      "options": {
+        "A": "Cyrus le Grand",
+        "B": "Xerxès Ier",
+        "C": "Darius Ier",
+        "D": "Cambyse II"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0112",
+      "difficulty": "medium",
+      "question": "Quelle reine britannique a vaincu l'Invincible Armada espagnole en 1588 ?",
+      "options": {
+        "A": "Marie Ire",
+        "B": "Victoria",
+        "C": "Anne",
+        "D": "Élisabeth Ire"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0113",
+      "difficulty": "medium",
+      "question": "Quel instrument de navigation antique et médiéval mesurait la hauteur des astres sur l'horizon ?",
+      "options": {
+        "A": "L'astrolabe",
+        "B": "Le sextant",
+        "C": "Le baromètre",
+        "D": "Le cadran solaire"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0114",
+      "difficulty": "medium",
+      "question": "Dans quelle ville suisse le Comité international de la Croix-Rouge a-t-il été fondé en 1863 ?",
+      "options": {
+        "A": "Zurich",
+        "B": "Genève",
+        "C": "Berne",
+        "D": "Bâle"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0115",
+      "difficulty": "medium",
+      "question": "Quel pharaon enfant a vu son tombeau intact découvert par Howard Carter en 1922 ?",
+      "options": {
+        "A": "Ramsès II",
+        "B": "Khéops",
+        "C": "Toutânkhamon",
+        "D": "Akhenaton"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0116",
+      "difficulty": "medium",
+      "question": "Quelle ancienne colonie britannique est revenue sous souveraineté chinoise en 1997 ?",
+      "options": {
+        "A": "Singapour",
+        "B": "Macao",
+        "C": "Taïwan",
+        "D": "Hong Kong"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0117",
+      "difficulty": "medium",
+      "question": "Quel philosophe grec antique a été le maître d'Alexandre le Grand ?",
+      "options": {
+        "A": "Aristote",
+        "B": "Platon",
+        "C": "Socrate",
+        "D": "Épicure"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0118",
+      "difficulty": "medium",
+      "question": "Quel explorateur portugais a accosté au Brésil en 1500 au nom du roi de Portugal ?",
+      "options": {
+        "A": "Vasco de Gama",
+        "B": "Pedro Alvares Cabral",
+        "C": "Magellan",
+        "D": "Bartolomeu Dias"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0119",
+      "difficulty": "medium",
+      "question": "Quelle épidémie meurtrière venue d'Asie a ravagé l'Europe entre 1347 et 1352 ?",
+      "options": {
+        "A": "Le choléra",
+        "B": "La variole",
+        "C": "La peste noire",
+        "D": "La grippe espagnole"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0120",
+      "difficulty": "medium",
+      "question": "Quel navire transportait les Pères pèlerins anglais vers l'Amérique du Nord en 1620 ?",
+      "options": {
+        "A": "Le Bounty",
+        "B": "L'Endeavour",
+        "C": "La Santa Maria",
+        "D": "Le Mayflower"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0121",
+      "difficulty": "medium",
+      "question": "Quel roi d'Israël antique était réputé pour sa sagesse et la construction du premier Temple ?",
+      "options": {
+        "A": "Salomon",
+        "B": "David",
+        "C": "Saül",
+        "D": "Ézéchias"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0122",
+      "difficulty": "medium",
+      "question": "Quelle était la capitale de l'Empire inca située dans les Andes péruviennes ?",
+      "options": {
+        "A": "Quito",
+        "B": "Cuzco",
+        "C": "Lima",
+        "D": "Potosí"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0123",
+      "difficulty": "medium",
+      "question": "Quel peuple antique de marchands marins naviguait depuis Tyr et Sidon sur la Méditerranée ?",
+      "options": {
+        "A": "Les Hittites",
+        "B": "Les Étrusques",
+        "C": "Les Phéniciens",
+        "D": "Les Philistins"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0124",
+      "difficulty": "medium",
+      "question": "Quelle ancienne cité troglodytique taillée dans la roche rose se trouve en Jordanie ?",
+      "options": {
+        "A": "Palmyre",
+        "B": "Baalbek",
+        "C": "Babylone",
+        "D": "Pétra"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0125",
+      "difficulty": "medium",
+      "question": "Quel astronome allemand a découvert les trois lois sur le mouvement des planètes au XVIIe siècle ?",
+      "options": {
+        "A": "Johannes Kepler",
+        "B": "Nicolas Copernic",
+        "C": "Tycho Brahe",
+        "D": "Christian Huygens"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0126",
+      "difficulty": "hard",
+      "question": "Quel roi unificateur a fondé le premier empire de l'Histoire en Mésopotamie vers 2300 av. J.-C. ?",
+      "options": {
+        "A": "Hammourabi",
+        "B": "Sargon d'Akkad",
+        "C": "Assurbanipal",
+        "D": "Ur-Nammu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0127",
+      "difficulty": "hard",
+      "question": "Quel savant perse a donné son nom au mot 'algorithme' et a popularisé l'algèbre ?",
+      "options": {
+        "A": "Avicenne",
+        "B": "Averroès",
+        "C": "Al-Khwarizmi",
+        "D": "Al-Razi"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0128",
+      "difficulty": "hard",
+      "question": "Quel pharaon égyptien a instauré le culte unique du dieu solaire Aton ?",
+      "options": {
+        "A": "Ramsès II",
+        "B": "Séthi Ier",
+        "C": "Thoutmôsis III",
+        "D": "Akhenaton"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0129",
+      "difficulty": "hard",
+      "question": "Quel souverain indien des Maurya s'est converti au bouddhisme et a diffusé ses édits sur des piliers ?",
+      "options": {
+        "A": "Ashoka",
+        "B": "Chandragupta",
+        "C": "Harsha",
+        "D": "Bindusara"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0130",
+      "difficulty": "hard",
+      "question": "Quel premier empereur de Chine unifiée a fait fabriquer une armée de terre cuite pour son tombeau ?",
+      "options": {
+        "A": "Han Wudi",
+        "B": "Qin Shi Huang",
+        "C": "Tang Taizong",
+        "D": "Kangxi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0131",
+      "difficulty": "hard",
+      "question": "Quelle antique cité de la vallée de l'Indus possédait déjà des rues quadrillées et un grand bain ?",
+      "options": {
+        "A": "Lothal",
+        "B": "Harappa",
+        "C": "Mohenjo-daro",
+        "D": "Kalibangan"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0132",
+      "difficulty": "hard",
+      "question": "Quel royaume antique africain situé au sud de l'Égypte possédait sa capitale à Méroé ?",
+      "options": {
+        "A": "Le royaume d'Aksoum",
+        "B": "L'empire du Mali",
+        "C": "Le royaume de Pount",
+        "D": "Le royaume de Koush"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0133",
+      "difficulty": "hard",
+      "question": "Quel royaume chrétien d'Afrique de l'Est commerçait avec Rome et la Perse et frappait sa monnaie ?",
+      "options": {
+        "A": "Aksoum",
+        "B": "Le Ghana",
+        "C": "Le Songhaï",
+        "D": "Le Zimbabwe"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0134",
+      "difficulty": "hard",
+      "question": "Quelle civilisation d'Anatolie a combattu Ramsès II lors de la célèbre bataille de Qadesh ?",
+      "options": {
+        "A": "Les Assyriens",
+        "B": "Les Hittites",
+        "C": "Les Babyloniens",
+        "D": "Les Mèdes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0135",
+      "difficulty": "hard",
+      "question": "Quelle civilisation d'Italie centrale a fortement influencé les Romains avant d'être assimilée ?",
+      "options": {
+        "A": "Les Samnites",
+        "B": "Les Sabins",
+        "C": "Les Étrusques",
+        "D": "Les Ombriens"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0136",
+      "difficulty": "hard",
+      "question": "Quel amiral chinois musulman a dirigé sept grandes expéditions navales dans l'océan Indien au XVe siècle ?",
+      "options": {
+        "A": "Zhang Qian",
+        "B": "Ban Chao",
+        "C": "Lin Zexu",
+        "D": "Zheng He"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0137",
+      "difficulty": "hard",
+      "question": "Quel célèbre voyageur marocain du XIVe siècle a parcouru plus de 100 000 km à travers l'Afrique et l'Asie ?",
+      "options": {
+        "A": "Ibn Battuta",
+        "B": "Ibn Khaldoun",
+        "C": "Al-Idrisi",
+        "D": "Léon l'Africain"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0138",
+      "difficulty": "hard",
+      "question": "Quel grand complexe de temples khmers a été érigé au Cambodge au XIIe siècle sous Suryavarman II ?",
+      "options": {
+        "A": "Borobudur",
+        "B": "Angkor Vat",
+        "C": "Prambanan",
+        "D": "Bagan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0139",
+      "difficulty": "hard",
+      "question": "Quel temple bouddhique colossal en forme de stūpa à gradins se trouve sur l'île de Java en Indonésie ?",
+      "options": {
+        "A": "Angkor Vat",
+        "B": "Wat Arun",
+        "C": "Borobudur",
+        "D": "Shwedagon"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0140",
+      "difficulty": "hard",
+      "question": "Quel royaume médiéval d'Afrique australe a bâti d'immenses murailles de pierres sèches sans mortier ?",
+      "options": {
+        "A": "Le Monomotapa",
+        "B": "Le Mapungubwe",
+        "C": "Le Kongo",
+        "D": "Le Grand Zimbabwe"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0141",
+      "difficulty": "hard",
+      "question": "Quel souverain ottoman a conquis Constantinople en 1453 ?",
+      "options": {
+        "A": "Mehmed II",
+        "B": "Soliman le Magnifique",
+        "C": "Selim Ier",
+        "D": "Bayezid Ier"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0142",
+      "difficulty": "hard",
+      "question": "Quel traité signé en 1494 a partagé les terres du Nouveau Monde entre l'Espagne et le Portugal ?",
+      "options": {
+        "A": "Le traité de Saragosse",
+        "B": "Le traité de Tordesillas",
+        "C": "Le traité d'Utrecht",
+        "D": "Le traité de Madrid"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0143",
+      "difficulty": "hard",
+      "question": "Quel souverain inca a été capturé par les conquistadors espagnols de Pizarro à Cajamarca en 1532 ?",
+      "options": {
+        "A": "Pachacutec",
+        "B": "Huayna Capac",
+        "C": "Atahualpa",
+        "D": "Manco Capac"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0144",
+      "difficulty": "hard",
+      "question": "Quel empereur aztèque régnait sur Tenochtitlan lors de l'arrivée d'Hernán Cortés en 1519 ?",
+      "options": {
+        "A": "Cuauhtémoc",
+        "B": "Itzcoatl",
+        "C": "Ahuitzotl",
+        "D": "Moctezuma II"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0145",
+      "difficulty": "hard",
+      "question": "Quel souverain moghol a étendu son empire en Inde en prônant la tolérance entre musulmans et hindous ?",
+      "options": {
+        "A": "Akbar",
+        "B": "Babur",
+        "C": "Shah Jahan",
+        "D": "Aurangzeb"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0146",
+      "difficulty": "hard",
+      "question": "Quelle puissante famille de banquiers et mécènes a dirigé Florence pendant la Renaissance ?",
+      "options": {
+        "A": "Les Borgia",
+        "B": "Les Médicis",
+        "C": "Les Sforza",
+        "D": "Les Visconti"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0147",
+      "difficulty": "hard",
+      "question": "Quel moine allemand a initié la Réforme protestante en 1517 en publiant ses 95 thèses ?",
+      "options": {
+        "A": "Jean Calvin",
+        "B": "Ulrich Zwingli",
+        "C": "Martin Luther",
+        "D": "Érasme"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0148",
+      "difficulty": "hard",
+      "question": "Quel document fondamental limitant le pouvoir royal a été signé par Jean sans Terre en Angleterre en 1215 ?",
+      "options": {
+        "A": "L'Habeas Corpus",
+        "B": "Le Bill of Rights",
+        "C": "Les Statuts d'Oxford",
+        "D": "La Magna Carta"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0149",
+      "difficulty": "hard",
+      "question": "Quel biologiste britannique a créé le premier vaccin de l'Histoire contre la variole en 1796 ?",
+      "options": {
+        "A": "Edward Jenner",
+        "B": "Robert Koch",
+        "C": "Joseph Lister",
+        "D": "Alexander Fleming"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0150",
+      "difficulty": "hard",
+      "question": "Quel physicien a inventé la première pile électrique en empilant des disques de cuivre et de zinc en 1800 ?",
+      "options": {
+        "A": "Luigi Galvani",
+        "B": "Alessandro Volta",
+        "C": "André-Marie Ampère",
+        "D": "Michael Faraday"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0151",
+      "difficulty": "hard",
+      "question": "Quel inventeur a conçu le télégraphe électrique et le célèbre code de points et traits ?",
+      "options": {
+        "A": "Alexander Bell",
+        "B": "Thomas Edison",
+        "C": "Samuel Morse",
+        "D": "Guglielmo Marconi"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0152",
+      "difficulty": "hard",
+      "question": "Quel ingénieur serbo-américain a développé le système de courant alternatif pour l'électricité ?",
+      "options": {
+        "A": "Thomas Edison",
+        "B": "James Watt",
+        "C": "George Westinghouse",
+        "D": "Nikola Tesla"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0153",
+      "difficulty": "hard",
+      "question": "Quel physicien allemand a découvert les rayons X en 1895 en étudiant des tubes cathodiques ?",
+      "options": {
+        "A": "Wilhelm Röntgen",
+        "B": "Max Planck",
+        "C": "Heinrich Hertz",
+        "D": "Ernest Rutherford"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0154",
+      "difficulty": "hard",
+      "question": "Quel ingénieur et industriel a révolutionné l'automobile en créant la chaîne d'assemblage moderne ?",
+      "options": {
+        "A": "Karl Benz",
+        "B": "Henry Ford",
+        "C": "Gottlieb Daimler",
+        "D": "Rudolf Diesel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0155",
+      "difficulty": "hard",
+      "question": "Quelle aviatrice américaine a été la première femme à traverser l'océan Atlantique en solitaire en 1932 ?",
+      "options": {
+        "A": "Bessie Coleman",
+        "B": "Jacqueline Auriol",
+        "C": "Amelia Earhart",
+        "D": "Harriet Quimby"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0156",
+      "difficulty": "hard",
+      "question": "Quelle spationaute soviétique a été la toute première femme dans l'espace en 1963 ?",
+      "options": {
+        "A": "Svetlana Savitskaïa",
+        "B": "Sally Ride",
+        "C": "Mae Jemison",
+        "D": "Valentina Terechkova"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0157",
+      "difficulty": "hard",
+      "question": "Quel égyptologue français a déchiffré les hiéroglyphes en 1822 grâce à la pierre de Rosette ?",
+      "options": {
+        "A": "Jean-François Champollion",
+        "B": "Auguste Mariette",
+        "C": "Gaston Maspero",
+        "D": "Howard Carter"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0158",
+      "difficulty": "hard",
+      "question": "Combien d'écritures distinctes figurent sur la célèbre pierre de Rosette ?",
+      "options": {
+        "A": "Deux",
+        "B": "Trois",
+        "C": "Quatre",
+        "D": "Cinq"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0159",
+      "difficulty": "hard",
+      "question": "Quel archéologue allemand a découvert les ruines antiques de Troie et de Mycènes au XIXe siècle ?",
+      "options": {
+        "A": "Arthur Evans",
+        "B": "Howard Carter",
+        "C": "Heinrich Schliemann",
+        "D": "Leonard Woolley"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0160",
+      "difficulty": "hard",
+      "question": "Quel archéologue britannique a fouillé le palais minoen de Cnossos en Crète à partir de 1900 ?",
+      "options": {
+        "A": "Flinders Petrie",
+        "B": "Mortimer Wheeler",
+        "C": "Austen Layard",
+        "D": "Arthur Evans"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0161",
+      "difficulty": "hard",
+      "question": "Quel célèbre ensemble mégalithique circulaire en pierres dressées a été érigé en Angleterre ?",
+      "options": {
+        "A": "Stonehenge",
+        "B": "Carnac",
+        "C": "Newgrange",
+        "D": "Skara Brae"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0162",
+      "difficulty": "hard",
+      "question": "Quel site néolithique d'Anatolie vieux de plus de 9000 ans était composé de maisons collées sans rues ?",
+      "options": {
+        "A": "Göbekli Tepe",
+        "B": "Çatal Höyük",
+        "C": "Jéricho",
+        "D": "Hattousa"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0163",
+      "difficulty": "hard",
+      "question": "Quel site sanctuaire de Turquie est considéré comme le plus ancien temple monumental en pierre connu ?",
+      "options": {
+        "A": "Çatal Höyük",
+        "B": "Nevali Çori",
+        "C": "Göbekli Tepe",
+        "D": "Harran"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0164",
+      "difficulty": "hard",
+      "question": "Quel nom portaient les tours à étages pyramidales construites dans les cités de Mésopotamie ?",
+      "options": {
+        "A": "Les mastabas",
+        "B": "Les obélisques",
+        "C": "Les stūpas",
+        "D": "Les ziggourats"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0165",
+      "difficulty": "hard",
+      "question": "Quelle reine pharaon de la XVIIIe dynastie a envoyé une grande expédition commerciale au pays de Pount ?",
+      "options": {
+        "A": "Hatchepsout",
+        "B": "Néfertiti",
+        "C": "Cléopâtre VII",
+        "D": "Taousert"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0166",
+      "difficulty": "hard",
+      "question": "Quel général spartiate a retenu l'immense armée perse aux Thermopyles avec ses 300 soldats ?",
+      "options": {
+        "A": "Pausanias",
+        "B": "Léonidas",
+        "C": "Agésilas",
+        "D": "Lysandre"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0167",
+      "difficulty": "hard",
+      "question": "Quelle bataille navale décisive de 480 av. J.-C. a vu les Grecs vaincre la flotte perse de Xerxès ?",
+      "options": {
+        "A": "Marathon",
+        "B": "Platées",
+        "C": "Salamine",
+        "D": "Mycale"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0168",
+      "difficulty": "hard",
+      "question": "Quel grand homme d'État athénien a dirigé la reconstruction du Parthénon au Ve siècle av. J.-C. ?",
+      "options": {
+        "A": "Solon",
+        "B": "Clisthène",
+        "C": "Thémistocle",
+        "D": "Périclès"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0169",
+      "difficulty": "hard",
+      "question": "Quelle muraille défensive en pierre a été bâtie par les Romains dans le nord de la Grande-Bretagne ?",
+      "options": {
+        "A": "Le mur d'Hadrien",
+        "B": "Le mur d'Antonin",
+        "C": "Le limes rhénan",
+        "D": "La muraille servienne"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0170",
+      "difficulty": "hard",
+      "question": "Quelle cité romaine à l'embouchure du Tibre servait de port principal pour approvisionner Rome ?",
+      "options": {
+        "A": "Pouzzoles",
+        "B": "Ostie",
+        "C": "Herculanum",
+        "D": "Ravenne"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0171",
+      "difficulty": "hard",
+      "question": "Quel empereur byzantin du VIe siècle a codifié le droit romain et fait bâtir Sainte-Sophie ?",
+      "options": {
+        "A": "Héraclius",
+        "B": "Basile II",
+        "C": "Justinien Ier",
+        "D": "Théodose Ier"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0172",
+      "difficulty": "hard",
+      "question": "Quelle dynastie de shoguns a unifié le Japon et instauré une paix fermée de plus de 250 ans à Edo ?",
+      "options": {
+        "A": "Les Ashikaga",
+        "B": "Les Minamoto",
+        "C": "Les Fujiwara",
+        "D": "Les Tokugawa"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0173",
+      "difficulty": "hard",
+      "question": "Dans quelle région historique du Canada des vestiges de campement viking ont-ils été découverts à L'Anse aux Meadows ?",
+      "options": {
+        "A": "Terre-Neuve",
+        "B": "La Nouvelle-Écosse",
+        "C": "Le Québec",
+        "D": "Le Nouveau-Brunswick"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0174",
+      "difficulty": "hard",
+      "question": "Quel explorateur viking a navigué jusqu'au 'Vinland' en Amérique du Nord vers l'an 1000 ?",
+      "options": {
+        "A": "Erik le Rouge",
+        "B": "Leif Erikson",
+        "C": "Harald Hardrada",
+        "D": "Ragnar Lodbrok"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0175",
+      "difficulty": "hard",
+      "question": "Quel était le véritable nom du philosophe chinois fondateur du confucianisme, Kong Fuzi ?",
+      "options": {
+        "A": "Laozi",
+        "B": "Mencius",
+        "C": "Confucius",
+        "D": "Zhuangzi"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0176",
+      "difficulty": "hard",
+      "question": "Quelle dynastie chinoise médiévale (618-907) est réputée pour son âge d'or poétique et culturel ?",
+      "options": {
+        "A": "Les Han",
+        "B": "Les Song",
+        "C": "Les Yuan",
+        "D": "Les Tang"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0177",
+      "difficulty": "hard",
+      "question": "Quelle institution de savoir et bibliothèque a été fondée à Bagdad sous le calife Al-Mamun au IXe siècle ?",
+      "options": {
+        "A": "La Maison de la Sagesse",
+        "B": "L'Académie de Gondichapour",
+        "C": "L'Université Al Quaraouiyine",
+        "D": "La Bibliothèque de Cordoue"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0178",
+      "difficulty": "hard",
+      "question": "Dans quelle ville du Maroc se trouve l'université Al Quaraouiyine, fondée en 859 par Fatima al-Fihriya ?",
+      "options": {
+        "A": "Marrakech",
+        "B": "Fès",
+        "C": "Rabat",
+        "D": "Meknès"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0179",
+      "difficulty": "hard",
+      "question": "Quelle civilisation précolombienne du golfe du Mexique est célèbre pour ses têtes colossales en basalte ?",
+      "options": {
+        "A": "Les Zapotèques",
+        "B": "Les Mixtèques",
+        "C": "Les Olmèques",
+        "D": "Les Toltèques"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0180",
+      "difficulty": "hard",
+      "question": "Quelle cité antique du Mexique central possédait la gigantesque Pyramide du Soleil et la Pyramide de la Lune ?",
+      "options": {
+        "A": "Chichén Itzá",
+        "B": "Tikal",
+        "C": "Monte Albán",
+        "D": "Teotihuacan"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0181",
+      "difficulty": "hard",
+      "question": "Quelle grande cité maya située dans la jungle du Guatemala actuel possédait de très hauts temples en pyramide ?",
+      "options": {
+        "A": "Tikal",
+        "B": "Palenque",
+        "C": "Copán",
+        "D": "Calakmul"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0182",
+      "difficulty": "hard",
+      "question": "Quelle civilisation pré-inca de la côte péruvienne a tracé d'immenses géoglyphes visibles depuis le ciel ?",
+      "options": {
+        "A": "Les Mochicas",
+        "B": "Les Nazcas",
+        "C": "Les Chimús",
+        "D": "Les Tiwanaku"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0183",
+      "difficulty": "hard",
+      "question": "Quel explorateur espagnol a traversé l'isthme de Panama en 1513 pour apercevoir l'océan Pacifique ?",
+      "options": {
+        "A": "Hernando de Soto",
+        "B": "Francisco de Orellana",
+        "C": "Vasco Núñez de Balboa",
+        "D": "Juan Ponce de León"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0184",
+      "difficulty": "hard",
+      "question": "Quel roi polonais et astronome a le premier publié le modèle héliocentrique complet en 1543 ?",
+      "options": {
+        "A": "Stanislas Leszczynski",
+        "B": "Jan Sobieski",
+        "C": "Sigismond II",
+        "D": "Nicolas Copernic"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0185",
+      "difficulty": "hard",
+      "question": "Quelle célèbre tapisserie médiévale brodée du XIe siècle raconte la conquête de l'Angleterre par les Normands ?",
+      "options": {
+        "A": "La tapisserie de Bayeux",
+        "B": "La tapisserie de l'Apocalypse",
+        "C": "La Dame à la licorne",
+        "D": "La tenture des Indes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0186",
+      "difficulty": "hard",
+      "question": "En quelle année s'est déroulée la bataille de Hastings menée par Guillaume le Conquérant ?",
+      "options": {
+        "A": "1014",
+        "B": "1066",
+        "C": "1099",
+        "D": "1154"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0187",
+      "difficulty": "hard",
+      "question": "Quelle association de cités marchandes d'Europe du Nord dominait le commerce de la mer Baltique au Moyen Âge ?",
+      "options": {
+        "A": "La Ligue lombarde",
+        "B": "La Confédération suisse",
+        "C": "La Ligue hanséatique",
+        "D": "La Ligue de Délos"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0188",
+      "difficulty": "hard",
+      "question": "Quel philosophe des Lumières français a théorisé la séparation des trois pouvoirs (législatif, exécutif, judiciaire) ?",
+      "options": {
+        "A": "Voltaire",
+        "B": "Jean-Jacques Rousseau",
+        "C": "Denis Diderot",
+        "D": "Montesquieu"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0189",
+      "difficulty": "hard",
+      "question": "Quel chimiste français a énoncé la loi 'Rien ne se perd, rien ne se crée, tout se transforme' au XVIIIe siècle ?",
+      "options": {
+        "A": "Antoine de Lavoisier",
+        "B": "Louis-Joseph Gay-Lussac",
+        "C": "Claude-Louis Berthollet",
+        "D": "René-Antoine de Réaumur"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0190",
+      "difficulty": "hard",
+      "question": "Quel pionnier de la paléontologie a découvert de nombreux fossiles d'ichtyosaures et de plésiosaures en Angleterre ?",
+      "options": {
+        "A": "Ada Lovelace",
+        "B": "Mary Anning",
+        "C": "Jane Goodall",
+        "D": "Rosalind Franklin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0191",
+      "difficulty": "hard",
+      "question": "Quelle mathématicienne britannique a conçu le tout premier programme informatique destiné à la machine de Babbage ?",
+      "options": {
+        "A": "Florence Nightingale",
+        "B": "Mary Somerville",
+        "C": "Ada Lovelace",
+        "D": "Emmy Noether"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0192",
+      "difficulty": "hard",
+      "question": "Quel médecin hongrois a démontré dès 1847 l'importance cruciale du lavage des mains pour éviter les infections ?",
+      "options": {
+        "A": "Robert Koch",
+        "B": "Edward Jenner",
+        "C": "Joseph Lister",
+        "D": "Ignace Semmelweis"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0193",
+      "difficulty": "hard",
+      "question": "Quel traité international a mis fin à la Première Guerre mondiale en juin 1919 ?",
+      "options": {
+        "A": "Le traité de Versailles",
+        "B": "Le traité de Vienne",
+        "C": "Le traité de Paris",
+        "D": "Le traité de Rome"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0194",
+      "difficulty": "hard",
+      "question": "Quel aviateur américain a réalisé le premier vol transatlantique sans escale en solitaire en 1927 à bord du Spirit of St. Louis ?",
+      "options": {
+        "A": "Chuck Yeager",
+        "B": "Charles Lindbergh",
+        "C": "Howard Hughes",
+        "D": "Wiley Post"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0195",
+      "difficulty": "hard",
+      "question": "Quelle organisation internationale pour la paix dans le monde a été créée à San Francisco en 1945 ?",
+      "options": {
+        "A": "La Société des Nations",
+        "B": "L'Union européenne",
+        "C": "L'Organisation des Nations unies",
+        "D": "L'UNESCO"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0196",
+      "difficulty": "hard",
+      "question": "Quelle station spatiale en orbite lancée par l'URSS en 1986 a fonctionné pendant 15 ans ?",
+      "options": {
+        "A": "Saliout 1",
+        "B": "Skylab",
+        "C": "Tiangong 1",
+        "D": "Mir"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "histoire-du-monde-fr-0197",
+      "difficulty": "hard",
+      "question": "Quel dirigeant et prix Nobel de la paix est devenu le premier président noir d'Afrique du Sud en 1994 ?",
+      "options": {
+        "A": "Nelson Mandela",
+        "B": "Desmond Tutu",
+        "C": "Kofi Annan",
+        "D": "Kwame Nkrumah"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "histoire-du-monde-fr-0198",
+      "difficulty": "hard",
+      "question": "Quel roi assyrien a rassemblé une immense bibliothèque de tablettes d'argile à Ninive au VIIe siècle av. J.-C. ?",
+      "options": {
+        "A": "Sennachérib",
+        "B": "Assurbanipal",
+        "C": "Sargon II",
+        "D": "Tiglath-Phalazar"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "histoire-du-monde-fr-0199",
+      "difficulty": "hard",
+      "question": "Quel savant britannique a déchiffré le code allemand Enigma pendant la Seconde Guerre mondiale ?",
+      "options": {
+        "A": "John von Neumann",
+        "B": "Stephen Hawking",
+        "C": "Alan Turing",
+        "D": "Tim Berners-Lee"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "histoire-du-monde-fr-0200",
+      "difficulty": "hard",
+      "question": "Quel ingénieur britannique a inventé le World Wide Web (le Web) au CERN en 1989 ?",
+      "options": {
+        "A": "Vint Cerf",
+        "B": "Steve Jobs",
+        "C": "Bill Gates",
+        "D": "Tim Berners-Lee"
+      },
+      "answer": "D"
+    }
+  ]
 }
