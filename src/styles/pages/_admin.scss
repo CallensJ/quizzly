@@ -204,11 +204,12 @@ $p-medium:   rgba(3, 105, 161, 0.18);
     }
 
     // Délais d'animation explicites par section (évite la fragilité du nth-child)
-    &--profiles     { animation-delay: 0ms; }
-    &--cat-goals    { animation-delay: 80ms; }
-    &--subscription { animation-delay: 160ms; }
-    &--report       { animation-delay: 240ms; }
-    &--danger       { animation-delay: 320ms; }
+    &--profiles      { animation-delay: 0ms; }
+    &--cat-goals     { animation-delay: 80ms; }
+    &--subscription  { animation-delay: 160ms; }
+    &--quiz-language { animation-delay: 200ms; }
+    &--report        { animation-delay: 240ms; }
+    &--danger        { animation-delay: 320ms; }
   }
 
   &__section-header {
@@ -231,6 +232,48 @@ $p-medium:   rgba(3, 105, 161, 0.18);
     font-weight: 600;
     color: v.$text-muted;
     line-height: 1.5;
+  }
+
+  // ── Langue des quiz (bilinguisme découplé, v1.4 §5) ────────────────────────
+
+  &__quiz-language-options {
+    display: flex;
+    gap: v.$spacing-sm;
+  }
+
+  &__quiz-language-btn {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: v.$spacing-xs;
+    min-height: 44px;
+    padding: v.$spacing-xs v.$spacing-md;
+    border-radius: v.$radius-md;
+    border: 2px solid #e5e7eb;
+    background: v.$bg;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-base;
+    font-weight: 700;
+    color: v.$text-muted;
+    cursor: pointer;
+    transition:
+      border-color v.$transition-fast,
+      background v.$transition-fast,
+      color v.$transition-fast;
+
+    &:hover {
+      border-color: $p-primary;
+      color: $p-primary;
+    }
+
+    &--active {
+      border-color: $p-primary;
+      background: $p-primary;
+      color: v.$white;
+    }
+
+    @include m.focus-ring;
   }
 
   &__empty {

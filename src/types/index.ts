@@ -36,7 +36,9 @@ export interface Profile {
   avatarStyle?: string; // Style DiceBear — défaut 'adventurer' si absent (rétro-compat profils existants)
   theme?: AppTheme;     // Thème de couleur — défaut 'default' si absent (rétro-compat)
   badgeEarned: boolean;
-  locale: Locale;
+  locale: Locale;         // Langue de l'interface (routing next-intl)
+  quizLanguage?: Locale;  // Langue du contenu des quiz — découplée de `locale` (cahier v1.4 §5).
+                          // Défaut : langue d'interface courante si absent (rétro-compat).
   createdAt: string;
 }
 

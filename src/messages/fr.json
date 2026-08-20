@@ -361,7 +361,11 @@
     "aboutUpdating": "Mise à jour…",
     "aboutUpdated": "Contenu mis à jour !",
     "aboutChangelog": "Voir les nouveautés",
-    "aboutLegal": "Mentions légales / CGU"
+    "aboutLegal": "Mentions légales / CGU",
+    "quizLanguageTitle": "Langue des quiz",
+    "quizLanguageDesc": "La langue du contenu des quiz peut être différente de la langue de l'interface.",
+    "quizLanguageFr": "Français",
+    "quizLanguageEn": "Anglais"
   },
   "auth": {
     "title": "Espace Parent",

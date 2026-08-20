@@ -44,6 +44,10 @@ export default function ResultsScreen() {
   const newBadgesThisSession   = useProfileStore((s) => s.newBadgesThisSession);
   const recordPlayStreak       = useProfileStore((s) => s.recordPlayStreak);
   const sessions                = useProfileStore((s) => s.sessions);
+  const profile                 = useProfileStore((s) => s.profile);
+
+  // Langue du contenu des quiz — indépendante de la langue d'interface (cahier v1.4 §5).
+  const quizLanguage: Locale = profile?.quizLanguage ?? locale;
 
   const total = questions.length || 10;
   const badgeEarnedThisSession = newBadgesThisSession.length > 0;
@@ -178,7 +182,7 @@ export default function ResultsScreen() {
     setLoading(true);
     try {
       // Récupère les questions depuis Supabase (cache 24h + fallback offline)
-      const pool = await fetchQuestions(category, locale as Locale, difficulty);
+      const pool = await fetchQuestions(category, quizLanguage, difficulty);
       startQuiz(pool);
       router.push('/quiz');
     } finally {

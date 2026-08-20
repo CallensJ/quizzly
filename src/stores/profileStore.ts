@@ -106,6 +106,8 @@ interface ProfileState {
   setLocale: (locale: Locale) => void;
   updateAvatar: (avatarId: string, avatarStyle?: string) => void;
   setTheme: (theme: AppTheme) => void;
+  /** Langue du contenu des quiz — indépendante de la langue d'interface (cahier v1.4 §5). */
+  setQuizLanguage: (quizLanguage: Locale) => void;
   setTimerEnabled: (enabled: boolean) => void;
   setSoundEnabled: (enabled: boolean) => void;
   setAdminPin: (pin: string) => void;
@@ -435,6 +437,17 @@ export const useProfileStore = create<ProfileState>()(
       setTheme: (theme) =>
         set((state) => {
           const updatedProfile = state.profile ? { ...state.profile, theme } : null;
+          return {
+            profile: updatedProfile,
+            profiles: updatedProfile
+              ? state.profiles.map((p) => (p.id === state.activeProfileId ? updatedProfile : p))
+              : state.profiles,
+          };
+        }),
+
+      setQuizLanguage: (quizLanguage) =>
+        set((state) => {
+          const updatedProfile = state.profile ? { ...state.profile, quizLanguage } : null;
           return {
             profile: updatedProfile,
             profiles: updatedProfile

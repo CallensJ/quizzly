@@ -82,6 +82,10 @@ export default function HomeScreen() {
   const { isPremium } = useSubscription();
   const { showNova, hideNova } = useNovaPresence();
 
+  // Langue du contenu des quiz — indépendante de la langue d'interface (cahier v1.4 §5).
+  // Repli sur la langue d'interface courante si non réglée explicitement (rétro-compat).
+  const quizLanguage: Locale = profile?.quizLanguage ?? locale;
+
   const { category, difficulty, setCategory, setDifficulty, startQuiz } = useQuizStore();
   const headerColor     = getCategoryColor(category);
   const headerColorDark = getCategoryColorDark(category);
@@ -182,7 +186,7 @@ export default function HomeScreen() {
     setLoading(true);
     setFetchError(false);
     try {
-      const pool = await fetchQuestions(category!, locale as Locale, difficulty!);
+      const pool = await fetchQuestions(category!, quizLanguage, difficulty!);
       if (!pool.length) throw new Error('Pool vide — aucune question disponible pour cette difficulté');
       startQuiz(pool);
       router.push('/quiz');

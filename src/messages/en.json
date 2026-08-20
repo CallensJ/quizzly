@@ -361,7 +361,11 @@
     "aboutUpdating": "Updating…",
     "aboutUpdated": "Content updated!",
     "aboutChangelog": "See what's new",
-    "aboutLegal": "Legal notice / Terms"
+    "aboutLegal": "Legal notice / Terms",
+    "quizLanguageTitle": "Quiz language",
+    "quizLanguageDesc": "The quiz content language can be different from the interface language.",
+    "quizLanguageFr": "French",
+    "quizLanguageEn": "English"
   },
   "auth": {
     "title": "Parent Space",

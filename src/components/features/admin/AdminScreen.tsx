@@ -20,6 +20,7 @@ import { signOut } from "@/lib/auth";
 import { useNovaPresence } from "@/hooks/useNovaPresence";
 import SubscriptionSection from "./SubscriptionSection";
 import ChildProfilesSection from "./ChildProfilesSection";
+import QuizLanguageSection from "./QuizLanguageSection";
 import DangerZone from "./DangerZone";
 import AboutModal from "./AboutModal";
 import { AdminErrorBoundary } from "./AdminErrorBoundary";
@@ -145,6 +146,9 @@ export default function AdminScreen() {
           </AdminErrorBoundary>
           <AdminErrorBoundary label="Subscription">
             <SubscriptionSection />
+          </AdminErrorBoundary>
+          <AdminErrorBoundary label="QuizLanguage">
+            <QuizLanguageSection />
           </AdminErrorBoundary>
         </div>
 
