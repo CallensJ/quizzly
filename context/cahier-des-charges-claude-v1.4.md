@@ -30,6 +30,20 @@ Les 5 catégories officielles retenues pour la v1.4 sont :
 
 *Note : Chaque catégorie contiendra exactement **200 questions en Français** et **200 questions en Anglais** (400 questions au total par catégorie).*
 
+**Note (2026-08-19) — 200 est une base de lancement, pas un plafond.** Une fois
+l'app en usage réel, le volume par catégorie/langue augmentera probablement
+pour prolonger la durée de vie du contenu. Tant que ça reste de l'ordre de
+quelques passes supplémentaires (ex. 200 → 400), la même méthode suffit :
+prompt Gemini (`scripts/questions/prompt_generation.md`) + scripts de contrôle
+qualité existants (`scripts/questions/globaux/`) + import via
+`scripts/migrate-questions.ts`. Si le volume ou la fréquence de génération
+grossit nettement au-delà (contenu généré en continu, plusieurs contributeurs,
+génération à la demande), ce pipeline manuel deviendra le goulot
+d'étranglement — il sera alors temps d'envisager une API dédiée à la
+génération/validation de contenu plutôt que du copier-coller. Pas un chantier
+actuel, juste à garder en tête pour ne pas être surpris le jour où le manuel
+ne suffit plus.
+
 ---
 
 ## 3. Définition Technique Détaillée de la Progression en Difficulté
