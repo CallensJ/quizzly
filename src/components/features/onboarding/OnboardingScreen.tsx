@@ -11,7 +11,12 @@
  * de difficulté est choisi par le joueur lui-même sur l'écran Home.
  *
  * À la confirmation, createProfile() persiste le profil via Zustand → localStorage.
- * Pas de validation email/nom réel (conformité COPPA).
+ * Pas de validation email/nom réel (conformité COPPA) — le profil enfant lui-même
+ * ne demande toujours aucune donnée nominative.
+ *
+ * Compte parent requis pour atteindre cet écran (src/proxy.ts protège /onboarding
+ * depuis le lot essai 7 jours, cahier v1.4 §5) : l'essai gratuit est lié au compte
+ * (account_trials), démarré au signup, avant même la création de ce profil enfant.
  */
 
 import Image from 'next/image';

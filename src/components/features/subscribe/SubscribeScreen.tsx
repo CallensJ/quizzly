@@ -13,14 +13,16 @@
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
-import { Check, Star, ArrowLeft, Zap } from 'lucide-react';
+import { Check, Star, ArrowLeft, Zap, Clock, AlertCircle } from 'lucide-react';
 import { useAuthStore } from '@/stores/authStore';
+import { useSubscription } from '@/hooks/useSubscription';
 import { useCheckout, type CheckoutInterval } from '@/hooks/useCheckout';
 
 export default function SubscribeScreen() {
   const t        = useTranslations('subscribe');
   const router   = useRouter();
   const { user, loading: authLoading } = useAuthStore();
+  const { accessStatus, trialDaysLeft } = useSubscription();
 
   const [interval, setInterval] = useState<CheckoutInterval>('semiannual');
   const { startCheckout, loading, error } = useCheckout();
@@ -66,6 +68,28 @@ export default function SubscribeScreen() {
         <h1 className="subscribe__title">{t('title')}</h1>
         <p className="subscribe__subtitle">{t('subtitle')}</p>
       </div>
+
+      {/* Essai gratuit en cours ou terminé — cahier v1.4 §5 */}
+      {accessStatus === 'trial' && trialDaysLeft !== null && (
+        <div className="subscribe__trial-banner subscribe__trial-banner--active" role="status">
+          <Clock size={18} aria-hidden="true" />
+          <div>
+            <p className="subscribe__trial-banner-title">{t('trialBannerTitle')}</p>
+            <p className="subscribe__trial-banner-desc">
+              {t('trialBannerDesc', { days: trialDaysLeft })}
+            </p>
+          </div>
+        </div>
+      )}
+      {accessStatus === 'expired' && (
+        <div className="subscribe__trial-banner subscribe__trial-banner--expired" role="status">
+          <AlertCircle size={18} aria-hidden="true" />
+          <div>
+            <p className="subscribe__trial-banner-title">{t('expiredBannerTitle')}</p>
+            <p className="subscribe__trial-banner-desc">{t('expiredBannerDesc')}</p>
+          </div>
+        </div>
+      )}
 
       {/* Toggle mensuel / semestriel */}
       <div className="subscribe__toggle">

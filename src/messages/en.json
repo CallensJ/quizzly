@@ -365,7 +365,9 @@
     "quizLanguageTitle": "Quiz language",
     "quizLanguageDesc": "The quiz content language can be different from the interface language.",
     "quizLanguageFr": "French",
-    "quizLanguageEn": "English"
+    "quizLanguageEn": "English",
+    "subExpired": "Trial ended",
+    "subTrialDaysLeft": "{days} days left before choosing a plan."
   },
   "auth": {
     "title": "Parent Space",
@@ -536,7 +538,11 @@
     "cancelMessage": "Your subscription was not activated. You can try again at any time.",
     "goToApp": "Go to the app",
     "retryLabel": "Try again",
-    "backHome": "Back to home"
+    "backHome": "Back to home",
+    "trialBannerTitle": "Free trial active",
+    "trialBannerDesc": "{days} days left before choosing a plan.",
+    "expiredBannerTitle": "Your trial has ended",
+    "expiredBannerDesc": "Choose a plan to keep playing across all 5 categories."
   },
   "playerSwitcher": {
     "title": "Switch player",

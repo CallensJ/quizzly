@@ -365,7 +365,9 @@
     "quizLanguageTitle": "Langue des quiz",
     "quizLanguageDesc": "La langue du contenu des quiz peut être différente de la langue de l'interface.",
     "quizLanguageFr": "Français",
-    "quizLanguageEn": "Anglais"
+    "quizLanguageEn": "Anglais",
+    "subExpired": "Essai terminé",
+    "subTrialDaysLeft": "{days} jours restants avant de choisir un abonnement."
   },
   "auth": {
     "title": "Espace Parent",
@@ -536,7 +538,11 @@
     "cancelMessage": "Ton abonnement n'a pas été activé. Tu peux réessayer à tout moment.",
     "goToApp": "Accéder à l'application",
     "retryLabel": "Réessayer",
-    "backHome": "Retour à l'accueil"
+    "backHome": "Retour à l'accueil",
+    "trialBannerTitle": "Essai gratuit en cours",
+    "trialBannerDesc": "{days} jours restants avant de choisir un abonnement.",
+    "expiredBannerTitle": "Ton essai est terminé",
+    "expiredBannerDesc": "Choisis un abonnement pour continuer à jouer sur les 5 catégories."
   },
   "playerSwitcher": {
     "title": "Changer de joueur",

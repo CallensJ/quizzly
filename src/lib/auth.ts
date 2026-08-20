@@ -19,14 +19,17 @@ import { SITE_URL } from "./config";
 
 /**
  * Création de compte avec email + mot de passe.
- * Supabase envoie un email de confirmation automatiquement.
+ * Supabase envoie un email de confirmation automatiquement — la session n'est
+ * créée qu'après le clic sur le lien, via /api/auth/callback (qui lit `next`
+ * et `locale` pour ramener l'utilisateur au bon endroit, ex. /onboarding).
  */
-export async function signUp(email: string, password: string) {
+export async function signUp(email: string, password: string, locale: string = "fr", next?: string) {
+  const nextParam = next ? `&next=${encodeURIComponent(next)}` : "";
   const { error } = await supabase.auth.signUp({
     email,
     password,
     options: {
-      emailRedirectTo: `${SITE_URL}/api/auth/callback`,
+      emailRedirectTo: `${SITE_URL}/api/auth/callback?locale=${locale}${nextParam}`,
     },
   });
   return { error };

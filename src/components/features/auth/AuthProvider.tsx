@@ -3,14 +3,17 @@
 /**
  * src/components/features/auth/AuthProvider.tsx
  *
- * Source unique de vérité pour isPremium et authStore.loading.
+ * Source unique de vérité pour isPremium, accessStatus et authStore.loading.
+ * L'accès combine deux chemins indépendants (resolveAccess ci-dessous) :
+ * abonnement Stripe (`subscriptions`) OU essai gratuit 7 jours sans carte
+ * (`account_trials`, cahier-des-charges-claude-v1.4.md §5).
  *
  * Pourquoi getSession() est supprimé :
  *   onAuthStateChange émet INITIAL_SESSION au premier montage avec
  *   la session persistée — getSession() en parallèle créait une race
- *   condition où setLoading(false) était appelé avant checkPremium().
+ *   condition où setLoading(false) était appelé avant checkAccess().
  *
- * setLoading(false) est posé APRÈS confirmation du statut premium
+ * setLoading(false) est posé APRÈS confirmation du statut d'accès
  * pour éviter le flash "catégories verrouillées" au F5.
  *
  * pullFromSupabase est appelé sur INITIAL_SESSION ET SIGNED_IN
@@ -19,13 +22,48 @@
 
 import { useEffect } from "react";
 import { supabase } from "@/lib/supabaseBrowser";
-import { useAuthStore } from "@/stores/authStore";
+import { useAuthStore, type AccessStatus } from "@/stores/authStore";
 import { useProfileStore } from "@/stores/profileStore";
 import { pullFromSupabase, linkProfileToAuthUser, syncProfile } from "@/lib/sync";
 import { useOnlineSync } from "@/hooks/useOnlineSync";
 
 const MAX_RETRIES = 5;
 const RETRY_DELAY_MS = 1000;
+
+interface AccessResolution {
+  isPremium: boolean;
+  accessStatus: AccessStatus;
+  trialEndsAt: string | null;
+}
+
+/**
+ * Résout le statut d'accès d'un compte : abonnement Stripe actif/en essai,
+ * OU essai gratuit indépendant (account_trials, cahier v1.4 §5), OU aucun accès.
+ * Interroge les deux tables en parallèle. Retourne null en cas d'erreur DB —
+ * laisse l'appelant décider de retenter (cf. checkAccess sur INITIAL_SESSION).
+ */
+async function resolveAccess(userId: string): Promise<AccessResolution | null> {
+  const [
+    { data: sub, error: subError },
+    { data: trial, error: trialError },
+  ] = await Promise.all([
+    supabase.from("subscriptions").select("status").eq("user_id", userId).maybeSingle(),
+    supabase.from("account_trials").select("trial_ends_at").eq("user_id", userId).maybeSingle(),
+  ]);
+
+  if (subError || trialError) return null;
+
+  if (sub?.status === "active" || sub?.status === "trialing") {
+    return { isPremium: true, accessStatus: "premium", trialEndsAt: null };
+  }
+
+  const trialActive = !!trial?.trial_ends_at && new Date(trial.trial_ends_at).getTime() > Date.now();
+  if (trialActive) {
+    return { isPremium: true, accessStatus: "trial", trialEndsAt: trial!.trial_ends_at };
+  }
+
+  return { isPremium: false, accessStatus: "expired", trialEndsAt: null };
+}
 
 export default function AuthProvider({
   children,
@@ -36,6 +74,7 @@ export default function AuthProvider({
   const setLoading = useAuthStore((s) => s.setLoading);
   const clearAuth = useAuthStore((s) => s.clearAuth);
   const setIsPremium = useAuthStore((s) => s.setIsPremium);
+  const setAccessStatus = useAuthStore((s) => s.setAccessStatus);
 
   useOnlineSync();
 
@@ -78,65 +117,46 @@ export default function AuthProvider({
       }
 
       // ── INITIAL_SESSION : F5 / navigation directe ──────────────────────
-      // setLoading(false) posé APRÈS checkPremium — jamais avant
+      // setLoading(false) posé APRÈS checkAccess — jamais avant
       // Pull cross-device inclus : session déjà persistée → SIGNED_IN
       // ne se réémettra pas sur mobile
       if (event === "INITIAL_SESSION") {
         let retries = 0;
 
-        async function checkPremium() {
-          const { data: sub, error } = await supabase
-            .from("subscriptions")
-            .select("status")
-            .eq("user_id", userId)
-            .maybeSingle();
+        async function checkAccess() {
+          const resolved = await resolveAccess(userId);
 
-          const isPremium =
-            sub?.status === "active" || sub?.status === "trialing";
-
-          if (isPremium) {
-            setIsPremium(true);
+          if (resolved) {
+            setIsPremium(resolved.isPremium);
+            setAccessStatus(resolved.accessStatus, resolved.trialEndsAt);
             setLoading(false);
             await syncOnLogin();
             return;
           }
 
-          // Pas premium, pas d'erreur DB → résultat définitif
-          if (!error) {
-            setIsPremium(false);
-            setLoading(false);
-            await syncOnLogin();
-            return;
-          }
-
-          // Erreur DB → retry
+          // Erreur DB sur l'une des deux requêtes → retry
           if (retries < MAX_RETRIES) {
             retries++;
-            setTimeout(checkPremium, RETRY_DELAY_MS);
+            setTimeout(checkAccess, RETRY_DELAY_MS);
             return;
           }
 
           // Tous les retries épuisés → débloquer l'UI quand même
           setIsPremium(false);
+          setAccessStatus("expired", null);
           setLoading(false);
         }
 
-        await checkPremium();
+        await checkAccess();
         return;
       }
 
       // ── SIGNED_IN : connexion active (login explicite) ─────────────────
       if (event === "SIGNED_IN") {
-        const { data: sub } = await supabase
-          .from("subscriptions")
-          .select("status")
-          .eq("user_id", userId)
-          .maybeSingle();
+        const resolved = await resolveAccess(userId);
 
-        const isPremium =
-          sub?.status === "active" || sub?.status === "trialing";
-
-        setIsPremium(isPremium);
+        setIsPremium(resolved?.isPremium ?? false);
+        setAccessStatus(resolved?.accessStatus ?? "expired", resolved?.trialEndsAt ?? null);
         setLoading(false);
         await syncOnLogin();
         return;

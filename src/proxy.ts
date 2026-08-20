@@ -6,8 +6,10 @@
  *   2. Routing i18n next-intl — gestion des locales FR/EN
  *
  * Routes protégées (auth Supabase adulte requise) :
- *   - /[locale]/subscribe/*  → paiement Stripe, compte requis
- *   - /[locale]/dashboard/*  → tableau de bord parent
+ *   - /[locale]/subscribe/*   → paiement Stripe, compte requis
+ *   - /[locale]/dashboard/*   → tableau de bord parent
+ *   - /[locale]/onboarding/*  → création du 1er profil enfant, compte requis
+ *                               pour démarrer l'essai 7 jours (cahier v1.4 §5)
  *
  * Note : /admin est protégé par PIN localStorage (PinModal), pas par Supabase Auth.
  * Le middleware ne protège donc pas /admin — c'est intentionnel.
@@ -24,7 +26,10 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createServerClient } from '@supabase/ssr';
 
 // Chemins protégés — sans préfixe de locale (ex: '/subscribe', pas '/fr/subscribe')
-const PROTECTED_PATHS = ['/subscribe', '/dashboard'];
+// /onboarding : compte parent requis dès le départ pour démarrer l'essai 7 jours
+// (cahier-des-charges-claude-v1.4.md §5 — account_trials est lié à auth.users,
+// un profil enfant local ne peut plus être créé sans compte).
+const PROTECTED_PATHS = ['/subscribe', '/dashboard', '/onboarding'];
 
 const intlMiddleware = createMiddleware(routing);
 

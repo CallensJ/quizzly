@@ -4,10 +4,13 @@
  * src/app/[locale]/onboarding/page.tsx
  *
  * Route /onboarding — création d'un nouveau profil joueur.
- * Toujours accessible, même si des profils existent déjà sur l'appareil.
- * Utilisé notamment par "Nouveau joueur" dans PlayerSwitcherModal.
+ * Accessible même si des profils existent déjà sur l'appareil (contrairement à
+ * la route /, elle ne redirige pas dans ce cas) — utilisée aussi par
+ * "Nouveau joueur" dans PlayerSwitcherModal pour ajouter un 2e/3e enfant.
  *
- * Contrairement à la route /, elle ne redirige pas si des profils existent.
+ * Protégée par src/proxy.ts (compte parent requis) depuis le lot essai 7 jours
+ * (cahier v1.4 §5) : un compte déjà connecté passe sans friction, un visiteur
+ * sans session est redirigé vers /auth/login?next=/onboarding.
  */
 
 import OnboardingScreen from '@/components/features/onboarding/OnboardingScreen';

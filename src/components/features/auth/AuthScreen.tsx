@@ -81,7 +81,12 @@ export default function AuthScreen() {
       }
       router.push(nextUrl);
     } else {
-      const { error: authError } = await signUp(normalizedEmail, password);
+      const { error: authError } = await signUp(
+        normalizedEmail,
+        password,
+        locale,
+        nextUrl !== '/admin' ? nextUrl : undefined,
+      );
       setLoading(false);
       if (authError) { setError(mapError(authError.message)); return; }
       // Inscription réussie → email de confirmation envoyé par Supabase

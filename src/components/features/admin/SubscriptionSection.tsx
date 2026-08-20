@@ -4,11 +4,17 @@
  * src/components/features/admin/SubscriptionSection.tsx
  *
  * Section "Abonnement Premium" de l'AdminScreen.
- * États : chargement → premium actif → version gratuite.
+ * États : chargement → essai actif → premium actif → essai terminé.
+ *
+ * v1.4 n'a plus de palier gratuit permanent (cahier-des-charges-claude-v1.4.md
+ * §5) — l'état "inactif" signifie toujours "essai expiré", jamais "version
+ * gratuite". Le bouton "Gérer l'abonnement" (portail Stripe) n'est proposé
+ * qu'en Premium payant : un essai seul n'a pas de ligne `subscriptions`
+ * (donc pas de stripe_customer_id) et le portail échouerait sinon.
  */
 
 import { useTranslations } from 'next-intl';
-import { Crown, CheckCircle, Settings, Zap, Lock, Loader } from 'lucide-react';
+import { Crown, CheckCircle, Clock, Settings, Zap, Loader } from 'lucide-react';
 import { useRouter } from '@/i18n/navigation';
 import { useSubscription } from '@/hooks/useSubscription';
 import { usePortal } from '@/hooks/usePortal';
@@ -16,7 +22,7 @@ import { usePortal } from '@/hooks/usePortal';
 export default function SubscriptionSection() {
   const t      = useTranslations('admin');
   const router = useRouter();
-  const { isPremium, status: subStatus, loading } = useSubscription();
+  const { accessStatus, trialDaysLeft, loading } = useSubscription();
   const { openPortal, loading: portalLoading, error: portalError } = usePortal();
 
   return (
@@ -32,18 +38,23 @@ export default function SubscriptionSection() {
           <Loader size={16} className="admin__sub-checking-icon" aria-hidden="true" />
           <span>{t('subLoading')}</span>
         </div>
-      ) : isPremium ? (
+      ) : accessStatus === 'trial' ? (
         <div className="admin__sub-active">
-          {/* Statut clair avec icône verte */}
           <div className="admin__sub-premium-badge">
-            <CheckCircle size={16} aria-hidden="true" />
-            {subStatus === 'trialing' ? "Essai gratuit en cours" : "Premium actif"}
+            <Clock size={16} aria-hidden="true" />
+            {t('subTrialing')}
           </div>
           <p className="admin__section-desc">
-            {subStatus === 'trialing'
-              ? "Profitez de toutes les fonctionnalités Premium pendant votre période d'essai."
-              : "Toutes les catégories débloquées · Jusqu'à 4 profils · Synchronisation multi-appareils."}
+            {trialDaysLeft !== null && t('subTrialDaysLeft', { days: trialDaysLeft })}
           </p>
+        </div>
+      ) : accessStatus === 'premium' ? (
+        <div className="admin__sub-active">
+          <div className="admin__sub-premium-badge">
+            <CheckCircle size={16} aria-hidden="true" />
+            {t('subActive')}
+          </div>
+          <p className="admin__section-desc">{t('subDesc')}</p>
           <button
             type="button"
             className="admin__sub-manage-btn"
@@ -51,27 +62,24 @@ export default function SubscriptionSection() {
             disabled={portalLoading}
           >
             <Settings size={15} aria-hidden="true" />
-            {portalLoading ? t('subManageLoading') : "Gérer l'abonnement"}
+            {portalLoading ? t('subManageLoading') : t('subManage')}
           </button>
           {portalError && <p className="admin__error">{portalError}</p>}
         </div>
       ) : (
         <div className="admin__sub-inactive">
-          {/* Badge version gratuite */}
           <div className="admin__sub-free-badge">
-            <Lock size={13} aria-hidden="true" />
-            Version gratuite
+            <Clock size={13} aria-hidden="true" />
+            {t('subExpired')}
           </div>
-          <p className="admin__section-desc">
-            1 profil enfant · 4 catégories · 100 questions par catégorie.
-          </p>
+          <p className="admin__section-desc">{t('subDesc')}</p>
           <button
             type="button"
             className="admin__sub-upgrade-btn"
             onClick={() => router.push('/subscribe')}
           >
             <Zap size={16} aria-hidden="true" />
-            Passer Premium — 1,99 €/mois
+            {t('subUpgrade')}
           </button>
         </div>
       )}
