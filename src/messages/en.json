@@ -36,7 +36,9 @@
     "sciences-nature": "Science & Nature",
     "sciences-natureDesc": "Human body, natural phenomena, plants…",
     "dinosauresDesc": "Species, fossils, way of life…",
-    "espaceDesc": "Solar system, planets, space exploration…"
+    "espaceDesc": "Solar system, planets, space exploration…",
+    "diffLockedHintMedium": "Unlocked at 80% on 3 games in a row in Easy",
+    "diffLockedHintHard": "Unlocked at 90% on 3 games in a row in Medium"
   },
   "quiz": {
     "question": "Question {current} / {total}",
@@ -62,7 +64,11 @@
     "msgHigh": "Outstanding! You're a true champion! 🌟",
     "ctaPlayAgain": "Play Again",
     "ctaHome": "Back to Home",
-    "streak": "{count}-day streak! 🔥"
+    "streak": "{count}-day streak! 🔥",
+    "promotionUnlocked": "Well done! You've unlocked {level} level for this category!",
+    "demotionSuggestion": "These questions are a bit tricky? Want to try an easier level together?",
+    "demotionAccept": "Yes, lower the level",
+    "demotionDecline": "No, I'll keep going"
   },
   "profile": {
     "title": "My Profile",

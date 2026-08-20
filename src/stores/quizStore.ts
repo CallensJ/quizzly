@@ -117,7 +117,10 @@ export const useQuizStore = create<QuizState>()((set, get) => ({
   selectedAnswer: null,
   questionStartTime: null,
 
-  setCategory: (category) => set({ category }),
+  // Changer de catégorie réinitialise la difficulté : les niveaux débloqués
+  // sont propres à chaque catégorie (src/lib/difficulty.ts), une sélection
+  // valide dans l'ancienne catégorie peut ne pas l'être dans la nouvelle.
+  setCategory: (category) => set({ category, difficulty: null }),
 
   setDifficulty: (difficulty) => set({ difficulty }),
 

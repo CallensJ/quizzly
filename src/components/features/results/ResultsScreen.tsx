@@ -23,11 +23,12 @@ import { playSound } from '@/lib/sound';
 import { syncSession, syncBadge } from '@/lib/sync';
 import { fetchQuestions } from '@/lib/questions';
 import { CATEGORY_EMOJI } from '@/lib/categories';
+import { justUnlockedDifficulty, shouldSuggestDemotion, lowerDifficulty } from '@/lib/difficulty';
 import Nova from '@/components/ui/Nova';
 import { BADGE_DEFINITIONS } from '@/lib/badges';
 import type { StreakResult } from '@/stores/profileStore';
 import type { Locale } from '@/types';
-import { Flame } from 'lucide-react';
+import { Flame, PartyPopper, HeartHandshake } from 'lucide-react';
 
 export default function ResultsScreen() {
   const t         = useTranslations('results');
@@ -37,11 +38,12 @@ export default function ResultsScreen() {
   const locale    = useLocale() as Locale;
   const router    = useRouter();
 
-  const { status, score, category, difficulty, questions, startQuiz, resetAll } = useQuizStore();
+  const { status, score, category, difficulty, questions, startQuiz, setDifficulty, resetAll } = useQuizStore();
   const soundEnabled           = useProfileStore((s) => s.soundEnabled);
   const activeProfileId        = useProfileStore((s) => s.activeProfileId);
   const newBadgesThisSession   = useProfileStore((s) => s.newBadgesThisSession);
   const recordPlayStreak       = useProfileStore((s) => s.recordPlayStreak);
+  const sessions                = useProfileStore((s) => s.sessions);
 
   const total = questions.length || 10;
   const badgeEarnedThisSession = newBadgesThisSession.length > 0;
@@ -51,6 +53,27 @@ export default function ResultsScreen() {
   // que router.push('/quiz') prenne effet — sans ce ref, le guard se déclenche
   // et router.replace('/home') écrase la navigation vers /quiz.
   const isReplayingRef = useRef(false);
+
+  // Snapshot du niveau réellement joué cette partie — figé au premier rendu.
+  // handleAcceptDemotion modifie quizStore.difficulty pour la prochaine partie
+  // (via "Rejouer"), ce qui ne doit pas changer rétroactivement ce qui est affiché
+  // comme le niveau de LA partie qui vient de se terminer.
+  const [playedDifficulty] = useState(difficulty);
+
+  // ── Progression de difficulté ────────────────────────────────────────────
+  const justUnlockedMedium = !!category && playedDifficulty === 'easy'
+    && justUnlockedDifficulty(sessions, category, 'medium');
+  const justUnlockedHard = !!category && playedDifficulty === 'medium'
+    && justUnlockedDifficulty(sessions, category, 'hard');
+  const demotionSuggested = !!category && playedDifficulty !== null
+    && shouldSuggestDemotion(sessions, category, playedDifficulty);
+  const [demotionDismissed, setDemotionDismissed] = useState(false);
+
+  function handleAcceptDemotion() {
+    if (!playedDifficulty) return;
+    setDifficulty(lowerDifficulty(playedDifficulty));
+    setDemotionDismissed(true);
+  }
 
   // ── Série quotidienne (mise à jour à la fin de toute partie) ────────────────
   const [streakResult, setStreakResult] = useState<StreakResult | null>(null);
@@ -108,6 +131,20 @@ export default function ResultsScreen() {
       });
     }
   }, [status]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ── Confetti déblocage de niveau ─────────────────────────────────────────
+  useEffect(() => {
+    if (!justUnlockedMedium && !justUnlockedHard) return;
+    import('canvas-confetti').then((mod) => {
+      mod.default({
+        particleCount: 100,
+        spread: 65,
+        origin: { y: 0.6 },
+        colors: ['#4CAF50', '#FF9800', '#F44336', '#FFD700'],
+      });
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // ── Helpers ──────────────────────────────────────────────────────────────
 
@@ -170,9 +207,9 @@ export default function ResultsScreen() {
               {CATEGORY_EMOJI[category] ?? '🎮'} {tHome(category)}
             </span>
           )}
-          {difficulty && (
-            <span className={`results__diff-chip results__diff-chip--${difficulty}`}>
-              {tHome(difficulty)}
+          {playedDifficulty && (
+            <span className={`results__diff-chip results__diff-chip--${playedDifficulty}`}>
+              {tHome(playedDifficulty)}
             </span>
           )}
         </div>
@@ -245,6 +282,42 @@ export default function ResultsScreen() {
           <div className="results__streak" role="status">
             <Flame size={18} aria-hidden="true" />
             <span>{t('streak', { count: streakResult.newStreak })}</span>
+          </div>
+        )}
+
+        {/* ── Déblocage d'un niveau de difficulté ─────────────────────────── */}
+        {(justUnlockedMedium || justUnlockedHard) && (
+          <div className="results__promotion" role="status">
+            <PartyPopper size={20} aria-hidden="true" />
+            <span>
+              {t('promotionUnlocked', { level: tHome(justUnlockedHard ? 'hard' : 'medium') })}
+            </span>
+          </div>
+        )}
+
+        {/* ── Suggestion de rétrogradation bienveillante ──────────────────── */}
+        {demotionSuggested && !demotionDismissed && (
+          <div className="results__demotion" role="status">
+            <div className="results__demotion-text">
+              <HeartHandshake size={20} aria-hidden="true" />
+              <span>{t('demotionSuggestion')}</span>
+            </div>
+            <div className="results__demotion-actions">
+              <button
+                type="button"
+                className="results__demotion-accept"
+                onClick={handleAcceptDemotion}
+              >
+                {t('demotionAccept')}
+              </button>
+              <button
+                type="button"
+                className="results__demotion-decline"
+                onClick={() => setDemotionDismissed(true)}
+              >
+                {t('demotionDecline')}
+              </button>
+            </div>
           </div>
         )}
 

@@ -440,6 +440,10 @@
   &__diff-btn {
     flex: 1;
     min-height: v.$touch-target-min;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
     border: 3px solid currentColor;
     border-radius: v.$radius-full; // pill
     font-size: v.$font-size-sm;
@@ -458,6 +462,17 @@
 
     &:hover {
       transform: scale(1.04);
+    }
+
+    // Niveau pas encore débloqué pour cette catégorie (progression v1.4)
+    &--locked {
+      color: var(--color-muted);
+      background: color-mix(in srgb, var(--color-muted) 8%, var(--color-bg));
+      cursor: not-allowed;
+
+      &:hover {
+        transform: none;
+      }
     }
 
     // État sélectionné — fond plein couleur difficulté

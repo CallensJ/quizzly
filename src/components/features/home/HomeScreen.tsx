@@ -15,16 +15,17 @@
  * (redirection paywall) reste à implémenter (Sprint 2, lot bilinguisme/trial).
  */
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
-import { Atom, Landmark, Lightbulb, Rocket, Bone, Loader2, WifiOff } from 'lucide-react';
+import { Atom, Landmark, Lightbulb, Rocket, Bone, Loader2, WifiOff, Lock } from 'lucide-react';
 import { buildAvatarUrl, type AvatarStyle } from '@/lib/avatars';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useProfileStore } from '@/stores/profileStore';
 import { useQuizStore } from '@/stores/quizStore';
 import { fetchQuestions, prewarmQuestionsCache } from '@/lib/questions';
 import { getCategoryColor, getCategoryColorDark } from '@/lib/categories';
+import { getUnlockedDifficulties } from '@/lib/difficulty';
 import { useSubscription } from '@/hooks/useSubscription';
 import { useNovaPresence } from '@/hooks/useNovaPresence';
 import { useNovaStore } from '@/stores/novaStore';
@@ -84,6 +85,13 @@ export default function HomeScreen() {
   const { category, difficulty, setCategory, setDifficulty, startQuiz } = useQuizStore();
   const headerColor     = getCategoryColor(category);
   const headerColorDark = getCategoryColorDark(category);
+
+  // Niveaux jouables pour la catégorie sélectionnée (progression par catégorie,
+  // cahier-des-charges-claude-v1.4.md §3) — toujours au moins Facile.
+  const unlockedDifficulties = useMemo(
+    () => (category ? getUnlockedDifficulties(sessions, category) : (['easy'] as Difficulty[])),
+    [sessions, category]
+  );
 
   const [loading, setLoading] = useState(false);
   const [fetchError, setFetchError] = useState(false);
@@ -269,18 +277,26 @@ export default function HomeScreen() {
           <section className="home__section home__section--difficulty">
             <h2 className="home__section-title">{t('difficultyLabel')}</h2>
             <div className="home__difficulties">
-              {DIFFICULTIES.map((d) => (
-                <button
-                  key={d}
-                  type="button"
-                  data-testid={`diff-${d}`}
-                  className={`home__diff-btn home__diff-btn--${d}${difficulty === d ? ' home__diff-btn--active' : ''}`}
-                  onClick={() => setDifficulty(d)}
-                  aria-pressed={difficulty === d}
-                >
-                  {t(d)}
-                </button>
-              ))}
+              {DIFFICULTIES.map((d) => {
+                const locked = !unlockedDifficulties.includes(d);
+                const lockHint = d === 'medium' ? t('diffLockedHintMedium') : t('diffLockedHintHard');
+                return (
+                  <button
+                    key={d}
+                    type="button"
+                    data-testid={`diff-${d}`}
+                    className={`home__diff-btn home__diff-btn--${d}${difficulty === d ? ' home__diff-btn--active' : ''}${locked ? ' home__diff-btn--locked' : ''}`}
+                    onClick={() => !locked && setDifficulty(d)}
+                    disabled={locked}
+                    aria-pressed={difficulty === d}
+                    aria-label={locked ? `${t(d)} — ${lockHint}` : t(d)}
+                    title={locked ? lockHint : undefined}
+                  >
+                    {locked && <Lock size={14} strokeWidth={2.5} aria-hidden="true" />}
+                    {t(d)}
+                  </button>
+                );
+              })}
             </div>
           </section>
 

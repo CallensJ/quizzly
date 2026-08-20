@@ -36,7 +36,9 @@
     "sciences-nature": "Sciences & Nature",
     "sciences-natureDesc": "Corps humain, phénomènes naturels, plantes…",
     "dinosauresDesc": "Espèces, fossiles, mode de vie…",
-    "espaceDesc": "Système solaire, planètes, conquête spatiale…"
+    "espaceDesc": "Système solaire, planètes, conquête spatiale…",
+    "diffLockedHintMedium": "Débloqué à 80% sur 3 parties d'affilée en Facile",
+    "diffLockedHintHard": "Débloqué à 90% sur 3 parties d'affilée en Moyen"
   },
   "quiz": {
     "question": "Question {current} / {total}",
@@ -62,7 +64,11 @@
     "msgHigh": "Excellent ! Tu es un vrai champion ! 🌟",
     "ctaPlayAgain": "Rejouer",
     "ctaHome": "Retour à l'accueil",
-    "streak": "Série de {count} jours ! 🔥"
+    "streak": "Série de {count} jours ! 🔥",
+    "promotionUnlocked": "Bravo ! Tu as débloqué le niveau {level} pour cette catégorie !",
+    "demotionSuggestion": "Ces questions sont un peu dures ? Veux-tu qu'on révise ensemble au niveau inférieur ?",
+    "demotionAccept": "Oui, on baisse le niveau",
+    "demotionDecline": "Non, je continue comme ça"
   },
   "profile": {
     "title": "Mon Profil",
