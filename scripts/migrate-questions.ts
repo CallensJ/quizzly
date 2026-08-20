@@ -37,46 +37,20 @@ const supabase = createClient(supabaseUrl, serviceRoleKey);
 
 // ─── Fichiers à migrer ────────────────────────────────────────────────────────
 
+// Les 5 catégories officielles v1.4 (cahier-des-charges-claude-v1.4.md §2),
+// 200 questions par langue chacune — voir scripts/questions/prompt_generation.md
+// pour le pipeline de génération (Gemini + scripts de contrôle qualité).
 const FILES = [
-  // ── Gratuites ──────────────────────────────────────────────────────────────
-  { path: 'src/data/questions/fr/sciences.json',          category: 'sciences',         locale: 'fr' },
-  { path: 'src/data/questions/fr/histoire.json',          category: 'histoire',         locale: 'fr' },
-  { path: 'src/data/questions/fr/heroes.json',            category: 'heroes',           locale: 'fr' },
-  { path: 'src/data/questions/fr/animaux-nature.json',    category: 'animaux-nature',   locale: 'fr' },
-  { path: 'src/data/questions/en/sciences.json',          category: 'sciences',         locale: 'en' },
-  { path: 'src/data/questions/en/histoire.json',          category: 'histoire',         locale: 'en' },
-  { path: 'src/data/questions/en/heroes.json',            category: 'heroes',           locale: 'en' },
-
-  // ── Premium FR ─────────────────────────────────────────────────────────────
-  { path: 'src/data/questions/fr/math.json',              category: 'math',             locale: 'fr' },
-  { path: 'src/data/questions/fr/francais.json',          category: 'francais',         locale: 'fr' },
-  { path: 'src/data/questions/fr/sport.json',             category: 'sport',            locale: 'fr' },
-  { path: 'src/data/questions/fr/geographie.json',        category: 'geographie',       locale: 'fr' },
-  { path: 'src/data/questions/fr/anglais.json',           category: 'anglais',          locale: 'fr' },
-  { path: 'src/data/questions/fr/art.json',               category: 'art',              locale: 'fr' },
-  { path: 'src/data/questions/fr/corps-humain.json',      category: 'corps-humain',     locale: 'fr' },
-  { path: 'src/data/questions/fr/cuisine.json',              category: 'cuisine',       locale: 'fr' },
-  { path: 'src/data/questions/fr/dinosaures.json',        category: 'dinosaures',       locale: 'fr' },
-  { path: 'src/data/questions/fr/education-civique.json', category: 'education-civique',locale: 'fr' },
-  { path: 'src/data/questions/fr/environnement.json',     category: 'environnement',    locale: 'fr' },
-  { path: 'src/data/questions/fr/espace-astronomie.json', category: 'espace-astronomie',locale: 'fr' },
-  { path: 'src/data/questions/fr/monde-antique.json',     category: 'monde-antique',    locale: 'fr' },
-  { path: 'src/data/questions/fr/musique.json',           category: 'musique',          locale: 'fr' },
-  { path: 'src/data/questions/fr/technologie.json',       category: 'technologie',      locale: 'fr' },
-
-  // ── Premium EN ─────────────────────────────────────────────────────────────
-  { path: 'src/data/questions/en/math.json',              category: 'math',             locale: 'en' },
-  { path: 'src/data/questions/en/francais.json',          category: 'francais',         locale: 'en' },
-  { path: 'src/data/questions/en/sport.json',             category: 'sport',            locale: 'en' },
-  { path: 'src/data/questions/en/corps-humain.json',      category: 'corps-humain',     locale: 'en' },
-  { path: 'src/data/questions/en/education-civique.json', category: 'education-civique',locale: 'en' },
-  { path: 'src/data/questions/en/animaux-nature.json',    category: 'animaux-nature',   locale: 'en' },
-  { path: 'src/data/questions/en/anglais.json',           category: 'anglais',          locale: 'en' },
-  { path: 'src/data/questions/en/art.json',               category: 'art',              locale: 'en' },
-  { path: 'src/data/questions/en/cuisine.json',           category: 'cuisine',          locale: 'en' },
-  { path: 'src/data/questions/en/dinosaures.json',        category: 'dinosaures',       locale: 'en' },
-  { path: 'src/data/questions/en/monde-antique.json',     category: 'monde-antique',    locale: 'en' },
-  { path: 'src/data/questions/en/geographie.json',        category: 'geographie',        locale: 'en' },
+  { path: 'src/data/questions/fr/histoire-du-monde.json', category: 'histoire-du-monde', locale: 'fr' },
+  { path: 'src/data/questions/en/histoire-du-monde.json', category: 'histoire-du-monde', locale: 'en' },
+  { path: 'src/data/questions/fr/culture-generale.json',  category: 'culture-generale',  locale: 'fr' },
+  { path: 'src/data/questions/en/culture-generale.json',  category: 'culture-generale',  locale: 'en' },
+  { path: 'src/data/questions/fr/sciences-nature.json',   category: 'sciences-nature',   locale: 'fr' },
+  { path: 'src/data/questions/en/sciences-nature.json',   category: 'sciences-nature',   locale: 'en' },
+  { path: 'src/data/questions/fr/dinosaures.json',        category: 'dinosaures',        locale: 'fr' },
+  { path: 'src/data/questions/en/dinosaures.json',        category: 'dinosaures',        locale: 'en' },
+  { path: 'src/data/questions/fr/espace.json',            category: 'espace',            locale: 'fr' },
+  { path: 'src/data/questions/en/espace.json',            category: 'espace',            locale: 'en' },
 ] as const;
 
 // ─── Types source ─────────────────────────────────────────────────────────────
