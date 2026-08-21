@@ -1,5 +1,2406 @@
 {
-  "category": "espace",
-  "lang": "fr",
-  "questions": []
+"category": "espace-astronomie",
+"lang": "fr",
+"questions": [
+{
+"id": "space-fr-0001",
+"difficulty": "easy",
+"question": "Quelle étoile se trouve au centre de notre système solaire ?",
+"options": {
+"A": "Le Soleil",
+"B": "L'Étoile polaire",
+"C": "Sirius",
+"D": "Bételgeuse"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0002",
+"difficulty": "easy",
+"question": "Quel est l'unique satellite naturel de la Terre ?",
+"options": {
+"A": "Titan",
+"B": "La Lune",
+"C": "Phobos",
+"D": "Europe"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0003",
+"difficulty": "easy",
+"question": "Quelle planète est souvent surnommée la « planète rouge » ?",
+"options": {
+"A": "Vénus",
+"B": "Jupiter",
+"C": "Mars",
+"D": "Mercure"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0004",
+"difficulty": "easy",
+"question": "Quelle est la plus grande planète de tout notre système solaire ?",
+"options": {
+"A": "Saturne",
+"B": "Neptune",
+"C": "Uranus",
+"D": "Jupiter"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0005",
+"difficulty": "easy",
+"question": "Qu'est-ce qu'une étoile filante en réalité ?",
+"options": {
+"A": "Un grain de poussière rocheux qui brûle dans l'atmosphère",
+"B": "Une véritable étoile géante qui explose dans le ciel",
+"C": "Un morceau de satellite artificiel en panne",
+"D": "Un nuage très brillant éclairé par le Soleil"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0006",
+"difficulty": "easy",
+"question": "Quelle planète possède de magnifiques anneaux très visibles depuis la Terre ?",
+"options": {
+"A": "Mars",
+"B": "Saturne",
+"C": "Mercure",
+"D": "Vénus"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0007",
+"difficulty": "easy",
+"question": "Combien de planètes principales composent notre système solaire ?",
+"options": {
+"A": "6 planètes",
+"B": "10 planètes",
+"C": "8 planètes",
+"D": "12 planètes"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0008",
+"difficulty": "easy",
+"question": "Quel astronaute est devenu le premier être humain à marcher sur la Lune ?",
+"options": {
+"A": "Youri Gagarine",
+"B": "Buzz Aldrin",
+"C": "Thomas Pesquet",
+"D": "Neil Armstrong"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0009",
+"difficulty": "easy",
+"question": "Comment appelle-t-on le grand ensemble d'étoiles auquel appartient le Soleil ?",
+"options": {
+"A": "La Voie lactée",
+"B": "La Nébuleuse d'Orion",
+"C": "La Galaxie d'Andromède",
+"D": "Le Nuage de Magellan"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0010",
+"difficulty": "easy",
+"question": "Quelle planète est la plus proche du Soleil ?",
+"options": {
+"A": "La Terre",
+"B": "Mercure",
+"C": "Vénus",
+"D": "Mars"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0011",
+"difficulty": "easy",
+"question": "Que portent les astronautes pour respirer et se protéger lors des sorties dans l'espace ?",
+"options": {
+"A": "Un masque de plongée",
+"B": "Une tenue d'aviateur",
+"C": "Un scaphandre spatial",
+"D": "Un manteau thermique"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0012",
+"difficulty": "easy",
+"question": "Combien de temps met la Terre pour faire un tour complet autour du Soleil ?",
+"options": {
+"A": "24 heures",
+"B": "30 jours",
+"C": "6 mois",
+"D": "1 an (environ 365 jours)"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0013",
+"difficulty": "easy",
+"question": "Pourquoi les astronautes flottent-ils à l'intérieur de la Station spatiale ?",
+"options": {
+"A": "Ils sont en état d'impesanteur",
+"B": "L'air est soufflé par des ventilateurs",
+"C": "Leurs combinaisons contiennent de l'hélium",
+"D": "Le sol de la station repousse les corps"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0014",
+"difficulty": "easy",
+"question": "Quel instrument permet d'observer les étoiles lointaines depuis le sol terrestre ?",
+"options": {
+"A": "Un microscope",
+"B": "Un télescope",
+"C": "Un périscope",
+"D": "Un kaléidoscope"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0015",
+"difficulty": "easy",
+"question": "Quelle planète est la plus éloignée du Soleil parmi les huit planètes principales ?",
+"options": {
+"A": "Jupiter",
+"B": "Saturne",
+"C": "Neptune",
+"D": "Uranus"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0016",
+"difficulty": "easy",
+"question": "Comment appelle-t-on un dessin formé par un groupe d'étoiles dans le ciel nocturne ?",
+"options": {
+"A": "Une galaxie",
+"B": "Une comète",
+"C": "Une comète",
+"D": "Une constellation"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0017",
+"difficulty": "easy",
+"question": "Quel animal a été le premier être vivant à être envoyé en orbite autour de la Terre ?",
+"options": {
+"A": "La chienne Laïka",
+"B": "Le chimpanzé Ham",
+"C": "La chatte Félicette",
+"D": "La tortue Boris"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0018",
+"difficulty": "easy",
+"question": "Combien de temps met la Terre pour faire un tour complet sur elle-même ?",
+"options": {
+"A": "12 heures",
+"B": "24 heures",
+"C": "7 jours",
+"D": "30 jours"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0019",
+"difficulty": "easy",
+"question": "Quel gaz les astronautes doivent-ils emporter pour pouvoir respirer dans l'espace ?",
+"options": {
+"A": "Le dioxyde de carbone",
+"B": "L'hélium",
+"C": "L'oxygène",
+"D": "L'azote pur"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0020",
+"difficulty": "easy",
+"question": "Quel célèbre astronaute français a commandé la Station spatiale internationale en 2021 ?",
+"options": {
+"A": "Jean-Loup Chrétien",
+"B": "Patrick Baudry",
+"C": "Michel Tognini",
+"D": "Thomas Pesquet"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0021",
+"difficulty": "easy",
+"question": "De quoi est principalement faite la surface de la Lune ?",
+"options": {
+"A": "De roche et d'une poussière grise",
+"B": "De glace d'eau transparente",
+"C": "De sable rouge et de boue",
+"D": "De métal brillant et poli"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0022",
+"difficulty": "easy",
+"question": "Quel véhicule propulsé par des moteurs permet d'envoyer des satellites dans l'espace ?",
+"options": {
+"A": "Un avion de chasse",
+"B": "Une fusée",
+"C": "Un hélicoptère géant",
+"D": "Une montgolfière"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0023",
+"difficulty": "easy",
+"question": "Quelle forme a la Terre dans l'espace ?",
+"options": {
+"A": "Un disque plat",
+"B": "Un cube régulier",
+"C": "Une sphère presque ronde",
+"D": "Un ovale très pointu"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0024",
+"difficulty": "easy",
+"question": "Quelle constellation célèbre ressemble à une grande casserole dessinée dans le ciel ?",
+"options": {
+"A": "Le Lion",
+"B": "Le Cygne",
+"C": "Cassiopée",
+"D": "La Grande Ourse"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0025",
+"difficulty": "easy",
+"question": "Que se passe-t-il pendant une éclipse totale de Soleil ?",
+"options": {
+"A": "La Lune passe exactement entre la Terre et le Soleil",
+"B": "Le Soleil s'éteint soudainement pendant quelques heures",
+"C": "Mars vient se placer devant la Terre",
+"D": "La Terre s'arrête de tourner autour du Soleil"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0026",
+"difficulty": "easy",
+"question": "Comment appelle-t-on un petit robot roulant envoyé explorer la surface d'une planète ?",
+"options": {
+"A": "Un planeur",
+"B": "Un rover",
+"C": "Un drone marin",
+"D": "Une navette"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0027",
+"difficulty": "easy",
+"question": "Quel corps céleste possède une longue queue brillante de gaz et de poussière près du Soleil ?",
+"options": {
+"A": "Une planète naine",
+"B": "Un trou noir",
+"C": "Une comète",
+"D": "Un pulsar"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0028",
+"difficulty": "easy",
+"question": "Quel est le premier satellite artificiel envoyé dans l'espace en 1957 ?",
+"options": {
+"A": "Apollo 11",
+"B": "Hubble",
+"C": "Voyager 1",
+"D": "Spoutnik 1"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0029",
+"difficulty": "easy",
+"question": "Pourquoi la Terre est-elle surnommée la « planète bleue » ?",
+"options": {
+"A": "Ses océans d'eau liquide recouvrent la majorité de sa surface",
+"B": "Son sol est composé de roches de couleur bleue",
+"C": "Sa glace polaire brille d'une lueur bleue dans le vide",
+"D": "Son atmosphère est remplie de nuages bleutés"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0030",
+"difficulty": "easy",
+"question": "Quelle force invisible attire les objets vers le centre de la Terre et nous empêche de flotter ?",
+"options": {
+"A": "Le magnétisme marin",
+"B": "La gravité",
+"C": "La pression de l'air",
+"D": "La force électrique"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0031",
+"difficulty": "easy",
+"question": "Quel grand laboratoire scientifique tourne en permanence autour de la Terre avec des astronautes ?",
+"options": {
+"A": "La base martienne",
+"B": "Le dôme lunaire",
+"C": "La Station spatiale internationale",
+"D": "Le télescope spatial James Webb"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0032",
+"difficulty": "easy",
+"question": "Quelle planète est la plus chaude du système solaire à cause de son effet de serre extrême ?",
+"options": {
+"A": "Mercure",
+"B": "Mars",
+"C": "Jupiter",
+"D": "Vénus"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0033",
+"difficulty": "easy",
+"question": "Quelle est la nature du Soleil ?",
+"options": {
+"A": "C'est une étoile géante de gaz chaud",
+"B": "C'est une boule rocheuse en fusion",
+"C": "C'est une planète très lumineuse",
+"D": "C'est un gigantesque miroir spatial"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0034",
+"difficulty": "easy",
+"question": "Comment appelle-t-on le premier homme à être allé dans l'espace en 1961 ?",
+"options": {
+"A": "Neil Armstrong",
+"B": "Youri Gagarine",
+"C": "John Glenn",
+"D": "Buzz Aldrin"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0035",
+"difficulty": "easy",
+"question": "Combien d'étoiles y a-t-il dans notre propre système solaire ?",
+"options": {
+"A": "Des millions",
+"B": "Environ huit",
+"C": "Une seule (le Soleil)",
+"D": "Aucune"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0036",
+"difficulty": "easy",
+"question": "Quelle planète se trouve entre Vénus et Mars dans le système solaire ?",
+"options": {
+"A": "Mercure",
+"B": "Jupiter",
+"C": "Saturne",
+"D": "La Terre"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0037",
+"difficulty": "easy",
+"question": "Que manque-t-il sur la Lune pour que les humains puissent y respirer sans combinaison ?",
+"options": {
+"A": "Une atmosphère contenant de l'air",
+"B": "Un champ de force magnétique",
+"C": "Des rayons de lumière solaire",
+"D": "Une température toujours tiède"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0038",
+"difficulty": "easy",
+"question": "Quelle planète est facilement reconnaissable à sa « Grande Tache Rouge » ?",
+"options": {
+"A": "Mars",
+"B": "Jupiter",
+"C": "Neptune",
+"D": "Vénus"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0039",
+"difficulty": "easy",
+"question": "D'où vient la lumière que nous renvoie la Lune la nuit ?",
+"options": {
+"A": "Elle produit sa propre lumière interne",
+"B": "Elle absorbe la lumière des étoiles voisines",
+"C": "Elle reflète la lumière du Soleil",
+"D": "Elle capte l'électricité de la Terre"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0040",
+"difficulty": "easy",
+"question": "Quel ancien statut avait Pluton avant d'être reclassée en « planète naine » en 2006 ?",
+"options": {
+"A": "Une simple comète",
+"B": "Un astéroïde géant",
+"C": "Une lune de Neptune",
+"D": "La neuvième planète du système solaire"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0041",
+"difficulty": "easy",
+"question": "Dans quel lieu spécial les astronautes s'entraînent-ils sous l'eau pour simuler l'espace ?",
+"options": {
+"A": "Une immense piscine d'entraînement",
+"B": "Une rivière à fort courant",
+"C": "Un lac de haute montagne",
+"D": "Une grotte inondée naturelle"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0042",
+"difficulty": "easy",
+"question": "Quelle planète est entourée d'un nuage de gaz bleu-vert et tourne penchée sur son côté ?",
+"options": {
+"A": "Mars",
+"B": "Uranus",
+"C": "Mercure",
+"D": "Jupiter"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0043",
+"difficulty": "easy",
+"question": "Pourquoi fait-il jour puis nuit sur Terre toutes les 24 heures ?",
+"options": {
+"A": "Parce que le Soleil s'éteint chaque soir",
+"B": "Parce que la Lune passe devant le Soleil",
+"C": "Parce que la Terre tourne sur elle-même",
+"D": "Parce que les nuages bloquent la lumière"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0044",
+"difficulty": "easy",
+"question": "Quel engin spatial s'est posé sur la Lune pour la première fois avec des hommes à bord en 1969 ?",
+"options": {
+"A": "Le module Vostok 1",
+"B": "La capsule Soyouz",
+"C": "La sonde Voyager",
+"D": "Le module lunaire d'Apollo 11"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0045",
+"difficulty": "easy",
+"question": "Comment appelle-t-on un gros bloc de roche qui tourne autour du Soleil, surtout entre Mars et Jupiter ?",
+"options": {
+"A": "Un astéroïde",
+"B": "Une comète",
+"C": "Une nébuleuse",
+"D": "Une supernova"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0046",
+"difficulty": "easy",
+"question": "Quel phénomène lumineux colore le ciel polaire de vert et de violet lors d'éruptions solaires ?",
+"options": {
+"A": "Un arc-en-ciel stellaire",
+"B": "Une aurore polaire",
+"C": "Un éclair atmosphérique",
+"D": "Un reflet de banquise"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0047",
+"difficulty": "easy",
+"question": "Combien de lunes naturelles tournent autour de la planète Terre ?",
+"options": {
+"A": "Deux lunes",
+"B": "Quatre lunes",
+"C": "Une seule lune",
+"D": "Aucune lune"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0048",
+"difficulty": "easy",
+"question": "Quel son peut-on entendre se propager dans le vide absolu de l'espace ?",
+"options": {
+"A": "Un sifflement aigu continu",
+"B": "Le bruit du vent solaire",
+"C": "Le grondement des moteurs de planètes",
+"D": "Absolument aucun son (silence total)"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0049",
+"difficulty": "easy",
+"question": "Quelle célèbre famille de fusées européennes décolle depuis le centre spatial de Kourou en Guyane ?",
+"options": {
+"A": "Ariane",
+"B": "Saturn",
+"C": "Falcon",
+"D": "Soyouz"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0050",
+"difficulty": "easy",
+"question": "Comment appelle-t-on l'aspect changeant de la Lune visible depuis la Terre chaque mois ?",
+"options": {
+"A": "Les saisons lunaires",
+"B": "Les phases de la Lune",
+"C": "Les marées d'étoiles",
+"D": "Les éclipses solaires"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0051",
+"difficulty": "medium",
+"question": "De quoi sont principalement composés les magnifiques anneaux de Saturne ?",
+"options": {
+"A": "De gaz d'hélium incandescent",
+"B": "De roche dorée et de lave",
+"C": "De morceaux de glace d'eau et de poussière",
+"D": "De diamants solides microscopiques"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0052",
+"difficulty": "medium",
+"question": "Combien de temps faut-il environ à la lumière du Soleil pour atteindre la Terre ?",
+"options": {
+"A": "Une seconde",
+"B": "Une heure entière",
+"C": "Deux jours complets",
+"D": "Environ 8 minutes"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0053",
+"difficulty": "medium",
+"question": "Quel est le plus haut volcan du système solaire, situé sur la planète Mars ?",
+"options": {
+"A": "Olympus Mons",
+"B": "Le Mont Everest",
+"C": "Mauna Kea",
+"D": "Le Mont Fuji"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0054",
+"difficulty": "medium",
+"question": "Quelle planète du système solaire possède la plus courte durée de rotation sur elle-même (environ 10 heures) ?",
+"options": {
+"A": "Mercure",
+"B": "Jupiter",
+"C": "Vénus",
+"D": "Mars"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0055",
+"difficulty": "medium",
+"question": "Comment appelle-t-on les quatre plus grandes lunes de Jupiter découvertes en 1610 ?",
+"options": {
+"A": "Les lunes d'Apollon",
+"B": "Les satellites d'Einstein",
+"C": "Les lunes galiléennes",
+"D": "Les sphères de Newton"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0056",
+"difficulty": "medium",
+"question": "Quelle particularité étonnante possède la planète Vénus dans sa rotation ?",
+"options": {
+"A": "Elle tourne deux fois plus vite que toutes les autres",
+"B": "Elle ne tourne jamais sur elle-même",
+"C": "Elle s'arrête de tourner tous les dix ans",
+"D": "Elle tourne sur elle-même dans le sens inverse de la plupart des planètes"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0057",
+"difficulty": "medium",
+"question": "Quelle lune de Saturne possède une atmosphère dense et des lacs de méthane liquide ?",
+"options": {
+"A": "Titan",
+"B": "Europe",
+"C": "Phobos",
+"D": "Triton"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0058",
+"difficulty": "medium",
+"question": "Combien d'astronautes au total ont posé le pied sur la Lune entre 1969 et 1972 ?",
+"options": {
+"A": "6 astronautes",
+"B": "12 astronautes",
+"C": "24 astronautes",
+"D": "3 astronautes"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0059",
+"difficulty": "medium",
+"question": "Qu'est-ce que la « Grande Tache Rouge » observée sur Jupiter ?",
+"options": {
+"A": "Un océan de lave liquide",
+"B": "Un gigantesque cratère d'impact",
+"C": "Une tempête géante active depuis des siècles",
+"D": "Une montagne couverte de rouille"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0060",
+"difficulty": "medium",
+"question": "Quelle sonde spatiale a survolé et photographié Pluton de près pour la première fois en 2015 ?",
+"options": {
+"A": "Curiosity",
+"B": "Voyager 1",
+"C": "Cassini",
+"D": "New Horizons"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0061",
+"difficulty": "medium",
+"question": "Pourquoi la planète Mars apparaît-elle de couleur rougeâtre ?",
+"options": {
+"A": "Son sol est riche en oxyde de fer (de la rouille)",
+"B": "Des volcans de feu y coulent sans interruption",
+"C": "Son atmosphère est composée d'hélium rouge",
+"D": "Elle reflète directement le cœur chaud du Soleil"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0062",
+"difficulty": "medium",
+"question": "Combien de temps met la Station spatiale internationale pour faire un tour complet de la Terre ?",
+"options": {
+"A": "24 heures",
+"B": "Environ 90 minutes",
+"C": "12 heures",
+"D": "48 heures"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0063",
+"difficulty": "medium",
+"question": "Quelle est l'étoile la plus brillante du ciel nocturne visible depuis la Terre ?",
+"options": {
+"A": "L'Étoile polaire",
+"B": "Véga",
+"C": "Sirius",
+"D": "Aldébaran"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0064",
+"difficulty": "medium",
+"question": "Quel petit hélicoptère de la NASA a réussi à voler dans l'atmosphère fine de Mars en 2021 ?",
+"options": {
+"A": "Perseverance",
+"B": "Sojourner",
+"C": "Opportunity",
+"D": "Ingenuity"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0065",
+"difficulty": "medium",
+"question": "Quelle lune de Jupiter cache un immense océan d'eau liquide sous une épaisse croûte de glace ?",
+"options": {
+"A": "Europe",
+"B": "Io",
+"C": "Callisto",
+"D": "Déimos"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0066",
+"difficulty": "medium",
+"question": "Comment appelle-t-on la ceinture d'astéroïdes située au-delà de l'orbite de Neptune ?",
+"options": {
+"A": "L'anneau d'Orion",
+"B": "La ceinture de Kuiper",
+"C": "Le cercle polaire",
+"D": "La zone d'Andromède"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0067",
+"difficulty": "medium",
+"question": "Quelle sonde européenne s'est posée avec son robot Philae sur une comète en 2014 ?",
+"options": {
+"A": "Voyager 2",
+"B": "Galileo",
+"C": "Rosetta",
+"D": "Hayabusa"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0068",
+"difficulty": "medium",
+"question": "Quelle est la galaxie spirale géante la plus proche de notre Voie lactée ?",
+"options": {
+"A": "Le Sombrero",
+"B": "Le Tourbillon",
+"C": "Le Triangle",
+"D": "La Galaxie d'Andromède"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0069",
+"difficulty": "medium",
+"question": "Quel grand télescope spatial lancé en 1990 a révolutionné notre vision de l'Univers grâce à ses photos ?",
+"options": {
+"A": "Hubble",
+"B": "Kepler",
+"C": "Spitzer",
+"D": "Herschel"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0070",
+"difficulty": "medium",
+"question": "Pourquoi la Lune présente-t-elle toujours la même face visible depuis la Terre ?",
+"options": {
+"A": "Elle ne tourne pas du tout sur elle-même",
+"B": "Elle tourne sur elle-même au même rythme qu'elle tourne autour de la Terre",
+"C": "La gravité du Soleil bloque son mouvement arrière",
+"D": "Sa face cachée est plus lourde et reste en arrière"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0071",
+"difficulty": "medium",
+"question": "Quelle est la planète la plus froide du système solaire avec des températures descendant sous -220 °C ?",
+"options": {
+"A": "Mars",
+"B": "Jupiter",
+"C": "Uranus",
+"D": "Mercure"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0072",
+"difficulty": "medium",
+"question": "Quel type de combustible principal fait briller le Soleil par réaction nucléaire ?",
+"options": {
+"A": "L'oxygène pur",
+"B": "Le charbon stellaire",
+"C": "Le pétrole gazeux",
+"D": "L'hydrogène transformé en hélium"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0073",
+"difficulty": "medium",
+"question": "Quelle lune de Jupiter est le corps céleste le plus volcanique et actif du système solaire ?",
+"options": {
+"A": "Io",
+"B": "Ganymède",
+"C": "Titan",
+"D": "Encelade"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0074",
+"difficulty": "medium",
+"question": "Quelles sont les deux petites lunes de forme irrégulière qui tournent autour de Mars ?",
+"options": {
+"A": "Io et Europe",
+"B": "Phobos et Déimos",
+"C": "Titan et Rhéa",
+"D": "Cérès et Vesta"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0075",
+"difficulty": "medium",
+"question": "Quelle planète est surnommée l'« étoile du Berger » parce qu'elle brille intensément à l'aube ou au crépuscule ?",
+"options": {
+"A": "Mars",
+"B": "Jupiter",
+"C": "Vénus",
+"D": "Mercure"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0076",
+"difficulty": "medium",
+"question": "Combien de temps dure environ le voyage aller pour envoyer une sonde spatiale vers Mars ?",
+"options": {
+"A": "3 jours",
+"B": "3 semaines",
+"C": "2 ans",
+"D": "Entre 6 et 9 mois"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0077",
+"difficulty": "medium",
+"question": "Quelle sonde spatiale lancée en 1977 est l'objet fabriqué par l'humain le plus éloigné de la Terre ?",
+"options": {
+"A": "Voyager 1",
+"B": "Pioneer 10",
+"C": "New Horizons",
+"D": "Cassini"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0078",
+"difficulty": "medium",
+"question": "Quelle est la plus grande lune de tout le système solaire, plus grande même que la planète Mercure ?",
+"options": {
+"A": "La Lune",
+"B": "Ganymède",
+"C": "Titan",
+"D": "Callisto"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0079",
+"difficulty": "medium",
+"question": "Comment appelle-t-on le reste d'un bloc rocheux de l'espace qui a survécu à sa traversée et touché le sol terrestre ?",
+"options": {
+"A": "Un météore",
+"B": "Un bolide",
+"C": "Une météorite",
+"D": "Une comète"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0080",
+"difficulty": "medium",
+"question": "Quelle force exercée par la Lune et le Soleil provoque la montée et la descente des océans sur Terre ?",
+"options": {
+"A": "La force centrifuge",
+"B": "Le vent solaire",
+"C": "La pression d'air",
+"D": "L'attraction gravitationnelle (les marées)"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0081",
+"difficulty": "medium",
+"question": "Dans quelle région de l'espace trouve-t-on la planète naine Cérès ?",
+"options": {
+"A": "Dans la ceinture principale d'astéroïdes entre Mars et Jupiter",
+"B": "Au cœur du nuage d'Oort",
+"C": "En orbite autour de Saturne",
+"D": "Entre Mercure et Vénus"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0082",
+"difficulty": "medium",
+"question": "Quelle femme a été la toute première astronaute envoyée dans l'espace en 1963 ?",
+"options": {
+"A": "Sally Ride",
+"B": "Valentina Terechkova",
+"C": "Claudie Haigneré",
+"D": "Mae Jemison"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0083",
+"difficulty": "medium",
+"question": "Quelle est la principale caractéristique d'un trou noir dans l'espace ?",
+"options": {
+"A": "Il est rempli d'antimatière brillante",
+"B": "Il repousse tous les objets qui l'approchent",
+"C": "Sa gravité est si forte que même la lumière ne peut s'en échapper",
+"D": "Il projette continuellement des morceaux de planètes"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0084",
+"difficulty": "medium",
+"question": "Quel télescope spatial ultra-puissant lancé à la fin de 2021 possède un miroir doré géant ?",
+"options": {
+"A": "Hubble",
+"B": "Spitzer",
+"C": "Gaia",
+"D": "James Webb"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0085",
+"difficulty": "medium",
+"question": "Quelle planète possède des vents ultra-rapides soufflant à plus de 2 000 km/h, les plus violents du système solaire ?",
+"options": {
+"A": "Neptune",
+"B": "Mars",
+"C": "Vénus",
+"D": "Terre"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0086",
+"difficulty": "medium",
+"question": "Comment appelle-t-on le nuage géant de gaz et de poussière où naissent de nouvelles étoiles ?",
+"options": {
+"A": "Un pulsar",
+"B": "Une nébuleuse",
+"C": "Une comète",
+"D": "Une exoplanète"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0087",
+"difficulty": "medium",
+"question": "Combien de temps dure le cycle complet des phases de la Lune (d'une nouvelle lune à la suivante) ?",
+"options": {
+"A": "7 jours",
+"B": "14 jours",
+"C": "Environ 29 jours et demi",
+"D": "365 jours"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0088",
+"difficulty": "medium",
+"question": "Quel nom donne-t-on à une planète qui tourne autour d'une autre étoile que notre Soleil ?",
+"options": {
+"A": "Une proto-planète",
+"B": "Une lune errante",
+"C": "Une planète naine",
+"D": "Une exoplanète"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0089",
+"difficulty": "medium",
+"question": "Sur quelle planète le Soleil se lève-t-il à l'ouest et se couche-t-il à l'est ?",
+"options": {
+"A": "Vénus",
+"B": "Mars",
+"C": "Jupiter",
+"D": "Mercure"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0090",
+"difficulty": "medium",
+"question": "Pourquoi les combinaisons spatiales des astronautes sont-elles généralement de couleur blanche pour les sorties ?",
+"options": {
+"A": "Pour être visibles sous l'eau",
+"B": "Pour réfléchir le rayonnement et la chaleur du Soleil",
+"C": "Parce que le tissu blanc pèse moins lourd",
+"D": "Pour effrayer la poussière d'étoile"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0091",
+"difficulty": "medium",
+"question": "Quelle petite lune glacée de Saturne crache des geysers d'eau salée dans l'espace ?",
+"options": {
+"A": "Titan",
+"B": "Mimas",
+"C": "Encelade",
+"D": "Phobos"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0092",
+"difficulty": "medium",
+"question": "À quelle vitesse la lumière se déplace-t-elle dans le vide de l'espace ?",
+"options": {
+"A": "1 000 km/h",
+"B": "100 000 km/s",
+"C": "10 000 km/h",
+"D": "Environ 300 000 km/s"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0093",
+"difficulty": "medium",
+"question": "Dans quelle constellation reconnaissable trouve-t-on un alignement parfait de trois étoiles appelé « la ceinture » ?",
+"options": {
+"A": "Orion",
+"B": "Le Lion",
+"C": "La Grande Ourse",
+"D": "Le Taureau"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0094",
+"difficulty": "medium",
+"question": "Combien de personnes au maximum peuvent vivre en même temps à bord de la Station spatiale internationale lors des rotations normales ?",
+"options": {
+"A": "2 personnes",
+"B": "Entre 6 et 11 personnes",
+"C": "Plus de 50 personnes",
+"D": "Exactement 25 personnes"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0095",
+"difficulty": "medium",
+"question": "Quelle planète possède une densité moyenne si faible qu'elle flotterait sur l'eau si un océan était assez grand ?",
+"options": {
+"A": "Neptune",
+"B": "Uranus",
+"C": "Saturne",
+"D": "Jupiter"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0096",
+"difficulty": "medium",
+"question": "Quel programme spatial américain a pour objectif de ramener des humains sur la Lune dans les années 2020 ?",
+"options": {
+"A": "Apollo",
+"B": "Gemini",
+"C": "Mercury",
+"D": "Artemis"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0097",
+"difficulty": "medium",
+"question": "Comment appelle-t-on l'explosion spectaculaire marquant la fin de vie d'une étoile très massive ?",
+"options": {
+"A": "Une supernova",
+"B": "Une aurore boréale",
+"C": "Une comète solaire",
+"D": "Une éclipse lunaire"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0098",
+"difficulty": "medium",
+"question": "Quelle sonde spatiale a exploré Saturne et son système d'anneaux pendant 13 ans avant de plonger dans son atmosphère en 2017 ?",
+"options": {
+"A": "Pioneer 11",
+"B": "Cassini",
+"C": "Curiosity",
+"D": "Juno"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0099",
+"difficulty": "medium",
+"question": "Pourquoi fait-il plus chaud en été qu'en hiver sur la Terre ?",
+"options": {
+"A": "La Terre se rapproche très fortement du Soleil",
+"B": "Le Soleil brûle plus de combustible pendant l'été",
+"C": "L'axe de rotation de la Terre est incliné par rapport au Soleil",
+"D": "La Lune bloque l'air froid de l'espace en été"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0100",
+"difficulty": "medium",
+"question": "Combien de temps s'est écoulé entre le premier vol spatial habité de Youri Gagarine et le premier pas sur la Lune ?",
+"options": {
+"A": "2 ans",
+"B": "25 ans",
+"C": "40 ans",
+"D": "8 ans (1961 à 1969)"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0101",
+"difficulty": "medium",
+"question": "Quel composant chimique donne sa belle couleur bleue azur à la planète Neptune ?",
+"options": {
+"A": "Le méthane dans son atmosphère",
+"B": "Un gigantesque océan d'eau salée",
+"C": "Des nuages d'azote pur et d'argent",
+"D": "De la glace teintée de cobalt"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0102",
+"difficulty": "medium",
+"question": "Quelle comète célèbre redevient visible depuis la Terre à l'œil nu environ tous les 76 ans ?",
+"options": {
+"A": "La comète de Encke",
+"B": "La comète de Halley",
+"C": "La comète Hale-Bopp",
+"D": "La comète Neowise"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0103",
+"difficulty": "medium",
+"question": "Quelle planète rocheuse présente les plus grands écarts de température entre son côté jour (430 °C) et son côté nuit (-180 °C) ?",
+"options": {
+"A": "Mars",
+"B": "Vénus",
+"C": "Mercure",
+"D": "La Terre"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0104",
+"difficulty": "medium",
+"question": "Quelle sonde spatiale tourne actuellement autour de Jupiter pour analyser son intérieur et ses aurores géantes ?",
+"options": {
+"A": "Voyager 2",
+"B": "New Horizons",
+"C": "Galileo",
+"D": "Juno"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0105",
+"difficulty": "medium",
+"question": "Quelle étoile indique précisément la direction du pôle Nord céleste dans l'hémisphère nord ?",
+"options": {
+"A": "L'Étoile polaire",
+"B": "Bételgeuse",
+"C": "Rigel",
+"D": "Sirius"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0106",
+"difficulty": "medium",
+"question": "Quelle planète possède un gigantesque canyon nommé Valles Marineris, long de plus de 4 000 kilomètres ?",
+"options": {
+"A": "Mercure",
+"B": "Mars",
+"C": "Vénus",
+"D": "Jupiter"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0107",
+"difficulty": "medium",
+"question": "Comment appelle-t-on le disque d'or emporté par les sondes Voyager 1 et 2 pour d'éventuels extraterrestres ?",
+"options": {
+"A": "La Carte Céleste",
+"B": "Le Message d'Arecibo",
+"C": "Le Golden Record",
+"D": "Le Disque Pioneer"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0108",
+"difficulty": "medium",
+"question": "Combien de lunes officielles possède la planète Vénus ?",
+"options": {
+"A": "1 lune",
+"B": "2 lunes",
+"C": "4 lunes",
+"D": "0 lune (aucune)"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0109",
+"difficulty": "medium",
+"question": "Pourquoi les astronautes de la Station spatiale doivent-ils faire au moins 2 heures de sport par jour ?",
+"options": {
+"A": "Pour éviter de perdre de la masse musculaire et osseuse en impesanteur",
+"B": "Pour produire de l'électricité avec des pédaliers",
+"C": "Pour se réchauffer dans la station spatiale",
+"D": "Pour maintenir leur équilibre d'orientation"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0110",
+"difficulty": "medium",
+"question": "Quelle planète tourne presque complètement couchée sur son plan orbital avec une inclinaison de 98 degrés ?",
+"options": {
+"A": "Saturne",
+"B": "Uranus",
+"C": "Mars",
+"D": "Jupiter"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0111",
+"difficulty": "medium",
+"question": "À quelle distance moyenne de la Terre se trouve la Lune ?",
+"options": {
+"A": "Environ 10 000 km",
+"B": "Environ 100 000 km",
+"C": "Environ 384 000 km",
+"D": "Environ 1 500 000 km"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0112",
+"difficulty": "medium",
+"question": "Quelle particule élémentaire composant la lumière est émise par le cœur du Soleil ?",
+"options": {
+"A": "L'électron",
+"B": "Le neutron",
+"C": "Le proton",
+"D": "Le photon"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0113",
+"difficulty": "medium",
+"question": "Quelle est la principale raison pour laquelle on envoie des télescopes dans l'espace plutôt que de les laisser au sol ?",
+"options": {
+"A": "Pour échapper aux perturbations et au brouillard de l'atmosphère terrestre",
+"B": "Pour être beaucoup plus proches des étoiles lointaines",
+"C": "Parce qu'ils pèsent moins lourd dans l'espace",
+"D": "Pour éviter qu'ils ne soient volés"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0114",
+"difficulty": "medium",
+"question": "Quelle couleur ont généralement les étoiles les plus chaudes de l'Univers ?",
+"options": {
+"A": "Rouge",
+"B": "Bleue",
+"C": "Jaune",
+"D": "Verte"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0115",
+"difficulty": "medium",
+"question": "Comment appelle-t-on la couche de gaz protectrice qui entoure la Terre et bloque les rayons ultraviolets dangereux ?",
+"options": {
+"A": "La ceinture de Van Allen",
+"B": "La magnétosphère",
+"C": "La couche d'ozone",
+"D": "L'ionosphère"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0116",
+"difficulty": "medium",
+"question": "Quel rover de la NASA s'est posé sur Mars en 2021 pour chercher des traces de vie microbienne passée dans le cratère Jezero ?",
+"options": {
+"A": "Spirit",
+"B": "Opportunity",
+"C": "Curiosity",
+"D": "Perseverance"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0117",
+"difficulty": "medium",
+"question": "Quelle forme a la plupart des orbites suivies par les planètes autour du Soleil ?",
+"options": {
+"A": "Une ellipse (un cercle légèrement étiré)",
+"B": "Un cercle parfaitement géométrique",
+"C": "Une ligne droite en zigzag",
+"D": "Une spirale continue vers le Soleil"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0118",
+"difficulty": "medium",
+"question": "Quelle est l'étoile supergéante rouge située sur l'épaule de la constellation d'Orion ?",
+"options": {
+"A": "Rigel",
+"B": "Bételgeuse",
+"C": "Aldébaran",
+"D": "Proxima"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0119",
+"difficulty": "medium",
+"question": "Combien de temps met la sonde Voyager 1 pour qu'un signal radio voyage entre elle et la Terre ?",
+"options": {
+"A": "Quelques secondes",
+"B": "30 minutes",
+"C": "Plus de 22 heures",
+"D": "Une semaine entière"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0120",
+"difficulty": "medium",
+"question": "Quelle planète rocheuse a une atmosphère composée à plus de 95% de dioxyde de carbone avec une pression écrasante ?",
+"options": {
+"A": "Mercure",
+"B": "Mars",
+"C": "La Terre",
+"D": "Vénus"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0121",
+"difficulty": "medium",
+"question": "Quelle partie d'une fusée moderne est souvent récupérée et réutilisée après avoir atterri verticalement sur Terre ?",
+"options": {
+"A": "Le premier étage de propulsion",
+"B": "La coiffe de protection supérieure",
+"C": "Le réservoir de secours final",
+"D": "Les tuyères du dernier étage"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0122",
+"difficulty": "medium",
+"question": "Combien de planètes telluriques (rocheuses) compte notre système solaire ?",
+"options": {
+"A": "2 planètes",
+"B": "4 planètes (Mercure, Vénus, Terre, Mars)",
+"C": "6 planètes",
+"D": "8 planètes"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0123",
+"difficulty": "medium",
+"question": "Quelle est l'unité de mesure astronomique équivalente à la distance moyenne entre la Terre et le Soleil (environ 150 millions de km) ?",
+"options": {
+"A": "L'Année-lumière",
+"B": "Le Parsec",
+"C": "L'Unité Astronomique (UA)",
+"D": "Le Kiloparsec"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0124",
+"difficulty": "medium",
+"question": "Quel type de galaxie est notre Voie lactée d'après sa forme ?",
+"options": {
+"A": "Une galaxie elliptique",
+"B": "Une galaxie irrégulière",
+"C": "Une galaxie lenticulaire",
+"D": "Une galaxie spirale barrée"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0125",
+"difficulty": "medium",
+"question": "Quel phénomène se produit lorsque la Terre passe exactement entre le Soleil et la Lune, projetant son ombre sur la Lune ?",
+"options": {
+"A": "Une éclipse de Lune",
+"B": "Une éclipse de Soleil",
+"C": "Une pluie de météorites",
+"D": "Une marée noire spatiale"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0126",
+"difficulty": "hard",
+"question": "Quelle est l'étoile la plus proche de notre système solaire, située à environ 4,24 années-lumière ?",
+"options": {
+"A": "Sirius A",
+"B": "Proxima du Centaure",
+"C": "Barnard",
+"D": "Véga"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0127",
+"difficulty": "hard",
+"question": "À quel endroit précis de l'espace le télescope James Webb est-il positionné en orbite stable ?",
+"options": {
+"A": "En orbite basse autour de la Terre",
+"B": "Sur la surface de la Lune",
+"C": "Au point de Lagrange L2",
+"D": "En orbite autour de Mars"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0128",
+"difficulty": "hard",
+"question": "Quelle est la vitesse minimale nécessaire pour qu'un engin quitte l'attraction de la Terre (vitesse de libération) ?",
+"options": {
+"A": "Environ 3 km/s",
+"B": "Environ 7,9 km/s",
+"C": "Environ 25 km/s",
+"D": "Environ 11,2 km/s"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0129",
+"difficulty": "hard",
+"question": "Comment s'appelle le trou noir supermassif niché au centre de notre galaxie la Voie lactée ?",
+"options": {
+"A": "Sagittarius A*",
+"B": "Cygnus X-1",
+"C": "M87*",
+"D": "Centaurus A"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0130",
+"difficulty": "hard",
+"question": "Quelle lune de Neptune tourne autour de sa planète dans le sens inverse de sa rotation (orbite rétrograde) ?",
+"options": {
+"A": "Néréide",
+"B": "Triton",
+"C": "Protée",
+"D": "Larissa"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0131",
+"difficulty": "hard",
+"question": "Combien de temps dure le cycle d'activité magnétique du Soleil entre deux minima ou maxima ?",
+"options": {
+"A": "5 ans",
+"B": "22 mois",
+"C": "Environ 11 ans",
+"D": "50 ans"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0132",
+"difficulty": "hard",
+"question": "Quelle mission de la NASA a réussi à dévier la trajectoire d'un astéroïde (Dimorphos) en s'écrasant dessus en 2022 ?",
+"options": {
+"A": "OSIRIS-REx",
+"B": "Lucy",
+"C": "Psyche",
+"D": "DART"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0133",
+"difficulty": "hard",
+"question": "Quel matériau recouvre les miroirs hexagonaux en béryllium du télescope spatial James Webb pour réfléchir l'infrarouge ?",
+"options": {
+"A": "Une fine couche d'or pur",
+"B": "De l'argent massif poli",
+"C": "Du diamant synthétique",
+"D": "Du platine liquide"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0134",
+"difficulty": "hard",
+"question": "Quelle est la limite invisible autour d'un trou noir d'où rien ne peut revenir une fois franchie ?",
+"options": {
+"A": "La photosphère",
+"B": "L'horizon des événements",
+"C": "La sphère de Debye",
+"D": "Le disque d'accrétion"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0135",
+"difficulty": "hard",
+"question": "Quelle planète naine en forme de ballon de rugby tourne sur elle-même en moins de 4 heures ?",
+"options": {
+"A": "Éris",
+"B": "Makémaké",
+"C": "Hauméa",
+"D": "Sedna"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0136",
+"difficulty": "hard",
+"question": "Quel était le nom de la chienne envoyée en orbite dans l'espace à bord de Spoutnik 2 en 1957 ?",
+"options": {
+"A": "Belka",
+"B": "Strelka",
+"C": "Mouchka",
+"D": "Laïka"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0137",
+"difficulty": "hard",
+"question": "Comment appelle-t-on une étoile à neutrons qui tourne très vite sur elle-même en émettant des impulsions radio régulières ?",
+"options": {
+"A": "Un pulsar",
+"B": "Un quasar",
+"C": "Une naine blanche",
+"D": "Un magnétar"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0138",
+"difficulty": "hard",
+"question": "Quelle est la sonde spatiale qui a collecté des échantillons de l'astéroïde Bennu pour les rapporter sur Terre en 2023 ?",
+"options": {
+"A": "Hayabusa 2",
+"B": "OSIRIS-REx",
+"C": "Stardust",
+"D": "Dawn"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0139",
+"difficulty": "hard",
+"question": "Dans quelle région théorique très lointaine se trouvent des milliards de comètes entourant tout le système solaire ?",
+"options": {
+"A": "La ceinture d'astéroïdes",
+"B": "L'anneau de Gould",
+"C": "Le nuage d'Oort",
+"D": "Le bras d'Orion"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0140",
+"difficulty": "hard",
+"question": "Quel cosmonaute soviétique a réalisé la toute première sortie extravéhiculaire dans l'espace en 1965 ?",
+"options": {
+"A": "Youri Gagarine",
+"B": "Guerman Titov",
+"C": "Valeri Polyakov",
+"D": "Alexeï Leonov"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0141",
+"difficulty": "hard",
+"question": "Quel type d'étoile notre Soleil deviendra-t-il dans environ 5 milliards d'années avant de s'éteindre doucement ?",
+"options": {
+"A": "Une géante rouge puis une naine blanche",
+"B": "Un trou noir supermassif",
+"C": "Une étoile à neutrons pulsante",
+"D": "Une supernova bleue explosive"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0142",
+"difficulty": "hard",
+"question": "Quelle planète naine découverte en 2005 a provoqué le débat qui a conduit à redéfinir le statut de Pluton ?",
+"options": {
+"A": "Cérès",
+"B": "Éris",
+"C": "Varuna",
+"D": "Ixion"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0143",
+"difficulty": "hard",
+"question": "Quelle est la principale source d'énergie qui maintient l'intérieur de la lune Io en fusion permanente ?",
+"options": {
+"A": "Le rayonnement du Soleil",
+"B": "La radioactivité de son noyau de fer",
+"C": "Les forces de marée gravitationnelles exercées par Jupiter",
+"D": "Les impacts réguliers de météores"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0144",
+"difficulty": "hard",
+"question": "Quel scientifique polonais a démontré en 1543 que la Terre et les planètes tournent autour du Soleil (héliocentrisme) ?",
+"options": {
+"A": "Galilée",
+"B": "Johannes Kepler",
+"C": "Isaac Newton",
+"D": "Nicolas Copernic"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0145",
+"difficulty": "hard",
+"question": "Quel nom porte la frontière marquant la limite où le vent solaire s'arrête face au milieu interstellaire ?",
+"options": {
+"A": "L'héliopause",
+"B": "La magnétopause",
+"C": "La stratopause",
+"D": "La mésopause"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0146",
+"difficulty": "hard",
+"question": "Quel célèbre astronome italien a utilisé sa lunette en 1610 pour découvrir des cratères sur la Lune et les phases de Vénus ?",
+"options": {
+"A": "Giordano Bruno",
+"B": "Galilée (Galileo Galilei)",
+"C": "Tycho Brahe",
+"D": "Giovanni Cassini"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0147",
+"difficulty": "hard",
+"question": "Combien de temps met le signal de commande envoyé depuis la Terre pour atteindre un rover sur Mars au plus loin ?",
+"options": {
+"A": "1 seconde",
+"B": "5 minutes",
+"C": "Environ 20 minutes",
+"D": "3 heures"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0148",
+"difficulty": "hard",
+"question": "Quelle est la distance représentée par une année-lumière en kilomètres ?",
+"options": {
+"A": "Environ 150 millions de km",
+"B": "Environ 1 milliard de km",
+"C": "Environ 500 milliards de km",
+"D": "Environ 9 460 milliards de km"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0149",
+"difficulty": "hard",
+"question": "Quelle sonde spatiale a été la première à réussir à se poser en douceur sur la surface de Vénus en 1970 ?",
+"options": {
+"A": "Venera 7",
+"B": "Mariner 2",
+"C": "Pioneer Venus",
+"D": "Magellan"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0150",
+"difficulty": "hard",
+"question": "Quel nom porte la zone autour d'une étoile où la température permet à l'eau de rester liquide à la surface d'une planète ?",
+"options": {
+"A": "La ceinture de radiation",
+"B": "La zone habitable",
+"C": "Le couloir thermique",
+"D": "L'orbite synchrone"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0151",
+"difficulty": "hard",
+"question": "Quel gaz compose à plus de 90% l'atmosphère de Titan, la plus grande lune de Saturne ?",
+"options": {
+"A": "Le dioxyde de carbone",
+"B": "L'oxygène",
+"C": "L'azote",
+"D": "L'hélium"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0152",
+"difficulty": "hard",
+"question": "Quelle fusée géante de 111 mètres de haut a propulsé les missions Apollo vers la Lune entre 1968 et 1972 ?",
+"options": {
+"A": "Atlas V",
+"B": "Titan II",
+"C": "Delta IV",
+"D": "Saturn V"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0153",
+"difficulty": "hard",
+"question": "Quel télescope spatial de l'ESA lancé en 2013 a pour mission de cartographier plus d'un milliard d'étoiles en 3D ?",
+"options": {
+"A": "Gaia",
+"B": "Planck",
+"C": "Hipparcos",
+"D": "Euclid"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0154",
+"difficulty": "hard",
+"question": "Quel astronome allemand a énoncé les trois lois fondamentales régissant les mouvements des planètes au XVIIe siècle ?",
+"options": {
+"A": "Edmond Halley",
+"B": "Johannes Kepler",
+"C": "Christiaan Huygens",
+"D": "William Herschel"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0155",
+"difficulty": "hard",
+"question": "Quelle est l'étoile la plus brillante de la constellation boréale de la Lyre ?",
+"options": {
+"A": "Deneb",
+"B": "Altaïr",
+"C": "Véga",
+"D": "Capella"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0156",
+"difficulty": "hard",
+"question": "Quel nom donne-t-on au gaz électrisé ultra-chaud qui constitue le quatrième état de la matière dans les étoiles ?",
+"options": {
+"A": "Le condensat",
+"B": "Le fluide parfait",
+"C": "Le vapeur libre",
+"D": "Le plasma"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0157",
+"difficulty": "hard",
+"question": "Quelle sonde spatiale a été la première à entrer en orbite autour de Mercure en 2011 ?",
+"options": {
+"A": "MESSENGER",
+"B": "Mariner 10",
+"C": "BepiColombo",
+"D": "Dawn"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0158",
+"difficulty": "hard",
+"question": "Quelle sonde lancée en 2018 s'approche au plus près de la surface du Soleil en traversant sa couronne ?",
+"options": {
+"A": "Solar Orbiter",
+"B": "Parker Solar Probe",
+"C": "SOHO",
+"D": "Stereo"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0159",
+"difficulty": "hard",
+"question": "Quelle est la principale composition des nuages d'altitude qui recouvrent la planète Vénus ?",
+"options": {
+"A": "De minuscules cristaux de glace d'eau",
+"B": "Du méthane liquide",
+"C": "Des gouttelettes d'acide sulfurique",
+"D": "Des particules de soufre solide"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0160",
+"difficulty": "hard",
+"question": "Quel astronome a découvert la planète Uranus en 1781 à l'aide d'un télescope de sa fabrication ?",
+"options": {
+"A": "Galilée",
+"B": "Urbain Le Verrier",
+"C": "Percival Lowell",
+"D": "William Herschel"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0161",
+"difficulty": "hard",
+"question": "Quelle lune de Pluton est si massive par rapport à elle que les deux corps orbitent autour d'un centre commun extérieur ?",
+"options": {
+"A": "Charon",
+"B": "Nix",
+"C": "Hydre",
+"D": "Kerbéros"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0162",
+"difficulty": "hard",
+"question": "Quel terme désigne le rayonnement fossile émis environ 380 000 ans après le Big Bang, présent partout dans l'Univers ?",
+"options": {
+"A": "Le vent stellaire rémanent",
+"B": "Le fond diffus cosmologique",
+"C": "L'effet Doppler thermique",
+"D": "Le rayonnement Hawking"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0163",
+"difficulty": "hard",
+"question": "Quelle mission spatiale conjointe ESA-JAXA voyage actuellement vers Mercure pour y arriver dans les années 2020 ?",
+"options": {
+"A": "MESSENGER",
+"B": "Hayabusa",
+"C": "BepiColombo",
+"D": "JUICE"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0164",
+"difficulty": "hard",
+"question": "Combien de temps faut-il environ à notre système solaire pour faire un tour complet du centre de la Voie lactée (année galactique) ?",
+"options": {
+"A": "1 million d'années",
+"B": "10 millions d'années",
+"C": "50 millions d'années",
+"D": "Environ 230 millions d'années"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0165",
+"difficulty": "hard",
+"question": "Quelle méthode est la plus couramment utilisée par les télescopes spatiaux comme Kepler pour détecter des exoplanètes ?",
+"options": {
+"A": "La méthode des transits (baisse de luminosité de l'étoile)",
+"B": "La photographie optique directe au flash",
+"C": "L'écoute radar des ondes radio de la planète",
+"D": "L'analyse des marées stellaires"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0166",
+"difficulty": "hard",
+"question": "Quel nom porte la sonde de l'ESA lancée en 2023 pour explorer les lunes glacées de Jupiter (Ganymède, Callisto, Europe) ?",
+"options": {
+"A": "Europa Clipper",
+"B": "JUICE",
+"C": "Galileo 2",
+"D": "Cassini Junior"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0167",
+"difficulty": "hard",
+"question": "Quelle planète a été découverte en 1846 grâce aux calculs mathématiques d'Urbain Le Verrier avant d'être vue au télescope ?",
+"options": {
+"A": "Uranus",
+"B": "Pluton",
+"C": "Neptune",
+"D": "Mercure"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0168",
+"difficulty": "hard",
+"question": "Quel astronaute américain est resté en orbite autour de la Lune à bord du module de commande pendant qu'Armstrong et Aldrin marchaient sur la Lune ?",
+"options": {
+"A": "Pete Conrad",
+"B": "Jim Lovell",
+"C": "Alan Shepard",
+"D": "Michael Collins"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0169",
+"difficulty": "hard",
+"question": "Quel était le nom de la première femme française à voyager dans l'espace en 1996 ?",
+"options": {
+"A": "Claudie Haigneré",
+"B": "Sophie Adenot",
+"C": "Valentina Terechkova",
+"D": "Peggy Whitson"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0170",
+"difficulty": "hard",
+"question": "Quelle température minimale théorique de l'Univers équivaut au « zéro absolu » à 0 Kelvin ?",
+"options": {
+"A": "-100 °C",
+"B": "-273,15 °C",
+"C": "-459 °C",
+"D": "-1 000 °C"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0171",
+"difficulty": "hard",
+"question": "Quelle particularité unique possède l'anneau F de Saturne ?",
+"options": {
+"A": "Il est composé de blocs d'or massif",
+"B": "Il change de couleur tous les jours",
+"C": "Il est maintenu par deux petites lunes bergères (Prométhée et Pandore)",
+"D": "Il tourne dans le sens inverse de tous les autres anneaux"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0172",
+"difficulty": "hard",
+"question": "Quelle constellation de l'hémisphère sud composée de quatre étoiles principales est utilisée pour repérer le sud ?",
+"options": {
+"A": "Le Centaure",
+"B": "Le Paon",
+"C": "Le Toucan",
+"D": "La Croix du Sud"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0173",
+"difficulty": "hard",
+"question": "Quel est l'âge estimé de l'Univers depuis le Big Bang d'après les observations astronomiques les plus précises ?",
+"options": {
+"A": "Environ 13,8 milliards d'années",
+"B": "Environ 4,5 milliards d'années",
+"C": "Environ 20 milliards d'années",
+"D": "Environ 100 milliards d'années"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0174",
+"difficulty": "hard",
+"question": "Quelle est la principale différence entre une planète naine et une planète classique selon l'Union Astronomique Internationale ?",
+"options": {
+"A": "Une planète naine n'a pas de forme sphérique",
+"B": "Une planète naine n'a pas fait le ménage dans son orbite",
+"C": "Une planète naine ne tourne pas autour d'une étoile",
+"D": "Une planète naine ne possède jamais de satellite naturel"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0175",
+"difficulty": "hard",
+"question": "Quel nom porte la région atmosphérique externe du Soleil visible à l'œil nu seulement lors d'une éclipse totale ?",
+"options": {
+"A": "La chromosphère",
+"B": "La zone radiative",
+"C": "La couronne solaire",
+"D": "La photosphère"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0176",
+"difficulty": "hard",
+"question": "Quel module spatial européen sert de laboratoire de recherche scientifique attaché en permanence à l'ISS ?",
+"options": {
+"A": "Destiny",
+"B": "Kibo",
+"C": "Zvezda",
+"D": "Columbus"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0177",
+"difficulty": "hard",
+"question": "Quelle sonde spatiale a atterri sur Titan en 2005, devenant l'atterrissage le plus lointain de la Terre jamais réussi ?",
+"options": {
+"A": "Huygens",
+"B": "Cassini",
+"C": "Philae",
+"D": "Viking 1"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0178",
+"difficulty": "hard",
+"question": "Quel est le nom de la galaxie naine satellite de la Voie lactée visible à l'œil nu depuis l'hémisphère sud ?",
+"options": {
+"A": "La Galaxie du Triangle",
+"B": "Le Grand Nuage de Magellan",
+"C": "La Galaxie de Barnard",
+"D": "La Galaxie du Moulinet"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0179",
+"difficulty": "hard",
+"question": "Quelle molécule organique simple a été détectée dans l'atmosphère de Mars par le rover Curiosity ?",
+"options": {
+"A": "L'ozone pur",
+"B": "Le glucose",
+"C": "Le méthane",
+"D": "L'éthanol"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0180",
+"difficulty": "hard",
+"question": "Quelle est la cause principale de la limite de Chandrasekhar (environ 1,4 fois la masse du Soleil) en astrophysique ?",
+"options": {
+"A": "La vitesse maximale d'une comète",
+"B": "La taille maximale d'un astéroïde rocheux",
+"C": "La température maximale du cœur d'une planète géante",
+"D": "La masse maximale d'une naine blanche avant son effondrement en étoile à neutrons"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0181",
+"difficulty": "hard",
+"question": "Quel instrument équipant le rover Perseverance prélève et stocke des carottes de roche martienne pour un futur retour sur Terre ?",
+"options": {
+"A": "Le bras robotique avec son système de carottage scellé",
+"B": "Le laser SuperCam vaporisateur",
+"C": "Le spectromètre PIXL à rayons X",
+"D": "Le radar RIMFAX de sous-sol"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0182",
+"difficulty": "hard",
+"question": "Quel est le nom du tout premier objet interstellaire d'origine inconnue détecté traversant notre système solaire en 2017 ?",
+"options": {
+"A": "Borisov",
+"B": "'Oumuamua",
+"C": "Churyumov",
+"D": "Shoemaker-Levy 9"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0183",
+"difficulty": "hard",
+"question": "Quelle mission américaine a permis aux premiers engins spatiaux (Viking 1 et 2) de se poser et fonctionner sur Mars en 1976 ?",
+"options": {
+"A": "Le programme Mariner",
+"B": "Le programme Surveyor",
+"C": "Le programme Viking",
+"D": "Le programme Pioneer"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0184",
+"difficulty": "hard",
+"question": "Comment appelle-t-on le phénomène où la lumière d'une étoile lointaine est déviée et amplifiée par la masse d'une galaxie située devant ?",
+"options": {
+"A": "L'effet Doppler-Fizeau",
+"B": "La réfraction ionosphérique",
+"C": "Le redshift cosmologique",
+"D": "Une lentille gravitationnelle"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0185",
+"difficulty": "hard",
+"question": "Quelle est l'altitude moyenne de l'orbite de la Station spatiale internationale au-dessus de la Terre ?",
+"options": {
+"A": "Environ 400 kilomètres",
+"B": "Environ 1 000 kilomètres",
+"C": "Environ 10 000 kilomètres",
+"D": "Environ 36 000 kilomètres"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0186",
+"difficulty": "hard",
+"question": "Quel élément chimique lourd est synthétisé et dispersé dans l'Univers principalement lors de la collision d'étoiles à neutrons (kilonova) ?",
+"options": {
+"A": "L'hydrogène",
+"B": "L'or",
+"C": "Le carbone",
+"D": "L'hélium"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0187",
+"difficulty": "hard",
+"question": "Quelle planète du système solaire possède le plus grand nombre de lunes officiellement confirmées (plus de 140) ?",
+"options": {
+"A": "Jupiter",
+"B": "Uranus",
+"C": "Saturne",
+"D": "Neptune"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0188",
+"difficulty": "hard",
+"question": "Quel physicien a prédit l'existence des ondes gravitationnelles en 1916 grâce à sa théorie de la Relativité Générale ?",
+"options": {
+"A": "Isaac Newton",
+"B": "Niels Bohr",
+"C": "Max Planck",
+"D": "Albert Einstein"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0189",
+"difficulty": "hard",
+"question": "Quel nom donne-t-on au point d'une orbite où un satellite ou une planète est au plus près du Soleil ?",
+"options": {
+"A": "Le périhélie",
+"B": "L'aphélie",
+"C": "Le périgée",
+"D": "L'apogée"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0190",
+"difficulty": "hard",
+"question": "Quelle sonde de la NASA s'est mise en orbite autour de deux corps différents de la ceinture d'astéroïdes (Vesta puis Cérès) ?",
+"options": {
+"A": "Stardust",
+"B": "Dawn",
+"C": "Deep Impact",
+"D": "Near Shoemaker"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0191",
+"difficulty": "hard",
+"question": "Comment s'appelle l'effet d'étirement extrême que subirait un astronaute s'approchant trop près d'un trou noir stellaire ?",
+"options": {
+"A": "La compression radiative",
+"B": "La désintégration quantique",
+"C": "La spaghettification",
+"D": "L'implosion gravitationnelle"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0192",
+"difficulty": "hard",
+"question": "Quelle mission spatiale de 1970 a failli tourner au drame après l'explosion d'un réservoir d'oxygène mais a réussi à ramener son équipage sain et sauf ?",
+"options": {
+"A": "Apollo 1",
+"B": "Apollo 8",
+"C": "Apollo 11",
+"D": "Apollo 13"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0193",
+"difficulty": "hard",
+"question": "Quelle est la durée exacte approximative d'une journée solaire sur la planète Mars (un « sol ») ?",
+"options": {
+"A": "24 heures et 39 minutes",
+"B": "12 heures et 15 minutes",
+"C": "48 heures pile",
+"D": "243 jours terrestres"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0194",
+"difficulty": "hard",
+"question": "Quelle étoile géante bleue compose le pied droit du chasseur dans la constellation d'Orion ?",
+"options": {
+"A": "Bételgeuse",
+"B": "Rigel",
+"C": "Bellatrix",
+"D": "Saïph"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0195",
+"difficulty": "hard",
+"question": "Quelle comète a percuté de plein fouet l'atmosphère de la planète Jupiter en 1994 en laissant de sombres cicatrices visibles ?",
+"options": {
+"A": "Hale-Bopp",
+"B": "Hyakutake",
+"C": "Shoemaker-Levy 9",
+"D": "Churyumov-Gerasimenko"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0196",
+"difficulty": "hard",
+"question": "Quelle est l'altitude officielle conventionnelle marquant le début de l'espace au-dessus de la surface de la Terre (ligne de Kármán) ?",
+"options": {
+"A": "25 km",
+"B": "50 km",
+"C": "250 km",
+"D": "100 km"
+},
+"answer": "D"
+},
+{
+"id": "space-fr-0197",
+"difficulty": "hard",
+"question": "Quel type d'exoplanète géante gazeuse tourne extrêmement près de son étoile hôte avec des températures infernales ?",
+"options": {
+"A": "Un Jupiter chaud",
+"B": "Une Super-Terre",
+"C": "Une planète océan",
+"D": "Une naine brune"
+},
+"answer": "A"
+},
+{
+"id": "space-fr-0198",
+"difficulty": "hard",
+"question": "Quelle composante invisible constitue environ 85% de toute la matière présente dans l'Univers d'après les astrophysiciens ?",
+"options": {
+"A": "L'énergie solaire",
+"B": "La matière noire",
+"C": "Le plasma stellaire",
+"D": "L'antimatière"
+},
+"answer": "B"
+},
+{
+"id": "space-fr-0199",
+"difficulty": "hard",
+"question": "Quel télescope spatial à rayons X de la NASA lancé en 1999 permet d'observer les trous noirs et les restes de supernovas ?",
+"options": {
+"A": "Spitzer",
+"B": "Fermi",
+"C": "Chandra",
+"D": "Hubble"
+},
+"answer": "C"
+},
+{
+"id": "space-fr-0200",
+"difficulty": "hard",
+"question": "Quel phénomène prédit que notre Voie lactée fusionnera avec sa voisine la galaxie d'Andromède dans environ 4,5 milliards d'années ?",
+"options": {
+"A": "L'effondrement gravitationnel central",
+"B": "La dislocation thermique stellaire",
+"C": "L'explosion supergalactique",
+"D": "La collision galactique mutuelle"
+},
+"answer": "D"
+}
+]
 }

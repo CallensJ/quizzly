@@ -1,5 +1,2407 @@
+
 {
-  "category": "dinosaures",
-  "lang": "fr",
-  "questions": []
+"category": "dinosaures-prehistoire",
+"lang": "fr",
+"questions": [
+{
+"id": "dino-fr-0001",
+"difficulty": "easy",
+"question": "Quel célèbre dinosaure carnivore marchait sur deux pattes et possédait de tout petits bras ?",
+"options": {
+"A": "Le Tyrannosaure",
+"B": "Le Diplodocus",
+"C": "Le Stégosaure",
+"D": "Le Tricératops"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0002",
+"difficulty": "easy",
+"question": "De quoi se nourrissait principalement le Diplodocus ?",
+"options": {
+"A": "De poissons frais",
+"B": "De feuilles d'arbres et de plantes",
+"C": "De petits mammifères",
+"D": "D'insectes volants"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0003",
+"difficulty": "easy",
+"question": "Combien de grandes cornes le Tricératops portait-il sur sa tête ?",
+"options": {
+"A": "Une seule",
+"B": "Deux",
+"C": "Trois",
+"D": "Quatre"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0004",
+"difficulty": "easy",
+"question": "Quel animal préhistorique volant possédait de grandes ailes sans plumes ?",
+"options": {
+"A": "Le Mammouth",
+"B": "L'Ankylosaure",
+"C": "Le Smilodon",
+"D": "Le Ptérodactyle"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0005",
+"difficulty": "easy",
+"question": "Comment appelle-t-on les restes d'animaux ou de plantes transformés en pierre au fil du temps ?",
+"options": {
+"A": "Des fossiles",
+"B": "Des météorites",
+"C": "Des cristaux",
+"D": "Des volcans"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0006",
+"difficulty": "easy",
+"question": "Quel animal de l'âge de glace ressemblait à un éléphant géant recouvert d'une épaisse fourrure ?",
+"options": {
+"A": "Le Rhinocéros laineux",
+"B": "Le Mammouth",
+"C": "Le Tigre à dents de sabre",
+"D": "Le Paresseux géant"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0007",
+"difficulty": "easy",
+"question": "Comment naissaient les bébés dinosaures ?",
+"options": {
+"A": "Dans des coquillages",
+"B": "Directement vivants dans l'eau",
+"C": "En sortant d'un œuf",
+"D": "Dans des poches comme les kangourous"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0008",
+"difficulty": "easy",
+"question": "Quelle particularité physique remarquable se trouvait sur le dos du Stégosaure ?",
+"options": {
+"A": "Une grande poche d'eau",
+"B": "Une rangée de plumes colorées",
+"C": "Une énorme corne pointue",
+"D": "De grandes plaques osseuses"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0009",
+"difficulty": "easy",
+"question": "Quel métier consiste à chercher et étudier les fossiles de dinosaures ?",
+"options": {
+"A": "Paléontologue",
+"B": "Astronome",
+"C": "Météorologue",
+"D": "Botaniste"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0010",
+"difficulty": "easy",
+"question": "Quel événement géant de l'espace a provoqué la disparition des dinosaures il y a 66 millions d'années ?",
+"options": {
+"A": "Une éclipse solaire",
+"B": "L'impact d'une grande météorite",
+"C": "Une pluie d'étoiles filantes",
+"D": "Le passage d'une comète d'eau"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0011",
+"difficulty": "easy",
+"question": "Quels animaux actuels sont les descendants directs des dinosaures à plumes ?",
+"options": {
+"A": "Les lézards",
+"B": "Les tortues",
+"C": "Les oiseaux",
+"D": "Les crocodiles"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0012",
+"difficulty": "easy",
+"question": "Quel prédateur de la préhistoire est connu sous le nom de tigre à dents de sabre ?",
+"options": {
+"A": "Le Mégalodon",
+"B": "L'Australopithèque",
+"C": "Le Mastodonte",
+"D": "Le Smilodon"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0013",
+"difficulty": "easy",
+"question": "Comment appelle-t-on un dinosaure qui mange uniquement de la viande ?",
+"options": {
+"A": "Un carnivore",
+"B": "Un herbivore",
+"C": "Un frugivore",
+"D": "Un insectivore"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0014",
+"difficulty": "easy",
+"question": "Sur quelle partie de son corps l'Ankylosaure portait-il une lourde masse osseuse pour se défendre ?",
+"options": {
+"A": "Sur le museau",
+"B": "Au bout de sa queue",
+"C": "Sur ses épaules",
+"D": "Sous son ventre"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0015",
+"difficulty": "easy",
+"question": "Quel requin géant préhistorique avait des dents aussi grandes qu'une main humaine ?",
+"options": {
+"A": "Le grand requin blanc",
+"B": "Le requin-baleine",
+"C": "Le Mégalodon",
+"D": "Le requin-marteau géant"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0016",
+"difficulty": "easy",
+"question": "Que peignaient souvent les premiers humains sur les parois des grottes préhistoriques ?",
+"options": {
+"A": "Des maisons en bois",
+"B": "Des voitures à roues",
+"C": "Des bateaux à voile",
+"D": "Des animaux sauvages"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0017",
+"difficulty": "easy",
+"question": "Quel long cou permettait au Brachiosaure d'atteindre le sommet des arbres ?",
+"options": {
+"A": "Un cou très élancé vers le haut",
+"B": "Un cou télescopique qui s'étire",
+"C": "Un cou en spirale",
+"D": "Un cou pliable en accordéon"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0018",
+"difficulty": "easy",
+"question": "Quel dinosaure carnivore à voile sur le dos était capable de nager et de chasser du poisson ?",
+"options": {
+"A": "L'Allosaure",
+"B": "Le Spinosaure",
+"C": "Le Vélociraptor",
+"D": "Le Carnotaure"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0019",
+"difficulty": "easy",
+"question": "Quelle roche dure les hommes préhistoriques taillaient-ils pour fabriquer des outils tranchants ?",
+"options": {
+"A": "La craie",
+"B": "Le sable",
+"C": "Le silex",
+"D": "L'argile"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0020",
+"difficulty": "easy",
+"question": "Comment appelle-t-on la période géologique très célèbre où vivaient le Brachiosaure et le Stégosaure ?",
+"options": {
+"A": "L'ère glaciaire",
+"B": "Le Paléolithique",
+"C": "Le Moyen Âge",
+"D": "Le Jurassique"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0021",
+"difficulty": "easy",
+"question": "Quelle découverte majeure a permis aux hommes préhistoriques de s'éclairer et de cuire leurs aliments ?",
+"options": {
+"A": "Le feu",
+"B": "L'électricité",
+"C": "Le pétrole",
+"D": "Le verre"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0022",
+"difficulty": "easy",
+"question": "Quel petit dinosaure rapide et à plumes chassait souvent en meute ?",
+"options": {
+"A": "Le Diplodocus",
+"B": "Le Vélociraptor",
+"C": "Le Tricératops",
+"D": "L'Iguanodon"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0023",
+"difficulty": "easy",
+"question": "Que signifie le mot 'dinosaure' créé par les scientifiques au 19e siècle ?",
+"options": {
+"A": "Oiseau géant",
+"B": "Lézard volant",
+"C": "Terrible lézard",
+"D": "Serpent des roches"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0024",
+"difficulty": "easy",
+"question": "Dans quelle résine d'arbre fossilisée dorée retrouve-t-on parfois des insectes préhistoriques piégés ?",
+"options": {
+"A": "Le charbon",
+"B": "Le diamant",
+"C": "Le marbre",
+"D": "L'ambre"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0025",
+"difficulty": "easy",
+"question": "Quel dinosaure possédait une longue crête courbée sur la tête formant un tube creux ?",
+"options": {
+"A": "Le Parasaurolophus",
+"B": "Le T-Rex",
+"C": "L'Ankylosaure",
+"D": "Le Protocératops"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0026",
+"difficulty": "easy",
+"question": "Quel reptile marin préhistorique avait un corps effilé semblable à celui d'un dauphin moderne ?",
+"options": {
+"A": "Le Ptérosaure",
+"B": "L'Ichtyosaure",
+"C": "Le Brontosaure",
+"D": "Le Smilodon"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0027",
+"difficulty": "easy",
+"question": "Quelle matière recouvrait le corps de nombreux petits dinosaures carnivores pour tenir chaud ?",
+"options": {
+"A": "Des écailles de fer",
+"B": "De la laine épaisse",
+"C": "Des plumes ou du duvet",
+"D": "Une peau métallique"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0028",
+"difficulty": "easy",
+"question": "Quel célèbre reptile marin à très long cou ressemblait à la créature légendaire du Loch Ness ?",
+"options": {
+"A": "Le Mosasaure",
+"B": "Le Spinosaure",
+"C": "Le Carnotaure",
+"D": "Le Plésiosaure"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0029",
+"difficulty": "easy",
+"question": "Quel continent regroupe le plus grand nombre de squelettes de dinosaures découverts ?",
+"options": {
+"A": "L'Amérique du Nord",
+"B": "L'Océanie",
+"C": "L'Antarctique",
+"D": "L'Europe de l'Est"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0030",
+"difficulty": "easy",
+"question": "Quel outil délicat le paléontologue utilise-t-il pour nettoyer un fossile fragile sans le casser ?",
+"options": {
+"A": "Une tronçonneuse",
+"B": "Un pinceau fin",
+"C": "Une pelleteuse",
+"D": "Une masse en fer"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0031",
+"difficulty": "easy",
+"question": "Les humains et les dinosaures géants ont-ils vécu ensemble à la même époque ?",
+"options": {
+"A": "Oui, ils chassaient ensemble",
+"B": "Oui, ils partageaient les grottes",
+"C": "Non, des millions d'années les séparent",
+"D": "Oui, mais uniquement dans l'eau"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0032",
+"difficulty": "easy",
+"question": "Comment appelle-t-on le grand dinosaure herbivore qui ressemble au Diplodocus et dont le nom signifie 'lézard tonnerre' ?",
+"options": {
+"A": "L'Allosaure",
+"B": "Le Gallimimus",
+"C": "Le Stégosaure",
+"D": "Le Brontosaure"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0033",
+"difficulty": "easy",
+"question": "Quelle partie très solide du corps des dinosaures se conserve le plus facilement en fossile ?",
+"options": {
+"A": "Les os et les dents",
+"B": "Les yeux",
+"C": "La langue",
+"D": "Le foie et le cœur"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0034",
+"difficulty": "easy",
+"question": "Quel grand reptile volant avait une envergure d'ailes comparable à celle d'un petit avion de tourisme ?",
+"options": {
+"A": "L'Archéoptéryx",
+"B": "Le Quetzalcoatlus",
+"C": "Le Microraptor",
+"D": "Le Dimorphodon"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0035",
+"difficulty": "easy",
+"question": "Que mangeait principalement l'Iguanodon avec son bec corné et ses dents plates ?",
+"options": {
+"A": "De la viande de dinosaures",
+"B": "Des requins",
+"C": "Des végétaux et fougères",
+"D": "Des insectes aquatiques"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0036",
+"difficulty": "easy",
+"question": "Quelle forme avaient les dents d'un dinosaure carnivore comme le T-Rex ?",
+"options": {
+"A": "Rondes et plates",
+"B": "Minuscules et carrées",
+"C": "Lisses et transparentes",
+"D": "Pointues et dentelées comme des couteaux"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0037",
+"difficulty": "easy",
+"question": "Quel oiseau fossile très ancien possédait des ailes à plumes mais aussi des dents et une queue osseuse ?",
+"options": {
+"A": "L'Archéoptéryx",
+"B": "Le Dodo",
+"C": "Le Moa",
+"D": "Le Pingouin géant"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0038",
+"difficulty": "easy",
+"question": "Où trouve-t-on le plus souvent des fossiles enfouis dans la nature ?",
+"options": {
+"A": "Dans les troncs d'arbres vivants",
+"B": "Dans les roches sédimentaires",
+"C": "Dans les nuages",
+"D": "Dans la neige fraîche"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0039",
+"difficulty": "easy",
+"question": "Quel dinosaure cuirassé avait une peau recouverte de plaques dures impénétrables comme une armure ?",
+"options": {
+"A": "Le Vélociraptor",
+"B": "Le Compsognathus",
+"C": "L'Ankylosaure",
+"D": "L'Oviraptor"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0040",
+"difficulty": "easy",
+"question": "Comment vivaient les chasseurs-cueilleurs de la préhistoire pour trouver leur nourriture ?",
+"options": {
+"A": "Ils faisaient leurs courses au marché",
+"B": "Ils restaient toujours dans la même maison",
+"C": "Ils cultivaient du blé avec des tracteurs",
+"D": "Ils se déplaçaient en suivant les troupeaux"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0041",
+"difficulty": "easy",
+"question": "Quel prédateur du Jurassique était le rival principal du Stégosaure ?",
+"options": {
+"A": "L'Allosaure",
+"B": "Le T-Rex",
+"C": "Le Mosasaure",
+"D": "Le Mammouth"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0042",
+"difficulty": "easy",
+"question": "Quelle partie du squelette du Tricératops protégeait son cou contre les morsures ?",
+"options": {
+"A": "Une coquille d'escargot",
+"B": "Une large collerette osseuse",
+"C": "Un collier d'épines métalliques",
+"D": "Une crinière de poils durs"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0043",
+"difficulty": "easy",
+"question": "Comment appelle-t-on les empreintes de pas de dinosaures gravées dans la roche ?",
+"options": {
+"A": "Des peintures rupestres",
+"B": "Des météorites",
+"C": "Des pistes de pas fossilisées",
+"D": "Des galets magiques"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0044",
+"difficulty": "easy",
+"question": "Quel animal préhistorique cornu possédait une épaisse toison pour affronter les hivers glaciaires ?",
+"options": {
+"A": "Le Dinosaure d'or",
+"B": "Le Caméléon géant",
+"C": "La Girafe à cornes",
+"D": "Le Rhinocéros laineux"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0045",
+"difficulty": "easy",
+"question": "Quel était le rôle principal des longues queues des grands sauropodes comme le Diplodocus ?",
+"options": {
+"A": "Garder l'équilibre et fouetter les prédateurs",
+"B": "Creuser des trous dans la terre",
+"C": "Attraper les oiseaux en vol",
+"D": "Nager sous les cascades"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0046",
+"difficulty": "easy",
+"question": "Quelle grotte française est mondialement célèbre pour ses peintures préhistoriques de chevaux et de taureaux ?",
+"options": {
+"A": "La grotte de glace",
+"B": "La grotte de Lascaux",
+"C": "La grotte du Dragon",
+"D": "La grotte de Corail"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0047",
+"difficulty": "easy",
+"question": "Dans quel environnement vivaient les premiers êtres vivants de la Terre il y a des milliards d'années ?",
+"options": {
+"A": "Dans l'air pur",
+"B": "Au sommet des montagnes",
+"C": "Dans l'eau des océans",
+"D": "Dans les cratères de volcans"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0048",
+"difficulty": "easy",
+"question": "Quel dinosaure rapide ressemblait à une autruche sans plumes et pouvait courir très vite ?",
+"options": {
+"A": "Le Tricératops",
+"B": "Le Diplodocus",
+"C": "Le Spinosaure",
+"D": "Le Gallimimus"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0049",
+"difficulty": "easy",
+"question": "Quelle créature marine préhistorique ressemblait à un calmar géant abrité dans une coquille en spirale ?",
+"options": {
+"A": "L'Ammonite",
+"B": "Le Trilobite",
+"C": "L'Ichtyosaure",
+"D": "Le Crabe royal"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0050",
+"difficulty": "easy",
+"question": "Pourquoi les sauropodes mangeaient-ils parfois des petits cailloux appelés gastrolithes ?",
+"options": {
+"A": "Pour avoir plus de poids dans l'eau",
+"B": "Pour broyer les plantes dures dans leur estomac",
+"C": "Pour se nettoyer les dents",
+"D": "Pour fabriquer une coquille protectrice"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0051",
+"difficulty": "medium",
+"question": "Quelle est la première période géologique de l'ère des dinosaures, survenue avant le Jurassique ?",
+"options": {
+"A": "Le Quaternaire",
+"B": "Le Crétacé",
+"C": "Le Trias",
+"D": "Le Dévonien"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0052",
+"difficulty": "medium",
+"question": "Comment s'appelle l'unique supercontinent qui réunissait presque toutes les terres émergées au début du Trias ?",
+"options": {
+"A": "L'Atlantide",
+"B": "L'Eurasie",
+"C": "Le Gondwana",
+"D": "La Pangée"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0053",
+"difficulty": "medium",
+"question": "Quel petit reptile à voile sur le dos vivait avant les dinosaures et appartenait à la lignée des ancêtres des mammifères ?",
+"options": {
+"A": "Le Dimétrodon",
+"B": "Le Spinosaure",
+"C": "Le Ptéranodon",
+"D": "L'Allosaure"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0054",
+"difficulty": "medium",
+"question": "Quel dinosaure carnivore d'Amérique du Sud possédait deux petites cornes au-dessus des yeux ?",
+"options": {
+"A": "Le Baryonyx",
+"B": "Le Carnotaure",
+"C": "Le Tarbosaure",
+"D": "Le Carcharodontosaure"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0055",
+"difficulty": "medium",
+"question": "Quel prédateur marin géant du Crétacé ressemblait à un immense lézard pourvu de nageoires et d'une mâchoire puissante ?",
+"options": {
+"A": "Le Plésiosaure",
+"B": "L'Ichtyosaure",
+"C": "Le Mosasaure",
+"D": "Le Liopleurodon"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0056",
+"difficulty": "medium",
+"question": "Quel petit dinosaure bipède du Jurassique avait la taille d'un poulet et chassait des lézards ?",
+"options": {
+"A": "Le Vélociraptor",
+"B": "Le Deinonychus",
+"C": "Le Coelophysis",
+"D": "Le Compsognathus"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0057",
+"difficulty": "medium",
+"question": "Quelle femme britannique du 19e siècle est célèbre pour avoir découvert les premiers fossiles complets d'Ichtyosaure ?",
+"options": {
+"A": "Mary Anning",
+"B": "Marie Curie",
+"C": "Jane Goodall",
+"D": "Ada Lovelace"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0058",
+"difficulty": "medium",
+"question": "Comment s'appelle l'ancêtre célèbre des humains dont le squelette fossilisé a été découvert en Éthiopie en 1974 ?",
+"options": {
+"A": "Toumaï",
+"B": "Lucy",
+"C": "Ardi",
+"D": "Eva"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0059",
+"difficulty": "medium",
+"question": "Quel dinosaure herbivore possédait un crâne épais de plus de 20 centimètres en forme de dôme solide ?",
+"options": {
+"A": "L'Ankylosaure",
+"B": "Le Tricératops",
+"C": "Le Pachycéphalosaure",
+"D": "Le Corythosaure"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0060",
+"difficulty": "medium",
+"question": "Comment appelle-t-on les excréments fossilisés de dinosaures qui permettent de connaître leur régime alimentaire ?",
+"options": {
+"A": "Les gastrolithes",
+"B": "Les ammonites",
+"C": "Les géodes",
+"D": "Les coprolithes"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0061",
+"difficulty": "medium",
+"question": "Quelle espèce humaine préhistorique robuste et bien adaptée au froid vivait en Europe avant l'arrivée d'Homo sapiens ?",
+"options": {
+"A": "L'homme de Néandertal",
+"B": "L'Homo habilis",
+"C": "L'Australopithèque",
+"D": "L'Homo erectus"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0062",
+"difficulty": "medium",
+"question": "Quel dinosaure carnivore d'Amérique du Sud rivalisait en taille et en poids avec le T-Rex ?",
+"options": {
+"A": "Le Vélociraptor",
+"B": "Le Giganotosaure",
+"C": "Le Mégalosaure",
+"D": "Le Ceratosaure"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0063",
+"difficulty": "medium",
+"question": "À quelle famille de reptiles volants appartenait le grand Ptéranodon ?",
+"options": {
+"A": "Aux Dinosaures",
+"B": "Aux Plésiosaures",
+"C": "Aux Ptérosaures",
+"D": "Aux Crocodiliens"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0064",
+"difficulty": "medium",
+"question": "Quel sauropode géant découvert en Argentine figure parmi les plus lourds animaux terrestres ayant jamais existé ?",
+"options": {
+"A": "Le Brachiosaurus",
+"B": "Le Diplodocus",
+"C": "Le Camarasaurus",
+"D": "L'Argentinosaure"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0065",
+"difficulty": "medium",
+"question": "Quel dinosaure herbivore à bec de canard est surnommé 'lézard bonne mère' car on a retrouvé ses nids bien soignés ?",
+"options": {
+"A": "Le Maiasaura",
+"B": "L'Edmontosaure",
+"C": "L'Hadrosaure",
+"D": "L'Iguanodon"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0066",
+"difficulty": "medium",
+"question": "Où se situe le cratère géant de Chicxulub provoqué par la météorite qui a exterminé les dinosaures ?",
+"options": {
+"A": "En Australie",
+"B": "Au Mexique",
+"C": "En France",
+"D": "En Chine"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0067",
+"difficulty": "medium",
+"question": "Quel arthropode marin primitif possédait une carapace articulée à trois lobes au fond des mers paléozoïques ?",
+"options": {
+"A": "L'Ammonite",
+"B": "La Bélemnite",
+"C": "Le Trilobite",
+"D": "Le Nautile"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0068",
+"difficulty": "medium",
+"question": "Quel dinosaure théropode étonnant possédait de gigantesques griffes en faux de plus de 70 centimètres de long ?",
+"options": {
+"A": "Le Thérizinosaure",
+"B": "Le Spinosaure",
+"C": "Le Baryonyx",
+"D": "Le Thérizinosaure"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0069",
+"difficulty": "medium",
+"question": "Quel dinosaure carnivore européen possédait une longue griffe incurvée sur le pouce et mangeait des poissons ?",
+"options": {
+"A": "Le Baryonyx",
+"B": "Le Carnotaure",
+"C": "Le Tarbosaure",
+"D": "Le Ceratosaure"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0070",
+"difficulty": "medium",
+"question": "Quel dinosaure d'Amérique du Nord possédait une collerette ornée de longues pointes spectaculaires ?",
+"options": {
+"A": "Le Tricératops",
+"B": "Le Styracosaure",
+"C": "Le Protocératops",
+"D": "Le Pachyrhinosaure"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0071",
+"difficulty": "medium",
+"question": "Quel grand oiseau préhistorique incapable de voler courait à grande vitesse pour chasser en Amérique du Sud ?",
+"options": {
+"A": "L'Archéoptéryx",
+"B": "Le Dodo",
+"C": "L'Oiseau de terreur",
+"D": "Le Ptérodactyle"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0072",
+"difficulty": "medium",
+"question": "Quel serpent géant préhistorique vivait dans les marécages tropicaux après l'extinction des dinosaures ?",
+"options": {
+"A": "L'Anaconda royal",
+"B": "Le Python géant",
+"C": "Le Cobra d'eau",
+"D": "Le Titanoboa"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0073",
+"difficulty": "medium",
+"question": "Pourquoi les scientifiques pensent-ils que la crête du Parasaurolophus servait à produire des sons ?",
+"options": {
+"A": "Elle contenait de longs tubes d'air reliés au nez",
+"B": "Elle était remplie de sifflets osseux",
+"C": "Elle vibrait comme une corde de guitare",
+"D": "Elle claquait contre ses épaules"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0074",
+"difficulty": "medium",
+"question": "Quel dinosaure herbivore portait un pouce transformé en grand éperon pointu pour se défendre ?",
+"options": {
+"A": "Le Diplodocus",
+"B": "L'Iguanodon",
+"C": "Le Tricératops",
+"D": "Le Stégosaure"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0075",
+"difficulty": "medium",
+"question": "À quelle période géologique ont vécu les célèbres T-Rex, Vélociraptor et Tricératops ?",
+"options": {
+"A": "Au Trias",
+"B": "Au Jurassique",
+"C": "Au Crétacé",
+"D": "Au Permien"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0076",
+"difficulty": "medium",
+"question": "Quel mammifère géant de l'ère glaciaire ressemblait à un tatou de la taille d'une petite voiture ?",
+"options": {
+"A": "Le Mégathérium",
+"B": "L'Entélodonte",
+"C": "Le Mastodonte",
+"D": "Le Glyptodon"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0077",
+"difficulty": "medium",
+"question": "Quel dinosaure carnivore à deux cornes sur la tête a donné son nom à un groupe du Jurassique ?",
+"options": {
+"A": "Le Cératosaure",
+"B": "Le Spinosaure",
+"C": "Le Dilophosaure",
+"D": "Le Tarbosaure"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0078",
+"difficulty": "medium",
+"question": "Quel nom porte la période de la préhistoire où les humains utilisaient des pierres taillées ?",
+"options": {
+"A": "Le Néolithique",
+"B": "Le Paléolithique",
+"C": "L'âge du Bronze",
+"D": "L'âge du Fer"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0079",
+"difficulty": "medium",
+"question": "Quel animal préhistorique possédait deux crêtes semi-circulaires sur le haut de sa tête ?",
+"options": {
+"A": "L'Allosaure",
+"B": "Le Coelophysis",
+"C": "Le Dilophosaure",
+"D": "Le Vélociraptor"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0080",
+"difficulty": "medium",
+"question": "Quel insecte géant du Carbonifère ressemblait à une libellule d'une envergure de 70 centimètres ?",
+"options": {
+"A": "L'Arthropleura",
+"B": "Le Mésothèle",
+"C": "Le Grillotop",
+"D": "La Méganeura"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0081",
+"difficulty": "medium",
+"question": "Quel savant britannique a inventé le terme scientifique 'Dinosauria' en 1842 ?",
+"options": {
+"A": "Richard Owen",
+"B": "Charles Darwin",
+"C": "Georges Cuvier",
+"D": "Gideon Mantell"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0082",
+"difficulty": "medium",
+"question": "Quel dinosaure d'Asie centrale au museau aplati a été trouvé fossilisé au-dessus de son nid d'œufs ?",
+"options": {
+"A": "Le Gallimimus",
+"B": "L'Oviraptor",
+"C": "Le Deinonychus",
+"D": "Le Thérizinosaure"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0083",
+"difficulty": "medium",
+"question": "Quel mammifère herbivore géant terrestre d'Amérique du Sud mesurait jusqu'à 6 mètres debout sur ses pattes ?",
+"options": {
+"A": "Le Glyptodon",
+"B": "Le Mammouth",
+"C": "Le Mégathérium",
+"D": "L'Elasmotherium"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0084",
+"difficulty": "medium",
+"question": "Quel poisson fossile géant et cuirassé du Dévonien possédait des plaques tranchantes à la place des dents ?",
+"options": {
+"A": "Le Mégalodon",
+"B": "L'Ichtyosaure",
+"C": "Le Coelacanthe",
+"D": "Le Dunkleosteus"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0085",
+"difficulty": "medium",
+"question": "Quel dinosaure herbivore possédait quatre longues épines acérées au bout de sa queue pour frapper ?",
+"options": {
+"A": "Le Stégosaure",
+"B": "Le Brachiosaure",
+"C": "Le Tricératops",
+"D": "L'Iguanodon"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0086",
+"difficulty": "medium",
+"question": "Comment appelle-t-on le premier animal vertébré intermédiaire sorti de l'eau pour faire les premiers pas sur terre ?",
+"options": {
+"A": "Le Mégalosaure",
+"B": "Le Tiktaalik",
+"C": "L'Archéoptéryx",
+"D": "Le Dimétrodon"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0087",
+"difficulty": "medium",
+"question": "Quel cervidé préhistorique géant de l'ère glaciaire portait des bois atteignant 3,5 mètres d'envergure ?",
+"options": {
+"A": "Le Renne des neiges",
+"B": "L'Élan des cavernes",
+"C": "Le Mégalocéros",
+"D": "Le Bison des steppes"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0088",
+"difficulty": "medium",
+"question": "Quel dinosaure carnivore à plumes possédait quatre ailes formées sur ses bras et sur ses pattes arrière ?",
+"options": {
+"A": "L'Archéoptéryx",
+"B": "Le Ptérodactyle",
+"C": "Le Vélociraptor",
+"D": "Le Microraptor"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0089",
+"difficulty": "medium",
+"question": "Quelle grotte ornée française découverte en 1994 renferme des peintures d'animaux datant de 36 000 ans ?",
+"options": {
+"A": "La grotte Chauvet",
+"B": "La grotte de Niaux",
+"C": "La grotte de Font-de-Gaume",
+"D": "La grotte de Pech Merle"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0090",
+"difficulty": "medium",
+"question": "Pourquoi les scientifiques ont-ils longtemps confondu le Brontosaure avec l'Apatosaure ?",
+"options": {
+"A": "Ils mangeaient la même herbe",
+"B": "Un squelette avait reçu par erreur le crâne d'un autre sauropode",
+"C": "Leurs couleurs étaient identiques",
+"D": "Ils avaient exactement le même nombre de dents"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0091",
+"difficulty": "medium",
+"question": "Quel animal primitif ressemblant à un mille-pattes géant de 2 mètres de long parcourait les forêts du Carbonifère ?",
+"options": {
+"A": "Le Trilobite",
+"B": "Le Scorpion des mers",
+"C": "L'Arthropleura",
+"D": "L'Anomalocaris"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0092",
+"difficulty": "medium",
+"question": "Quel dinosaure herbivore cuirassé d'Afrique possédait de grandes épines le long du dos et sur les flancs ?",
+"options": {
+"A": "Le Stégosaure",
+"B": "L'Ankylosaure",
+"C": "Le Nodosauridé",
+"D": "Le Kentrosaure"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0093",
+"difficulty": "medium",
+"question": "Quel type d'yeux très perfectionnés composés de centaines de lentilles de calcite possédaient les trilobites ?",
+"options": {
+"A": "Des yeux à facettes minérales",
+"B": "Des yeux télescopiques souples",
+"C": "Des yeux infrarouges",
+"D": "Un œil unique central"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0094",
+"difficulty": "medium",
+"question": "Quel était le rôle probable de la voile dorsale soutenue par de longues épines chez le Spinosaure ?",
+"options": {
+"A": "Attraper les oiseaux au vol",
+"B": "Réguler sa température et impressionner ses rivaux",
+"C": "Servir de voile pour voguer sur l'océan",
+"D": "Stocker des réserves de graines"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0095",
+"difficulty": "medium",
+"question": "Quel grand prédateur carnivore d'Asie était le proche cousin oriental du T-Rex nord-américain ?",
+"options": {
+"A": "Le Carnotaure",
+"B": "L'Allosaure",
+"C": "Le Tarbosaure",
+"D": "Le Baryonyx"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0096",
+"difficulty": "medium",
+"question": "Quelle invention préhistorique a marqué le passage du Paléolithique au Néolithique ?",
+"options": {
+"A": "La boussole",
+"B": "L'imprimerie",
+"C": "La poudre à canon",
+"D": "L'agriculture et l'élevage"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0097",
+"difficulty": "medium",
+"question": "Quel grand reptile marin possédait une mâchoire si puissante qu'il pouvait écraser les carapaces des ammonites ?",
+"options": {
+"A": "Le Liopleurodon",
+"B": "Le Ptérodactyle",
+"C": "L'Iguanodon",
+"D": "Le Protocératops"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0098",
+"difficulty": "medium",
+"question": "Quelle matière les hommes préhistoriques utilisaient-ils pour fabriquer de la peinture noire ?",
+"options": {
+"A": "Du pétrole brut",
+"B": "Du charbon de bois broyé",
+"C": "De l'encre de seiche séchée",
+"D": "De la cendre de volcan"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0099",
+"difficulty": "medium",
+"question": "Quel dinosaure herbivore possédait un cou exceptionnellement long composé de 19 vertèbres allongées ?",
+"options": {
+"A": "Le Brachiosaure",
+"B": "Le Diplodocus",
+"C": "Le Mamenchisaure",
+"D": "L'Argentinosaure"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0100",
+"difficulty": "medium",
+"question": "Comment s'appelle l'oiseau fossile géant d'Australie ayant vécu il y a des milliers d'années ?",
+"options": {
+"A": "Le Dodo",
+"B": "L'Archéoptéryx",
+"C": "L'Autruche géante",
+"D": "Le Genyornis"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0101",
+"difficulty": "medium",
+"question": "Quel dinosaure carnivore nord-américain à la griffe rétractable a inspiré les vélociraptors géants de Jurassic Park ?",
+"options": {
+"A": "Le Deinonychus",
+"B": "Le Compsognathus",
+"C": "Le Coelophysis",
+"D": "L'Oviraptor"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0102",
+"difficulty": "medium",
+"question": "Quel animal préhistorique marin ressemblait à un fossile en forme de balle de fusil ?",
+"options": {
+"A": "L'Ammonite",
+"B": "La Bélemnite",
+"C": "Le Trilobite",
+"D": "Le Nautile"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0103",
+"difficulty": "medium",
+"question": "Quel grand mammifère préhistorique surnommé 'rhinocéros géant sans corne' était le plus grand mammifère terrestre connu ?",
+"options": {
+"A": "Le Mammouth colombien",
+"B": "Le Mégathérium",
+"C": "Le Paracérathérium",
+"D": "Le Sivathérium"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0104",
+"difficulty": "medium",
+"question": "Dans quel pays d'Asie a-t-on découvert le désert de Gobi riche en fossiles et en nids d'œufs de dinosaures ?",
+"options": {
+"A": "En Inde",
+"B": "Au Japon",
+"C": "En Thaïlande",
+"D": "En Mongolie"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0105",
+"difficulty": "medium",
+"question": "Quel dinosaure herbivore d'Amérique du Nord possédait une crête en forme de casque creux sur la tête ?",
+"options": {
+"A": "Le Corythosaure",
+"B": "Le Stégosaure",
+"C": "Le Diplodocus",
+"D": "Le Pachycéphalosaure"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0106",
+"difficulty": "medium",
+"question": "Quelle méthode scientifique utilisant le carbone permet de dater des restes organiques préhistoriques ?",
+"options": {
+"A": "La datation au quartz",
+"B": "La datation au carbone 14",
+"C": "La thermographie laser",
+"D": "La microscopie optique"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0107",
+"difficulty": "medium",
+"question": "Quel animal préhistorique de l'ère glaciaire utilisait les cavernes pour hiberner et y a laissé de nombreuses traces de griffes ?",
+"options": {
+"A": "Le Loup géant",
+"B": "Le Lion des cavernes",
+"C": "L'Ours des cavernes",
+"D": "La Hyène tachetée"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0108",
+"difficulty": "medium",
+"question": "À quoi servait le propulseur inventé par les chasseurs de la préhistoire ?",
+"options": {
+"A": "À allumer du feu",
+"B": "À moudre des grains",
+"C": "À creuser la terre",
+"D": "À lancer une sagaie plus loin et plus fort"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0109",
+"difficulty": "medium",
+"question": "Quel petit prédateur primitif du Trias courait sur deux pattes fines dans ce qui est aujourd'hui le Nouveau-Mexique ?",
+"options": {
+"A": "Le Coelophysis",
+"B": "Le Ceratosaure",
+"C": "L'Allosaure",
+"D": "Le Spinosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0110",
+"difficulty": "medium",
+"question": "Pourquoi les pattes avant du Brachiosaure étaient-elles plus longues que ses pattes arrière ?",
+"options": {
+"A": "Pour courir plus vite dans les plaines",
+"B": "Pour maintenir son cou et sa tête naturellement élevés",
+"C": "Pour nager comme les grenouilles",
+"D": "Pour gratter les racines dans le sol"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0111",
+"difficulty": "medium",
+"question": "Quel grand prédateur marin préhistorique du Jurassique possédait un cou démesurément long comptant plus de 70 vertèbres ?",
+"options": {
+"A": "L'Ichtyosaure",
+"B": "Le Mosasaure",
+"C": "L'Élasmosaure",
+"D": "Le Liopleurodon"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0112",
+"difficulty": "medium",
+"question": "Quel animal fossile étrange du Cambrien possédait cinq yeux et une longue trompe terminée par une pince ?",
+"options": {
+"A": "Le Trilobite",
+"B": "L'Anomalocaris",
+"C": "L'Hallucigenia",
+"D": "L'Opabinia"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0113",
+"difficulty": "medium",
+"question": "Quel dinosaure herbivore cuirassé possédait de lourdes plaques sur le dos mais aucune masse au bout de la queue ?",
+"options": {
+"A": "Le Naphosaure",
+"B": "L'Edmontonia",
+"C": "L'Ankylosaure",
+"D": "L'Euoplocéphale"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0114",
+"difficulty": "medium",
+"question": "Quel mammifère marin archaïque du Crétacé ou de l'Éocène ressemblait à une longue baleine carnivore serpentine ?",
+"options": {
+"A": "Le Mégalodon",
+"B": "L'Orque géante",
+"C": "Le Basilosaurus",
+"D": "Le Livyatan"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0115",
+"difficulty": "medium",
+"question": "Quel prédateur du Trias ressemblait à un crocodile terrestre rapide mais n'était pas encore un vrai dinosaure ?",
+"options": {
+"A": "Le Postosuchus",
+"B": "Le Ptérosaure",
+"C": "Le Vélociraptor",
+"D": "L'Archéoptéryx"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0116",
+"difficulty": "medium",
+"question": "Quel dinosaure à cornes possédait un gros bourrelet osseux rugueux sur le nez au lieu d'une corne pointue ?",
+"options": {
+"A": "Le Tricératops",
+"B": "Le Pachyrhinosaure",
+"C": "Le Styracosaure",
+"D": "Le Centrosaure"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0117",
+"difficulty": "medium",
+"question": "Quel matériau naturel les hommes préhistoriques utilisaient-ils pour fabriquer des aiguilles fines destinées à coudre des vêtements ?",
+"options": {
+"A": "Le fer poli",
+"B": "Le bronze forgé",
+"C": "L'os d'animal taillé",
+"D": "Le verre volcanique"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0118",
+"difficulty": "medium",
+"question": "Quel groupe de dinosaures est caractérisé par un bassin similaire à celui des oiseaux actuels ?",
+"options": {
+"A": "Les Sauropodes",
+"B": "Les Théropodes",
+"C": "Les Saurischiens",
+"D": "Les Ornithischiens"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0119",
+"difficulty": "medium",
+"question": "Quel dinosaure sauropode d'Afrique possédait une rangée de doubles épines neurales sur le cou ?",
+"options": {
+"A": "L'Amargasaurus",
+"B": "Le Diplodocus",
+"C": "Le Brachiosaure",
+"D": "Le Camarasaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0120",
+"difficulty": "medium",
+"question": "Quel prédateur géant du Cambrien possédait deux grands appendices articulés devant la bouche pour attraper des proies ?",
+"options": {
+"A": "Le Trilobite",
+"B": "L'Anomalocaris",
+"C": "L'Hallucigenia",
+"D": "L'Ammonite"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0121",
+"difficulty": "medium",
+"question": "Quelle région du sud de la France est particulièrement réputée pour ses dizaines de milliers d'œufs de dinosaures fossilisés ?",
+"options": {
+"A": "La Bretagne",
+"B": "La Normandie",
+"C": "La Provence au pied de la montagne Sainte-Victoire",
+"D": "L'Alsace"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0122",
+"difficulty": "medium",
+"question": "Quel oiseau préhistorique géant de Nouvelle-Zélande mesurait plus de 3 mètres de haut avant d'être chassé par l'humain ?",
+"options": {
+"A": "Le Dodo",
+"B": "L'Archéoptéryx",
+"C": "Le Casoar géant",
+"D": "Le Moa"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0123",
+"difficulty": "medium",
+"question": "Quel dinosaure carnivore à museau de crocodile et dents coniques chassait le poisson dans le désert du Sahara au Crétacé ?",
+"options": {
+"A": "Le Suchomimus",
+"B": "Le Tarbosaure",
+"C": "Le Giganotosaure",
+"D": "L'Allosaure"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0124",
+"difficulty": "medium",
+"question": "Quel célèbre pont terrestre éphémère reliait l'Asie à l'Amérique pendant les périodes glaciaires ?",
+"options": {
+"A": "Le canal de Panama",
+"B": "La Béringie",
+"C": "Le détroit de Gibraltar",
+"D": "Le pont du Doggerland"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0125",
+"difficulty": "medium",
+"question": "Quel nom donne-t-on aux structures fossilisées formées par des colonies de bactéries primitives il y a plus de 3 milliards d'années ?",
+"options": {
+"A": "Les géodes",
+"B": "Les ammonites",
+"C": "Les stromatolites",
+"D": "Les stalagmites"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0126",
+"difficulty": "hard",
+"question": "Quel dinosaure carnivore découvert au Canada en 1884 était un précurseur plus élancé du T-Rex ?",
+"options": {
+"A": "L'Albertosaure",
+"B": "Le Dasplétosaure",
+"C": "Le Gorgosaure",
+"D": "L'Appalachiosaure"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0127",
+"difficulty": "hard",
+"question": "Comment appelle-t-on l'extinction massive survenue il y a 252 millions d'années, bien plus destructrice que celle des dinosaures ?",
+"options": {
+"A": "L'extinction du Dévonien",
+"B": "L'extinction Permien-Trias",
+"C": "L'extinction de l'Ordovicien",
+"D": "L'extinction du Crétacé"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0128",
+"difficulty": "hard",
+"question": "Quel grand prédateur carnivore d'Afrique du Nord possédait des dents dentelées comparables à celles des requins blancs ?",
+"options": {
+"A": "Le Tarbosaure",
+"B": "Le Majungasaure",
+"C": "Le Carcharodontosaure",
+"D": "Le Baryonyx"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0129",
+"difficulty": "hard",
+"question": "Quel célèbre squelette complet de Tyrannosaurus rex exposé à Chicago est le plus grand et le mieux préservé au monde ?",
+"options": {
+"A": "Stan",
+"B": "Trix",
+"C": "Scotty",
+"D": "Sue"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0130",
+"difficulty": "hard",
+"question": "Quel dinosaure théropode chinois a été le premier dinosaure non-avien découvert avec des traces indiscutables de duvet plumeux ?",
+"options": {
+"A": "Le Sinosauropteryx",
+"B": "Le Caudipteryx",
+"C": "Le Microraptor",
+"D": "L'Anchiornis"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0131",
+"difficulty": "hard",
+"question": "Quel niveau géologique très riche en iridium marque la limite temporelle exacte de l'extinction des dinosaures ?",
+"options": {
+"A": "La limite Permien-Trias",
+"B": "La limite Crétacé-Paléogène (K-Pg)",
+"C": "La couche du Jurassique moyen",
+"D": "L'horizon cambrien"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0132",
+"difficulty": "hard",
+"question": "Quel petit reptile volant du Jurassique possédait une très longue queue rigide terminée par un gouvernail en forme de losange ?",
+"options": {
+"A": "Le Ptéranodon",
+"B": "Le Dsungaripterus",
+"C": "Le Rhamphorhynchus",
+"D": "L'Anurognathus"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0133",
+"difficulty": "hard",
+"question": "Dans quelle célèbre formation rocheuse du Jurassique supérieur aux États-Unis a-t-on découvert le plus de fossiles d'Allosaures et de Diplodocus ?",
+"options": {
+"A": "Hell Creek",
+"B": "Dinosaur Park",
+"C": "Two Medicine",
+"D": "La formation de Morrison"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0134",
+"difficulty": "hard",
+"question": "Quel dinosaure d'Asie était doté d'une grande intelligence pour son époque avec de grands yeux et un cerveau proportionnellement volumineux ?",
+"options": {
+"A": "Le Troodon",
+"B": "Le Gallimimus",
+"C": "Le Protocératops",
+"D": "L'Oviraptor"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0135",
+"difficulty": "hard",
+"question": "Quelle était la fonction principale des narines situées au sommet du crâne chez le Brachiosaure selon les études récentes ?",
+"options": {
+"A": "Respirer sous l'eau comme un tuba",
+"B": "Héberger des cavités pour rafraîchir le cerveau et sentir",
+"C": "Projeter de l'eau sur ses ennemis",
+"D": "Attraper les feuilles sans ouvrir la bouche"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0136",
+"difficulty": "hard",
+"question": "Quel reptile marin du Mésozoïque donnait naissance à des petits vivants directement dans l'eau au lieu de pondre des œufs à terre ?",
+"options": {
+"A": "Le Plésiosaure",
+"B": "L'Ammonite",
+"C": "L'Ichtyosaure",
+"D": "La Tortue préhistorique"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0137",
+"difficulty": "hard",
+"question": "Quel événement volcanique gigantesque survenu en Inde a également affaibli l'environnement avant l'extinction des dinosaures ?",
+"options": {
+"A": "L'explosion du Krakatoa",
+"B": "Les trapps de Sibérie",
+"C": "La caldeira de Yellowstone",
+"D": "Les trapps du Deccan"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0138",
+"difficulty": "hard",
+"question": "Quel était le premier nom scientifique officiel attribué à un os fossile de dinosaure décrit en Angleterre en 1824 ?",
+"options": {
+"A": "Megalosaurus",
+"B": "Iguanodon",
+"C": "Hylaeosaurus",
+"D": "Cetiosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0139",
+"difficulty": "hard",
+"question": "Quel dinosaure sauropode d'Amérique du Sud possédait des plaques osseuses protectrices appelées ostéodermes incrustées dans sa peau ?",
+"options": {
+"A": "Le Brachiosaure",
+"B": "Le Saltasaure",
+"C": "Le Diplodocus",
+"D": "Le Mamenchisaure"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0140",
+"difficulty": "hard",
+"question": "Quel oiseau fossile préhistorique des mers du Crétacé avait perdu la capacité de voler et plongeait avec des pattes palmées ?",
+"options": {
+"A": "L'Ichthyornis",
+"B": "L'Archéoptéryx",
+"C": "L'Hesperornis",
+"D": "Le Confuciusornis"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0141",
+"difficulty": "hard",
+"question": "Quel terme scientifique désigne l'étude des pistes et empreintes de pas fossilisées laissées par les animaux préhistoriques ?",
+"options": {
+"A": "La stratigraphie",
+"B": "La palynologie",
+"C": "La sédimentologie",
+"D": "L'ichnologie"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0142",
+"difficulty": "hard",
+"question": "Quel mammifère carnivore préhistorique surnommé 'cochon de l'enfer' possédait d'immenses mâchoires broyeuses d'os ?",
+"options": {
+"A": "L'Entélodonte",
+"B": "L'Amphicyon",
+"C": "L'Hyaenodon",
+"D": "L'Andrewsarchus"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0143",
+"difficulty": "hard",
+"question": "Quel nom portait le continent sud formé après la division de la Pangée au Jurassique ?",
+"options": {
+"A": "La Laurasie",
+"B": "Le Gondwana",
+"C": "La Baltica",
+"D": "La Laurentia"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0144",
+"difficulty": "hard",
+"question": "Quel dinosaure herbivore possédait une bouche armée de batteries dentaires contenant plus de 1000 dents renouvelables ?",
+"options": {
+"A": "Le Tricératops",
+"B": "Le Diplodocus",
+"C": "L'Edmontosaure",
+"D": "Le Stégosaure"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0145",
+"difficulty": "hard",
+"question": "Quel animal primitif du Cambrien possédait un corps mou flanqué d'épines dorsales et de pattes tentaculaires ?",
+"options": {
+"A": "L'Anomalocaris",
+"B": "L'Opabinia",
+"C": "Le Wiwaxia",
+"D": "L'Hallucigenia"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0146",
+"difficulty": "hard",
+"question": "Quel sauropode colossal découvert en Argentine en 2005 a été nommé d'après sa formidable stature qui 'ne craignait rien' ?",
+"options": {
+"A": "Le Dreadnoughtus",
+"B": "Le Patagotitan",
+"C": "L'Alamosaurus",
+"D": "Le Futalognkosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0147",
+"difficulty": "hard",
+"question": "Quel était le rôle des plaques osseuses triangulaires vascularisées situées sur le dos du Stégosaure selon les biologistes ?",
+"options": {
+"A": "Voler dans les airs",
+"B": "Réguler la température du corps et impressionner visuellement",
+"C": "Stocker de la graisse pour l'hiver",
+"D": "Absorber les rayons ultraviolets pour fabriquer du venin"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0148",
+"difficulty": "hard",
+"question": "Quel site fossilifère de schiste au Canada est universellement réputé pour ses fossiles exceptionnels d'animaux marins du Cambrien ?",
+"options": {
+"A": "Hell Creek",
+"B": "Solnhofen",
+"C": "Les schistes de Burgess",
+"D": "La formation de Yixian"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0149",
+"difficulty": "hard",
+"question": "Quel dinosaure carnivore d'Australie portait des épines sur le dos rappelant une crête et chassait le long des cours d'eau ?",
+"options": {
+"A": "Le Megaraptor",
+"B": "L'Australovenator",
+"C": "Le Diamantinasaurus",
+"D": "L'Australovenator"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0150",
+"difficulty": "hard",
+"question": "Quel reptile mammalien du Permien supérieur possédait deux canines saillantes et dominait les terres de Russie et d'Afrique du Sud ?",
+"options": {
+"A": "Le Gorgonopsien",
+"B": "Le Dimétrodon",
+"C": "Le Scutosaurus",
+"D": "Le Moschops"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0151",
+"difficulty": "hard",
+"question": "Quel théropode géant du Crétacé supérieur de Patagonie dépasse peut-être le T-Rex par sa masse corporelle ?",
+"options": {
+"A": "L'Allosaure",
+"B": "Le Patagotitan",
+"C": "Le Mapusaure",
+"D": "Le Ceratosaure"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0152",
+"difficulty": "hard",
+"question": "Quelle célèbre formation sédimentaire de calcaire en Allemagne a livré le fossile parfait de l'Archéoptéryx et de nombreux ptérosaures ?",
+"options": {
+"A": "Lyme Regis",
+"B": "Messel",
+"C": "Solnhofen",
+"D": "Loma Negra"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0153",
+"difficulty": "hard",
+"question": "Quel nom donne-t-on aux quatre pointes défensives osseuses situées à l'extrémité de la queue du Stégosaure ?",
+"options": {
+"A": "L'ostéoderme",
+"B": "Le bouclier nucal",
+"C": "Le pygostyle",
+"D": "Le thagomiseur"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0154",
+"difficulty": "hard",
+"question": "Quel dinosaure carnivore miniature d'Europe chassait des insectes avec ses longues pattes fines ?",
+"options": {
+"A": "Le Compsognathus",
+"B": "Le Troodon",
+"C": "Le Caudipteryx",
+"D": "L'Ornitholeste"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0155",
+"difficulty": "hard",
+"question": "Quelle découverte dans la mâchoire du Spinosaure a prouvé qu'il chassait dans l'eau comme un crocodile ?",
+"options": {
+"A": "Des branchies fossilisées",
+"B": "Des récepteurs de pression nerveuse (foramens) sur le museau",
+"C": "Des dents remplies de sel marin",
+"D": "Une langue fourchue"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0156",
+"difficulty": "hard",
+"question": "Quel dinosaure herbivore primitif d'Angleterre a été l'un des trois premiers genres utilisés par Richard Owen pour définir les dinosaures ?",
+"options": {
+"A": "L'Ankylosaure",
+"B": "Le Scélidosaure",
+"C": "L'Hylaeosaure",
+"D": "Le Stégosaure"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0157",
+"difficulty": "hard",
+"question": "Comment s'appelle l'ancêtre amphibien géant du Carbonifère ressemblant à une salamandre de plus de 2 mètres de long ?",
+"options": {
+"A": "Le Seymouria",
+"B": "L'Ichthyostega",
+"C": "L'Acanthostega",
+"D": "L'Éryops"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0158",
+"difficulty": "hard",
+"question": "Quel reptile primitif du Permien ressemblant à une tortue géante sans carapace possédait des plaques osseuses sous la peau ?",
+"options": {
+"A": "Le Scutosaure",
+"B": "Le Moschops",
+"C": "L'Edaphosaure",
+"D": "Le Pareiasaure"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0159",
+"difficulty": "hard",
+"question": "Quel oiseau fossile préhistorique possédait une envergure d'ailes record de plus de 6 mètres semblable à un albatros titanesque ?",
+"options": {
+"A": "L'Archéoptéryx",
+"B": "Le Pélagornis",
+"C": "L'Argentavis",
+"D": "Le Dromornis"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0160",
+"difficulty": "hard",
+"question": "Quelle découverte scientifique moderne sur la structure osseuse des dinosaures prouve qu'ils n'étaient pas de simples reptiles lents à sang froid ?",
+"options": {
+"A": "Leurs os étaient transparents",
+"B": "Ils n'avaient pas de moelle osseuse",
+"C": "Leur tissu osseux montre une croissance rapide avec un métabolisme actif",
+"D": "Leur squelette était composé de cartilage pur"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0161",
+"difficulty": "hard",
+"question": "Quel dinosaure carnivore à tête courte et cornes frontales vivait sur l'île de Madagascar au Crétacé supérieur ?",
+"options": {
+"A": "Le Rugops",
+"B": "Le Rajasaurus",
+"C": "L'Abélisaure",
+"D": "Le Majungasaure"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0162",
+"difficulty": "hard",
+"question": "Comment appelle-t-on la célèbre guerre scientifique acharnée entre les paléontologues Edward Cope et Othniel Marsh au 19e siècle ?",
+"options": {
+"A": "La guerre des Os",
+"B": "La bataille du Jurassique",
+"C": "La ruée vers les fossiles",
+"D": "Le duel des géants"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0163",
+"difficulty": "hard",
+"question": "Quel dinosaure à plumes découvert en Chine possédait des pigments fossilisés (mélanosomes) prouvant qu'il avait des rayures rousses et blanches sur la queue ?",
+"options": {
+"A": "Le Microraptor",
+"B": "Le Sinosauropteryx",
+"C": "Le Caudipteryx",
+"D": "L'Anchiornis"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0164",
+"difficulty": "hard",
+"question": "Quel prédateur du Jurassique d'Amérique du Nord possédait une grosse corne nasale et deux petites cornes au-dessus des yeux ?",
+"options": {
+"A": "L'Allosaure",
+"B": "Le Torvosaure",
+"C": "Le Cératosaure",
+"D": "Le Megalosaure"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0165",
+"difficulty": "hard",
+"question": "Quel dinosaure sauropode d'Asie possédait un crâne haut et court avec de grands orifices nasaux et des dents en forme de cuillère ?",
+"options": {
+"A": "Le Diplodocus",
+"B": "L'Apatosaure",
+"C": "Le Brachiosaurus",
+"D": "Le Camarasaurus"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0166",
+"difficulty": "hard",
+"question": "Quel crocodile marin préhistorique du Jurassique avait transformé ses pattes en nageoires et possédait une queue semblable à celle d'un requin ?",
+"options": {
+"A": "Le Métriorhynque",
+"B": "Le Sarcosuchus",
+"C": "Le Deinosuchus",
+"D": "Le Purussaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0167",
+"difficulty": "hard",
+"question": "Quel crocodile géant du Crétacé d'Afrique surnommé 'Supercroc' atteignait 11 mètres de long et chassait les dinosaures ?",
+"options": {
+"A": "Le Purussaurus",
+"B": "Le Sarcosuchus",
+"C": "Le Deinosuchus",
+"D": "Le Gryposuchus"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0168",
+"difficulty": "hard",
+"question": "Comment appelle-t-on le grand dinosaure à cornes dont le crâne complet mesurait près de 3 mètres de long, le plus grand de tous les animaux terrestres ?",
+"options": {
+"A": "Le Styracosaure",
+"B": "Le Tricératops",
+"C": "Le Torosaure",
+"D": "Le Pentacératops"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0169",
+"difficulty": "hard",
+"question": "Quel prédateur marin géant du Miocène rivalisait avec le Mégalodon et possédait des dents de cachalot de plus de 35 centimètres ?",
+"options": {
+"A": "Le Basilosaurus",
+"B": "Le Dunkleosteus",
+"C": "Le Mosasaure",
+"D": "Le Livyatan"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0170",
+"difficulty": "hard",
+"question": "Quel dinosaure sauropode découvert en Tanzanie au 20e siècle a longtemps été le plus grand squelette monté visible au musée de Berlin ?",
+"options": {
+"A": "Le Giraffatitan",
+"B": "L'Argentinosaure",
+"C": "Le Brontosaure",
+"D": "Le Diplodocus"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0171",
+"difficulty": "hard",
+"question": "Quel minéral rare dans la croûte terrestre mais abondant dans les météorites a été retrouvé en forte concentration à la limite géologique K-Pg ?",
+"options": {
+"A": "L'uranium",
+"B": "L'iridium",
+"C": "Le platine",
+"D": "Le titane"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0172",
+"difficulty": "hard",
+"question": "Quelle caractéristique osseuse unique relie formellement le squelette du T-Rex à celui de la poule domestique actuelle ?",
+"options": {
+"A": "Une crête crânienne molle",
+"B": "Des ailes repliables",
+"C": "La fourchette osseuse (furcula) issue de la fusion des clavicules",
+"D": "Des dents transparentes"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0173",
+"difficulty": "hard",
+"question": "Quel nom porte la période géologique du Paléozoïque où les immenses forêts ont formé la majorité des gisements actuels de charbon ?",
+"options": {
+"A": "Le Permien",
+"B": "Le Dévonien",
+"C": "Le Silurien",
+"D": "Le Carbonifère"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0174",
+"difficulty": "hard",
+"question": "Quel dinosaure prédateur d'Amérique du Nord possédait des avant-bras courts pourvus de seulement deux doigts griffus fonctionnels ?",
+"options": {
+"A": "Le Tyrannosaure",
+"B": "L'Allosaure",
+"C": "Le Spinosaure",
+"D": "Le Ceratosaure"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0175",
+"difficulty": "hard",
+"question": "Quel petit reptile volant du Trias découvert en Italie est l'un des plus anciens ptérosaures connus avec des dents pointues variées ?",
+"options": {
+"A": "Le Ptérodactyle",
+"B": "L'Eudimorphodon",
+"C": "Le Rhamphorhynchus",
+"D": "Le Ptéranodon"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0176",
+"difficulty": "hard",
+"question": "Quelle célèbre espèce d'homininé surnommée 'homme de Florès' en Indonésie mesurait environ 1 mètre de haut à l'âge adulte ?",
+"options": {
+"A": "Homo naledi",
+"B": "Homo habilis",
+"C": "Homo floresiensis",
+"D": "Homo erectus"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0177",
+"difficulty": "hard",
+"question": "Quel dinosaure théropode de Mongolie possédait de très longs bras terminés par trois griffes de 25 cm et un bec corné sans dents ?",
+"options": {
+"A": "L'Oviraptor",
+"B": "Le Gallimimus",
+"C": "Le Thérizinosaure",
+"D": "Le Deinocheirus"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0178",
+"difficulty": "hard",
+"question": "Comment s'appelle l'explosion soudaine de diversité animale apparue dans les océans il y a environ 540 millions d'années ?",
+"options": {
+"A": "L'explosion cambrienne",
+"B": "La radiation jurassique",
+"C": "L'éveil carbonifère",
+"D": "La genèse permienne"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0179",
+"difficulty": "hard",
+"question": "Quel dinosaure carnivore d'Amérique du Sud appartenant aux abélisauridés possédait des bras minuscules presque immobiles sans véritables coudes ?",
+"options": {
+"A": "Le Giganotosaure",
+"B": "Le Carnotaure",
+"C": "Le Megaraptor",
+"D": "L'Allosaure"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0180",
+"difficulty": "hard",
+"question": "Quelle plante à fleurs a commencé à se développer et à transformer les écosystèmes terrestres au cours du Crétacé ?",
+"options": {
+"A": "Les conifères géants",
+"B": "Les fougères arborescentes",
+"C": "Les angiospermes",
+"D": "Les prêles géantes"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0181",
+"difficulty": "hard",
+"question": "Quel nom porte la partie osseuse de la queue soudée chez les oiseaux primitifs et certains théropodes portant les plumes caudales ?",
+"options": {
+"A": "L'urostyle",
+"B": "La clavicule",
+"C": "La crête neurale",
+"D": "Le pygostyle"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0182",
+"difficulty": "hard",
+"question": "Quel dinosaure herbivore du Crétacé portait une rangée de petites cornes pyramidales sur le museau et au-dessus des yeux ?",
+"options": {
+"A": "L'Ankylosaure",
+"B": "Le Tricératops",
+"C": "Le Diplodocus",
+"D": "L'Iguanodon"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0183",
+"difficulty": "hard",
+"question": "Quel célèbre reptile volant possédait un crâne muni d'une crête osseuse immense et d'une mâchoire totalement dépourvue de dents ?",
+"options": {
+"A": "Le Dimorphodon",
+"B": "Le Ptéranodon",
+"C": "Le Rhamphorhynchus",
+"D": "L'Archéoptéryx"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0184",
+"difficulty": "hard",
+"question": "Quel grand prédateur terrestre du Miocène appartenait à la famille des amphicyonidés surnommés 'chiens-ours' ?",
+"options": {
+"A": "Le Smilodon",
+"B": "L'Hyaenodon",
+"C": "L'Amphicyon",
+"D": "L'Andrewsarchus"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0185",
+"difficulty": "hard",
+"question": "Quel mammifère primitif d'Amérique du Sud possédait une longue trompe souple et ressemblait à un lama trapu sans bosse ?",
+"options": {
+"A": "Le Toxodon",
+"B": "Le Mégathérium",
+"C": "Le Glyptodon",
+"D": "La Macrauchenia"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0186",
+"difficulty": "hard",
+"question": "Quel dinosaure à bec de canard découvert en Amérique du Nord a conservé des traces fossilisées exceptionnelles d'empreintes de peau écailleuse (dinosaure momie) ?",
+"options": {
+"A": "L'Edmontosaure",
+"B": "Le Corythosaure",
+"C": "Le Parasaurolophus",
+"D": "Le Maiasaura"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0187",
+"difficulty": "hard",
+"question": "Quelle roche volcanique très coupante d'aspect vitreux noir les hommes préhistoriques utilisaient-ils pour tailler des lames ultra-tranchantes ?",
+"options": {
+"A": "Le basalte",
+"B": "L'obsidienne",
+"C": "Le granit",
+"D": "Le calcaire"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0188",
+"difficulty": "hard",
+"question": "Quel oiseau prédateur fossile de l'Éocène possédait une tête énorme et un bec crochu capable de broyer des proies entières ?",
+"options": {
+"A": "L'Argentavis",
+"B": "Le Moa",
+"C": "Le Gastornis",
+"D": "Le Dodo"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0189",
+"difficulty": "hard",
+"question": "Quel requin primitif du Dévonien possédait une étonnante spirale de dents fossilisées en forme de scie circulaire dans sa mâchoire inférieure ?",
+"options": {
+"A": "Le Mégalodon",
+"B": "Le Dunkleosteus",
+"C": "Le Cladoselache",
+"D": "L'Helicoprion"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0190",
+"difficulty": "hard",
+"question": "Quel dinosaure d'Afrique du Nord chassait dans les forêts fluviales avec des mâchoires étroites et un corps massif pouvant atteindre 12 mètres ?",
+"options": {
+"A": "Le Suchomimus",
+"B": "Le Majungasaure",
+"C": "L'Albertosaure",
+"D": "Le Megaraptor"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0191",
+"difficulty": "hard",
+"question": "Comment s'appelle l'ancêtre du cheval qui vivait dans les forêts tropicales de l'Éocène et mesurait la taille d'un renard ?",
+"options": {
+"A": "Le Merychippus",
+"B": "L'Hyracotherium (Eohippus)",
+"C": "Le Pliohippus",
+"D": "L'Equus primigenius"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0192",
+"difficulty": "hard",
+"question": "Quel dinosaure herbivore du Crétacé supérieur de Mongolie possédait deux grandes cornes courbées vers l'avant sur sa collerette ?",
+"options": {
+"A": "Le Protocératops",
+"B": "Le Pachyrhinosaure",
+"C": "Le Sinocératops",
+"D": "Le Centrosaure"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0193",
+"difficulty": "hard",
+"question": "Quel célèbre spécimen fossile montre un Vélociraptor et un Protocératops morts en plein combat figés par une tempête de sable ?",
+"options": {
+"A": "Les Géants du Crétacé",
+"B": "Le Duel des Glaces",
+"C": "La Proie et l'Ombre",
+"D": "Les Dinosaures combattants"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0194",
+"difficulty": "hard",
+"question": "Quel groupe de ptérosaures géants du Crétacé supérieur à cou rigide et grand bec comprenait le Quetzalcoatlus et l'Hatzegopteryx ?",
+"options": {
+"A": "Les Azhdarchidés",
+"B": "Les Rhamphorhynchidés",
+"C": "Les Ptérodactylidés",
+"D": "Les Ornithochéiridés"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0195",
+"difficulty": "hard",
+"question": "Quel dinosaure sauropode d'Amérique du Nord possédait un fouet caudal si long qu'il pouvait dépasser la vitesse du son lorsqu'il le faisait claquer ?",
+"options": {
+"A": "Le Brachiosaure",
+"B": "Le Diplodocus",
+"C": "Le Camarasaurus",
+"D": "L'Alamosaure"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0196",
+"difficulty": "hard",
+"question": "Quel nom donne-t-on aux sacs remplis d'air reliés aux poumons chez les dinosaures sauropodes et théropodes allégeant leur squelette ?",
+"options": {
+"A": "Les alvéoles minérales",
+"B": "Les branchies internes",
+"C": "Les sacs aériens",
+"D": "Les vessies natatoires"
+},
+"answer": "C"
+},
+{
+"id": "dino-fr-0197",
+"difficulty": "hard",
+"question": "Quelle vénus préhistorique sculptée dans du calcaire il y a environ 30 000 ans a été découverte en Autriche en 1908 ?",
+"options": {
+"A": "La vénus de Brassempouy",
+"B": "La vénus de Lespugue",
+"C": "La vénus de Laussel",
+"D": "La vénus de Willendorf"
+},
+"answer": "D"
+},
+{
+"id": "dino-fr-0198",
+"difficulty": "hard",
+"question": "Quel type de bassin caractérise les dinosaures de l'ordre des Saurischiens ?",
+"options": {
+"A": "Un pubis dirigé vers l'avant comme chez les lézards",
+"B": "Un pubis dirigé vers l'arrière comme chez les oiseaux",
+"C": "Un bassin circulaire entièrement soudé",
+"D": "L'absence totale d'os pelvien"
+},
+"answer": "A"
+},
+{
+"id": "dino-fr-0199",
+"difficulty": "hard",
+"question": "Quel animal préhistorique de la faune de Burgess au Cambrien possédait cinq yeux pédonculés et se déplaçait avec des lobes natatoires latéraux ?",
+"options": {
+"A": "Le Trilobite",
+"B": "L'Opabinia",
+"C": "L'Hallucigenia",
+"D": "L'Anomalocaris"
+},
+"answer": "B"
+},
+{
+"id": "dino-fr-0200",
+"difficulty": "hard",
+"question": "Quel dinosaure carnivore à quatre ailes découvert en Chine en 2000 a confirmé que les dinosaures utilisaient leurs plumes pour planer ou voler ?",
+"options": {
+"A": "Le Sinosauropteryx",
+"B": "L'Archéoptéryx",
+"C": "Le Microraptor",
+"D": "Le Caudipteryx"
+},
+"answer": "C"
+}
+]
 }

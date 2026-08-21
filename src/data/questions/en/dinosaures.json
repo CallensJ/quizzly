@@ -1,5 +1,2406 @@
 {
-  "category": "dinosaures",
-  "lang": "en",
-  "questions": []
+"category": "dinosaurs-prehistory",
+"lang": "en",
+"questions": [
+{
+"id": "dino-en-0001",
+"difficulty": "easy",
+"question": "Which famous meat-eating dinosaur had tiny two-fingered arms and giant, powerful jaws?",
+"options": {
+"A": "Tyrannosaurus rex",
+"B": "Brachiosaurus",
+"C": "Triceratops",
+"D": "Stegosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0002",
+"difficulty": "medium",
+"question": "What large sail-backed dinosaur is known for hunting both fish and land animals near water?",
+"options": {
+"A": "Carnotaurus",
+"B": "Spinosaurus",
+"C": "Allosaurus",
+"D": "Ceratosaurus"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0003",
+"difficulty": "hard",
+"question": "Which predatory dinosaur had two distinct bull-like horns above its eyes and exceptionally short arms?",
+"options": {
+"A": "Majungasaurus",
+"B": "Baryonyx",
+"C": "Carnotaurus",
+"D": "Giganotosaurus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0004",
+"difficulty": "easy",
+"question": "Which plant-eating dinosaur had three large horns on its face and a wide bony neck frill?",
+"options": {
+"A": "Parasaurolophus",
+"B": "Ankylosaurus",
+"C": "Diplodocus",
+"D": "Triceratops"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0005",
+"difficulty": "medium",
+"question": "What did the famous dinosaur Stegosaurus have running along its back?",
+"options": {
+"A": "A single giant sail",
+"B": "Two rows of bony plates",
+"C": "Sharp venomous spines",
+"D": "A thick fur coat"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0006",
+"difficulty": "hard",
+"question": "What is the specific name given to the four sharp defensive spikes on the tail of a Stegosaurus?",
+"options": {
+"A": "Osteoderm",
+"B": "Furcula",
+"C": "Thagomizer",
+"D": "Pygostyle"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0007",
+"difficulty": "medium",
+"question": "Which dinosaur is famous for its thick, domed skull, which scientists think it used for head-butting or pushing?",
+"options": {
+"A": "Iguanodon",
+"B": "Gallimimus",
+"C": "Corythosaurus",
+"D": "Pachycephalosaurus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0008",
+"difficulty": "hard",
+"question": "What unique feature did the duck-billed Parasaurolophus have on top of its head?",
+"options": {
+"A": "A long, curved hollow crest",
+"B": "A sharp horn like a rhino",
+"C": "A flat shield of solid bone",
+"D": "A soft fleshy comb like a rooster"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0009",
+"difficulty": "easy",
+"question": "Which armored dinosaur was built like a living tank, covered in bony plates and carrying a heavy tail club?",
+"options": {
+"A": "Pteranodon",
+"B": "Megalosaurus",
+"C": "Ankylosaurus",
+"D": "Oviraptor"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0010",
+"difficulty": "medium",
+"question": "What was special about the stance of Brachiosaurus compared to many other long-necked sauropods?",
+"options": {
+"A": "It walked only on two hind legs",
+"B": "Its body dragged along the ground",
+"C": "Its tail was longer than its neck",
+"D": "Its front legs were longer than its back legs"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0011",
+"difficulty": "hard",
+"question": "What giant sauropod found in South America is widely considered one of the heaviest land animals that ever lived?",
+"options": {
+"A": "Argentinosaurus",
+"B": "Camarasaurus",
+"C": "Plateosaurus",
+"D": "Mamenchisaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0012",
+"difficulty": "easy",
+"question": "How did all dinosaurs reproduce their young?",
+"options": {
+"A": "By giving birth under water",
+"B": "By laying hard-shelled eggs",
+"C": "By carrying babies in pouches",
+"D": "By splitting into two parts"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0013",
+"difficulty": "medium",
+"question": "Which famous feathered dinosaur fossil from Germany showed clear links between reptiles and modern birds?",
+"options": {
+"A": "Microraptor",
+"B": "Confuciusornis",
+"C": "Hesperornis",
+"D": "Archaeopteryx"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0014",
+"difficulty": "hard",
+"question": "In real life, how large was the turkey-sized dromaeosaurid Velociraptor mongoliensis?",
+"options": {
+"A": "About the size of a turkey or medium dog",
+"B": "As tall as an adult human elephant",
+"C": "As large as a city bus",
+"D": "As small as a tiny house sparrow"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0015",
+"difficulty": "medium",
+"question": "What notable feature did Velociraptor and Deinonychus have on the second toe of each foot?",
+"options": {
+"A": "A flat swimming fin",
+"B": "A large, curved sickle claw",
+"C": "A sticky suction cup",
+"D": "A hollow thumb spike"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0016",
+"difficulty": "hard",
+"question": "Which giant raptor discovered in North America was much larger than Velociraptor, reaching up to 6 meters in length?",
+"options": {
+"A": "Dromaeosaurus",
+"B": "Bambiraptor",
+"C": "Utahraptor",
+"D": "Sinornithosaurus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0017",
+"difficulty": "easy",
+"question": "What do scientists who discover and study fossils of prehistoric life call themselves?",
+"options": {
+"A": "Astronomers",
+"B": "Paleontologists",
+"C": "Meteorologists",
+"D": "Botanists"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0018",
+"difficulty": "medium",
+"question": "What is the fossilized resin from ancient tree sap called that can trap prehistoric insects?",
+"options": {
+"A": "Obsidian",
+"B": "Flint",
+"C": "Amber",
+"D": "Granite"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0019",
+"difficulty": "hard",
+"question": "What is the scientific term for fossilized dinosaur poop?",
+"options": {
+"A": "Gastrolith",
+"B": "Endocast",
+"C": "Mold fossil",
+"D": "Coprolite"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0020",
+"difficulty": "easy",
+"question": "Which modern living animals are the direct surviving descendants of theropod dinosaurs?",
+"options": {
+"A": "Birds",
+"B": "Lizards",
+"C": "Crocodiles",
+"D": "Frogs"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0021",
+"difficulty": "medium",
+"question": "During which geological era did dinosaurs rule the Earth?",
+"options": {
+"A": "Cenozoic Era",
+"B": "Mesozoic Era",
+"C": "Paleozoic Era",
+"D": "Precambrian Era"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0022",
+"difficulty": "hard",
+"question": "Which three geological periods make up the Mesozoic Era in the correct chronological order?",
+"options": {
+"A": "Permian, Carboniferous, Devonian",
+"B": "Cambrian, Ordovician, Silurian",
+"C": "Triassic, Jurassic, Cretaceous",
+"D": "Paleogene, Neogene, Quaternary"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0023",
+"difficulty": "medium",
+"question": "In which geological period did the very first dinosaurs appear on Earth?",
+"options": {
+"A": "Cretaceous Period",
+"B": "Jurassic Period",
+"C": "Devonian Period",
+"D": "Triassic Period"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0024",
+"difficulty": "hard",
+"question": "In which period did iconic dinosaurs like Tyrannosaurus rex, Triceratops, and Ankylosaurus live?",
+"options": {
+"A": "Cretaceous Period",
+"B": "Jurassic Period",
+"C": "Triassic Period",
+"D": "Permian Period"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0025",
+"difficulty": "easy",
+"question": "What major event is widely believed to have caused the extinction of the non-avian dinosaurs?",
+"options": {
+"A": "A massive flood covering all continents",
+"B": "A giant asteroid hitting Earth",
+"C": "A sudden worldwide shortage of water",
+"D": "A global plague caused by bacteria"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0026",
+"difficulty": "medium",
+"question": "Where is the famous Chicxulub impact crater located, linked to the dinosaur extinction?",
+"options": {
+"A": "The Australian Outback",
+"B": "The Sahara Desert",
+"C": "The Yucatan Peninsula in Mexico",
+"D": "The Siberian Tundra"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0027",
+"difficulty": "hard",
+"question": "Approximately how many million years ago did the non-avian dinosaurs go extinct?",
+"options": {
+"A": "10 million years ago",
+"B": "250 million years ago",
+"C": "500 million years ago",
+"D": "66 million years ago"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0028",
+"difficulty": "easy",
+"question": "What were flying prehistoric reptiles like Pteranodon and Quetzalcoatlus called?",
+"options": {
+"A": "Pterosaurs",
+"B": "Sauropods",
+"C": "Theropods",
+"D": "Plesiosaurs"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0029",
+"difficulty": "medium",
+"question": "Were flying pterosaurs technically classified as true dinosaurs?",
+"options": {
+"A": "Yes, they were avian dinosaurs",
+"B": "No, they were flying reptiles, not dinosaurs",
+"C": "Yes, they were the first theropods",
+"D": "No, they were warm-blooded bats"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0030",
+"difficulty": "hard",
+"question": "Which enormous pterosaur had a wingspan as wide as a small airplane, measuring up to 10 to 11 meters?",
+"options": {
+"A": "Rhamphorhynchus",
+"B": "Dimorphodon",
+"C": "Quetzalcoatlus",
+"D": "Pterodactylus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0031",
+"difficulty": "medium",
+"question": "What were the wings of pterosaurs primarily made of?",
+"options": {
+"A": "Feathers attached to hand bones",
+"B": "Hard chitin like beetle wings",
+"C": "Solid lightweight bone plates",
+"D": "A skin membrane supported by a long finger"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0032",
+"difficulty": "hard",
+"question": "Which finger of a pterosaur's hand grew extremely long to support its flight wing membrane?",
+"options": {
+"A": "The fourth finger",
+"B": "The thumb",
+"C": "The middle finger",
+"D": "The index finger"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0033",
+"difficulty": "easy",
+"question": "Which prehistoric creature was a giant marine reptile with four flippers and a very long neck?",
+"options": {
+"A": "Triceratops",
+"B": "Plesiosaurus",
+"C": "Pteranodon",
+"D": "Velociraptor"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0034",
+"difficulty": "medium",
+"question": "What type of prehistoric marine animal had a sleek, streamlined body and dorsal fin shaped like a modern dolphin?",
+"options": {
+"A": "Mosasaurus",
+"B": "Nothosaurus",
+"C": "Ichthyosaurus",
+"D": "Elasmosaurus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0035",
+"difficulty": "hard",
+"question": "Which apex ocean predator of the Late Cretaceous was a giant sea lizard closely related to modern monitor lizards and snakes?",
+"options": {
+"A": "Kronosaurus",
+"B": "Dunkleosteus",
+"C": "Henodus",
+"D": "Mosasaurus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0036",
+"difficulty": "easy",
+"question": "What type of diet did a herbivorous dinosaur like Diplodocus eat?",
+"options": {
+"A": "Plants, leaves, and ferns",
+"B": "Meat from smaller dinosaurs",
+"C": "Fish from rivers and lakes",
+"D": "Insects and earthworms"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0037",
+"difficulty": "medium",
+"question": "What is the name for smooth stones that some plant-eating dinosaurs swallowed to help grind food inside their stomachs?",
+"options": {
+"A": "Coprolites",
+"B": "Gastroliths",
+"C": "Geodes",
+"D": "Stromatolites"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0038",
+"difficulty": "hard",
+"question": "Which dinosaur had a large, sharp spike on its thumb, originally mistaken for a nose horn by early fossil hunters?",
+"options": {
+"A": "Hadrosaurus",
+"B": "Ouranosaurus",
+"C": "Iguanodon",
+"D": "Hypsilophodon"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0039",
+"difficulty": "medium",
+"question": "What does the dinosaur name 'Maiasaura' mean, named after its fossil nests showing parent care?",
+"options": {
+"A": "Giant lizard",
+"B": "Fast runner",
+"C": "Sharp tooth",
+"D": "Good mother lizard"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0040",
+"difficulty": "hard",
+"question": "Why was the small theropod Oviraptor given a name that means 'egg thief'?",
+"options": {
+"A": "It was found fossilized sitting on its own nest of eggs",
+"B": "It only ate the eggs of sea turtles",
+"C": "It built nests inside other dinosaurs' caves",
+"D": "Its teeth were shaped like egg-cracking tools"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0041",
+"difficulty": "easy",
+"question": "What English paleontologist woman became famous for discovering the first complete Ichthyosaur and Plesiosaur fossils in Lyme Regis?",
+"options": {
+"A": "Jane Goodall",
+"B": "Mary Anning",
+"C": "Marie Curie",
+"D": "Rosalind Franklin"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0042",
+"difficulty": "medium",
+"question": "What type of rock is the most common place to find dinosaur fossils?",
+"options": {
+"A": "Volcanic igneous rock",
+"B": "Pure marble",
+"C": "Sedimentary rock",
+"D": "Molten lava"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0043",
+"difficulty": "hard",
+"question": "What British scientist coined the scientific word 'Dinosauria' (meaning 'terrible lizards') in 1842?",
+"options": {
+"A": "Charles Darwin",
+"B": "Gideon Mantell",
+"C": "William Buckland",
+"D": "Richard Owen"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0044",
+"difficulty": "easy",
+"question": "Which large Ice Age mammal had long curved tusks, thick shaggy fur, and was closely related to modern elephants?",
+"options": {
+"A": "Woolly Mammoth",
+"B": "Sabertooth Tiger",
+"C": "Cave Bear",
+"D": "Irish Elk"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0045",
+"difficulty": "medium",
+"question": "What famous Ice Age predator was known for its massive, knife-like upper canine teeth?",
+"options": {
+"A": "Dire Wolf",
+"B": "Smilodon (Saber-toothed cat)",
+"C": "Megatherium",
+"D": "Cave Hyena"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0046",
+"difficulty": "hard",
+"question": "What giant prehistoric mammal, known as Megatherium, lived in South America and ate plants from high tree branches?",
+"options": {
+"A": "Giant armadillo",
+"B": "Giant beaver",
+"C": "Giant ground sloth",
+"D": "Giant wombat"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0047",
+"difficulty": "medium",
+"question": "Which giant prehistoric shark was one of the largest predators to ever swim in the oceans, growing over 15 meters long?",
+"options": {
+"A": "Helicoprion",
+"B": "Dunkleosteus",
+"C": "Stethacanthus",
+"D": "Megalodon"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0048",
+"difficulty": "hard",
+"question": "What ancient armored fish from the Devonian period had bony plates on its head and self-sharpening jaw blades instead of teeth?",
+"options": {
+"A": "Dunkleosteus",
+"B": "Leedsichthys",
+"C": "Tiktaalik",
+"D": "Coelacanth"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0049",
+"difficulty": "easy",
+"question": "Which prehistoric sea creature had a spiral-shaped coiled shell and was related to modern squids and octopuses?",
+"options": {
+"A": "Trilobite",
+"B": "Ammonite",
+"C": "Sea scorpion",
+"D": "Eurypterid"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0050",
+"difficulty": "medium",
+"question": "What ancient arthropod crawled on the ocean floor for hundreds of millions of years with a three-lobed armored exoskeleton?",
+"options": {
+"A": "Anomalocaris",
+"B": "Hallucigenia",
+"C": "Trilobite",
+"D": "Opabinia"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0051",
+"difficulty": "hard",
+"question": "What famous sail-backed synapsid lived in the Permian period before the dinosaurs and was actually an early mammal relative?",
+"options": {
+"A": "Edaphosaurus",
+"B": "Gorgonops",
+"C": "Moschops",
+"D": "Dimetrodon"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0052",
+"difficulty": "easy",
+"question": "Which long-necked dinosaur used its whip-like tail for defense and communication?",
+"options": {
+"A": "Diplodocus",
+"B": "Allosaurus",
+"C": "Pteranodon",
+"D": "Velociraptor"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0053",
+"difficulty": "medium",
+"question": "What were the giant dragonflies called that flew through Carboniferous swamps with wingspans over 65 centimeters?",
+"options": {
+"A": "Arthropleura",
+"B": "Meganeura",
+"C": "Titanomyrma",
+"D": "Pulmonoscorpius"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0054",
+"difficulty": "hard",
+"question": "What giant millipede-like creature from the Carboniferous grew up to 2.5 meters long, making it the largest known land invertebrate?",
+"options": {
+"A": "Megarachne",
+"B": "Jaekelopterus",
+"C": "Arthropleura",
+"D": "Pterygotus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0055",
+"difficulty": "medium",
+"question": "Why could giant insects and arthropods grow so huge during the Carboniferous period?",
+"options": {
+"A": "There was no gravity on Earth",
+"B": "The oceans were made of freshwater",
+"C": "There were no predators of any kind",
+"D": "The air had much higher levels of oxygen"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0056",
+"difficulty": "hard",
+"question": "What transitional fossil fish discovered in northern Canada had wrist bones and a neck, linking fish to four-legged land animals?",
+"options": {
+"A": "Tiktaalik",
+"B": "Eusthenopteron",
+"C": "Acanthostega",
+"D": "Ichthyostega"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0057",
+"difficulty": "easy",
+"question": "What kind of teeth did meat-eating dinosaurs typically have?",
+"options": {
+"A": "Flat and wide for grinding grain",
+"B": "Sharp, pointed, and serrated like steak knives",
+"C": "No teeth at all, just soft gums",
+"D": "Smooth square teeth like horses"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0058",
+"difficulty": "medium",
+"question": "Which dinosaur name literally translates to 'three-horned face'?",
+"options": {
+"A": "Protoceratops",
+"B": "Centrosaurus",
+"C": "Triceratops",
+"D": "Styracosaurus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0059",
+"difficulty": "hard",
+"question": "Which ceratopsian dinosaur had a massive nasal horn and a frill adorned with long, sharp radiating spikes?",
+"options": {
+"A": "Chasmosaurus",
+"B": "Pachyrhinosaurus",
+"C": "Torosaurus",
+"D": "Styracosaurus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0060",
+"difficulty": "easy",
+"question": "Did humans and Tyrannosaurus rex ever live on Earth at the same time?",
+"options": {
+"A": "No, they were separated by over 60 million years",
+"B": "Yes, humans hunted T-Rex for meat",
+"C": "Yes, they shared the same caves during winter",
+"D": "No, humans lived before dinosaurs"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0061",
+"difficulty": "medium",
+"question": "What supercontinent existed when the earliest dinosaurs first appeared during the Triassic period?",
+"options": {
+"A": "Gondwana",
+"B": "Pangaea",
+"C": "Laurasia",
+"D": "Atlantis"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0062",
+"difficulty": "hard",
+"question": "What structure in dinosaur bones shows growth rings similar to those found inside tree trunks?",
+"options": {
+"A": "Trabecular mesh",
+"B": "Medullary cavity",
+"C": "Lines of arrested growth (LAGs)",
+"D": "Haversian canals"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0063",
+"difficulty": "medium",
+"question": "What ostrich-like dinosaur had long legs, large eyes, a toothless beak, and was built for sprinting fast?",
+"options": {
+"A": "Therizinosaurus",
+"B": "Anzu",
+"C": "Deinocheirus",
+"D": "Gallimimus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0064",
+"difficulty": "hard",
+"question": "Which bizarre herbivorous theropod dinosaur had the longest claws of any known animal, reaching up to 1 meter in length?",
+"options": {
+"A": "Therizinosaurus",
+"B": "Mononykus",
+"C": "Baryonyx",
+"D": "Megaraptor"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0065",
+"difficulty": "easy",
+"question": "What is a fossilized footprint or dinosaur trackway called by scientists?",
+"options": {
+"A": "Body fossil",
+"B": "Trace fossil",
+"C": "Cast fossil",
+"D": "Mineral fossil"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0066",
+"difficulty": "medium",
+"question": "What color was the small feathered dinosaur Sinosauropteryx found to have on its tail, based on preserved melanosomes?",
+"options": {
+"A": "Bright neon green stripes",
+"B": "Deep purple spots",
+"C": "Reddish-orange and white stripes",
+"D": "Solid midnight blue"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0067",
+"difficulty": "hard",
+"question": "Microscopic pigment structures found in fossilized dinosaur feathers that reveal ancient colors are known as what?",
+"options": {
+"A": "Chloroplasts",
+"B": "Keratin fibers",
+"C": "Osteoclasts",
+"D": "Melanosomes"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0068",
+"difficulty": "medium",
+"question": "What was the main apex predator in North America during the late Jurassic period, before T-Rex evolved?",
+"options": {
+"A": "Allosaurus",
+"B": "Albertosaurus",
+"C": "Abelisaurus",
+"D": "Acrocanthosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0069",
+"difficulty": "hard",
+"question": "Which giant carnivorous dinosaur discovered in Argentina was closely related to Carcharodontosaurus and rivaled T-Rex in size?",
+"options": {
+"A": "Mapusaurus",
+"B": "Giganotosaurus",
+"C": "Tyrannotitan",
+"D": "Deltadromeus"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0070",
+"difficulty": "hard",
+"question": "Which dinosaur had the longest neck relative to its total body length, with a neck measuring over 13 meters?",
+"options": {
+"A": "Apatosaurus",
+"B": "Camarasaurus",
+"C": "Mamenchisaurus",
+"D": "Shunosaurus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0071",
+"difficulty": "easy",
+"question": "Which animal had a massive dome-shaped shell made of bony plates and looked like a giant Ice Age armadillo?",
+"options": {
+"A": "Diprotodon",
+"B": "Megatherium",
+"C": "Macrauchenia",
+"D": "Glyptodon"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0072",
+"difficulty": "medium",
+"question": "What was Titanoboa, a massive prehistoric creature that lived after the dinosaurs in tropical swamps?",
+"options": {
+"A": "The largest known prehistoric snake",
+"B": "A giant swimming turtle",
+"C": "An ancient giant crocodile",
+"D": "A giant carnivorous salamander"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0073",
+"difficulty": "hard",
+"question": "Approximately how long could the giant prehistoric snake Titanoboa grow?",
+"options": {
+"A": "About 4 meters",
+"B": "Around 12 to 14 meters",
+"C": "Over 35 meters",
+"D": "About 2 meters"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0074",
+"difficulty": "medium",
+"question": "What name is given to the fierce, flightless apex predator birds of prehistoric South America?",
+"options": {
+"A": "Dodo birds",
+"B": "Moa birds",
+"C": "Terror birds (Phorusrhacids)",
+"D": "Elephant birds"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0075",
+"difficulty": "hard",
+"question": "What prehistoric rhino relative was one of the largest land mammals to ever walk the Earth?",
+"options": {
+"A": "Elasmotherium",
+"B": "Coelodonta",
+"C": "Uintatherium",
+"D": "Paraceratherium"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0076",
+"difficulty": "easy",
+"question": "What happened to dinosaur teeth when they fell out or got broken while eating?",
+"options": {
+"A": "New replacement teeth continuously grew in",
+"B": "The dinosaur had to eat only liquids",
+"C": "A wooden spike grew in its place",
+"D": "Dinosaurs never lost any teeth"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0077",
+"difficulty": "medium",
+"question": "What type of dinosaur is famous for having hollow air sacs inside its bones to reduce weight, just like modern birds?",
+"options": {
+"A": "Ankylosaurs",
+"B": "Saurischians (theropods and sauropods)",
+"C": "Stegosaurs",
+"D": "Ceratopsians"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0078",
+"difficulty": "hard",
+"question": "What two major groups are dinosaurs divided into based on the structure of their hip bones?",
+"options": {
+"A": "Carnivores and Herbivores",
+"B": "Bipeds and Quadrupeds",
+"C": "Saurischia and Ornithischia",
+"D": "Pterosauria and Plesiosauria"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0079",
+"difficulty": "medium",
+"question": "What is the famous fossil of a Velociraptor and a Protoceratops locked in mortal combat called?",
+"options": {
+"A": "The Eternal Hunters",
+"B": "The Bone War Fossils",
+"C": "The Double Skeleton",
+"D": "The Fighting Dinosaurs"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0080",
+"difficulty": "hard",
+"question": "In which desert were the famous 'Fighting Dinosaurs' and hundreds of Cretaceous dinosaur nests discovered?",
+"options": {
+"A": "Gobi Desert",
+"B": "Sahara Desert",
+"C": "Atacama Desert",
+"D": "Kalahari Desert"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0081",
+"difficulty": "easy",
+"question": "What kind of animal was the prehistoric Woolly Rhinoceros?",
+"options": {
+"A": "A scaly dinosaur",
+"B": "A furry mammal with two horns on its snout",
+"C": "A flying reptile with feathers",
+"D": "A giant swimming turtle"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0082",
+"difficulty": "medium",
+"question": "What famous predator of the prehistoric seas had a jaw with a spiral 'tooth whorl' shaped like a circular saw?",
+"options": {
+"A": "Megalodon",
+"B": "Mosasaurus",
+"C": "Helicoprion",
+"D": "Dunkleosteus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0083",
+"difficulty": "hard",
+"question": "What strange Cambrian marine animal had five eyes on its head and a long flexible nozzle with a claw at the tip?",
+"options": {
+"A": "Hallucigenia",
+"B": "Wiwaxia",
+"C": "Pikaia",
+"D": "Opabinia"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0084",
+"difficulty": "easy",
+"question": "Which continent has yielded dinosaur fossils, proving that dinosaurs once lived across the entire planet?",
+"options": {
+"A": "All seven continents, including Antarctica",
+"B": "Only North America and Europe",
+"C": "Only Asia and Africa",
+"D": "Only South America and Australia"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0085",
+"difficulty": "medium",
+"question": "What crested dinosaur discovered in Antarctica had a unique fan-like bony crest across its forehead?",
+"options": {
+"A": "Dilophosaurus",
+"B": "Cryolophosaurus",
+"C": "Monolophosaurus",
+"D": "Guanlong"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0086",
+"difficulty": "hard",
+"question": "Which famous Jurassic predator had a pair of thin, semi-circular crests running along the top of its skull?",
+"options": {
+"A": "Ceratosaurus",
+"B": "Carnotaurus",
+"C": "Dilophosaurus",
+"D": "Coelophysis"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0087",
+"difficulty": "medium",
+"question": "What gave the dinosaur group known as 'hadrosaurs' their popular nickname?",
+"options": {
+"A": "They had fins like fish",
+"B": "They had three eyes",
+"C": "They had sharp saber teeth",
+"D": "Their flat beaks looked like duck bills"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0088",
+"difficulty": "hard",
+"question": "What was the purpose of the hundreds of tightly packed teeth forming a 'dental battery' in duck-billed hadrosaurs?",
+"options": {
+"A": "To grind tough fibrous plants and pine needles",
+"B": "To crush thick turtle shells and clams",
+"C": "To chew bones of large carcasses",
+"D": "To catch slippery swimming fish"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0089",
+"difficulty": "easy",
+"question": "Which dinosaur had small front arms, huge legs, and a name that means 'Tyrant Lizard King'?",
+"options": {
+"A": "Velociraptor",
+"B": "Tyrannosaurus rex",
+"C": "Spinosaurus",
+"D": "Allosaurus"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0090",
+"difficulty": "medium",
+"question": "What was the dinosaur Baryonyx especially adapted to catch with its long crocodile-like snout and curved claws?",
+"options": {
+"A": "Flying pterosaurs",
+"B": "Insects in tall trees",
+"C": "Large fish in rivers",
+"D": "Burrowing rodents"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0091",
+"difficulty": "hard",
+"question": "Which fish-eating spinosaurid dinosaur was discovered in the Sahara Desert with a prominent bony sail on its back?",
+"options": {
+"A": "Irritator",
+"B": "Ichthyovenator",
+"C": "Oxalaia",
+"D": "Suchomimus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0092",
+"difficulty": "easy",
+"question": "What term describes animals like T-Rex that walk and run on two legs?",
+"options": {
+"A": "Bipedal",
+"B": "Quadrupedal",
+"C": "Aquatic",
+"D": "Arboreal"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0093",
+"difficulty": "medium",
+"question": "What term describes four-legged animals that walk on all fours, like Triceratops and Diplodocus?",
+"options": {
+"A": "Bipedal",
+"B": "Quadrupedal",
+"C": "Amphibious",
+"D": "Aerial"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0094",
+"difficulty": "hard",
+"question": "What is the famous fossil formation in the western United States where many iconic Jurassic dinosaurs were found?",
+"options": {
+"A": "Hell Creek Formation",
+"B": "Burgess Shale",
+"C": "Morrison Formation",
+"D": "Yixian Formation"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0095",
+"difficulty": "medium",
+"question": "What late Cretaceous rock layer in North America contains fossils of T-Rex, Triceratops, and Ankylosaurus right up to the extinction event?",
+"options": {
+"A": "Solnhofen Limestone",
+"B": "Dinosaur Park Formation",
+"C": "Chinle Formation",
+"D": "Hell Creek Formation"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0096",
+"difficulty": "hard",
+"question": "What rare metal element, abundant in asteroids, is found in a thin worldwide rock layer marking the end of the Cretaceous period?",
+"options": {
+"A": "Iridium",
+"B": "Platinum",
+"C": "Titanium",
+"D": "Uranium"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0097",
+"difficulty": "easy",
+"question": "What is the process called where bone slowly turns into rock over millions of years?",
+"options": {
+"A": "Evaporation",
+"B": "Fossilization",
+"C": "Photosynthesis",
+"D": "Hibernation"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0098",
+"difficulty": "medium",
+"question": "Which small, early dinosaur from the late Triassic of North America was a fast, slender hunter that hunted in packs?",
+"options": {
+"A": "Plateosaurus",
+"B": "Herrerasaurus",
+"C": "Coelophysis",
+"D": "Eoraptor"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0099",
+"difficulty": "hard",
+"question": "What primitive carnivorous dinosaur discovered in Argentina is considered one of the earliest known true dinosaurs?",
+"options": {
+"A": "Marasuchus",
+"B": "Staurikosaurus",
+"C": "Lagosuchus",
+"D": "Eoraptor"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0100",
+"difficulty": "easy",
+"question": "What giant, prehistoric bird from New Zealand was hunted to extinction several centuries ago?",
+"options": {
+"A": "Moa",
+"B": "Archaeopteryx",
+"C": "Penguin",
+"D": "Ostrich"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0101",
+"difficulty": "medium",
+"question": "What extinct flightless bird lived on the island of Mauritius until the 17th century?",
+"options": {
+"A": "Gastornis",
+"B": "Dodo",
+"C": "Hesperornis",
+"D": "Phorusrhacos"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0102",
+"difficulty": "hard",
+"question": "What large flightless bird of the Eocene epoch had a giant, heavy crushing beak and lived in ancient European and North American forests?",
+"options": {
+"A": "Pelagornis",
+"B": "Argentavis",
+"C": "Gastornis",
+"D": "Aepyornis"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0103",
+"difficulty": "medium",
+"question": "What prehistoric marine reptile had the longest neck of any plesiosaur, with over 70 neck vertebrae?",
+"options": {
+"A": "Liopleurodon",
+"B": "Kronosaurus",
+"C": "Nothosaurus",
+"D": "Elasmosaurus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0104",
+"difficulty": "hard",
+"question": "Which short-necked pliosaur had massive jaws and was an apex ocean predator during the Jurassic period?",
+"options": {
+"A": "Liopleurodon",
+"B": "Shonisaurus",
+"C": "Placodus",
+"D": "Tanystropheus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0105",
+"difficulty": "easy",
+"question": "What animal group do sea turtles and modern crocodiles belong to that survived the great dinosaur extinction?",
+"options": {
+"A": "Amphibians",
+"B": "Reptiles",
+"C": "Mammals",
+"D": "Insects"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0106",
+"difficulty": "medium",
+"question": "What is the name of the famous 19th-century scientific rivalry between fossil hunters Edward Cope and Othniel Marsh?",
+"options": {
+"A": "The Great Dinosaur Hunt",
+"B": "The Jurassic Duel",
+"C": "The Bone Wars",
+"D": "The Fossil Quest"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0107",
+"difficulty": "hard",
+"question": "Which famous dinosaur was mistakenly given two different names, leading to a long debate about whether it was Apatosaurus?",
+"options": {
+"A": "Diplodocus",
+"B": "Camarasaurus",
+"C": "Barosaurus",
+"D": "Brontosaurus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0108",
+"difficulty": "easy",
+"question": "What was the most likely primary function of feathers on small theropod dinosaurs before flight evolved?",
+"options": {
+"A": "Keeping warm and display",
+"B": "Digging deep holes in dirt",
+"C": "Holding onto slippery rocks",
+"D": "Storing water during dry seasons"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0109",
+"difficulty": "medium",
+"question": "Which four-winged gliding dromaeosaurid discovered in China had long flight feathers on both its arms and its legs?",
+"options": {
+"A": "Anchiornis",
+"B": "Microraptor",
+"C": "Caudipteryx",
+"D": "Epidexipteryx"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0110",
+"difficulty": "hard",
+"question": "What feathered dinosaur from China proved that early tyrannosauroids had coats of hair-like proto-feathers?",
+"options": {
+"A": "Guanlong",
+"B": "Dilong",
+"C": "Yutyrannus",
+"D": "Sinotyrannus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0111",
+"difficulty": "medium",
+"question": "What prehistoric marine reptile gave birth to live young in water instead of coming onto land to lay eggs?",
+"options": {
+"A": "Trilobite",
+"B": "Ammonite",
+"C": "Archelon",
+"D": "Ichthyosaurus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0112",
+"difficulty": "hard",
+"question": "What giant Cretaceous sea turtle grew over 4 meters long, making it the largest sea turtle ever known?",
+"options": {
+"A": "Archelon",
+"B": "Protostega",
+"C": "Psephoderma",
+"D": "Henodus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0113",
+"difficulty": "easy",
+"question": "Where did marine reptiles like Mosasaurus and Plesiosaurus spend their entire lives?",
+"options": {
+"A": "In treetops",
+"B": "In the ocean",
+"C": "In desert dunes",
+"D": "Inside underground caves"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0114",
+"difficulty": "medium",
+"question": "What type of plant was NOT common during the Jurassic period, since it only evolved and spread during the Cretaceous?",
+"options": {
+"A": "Ferns",
+"B": "Conifers",
+"C": "Flowering plants (angiosperms)",
+"D": "Cycads"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0115",
+"difficulty": "hard",
+"question": "What ancient palm-like seed plants with thick trunks and crown fronds dominated the landscape during the Mesozoic Era?",
+"options": {
+"A": "Horsetails",
+"B": "Ginkgoes",
+"C": "Mosses",
+"D": "Cycads"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0116",
+"difficulty": "medium",
+"question": "What is the name of the most complete and best-preserved Tyrannosaurus rex skeleton, displayed at the Field Museum in Chicago?",
+"options": {
+"A": "Sue",
+"B": "Stan",
+"C": "Scotty",
+"D": "Tristan"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0117",
+"difficulty": "hard",
+"question": "Which museum in London has a world-famous main hall and was originally founded by paleontologist Sir Richard Owen?",
+"options": {
+"A": "The British Museum",
+"B": "The Natural History Museum",
+"C": "The Science Museum",
+"D": "The Victoria and Albert Museum"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0118",
+"difficulty": "hard",
+"question": "What strange triassic reptile had a neck longer than its entire body and tail combined, supported by very long neck vertebrae?",
+"options": {
+"A": "Sharovipteryx",
+"B": "Longisquama",
+"C": "Tanystropheus",
+"D": "Drepanosaurus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0119",
+"difficulty": "easy",
+"question": "Which of these animals lived during the prehistoric Ice Age alongside early humans?",
+"options": {
+"A": "Stegosaurus",
+"B": "Brachiosaurus",
+"C": "Velociraptor",
+"D": "Cave Bear"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0120",
+"difficulty": "medium",
+"question": "What preserved specimens of Woolly Mammoths have scientists found frozen in ice in Siberia and Alaska?",
+"options": {
+"A": "Entire bodies with skin, fur, and stomach contents intact",
+"B": "Only tiny footprints in the mud",
+"C": "Stone tools made of glass",
+"D": "Petrified eggs filled with crystals"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0121",
+"difficulty": "hard",
+"question": "What is the famous group of tar pits located in Los Angeles where thousands of Ice Age fossils have been preserved?",
+"options": {
+"A": "Burgess Shale Pits",
+"B": "La Brea Tar Pits",
+"C": "Solnhofen Pits",
+"D": "Olduvai Gorge"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0122",
+"difficulty": "medium",
+"question": "What Ice Age predator was a heavily built wild dog that hunted horses, bison, and mammoths in packs?",
+"options": {
+"A": "Dingo",
+"B": "Coyote",
+"C": "Dire Wolf",
+"D": "Thylacine"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0123",
+"difficulty": "hard",
+"question": "What extinct marsupial carnivore from South America had long saber-like canine teeth, resembling a saber-toothed cat?",
+"options": {
+"A": "Diprotodon",
+"B": "Procoptodon",
+"C": "Borhyaena",
+"D": "Thylacosmilus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0124",
+"difficulty": "easy",
+"question": "What body feature helped sauropods like Brachiosaurus reach high tree leaves that other dinosaurs could not reach?",
+"options": {
+"A": "An extremely long neck",
+"B": "Large feather wings",
+"C": "A sharp horn on their snout",
+"D": "Webbed swimming feet"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0125",
+"difficulty": "medium",
+"question": "What was the function of the massive crests and frills on ceratopsians like Protoceratops and Chasmosaurus?",
+"options": {
+"A": "Flying through the air",
+"B": "Species display, recognition, and defense",
+"C": "Breathing underwater",
+"D": "Storing fatty food for the winter"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0126",
+"difficulty": "hard",
+"question": "Which hadrosaur had a distinctive rounded, helmet-like crest on its head containing extended nasal passages?",
+"options": {
+"A": "Saurolophus",
+"B": "Edmontosaurus",
+"C": "Corythosaurus",
+"D": "Maiasaura"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0127",
+"difficulty": "medium",
+"question": "What gave the armored dinosaur Ankylosaurus its heavy protection along its back and head?",
+"options": {
+"A": "Thick fur mats",
+"B": "Rubber-like skin folds",
+"C": "Hard chitin scales like insects",
+"D": "Bony plates embedded in the skin called osteoderms"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0128",
+"difficulty": "hard",
+"question": "Which nodosaurid armored dinosaur fossil found in Canada in 2011 was so well preserved it was called a 'dinosaur mummy'?",
+"options": {
+"A": "Borealopelta",
+"B": "Euoplocephalus",
+"C": "Nodosaurus",
+"D": "Polacanthus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0129",
+"difficulty": "easy",
+"question": "What part of a dinosaur is most commonly found preserved as a fossil?",
+"options": {
+"A": "Eyes and tongue",
+"B": "Bones and teeth",
+"C": "Stomach and liver",
+"D": "Brain and skin"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0130",
+"difficulty": "medium",
+"question": "What is the geological time period known as the 'Age of Fishes' that came long before dinosaurs?",
+"options": {
+"A": "Triassic",
+"B": "Cretaceous",
+"C": "Devonian",
+"D": "Jurassic"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0131",
+"difficulty": "hard",
+"question": "What ancient Cambrian predator had compound eyes, two spiny grasping appendages, and a circular mouth like a pineapple slice?",
+"options": {
+"A": "Hallucigenia",
+"B": "Pikaia",
+"C": "Marella",
+"D": "Anomalocaris"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0132",
+"difficulty": "easy",
+"question": "Did dinosaurs live on land, in the air, or in the ocean?",
+"options": {
+"A": "True dinosaurs were land-dwelling animals",
+"B": "All dinosaurs lived exclusively in deep oceans",
+"C": "Dinosaurs only lived underground",
+"D": "All dinosaurs lived in high clouds"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0133",
+"difficulty": "medium",
+"question": "How did sauropod dinosaurs prevent their eggs from breaking when laying them from such a great height?",
+"options": {
+"A": "They dropped them into deep ocean water",
+"B": "They crouched down and used an ovipositor tube",
+"C": "They caught the eggs with their front feet",
+"D": "Their eggs had soft rubbery shells that bounced"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0134",
+"difficulty": "hard",
+"question": "What is the name of the bone formed by the fused clavicles in theropod dinosaurs, identical to the wishbone of birds?",
+"options": {
+"A": "Scapula",
+"B": "Coracoid",
+"C": "Furcula",
+"D": "Synsacrum"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0135",
+"difficulty": "medium",
+"question": "Which carnivorous dinosaur had a pair of short horns above its eyes and three fingers on each hand?",
+"options": {
+"A": "Tyrannosaurus rex",
+"B": "Carnotaurus",
+"C": "Velociraptor",
+"D": "Allosaurus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0136",
+"difficulty": "hard",
+"question": "What small feathered theropod discovered in China had long ribbon-like tail feathers and four wings?",
+"options": {
+"A": "Anchiornis",
+"B": "Scansoriopteryx",
+"C": "Epidexipteryx",
+"D": "Yi qi"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0137",
+"difficulty": "easy",
+"question": "What is the name of a dinosaur that eats both plants and meat?",
+"options": {
+"A": "Herbivore",
+"B": "Omnivore",
+"C": "Carnivore",
+"D": "Piscivore"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0138",
+"difficulty": "medium",
+"question": "Which bizarre small dinosaur discovered in China had bat-like membranous wings supported by a rod-like wrist bone?",
+"options": {
+"A": "Archaeopteryx",
+"B": "Confuciusornis",
+"C": "Yi qi",
+"D": "Jeholornis"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0139",
+"difficulty": "hard",
+"question": "What is the name of the largest known raptor found in Europe, discovered on the Isle of Wight in England?",
+"options": {
+"A": "Dromaeosauroides",
+"B": "Balaur",
+"C": "Pyroraptor",
+"D": "Vectiraptor"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0140",
+"difficulty": "easy",
+"question": "Which animal group evolved first on Earth: trilobites or dinosaurs?",
+"options": {
+"A": "Trilobites evolved hundreds of millions of years earlier",
+"B": "Dinosaurs evolved first",
+"C": "They both appeared at the exact same time",
+"D": "Neither, mammals evolved first"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0141",
+"difficulty": "medium",
+"question": "What happened to the Earth's climate right after the massive asteroid impact at the end of the Cretaceous period?",
+"options": {
+"A": "The world turned into a tropical paradise",
+"B": "Dust and ash blocked sunlight, causing global cooling",
+"C": "The oceans dried up completely within one day",
+"D": "All oxygen in the atmosphere turned into helium"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0142",
+"difficulty": "hard",
+"question": "What massive volcanic eruptions in India were also releasing massive gases and lava around the time of the dinosaur extinction?",
+"options": {
+"A": "Siberian Traps",
+"B": "Columbia River Basalt",
+"C": "Deccan Traps",
+"D": "Emeishan Traps"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0143",
+"difficulty": "medium",
+"question": "What was the largest flying bird ever known, with a wingspan of over 6 to 7 meters?",
+"options": {
+"A": "Archaeopteryx",
+"B": "Hesperornis",
+"C": "Teratornis",
+"D": "Pelagornis sandersi"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0144",
+"difficulty": "hard",
+"question": "What ancient jawless fish from the Ordovician period had head armor made of bony plates and lacked true paired fins?",
+"options": {
+"A": "Sacabambaspis",
+"B": "Bothriolepis",
+"C": "Cephalaspis",
+"D": "Pteraspis"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0145",
+"difficulty": "easy",
+"question": "What kind of environment did Spinosaurus inhabit in Cretaceous North Africa?",
+"options": {
+"A": "Frozen snow peaks",
+"B": "Rivers, deltas, and coastal swamps",
+"C": "Dense dry mountain forests",
+"D": "Underground sand tunnels"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0146",
+"difficulty": "medium",
+"question": "What physical evidence showed scientists that Spinosaurus was a skilled swimmer?",
+"options": {
+"A": "Gills on its neck like a fish",
+"B": "Feathers shaped like penguin wings",
+"C": "A broad paddle-like tail and dense bones",
+"D": "Suction cups on its claws"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0147",
+"difficulty": "hard",
+"question": "Which North American ceratopsian had five horns on its head frill, including two pointing downward like eyebrows?",
+"options": {
+"A": "Torosaurus",
+"B": "Centrosaurus",
+"C": "Kosmoceratops",
+"D": "Pentaceratops"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0148",
+"difficulty": "easy",
+"question": "What was the main food of large sauropod dinosaurs?",
+"options": {
+"A": "Plants, ferns, conifers, and leaves",
+"B": "Meat from other sauropods",
+"C": "Giant ocean sharks and whales",
+"D": "Small insects caught in mud"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0149",
+"difficulty": "medium",
+"question": "Which duck-billed dinosaur had a hollow, tube-like crest that scientists believe acted like a trumpet to make loud sounds?",
+"options": {
+"A": "Edmontosaurus",
+"B": "Parasaurolophus",
+"C": "Maiasaura",
+"D": "Hadrosaurus"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0150",
+"difficulty": "hard",
+"question": "What duck-billed dinosaur had a high, rounded, hollow crest on its skull shaped like a half-plate or sunrise?",
+"options": {
+"A": "Lambeosaurus",
+"B": "Prosaurolophus",
+"C": "Hypacrosaurus",
+"D": "Tsintaosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0151",
+"difficulty": "medium",
+"question": "Why did giant sauropods have tiny heads compared to their massive bodies?",
+"options": {
+"A": "Their heads shrank as they got older",
+"B": "So their long necks could lift their heads without collapsing",
+"C": "Because they only ate tiny microscopic moss",
+"D": "To hide their heads inside their bodies"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0152",
+"difficulty": "hard",
+"question": "What is the estimated bite force of an adult Tyrannosaurus rex, capable of crushing solid bone?",
+"options": {
+"A": "About 100 pounds",
+"B": "Around 500 pounds",
+"C": "Roughly 8,000 to 12,000 pounds",
+"D": "Exactly 1 million pounds"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0153",
+"difficulty": "easy",
+"question": "What do we call an animal that eats only other animals?",
+"options": {
+"A": "Herbivore",
+"B": "Insectivore",
+"C": "Frugivore",
+"D": "Carnivore"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0154",
+"difficulty": "medium",
+"question": "Which feathered dinosaur from China had asymmetrical flight feathers on both its forelimbs and hindlimbs?",
+"options": {
+"A": "Microraptor",
+"B": "Sinosauropteryx",
+"C": "Caudipteryx",
+"D": "Beipiaosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0155",
+"difficulty": "hard",
+"question": "What was the largest known theropod dinosaur discovered in North America during the Early Cretaceous, famous for its high vertebral spines?",
+"options": {
+"A": "Saurophaganax",
+"B": "Acrocanthosaurus",
+"C": "Torvosaurus",
+"D": "Siats"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0156",
+"difficulty": "hard",
+"question": "Which carnivorous dinosaur from the Late Jurassic of Europe had a sharp horn on its nose and four fingers on its hands?",
+"options": {
+"A": "Megalosaurus",
+"B": "Eustreptospondylus",
+"C": "Ceratosaurus",
+"D": "Neovenator"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0157",
+"difficulty": "easy",
+"question": "What is the protective outer layer called that covers dinosaur eggs?",
+"options": {
+"A": "Skin wrap",
+"B": "Feather coat",
+"C": "Wax layer",
+"D": "Eggshell"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0158",
+"difficulty": "medium",
+"question": "What was the first dinosaur ever to be scientifically described and named in 1824?",
+"options": {
+"A": "Megalosaurus",
+"B": "Iguanodon",
+"C": "Hylaeosaurus",
+"D": "Plateosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0159",
+"difficulty": "hard",
+"question": "Which famous fossil site in the Canadian Rockies is celebrated for preserving soft-bodied creatures from the Cambrian explosion?",
+"options": {
+"A": "Solnhofen Limestone",
+"B": "Burgess Shale",
+"C": "La Brea Tar Pits",
+"D": "Messel Pit"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0160",
+"difficulty": "medium",
+"question": "Which famous saber-toothed animal had canine teeth that reached up to 28 centimeters long?",
+"options": {
+"A": "Cave Lion",
+"B": "Megatherium",
+"C": "Smilodon fatalis",
+"D": "Mammut"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0161",
+"difficulty": "hard",
+"question": "What giant Pleistocene kangaroo stood over 2 meters tall and had a flat face and single-toed hooves on its feet?",
+"options": {
+"A": "Diprotodon",
+"B": "Thylacoleo",
+"C": "Simosthenurus",
+"D": "Procoptodon"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0162",
+"difficulty": "easy",
+"question": "What is the term for a scientist who reconstructs how prehistoric animals looked using skeletal fossils?",
+"options": {
+"A": "Paleoartist",
+"B": "Astrophysicist",
+"C": "Marine biologist",
+"D": "Cartographer"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0163",
+"difficulty": "medium",
+"question": "Which dinosaur had massive, bird-like feet, ran very fast, and lived in the Cretaceous of Mongolia?",
+"options": {
+"A": "Triceratops",
+"B": "Gallimimus",
+"C": "Ankylosaurus",
+"D": "Brachiosaurus"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0164",
+"difficulty": "hard",
+"question": "What bizarre theropod from Mongolia had huge forearms over 2.4 meters long and a large sail-like hump on its back?",
+"options": {
+"A": "Therizinosaurus",
+"B": "Gigantoraptor",
+"C": "Deinocheirus",
+"D": "Harpymimus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0165",
+"difficulty": "medium",
+"question": "What type of dinosaur had a long neck, small head, quadrupedal stance, and pillared legs like tree trunks?",
+"options": {
+"A": "Theropod",
+"B": "Ceratopsian",
+"C": "Ornithopod",
+"D": "Sauropod"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0166",
+"difficulty": "hard",
+"question": "Which sauropod was famous for having a bony club at the end of its long tail?",
+"options": {
+"A": "Shunosaurus",
+"B": "Saltasaurus",
+"C": "Amargasaurus",
+"D": "Dicraeosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0167",
+"difficulty": "easy",
+"question": "Which of these dinosaurs was an armored plant-eater with a club on its tail?",
+"options": {
+"A": "Spinosaurus",
+"B": "Ankylosaurus",
+"C": "Velociraptor",
+"D": "Allosaurus"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0168",
+"difficulty": "medium",
+"question": "What is an ammonite fossil shaped like?",
+"options": {
+"A": "A flat star",
+"B": "A straight arrow",
+"C": "A coiled spiral shell",
+"D": "A square cube"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0169",
+"difficulty": "hard",
+"question": "What small Cretaceous ceratopsian was discovered alongside numerous nests and eggs in the Flaming Cliffs of the Gobi Desert?",
+"options": {
+"A": "Psittacosaurus",
+"B": "Leptoceratops",
+"C": "Bagaceratops",
+"D": "Protoceratops"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0170",
+"difficulty": "medium",
+"question": "What early dinosaur had a parrot-like beak, quills on its tail, and walked mostly on its hind legs?",
+"options": {
+"A": "Psittacosaurus",
+"B": "Orodromeus",
+"C": "Scutellosaurus",
+"D": "Lesothosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0171",
+"difficulty": "hard",
+"question": "Which armored sauropod from South America proved that some long-necked dinosaurs had bony armor plates on their backs?",
+"options": {
+"A": "Alamosaurus",
+"B": "Saltasaurus",
+"C": "Isisaurus",
+"D": "Rapetosaurus"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0172",
+"difficulty": "hard",
+"question": "What sauropod from Argentina had two parallel rows of long, backward-pointing spines along its neck and back?",
+"options": {
+"A": "Bajadasaurus",
+"B": "Dicraeosaurus",
+"C": "Amargasaurus",
+"D": "Pilmatueia"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0173",
+"difficulty": "easy",
+"question": "What do scientists call the study of prehistoric life through fossil remains?",
+"options": {
+"A": "Astrology",
+"B": "Oceanography",
+"C": "Zoology",
+"D": "Paleontology"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0174",
+"difficulty": "medium",
+"question": "Which of these animals lived during the Jurassic period and is famous for its plated back and spiky tail?",
+"options": {
+"A": "Stegosaurus",
+"B": "Triceratops",
+"C": "Tyrannosaurus",
+"D": "Pachycephalosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0175",
+"difficulty": "hard",
+"question": "What primitive stegosaur discovered in China had long sharp shoulder spines and small back plates?",
+"options": {
+"A": "Kentrosaurus",
+"B": "Huayangosaurus",
+"C": "Dacentrurus",
+"D": "Tuojiangosaurus"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0176",
+"difficulty": "medium",
+"question": "What African stegosaurid had numerous sharp spines running all along its back and tail instead of large wide plates?",
+"options": {
+"A": "Wuerhosaurus",
+"B": "Miragaia",
+"C": "Kentrosaurus",
+"D": "Chialingosaurus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0177",
+"difficulty": "hard",
+"question": "What is the longest dinosaur known from reasonably complete skeletal remains, reaching around 33 to 35 meters in length?",
+"options": {
+"A": "Camarasaurus",
+"B": "Brachiosaurus",
+"C": "Titanosaurus",
+"D": "Supersaurus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0178",
+"difficulty": "easy",
+"question": "What did carnivorous dinosaurs hunt and eat?",
+"options": {
+"A": "Other animals and dinosaurs",
+"B": "Only leaves and moss",
+"C": "Seaweed and tree bark",
+"D": "River sand and pebbles"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0179",
+"difficulty": "medium",
+"question": "What was special about the skull bones of many dinosaurs that helped keep their giant heads light?",
+"options": {
+"A": "They were made of wood",
+"B": "They had large open spaces called fenestrae",
+"C": "They had no brain cavities",
+"D": "They were made of flexible rubber"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0180",
+"difficulty": "hard",
+"question": "What do paleontologists call an internal cast of a dinosaur's braincase that reveals the shape of its brain?",
+"options": {
+"A": "Gastrolith",
+"B": "Osteoderm",
+"C": "Endocast",
+"D": "Coprolite"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0181",
+"difficulty": "medium",
+"question": "Which prehistoric sea reptile had a mouth filled with sharp backward-facing teeth to trap squid and slippery fish?",
+"options": {
+"A": "Plesiosaurus",
+"B": "Trilobite",
+"C": "Archelon",
+"D": "Ichthyosaurus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0182",
+"difficulty": "hard",
+"question": "Which giant Triassic ichthyosaur grew over 20 meters long, making it one of the largest marine reptiles in history?",
+"options": {
+"A": "Opthalmosaurus",
+"B": "Shastasaurus",
+"C": "Mixosaurus",
+"D": "Ichthyosaurus"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0183",
+"difficulty": "easy",
+"question": "Did flying pterosaurs lay eggs like dinosaurs and modern birds?",
+"options": {
+"A": "No, they grew from seeds",
+"B": "No, they split in half",
+"C": "Yes, they laid soft-shelled eggs",
+"D": "No, they gave live birth in trees"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0184",
+"difficulty": "medium",
+"question": "What did the small dinosaur Troodon have that suggests it was one of the smartest dinosaurs?",
+"options": {
+"A": "A large skull frill",
+"B": "A heavy tail club",
+"C": "Sharp thumb spikes",
+"D": "A very large brain-to-body ratio"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0185",
+"difficulty": "hard",
+"question": "Which tiny Cretaceous alvarezsaurid theropod had short, powerful arms with only a single large digging claw on each hand?",
+"options": {
+"A": "Mononykus",
+"B": "Shuvuuia",
+"C": "Alvarezsaurus",
+"D": "Patagonykus"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0186",
+"difficulty": "medium",
+"question": "What modern living bird has feet and claws that closely resemble the feet of predatory theropod dinosaurs?",
+"options": {
+"A": "Hummingbird",
+"B": "Cassowary",
+"C": "Penguin",
+"D": "Mallard duck"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0187",
+"difficulty": "hard",
+"question": "What small Triassic reptile from Central Asia had long, ribbon-like scales standing straight up along its back?",
+"options": {
+"A": "Sharovipteryx",
+"B": "Kuehneosaurus",
+"C": "Longisquama",
+"D": "Coelurosauravus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0188",
+"difficulty": "hard",
+"question": "What primitive synapsid predator of the Permian had saber-teeth and was named after the mythological Gorgon?",
+"options": {
+"A": "Dimetrodon",
+"B": "Inostrancevia",
+"C": "Moschops",
+"D": "Gorgonops"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0189",
+"difficulty": "easy",
+"question": "What huge Ice Age mammal was covered in woolly fur and had two massive curved tusks?",
+"options": {
+"A": "Woolly Mammoth",
+"B": "Saber-toothed cat",
+"C": "Cave Bear",
+"D": "Giant Armadillo"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0190",
+"difficulty": "medium",
+"question": "What was the purpose of the long tusks on a Woolly Mammoth?",
+"options": {
+"A": "To catch fish in frozen lakes",
+"B": "To clear snow, defend against predators, and display",
+"C": "To climb up steep icy mountains",
+"D": "To breathe underwater while swimming"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0191",
+"difficulty": "hard",
+"question": "Where did the very last surviving population of miniature Woolly Mammoths live until about 4,000 years ago?",
+"options": {
+"A": "Madagascar",
+"B": "Greenland",
+"C": "Wrangel Island in the Arctic Ocean",
+"D": "Tasmania"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0192",
+"difficulty": "easy",
+"question": "Which of these prehistoric creatures is famous for flying through the skies during the age of dinosaurs?",
+"options": {
+"A": "Mosasaurus",
+"B": "Brachiosaurus",
+"C": "Triceratops",
+"D": "Pterodactylus"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0193",
+"difficulty": "medium",
+"question": "What feature distinguishes theropod dinosaurs from all other dinosaur groups?",
+"options": {
+"A": "They were bipedal carnivores or feathered omnivores",
+"B": "They walked exclusively on four legs",
+"C": "They had large bony plates along their spine",
+"D": "They lived completely submerged in salt water"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0194",
+"difficulty": "hard",
+"question": "What is the name of the oldest known dinosaur nesting site with fossilized eggs containing embryos, found in South Africa?",
+"options": {
+"A": "Apatosaurus nest",
+"B": "Massospondylus nest",
+"C": "Coelophysis nest",
+"D": "Eoraptor nest"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0195",
+"difficulty": "medium",
+"question": "Which large herbivorous dinosaur is known for having a row of sharp spines on its back and living in herds in Cretaceous North America?",
+"options": {
+"A": "Tyrannosaurus",
+"B": "Velociraptor",
+"C": "Ouranosaurus",
+"D": "Allosaurus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0196",
+"difficulty": "hard",
+"question": "What feathered raptor fossil from China showed that small dinosaurs had flight feathers on their forearms and legs like a biplane?",
+"options": {
+"A": "Sinornithosaurus",
+"B": "Rahonavis",
+"C": "Buitreraptor",
+"D": "Microraptor gui"
+},
+"answer": "D"
+},
+{
+"id": "dino-en-0197",
+"difficulty": "easy",
+"question": "What happens when mud or sand hardens into rock around a buried dinosaur footprint?",
+"options": {
+"A": "A trace fossil is formed",
+"B": "The footprint disappears forever",
+"C": "A diamond is created immediately",
+"D": "The rock turns into water"
+},
+"answer": "A"
+},
+{
+"id": "dino-en-0198",
+"difficulty": "medium",
+"question": "Which of these large dinosaurs had two huge brow horns and a long solid neck frill that lacked large openings?",
+"options": {
+"A": "Chasmosaurus",
+"B": "Triceratops",
+"C": "Styracosaurus",
+"D": "Centrosaurus"
+},
+"answer": "B"
+},
+{
+"id": "dino-en-0199",
+"difficulty": "hard",
+"question": "Which ceratopsian dinosaur had the largest skull of any land animal, with a frill measuring over 2.7 meters long?",
+"options": {
+"A": "Pachyrhinosaurus",
+"B": "Protoceratops",
+"C": "Torosaurus",
+"D": "Einiosaurus"
+},
+"answer": "C"
+},
+{
+"id": "dino-en-0200",
+"difficulty": "hard",
+"question": "What ancient armored reptile group gave rise to both modern crocodilians and the dinosaur line during the Triassic period?",
+"options": {
+"A": "Therapsids",
+"B": "Anapsids",
+"C": "Pelycosaurs",
+"D": "Archosauria"
+},
+"answer": "D"
+}
+]
 }

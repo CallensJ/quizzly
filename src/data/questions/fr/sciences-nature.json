@@ -1,5 +1,2406 @@
 {
-  "category": "sciences-nature",
-  "lang": "fr",
-  "questions": []
+"category": "sciences-nature",
+"lang": "fr",
+"questions": [
+{
+"id": "sn-fr-0001",
+"difficulty": "easy",
+"question": "Quel organe situé dans la poitrine pompe le sang pour l'envoyer dans tout le corps ?",
+"options": {
+"A": "Le cœur",
+"B": "Le foie",
+"C": "L'estomac",
+"D": "Le poumon"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0002",
+"difficulty": "easy",
+"question": "De quoi les plantes vertes ont-elles besoin pour fabriquer leur nourriture grâce au soleil ?",
+"options": {
+"A": "De jus de fruit",
+"B": "De lumière",
+"C": "D'obscurité",
+"D": "De sel de table"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0003",
+"difficulty": "easy",
+"question": "Quel objet métallique possède deux pôles et attire les trombones en fer ?",
+"options": {
+"A": "Une loupe",
+"B": "Une pile",
+"C": "Un aimant",
+"D": "Un miroir"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0004",
+"difficulty": "easy",
+"question": "Quelle grande arche de sept couleurs apparaît dans le ciel quand brillent la pluie et le soleil ?",
+"options": {
+"A": "Une comète",
+"B": "Une étoile filante",
+"C": "Une aurore",
+"D": "Un arc-en-ciel"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0005",
+"difficulty": "easy",
+"question": "Combien de dents de lait un jeune enfant possède-t-il au total dans sa bouche ?",
+"options": {
+"A": "20 dents",
+"B": "32 dents",
+"C": "10 dents",
+"D": "40 dents"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0006",
+"difficulty": "easy",
+"question": "Quelle partie de l'arbre s'enfonce profondément dans la terre pour boire de l'eau ?",
+"options": {
+"A": "Les feuilles",
+"B": "Les racines",
+"C": "Les branches",
+"D": "Les fleurs"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0007",
+"difficulty": "easy",
+"question": "À quelle température en degrés Celsius l'eau liquide se transforme-t-elle en glace solide ?",
+"options": {
+"A": "100 °C",
+"B": "50 °C",
+"C": "0 °C",
+"D": "-50 °C"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0008",
+"difficulty": "easy",
+"question": "Comment appelle-t-on une montagne qui peut entrer en éruption et cracher de la lave ?",
+"options": {
+"A": "Une colline",
+"B": "Une falaise",
+"C": "Un glacier",
+"D": "Un volcan"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0009",
+"difficulty": "easy",
+"question": "Quel sens utilise les petites papilles situées sur la surface de notre langue ?",
+"options": {
+"A": "Le goût",
+"B": "L'odorat",
+"C": "L'ouïe",
+"D": "Le toucher"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0010",
+"difficulty": "easy",
+"question": "Quel insecte volant récolte le nectar des fleurs pour fabriquer du bon miel ?",
+"options": {
+"A": "La coccinelle",
+"B": "L'abeille",
+"C": "La libellule",
+"D": "La sauterelle"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0011",
+"difficulty": "easy",
+"question": "Quand on frotte un ballon de baudruche sur un pull, quel phénomène dresse les cheveux ?",
+"options": {
+"A": "Le magnétisme",
+"B": "La gravité",
+"C": "L'électricité statique",
+"D": "La pression d'air"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0012",
+"difficulty": "easy",
+"question": "Quel flash lumineux très rapide traverse le ciel au cours d'un orage ?",
+"options": {
+"A": "Le tonnerre",
+"B": "Le brouillard",
+"C": "La grêle",
+"D": "L'éclair"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0013",
+"difficulty": "easy",
+"question": "Quel organe logé dans notre crâne nous permet de réfléchir, rêver et bouger ?",
+"options": {
+"A": "Le cerveau",
+"B": "Le rein",
+"C": "Le poumon",
+"D": "Le pancréas"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0014",
+"difficulty": "easy",
+"question": "Comment s'appelle le liquide sucré au fond des fleurs que recherchent les papillons ?",
+"options": {
+"A": "La sève",
+"B": "Le nectar",
+"C": "La chlorophylle",
+"D": "Le pollen"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0015",
+"difficulty": "easy",
+"question": "Pourquoi un bouchon en liège flotte-t-il facilement à la surface de l'eau ?",
+"options": {
+"A": "Il est plus lourd que l'eau",
+"B": "Il attire l'électricité",
+"C": "Il est moins dense que l'eau",
+"D": "Il est invisible"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0016",
+"difficulty": "easy",
+"question": "Quel astre rocheux naturel tourne autour de notre Terre et brille la nuit ?",
+"options": {
+"A": "Le Soleil",
+"B": "Mars",
+"C": "Vénus",
+"D": "La Lune"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0017",
+"difficulty": "easy",
+"question": "Quel est le plus grand organe de notre corps qui nous protège du chaud et du froid ?",
+"options": {
+"A": "La peau",
+"B": "Le foie",
+"C": "Le squelette",
+"D": "L'intestin"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0018",
+"difficulty": "easy",
+"question": "De quelle couleur deviennent principalement les feuilles des arbres au printemps ?",
+"options": {
+"A": "Bleue",
+"B": "Verte",
+"C": "Rouge",
+"D": "Violette"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0019",
+"difficulty": "easy",
+"question": "Quel gaz invisible présent dans l'air est absolument indispensable pour faire respirer nos poumons ?",
+"options": {
+"A": "Le dioxyde de carbone",
+"B": "L'hélium",
+"C": "L'oxygène",
+"D": "Le méthane"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0020",
+"difficulty": "easy",
+"question": "Comment appelle-t-on l'eau gelée sous forme de flocons blancs qui tombe en hiver ?",
+"options": {
+"A": "La rosée",
+"B": "La brume",
+"C": "La pluie",
+"D": "La neige"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0021",
+"difficulty": "easy",
+"question": "Quels os courbés forment une cage protectrice autour de notre cœur et de nos poumons ?",
+"options": {
+"A": "Les côtes",
+"B": "Les fémurs",
+"C": "Les tibias",
+"D": "Les phalanges"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0022",
+"difficulty": "easy",
+"question": "Que trouve-t-on souvent au cœur d'une pomme pour faire pousser un nouveau pommier ?",
+"options": {
+"A": "Des épines",
+"B": "Des pépins",
+"C": "Des bourgeons",
+"D": "Des pétales"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0023",
+"difficulty": "easy",
+"question": "Que produit une ampoule électrique branchée à une pile en plus de la lumière ?",
+"options": {
+"A": "Du son",
+"B": "Du vent",
+"C": "De la chaleur",
+"D": "De la glace"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0024",
+"difficulty": "easy",
+"question": "Comment appelle-t-on le mouvement de l'océan qui monte et descend deux fois par jour ?",
+"options": {
+"A": "Le courant",
+"B": "Le vortex",
+"C": "La houle",
+"D": "La marée"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0025",
+"difficulty": "easy",
+"question": "Quel liquide rouge apporte l'oxygène et les nutriments à toutes les cellules de notre corps ?",
+"options": {
+"A": "Le sang",
+"B": "La salive",
+"C": "La sueur",
+"D": "Le suc gastrique"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0026",
+"difficulty": "easy",
+"question": "Quel grand végétal possède un tronc en bois recouvert d'écorce et de grandes branches ?",
+"options": {
+"A": "Une herbe",
+"B": "Un arbre",
+"C": "Un champignon",
+"D": "Une algue"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0027",
+"difficulty": "easy",
+"question": "Qu'entend-on résonner dans le ciel quelques secondes après l'apparition d'un éclair ?",
+"options": {
+"A": "Le sifflement du vent",
+"B": "Le bruit de la pluie",
+"C": "Le grondement du tonnerre",
+"D": "Le cri des oiseaux"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0028",
+"difficulty": "easy",
+"question": "Comment appelle-t-on un immense bloc de glace d'eau douce qui flotte sur la mer ?",
+"options": {
+"A": "Un atoll",
+"B": "Un banc de sable",
+"C": "Un récif",
+"D": "Un iceberg"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0029",
+"difficulty": "easy",
+"question": "Combien de doigts possède un être humain au total en comptant ses deux mains réunies ?",
+"options": {
+"A": "10 doigts",
+"B": "8 doigts",
+"C": "12 doigts",
+"D": "14 doigts"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0030",
+"difficulty": "easy",
+"question": "Quel arbre de Noël bien connu garde ses aiguilles piquantes bien vertes tout l'hiver ?",
+"options": {
+"A": "Le chêne",
+"B": "Le sapin",
+"C": "Le bouleau",
+"D": "Le platane"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0031",
+"difficulty": "easy",
+"question": "Si tu lâches un ballon des mains, quelle force invisible l'attire vers le sol ?",
+"options": {
+"A": "La poussée du vent",
+"B": "Le magnétisme",
+"C": "La gravité",
+"D": "La friction"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0032",
+"difficulty": "easy",
+"question": "Dans quel paysage très sec, chaud et recouvert de sable trouve-t-on des cactus ?",
+"options": {
+"A": "La forêt tropicale",
+"B": "La banquise",
+"C": "La prairie humide",
+"D": "Le désert"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0033",
+"difficulty": "easy",
+"question": "À quoi servent nos paupières lorsqu'elles clignent plusieurs fois par minute ?",
+"options": {
+"A": "À nettoyer et protéger l'œil",
+"B": "À changer la couleur de l'œil",
+"C": "À entendre les sons aigus",
+"D": "À réchauffer le nez"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0034",
+"difficulty": "easy",
+"question": "Quel légume orange qui pousse sous la terre est une racine très riche en vitamines ?",
+"options": {
+"A": "La tomate",
+"B": "La carotte",
+"C": "La courgette",
+"D": "Le concombre"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0035",
+"difficulty": "easy",
+"question": "Quel gaz d'eau chaude s'échappe d'une casserole quand l'eau se met à bouillir à 100 °C ?",
+"options": {
+"A": "La fumée",
+"B": "L'oxygène",
+"C": "La vapeur d'eau",
+"D": "Le givre"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0036",
+"difficulty": "easy",
+"question": "Comment appelle-t-on la secousse soudaine du sol causée par le frottement des roches sous terre ?",
+"options": {
+"A": "Une inondation",
+"B": "Une tornade",
+"C": "Un geyser",
+"D": "Un tremblement de terre"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0037",
+"difficulty": "easy",
+"question": "Quel organe en forme de poche commence à mélanger et digérer les aliments avalés ?",
+"options": {
+"A": "L'estomac",
+"B": "Le cerveau",
+"C": "Le poumon",
+"D": "La trachée"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0038",
+"difficulty": "easy",
+"question": "Quel champignon vénéneux très connu porte un chapeau rouge parsemé de points blancs ?",
+"options": {
+"A": "Le cèpe",
+"B": "L'amanite tue-mouches",
+"C": "La morille",
+"D": "La girolle"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0039",
+"difficulty": "easy",
+"question": "Quelle couleur obtient-on en mélangeant de la peinture bleue avec de la peinture jaune ?",
+"options": {
+"A": "Du violet",
+"B": "De l'orange",
+"C": "Du vert",
+"D": "Du marron"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0040",
+"difficulty": "easy",
+"question": "Quel événement se produit quand la Lune se place exactement entre la Terre et le Soleil ?",
+"options": {
+"A": "Une marée noire",
+"B": "Un solstice",
+"C": "Une aurore",
+"D": "Une éclipse de Soleil"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0041",
+"difficulty": "easy",
+"question": "Combien d'yeux un être humain utilise-t-il pour voir son environnement en trois dimensions ?",
+"options": {
+"A": "2 yeux",
+"B": "4 yeux",
+"C": "1 œil",
+"D": "3 yeux"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0042",
+"difficulty": "easy",
+"question": "Quel fruit jaune allongé et sucré pousse en grand régime sur une plante géante appelée bananier ?",
+"options": {
+"A": "L'ananas",
+"B": "La banane",
+"C": "La poire",
+"D": "Le citron"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0043",
+"difficulty": "easy",
+"question": "Quel instrument médical le docteur pose-t-il sur ton torse pour écouter ton cœur battre ?",
+"options": {
+"A": "Un thermomètre",
+"B": "Une balance",
+"C": "Un stéthoscope",
+"D": "Un microscope"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0044",
+"difficulty": "easy",
+"question": "Quel tourbillon de vent géant en forme d'entonnoir descend d'un nuage jusqu'au sol ?",
+"options": {
+"A": "Une brise",
+"B": "Un blizzard",
+"C": "Un courant d'air",
+"D": "Une tornade"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0045",
+"difficulty": "easy",
+"question": "Comment appelle-t-on la petite marque ronde située au milieu du ventre de chaque humain ?",
+"options": {
+"A": "Le nombril",
+"B": "Le coude",
+"C": "La fossette",
+"D": "L'omoplate"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0046",
+"difficulty": "easy",
+"question": "De quel grand arbre majestueux de nos forêts proviennent les glands que ramassent les écureuils ?",
+"options": {
+"A": "Le cerisier",
+"B": "Le chêne",
+"C": "Le saule",
+"D": "Le peuplier"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0047",
+"difficulty": "easy",
+"question": "Que voit-on se dessiner sur le sol quand un corps bloque les rayons d'une source lumineuse ?",
+"options": {
+"A": "Un arc-en-ciel",
+"B": "Un reflet",
+"C": "Une ombre",
+"D": "Une étincelle"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0048",
+"difficulty": "easy",
+"question": "Quelle immense étendue d'eau salée recouvre plus de 70 % de la surface de la Terre ?",
+"options": {
+"A": "La rivière",
+"B": "L'étang",
+"C": "Le lac",
+"D": "L'océan"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0049",
+"difficulty": "easy",
+"question": "Quel muscle situé à l'avant du bras se gonfle lorsqu'on plie le coude avec force ?",
+"options": {
+"A": "Le biceps",
+"B": "Le mollet",
+"C": "Le quadriceps",
+"D": "Le trapèze"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0050",
+"difficulty": "easy",
+"question": "Quelle partie colorée et parfumée d'un rosier s'épanouit pour attirer les bourdons ?",
+"options": {
+"A": "La tige",
+"B": "La fleur",
+"C": "La racine",
+"D": "L'écorce"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0051",
+"difficulty": "medium",
+"question": "Pourquoi le ciel nous apparaît-il bleu en plein jour lorsqu'il fait beau ?",
+"options": {
+"A": "La mer reflète sa couleur bleue",
+"B": "L'air est teinté d'encre bleue",
+"C": "L'air diffuse plus la lumière bleue du Soleil",
+"D": "Le soleil est d'un bleu très intense"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0052",
+"difficulty": "medium",
+"question": "Comment appelle-t-on une source chaude naturelle qui projette de l'eau bouillante dans les airs ?",
+"options": {
+"A": "Une cascade",
+"B": "Un marécage",
+"C": "Un estuaire",
+"D": "Un geyser"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0053",
+"difficulty": "medium",
+"question": "Quel est le plus long et le plus solide os du squelette humain, situé dans notre cuisse ?",
+"options": {
+"A": "Le fémur",
+"B": "L'humérus",
+"C": "Le tibia",
+"D": "Le radius"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0054",
+"difficulty": "medium",
+"question": "Comment s'appelle le mécanisme par lequel les plantes fabriquent des sucres grâce à la lumière ?",
+"options": {
+"A": "La fermentation",
+"B": "La photosynthèse",
+"C": "La germination",
+"D": "La pollinisation"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0055",
+"difficulty": "medium",
+"question": "Quel instrument de navigation utilise une aiguille aimantée pour repérer le nord magnétique ?",
+"options": {
+"A": "Un baromètre",
+"B": "Un altimètre",
+"C": "Une boussole",
+"D": "Un sablier"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0056",
+"difficulty": "medium",
+"question": "De quel gaz la haute couche de l'atmosphère qui absorbe les rayons ultraviolets est-elle faite ?",
+"options": {
+"A": "Le néon",
+"B": "L'azote",
+"C": "Le xénon",
+"D": "L'ozone"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0057",
+"difficulty": "medium",
+"question": "Quel est le rôle principal des globules blancs circulant dans nos vaisseaux sanguins ?",
+"options": {
+"A": "Défendre le corps contre les microbes",
+"B": "Transporter le dioxygène",
+"C": "Fabriquer les os du squelette",
+"D": "Digérer les morceaux de viande"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0058",
+"difficulty": "medium",
+"question": "Quel pigment végétal donne leur belle couleur verte aux feuilles et capte l'énergie solaire ?",
+"options": {
+"A": "Le carotène",
+"B": "La chlorophylle",
+"C": "La mélanine",
+"D": "L'hémoglobine"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0059",
+"difficulty": "medium",
+"question": "Comment appelle-t-on le renvoi d'un son qui rebondit contre la paroi d'une falaise ?",
+"options": {
+"A": "Une vibration",
+"B": "Une résonance",
+"C": "Un écho",
+"D": "Un sifflet"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0060",
+"difficulty": "medium",
+"question": "Quelles magnifiques draperies lumineuses et colorées brillent la nuit près du pôle Nord ?",
+"options": {
+"A": "Les éclairs de chaleur",
+"B": "Les feux follets",
+"C": "Les étoiles filantes",
+"D": "Les aurores boréales"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0061",
+"difficulty": "medium",
+"question": "Combien d'os distincts composent le squelette complet d'une personne adulte ?",
+"options": {
+"A": "206 os",
+"B": "150 os",
+"C": "300 os",
+"D": "500 os"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0062",
+"difficulty": "medium",
+"question": "Comment nomme-t-on la tige souterraine et horizontale de certaines plantes comme l'iris ?",
+"options": {
+"A": "Un bulbe",
+"B": "Un rhizome",
+"C": "Un bourgeon",
+"D": "Une ramure"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0063",
+"difficulty": "medium",
+"question": "Quel état de la matière n'a pas de forme définie et occupe tout le volume qu'on lui donne ?",
+"options": {
+"A": "L'état solide",
+"B": "L'état liquide",
+"C": "L'état gazeux",
+"D": "L'état cristallin"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0064",
+"difficulty": "medium",
+"question": "Comment appelle-t-on la roche en fusion liquide qui s'échappe d'un volcan en éruption ?",
+"options": {
+"A": "Le granit",
+"B": "L'argile",
+"C": "Le calcaire",
+"D": "La lave"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0065",
+"difficulty": "medium",
+"question": "Quelle glande située près de l'œil produit en continu les larmes pour nettoyer la cornée ?",
+"options": {
+"A": "La glande lacrymale",
+"B": "La glande salivaire",
+"C": "La glande thyroïde",
+"D": "La glande surrénale"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0066",
+"difficulty": "medium",
+"question": "Quel arbre méditerranéen au tronc noueux peut vivre plus de mille ans et donne de l'huile ?",
+"options": {
+"A": "Le cerisier",
+"B": "L'olivier",
+"C": "Le châtaignier",
+"D": "Le noisetier"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0067",
+"difficulty": "medium",
+"question": "Par quelle transformation physique l'eau liquide d'une flaque s'élève-t-elle dans l'air ?",
+"options": {
+"A": "La fusion",
+"B": "La condensation",
+"C": "L'évaporation",
+"D": "La solidification"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0068",
+"difficulty": "medium",
+"question": "Quel nuage très bas touche la surface du sol et rend la circulation difficile le matin ?",
+"options": {
+"A": "Le cirrus",
+"B": "Le cumulus",
+"C": "Le stratus",
+"D": "Le brouillard"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0069",
+"difficulty": "medium",
+"question": "Dans quelle partie de notre oreille se situent le marteau, l'enclume et l'étrier ?",
+"options": {
+"A": "L'oreille moyenne",
+"B": "Le pavillon",
+"C": "Le tympan externe",
+"D": "Le lobe"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0070",
+"difficulty": "medium",
+"question": "Comment appelle-t-on les minuscules ouvertures sous les feuilles servant aux échanges gazeux ?",
+"options": {
+"A": "Les racines",
+"B": "Les stomates",
+"C": "Les vaisseaux",
+"D": "Les cuticules"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0071",
+"difficulty": "medium",
+"question": "Quel métal brillant conduit particulièrement bien l'électricité dans les fils électriques ?",
+"options": {
+"A": "Le verre",
+"B": "Le plastique",
+"C": "Le cuivre",
+"D": "Le bois"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0072",
+"difficulty": "medium",
+"question": "Quelle échelle scientifique graduée mesure l'énergie libérée lors d'un tremblement de terre ?",
+"options": {
+"A": "L'échelle Celsius",
+"B": "L'échelle de Beaufort",
+"C": "L'échelle de Mohs",
+"D": "L'échelle de Richter"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0073",
+"difficulty": "medium",
+"question": "Quels organes en forme de haricot nettoient et filtrent en permanence le sang pour créer l'urine ?",
+"options": {
+"A": "Les reins",
+"B": "Les poumons",
+"C": "Les intestins",
+"D": "Les muscles"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0074",
+"difficulty": "medium",
+"question": "Comment qualifie-t-on une plante comme la dionée attrape-mouche qui capture de petits insectes ?",
+"options": {
+"A": "Herbivore",
+"B": "Carnivore",
+"C": "Aquatique",
+"D": "Fructifère"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0075",
+"difficulty": "medium",
+"question": "Quelle minuscule particule chargée d'électricité négative tourne autour du noyau des atomes ?",
+"options": {
+"A": "Le neutron",
+"B": "Le proton",
+"C": "L'électron",
+"D": "Le photon"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0076",
+"difficulty": "medium",
+"question": "Quelle roche calcaire blanche et friable est formée par d'anciens coquillages microscopiques ?",
+"options": {
+"A": "Le basalte",
+"B": "Le marbre",
+"C": "Le schiste",
+"D": "La craie"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0077",
+"difficulty": "medium",
+"question": "Quel grand muscle en forme de dôme situé sous les poumons descend pour nous faire inspirer ?",
+"options": {
+"A": "Le diaphragme",
+"B": "Le deltoïde",
+"C": "Le fessier",
+"D": "Le pectoral"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0078",
+"difficulty": "medium",
+"question": "Quel tissu végétal fait monter l'eau et les sels minéraux depuis les racines jusqu'aux feuilles ?",
+"options": {
+"A": "L'écorce",
+"B": "Le xylème",
+"C": "Le pétiole",
+"D": "Le calice"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0079",
+"difficulty": "medium",
+"question": "Pourquoi voit-on la lumière d'un éclair avant d'entendre le son du tonnerre ?",
+"options": {
+"A": "Le tonnerre attend la fin de l'orage",
+"B": "L'éclair est situé plus près de nous",
+"C": "La lumière voyage plus vite que le son",
+"D": "Nos yeux réagissent plus lentement que nos oreilles"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0080",
+"difficulty": "medium",
+"question": "Comment appelle-t-on une vague océanique géante créée par un séisme au fond de la mer ?",
+"options": {
+"A": "Une bourrasque",
+"B": "Un maelström",
+"C": "Une risée",
+"D": "Un tsunami"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0081",
+"difficulty": "medium",
+"question": "Quelle est la couche très dure et minéralisée qui recouvre et protège l'extérieur de nos dents ?",
+"options": {
+"A": "L'émail",
+"B": "La dentine",
+"C": "La pulpe",
+"D": "Le cément"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0082",
+"difficulty": "medium",
+"question": "Quel réseau invisible de filaments sous terre constitue le véritable corps d'un champignon ?",
+"options": {
+"A": "Le chapeau",
+"B": "Le mycélium",
+"C": "Le pied",
+"D": "La spore"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0083",
+"difficulty": "medium",
+"question": "Quelle force exercée par l'air ralentit la chute d'un parachutiste sous sa voile ouverte ?",
+"options": {
+"A": "La gravitation",
+"B": "La répulsion magnétique",
+"C": "La résistance de l'air",
+"D": "La centrifugation"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0084",
+"difficulty": "medium",
+"question": "Quel minéral transparent formé de carbone pur est considéré comme le plus dur de notre Terre ?",
+"options": {
+"A": "Le quartz",
+"B": "Le rubis",
+"C": "Le saphir",
+"D": "Le diamant"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0085",
+"difficulty": "medium",
+"question": "Quel tube musculaire relie le fond de notre gorge à l'entrée de notre estomac ?",
+"options": {
+"A": "L'œsophage",
+"B": "La trachée",
+"C": "L'aorte",
+"D": "Le larynx"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0086",
+"difficulty": "medium",
+"question": "Quel conifère géant originaire d'Amérique du Nord compte parmi les arbres les plus volumineux du monde ?",
+"options": {
+"A": "Le bouleau",
+"B": "Le séquoia",
+"C": "L'orme",
+"D": "Le peuplier"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0087",
+"difficulty": "medium",
+"question": "Comment appelle-t-on la déviation d'un rayon lumineux lorsqu'il passe de l'air dans l'eau ?",
+"options": {
+"A": "La réflexion",
+"B": "La diffusion",
+"C": "La réfraction",
+"D": "L'absorption"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0088",
+"difficulty": "medium",
+"question": "Dans quelle couche atmosphérique la plus proche du sol se forme la totalité de notre météo ?",
+"options": {
+"A": "La mésosphère",
+"B": "La thermosphère",
+"C": "La stratosphère",
+"D": "La troposphère"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0089",
+"difficulty": "medium",
+"question": "Quelle partie circulaire et colorée de notre œil régule la quantité de lumière entrante ?",
+"options": {
+"A": "L'iris",
+"B": "La rétine",
+"C": "Le cristallin",
+"D": "La sclérotique"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0090",
+"difficulty": "medium",
+"question": "Quelle plante aquatique possède de grandes feuilles plates et rondes flottant sur l'eau des étangs ?",
+"options": {
+"A": "Le roseau",
+"B": "Le nénuphar",
+"C": "La massette",
+"D": "L'iris d'eau"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0091",
+"difficulty": "medium",
+"question": "Comment appelle-t-on une matière comme le plastique qui empêche l'électricité de passer ?",
+"options": {
+"A": "Un conducteur",
+"B": "Un récepteur",
+"C": "Un isolant",
+"D": "Un générateur"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0092",
+"difficulty": "medium",
+"question": "Quelle roche volcanique très poreuse et remplie de bulles d'air est capable de flotter sur l'eau ?",
+"options": {
+"A": "L'ardoise",
+"B": "Le grès",
+"C": "L'obsidienne",
+"D": "La pierre ponce"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0093",
+"difficulty": "medium",
+"question": "Quels vaisseaux sanguins ramènent le sang chargé en dioxyde de carbone des organes vers le cœur ?",
+"options": {
+"A": "Les veines",
+"B": "Les artères",
+"C": "Les capillaires",
+"D": "Les alvéoles"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0094",
+"difficulty": "medium",
+"question": "Comment appelle-t-on l'alliance bénéfique entre les racines d'un arbre et un champignon souterrain ?",
+"options": {
+"A": "Le parasitisme",
+"B": "Une mycorhize",
+"C": "Une gale",
+"D": "Un chancre"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0095",
+"difficulty": "medium",
+"question": "Que mesure exactement un thermomètre au niveau microscopique dans un liquide ou un gaz ?",
+"options": {
+"A": "Le poids des molécules",
+"B": "La couleur des atomes",
+"C": "L'agitation des molécules",
+"D": "Le nombre de protons"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0096",
+"difficulty": "medium",
+"question": "Comment nomme-t-on une masse imposante de neige qui se décroche et dévale une montagne ?",
+"options": {
+"A": "Un éboulement",
+"B": "Une crevasse",
+"C": "Une moraine",
+"D": "Une avalanche"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0097",
+"difficulty": "medium",
+"question": "Quelle petite glande logée dans le cerveau fabrique l'hormone du sommeil appelée mélatonine ?",
+"options": {
+"A": "L'épiphyse",
+"B": "Le pancréas",
+"C": "Le thymus",
+"D": "La vésicule"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0098",
+"difficulty": "medium",
+"question": "Quel gaz précieux pour les animaux les plantes rejettent-elles en journée lors de la photosynthèse ?",
+"options": {
+"A": "Le dioxyde de carbone",
+"B": "Le dioxygène",
+"C": "L'azote liquide",
+"D": "Le monoxyde de carbone"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0099",
+"difficulty": "medium",
+"question": "Quelle propriété de la surface de l'eau permet aux petits insectes patineurs de marcher dessus ?",
+"options": {
+"A": "La salinité",
+"B": "La flottabilité thermique",
+"C": "La tension superficielle",
+"D": "La conduction électrique"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0100",
+"difficulty": "medium",
+"question": "Quel célèbre courant océanique chaud part des Caraïbes et réchauffe les côtes d'Europe ?",
+"options": {
+"A": "Le courant de Humboldt",
+"B": "Le courant du Labrador",
+"C": "Le courant des Canaries",
+"D": "Le Gulf Stream"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0101",
+"difficulty": "medium",
+"question": "Quel liquide digestif jaune-vert fabriqué par le foie sert à digérer les graisses du repas ?",
+"options": {
+"A": "La bile",
+"B": "La sueur",
+"C": "Le mucus",
+"D": "La lymphe"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0102",
+"difficulty": "medium",
+"question": "Quel arbre feuillu fabrique des graines ailées qui tournoient comme des hélices en tombant ?",
+"options": {
+"A": "Le hêtre",
+"B": "L'érable",
+"C": "Le marronnier",
+"D": "Le saule pleureur"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0103",
+"difficulty": "medium",
+"question": "Quel bloc de verre taillé en triangle permet de décomposer la lumière blanche en arc-en-ciel ?",
+"options": {
+"A": "Une loupe",
+"B": "Un miroir plan",
+"C": "Un prisme",
+"D": "Une lentille plate"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0104",
+"difficulty": "medium",
+"question": "Comment appelle-t-on une cavité souterraine naturelle creusée par l'eau dans la roche calcaire ?",
+"options": {
+"A": "Un cratère",
+"B": "Une tranchée",
+"C": "Une carrière",
+"D": "Une grotte"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0105",
+"difficulty": "medium",
+"question": "Quel est le plus petit os du corps humain, mesurant à peine trois millimètres dans l'oreille ?",
+"options": {
+"A": "L'étrier",
+"B": "L'enclume",
+"C": "La rotule",
+"D": "Le marteau"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0106",
+"difficulty": "medium",
+"question": "Comment appelle-t-on l'action de planter un rameau de plante en terre pour faire pousser un nouveau plant ?",
+"options": {
+"A": "L'effeuillage",
+"B": "Le bouturage",
+"C": "La greffe",
+"D": "L'émondage"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0107",
+"difficulty": "medium",
+"question": "Quel nom donne-t-on à l'énergie que possède un objet du seul fait de son mouvement de vitesse ?",
+"options": {
+"A": "L'énergie thermique",
+"B": "L'énergie chimique",
+"C": "L'énergie cinétique",
+"D": "L'énergie nucléaire"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0108",
+"difficulty": "medium",
+"question": "Quelle forme d'énergie colossale circule instantanément le long d'un éclair d'orage ?",
+"options": {
+"A": "L'énergie éolienne",
+"B": "L'énergie gravitationnelle",
+"C": "L'énergie sonore",
+"D": "L'énergie électrique"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0109",
+"difficulty": "medium",
+"question": "Quel pigment biologique naturel colore notre peau pour la protéger des rayons du soleil ?",
+"options": {
+"A": "La mélanine",
+"B": "La kératine",
+"C": "Le collagène",
+"D": "L'insuline"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0110",
+"difficulty": "medium",
+"question": "Quelle partie de la fleur porteuse de pollen représente son organe reproducteur mâle ?",
+"options": {
+"A": "Le pistil",
+"B": "L'étamine",
+"C": "Le sépale",
+"D": "L'ovule"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0111",
+"difficulty": "medium",
+"question": "Quel principe de physique explique la force qui pousse vers le haut un objet plongé dans l'eau ?",
+"options": {
+"A": "La loi d'Ohm",
+"B": "L'effet Joule",
+"C": "La poussée d'Archimède",
+"D": "L'attraction terrestre"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0112",
+"difficulty": "medium",
+"question": "Quelle colonne calcaire se forme en descendant depuis le plafond rocheux d'une grotte ?",
+"options": {
+"A": "Une stalagmite",
+"B": "Une draperie",
+"C": "Un piler",
+"D": "Une stalactite"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0113",
+"difficulty": "medium",
+"question": "Quelle est la plus longue section de notre tube digestif où passent tous les nutriments dans le sang ?",
+"options": {
+"A": "L'intestin grêle",
+"B": "L'estomac",
+"C": "Le gros intestin",
+"D": "L'appendice"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0114",
+"difficulty": "medium",
+"question": "Quel conifère bien connu protège ses graines au milieu d'écailles formant une pomme de pin ?",
+"options": {
+"A": "Le hêtre",
+"B": "Le pin",
+"C": "Le frêne",
+"D": "Le tilleul"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0115",
+"difficulty": "medium",
+"question": "Pourquoi aucun son ne peut-il s'entendre ni voyager dans le vide spatial de l'espace ?",
+"options": {
+"A": "Il fait trop froid",
+"B": "La gravité l'arrête",
+"C": "Il n'y a pas d'air pour transmettre les vibrations",
+"D": "La lumière l'écrase"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0116",
+"difficulty": "medium",
+"question": "Comment appelle-t-on un morceau de roche venu de l'espace qui atterrit intact sur le sol terrestre ?",
+"options": {
+"A": "Un astéroïde",
+"B": "Une nébuleuse",
+"C": "Un pulsar",
+"D": "Une météorite"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0117",
+"difficulty": "medium",
+"question": "Combien de compartiments internes distincts compte le cœur humain pour faire circuler le sang ?",
+"options": {
+"A": "4 compartiments",
+"B": "2 compartiments",
+"C": "6 compartiments",
+"D": "8 compartiments"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0118",
+"difficulty": "medium",
+"question": "Comment classe-t-on les petites mousses sans fleurs qui s'épanouissent sur les sous-bois humides ?",
+"options": {
+"A": "Les conifères",
+"B": "Les bryophytes",
+"C": "Les graminées",
+"D": "Les lianes"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0119",
+"difficulty": "medium",
+"question": "Quel type de miroir courbé vers l'intérieur permet d'agrandir l'image d'un reflet ?",
+"options": {
+"A": "Un miroir plan",
+"B": "Un miroir convexe",
+"C": "Un miroir concave",
+"D": "Un miroir transparent"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0120",
+"difficulty": "medium",
+"question": "Quelle force d'attraction causée par la Lune soulève les eaux des océans pour créer les marées ?",
+"options": {
+"A": "La répulsion",
+"B": "La pression thermique",
+"C": "Le magnétisme",
+"D": "La gravitation"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0121",
+"difficulty": "medium",
+"question": "Quel réflexe involontaire est provoqué par des spasmes brusques de notre muscle diaphragme ?",
+"options": {
+"A": "Le hoquet",
+"B": "Le bâillement",
+"C": "L'éternuement",
+"D": "Le rire"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0122",
+"difficulty": "medium",
+"question": "Quel arbre typique de la mangrove possède de longues racines en échasses plongeant dans l'eau salée ?",
+"options": {
+"A": "Le baobab",
+"B": "Le palétuvier",
+"C": "L'eucalyptus",
+"D": "Le bambou"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0123",
+"difficulty": "medium",
+"question": "Quelle unité de physique utilise-t-on pour mesurer la fréquence et la hauteur d'une onde sonore ?",
+"options": {
+"A": "Le volt",
+"B": "Le watt",
+"C": "Le hertz",
+"D": "Le joule"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0124",
+"difficulty": "medium",
+"question": "Quel composant forme les nuages blancs qui flottent sous nos yeux dans le ciel ?",
+"options": {
+"A": "De la fumée de bois",
+"B": "De la poussière d'étoile",
+"C": "Du gaz d'azote pur",
+"D": "Des gouttelettes d'eau liquide"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0125",
+"difficulty": "medium",
+"question": "Quel organe du système immunitaire nettoie le sang en détruisant les vieux globules rouges usés ?",
+"options": {
+"A": "La rate",
+"B": "La thyroïde",
+"C": "L'ovaire",
+"D": "La vésicule"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0126",
+"difficulty": "hard",
+"question": "Quel tissu conducteur végétal transporte la sève élaborée riche en sucres vers tous les organes de la plante ?",
+"options": {
+"A": "Le xylème",
+"B": "Le phloème",
+"C": "Le cambium",
+"D": "Le parenchyme"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0127",
+"difficulty": "hard",
+"question": "Quel physicien a décrit les lois universelles de la gravitation après avoir observé la chute d'une pomme ?",
+"options": {
+"A": "Albert Einstein",
+"B": "Galilée",
+"C": "Isaac Newton",
+"D": "Niels Bohr"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0128",
+"difficulty": "hard",
+"question": "Comment qualifie-t-on la zone océanique très profonde où ne parvient jamais le moindre rayon de soleil ?",
+"options": {
+"A": "La zone photique",
+"B": "La zone benthique",
+"C": "La zone néritique",
+"D": "La zone aphotique"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0129",
+"difficulty": "hard",
+"question": "Quel type d'articulation emboîtée en rotule relie notre bras à notre épaule pour tourner librement ?",
+"options": {
+"A": "L'articulation sphéroïde",
+"B": "L'articulation trochoïde",
+"C": "L'articulation plane",
+"D": "La suture crânienne"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0130",
+"difficulty": "hard",
+"question": "Comment appelle-t-on le mouvement de croissance orienté d'une tige végétale attirée par la lumière ?",
+"options": {
+"A": "Le géotropisme",
+"B": "Le phototropisme",
+"C": "L'hydrotropisme",
+"D": "Le thigmotropisme"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0131",
+"difficulty": "hard",
+"question": "Comment nomme-t-on le passage direct d'un corps de l'état solide à l'état gazeux sans passer par le liquide ?",
+"options": {
+"A": "La fusion",
+"B": "La liquéfaction",
+"C": "La sublimation",
+"D": "La vaporisation"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0132",
+"difficulty": "hard",
+"question": "Quel gaz rare compose environ 0,93 % de l'atmosphère terrestre, se plaçant en troisième position ?",
+"options": {
+"A": "L'hélium",
+"B": "Le néon",
+"C": "Le krypton",
+"D": "L'argon"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0133",
+"difficulty": "hard",
+"question": "Quel neurotransmetteur libéré dans le cerveau joue un rôle clé dans le circuit de la récompense et du plaisir ?",
+"options": {
+"A": "La dopamine",
+"B": "L'acétylcholine",
+"C": "Le GABA",
+"D": "La mélatonine"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0134",
+"difficulty": "hard",
+"question": "De quel arbre originaire d'Amazonie extrait-on le latex liquide qui sert à fabriquer le caoutchouc ?",
+"options": {
+"A": "Le cacaoyer",
+"B": "L'hévéa",
+"C": "L'acajou",
+"D": "Le kapokier"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0135",
+"difficulty": "hard",
+"question": "Quelle grandeur physique caractérise la résistance d'un liquide à son écoulement, comme le miel ?",
+"options": {
+"A": "L'élasticité",
+"B": "La compressibilité",
+"C": "La viscosité",
+"D": "La porosité"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0136",
+"difficulty": "hard",
+"question": "Quelle couche rocheuse épaisse située sous la croûte terrestre constitue plus de 80 % du volume de la Terre ?",
+"options": {
+"A": "Le noyau externe",
+"B": "Le noyau interne",
+"C": "La lithosphère",
+"D": "Le manteau"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0137",
+"difficulty": "hard",
+"question": "Quelles cellules réceptrices de la rétine humaine nous permettent de voir les couleurs en pleine lumière ?",
+"options": {
+"A": "Les cônes",
+"B": "Les bâtonnets",
+"C": "Les neurones bipolaires",
+"D": "Les mélanocytes"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0138",
+"difficulty": "hard",
+"question": "Comment appelle-t-on l'enveloppe externe solide qui protège l'embryon au cœur d'une graine ?",
+"options": {
+"A": "L'endosperme",
+"B": "Le tégument",
+"C": "Le cotylédon",
+"D": "La radicule"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0139",
+"difficulty": "hard",
+"question": "Quel rayonnement invisible a une longueur d'onde plus courte que la lumière violette visible ?",
+"options": {
+"A": "L'infrarouge",
+"B": "L'onde radio",
+"C": "L'ultraviolet",
+"D": "La micro-onde"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0140",
+"difficulty": "hard",
+"question": "Comment appelle-t-on le point de la surface terrestre situé à la verticale exacte du foyer d'un séisme ?",
+"options": {
+"A": "L'hypocentre",
+"B": "La faille",
+"C": "Le cratère",
+"D": "L'épicentre"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0141",
+"difficulty": "hard",
+"question": "Quelle protéine fibreuse très résistante et souple constitue la trame de nos os, tendons et cartilages ?",
+"options": {
+"A": "Le collagène",
+"B": "L'actine",
+"C": "La myoglobine",
+"D": "L'albumine"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0142",
+"difficulty": "hard",
+"question": "Quelle hormone végétale commande l'élongation des cellules pour faire grandir les tiges vers le haut ?",
+"options": {
+"A": "L'acide abscissique",
+"B": "L'auxine",
+"C": "L'insuline",
+"D": "La cortisone"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0143",
+"difficulty": "hard",
+"question": "Quel effet de mécanique des fluides explique la portance permettant aux ailes d'avions de s'élever ?",
+"options": {
+"A": "L'effet Joule",
+"B": "L'effet Doppler",
+"C": "Le théorème de Bernoulli",
+"D": "La loi de Hooke"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0144",
+"difficulty": "hard",
+"question": "Quel minéral commun très dur fait de dioxyde de silicium possède une dureté de 7 sur l'échelle de Mohs ?",
+"options": {
+"A": "Le gypse",
+"B": "Le talc",
+"C": "La calcite",
+"D": "Le quartz"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0145",
+"difficulty": "hard",
+"question": "Quels petits fragments de cellules sanguines s'agglutinent pour former un caillot et boucher une coupure ?",
+"options": {
+"A": "Les plaquettes",
+"B": "Les hématies",
+"C": "Les lymphocytes",
+"D": "Les monocytes"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0146",
+"difficulty": "hard",
+"question": "Quelle plante ancienne sans fleurs ni graines se reproduit au moyen de spores abritées sous ses feuilles ?",
+"options": {
+"A": "Le bambou",
+"B": "La fougère",
+"C": "Le muguet",
+"D": "L'ortie"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0147",
+"difficulty": "hard",
+"question": "Quel effet physique rend le son d'une sirène plus aigu lorsqu'elle approche puis plus grave en s'éloignant ?",
+"options": {
+"A": "L'effet Joule",
+"B": "L'effet photoélectrique",
+"C": "L'effet Doppler",
+"D": "L'effet Venturi"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0148",
+"difficulty": "hard",
+"question": "Comment nomme-t-on le sol polaire qui demeure gelé en permanence toute l'année ?",
+"options": {
+"A": "La tourbe",
+"B": "La moraine",
+"C": "Le lœss",
+"D": "Le pergélisol"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0149",
+"difficulty": "hard",
+"question": "Quels minuscules sacs microscopiques au bout des bronchioles échangent les gaz avec le sang ?",
+"options": {
+"A": "Les alvéoles",
+"B": "Les néphrons",
+"C": "Les villosités",
+"D": "Les vésicules"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0150",
+"difficulty": "hard",
+"question": "Quel végétal pionnier naît de l'union symbiotique étroite entre un champignon et une algue microscopique ?",
+"options": {
+"A": "La sphaigne",
+"B": "Le lichen",
+"C": "L'hépatique",
+"D": "Le gui"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0151",
+"difficulty": "hard",
+"question": "Comment s'appelle le point d'appui fixe autour duquel pivote un levier mécanique pour soulever une charge ?",
+"options": {
+"A": "Le contrepoids",
+"B": "Le palan",
+"C": "Le point de pivot",
+"D": "L'engrenage"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0152",
+"difficulty": "hard",
+"question": "Quel nuage d'orage gigantesque se développe en hauteur et forme une enclume sombre dans le ciel ?",
+"options": {
+"A": "L'altocumulus",
+"B": "Le cirrostratus",
+"C": "Le nimbostratus",
+"D": "Le cumulonimbus"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0153",
+"difficulty": "hard",
+"question": "Quelle gaine lipidique blanche isole les axones des neurones pour transmettre plus vite les influx nerveux ?",
+"options": {
+"A": "La myéline",
+"B": "La kératine",
+"C": "La chitine",
+"D": "L'actine"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0154",
+"difficulty": "hard",
+"question": "Quelle plante hémiparasite s'accroche aux branches des pommiers pour y prélever de la sève ?",
+"options": {
+"A": "Le lierre",
+"B": "Le gui",
+"C": "Le chèvrefeuille",
+"D": "La glycine"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0155",
+"difficulty": "hard",
+"question": "Comment appelle-t-on le phénomène où deux ondes lumineuses se croisent et créent des franges sombres et claires ?",
+"options": {
+"A": "La polarisation",
+"B": "La dispersion",
+"C": "L'interférence",
+"D": "L'incandescence"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0156",
+"difficulty": "hard",
+"question": "Quelle zone de contact entre une masse d'air chaud et une masse d'air froid apporte la pluie ?",
+"options": {
+"A": "Une tornade",
+"B": "Un anticyclone",
+"C": "Un vortex",
+"D": "Un front météorologique"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0157",
+"difficulty": "hard",
+"question": "Quelle hormone sécrétée par le pancréas permet de diminuer le taux de sucre présent dans le sang ?",
+"options": {
+"A": "L'insuline",
+"B": "Le glucagon",
+"C": "L'adrénaline",
+"D": "La thyroxine"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0158",
+"difficulty": "hard",
+"question": "Quel arbre très ancien aux feuilles bilobées en éventail a survécu sans grand changement depuis l'ère des dinosaures ?",
+"options": {
+"A": "Le cyprès",
+"B": "Le ginkgo biloba",
+"C": "L'araucaria",
+"D": "Le thuya"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0159",
+"difficulty": "hard",
+"question": "Quelle unité du Système international mesure la charge électrique déplacée par un courant d'un ampère en une seconde ?",
+"options": {
+"A": "Le joule",
+"B": "L'ohm",
+"C": "Le coulomb",
+"D": "Le pascal"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0160",
+"difficulty": "hard",
+"question": "Comment nomme-t-on une gorge très profonde aux parois rocheuses abruptes creusée au fil des millénaires par un cours d'eau ?",
+"options": {
+"A": "Un plateau",
+"B": "Une crique",
+"C": "Une dune",
+"D": "Un canyon"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0161",
+"difficulty": "hard",
+"question": "Quels vaisseaux sanguins extrêmement fins assurent les échanges directs avec les cellules de nos organes ?",
+"options": {
+"A": "Les capillaires",
+"B": "Les artérioles",
+"C": "Les veinules",
+"D": "Les aortes"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0162",
+"difficulty": "hard",
+"question": "Quel gaz produit par les végétaux agit comme une hormone naturelle qui fait mûrir les fruits ?",
+"options": {
+"A": "Le méthane",
+"B": "L'éthylène",
+"C": "L'azote",
+"D": "Le propane"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0163",
+"difficulty": "hard",
+"question": "Quel phénomène physique démontre que la lumière est composée de petits grains d'énergie appelés photons ?",
+"options": {
+"A": "L'effet Larsen",
+"B": "La biréfringence",
+"C": "L'effet photoélectrique",
+"D": "La phosphorescence"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0164",
+"difficulty": "hard",
+"question": "Quel type de roche magmatique se forme par le refroidissement très lent du magma sous terre, comme le granite ?",
+"options": {
+"A": "Une roche sédimentaire",
+"B": "Une roche métamorphique",
+"C": "Une roche volcanique",
+"D": "Une roche plutonique"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0165",
+"difficulty": "hard",
+"question": "Quelle partie du cerveau située à l'arrière coordonne nos mouvements et maintient notre équilibre debout ?",
+"options": {
+"A": "Le cervelet",
+"B": "Le tronc cérébral",
+"C": "L'hippocampe",
+"D": "Le cortex frontal"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0166",
+"difficulty": "hard",
+"question": "Comment nomme-t-on l'organe femelle de la fleur composé du stigmate, du style et de l'ovaire ?",
+"options": {
+"A": "L'anthère",
+"B": "Le pistil",
+"C": "Le filet",
+"D": "Le réceptacle"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0167",
+"difficulty": "hard",
+"question": "Quelle force d'inertie semble pousser vers l'extérieur les passagers d'un véhicule prenant un virage serré ?",
+"options": {
+"A": "La force centripète",
+"B": "La force nucléaire",
+"C": "La force centrifuge",
+"D": "La force de frottement"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0168",
+"difficulty": "hard",
+"question": "Comment appelle-t-on une cheminée volcanique sous-marine qui crache une eau brûlante chargée de minéraux noirs ?",
+"options": {
+"A": "Un atoll",
+"B": "Un banc corallien",
+"C": "Une fosse abyssale",
+"D": "Un fumeur noir"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0169",
+"difficulty": "hard",
+"question": "Quelles cellules réceptrices de la rétine sont les plus sensibles pour voir dans la pénombre en noir et blanc ?",
+"options": {
+"A": "Les bâtonnets",
+"B": "Les cônes",
+"C": "Les cellules gliales",
+"D": "Les mélanocytes"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0170",
+"difficulty": "hard",
+"question": "Comment qualifie-t-on botaniquement une plante dont le feuillage reste vert et vivant tout au long de l'année ?",
+"options": {
+"A": "Caduque",
+"B": "Sempervirente",
+"C": "Annuelle",
+"D": "Bisannuelle"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0171",
+"difficulty": "hard",
+"question": "Quel savant a découvert qu'un fil traversé par du courant dévie l'aiguille d'une boussole ?",
+"options": {
+"A": "James Watt",
+"B": "Alessandro Volta",
+"C": "Hans Christian Oersted",
+"D": "Michael Faraday"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0172",
+"difficulty": "hard",
+"question": "Quelle limite géologique sépare la croûte de notre Terre du manteau supérieur sous-jacent ?",
+"options": {
+"A": "La limite de Gutenberg",
+"B": "La limite de Lehmann",
+"C": "La faille de San Andreas",
+"D": "La discontinuité de Mohorovičić"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0173",
+"difficulty": "hard",
+"question": "Quelle protéine contenant des atomes de fer transporte le dioxygène dans nos globules rouges ?",
+"options": {
+"A": "L'hémoglobine",
+"B": "L'albumine",
+"C": "La fibrine",
+"D": "La myosine"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0174",
+"difficulty": "hard",
+"question": "Quel écosystème humide stocke d'immenses quantités de carbone dans un sol acide de mousses décomposées ?",
+"options": {
+"A": "La mangrove",
+"B": "La tourbière",
+"C": "La savane",
+"D": "La steppe"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0175",
+"difficulty": "hard",
+"question": "Quelle grandeur physique invariante mesure la quantité de matière contenue dans un corps, mesurée en kilogrammes ?",
+"options": {
+"A": "Le poids",
+"B": "Le volume",
+"C": "La masse",
+"D": "La pression"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0176",
+"difficulty": "hard",
+"question": "Quel cycle biogéochimique décrit les échanges continus de CO2 entre les plantes, l'océan et l'air ?",
+"options": {
+"A": "Le cycle de l'azote",
+"B": "Le cycle du phosphore",
+"C": "Le cycle de l'eau",
+"D": "Le cycle du carbone"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0177",
+"difficulty": "hard",
+"question": "Quel clapet cartilagineux se rabat sur la trachée quand on avale pour empêcher la nourriture d'entrer dans les poumons ?",
+"options": {
+"A": "L'épiglotte",
+"B": "La luette",
+"C": "Le larynx",
+"D": "Le pharynx"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0178",
+"difficulty": "hard",
+"question": "Comment appelle-t-on la perte d'eau par évaporation au niveau des feuilles qui aspire la sève brute vers le haut ?",
+"options": {
+"A": "La guttation",
+"B": "La transpiration foliaire",
+"C": "L'imbibition",
+"D": "La turgescence"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0179",
+"difficulty": "hard",
+"question": "Quel rayonnement électromagnétique invisible au-delà du rouge nous fait ressentir la chaleur du Soleil ?",
+"options": {
+"A": "Les rayons X",
+"B": "Les ultraviolets",
+"C": "L'infrarouge",
+"D": "Les rayons gamma"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0180",
+"difficulty": "hard",
+"question": "Quel phénomène d'optique atmosphérique causé par des couches d'air chaud fait croire à une flaque d'eau sur le goudron ?",
+"options": {
+"A": "Un halo",
+"B": "Une ombre chinoise",
+"C": "Une réverbération",
+"D": "Un mirage"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0181",
+"difficulty": "hard",
+"question": "Quel petit os en forme de fer à cheval situé dans notre cou a la particularité de n'être rattaché à aucun autre os ?",
+"options": {
+"A": "L'os hyoïde",
+"B": "Le sternum",
+"C": "La clavicule",
+"D": "L'omoplate"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0182",
+"difficulty": "hard",
+"question": "Quel type de racine droite et épaisse s'enfonce verticalement dans la terre, comme celle du pissenlit ?",
+"options": {
+"A": "Une racine fasciculée",
+"B": "Une racine pivotante",
+"C": "Une racine adventive",
+"D": "Une racine traçante"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0183",
+"difficulty": "hard",
+"question": "Comment appelle-t-on le rebond parfait de la lumière sur une surface polie comme un miroir ?",
+"options": {
+"A": "La diffusion",
+"B": "L'absorption",
+"C": "La réflexion spéculaire",
+"D": "La diffraction"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0184",
+"difficulty": "hard",
+"question": "Quelles concrétions calcaires s'élèvent lentement depuis le sol d'une grotte sous les gouttes tombantes ?",
+"options": {
+"A": "Les stalactites",
+"B": "Les colonnes",
+"C": "Les gours",
+"D": "Les stalagmites"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0185",
+"difficulty": "hard",
+"question": "Quelle fine membrane transparente recouvre le blanc de l'œil et l'intérieur de nos paupières ?",
+"options": {
+"A": "La conjonctive",
+"B": "La cornée",
+"C": "La choroïde",
+"D": "La rétine"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0186",
+"difficulty": "hard",
+"question": "Comment qualifie-t-on une plante qui pousse perchée sur un arbre sans lui voler sa nourriture, comme l'orchidée sauvage ?",
+"options": {
+"A": "Parasite",
+"B": "Épiphyte",
+"C": "Sèveuse",
+"D": "Xérophyte"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0187",
+"difficulty": "hard",
+"question": "Quel composant électrique permet d'augmenter ou d'abaisser la tension d'un courant alternatif ?",
+"options": {
+"A": "Une résistance",
+"B": "Un condensateur",
+"C": "Un transformateur",
+"D": "Une diode"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0188",
+"difficulty": "hard",
+"question": "Quel gaz constitue la plus grande partie de l'air que nous respirons, à hauteur d'environ 78 % du volume ?",
+"options": {
+"A": "L'oxygène",
+"B": "Le dioxyde de carbone",
+"C": "L'hydrogène",
+"D": "L'azote"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0189",
+"difficulty": "hard",
+"question": "Comment s'appelle l'espace microscopique de transmission de signaux situé entre deux neurones voisins ?",
+"options": {
+"A": "La synapse",
+"B": "L'axone",
+"C": "La dendrite",
+"D": "Le soma"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0190",
+"difficulty": "hard",
+"question": "Quel palmier des îles Seychelles produit la plus grosse graine du monde végétal, surnommée le coco-fesse ?",
+"options": {
+"A": "Le palmier dattier",
+"B": "Le cocotier de mer",
+"C": "Le palmier à huile",
+"D": "Le palmier nain"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0191",
+"difficulty": "hard",
+"question": "Quelle propriété fondamentale pousse un objet physique à conserver sa vitesse s'il n'est freiné par aucune force ?",
+"options": {
+"A": "La gravitation",
+"B": "La friction",
+"C": "L'inertie",
+"D": "L'élasticité"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0192",
+"difficulty": "hard",
+"question": "Quel alignement volcanique et sismique majeur borde tout le pourtour de l'océan Pacifique ?",
+"options": {
+"A": "La dorsale médio-atlantique",
+"B": "La fosse des Mariannes",
+"C": "La ride de Nazca",
+"D": "La ceinture de feu du Pacifique"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0193",
+"difficulty": "hard",
+"question": "Quelle enzyme de notre salive commence à couper les molécules d'amidon lors de la mastication des aliments ?",
+"options": {
+"A": "L'amylase",
+"B": "La pepsine",
+"C": "La trypsine",
+"D": "La lipase"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0194",
+"difficulty": "hard",
+"question": "Quelle partie de la fleur s'épaissit et se transforme en fruit protecteur après la fécondation ?",
+"options": {
+"A": "Le stigmate",
+"B": "L'ovaire",
+"C": "Le pétale",
+"D": "Le sépale"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0195",
+"difficulty": "hard",
+"question": "À quelle vitesse record la lumière se déplace-t-elle dans le vide absolu de l'espace ?",
+"options": {
+"A": "Environ 30 000 km/s",
+"B": "Environ 150 000 km/s",
+"C": "Environ 300 000 km/s",
+"D": "Environ 1 000 000 km/s"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0196",
+"difficulty": "hard",
+"question": "Quel minéral très tendre friable sous l'ongle a la valeur minimale de 1 sur l'échelle de dureté de Mohs ?",
+"options": {
+"A": "Le gypse",
+"B": "La calcite",
+"C": "La fluorite",
+"D": "Le talc"
+},
+"answer": "D"
+},
+{
+"id": "sn-fr-0197",
+"difficulty": "hard",
+"question": "Quel liquide transparent protège le cerveau et la moelle épinière en amortissant les chocs contre les os ?",
+"options": {
+"A": "Le liquide cérébrospinal",
+"B": "Le liquide synovial",
+"C": "Le liquide amniotique",
+"D": "Le liquide lymphatique"
+},
+"answer": "A"
+},
+{
+"id": "sn-fr-0198",
+"difficulty": "hard",
+"question": "Comment appelle-t-on le mouvement de repli rapide des feuilles de la sensitive quand on la touche du doigt ?",
+"options": {
+"A": "La gravitropie",
+"B": "La thigmonastie",
+"C": "La thermonastie",
+"D": "L'héliotropisme"
+},
+"answer": "B"
+},
+{
+"id": "sn-fr-0199",
+"difficulty": "hard",
+"question": "Quel phénomène physique permet à un liquide d'escalader spontanément un tube très fin contre la gravité ?",
+"options": {
+"A": "La viscosité",
+"B": "La sédimentation",
+"C": "La capillarité",
+"D": "La flottabilité"
+},
+"answer": "C"
+},
+{
+"id": "sn-fr-0200",
+"difficulty": "hard",
+"question": "Comment nomme-t-on la végétation rase de mousses et d'arbustes nains qui pousse sur les sols glacés de l'Arctique ?",
+"options": {
+"A": "La taïga",
+"B": "La pampa",
+"C": "Le maquis",
+"D": "La toundra"
+},
+"answer": "D"
+}
+]
 }

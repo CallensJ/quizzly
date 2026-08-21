@@ -1,5 +1,2406 @@
 {
-  "category": "sciences-nature",
-  "lang": "en",
-  "questions": []
+"category": "science-nature",
+"lang": "en",
+"questions": [
+{
+"id": "sn-en-0001",
+"difficulty": "easy",
+"question": "Which organ in your body beats constantly to pump blood to all your muscles?",
+"options": {
+"A": "The heart",
+"B": "The stomach",
+"C": "The liver",
+"D": "The kidney"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0002",
+"difficulty": "easy",
+"question": "What green pigment helps plants capture sunlight to make their own food?",
+"options": {
+"A": "Melanin",
+"B": "Chlorophyll",
+"C": "Carotene",
+"D": "Hemoglobin"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0003",
+"difficulty": "easy",
+"question": "What natural optical phenomenon appears in the sky when sunshine hits raindrops?",
+"options": {
+"A": "A solar eclipse",
+"B": "A lightning bolt",
+"C": "A rainbow",
+"D": "A meteor shower"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0004",
+"difficulty": "easy",
+"question": "Which invisible force pulls dropped objects toward the center of the Earth?",
+"options": {
+"A": "Static electricity",
+"B": "Air pressure",
+"C": "Surface tension",
+"D": "Gravity"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0005",
+"difficulty": "easy",
+"question": "Which part of a plant grows downward into the soil to absorb water and minerals?",
+"options": {
+"A": "The petal",
+"B": "The root",
+"C": "The stem",
+"D": "The leaf"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0006",
+"difficulty": "easy",
+"question": "How many senses do humans traditionally use to explore and perceive the world?",
+"options": {
+"A": "Three",
+"B": "Seven",
+"C": "Five",
+"D": "Ten"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0007",
+"difficulty": "easy",
+"question": "What state of matter is water when it freezes at zero degrees Celsius?",
+"options": {
+"A": "Gas",
+"B": "Plasma",
+"C": "Liquid",
+"D": "Solid"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0008",
+"difficulty": "easy",
+"question": "Which pair of organs fills with air when you take a deep breath?",
+"options": {
+"A": "The lungs",
+"B": "The kidneys",
+"C": "The intestines",
+"D": "The ears"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0009",
+"difficulty": "easy",
+"question": "What gas do green plants absorb from the air during photosynthesis?",
+"options": {
+"A": "Pure helium",
+"B": "Methane gas",
+"C": "Carbon dioxide",
+"D": "Pure nitrogen"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0010",
+"difficulty": "easy",
+"question": "What bright flash of electricity travels between clouds and the ground during a storm?",
+"options": {
+"A": "A tornado",
+"B": "A hurricane",
+"C": "A heatwave",
+"D": "Lightning"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0011",
+"difficulty": "easy",
+"question": "Which hard framework of bones supports your body and protects your inner organs?",
+"options": {
+"A": "The skeleton",
+"B": "The muscular system",
+"C": "The skin layer",
+"D": "The nervous system"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0012",
+"difficulty": "easy",
+"question": "What is molten rock called while it is still trapped inside an active volcano?",
+"options": {
+"A": "Basalt",
+"B": "Magma",
+"C": "Granite",
+"D": "Limestone"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0013",
+"difficulty": "easy",
+"question": "Which basic tool uses a magnetized needle to point toward Earth's magnetic north?",
+"options": {
+"A": "A telescope",
+"B": "A thermometer",
+"C": "A compass",
+"D": "A microscope"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0014",
+"difficulty": "easy",
+"question": "What sweet liquid produced by flowers attracts bees and butterflies?",
+"options": {
+"A": "Resin",
+"B": "Sap",
+"C": "Dew",
+"D": "Nectar"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0015",
+"difficulty": "easy",
+"question": "Which human body part controls thoughts, memories, movements, and dreams?",
+"options": {
+"A": "The brain",
+"B": "The liver",
+"C": "The spine",
+"D": "The heart"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0016",
+"difficulty": "easy",
+"question": "What natural process turns liquid water from puddles into invisible vapor?",
+"options": {
+"A": "Freezing",
+"B": "Evaporation",
+"C": "Condensation",
+"D": "Precipitation"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0017",
+"difficulty": "easy",
+"question": "Which material is strongly attracted to a regular iron magnet?",
+"options": {
+"A": "Plastic",
+"B": "Wood",
+"C": "Steel",
+"D": "Glass"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0018",
+"difficulty": "easy",
+"question": "What is the outermost protective layer covering the entire human body?",
+"options": {
+"A": "Muscle",
+"B": "Cartilage",
+"C": "Fat",
+"D": "Skin"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0019",
+"difficulty": "easy",
+"question": "Which plant structure holds colorful petals and produces seeds for reproduction?",
+"options": {
+"A": "The flower",
+"B": "The bark",
+"C": "The root",
+"D": "The thorn"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0020",
+"difficulty": "easy",
+"question": "What huge spinning funnel of violent wind touches the ground during severe storms?",
+"options": {
+"A": "A blizzard",
+"B": "A tornado",
+"C": "A sandstorm",
+"D": "A tsunami"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0021",
+"difficulty": "easy",
+"question": "What gas do humans need to inhale from clean air to stay alive?",
+"options": {
+"A": "Helium",
+"B": "Carbon dioxide",
+"C": "Oxygen",
+"D": "Nitrogen"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0022",
+"difficulty": "easy",
+"question": "Which shiny celestial body reflects sunlight to brighten our night sky?",
+"options": {
+"A": "Mars",
+"B": "Venus",
+"C": "Jupiter",
+"D": "The Moon"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0023",
+"difficulty": "easy",
+"question": "What hard outer covering protects a tree trunk from weather and hungry insects?",
+"options": {
+"A": "Bark",
+"B": "Pollen",
+"C": "Moss",
+"D": "Foliage"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0024",
+"difficulty": "easy",
+"question": "What sound is produced when lightning rapidly heats up the surrounding air?",
+"options": {
+"A": "Whistling",
+"B": "Thunder",
+"C": "Humming",
+"D": "Rustling"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0025",
+"difficulty": "easy",
+"question": "Which sensory organs on your tongue allow you to taste sweet and salty foods?",
+"options": {
+"A": "Nerve spikes",
+"B": "Enamel caps",
+"C": "Taste buds",
+"D": "Salivary pits"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0026",
+"difficulty": "easy",
+"question": "What simple natural phenomenon happens when an object blocks a ray of light?",
+"options": {
+"A": "A reflection",
+"B": "A mirage",
+"C": "An echo",
+"D": "A shadow"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0027",
+"difficulty": "easy",
+"question": "Which large yellow star sits at the very center of our solar system?",
+"options": {
+"A": "The Sun",
+"B": "Polaris",
+"C": "Sirius",
+"D": "Betelgeuse"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0028",
+"difficulty": "easy",
+"question": "What sticky yellow powder do flowering plants produce to help create new seeds?",
+"options": {
+"A": "Sap",
+"B": "Pollen",
+"C": "Nectar",
+"D": "Spore"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0029",
+"difficulty": "easy",
+"question": "Which body joint connects your upper arm bone to your forearm bones?",
+"options": {
+"A": "The knee",
+"B": "The ankle",
+"C": "The elbow",
+"D": "The hip"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0030",
+"difficulty": "easy",
+"question": "What type of large ecosystem receives very little rain and has sandy or rocky soil?",
+"options": {
+"A": "A rainforest",
+"B": "A swamp",
+"C": "A meadow",
+"D": "A desert"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0031",
+"difficulty": "easy",
+"question": "What force slows down a sliding sled when it rubs against rough ground?",
+"options": {
+"A": "Friction",
+"B": "Gravity",
+"C": "Magnetism",
+"D": "Buoyancy"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0032",
+"difficulty": "easy",
+"question": "Which curved bone cage in your chest protects your heart and lungs from bumps?",
+"options": {
+"A": "The skull",
+"B": "The ribcage",
+"C": "The pelvis",
+"D": "The spine"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0033",
+"difficulty": "easy",
+"question": "What falls from cold winter clouds as delicate, six-sided frozen crystals?",
+"options": {
+"A": "Sleet",
+"B": "Dew",
+"C": "Snowflakes",
+"D": "Hailstones"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0034",
+"difficulty": "easy",
+"question": "What do seeds need most to wake up and begin sprouting into young plants?",
+"options": {
+"A": "Total darkness",
+"B": "Strong wind",
+"C": "Dry sand",
+"D": "Water and warmth"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0035",
+"difficulty": "easy",
+"question": "Which muscular organ churns your food with acidic juices to start digestion?",
+"options": {
+"A": "The stomach",
+"B": "The bladder",
+"C": "The spleen",
+"D": "The trachea"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0036",
+"difficulty": "easy",
+"question": "Why do ice cubes float smoothly at the surface of a glass of liquid water?",
+"options": {
+"A": "Ice is warmer than water",
+"B": "Ice is less dense than water",
+"C": "Ice has magnetic power",
+"D": "Ice traps heavy minerals"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0037",
+"difficulty": "easy",
+"question": "What happens when light waves bounce off a clean, polished glass mirror?",
+"options": {
+"A": "Absorption",
+"B": "Evaporation",
+"C": "Reflection",
+"D": "Dissolving"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0038",
+"difficulty": "easy",
+"question": "Which plant part catches sunlight and breathes through tiny surface pores?",
+"options": {
+"A": "The seed",
+"B": "The root",
+"C": "The stem",
+"D": "The leaf"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0039",
+"difficulty": "easy",
+"question": "What hard bone helmet protects your brain from injury when you bump your head?",
+"options": {
+"A": "The skull",
+"B": "The collarbone",
+"C": "The jawbone",
+"D": "The shoulder blade"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0040",
+"difficulty": "easy",
+"question": "What giant ocean waves can be triggered by sudden underwater earthquakes?",
+"options": {
+"A": "Rip tides",
+"B": "Tsunamis",
+"C": "Storm surges",
+"D": "Spring tides"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0041",
+"difficulty": "easy",
+"question": "Which form of energy allows us to see all the bright colors around us?",
+"options": {
+"A": "Sound",
+"B": "Heat",
+"C": "Light",
+"D": "Motion"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0042",
+"difficulty": "easy",
+"question": "What desert plant has thick green stems and sharp spines instead of wide leaves?",
+"options": {
+"A": "A fern",
+"B": "A palm tree",
+"C": "An orchid",
+"D": "A cactus"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0043",
+"difficulty": "easy",
+"question": "What clear liquid in your mouth moistens food and helps you chew it comfortably?",
+"options": {
+"A": "Saliva",
+"B": "Plasma",
+"C": "Bile",
+"D": "Mucus"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0044",
+"difficulty": "easy",
+"question": "What simple action creates sound vibrations when you pluck a guitar string?",
+"options": {
+"A": "Cooling down",
+"B": "Rapid back-and-forth movement",
+"C": "Absorbing light",
+"D": "Melting slowly"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0045",
+"difficulty": "easy",
+"question": "What type of tree stays green and keeps its needle-like leaves throughout winter?",
+"options": {
+"A": "Deciduous tree",
+"B": "Fruit tree",
+"C": "Evergreen tree",
+"D": "Flowering shrub"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0046",
+"difficulty": "easy",
+"question": "What happens to liquid water when it is heated to one hundred degrees Celsius?",
+"options": {
+"A": "It freezes solid",
+"B": "It turns into syrup",
+"C": "It changes color",
+"D": "It boils into steam"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0047",
+"difficulty": "easy",
+"question": "Which colored circle of muscle in your eye controls the size of your pupil?",
+"options": {
+"A": "The iris",
+"B": "The cornea",
+"C": "The retina",
+"D": "The lens"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0048",
+"difficulty": "easy",
+"question": "What is the primary source of heat and light energy for all living things on Earth?",
+"options": {
+"A": "The Moon",
+"B": "The Sun",
+"C": "Volcanoes",
+"D": "The Earth's core"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0049",
+"difficulty": "easy",
+"question": "Which tiny organisms, along with mushrooms, break down dead leaves into rich soil?",
+"options": {
+"A": "Predators",
+"B": "Pollinators",
+"C": "Decomposers",
+"D": "Producers"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0050",
+"difficulty": "easy",
+"question": "What natural phenomenon occurs when the ground shakes due to shifting rock plates?",
+"options": {
+"A": "A landslide",
+"B": "A whirlwind",
+"C": "An avalanche",
+"D": "An earthquake"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0051",
+"difficulty": "medium",
+"question": "Which longest and strongest bone in the human body is located inside your thigh?",
+"options": {
+"A": "The femur",
+"B": "The tibia",
+"C": "The humerus",
+"D": "The radius"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0052",
+"difficulty": "medium",
+"question": "What is the name of the glowing, dancing lights often seen in the night sky near the Arctic?",
+"options": {
+"A": "Zodiacal light",
+"B": "Aurora Borealis",
+"C": "Saint Elmo's fire",
+"D": "Solar flares"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0053",
+"difficulty": "medium",
+"question": "Through which microscopic openings on the underside of leaves do plants exchange gases?",
+"options": {
+"A": "Lenticels",
+"B": "Vascular tubes",
+"C": "Stomata",
+"D": "Cuticles"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0054",
+"difficulty": "medium",
+"question": "What happens when two north poles of two different magnets are pushed toward each other?",
+"options": {
+"A": "They stick together firmly",
+"B": "They create an electric spark",
+"C": "They lose their magnetic field",
+"D": "They push each other away"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0055",
+"difficulty": "medium",
+"question": "What specialized blood cells help your body fight off harmful germs and infections?",
+"options": {
+"A": "White blood cells",
+"B": "Red blood cells",
+"C": "Platelets",
+"D": "Plasma cells"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0056",
+"difficulty": "medium",
+"question": "Why does a large helium-filled party balloon rise up through the air in a room?",
+"options": {
+"A": "Helium is heavier than air",
+"B": "Helium is less dense than air",
+"C": "Helium creates heat",
+"D": "Helium repels Earth's gravity"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0057",
+"difficulty": "medium",
+"question": "What is the main role of tiny blood fragments called platelets when you get a small cut?",
+"options": {
+"A": "Carrying fresh oxygen",
+"B": "Fighting viral infections",
+"C": "Clotting blood to stop bleeding",
+"D": "Producing digestive enzymes"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0058",
+"difficulty": "medium",
+"question": "What scientific term describes the bending of a light beam as it passes from air into water?",
+"options": {
+"A": "Reflection",
+"B": "Diffraction",
+"C": "Absorption",
+"D": "Refraction"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0059",
+"difficulty": "medium",
+"question": "Which carnivorous plant snaps its sensitive leaves shut in less than a second to trap insects?",
+"options": {
+"A": "Venus flytrap",
+"B": "Pitcher plant",
+"C": "Sundew",
+"D": "Butterwort"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0060",
+"difficulty": "medium",
+"question": "What creates the rhythmic 'lub-dub' sound you hear through a doctor's stethoscope?",
+"options": {
+"A": "Blood rushing into the lungs",
+"B": "Heart valves snapping shut",
+"C": "Muscles rubbing against ribs",
+"D": "Air bubbles in the arteries"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0061",
+"difficulty": "medium",
+"question": "Which layer of the atmosphere protects life on Earth by absorbing harmful solar ultraviolet rays?",
+"options": {
+"A": "The troposphere",
+"B": "The thermosphere",
+"C": "The ozone layer",
+"D": "The exosphere"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0062",
+"difficulty": "medium",
+"question": "What tissue connects your muscles firmly to your bones to help you move?",
+"options": {
+"A": "Cartilage",
+"B": "Ligaments",
+"C": "Marrow",
+"D": "Tendons"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0063",
+"difficulty": "medium",
+"question": "What natural phenomenon is caused by ocean water being pulled by the Moon's gravitational pull?",
+"options": {
+"A": "Ocean tides",
+"B": "Tsunamis",
+"C": "Underwater volcanoes",
+"D": "Whirlpools"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0064",
+"difficulty": "medium",
+"question": "Why does rubbing a balloon on a wool sweater make it stick to a painted wall?",
+"options": {
+"A": "Magnetic attraction",
+"B": "Static electricity",
+"C": "Thermal expansion",
+"D": "Chemical bonding"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0065",
+"difficulty": "medium",
+"question": "Which plant vascular tissue carries water and dissolved minerals upward from roots to leaves?",
+"options": {
+"A": "Phloem",
+"B": "Cambium",
+"C": "Xylem",
+"D": "Pith"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0066",
+"difficulty": "medium",
+"question": "What makes your fingernails and hair tough, flexible, and waterproof?",
+"options": {
+"A": "Collagen",
+"B": "Enamel",
+"C": "Cellulose",
+"D": "Keratin"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0067",
+"difficulty": "medium",
+"question": "What is the calm, circular area located at the exact center of a powerful hurricane called?",
+"options": {
+"A": "The eye",
+"B": "The vortex",
+"C": "The nucleus",
+"D": "The core"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0068",
+"difficulty": "medium",
+"question": "Which small organ stores bile made by the liver until your intestines need it to digest fat?",
+"options": {
+"A": "The pancreas",
+"B": "The gallbladder",
+"C": "The spleen",
+"D": "The appendix"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0069",
+"difficulty": "medium",
+"question": "Why does a large metal cruise ship float on seawater instead of sinking to the bottom?",
+"options": {
+"A": "Metal is lighter than water",
+"B": "Salt repels steel hulls",
+"C": "Its hollow shape displaces enough water",
+"D": "Engines create lifting forces"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0070",
+"difficulty": "medium",
+"question": "What are the underground fungal threads that connect trees and share forest nutrients called?",
+"options": {
+"A": "Lichens",
+"B": "Spores",
+"C": "Roots",
+"D": "Mycelium"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0071",
+"difficulty": "medium",
+"question": "Which dome-shaped muscle beneath your lungs moves downward to help you inhale air?",
+"options": {
+"A": "The diaphragm",
+"B": "The intercostal",
+"C": "The trapezius",
+"D": "The abdominal wall"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0072",
+"difficulty": "medium",
+"question": "What causes a loud sonic boom when a jet aircraft flies through the sky?",
+"options": {
+"A": "Fuel exploding in the engines",
+"B": "Traveling faster than the speed of sound",
+"C": "Friction with upper cloud layers",
+"D": "Breaking through the ozone layer"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0073",
+"difficulty": "medium",
+"question": "Which rock type forms when molten lava cools and solidifies on Earth's surface?",
+"options": {
+"A": "Sedimentary rock",
+"B": "Metamorphic rock",
+"C": "Igneous rock",
+"D": "Fossilized limestone"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0074",
+"difficulty": "medium",
+"question": "What mineral gives human bones and teeth their remarkable strength and hardness?",
+"options": {
+"A": "Iron",
+"B": "Potassium",
+"C": "Zinc",
+"D": "Calcium"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0075",
+"difficulty": "medium",
+"question": "How do rings inside a tree trunk allow scientists to determine the tree's exact age?",
+"options": {
+"A": "The tree grows one new ring each year",
+"B": "Rings appear only during droughts",
+"C": "Each branch adds five rings",
+"D": "Rings change color every decade"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0076",
+"difficulty": "medium",
+"question": "What natural phenomenon creates an echo when you shout inside a large, empty cave?",
+"options": {
+"A": "Sound waves getting absorbed",
+"B": "Sound waves bouncing off solid rock walls",
+"C": "Sound speeding up in cold air",
+"D": "Sound turning into wind vibrations"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0077",
+"difficulty": "medium",
+"question": "Which red protein inside red blood cells binds to oxygen and carries it across the body?",
+"options": {
+"A": "Insulin",
+"B": "Collagen",
+"C": "Hemoglobin",
+"D": "Myoglobin"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0078",
+"difficulty": "medium",
+"question": "What happens to the liquid inside a mercury or alcohol thermometer when temperature rises?",
+"options": {
+"A": "It freezes solid",
+"B": "It changes chemical state",
+"C": "It turns into vapor",
+"D": "It expands and rises upward"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0079",
+"difficulty": "medium",
+"question": "What is the process where a seed absorbs water, swells up, and starts to grow called?",
+"options": {
+"A": "Germination",
+"B": "Pollination",
+"C": "Transpiration",
+"D": "Fertilization"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0080",
+"difficulty": "medium",
+"question": "Why do stars appear to twinkle gently when viewed from the surface of Earth at night?",
+"options": {
+"A": "They turn on and off rapidly",
+"B": "Earth's moving air bends their light rays",
+"C": "Clouds pass in front of them",
+"D": "Cosmic dust blocks their beams"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0081",
+"difficulty": "medium",
+"question": "Which organ in the human body filters waste fluids from blood to create urine?",
+"options": {
+"A": "The liver",
+"B": "The pancreas",
+"C": "The kidney",
+"D": "The spleen"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0082",
+"difficulty": "medium",
+"question": "Which material is known as a good electrical conductor that allows electricity to flow easily?",
+"options": {
+"A": "Rubber",
+"B": "Plastic",
+"C": "Wood",
+"D": "Copper"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0083",
+"difficulty": "medium",
+"question": "What natural phenomenon occurs when the Moon passes directly between the Sun and Earth?",
+"options": {
+"A": "A solar eclipse",
+"B": "A lunar eclipse",
+"C": "A meteor storm",
+"D": "A solstice"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0084",
+"difficulty": "medium",
+"question": "Which substance in human skin provides natural color and helps shield against sun damage?",
+"options": {
+"A": "Keratin",
+"B": "Melanin",
+"C": "Collagen",
+"D": "Elastin"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0085",
+"difficulty": "medium",
+"question": "What allows water strider insects to walk across the surface of a pond without sinking?",
+"options": {
+"A": "Water magnetism",
+"B": "Air bubbles on their wings",
+"C": "Surface tension of water",
+"D": "Warm water currents"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0086",
+"difficulty": "medium",
+"question": "What type of simple machine consists of a grooved wheel and a rope used to lift heavy loads?",
+"options": {
+"A": "An inclined plane",
+"B": "A screw",
+"C": "A wedge",
+"D": "A pulley"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0087",
+"difficulty": "medium",
+"question": "What special substance in green plants converts light into glucose sugars during daylight?",
+"options": {
+"A": "Chloroplasts",
+"B": "Mitochondria",
+"C": "Vacuoles",
+"D": "Ribosomes"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0088",
+"difficulty": "medium",
+"question": "Which part of your ear collects sound vibrations and directs them down the ear canal?",
+"options": {
+"A": "The cochlea",
+"B": "The outer ear (pinna)",
+"C": "The eardrum",
+"D": "The auditory nerve"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0089",
+"difficulty": "medium",
+"question": "What happens when light passes through a glass triangular prism?",
+"options": {
+"A": "It disappears completely",
+"B": "It turns completely black",
+"C": "It splits into rainbow colors",
+"D": "It creates sound waves"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0090",
+"difficulty": "medium",
+"question": "What do we call animals that eat only plants, grass, and fruits to survive?",
+"options": {
+"A": "Carnivores",
+"B": "Omnivores",
+"C": "Decomposers",
+"D": "Herbivores"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0091",
+"difficulty": "medium",
+"question": "Why does warm air naturally rise while cold air sinks toward the floor?",
+"options": {
+"A": "Warm air is less dense than cold air",
+"B": "Warm air contains more oxygen",
+"C": "Warm air has higher gravity",
+"D": "Warm air attracts moisture"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0092",
+"difficulty": "medium",
+"question": "What is the hardest natural substance found in the human body?",
+"options": {
+"A": "The skull bone",
+"B": "Tooth enamel",
+"C": "Fingernail keratin",
+"D": "The kneecap"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0093",
+"difficulty": "medium",
+"question": "What is the scientific name for the loss of water vapor through tiny holes in plant leaves?",
+"options": {
+"A": "Respiration",
+"B": "Condensation",
+"C": "Transpiration",
+"D": "Precipitation"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0094",
+"difficulty": "medium",
+"question": "Which layer of planet Earth lies directly beneath the solid outer crust?",
+"options": {
+"A": "The inner core",
+"B": "The atmosphere",
+"C": "The hydrosphere",
+"D": "The mantle"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0095",
+"difficulty": "medium",
+"question": "What is the smallest blood vessel in the human body where nutrients pass into cells?",
+"options": {
+"A": "A capillary",
+"B": "An artery",
+"C": "A vein",
+"D": "The aorta"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0096",
+"difficulty": "medium",
+"question": "Why do you see lightning before you hear the corresponding clap of thunder?",
+"options": {
+"A": "Thunder starts after lightning finishes",
+"B": "Light travels much faster than sound",
+"C": "Human eyes react faster than ears",
+"D": "Clouds absorb sound temporarily"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0097",
+"difficulty": "medium",
+"question": "What type of plant growth response causes flower heads to bend toward sunlight?",
+"options": {
+"A": "Hydrotropism",
+"B": "Geotropism",
+"C": "Phototropism",
+"D": "Thigmotropism"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0098",
+"difficulty": "medium",
+"question": "Which gas makes up roughly seventy-eight percent of Earth's breathable atmosphere?",
+"options": {
+"A": "Oxygen",
+"B": "Carbon dioxide",
+"C": "Argon",
+"D": "Nitrogen"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0099",
+"difficulty": "medium",
+"question": "What protective fluid keeps your eyes clean, lubricated, and free from dust?",
+"options": {
+"A": "Tears",
+"B": "Sweat",
+"C": "Saliva",
+"D": "Plasma"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0100",
+"difficulty": "medium",
+"question": "What natural mineral structure hangs down from the ceiling of limestone caves like an icicle?",
+"options": {
+"A": "A stalagmite",
+"B": "A stalactite",
+"C": "A basalt pillar",
+"D": "A crystal geode"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0101",
+"difficulty": "medium",
+"question": "Which type of lens curves outward in the middle and is used in magnifying glasses?",
+"options": {
+"A": "Concave lens",
+"B": "Flat lens",
+"C": "Convex lens",
+"D": "Cylindrical lens"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0102",
+"difficulty": "medium",
+"question": "What primary gas do living plant cells consume during nighttime cellular respiration?",
+"options": {
+"A": "Nitrogen",
+"B": "Hydrogen",
+"C": "Methane",
+"D": "Oxygen"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0103",
+"difficulty": "medium",
+"question": "Which part of the human brain maintains balance and coordinates smooth muscle movement?",
+"options": {
+"A": "The cerebellum",
+"B": "The cerebrum",
+"C": "The brainstem",
+"D": "The hypothalamus"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0104",
+"difficulty": "medium",
+"question": "Why do puddles of water evaporate faster on a windy, sunny afternoon?",
+"options": {
+"A": "Air cools down water molecules",
+"B": "Wind carries water vapor away rapidly",
+"C": "Wind increases water gravity",
+"D": "Sunlight stops condensation completely"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0105",
+"difficulty": "medium",
+"question": "What is the biological name for organisms like moss and ferns that reproduce without seeds?",
+"options": {
+"A": "Flowering plants",
+"B": "Conifers",
+"C": "Spore-bearing plants",
+"D": "Succulents"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0106",
+"difficulty": "medium",
+"question": "Which scale measures the physical strength and magnitude of earthquakes?",
+"options": {
+"A": "Beaufort scale",
+"B": "Celsius scale",
+"C": "Mohs scale",
+"D": "Richter scale"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0107",
+"difficulty": "medium",
+"question": "What rubbery tissue cushions your joints and forms the flexible shape of your nose tip?",
+"options": {
+"A": "Cartilage",
+"B": "Enamel",
+"C": "Marrow",
+"D": "Ligament"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0108",
+"difficulty": "medium",
+"question": "What happens to the pitch of a sound when an object vibrates with higher frequency?",
+"options": {
+"A": "The pitch becomes deeper",
+"B": "The pitch becomes higher",
+"C": "The sound disappears completely",
+"D": "The pitch stays unchanged"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0109",
+"difficulty": "medium",
+"question": "What symbiotic partnership between fungi and algae grows on bare rocks and tree bark?",
+"options": {
+"A": "Moss",
+"B": "Ivy",
+"C": "Lichen",
+"D": "Fern"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0110",
+"difficulty": "medium",
+"question": "What causes the colorful bands of light known as a double rainbow?",
+"options": {
+"A": "Dust bouncing off clouds",
+"B": "Sunlight hitting frozen snowflakes",
+"C": "Warm air bending lightning",
+"D": "Light reflecting twice inside raindrops"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0111",
+"difficulty": "medium",
+"question": "Which blood vessels carry oxygenated blood away from the heart to the rest of the body?",
+"options": {
+"A": "Arteries",
+"B": "Veins",
+"C": "Capillaries",
+"D": "Ventricles"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0112",
+"difficulty": "medium",
+"question": "Why does bread dough rise and become fluffy when baker's yeast is added?",
+"options": {
+"A": "Yeast creates steam",
+"B": "Yeast releases carbon dioxide bubbles",
+"C": "Yeast turns water into oxygen",
+"D": "Yeast destroys wheat gluten"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0113",
+"difficulty": "medium",
+"question": "What is the scientific term for the total weight of air pressing down on Earth's surface?",
+"options": {
+"A": "Relative humidity",
+"B": "Solar radiation",
+"C": "Atmospheric pressure",
+"D": "Thermal buoyancy"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0114",
+"difficulty": "medium",
+"question": "What tough cord connects two bones together across a movable joint?",
+"options": {
+"A": "A tendon",
+"B": "A nerve",
+"C": "A muscle fiber",
+"D": "A ligament"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0115",
+"difficulty": "medium",
+"question": "Which planet in our solar system is famous for its bright, expansive icy rings?",
+"options": {
+"A": "Saturn",
+"B": "Mars",
+"C": "Jupiter",
+"D": "Neptune"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0116",
+"difficulty": "medium",
+"question": "What is the sugary fluid transported through plant phloem to nourish roots and shoots?",
+"options": {
+"A": "Water",
+"B": "Sap",
+"C": "Latex",
+"D": "Resin"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0117",
+"difficulty": "medium",
+"question": "What happens when pure white sunlight passes through millions of tiny airborne water droplets?",
+"options": {
+"A": "It creates darkness",
+"B": "It turns into heat energy",
+"C": "It separates into rainbow colors",
+"D": "It generates magnetic waves"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0118",
+"difficulty": "medium",
+"question": "Which organ in your body cleans chemicals, stores vitamins, and produces bile?",
+"options": {
+"A": "The heart",
+"B": "The stomach",
+"C": "The lung",
+"D": "The liver"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0119",
+"difficulty": "medium",
+"question": "What property of matter makes an object resist any sudden change to its speed or motion?",
+"options": {
+"A": "Inertia",
+"B": "Gravity",
+"C": "Friction",
+"D": "Density"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0120",
+"difficulty": "medium",
+"question": "What sticky substance inside your ears catches dust and protects delicate hearing canals?",
+"options": {
+"A": "Mucus",
+"B": "Earwax",
+"C": "Cartilage",
+"D": "Enamel"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0121",
+"difficulty": "medium",
+"question": "What is the layer of frozen ground that remains icy all year long in polar regions?",
+"options": {
+"A": "Glacier",
+"B": "Iceberg",
+"C": "Permafrost",
+"D": "Tundra"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0122",
+"difficulty": "medium",
+"question": "Which simple electrical component opens or closes a circuit to turn a light bulb on and off?",
+"options": {
+"A": "A battery",
+"B": "A resistor",
+"C": "A wire",
+"D": "A switch"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0123",
+"difficulty": "medium",
+"question": "Which structure inside mammalian cells is often nicknamed the 'powerhouse' for making energy?",
+"options": {
+"A": "The mitochondrion",
+"B": "The nucleus",
+"C": "The ribosome",
+"D": "The vacuole"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0124",
+"difficulty": "medium",
+"question": "Why do evergreen pine cones open up in dry weather and close tightly when it rains?",
+"options": {
+"A": "To drink rainwater",
+"B": "To release seeds only in dry wind",
+"C": "To keep squirrels away",
+"D": "To produce pine resin"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0125",
+"difficulty": "medium",
+"question": "What is the scientific name for animals that maintain a constant warm internal body temperature?",
+"options": {
+"A": "Ectotherms",
+"B": "Amphibians",
+"C": "Endotherms",
+"D": "Invertebrates"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0126",
+"difficulty": "hard",
+"question": "What tiny mineral crystals inside human inner ear canals shift to help you keep your balance?",
+"options": {
+"A": "Enamel prisms",
+"B": "Synovial beads",
+"C": "Cochlear granules",
+"D": "Otoliths"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0127",
+"difficulty": "hard",
+"question": "Which physics principle explains why the curved wings of an airplane produce upward aerodynamic lift?",
+"options": {
+"A": "Bernoulli's principle",
+"B": "Archimedes' principle",
+"C": "Pascal's law",
+"D": "Hooke's law"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0128",
+"difficulty": "hard",
+"question": "What compound makes stinging nettle leaves cause a sharp, burning itch when brushed against bare skin?",
+"options": {
+"A": "Citric acid",
+"B": "Formic acid and histamine",
+"C": "Salicylic acid",
+"D": "Lactic acid"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0129",
+"difficulty": "hard",
+"question": "Why does the daytime sky appear bright blue rather than green or yellow on a clear day?",
+"options": {
+"A": "Ozone reflects blue light",
+"B": "Oceans reflect into the clouds",
+"C": "Rayleigh scattering disperses blue wavelengths",
+"D": "Sunlight emits only blue rays"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0130",
+"difficulty": "hard",
+"question": "What is the name of the smallest bone in the human body, found deep inside the middle ear?",
+"options": {
+"A": "The malleus",
+"B": "The incus",
+"C": "The hyoid",
+"D": "The stapes"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0131",
+"difficulty": "hard",
+"question": "Which plant hormone is responsible for making tree leaves turn yellow and drop off in autumn?",
+"options": {
+"A": "Ethylene and abscisic acid",
+"B": "Gibberellin",
+"C": "Cytokinin",
+"D": "Auxin"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0132",
+"difficulty": "hard",
+"question": "What optical effect creates shimmering illusions of water puddles on hot desert roads?",
+"options": {
+"A": "Diffraction halos",
+"B": "Inferior mirage",
+"C": "Chromatic aberration",
+"D": "Polarized reflection"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0133",
+"difficulty": "hard",
+"question": "What specialized cells on the human retina detect dim light and black-and-white shapes at night?",
+"options": {
+"A": "Cone cells",
+"B": "Ganglion cells",
+"C": "Rod cells",
+"D": "Bipolar cells"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0134",
+"difficulty": "hard",
+"question": "What makes mangrove trees capable of thriving in salty ocean coastal water without dehydrating?",
+"options": {
+"A": "Storing salt in wood",
+"B": "Absorbing sand minerals",
+"C": "Growing without water",
+"D": "Special root salt filters and salt-secreting leaves"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0135",
+"difficulty": "hard",
+"question": "What causes the eerie greenish glow of bioluminescence seen in certain marine jellyfish and fireflies?",
+"options": {
+"A": "Luciferin reacting with oxygen",
+"B": "Phosphorus burning in water",
+"C": "Static electrical charges",
+"D": "Trapped solar radiation"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0136",
+"difficulty": "hard",
+"question": "What natural geological feature continuously sprays boiling water and steam high into the air?",
+"options": {
+"A": "A caldera",
+"B": "A geyser",
+"C": "A sinkhole",
+"D": "A fumarole"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0137",
+"difficulty": "hard",
+"question": "What is the name of the insulating fatty layer that wraps around human nerve axons to speed up signals?",
+"options": {
+"A": "Synapse",
+"B": "Dendrite",
+"C": "Myelin sheath",
+"D": "Axon terminal"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0138",
+"difficulty": "hard",
+"question": "What unusual physical property makes liquid water expand when it freezes into solid ice?",
+"options": {
+"A": "Loss of air molecules",
+"B": "Absorption of heat energy",
+"C": "Breakdown of oxygen bonds",
+"D": "Formation of an open hexagonal crystal lattice"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0139",
+"difficulty": "hard",
+"question": "Which towering tree species in California is recognized as the tallest living plant species on Earth?",
+"options": {
+"A": "Coast Redwood",
+"B": "Giant Sequoia",
+"C": "Douglas Fir",
+"D": "Sitka Spruce"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0140",
+"difficulty": "hard",
+"question": "What causes the distinct, pleasant earthy smell in the air right after rain falls on dry soil?",
+"options": {
+"A": "Ozone gas breakdown",
+"B": "Geosmin produced by soil bacteria",
+"C": "Pollen dust floating",
+"D": "Evaporating tree sap"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0141",
+"difficulty": "hard",
+"question": "What type of involuntary muscle tissue forms the thick contracting walls of the human heart?",
+"options": {
+"A": "Skeletal muscle",
+"B": "Smooth muscle",
+"C": "Cardiac muscle",
+"D": "Fibrous tissue"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0142",
+"difficulty": "hard",
+"question": "Why do heavy iron bowling balls fall at the same speed as light wooden balls in a vacuum?",
+"options": {
+"A": "Mass cancels out air resistance",
+"B": "Vacuum increases weight equally",
+"C": "Iron repels magnetic forces",
+"D": "Gravitational acceleration is constant for all masses"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0143",
+"difficulty": "hard",
+"question": "What microscopic hair-like structures line your airways to sweep mucus and dust out of your lungs?",
+"options": {
+"A": "Cilia",
+"B": "Villi",
+"C": "Flagella",
+"D": "Microvilli"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0144",
+"difficulty": "hard",
+"question": "Which botanical group includes non-vascular plants like mosses that lack true roots and stems?",
+"options": {
+"A": "Gymnosperms",
+"B": "Bryophytes",
+"C": "Angiosperms",
+"D": "Pteridophytes"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0145",
+"difficulty": "hard",
+"question": "What optical phenomenon causes diamonds to sparkle brilliantly with rainbow flashes of light?",
+"options": {
+"A": "Light polarization",
+"B": "Thermal radiance",
+"C": "Total internal reflection and high dispersion",
+"D": "Diffuse scattering"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0146",
+"difficulty": "hard",
+"question": "What is the name of the deepest underwater ocean trench on planet Earth?",
+"options": {
+"A": "Puerto Rico Trench",
+"B": "Java Trench",
+"C": "Peru-Chile Trench",
+"D": "Mariana Trench"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0147",
+"difficulty": "hard",
+"question": "What is the primary function of the endocrine gland called the thyroid in the human neck?",
+"options": {
+"A": "Regulating body metabolism and growth",
+"B": "Filtering red blood cells",
+"C": "Producing digestive enzymes",
+"D": "Controlling voluntary muscle reflexes"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0148",
+"difficulty": "hard",
+"question": "Why do spinning figure skaters spin noticeably faster when they pull their arms inward?",
+"options": {
+"A": "Friction with air increases",
+"B": "Conservation of angular momentum",
+"C": "Gravitational pull decreases",
+"D": "Centrifugal force pushes them"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0149",
+"difficulty": "hard",
+"question": "Which part of a flower's reproductive anatomy receives pollen during the pollination process?",
+"options": {
+"A": "The anther",
+"B": "The filament",
+"C": "The stigma",
+"D": "The sepal"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0150",
+"difficulty": "hard",
+"question": "What rare lightning phenomenon forms glowing, floating spheres of electricity during thunderstorms?",
+"options": {
+"A": "Sprite lightning",
+"B": "Blue jet",
+"C": "Elve flash",
+"D": "Ball lightning"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0151",
+"difficulty": "hard",
+"question": "What is the major chemical component of plant cell walls that gives stems their structural rigidity?",
+"options": {
+"A": "Cellulose",
+"B": "Keratin",
+"C": "Chitin",
+"D": "Glycogen"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0152",
+"difficulty": "hard",
+"question": "What happens to the wavelength of sound waves as a speeding ambulance approaches and then drives past you?",
+"options": {
+"A": "It stays completely constant",
+"B": "It compresses then stretches (Doppler effect)",
+"C": "It reverses wave direction",
+"D": "It doubles its amplitude only"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0153",
+"difficulty": "hard",
+"question": "Which microscopic air sacs in human lungs allow oxygen to diffuse directly into blood capillaries?",
+"options": {
+"A": "Bronchioles",
+"B": "Pleura",
+"C": "Alveoli",
+"D": "Tracheids"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0154",
+"difficulty": "hard",
+"question": "What is the term for the supercontinent that existed about 250 million years ago before breaking apart?",
+"options": {
+"A": "Gondwana",
+"B": "Laurasia",
+"C": "Atlantis",
+"D": "Pangaea"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0155",
+"difficulty": "hard",
+"question": "Why do human cuticles and goosebumps appear when you step into chilly air?",
+"options": {
+"A": "Tiny arrector pili muscles pull hair follicles upright",
+"B": "Skin shrinks from dehydration",
+"C": "Blood vessels burst near the surface",
+"D": "Fat layers solidify instantly"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0156",
+"difficulty": "hard",
+"question": "Which fungal organism provided humanity with the world's first widely used life-saving antibiotic?",
+"options": {
+"A": "Aspergillus",
+"B": "Penicillium",
+"C": "Saccharomyces",
+"D": "Rhizopus"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0157",
+"difficulty": "hard",
+"question": "What force keeps the International Space Station smoothly orbiting around Earth without falling?",
+"options": {
+"A": "Zero gravitational pull in space",
+"B": "Powerful magnetic repulsion",
+"C": "Continuous forward motion matching Earth's curvature",
+"D": "Constant rocket propulsion"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0158",
+"difficulty": "hard",
+"question": "What type of biological rhythm controls our daily sleep-wake cycle based on natural daylight?",
+"options": {
+"A": "Tidal rhythm",
+"B": "Ultradian rhythm",
+"C": "Infradian rhythm",
+"D": "Circadian rhythm"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0159",
+"difficulty": "hard",
+"question": "What unique mechanism allows pitcher plants to digest trapped insects in nutrient-poor bogs?",
+"options": {
+"A": "Digestive enzymes and symbiotic bacterial fluids",
+"B": "High electrical currents",
+"C": "Crushing mechanical leaves",
+"D": "Acidic sap that boils bugs"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0160",
+"difficulty": "hard",
+"question": "Why does hot water freeze faster than cold water under certain specific experimental conditions?",
+"options": {
+"A": "Thermal radiation stops",
+"B": "The Mpemba effect occurs",
+"C": "Hot water has no dissolved air",
+"D": "Molecules shrink in size"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0161",
+"difficulty": "hard",
+"question": "What is the primary function of the spleen in the human circulatory and lymphatic system?",
+"options": {
+"A": "Secreting adrenaline hormones",
+"B": "Storing digestive starch",
+"C": "Filtering old red blood cells and supporting immunity",
+"D": "Regulating blood temperature"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0162",
+"difficulty": "hard",
+"question": "What causes the distinct bioluminescent flash produced by fireflies during summer evenings?",
+"options": {
+"A": "Absorption of UV rays",
+"B": "Phosphorescent minerals in wings",
+"C": "Reflected moon rays",
+"D": "Enzymatic reaction between luciferase, ATP, and luciferin"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0163",
+"difficulty": "hard",
+"question": "Which layer of the Earth's interior is composed of liquid iron and nickel generating our magnetic field?",
+"options": {
+"A": "The outer core",
+"B": "The inner core",
+"C": "The asthenosphere",
+"D": "The lithosphere"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0164",
+"difficulty": "hard",
+"question": "What is the name of the gap across which electrical impulses pass between two adjacent neurons?",
+"options": {
+"A": "Axon hillock",
+"B": "Synapse",
+"C": "Node of Ranvier",
+"D": "Dendritic spine"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0165",
+"difficulty": "hard",
+"question": "What biological adaptation allows desert resurrection plants like the Rose of Jericho to survive years without water?",
+"options": {
+"A": "Growing deep taproots instantly",
+"B": "Producing heavy toxic resin",
+"C": "Entering extreme metabolic dormancy (anhydrobiosis)",
+"D": "Absorbing moisture through thorns"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0166",
+"difficulty": "hard",
+"question": "Which color of visible light has the shortest wavelength and the highest energy in the spectrum?",
+"options": {
+"A": "Red",
+"B": "Yellow",
+"C": "Green",
+"D": "Violet"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0167",
+"difficulty": "hard",
+"question": "What specialized sensory cells in the human skin detect delicate, gentle touch and light vibrations?",
+"options": {
+"A": "Meissner's corpuscles",
+"B": "Nociceptors",
+"C": "Thermoreceptors",
+"D": "Pacinian capsules"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0168",
+"difficulty": "hard",
+"question": "What happens to the pressure of a gas inside a sealed container when its temperature increases?",
+"options": {
+"A": "The pressure drops rapidly",
+"B": "The pressure increases proportionally (Gay-Lussac's law)",
+"C": "The pressure stays completely neutral",
+"D": "The gas liquefies immediately"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0169",
+"difficulty": "hard",
+"question": "What allows giant sequoia trees to lift hundreds of gallons of water hundreds of feet into the canopy?",
+"options": {
+"A": "Mechanical root pumps",
+"B": "Air vacuum pressure",
+"C": "Cohesion-tension theory and capillary action",
+"D": "Centrifugal trunk rotation"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0170",
+"difficulty": "hard",
+"question": "What creates the spectacular colorful displays of the Aurora Australis near Antarctica?",
+"options": {
+"A": "Sunlight bouncing off ice shelves",
+"B": "Radioactive minerals in seawater",
+"C": "Volcanic gas in the stratosphere",
+"D": "Solar wind electrons exciting gases in the thermosphere"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0171",
+"difficulty": "hard",
+"question": "What is the name of the main artery that carries fresh, oxygen-rich blood directly out of the left ventricle?",
+"options": {
+"A": "The aorta",
+"B": "The carotid artery",
+"C": "The pulmonary trunk",
+"D": "The femoral artery"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0172",
+"difficulty": "hard",
+"question": "Why does a spinning bicycle wheel remain upright and resist tilting over while moving forward?",
+"options": {
+"A": "Tire friction with asphalt",
+"B": "Gyroscopic stability and angular momentum",
+"C": "Air currents beneath the pedals",
+"D": "Magnetic attraction of the frame"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0173",
+"difficulty": "hard",
+"question": "Which organelle inside plant cells contains its own separate DNA and originated via endosymbiosis?",
+"options": {
+"A": "The Golgi apparatus",
+"B": "The endoplasmic reticulum",
+"C": "The chloroplast",
+"D": "The central vacuole"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0174",
+"difficulty": "hard",
+"question": "What is the geological name for a massive underwater volcanic eruption that forms rounded, bulbous rock formations?",
+"options": {
+"A": "Columnar basalt",
+"B": "Pumice plateau",
+"C": "Volcanic breccia",
+"D": "Pillow lava"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0175",
+"difficulty": "hard",
+"question": "What is the name of the chemical neurotransmitter released at neuromuscular junctions to trigger muscle contraction?",
+"options": {
+"A": "Acetylcholine",
+"B": "Dopamine",
+"C": "Serotonin",
+"D": "GABA"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0176",
+"difficulty": "hard",
+"question": "What causes the green flash occasionally visible right as the upper rim of the Sun dips below the ocean horizon?",
+"options": {
+"A": "Ocean waves tinting sunlight",
+"B": "Atmospheric refraction separating colors at sunset",
+"C": "Plankton glowing on the water surface",
+"D": "Solar flares striking the upper atmosphere"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0177",
+"difficulty": "hard",
+"question": "What compound in coniferous pine resin serves as a natural defensive shield against bark beetles?",
+"options": {
+"A": "Glucose",
+"B": "Lignin",
+"C": "Terpenes",
+"D": "Chlorophyll"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0178",
+"difficulty": "hard",
+"question": "What is the term for heat transfer that occurs through the bulk movement of fluids or warm air currents?",
+"options": {
+"A": "Conduction",
+"B": "Radiation",
+"C": "Insulation",
+"D": "Convection"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0179",
+"difficulty": "hard",
+"question": "Which enzyme found in human saliva begins the chemical digestion of dietary starches into simple sugars?",
+"options": {
+"A": "Amylase",
+"B": "Pepsin",
+"C": "Lipase",
+"D": "Trypsin"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0180",
+"difficulty": "hard",
+"question": "What causes a solar halo—a bright glowing ring around the Sun in a clear winter sky?",
+"options": {
+"A": "Space dust around the Moon",
+"B": "Light refracting through hexagonal ice crystals in cirrus clouds",
+"C": "Water vapor evaporating in the ozone layer",
+"D": "Magnetic storm activity in the thermosphere"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0181",
+"difficulty": "hard",
+"question": "What structure in human eye retinas is responsible for sharp, high-acuity central color vision?",
+"options": {
+"A": "The optic disc",
+"B": "The sclera",
+"C": "The fovea centralis",
+"D": "The ciliary body"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0182",
+"difficulty": "hard",
+"question": "Why does a helium balloon burst when it ascends very high into Earth's upper stratosphere?",
+"options": {
+"A": "Solar heat melts the latex",
+"B": "Gravity pulls the helium out",
+"C": "Lightning strikes the balloon",
+"D": "External air pressure drops, causing the balloon to expand past its limit"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0183",
+"difficulty": "hard",
+"question": "What is the biological term for the mutualistic relationship between nitrogen-fixing bacteria and legume plant roots?",
+"options": {
+"A": "Symbiosis",
+"B": "Parasitism",
+"C": "Commensalism",
+"D": "Predation"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0184",
+"difficulty": "hard",
+"question": "What causes the distinct whistling sound when wind blows strongly past telephone wires?",
+"options": {
+"A": "Electric current hum",
+"B": "Vortex shedding (Kármán vortex street)",
+"C": "Air friction with wire insulation",
+"D": "Thermal contraction of metal"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0185",
+"difficulty": "hard",
+"question": "What is the name of the fluid-filled, snail-shell-shaped organ in the inner ear that translates vibrations into nerve impulses?",
+"options": {
+"A": "The tympanic cavity",
+"B": "The Eustachian tube",
+"C": "The cochlea",
+"D": "The semicircular canal"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0186",
+"difficulty": "hard",
+"question": "What is the process where a solid substance changes directly into a gas without melting into a liquid first?",
+"options": {
+"A": "Evaporation",
+"B": "Condensation",
+"C": "Deposition",
+"D": "Sublimation"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0187",
+"difficulty": "hard",
+"question": "Which hormone produced by the adrenal glands triggers the human 'fight-or-flight' survival response?",
+"options": {
+"A": "Adrenaline (epinephrine)",
+"B": "Insulin",
+"C": "Melatonin",
+"D": "Calcitonin"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0188",
+"difficulty": "hard",
+"question": "What natural geological feature forms when groundwater dissolves underground limestone bedrock, causing the surface to collapse?",
+"options": {
+"A": "A fjord",
+"B": "A sinkhole",
+"C": "A canyon",
+"D": "A moraine"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0189",
+"difficulty": "hard",
+"question": "What is the primary function of stomatal guard cells on the underside of plant leaves?",
+"options": {
+"A": "Absorbing direct sunlight",
+"B": "Protecting against insects",
+"C": "Opening and closing stomata to regulate gas exchange and water loss",
+"D": "Producing floral nectar"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0190",
+"difficulty": "hard",
+"question": "What physics principle states that every action force produces an equal and opposite reaction force?",
+"options": {
+"A": "Newton's First Law",
+"B": "Newton's Second Law",
+"C": "Law of Universal Gravitation",
+"D": "Newton's Third Law"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0191",
+"difficulty": "hard",
+"question": "What is the name of the transparent front part of the human eye that covers the iris and pupil?",
+"options": {
+"A": "The cornea",
+"B": "The retina",
+"C": "The conjunctiva",
+"D": "The vitreous humor"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0192",
+"difficulty": "hard",
+"question": "Why do sound waves travel significantly faster through solid steel rails than through open air?",
+"options": {
+"A": "Steel has higher temperature",
+"B": "Tightly packed molecules in solids transmit kinetic vibrations faster",
+"C": "Air absorbs magnetic frequencies",
+"D": "Sound waves lose energy in cold metal"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0193",
+"difficulty": "hard",
+"question": "What is the name of the process by which autotrophic bacteria near hydrothermal vents make food without sunlight?",
+"options": {
+"A": "Fermentation",
+"B": "Photosynthesis",
+"C": "Chemosynthesis",
+"D": "Cellular respiration"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0194",
+"difficulty": "hard",
+"question": "What is the primary cause of Earth's four distinct seasons throughout the year?",
+"options": {
+"A": "Changing distance from the Sun",
+"B": "Fluctuations in solar energy",
+"C": "Ocean current temperature cycles",
+"D": "The 23.5-degree tilt of Earth's rotational axis"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0195",
+"difficulty": "hard",
+"question": "What specialized tissue inside large bones produces millions of new red and white blood cells daily?",
+"options": {
+"A": "Red bone marrow",
+"B": "Periosteum",
+"C": "Compact bone",
+"D": "Spongy trabeculae"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0196",
+"difficulty": "hard",
+"question": "What phenomenon occurs when light waves bend around the sharp edge of an obstacle?",
+"options": {
+"A": "Polarization",
+"B": "Diffraction",
+"C": "Total absorption",
+"D": "Specular reflection"
+},
+"answer": "B"
+},
+{
+"id": "sn-en-0197",
+"difficulty": "hard",
+"question": "What botanical structure in mosses and liverworts functions like primitive roots to anchor the plant?",
+"options": {
+"A": "Stolons",
+"B": "Tubers",
+"C": "Rhizoids",
+"D": "Tendrils"
+},
+"answer": "C"
+},
+{
+"id": "sn-en-0198",
+"difficulty": "hard",
+"question": "What creates the dramatic banded patterns and massive Great Red Spot storm on Jupiter?",
+"options": {
+"A": "Solid mountain ranges beneath the clouds",
+"B": "Solar wind stripping upper atmospheric gases",
+"C": "Volcanic plumes from Jupiter's core",
+"D": "Fast atmospheric rotation and counter-rotating jet streams"
+},
+"answer": "D"
+},
+{
+"id": "sn-en-0199",
+"difficulty": "hard",
+"question": "Which vital organ produces the hormone insulin to help body cells absorb glucose from the bloodstream?",
+"options": {
+"A": "The pancreas",
+"B": "The liver",
+"C": "The gallbladder",
+"D": "The adrenal gland"
+},
+"answer": "A"
+},
+{
+"id": "sn-en-0200",
+"difficulty": "hard",
+"question": "What is the term for the maximum constant speed reached by a falling skydiver when air resistance equals gravity?",
+"options": {
+"A": "Escape velocity",
+"B": "Terminal velocity",
+"C": "Orbital velocity",
+"D": "Relative velocity"
+},
+"answer": "B"
+}
+]
 }

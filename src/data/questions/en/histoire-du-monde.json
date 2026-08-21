@@ -1,5 +1,2406 @@
 {
   "category": "histoire-du-monde",
   "lang": "en",
-  "questions": []
+  "questions": [
+  {
+  "id": "wh-en-0001",
+  "difficulty": "easy",
+  "question": "Which ancient civilization built the Great Pyramids of Giza?",
+  "options": {
+  "A": "Ancient Egypt",
+  "B": "Ancient Rome",
+  "C": "Ancient Greece",
+  "D": "The Maya Civilization"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0002",
+  "difficulty": "easy",
+  "question": "What famous landmark in China was built to protect the empire from invaders?",
+  "options": {
+  "A": "The Forbidden City",
+  "B": "The Great Wall of China",
+  "C": "The Summer Palace",
+  "D": "The Temple of Heaven"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0003",
+  "difficulty": "easy",
+  "question": "Who was the first person to walk on the Moon in 1969?",
+  "options": {
+  "A": "Buzz Aldrin",
+  "B": "Yuri Gagarin",
+  "C": "Neil Armstrong",
+  "D": "Michael Collins"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0004",
+  "difficulty": "easy",
+  "question": "Which ancient people were famous for sailing longboats from Scandinavia?",
+  "options": {
+  "A": "The Romans",
+  "B": "The Persians",
+  "C": "The Phoenicians",
+  "D": "The Vikings"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0005",
+  "difficulty": "easy",
+  "question": "What was the name of the boy pharaoh whose golden tomb was discovered in 1922?",
+  "options": {
+  "A": "Tutankhamun",
+  "B": "Ramesses II",
+  "C": "Khufu",
+  "D": "Akhenaten"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0006",
+  "difficulty": "easy",
+  "question": "Which brothers made the first successful powered airplane flight in 1903?",
+  "options": {
+  "A": "The Montgolfier brothers",
+  "B": "The Wright brothers",
+  "C": "The Lumière brothers",
+  "D": "The Grimm brothers"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0007",
+  "difficulty": "easy",
+  "question": "In which ancient country were the first Olympic Games held?",
+  "options": {
+  "A": "Egypt",
+  "B": "Italy",
+  "C": "Greece",
+  "D": "China"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0008",
+  "difficulty": "easy",
+  "question": "What large passenger ship sank in 1912 after hitting an iceberg?",
+  "options": {
+  "A": "The Mayflower",
+  "B": "The Santa Maria",
+  "C": "The Golden Hind",
+  "D": "The Titanic"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0009",
+  "difficulty": "easy",
+  "question": "What did Johannes Gutenberg invent that made books much easier to produce?",
+  "options": {
+  "A": "The movable type printing press",
+  "B": "The mechanical typewriter",
+  "C": "The ballpoint pen",
+  "D": "The steam-powered engine"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0010",
+  "difficulty": "easy",
+  "question": "What title was given to the rulers of ancient Egypt?",
+  "options": {
+  "A": "Emperors",
+  "B": "Pharaohs",
+  "C": "Kings",
+  "D": "Czars"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0011",
+  "difficulty": "easy",
+  "question": "Which famous Italian Renaissance artist painted the Mona Lisa?",
+  "options": {
+  "A": "Michelangelo",
+  "B": "Raphael",
+  "C": "Leonardo da Vinci",
+  "D": "Donatello"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0012",
+  "difficulty": "easy",
+  "question": "What writing system using pictures and symbols did ancient Egyptians use?",
+  "options": {
+  "A": "Cuneiform",
+  "B": "Latin script",
+  "C": "Runes",
+  "D": "Hieroglyphs"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0013",
+  "difficulty": "easy",
+  "question": "What huge arena in Rome hosted gladiator games and public shows?",
+  "options": {
+  "A": "The Colosseum",
+  "B": "The Parthenon",
+  "C": "The Pantheon",
+  "D": "The Forum"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0014",
+  "difficulty": "easy",
+  "question": "Which ancient people built the city of Machu Picchu high in the Andes Mountains?",
+  "options": {
+  "A": "The Aztecs",
+  "B": "The Incas",
+  "C": "The Mayas",
+  "D": "The Olmecs"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0015",
+  "difficulty": "easy",
+  "question": "Who was the first president of the United States?",
+  "options": {
+  "A": "Thomas Jefferson",
+  "B": "Abraham Lincoln",
+  "C": "George Washington",
+  "D": "Benjamin Franklin"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0016",
+  "difficulty": "easy",
+  "question": "Which famous French tower was built for the 1889 World's Fair in Paris?",
+  "options": {
+  "A": "The Leaning Tower",
+  "B": "Big Ben",
+  "C": "The CN Tower",
+  "D": "The Eiffel Tower"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0017",
+  "difficulty": "easy",
+  "question": "Which animal was especially respected and considered sacred in ancient Egypt?",
+  "options": {
+  "A": "The cat",
+  "B": "The horse",
+  "C": "The dog",
+  "D": "The elephant"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0018",
+  "difficulty": "easy",
+  "question": "What metal made by combining copper and tin gave its name to an ancient era?",
+  "options": {
+  "A": "Iron",
+  "B": "Bronze",
+  "C": "Steel",
+  "D": "Gold"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0019",
+  "difficulty": "easy",
+  "question": "Which famous scientist discovered gravity after watching an apple fall from a tree?",
+  "options": {
+  "A": "Albert Einstein",
+  "B": "Galileo Galilei",
+  "C": "Isaac Newton",
+  "D": "Charles Darwin"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0020",
+  "difficulty": "easy",
+  "question": "What ancient trade network connected China to the Mediterranean world?",
+  "options": {
+  "A": "The Amber Road",
+  "B": "The Royal Road",
+  "C": "The Spice Route",
+  "D": "The Silk Road"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0021",
+  "difficulty": "easy",
+  "question": "Which ancient civilization created the concept of democracy in the city of Athens?",
+  "options": {
+  "A": "Ancient Greece",
+  "B": "Ancient Persia",
+  "C": "Ancient Rome",
+  "D": "Ancient China"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0022",
+  "difficulty": "easy",
+  "question": "What precious fabric was first produced in ancient China using silkworms?",
+  "options": {
+  "A": "Cotton",
+  "B": "Silk",
+  "C": "Linen",
+  "D": "Wool"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0023",
+  "difficulty": "easy",
+  "question": "Which famous queen of ancient Egypt was known for her alliances with Rome?",
+  "options": {
+  "A": "Nefertiti",
+  "B": "Hatshepsut",
+  "C": "Cleopatra",
+  "D": "Nefertari"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0024",
+  "difficulty": "easy",
+  "question": "What warrior class served feudal lords in ancient and medieval Japan?",
+  "options": {
+  "A": "Knights",
+  "B": "Gladiators",
+  "C": "Spartans",
+  "D": "Samurai"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0025",
+  "difficulty": "easy",
+  "question": "What weapon did medieval European knights carry when jousting on horseback?",
+  "options": {
+  "A": "A lance",
+  "B": "A crossbow",
+  "C": "A catapult",
+  "D": "A dagger"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0026",
+  "difficulty": "easy",
+  "question": "Which Italian explorer traveled across Asia to China and wrote a book about his journey?",
+  "options": {
+  "A": "Christopher Columbus",
+  "B": "Marco Polo",
+  "C": "Amerigo Vespucci",
+  "D": "Ferdinand Magellan"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0027",
+  "difficulty": "easy",
+  "question": "What volcanic mountain erupted in 79 AD, burying the Roman city of Pompeii?",
+  "options": {
+  "A": "Mount Etna",
+  "B": "Mount Fuji",
+  "C": "Mount Vesuvius",
+  "D": "Mount Olympus"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0028",
+  "difficulty": "easy",
+  "question": "Which famous scientist developed the theory of relativity?",
+  "options": {
+  "A": "Nikola Tesla",
+  "B": "Thomas Edison",
+  "C": "Alexander Fleming",
+  "D": "Albert Einstein"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0029",
+  "difficulty": "easy",
+  "question": "What type of building did ancient Egyptians construct as royal tombs for their pharaohs?",
+  "options": {
+  "A": "Pyramids",
+  "B": "Castles",
+  "C": "Ziggurats",
+  "D": "Pagodas"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0030",
+  "difficulty": "easy",
+  "question": "Which famous nurse became known as 'The Lady with the Lamp' during the Crimean War?",
+  "options": {
+  "A": "Clara Barton",
+  "B": "Florence Nightingale",
+  "C": "Mary Seacole",
+  "D": "Elizabeth Fry"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0031",
+  "difficulty": "easy",
+  "question": "What great river was central to life and farming in ancient Egypt?",
+  "options": {
+  "A": "The Amazon",
+  "B": "The Danube",
+  "C": "The Nile",
+  "D": "The Mississippi"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0032",
+  "difficulty": "easy",
+  "question": "Which civilization built stepped pyramid temples in Mesoamerica, such as Chichen Itza?",
+  "options": {
+  "A": "The Romans",
+  "B": "The Greeks",
+  "C": "The Egyptians",
+  "D": "The Maya"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0033",
+  "difficulty": "easy",
+  "question": "What was the name of the ship that brought the Pilgrims to North America in 1620?",
+  "options": {
+  "A": "The Mayflower",
+  "B": "The Beagle",
+  "C": "The Endeavour",
+  "D": "The Victoria"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0034",
+  "difficulty": "easy",
+  "question": "What ancient Greek mythical wooden structure was used by soldiers to enter the city of Troy?",
+  "options": {
+  "A": "The Trojan Ram",
+  "B": "The Trojan Horse",
+  "C": "The Trojan Tower",
+  "D": "The Trojan Ship"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0035",
+  "difficulty": "easy",
+  "question": "Who was the South African leader who spent 27 years in prison before becoming president?",
+  "options": {
+  "A": "Desmond Tutu",
+  "B": "Kofi Annan",
+  "C": "Nelson Mandela",
+  "D": "Robert Mugabe"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0036",
+  "difficulty": "easy",
+  "question": "What did Alexander Graham Bell famously patent in 1876?",
+  "options": {
+  "A": "The radio",
+  "B": "The television",
+  "C": "The phonograph",
+  "D": "The telephone"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0037",
+  "difficulty": "easy",
+  "question": "Which ancient military leader created a massive empire stretching from Greece to India?",
+  "options": {
+  "A": "Alexander the Great",
+  "B": "Julius Caesar",
+  "C": "Charlemagne",
+  "D": "Napoleon Bonaparte"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0038",
+  "difficulty": "easy",
+  "question": "What gift of friendship did France give to the United States in the late 19th century?",
+  "options": {
+  "A": "The Liberty Bell",
+  "B": "The Statue of Liberty",
+  "C": "The Washington Monument",
+  "D": "Mount Rushmore"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0039",
+  "difficulty": "easy",
+  "question": "What type of paper made from river reeds was used by ancient Egyptians?",
+  "options": {
+  "A": "Parchment",
+  "B": "Vellum",
+  "C": "Papyrus",
+  "D": "Bamboo paper"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0040",
+  "difficulty": "easy",
+  "question": "Who was the first human being to travel into outer space in 1961?",
+  "options": {
+  "A": "Neil Armstrong",
+  "B": "John Glenn",
+  "C": "Alan Shepard",
+  "D": "Yuri Gagarin"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0041",
+  "difficulty": "easy",
+  "question": "Which French teenage girl led troops during the Hundred Years' War and became a national hero?",
+  "options": {
+  "A": "Joan of Arc",
+  "B": "Marie Antoinette",
+  "C": "Catherine de' Medici",
+  "D": "Eleanor of Aquitaine"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0042",
+  "difficulty": "easy",
+  "question": "What major ancient city was ruled by a Senate and emperors like Augustus?",
+  "options": {
+  "A": "Athens",
+  "B": "Rome",
+  "C": "Carthage",
+  "D": "Babylon"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0043",
+  "difficulty": "easy",
+  "question": "Which American inventor improved the incandescent electric light bulb for everyday use?",
+  "options": {
+  "A": "Nikola Tesla",
+  "B": "Henry Ford",
+  "C": "Thomas Edison",
+  "D": "Samuel Morse"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0044",
+  "difficulty": "easy",
+  "question": "Which animal did ancient North American Plains nations rely on for food, clothing, and shelter?",
+  "options": {
+  "A": "The camel",
+  "B": "The reindeer",
+  "C": "The llama",
+  "D": "The bison"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0045",
+  "difficulty": "easy",
+  "question": "What grand mausoleum of white marble was built by Emperor Shah Jahan in Agra, India?",
+  "options": {
+  "A": "The Taj Mahal",
+  "B": "The Red Fort",
+  "C": "The Lotus Temple",
+  "D": "The Qutub Minar"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0046",
+  "difficulty": "easy",
+  "question": "Which weapon did medieval English archers master that gave them great range in battle?",
+  "options": {
+  "A": "The slingshot",
+  "B": "The longbow",
+  "C": "The javelin",
+  "D": "The blowgun"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0047",
+  "difficulty": "easy",
+  "question": "What large ocean separated Europe from the Americas before the Age of Exploration?",
+  "options": {
+  "A": "The Indian Ocean",
+  "B": "The Pacific Ocean",
+  "C": "The Atlantic Ocean",
+  "D": "The Arctic Ocean"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0048",
+  "difficulty": "easy",
+  "question": "What system of numbers using symbols like I, V, X, and L was used in ancient times?",
+  "options": {
+  "A": "Arabic numerals",
+  "B": "Binary code",
+  "C": "Mayan numerals",
+  "D": "Roman numerals"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0049",
+  "difficulty": "easy",
+  "question": "What large stone monument with a lion body and human head stands near the pyramids in Giza?",
+  "options": {
+  "A": "The Great Sphinx",
+  "B": "The Colossus",
+  "C": "The Obelisk",
+  "D": "The Minotaur"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0050",
+  "difficulty": "easy",
+  "question": "Who was the civil rights leader who gave the famous 'I Have a Dream' speech in 1963?",
+  "options": {
+  "A": "Malcolm X",
+  "B": "Martin Luther King Jr.",
+  "C": "Frederick Douglass",
+  "D": "John Lewis"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0051",
+  "difficulty": "medium",
+  "question": "What famous ancient stone discovered in 1799 helped scholars decode Egyptian hieroglyphs?",
+  "options": {
+  "A": "The Moabite Stone",
+  "B": "The Behistun Inscription",
+  "C": "The Rosetta Stone",
+  "D": "The Palermo Stone"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0052",
+  "difficulty": "medium",
+  "question": "Which ancient Babylonian king is famous for writing one of the earliest legal codes?",
+  "options": {
+  "A": "Nebuchadnezzar II",
+  "B": "Gilgamesh",
+  "C": "Sargon of Akkad",
+  "D": "Hammurabi"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0053",
+  "difficulty": "medium",
+  "question": "What famous army of thousands of life-sized clay soldiers was buried with China's first emperor?",
+  "options": {
+  "A": "The Terracotta Army",
+  "B": "The Jade Soldiers",
+  "C": "The Bronze Legion",
+  "D": "The Porcelain Guard"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0054",
+  "difficulty": "medium",
+  "question": "Which Portuguese explorer led the first expedition to circumnavigate the globe in 1519?",
+  "options": {
+  "A": "Vasco da Gama",
+  "B": "Ferdinand Magellan",
+  "C": "Bartolomeu Dias",
+  "D": "Pedro Álvares Cabral"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0055",
+  "difficulty": "medium",
+  "question": "Which Polish-born scientist was the first woman to win a Nobel Prize?",
+  "options": {
+  "A": "Rosalind Franklin",
+  "B": "Lise Meitner",
+  "C": "Marie Curie",
+  "D": "Dorothy Hodgkin"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0056",
+  "difficulty": "medium",
+  "question": "Which ancient civilization developed the concept of the mathematical zero in Mesoamerica?",
+  "options": {
+  "A": "The Aztecs",
+  "B": "The Incas",
+  "C": "The Toltecs",
+  "D": "The Maya"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0057",
+  "difficulty": "medium",
+  "question": "What was the name of the main fortress and palace complex of the Moorish rulers in Granada, Spain?",
+  "options": {
+  "A": "The Alhambra",
+  "B": "The Alcázar",
+  "C": "The Escorial",
+  "D": "The Mezquita"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0058",
+  "difficulty": "medium",
+  "question": "Which famous English playwright wrote Romeo and Juliet and Hamlet?",
+  "options": {
+  "A": "Geoffrey Chaucer",
+  "B": "William Shakespeare",
+  "C": "Christopher Marlowe",
+  "D": "Charles Dickens"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0059",
+  "difficulty": "medium",
+  "question": "What was the capital of the Aztec Empire, built on an island in Lake Texcoco?",
+  "options": {
+  "A": "Tikal",
+  "B": "Cusco",
+  "C": "Tenochtitlan",
+  "D": "Monte Albán"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0060",
+  "difficulty": "medium",
+  "question": "Which Scottish biologist discovered the first antibiotic, penicillin, in 1928?",
+  "options": {
+  "A": "Louis Pasteur",
+  "B": "Robert Koch",
+  "C": "Edward Jenner",
+  "D": "Alexander Fleming"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0061",
+  "difficulty": "medium",
+  "question": "What ancient Mesopotamian writing system used wedge-shaped marks on clay tablets?",
+  "options": {
+  "A": "Cuneiform",
+  "B": "Hieroglyphs",
+  "C": "Linear B",
+  "D": "Ogham"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0062",
+  "difficulty": "medium",
+  "question": "Which king of the Franks was crowned Emperor of the Romans on Christmas Day in 800 AD?",
+  "options": {
+  "A": "Clovis I",
+  "B": "Charlemagne",
+  "C": "Charles Martel",
+  "D": "Pepin the Short"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0063",
+  "difficulty": "medium",
+  "question": "What ancient lighthouse on the Mediterranean coast was one of the Seven Wonders of the Ancient World?",
+  "options": {
+  "A": "The Colossus of Rhodes",
+  "B": "The Tower of Hercules",
+  "C": "The Lighthouse of Alexandria",
+  "D": "The Pharos of Rhodes"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0064",
+  "difficulty": "medium",
+  "question": "Which brave woman escaped slavery and helped dozens of enslaved people reach freedom on the Underground Railroad?",
+  "options": {
+  "A": "Sojourner Truth",
+  "B": "Rosa Parks",
+  "C": "Ida B. Wells",
+  "D": "Harriet Tubman"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0065",
+  "difficulty": "medium",
+  "question": "What great temple complex dedicated to Vishnu was built by the Khmer Empire in Cambodia?",
+  "options": {
+  "A": "Angkor Wat",
+  "B": "Borobudur",
+  "C": "Bagan",
+  "D": "Prambanan"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0066",
+  "difficulty": "medium",
+  "question": "Which ancient Greek mathematician shouted 'Eureka!' after discovering a principle of water displacement?",
+  "options": {
+  "A": "Pythagoras",
+  "B": "Archimedes",
+  "C": "Euclid",
+  "D": "Eratosthenes"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0067",
+  "difficulty": "medium",
+  "question": "Which famous Chinese admiral led seven massive naval treasure voyages across the Indian Ocean in the 1400s?",
+  "options": {
+  "A": "Sun Tzu",
+  "B": "Kublai Khan",
+  "C": "Zheng He",
+  "D": "Qin Shi Huang"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0068",
+  "difficulty": "medium",
+  "question": "What document signed in 1215 by King John of England limited royal power for the first time?",
+  "options": {
+  "A": "The Bill of Rights",
+  "B": "The Domesday Book",
+  "C": "The Declaration of Arbroath",
+  "D": "The Magna Carta"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0069",
+  "difficulty": "medium",
+  "question": "What was the capital city of the Eastern Roman Empire, also known as the Byzantine Empire?",
+  "options": {
+  "A": "Constantinople",
+  "B": "Alexandria",
+  "C": "Antioch",
+  "D": "Athens"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0070",
+  "difficulty": "medium",
+  "question": "Which Italian astronomer improved the telescope and discovered four large moons orbiting Jupiter?",
+  "options": {
+  "A": "Johannes Kepler",
+  "B": "Galileo Galilei",
+  "C": "Nicolaus Copernicus",
+  "D": "Tycho Brahe"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0071",
+  "difficulty": "medium",
+  "question": "Which wealthy king of the Mali Empire made a legendary pilgrimage to Mecca in 1324 carrying tons of gold?",
+  "options": {
+  "A": "Sundiata Keita",
+  "B": "Askia the Great",
+  "C": "Mansa Musa",
+  "D": "Sunni Ali"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0072",
+  "difficulty": "medium",
+  "question": "What artificial waterway opened in 1869 to connect the Mediterranean Sea directly to the Red Sea?",
+  "options": {
+  "A": "The Panama Canal",
+  "B": "The Kiel Canal",
+  "C": "The Corinth Canal",
+  "D": "The Suez Canal"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0073",
+  "difficulty": "medium",
+  "question": "Which ancient civilization constructed the city of Mohenjo-Daro with advanced brick drainage systems?",
+  "options": {
+  "A": "The Indus Valley Civilization",
+  "B": "The Minoan Civilization",
+  "C": "The Sumerian Civilization",
+  "D": "The Akkadian Civilization"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0074",
+  "difficulty": "medium",
+  "question": "What famous Roman general was assassinated on the Ides of March in 44 BC?",
+  "options": {
+  "A": "Marc Antony",
+  "B": "Julius Caesar",
+  "C": "Pompey the Great",
+  "D": "Scipio Africanus"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0075",
+  "difficulty": "medium",
+  "question": "Which great library in Egypt was one of the largest centers of learning in the ancient world?",
+  "options": {
+  "A": "The Library of Pergamum",
+  "B": "The Library of Celsus",
+  "C": "The Library of Alexandria",
+  "D": "The Library of Ashurbanipal"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0076",
+  "difficulty": "medium",
+  "question": "What did the ancient Chinese invent by mixing saltpeter, sulfur, and charcoal?",
+  "options": {
+  "A": "Porcelain",
+  "B": "Cast iron",
+  "C": "Paper currency",
+  "D": "Gunpowder"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0077",
+  "difficulty": "medium",
+  "question": "What device invented in China used a magnetic needle to help sailors find North?",
+  "options": {
+  "A": "The magnetic compass",
+  "B": "The astrolabe",
+  "C": "The sextant",
+  "D": "The sundial"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0078",
+  "difficulty": "medium",
+  "question": "Which French chemist developed the process of heating liquids to kill harmful germs, known as pasteurization?",
+  "options": {
+  "A": "Antoine Lavoisier",
+  "B": "Louis Pasteur",
+  "C": "Pierre Curie",
+  "D": "André-Marie Ampère"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0079",
+  "difficulty": "medium",
+  "question": "What ancient empire ruled by Cyrus the Great created the largest empire of its time in Western Asia?",
+  "options": {
+  "A": "The Babylonian Empire",
+  "B": "The Assyrian Empire",
+  "C": "The Persian Empire",
+  "D": "The Hittite Empire"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0080",
+  "difficulty": "medium",
+  "question": "Which Russian dog became one of the first animals to orbit the Earth inside Sputnik 2 in 1957?",
+  "options": {
+  "A": "Belka",
+  "B": "Strelka",
+  "C": "Zvezdochka",
+  "D": "Laika"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0081",
+  "difficulty": "medium",
+  "question": "What system of roads with runners carrying knotted strings called quipus was built in South America?",
+  "options": {
+  "A": "The Inca Road System",
+  "B": "The Aztec Causeway",
+  "C": "The Maya White Roads",
+  "D": "The Royal Persian Road"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0082",
+  "difficulty": "medium",
+  "question": "Which European city was divided into East and West by a concrete wall from 1961 to 1989?",
+  "options": {
+  "A": "Vienna",
+  "B": "Berlin",
+  "C": "Prague",
+  "D": "Warsaw"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0083",
+  "difficulty": "medium",
+  "question": "Which famous female aviator was the first woman to fly solo across the Atlantic Ocean?",
+  "options": {
+  "A": "Bessie Coleman",
+  "B": "Harriet Quimby",
+  "C": "Amelia Earhart",
+  "D": "Jacqueline Cochran"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0084",
+  "difficulty": "medium",
+  "question": "What ancient naval traders living along the eastern Mediterranean coast created the ancestor of our alphabet?",
+  "options": {
+  "A": "The Egyptians",
+  "B": "The Babylonians",
+  "C": "The Hittites",
+  "D": "The Phoenicians"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0085",
+  "difficulty": "medium",
+  "question": "Which Polish astronomer proposed in 1543 that the Earth and planets revolve around the Sun?",
+  "options": {
+  "A": "Nicolaus Copernicus",
+  "B": "Johannes Kepler",
+  "C": "Galileo Galilei",
+  "D": "Tycho Brahe"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0086",
+  "difficulty": "medium",
+  "question": "What massive stone ring monument was built in prehistoric times on Salisbury Plain in England?",
+  "options": {
+  "A": "Carnac Stones",
+  "B": "Stonehenge",
+  "C": "Newgrange",
+  "D": "Callanish Stones"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0087",
+  "difficulty": "medium",
+  "question": "What devastating disease swept through Europe in the 1340s, carried by fleas on black rats?",
+  "options": {
+  "A": "Smallpox",
+  "B": "Cholera",
+  "C": "The Black Death",
+  "D": "Yellow Fever"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0088",
+  "difficulty": "medium",
+  "question": "Which American industrialist revolutionized manufacturing by using the moving assembly line for cars?",
+  "options": {
+  "A": "John D. Rockefeller",
+  "B": "Andrew Carnegie",
+  "C": "Thomas Edison",
+  "D": "Henry Ford"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0089",
+  "difficulty": "medium",
+  "question": "What major research center in ancient Baghdad translated scientific works into Arabic during the Golden Age of Islam?",
+  "options": {
+  "A": "The House of Wisdom",
+  "B": "The Academy of Athens",
+  "C": "The University of Bologna",
+  "D": "The Library of Pergamum"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0090",
+  "difficulty": "medium",
+  "question": "Which Portuguese prince set up a navigation school in Sagres to promote exploration of the African coast?",
+  "options": {
+  "A": "King Manuel I",
+  "B": "Prince Henry the Navigator",
+  "C": "Prince John",
+  "D": "King Afonso"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0091",
+  "difficulty": "medium",
+  "question": "What ancient Greek messenger ran from the battlefield of Marathon to Athens to deliver news of victory?",
+  "options": {
+  "A": "Leonidas",
+  "B": "Themistocles",
+  "C": "Pheidippides",
+  "D": "Pericles"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0092",
+  "difficulty": "medium",
+  "question": "Which invention by James Watt in the 18th century powered factories and trains during the Industrial Revolution?",
+  "options": {
+  "A": "The water wheel",
+  "B": "The spinning jenny",
+  "C": "The telegraph",
+  "D": "The improved steam engine"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0093",
+  "difficulty": "medium",
+  "question": "What was the capital of the ancient Incan Empire, located high in the Peruvian Andes?",
+  "options": {
+  "A": "Cusco",
+  "B": "Quito",
+  "C": "Lima",
+  "D": "Arequipa"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0094",
+  "difficulty": "medium",
+  "question": "Which Swedish inventor created dynamite and later established the international peace and science prizes?",
+  "options": {
+  "A": "Carl Linnaeus",
+  "B": "Alfred Nobel",
+  "C": "Anders Celsius",
+  "D": "Gustaf Dalén"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0095",
+  "difficulty": "medium",
+  "question": "What ancient civilization lived on the island of Crete and built the great Palace of Knossos?",
+  "options": {
+  "A": "The Mycenaeans",
+  "B": "The Trojans",
+  "C": "The Minoans",
+  "D": "The Etruscans"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0096",
+  "difficulty": "medium",
+  "question": "What international peace organization was founded in 1945 following the end of World War II?",
+  "options": {
+  "A": "The League of Nations",
+  "B": "The Red Cross",
+  "C": "The European Union",
+  "D": "The United Nations"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0097",
+  "difficulty": "medium",
+  "question": "What code of dots and dashes was developed in the 1830s to send messages across telegraph wires?",
+  "options": {
+  "A": "Morse code",
+  "B": "Baudot code",
+  "C": "Braille code",
+  "D": "ASCII code"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0098",
+  "difficulty": "medium",
+  "question": "Which English doctor developed the world's first successful vaccine, protecting people against smallpox?",
+  "options": {
+  "A": "Joseph Lister",
+  "B": "Edward Jenner",
+  "C": "John Snow",
+  "D": "William Harvey"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0099",
+  "difficulty": "medium",
+  "question": "What famous ancient Greek temple on the Acropolis of Athens was dedicated to the goddess Athena?",
+  "options": {
+  "A": "The Erechtheion",
+  "B": "The Temple of Hephaestus",
+  "C": "The Parthenon",
+  "D": "The Temple of Zeus"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0100",
+  "difficulty": "medium",
+  "question": "Which English mathematician is celebrated as the world's first computer programmer for work on the Analytical Engine?",
+  "options": {
+  "A": "Mary Shelley",
+  "B": "Florence Nightingale",
+  "C": "Caroline Herschel",
+  "D": "Ada Lovelace"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0101",
+  "difficulty": "medium",
+  "question": "Which great Carthaginian general famously crossed the snowy Alps with war elephants to fight Rome?",
+  "options": {
+  "A": "Hannibal Barca",
+  "B": "Hamilcar Barca",
+  "C": "Hasdrubal",
+  "D": "Scipio"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0102",
+  "difficulty": "medium",
+  "question": "What huge ancient stone temple in Rome features a massive concrete dome with an open central hole called an oculus?",
+  "options": {
+  "A": "The Colosseum",
+  "B": "The Pantheon",
+  "C": "The Forum",
+  "D": "The Circus Maximus"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0103",
+  "difficulty": "medium",
+  "question": "Which Scottish explorer mapped vast areas of southern and central Africa, including Victoria Falls?",
+  "options": {
+  "A": "Henry Morton Stanley",
+  "B": "Mungo Park",
+  "C": "David Livingstone",
+  "D": "Richard Burton"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0104",
+  "difficulty": "medium",
+  "question": "What giant bell inside the clock tower of the Palace of Westminster in London first rang in 1859?",
+  "options": {
+  "A": "Great Paul",
+  "B": "Liberty Bell",
+  "C": "Tsar Bell",
+  "D": "Big Ben"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0105",
+  "difficulty": "medium",
+  "question": "What ancient trade city in the desert of modern Jordan was carved directly into red sandstone cliffs?",
+  "options": {
+  "A": "Petra",
+  "B": "Palmyra",
+  "C": "Persepolis",
+  "D": "Jerash"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0106",
+  "difficulty": "medium",
+  "question": "Which English naturalist formulated the theory of evolution by natural selection after visiting the Galápagos Islands?",
+  "options": {
+  "A": "Gregor Mendel",
+  "B": "Charles Darwin",
+  "C": "Alfred Russel Wallace",
+  "D": "Thomas Huxley"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0107",
+  "difficulty": "medium",
+  "question": "What ancient Mesoamerican civilization created colossal carved stone heads weighing many tons?",
+  "options": {
+  "A": "The Maya",
+  "B": "The Aztecs",
+  "C": "The Olmecs",
+  "D": "The Zapotecs"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0108",
+  "difficulty": "medium",
+  "question": "What was the name of the first artificial satellite launched into space by the Soviet Union in 1957?",
+  "options": {
+  "A": "Vostok 1",
+  "B": "Explorer 1",
+  "C": "Luna 2",
+  "D": "Sputnik 1"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0109",
+  "difficulty": "medium",
+  "question": "Which Norse explorer reached North America (Vinland) around the year 1000, centuries before Columbus?",
+  "options": {
+  "A": "Leif Erikson",
+  "B": "Erik the Red",
+  "C": "Ragnar Lothbrok",
+  "D": "Harald Hardrada"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0110",
+  "difficulty": "medium",
+  "question": "What ancient Indian Mauryan emperor converted to Buddhism and carved edicts promoting non-violence on stone pillars?",
+  "options": {
+  "A": "Chandragupta",
+  "B": "Ashoka the Great",
+  "C": "Harsha",
+  "D": "Samudragupta"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0111",
+  "difficulty": "medium",
+  "question": "Which French military and political leader rose to power during the French Revolution and crowned himself emperor in 1804?",
+  "options": {
+  "A": "Louis XIV",
+  "B": "Robespierre",
+  "C": "Napoleon Bonaparte",
+  "D": "Charles de Gaulle"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0112",
+  "difficulty": "medium",
+  "question": "What name was given to the ancient network of subterranean burial tunnels carved by early Romans and Christians?",
+  "options": {
+  "A": "Crypts",
+  "B": "Ziggurats",
+  "C": "Barrows",
+  "D": "Catacombs"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0113",
+  "difficulty": "medium",
+  "question": "Which Mongol leader united nomadic tribes in 1206 to build the largest contiguous land empire in history?",
+  "options": {
+  "A": "Genghis Khan",
+  "B": "Kublai Khan",
+  "C": "Tamerlane",
+  "D": "Batu Khan"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0114",
+  "difficulty": "medium",
+  "question": "What ancient stepped pyramid tower was typical of temples in Mesopotamia?",
+  "options": {
+  "A": "Obelisk",
+  "B": "Ziggurat",
+  "C": "Mastaba",
+  "D": "Pagoda"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0115",
+  "difficulty": "medium",
+  "question": "What was the name of the international space station launched in pieces starting in 1998 to orbit Earth?",
+  "options": {
+  "A": "Mir",
+  "B": "Skylab",
+  "C": "The International Space Station",
+  "D": "Tiangong"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0116",
+  "difficulty": "medium",
+  "question": "Which female pharaoh ruled Egypt successfully as king and built the spectacular mortuary temple at Deir el-Bahari?",
+  "options": {
+  "A": "Nefertiti",
+  "B": "Cleopatra",
+  "C": "Sobekneferu",
+  "D": "Hatshepsut"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0117",
+  "difficulty": "medium",
+  "question": "What ancient highway built by the Persian Empire stretched over 1,500 miles from Susa to Sardis?",
+  "options": {
+  "A": "The Royal Road",
+  "B": "The Appian Way",
+  "C": "The Silk Road",
+  "D": "The Grand Trunk Road"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0118",
+  "difficulty": "medium",
+  "question": "Which Serbian-American engineer invented the alternating current (AC) electricity supply system?",
+  "options": {
+  "A": "Thomas Edison",
+  "B": "Nikola Tesla",
+  "C": "Guglielmo Marconi",
+  "D": "Michael Faraday"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0119",
+  "difficulty": "medium",
+  "question": "What grand palace was built near Paris by King Louis XIV, known as the 'Sun King'?",
+  "options": {
+  "A": "The Louvre",
+  "B": "Fontainebleau",
+  "C": "The Palace of Versailles",
+  "D": "Chambord"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0120",
+  "difficulty": "medium",
+  "question": "What legendary ancient city was discovered in Turkey by archaeologist Heinrich Schliemann using Homer's epic poems?",
+  "options": {
+  "A": "Knossos",
+  "B": "Mycenae",
+  "C": "Ephesus",
+  "D": "Troy"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0121",
+  "difficulty": "medium",
+  "question": "Which Indian leader used non-violent civil disobedience to help India gain independence from Britain in 1947?",
+  "options": {
+  "A": "Mahatma Gandhi",
+  "B": "Jawaharlal Nehru",
+  "C": "Subhas Chandra Bose",
+  "D": "Sardar Patel"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0122",
+  "difficulty": "medium",
+  "question": "What major canal across Central America was completed in 1914, connecting the Atlantic and Pacific oceans?",
+  "options": {
+  "A": "The Suez Canal",
+  "B": "The Panama Canal",
+  "C": "The Erie Canal",
+  "D": "The Welland Canal"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0123",
+  "difficulty": "medium",
+  "question": "Which English physician discovered how blood circulates continuously through the body pumped by the heart in 1628?",
+  "options": {
+  "A": "Edward Jenner",
+  "B": "Joseph Lister",
+  "C": "William Harvey",
+  "D": "Robert Hooke"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0124",
+  "difficulty": "medium",
+  "question": "What famous ancient Greek physician is considered the 'Father of Medicine' and inspired a medical oath?",
+  "options": {
+  "A": "Galen",
+  "B": "Aristotle",
+  "C": "Socrates",
+  "D": "Hippocrates"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0125",
+  "difficulty": "medium",
+  "question": "What precious resin traded along ancient Arabian desert routes was burned as fragrant incense in temples?",
+  "options": {
+  "A": "Frankincense",
+  "B": "Amber",
+  "C": "Cinnamon",
+  "D": "Nutmeg"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0126",
+  "difficulty": "hard",
+  "question": "Which French scholar successfully deciphered Egyptian hieroglyphs in 1822 using the Rosetta Stone?",
+  "options": {
+  "A": "Champollion",
+  "B": "Thomas Young",
+  "C": "Gaston Maspero",
+  "D": "Howard Carter"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0127",
+  "difficulty": "hard",
+  "question": "What ancient Persian ruler issued a clay cylinder in 539 BC widely considered one of the first declarations of human rights?",
+  "options": {
+  "A": "Darius the Great",
+  "B": "Cyrus the Great",
+  "C": "Xerxes I",
+  "D": "Cambyses II"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0128",
+  "difficulty": "hard",
+  "question": "Which famous university city in medieval Mali was a world center of Islamic bookmaking, trade, and learning?",
+  "options": {
+  "A": "Gao",
+  "B": "Djenné",
+  "C": "Timbuktu",
+  "D": "Oualata"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0129",
+  "difficulty": "hard",
+  "question": "What ancient Greek astronomical calculator discovered in a shipwreck used bronze gears to predict eclipses?",
+  "options": {
+  "A": "The Astrolabe of Rhodes",
+  "B": "The Archimedes Sphere",
+  "C": "The Ptolemy Planisphere",
+  "D": "The Antikythera Mechanism"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0130",
+  "difficulty": "hard",
+  "question": "Which Mayan city in Guatemala was one of the greatest urban centers of the pre-Columbian Maya world?",
+  "options": {
+  "A": "Tikal",
+  "B": "Palenque",
+  "C": "Copán",
+  "D": "Calakmul"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0131",
+  "difficulty": "hard",
+  "question": "What magnificent church with a huge dome was built in Constantinople under Emperor Justinian I in 537 AD?",
+  "options": {
+  "A": "St. Mark's Basilica",
+  "B": "Hagia Sophia",
+  "C": "The Church of the Holy Sepulchre",
+  "D": "St. Peter's Basilica"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0132",
+  "difficulty": "hard",
+  "question": "Which female mathematician and astronomer was the head of the Neoplatonic school in ancient Alexandria?",
+  "options": {
+  "A": "Theano",
+  "B": "Enheduanna",
+  "C": "Hypatia",
+  "D": "Aglaonice"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0133",
+  "difficulty": "hard",
+  "question": "What ancient Akkadian high priestess is recognized as the world's earliest known named author in history?",
+  "options": {
+  "A": "Hatshepsut",
+  "B": "Nefertiti",
+  "C": "Semiramis",
+  "D": "Enheduanna"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0134",
+  "difficulty": "hard",
+  "question": "What great medieval stone city in southern Africa featured massive dry-stone walls built without any mortar?",
+  "options": {
+  "A": "Great Zimbabwe",
+  "B": "Khami",
+  "C": "Mapungubwe",
+  "D": "Kilwa Kisiwani"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0135",
+  "difficulty": "hard",
+  "question": "Which Persian polymath during the Islamic Golden Age wrote 'The Canon of Medicine', a standard medical text for centuries?",
+  "options": {
+  "A": "Al-Khwarizmi",
+  "B": "Ibn Sina (Avicenna)",
+  "C": "Al-Razi (Rhazes)",
+  "D": "Ibn Rushd (Averroes)"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0136",
+  "difficulty": "hard",
+  "question": "What ancient writing material made from calf, goat, or sheep skin was widely used for medieval manuscripts?",
+  "options": {
+  "A": "Papyrus",
+  "B": "Bark cloth",
+  "C": "Parchment",
+  "D": "Silk paper"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0137",
+  "difficulty": "hard",
+  "question": "Which Chinese court official during the Han Dynasty is traditionally credited with inventing modern papermaking in 105 AD?",
+  "options": {
+  "A": "Zhang Heng",
+  "B": "Bi Sheng",
+  "C": "Shen Kuo",
+  "D": "Cai Lun"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0138",
+  "difficulty": "hard",
+  "question": "Which legendary king of Uruk is the hero of one of the oldest recorded epic literary poems from ancient Mesopotamia?",
+  "options": {
+  "A": "Gilgamesh",
+  "B": "Enkidu",
+  "C": "Lugalbanda",
+  "D": "Ur-Nammu"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0139",
+  "difficulty": "hard",
+  "question": "What ancient trade alliance of merchant guilds and market towns dominated commercial activity in northern European seas?",
+  "options": {
+  "A": "The Venetian League",
+  "B": "The Hanseatic League",
+  "C": "The Lombard League",
+  "D": "The Swabian League"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0140",
+  "difficulty": "hard",
+  "question": "Which ancient civilization in Crete used an early, still-undeciphered writing system known as Linear A?",
+  "options": {
+  "A": "The Mycenaeans",
+  "B": "The Cycladic culture",
+  "C": "The Minoans",
+  "D": "The Phoenicians"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0141",
+  "difficulty": "hard",
+  "question": "What 11th-century embroidered cloth, nearly 70 meters long, depicts the Norman Conquest of England in 1066?",
+  "options": {
+  "A": "The Hastings Tapestry",
+  "B": "The Winchester Tapestry",
+  "C": "The Rouen Tapestry",
+  "D": "The Bayeux Tapestry"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0142",
+  "difficulty": "hard",
+  "question": "Which mathematician from Baghdad is considered the 'father of algebra' and gave his name to the word algorithm?",
+  "options": {
+  "A": "Al-Khwarizmi",
+  "B": "Al-Kindi",
+  "C": "Al-Battani",
+  "D": "Al-Biruni"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0143",
+  "difficulty": "hard",
+  "question": "What massive volcanic island in the Aegean Sea experienced a colossal Bronze Age eruption that destroyed the Minoan port of Akrotiri?",
+  "options": {
+  "A": "Rhodes",
+  "B": "Santorini (Thera)",
+  "C": "Naxos",
+  "D": "Crete"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0144",
+  "difficulty": "hard",
+  "question": "Which Venetian merchant and traveler wrote 'The Travels' after spending 17 years in the court of Kublai Khan?",
+  "options": {
+  "A": "Giovanni da Pian del Carpine",
+  "B": "William of Rubruck",
+  "C": "Marco Polo",
+  "D": "Niccolò de' Conti"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0145",
+  "difficulty": "hard",
+  "question": "What great ancient city in modern-day Tunisia was the formidable rival of Rome during the three Punic Wars?",
+  "options": {
+  "A": "Syracuse",
+  "B": "Leptis Magna",
+  "C": "Cyrene",
+  "D": "Carthage"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0146",
+  "difficulty": "hard",
+  "question": "Which Moroccan scholar and explorer traveled over 73,000 miles across Africa, the Middle East, and Asia in the 14th century?",
+  "options": {
+  "A": "Ibn Battuta",
+  "B": "Ibn Khaldun",
+  "C": "Leo Africanus",
+  "D": "Al-Idrisi"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0147",
+  "difficulty": "hard",
+  "question": "What ancient Indian university founded in the 5th century AD in Bihar was a renowned Buddhist center of learning?",
+  "options": {
+  "A": "Taxila",
+  "B": "Nalanda",
+  "C": "Vikramashila",
+  "D": "Valabhi"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0148",
+  "difficulty": "hard",
+  "question": "Which Spanish navigator was the first European to sight the Pacific Ocean from the American mainland in 1513?",
+  "options": {
+  "A": "Hernán Cortés",
+  "B": "Francisco Pizarro",
+  "C": "Vasco Núñez de Balboa",
+  "D": "Juan Ponce de León"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0149",
+  "difficulty": "hard",
+  "question": "What was the name of the ship on which Charles Darwin sailed as a naturalist around South America from 1831 to 1836?",
+  "options": {
+  "A": "HMS Endeavour",
+  "B": "HMS Discovery",
+  "C": "HMS Challenger",
+  "D": "HMS Beagle"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0150",
+  "difficulty": "hard",
+  "question": "Which ancient Egyptian architect designed the famous Step Pyramid of Djoser at Saqqara?",
+  "options": {
+  "A": "Imhotep",
+  "B": "Hemiunu",
+  "C": "Senenmut",
+  "D": "Ineni"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0151",
+  "difficulty": "hard",
+  "question": "What ancient civilization flourished in the high Andes around Lake Titicaca before the Incas arose?",
+  "options": {
+  "A": "The Chavin",
+  "B": "The Tiwanaku",
+  "C": "The Moche",
+  "D": "The Nazca"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0152",
+  "difficulty": "hard",
+  "question": "Which 15th-century maritime treaty divided the newly explored lands outside Europe between Spain and Portugal?",
+  "options": {
+  "A": "The Treaty of Utrecht",
+  "B": "The Treaty of Saragossa",
+  "C": "The Treaty of Tordesillas",
+  "D": "The Peace of Westphalia"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0153",
+  "difficulty": "hard",
+  "question": "What ancient Greek scientist calculated the circumference of the Earth with remarkable accuracy using shadows in Egypt?",
+  "options": {
+  "A": "Hipparchus",
+  "B": "Aristarchus",
+  "C": "Ptolemy",
+  "D": "Eratosthenes"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0154",
+  "difficulty": "hard",
+  "question": "Which Korean king created the Hangul phonetic alphabet in 1443 to increase literacy among all citizens?",
+  "options": {
+  "A": "King Sejong the Great",
+  "B": "King Taejo",
+  "C": "King Gwanggaeto",
+  "D": "King Yeongjo"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0155",
+  "difficulty": "hard",
+  "question": "What colossal bronze statue standing near the harbor of an Aegean island was one of the Seven Wonders of the Ancient World?",
+  "options": {
+  "A": "The Statue of Zeus at Olympia",
+  "B": "The Colossus of Rhodes",
+  "C": "The Athena Promachos",
+  "D": "The Artemision Bronze"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0156",
+  "difficulty": "hard",
+  "question": "What great stone circle and Neolithic burial monument in Ireland is older than the Egyptian Pyramids and aligned with the winter solstice?",
+  "options": {
+  "A": "Avebury",
+  "B": "Callanish",
+  "C": "Newgrange",
+  "D": "Knowth"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0157",
+  "difficulty": "hard",
+  "question": "Which Byzantine general under Justinian I successfully reconquered large parts of Italy and North Africa for the empire?",
+  "options": {
+  "A": "Narses",
+  "B": "Aetius",
+  "C": "Stilicho",
+  "D": "Belisarius"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0158",
+  "difficulty": "hard",
+  "question": "Which Chinese inventor during the Song Dynasty created the world's first movable clay type for printing around 1040 AD?",
+  "options": {
+  "A": "Bi Sheng",
+  "B": "Wang Zhen",
+  "C": "Shen Kuo",
+  "D": "Su Song"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0159",
+  "difficulty": "hard",
+  "question": "What ancient empire in the Ethiopian highlands converted to Christianity in the 4th century and minted its own gold coins?",
+  "options": {
+  "A": "The Kingdom of Kush",
+  "B": "The Kingdom of Aksum",
+  "C": "The Zagwe Dynasty",
+  "D": "The Nubian Kingdom"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0160",
+  "difficulty": "hard",
+  "question": "What was the name of the ship in Magellan's fleet that completed the first circumnavigation of the globe under Juan Sebastián Elcano?",
+  "options": {
+  "A": "Trinidad",
+  "B": "San Antonio",
+  "C": "Victoria",
+  "D": "Concepción"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0161",
+  "difficulty": "hard",
+  "question": "Which ancient Anatolian civilization fought Egypt at the famous Battle of Kadesh and signed the world's first known peace treaty?",
+  "options": {
+  "A": "The Babylonians",
+  "B": "The Assyrians",
+  "C": "The Phrygians",
+  "D": "The Hittites"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0162",
+  "difficulty": "hard",
+  "question": "What ancient city on the Euphrates River was famous for its vibrant glazed-brick Ishtar Gate?",
+  "options": {
+  "A": "Babylon",
+  "B": "Nineveh",
+  "C": "Ur",
+  "D": "Persepolis"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0163",
+  "difficulty": "hard",
+  "question": "Which 14th-century North African scholar wrote the 'Muqaddimah' and pioneered the fields of sociology and historiography?",
+  "options": {
+  "A": "Ibn Rushd",
+  "B": "Ibn Khaldun",
+  "C": "Al-Farabi",
+  "D": "Al-Ghazali"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0164",
+  "difficulty": "hard",
+  "question": "What ancient script used by the Mycenaean Greeks was decoded by Michael Ventris in 1952?",
+  "options": {
+  "A": "Linear A",
+  "B": "Cypriot Syllabary",
+  "C": "Linear B",
+  "D": "Phaistos Script"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0165",
+  "difficulty": "hard",
+  "question": "Which Polish-born astronomer and mathematician published the landmark book 'On the Revolutions of the Heavenly Spheres' on his deathbed in 1543?",
+  "options": {
+  "A": "Johannes Kepler",
+  "B": "Tycho Brahe",
+  "C": "Galileo Galilei",
+  "D": "Nicolaus Copernicus"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0166",
+  "difficulty": "hard",
+  "question": "What ancient kingdom located in modern Sudan south of Egypt was famous for its iron smelting and hundreds of steep pyramids?",
+  "options": {
+  "A": "The Kingdom of Kush",
+  "B": "The Kingdom of Punt",
+  "C": "The Kingdom of Ghana",
+  "D": "The Kingdom of Songhai"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0167",
+  "difficulty": "hard",
+  "question": "Which German scientist created the Fahrenheit temperature scale and the first reliable mercury thermometer in the early 1700s?",
+  "options": {
+  "A": "Anders Celsius",
+  "B": "Daniel Gabriel Fahrenheit",
+  "C": "Lord Kelvin",
+  "D": "Robert Hooke"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0168",
+  "difficulty": "hard",
+  "question": "What ancient trading settlement on the southern coast of modern-day Pakistan was the westernmost known outpost of the Indus Valley Civilization?",
+  "options": {
+  "A": "Lothal",
+  "B": "Kalibangan",
+  "C": "Sutkagen Dor",
+  "D": "Dholavira"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0169",
+  "difficulty": "hard",
+  "question": "Which 17th-century Dutch scientist improved microscope design and was the first person to observe microscopic bacteria and single-celled organisms?",
+  "options": {
+  "A": "Robert Hooke",
+  "B": "Christiaan Huygens",
+  "C": "Jan Swammerdam",
+  "D": "Antonie van Leeuwenhoek"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0170",
+  "difficulty": "hard",
+  "question": "What ancient Mesoamerican civilization flourished in the Valley of Oaxaca and built the grand mountaintop city of Monte Albán?",
+  "options": {
+  "A": "The Zapotecs",
+  "B": "The Mixtecs",
+  "C": "The Huastecs",
+  "D": "The Totonacs"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0171",
+  "difficulty": "hard",
+  "question": "Which great library built in modern Iraq in the 7th century BC preserved thousands of cuneiform tablets including the Epic of Gilgamesh?",
+  "options": {
+  "A": "The Library of Ebla",
+  "B": "The Library of Ashurbanipal",
+  "C": "The Library of Babylon",
+  "D": "The Library of Hattusa"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0172",
+  "difficulty": "hard",
+  "question": "What ancient Greek mathematician of Alexandria is famous for writing the 'Elements', the most influential geometry textbook in history?",
+  "options": {
+  "A": "Apollonius",
+  "B": "Diophantus",
+  "C": "Euclid",
+  "D": "Hero of Alexandria"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0173",
+  "difficulty": "hard",
+  "question": "Which naval power ruled the western Mediterranean trade routes before being defeated by Rome in the First Punic War?",
+  "options": {
+  "A": "The Etruscans",
+  "B": "The Corinthians",
+  "C": "The Syracuseans",
+  "D": "The Carthaginians"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0174",
+  "difficulty": "hard",
+  "question": "Which Song Dynasty Chinese scholar built a 40-foot tall mechanical astronomical water clock tower with an escapement mechanism in 1092?",
+  "options": {
+  "A": "Su Song",
+  "B": "Shen Kuo",
+  "C": "Bi Sheng",
+  "D": "Yi Xing"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0175",
+  "difficulty": "hard",
+  "question": "What ancient rock-cut cave monument in Maharashtra, India, is famous for its rock-hewn Buddhist prayer halls and vibrant frescoes?",
+  "options": {
+  "A": "Elephanta Caves",
+  "B": "Ajanta Caves",
+  "C": "Badami Caves",
+  "D": "Karla Caves"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0176",
+  "difficulty": "hard",
+  "question": "What title was given to the high-ranking governors who ruled regional provinces in the ancient Achaemenid Persian Empire?",
+  "options": {
+  "A": "Archons",
+  "B": "Ephors",
+  "C": "Satraps",
+  "D": "Prefects"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0177",
+  "difficulty": "hard",
+  "question": "Which English scientist coined the term 'cell' after looking at thin slices of cork under a microscope in his 1665 book 'Micrographia'?",
+  "options": {
+  "A": "Isaac Newton",
+  "B": "William Harvey",
+  "C": "Robert Boyle",
+  "D": "Robert Hooke"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0178",
+  "difficulty": "hard",
+  "question": "What 6th-century BC Persian capital city was founded by Darius the Great and featured the magnificent Apadana audience palace?",
+  "options": {
+  "A": "Persepolis",
+  "B": "Pasargadae",
+  "C": "Ecbatana",
+  "D": "Ctesiphon"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0179",
+  "difficulty": "hard",
+  "question": "Which French naturalist during the Enlightenment wrote the massive 36-volume encyclopedia 'Histoire Naturelle'?",
+  "options": {
+  "A": "Jean-Baptiste Lamarck",
+  "B": "Georges-Louis Leclerc, Comte de Buffon",
+  "C": "Georges Cuvier",
+  "D": "Antoine Laurent de Jussieu"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0180",
+  "difficulty": "hard",
+  "question": "What ancient pre-Columbian civilization created giant geoglyphs of birds, spiders, and monkeys etched into the desert plains of southern Peru?",
+  "options": {
+  "A": "The Paracas",
+  "B": "The Wari",
+  "C": "The Nazca",
+  "D": "The Moche"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0181",
+  "difficulty": "hard",
+  "question": "Which Byzantine princess wrote 'The Alexiad' in the 12th century, a detailed history of her father Emperor Alexios I?",
+  "options": {
+  "A": "Empress Theodora",
+  "B": "Empress Irene",
+  "C": "Zoe Porphyrogenita",
+  "D": "Anna Komnene"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0182",
+  "difficulty": "hard",
+  "question": "What ancient Indian mathematician in 499 AD accurately approximated Pi as 3.1416 and explained that Earth rotates on its axis?",
+  "options": {
+  "A": "Aryabhata",
+  "B": "Brahmagupta",
+  "C": "Bhaskara II",
+  "D": "Varahamihira"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0183",
+  "difficulty": "hard",
+  "question": "What early Roman code of laws inscribed on bronze tablets in 450 BC formed the foundation of Roman jurisprudence?",
+  "options": {
+  "A": "The Justinian Code",
+  "B": "The Twelve Tables",
+  "C": "The Edict of Milan",
+  "D": "The Praetorian Edict"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0184",
+  "difficulty": "hard",
+  "question": "Which French explorer claimed Canada for France in 1534 and mapped the Saint Lawrence River?",
+  "options": {
+  "A": "Samuel de Champlain",
+  "B": "René-Robert Cavelier de La Salle",
+  "C": "Jacques Cartier",
+  "D": "Louis Jolliet"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0185",
+  "difficulty": "hard",
+  "question": "What was the capital of the ancient Kingdom of Ghana, famous in the medieval Arab world as a major hub of gold and salt trade?",
+  "options": {
+  "A": "Timbuktu",
+  "B": "Gao",
+  "C": "Niani",
+  "D": "Kumbi Saleh"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0186",
+  "difficulty": "hard",
+  "question": "Which Arab scholar from Basra is known as the 'father of modern optics' for his groundbreaking 11th-century 'Book of Optics'?",
+  "options": {
+  "A": "Alhazen (Ibn al-Haytham)",
+  "B": "Al-Kindi",
+  "C": "Al-Zarqali",
+  "D": "Ibn Yunus"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0187",
+  "difficulty": "hard",
+  "question": "What ancient Bronze Age civilization in the Indus Valley was famous for its sophisticated tidal dockyard at Lothal?",
+  "options": {
+  "A": "The Harappan Civilization",
+  "B": "The Indus Valley Civilization",
+  "C": "The Vedic Culture",
+  "D": "The Gandhara Culture"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0188",
+  "difficulty": "hard",
+  "question": "Which female pharaoh ruled during Egypt's 12th Dynasty and was one of the very first women to rule Egypt in her own right?",
+  "options": {
+  "A": "Merneith",
+  "B": "Twosret",
+  "C": "Sobekneferu",
+  "D": "Khentkaus I"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0189",
+  "difficulty": "hard",
+  "question": "What name was given to the ancient trade routes that brought precious amber from the Baltic coast to the Mediterranean?",
+  "options": {
+  "A": "The Frankincense Trail",
+  "B": "The Tin Way",
+  "C": "The Lapis Lazuli Route",
+  "D": "The Amber Road"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0190",
+  "difficulty": "hard",
+  "question": "Which ancient Sumerian king of Ur established the earliest known surviving written law code around 2100 BC, predating Hammurabi?",
+  "options": {
+  "A": "Ur-Nammu",
+  "B": "Shulgi",
+  "C": "Urukagina",
+  "D": "Gudea"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0191",
+  "difficulty": "hard",
+  "question": "What magnificent early Islamic shrine featuring a gilded dome and octagonal plan was built on the Temple Mount in Jerusalem in 691 AD?",
+  "options": {
+  "A": "Al-Aqsa Mosque",
+  "B": "The Dome of the Rock",
+  "C": "The Umayyad Mosque",
+  "D": "The Great Mosque of Samarra"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0192",
+  "difficulty": "hard",
+  "question": "Which 16th-century Flemish cartographer created the revolutionary world map projection with straight lines of constant compass bearing?",
+  "options": {
+  "A": "Abraham Ortelius",
+  "B": "Willem Blaeu",
+  "C": "Gerardus Mercator",
+  "D": "Jodocus Hondius"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0193",
+  "difficulty": "hard",
+  "question": "What colossal stepped pyramid temple in Central Java, Indonesia, is the world's largest single Buddhist monument?",
+  "options": {
+  "A": "Prambanan",
+  "B": "Sewu",
+  "C": "Mendut",
+  "D": "Borobudur"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0194",
+  "difficulty": "hard",
+  "question": "Which Danish astronomer compiled exceptionally precise planetary observations without a telescope, later used by Kepler?",
+  "options": {
+  "A": "Tycho Brahe",
+  "B": "Ole Rømer",
+  "C": "Johannes Hevelius",
+  "D": "Simon Marius"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0195",
+  "difficulty": "hard",
+  "question": "What ancient kingdom of the southern Red Sea was ruled by King Ezana, who made it one of the first states to adopt Christianity?",
+  "options": {
+  "A": "Himyar",
+  "B": "Aksum",
+  "C": "Saba",
+  "D": "Meroë"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0196",
+  "difficulty": "hard",
+  "question": "Which ancient Chinese philosopher and military strategist is credited with writing the classic treatise 'The Art of War'?",
+  "options": {
+  "A": "Confucius",
+  "B": "Laozi",
+  "C": "Sun Tzu",
+  "D": "Han Feizi"
+  },
+  "answer": "C"
+  },
+  {
+  "id": "wh-en-0197",
+  "difficulty": "hard",
+  "question": "What ancient port city on the Nile Delta founded in the 7th century BC served as the main trading Greek colony in Egypt?",
+  "options": {
+  "A": "Canopus",
+  "B": "Pelusium",
+  "C": "Heracleion",
+  "D": "Naucratis"
+  },
+  "answer": "D"
+  },
+  {
+  "id": "wh-en-0198",
+  "difficulty": "hard",
+  "question": "Which 13th-century German monk and philosopher was known as 'Doctor Universalis' and wrote extensively on biology, chemistry, and physics?",
+  "options": {
+  "A": "Albertus Magnus",
+  "B": "Thomas Aquinas",
+  "C": "Roger Bacon",
+  "D": "Duns Scotus"
+  },
+  "answer": "A"
+  },
+  {
+  "id": "wh-en-0199",
+  "difficulty": "hard",
+  "question": "What ancient Mesoamerican civilization in the Gulf coast region is known for building the ceremonial center of La Venta?",
+  "options": {
+  "A": "The Huastecs",
+  "B": "The Olmecs",
+  "C": "The Totonacs",
+  "D": "The Mixtecs"
+  },
+  "answer": "B"
+  },
+  {
+  "id": "wh-en-0200",
+  "difficulty": "hard",
+  "question": "Which Italian physicist invented the first chemical electric battery, known as the voltaic pile, in 1800?",
+  "options": {
+  "A": "Luigi Galvani",
+  "B": "Amedeo Avogadro",
+  "C": "Alessandro Volta",
+  "D": "Evangelista Torricelli"
+  },
+  "answer": "C"
+  }
+  ]
 }

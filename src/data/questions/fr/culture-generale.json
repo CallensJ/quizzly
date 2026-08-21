@@ -1,5 +1,2407 @@
+
 {
-  "category": "culture-generale",
-  "lang": "fr",
-  "questions": []
+"category": "Culture-Generale",
+"lang": "fr",
+"questions": [
+{
+"id": "CG-fr-0001",
+"difficulty": "easy",
+"question": "Quel est le plus grand animal vivant actuellement sur notre planète ?",
+"options": {
+"A": "La baleine bleue",
+"B": "L'éléphant d'Afrique",
+"C": "Le requin-baleine",
+"D": "La girafe géante"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0002",
+"difficulty": "easy",
+"question": "Quelle est la couleur surprenante de la langue d'une girafe ?",
+"options": {
+"A": "Rose clair",
+"B": "Bleue-noire",
+"C": "Jaune doré",
+"D": "Verte pomme"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0003",
+"difficulty": "easy",
+"question": "Combien de cœurs possède une pieuvre dans son corps ?",
+"options": {
+"A": "Un seul cœur",
+"B": "Deux cœurs",
+"C": "Trois cœurs",
+"D": "Quatre cœurs"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0004",
+"difficulty": "easy",
+"question": "De quel métal la tour Eiffel a-t-elle été principalement construite ?",
+"options": {
+"A": "De bronze massif",
+"B": "D'aluminium léger",
+"C": "D'argent poli",
+"D": "De fer forgé"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0005",
+"difficulty": "easy",
+"question": "Quel oiseau est considéré comme le plus rapide du monde en piqué ?",
+"options": {
+"A": "L'aigle royal",
+"B": "Le faucon pèlerin",
+"C": "Le martinet noir",
+"D": "Le grand colibri"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0006",
+"difficulty": "easy",
+"question": "Quel aliment naturel produit par les abeilles ne se périme jamais ?",
+"options": {
+"A": "La cire d'abeille",
+"B": "La gelée royale",
+"C": "Le miel d'abeille",
+"D": "Le pollen de fleur"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0007",
+"difficulty": "easy",
+"question": "Autour de quelle planète trouve-t-on les anneaux les plus visibles ?",
+"options": {
+"A": "Mercure",
+"B": "Mars",
+"C": "Vénus",
+"D": "Saturne"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0008",
+"difficulty": "easy",
+"question": "Quel animal est célèbre pour changer de couleur afin de se camoufler ?",
+"options": {
+"A": "Le caméléon",
+"B": "Le flamant rose",
+"C": "Le koala gris",
+"D": "Le hérisson"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0009",
+"difficulty": "easy",
+"question": "Quel est l'animal terrestre le plus rapide à la course sur terre ferme ?",
+"options": {
+"A": "Le lion d'Afrique",
+"B": "Le lièvre d'Europe",
+"C": "Le guépard",
+"D": "Le zèbre des plaines"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0010",
+"difficulty": "easy",
+"question": "Quel est le seul groupe de mammifères capable de voler véritablement ?",
+"options": {
+"A": "Les écureuils volants",
+"B": "Les lémuriens volants",
+"C": "Les autruches",
+"D": "Les chauves-souris"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0011",
+"difficulty": "easy",
+"question": "Quelle couleur prend le plumage du flamant rose grâce à son alimentation ?",
+"options": {
+"A": "Rose",
+"B": "Bleu",
+"C": "Vert",
+"D": "Jaune"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0012",
+"difficulty": "easy",
+"question": "Quelle plante constitue la nourriture presque exclusive du panda géant ?",
+"options": {
+"A": "L'eucalyptus",
+"B": "Le bambou",
+"C": "Le chêne vert",
+"D": "Le sapin rouge"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0013",
+"difficulty": "easy",
+"question": "Combien de branches possède toujours un flocon de neige naturel ?",
+"options": {
+"A": "Quatre branches",
+"B": "Cinq branches",
+"C": "Huit branches",
+"D": "Six branches"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0014",
+"difficulty": "easy",
+"question": "Dans quel pays se trouvent les célèbres grandes pyramides de Gizeh ?",
+"options": {
+"A": "En Égypte",
+"B": "En Italie",
+"C": "En Grèce",
+"D": "En Inde"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0015",
+"difficulty": "easy",
+"question": "Quelle partie de son corps le papillon utilise-t-il pour goûter sa nourriture ?",
+"options": {
+"A": "Ses antennes",
+"B": "Ses pattes",
+"C": "Ses ailes",
+"D": "Ses yeux"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0016",
+"difficulty": "easy",
+"question": "Combien de pattes possède une araignée adulte ?",
+"options": {
+"A": "Six pattes",
+"B": "Dix pattes",
+"C": "Huit pattes",
+"D": "Douze pattes"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0017",
+"difficulty": "easy",
+"question": "Quel est le plus grand océan de notre planète ?",
+"options": {
+"A": "L'océan Pacifique",
+"B": "L'océan Atlantique",
+"C": "L'océan Indien",
+"D": "L'océan Arctique"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0018",
+"difficulty": "easy",
+"question": "Que stocke principalement un dromadaire à l'intérieur de sa bosse ?",
+"options": {
+"A": "De l'eau fraîche",
+"B": "De l'air pur",
+"C": "De la graisse",
+"D": "Des feuilles"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0019",
+"difficulty": "easy",
+"question": "Quel très grand oiseau ne sait pas voler mais peut courir très vite ?",
+"options": {
+"A": "Le faucon",
+"B": "L'autruche",
+"C": "La mouette",
+"D": "L'aigle"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0020",
+"difficulty": "easy",
+"question": "Quel gaz les plantes absorbent-elles dans l'air pour grandir ?",
+"options": {
+"A": "L'oxygène",
+"B": "L'azote",
+"C": "L'hélium",
+"D": "Le dioxyde de carbone"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0021",
+"difficulty": "easy",
+"question": "Quelle est la planète la plus proche du Soleil dans notre système solaire ?",
+"options": {
+"A": "Mercure",
+"B": "Vénus",
+"C": "Mars",
+"D": "Jupiter"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0022",
+"difficulty": "easy",
+"question": "Quel organe humain pompe sans arrêt le sang dans tout notre corps ?",
+"options": {
+"A": "Le poumon",
+"B": "Le cœur",
+"C": "L'estomac",
+"D": "Le foie"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0023",
+"difficulty": "easy",
+"question": "De quelle matière est formé le squelette du requin à la place des os ?",
+"options": {
+"A": "De calcaire dur",
+"B": "De corne dure",
+"C": "De cartilage souple",
+"D": "De nacre brillante"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0024",
+"difficulty": "easy",
+"question": "Quel animal porte son bébé dans une poche située sur son ventre ?",
+"options": {
+"A": "La lionne",
+"B": "La panthère",
+"C": "La girafe",
+"D": "Le kangourou"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0025",
+"difficulty": "easy",
+"question": "Combien de couleurs principales compte-t-on dans un arc-en-ciel ?",
+"options": {
+"A": "Cinq couleurs",
+"B": "Sept couleurs",
+"C": "Neuf couleurs",
+"D": "Douze couleurs"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0026",
+"difficulty": "easy",
+"question": "Quel mammifère marin communique en émettant des sifflements et des clics ?",
+"options": {
+"A": "Le morse",
+"B": "Le phoque gris",
+"C": "Le dauphin",
+"D": "Le requin bleu"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0027",
+"difficulty": "easy",
+"question": "Quelle est la partie la plus dure et résistante du corps humain ?",
+"options": {
+"A": "L'os du bras",
+"B": "L'ongle du pouce",
+"C": "Le crâne",
+"D": "L'émail des dents"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0028",
+"difficulty": "easy",
+"question": "Dans quel grand pays asiatique se trouve la célèbre Grande Muraille ?",
+"options": {
+"A": "En Chine",
+"B": "Au Japon",
+"C": "En Thaïlande",
+"D": "En Inde"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0029",
+"difficulty": "easy",
+"question": "Quel tout petit oiseau est capable de voler en arrière et sur place ?",
+"options": {
+"A": "Le moineau",
+"B": "Le merle",
+"C": "Le colibri",
+"D": "L'hirondelle"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0030",
+"difficulty": "easy",
+"question": "Quel insecte volant produit de la lumière verte dans la nuit ?",
+"options": {
+"A": "Le grillon",
+"B": "La cigale",
+"C": "Le frelon",
+"D": "La luciole"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0031",
+"difficulty": "easy",
+"question": "Quelle est la couleur de la peau de l'ours polaire sous sa fourrure ?",
+"options": {
+"A": "Noire",
+"B": "Rose",
+"C": "Blanche",
+"D": "Grise"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0032",
+"difficulty": "easy",
+"question": "Quel est le plus haut sommet du monde au-dessus du niveau de la mer ?",
+"options": {
+"A": "Le mont Blanc",
+"B": "Le mont Everest",
+"C": "Le Kilimandjaro",
+"D": "Le mont Fuji"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0033",
+"difficulty": "easy",
+"question": "Quel petit animal volant dort la tête en bas accroché à une branche ?",
+"options": {
+"A": "Le hérisson",
+"B": "L'écureuil roux",
+"C": "Le loir",
+"D": "La chauve-souris"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0034",
+"difficulty": "easy",
+"question": "À partir de quelle graine fabrique-t-on principalement le chocolat ?",
+"options": {
+"A": "La fève de cacao",
+"B": "La graine de café",
+"C": "La noisette",
+"D": "La graine de tournesol"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0035",
+"difficulty": "easy",
+"question": "Quel mammifère d'Australie à bec de canard pond de vrais œufs ?",
+"options": {
+"A": "Le koala",
+"B": "L'ornithorynque",
+"C": "Le wombat",
+"D": "Le dingo"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0036",
+"difficulty": "easy",
+"question": "Quel arbre majestueux produit des glands dans les forêts tempérées ?",
+"options": {
+"A": "Le bouleau",
+"B": "Le sapin",
+"C": "Le chêne",
+"D": "Le peuplier"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0037",
+"difficulty": "easy",
+"question": "Combien de bras ou tentacules possède une pieuvre commune ?",
+"options": {
+"A": "Huit bras",
+"B": "Six bras",
+"C": "Dix bras",
+"D": "Douze bras"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0038",
+"difficulty": "easy",
+"question": "Quel est le plus grand désert chaud de notre planète ?",
+"options": {
+"A": "Le désert de Gobi",
+"B": "Le désert d'Atacama",
+"C": "Le désert du Sahara",
+"D": "Le désert du Kalahari"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0039",
+"difficulty": "easy",
+"question": "Quel insecte très travailleur vit en immense colonie souterraine ?",
+"options": {
+"A": "Le papillon",
+"B": "La fourmi",
+"C": "Le grillon",
+"D": "La coccinelle"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0040",
+"difficulty": "easy",
+"question": "Comment appelle-t-on le petit de la grenouille qui nage dans l'eau ?",
+"options": {
+"A": "L'alevin",
+"B": "L'asticot",
+"C": "La larve",
+"D": "Le têtard"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0041",
+"difficulty": "easy",
+"question": "Quel pays a offert la célèbre statue de la Liberté aux États-Unis ?",
+"options": {
+"A": "La France",
+"B": "L'Italie",
+"C": "L'Espagne",
+"D": "Le Royaume-Uni"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0042",
+"difficulty": "easy",
+"question": "Quel organe nous permet d'entendre des sons et de garder l'équilibre ?",
+"options": {
+"A": "Le nez",
+"B": "L'oreille",
+"C": "La langue",
+"D": "L'œil"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0043",
+"difficulty": "easy",
+"question": "Quelle était la couleur d'origine des carottes sauvages avant leur culture ?",
+"options": {
+"A": "Bleue",
+"B": "Noire",
+"C": "Violette ou blanche",
+"D": "Verte"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0044",
+"difficulty": "easy",
+"question": "Autour de quel corps céleste la Lune tourne-t-elle sans s'arrêter ?",
+"options": {
+"A": "Le Soleil",
+"B": "Mars",
+"C": "Jupiter",
+"D": "La Terre"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0045",
+"difficulty": "easy",
+"question": "Quel oiseau marin nageur vit en colonie sur les glaces de l'Antarctique ?",
+"options": {
+"A": "Le pélican",
+"B": "Le manchot",
+"C": "La cigogne",
+"D": "Le héron"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0046",
+"difficulty": "easy",
+"question": "Quel est le mammifère terrestre le plus lourd du monde ?",
+"options": {
+"A": "L'hippopotame",
+"B": "Le rhinocéros blanc",
+"C": "L'éléphant d'Afrique",
+"D": "La girafe"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0047",
+"difficulty": "easy",
+"question": "Quel petit animal s'enroule en boule piquante pour se protéger ?",
+"options": {
+"A": "Le castor",
+"B": "Le blaireau",
+"C": "Le lapin",
+"D": "Le hérisson"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0048",
+"difficulty": "easy",
+"question": "Quel fruit rouge et sucré porte ses petites graines à l'extérieur ?",
+"options": {
+"A": "La fraise",
+"B": "La cerise",
+"C": "La prune",
+"D": "La pomme"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0049",
+"difficulty": "easy",
+"question": "Quel est le nom poétique de notre galaxie dans l'univers ?",
+"options": {
+"A": "Andromède",
+"B": "La nébuleuse d'Orion",
+"C": "La Voie lactée",
+"D": "Le Grand Nuage"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0050",
+"difficulty": "easy",
+"question": "Quel oiseau de nuit est capable de tourner sa tête presque complètement ?",
+"options": {
+"A": "Le corbeau",
+"B": "Le pigeon",
+"C": "L'aigle",
+"D": "La chouette"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0051",
+"difficulty": "medium",
+"question": "Pourquoi la tour Eiffel grandit-elle d'environ 15 centimètres en été ?",
+"options": {
+"A": "Le fer se dilate sous la chaleur",
+"B": "Le sol gonfle avec la sécheresse",
+"C": "Le vent d'été la tire vers le haut",
+"D": "Les couches de peinture sèchent"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0052",
+"difficulty": "medium",
+"question": "Quelle est la forme étonnante des crottes du wombat, un animal australien ?",
+"options": {
+"A": "En forme d'étoile",
+"B": "En forme de cube",
+"C": "En forme de disque",
+"D": "En forme de triangle"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0053",
+"difficulty": "medium",
+"question": "Chez quel animal marin est-ce le mâle qui porte les bébés dans son ventre ?",
+"options": {
+"A": "La raie manta",
+"B": "L'étoile de mer",
+"C": "L'hippocampe",
+"D": "Le requin-marteau"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0054",
+"difficulty": "medium",
+"question": "Quelle est la planète la plus chaude du système solaire à cause de son atmosphère ?",
+"options": {
+"A": "Mars",
+"B": "Mercure",
+"C": "Jupiter",
+"D": "Vénus"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0055",
+"difficulty": "medium",
+"question": "Pourquoi les bananes ont-elles une forme courbée en poussant ?",
+"options": {
+"A": "Le vent les plie naturellement",
+"B": "Elles cherchent la lumière du soleil",
+"C": "Les singes les tordent en grimpant",
+"D": "Leur propre poids les incline"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0056",
+"difficulty": "medium",
+"question": "Que font les loutres de mer pour ne pas dériver pendant leur sommeil dans l'eau ?",
+"options": {
+"A": "Elles se cachent sous le sable",
+"B": "Elles nagent sans s'arrêter",
+"C": "Elles se tiennent la patte",
+"D": "Elles dorment sur les rochers"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0057",
+"difficulty": "medium",
+"question": "Quel amphibien d'Amérique est capable de faire repousser ses membres blessés ?",
+"options": {
+"A": "Le crapaud buffle",
+"B": "La rainette verte",
+"C": "La salamandre noire",
+"D": "L'axolotl"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0058",
+"difficulty": "medium",
+"question": "Pour quelle raison les crocodiles avalent-ils parfois de grosses pierres ?",
+"options": {
+"A": "Pour mieux plonger et digérer",
+"B": "Pour nettoyer leurs dents",
+"C": "Pour remplacer la nourriture",
+"D": "Pour attirer les poissons"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0059",
+"difficulty": "medium",
+"question": "Quel oiseau très intelligent est capable de reconnaître des visages humains ?",
+"options": {
+"A": "Le pigeon voyageur",
+"B": "Le canard colvert",
+"C": "Le corbeau",
+"D": "La tourterelle"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0060",
+"difficulty": "medium",
+"question": "Pourquoi flotte-t-on sans aucun effort dans les eaux de la mer Morte ?",
+"options": {
+"A": "L'eau est très tiède",
+"B": "Il n'y a aucune vague",
+"C": "L'eau contient du gaz",
+"D": "L'eau est très salée"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0061",
+"difficulty": "medium",
+"question": "Quelle est la particularité étonnante de la peau des requins au toucher ?",
+"options": {
+"A": "Elle est rugueuse comme du papier de verre",
+"B": "Elle est aussi douce que du velours",
+"C": "Elle est collante et glissante",
+"D": "Elle est totalement dure comme de la pierre"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0062",
+"difficulty": "medium",
+"question": "Pendant combien de temps le manchot empereur mâle couve-t-il l'œuf sur ses pattes ?",
+"options": {
+"A": "Environ une semaine",
+"B": "Environ deux mois",
+"C": "Environ six mois",
+"D": "Environ dix mois"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0063",
+"difficulty": "medium",
+"question": "Quel fleuve géant d'Amérique du Sud transporte le plus grand débit d'eau ?",
+"options": {
+"A": "Le fleuve Nil",
+"B": "Le fleuve Mississippi",
+"C": "Le fleuve Danube",
+"D": "Le fleuve Amazone"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0064",
+"difficulty": "medium",
+"question": "De quoi sont composées les mines des crayons de bois classiques ?",
+"options": {
+"A": "De graphite et d'argile",
+"B": "De plomb liquide séché",
+"C": "De charbon de bois pur",
+"D": "De craie noire broyée"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0065",
+"difficulty": "medium",
+"question": "Pourquoi la statue de la Liberté est-elle devenue verte avec le temps ?",
+"options": {
+"A": "Elle a été repeinte en vert",
+"B": "Le cuivre s'est oxydé avec l'air",
+"C": "Des mousses poussent dessus",
+"D": "Le sel marin l'a décolorée"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0066",
+"difficulty": "medium",
+"question": "Comment appelle-t-on les magnifiques voiles de lumière nocturnes près des pôles ?",
+"options": {
+"A": "Les étoiles filantes",
+"B": "Les feux follets",
+"C": "Les aurores polaires",
+"D": "Les arcs lunaires"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0067",
+"difficulty": "medium",
+"question": "Quel élément présent dans le grain de maïs le fait éclater en pop-corn sous la chaleur ?",
+"options": {
+"A": "Une goutte d'eau prisonnière",
+"B": "Une poche d'air comprimé",
+"C": "Une dose de sucre liquide",
+"D": "De l'huile naturelle chaude"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0068",
+"difficulty": "medium",
+"question": "Quel est le plus petit os du corps humain, situé à l'intérieur de l'oreille ?",
+"options": {
+"A": "Le fémur",
+"B": "Le radius",
+"C": "L'étrier",
+"D": "La rotule"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0069",
+"difficulty": "medium",
+"question": "Combien de temps la lumière du Soleil met-elle pour arriver jusqu'à la Terre ?",
+"options": {
+"A": "Deux secondes",
+"B": "Environ 8 minutes",
+"C": "Environ une heure",
+"D": "Une journée entière"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0070",
+"difficulty": "medium",
+"question": "Quel mammifère marin arctique possède une longue dent torsadée semblable à une corne ?",
+"options": {
+"A": "Le morse",
+"B": "Le béluga",
+"C": "L'orque",
+"D": "Le narval"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0071",
+"difficulty": "medium",
+"question": "Pourquoi un gros morceau de bois flotte-t-il alors qu'une petite pierre coule ?",
+"options": {
+"A": "Le bois est moins dense que l'eau",
+"B": "Le bois contient des poches de gaz",
+"C": "La pierre attire l'eau salée",
+"D": "L'eau repousse les matières végétales"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0072",
+"difficulty": "medium",
+"question": "Quelle capacité incroyable l'étoile de mer possède-t-elle si elle perd un bras ?",
+"options": {
+"A": "Elle change complètement de couleur",
+"B": "Elle peut faire repousser son bras",
+"C": "Elle nage deux fois plus vite",
+"D": "Elle se transforme en poisson"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0073",
+"difficulty": "medium",
+"question": "Comment les abeilles indiquent-elles aux autres l'emplacement des fleurs ?",
+"options": {
+"A": "En chantant des notes aiguës",
+"B": "En dessinant sur le sol",
+"C": "En faisant une danse spéciale",
+"D": "En battant des ailes très fort"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0074",
+"difficulty": "medium",
+"question": "Jusqu'à quelle hauteur proportionnelle une puce peut-elle sauter ?",
+"options": {
+"A": "Deux fois sa taille",
+"B": "Cinq fois sa taille",
+"C": "Vingt fois sa taille",
+"D": "Plus de cent fois sa taille"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0075",
+"difficulty": "medium",
+"question": "Quelle reine d'Italie a donné son nom à la célèbre pizza Margherita ?",
+"options": {
+"A": "La reine Victoria",
+"B": "La reine Marguerite",
+"C": "La reine Élisabeth",
+"D": "La reine Marie-Antoinette"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0076",
+"difficulty": "medium",
+"question": "Quel arbre fournit la résine naturelle qui servait à faire les premiers chewing-gums ?",
+"options": {
+"A": "Le chêne blanc",
+"B": "Le sapin rouge",
+"C": "Le sapotillier",
+"D": "L'eucalyptus"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0077",
+"difficulty": "medium",
+"question": "De quoi sont formés les récifs coralliens dans les océans tropicaux ?",
+"options": {
+"A": "De roches sculptées par l'eau",
+"B": "De plantes sous-marines dures",
+"C": "De coquillages broyés",
+"D": "D'animaux minuscules appelés polypes"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0078",
+"difficulty": "medium",
+"question": "Dans quel milieu le son se déplace-t-il le plus rapidement ?",
+"options": {
+"A": "Dans l'eau",
+"B": "Dans l'air chaud",
+"C": "Dans le vide de l'espace",
+"D": "Dans l'air froid"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0079",
+"difficulty": "medium",
+"question": "Quel oiseau réalise la plus longue migration en reliant l'Arctique à l'Antarctique ?",
+"options": {
+"A": "La cigogne blanche",
+"B": "L'hirondelle de fenêtre",
+"C": "La sterne arctique",
+"D": "L'oie sauvage"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0080",
+"difficulty": "medium",
+"question": "Quel animal microscopique peut survivre au gel extrême et au vide de l'espace ?",
+"options": {
+"A": "La puce d'eau",
+"B": "Le ver de terreau",
+"C": "Le plancton bleu",
+"D": "Le tardigrade"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0081",
+"difficulty": "medium",
+"question": "Quel pourcentage d'eau compose le corps d'une méduse marine ?",
+"options": {
+"A": "Environ 95 %",
+"B": "Environ 50 %",
+"C": "Environ 30 %",
+"D": "Environ 10 %"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0082",
+"difficulty": "medium",
+"question": "Quelle est la particularité des yeux du caméléon lorsqu'il cherche une proie ?",
+"options": {
+"A": "Ils brillent dans le noir",
+"B": "Ils bougent indépendamment l'un de l'autre",
+"C": "Ils ne voient qu'en noir et blanc",
+"D": "Ils restent immobiles"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0083",
+"difficulty": "medium",
+"question": "Quel crustacé tropical donne des coups si rapides qu'il peut briser une vitre d'aquarium ?",
+"options": {
+"A": "Le homard géant",
+"B": "Le crabe royal",
+"C": "La langoustine",
+"D": "La crevette-mante"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0084",
+"difficulty": "medium",
+"question": "Quel insecte utilise la lumière des étoiles pour rouler sa boule en ligne droite ?",
+"options": {
+"A": "Le bousier",
+"B": "La coccinelle",
+"C": "Le grillon",
+"D": "La fourmi rouge"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0085",
+"difficulty": "medium",
+"question": "Quelle partie de notre visage continue de grandir un peu tout au long de notre vie ?",
+"options": {
+"A": "Les yeux et la bouche",
+"B": "Le nez et les oreilles",
+"C": "Le front et le menton",
+"D": "Les dents et les joues"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0086",
+"difficulty": "medium",
+"question": "Pourquoi les yeux des rennes du Grand Nord deviennent-ils bleus en hiver ?",
+"options": {
+"A": "Pour effrayer les loups",
+"B": "Pour séduire leurs partenaires",
+"C": "Pour mieux voir dans la pénombre",
+"D": "Pour résister au gel des yeux"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0087",
+"difficulty": "medium",
+"question": "De quelle matière première le verre ordinaire est-il principalement fabriqué ?",
+"options": {
+"A": "De sable de silice fondu",
+"B": "De calcaire liquide",
+"C": "De sel marin chauffé",
+"D": "De craie blanche pure"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0088",
+"difficulty": "medium",
+"question": "Quel monument célèbre de Paris devait être démoli après seulement 20 ans d'existence ?",
+"options": {
+"A": "Le musée du Louvre",
+"B": "L'Arc de triomphe",
+"C": "La tour Eiffel",
+"D": "Le palais Garnier"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0089",
+"difficulty": "medium",
+"question": "Pourquoi un iceberg flotte-t-il sur l'océan sans couler au fond ?",
+"options": {
+"A": "Il est poussé par le vent marin",
+"B": "La glace est moins dense que l'eau liquide",
+"C": "L'eau salée le repousse vers le haut",
+"D": "Il est entièrement creux à l'intérieur"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0090",
+"difficulty": "medium",
+"question": "Quel est le nom de la gigantesque tempête qui tourbillonne sur Jupiter depuis des siècles ?",
+"options": {
+"A": "L'Œil d'argent",
+"B": "Le Cyclone noir",
+"C": "Le Vortex bleu",
+"D": "La Grande Tache rouge"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0091",
+"difficulty": "medium",
+"question": "Que se passe-t-il pour les astronautes lorsqu'ils vivent plusieurs mois dans l'espace ?",
+"options": {
+"A": "Ils grandissent de quelques centimètres",
+"B": "Ils rétrécissent considérablement",
+"C": "Leur peau change de couleur",
+"D": "Leurs cheveux cessent de pousser"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0092",
+"difficulty": "medium",
+"question": "Quel oiseau de proie nocturne possède une ouïe si fine qu'il chasse sous la neige ?",
+"options": {
+"A": "Le faucon crécerelle",
+"B": "La chouette effraie",
+"C": "Le corbeau pie",
+"D": "L'aigle pêcheur"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0093",
+"difficulty": "medium",
+"question": "Quelle part de l'énergie de notre corps notre cerveau consomme-t-il à lui seul ?",
+"options": {
+"A": "Environ 2 %",
+"B": "Environ 8 %",
+"C": "Environ 20 %",
+"D": "Environ 60 %"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0094",
+"difficulty": "medium",
+"question": "Sur quelle main nos ongles poussent-ils généralement le plus vite ?",
+"options": {
+"A": "Sur la main gauche toujours",
+"B": "Sur la main droite toujours",
+"C": "Sur la main la moins active",
+"D": "Sur la main dominante la plus utilisée"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0095",
+"difficulty": "medium",
+"question": "Quelle est l'apparence surprenante des capsules d'œufs pondues par certaines raies et requins ?",
+"options": {
+"A": "Des boules dures comme des pierres",
+"B": "Des bourses cornées appelées bourses de sirène",
+"C": "Des bulles transparentes et molles",
+"D": "Des disques plats et dorés"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0096",
+"difficulty": "medium",
+"question": "Quel est l'animal le plus dangereux pour l'être humain à cause des maladies qu'il transmet ?",
+"options": {
+"A": "Le requin blanc",
+"B": "Le serpent cobra",
+"C": "Le moustique",
+"D": "Le loup gris"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0097",
+"difficulty": "medium",
+"question": "Dans quelle famille végétale classe-t-on la cacahuète qui mûrit sous terre ?",
+"options": {
+"A": "Les céréales",
+"B": "Les fruits à coque d'arbre",
+"C": "Les racines sucrées",
+"D": "Les légumineuses comme les pois"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0098",
+"difficulty": "medium",
+"question": "Comment les arbres d'une même forêt communiquent-ils et partagent-ils des nutriments sous terre ?",
+"options": {
+"A": "Grâce à un réseau de champignons sous le sol",
+"B": "En frottant leurs branches au vent",
+"C": "Par des bulles d'air souterraines",
+"D": "Grâce aux terriers creusés par les lapins"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0099",
+"difficulty": "medium",
+"question": "Quel gaz donne sa jolie couleur bleue intense à l'atmosphère de la planète Neptune ?",
+"options": {
+"A": "L'oxygène pur",
+"B": "L'azote liquide",
+"C": "Le méthane",
+"D": "Le dioxyde de carbone"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0100",
+"difficulty": "medium",
+"question": "Pourquoi l'eau bout-elle à moins de 100 °C au sommet des très hautes montagnes ?",
+"options": {
+"A": "L'air y est trop froid",
+"B": "L'eau y est plus pure",
+"C": "Le vent éteint le feu",
+"D": "La pression de l'air y est plus faible"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0101",
+"difficulty": "medium",
+"question": "Quel petit poisson fabrique un nid de bulles à la surface pour protéger ses œufs ?",
+"options": {
+"A": "Le poisson combattant",
+"B": "Le poisson rouge",
+"C": "Le saumon d'eau douce",
+"D": "Le hareng marin"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0102",
+"difficulty": "medium",
+"question": "Quelle planète tourne sur elle-même dans le sens inverse de presque toutes les autres ?",
+"options": {
+"A": "Mars",
+"B": "Vénus",
+"C": "Neptune",
+"D": "Saturne"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0103",
+"difficulty": "medium",
+"question": "Quelle couleur prend l'éclair le plus chaud et puissant lors d'un orage ?",
+"options": {
+"A": "Rouge sombre",
+"B": "Jaune orangé",
+"C": "Blanche-bleutée",
+"D": "Verte pomme"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0104",
+"difficulty": "medium",
+"question": "Pourquoi les chats ronronnent-ils en plus d'exprimer leur bien-être ?",
+"options": {
+"A": "Pour effrayer les oiseaux",
+"B": "Pour réclamer à boire",
+"C": "Pour mieux respirer en dormant",
+"D": "Pour soulager leur douleur et guérir"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0105",
+"difficulty": "medium",
+"question": "Quel animal marin utilise un caillou posé sur son ventre pour casser des coquillages ?",
+"options": {
+"A": "Le morse de l'Atlantique",
+"B": "La loutre de mer",
+"C": "Le phoque marbré",
+"D": "Le dauphin joueur"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0106",
+"difficulty": "medium",
+"question": "Quelle est la durée de vie moyenne d'une papille gustative sur notre langue ?",
+"options": {
+"A": "Un jour seulement",
+"B": "Six mois",
+"C": "Environ dix à quatorze jours",
+"D": "Toute notre vie d'adulte"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0107",
+"difficulty": "medium",
+"question": "Quelle plante géante peut grandir de près d'un mètre en seulement vingt-quatre heures ?",
+"options": {
+"A": "Le chêne vert",
+"B": "Le séquoia géant",
+"C": "Le baobab d'Afrique",
+"D": "Le bambou"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0108",
+"difficulty": "medium",
+"question": "Quel célèbre jeu de briques emboîtables a été inventé au Danemark ?",
+"options": {
+"A": "Le Lego",
+"B": "Le Meccano",
+"C": "Le Playmobil",
+"D": "Le K'Nex"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0109",
+"difficulty": "medium",
+"question": "À quelle vitesse incroyable le colibri peut-il battre des ailes en vol stationnaire ?",
+"options": {
+"A": "Dix battements par minute",
+"B": "Trente battements par minute",
+"C": "Jusqu'à quatre-vingts battements par seconde",
+"D": "Mille battements par seconde"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0110",
+"difficulty": "medium",
+"question": "De quelle couleur apparaît le coucher de soleil vu depuis la surface de Mars ?",
+"options": {
+"A": "Jaune vif",
+"B": "Rouge sombre",
+"C": "Vert émeraude",
+"D": "Bleuté"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0111",
+"difficulty": "medium",
+"question": "De quel élément chimique pur le précieux diamant est-il composé ?",
+"options": {
+"A": "De carbone pur",
+"B": "D'or massif",
+"C": "De fer fondu",
+"D": "De quartz liquide"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0112",
+"difficulty": "medium",
+"question": "Quel grand oiseau marin peut planer des heures sans presque battre des ailes ?",
+"options": {
+"A": "Le fou de Bassan",
+"B": "L'albatros",
+"C": "Le cormoran noir",
+"D": "La sterne pierregarin"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0113",
+"difficulty": "medium",
+"question": "Comment les petits lézards geckos font-ils pour marcher au plafond sans tomber ?",
+"options": {
+"A": "Ils sécrètent une colle gluante",
+"B": "Leurs griffes s'enfoncent dans le mur",
+"C": "Ils ont des ventouses géantes",
+"D": "Ils ont des millions de poils microscopiques"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0114",
+"difficulty": "medium",
+"question": "Dans quel grand pays le jeu de cartes traditionnel a-t-il été inventé au Moyen Âge ?",
+"options": {
+"A": "En Chine",
+"B": "En France",
+"C": "En Italie",
+"D": "En Égypte"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0115",
+"difficulty": "medium",
+"question": "Quel animal possède un cœur si gigantesque qu'il a la taille d'une petite voiture ?",
+"options": {
+"A": "Le requin blanc",
+"B": "La baleine bleue",
+"C": "L'éléphant d'Asie",
+"D": "Le calmar colossal"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0116",
+"difficulty": "medium",
+"question": "Quelle est l'utilité principale des rayures noires et blanches du zèbre contre les insectes ?",
+"options": {
+"A": "Elles les attirent pour les piéger",
+"B": "Elles les brûlent avec le soleil",
+"C": "Elles perturbent la vision des mouches",
+"D": "Elles masquent son odeur naturelle"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0117",
+"difficulty": "medium",
+"question": "Quel organe interne humain est le seul capable de repousser en partie s'il est abîmé ?",
+"options": {
+"A": "Le foie",
+"B": "Le poumon",
+"C": "L'estomac",
+"D": "Le rein"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0118",
+"difficulty": "medium",
+"question": "Comment s'appelle le plus grand volcan du système solaire, situé sur la planète Mars ?",
+"options": {
+"A": "Le mont Vésuve",
+"B": "Le mont Fuji",
+"C": "L'Olympus Mons",
+"D": "Le volcan Krakatoa"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0119",
+"difficulty": "medium",
+"question": "Quel phénomène physique produit le grondement puissant du tonnerre pendant l'orage ?",
+"options": {
+"A": "Deux nuages qui se cognent",
+"B": "La pluie qui tombe très vite",
+"C": "Le vent qui s'enroule",
+"D": "L'air qui chauffe et se dilate brusquement"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0120",
+"difficulty": "medium",
+"question": "Pourquoi les flamants roses dorment-ils souvent perchés sur une seule patte ?",
+"options": {
+"A": "Pour être prêts à s'envoler",
+"B": "Pour économiser leur chaleur corporelle",
+"C": "Pour garder leur équilibre dans le vent",
+"D": "Pour ne pas salir leurs plumes"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0121",
+"difficulty": "medium",
+"question": "De quelle ville d'Europe le croissant au beurre tire-t-il son origine historique ?",
+"options": {
+"A": "Paris",
+"B": "Rome",
+"C": "Vienne",
+"D": "Madrid"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0122",
+"difficulty": "medium",
+"question": "À quelle vitesse environ l'air d'un gros éternuement peut-il être expulsé du nez ?",
+"options": {
+"A": "Environ 10 km/h",
+"B": "Environ 30 km/h",
+"C": "Environ 60 km/h",
+"D": "Plus de 150 km/h"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0123",
+"difficulty": "medium",
+"question": "Quelle technique de pêche originale les baleines à bosse utilisent-elles en groupe ?",
+"options": {
+"A": "Créer un filet géant avec des bulles d'air",
+"B": "Frapper l'eau avec leurs nageoires",
+"C": "Attirer les proies avec des sons graves",
+"D": "Creuser des trous dans le fond marin"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0124",
+"difficulty": "medium",
+"question": "Sur quel continent de notre planète ne trouve-t-on aucun reptile à l'état sauvage ?",
+"options": {
+"A": "L'Europe",
+"B": "L'Antarctique",
+"C": "L'Afrique",
+"D": "L'Asie"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0125",
+"difficulty": "medium",
+"question": "Pourquoi une pomme fraîche flotte-t-elle quand on la dépose dans une bassine d'eau ?",
+"options": {
+"A": "Elle est pleine de sucre liquide",
+"B": "Sa peau fine repousse l'eau",
+"C": "Elle est composée d'environ 25 % d'air",
+"D": "Son trognon est entièrement creux"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0126",
+"difficulty": "hard",
+"question": "Quel perroquet nocturne originaire de Nouvelle-Zélande est le seul incapable de voler ?",
+"options": {
+"A": "Le kakapo",
+"B": "Le loriot doré",
+"C": "Le kéa des montagnes",
+"D": "L'ara rouge"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0127",
+"difficulty": "hard",
+"question": "Quel requin des eaux glacées peut vivre plus de 400 ans, un record chez les vertébrés ?",
+"options": {
+"A": "Le requin-tigre",
+"B": "Le requin du Groenland",
+"C": "Le requin pèlerin",
+"D": "Le grand requin blanc"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0128",
+"difficulty": "hard",
+"question": "Quel oiseau australien est capable d'imiter parfaitement des bruits de tronçonneuse ?",
+"options": {
+"A": "Le kookaburra",
+"B": "Le casoar à casque",
+"C": "L'oiseau-lyre",
+"D": "L'émeu d'Australie"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0129",
+"difficulty": "hard",
+"question": "De quelle protéine identique à nos ongles les écailles du pangolin sont-elles formées ?",
+"options": {
+"A": "D'ivoire pur",
+"B": "De calcaire durci",
+"C": "De chitine brillante",
+"D": "De kératine"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0130",
+"difficulty": "hard",
+"question": "Quelle méthode de défense utilise le lézard à cornes du désert pour repousser un prédateur ?",
+"options": {
+"A": "Il crache un venin liquide",
+"B": "Il projette du sang par ses yeux",
+"C": "Il se gonfle comme une balle",
+"D": "Il s'enterre en un éclair"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0131",
+"difficulty": "hard",
+"question": "Quel crustacé minuscule claque sa pince pour créer une bulle brûlante et assommer sa proie ?",
+"options": {
+"A": "Le crabe boxeur",
+"B": "Le homard nain",
+"C": "La crevette-pistolet",
+"D": "La crevette nettoyeuse"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0132",
+"difficulty": "hard",
+"question": "Quelle est la particularité étonnante de l'appareil digestif de l'ornithorynque ?",
+"options": {
+"A": "Il a quatre poches d'estomac",
+"B": "Il digère les pierres dures",
+"C": "Il fabrique son propre poison",
+"D": "Il ne possède pas d'estomac"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0133",
+"difficulty": "hard",
+"question": "Pourquoi la poche ventrale du wombat d'Australie est-elle orientée vers l'arrière ?",
+"options": {
+"A": "Pour ne pas jeter de terre sur son bébé en creusant",
+"B": "Pour que le petit puisse observer les ennemis",
+"C": "Pour mieux faire entrer l'air frais la nuit",
+"D": "Pour protéger le petit de la pluie battante"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0134",
+"difficulty": "hard",
+"question": "Quel animal a des empreintes digitales tellement proches de celles de l'homme qu'on peut s'y tromper ?",
+"options": {
+"A": "Le panda roux",
+"B": "Le raton laveur",
+"C": "Le koala",
+"D": "Le paresseux à trois doigts"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0135",
+"difficulty": "hard",
+"question": "Quel est le nom du point de l'océan Pacifique le plus éloigné de toute terre habitée ?",
+"options": {
+"A": "La fosse des Mariannes",
+"B": "Le triangle des Bermudes",
+"C": "Le cap Horn",
+"D": "Le point Némo"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0136",
+"difficulty": "hard",
+"question": "Quelle cascade du Venezuela est la plus haute chute d'eau ininterrompue au monde ?",
+"options": {
+"A": "Le Salto Ángel",
+"B": "Les chutes du Niagara",
+"C": "Les chutes Victoria",
+"D": "Les chutes d'Iguazú"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0137",
+"difficulty": "hard",
+"question": "Quel lac en Russie contient à lui seul environ 20 % de l'eau douce non gelée de la planète ?",
+"options": {
+"A": "Le lac Supérieur",
+"B": "Le lac Baïkal",
+"C": "Le lac Victoria",
+"D": "Le lac Titicaca"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0138",
+"difficulty": "hard",
+"question": "Quel ingrédient de cuisine les anciens maçons ont-ils mélangé au mortier de la Grande Muraille de Chine ?",
+"options": {
+"A": "De la farine de maïs",
+"B": "De l'huile de sésame",
+"C": "Du sucre de canne",
+"D": "Du riz gluant"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0139",
+"difficulty": "hard",
+"question": "Pourquoi le premier bug informatique de l'histoire porte-t-il ce nom de bête en anglais ?",
+"options": {
+"A": "Un vrai papillon de nuit était coincé dans la machine",
+"B": "Le créateur avait peur des araignées",
+"C": "L'écran clignotait comme une luciole",
+"D": "Le câble avait été grignoté par une souris"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0140",
+"difficulty": "hard",
+"question": "Quel jouet d'enfant mondialement connu a été inventé au départ pour nettoyer les papiers peints ?",
+"options": {
+"A": "Le sable magique",
+"B": "La pâte à modeler Play-Doh",
+"C": "Le ressort Slinky",
+"D": "La pâte collante bleue"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0141",
+"difficulty": "hard",
+"question": "En observant quoi sur son chien George de Mestral a-t-il eu l'idée d'inventer le Velcro ?",
+"options": {
+"A": "Des toiles d'araignées fines",
+"B": "Des épines de roseau des marais",
+"C": "Des fruits de bardane accrochés à ses poils",
+"D": "Des griffes de hérisson"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0142",
+"difficulty": "hard",
+"question": "Quelle est la particularité discrète du visage de la célèbre Joconde peinte par de Vinci ?",
+"options": {
+"A": "Elle a des yeux de deux couleurs",
+"B": "Elle a une dent en or",
+"C": "Elle porte une boucle d'oreille dorée",
+"D": "Elle n'a ni sourcils ni cils visibles"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0143",
+"difficulty": "hard",
+"question": "Quel métal étonnant fond simplement lorsqu'on le pose sur la paume d'une main chaude ?",
+"options": {
+"A": "Le titane",
+"B": "Le gallium",
+"C": "Le platine",
+"D": "Le tungstène"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0144",
+"difficulty": "hard",
+"question": "Pourquoi notre voix devient-elle très aiguë quand on inhale un peu de gaz hélium ?",
+"options": {
+"A": "Le gaz bloque la gorge",
+"B": "Les cordes vocales deviennent sèches",
+"C": "Le son voyage plus vite dans l'hélium que dans l'air",
+"D": "Les poumons se vident d'un coup"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0145",
+"difficulty": "hard",
+"question": "Quelle plante sauvage d'Asie produit la plus grande fleur du monde à l'odeur très forte ?",
+"options": {
+"A": "L'orchidée fantôme",
+"B": "Le nénuphar géant",
+"C": "L'arum des tourbières",
+"D": "La Rafflesia arnoldii"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0146",
+"difficulty": "hard",
+"question": "De quelle partie précise d'une petite fleur violette récolte-t-on la précieuse épice de safran ?",
+"options": {
+"A": "Des pistils ou stigmates",
+"B": "Des pétales séchés",
+"C": "Des racines broyées",
+"D": "Des graines sous la tige"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0147",
+"difficulty": "hard",
+"question": "Quelle est la durée d'une journée sur la planète Vénus par rapport à son année ?",
+"options": {
+"A": "Une journée dure seulement 10 minutes",
+"B": "Une journée est plus courte que sur Terre",
+"C": "Une journée est plus longue qu'une année vénusienne",
+"D": "Une journée dure exactement un an"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0148",
+"difficulty": "hard",
+"question": "Quelle est la température approximative à la surface visible de notre Soleil ?",
+"options": {
+"A": "Environ 500 °C",
+"B": "Environ 5 500 °C",
+"C": "Environ 50 000 °C",
+"D": "Environ 1 000 000 °C"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0149",
+"difficulty": "hard",
+"question": "Comment le four à micro-ondes a-t-il été découvert par accident en 1945 ?",
+"options": {
+"A": "En allumant une vieille radio",
+"B": "En faisant bouillir du lait sur un moteur",
+"C": "En observant le feu dans un phare marin",
+"D": "Une barre chocolatée a fondu dans la poche d'un ingénieur radar"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0150",
+"difficulty": "hard",
+"question": "Combien de temps un paresseux peut-il retenir sa respiration sous l'eau ?",
+"options": {
+"A": "Jusqu'à 40 minutes",
+"B": "Deux minutes seulement",
+"C": "Cinq minutes maximum",
+"D": "Plus de deux heures"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0151",
+"difficulty": "hard",
+"question": "Quel oiseau possède des yeux qui sont plus volumineux que son propre cerveau ?",
+"options": {
+"A": "Le pélican blanc",
+"B": "L'aigle royal",
+"C": "L'autruche d'Afrique",
+"D": "Le corbeau freux"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0152",
+"difficulty": "hard",
+"question": "Quel poisson tire un jet d'eau puissant avec sa bouche pour faire tomber des insectes ?",
+"options": {
+"A": "Le poisson volant",
+"B": "La truite de rivière",
+"C": "Le piranha rouge",
+"D": "Le poisson-archer"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0153",
+"difficulty": "hard",
+"question": "Quelle pieuvre sous-marine imite d'autres animaux comme des serpents ou des rascasses ?",
+"options": {
+"A": "La pieuvre mime",
+"B": "La pieuvre géante du Pacifique",
+"C": "La pieuvre à anneaux bleus",
+"D": "La pieuvre rouge des rochers"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0154",
+"difficulty": "hard",
+"question": "Quel animal peut geler presque complètement en hiver et revivre au dégel du printemps ?",
+"options": {
+"A": "La salamandre noire",
+"B": "La grenouille des bois",
+"C": "Le crapaud vert",
+"D": "Le triton marbré"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0155",
+"difficulty": "hard",
+"question": "Quelle grande lune de Saturne abrite des lacs et des rivières de méthane liquide ?",
+"options": {
+"A": "Europe",
+"B": "Callisto",
+"C": "Titan",
+"D": "Ganymède"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0156",
+"difficulty": "hard",
+"question": "Quelle sonde spatiale partie en 1977 est l'objet fabriqué par l'homme le plus lointain ?",
+"options": {
+"A": "Apollo 11",
+"B": "Curiosity",
+"C": "Hubble",
+"D": "Voyager 1"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0157",
+"difficulty": "hard",
+"question": "Pourquoi les empreintes de pas laissées sur la Lune resteront-elles intactes des millénaires ?",
+"options": {
+"A": "La poussière lunaire colle comme du ciment",
+"B": "Il n'y a pas d'atmosphère donc ni vent ni pluie",
+"C": "Le froid fige le sol pour toujours",
+"D": "La gravité empêche les grains de bouger"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0158",
+"difficulty": "hard",
+"question": "Quelle université anglaise dispensait déjà des cours avant même la création de l'Empire aztèque ?",
+"options": {
+"A": "L'université de Cambridge",
+"B": "L'université Harvard",
+"C": "L'université d'Oxford",
+"D": "L'université de Londres"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0159",
+"difficulty": "hard",
+"question": "Quel matériau de protection très amusant à percer devait au départ servir de papier peint 3D ?",
+"options": {
+"A": "Le film plastique étirable",
+"B": "Le carton ondulé",
+"C": "La mousse synthétique",
+"D": "Le papier bulle d'emballage"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0160",
+"difficulty": "hard",
+"question": "Pourquoi les constructions en béton de la Rome antique résistaient-elles si bien à l'eau de mer ?",
+"options": {
+"A": "Le mélange contenait de la cendre volcanique spéciale",
+"B": "On y ajoutait du métal liquide précieux",
+"C": "Il était chauffé au feu pendant un an",
+"D": "Il était protégé par de l'émail de coquillage"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0161",
+"difficulty": "hard",
+"question": "De quelle plante grimpante tropicale la véritable gousse de vanille est-elle le fruit ?",
+"options": {
+"A": "D'un rosier des forêts",
+"B": "D'un lierre sauvage",
+"C": "D'une orchidée",
+"D": "D'un cactus d'ombre"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0162",
+"difficulty": "hard",
+"question": "Quelle partie de l'œil ne possède aucun vaisseau sanguin et prend son oxygène directement dans l'air ?",
+"options": {
+"A": "L'iris coloré",
+"B": "La rétine",
+"C": "Le nerf optique",
+"D": "La cornée"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0163",
+"difficulty": "hard",
+"question": "Quel poisson fossile vivant que l'on croyait disparu avec les dinosaures a été retrouvé en 1938 ?",
+"options": {
+"A": "Le cœlacanthe",
+"B": "Le mégalodon",
+"C": "L'esturgeon géant",
+"D": "L'anchois cuirassé"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0164",
+"difficulty": "hard",
+"question": "Quel serpent marin au corps annelé possède un venin très puissant mais une bouche minuscule ?",
+"options": {
+"A": "La vipère du désert",
+"B": "Le tricot rayé",
+"C": "Le mamba vert",
+"D": "Le boa constricteur"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0165",
+"difficulty": "hard",
+"question": "Pourquoi les vautours peuvent-ils manger de la viande très avariée sans tomber malades ?",
+"options": {
+"A": "Ils boivent beaucoup d'eau salée",
+"B": "Ils ont des dents en métal",
+"C": "Leur estomac produit un acide extrêmement puissant",
+"D": "Leur foie filtre tout en une seconde"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0166",
+"difficulty": "hard",
+"question": "Quel petit mammifère volant d'Amérique possède une salive qui empêche le sang de coaguler ?",
+"options": {
+"A": "La roussette des fruits",
+"B": "L'écureuil nocturne",
+"C": "Le lémurien nain",
+"D": "La chauve-souris vampire"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0167",
+"difficulty": "hard",
+"question": "Quel taux de réussite record à la chasse la libellule atteint-elle grâce à sa vision et sa rapidité ?",
+"options": {
+"A": "Près de 95 % de réussite",
+"B": "Environ 20 % de réussite",
+"C": "Environ 50 % de réussite",
+"D": "Près de 10 % de réussite"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0168",
+"difficulty": "hard",
+"question": "En combien de temps la Station spatiale internationale fait-elle un tour complet de la Terre ?",
+"options": {
+"A": "En 24 heures",
+"B": "En environ 90 minutes",
+"C": "En 12 heures",
+"D": "En 7 jours"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0169",
+"difficulty": "hard",
+"question": "Quel métal argenté liquide à température ambiante était autrefois utilisé dans les thermomètres ?",
+"options": {
+"A": "Le plomb",
+"B": "Le zinc",
+"C": "Le mercure",
+"D": "L'étain"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0170",
+"difficulty": "hard",
+"question": "Quelle forme prend la flamme d'une bougie allumée en apesanteur dans l'espace ?",
+"options": {
+"A": "Une forme de cône pointu",
+"B": "Une forme de disque plat",
+"C": "Une forme d'étoile",
+"D": "Une forme de sphère ronde"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0171",
+"difficulty": "hard",
+"question": "Quel arbre fournit l'écorce épaisse et imperméable qui sert à fabriquer des bouchons ?",
+"options": {
+"A": "Le chêne-liège",
+"B": "Le pin maritime",
+"C": "L'eucalyptus géant",
+"D": "Le platane d'Orient"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0172",
+"difficulty": "hard",
+"question": "Combien de temps faut-il environ à une goutte d'eau pour faire le grand tour des courants marins mondiaux ?",
+"options": {
+"A": "Environ six mois",
+"B": "Environ 1 000 ans",
+"C": "Environ dix ans",
+"D": "Plus de cent mille ans"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0173",
+"difficulty": "hard",
+"question": "Sous quelle forme la soie sort-elle des glandes de l'araignée avant de devenir un fil solide ?",
+"options": {
+"A": "De poudre sèche",
+"B": "De petites billes dures",
+"C": "De liquide protéiné",
+"D": "De mousse vaporeuse"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0174",
+"difficulty": "hard",
+"question": "Quel danger présente la morsure de la minuscule pieuvre à anneaux bleus du Pacifique ?",
+"options": {
+"A": "Elle provoque une douce somnolence",
+"B": "Elle fait éternuer pendant un jour",
+"C": "Elle colore la peau en bleu vif",
+"D": "Elle contient un venin mortel foudroyant"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0175",
+"difficulty": "hard",
+"question": "Quelle mer salée se trouve au point de terre émergée le plus bas de notre globe ?",
+"options": {
+"A": "La mer Baltique",
+"B": "La mer Morte",
+"C": "La mer Rouge",
+"D": "La mer Caspienne"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0176",
+"difficulty": "hard",
+"question": "Quel gaz invisible forme la plus grande part de l'air que nous respirons tous les jours ?",
+"options": {
+"A": "L'oxygène pur",
+"B": "Le dioxyde de carbone",
+"C": "L'azote",
+"D": "L'hélium"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0177",
+"difficulty": "hard",
+"question": "Quel est l'organe interne le plus lourd du corps humain, pesant environ 1,5 kg chez l'adulte ?",
+"options": {
+"A": "L'estomac",
+"B": "Le cœur",
+"C": "La rate",
+"D": "Le foie"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0178",
+"difficulty": "hard",
+"question": "Quelle part de la masse totale de notre système solaire le Soleil représente-t-il ?",
+"options": {
+"A": "Plus de 99 %",
+"B": "Environ 75 %",
+"C": "Environ 50 %",
+"D": "Environ 25 %"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0179",
+"difficulty": "hard",
+"question": "Quel oiseau des îles Galápagos séduit sa partenaire en faisant une danse avec ses pattes colorées ?",
+"options": {
+"A": "Le pélican gris",
+"B": "Le flamant nain",
+"C": "Le fou à pieds bleus",
+"D": "La frégate noire"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0180",
+"difficulty": "hard",
+"question": "Pourquoi les étoiles semblent-elles scintiller lorsqu'on les regarde depuis la Terre ?",
+"options": {
+"A": "Leur feu s'éteint et se rallume",
+"B": "Des poussières de l'espace passent devant",
+"C": "La Lune bloque par moments leur éclat",
+"D": "L'air de l'atmosphère fait bouger leur lumière"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0181",
+"difficulty": "hard",
+"question": "Quelle araignée d'eau douce vit et respire sous l'eau grâce à une cloche de bulles d'air ?",
+"options": {
+"A": "L'argyronète",
+"B": "La tarentule d'eau",
+"C": "L'épeire des roseaux",
+"D": "La mygale plongeuse"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0182",
+"difficulty": "hard",
+"question": "Quelle est la plus grande structure faite par des êtres vivants, visible depuis l'espace ?",
+"options": {
+"A": "La forêt de séquoias",
+"B": "La Grande Barrière de corail",
+"C": "La jungle amazonienne",
+"D": "La mangrove d'Afrique"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0183",
+"difficulty": "hard",
+"question": "De quelle matière acide la coque de la noix de cajou est-elle couverte avant d'être nettoyée ?",
+"options": {
+"A": "D'une cire sucrée",
+"B": "D'une poudre dorée",
+"C": "D'une résine très irritante",
+"D": "D'une couche d'eau salée"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0184",
+"difficulty": "hard",
+"question": "Pourquoi l'eau augmente-t-elle de volume lorsqu'elle gèle dans le congélateur ?",
+"options": {
+"A": "Elle absorbe du gaz extérieur",
+"B": "Elle crée de nouvelles bulles de savon",
+"C": "Le sel naturel se transforme en air",
+"D": "Ses molécules s'organisent en cristaux plus espacés"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0185",
+"difficulty": "hard",
+"question": "Quelle comète célèbre et lumineuse passe près de la Terre tous les 76 ans environ ?",
+"options": {
+"A": "La comète de Halley",
+"B": "La comète Neowise",
+"C": "La comète Hale-Bopp",
+"D": "La comète Encke"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0186",
+"difficulty": "hard",
+"question": "Quel oiseau peut voler pendant des mois sans se poser, en dormant en plein vol ?",
+"options": {
+"A": "Le grand tétras",
+"B": "Le martinet noir",
+"C": "Le pic épeiche",
+"D": "Le pigeon ramier"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0187",
+"difficulty": "hard",
+"question": "De quelle couleur est le sang des pieuvres et des seiches grâce au cuivre qu'il contient ?",
+"options": {
+"A": "Rouge écarlate",
+"B": "Jaune vif",
+"C": "Bleu",
+"D": "Vert émeraude"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0188",
+"difficulty": "hard",
+"question": "Quel est le nom de la zone océanique la plus profonde de la Terre, située sous le Pacifique ?",
+"options": {
+"A": "La fosse de Java",
+"B": "Le canyon de Porto Rico",
+"C": "La crevasse de Tasmanie",
+"D": "La fosse des Mariannes"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0189",
+"difficulty": "hard",
+"question": "Pourquoi le miel pur peut-il être conservé des milliers d'années sans jamais pourrir ?",
+"options": {
+"A": "Il contient beaucoup de sel",
+"B": "Il a très peu d'eau et une forte acidité",
+"C": "Il est composé de cire imperméable",
+"D": "Les abeilles y mettent de l'alcool"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0190",
+"difficulty": "hard",
+"question": "Pourquoi les yeux des chats brillent-ils d'une lueur étrange la nuit sous une lumière ?",
+"options": {
+"A": "Ils produisent de l'électricité",
+"B": "Ils ont des micro-lampes sous la peau",
+"C": "Une membrane miroir au fond de l'œil renvoie la lumière",
+"D": "Leur cornée est recouverte d'or liquide"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0191",
+"difficulty": "hard",
+"question": "Quelle lune de Jupiter est couverte de plus de 400 volcans actifs crachant du soufre ?",
+"options": {
+"A": "Europe",
+"B": "Ganymède",
+"C": "Callisto",
+"D": "Io"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0192",
+"difficulty": "hard",
+"question": "Quel requin possède des capteurs sous sa tête aplatie pour détecter les battements de cœur des proies ?",
+"options": {
+"A": "Le requin-marteau",
+"B": "Le requin-renard",
+"C": "Le requin-lutin",
+"D": "Le requin-taureau"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0193",
+"difficulty": "hard",
+"question": "Combien de paires d'arches cardiaques faisant office de cœurs un ver de terre possède-t-il ?",
+"options": {
+"A": "Une seule paire",
+"B": "Cinq paires",
+"C": "Dix paires",
+"D": "Aucune paire"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0194",
+"difficulty": "hard",
+"question": "Quel secret lié au climat de l'époque explique la sonorité parfaite des violons de Stradivarius ?",
+"options": {
+"A": "Le bois a poussé dans un désert très chaud",
+"B": "Les arbres ont poussé sous des pluies acides",
+"C": "Le bois très dense a poussé durant une période de grand froid",
+"D": "Les arbres ont poussé sur des sols volcaniques"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0195",
+"difficulty": "hard",
+"question": "Quelle couleur très originale ont les coquilles d'œufs pondues par la poule Araucana ?",
+"options": {
+"A": "Noire mate",
+"B": "Jaune d'or",
+"C": "Rouge cerise",
+"D": "Bleue ou vert d'eau"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0196",
+"difficulty": "hard",
+"question": "Pourquoi la rivière Rio Tinto en Espagne possède-t-elle une étonnante couleur rouge sang ?",
+"options": {
+"A": "Elle est très riche en fer et minéraux dissous",
+"B": "Des millions de micro-crevettes rouges y vivent",
+"C": "Des racines d'arbres rouges la teintent",
+"D": "Des roches de rubis bordent tout le rivage"
+},
+"answer": "A"
+},
+{
+"id": "CG-fr-0197",
+"difficulty": "hard",
+"question": "Quelle drôle de défense le concombre de mer utilise-t-il face à une attaque ?",
+"options": {
+"A": "Il s'envole hors de l'eau",
+"B": "Il éjecte une partie de ses organes internes pour nourrir l'ennemi",
+"C": "Il se transforme en pierre en une seconde",
+"D": "Il produit un son strident insupportable"
+},
+"answer": "B"
+},
+{
+"id": "CG-fr-0198",
+"difficulty": "hard",
+"question": "Dans quel désert d'Amérique du Sud certaines zones n'ont pas reçu une goutte de pluie depuis des siècles ?",
+"options": {
+"A": "Le désert de Sonora",
+"B": "Le désert de Mojave",
+"C": "Le désert d'Atacama",
+"D": "Le désert de Patagonie"
+},
+"answer": "C"
+},
+{
+"id": "CG-fr-0199",
+"difficulty": "hard",
+"question": "Comment appelle-t-on les minuscules organes électriques sensoriels situés sur le museau des requins ?",
+"options": {
+"A": "Les moustaches de Neptune",
+"B": "Les antennes sous-marines",
+"C": "Les écailles électriques",
+"D": "Les ampoules de Lorenzini"
+},
+"answer": "D"
+},
+{
+"id": "CG-fr-0200",
+"difficulty": "hard",
+"question": "Qu'ajoute-t-on dans la poudre des feux d'artifice pour obtenir de belles couleurs variées ?",
+"options": {
+"A": "Des sels de différents métaux",
+"B": "Du colorant alimentaire liquide",
+"C": "Des pétales de fleurs séchés",
+"D": "Du verre de couleur pilé"
+},
+"answer": "A"
+}
+]
 }
