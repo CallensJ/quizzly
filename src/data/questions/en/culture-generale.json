@@ -1,5 +1,2406 @@
 {
-  "category": "culture-generale",
-  "lang": "en",
-  "questions": []
+"category": "culture-generale",
+"lang": "en",
+"questions": [
+{
+"id": "cg-en-0001",
+"difficulty": "easy",
+"question": "Which food never spoils and can last for thousands of years?",
+"options": {
+"A": "Honey",
+"B": "Butter",
+"C": "Bread",
+"D": "Cheese"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0002",
+"difficulty": "easy",
+"question": "What is the fastest land animal in the world?",
+"options": {
+"A": "Lion",
+"B": "Cheetah",
+"C": "Kangaroo",
+"D": "Zebra"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0003",
+"difficulty": "easy",
+"question": "Which planet is closest to the Sun?",
+"options": {
+"A": "Mars",
+"B": "Venus",
+"C": "Mercury",
+"D": "Earth"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0004",
+"difficulty": "easy",
+"question": "How many legs does a spider have?",
+"options": {
+"A": "Six",
+"B": "Ten",
+"C": "Twelve",
+"D": "Eight"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0005",
+"difficulty": "easy",
+"question": "Which large mammal cannot jump at all?",
+"options": {
+"A": "Giraffe",
+"B": "Elephant",
+"C": "Hippopotamus",
+"D": "Rhinoceros"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0006",
+"difficulty": "easy",
+"question": "What gives plant leaves their green color?",
+"options": {
+"A": "Water",
+"B": "Pollen",
+"C": "Chlorophyll",
+"D": "Sugar"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0007",
+"difficulty": "easy",
+"question": "What is the largest ocean on Earth?",
+"options": {
+"A": "Indian Ocean",
+"B": "Atlantic Ocean",
+"C": "Arctic Ocean",
+"D": "Pacific Ocean"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0008",
+"difficulty": "easy",
+"question": "Which bird is famous for not being able to fly but swimming very well?",
+"options": {
+"A": "Penguin",
+"B": "Pelican",
+"C": "Flamingo",
+"D": "Seagull"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0009",
+"difficulty": "easy",
+"question": "How many colors are there in a standard rainbow?",
+"options": {
+"A": "Five",
+"B": "Six",
+"C": "Seven",
+"D": "Eight"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0010",
+"difficulty": "easy",
+"question": "What do giant pandas eat almost exclusively?",
+"options": {
+"A": "Eucalyptus leaves",
+"B": "Grass and roots",
+"C": "Tree bark and moss",
+"D": "Bamboo stalks"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0011",
+"difficulty": "easy",
+"question": "Which organ pumps blood through the human body?",
+"options": {
+"A": "Heart",
+"B": "Brain",
+"C": "Lungs",
+"D": "Stomach"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0012",
+"difficulty": "easy",
+"question": "What is the hardest natural substance found on Earth?",
+"options": {
+"A": "Iron",
+"B": "Diamond",
+"C": "Granite",
+"D": "Gold"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0013",
+"difficulty": "easy",
+"question": "Which is the tallest living animal on land?",
+"options": {
+"A": "Ostrich",
+"B": "Camel",
+"C": "Moose",
+"D": "Giraffe"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0014",
+"difficulty": "easy",
+"question": "What is frozen water called?",
+"options": {
+"A": "Ice",
+"B": "Steam",
+"C": "Dew",
+"D": "Mist"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0015",
+"difficulty": "easy",
+"question": "How many days are there in a standard leap year?",
+"options": {
+"A": "364",
+"B": "366",
+"C": "365",
+"D": "368"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0016",
+"difficulty": "easy",
+"question": "Which insect produces sweet honey in hives?",
+"options": {
+"A": "Ant",
+"B": "Wasp",
+"C": "Bee",
+"D": "Fly"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0017",
+"difficulty": "easy",
+"question": "Which star is at the center of our solar system?",
+"options": {
+"A": "The Sun",
+"B": "Polaris",
+"C": "Sirius",
+"D": "Vega"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0018",
+"difficulty": "easy",
+"question": "What do caterpillars turn into after their chrysalis stage?",
+"options": {
+"A": "Dragonflies",
+"B": "Butterflies",
+"C": "Beetles",
+"D": "Grasshoppers"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0019",
+"difficulty": "easy",
+"question": "Which metal makes up the core of a traditional wooden pencil?",
+"options": {
+"A": "Lead",
+"B": "Charcoal",
+"C": "Graphite",
+"D": "Silver"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0020",
+"difficulty": "easy",
+"question": "Which animal is known as the 'Ship of the Desert'?",
+"options": {
+"A": "Horse",
+"B": "Donkey",
+"C": "Llama",
+"D": "Camel"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0021",
+"difficulty": "easy",
+"question": "What is the primary gas that humans need to breathe to stay alive?",
+"options": {
+"A": "Oxygen",
+"B": "Helium",
+"C": "Hydrogen",
+"D": "Carbon dioxide"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0022",
+"difficulty": "easy",
+"question": "In which country can you visit the ancient Pyramids of Giza?",
+"options": {
+"A": "Greece",
+"B": "Egypt",
+"C": "Italy",
+"D": "Mexico"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0023",
+"difficulty": "easy",
+"question": "What kind of animal is a blue whale?",
+"options": {
+"A": "Fish",
+"B": "Reptile",
+"C": "Mammal",
+"D": "Amphibian"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0024",
+"difficulty": "easy",
+"question": "How many hours are there in one complete day?",
+"options": {
+"A": "12",
+"B": "48",
+"C": "36",
+"D": "24"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0025",
+"difficulty": "easy",
+"question": "Which sense do you use when you listen to music?",
+"options": {
+"A": "Hearing",
+"B": "Sight",
+"C": "Touch",
+"D": "Smell"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0026",
+"difficulty": "easy",
+"question": "What color are flamingos when they are newly hatched chicks?",
+"options": {
+"A": "Bright pink",
+"B": "Grey or white",
+"C": "Dark yellow",
+"D": "Light blue"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0027",
+"difficulty": "easy",
+"question": "Which continent is home to kangaroos living in the wild?",
+"options": {
+"A": "Africa",
+"B": "South America",
+"C": "Australia",
+"D": "Asia"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0028",
+"difficulty": "easy",
+"question": "What shape is the Earth?",
+"options": {
+"A": "A flat disk",
+"B": "A giant cube",
+"C": "A pyramid",
+"D": "A sphere"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0029",
+"difficulty": "easy",
+"question": "What is the capital city of France?",
+"options": {
+"A": "Paris",
+"B": "Rome",
+"C": "Madrid",
+"D": "London"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0030",
+"difficulty": "easy",
+"question": "What is molten rock called when it flows out of an erupting volcano?",
+"options": {
+"A": "Magma",
+"B": "Lava",
+"C": "Granite",
+"D": "Basalt"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0031",
+"difficulty": "easy",
+"question": "Which flying mammals sleep upside down during the day?",
+"options": {
+"A": "Owls",
+"B": "Eagles",
+"C": "Bats",
+"D": "Pigeons"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0032",
+"difficulty": "easy",
+"question": "How many continents are there on Earth?",
+"options": {
+"A": "Four",
+"B": "Five",
+"C": "Six",
+"D": "Seven"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0033",
+"difficulty": "easy",
+"question": "What do tadpoles eventually grow into?",
+"options": {
+"A": "Frogs",
+"B": "Fish",
+"C": "Turtles",
+"D": "Lizards"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0034",
+"difficulty": "easy",
+"question": "Which natural satellite orbits planet Earth?",
+"options": {
+"A": "The Sun",
+"B": "The Moon",
+"C": "Mars",
+"D": "Jupiter"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0035",
+"difficulty": "easy",
+"question": "Which instrument uses a magnetic needle to point North?",
+"options": {
+"A": "Thermometer",
+"B": "Barometer",
+"C": "Compass",
+"D": "Telescope"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0036",
+"difficulty": "easy",
+"question": "What is the largest living bird on Earth?",
+"options": {
+"A": "Eagle",
+"B": "Albatross",
+"C": "Emu",
+"D": "Ostrich"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0037",
+"difficulty": "easy",
+"question": "What do cows primarily eat when grazing in a field?",
+"options": {
+"A": "Grass",
+"B": "Insects",
+"C": "Berries",
+"D": "Fish"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0038",
+"difficulty": "easy",
+"question": "Which season comes directly after winter?",
+"options": {
+"A": "Autumn",
+"B": "Spring",
+"C": "Summer",
+"D": "Monsoon"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0039",
+"difficulty": "easy",
+"question": "What is the baby of a dog called?",
+"options": {
+"A": "Kitten",
+"B": "Cub",
+"C": "Puppy",
+"D": "Calf"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0040",
+"difficulty": "easy",
+"question": "Which ocean animal has eight flexible arms lined with suction cups?",
+"options": {
+"A": "Dolphin",
+"B": "Crab",
+"C": "Starfish",
+"D": "Octopus"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0041",
+"difficulty": "easy",
+"question": "What do humans and animals exhale after inhaling air?",
+"options": {
+"A": "Carbon dioxide",
+"B": "Pure oxygen",
+"C": "Nitrogen",
+"D": "Helium"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0042",
+"difficulty": "easy",
+"question": "Which instrument is used to see distant stars and planets clearly?",
+"options": {
+"A": "Microscope",
+"B": "Telescope",
+"C": "Periscope",
+"D": "Stethoscope"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0043",
+"difficulty": "easy",
+"question": "What is the common name for a group of lions living together?",
+"options": {
+"A": "Flock",
+"B": "Herd",
+"C": "Pride",
+"D": "Pack"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0044",
+"difficulty": "easy",
+"question": "Which tooth type is sharp and used for tearing food?",
+"options": {
+"A": "Molar",
+"B": "Incisor",
+"C": "Premolar",
+"D": "Canine"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0045",
+"difficulty": "easy",
+"question": "What is the main ingredient in traditional bread?",
+"options": {
+"A": "Flour",
+"B": "Rice",
+"C": "Corn",
+"D": "Oats"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0046",
+"difficulty": "easy",
+"question": "Which sense organ covers the entire outside of the human body?",
+"options": {
+"A": "Tongue",
+"B": "Skin",
+"C": "Nose",
+"D": "Ears"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0047",
+"difficulty": "easy",
+"question": "How many sides does a triangle have?",
+"options": {
+"A": "Four",
+"B": "Five",
+"C": "Three",
+"D": "Six"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0048",
+"difficulty": "easy",
+"question": "Which planet is famous for having large, bright rings around it?",
+"options": {
+"A": "Mars",
+"B": "Venus",
+"C": "Mercury",
+"D": "Saturn"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0049",
+"difficulty": "easy",
+"question": "What do bees collect from flowers to make honey?",
+"options": {
+"A": "Nectar",
+"B": "Sap",
+"C": "Seeds",
+"D": "Dew"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0050",
+"difficulty": "easy",
+"question": "Which animal sleeps while standing up to be ready to run from predators?",
+"options": {
+"A": "Bear",
+"B": "Horse",
+"C": "Tiger",
+"D": "Wolf"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0051",
+"difficulty": "medium",
+"question": "Why do flamingos stand on one leg in shallow water?",
+"options": {
+"A": "To scare away fish",
+"B": "To dry their feathers",
+"C": "To conserve body heat",
+"D": "To stretch their wings"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0052",
+"difficulty": "medium",
+"question": "Which sea creature has three hearts and blue blood?",
+"options": {
+"A": "Sea turtle",
+"B": "Great white shark",
+"C": "Electric eel",
+"D": "Octopus"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0053",
+"difficulty": "medium",
+"question": "What unusual physical feature do human fingerprints and koala prints share?",
+"options": {
+"A": "They glow in dark light",
+"B": "They are almost identical",
+"C": "They change every winter",
+"D": "They have no ridges"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0054",
+"difficulty": "medium",
+"question": "How do butterflies taste their food before eating?",
+"options": {
+"A": "With their antennae",
+"B": "With their wings",
+"C": "With their feet",
+"D": "With their eyes"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0055",
+"difficulty": "medium",
+"question": "Which country is home to the ancient stone circle monument called Stonehenge?",
+"options": {
+"A": "Ireland",
+"B": "Scotland",
+"C": "France",
+"D": "England"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0056",
+"difficulty": "medium",
+"question": "What is unique about the shape of wombat poop?",
+"options": {
+"A": "It is cube-shaped",
+"B": "It is star-shaped",
+"C": "It is perfectly flat",
+"D": "It is triangle-shaped"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0057",
+"difficulty": "medium",
+"question": "What colour is the sunset when viewed from the surface of planet Mars?",
+"options": {
+"A": "Bright green",
+"B": "Deep purple",
+"C": "Bluish",
+"D": "Golden yellow"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0058",
+"difficulty": "medium",
+"question": "Which mammal is known to hold hands while sleeping so they do not drift apart?",
+"options": {
+"A": "Beavers",
+"B": "Dolphins",
+"C": "Seals",
+"D": "Sea otters"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0059",
+"difficulty": "medium",
+"question": "Which planet in our solar system rotates on its side like a rolling ball?",
+"options": {
+"A": "Uranus",
+"B": "Neptune",
+"C": "Saturn",
+"D": "Jupiter"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0060",
+"difficulty": "medium",
+"question": "What is the longest river in South America?",
+"options": {
+"A": "Parana River",
+"B": "Amazon River",
+"C": "Orinoco River",
+"D": "Magdalena River"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0061",
+"difficulty": "medium",
+"question": "Why does a chameleon change the colour of its skin?",
+"options": {
+"A": "Only to find food",
+"B": "To clean its scales",
+"C": "To express mood and regulate temperature",
+"D": "To show its age to others"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0062",
+"difficulty": "medium",
+"question": "Which animal produces the loudest sound of any living creature?",
+"options": {
+"A": "African elephant",
+"B": "Howler monkey",
+"C": "Lion",
+"D": "Sperm whale"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0063",
+"difficulty": "medium",
+"question": "What happens when you mix red paint and blue paint together?",
+"options": {
+"A": "You get purple",
+"B": "You get green",
+"C": "You get orange",
+"D": "You get brown"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0064",
+"difficulty": "medium",
+"question": "Which body part continues to grow slowly throughout a human's entire life?",
+"options": {
+"A": "Eyes",
+"B": "Ears and nose",
+"C": "Brain",
+"D": "Heart"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0065",
+"difficulty": "medium",
+"question": "Which bird is famous for laying eggs in other birds' nests?",
+"options": {
+"A": "Crow",
+"B": "Magpie",
+"C": "Cuckoo",
+"D": "Woodpecker"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0066",
+"difficulty": "medium",
+"question": "What is the Great Barrier Reef mainly built by?",
+"options": {
+"A": "Giant seaweed",
+"B": "Volcanic rocks",
+"C": "Marine plants",
+"D": "Tiny coral polyps"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0067",
+"difficulty": "medium",
+"question": "Which is the only continent covered completely in ice with no permanent towns?",
+"options": {
+"A": "Antarctica",
+"B": "Europe",
+"C": "Asia",
+"D": "North America"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0068",
+"difficulty": "medium",
+"question": "Why do cats purr besides being happy?",
+"options": {
+"A": "To call birds",
+"B": "To heal bones and calm stress",
+"C": "To sharpen claws",
+"D": "To cool their bodies"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0069",
+"difficulty": "medium",
+"question": "What is the fastest bird when diving through the sky for prey?",
+"options": {
+"A": "Golden eagle",
+"B": "Osprey",
+"C": "Peregrine falcon",
+"D": "Barn owl"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0070",
+"difficulty": "medium",
+"question": "Which organ in the human body is responsible for filtering waste from blood?",
+"options": {
+"A": "Lungs",
+"B": "Heart",
+"C": "Stomach",
+"D": "Kidneys"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0071",
+"difficulty": "medium",
+"question": "Which country invented paper thousands of years ago?",
+"options": {
+"A": "China",
+"B": "Greece",
+"C": "Egypt",
+"D": "India"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0072",
+"difficulty": "medium",
+"question": "What is the smallest bone in the human body?",
+"options": {
+"A": "Collarbone",
+"B": "Stapes (in the ear)",
+"C": "Kneecap",
+"D": "Toe bone"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0073",
+"difficulty": "medium",
+"question": "What animal group do frogs and salamanders belong to?",
+"options": {
+"A": "Reptiles",
+"B": "Insects",
+"C": "Amphibians",
+"D": "Mammals"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0074",
+"difficulty": "medium",
+"question": "What special ability allows bats to navigate and hunt in total darkness?",
+"options": {
+"A": "Infrared vision",
+"B": "Magnetic compass sense",
+"C": "Thermal smelling",
+"D": "Echolocation"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0075",
+"difficulty": "medium",
+"question": "What is the hottest planet in our solar system due to a thick greenhouse atmosphere?",
+"options": {
+"A": "Venus",
+"B": "Mercury",
+"C": "Mars",
+"D": "Jupiter"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0076",
+"difficulty": "medium",
+"question": "Which large cat is the only one that lives and hunts in social groups called prides?",
+"options": {
+"A": "Tiger",
+"B": "Lion",
+"C": "Leopard",
+"D": "Jaguar"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0077",
+"difficulty": "medium",
+"question": "How many hearts does an earthworm have along its body segments?",
+"options": {
+"A": "Two",
+"B": "Three",
+"C": "Five",
+"D": "Eight"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0078",
+"difficulty": "medium",
+"question": "Which island is the natural home of all wild lemurs?",
+"options": {
+"A": "Hawaii",
+"B": "Greenland",
+"C": "Galapagos",
+"D": "Madagascar"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0079",
+"difficulty": "medium",
+"question": "What type of tree produces acorns that squirrels love to bury?",
+"options": {
+"A": "Oak tree",
+"B": "Pine tree",
+"C": "Maple tree",
+"D": "Birch tree"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0080",
+"difficulty": "medium",
+"question": "Which gas gives neon signs their bright reddish-orange glow?",
+"options": {
+"A": "Helium",
+"B": "Neon",
+"C": "Argon",
+"D": "Xenon"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0081",
+"difficulty": "medium",
+"question": "What is the tallest waterfall in the world, located in Venezuela?",
+"options": {
+"A": "Niagara Falls",
+"B": "Victoria Falls",
+"C": "Angel Falls",
+"D": "Iguazu Falls"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0082",
+"difficulty": "medium",
+"question": "What is the only mammal capable of true, sustained flapping flight?",
+"options": {
+"A": "Flying squirrel",
+"B": "Flying lemur",
+"C": "Sugar glider",
+"D": "Bat"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0083",
+"difficulty": "medium",
+"question": "Which ancient civilization built the impressive city of Machu Picchu high in the mountains?",
+"options": {
+"A": "Inca",
+"B": "Maya",
+"C": "Aztec",
+"D": "Romans"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0084",
+"difficulty": "medium",
+"question": "What is the main material that gives human hair and fingernails their strength?",
+"options": {
+"A": "Collagen",
+"B": "Keratin",
+"C": "Calcium",
+"D": "Enamel"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0085",
+"difficulty": "medium",
+"question": "Which sea animal can regrow an entire lost arm if it gets injured?",
+"options": {
+"A": "Clownfish",
+"B": "Seahorse",
+"C": "Starfish",
+"D": "Jellyfish"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0086",
+"difficulty": "medium",
+"question": "What is the boiling point of pure water at standard sea level in degrees Celsius?",
+"options": {
+"A": "50 °C",
+"B": "80 °C",
+"C": "90 °C",
+"D": "100 °C"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0087",
+"difficulty": "medium",
+"question": "Why do zebras have black and white stripes?",
+"options": {
+"A": "To confuse biting flies and predators",
+"B": "To absorb more sunlight in winter",
+"C": "To find their favorite grass",
+"D": "To show their family ranking"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0088",
+"difficulty": "medium",
+"question": "Which planet is famously nicknamed the 'Red Planet'?",
+"options": {
+"A": "Jupiter",
+"B": "Mars",
+"C": "Venus",
+"D": "Saturn"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0089",
+"difficulty": "medium",
+"question": "What is the largest living reptile species found on Earth today?",
+"options": {
+"A": "Komodo dragon",
+"B": "Green anaconda",
+"C": "Saltwater crocodile",
+"D": "Galapagos tortoise"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0090",
+"difficulty": "medium",
+"question": "How many tentacles and arms combined does a squid have?",
+"options": {
+"A": "Six",
+"B": "Eight",
+"C": "Twelve",
+"D": "Ten"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0091",
+"difficulty": "medium",
+"question": "Which metal is liquid at standard room temperature?",
+"options": {
+"A": "Mercury",
+"B": "Copper",
+"C": "Lead",
+"D": "Tin"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0092",
+"difficulty": "medium",
+"question": "What creates the loud sound of thunder during a storm?",
+"options": {
+"A": "Clouds crashing together",
+"B": "Air rapidly heating and expanding from lightning",
+"C": "Rain hitting the ground at high speed",
+"D": "Wind bouncing off mountain cliffs"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0093",
+"difficulty": "medium",
+"question": "Which animal group has moist skin and spends early life breathing underwater with gills?",
+"options": {
+"A": "Reptiles",
+"B": "Crustaceans",
+"C": "Amphibians",
+"D": "Mollusks"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0094",
+"difficulty": "medium",
+"question": "What is the capital city of Japan?",
+"options": {
+"A": "Kyoto",
+"B": "Osaka",
+"C": "Hiroshima",
+"D": "Tokyo"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0095",
+"difficulty": "medium",
+"question": "Which bird can fly backwards and upside down with ease?",
+"options": {
+"A": "Hummingbird",
+"B": "Sparrow",
+"C": "Kingfisher",
+"D": "Swallow"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0096",
+"difficulty": "medium",
+"question": "What is the primary substance that forms pearls inside oysters?",
+"options": {
+"A": "Hard coral",
+"B": "Nacre (mother-of-pearl)",
+"C": "Quartz crystal",
+"D": "Polished sand"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0097",
+"difficulty": "medium",
+"question": "Which desert is the largest hot desert in the world?",
+"options": {
+"A": "Gobi Desert",
+"B": "Kalahari Desert",
+"C": "Sahara Desert",
+"D": "Atacama Desert"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0098",
+"difficulty": "medium",
+"question": "What does a paleontologist study?",
+"options": {
+"A": "Ocean currents",
+"B": "Ancient volcanoes",
+"C": "Weather patterns",
+"D": "Fossils of ancient life"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0099",
+"difficulty": "medium",
+"question": "Which mammal lays eggs instead of giving birth to live young?",
+"options": {
+"A": "Duck-billed platypus",
+"B": "Koala",
+"C": "Hedgehog",
+"D": "Armadillo"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0100",
+"difficulty": "medium",
+"question": "Why do leaves change colour in autumn before falling?",
+"options": {
+"A": "They absorb extra dirt",
+"B": "Chlorophyll breaks down and reveals other pigments",
+"C": "They get burned by cool air",
+"D": "They run out of carbon dioxide"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0101",
+"difficulty": "medium",
+"question": "What gives the Dead Sea its unique buoyancy, making people float easily?",
+"options": {
+"A": "High water temperature",
+"B": "Deep underwater currents",
+"C": "Extremely high salt concentration",
+"D": "Bubbles from underwater springs"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0102",
+"difficulty": "medium",
+"question": "Which is the fastest fish in the ocean, capable of swimming over 100 km/h?",
+"options": {
+"A": "Barracuda",
+"B": "Tuna",
+"C": "Flying fish",
+"D": "Sailfish"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0103",
+"difficulty": "medium",
+"question": "What is the name of the galaxy that contains our solar system?",
+"options": {
+"A": "Milky Way",
+"B": "Andromeda",
+"C": "Sombrero",
+"D": "Whirlpool"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0104",
+"difficulty": "medium",
+"question": "Which gas makes up roughly 78 percent of Earth's atmosphere?",
+"options": {
+"A": "Oxygen",
+"B": "Nitrogen",
+"C": "Argon",
+"D": "Carbon dioxide"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0105",
+"difficulty": "medium",
+"question": "How many bones does an adult human body have?",
+"options": {
+"A": "150",
+"B": "184",
+"C": "206",
+"D": "312"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0106",
+"difficulty": "medium",
+"question": "Which insect is known to migrate thousands of kilometers across North America every year?",
+"options": {
+"A": "Dragonfly",
+"B": "Honeybee",
+"C": "Ladybug",
+"D": "Monarch butterfly"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0107",
+"difficulty": "medium",
+"question": "What causes the ocean tides to rise and fall twice a day?",
+"options": {
+"A": "The Moon's gravitational pull",
+"B": "Underwater volcanic eruptions",
+"C": "Winds blowing across open seas",
+"D": "The Earth spinning faster at night"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0108",
+"difficulty": "medium",
+"question": "What type of diet do giant anteaters have?",
+"options": {
+"A": "Berries and flowers",
+"B": "Ants and termites",
+"C": "Fish and frogs",
+"D": "Tree bark and leaves"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0109",
+"difficulty": "medium",
+"question": "Which is the tallest mountain peak in the world above sea level?",
+"options": {
+"A": "K2",
+"B": "Mont Blanc",
+"C": "Mount Everest",
+"D": "Kilimanjaro"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0110",
+"difficulty": "medium",
+"question": "What do koalas almost exclusively eat and drink from?",
+"options": {
+"A": "Bamboo shoots",
+"B": "Pine needles",
+"C": "Acacia shrubs",
+"D": "Eucalyptus leaves"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0111",
+"difficulty": "medium",
+"question": "What is the green gemstone variety of the mineral beryl?",
+"options": {
+"A": "Emerald",
+"B": "Ruby",
+"C": "Sapphire",
+"D": "Topaz"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0112",
+"difficulty": "medium",
+"question": "Which animal can change its gender if the dominant female of the group dies?",
+"options": {
+"A": "Goldfish",
+"B": "Clownfish",
+"C": "Guppy",
+"D": "Salmon"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0113",
+"difficulty": "medium",
+"question": "What natural phenomenon is measured using the Richter scale?",
+"options": {
+"A": "Tornado strength",
+"B": "Volcano height",
+"C": "Earthquake magnitude",
+"D": "Tsunami speed"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0114",
+"difficulty": "medium",
+"question": "Which bird lays the smallest egg relative to its own body size among birds?",
+"options": {
+"A": "Sparrow",
+"B": "Hummingbird",
+"C": "Kiwi",
+"D": "Ostrich"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0115",
+"difficulty": "medium",
+"question": "Which musical instrument has 88 black and white keys?",
+"options": {
+"A": "Piano",
+"B": "Accordion",
+"C": "Organ",
+"D": "Harpsichord"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0116",
+"difficulty": "medium",
+"question": "Which mammal has the longest lifespan, sometimes living over 200 years?",
+"options": {
+"A": "African elephant",
+"B": "Bowhead whale",
+"C": "Blue whale",
+"D": "Hippopotamus"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0117",
+"difficulty": "medium",
+"question": "What is the currency used in Japan?",
+"options": {
+"A": "Won",
+"B": "Yuan",
+"C": "Yen",
+"D": "Rupee"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0118",
+"difficulty": "medium",
+"question": "Which planet takes roughly 84 Earth years to complete one orbit around the Sun?",
+"options": {
+"A": "Jupiter",
+"B": "Saturn",
+"C": "Neptune",
+"D": "Uranus"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0119",
+"difficulty": "medium",
+"question": "What does a barometer measure in weather forecasting?",
+"options": {
+"A": "Atmospheric pressure",
+"B": "Wind speed",
+"C": "Humidity",
+"D": "Rain volume"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0120",
+"difficulty": "medium",
+"question": "Which mammal is covered in hard protective scales made of keratin?",
+"options": {
+"A": "Porcupine",
+"B": "Pangolin",
+"C": "Echidna",
+"D": "Hedgehog"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0121",
+"difficulty": "medium",
+"question": "What type of tree keeps its leaves all year round through winter?",
+"options": {
+"A": "Deciduous",
+"B": "Broadleaf",
+"C": "Evergreen",
+"D": "Succulent"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0122",
+"difficulty": "medium",
+"question": "In which city can you see the famous Leaning Tower monument?",
+"options": {
+"A": "Florence",
+"B": "Venice",
+"C": "Naples",
+"D": "Pisa"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0123",
+"difficulty": "medium",
+"question": "What is the scientific name for the northern lights seen near the Arctic?",
+"options": {
+"A": "Aurora Borealis",
+"B": "Aurora Australis",
+"C": "Solar Eclipse",
+"D": "Corona Radiata"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0124",
+"difficulty": "medium",
+"question": "Which animal produces silk to build intricate webs?",
+"options": {
+"A": "Centipede",
+"B": "Spider",
+"C": "Scorpion",
+"D": "Tick"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0125",
+"difficulty": "medium",
+"question": "What is the largest living species of shark in the world?",
+"options": {
+"A": "Great white shark",
+"B": "Tiger shark",
+"C": "Whale shark",
+"D": "Hammerhead shark"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0126",
+"difficulty": "hard",
+"question": "Why does a blue whale's tongue weigh as much as an entire elephant?",
+"options": {
+"A": "It is filled with heavy fat reserves",
+"B": "It contains solid cartilage bones",
+"C": "It stores heavy gravel for digestion",
+"D": "It pushes huge volumes of water through baleen"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0127",
+"difficulty": "hard",
+"question": "Which metal has the highest melting point of all known metals at over 3,400 °C?",
+"options": {
+"A": "Tungsten",
+"B": "Titanium",
+"C": "Platinum",
+"D": "Vanadium"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0128",
+"difficulty": "hard",
+"question": "What makes the axolotl salamander scientifically extraordinary?",
+"options": {
+"A": "It can fly short distances",
+"B": "It regenerates limbs, heart, and parts of its brain",
+"C": "It lives without any oxygen",
+"D": "It produces bright electric shocks"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0129",
+"difficulty": "hard",
+"question": "Which moon in our solar system has over 400 active volcanoes?",
+"options": {
+"A": "Europa",
+"B": "Titan",
+"C": "Io",
+"D": "Ganymede"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0130",
+"difficulty": "hard",
+"question": "What makes the glass frog appear almost invisible to predators from below?",
+"options": {
+"A": "Reflective skin that acts like a mirror",
+"B": "Luminescent glow that blends with sky",
+"C": "Color pigments that match every leaf",
+"D": "Completely transparent skin showing organs"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0131",
+"difficulty": "hard",
+"question": "How long does it take for light from the Sun to reach Earth?",
+"options": {
+"A": "About 8 minutes and 20 seconds",
+"B": "About 1 minute and 10 seconds",
+"C": "About 24 minutes exactly",
+"D": "About 1 hour and 5 minutes"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0132",
+"difficulty": "hard",
+"question": "Which animal possesses the most complex eyes in nature, with up to 16 color photoreceptors?",
+"options": {
+"A": "Chameleon",
+"B": "Mantis shrimp",
+"C": "Dragonfly",
+"D": "Eagle owl"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0133",
+"difficulty": "hard",
+"question": "What is the deepest known location in the world's oceans?",
+"options": {
+"A": "Java Trench",
+"B": "Puerto Rico Trench",
+"C": "Mariana Trench (Challenger Deep)",
+"D": "South Sandwich Trench"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0134",
+"difficulty": "hard",
+"question": "Which tree species can live for more than 4,800 years in mountain regions?",
+"options": {
+"A": "Coast redwood",
+"B": "Giant sequoia",
+"C": "Baobab tree",
+"D": "Bristlecone pine"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0135",
+"difficulty": "hard",
+"question": "What unique feature allows owls to fly in near-total silence?",
+"options": {
+"A": "Serrated, velvety edges on wing feathers",
+"B": "Hollow bones with zero air friction",
+"C": "Extremely fast wing flapping rate",
+"D": "Skin flaps that block air turbulence"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0136",
+"difficulty": "hard",
+"question": "Which moon of Saturn has giant lakes and rivers of liquid methane on its surface?",
+"options": {
+"A": "Enceladus",
+"B": "Titan",
+"C": "Mimas",
+"D": "Iapetus"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0137",
+"difficulty": "hard",
+"question": "What type of venomous mammal has spurs on its hind legs to deliver venom?",
+"options": {
+"A": "Hedgehog",
+"B": "Slow loris",
+"C": "Male platypus",
+"D": "Solenodon"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0138",
+"difficulty": "hard",
+"question": "Which ancient wonder of the world is the only one that still stands mostly intact today?",
+"options": {
+"A": "Hanging Gardens of Babylon",
+"B": "Colossus of Rhodes",
+"C": "Lighthouse of Alexandria",
+"D": "Great Pyramid of Giza"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0139",
+"difficulty": "hard",
+"question": "Why is the Dead Sea called 'Dead'?",
+"options": {
+"A": "Its extreme salinity prevents fish and plants from living in it",
+"B": "It has no oxygen in the air above it",
+"C": "It is completely dry half of the year",
+"D": "It emits poisonous volcanic sulfur fumes"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0140",
+"difficulty": "hard",
+"question": "Which bird holds the record for the longest non-stop annual migration, flying from Arctic to Antarctic?",
+"options": {
+"A": "Wandering albatross",
+"B": "Arctic tern",
+"C": "Bar-tailed godwit",
+"D": "Sooty shearwater"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0141",
+"difficulty": "hard",
+"question": "What causes the distinctive sound when you crack your knuckles?",
+"options": {
+"A": "Bones grinding slightly against each other",
+"B": "Ligaments stretching rapidly over joints",
+"C": "Gas bubbles bursting or forming in synovial fluid",
+"D": "Cartilage plates snapping into alignment"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0142",
+"difficulty": "hard",
+"question": "What is the largest known volcano in the entire solar system?",
+"options": {
+"A": "Mauna Kea on Earth",
+"B": "Mount Etna on Earth",
+"C": "Maxwell Montes on Venus",
+"D": "Olympus Mons on Mars"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0143",
+"difficulty": "hard",
+"question": "What is the only known animal species where the male becomes pregnant and carries the eggs?",
+"options": {
+"A": "Seahorse",
+"B": "Clownfish",
+"C": "Emperor penguin",
+"D": "Poison dart frog"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0144",
+"difficulty": "hard",
+"question": "Which element is the most abundant chemical substance in the entire universe?",
+"options": {
+"A": "Helium",
+"B": "Hydrogen",
+"C": "Carbon",
+"D": "Oxygen"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0145",
+"difficulty": "hard",
+"question": "How many brains does a common leech have distributed along its body?",
+"options": {
+"A": "Three",
+"B": "Ten",
+"C": "Thirty-two",
+"D": "Eighteen"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0146",
+"difficulty": "hard",
+"question": "Which sea animal can survive in the vacuum of outer space and endure extreme radiation?",
+"options": {
+"A": "Sea urchin",
+"B": "Jellyfish polyp",
+"C": "Brine shrimp",
+"D": "Tardigrade (water bear)"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0147",
+"difficulty": "hard",
+"question": "Why does hot water sometimes freeze faster than cold water under certain conditions?",
+"options": {
+"A": "The Mpemba effect",
+"B": "The Doppler effect",
+"C": "The Coriolis effect",
+"D": "The Bernoulli principle"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0148",
+"difficulty": "hard",
+"question": "What substance makes horseshoe crab blood intensely blue?",
+"options": {
+"A": "Hemoglobin containing iron",
+"B": "Hemocyanin containing copper",
+"C": "Cobalt protein chains",
+"D": "Chlorophyll pigments"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0149",
+"difficulty": "hard",
+"question": "What is the driest non-polar desert on Earth, where some areas have never recorded rain?",
+"options": {
+"A": "Sahara Desert",
+"B": "Gobi Desert",
+"C": "Atacama Desert",
+"D": "Mojave Desert"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0150",
+"difficulty": "hard",
+"question": "What enables geckos to climb smooth glass walls and walk upside down across ceilings?",
+"options": {
+"A": "Sticky liquid glue secreted from pads",
+"B": "Microscopic suction cups on each toe",
+"C": "Static magnetic electricity in their claws",
+"D": "Millions of microscopic hairs using van der Waals forces"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0151",
+"difficulty": "hard",
+"question": "Which dinosaur species had the longest neck relative to its body, reaching up to 15 meters?",
+"options": {
+"A": "Mamenchisaurus",
+"B": "Triceratops",
+"C": "Stegosaurus",
+"D": "Velociraptor"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0152",
+"difficulty": "hard",
+"question": "Which animal group has members that are considered biologically immortal because their cells can revert to polyps?",
+"options": {
+"A": "Sea anemone",
+"B": "Turritopsis dohrnii jellyfish",
+"C": "Giant barrel sponge",
+"D": "Deep-sea clam"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0153",
+"difficulty": "hard",
+"question": "How do electric eels generate electric shocks of up to 860 volts?",
+"options": {
+"A": "By collecting static from river silt",
+"B": "Through friction in their fins",
+"C": "Using thousands of specialized muscle cells called electrocytes",
+"D": "By chemical reaction between copper teeth and water"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0154",
+"difficulty": "hard",
+"question": "What is the fastest moving part of any living creature on Earth?",
+"options": {
+"A": "Chameleon tongue strike",
+"B": "Cheetah paw sprint",
+"C": "Hummingbird wing stroke",
+"D": "Dracula ant jaw snap"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0155",
+"difficulty": "hard",
+"question": "What makes Venus rotate in the opposite direction compared to most planets in the solar system?",
+"options": {
+"A": "Retrograde rotation, possibly caused by an ancient giant impact",
+"B": "Gravitational pull from the asteroid belt",
+"C": "Strong solar magnetic storms reversing its core",
+"D": "Friction from its super-heavy clouds"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0156",
+"difficulty": "hard",
+"question": "Why do archerfish shoot precision water droplets out of their mouths?",
+"options": {
+"A": "To clean aquatic river plants",
+"B": "To knock insects off overhanging branches into the water",
+"C": "To communicate with other fish",
+"D": "To dig deep burrows in riverbeds"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0157",
+"difficulty": "hard",
+"question": "Which organelle inside plant cells is responsible for converting sunlight into chemical energy?",
+"options": {
+"A": "Mitochondria",
+"B": "Ribosome",
+"C": "Chloroplast",
+"D": "Vacuole"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0158",
+"difficulty": "hard",
+"question": "What unusual feature does the Greenland shark hold among all vertebrate animals?",
+"options": {
+"A": "It can glow in the dark",
+"B": "It has no skeleton at all",
+"C": "It breathes air every two hours",
+"D": "It has the longest lifespan, living over 400 years"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0159",
+"difficulty": "hard",
+"question": "Which layer of Earth's atmosphere contains the protective ozone layer that filters UV radiation?",
+"options": {
+"A": "Stratosphere",
+"B": "Troposphere",
+"C": "Mesosphere",
+"D": "Thermosphere"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0160",
+"difficulty": "hard",
+"question": "What allows lyrebirds in Australia to mimic artificial sounds like car alarms and camera shutters?",
+"options": {
+"A": "A large acoustic cranial pouch",
+"B": "A uniquely complex vocal organ called a syrinx",
+"C": "Double vocal cords in their lungs",
+"D": "Echo chambers inside their beak"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0161",
+"difficulty": "hard",
+"question": "Which ancient civilization developed the earliest known 365-day solar calendar?",
+"options": {
+"A": "Ancient Rome",
+"B": "Mesopotamia",
+"C": "Ancient Egypt",
+"D": "Ancient Greece"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0162",
+"difficulty": "hard",
+"question": "What is the primary mineral that makes up limestone caves and stalactites?",
+"options": {
+"A": "Quartz",
+"B": "Feldspar",
+"C": "Gypsum",
+"D": "Calcite (calcium carbonate)"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0163",
+"difficulty": "hard",
+"question": "Why is the sky blue during a clear sunny day on Earth?",
+"options": {
+"A": "Rayleigh scattering of short blue light wavelengths by air molecules",
+"B": "Reflection of sunlight off the large oceans",
+"C": "Ozone gas glowing blue under solar wind",
+"D": "Dust particles reflecting blue colors"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0164",
+"difficulty": "hard",
+"question": "What adaptation allows emperor penguins to survive Antarctic temperatures below minus 50 °C?",
+"options": {
+"A": "Thick scales under their feathers",
+"B": "Huddling closely and a counter-current heat exchange blood system",
+"C": "Internal chemical heaters in their bones",
+"D": "Hibernate under snowdrifts during storms"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0165",
+"difficulty": "hard",
+"question": "Which deep-sea fish uses a bioluminescent lure hanging above its mouth to attract prey in the dark?",
+"options": {
+"A": "Viperfish",
+"B": "Gulper eel",
+"C": "Anglerfish",
+"D": "Lanternfish"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0166",
+"difficulty": "hard",
+"question": "What is the speed of light travelling through a vacuum in kilometers per second?",
+"options": {
+"A": "About 150,000 km/s",
+"B": "About 225,000 km/s",
+"C": "About 500,000 km/s",
+"D": "About 300,000 km/s"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0167",
+"difficulty": "hard",
+"question": "Which mammal has the densest fur of any animal, with up to one million hairs per square inch?",
+"options": {
+"A": "Sea otter",
+"B": "Chinchilla",
+"C": "Polar bear",
+"D": "Arctic fox"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0168",
+"difficulty": "hard",
+"question": "What is the name of the supercontinent that existed about 250 million years ago before breaking apart?",
+"options": {
+"A": "Gondwana",
+"B": "Pangaea",
+"C": "Laurasia",
+"D": "Rodinia"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0169",
+"difficulty": "hard",
+"question": "Which bird species has the largest wingspan of any living bird, reaching up to 3.5 meters?",
+"options": {
+"A": "Andean condor",
+"B": "Dalmatian pelican",
+"C": "Wandering albatross",
+"D": "Marabou stork"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0170",
+"difficulty": "hard",
+"question": "What unique mechanism do bombardier beetles use to defend against attacking predators?",
+"options": {
+"A": "Blinding flash of bioluminescence",
+"B": "Sharp poisonous spines on legs",
+"C": "Sticky expanding mucus trap",
+"D": "Boiling chemical spray from abdomen"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0171",
+"difficulty": "hard",
+"question": "What is the boundary around a black hole beyond which nothing, not even light, can escape called?",
+"options": {
+"A": "Event horizon",
+"B": "Accretion disk",
+"C": "Singularity zone",
+"D": "Photon sphere"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0172",
+"difficulty": "hard",
+"question": "How do honeybees communicate the exact direction and distance of flower fields to their hive mates?",
+"options": {
+"A": "By buzzing at different audio pitches",
+"B": "By performing a figure-eight waggle dance",
+"C": "By releasing colored pollen dust",
+"D": "By tapping their antennas rhythmically"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0173",
+"difficulty": "hard",
+"question": "What gives Mars its characteristic reddish color when seen from space?",
+"options": {
+"A": "Active red lava pools",
+"B": "Reflective copper crystals",
+"C": "Iron oxide (rust) on its surface",
+"D": "Red clouds of methane gas"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0174",
+"difficulty": "hard",
+"question": "Which insect has the longest migration of any insect species relative to its tiny body size, crossing oceans?",
+"options": {
+"A": "Desert locust",
+"B": "Painted lady butterfly",
+"C": "Army ant",
+"D": "Globe skimmer dragonfly"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0175",
+"difficulty": "hard",
+"question": "What is the only known rock type that can naturally float on water due to tiny trapped gas bubbles?",
+"options": {
+"A": "Pumice",
+"B": "Obsidian",
+"C": "Basalt",
+"D": "Sandstone"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0176",
+"difficulty": "hard",
+"question": "Why do woodpeckers not get brain concussions when slamming their beaks against tree trunks?",
+"options": {
+"A": "A soft rubbery beak tip",
+"B": "A specialized hyoid bone wrapping around the skull like a seatbelt",
+"C": "Fluid-filled air cushions inside their ears",
+"D": "Detachable neck muscles that absorb energy"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0177",
+"difficulty": "hard",
+"question": "What is the name of the oldest living single clonal organism on Earth, a colony of quaking aspens in Utah?",
+"options": {
+"A": "Hyperion",
+"B": "Methuselah",
+"C": "Pando",
+"D": "Old Tjikko"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0178",
+"difficulty": "hard",
+"question": "Which ocean current brings warm water from the Gulf of Mexico across the Atlantic to Western Europe?",
+"options": {
+"A": "Humboldt Current",
+"B": "Canary Current",
+"C": "Benguela Current",
+"D": "Gulf Stream"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0179",
+"difficulty": "hard",
+"question": "What allows some frogs in the Arctic and sub-Arctic to freeze solid in winter and thaw alive in spring?",
+"options": {
+"A": "Glucose in blood acting as a natural anti-freeze",
+"B": "Thick insulated fur coats beneath scales",
+"C": "Storing hot volcanic minerals in belly",
+"D": "Burrowing next to underground magma vents"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0180",
+"difficulty": "hard",
+"question": "Which deep-sea trench animal produces the most powerful light flashes in ocean depths?",
+"options": {
+"A": "Hatchetfish",
+"B": "Comb jelly (ctenophore)",
+"C": "Cookiecutter shark",
+"D": "Blobfish"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0181",
+"difficulty": "hard",
+"question": "What is the largest living invertebrate animal species on Earth?",
+"options": {
+"A": "Giant Japanese spider crab",
+"B": "Giant Pacific octopus",
+"C": "Colossal squid",
+"D": "Giant clam"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0182",
+"difficulty": "hard",
+"question": "How many muscles does a domestic cat have in each ear to rotate them up to 180 degrees?",
+"options": {
+"A": "Six",
+"B": "Twelve",
+"C": "Twenty",
+"D": "Thirty-two"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0183",
+"difficulty": "hard",
+"question": "What astronomical event occurs when the Moon passes directly between the Earth and the Sun?",
+"options": {
+"A": "Solar eclipse",
+"B": "Lunar eclipse",
+"C": "Equinox",
+"D": "Solstice"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0184",
+"difficulty": "hard",
+"question": "Why do flamingo eggs and newly hatched chicks have grey and white down rather than pink?",
+"options": {
+"A": "They only turn pink when exposed to salt",
+"B": "They get pink coloration from carotenoids in their diet over time",
+"C": "Parent flamingos paint them with berry juice",
+"D": "Pink pigments only develop during swimming"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0185",
+"difficulty": "hard",
+"question": "What is the name of the deepest lake in the world, holding 20 percent of Earth's unfrozen fresh water?",
+"options": {
+"A": "Lake Superior",
+"B": "Lake Victoria",
+"C": "Lake Baikal",
+"D": "Lake Tanganyika"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0186",
+"difficulty": "hard",
+"question": "Which mineral on the Mohs hardness scale is designated with a hardness value of 1 (the softest)?",
+"options": {
+"A": "Gypsum",
+"B": "Calcite",
+"C": "Fluorite",
+"D": "Talc"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0187",
+"difficulty": "hard",
+"question": "What is unique about the Venus flytrap plant's digestive mechanism?",
+"options": {
+"A": "Tiny trigger hairs must be touched twice within 20 seconds to close",
+"B": "It uses sticky glue that smells like honey",
+"C": "It drowns insects in large water pitchers",
+"D": "It shoots toxic spores to stun nearby bugs"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0188",
+"difficulty": "hard",
+"question": "Which moon of Jupiter is considered a prime candidate for extraterrestrial life due to a subsurface liquid ocean?",
+"options": {
+"A": "Callisto",
+"B": "Europa",
+"C": "Io",
+"D": "Phobos"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0189",
+"difficulty": "hard",
+"question": "What is the only species of snake known to build a nest above ground for its eggs?",
+"options": {
+"A": "Black mamba",
+"B": "Rattlesnake",
+"C": "King cobra",
+"D": "Green anaconda"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0190",
+"difficulty": "hard",
+"question": "What happens to the pressure underwater for every 10 meters of depth you descend?",
+"options": {
+"A": "It doubles every meter",
+"B": "It decreases by half",
+"C": "It remains exactly constant",
+"D": "It increases by approximately one atmosphere"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0191",
+"difficulty": "hard",
+"question": "Which bird has the highest density of feathers of any bird on Earth, over 100 per square inch, for insulation?",
+"options": {
+"A": "Penguin",
+"B": "Swan",
+"C": "Puffin",
+"D": "Snowy owl"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0192",
+"difficulty": "hard",
+"question": "Why do diamonds and pencil graphite have completely different hardness despite both being made of pure carbon?",
+"options": {
+"A": "Graphite contains microscopic pockets of water",
+"B": "Their carbon atoms are arranged in different crystalline structures",
+"C": "Diamonds are cooled in frozen glaciers",
+"D": "Graphite is mixed with volcanic clay"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0193",
+"difficulty": "hard",
+"question": "What allows coconut crabs to climb palm trees and crack open hard coconuts?",
+"options": {
+"A": "Poisonous digestive acid",
+"B": "Serrated teeth inside claws",
+"C": "Pincers with a crushing force of over 3,000 newtons",
+"D": "Dropping nuts from tree tops"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0194",
+"difficulty": "hard",
+"question": "What is the name of the storm on Jupiter that has been raging for over 300 years?",
+"options": {
+"A": "Great White Spot",
+"B": "Hexagon Storm",
+"C": "Dragon Storm",
+"D": "Great Red Spot"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0195",
+"difficulty": "hard",
+"question": "How do pistol shrimp stun small fish from a distance?",
+"options": {
+"A": "Snapping claws create a cavitation bubble that collapses with extreme heat and sound",
+"B": "Shooting high-pressure poison venom darts",
+"C": "Emitting an electric current of 500 volts",
+"D": "Creating sonic waves with their vibrating tails"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0196",
+"difficulty": "hard",
+"question": "What is the only bird known to be able to fly backwards for sustained periods?",
+"options": {
+"A": "Swift",
+"B": "Hummingbird",
+"C": "Nuthatch",
+"D": "Kingfisher"
+},
+"answer": "B"
+},
+{
+"id": "cg-en-0197",
+"difficulty": "hard",
+"question": "Which organ in an octopus contains roughly two-thirds of its total neurons?",
+"options": {
+"A": "Eyes",
+"B": "Mantle",
+"C": "Arms (tentacles)",
+"D": "Heart"
+},
+"answer": "C"
+},
+{
+"id": "cg-en-0198",
+"difficulty": "hard",
+"question": "Why do astronauts grow slightly taller while living on the International Space Station?",
+"options": {
+"A": "Cosmic radiation stretches bone density",
+"B": "Special space suits pull on joints",
+"C": "Higher oxygen levels in the station",
+"D": "Lack of gravity allows the spinal column to decompress"
+},
+"answer": "D"
+},
+{
+"id": "cg-en-0199",
+"difficulty": "hard",
+"question": "What allows mimic octopuses to impersonate dangerous venomous lionfish and sea snakes?",
+"options": {
+"A": "Changing body shape, coloration, texture, and swimming behavior",
+"B": "Releasing specialized bioluminescent chemical clouds",
+"C": "Absorbing animal toxins through suction cups",
+"D": "Mimicking underwater sound frequencies"
+},
+"answer": "A"
+},
+{
+"id": "cg-en-0200",
+"difficulty": "hard",
+"question": "Which element was first discovered on the Sun via spectroscopy before ever being found on Earth?",
+"options": {
+"A": "Hydrogen",
+"B": "Helium",
+"C": "Neon",
+"D": "Argon"
+},
+"answer": "B"
+}
+]
 }

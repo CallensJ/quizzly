@@ -1,5 +1,2406 @@
 {
-  "category": "espace",
-  "lang": "en",
-  "questions": []
+"category": "space-astronomy",
+"lang": "en",
+"questions": [
+{
+"id": "space-en-0001",
+"difficulty": "easy",
+"question": "What is the name of the bright star at the center of our solar system?",
+"options": {
+"A": "The Sun",
+"B": "Polaris",
+"C": "Sirius",
+"D": "Betelgeuse"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0002",
+"difficulty": "easy",
+"question": "Which planet is famous for having large, bright rings around it?",
+"options": {
+"A": "Mars",
+"B": "Saturn",
+"C": "Neptune",
+"D": "Mercury"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0003",
+"difficulty": "easy",
+"question": "What special suit must astronauts wear to breathe and stay safe during a spacewalk?",
+"options": {
+"A": "A diving suit",
+"B": "A winter coat",
+"C": "A spacesuit",
+"D": "A flight jacket"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0004",
+"difficulty": "easy",
+"question": "Which planet is nicknamed the Red Planet?",
+"options": {
+"A": "Venus",
+"B": "Jupiter",
+"C": "Mercury",
+"D": "Mars"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0005",
+"difficulty": "easy",
+"question": "How many main planets orbit our Sun in the solar system?",
+"options": {
+"A": "Eight",
+"B": "Five",
+"C": "Twelve",
+"D": "Ten"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0006",
+"difficulty": "easy",
+"question": "What is the name of Earth's only natural satellite?",
+"options": {
+"A": "The Sun",
+"B": "The Moon",
+"C": "Titan",
+"D": "Europa"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0007",
+"difficulty": "easy",
+"question": "Who was the first human to ever walk on the surface of the Moon in 1969?",
+"options": {
+"A": "Yuri Gagarin",
+"B": "Buzz Aldrin",
+"C": "Neil Armstrong",
+"D": "John Glenn"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0008",
+"difficulty": "easy",
+"question": "What creates daytime and nighttime on planet Earth?",
+"options": {
+"A": "The Moon blocking the Sun",
+"B": "The Sun turning on and off",
+"C": "Clouds covering the sky",
+"D": "Earth spinning on its axis"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0009",
+"difficulty": "easy",
+"question": "Which planet is the largest in our solar system?",
+"options": {
+"A": "Jupiter",
+"B": "Saturn",
+"C": "Earth",
+"D": "Neptune"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0010",
+"difficulty": "easy",
+"question": "What scientific instrument do people use to look closely at distant stars and planets?",
+"options": {
+"A": "A microscope",
+"B": "A telescope",
+"C": "A periscope",
+"D": "A magnifying glass"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0011",
+"difficulty": "easy",
+"question": "What is a shooting star actually in real life?",
+"options": {
+"A": "An exploding giant star",
+"B": "A planet falling down",
+"C": "A small space rock burning in the atmosphere",
+"D": "A piece of the Moon"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0012",
+"difficulty": "easy",
+"question": "Which planet is located closest to the Sun?",
+"options": {
+"A": "Venus",
+"B": "Mars",
+"C": "Earth",
+"D": "Mercury"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0013",
+"difficulty": "easy",
+"question": "What shape is planet Earth?",
+"options": {
+"A": "A sphere",
+"B": "A flat disc",
+"C": "A cube",
+"D": "A cylinder"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0014",
+"difficulty": "easy",
+"question": "What is the name of the galaxy where our solar system is located?",
+"options": {
+"A": "Andromeda",
+"B": "The Milky Way",
+"C": "The Whirlpool",
+"D": "The Sombrero"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0015",
+"difficulty": "easy",
+"question": "How long does it take for Earth to complete one full trip around the Sun?",
+"options": {
+"A": "One day",
+"B": "One month",
+"C": "One year",
+"D": "Ten years"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0016",
+"difficulty": "easy",
+"question": "What powerful vehicle is used to launch people and satellites into space?",
+"options": {
+"A": "A submarine",
+"B": "A helicopter",
+"C": "An airplane",
+"D": "A rocket"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0017",
+"difficulty": "easy",
+"question": "Which planet in our solar system has the hottest surface temperature?",
+"options": {
+"A": "Venus",
+"B": "Mercury",
+"C": "Mars",
+"D": "Jupiter"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0018",
+"difficulty": "easy",
+"question": "What invisible force pulls objects down toward the ground on Earth?",
+"options": {
+"A": "Magnetism",
+"B": "Gravity",
+"C": "Friction",
+"D": "Electricity"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0019",
+"difficulty": "easy",
+"question": "What is the giant orbiting science laboratory where astronauts live in space?",
+"options": {
+"A": "Apollo Base",
+"B": "Lunar Gateway",
+"C": "International Space Station",
+"D": "Starship One"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0020",
+"difficulty": "easy",
+"question": "Why does the Moon shine brightly in the night sky?",
+"options": {
+"A": "It makes its own fire",
+"B": "It has glowing rocks",
+"C": "It reflects light from city lamps",
+"D": "It reflects light from the Sun"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0021",
+"difficulty": "easy",
+"question": "What do we call a scientist who studies outer space, stars, and planets?",
+"options": {
+"A": "An astronomer",
+"B": "A geologist",
+"C": "A biologist",
+"D": "An archaeologist"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0022",
+"difficulty": "easy",
+"question": "Which ice giant planet spins on its side like a rolling ball?",
+"options": {
+"A": "Mars",
+"B": "Uranus",
+"C": "Venus",
+"D": "Jupiter"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0023",
+"difficulty": "easy",
+"question": "What wheeled robotic vehicle explores the surface of Mars to study rocks?",
+"options": {
+"A": "A submarine",
+"B": "A speedboat",
+"C": "A rover",
+"D": "A bulldozer"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0024",
+"difficulty": "easy",
+"question": "What was the name of the dog that was launched into space aboard Sputnik 2 in 1957?",
+"options": {
+"A": "Bella",
+"B": "Daisy",
+"C": "Luna",
+"D": "Laika"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0025",
+"difficulty": "easy",
+"question": "What is a comet mainly composed of?",
+"options": {
+"A": "Ice, dust, and rock",
+"B": "Pure gold and iron",
+"C": "Liquid water and green plants",
+"D": "Molten metal and plastic"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0026",
+"difficulty": "easy",
+"question": "Which planet is the eighth and farthest official planet from the Sun?",
+"options": {
+"A": "Uranus",
+"B": "Neptune",
+"C": "Saturn",
+"D": "Jupiter"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0027",
+"difficulty": "easy",
+"question": "What color indicates the hottest stars in outer space?",
+"options": {
+"A": "Red",
+"B": "Yellow",
+"C": "Blue",
+"D": "Orange"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0028",
+"difficulty": "easy",
+"question": "What do we call a recognizable pattern of stars that forms an imaginary picture in the sky?",
+"options": {
+"A": "A galaxy",
+"B": "An asteroid",
+"C": "A nebula",
+"D": "A constellation"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0029",
+"difficulty": "easy",
+"question": "Which planet is often called Earth's twin because it is almost the same size?",
+"options": {
+"A": "Venus",
+"B": "Mercury",
+"C": "Mars",
+"D": "Neptune"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0030",
+"difficulty": "easy",
+"question": "What event happens when the Moon moves directly between the Sun and Earth?",
+"options": {
+"A": "A lunar eclipse",
+"B": "A solar eclipse",
+"C": "A meteor shower",
+"D": "An ocean wave"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0031",
+"difficulty": "easy",
+"question": "How many moons naturally orbit around Earth?",
+"options": {
+"A": "Zero",
+"B": "Two",
+"C": "One",
+"D": "Four"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0032",
+"difficulty": "easy",
+"question": "What happens to astronauts floating inside the International Space Station?",
+"options": {
+"A": "They become twice as heavy",
+"B": "They cannot move their arms",
+"C": "They turn completely blue",
+"D": "They float weightlessly in microgravity"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0033",
+"difficulty": "easy",
+"question": "What is the famous Great Red Spot on the surface of Jupiter?",
+"options": {
+"A": "A giant swirling storm",
+"B": "A massive active volcano",
+"C": "A red ocean of liquid water",
+"D": "A crater from a crash"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0034",
+"difficulty": "easy",
+"question": "Why do astronauts need oxygen tanks when they go on spacewalks outside?",
+"options": {
+"A": "Space is filled with thick smoke",
+"B": "There is no air to breathe in space",
+"C": "Space air is too cold to inhale",
+"D": "The oxygen keeps the suit from falling"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0035",
+"difficulty": "easy",
+"question": "Where is the main Asteroid Belt located in our solar system?",
+"options": {
+"A": "Between Earth and the Moon",
+"B": "Between Venus and Mercury",
+"C": "Between Mars and Jupiter",
+"D": "Beyond Neptune only"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0036",
+"difficulty": "easy",
+"question": "What was the name of the famous mission that first carried humans to land on the Moon?",
+"options": {
+"A": "Gemini 4",
+"B": "Mercury 7",
+"C": "Artemis 1",
+"D": "Apollo 11"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0037",
+"difficulty": "easy",
+"question": "What is the name of the famous space telescope launched into orbit in 1990?",
+"options": {
+"A": "Hubble Space Telescope",
+"B": "Galileo Telescope",
+"C": "Kepler Observatory",
+"D": "Spitzer Telescope"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0038",
+"difficulty": "easy",
+"question": "Which planet has two small, potato-shaped moons named Phobos and Deimos?",
+"options": {
+"A": "Venus",
+"B": "Mars",
+"C": "Mercury",
+"D": "Jupiter"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0039",
+"difficulty": "easy",
+"question": "What is Pluto officially classified as by astronomers today?",
+"options": {
+"A": "A giant star",
+"B": "A comet",
+"C": "A dwarf planet",
+"D": "An asteroid"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0040",
+"difficulty": "easy",
+"question": "What color does the Sun actually appear when viewed from outer space above Earth's air?",
+"options": {
+"A": "Bright orange",
+"B": "Deep red",
+"C": "Neon yellow",
+"D": "Pure white"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0041",
+"difficulty": "easy",
+"question": "What glowing feature streams behind a comet when it travels near the warm Sun?",
+"options": {
+"A": "A long tail of gas and dust",
+"B": "A ring of fire",
+"C": "A rainbow beam",
+"D": "A giant solar flare"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0042",
+"difficulty": "easy",
+"question": "Which famous winter constellation looks like a hunter with a belt of three bright stars?",
+"options": {
+"A": "Ursa Major",
+"B": "Orion",
+"C": "Cassiopeia",
+"D": "Taurus"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0043",
+"difficulty": "easy",
+"question": "Which star is closest to planet Earth?",
+"options": {
+"A": "Proxima Centauri",
+"B": "Polaris",
+"C": "The Sun",
+"D": "Sirius"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0044",
+"difficulty": "easy",
+"question": "Why does Mars look red when we see it in the night sky?",
+"options": {
+"A": "It is covered in glowing lava",
+"B": "Its air is filled with red smoke",
+"C": "Red plants grow across its ground",
+"D": "Its soil contains rusty iron oxide"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0045",
+"difficulty": "easy",
+"question": "How do astronauts eat food while living inside a spacecraft?",
+"options": {
+"A": "They eat specially packaged and dried food pouches",
+"B": "They catch live fish in floating tanks",
+"C": "They cook fresh pizzas in wood ovens",
+"D": "Food is delivered daily by small airplanes"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0046",
+"difficulty": "easy",
+"question": "What is the name of the famous star used to find true north in the northern sky?",
+"options": {
+"A": "Sirius",
+"B": "Polaris",
+"C": "Betelgeuse",
+"D": "Vega"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0047",
+"difficulty": "easy",
+"question": "How many rocky terrestrial planets are in our solar system?",
+"options": {
+"A": "Two",
+"B": "Six",
+"C": "Four",
+"D": "Eight"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0048",
+"difficulty": "easy",
+"question": "What is a massive system made of billions of stars, gas, and dust held together by gravity?",
+"options": {
+"A": "A solar system",
+"B": "An asteroid",
+"C": "A constellation",
+"D": "A galaxy"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0049",
+"difficulty": "easy",
+"question": "Which space agency built the Apollo moon missions and landed the Curiosity rover on Mars?",
+"options": {
+"A": "NASA",
+"B": "ESA",
+"C": "JAXA",
+"D": "ISRO"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0050",
+"difficulty": "easy",
+"question": "What natural event happens when Earth passes through dusty trails left behind by comets?",
+"options": {
+"A": "A solar eclipse",
+"B": "A meteor shower",
+"C": "A volcanic eruption",
+"D": "A tidal wave"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0051",
+"difficulty": "medium",
+"question": "How long does it take for light from the Sun to reach planet Earth?",
+"options": {
+"A": "About 8 seconds",
+"B": "About 8 hours",
+"C": "About 8 minutes",
+"D": "About 8 days"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0052",
+"difficulty": "medium",
+"question": "Which of Jupiter's large moons is covered in hundreds of active volcanoes?",
+"options": {
+"A": "Europa",
+"B": "Ganymede",
+"C": "Callisto",
+"D": "Io"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0053",
+"difficulty": "medium",
+"question": "What is the largest moon in our entire solar system, being even bigger than planet Mercury?",
+"options": {
+"A": "Ganymede",
+"B": "Titan",
+"C": "Earth's Moon",
+"D": "Triton"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0054",
+"difficulty": "medium",
+"question": "Why is Venus hotter on its surface than Mercury, even though Mercury is closer to the Sun?",
+"options": {
+"A": "Venus has hundreds of active lava lakes",
+"B": "Its thick carbon dioxide atmosphere traps intense heat",
+"C": "Venus spins ten times faster than Mercury",
+"D": "Its magnetic field generates strong electrical heat"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0055",
+"difficulty": "medium",
+"question": "What are the rings of Saturn mostly made of?",
+"options": {
+"A": "Solid gold and silver bands",
+"B": "Pure frozen methane clouds",
+"C": "Millions of chunks of water ice and rock",
+"D": "Glowing magnetic dust particles"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0056",
+"difficulty": "medium",
+"question": "Which planet rotates backward on its axis compared to almost all other planets?",
+"options": {
+"A": "Mars",
+"B": "Jupiter",
+"C": "Neptune",
+"D": "Venus"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0057",
+"difficulty": "medium",
+"question": "What does a light-year measure in astronomy?",
+"options": {
+"A": "Distance",
+"B": "Time",
+"C": "Brightness",
+"D": "Weight"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0058",
+"difficulty": "medium",
+"question": "Which robotic space probe became the first human-made object to cross into interstellar space?",
+"options": {
+"A": "New Horizons",
+"B": "Voyager 1",
+"C": "Cassini",
+"D": "Pioneer 10"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0059",
+"difficulty": "medium",
+"question": "What is the name of the outer boundary of a black hole where gravity is so strong nothing can escape?",
+"options": {
+"A": "Asteroid belt",
+"B": "Corona",
+"C": "Event horizon",
+"D": "Solar limit"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0060",
+"difficulty": "medium",
+"question": "Which giant moon of Saturn has rivers, clouds, and lakes of liquid methane on its cold surface?",
+"options": {
+"A": "Enceladus",
+"B": "Mimas",
+"C": "Rhea",
+"D": "Titan"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0061",
+"difficulty": "medium",
+"question": "What is the name of the supermassive black hole found at the center of the Milky Way galaxy?",
+"options": {
+"A": "Sagittarius A*",
+"B": "Cygnus X-1",
+"C": "Andromeda Core",
+"D": "Orion Prime"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0062",
+"difficulty": "medium",
+"question": "What causes the shimmering northern and southern lights (auroras) near Earth's poles?",
+"options": {
+"A": "Sunlight bouncing off polar glaciers",
+"B": "Solar particles colliding with gases in Earth's atmosphere",
+"C": "Lightning strikes in high polar clouds",
+"D": "Moonlight reflecting through ocean mist"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0063",
+"difficulty": "medium",
+"question": "Roughly how fast does the International Space Station travel as it orbits Earth every 90 minutes?",
+"options": {
+"A": "About 500 km/h",
+"B": "About 3,000 km/h",
+"C": "About 28,000 km/h",
+"D": "About 150,000 km/h"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0064",
+"difficulty": "medium",
+"question": "Which planet takes about 165 Earth years to complete just one full orbit around the Sun?",
+"options": {
+"A": "Jupiter",
+"B": "Saturn",
+"C": "Uranus",
+"D": "Neptune"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0065",
+"difficulty": "medium",
+"question": "What was the name of the tiny robotic helicopter that made historic flights in the thin air of Mars in 2021?",
+"options": {
+"A": "Ingenuity",
+"B": "Spirit",
+"C": "Pathfinder",
+"D": "Curiosity"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0066",
+"difficulty": "medium",
+"question": "What is the name of the dwarf planet that lives inside the main asteroid belt between Mars and Jupiter?",
+"options": {
+"A": "Pluto",
+"B": "Ceres",
+"C": "Eris",
+"D": "Haumea"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0067",
+"difficulty": "medium",
+"question": "Which giant reddish star in the constellation Orion is thousands of times larger than our Sun?",
+"options": {
+"A": "Rigel",
+"B": "Sirius",
+"C": "Betelgeuse",
+"D": "Aldebaran"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0068",
+"difficulty": "medium",
+"question": "What is a massive interstellar cloud of dust and gas where baby stars are formed called?",
+"options": {
+"A": "A galaxy",
+"B": "A pulsar",
+"C": "A black hole",
+"D": "A nebula"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0069",
+"difficulty": "medium",
+"question": "Why does the Moon always show the exact same side to planet Earth?",
+"options": {
+"A": "It rotates on its axis in the exact same time it orbits Earth",
+"B": "It does not spin on its axis at all",
+"C": "Earth's magnetic pull holds one side locked in place",
+"D": "The dark side of the Moon is too heavy to turn"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0070",
+"difficulty": "medium",
+"question": "Which advanced space telescope was launched on Christmas Day in 2021 with giant gold-coated hexagonal mirrors?",
+"options": {
+"A": "Hubble Telescope",
+"B": "James Webb Space Telescope",
+"C": "Kepler Space Telescope",
+"D": "Spitzer Observatory"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0071",
+"difficulty": "medium",
+"question": "Which planet spins the fastest on its axis, making its entire day last only about 10 hours?",
+"options": {
+"A": "Mercury",
+"B": "Mars",
+"C": "Jupiter",
+"D": "Saturn"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0072",
+"difficulty": "medium",
+"question": "What was the name of the first artificial satellite ever launched into space, sent in 1957?",
+"options": {
+"A": "Vostok 1",
+"B": "Apollo 1",
+"C": "Explorer 1",
+"D": "Sputnik 1"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0073",
+"difficulty": "medium",
+"question": "Which icy moon of Saturn shoots tall geysers of water ice into space from an underground ocean?",
+"options": {
+"A": "Enceladus",
+"B": "Phobos",
+"C": "Deimos",
+"D": "Charon"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0074",
+"difficulty": "medium",
+"question": "What chemical gas in the atmosphere of Uranus gives the planet its pale blue-green color?",
+"options": {
+"A": "Oxygen",
+"B": "Methane",
+"C": "Nitrogen",
+"D": "Helium"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0075",
+"difficulty": "medium",
+"question": "Who was the first woman to fly into outer space, orbiting Earth aboard Vostok 6 in 1963?",
+"options": {
+"A": "Sally Ride",
+"B": "Mae Jemison",
+"C": "Valentina Tereshkova",
+"D": "Peggy Whitson"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0076",
+"difficulty": "medium",
+"question": "Roughly how old is our solar system according to scientific measurements of space rocks?",
+"options": {
+"A": "10 million years",
+"B": "500 million years",
+"C": "2 billion years",
+"D": "4.6 billion years"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0077",
+"difficulty": "medium",
+"question": "What is the name of the giant shield volcano on Mars that is the tallest mountain in the solar system?",
+"options": {
+"A": "Olympus Mons",
+"B": "Mount Everest",
+"C": "Mauna Kea",
+"D": "Elysium Mons"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0078",
+"difficulty": "medium",
+"question": "What famous comet visits the inner solar system and becomes visible from Earth roughly every 75 to 76 years?",
+"options": {
+"A": "Comet Encke",
+"B": "Halley's Comet",
+"C": "Comet Hale-Bopp",
+"D": "Comet Hyakutake"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0079",
+"difficulty": "medium",
+"question": "What is the primary and most abundant gas that makes up the bulk of our Sun?",
+"options": {
+"A": "Oxygen",
+"B": "Carbon dioxide",
+"C": "Hydrogen",
+"D": "Nitrogen"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0080",
+"difficulty": "medium",
+"question": "What is the name of the giant canyon system on Mars that is four times deeper than the Grand Canyon?",
+"options": {
+"A": "Mariana Trench",
+"B": "Hellas Planitia",
+"C": "Great Rift Valley",
+"D": "Valles Marineris"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0081",
+"difficulty": "medium",
+"question": "What keeps all eight planets steadily orbiting the Sun instead of flying away into deep space?",
+"options": {
+"A": "The Sun's immense gravitational pull",
+"B": "Magnetic forces between planetary poles",
+"C": "Cosmic winds pushing planets inward",
+"D": "The friction of gas floating in space"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0082",
+"difficulty": "medium",
+"question": "What is the brightest individual star seen in the nighttime sky from Earth, located in Canis Major?",
+"options": {
+"A": "Polaris",
+"B": "Sirius",
+"C": "Vega",
+"D": "Alpha Centauri"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0083",
+"difficulty": "medium",
+"question": "How many human astronauts in total have walked on the surface of the Moon during the Apollo missions?",
+"options": {
+"A": "Two",
+"B": "Six",
+"C": "Twelve",
+"D": "Twenty-four"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0084",
+"difficulty": "medium",
+"question": "What is the name of the donut-shaped region of icy objects and dwarf planets located beyond Neptune's orbit?",
+"options": {
+"A": "The Asteroid Belt",
+"B": "The Great Rift",
+"C": "The Orion Arm",
+"D": "The Kuiper Belt"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0085",
+"difficulty": "medium",
+"question": "What primarily causes the rise and fall of ocean tides across planet Earth every day?",
+"options": {
+"A": "The gravitational pull of the Moon and the Sun",
+"B": "Underwater volcanic eruptions",
+"C": "Strong winds blowing across open oceans",
+"D": "Earth's molten iron core heating the water"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0086",
+"difficulty": "medium",
+"question": "What is a supernova in astronomy?",
+"options": {
+"A": "The birth of a tiny baby star",
+"B": "The colossal explosion of a dying massive star",
+"C": "A direct collision between two giant planets",
+"D": "A sudden burst of solar heat on Earth"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0087",
+"difficulty": "medium",
+"question": "Which gas giant planet has such a low average density that it would float if placed in a giant bathtub of water?",
+"options": {
+"A": "Neptune",
+"B": "Uranus",
+"C": "Saturn",
+"D": "Jupiter"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0088",
+"difficulty": "medium",
+"question": "Who was the first human astronaut ever to travel into outer space, orbiting Earth in 1961?",
+"options": {
+"A": "Neil Armstrong",
+"B": "John Glenn",
+"C": "Alan Shepard",
+"D": "Yuri Gagarin"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0089",
+"difficulty": "medium",
+"question": "What is the outer atmosphere of the Sun, visible as a glowing pearly crown during a total solar eclipse, called?",
+"options": {
+"A": "The Corona",
+"B": "The Photosphere",
+"C": "The Core",
+"D": "The Chromosphere"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0090",
+"difficulty": "medium",
+"question": "What is the name of the car-sized NASA rover that landed on Mars in 2021 to collect rock core samples?",
+"options": {
+"A": "Curiosity",
+"B": "Perseverance",
+"C": "Spirit",
+"D": "InSight"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0091",
+"difficulty": "medium",
+"question": "Which large icy moon of Neptune orbits backward in the opposite direction of its planet's spin?",
+"options": {
+"A": "Proteus",
+"B": "Nereid",
+"C": "Triton",
+"D": "Larissa"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0092",
+"difficulty": "medium",
+"question": "What causes the dark spots that appear temporarily on the glowing surface of the Sun?",
+"options": {
+"A": "Clouds of smoke from burning metals",
+"B": "Giant asteroid impacts breaking the surface",
+"C": "Shadows cast by passing inner planets",
+"D": "Cooler regions created by intense magnetic fields"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0093",
+"difficulty": "medium",
+"question": "Which distant gas planet has faint, dark rings with distinct bright clumps called ring arcs?",
+"options": {
+"A": "Neptune",
+"B": "Mercury",
+"C": "Venus",
+"D": "Mars"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0094",
+"difficulty": "medium",
+"question": "What is the name of the large spiral galaxy closest to our own Milky Way galaxy?",
+"options": {
+"A": "Triangulum Galaxy",
+"B": "Andromeda Galaxy",
+"C": "Whirlpool Galaxy",
+"D": "Pinwheel Galaxy"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0095",
+"difficulty": "medium",
+"question": "What do scientists call a special point in space where the gravity of two large bodies balances out, holding a spacecraft steady?",
+"options": {
+"A": "An event horizon",
+"B": "An apogee",
+"C": "A Lagrange point",
+"D": "A zenith"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0096",
+"difficulty": "medium",
+"question": "What geometric shape do planetary orbits around the Sun have?",
+"options": {
+"A": "A perfect square",
+"B": "A straight zigzag line",
+"C": "A triangle",
+"D": "An ellipse (stretched oval)"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0097",
+"difficulty": "medium",
+"question": "Which planet in our solar system experiences the fastest and most violent winds, reaching over 2,000 km/h?",
+"options": {
+"A": "Neptune",
+"B": "Earth",
+"C": "Jupiter",
+"D": "Mercury"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0098",
+"difficulty": "medium",
+"question": "Which space mission flew past Pluto in 2015, capturing the first clear pictures of its icy mountains and heart shape?",
+"options": {
+"A": "Voyager 2",
+"B": "New Horizons",
+"C": "Cassini",
+"D": "Galileo"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0099",
+"difficulty": "medium",
+"question": "What famous object did the twin Voyager probes carry into space to explain Earth to potential extraterrestrial life?",
+"options": {
+"A": "A digital smartphone",
+"B": "A paper encyclopedia",
+"C": "A gold-plated copper phonograph record",
+"D": "A telescope mirror"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0100",
+"difficulty": "medium",
+"question": "Which of these planets has zero moons orbiting around it?",
+"options": {
+"A": "Mars",
+"B": "Neptune",
+"C": "Jupiter",
+"D": "Mercury"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0101",
+"difficulty": "medium",
+"question": "What is the main gas found in the atmospheres of both Venus and Mars?",
+"options": {
+"A": "Carbon dioxide",
+"B": "Oxygen",
+"C": "Nitrogen",
+"D": "Helium"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0102",
+"difficulty": "medium",
+"question": "What is an exoplanet in astronomy?",
+"options": {
+"A": "A planet that has exploded",
+"B": "A planet that orbits a star outside our solar system",
+"C": "A moon that turned into an asteroid",
+"D": "An artificial space habitat built by humans"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0103",
+"difficulty": "medium",
+"question": "How many crew members flew aboard Apollo 11 on their journey to the Moon?",
+"options": {
+"A": "One",
+"B": "Two",
+"C": "Three",
+"D": "Four"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0104",
+"difficulty": "medium",
+"question": "What specific stellar type is our Sun classified as by astrophysicists?",
+"options": {
+"A": "Blue supergiant",
+"B": "Red dwarf",
+"C": "White dwarf",
+"D": "Yellow dwarf (G-type main sequence)"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0105",
+"difficulty": "medium",
+"question": "Which small northern constellation contains the bright blue-white star Vega?",
+"options": {
+"A": "Lyra",
+"B": "Ursa Minor",
+"C": "Scorpius",
+"D": "Leo"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0106",
+"difficulty": "medium",
+"question": "Why do spacesuit helmet visors have a thin layer of real gold coated on them?",
+"options": {
+"A": "To make the helmet heavier",
+"B": "To block harmful solar radiation and intense glare",
+"C": "To keep the glass from scratching easily",
+"D": "To improve radio reception for the astronaut"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0107",
+"difficulty": "medium",
+"question": "Which robotic spacecraft explored Saturn and its moons for 13 years before intentionally diving into Saturn in 2017?",
+"options": {
+"A": "Juno",
+"B": "Galileo",
+"C": "Cassini",
+"D": "Pioneer 11"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0108",
+"difficulty": "medium",
+"question": "What is a space rock called once it survives atmospheric entry and hits the solid ground of Earth?",
+"options": {
+"A": "A meteoroid",
+"B": "A comet",
+"C": "An asteroid",
+"D": "A meteorite"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0109",
+"difficulty": "medium",
+"question": "Which dwarf planet has a moon named Charon that is half its own size, causing them to orbit around a mutual point in space?",
+"options": {
+"A": "Pluto",
+"B": "Mars",
+"C": "Saturn",
+"D": "Neptune"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0110",
+"difficulty": "medium",
+"question": "What invisible shield created by Earth's core protects life from deadly solar wind particles?",
+"options": {
+"A": "The Moon's gravitational shadow",
+"B": "Earth's magnetic field (magnetosphere)",
+"C": "The ocean surface layer",
+"D": "The cloud cover in the troposphere"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0111",
+"difficulty": "medium",
+"question": "Who was the first American astronaut to complete a full orbit around Earth in 1962?",
+"options": {
+"A": "Alan Shepard",
+"B": "Neil Armstrong",
+"C": "John Glenn",
+"D": "Buzz Aldrin"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0112",
+"difficulty": "medium",
+"question": "What is the approximate surface temperature of our Sun?",
+"options": {
+"A": "500 °C",
+"B": "1,500 °C",
+"C": "2,800 °C",
+"D": "5,500 °C"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0113",
+"difficulty": "medium",
+"question": "Which space mission released the small Philae lander to achieve the first landing on a comet in 2014?",
+"options": {
+"A": "Rosetta",
+"B": "Giotto",
+"C": "Stardust",
+"D": "Deep Impact"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0114",
+"difficulty": "medium",
+"question": "What causes the dwarf planet Haumea to have a strange, stretched-out shape like an American football?",
+"options": {
+"A": "Its strong internal volcanic eruptions",
+"B": "Its extraordinarily fast rotation on its axis",
+"C": "The gravitational pull of nearby Neptune",
+"D": "Constant collisions with small comets"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0115",
+"difficulty": "medium",
+"question": "What is the vast, spherical shell of icy objects surrounding the outer boundaries of the entire solar system called?",
+"options": {
+"A": "The Asteroid Belt",
+"B": "The Van Allen Belt",
+"C": "The Oort Cloud",
+"D": "The Kuiper Belt"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0116",
+"difficulty": "medium",
+"question": "What dense remnant does a Sun-like star leave behind after it sheds its outer glowing layers?",
+"options": {
+"A": "A red giant",
+"B": "A brown dwarf",
+"C": "A gas giant",
+"D": "A white dwarf"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0117",
+"difficulty": "medium",
+"question": "About how long does it take for the Moon to go through a complete cycle of phases from New Moon back to New Moon?",
+"options": {
+"A": "About 29.5 days",
+"B": "About 365 days",
+"C": "About 7 days",
+"D": "About 14 days"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0118",
+"difficulty": "medium",
+"question": "About how thick are Saturn's main rings on average, despite stretching hundreds of thousands of kilometers across?",
+"options": {
+"A": "Thousands of kilometers",
+"B": "Only about 10 to 30 meters",
+"C": "Hundreds of kilometers",
+"D": "About 50 kilometers"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0119",
+"difficulty": "medium",
+"question": "Which rover mission touched down in Jezero Crater on Mars in 2021 carrying specialized tubes to cache rock samples?",
+"options": {
+"A": "Curiosity",
+"B": "Spirit",
+"C": "Perseverance",
+"D": "Opportunity"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0120",
+"difficulty": "medium",
+"question": "What is the primary danger for a human on Mars without a pressurized spacesuit?",
+"options": {
+"A": "Strong surface winds that blow humans away",
+"B": "Toxic acid rain that melts clothing",
+"C": "Crushing atmospheric pressure like deep water",
+"D": "Extremely low air pressure, lack of oxygen, and freezing cold"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0121",
+"difficulty": "medium",
+"question": "What shape is our home galaxy, the Milky Way, classified as?",
+"options": {
+"A": "A barred spiral galaxy",
+"B": "A smooth elliptical galaxy",
+"C": "A chaotic irregular galaxy",
+"D": "A ring galaxy"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0122",
+"difficulty": "medium",
+"question": "Which country became the first to successfully land a robotic probe on the far side of the Moon in 2019?",
+"options": {
+"A": "United States",
+"B": "China",
+"C": "Russia",
+"D": "India"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0123",
+"difficulty": "medium",
+"question": "Which planet has a rotation period so slow that one of its days lasts longer than one of its years?",
+"options": {
+"A": "Mercury",
+"B": "Mars",
+"C": "Venus",
+"D": "Jupiter"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0124",
+"difficulty": "medium",
+"question": "What are the dark rings of Uranus primarily composed of?",
+"options": {
+"A": "Polished silver rocks",
+"B": "Bright frozen water crystals",
+"C": "Sheets of red copper",
+"D": "Dark boulders and radiation-darkened organic dust"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0125",
+"difficulty": "medium",
+"question": "What do astronomers call two stars that are gravitationally bound and orbit around a shared center of mass?",
+"options": {
+"A": "A binary star system",
+"B": "A stellar nursery",
+"C": "A pulsar pair",
+"D": "A constellation cluster"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0126",
+"difficulty": "hard",
+"question": "What is the closest star system to our solar system, located about 4.2 to 4.37 light-years away?",
+"options": {
+"A": "Sirius",
+"B": "Alpha Centauri",
+"C": "Vega",
+"D": "Barnard's Star"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0127",
+"difficulty": "hard",
+"question": "Which moon in the solar system has an atmospheric pressure on its surface that is roughly 50% greater than Earth's?",
+"options": {
+"A": "Ganymede",
+"B": "Europa",
+"C": "Titan",
+"D": "Callisto"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0128",
+"difficulty": "hard",
+"question": "What is the name of the boundary where the solar wind is pushed back by the interstellar medium of deep space?",
+"options": {
+"A": "Asteroid belt",
+"B": "Event horizon",
+"C": "Roche limit",
+"D": "Heliopause"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0129",
+"difficulty": "hard",
+"question": "Which space telescope discovered thousands of exoplanets by detecting the tiny dip in starlight as planets transited their stars?",
+"options": {
+"A": "Kepler Space Telescope",
+"B": "Chandra X-ray Observatory",
+"C": "Hubble Space Telescope",
+"D": "James Webb Space Telescope"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0130",
+"difficulty": "hard",
+"question": "What nuclear process continuously produces the Sun's light and heat by fusing hydrogen nuclei into helium in its core?",
+"options": {
+"A": "Chemical combustion",
+"B": "Nuclear fusion",
+"C": "Nuclear fission",
+"D": "Radioactive decay"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0131",
+"difficulty": "hard",
+"question": "What was the name of the European robotic lander that touched down on the surface of Titan in January 2005?",
+"options": {
+"A": "Philae",
+"B": "Schiaparelli",
+"C": "Huygens",
+"D": "Beagle 2"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0132",
+"difficulty": "hard",
+"question": "What is a rapidly rotating neutron star that sweeps beams of electromagnetic radiation across space like a cosmic lighthouse called?",
+"options": {
+"A": "A quasar",
+"B": "A red giant",
+"C": "A magnetar",
+"D": "A pulsar"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0133",
+"difficulty": "hard",
+"question": "Which massive asteroid in the main belt was visited and mapped in detail by NASA's Dawn spacecraft in 2011?",
+"options": {
+"A": "Vesta",
+"B": "Pallas",
+"C": "Hygiea",
+"D": "Bennu"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0134",
+"difficulty": "hard",
+"question": "What is the speed of light traveling through a vacuum?",
+"options": {
+"A": "About 3,000 km/s",
+"B": "About 300,000 km/s",
+"C": "About 3,000,000 km/s",
+"D": "About 30,000 km/s"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0135",
+"difficulty": "hard",
+"question": "Which Apollo mission suffered an oxygen tank explosion in space but returned all three astronauts safely to Earth?",
+"options": {
+"A": "Apollo 1",
+"B": "Apollo 11",
+"C": "Apollo 13",
+"D": "Apollo 17"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0136",
+"difficulty": "hard",
+"question": "What is the name of the hypothetical vast cloud of icy planetesimals believed to orbit up to 100,000 AU from the Sun?",
+"options": {
+"A": "Kuiper Belt",
+"B": "Asteroid Belt",
+"C": "Torus Cloud",
+"D": "Oort Cloud"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0137",
+"difficulty": "hard",
+"question": "Which NASA spacecraft became the first mission to enter into orbit around the planet Mercury in 2011?",
+"options": {
+"A": "MESSENGER",
+"B": "Mariner 10",
+"C": "BepiColombo",
+"D": "Pioneer 10"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0138",
+"difficulty": "hard",
+"question": "How long is the average solar magnetic activity cycle, which controls sunspot numbers on the Sun?",
+"options": {
+"A": "About 1 year",
+"B": "About 11 years",
+"C": "About 50 years",
+"D": "About 100 years"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0139",
+"difficulty": "hard",
+"question": "Which moon of Jupiter possesses a smooth, cracked ice crust covering a global saltwater ocean beneath?",
+"options": {
+"A": "Io",
+"B": "Callisto",
+"C": "Europa",
+"D": "Ganymede"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0140",
+"difficulty": "hard",
+"question": "What specific astronomical term describes an exceptionally bright meteor that often explodes in a flash in the atmosphere?",
+"options": {
+"A": "Asteroid",
+"B": "Coma",
+"C": "Pulsar",
+"D": "Bolide"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0141",
+"difficulty": "hard",
+"question": "Which solar-powered NASA probe is currently orbiting Jupiter to study its deep atmosphere and auroras?",
+"options": {
+"A": "Juno",
+"B": "Cassini",
+"C": "Galileo",
+"D": "Dawn"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0142",
+"difficulty": "hard",
+"question": "What is the Cosmic Microwave Background (CMB) detected across the entire universe?",
+"options": {
+"A": "Light echoing from ancient stars",
+"B": "Thermal radiation left over from the Big Bang",
+"C": "Signals transmitted by deep space pulsars",
+"D": "Radiation created by active black holes"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0143",
+"difficulty": "hard",
+"question": "Who was the Apollo 11 astronaut who piloted the command module in lunar orbit while his crewmates walked on the Moon?",
+"options": {
+"A": "Jim Lovell",
+"B": "Alan Bean",
+"C": "Michael Collins",
+"D": "Pete Conrad"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0144",
+"difficulty": "hard",
+"question": "What was the name of the massive Earth-sized storm system photographed on Neptune by Voyager 2 in 1989?",
+"options": {
+"A": "The Great Red Spot",
+"B": "The Dragon Storm",
+"C": "The White Oval",
+"D": "The Great Dark Spot"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0145",
+"difficulty": "hard",
+"question": "What is the internationally recognized boundary defining the beginning of outer space, located 100 km above Earth's sea level?",
+"options": {
+"A": "The Kármán line",
+"B": "The Stratopause",
+"C": "The Armstrong limit",
+"D": "The Van Allen line"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0146",
+"difficulty": "hard",
+"question": "Which chemical element makes up approximately 74% of all ordinary baryonic matter in the universe?",
+"options": {
+"A": "Helium",
+"B": "Hydrogen",
+"C": "Oxygen",
+"D": "Carbon"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0147",
+"difficulty": "hard",
+"question": "What was the name of the first interstellar visitor object discovered passing through our solar system in 2017?",
+"options": {
+"A": "Comet Borisov",
+"B": "Chiron",
+"C": "'Oumuamua",
+"D": "Sedna"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0148",
+"difficulty": "hard",
+"question": "Which NASA robotic mission successfully completed the first soft landing on Mars in 1976 and transmitted clear surface photos?",
+"options": {
+"A": "Pathfinder",
+"B": "Mariner 9",
+"C": "Opportunity",
+"D": "Viking 1"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0149",
+"difficulty": "hard",
+"question": "What dense stellar object forms when a giant star's core collapses so violently that protons and electrons combine into subatomic particles?",
+"options": {
+"A": "A neutron star",
+"B": "A brown dwarf",
+"C": "A red giant",
+"D": "A white dwarf"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0150",
+"difficulty": "hard",
+"question": "What is the orbital period of Halley's Comet around the Sun?",
+"options": {
+"A": "About 25 to 26 years",
+"B": "About 75 to 76 years",
+"C": "About 150 to 152 years",
+"D": "About 300 to 305 years"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0151",
+"difficulty": "hard",
+"question": "Which wavelength range does the James Webb Space Telescope primarily observe in to see through dense cosmic dust?",
+"options": {
+"A": "Ultraviolet light",
+"B": "Gamma rays",
+"C": "Infrared light",
+"D": "X-rays"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0152",
+"difficulty": "hard",
+"question": "What is the official name of the bright, heart-shaped region of nitrogen ice observed on Pluto's surface?",
+"options": {
+"A": "Cthulhu Macula",
+"B": "Lowell Regio",
+"C": "Sputnik Planitia",
+"D": "Tombaugh Regio"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0153",
+"difficulty": "hard",
+"question": "Which space agency made history in August 2023 by softly landing its Chandrayaan-3 probe near the Moon's south pole?",
+"options": {
+"A": "ISRO (India)",
+"B": "JAXA (Japan)",
+"C": "ESA (Europe)",
+"D": "NASA (USA)"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0154",
+"difficulty": "hard",
+"question": "What is Earth's escape velocity, the speed a rocket needs to break free from Earth's gravity without further thrust?",
+"options": {
+"A": "About 3.2 km/s",
+"B": "About 11.2 km/s",
+"C": "About 29.8 km/s",
+"D": "About 75.0 km/s"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0155",
+"difficulty": "hard",
+"question": "Which two-toned moon of Saturn has a massive equatorial ridge of mountains that gives it the appearance of a walnut?",
+"options": {
+"A": "Titan",
+"B": "Mimas",
+"C": "Iapetus",
+"D": "Dione"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0156",
+"difficulty": "hard",
+"question": "What astronomical technique splits starlight into component wavelengths to identify the chemical elements inside distant stars?",
+"options": {
+"A": "Radar interferometry",
+"B": "Gravitational lensing",
+"C": "Astrometry",
+"D": "Spectroscopy"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0157",
+"difficulty": "hard",
+"question": "What was the name of the modular Soviet and Russian space station that orbited Earth from 1986 until 2001?",
+"options": {
+"A": "Mir",
+"B": "Salyut 7",
+"C": "Tiangong",
+"D": "Skylab"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0158",
+"difficulty": "hard",
+"question": "Which dwarf planet in the Kuiper Belt is named after the creator deity in Rapa Nui mythology of Easter Island?",
+"options": {
+"A": "Eris",
+"B": "Makemake",
+"C": "Haumea",
+"D": "Quaoar"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0159",
+"difficulty": "hard",
+"question": "What is the average temperature of empty deep space, measured just above absolute zero?",
+"options": {
+"A": "About 0 Kelvin",
+"B": "About 20 Kelvin",
+"C": "About 2.7 Kelvin",
+"D": "About 77 Kelvin"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0160",
+"difficulty": "hard",
+"question": "Which robotic NASA rover drove more than 45 kilometers on Mars across nearly 15 years, setting the off-world driving record?",
+"options": {
+"A": "Sojourner",
+"B": "Spirit",
+"C": "Curiosity",
+"D": "Opportunity"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0161",
+"difficulty": "hard",
+"question": "Who was the first American woman to fly into outer space, launching aboard the Challenger shuttle in 1983?",
+"options": {
+"A": "Sally Ride",
+"B": "Judith Resnik",
+"C": "Mae Jemison",
+"D": "Shannon Lucid"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0162",
+"difficulty": "hard",
+"question": "What is the name of the bright blue-white supergiant star that marks the foot of the constellation Orion?",
+"options": {
+"A": "Betelgeuse",
+"B": "Rigel",
+"C": "Bellatrix",
+"D": "Saiph"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0163",
+"difficulty": "hard",
+"question": "Which global network of radio telescopes produced the first direct image of a black hole's shadow in the galaxy M87 in 2019?",
+"options": {
+"A": "Hubble Space Telescope",
+"B": "Very Large Array",
+"C": "Event Horizon Telescope",
+"D": "Atacama Large Millimeter Array"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0164",
+"difficulty": "hard",
+"question": "Why do Saturn's rings seem to disappear periodically every 14 to 15 years when viewed through telescopes from Earth?",
+"options": {
+"A": "Saturn's shadow blocks the rings completely",
+"B": "The ring particles evaporate temporarily",
+"C": "Solar flares mask the reflectivity of the ice",
+"D": "Earth crosses the ring plane, viewing the paper-thin rings edge-on"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0165",
+"difficulty": "hard",
+"question": "What is the name of an extremely bright, energetic core of an active young galaxy powered by a feeding supermassive black hole?",
+"options": {
+"A": "A quasar",
+"B": "A magnetar",
+"C": "A brown dwarf",
+"D": "A supernova remnant"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0166",
+"difficulty": "hard",
+"question": "Which moon of Uranus has the tallest cliff in the solar system, Verona Rupes, which drops over 10 kilometers down?",
+"options": {
+"A": "Ariel",
+"B": "Miranda",
+"C": "Titania",
+"D": "Umbriel"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0167",
+"difficulty": "hard",
+"question": "Which spacecraft is the only human-built probe to have visited and photographed Uranus and Neptune up close?",
+"options": {
+"A": "Voyager 1",
+"B": "Pioneer 10",
+"C": "Voyager 2",
+"D": "New Horizons"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0168",
+"difficulty": "hard",
+"question": "What is the orbital region around a host star where liquid water can pool on a planet's surface called?",
+"options": {
+"A": "The Kuiper Belt",
+"B": "The Oort Cloud",
+"C": "The Frost Line",
+"D": "The Habitable Zone (Goldilocks Zone)"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0169",
+"difficulty": "hard",
+"question": "Which NASA mission intentionally crashed an impactor spacecraft into the asteroid Dimorphos in 2022 to alter its orbit?",
+"options": {
+"A": "DART",
+"B": "OSIRIS-REx",
+"C": "Lucy",
+"D": "Hayabusa2"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0170",
+"difficulty": "hard",
+"question": "What phenomenon occurs when the immense gravity of a massive foreground galaxy bends light from an object located behind it?",
+"options": {
+"A": "Doppler redshift",
+"B": "Gravitational lensing",
+"C": "Cosmic inflation",
+"D": "Rayleigh scattering"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0171",
+"difficulty": "hard",
+"question": "Which dwarf planet discovered in 2005 is nearly identical in mass to Pluto, leading astronomers to create the dwarf planet category?",
+"options": {
+"A": "Ceres",
+"B": "Haumea",
+"C": "Eris",
+"D": "Sedna"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0172",
+"difficulty": "hard",
+"question": "What was the name of the first orbital space station launched by the United States in 1973?",
+"options": {
+"A": "Freedom",
+"B": "Salyut 1",
+"C": "Spacelab",
+"D": "Skylab"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0173",
+"difficulty": "hard",
+"question": "What corrosive chemical makes up the thick, highly reflective cloud decks covering planet Venus?",
+"options": {
+"A": "Sulfuric acid",
+"B": "Hydrochloric acid",
+"C": "Liquid ammonia",
+"D": "Nitric acid"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0174",
+"difficulty": "hard",
+"question": "Which NASA space mission launched in 2021 is designed to explore multiple Jupiter Trojan asteroids sharing Jupiter's orbit?",
+"options": {
+"A": "Psyche",
+"B": "Lucy",
+"C": "Dawn",
+"D": "Juno"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0175",
+"difficulty": "hard",
+"question": "What is the apparent backward loop that outer planets seem to make in the night sky as Earth overtakes them called?",
+"options": {
+"A": "Precession",
+"B": "Nutation",
+"C": "Apparent retrograde motion",
+"D": "Stellar parallax"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0176",
+"difficulty": "hard",
+"question": "Which of Jupiter's Galilean moons is the densest and has virtually no water on its sulfur-covered surface?",
+"options": {
+"A": "Ganymede",
+"B": "Europa",
+"C": "Callisto",
+"D": "Io"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0177",
+"difficulty": "hard",
+"question": "What is the specific point in an elliptical orbit where a celestial body is closest to the Sun called?",
+"options": {
+"A": "Perihelion",
+"B": "Aphelion",
+"C": "Perigee",
+"D": "Apogee"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0178",
+"difficulty": "hard",
+"question": "Which NASA spacecraft successfully returned pristine rock and dust samples from the asteroid Bennu in September 2023?",
+"options": {
+"A": "Hayabusa2",
+"B": "OSIRIS-REx",
+"C": "Stardust",
+"D": "Genesis"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0179",
+"difficulty": "hard",
+"question": "Which giant impact crater on Saturn's moon Mimas spans one-third of the moon's diameter, resembling the Death Star?",
+"options": {
+"A": "Caloris Basin",
+"B": "Hellas Planitia",
+"C": "Herschel Crater",
+"D": "Tycho Crater"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0180",
+"difficulty": "hard",
+"question": "What is the astronomical term for the stretching of light wavelengths toward the red end of the spectrum as galaxies move away from us?",
+"options": {
+"A": "Blueshift",
+"B": "Polarization",
+"C": "Diffraction",
+"D": "Redshift"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0181",
+"difficulty": "hard",
+"question": "What was the name of the first satellite successfully launched by the United States, which discovered Earth's radiation belts in 1958?",
+"options": {
+"A": "Explorer 1",
+"B": "Vanguard 1",
+"C": "Telstar 1",
+"D": "Echo 1"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0182",
+"difficulty": "hard",
+"question": "Which bright orange giant star is the fourth brightest individual star in the night sky and the brightest in Boötes?",
+"options": {
+"A": "Vega",
+"B": "Arcturus",
+"C": "Capella",
+"D": "Aldebaran"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0183",
+"difficulty": "hard",
+"question": "What is the minimum distance to which a celestial body held by gravity can approach a second body without being torn apart by tidal forces?",
+"options": {
+"A": "The Event Horizon",
+"B": "The Chandrasekhar Limit",
+"C": "The Roche Limit",
+"D": "The Kármán Line"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0184",
+"difficulty": "hard",
+"question": "Which Apollo mission was the final human landing on the Moon, taking place in December 1972?",
+"options": {
+"A": "Apollo 14",
+"B": "Apollo 15",
+"C": "Apollo 16",
+"D": "Apollo 17"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0185",
+"difficulty": "hard",
+"question": "What type of neutron star possesses an ultra-strong magnetic field trillions of times stronger than Earth's magnetic field?",
+"options": {
+"A": "A magnetar",
+"B": "A white dwarf",
+"C": "A quasar",
+"D": "A brown dwarf"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0186",
+"difficulty": "hard",
+"question": "Which space agency developed and launched the Hayabusa2 mission that retrieved asteroid material from Ryugu in 2020?",
+"options": {
+"A": "NASA (USA)",
+"B": "JAXA (Japan)",
+"C": "CNSA (China)",
+"D": "ESA (Europe)"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0187",
+"difficulty": "hard",
+"question": "What is the name of the colossal impact basin on Mercury that measures over 1,500 kilometers in diameter?",
+"options": {
+"A": "Hellas Basin",
+"B": "Imbrium Basin",
+"C": "Caloris Basin",
+"D": "Aitken Basin"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0188",
+"difficulty": "hard",
+"question": "What is the maximum mass limit (about 1.4 solar masses) beyond which a white dwarf must collapse into a neutron star or explode?",
+"options": {
+"A": "The Eddington Limit",
+"B": "The Hubble Constant",
+"C": "The Planck Limit",
+"D": "The Chandrasekhar Limit"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0189",
+"difficulty": "hard",
+"question": "How many kilometers are defined in one Astronomical Unit (AU), the mean distance from Earth to the Sun?",
+"options": {
+"A": "About 149.6 million km",
+"B": "About 384,400 km",
+"C": "About 1.5 million km",
+"D": "About 9.46 trillion km"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0190",
+"difficulty": "hard",
+"question": "Which European Space Agency orbiter studied the atmosphere, winds, and cloud layers of Venus between 2006 and 2014?",
+"options": {
+"A": "Magellan",
+"B": "Venus Express",
+"C": "Akatsuki",
+"D": "Pioneer Venus"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0191",
+"difficulty": "hard",
+"question": "Which constellation contains the North Star, Polaris, located at the end of its celestial handle?",
+"options": {
+"A": "Ursa Major",
+"B": "Cassiopeia",
+"C": "Ursa Minor",
+"D": "Draco"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0192",
+"difficulty": "hard",
+"question": "In approximately how many billion years are the Andromeda Galaxy and the Milky Way expected to collide and merge?",
+"options": {
+"A": "0.1 billion years",
+"B": "1.0 billion years",
+"C": "2.5 billion years",
+"D": "4.5 billion years"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0193",
+"difficulty": "hard",
+"question": "Which NASA infrared satellite launched in 2009 scanned the full sky to catalog millions of brown dwarfs and asteroids?",
+"options": {
+"A": "WISE (NEOWISE)",
+"B": "Hubble",
+"C": "Chandra",
+"D": "Kepler"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0194",
+"difficulty": "hard",
+"question": "Which Soviet spacecraft achieved the first successful soft landing on the Moon's surface in February 1966?",
+"options": {
+"A": "Sputnik 1",
+"B": "Luna 9",
+"C": "Vostok 1",
+"D": "Zond 5"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0195",
+"difficulty": "hard",
+"question": "What is the point in a planet's orbit where it is farthest away from the Sun called?",
+"options": {
+"A": "Perihelion",
+"B": "Perigee",
+"C": "Aphelion",
+"D": "Apogee"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0196",
+"difficulty": "hard",
+"question": "What is the dominant gas making up over 95% of the dense atmosphere of Saturn's largest moon Titan?",
+"options": {
+"A": "Oxygen",
+"B": "Carbon dioxide",
+"C": "Hydrogen",
+"D": "Nitrogen"
+},
+"answer": "D"
+},
+{
+"id": "space-en-0197",
+"difficulty": "hard",
+"question": "Which NASA spacecraft became the first human-built probe to fly directly through the Sun's outer corona in 2021?",
+"options": {
+"A": "Parker Solar Probe",
+"B": "Solar Orbiter",
+"C": "SOHO",
+"D": "Helios 2"
+},
+"answer": "A"
+},
+{
+"id": "space-en-0198",
+"difficulty": "hard",
+"question": "What is the largest known impact crater on the Moon, spanning roughly 2,500 kilometers across the lunar far side?",
+"options": {
+"A": "Tycho Crater",
+"B": "South Pole-Aitken Basin",
+"C": "Copernicus Crater",
+"D": "Mare Imbrium"
+},
+"answer": "B"
+},
+{
+"id": "space-en-0199",
+"difficulty": "hard",
+"question": "Which module was the very first functional component of the International Space Station launched into orbit in 1998?",
+"options": {
+"A": "Unity",
+"B": "Destiny",
+"C": "Zarya",
+"D": "Harmony"
+},
+"answer": "C"
+},
+{
+"id": "space-en-0200",
+"difficulty": "hard",
+"question": "What is the distance in a protoplanetary disk beyond which volatile compounds like water, ammonia, and methane condense into solid ice grains?",
+"options": {
+"A": "The Kuiper Cliff",
+"B": "The Habitable Edge",
+"C": "The Roche Zone",
+"D": "The Frost Line (Snow Line)"
+},
+"answer": "D"
+}
+]
 }
