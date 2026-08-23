@@ -44,6 +44,7 @@ next-env.d.ts
 
 
 /documentations/*
+/context/
 
 # PWA — générés par next-pwa au build, ne pas versionner
 /public/sw.js
