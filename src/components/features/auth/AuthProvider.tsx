@@ -30,7 +30,7 @@ import { useOnlineSync } from "@/hooks/useOnlineSync";
 const MAX_RETRIES = 5;
 const RETRY_DELAY_MS = 1000;
 
-interface AccessResolution {
+export interface AccessResolution {
   isPremium: boolean;
   accessStatus: AccessStatus;
   trialEndsAt: string | null;
@@ -41,8 +41,11 @@ interface AccessResolution {
  * OU essai gratuit indépendant (account_trials, cahier v1.4 §5), OU aucun accès.
  * Interroge les deux tables en parallèle. Retourne null en cas d'erreur DB —
  * laisse l'appelant décider de retenter (cf. checkAccess sur INITIAL_SESSION).
+ *
+ * Exportée (en plus d'être utilisée en interne) pour être testée unitairement
+ * sans monter le composant React — cf. `__tests__/AuthProvider.test.ts`.
  */
-async function resolveAccess(userId: string): Promise<AccessResolution | null> {
+export async function resolveAccess(userId: string): Promise<AccessResolution | null> {
   const [
     { data: sub, error: subError },
     { data: trial, error: trialError },
