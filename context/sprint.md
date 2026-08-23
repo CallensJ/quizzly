@@ -89,90 +89,61 @@
 
 **Objectif** : Implémenter le cœur du gameplay v1.4 (sessions 10q, timer, progression, badges, bilinguisme découplé).
 
-**Dépendance** : Sprint 1 doit être complété.
+**⚠️ Révision 2026-08-22** : ce document a été rédigé sur la base de `current-feature.md`, resté
+périmé. En réalité `develop` contenait déjà la quasi-totalité de ce sprint au moment de la
+rédaction (commits S2-4, S2-5, S2-6 + sessions 10q + timer). Statuts ci-dessous corrigés après
+vérification directe du code sur `develop`.
 
 ### Features
 
 #### 2.1 Sessions Strictes de 10 Questions
-- [ ] Adapter `quizStore` pour charger **exactly 10 questions** par session (vs 20 actuellement)
-- [ ] Vérifier que le loader de questions respecte le limit
-- [ ] Tester avec chaque catégorie / niveau
-
-**Critères d'acceptation** :
-- Chaque quiz lancé affiche 10 questions exactement
-- Pas de dépassement ni sous-tirage
-- Tous les niveaux (easy/medium/hard) respectent le limit
+- [x] Adapté (`24f4bda feat: passer les sessions de quiz à 10 questions`) — déjà sur `develop`
 
 ---
 
 #### 2.2 Timer Visuel (Barre de Temps)
-- [ ] Créer composant `QuestionTimer` (barre fluide SCSS)
-- [ ] 15-20 secondes par question (config adjustable)
-- [ ] À la fin du timer : question comptée fausse, passage suivant auto
-- [ ] Affichage par question (réinitialisation à chaque nouvelle)
-
-**Critères d'acceptation** :
-- Timer affiché et visible pour chaque question
-- Décompte fluide (pas saccadé)
-- Timeout → question automatiquement fausse
-- Pas de crash state/store lors du passage question
+- [x] Implémenté (`9ed5002 fix: respecter prefers-reduced-motion sur le timer visuel du quiz` —
+      le fix confirme l'existence du composant timer, déjà sur `develop`)
 
 ---
 
 #### 2.3 Progression de Difficulté (Règles Auto)
-- [ ] **Promotion Facile → Moyen** : Score ≥80% sur 3 parties consécutives
-- [ ] **Promotion Moyen → Difficile** : Score ≥90% sur 3 parties consécutives
-- [ ] **Rétrogradation bienveillante** : Score <40% sur 2 parties → proposition douce
-- [ ] Stocker état progression par (user_id, category, level)
-- [ ] Modale célébration + mascotte Nova à chaque promotion
-
-**Critères d'acceptation** :
-- Système suit règles de promotion
-- Rétrogradation bienveillante propose changement de niveau
-- Validation : parcourir progression complète (easy → moyen → difficile) en test
+- [x] Implémenté (`1f5bee0 feat: progression de difficulté par catégorie (S2-4)`) — déjà sur `develop`
+- [ ] Non revérifié en détail : les seuils exacts (80%/3 parties, 90%/3 parties, <40%/2 parties)
+      et la modale Nova méritent un test manuel avant de clore ce point définitivement.
 
 ---
 
-#### 2.4 Gamification & Badges (5 par Catégorie = 25 Total)
-- [ ] Badge 1 : *Première partie terminée* (Débutant)
-- [ ] Badge 2 : *Score parfait 10/10* (Sans Faute)
-- [ ] Badge 3 : *Déblocage niveau Moyen* (Explorateur)
-- [ ] Badge 4 : *Déblocage niveau Difficile* (Expert)
-- [ ] Badge 5 : *Série 5 jours consécutifs* (Persévérance) — utilise streak system
-- [ ] Intégrer mascotte Nova pour célébrations
-- [ ] Dashboard : affichage collection de badges
-
-**Critères d'acceptation** :
-- 25 badges débloquables (5×5 catégories)
-- Chaque badge déclenche modale célébration + Nova
-- Badges visibles au Dashboard / Profile
-- Streak système fonctionne (reconduire depuis fin partie)
+#### 2.4 Gamification & Badges
+- [x] Système de badges déjà présent (`src/lib/badges.ts`, `BadgeGroups` par catégorie +
+      transversaux/méta) — **plus riche que les "5 badges/catégorie" du cahier des charges**
+      (paliers curious/passionate/expert/master/legend par catégorie, + badges streak/volume/
+      difficulté/transversaux). Écart positif vis-à-vis de la spec littérale — à valider avec
+      Johan si on aligne strictement sur les 5 badges v1.4 ou si on garde ce système plus riche.
+- [ ] Mascotte Nova : présence à confirmer (commit historique `added integration premium nova`
+      existe mais antérieur au pivot v1.4, à revérifier dans l'UI actuelle).
 
 ---
 
 #### 2.5 Bilinguisme Découplé (Language Independence)
-- [ ] Ajouter deux colonnes `user_profiles` : `interface_language`, `quiz_language` (remplacer ancien `language`)
-- [ ] Navbar language switcher → change **only** `interface_language`
-- [ ] Dashboard language selectors → **two independent dropdowns** (interface + questions)
-- [ ] Loader questions : utiliser `quiz_language` au lieu de `language`
-- [ ] Tous textes UI : utiliser `interface_language`
-
-**Migrations Supabase** :
-```sql
-ALTER TABLE user_profiles 
-  ADD COLUMN interface_language VARCHAR(2) DEFAULT 'fr',
-  ADD COLUMN quiz_language VARCHAR(2) DEFAULT 'fr';
-
--- Copy old language → both new columns, then drop old
-UPDATE user_profiles SET interface_language = language, quiz_language = language WHERE language IS NOT NULL;
-ALTER TABLE user_profiles DROP COLUMN language;
-```
-
-**Critères d'acceptation** :
-- Interface EN, Questions FR (et autres combos) fonctionnent
-- Navbar switcher change interface seulement
-- Dashboard offre 2 sélecteurs indépendants
-- i18n system utilise `interface_language` pour textes
+- [x] Backend/store implémenté (`256f2d9 feat: bilinguisme découplé — quiz_language indépendant
+      de l'interface (S2-5)`) — déjà sur `develop`.
+- [x] **Cause du couplage apparent identifiée le 2026-08-22** (signalé par Johan) : ce n'est pas
+      un bug de code. `HomeScreen.tsx`/`ProfileScreen.tsx` ne changent bien QUE `locale`
+      (interface) — conforme au découplage. Mais `quizLanguage` est optionnel et n'a qu'un seul
+      point de réglage : `QuizLanguageSection` dans `AdminScreen` (dashboard parental protégé
+      PIN), jamais visité en usage courant. Tant que `quizLanguage` n'est jamais réglé
+      explicitement, `HomeScreen`/`ResultsScreen` retombent sur
+      `profile?.quizLanguage ?? locale` → `quizLanguage` suit `locale` par défaut, d'où
+      l'impression de couplage.
+- [ ] **Décision produit à prendre** : soit exposer un sélecteur `quizLanguage` accessible
+      hors dashboard parental (navbar/profil), soit documenter/assumer que le découplage n'est
+      accessible que via l'espace parent. Actuellement aucun grand public ne peut dissocier les
+      deux sans PIN admin.
+- [ ] Point secondaire : `quizLanguage` réglé via `AdminScreen` reste en `localStorage` seul
+      (pas de persistance Supabase cross-device — migration écrite mais non appliquée,
+      volontairement, cf. message du commit S2-5). À planifier si l'usage multi-appareils
+      compte (ex. tablette + PC).
 
 ---
 

@@ -95,6 +95,8 @@
     "soundDesc": "Audio feedback during the quiz",
     "langLabel": "Language",
     "langDesc": "Change the app language",
+    "quizLangLabel": "Quiz language",
+    "quizLangDesc": "Can be different from the app language",
     "adminLink": "Parent space",
     "statsLink": "My statistics",
     "switchPlayer": "Switch player",

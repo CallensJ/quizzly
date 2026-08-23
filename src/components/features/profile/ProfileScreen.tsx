@@ -85,6 +85,15 @@ export default function ProfileScreen() {
   const sessions = useProfileStore((s) => s.sessions);
   const earnedBadgeIds = useProfileStore((s) => s.earnedBadgeIds);
   const updateAvatar = useProfileStore((s) => s.updateAvatar);
+  const setQuizLanguage = useProfileStore((s) => s.setQuizLanguage);
+
+  // Langue du contenu des quiz — indépendante de la langue d'interface (cahier v1.4 §5).
+  // Repli sur la langue d'interface courante si non réglée explicitement (rétro-compat).
+  const quizLanguage: Locale = profile?.quizLanguage ?? locale;
+
+  function toggleQuizLanguage() {
+    setQuizLanguage(quizLanguage === 'fr' ? 'en' : 'fr');
+  }
   const authUser = useAuthStore((s) => s.user);
   const { isPremium } = useSubscription();
   const timerEnabled = useProfileStore((s) => s.timerEnabled);
@@ -290,6 +299,21 @@ export default function ProfileScreen() {
               aria-label={locale === 'fr' ? 'Switch to English' : 'Passer en français'}
             >
               {locale === 'fr' ? '🇬🇧 EN' : '🇫🇷 FR'}
+            </button>
+          </div>
+
+          {/* Ligne : langue des quiz — indépendante de la langue d'interface (cahier v1.4 §5) */}
+          <div className="profile__setting-row">
+            <div className="profile__setting-info">
+              <p className="profile__setting-name">{t('quizLangLabel')}</p>
+              <p className="profile__setting-desc">{t('quizLangDesc')}</p>
+            </div>
+            <button
+              className="profile__lang-btn"
+              onClick={toggleQuizLanguage}
+              aria-label={quizLanguage === 'fr' ? 'Switch quiz content to English' : 'Passer les quiz en français'}
+            >
+              {quizLanguage === 'fr' ? '🇬🇧 EN' : '🇫🇷 FR'}
             </button>
           </div>
 

@@ -95,6 +95,8 @@
     "soundDesc": "Effets sonores pendant le quiz",
     "langLabel": "Langue",
     "langDesc": "Changer la langue de l'application",
+    "quizLangLabel": "Langue des quiz",
+    "quizLangDesc": "Peut être différente de la langue de l'application",
     "adminLink": "Espace parent",
     "statsLink": "Mes statistiques",
     "switchPlayer": "Changer de joueur",
