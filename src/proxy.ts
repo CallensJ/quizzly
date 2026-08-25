@@ -36,6 +36,12 @@ const intlMiddleware = createMiddleware(routing);
 export default async function middleware(req: NextRequest) {
   const pathname = req.nextUrl.pathname;
 
+  // Mode maintenance — coupe l'accès à toute l'app avant le lancement v1.4.
+  // Activé via la variable d'env MAINTENANCE_MODE=true (Vercel), à retirer pour relancer.
+  if (process.env.MAINTENANCE_MODE === 'true' && !pathname.startsWith('/maintenance')) {
+    return NextResponse.redirect(new URL('/maintenance', req.url));
+  }
+
   // Extrait le chemin sans le préfixe de locale (/fr/subscribe → /subscribe)
   const pathWithoutLocale = pathname.replace(/^\/(fr|en)/, '');
   const isProtected = PROTECTED_PATHS.some((p) => pathWithoutLocale.startsWith(p));
@@ -84,5 +90,6 @@ export default async function middleware(req: NextRequest) {
 export const config = {
   // `api` exclu — les routes API n'ont pas de locale (Stripe webhook, checkout, portal…)
   // `offline` exclu — page de fallback PWA servie sans locale
-  matcher: ['/((?!_next|_vercel|api|offline|.*\\..*).*)'],
+  // `maintenance` exclu — même raison (page bilingue statique, hors routing next-intl)
+  matcher: ['/((?!_next|_vercel|api|offline|maintenance|.*\\..*).*)'],
 };
