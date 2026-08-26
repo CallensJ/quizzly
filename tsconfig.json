@@ -11,6 +11,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "types": ["node", "jest"],
     "jsx": "react-jsx",
     "incremental": true,
     "plugins": [
@@ -30,5 +31,5 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules", "cypress", "supabase"]
+  "exclude": ["node_modules", "cypress", "cypress.config.ts", "supabase"]
 }
